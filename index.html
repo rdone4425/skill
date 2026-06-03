@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codex Skills Hub — OpenAI Codex Skills Index</title>
+  <meta name="description" content="Curated index of OpenAI Codex skills — official curated, community lists, CLI tools, and general agent skills.">
+  <meta property="og:title" content="Codex Skills Hub">
+  <meta property="og:description" content="56+ Codex skills from 17 sources — official curated, community lists, CLI tools.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="/">
+        <span class="logo-icon">🎯</span>
+        <div class="logo-copy">
+          <h1 class="logo-text">Codex Skills Hub</h1>
+          <p class="logo-subtitle">OpenAI Codex Skills · Official + Community</p>
+        </div>
+      </a>
+      <div class="header-stats">
+        <div class="stat">
+          <span class="stat-value" id="stat-skills">56</span>
+          <span class="stat-label">Skills</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value" id="stat-sources">17</span>
+          <span class="stat-label">Sources</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value" id="stat-stars">561k</span>
+          <span class="stat-label">Total ⭐</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- 搜索 + 分类 Tab -->
+    <section class="controls">
+      <div class="search-wrap">
+        <span class="search-icon">⌕</span>
+        <input
+          id="search"
+          type="search"
+          class="search-input"
+          placeholder="搜索 skills / 仓库 / 描述…"
+          autocomplete="off"
+        >
+        <button id="search-clear" class="search-clear" title="清空">×</button>
+      </div>
+
+      <nav class="category-tabs" role="tablist" id="category-tabs">
+        <button class="tab active" data-source="all" role="tab">
+          <span class="tab-icon">◉</span> 全部
+        </button>
+        <button class="tab" data-source="official" role="tab">
+          <span class="tab-icon">🎯</span> 官方精选
+        </button>
+        <button class="tab" data-source="community" role="tab">
+          <span class="tab-icon">🌟</span> 社区清单
+        </button>
+        <button class="tab" data-source="tools" role="tab">
+          <span class="tab-icon">🛠</span> CLI 工具
+        </button>
+        <button class="tab" data-source="general" role="tab">
+          <span class="tab-icon">🤖</span> 通用 Skills
+        </button>
+      </nav>
+
+      <div class="subgroup-tabs" id="subgroup-tabs" hidden></div>
+    </section>
+
+    <!-- Skill 卡片网格 -->
+    <section class="results" id="results"></section>
+
+    <div class="empty-state" id="empty" hidden>
+      <p>没找到匹配的 skill 😕</p>
+    </div>
+
+    <!-- 关于 -->
+    <section class="about">
+      <h2>📚 关于</h2>
+      <p>
+        <strong>Codex Skills Hub</strong> 是 <a href="https://github.com/rdone4425" target="_blank" rel="noopener">rdone4425</a> 维护的 OpenAI Codex skills 索引。
+        数据来源包括 <a href="https://github.com/openai/skills" target="_blank" rel="noopener">openai/skills</a> 官方精选、社区 awesome 清单，以及 Codex CLI 配套工具。
+      </p>
+      <p>
+        部署在 <a href="https://pages.cloudflare.com" target="_blank" rel="noopener">Cloudflare Pages</a>，源数据在 <a href="https://github.com/rdone4425/skill" target="_blank" rel="noopener">GitHub</a>，欢迎 PR / Issue。
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      MIT License · <a href="https://github.com/rdone4425/skill" target="_blank" rel="noopener">Source</a>
+      · 数据最后更新 <span id="last-updated">2026-06-04</span>
+    </p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
