@@ -107,6 +107,20 @@
 
       <!-- 当前分类描述（i18n 切换时更新）-->
       <div class="category-desc" id="category-desc" hidden></div>
+
+      <!-- 排序 + 结果计数 -->
+      <div class="results-toolbar">
+        <span class="results-count" id="results-count"></span>
+        <div class="sort-wrap">
+          <label class="sort-label" data-i18n="sortBy">排序</label>
+          <select id="sort-select" class="sort-select">
+            <option value="stars-desc" data-i18n="sortStarsDesc">⭐ 最多</option>
+            <option value="stars-asc" data-i18n="sortStarsAsc">⭐ 最少</option>
+            <option value="name-asc" data-i18n="sortNameAsc">A → Z</option>
+            <option value="name-desc" data-i18n="sortNameDesc">Z → A</option>
+          </select>
+        </div>
+      </div>
     </section>
 
     <!-- Skill 卡片网格 -->
@@ -115,6 +129,28 @@
     <div class="empty-state" id="empty" hidden>
       <p data-i18n="emptyState">没找到匹配的 skill 😕</p>
     </div>
+
+    <!-- 分页 -->
+    <nav class="pagination" id="pagination" hidden>
+      <button class="page-btn" id="page-prev" data-i18n="pagePrev">← 上一页</button>
+      <span class="page-info" id="page-info"></span>
+      <button class="page-btn" id="page-next" data-i18n="pageNext">下一页 →</button>
+    </nav>
+
+    <!-- 统计图表 -->
+    <section class="stats-section" id="stats-section">
+      <h2 data-i18n="statsTitle">📊 数据统计</h2>
+      <div class="stats-grid">
+        <div class="stats-chart-wrap">
+          <h3 data-i18n="statsBySource">按来源分布</h3>
+          <canvas id="stats-chart" width="400" height="300"></canvas>
+        </div>
+        <div class="stats-bars-wrap">
+          <h3 data-i18n="statsTopRepos">热门仓库 Top 10</h3>
+          <div id="stats-bars"></div>
+        </div>
+      </div>
+    </section>
 
     <!-- 关于 -->
     <section class="about">
@@ -125,11 +161,30 @@
   </main>
 
   <footer class="site-footer">
-    <p>
-      <span data-i18n="license">MIT License</span> ·
-      <a href="https://github.com/rdone4425/skill" target="_blank" rel="noopener" data-i18n="source">源码</a>
-      · <span data-i18n="dataUpdated">数据最后更新</span> <span id="last-updated">2026-06-04</span>
-    </p>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">🎯</span>
+        <div>
+          <strong>Skill Hub</strong>
+          <p class="footer-desc" data-i18n="footerDesc">AI Agent Skills 导航站</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/rdone4425/skill" target="_blank" rel="noopener">
+          <span>⭐</span> <span data-i18n="source">源码</span>
+        </a>
+        <a href="https://github.com/rdone4425/skill/issues" target="_blank" rel="noopener">
+          <span>🐛</span> <span data-i18n="footerIssues">反馈问题</span>
+        </a>
+        <a href="https://github.com/rdone4425/skill/pulls" target="_blank" rel="noopener">
+          <span>🔀</span> <span data-i18n="footerPR">贡献代码</span>
+        </a>
+      </div>
+      <div class="footer-meta">
+        <span data-i18n="license">MIT License</span> ·
+        <span data-i18n="dataUpdated">数据最后更新</span> <span id="last-updated">2026-06-04</span>
+      </div>
+    </div>
   </footer>
 
   <script src="js/data.js"></script>

@@ -85,6 +85,27 @@ window.I18N = (function () {
       source: "源码",
       dataUpdated: "数据最后更新",
 
+            // 排序
+      sortBy: "排序",
+      sortStarsDesc: "⭐ 最多",
+      sortStarsAsc: "⭐ 最少",
+      sortNameAsc: "A → Z",
+      sortNameDesc: "Z → A",
+
+      // 分页
+      pagePrev: "← 上一页",
+      pageNext: "下一页 →",
+
+      // 统计
+      statsTitle: "📊 数据统计",
+      statsBySource: "按来源分布",
+      statsTopRepos: "热门仓库 Top 10",
+
+      // Footer
+      footerDesc: "AI Agent Skills 导航站",
+      footerIssues: "反馈问题",
+      footerPR: "贡献代码",
+
       // 语言切换器
       langZh: "中",
       langEn: "EN",
