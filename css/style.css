@@ -857,3 +857,262 @@ a:hover { color: #a5b4fc; }
   .pagination { gap: 8px; }
   .page-btn { padding: 6px 12px; font-size: 12px; }
 }
+
+/* ==========================================
+   分组视图样式 (Agent → Type)
+   ========================================== */
+
+.results-grouped {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Agent 区域 */
+.agent-section {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--bg);
+  transition: all 0.3s ease;
+}
+
+.agent-section:hover {
+  border-color: var(--agent-color, var(--accent));
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+.agent-section.collapsed .agent-content {
+  display: none;
+}
+
+.agent-section.collapsed .agent-toggle {
+  transform: rotate(-90deg);
+}
+
+/* Agent 头部 */
+.agent-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  background: linear-gradient(135deg, var(--agent-color, var(--accent))08, transparent);
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.2s;
+}
+
+.agent-header:hover {
+  background: linear-gradient(135deg, var(--agent-color, var(--accent))15, transparent);
+}
+
+.agent-header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.agent-icon {
+  font-size: 20px;
+}
+
+.agent-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--heading);
+  margin: 0;
+}
+
+.agent-count {
+  font-size: 12px;
+  color: var(--muted);
+  background: var(--tag-bg);
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.agent-toggle {
+  font-size: 12px;
+  color: var(--muted);
+  transition: transform 0.2s;
+}
+
+/* Agent 内容 */
+.agent-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* 类型分组 */
+.type-group {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+.type-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background: var(--tag-bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.type-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--heading);
+  margin: 0;
+}
+
+.type-count {
+  font-size: 11px;
+  color: var(--muted);
+  background: var(--bg);
+  padding: 1px 6px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.type-group .card-grid {
+  padding: 12px;
+  gap: 12px;
+}
+
+/* 工具栏布局 */
+.results-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.toolbar-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.group-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.view-toggle {
+  background: var(--tag-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s;
+}
+
+.view-toggle:hover {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+/* 统计表格样式 */
+.stats-table {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.stats-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.stats-label {
+  min-width: 100px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--heading);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.stats-label.link {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.stats-label.link:hover {
+  text-decoration: underline;
+}
+
+.stats-bar-bg {
+  flex: 1;
+  height: 8px;
+  background: var(--tag-bg);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.stats-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  background: var(--accent);
+  transition: width 0.6s ease;
+}
+
+.stats-count {
+  min-width: 60px;
+  text-align: right;
+  font-size: 12px;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+/* 响应式 */
+@media (max-width: 600px) {
+  .agent-header {
+    padding: 12px 14px;
+  }
+
+  .agent-title {
+    font-size: 14px;
+  }
+
+  .agent-content {
+    padding: 10px;
+    gap: 12px;
+  }
+
+  .type-header {
+    padding: 8px 12px;
+  }
+
+  .results-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .toolbar-controls {
+    justify-content: space-between;
+  }
+
+  .stats-label {
+    min-width: 70px;
+    font-size: 11px;
+  }
+
+  .stats-count {
+    min-width: 40px;
+    font-size: 11px;
+  }
+}

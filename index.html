@@ -1,87 +1,71 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title data-i18n="pageTitle">Skill Hub — AI Agent Skills 导航站 | Codex · Claude · Hermes · OpenCode</title>
-  <meta name="description" data-i18n="pageDescription" content="AI Agent Skills 导航站 — 77+ skills from 23 sources. OpenAI Codex 官方精选、Claude Skills、Hermes Agent、OpenCode、OpenClaw 通用技能。搜索、分类、一键安装。">
-  <meta name="keywords" content="skill, skills, AI agent, codex, claude code, opencode, hermes agent, openclaw, MCP, agent skills, AI coding, curated skills, awesome list, skill installer, GitHub skills, 统治 skills, 统治 AI agent, 技能导航">
+
+  <!-- SEO Meta Tags -->
+  <title>Skill Hub — AI Agent Skills 导航站</title>
+  <meta name="description" content="Skill Hub — 汇集 OpenAI Codex、Claude Code、Hermes Agent、OpenCode 等主流 AI Agent 平台的 Skills，按 Agent 分类，支持安装、收藏、分页浏览。输入关键词即可跨平台搜索，快速找到你需要的 skill。">
+  <meta name="keywords" content="AI Agent Skills, OpenAI Codex, Claude Code, Hermes Agent, OpenCode, OpenClaw, Skill Hub, 导航站">
   <meta name="author" content="rdone4425">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://skill.pages.dev/">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" data-i18n="ogTitle" content="Skill Hub — AI Agent Skills 导航站">
-  <meta property="og:description" data-i18n="ogDescription" content="77+ AI agent skills from 23 sources — OpenAI Codex, Claude, Hermes, OpenCode, OpenClaw. 官方精选 + 社区清单 + CLI 工具。">
-  <meta property="og:url" content="https://skill.pages.dev/">
-  <meta property="og:site_name" content="Skill Hub">
-  <meta property="og:locale" content="zh_CN">
-  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:title" content="Skill Hub — AI Agent Skills 导航站">
+  <meta property="og:description" content="汇集主流 AI Agent 平台的 Skills，一站式搜索、浏览、安装。按 Agent 分类，快速找寻。">
+  <meta property="og:url" content="https://skill.442595.xyz">
+  <meta property="og:image" content="https://skill.442595.xyz/og-image.png">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" data-i18n="ogTitle" content="Skill Hub — AI Agent Skills 导航站">
-  <meta name="twitter:description" data-i18n="ogDescription" content="77+ AI agent skills from 23 sources. 官方精选 + 社区清单.">
+  <meta name="twitter:title" content="Skill Hub — AI Agent Skills 导航站">
+  <meta name="twitter:description" content="汇集主流 AI Agent 平台的 Skills，一站式搜索、浏览、安装。按 Agent 分类，快速找寻。">
+  <meta name="twitter:image" content="https://skill.442595.xyz/og-image.png">
 
-  <!-- Structured Data (JSON-LD) -->
-  <script type="application/ld+json">
+  <!-- Canonical -->
+  <link rel="canonical" href="https://skill.442595.xyz">
+
+  <!-- JSON-LD -->
+  <script id="ld-json" type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "Skill Hub",
-    "alternateName": ["Codex Skills Hub", "AI Agent Skills 导航站"],
-    "url": "https://skill.pages.dev/",
-    "description": "AI Agent Skills 导航站 — 77+ skills from 23 sources (OpenAI Codex, Claude, Hermes, OpenCode, OpenClaw)",
-    "keywords": "skill, skills, AI agent, codex, claude code, opencode, hermes agent, openclaw, MCP, agent skills",
+    "name": "Skill Hub — AI Agent Skills 导航站",
+    "description": "汇集主流 AI Agent 平台的 Skills，一站式搜索、浏览、安装。",
+    "url": "https://skill.442595.xyz",
     "author": {
       "@type": "Person",
-      "name": "rdone4425",
-      "url": "https://github.com/rdone4425"
-    },
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://skill.pages.dev/?q={search_term_string}",
-      "query-input": "required name=search_term_string"
+      "name": "rdone4425"
     }
   }
   </script>
 
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="site-header">
     <div class="header-inner">
-      <a class="logo" href="/">
-        <span class="logo-icon">🎯</span>
-        <div class="logo-copy">
-          <h1 class="logo-text" data-i18n="brandName">Skill Hub</h1>
-          <p class="logo-subtitle" data-i18n="brandTagline">AI Agent Skills · Codex · Claude · Hermes · OpenCode</p>
-        </div>
-      </a>
+      <div class="brand">
+        <a href="/" class="brand-name" data-i18n="heroTitle">🔍 Skill Hub</a>
+        <span class="brand-badge">BETA</span>
+      </div>
       <div class="header-right">
-        <div class="header-stats">
-          <div class="stat">
-            <span class="stat-value" id="stat-skills">77</span>
-            <span class="stat-label" data-i18n="statSkills">Skills</span>
-          </div>
-          <div class="stat">
-            <span class="stat-value" id="stat-sources">23</span>
-            <span class="stat-label" data-i18n="statSources">来源</span>
-          </div>
-          <div class="stat">
-            <span class="stat-value" id="stat-stars">561k</span>
-            <span class="stat-label" data-i18n="statStars">总 ⭐</span>
-          </div>
+        <div class="stats" id="stats"></div>
+        <div class="lang-switch" id="lang-btn" onclick="setLang(getLang()==='zh'?'en':'zh')">
+          <span id="lang-current">中文</span>
         </div>
-        <div class="lang-switcher" role="group" aria-label="Language">
-          <button class="lang-btn" data-lang="zh" title="中文" aria-label="中文">中</button>
-          <button class="lang-btn" data-lang="en" title="English" aria-label="English">EN</button>
-        </div>
+        <a href="https://github.com/rdone4425/skill" class="github-link" target="_blank" rel="noopener">⭐ GitHub</a>
       </div>
     </div>
   </header>
+
+  <section class="hero">
+    <h1 data-i18n="heroTitle">🔍 Skill Hub</h1>
+    <p class="hero-sub" data-i18n="heroSub">AI Agent Skills 导航站</p>
+    <p class="hero-desc" data-i18n="heroDesc">汇集主流 AI Agent 平台的 Skills，一站式搜索、浏览、安装。</p>
+  </section>
 
   <main class="container">
     <!-- 搜索 + 分类 Tab -->
@@ -108,22 +92,32 @@
       <!-- 当前分类描述（i18n 切换时更新）-->
       <div class="category-desc" id="category-desc" hidden></div>
 
-      <!-- 排序 + 结果计数 -->
+      <!-- 视图切换 + 排序 + 分组 + 结果计数 -->
       <div class="results-toolbar">
         <span class="results-count" id="results-count"></span>
-        <div class="sort-wrap">
-          <label class="sort-label" data-i18n="sortBy">排序</label>
-          <select id="sort-select" class="sort-select" data-i18n-options="stars-desc:sortStarsDesc,stars-asc:sortStarsAsc,name-asc:sortNameAsc,name-desc:sortNameDesc">
-            <option value="stars-desc">⭐ 最多</option>
-            <option value="stars-asc">⭐ 最少</option>
-            <option value="name-asc">A → Z</option>
-            <option value="name-desc">Z → A</option>
-          </select>
+        <div class="toolbar-controls">
+          <div class="sort-wrap">
+            <label class="sort-label" data-i18n="sortBy">排序</label>
+            <select id="sort-select" class="sort-select" data-i18n-options="stars-desc:sortStarsDesc,stars-asc:sortStarsAsc,name-asc:sortNameAsc,name-desc:sortNameDesc">
+              <option value="stars-desc">⭐ 最多</option>
+              <option value="stars-asc">⭐ 最少</option>
+              <option value="name-asc">A → Z</option>
+              <option value="name-desc">Z → A</option>
+            </select>
+          </div>
+          <div class="group-wrap">
+            <label class="sort-label" data-i18n="groupBy">分组</label>
+            <select id="group-select" class="sort-select" data-i18n-options="agent:groupAgent,none:groupNone">
+              <option value="agent">按 Agent</option>
+              <option value="none">不分组</option>
+            </select>
+          </div>
+          <button class="view-toggle" id="view-toggle" title="切换视图">📋</button>
         </div>
       </div>
     </section>
 
-    <!-- Skill 卡片网格 -->
+    <!-- Skill 卡片网格 / 分组视图 -->
     <section class="results" id="results"></section>
 
     <div class="empty-state" id="empty" hidden>
@@ -142,7 +136,7 @@
       <h2 data-i18n="statsTitle">📊 数据统计</h2>
       <div class="stats-grid">
         <div class="stats-chart-wrap">
-          <h3 data-i18n="statsBySource">按来源分布</h3>
+          <h3 data-i18n="statsBySource">按 Agent 来源分布</h3>
           <canvas id="stats-chart" width="400" height="300"></canvas>
         </div>
         <div class="stats-bars-wrap">
@@ -163,26 +157,14 @@
   <footer class="site-footer">
     <div class="footer-inner">
       <div class="footer-brand">
-        <span class="footer-logo">🎯</span>
-        <div>
-          <strong>Skill Hub</strong>
-          <p class="footer-desc" data-i18n="footerDesc">AI Agent Skills 导航站</p>
-        </div>
+        <a href="/" class="brand-name">🔍 Skill Hub</a>
+        <span class="footer-sep">·</span>
+        <span data-i18n="footerDesc" class="footer-desc">社区维护 · 每日自动更新</span>
       </div>
       <div class="footer-links">
-        <a href="https://github.com/rdone4425/skill" target="_blank" rel="noopener">
-          <span>⭐</span> <span data-i18n="source">源码</span>
-        </a>
-        <a href="https://github.com/rdone4425/skill/issues" target="_blank" rel="noopener">
-          <span>🐛</span> <span data-i18n="footerIssues">反馈问题</span>
-        </a>
-        <a href="https://github.com/rdone4425/skill/pulls" target="_blank" rel="noopener">
-          <span>🔀</span> <span data-i18n="footerPR">贡献代码</span>
-        </a>
-      </div>
-      <div class="footer-meta">
-        <span data-i18n="license">MIT License</span> ·
-        <span data-i18n="dataUpdated">数据最后更新</span> <span id="last-updated">2026-06-04</span>
+        <a href="https://github.com/rdone4425/skill" target="_blank" rel="noopener">GitHub</a>
+        <span class="footer-sep">·</span>
+        <span>© 2025 Skill Hub</span>
       </div>
     </div>
   </footer>
