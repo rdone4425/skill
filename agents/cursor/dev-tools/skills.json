@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "agent": "cursor",
+    "functionCategory": "dev-tools",
+    "count": 1,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "vibe-tools",
+      "source": "tools",
+      "group": null,
+      "repo": "eastlondoner/vibe-tools",
+      "stars": 4770,
+      "desc": "Give Cursor Agent an AI Team and Advanced Skills",
+      "url": "https://github.com/eastlondoner/vibe-tools",
+      "install": "npm i -g vibe-tools",
+      "agent": "cursor",
+      "functionCategory": "dev-tools"
+    }
+  ]
+}

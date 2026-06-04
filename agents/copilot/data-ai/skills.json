@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "agent": "copilot",
+    "functionCategory": "data-ai",
+    "count": 1,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "awesome-copilot",
+      "source": "community",
+      "group": null,
+      "repo": "github/awesome-copilot",
+      "stars": 34452,
+      "desc": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
+      "url": "https://github.com/github/awesome-copilot",
+      "install": "git clone https://github.com/github/awesome-copilot.git  # browse the awesome list",
+      "agent": "copilot",
+      "functionCategory": "data-ai"
+    }
+  ]
+}

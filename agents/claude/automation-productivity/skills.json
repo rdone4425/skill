@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "agent": "claude",
+    "functionCategory": "automation-productivity",
+    "count": 1,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "xlsx",
+      "source": "claude",
+      "group": null,
+      "repo": "anthropics/skills",
+      "stars": 146441,
+      "desc": "\"Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, format",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
+      "install": "$skill-installer xlsx",
+      "agent": "claude",
+      "functionCategory": "automation-productivity"
+    }
+  ]
+}

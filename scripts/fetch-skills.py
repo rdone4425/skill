@@ -8,7 +8,8 @@ fetch-skills.py — 抓取所有 skill 仓库的最新数据
   3. repos 中所有其他仓库的最新 stars 和描述
 
 输出：
-  js/data.js (覆盖)
+  js/data.js (覆盖，作为前端动态加载器的中间数据源)
+  后续由 scripts/export-agent-function-data.js 拆分到 agents/ 目录
 
 设计原则：
   - 标准库 only（urllib），无 pip 依赖
@@ -198,6 +199,169 @@ def infer_group(skill_name):
     return "other"
 
 
+AGENT_CATALOG = [
+    {
+        "id": "codex",
+        "keywords": ["codex", "openai/skills", "openai/codex"],
+        "label": "Codex",
+        "description": "面向 Codex 生态的 skills、工具和资源",
+        "icon": "🎯",
+        "color": "#6366f1",
+        "order": 1,
+    },
+    {
+        "id": "claude",
+        "keywords": ["claude", "anthropic"],
+        "label": "Claude Code",
+        "description": "面向 Claude Code 生态的 skills、工具和资源",
+        "icon": "🟠",
+        "color": "#fb923c",
+        "order": 2,
+    },
+    {
+        "id": "hermes",
+        "keywords": ["hermes", "nousresearch/hermes-agent"],
+        "label": "Hermes Agent",
+        "description": "面向 Hermes Agent 生态的 skills、工具和资源",
+        "icon": "⚡",
+        "color": "#06b6d4",
+        "order": 3,
+    },
+    {
+        "id": "opencode",
+        "keywords": ["opencode"],
+        "label": "OpenCode",
+        "description": "面向 OpenCode 生态的 skills、工具和资源",
+        "icon": "🟢",
+        "color": "#22c55e",
+        "order": 4,
+    },
+    {
+        "id": "openclaw",
+        "keywords": ["openclaw", "clawdbot", "moltbot"],
+        "label": "OpenClaw",
+        "description": "面向 OpenClaw 生态的 skills、工具和资源",
+        "icon": "🐾",
+        "color": "#f97316",
+        "order": 5,
+    },
+    {
+        "id": "cursor",
+        "keywords": ["cursor"],
+        "label": "Cursor",
+        "description": "面向 Cursor 生态的 skills、工具和资源",
+        "icon": "🖱️",
+        "color": "#10b981",
+        "order": 6,
+    },
+    {
+        "id": "copilot",
+        "keywords": ["copilot"],
+        "label": "GitHub Copilot",
+        "description": "面向 GitHub Copilot 生态的 skills、工具和资源",
+        "icon": "🧭",
+        "color": "#0ea5e9",
+        "order": 7,
+    },
+    {
+        "id": "gemini",
+        "keywords": ["gemini"],
+        "label": "Gemini",
+        "description": "面向 Gemini 生态的 skills、工具和资源",
+        "icon": "💠",
+        "color": "#8b5cf6",
+        "order": 8,
+    },
+]
+
+AGENT_META = {item["id"]: item for item in AGENT_CATALOG}
+
+
+def infer_agent(source, repo_full, name, text):
+    """根据 skill / repo 内容推断 agent 分类。"""
+    source = (source or "").lower()
+    if source == "official":
+        return "codex"
+    if source == "claude":
+        return "claude"
+    if source == "hermes":
+        return "hermes"
+    if source == "opencode":
+        return "opencode"
+    if source == "openclaw":
+        return "openclaw"
+
+    haystack = " ".join([
+        repo_full or "",
+        name or "",
+        text or "",
+    ]).lower()
+
+    matches = []
+    for item in AGENT_CATALOG:
+        if any(keyword in haystack for keyword in item["keywords"]):
+            matches.append(item["id"])
+
+    if len(matches) > 1:
+        return "multi"
+    if len(matches) == 1:
+        return matches[0]
+    return "other"
+
+
+def build_categories(skills):
+    """根据技能里的 agent 字段动态生成分类。"""
+    categories = []
+    present_ids = sorted({skill.get("agent", "other") for skill in skills})
+
+    for agent_id in present_ids:
+        meta = AGENT_META.get(agent_id, {})
+        if agent_id == "multi":
+            categories.append({
+                "id": "multi",
+                "label": "Multi-Agent",
+                "description": "同时面向多个 Agent 生态的 skills、工具和资源",
+                "icon": "🧩",
+                "color": "#a855f7",
+                "order": 90,
+                "groups": None,
+            })
+            continue
+
+        if agent_id == "other":
+            categories.append({
+                "id": "other",
+                "label": "Other",
+                "description": "暂未识别到明确 Agent 名称的 skills、工具和资源",
+                "icon": "📦",
+                "color": "#6b7280",
+                "order": 99,
+                "groups": None,
+            })
+            continue
+
+        categories.append({
+            "id": agent_id,
+            "label": meta.get("label", agent_id.title()),
+            "description": meta.get("description", f"面向 {agent_id} 生态的 skills、工具和资源"),
+            "icon": meta.get("icon", "📦"),
+            "color": meta.get("color", "#6b7280"),
+            "order": meta.get("order", 50),
+            "groups": [
+                {"id": "figma", "label": "Figma"},
+                {"id": "github", "label": "GitHub"},
+                {"id": "notion", "label": "Notion"},
+                {"id": "playwright", "label": "Playwright"},
+                {"id": "deploy", "label": "Deployment"},
+                {"id": "security", "label": "Security"},
+                {"id": "other", "label": "Other"},
+            ] if agent_id == "codex" else None,
+        })
+
+    categories.sort(key=lambda item: (item.get("order", 999), item["label"].lower()))
+    return categories
+
+
 def fetch_skill_dir(owner, repo, dir_path, source, install_tpl, ref="main"):
     """抓取一个目录下所有子目录的 SKILL.md frontmatter。
     
@@ -238,6 +402,7 @@ def fetch_skill_dir(owner, repo, dir_path, source, install_tpl, ref="main"):
         skills.append({
             "name": name,
             "source": source,
+            "agent": infer_agent(source, f"{owner}/{repo}", name, fm.get("description", "") or short),
             "group": infer_group(name) if source == "official" else None,
             "repo": f"{owner}/{repo}",
             "stars": base_stars,
@@ -297,6 +462,7 @@ def main():
             all_skills.append({
                 "name": name,
                 "source": source,
+                "agent": infer_agent(source, repo_full, name, ""),
                 "group": None,
                 "repo": repo_full,
                 "stars": 0,
@@ -319,6 +485,7 @@ def main():
         all_skills.append({
             "name": name,
             "source": source,
+            "agent": infer_agent(source, repo_full, name, desc),
             "group": None,
             "repo": repo_full,
             "stars": info["stars"],
@@ -354,7 +521,7 @@ def main():
         "sources": len(sources),
     }
 
-    categories = config.get("categories", [])
+    categories = build_categories(all_skills)
 
     # ─── 5. 写文件 ───
     DATA_JS_PATH.parent.mkdir(parents=True, exist_ok=True)

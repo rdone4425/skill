@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-06-04T16:06:40.209Z",
+  "sourceData": "js/data.js",
+  "totalSkills": 217,
+  "buckets": [
+    {
+      "agent": "claude",
+      "functionCategory": "automation-productivity",
+      "count": 1
+    },
+    {
+      "agent": "claude",
+      "functionCategory": "data-ai",
+      "count": 3
+    },
+    {
+      "agent": "claude",
+      "functionCategory": "design-ui",
+      "count": 15
+    },
+    {
+      "agent": "claude",
+      "functionCategory": "dev-tools",
+      "count": 7
+    },
+    {
+      "agent": "claude",
+      "functionCategory": "devops-deploy",
+      "count": 2
+    },
+    {
+      "agent": "claude",
+      "functionCategory": "docs-content",
+      "count": 6
+    },
+    {
+      "agent": "claude",
+      "functionCategory": "general",
+      "count": 2
+    },
+    {
+      "agent": "claude",
+      "functionCategory": "testing-qa",
+      "count": 2
+    },
+    {
+      "agent": "codex",
+      "functionCategory": "data-ai",
+      "count": 2
+    },
+    {
+      "agent": "codex",
+      "functionCategory": "design-ui",
+      "count": 20
+    },
+    {
+      "agent": "codex",
+      "functionCategory": "dev-tools",
+      "count": 11
+    },
+    {
+      "agent": "codex",
+      "functionCategory": "devops-deploy",
+      "count": 7
+    },
+    {
+      "agent": "codex",
+      "functionCategory": "docs-content",
+      "count": 4
+    },
+    {
+      "agent": "codex",
+      "functionCategory": "testing-qa",
+      "count": 1
+    },
+    {
+      "agent": "copilot",
+      "functionCategory": "data-ai",
+      "count": 1
+    },
+    {
+      "agent": "copilot",
+      "functionCategory": "design-ui",
+      "count": 1
+    },
+    {
+      "agent": "copilot",
+      "functionCategory": "dev-tools",
+      "count": 1
+    },
+    {
+      "agent": "cursor",
+      "functionCategory": "dev-tools",
+      "count": 1
+    },
+    {
+      "agent": "hermes",
+      "functionCategory": "data-ai",
+      "count": 1
+    },
+    {
+      "agent": "hermes",
+      "functionCategory": "design-ui",
+      "count": 1
+    },
+    {
+      "agent": "multi",
+      "functionCategory": "backend-api",
+      "count": 1
+    },
+    {
+      "agent": "multi",
+      "functionCategory": "data-ai",
+      "count": 7
+    },
+    {
+      "agent": "multi",
+      "functionCategory": "design-ui",
+      "count": 17
+    },
+    {
+      "agent": "multi",
+      "functionCategory": "dev-tools",
+      "count": 29
+    },
+    {
+      "agent": "multi",
+      "functionCategory": "devops-deploy",
+      "count": 5
+    },
+    {
+      "agent": "multi",
+      "functionCategory": "docs-content",
+      "count": 4
+    },
+    {
+      "agent": "multi",
+      "functionCategory": "security",
+      "count": 2
+    },
+    {
+      "agent": "openclaw",
+      "functionCategory": "data-ai",
+      "count": 1
+    },
+    {
+      "agent": "openclaw",
+      "functionCategory": "design-ui",
+      "count": 1
+    },
+    {
+      "agent": "openclaw",
+      "functionCategory": "dev-tools",
+      "count": 2
+    },
+    {
+      "agent": "opencode",
+      "functionCategory": "design-ui",
+      "count": 1
+    },
+    {
+      "agent": "other",
+      "functionCategory": "backend-api",
+      "count": 1
+    },
+    {
+      "agent": "other",
+      "functionCategory": "data-ai",
+      "count": 15
+    },
+    {
+      "agent": "other",
+      "functionCategory": "design-ui",
+      "count": 14
+    },
+    {
+      "agent": "other",
+      "functionCategory": "dev-tools",
+      "count": 13
+    },
+    {
+      "agent": "other",
+      "functionCategory": "devops-deploy",
+      "count": 7
+    },
+    {
+      "agent": "other",
+      "functionCategory": "docs-content",
+      "count": 5
+    },
+    {
+      "agent": "other",
+      "functionCategory": "general",
+      "count": 1
+    },
+    {
+      "agent": "other",
+      "functionCategory": "security",
+      "count": 2
+    }
+  ]
+}

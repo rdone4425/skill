@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "agent": "multi",
+    "functionCategory": "security",
+    "count": 2,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "agent-skills",
+      "source": "general",
+      "group": null,
+      "repo": "tech-leads-club/agent-skills",
+      "stars": 4517,
+      "desc": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+      "url": "https://github.com/tech-leads-club/agent-skills",
+      "install": "npm i -g agent-skills",
+      "agent": "multi",
+      "functionCategory": "security"
+    },
+    {
+      "name": "ECC",
+      "source": "general",
+      "group": null,
+      "repo": "affaan-m/ECC",
+      "stars": 206745,
+      "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "url": "https://github.com/affaan-m/ECC",
+      "install": "git clone https://github.com/affaan-m/ECC.git",
+      "agent": "multi",
+      "functionCategory": "security"
+    }
+  ]
+}

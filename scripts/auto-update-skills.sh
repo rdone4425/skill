@@ -1,42 +1,33 @@
 #!/bin/bash
-# auto-update-skills.sh — 自动发现新 skill 仓库并更新 data.js
+# auto-update-skills.sh — 自动发现新 skill 仓库并更新中间数据与 agents 产物
 # 由 Hermes 定时任务或 CI 调用
 
-set -e
+set -euo pipefail
 
-REPO_DIR="/root/skill"
-cd "$REPO_DIR"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+# shellcheck source=./lib/common.sh
+source "$SCRIPT_DIR/lib/common.sh"
+
+enter_repo_dir
 
 echo "🚀 Skill Hub — auto-update @ $(date -u +%Y-%m-%d_%H:%M:%S_UTC)"
 
-# 检查是否有 GitHub token
-if [ -z "$GITHUB_TOKEN" ] && [ -z "$GH_TOKEN" ]; then
-    export GH_TOKEN=*** auth token 2>/dev/null || echo "")
-fi
-
-if [ -z "$GH_TOKEN" ] && [ -z "$GITHUB_TOKEN" ]; then
-    echo "❌ No GitHub token available. Run 'gh auth login' first."
-    exit 1
-fi
-
-# 拉取最新代码
-echo "📥 Pulling latest..."
-git pull --rebase origin main 2>/dev/null || true
+ensure_github_token
+pull_latest_main
 
 # 1. 发现新仓库（写入 config/repos.json）
 echo ""
 echo "🔍 Step 1: Discovering new skill repos..."
 python3 scripts/discover-skills.py 2>&1 || echo "⚠️  Discover had issues"
 
-# 2. 从 config/repos.json 读取配置，更新 data.js
+# 2. 运行数据流水线
 echo ""
-echo "📊 Step 2: Fetching latest data..."
-python3 scripts/fetch-skills.py 2>&1 || echo "⚠️  Fetch had issues"
+"$SCRIPT_DIR/run-data-pipeline.sh" 2>&1 || echo "⚠️  Data pipeline had issues"
 
 # 3. 检查变更
 echo ""
 CHANGED=false
-git diff --quiet js/data.js config/repos.json scripts/ || CHANGED=true
+git diff --quiet js/data.js agents/ config/repos.json scripts/ .github/workflows/ || CHANGED=true
 
 if [ "$CHANGED" = "false" ]; then
     echo "✅ No changes detected. Data is up to date."
@@ -44,10 +35,9 @@ if [ "$CHANGED" = "false" ]; then
 fi
 
 # 4. 提交并推送
-echo "📝 Step 3: Committing changes..."
-git config user.email "rdone4425@gmail.com"
-git config user.name "rdone4425"
-git add js/data.js config/repos.json scripts/
+echo "📝 Step 4: Committing changes..."
+configure_git_identity
+git add js/data.js agents/ config/repos.json scripts/ .github/workflows/
 
 TOTAL=$(grep -c '"name":' js/data.js || echo "?")
 STARS=$(grep -oE '"stars": [0-9]+' js/data.js | awk '{s+=$2} END {print s}')
@@ -60,7 +50,8 @@ git commit -m "chore: auto-update Skill Hub data
 - Total stars:  $STARS
 - Repos tracked: $REPOS
 - Updated at:   $DATE
-- Source: Hermes cron job"
+- Source: Hermes cron job
+- Export: agents directory"
 
 echo "📤 Pushing to main..."
 git push origin main

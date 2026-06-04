@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "agent": "openclaw",
+    "functionCategory": "data-ai",
+    "count": 1,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "openclaw",
+      "source": "openclaw",
+      "group": null,
+      "repo": "openclaw/openclaw",
+      "stars": 376777,
+      "desc": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "url": "https://github.com/openclaw/openclaw",
+      "install": "docker pull openclaw/openclaw",
+      "agent": "openclaw",
+      "functionCategory": "data-ai"
+    }
+  ]
+}

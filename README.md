@@ -1,24 +1,20 @@
 # 🎯 Skill Hub — AI Agent Skills 导航站
 
-> **77+ skills** from **23 sources** — OpenAI Codex · Claude · Hermes Agent · OpenCode · OpenClaw
+> 一个按 Agent 平台和功能分类组织的静态导航站，展示并聚合各类 AI Agent Skills。
 
-一个静态网页，收录各类 **AI Agent Skills**：
-- 🎯 **OpenAI Codex** 官方精选 39 个（来自 `openai/skills`）
-- 🎭 **Claude** 官方技能 17 个（来自 `anthropics/skills`）
-- 🌟 **社区清单** 5 个（awesome-* 系列）
-- 🛠 **Codex CLI 配套工具** 3 个
-- 🤖 **通用 Agent Skills** 10 个（兼容 Codex / Claude Code / OpenCode）
-- 🦉 **Hermes Agent** · 🦞 **OpenClaw** · ⌨️ **OpenCode**
-
-**关键词**：skill, skills, AI agent, codex, claude code, opencode, hermes agent, openclaw, MCP, agent skills, 技能导航, awesome list
+Skill Hub 现在采用“生成数据 + 动态目录加载”的结构：
+- 首页从 `agents/index.json` 动态加载平台菜单和功能分类
+- 具体 skill 数据存放在 `agents/<agent>/<functionCategory>/skills.json`
+- `js/data.js` 不再硬编码全量数据，而是负责读取 `agents/` 目录产物
+- 统计页已拆分到独立的 `stats.html`
+- 页面刷新后会保留当前分类、子分类、搜索词、排序、视图和分页状态
 
 **特点**：
-- 暗色主题，零依赖（纯 HTML + CSS + JS）
-- 响应式（手机 / 平板 / 桌面）
-- 客户端搜索 + 分类过滤
-- 一键复制 install 命令
+- 按 Agent 平台浏览：Codex、Claude、Cursor、Copilot、Hermes、OpenCode、OpenClaw 等
+- 按功能分类浏览：设计 UI、开发工具、部署运维、测试质检、自动化效率等
+- 动态菜单、客户端搜索、分页和排序
 - 中英文切换
-- 数据驱动（修改 `js/data.js` 即可）
+- 零依赖前端（纯 HTML + CSS + JS）
 - SEO 优化（JSON-LD、Open Graph、Twitter Card）
 
 ## 🖥 在线访问
@@ -53,31 +49,55 @@ python3 -m http.server 8000
 
 ```
 skill/
-├── index.html              # 主页面（SEO 优化 + JSON-LD 结构化数据）
+├── index.html              # 主页面（平台菜单、分类筛选、搜索、分页）
+├── stats.html              # 独立统计页
 ├── css/
-│   └── style.css           # 暗色主题样式
+│   └── style.css           # 页面样式
 ├── js/
-│   ├── data.js             # 所有 skills 数据（自动生成，不要手动改）
+│   ├── data.js             # 动态加载 agents 目录数据
 │   ├── i18n.js             # 中英文翻译
-│   └── app.js              # 渲染逻辑
+│   ├── state.js            # 页面状态与 URL/本地缓存同步
+│   ├── render.js           # 首页渲染
+│   ├── events.js           # 首页交互事件
+│   ├── app.js              # 首页 bootstrap
+│   └── stats-page.js       # 统计页逻辑
+├── agents/
+│   ├── index.json          # Agent 平台与功能分类索引
+│   └── <agent>/
+│       ├── stats.js        # 当前 agent 的统计信息
+│       └── <functionCategory>/
+│           └── skills.json # 当前平台 + 功能分类下的 skills
 ├── config/
-│   └── repos.json          # ⭐ 仓库配置（添加/删除仓库只改这个文件）
+│   └── repos.json          # 仓库来源配置
 ├── scripts/
-│   ├── fetch-skills.py     # 从 config/repos.json 读取配置，抓取最新数据
-│   ├── discover-skills.py  # 搜索 GitHub 发现新仓库，写入 config/repos.json
-│   └── auto-update-skills.sh  # 统一更新脚本（discover + fetch + commit）
+│   ├── fetch-skills.py              # 拉取原始 skill 数据，写入 js/data.js
+│   ├── discover-skills.py           # 搜索 GitHub 发现新仓库，写入 config/repos.json
+│   ├── export-agent-function-data.js # 按 Agent/功能分类导出 agents 目录
+│   ├── run-data-pipeline.sh         # fetch + export 流水线
+│   ├── auto-update-skills.sh        # 发现 + 更新 + 提交的一体化脚本
+│   ├── discover-new-skills.sh       # 仅发现新仓库并提交
+│   └── lib/common.sh                # shell 公共函数
 ├── .github/
 │   └── workflows/
-│       └── update-skills.yml  # 每天自动更新
+│       ├── update-generated-data.yml # 更新 js/data.js 和 agents/
+│       └── discover-skill-repos.yml  # 自动发现新仓库
 ├── LICENSE                 # MIT
 └── README.md               # 本文件
 ```
 
 **数据流**：
 ```
-config/repos.json  →  fetch-skills.py  →  js/data.js  →  网站
-       ↑
-discover-skills.py  ←  GitHub Search API
+GitHub / config/repos.json
+          ↓
+  scripts/fetch-skills.py
+          ↓
+       js/data.js
+          ↓
+scripts/export-agent-function-data.js
+          ↓
+agents/index.json + agents/<agent>/<functionCategory>/skills.json + stats.js
+          ↓
+ index.html / stats.html 动态加载
 ```
 
 ## ✏️ 添加新 Skill
@@ -104,30 +124,33 @@ discover-skills.py  ←  GitHub Search API
 
 `discover-skills.py` 会自动搜索 GitHub，发现新的高星 skill 仓库并写入 `config/repos.json`。
 
-每天自动运行，无需手动操作。
+由 `.github/workflows/discover-skill-repos.yml` 定时运行，也可以手动触发。
 
-### 方式 C：自动每周更新（CI）✅
+### 方式 C：自动更新生成数据（CI）✅
 
-`scripts/fetch-skills.py` 会自动从 GitHub API 抓取：
-- 官方 39 个 curated skills 的 SKILL.md frontmatter（name、description、stars）
-- 23 个社区/工具/通用仓库的最新 stars 和描述
+更新链路分为两步：
 
-GitHub Actions 每周一 UTC 00:00 自动跑一次：
+1. `discover-skill-repos.yml`
+   - 定时发现新仓库
+   - 只更新 `config/repos.json`
 
-- 工作流：`.github/workflows/update-skills.yml`
-- 抓取脚本：`scripts/fetch-skills.py`
-- 抓取后**直接 commit + push 到 main**（不走 PR 流程）
-- CF Pages / Vercel 监听到 push 后自动重新部署
-- 无变化时自动跳过（不会产生空 commit）
+2. `update-generated-data.yml`
+   - 执行 `scripts/run-data-pipeline.sh`
+   - 生成最新的 `js/data.js`
+   - 导出 `agents/` 目录结构
+   - 有变化时直接提交到 `main`
+
+默认调度：
+- `discover-skill-repos.yml`：每 6 小时
+- `update-generated-data.yml`：每天 UTC 00:00
 
 **手动触发**：
 1. 打开 https://github.com/rdone4425/skill/actions
-2. 选 **Update Codex Skills**
+2. 选择对应 workflow
 3. 点 **Run workflow**
-4. 可选勾 "Dry run" 只抓数据不提交
+4. `update-generated-data.yml` 可选勾选 `dry_run`
 
-**调整更新频率**：编辑 `.github/workflows/update-skills.yml` 的 `cron` 字段
-- `0 0 * * 1` — 每周一
+**调整更新频率**：编辑对应 workflow 里的 `cron` 字段
 - `0 0 * * *` — 每天
 - `0 */6 * * *` — 每 6 小时
 

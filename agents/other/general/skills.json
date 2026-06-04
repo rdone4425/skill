@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "agent": "other",
+    "functionCategory": "general",
+    "count": 1,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "AbsolutelySkilled",
+      "source": "community",
+      "group": null,
+      "repo": "AbsolutelySkilled/AbsolutelySkilled",
+      "stars": 172,
+      "desc": "Awesome Skills from Around the World",
+      "url": "https://github.com/AbsolutelySkilled/AbsolutelySkilled",
+      "install": "git clone https://github.com/AbsolutelySkilled/AbsolutelySkilled.git",
+      "agent": "other",
+      "functionCategory": "general"
+    }
+  ]
+}
