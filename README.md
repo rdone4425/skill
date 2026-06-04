@@ -59,6 +59,8 @@ skill/
 
 ## ✏️ 添加新 Skill
 
+### 方式 A：手动改 `js/data.js`（快速）
+
 编辑 `js/data.js`，按以下格式添加：
 
 ```javascript
@@ -75,6 +77,31 @@ skill/
 ```
 
 然后 `git commit -am "add my-skill" && git push`，CF Pages 自动部署。
+
+### 方式 B：自动每周更新（推荐）✅
+
+`scripts/fetch-skills.py` 会自动从 GitHub API 抓取：
+- 官方 39 个 curated skills 的 SKILL.md frontmatter（name、description、stars）
+- 17 个社区/工具/通用仓库的最新 stars 和描述
+
+GitHub Actions 每周一 UTC 00:00 自动跑一次：
+
+- 工作流：`.github/workflows/update-skills.yml`
+- 抓取脚本：`scripts/fetch-skills.py`
+- 抓取后用 `peter-evans/create-pull-request-action` 自动开 PR
+- 你只需要在 PR 里 review → merge → CF Pages 重新部署
+
+**手动触发**：
+1. 打开 https://github.com/rdone4425/skill/actions
+2. 选 **Update Codex Skills**
+3. 点 **Run workflow**
+
+**调整更新频率**：编辑 `.github/workflows/update-skills.yml` 的 `cron` 字段
+- `0 0 * * 1` — 每周一
+- `0 0 * * *` — 每天
+- `0 */6 * * *` — 每 6 小时
+
+**添加新仓库到自动抓取**：编辑 `scripts/fetch-skills.py` 的 `KNOWN_REPOS` 字典。
 
 ## 📊 数据来源
 
