@@ -53,44 +53,60 @@ python3 -m http.server 8000
 
 ```
 skill/
-├── index.html           # 主页面（SEO 优化 + JSON-LD 结构化数据）
+├── index.html              # 主页面（SEO 优化 + JSON-LD 结构化数据）
 ├── css/
-│   └── style.css        # 暗色主题样式
+│   └── style.css           # 暗色主题样式
 ├── js/
-│   ├── data.js          # 所有 skills 数据（修改这里）
-│   ├── i18n.js          # 中英文翻译
-│   └── app.js           # 渲染逻辑
+│   ├── data.js             # 所有 skills 数据（自动生成，不要手动改）
+│   ├── i18n.js             # 中英文翻译
+│   └── app.js              # 渲染逻辑
+├── config/
+│   └── repos.json          # ⭐ 仓库配置（添加/删除仓库只改这个文件）
 ├── scripts/
-│   └── fetch-skills.py  # 自动抓取脚本
+│   ├── fetch-skills.py     # 从 config/repos.json 读取配置，抓取最新数据
+│   ├── discover-skills.py  # 搜索 GitHub 发现新仓库，写入 config/repos.json
+│   └── auto-update-skills.sh  # 统一更新脚本（discover + fetch + commit）
 ├── .github/
 │   └── workflows/
-│       └── update-skills.yml  # 每周自动更新
-├── LICENSE              # MIT
-└── README.md            # 本文件
+│       └── update-skills.yml  # 每天自动更新
+├── LICENSE                 # MIT
+└── README.md               # 本文件
+```
+
+**数据流**：
+```
+config/repos.json  →  fetch-skills.py  →  js/data.js  →  网站
+       ↑
+discover-skills.py  ←  GitHub Search API
 ```
 
 ## ✏️ 添加新 Skill
 
-### 方式 A：手动改 `js/data.js`（快速）
+### 方式 A：编辑 `config/repos.json`（推荐）✅
 
-编辑 `js/data.js`，按以下格式添加：
+编辑 `config/repos.json`，在 `repos` 字典中添加：
 
-```javascript
+```json
 {
-  name: "my-skill",                    // skill 名字
-  source: "official",                  // official | claude | community | tools | general | hermes | openclaw | opencode
-  group: "figma",                      // official 下分组（figma/github/notion/...）
-  repo: "openai/skills",               // GitHub 仓库
-  stars: 21251,                        // GitHub stars
-  desc: "一句话描述",                  // 中文/英文都可
-  url: "https://github.com/openai/skills/tree/main/skills/.curated/my-skill",
-  install: "$skill-installer my-skill" // 安装命令
+  "repos": {
+    "owner/repo-name": {
+      "source": "general",
+      "name": "my-skill",
+      "install": "git clone https://github.com/owner/repo-name.git"
+    }
+  }
 }
 ```
 
-然后 `git commit -am "add my-skill" && git push`，CF Pages 自动部署。
+然后 `git commit -am "add my-skill" && git push`，CI 自动更新数据并部署。
 
-### 方式 B：自动每周更新（推荐）✅
+### 方式 B：自动发现（零操作）🤖
+
+`discover-skills.py` 会自动搜索 GitHub，发现新的高星 skill 仓库并写入 `config/repos.json`。
+
+每天自动运行，无需手动操作。
+
+### 方式 C：自动每周更新（CI）✅
 
 `scripts/fetch-skills.py` 会自动从 GitHub API 抓取：
 - 官方 39 个 curated skills 的 SKILL.md frontmatter（name、description、stars）
@@ -115,7 +131,7 @@ GitHub Actions 每周一 UTC 00:00 自动跑一次：
 - `0 0 * * *` — 每天
 - `0 */6 * * *` — 每 6 小时
 
-**添加新仓库到自动抓取**：编辑 `scripts/fetch-skills.py` 的 `KNOWN_REPOS` 字典。
+**添加新仓库**：编辑 `config/repos.json` 的 `repos` 字典即可，无需改 Python 代码。
 
 **回滚一次更新**：
 ```bash

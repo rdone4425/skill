@@ -1,0 +1,204 @@
+{
+  "$schema": "repos-config",
+  "$comment": "Skill Hub 仓库配置 — 添加/删除仓库只需编辑此文件，无需改 Python 代码",
+  "lastUpdated": "2026-06-04",
+  "sources": {
+    "openai-skills": {
+      "repo": "openai/skills",
+      "type": "skill_dir",
+      "path": "skills/.curated",
+      "source": "official",
+      "install": "$skill-installer {name}",
+      "auto_groups": true
+    },
+    "anthropic-skills": {
+      "repo": "anthropics/skills",
+      "type": "skill_dir",
+      "path": "skills",
+      "source": "claude",
+      "install": "$skill-installer {name}",
+      "auto_groups": false
+    }
+  },
+  "repos": {
+    "ComposioHQ/awesome-codex-skills": {
+      "source": "community",
+      "name": "awesome-codex-skills",
+      "install": "git clone https://github.com/ComposioHQ/awesome-codex-skills.git  # browse the awesome list"
+    },
+    "VoltAgent/awesome-codex-subagents": {
+      "source": "community",
+      "name": "awesome-codex-subagents",
+      "install": "git clone https://github.com/VoltAgent/awesome-codex-subagents.git  # browse the awesome list"
+    },
+    "hashgraph-online/awesome-codex-plugins": {
+      "source": "community",
+      "name": "awesome-codex-plugins",
+      "install": "git clone https://github.com/hashgraph-online/awesome-codex-plugins.git  # browse the awesome list"
+    },
+    "RoggeOhta/awesome-codex-cli": {
+      "source": "community",
+      "name": "awesome-codex-cli",
+      "install": "git clone https://github.com/RoggeOhta/awesome-codex-cli.git  # browse the awesome list"
+    },
+    "JackyST0/awesome-agent-skills": {
+      "source": "community",
+      "name": "awesome-agent-skills",
+      "install": "git clone https://github.com/JackyST0/awesome-agent-skills.git  # browse the awesome list"
+    },
+    "router-for-me/CLIProxyAPI": {
+      "source": "tools",
+      "name": "CLIProxyAPI",
+      "install": "go install github.com/router-for-me/CLIProxyAPI@latest"
+    },
+    "decolua/9router": {
+      "source": "tools",
+      "name": "9router",
+      "install": "npm i -g 9router"
+    },
+    "openai/codex": {
+      "source": "tools",
+      "name": "codex-cli",
+      "install": "npm i -g @openai/codex"
+    },
+    "affaan-m/ECC": {
+      "source": "general",
+      "name": "ECC",
+      "install": "git clone https://github.com/affaan-m/ECC.git"
+    },
+    "safishamsi/graphify": {
+      "source": "general",
+      "name": "graphify",
+      "install": "git clone https://github.com/safishamsi/graphify.git"
+    },
+    "alirezarezvani/claude-skills": {
+      "source": "general",
+      "name": "claude-skills",
+      "install": "git clone https://github.com/alirezarezvani/claude-skills.git"
+    },
+    "leo-lilinxiao/codex-autoresearch": {
+      "source": "general",
+      "name": "codex-autoresearch",
+      "install": "git clone https://github.com/leo-lilinxiao/codex-autoresearch.git"
+    },
+    "ljagiello/ctf-skills": {
+      "source": "general",
+      "name": "ctf-skills",
+      "install": "git clone https://github.com/ljagiello/ctf-skills.git"
+    },
+    "mukul975/Anthropic-Cybersecurity-Skills": {
+      "source": "general",
+      "name": "cybersecurity-skills",
+      "install": "git clone https://github.com/mukul975/Anthropic-Cybersecurity-Skills.git"
+    },
+    "kepano/obsidian-skills": {
+      "source": "general",
+      "name": "obsidian-skills",
+      "install": "git clone https://github.com/kepano/obsidian-skills.git"
+    },
+    "coreyhaines31/marketingskills": {
+      "source": "general",
+      "name": "marketingskills",
+      "install": "git clone https://github.com/coreyhaines31/marketingskills.git"
+    },
+    "Prat011/awesome-llm-skills": {
+      "source": "general",
+      "name": "awesome-llm-skills",
+      "install": "git clone https://github.com/Prat011/awesome-llm-skills.git"
+    },
+    "sickn33/antigravity-awesome-skills": {
+      "source": "general",
+      "name": "antigravity-awesome-skills",
+      "install": "git clone https://github.com/sickn33/antigravity-awesome-skills.git"
+    },
+    "nousresearch/hermes-agent": {
+      "source": "hermes",
+      "name": "hermes-agent",
+      "install": "npm i -g @nousresearch/hermes-agent"
+    },
+    "openclaw/openclaw": {
+      "source": "openclaw",
+      "name": "openclaw",
+      "install": "docker pull openclaw/openclaw"
+    },
+    "opencode-ai/opencode": {
+      "source": "opencode",
+      "name": "opencode",
+      "install": "npm i -g opencode-ai"
+    }
+  },
+  "categories": [
+    {
+      "id": "official",
+      "label": "Official Curated",
+      "icon": "🎯",
+      "description": "OpenAI 官方精选的 skills，$skill-installer 可直接安装",
+      "color": "#6366f1",
+      "groups": [
+        {"id": "figma", "label": "Figma"},
+        {"id": "github", "label": "GitHub"},
+        {"id": "notion", "label": "Notion"},
+        {"id": "playwright", "label": "Playwright"},
+        {"id": "deploy", "label": "Deployment"},
+        {"id": "security", "label": "Security"},
+        {"id": "other", "label": "Other"}
+      ]
+    },
+    {
+      "id": "claude",
+      "label": "Claude Skills",
+      "icon": "🎭",
+      "description": "Anthropic Claude 官方 skills — PDF、Word、Excel、PowerPoint、设计等",
+      "color": "#d97757",
+      "groups": null
+    },
+    {
+      "id": "community",
+      "label": "Community Lists",
+      "icon": "🌟",
+      "description": "社区维护的 awesome 清单，收录各种 Codex/Agent skills",
+      "color": "#10b981",
+      "groups": null
+    },
+    {
+      "id": "tools",
+      "label": "Codex CLI Tools",
+      "icon": "🛠",
+      "description": "配合 Codex 使用的 CLI 工具 — proxy、router、wrapper",
+      "color": "#f59e0b",
+      "groups": null
+    },
+    {
+      "id": "general",
+      "label": "General Agent Skills",
+      "icon": "🤖",
+      "description": "通用 AI agent skills — 多端兼容（Codex/Claude Code/OpenCode）",
+      "color": "#ec4899",
+      "groups": null
+    },
+    {
+      "id": "hermes",
+      "label": "Hermes Agent",
+      "icon": "🦉",
+      "description": "NousResearch Hermes Agent — 自我成长的 AI 代理",
+      "color": "#8b5cf6",
+      "groups": null
+    },
+    {
+      "id": "openclaw",
+      "label": "OpenClaw",
+      "icon": "🦞",
+      "description": "OpenClaw — 跨平台 AI 助理（任何 OS、任何平台）",
+      "color": "#ef4444",
+      "groups": null
+    },
+    {
+      "id": "opencode",
+      "label": "OpenCode",
+      "icon": "⌨️",
+      "description": "OpenCode — 终端 AI 编程代理",
+      "color": "#06b6d4",
+      "groups": null
+    }
+  ]
+}

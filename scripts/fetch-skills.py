@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-fetch-skills.py — 抓取 OpenAI Codex skills 最新数据
+fetch-skills.py — 抓取所有 skill 仓库的最新数据
 
-数据源：
-  1. openai/skills（官方 39 个 curated skills）— 拉 SKILL.md frontmatter
-  2. anthropics/skills（Claude 17 个 skills）— 拉 SKILL.md frontmatter
-  3. 20 个仓库的最新 stars 数
+数据源（全部从 config/repos.json 读取）：
+  1. openai/skills（官方 curated skills）— 拉 SKILL.md frontmatter
+  2. anthropics/skills（Claude skills）— 拉 SKILL.md frontmatter
+  3. repos 中所有其他仓库的最新 stars 和描述
 
 输出：
   js/data.js (覆盖)
@@ -15,6 +15,7 @@ fetch-skills.py — 抓取 OpenAI Codex skills 最新数据
   - GitHub API rate limit 友好（带 retry + 401/403/429 处理）
   - 幂等：重复运行结果一致
   - 部分失败容错：单个 skill 抓不到不影响其他
+  - 仓库配置全部在 config/repos.json，无需改代码
 
 环境变量：
   GITHUB_TOKEN  — 可选，提供后 API rate limit 提到 5000/小时
@@ -36,11 +37,11 @@ from pathlib import Path
 # ============================================================
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_JS_PATH = REPO_ROOT / "js" / "data.js"
+CONFIG_PATH = REPO_ROOT / "config" / "repos.json"
 
 GITHUB_API = "https://api.github.com"
 
 # 接受多种 env var 名字（兼容 CI / 本地 / sandbox）
-# 优先级：GITHUB_TOKEN_FILE > GITHUB_TOKEN > GH_TOKEN > GIT_TOKEN
 _token_file = os.environ.get("GITHUB_TOKEN_FILE", "")
 GITHUB_TOKEN = (
     open(_token_file).read().strip()
@@ -51,37 +52,16 @@ GITHUB_TOKEN = (
     or ""
 )
 
-# 已知仓库 → (source, group, repo_name, install_cmd)
-# 用于在 official/claude 之外给所有仓库分类
-KNOWN_REPOS = {
-    # source=community (社区清单)
-    "ComposioHQ/awesome-codex-skills": ("community", None, "awesome-codex-skills", None),
-    "VoltAgent/awesome-codex-subagents": ("community", None, "awesome-codex-subagents", None),
-    "hashgraph-online/awesome-codex-plugins": ("community", None, "awesome-codex-plugins", None),
-    "RoggeOhta/awesome-codex-cli": ("community", None, "awesome-codex-cli", None),
-    "JackyST0/awesome-agent-skills": ("community", None, "awesome-agent-skills", None),
-    # source=tools
-    "router-for-me/CLIProxyAPI": ("tools", None, "CLIProxyAPI", "go install github.com/router-for-me/CLIProxyAPI@latest"),
-    "decolua/9router": ("tools", None, "9router", "npm i -g 9router"),
-    "openai/codex": ("tools", None, "codex-cli", "npm i -g @openai/codex"),
-    # source=general
-    "affaan-m/ECC": ("general", None, "ECC", None),
-    "safishamsi/graphify": ("general", None, "graphify", None),
-    "alirezarezvani/claude-skills": ("general", None, "claude-skills", None),
-    "leo-lilinxiao/codex-autoresearch": ("general", None, "codex-autoresearch", None),
-    "ljagiello/ctf-skills": ("general", None, "ctf-skills", None),
-    "mukul975/Anthropic-Cybersecurity-Skills": ("general", None, "cybersecurity-skills", None),
-    "kepano/obsidian-skills": ("general", None, "obsidian-skills", None),
-    "coreyhaines31/marketingskills": ("general", None, "marketingskills", None),
-    "Prat011/awesome-llm-skills": ("general", None, "awesome-llm-skills", None),
-    "sickn33/antigravity-awesome-skills": ("general", None, "antigravity-awesome-skills", None),
-    # source=hermes
-    "nousresearch/hermes-agent": ("hermes", None, "hermes-agent", "npm i -g @nousresearch/hermes-agent"),
-    # source=openclaw
-    "openclaw/openclaw": ("openclaw", None, "openclaw", "docker pull openclaw/openclaw"),
-    # source=opencode
-    "opencode-ai/opencode": ("opencode", None, "opencode", "npm i -g opencode-ai"),
-}
+
+def load_config():
+    """加载 config/repos.json 配置文件。"""
+    if not CONFIG_PATH.exists():
+        print(f"❌ Config file not found: {CONFIG_PATH}", file=sys.stderr)
+        print("   Create it first or run from the correct directory.", file=sys.stderr)
+        sys.exit(1)
+    with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+        return json.load(f)
+
 
 # ============================================================
 # HTTP 工具
@@ -89,11 +69,10 @@ KNOWN_REPOS = {
 def http_get(url, timeout=15, retries=3):
     """GET 一个 URL，返回 bytes；带 retry 和 rate limit 处理。"""
     headers = {
-        "User-Agent": "codex-skills-hub-bot/1.0",
+        "User-Agent": "skill-hub-bot/1.0",
         "Accept": "application/vnd.github+json",
     }
     if GITHUB_TOKEN:
-        # GitHub 接受 token 和 Bearer 两种，但用 token 更兼容
         headers["Authorization"] = f"token {GITHUB_TOKEN}"
 
     last_err = None
@@ -104,11 +83,9 @@ def http_get(url, timeout=15, retries=3):
                 return resp.read()
         except urllib.error.HTTPError as e:
             if e.code == 401:
-                # 认证错误：fail fast（不要 retry）
                 print(f"  ✗ HTTP 401 Unauthorized (check token)", file=sys.stderr)
                 return None
             elif e.code == 429 or (e.code == 403 and "rate limit" in (e.reason or "").lower()):
-                # 限流，等待并重试
                 wait = int(e.headers.get("Retry-After", 60))
                 print(f"  ⏳ Rate limited, waiting {wait}s...", file=sys.stderr)
                 time.sleep(min(wait, 120))
@@ -116,7 +93,6 @@ def http_get(url, timeout=15, retries=3):
             elif e.code == 404:
                 return None
             elif e.code == 403:
-                # 其他 403（不是 rate limit）：fail fast
                 print(f"  ✗ HTTP 403: {e.reason}", file=sys.stderr)
                 return None
             else:
@@ -165,54 +141,6 @@ def fetch_repo_info(owner, repo):
     }
 
 
-def fetch_skill_dir(owner, repo, dir_path, ref="main"):
-    """抓取一个目录下所有子目录的 SKILL.md frontmatter。
-    
-    Args:
-        owner: 仓库 owner
-        repo: 仓库名
-        dir_path: skill 目录路径（如 "skills/.curated" 或 "skills"）
-        ref: git ref
-    
-    Returns:
-        list of dict: [{name, description, short_description, stars, repo, url, path}, ...]
-    """
-    print(f"📥 Fetching {owner}/{repo}/{dir_path}...")
-    data = http_get_json(f"{GITHUB_API}/repos/{owner}/{repo}/contents/{dir_path}")
-    if not data or not isinstance(data, list):
-        print(f"  ✗ Failed to fetch {dir_path} listing", file=sys.stderr)
-        return []
-    
-    names = [item["name"] for item in data if item.get("type") == "dir"]
-    print(f"  ✓ Found {len(names)} skills in {dir_path}")
-    
-    # 抓仓库 stars
-    repo_info = fetch_repo_info(owner, repo)
-    base_stars = repo_info["stars"] if repo_info else 0
-    
-    skills = []
-    for name in names:
-        path = f"{dir_path}/{name}"
-        fm = fetch_skill_frontmatter(owner, repo, path, ref=ref)
-        if not fm:
-            print(f"  ✗ {name}: failed to fetch frontmatter, skipping")
-            continue
-        
-        short = fm.get("short_description", "") or (fm.get("description", "")[:120] if fm.get("description") else "")
-        skills.append({
-            "name": name,
-            "description": fm.get("description", ""),
-            "short_description": short,
-            "stars": base_stars,
-            "repo": f"{owner}/{repo}",
-            "url": f"https://github.com/{owner}/{repo}/tree/{ref}/{path}",
-        })
-        print(f"  ✓ {name} ({short[:50]})")
-        time.sleep(0.3)
-    
-    return skills
-
-
 def fetch_skill_frontmatter(owner, repo, path, ref="main"):
     """抓一个 skill 的 SKILL.md frontmatter。"""
     raw = http_get_text(
@@ -237,7 +165,6 @@ def fetch_skill_frontmatter(owner, repo, path, ref="main"):
     if desc_m:
         first = desc_m.group(1).strip()
         if first in ("|", ">"):
-            # 多行折叠：取后续缩进行
             lines = re.findall(r"^\s{2,}(.+?)$", fm[desc_m.end():], re.MULTILINE)
             description = " ".join(l.strip() for l in lines)
         else:
@@ -271,6 +198,59 @@ def infer_group(skill_name):
     return "other"
 
 
+def fetch_skill_dir(owner, repo, dir_path, source, install_tpl, ref="main"):
+    """抓取一个目录下所有子目录的 SKILL.md frontmatter。
+    
+    Args:
+        owner: 仓库 owner
+        repo: 仓库名
+        dir_path: skill 目录路径（如 "skills/.curated" 或 "skills"）
+        source: 分类（official / claude）
+        install_tpl: 安装命令模板（如 "$skill-installer {name}"）
+        ref: git ref
+    
+    Returns:
+        list of dict: skills 数据列表
+    """
+    print(f"📥 Fetching {owner}/{repo}/{dir_path}...")
+    data = http_get_json(f"{GITHUB_API}/repos/{owner}/{repo}/contents/{dir_path}")
+    if not data or not isinstance(data, list):
+        print(f"  ✗ Failed to fetch {dir_path} listing", file=sys.stderr)
+        return []
+
+    names = [item["name"] for item in data if item.get("type") == "dir"]
+    print(f"  ✓ Found {len(names)} skills in {dir_path}")
+
+    repo_info = fetch_repo_info(owner, repo)
+    base_stars = repo_info["stars"] if repo_info else 0
+
+    skills = []
+    for name in names:
+        path = f"{dir_path}/{name}"
+        fm = fetch_skill_frontmatter(owner, repo, path, ref=ref)
+        if not fm:
+            print(f"  ✗ {name}: failed to fetch frontmatter, skipping")
+            continue
+
+        short = fm.get("short_description", "") or (fm.get("description", "")[:120] if fm.get("description") else "")
+        install = install_tpl.replace("{name}", name) if install_tpl else f"$skill-installer {name}"
+
+        skills.append({
+            "name": name,
+            "source": source,
+            "group": infer_group(name) if source == "official" else None,
+            "repo": f"{owner}/{repo}",
+            "stars": base_stars,
+            "desc": fm.get("description", "")[:240] or short,
+            "url": f"https://github.com/{owner}/{repo}/tree/{ref}/{path}",
+            "install": install,
+        })
+        print(f"  ✓ {name} ({short[:50]})")
+        time.sleep(0.3)
+
+    return skills
+
+
 # ============================================================
 # 主流程
 # ============================================================
@@ -278,97 +258,51 @@ def main():
     today = time.strftime("%Y-%m-%d")
     print(f"🚀 Skill Hub — fetch-skills.py @ {today}")
     print(f"   GITHUB_TOKEN: {'set' if GITHUB_TOKEN else 'NOT set (rate limit 60/h)'}")
+
+    # 加载配置
+    config = load_config()
+    print(f"   Config: {CONFIG_PATH}")
+    print(f"   Repos in config: {len(config.get('repos', {}))}")
     print()
 
     all_skills = []
 
-    # 1. 抓 openai 官方 curated skills
-    print("📦 OpenAI 官方精选 skills (openai/skills)")
-    curated_names = []
-    data = http_get_json(f"{GITHUB_API}/repos/openai/skills/contents/skills/.curated")
-    if data and isinstance(data, list):
-        curated_names = [item["name"] for item in data if item.get("type") == "dir"]
-    print(f"  ✓ Found {len(curated_names)} curated skills")
-
-    repo_info = fetch_repo_info("openai", "skills")
-    base_stars = repo_info["stars"] if repo_info else 21251
-
-    for name in curated_names:
-        path = f"skills/.curated/{name}"
-        fm = fetch_skill_frontmatter("openai", "skills", path)
-        if not fm:
-            print(f"  ✗ {name}: failed to fetch frontmatter, skipping")
+    # ─── 1. 抓 skill_dir 类型的源（openai、anthropic）───
+    for key, src in config.get("sources", {}).items():
+        if src.get("type") != "skill_dir":
             continue
 
-        short = fm.get("short_description", "") or (fm.get("description", "")[:120] if fm.get("description") else "")
-        all_skills.append({
-            "name": name,
-            "source": "official",
-            "group": infer_group(name),
-            "repo": "openai/skills",
-            "stars": base_stars,
-            "desc": fm.get("description", "")[:240] or short,
-            "url": f"https://github.com/openai/skills/tree/main/{path}",
-            "install": f"$skill-installer {name}",
-        })
-        print(f"  ✓ {name} ({short[:50]})")
-        time.sleep(0.3)
+        repo_full = src["repo"]
+        owner, repo_name = repo_full.split("/")
+        dir_path = src["path"]
+        source = src["source"]
+        install_tpl = src.get("install", "$skill-installer {name}")
 
-    print(f"  → {sum(1 for s in all_skills if s['source'] == 'official')} official skills fetched")
+        print(f"📦 {source.upper()} skills ({repo_full})")
+        skills = fetch_skill_dir(owner, repo_name, dir_path, source, install_tpl)
+        all_skills.extend(skills)
+        print(f"  → {len(skills)} {source} skills fetched\n")
 
-    # 2. 抓 anthropic 官方 skills
-    print()
-    print("🎭 Anthropic Claude 官方 skills (anthropics/skills)")
-    claude_data = http_get_json(f"{GITHUB_API}/repos/anthropics/skills/contents/skills")
-    if claude_data and isinstance(claude_data, list):
-        claude_names = [item["name"] for item in claude_data if item.get("type") == "dir"]
-        print(f"  ✓ Found {len(claude_names)} claude skills")
-    else:
-        claude_names = []
+    # ─── 2. 抓 repos 中的所有其他仓库 ───
+    print(f"📦 Other repos ({len(config.get('repos', {}))} repos)")
+    for repo_full, repo_cfg in config.get("repos", {}).items():
+        owner, repo_name = repo_full.split("/")
+        source = repo_cfg["source"]
+        name = repo_cfg.get("name", repo_name)
+        install_override = repo_cfg.get("install")
 
-    claude_repo_info = fetch_repo_info("anthropics", "skills")
-    claude_stars = claude_repo_info["stars"] if claude_repo_info else 0
-
-    for name in claude_names:
-        path = f"skills/{name}"
-        fm = fetch_skill_frontmatter("anthropics", "skills", path)
-        if not fm:
-            print(f"  ✗ {name}: failed to fetch frontmatter, skipping")
-            continue
-
-        short = fm.get("short_description", "") or (fm.get("description", "")[:120] if fm.get("description") else "")
-        all_skills.append({
-            "name": name,
-            "source": "claude",
-            "group": None,
-            "repo": "anthropics/skills",
-            "stars": claude_stars,
-            "desc": fm.get("description", "")[:240] or short,
-            "url": f"https://github.com/anthropics/skills/tree/main/{path}",
-            "install": f"$skill-installer {name}",
-        })
-        print(f"  ✓ {name} ({short[:50]})")
-        time.sleep(0.3)
-
-    print(f"  → {sum(1 for s in all_skills if s['source'] == 'claude')} claude skills fetched")
-
-    # 3. 抓社区/工具/通用/平台仓库的最新 stars + description
-    print()
-    print("📦 其他仓库（community / tools / general / hermes / openclaw / opencode）")
-    for repo, (source, group, name, install_override) in KNOWN_REPOS.items():
-        owner, repo_name = repo.split("/")
         info = fetch_repo_info(owner, repo_name)
         if not info:
-            print(f"  ✗ {repo}: fetch failed")
+            print(f"  ✗ {repo_full}: fetch failed")
             all_skills.append({
                 "name": name,
                 "source": source,
-                "group": group,
-                "repo": repo,
+                "group": None,
+                "repo": repo_full,
                 "stars": 0,
                 "desc": "(description unavailable)",
-                "url": f"https://github.com/{repo}",
-                "install": install_override or f"git clone https://github.com/{repo}.git",
+                "url": f"https://github.com/{repo_full}",
+                "install": install_override or f"git clone https://github.com/{repo_full}.git",
             })
             continue
 
@@ -376,28 +310,26 @@ def main():
         if install_override:
             install = install_override
         elif source == "community":
-            # 社区清单是 awesome 列表，不是可执行 skill
-            install = f"git clone https://github.com/{repo}.git  # browse the awesome list"
+            install = f"git clone https://github.com/{repo_full}.git  # browse the awesome list"
         else:
-            install = f"git clone https://github.com/{repo}.git"
+            install = f"git clone https://github.com/{repo_full}.git"
 
-        # 描述
-        desc = (info["description"] or "").strip() or f"{repo} — curated Codex-related resource."
+        desc = (info["description"] or "").strip() or f"{repo_full} — curated resource."
 
         all_skills.append({
             "name": name,
             "source": source,
-            "group": group,
-            "repo": repo,
+            "group": None,
+            "repo": repo_full,
             "stars": info["stars"],
             "desc": desc[:240],
             "url": info["html_url"],
             "install": install,
         })
-        print(f"  ✓ {repo}: ⭐{info['stars']:,}")
+        print(f"  ✓ {repo_full}: ⭐{info['stars']:,}")
         time.sleep(0.5)
 
-    # 4. 统计
+    # ─── 3. 统计 ───
     sources = set(s["repo"] for s in all_skills)
     total_stars = sum(s["stars"] for s in all_skills)
 
@@ -413,7 +345,7 @@ def main():
     for src, cnt in sorted(src_counts.items()):
         print(f"     {src:10}  {cnt}")
 
-    # 5. 生成 data.js
+    # ─── 4. 生成 data.js ───
     meta = {
         "title": "Skill Hub",
         "description": "AI Agent Skills 导航站 — Codex · Claude · Hermes · OpenCode · OpenClaw",
@@ -422,68 +354,17 @@ def main():
         "sources": len(sources),
     }
 
-    categories = [
-        {
-            "id": "official", "label": "Official Curated", "icon": "🎯",
-            "description": "OpenAI 官方精选的 skills，$skill-installer 可直接安装",
-            "color": "#6366f1",
-            "groups": [
-                {"id": "figma", "label": "Figma"},
-                {"id": "github", "label": "GitHub"},
-                {"id": "notion", "label": "Notion"},
-                {"id": "playwright", "label": "Playwright"},
-                {"id": "deploy", "label": "Deployment"},
-                {"id": "security", "label": "Security"},
-                {"id": "other", "label": "Other"},
-            ],
-        },
-        {
-            "id": "claude", "label": "Claude Skills", "icon": "🎭",
-            "description": "Anthropic Claude 官方 skills — PDF、Word、Excel、PowerPoint、设计等",
-            "color": "#d97757",
-            "groups": None,
-        },
-        {
-            "id": "community", "label": "Community Lists", "icon": "🌟",
-            "description": "社区维护的 awesome 清单，收录各种 Codex/Agent skills",
-            "color": "#10b981", "groups": None,
-        },
-        {
-            "id": "tools", "label": "Codex CLI Tools", "icon": "🛠",
-            "description": "配合 Codex 使用的 CLI 工具 — proxy、router、wrapper",
-            "color": "#f59e0b", "groups": None,
-        },
-        {
-            "id": "general", "label": "General Agent Skills", "icon": "🤖",
-            "description": "通用 AI agent skills — 多端兼容（Codex/Claude Code/OpenCode）",
-            "color": "#ec4899", "groups": None,
-        },
-        {
-            "id": "hermes", "label": "Hermes Agent", "icon": "🦉",
-            "description": "NousResearch Hermes Agent — 自我成长的 AI 代理",
-            "color": "#8b5cf6", "groups": None,
-        },
-        {
-            "id": "openclaw", "label": "OpenClaw", "icon": "🦞",
-            "description": "OpenClaw — 跨平台 AI 助理（任何 OS、任何平台）",
-            "color": "#ef4444", "groups": None,
-        },
-        {
-            "id": "opencode", "label": "OpenCode", "icon": "⌨️",
-            "description": "OpenCode — 终端 AI 编程代理",
-            "color": "#06b6d4", "groups": None,
-        },
-    ]
+    categories = config.get("categories", [])
 
-    # 6. 写文件
+    # ─── 5. 写文件 ───
     DATA_JS_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(DATA_JS_PATH, "w", encoding="utf-8") as f:
         f.write("/**\n")
-        f.write(" * Codex Skills Hub — data\n")
+        f.write(" * Skill Hub — data\n")
         f.write(" * 自动生成，请勿手动编辑。运行 `python scripts/fetch-skills.py` 重新生成。\n")
+        f.write(" * 配置文件：config/repos.json\n")
         f.write(" */\n\n")
         f.write("window.SKILL_DATA = ")
-        # 紧凑 JSON（无多余空格），保持单行可读
         f.write(json.dumps(
             {"meta": meta, "categories": categories, "skills": all_skills},
             ensure_ascii=False, indent=2,
@@ -498,5 +379,5 @@ if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
-        print("\n✗ Interrupted", file=sys.stderr)
-        sys.exit(1)
+        print("\n🛑 Interrupted")
+        sys.exit(130)

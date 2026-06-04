@@ -5,11 +5,11 @@ discover-skills.py — 自动发现 GitHub 上的新 AI Agent Skills 仓库
 搜索策略：
   1. 搜索 "agent skills" / "codex skills" / "claude code skills" 等关键词
   2. 过滤：stars >= 100，最近 6 个月内有更新
-  3. 排除已在 data.js 中的仓库
-  4. 将新发现的仓库追加到 data.js
+  3. 排除已在 config/repos.json 中的仓库
+  4. 将新发现的仓库追加到 config/repos.json
 
 输出：
-  - js/data.js（追加新发现的 skills）
+  - config/repos.json（追加新发现的仓库）
   - 发现报告打印到 stdout
 
 环境变量：
@@ -21,7 +21,6 @@ License: MIT
 
 import json
 import os
-import re
 import sys
 import time
 import urllib.error
@@ -34,16 +33,20 @@ from datetime import datetime, timedelta
 # 配置
 # ============================================================
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DATA_JS_PATH = REPO_ROOT / "js" / "data.js"
+CONFIG_PATH = REPO_ROOT / "config" / "repos.json"
 
 GITHUB_API = "https://api.github.com"
 
-GITHUB_TOKEN = (
-    os.environ.get("GITHUB_TOKEN")
-    or os.environ.get("GH_TOKEN")
-    or os.environ.get("GIT_TOKEN")
-    or ""
-)
+
+def get_token():
+    """获取 GitHub token（兼容多种环境变量名）。"""
+    return (
+        os.environ.get("GITHUB_TOKEN")
+        or os.environ.get("GH_TOKEN")
+        or os.environ.get("GIT_TOKEN")
+        or ""
+    )
+
 
 # 搜索查询列表
 SEARCH_QUERIES = [
@@ -66,16 +69,18 @@ MAX_AGE_MONTHS = 6
 # 每个查询最多取多少结果
 MAX_PER_QUERY = 30
 
+
 # ============================================================
 # HTTP 工具
 # ============================================================
 def http_get(url, timeout=15, retries=3):
+    token = get_token()
     headers = {
         "User-Agent": "skill-hub-discover/1.0",
         "Accept": "application/vnd.github+json",
     }
-    if GITHUB_TOKEN:
-        headers["Authorization"] = f"token {GITHUB_TOKEN}"
+    if token:
+        headers["Authorization"] = f"token {token}"
 
     last_err = None
     for attempt in range(retries):
@@ -92,10 +97,7 @@ def http_get(url, timeout=15, retries=3):
                 print(f"  ⏳ Rate limited, waiting {wait}s...", file=sys.stderr)
                 time.sleep(min(wait, 120))
                 last_err = e
-            elif e.code == 404:
-                return None
-            elif e.code == 422:
-                # Validation error (search query issue)
+            elif e.code in (404, 422):
                 return None
             else:
                 last_err = e
@@ -120,6 +122,35 @@ def http_get_json(url, **kwargs):
 
 
 # ============================================================
+# 配置文件操作
+# ============================================================
+def load_config():
+    """加载 config/repos.json。"""
+    if not CONFIG_PATH.exists():
+        return {"sources": {}, "repos": {}, "categories": []}
+    with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def save_config(config):
+    """保存 config/repos.json（保持格式美观）。"""
+    with open(CONFIG_PATH, "w", encoding="utf-8") as f:
+        json.dump(config, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
+
+def get_existing_repos(config):
+    """从配置中获取所有已知仓库的 full_name 集合。"""
+    repos = set()
+    for src in config.get("sources", {}).values():
+        if "repo" in src:
+            repos.add(src["repo"])
+    for repo_name in config.get("repos", {}):
+        repos.add(repo_name)
+    return repos
+
+
+# ============================================================
 # 搜索 GitHub
 # ============================================================
 def search_repos(query, sort="stars", order="desc", per_page=30):
@@ -137,34 +168,20 @@ def search_repos(query, sort="stars", order="desc", per_page=30):
     return result["items"]
 
 
-def load_existing_repos():
-    """从 data.js 加载已有的仓库 full_name 列表。"""
-    if not DATA_JS_PATH.exists():
-        return set()
-    text = DATA_JS_PATH.read_text(encoding="utf-8")
-    # 匹配 "repo": "owner/name" 格式
-    repos = re.findall(r'"repo":\s*"([^"]+)"', text)
-    return set(repos)
-
-
 def classify_source(repo_info):
     """根据仓库信息推断分类。"""
     name = (repo_info.get("name") or "").lower()
     desc = (repo_info.get("description") or "").lower()
     topics = [t.lower() for t in (repo_info.get("topics") or [])]
-    full_name = repo_info.get("full_name", "")
 
-    # 社区清单
     if "awesome" in name or "awesome" in desc or "curated-list" in topics:
-        return "community", None
+        return "community"
 
-    # 工具类
     tool_keywords = ["cli", "proxy", "router", "wrapper", "tool", "installer"]
     if any(kw in name or kw in desc for kw in tool_keywords):
-        return "tools", None
+        return "tools"
 
-    # 通用 agent skills
-    return "general", None
+    return "general"
 
 
 def infer_install_cmd(full_name, repo_info):
@@ -179,7 +196,6 @@ def infer_install_cmd(full_name, repo_info):
     if lang == "go":
         return f"go install github.com/{full_name}@latest"
     elif lang in ("javascript", "typescript"):
-        # 尝试用 npm
         return f"npm i -g {name}"
     else:
         return f"git clone https://github.com/{full_name}.git"
@@ -190,16 +206,18 @@ def infer_install_cmd(full_name, repo_info):
 # ============================================================
 def main():
     today = time.strftime("%Y-%m-%d")
+    token = get_token()
     print(f"🔍 Skill Hub — discover-skills.py @ {today}")
-    print(f"   GITHUB_TOKEN: {'set' if GITHUB_TOKEN else 'NOT set'}")
+    print(f"   GITHUB_TOKEN: {'set' if token else 'NOT set'}")
 
-    if not GITHUB_TOKEN:
+    if not token:
         print("   ⚠️  No GITHUB_TOKEN — search API rate limit is 10/min, may be slow")
     print()
 
-    # 加载已有仓库
-    existing = load_existing_repos()
-    print(f"📦 Existing repos in data.js: {len(existing)}")
+    # 加载配置
+    config = load_config()
+    existing = get_existing_repos(config)
+    print(f"📦 Existing repos in config: {len(existing)}")
     print()
 
     # 搜索新仓库
@@ -214,16 +232,13 @@ def main():
         for item in items:
             full_name = item["full_name"]
 
-            # 跳过已有的
             if full_name in existing:
                 continue
 
-            # 跳过 stars 不够的
             stars = item.get("stargazers_count", 0)
             if stars < MIN_STARS:
                 continue
 
-            # 跳过太久没更新的
             updated = item.get("updated_at", "")
             if updated:
                 try:
@@ -233,7 +248,6 @@ def main():
                 except (ValueError, TypeError):
                     pass
 
-            # 跳过已发现的
             if full_name in discovered:
                 continue
 
@@ -241,169 +255,42 @@ def main():
             new_count += 1
 
         print(f"  → Found {new_count} new candidates (total: {len(discovered)})")
-        time.sleep(2)  # 搜索 API 限流
+        time.sleep(2)
 
     print(f"\n📊 Total new candidates: {len(discovered)}")
 
     if not discovered:
-        print("✅ No new skills discovered. Data is up to date.")
-        return
+        print("✅ No new skills discovered. Config is up to date.")
+        return 0
 
-    # 构建新 skills 数据
-    new_skills = []
+    # 构建新仓库配置并追加到 config
+    added = 0
+    new_repos = config.get("repos", {})
+
     for full_name, info in sorted(discovered.items(), key=lambda x: x[1].get("stargazers_count", 0), reverse=True):
-        source, group = classify_source(info)
+        source = classify_source(info)
         name = info.get("name", full_name.split("/")[-1])
-        desc = (info.get("description") or "")[:240]
         stars = info.get("stargazers_count", 0)
         install = infer_install_cmd(full_name, info)
 
-        skill = {
-            "name": name,
+        new_repos[full_name] = {
             "source": source,
-            "group": group,
-            "repo": full_name,
-            "stars": stars,
-            "desc": desc,
-            "url": info.get("html_url", f"https://github.com/{full_name}"),
+            "name": name,
             "install": install,
         }
-        new_skills.append(skill)
+        added += 1
         print(f"  ✓ {full_name} ⭐{stars:,} [{source}]")
 
-    # 读取现有 data.js 并追加
-    if not DATA_JS_PATH.exists():
-        print("❌ data.js not found! Run fetch-skills.py first.")
-        return
+    config["repos"] = new_repos
+    config["lastUpdated"] = today
 
-    text = DATA_JS_PATH.read_text(encoding="utf-8")
+    # 保存配置
+    save_config(config)
 
-    # 找到 skills 数组的最后一个元素，在 ] 之前插入新 skills
-    # 用正则找到最后一个 } 之后的 ]
-    # 更安全的方式：解析 JSON
-    match = re.search(r'window\.SKILL_DATA\s*=\s*', text)
-    if not match:
-        print("❌ Cannot parse data.js format")
-        return
-
-    json_start = match.end()
-    json_text = text[json_start:]
-    # 去掉末尾的 ;
-    json_text = json_text.rstrip().rstrip(";").strip()
-
-    try:
-        data = json.loads(json_text)
-    except json.JSONDecodeError as e:
-        print(f"❌ JSON parse error: {e}")
-        return
-
-    # 追加新 skills
-    existing_names = {s["name"] for s in data.get("skills", [])}
-    added = 0
-    for skill in new_skills:
-        if skill["name"] not in existing_names:
-            data["skills"].append(skill)
-            existing_names.add(skill["name"])
-            added += 1
-
-    # 更新 meta
-    data["meta"]["lastUpdated"] = today
-    data["meta"]["totalCount"] = len(data["skills"])
-    sources = set(s["repo"] for s in data["skills"])
-    data["meta"]["sources"] = len(sources)
-
-    # 写回文件
-    with open(DATA_JS_PATH, "w", encoding="utf-8") as f:
-        f.write("/**\n")
-        f.write(" * Skill Hub — data\n")
-        f.write(" * 自动生成，请勿手动编辑。运行 `python scripts/fetch-skills.py` 重新生成。\n")
-        f.write(" */\n\n")
-        f.write("window.SKILL_DATA = ")
-        f.write(json.dumps(data, ensure_ascii=False, indent=2))
-        f.write(";\n")
-
-    print(f"\n✅ Added {added} new skills to data.js")
-    print(f"   Total skills: {len(data['skills'])}")
-    print(f"   Total sources: {len(sources)}")
-
-    # 输出新发现的仓库列表（方便手动检查）
-    print(f"\n📋 New skills added:")
-    for skill in new_skills:
-        if skill["name"] in {s["name"] for s in new_skills[:added]}:
-            print(f"   - {skill['repo']} ⭐{skill['stars']:,} [{skill['source']}]")
-
-    # 7. 同步新仓库到 fetch-skills.py 的 KNOWN_REPOS
-    if added > 0:
-        sync_known_repos(new_skills[:added])
+    print(f"\n✅ Added {added} new repos to config/repos.json")
+    print(f"   Total repos in config: {len(new_repos)}")
 
     return added
-
-
-def sync_known_repos(new_skills):
-    """将新发现的仓库添加到 fetch-skills.py 的 KNOWN_REPOS 字典中。
-    
-    这样 fetch-skills.py 下次运行时会自动更新这些仓库的 stars。
-    """
-    fetch_script = REPO_ROOT / "scripts" / "fetch-skills.py"
-    if not fetch_script.exists():
-        print("⚠️  fetch-skills.py not found, skipping KNOWN_REPOS sync")
-        return
-
-    text = fetch_script.read_text(encoding="utf-8")
-
-    # 提取现有的 KNOWN_REPOS 中的仓库名
-    existing_repos = set(re.findall(r'"([^"]+/[^"]+)":\s*\(', text))
-
-    # 构建新条目
-    new_entries = []
-    for skill in new_skills:
-        repo = skill["repo"]
-        if repo in existing_repos:
-            continue
-        source = skill["source"]
-        name = skill["name"]
-        install = skill.get("install", "")
-
-        # 根据 source 确定安装命令
-        if source == "community":
-            install_cmd = None
-        elif install and not install.startswith("git clone"):
-            install_cmd = install
-        else:
-            install_cmd = None
-
-        # 格式化为 Python 字典条目
-        install_str = f'"{install_cmd}"' if install_cmd else "None"
-        entry = f'    "{repo}": ("{source}", None, "{name}", {install_str}),'
-        new_entries.append(entry)
-        print(f"  📝 Adding to KNOWN_REPOS: {repo}")
-
-    if not new_entries:
-        print("  ℹ️  No new repos to add to KNOWN_REPOS")
-        return
-
-    # 找到 KNOWN_REPOS 字典的结束位置（最后一个 } ）
-    # 在 "# source=hermes" 之前插入
-    # 更可靠的方式：找 KNOWN_REPOS 的 } 行
-    known_repos_pattern = r'(KNOWN_REPOS\s*=\s*\{[^}]*?)(    # source=hermes)'
-    match = re.search(known_repos_pattern, text, re.DOTALL)
-    if match:
-        insert_point = match.start(2)
-        new_text = text[:insert_point] + "\n".join(new_entries) + "\n" + text[insert_point:]
-    else:
-        # 备用方案：在最后一个 KNOWN_REPOS 条目之后插入
-        # 找 "# source=opencode" 之后的 } 之前
-        opencode_pattern = r'("(opencode-ai/opencode)".*?\),\n)(\})'
-        match = re.search(opencode_pattern, text, re.DOTALL)
-        if match:
-            insert_point = match.start(3)
-            new_text = text[:insert_point] + "\n".join(new_entries) + "\n" + text[insert_point:]
-        else:
-            print("  ⚠️  Could not find insertion point in fetch-skills.py")
-            return
-
-    fetch_script.write_text(new_text, encoding="utf-8")
-    print(f"  ✅ Added {len(new_entries)} repos to fetch-skills.py KNOWN_REPOS")
 
 
 if __name__ == "__main__":
