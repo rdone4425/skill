@@ -5,10 +5,14 @@ name: Update Skill Hub Data
 #
 # 触发方式：
 #   1. 定时：每天 UTC 00:00（北京时间 8:00）
-#   2. 手动：Actions → Run workflow
+#   2. Push: config/repos.json 变化时自动触发
+#   3. 手动：Actions → Run workflow
 on:
   schedule:
     - cron: "0 0 * * *"    # 每天运行
+  push:
+    paths:
+      - config/repos.json
   workflow_dispatch:
     inputs:
       dry_run:
