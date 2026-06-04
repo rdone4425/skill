@@ -1,18 +1,24 @@
 /**
  * app.js — Codex Skills Hub 渲染逻辑
- * 1. 渲染分类 Tab + 子分组 Tab
+ * 1. 渲染分类 Tab + 子分组 Tab + 分类描述
  * 2. 渲染 Skill 卡片
  * 3. 搜索过滤
  * 4. 复制 install 命令
  * 5. 切换分类
+ * 6. 中英文 UI 切换（via i18n.js）
  */
 
 (function () {
   "use strict";
 
   const data = window.SKILL_DATA;
+  const I18N = window.I18N;
   if (!data) {
     console.error("SKILL_DATA not loaded");
+    return;
+  }
+  if (!I18N) {
+    console.error("I18N not loaded");
     return;
   }
 
@@ -32,21 +38,29 @@
     general: "🤖",
   };
 
-  // 分组 → 中文标签
-  const groupLabel = {
-    figma: "Figma",
-    github: "GitHub",
-    notion: "Notion",
-    playwright: "Playwright",
-    deploy: "Deploy",
-    security: "Security",
-    other: "Other",
+  // 源 → i18n 描述 key
+  const sourceDescKey = {
+    official: "catOfficial",
+    community: "catCommunity",
+    tools: "catTools",
+    general: "catGeneral",
+  };
+
+  // 分组 → i18n 标签 key
+  const groupLabelKey = {
+    figma: "groupFigma",
+    github: "groupGithub",
+    notion: "groupNotion",
+    playwright: "groupPlaywright",
+    deploy: "groupDeploy",
+    security: "groupSecurity",
+    other: "groupOther",
   };
 
   // 状态
   const state = {
     currentSource: "all",
-    currentGroup: null, // 仅 official 下的子分组
+    currentGroup: null,
     keyword: "",
   };
 
@@ -60,6 +74,7 @@
   const $statSkills = document.getElementById("stat-skills");
   const $statSources = document.getElementById("stat-sources");
   const $statStars = document.getElementById("stat-stars");
+  const $categoryDesc = document.getElementById("category-desc");
 
   // ========== 工具 ==========
 
@@ -83,7 +98,6 @@
     if (navigator.clipboard && navigator.clipboard.writeText) {
       return navigator.clipboard.writeText(text);
     }
-    // fallback
     const ta = document.createElement("textarea");
     ta.value = text;
     ta.style.position = "fixed";
@@ -106,8 +120,8 @@
     card.className = "skill-card";
     card.style.setProperty("--card-accent", color);
 
-    const groupBadge = skill.group
-      ? `<span class="card-group">${escapeHtml(groupLabel[skill.group] || skill.group)}</span>`
+    const groupLabel = skill.group
+      ? `<span class="card-group">${escapeHtml(I18N.t(groupLabelKey[skill.group]) || skill.group)}</span>`
       : "";
 
     card.innerHTML = `
@@ -117,23 +131,39 @@
           <div class="card-name">${escapeHtml(skill.name)}</div>
           <div class="card-repo">
             <a href="${escapeHtml(skill.url)}" target="_blank" rel="noopener">${escapeHtml(skill.repo)}</a>
-            <span class="card-stars">⭐ ${formatStars(skill.stars)}</span>
+            <span class="card-stars" title="${I18N.t("starsTitle")}">⭐ ${formatStars(skill.stars)}</span>
           </div>
         </div>
       </div>
       <p class="card-desc">${escapeHtml(skill.desc)}</p>
       <div class="card-install" title="${escapeHtml(skill.install)}">
         <code>${escapeHtml(skill.install)}</code>
-        <button class="copy-btn" data-install="${escapeHtml(skill.install)}" title="复制">⧉</button>
+        <button class="copy-btn" data-install="${escapeHtml(skill.install)}" title="${I18N.t("copy")}">⧉</button>
       </div>
       <div class="card-footer">
         <a class="card-link" href="${escapeHtml(skill.url)}" target="_blank" rel="noopener">
-          查看仓库 →
+          ${escapeHtml(I18N.t("viewRepo"))}
         </a>
-        ${groupBadge}
+        ${groupLabel}
       </div>
     `;
     return card;
+  }
+
+  function renderCategoryDesc() {
+    // 显示当前分类的中文/英文描述
+    if (state.currentSource === "all") {
+      $categoryDesc.hidden = true;
+      $categoryDesc.innerHTML = "";
+      return;
+    }
+    const key = sourceDescKey[state.currentSource];
+    if (!key) {
+      $categoryDesc.hidden = true;
+      return;
+    }
+    $categoryDesc.hidden = false;
+    $categoryDesc.textContent = I18N.t(key);
   }
 
   function renderResults() {
@@ -180,11 +210,11 @@
     $subgroupTabs.hidden = false;
     const allActive = state.currentGroup === null ? "active" : "";
     $subgroupTabs.innerHTML = `
-      <button class="subgroup-tab ${allActive}" data-group="">全部</button>
+      <button class="subgroup-tab ${allActive}" data-group="">${escapeHtml(I18N.t("subgroupAll"))}</button>
       ${groups
         .map(
           (g) =>
-            `<button class="subgroup-tab ${state.currentGroup === g.id ? "active" : ""}" data-group="${g.id}">${escapeHtml(g.label)}</button>`
+            `<button class="subgroup-tab ${state.currentGroup === g.id ? "active" : ""}" data-group="${g.id}">${escapeHtml(I18N.t(groupLabelKey[g.id]) || g.label)}</button>`
         )
         .join("")}
     `;
@@ -210,6 +240,7 @@
       state.currentSource = tab.dataset.source;
       state.currentGroup = null;
       renderSubgroupTabs();
+      renderCategoryDesc();
       renderResults();
     });
   }
@@ -238,7 +269,6 @@
       $search.focus();
       renderResults();
     });
-    // Esc 清空
     $search.addEventListener("keydown", (e) => {
       if (e.key === "Escape" && state.keyword) {
         $searchClear.click();
@@ -263,10 +293,25 @@
     });
   }
 
-  // 键盘快捷键
+  function bindLanguage() {
+    document.querySelector(".lang-switcher").addEventListener("click", (e) => {
+      const btn = e.target.closest(".lang-btn");
+      if (!btn) return;
+      I18N.set(btn.dataset.lang);
+    });
+  }
+
+  function bindLanguageChange() {
+    // i18n.set() 触发 languagechange 事件，重新渲染依赖语言的部分
+    window.addEventListener("languagechange", () => {
+      renderSubgroupTabs();
+      renderCategoryDesc();
+      renderResults();
+    });
+  }
+
   function bindShortcuts() {
     document.addEventListener("keydown", (e) => {
-      // "/" 聚焦搜索
       if (e.key === "/" && document.activeElement !== $search) {
         e.preventDefault();
         $search.focus();
@@ -278,13 +323,19 @@
   // ========== 启动 ==========
 
   function init() {
+    // 先应用 i18n（更新所有 data-i18n 元素）
+    I18N.apply();
+    // 然后渲染
     renderStats();
+    renderCategoryDesc();
     renderSubgroupTabs();
     renderResults();
     bindCategoryTabs();
     bindSubgroupTabs();
     bindSearch();
     bindCopy();
+    bindLanguage();
+    bindLanguageChange();
     bindShortcuts();
   }
 

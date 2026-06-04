@@ -20,18 +20,24 @@
           <p class="logo-subtitle">OpenAI Codex Skills · Official + Community</p>
         </div>
       </a>
-      <div class="header-stats">
-        <div class="stat">
-          <span class="stat-value" id="stat-skills">56</span>
-          <span class="stat-label">Skills</span>
+      <div class="header-right">
+        <div class="header-stats">
+          <div class="stat">
+            <span class="stat-value" id="stat-skills">56</span>
+            <span class="stat-label" data-i18n="statSkills">Skills</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="stat-sources">17</span>
+            <span class="stat-label" data-i18n="statSources">来源</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="stat-stars">561k</span>
+            <span class="stat-label" data-i18n="statStars">总 ⭐</span>
+          </div>
         </div>
-        <div class="stat">
-          <span class="stat-value" id="stat-sources">17</span>
-          <span class="stat-label">Sources</span>
-        </div>
-        <div class="stat">
-          <span class="stat-value" id="stat-stars">561k</span>
-          <span class="stat-label">Total ⭐</span>
+        <div class="lang-switcher" role="group" aria-label="Language">
+          <button class="lang-btn" data-lang="zh" title="中文" aria-label="中文">中</button>
+          <button class="lang-btn" data-lang="en" title="English" aria-label="English">EN</button>
         </div>
       </div>
     </div>
@@ -46,61 +52,62 @@
           id="search"
           type="search"
           class="search-input"
+          data-i18n-placeholder="searchPlaceholder"
           placeholder="搜索 skills / 仓库 / 描述…"
           autocomplete="off"
         >
-        <button id="search-clear" class="search-clear" title="清空">×</button>
+        <button id="search-clear" class="search-clear" data-i18n-title="searchClearTitle" title="清空">×</button>
       </div>
 
       <nav class="category-tabs" role="tablist" id="category-tabs">
         <button class="tab active" data-source="all" role="tab">
-          <span class="tab-icon">◉</span> 全部
+          <span class="tab-icon">◉</span><span data-i18n="tabAll">全部</span>
         </button>
         <button class="tab" data-source="official" role="tab">
-          <span class="tab-icon">🎯</span> 官方精选
+          <span class="tab-icon">🎯</span><span data-i18n="tabOfficial">官方精选</span>
         </button>
         <button class="tab" data-source="community" role="tab">
-          <span class="tab-icon">🌟</span> 社区清单
+          <span class="tab-icon">🌟</span><span data-i18n="tabCommunity">社区清单</span>
         </button>
         <button class="tab" data-source="tools" role="tab">
-          <span class="tab-icon">🛠</span> CLI 工具
+          <span class="tab-icon">🛠</span><span data-i18n="tabTools">CLI 工具</span>
         </button>
         <button class="tab" data-source="general" role="tab">
-          <span class="tab-icon">🤖</span> 通用 Skills
+          <span class="tab-icon">🤖</span><span data-i18n="tabGeneral">通用 Skills</span>
         </button>
       </nav>
 
       <div class="subgroup-tabs" id="subgroup-tabs" hidden></div>
+
+      <!-- 当前分类描述（i18n 切换时更新）-->
+      <div class="category-desc" id="category-desc" hidden></div>
     </section>
 
     <!-- Skill 卡片网格 -->
     <section class="results" id="results"></section>
 
     <div class="empty-state" id="empty" hidden>
-      <p>没找到匹配的 skill 😕</p>
+      <p data-i18n="emptyState">没找到匹配的 skill 😕</p>
     </div>
 
     <!-- 关于 -->
     <section class="about">
-      <h2>📚 关于</h2>
-      <p>
-        <strong>Codex Skills Hub</strong> 是 <a href="https://github.com/rdone4425" target="_blank" rel="noopener">rdone4425</a> 维护的 OpenAI Codex skills 索引。
-        数据来源包括 <a href="https://github.com/openai/skills" target="_blank" rel="noopener">openai/skills</a> 官方精选、社区 awesome 清单，以及 Codex CLI 配套工具。
-      </p>
-      <p>
-        部署在 <a href="https://pages.cloudflare.com" target="_blank" rel="noopener">Cloudflare Pages</a>，源数据在 <a href="https://github.com/rdone4425/skill" target="_blank" rel="noopener">GitHub</a>，欢迎 PR / Issue。
-      </p>
+      <h2 data-i18n="aboutTitle">📚 关于</h2>
+      <p data-i18n-html="aboutP1"></p>
+      <p data-i18n-html="aboutP2"></p>
     </section>
   </main>
 
   <footer class="site-footer">
     <p>
-      MIT License · <a href="https://github.com/rdone4425/skill" target="_blank" rel="noopener">Source</a>
-      · 数据最后更新 <span id="last-updated">2026-06-04</span>
+      <span data-i18n="license">MIT License</span> ·
+      <a href="https://github.com/rdone4425/skill" target="_blank" rel="noopener" data-i18n="source">源码</a>
+      · <span data-i18n="dataUpdated">数据最后更新</span> <span id="last-updated">2026-06-04</span>
     </p>
   </footer>
 
   <script src="js/data.js"></script>
+  <script src="js/i18n.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
