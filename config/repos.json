@@ -125,6 +125,706 @@
       "source": "opencode",
       "name": "opencode",
       "install": "npm i -g opencode-ai"
+    },
+    "multica-ai/andrej-karpathy-skills": {
+      "source": "general",
+      "name": "andrej-karpathy-skills",
+      "install": "git clone https://github.com/multica-ai/andrej-karpathy-skills.git"
+    },
+    "farion1231/cc-switch": {
+      "source": "tools",
+      "name": "cc-switch",
+      "install": "git clone https://github.com/farion1231/cc-switch.git"
+    },
+    "bytedance/deer-flow": {
+      "source": "tools",
+      "name": "deer-flow",
+      "install": "git clone https://github.com/bytedance/deer-flow.git"
+    },
+    "JuliusBrussee/caveman": {
+      "source": "general",
+      "name": "caveman",
+      "install": "npm i -g caveman"
+    },
+    "ComposioHQ/awesome-claude-skills": {
+      "source": "community",
+      "name": "awesome-claude-skills",
+      "install": "git clone https://github.com/ComposioHQ/awesome-claude-skills.git  # browse the awesome list"
+    },
+    "nexu-io/open-design": {
+      "source": "tools",
+      "name": "open-design",
+      "install": "npm i -g open-design"
+    },
+    "ruvnet/ruflo": {
+      "source": "general",
+      "name": "ruflo",
+      "install": "npm i -g ruflo"
+    },
+    "santifer/career-ops": {
+      "source": "general",
+      "name": "career-ops",
+      "install": "npm i -g career-ops"
+    },
+    "addyosmani/agent-skills": {
+      "source": "general",
+      "name": "agent-skills",
+      "install": "git clone https://github.com/addyosmani/agent-skills.git"
+    },
+    "CherryHQ/cherry-studio": {
+      "source": "general",
+      "name": "cherry-studio",
+      "install": "npm i -g cherry-studio"
+    },
+    "jeecgboot/JeecgBoot": {
+      "source": "general",
+      "name": "JeecgBoot",
+      "install": "git clone https://github.com/jeecgboot/JeecgBoot.git"
+    },
+    "hesreallyhim/awesome-claude-code": {
+      "source": "community",
+      "name": "awesome-claude-code",
+      "install": "git clone https://github.com/hesreallyhim/awesome-claude-code.git  # browse the awesome list"
+    },
+    "zhayujie/CowAgent": {
+      "source": "tools",
+      "name": "CowAgent",
+      "install": "git clone https://github.com/zhayujie/CowAgent.git"
+    },
+    "github/awesome-copilot": {
+      "source": "community",
+      "name": "awesome-copilot",
+      "install": "git clone https://github.com/github/awesome-copilot.git  # browse the awesome list"
+    },
+    "Leonxlnx/taste-skill": {
+      "source": "general",
+      "name": "taste-skill",
+      "install": "git clone https://github.com/Leonxlnx/taste-skill.git"
+    },
+    "anthropics/claude-plugins-official": {
+      "source": "general",
+      "name": "claude-plugins-official",
+      "install": "git clone https://github.com/anthropics/claude-plugins-official.git"
+    },
+    "iOfficeAI/AionUi": {
+      "source": "tools",
+      "name": "AionUi",
+      "install": "npm i -g AionUi"
+    },
+    "K-Dense-AI/scientific-agent-skills": {
+      "source": "general",
+      "name": "scientific-agent-skills",
+      "install": "git clone https://github.com/K-Dense-AI/scientific-agent-skills.git"
+    },
+    "Imbad0202/academic-research-skills": {
+      "source": "general",
+      "name": "academic-research-skills",
+      "install": "git clone https://github.com/Imbad0202/academic-research-skills.git"
+    },
+    "volcengine/OpenViking": {
+      "source": "general",
+      "name": "OpenViking",
+      "install": "git clone https://github.com/volcengine/OpenViking.git"
+    },
+    "VoltAgent/awesome-agent-skills": {
+      "source": "community",
+      "name": "awesome-agent-skills",
+      "install": "git clone https://github.com/VoltAgent/awesome-agent-skills.git  # browse the awesome list"
+    },
+    "OthmanAdi/planning-with-files": {
+      "source": "general",
+      "name": "planning-with-files",
+      "install": "git clone https://github.com/OthmanAdi/planning-with-files.git"
+    },
+    "blader/humanizer": {
+      "source": "general",
+      "name": "humanizer",
+      "install": "git clone https://github.com/blader/humanizer.git"
+    },
+    "Donchitos/Claude-Code-Game-Studios": {
+      "source": "general",
+      "name": "Claude-Code-Game-Studios",
+      "install": "git clone https://github.com/Donchitos/Claude-Code-Game-Studios.git"
+    },
+    "zarazhangrui/frontend-slides": {
+      "source": "general",
+      "name": "frontend-slides",
+      "install": "npm i -g frontend-slides"
+    },
+    "mksglu/context-mode": {
+      "source": "tools",
+      "name": "context-mode",
+      "install": "npm i -g context-mode"
+    },
+    "alchaincyf/huashu-design": {
+      "source": "general",
+      "name": "huashu-design",
+      "install": "git clone https://github.com/alchaincyf/huashu-design.git"
+    },
+    "JCodesMore/ai-website-cloner-template": {
+      "source": "general",
+      "name": "ai-website-cloner-template",
+      "install": "npm i -g ai-website-cloner-template"
+    },
+    "teng-lin/notebooklm-py": {
+      "source": "tools",
+      "name": "notebooklm-py",
+      "install": "git clone https://github.com/teng-lin/notebooklm-py.git"
+    },
+    "liyupi/ai-guide": {
+      "source": "general",
+      "name": "ai-guide",
+      "install": "npm i -g ai-guide"
+    },
+    "op7418/guizang-ppt-skill": {
+      "source": "general",
+      "name": "guizang-ppt-skill",
+      "install": "git clone https://github.com/op7418/guizang-ppt-skill.git"
+    },
+    "wasp-lang/open-saas": {
+      "source": "general",
+      "name": "open-saas",
+      "install": "npm i -g open-saas"
+    },
+    "travisvn/awesome-claude-skills": {
+      "source": "community",
+      "name": "awesome-claude-skills",
+      "install": "git clone https://github.com/travisvn/awesome-claude-skills.git  # browse the awesome list"
+    },
+    "wanshuiyin/Auto-claude-code-research-in-sleep": {
+      "source": "general",
+      "name": "Auto-claude-code-research-in-sleep",
+      "install": "git clone https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git"
+    },
+    "MemTensor/MemOS": {
+      "source": "general",
+      "name": "MemOS",
+      "install": "npm i -g MemOS"
+    },
+    "Orchestra-Research/AI-Research-SKILLs": {
+      "source": "general",
+      "name": "AI-Research-SKILLs",
+      "install": "git clone https://github.com/Orchestra-Research/AI-Research-SKILLs.git"
+    },
+    "refly-ai/refly": {
+      "source": "general",
+      "name": "refly",
+      "install": "npm i -g refly"
+    },
+    "EverMind-AI/EverOS": {
+      "source": "general",
+      "name": "EverOS",
+      "install": "git clone https://github.com/EverMind-AI/EverOS.git"
+    },
+    "nexu-io/html-anything": {
+      "source": "tools",
+      "name": "html-anything",
+      "install": "git clone https://github.com/nexu-io/html-anything.git"
+    },
+    "backnotprop/plannotator": {
+      "source": "tools",
+      "name": "plannotator",
+      "install": "npm i -g plannotator"
+    },
+    "google-labs-code/stitch-skills": {
+      "source": "tools",
+      "name": "stitch-skills",
+      "install": "npm i -g stitch-skills"
+    },
+    "heilcheng/awesome-agent-skills": {
+      "source": "community",
+      "name": "awesome-agent-skills",
+      "install": "git clone https://github.com/heilcheng/awesome-agent-skills.git  # browse the awesome list"
+    },
+    "ModelEngine-Group/nexent": {
+      "source": "tools",
+      "name": "nexent",
+      "install": "git clone https://github.com/ModelEngine-Group/nexent.git"
+    },
+    "microsoft/SkillOpt": {
+      "source": "general",
+      "name": "SkillOpt",
+      "install": "git clone https://github.com/microsoft/SkillOpt.git"
+    },
+    "eastlondoner/vibe-tools": {
+      "source": "tools",
+      "name": "vibe-tools",
+      "install": "npm i -g vibe-tools"
+    },
+    "deanpeters/Product-Manager-Skills": {
+      "source": "general",
+      "name": "Product-Manager-Skills",
+      "install": "git clone https://github.com/deanpeters/Product-Manager-Skills.git"
+    },
+    "jnMetaCode/superpowers-zh": {
+      "source": "tools",
+      "name": "superpowers-zh",
+      "install": "git clone https://github.com/jnMetaCode/superpowers-zh.git"
+    },
+    "tech-leads-club/agent-skills": {
+      "source": "general",
+      "name": "agent-skills",
+      "install": "npm i -g agent-skills"
+    },
+    "calesthio/OpenMontage": {
+      "source": "tools",
+      "name": "OpenMontage",
+      "install": "git clone https://github.com/calesthio/OpenMontage.git"
+    },
+    "twostraws/SwiftUI-Agent-Skill": {
+      "source": "tools",
+      "name": "SwiftUI-Agent-Skill",
+      "install": "git clone https://github.com/twostraws/SwiftUI-Agent-Skill.git"
+    },
+    "Tencent/AI-Infra-Guard": {
+      "source": "general",
+      "name": "AI-Infra-Guard",
+      "install": "git clone https://github.com/Tencent/AI-Infra-Guard.git"
+    },
+    "memodb-io/Acontext": {
+      "source": "general",
+      "name": "Acontext",
+      "install": "npm i -g Acontext"
+    },
+    "gotalab/cc-sdd": {
+      "source": "tools",
+      "name": "cc-sdd",
+      "install": "npm i -g cc-sdd"
+    },
+    "SamurAIGPT/Generative-Media-Skills": {
+      "source": "tools",
+      "name": "Generative-Media-Skills",
+      "install": "git clone https://github.com/SamurAIGPT/Generative-Media-Skills.git"
+    },
+    "nexu-io/nexu": {
+      "source": "tools",
+      "name": "nexu",
+      "install": "npm i -g nexu"
+    },
+    "taishi-i/awesome-ChatGPT-repositories": {
+      "source": "community",
+      "name": "awesome-ChatGPT-repositories",
+      "install": "git clone https://github.com/taishi-i/awesome-ChatGPT-repositories.git  # browse the awesome list"
+    },
+    "IvanMurzak/Unity-MCP": {
+      "source": "tools",
+      "name": "Unity-MCP",
+      "install": "git clone https://github.com/IvanMurzak/Unity-MCP.git"
+    },
+    "FireRedTeam/FireRed-OpenStoryline": {
+      "source": "tools",
+      "name": "FireRed-OpenStoryline",
+      "install": "git clone https://github.com/FireRedTeam/FireRed-OpenStoryline.git"
+    },
+    "opensquilla/opensquilla": {
+      "source": "general",
+      "name": "opensquilla",
+      "install": "git clone https://github.com/opensquilla/opensquilla.git"
+    },
+    "SharpAI/DeepCamera": {
+      "source": "general",
+      "name": "DeepCamera",
+      "install": "npm i -g DeepCamera"
+    },
+    "google/agents-cli": {
+      "source": "tools",
+      "name": "agents-cli",
+      "install": "git clone https://github.com/google/agents-cli.git"
+    },
+    "BAAI-Agents/Cradle": {
+      "source": "general",
+      "name": "Cradle",
+      "install": "git clone https://github.com/BAAI-Agents/Cradle.git"
+    },
+    "jeremylongshore/claude-code-plugins-plus-skills": {
+      "source": "tools",
+      "name": "claude-code-plugins-plus-skills",
+      "install": "git clone https://github.com/jeremylongshore/claude-code-plugins-plus-skills.git"
+    },
+    "rohitg00/pro-workflow": {
+      "source": "general",
+      "name": "pro-workflow",
+      "install": "npm i -g pro-workflow"
+    },
+    "foryourhealth111-pixel/Vibe-Skills": {
+      "source": "tools",
+      "name": "Vibe-Skills",
+      "install": "git clone https://github.com/foryourhealth111-pixel/Vibe-Skills.git"
+    },
+    "runkids/skillshare": {
+      "source": "tools",
+      "name": "skillshare",
+      "install": "go install github.com/runkids/skillshare@latest"
+    },
+    "eugeniughelbur/obsidian-second-brain": {
+      "source": "tools",
+      "name": "obsidian-second-brain",
+      "install": "git clone https://github.com/eugeniughelbur/obsidian-second-brain.git"
+    },
+    "codejunkie99/agentic-stack": {
+      "source": "general",
+      "name": "agentic-stack",
+      "install": "git clone https://github.com/codejunkie99/agentic-stack.git"
+    },
+    "aaron-he-zhu/seo-geo-claude-skills": {
+      "source": "general",
+      "name": "seo-geo-claude-skills",
+      "install": "git clone https://github.com/aaron-he-zhu/seo-geo-claude-skills.git"
+    },
+    "iamzhihuix/skills-manage": {
+      "source": "tools",
+      "name": "skills-manage",
+      "install": "npm i -g skills-manage"
+    },
+    "softaworks/agent-toolkit": {
+      "source": "tools",
+      "name": "agent-toolkit",
+      "install": "git clone https://github.com/softaworks/agent-toolkit.git  # browse the awesome list"
+    },
+    "samber/cc-skills-golang": {
+      "source": "general",
+      "name": "cc-skills-golang",
+      "install": "go install github.com/samber/cc-skills-golang@latest"
+    },
+    "twostraws/Swift-Agent-Skills": {
+      "source": "general",
+      "name": "Swift-Agent-Skills",
+      "install": "git clone https://github.com/twostraws/Swift-Agent-Skills.git  # browse the awesome list"
+    },
+    "mgechev/skills-best-practices": {
+      "source": "general",
+      "name": "skills-best-practices",
+      "install": "git clone https://github.com/mgechev/skills-best-practices.git"
+    },
+    "xingkongliang/skills-manager": {
+      "source": "tools",
+      "name": "skills-manager",
+      "install": "git clone https://github.com/xingkongliang/skills-manager.git"
+    },
+    "jjyaoao/HelloAgents": {
+      "source": "general",
+      "name": "HelloAgents",
+      "install": "git clone https://github.com/jjyaoao/HelloAgents.git"
+    },
+    "browser-act/skills": {
+      "source": "tools",
+      "name": "skills",
+      "install": "git clone https://github.com/browser-act/skills.git"
+    },
+    "ciembor/agent-rules-books": {
+      "source": "general",
+      "name": "agent-rules-books",
+      "install": "git clone https://github.com/ciembor/agent-rules-books.git"
+    },
+    "didilili/ai-agents-from-zero": {
+      "source": "general",
+      "name": "ai-agents-from-zero",
+      "install": "git clone https://github.com/didilili/ai-agents-from-zero.git"
+    },
+    "MicrosoftDocs/mcp": {
+      "source": "tools",
+      "name": "mcp",
+      "install": "npm i -g mcp"
+    },
+    "brycewang-stanford/Auto-Empirical-Research-Skills": {
+      "source": "general",
+      "name": "Auto-Empirical-Research-Skills",
+      "install": "git clone https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills.git  # browse the awesome list"
+    },
+    "Eronred/aso-skills": {
+      "source": "general",
+      "name": "aso-skills",
+      "install": "git clone https://github.com/Eronred/aso-skills.git"
+    },
+    "Shpigford/chops": {
+      "source": "general",
+      "name": "chops",
+      "install": "git clone https://github.com/Shpigford/chops.git"
+    },
+    "CloudAI-X/claude-workflow-v2": {
+      "source": "general",
+      "name": "claude-workflow-v2",
+      "install": "git clone https://github.com/CloudAI-X/claude-workflow-v2.git"
+    },
+    "FrancyJGLisboa/agent-skill-creator": {
+      "source": "tools",
+      "name": "agent-skill-creator",
+      "install": "git clone https://github.com/FrancyJGLisboa/agent-skill-creator.git"
+    },
+    "EtienneLescot/n8n-as-code": {
+      "source": "general",
+      "name": "n8n-as-code",
+      "install": "npm i -g n8n-as-code"
+    },
+    "rohitg00/skillkit": {
+      "source": "general",
+      "name": "skillkit",
+      "install": "npm i -g skillkit"
+    },
+    "bergside/awesome-design-skills": {
+      "source": "community",
+      "name": "awesome-design-skills",
+      "install": "git clone https://github.com/bergside/awesome-design-skills.git  # browse the awesome list"
+    },
+    "microsoft/hve-core": {
+      "source": "general",
+      "name": "hve-core",
+      "install": "git clone https://github.com/microsoft/hve-core.git"
+    },
+    "thClaws/thClaws": {
+      "source": "tools",
+      "name": "thClaws",
+      "install": "git clone https://github.com/thClaws/thClaws.git"
+    },
+    "NeoLabHQ/context-engineering-kit": {
+      "source": "tools",
+      "name": "context-engineering-kit",
+      "install": "npm i -g context-engineering-kit"
+    },
+    "MoizIbnYousaf/Ai-Agent-Skills": {
+      "source": "general",
+      "name": "Ai-Agent-Skills",
+      "install": "git clone https://github.com/MoizIbnYousaf/Ai-Agent-Skills.git  # browse the awesome list"
+    },
+    "bergside/typeui": {
+      "source": "tools",
+      "name": "typeui",
+      "install": "npm i -g typeui"
+    },
+    "numman-ali/n-skills": {
+      "source": "general",
+      "name": "n-skills",
+      "install": "git clone https://github.com/numman-ali/n-skills.git  # browse the awesome list"
+    },
+    "SamurAIGPT/awesome-openclaw": {
+      "source": "community",
+      "name": "awesome-openclaw",
+      "install": "git clone https://github.com/SamurAIGPT/awesome-openclaw.git  # browse the awesome list"
+    },
+    "new-silvermoon/awesome-android-agent-skills": {
+      "source": "community",
+      "name": "awesome-android-agent-skills",
+      "install": "git clone https://github.com/new-silvermoon/awesome-android-agent-skills.git  # browse the awesome list"
+    },
+    "milisp/codexia": {
+      "source": "tools",
+      "name": "codexia",
+      "install": "npm i -g codexia"
+    },
+    "oracle/skills": {
+      "source": "general",
+      "name": "skills",
+      "install": "git clone https://github.com/oracle/skills.git  # browse the awesome list"
+    },
+    "skillmatic-ai/awesome-agent-skills": {
+      "source": "community",
+      "name": "awesome-agent-skills",
+      "install": "git clone https://github.com/skillmatic-ai/awesome-agent-skills.git  # browse the awesome list"
+    },
+    "Railly/agentfiles": {
+      "source": "tools",
+      "name": "agentfiles",
+      "install": "npm i -g agentfiles"
+    },
+    "MicrosoftDocs/Agent-Skills": {
+      "source": "general",
+      "name": "Agent-Skills",
+      "install": "git clone https://github.com/MicrosoftDocs/Agent-Skills.git  # browse the awesome list"
+    },
+    "maxbogo/awesome-ai-tools-for-ui": {
+      "source": "community",
+      "name": "awesome-ai-tools-for-ui",
+      "install": "git clone https://github.com/maxbogo/awesome-ai-tools-for-ui.git  # browse the awesome list"
+    },
+    "dbt-labs/dbt-agent-skills": {
+      "source": "general",
+      "name": "dbt-agent-skills",
+      "install": "git clone https://github.com/dbt-labs/dbt-agent-skills.git  # browse the awesome list"
+    },
+    "Gentleman-Programming/Gentleman-Skills": {
+      "source": "general",
+      "name": "Gentleman-Skills",
+      "install": "git clone https://github.com/Gentleman-Programming/Gentleman-Skills.git  # browse the awesome list"
+    },
+    "Code-and-Sorts/awesome-copilot-agents": {
+      "source": "community",
+      "name": "awesome-copilot-agents",
+      "install": "git clone https://github.com/Code-and-Sorts/awesome-copilot-agents.git  # browse the awesome list"
+    },
+    "aitytech/agentkits-marketing": {
+      "source": "general",
+      "name": "agentkits-marketing",
+      "install": "git clone https://github.com/aitytech/agentkits-marketing.git"
+    },
+    "huytieu/COG-second-brain": {
+      "source": "tools",
+      "name": "COG-second-brain",
+      "install": "git clone https://github.com/huytieu/COG-second-brain.git"
+    },
+    "VikashLoomba/copilot-mcp": {
+      "source": "tools",
+      "name": "copilot-mcp",
+      "install": "npm i -g copilot-mcp"
+    },
+    "aldefy/compose-skill": {
+      "source": "tools",
+      "name": "compose-skill",
+      "install": "git clone https://github.com/aldefy/compose-skill.git"
+    },
+    "liyupi/yupi-hot-monitor": {
+      "source": "tools",
+      "name": "yupi-hot-monitor",
+      "install": "npm i -g yupi-hot-monitor"
+    },
+    "forcedotcom/sf-skills": {
+      "source": "tools",
+      "name": "sf-skills",
+      "install": "git clone https://github.com/forcedotcom/sf-skills.git  # browse the awesome list"
+    },
+    "meodai/skill.color-expert": {
+      "source": "general",
+      "name": "skill.color-expert",
+      "install": "git clone https://github.com/meodai/skill.color-expert.git"
+    },
+    "eat-pray-ai/yutu": {
+      "source": "tools",
+      "name": "yutu",
+      "install": "go install github.com/eat-pray-ai/yutu@latest"
+    },
+    "managedcode/dotnet-skills": {
+      "source": "tools",
+      "name": "dotnet-skills",
+      "install": "git clone https://github.com/managedcode/dotnet-skills.git"
+    },
+    "mxyhi/ok-skills": {
+      "source": "tools",
+      "name": "ok-skills",
+      "install": "git clone https://github.com/mxyhi/ok-skills.git  # browse the awesome list"
+    },
+    "codexstar69/bug-hunter": {
+      "source": "tools",
+      "name": "bug-hunter",
+      "install": "npm i -g bug-hunter"
+    },
+    "hashgraph-online/hol-guard": {
+      "source": "tools",
+      "name": "hol-guard",
+      "install": "git clone https://github.com/hashgraph-online/hol-guard.git"
+    },
+    "agentregistry-dev/agentregistry": {
+      "source": "general",
+      "name": "agentregistry",
+      "install": "git clone https://github.com/agentregistry-dev/agentregistry.git  # browse the awesome list"
+    },
+    "mlhher/late-cli": {
+      "source": "tools",
+      "name": "late-cli",
+      "install": "go install github.com/mlhher/late-cli@latest"
+    },
+    "microsoft/power-platform-skills": {
+      "source": "general",
+      "name": "power-platform-skills",
+      "install": "npm i -g power-platform-skills"
+    },
+    "plmbr/notebook-intelligence": {
+      "source": "general",
+      "name": "notebook-intelligence",
+      "install": "git clone https://github.com/plmbr/notebook-intelligence.git"
+    },
+    "dsifry/metaswarm": {
+      "source": "tools",
+      "name": "metaswarm",
+      "install": "git clone https://github.com/dsifry/metaswarm.git"
+    },
+    "recomby-ai/recomby-geo": {
+      "source": "tools",
+      "name": "recomby-geo",
+      "install": "git clone https://github.com/recomby-ai/recomby-geo.git  # browse the awesome list"
+    },
+    "microsoft/skills-for-copilot-studio": {
+      "source": "tools",
+      "name": "skills-for-copilot-studio",
+      "install": "npm i -g skills-for-copilot-studio"
+    },
+    "keli-wen/agentic-harness-patterns-skill": {
+      "source": "tools",
+      "name": "agentic-harness-patterns-skill",
+      "install": "git clone https://github.com/keli-wen/agentic-harness-patterns-skill.git"
+    },
+    "chrlsio/agent-skills": {
+      "source": "tools",
+      "name": "agent-skills",
+      "install": "npm i -g agent-skills"
+    },
+    "cosmicstack-labs/mercury-agent-skills": {
+      "source": "general",
+      "name": "mercury-agent-skills",
+      "install": "git clone https://github.com/cosmicstack-labs/mercury-agent-skills.git  # browse the awesome list"
+    },
+    "JSONbored/awesome-claude": {
+      "source": "community",
+      "name": "awesome-claude",
+      "install": "git clone https://github.com/JSONbored/awesome-claude.git  # browse the awesome list"
+    },
+    "Mathews-Tom/armory": {
+      "source": "general",
+      "name": "armory",
+      "install": "git clone https://github.com/Mathews-Tom/armory.git  # browse the awesome list"
+    },
+    "hoodini/ai-agents-skills": {
+      "source": "general",
+      "name": "ai-agents-skills",
+      "install": "git clone https://github.com/hoodini/ai-agents-skills.git  # browse the awesome list"
+    },
+    "littleben/awesomeAgentskills": {
+      "source": "community",
+      "name": "awesomeAgentskills",
+      "install": "git clone https://github.com/littleben/awesomeAgentskills.git  # browse the awesome list"
+    },
+    "yzhao062/anywhere-agents": {
+      "source": "general",
+      "name": "anywhere-agents",
+      "install": "git clone https://github.com/yzhao062/anywhere-agents.git  # browse the awesome list"
+    },
+    "AbsolutelySkilled/AbsolutelySkilled": {
+      "source": "community",
+      "name": "AbsolutelySkilled",
+      "install": "git clone https://github.com/AbsolutelySkilled/AbsolutelySkilled.git"
+    },
+    "NeverSight/learn-skills.dev": {
+      "source": "tools",
+      "name": "learn-skills.dev",
+      "install": "git clone https://github.com/NeverSight/learn-skills.dev.git  # browse the awesome list"
+    },
+    "sendaifun/solana-new": {
+      "source": "general",
+      "name": "solana-new",
+      "install": "git clone https://github.com/sendaifun/solana-new.git  # browse the awesome list"
+    },
+    "PramodDutta/qaskills": {
+      "source": "general",
+      "name": "qaskills",
+      "install": "git clone https://github.com/PramodDutta/qaskills.git  # browse the awesome list"
+    },
+    "Kilo-Org/kilo-marketplace": {
+      "source": "tools",
+      "name": "kilo-marketplace",
+      "install": "git clone https://github.com/Kilo-Org/kilo-marketplace.git  # browse the awesome list"
+    },
+    "EvoMap/awesome-agent-evolution": {
+      "source": "community",
+      "name": "awesome-agent-evolution",
+      "install": "git clone https://github.com/EvoMap/awesome-agent-evolution.git  # browse the awesome list"
+    },
+    "makoMakoGo/fish-claude": {
+      "source": "tools",
+      "name": "fish-claude",
+      "install": "git clone https://github.com/makoMakoGo/fish-claude.git"
+    },
+    "Dicklesworthstone/jeffreysprompts.com": {
+      "source": "general",
+      "name": "jeffreysprompts.com",
+      "install": "git clone https://github.com/Dicklesworthstone/jeffreysprompts.com.git  # browse the awesome list"
     }
   },
   "categories": [
@@ -135,13 +835,34 @@
       "description": "OpenAI 官方精选的 skills，$skill-installer 可直接安装",
       "color": "#6366f1",
       "groups": [
-        {"id": "figma", "label": "Figma"},
-        {"id": "github", "label": "GitHub"},
-        {"id": "notion", "label": "Notion"},
-        {"id": "playwright", "label": "Playwright"},
-        {"id": "deploy", "label": "Deployment"},
-        {"id": "security", "label": "Security"},
-        {"id": "other", "label": "Other"}
+        {
+          "id": "figma",
+          "label": "Figma"
+        },
+        {
+          "id": "github",
+          "label": "GitHub"
+        },
+        {
+          "id": "notion",
+          "label": "Notion"
+        },
+        {
+          "id": "playwright",
+          "label": "Playwright"
+        },
+        {
+          "id": "deploy",
+          "label": "Deployment"
+        },
+        {
+          "id": "security",
+          "label": "Security"
+        },
+        {
+          "id": "other",
+          "label": "Other"
+        }
       ]
     },
     {
