@@ -171,6 +171,23 @@ window.I18N = (function () {
       license: "MIT License",
       source: "Source",
       dataUpdated: "Data updated",
+      sortBy: "Sort",
+      sortStarsDesc: "⭐ Most",
+      sortStarsAsc: "⭐ Fewest",
+      sortNameAsc: "A → Z",
+      sortNameDesc: "Z → A",
+
+      pagePrev: "← Prev",
+      pageNext: "Next →",
+
+      statsTitle: "📊 Statistics",
+      statsBySource: "By Source",
+      statsTopRepos: "Top 10 Repos",
+
+      footerDesc: "AI Agent Skills Index",
+      footerIssues: "Issues",
+      footerPR: "Contribute",
+
 
       langZh: "中",
       langEn: "EN",
