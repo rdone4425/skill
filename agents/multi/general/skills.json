@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "general",
-    "count": 8,
+    "count": 9,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -100,6 +100,18 @@
       "desc": "Battle-tested skill library for AI agents. Save 98% of API costs with ready-to-use code for crypto, PDFs, search, web scraping & more. No trial-and-er",
       "url": "https://github.com/besoeasy/open-skills",
       "install": "git clone https://github.com/besoeasy/open-skills.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "awesome-agent-skills",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "itgoyo/awesome-agent-skills",
+      "stars": 118,
+      "desc": "收集全网最热门的Agent-Skills项目",
+      "url": "https://github.com/itgoyo/awesome-agent-skills",
+      "install": "git clone https://github.com/itgoyo/awesome-agent-skills.git",
       "functionCategory": "general"
     }
   ]

@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "data-ai",
-    "count": 10,
+    "count": 11,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -124,6 +124,18 @@
       "desc": "ICT/SMC trading-knowledge skill for AI coding agents (Claude Code / Codex / OpenClaw / Hermes)",
       "url": "https://github.com/MobiusQuant/OpenMobius-skill",
       "install": "git clone https://github.com/MobiusQuant/OpenMobius-skill.git",
+      "functionCategory": "data-ai"
+    },
+    {
+      "name": "evolver",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "EvoMap/evolver",
+      "stars": 7810,
+      "desc": "The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsules, and Events. | evomap.ai",
+      "url": "https://github.com/EvoMap/evolver",
+      "install": "npm i -g evolver",
       "functionCategory": "data-ai"
     }
   ]

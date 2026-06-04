@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "dev-tools",
-    "count": 36,
+    "count": 45,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -436,6 +436,114 @@
       "desc": "Unified real-time search engine skill for AI agents.",
       "url": "https://github.com/anysearch-ai/anysearch-mcp-server",
       "install": "git clone https://github.com/anysearch-ai/anysearch-mcp-server.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "lobehub",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "lobehub/lobehub",
+      "stars": 78187,
+      "desc": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
+      "url": "https://github.com/lobehub/lobehub",
+      "install": "npm i -g lobehub",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "CodePilot",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "op7418/CodePilot",
+      "stars": 5915,
+      "desc": "A multi-model AI agent desktop client — connect any AI provider, extend with MCP & skills, control from your phone. Built with Electron + Next.js.",
+      "url": "https://github.com/op7418/CodePilot",
+      "install": "npm i -g CodePilot",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "fast-agent",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "evalstate/fast-agent",
+      "stars": 3807,
+      "desc": "Code, Build and Evaluate agents - excellent Model and Skills/MCP/ACP Support",
+      "url": "https://github.com/evalstate/fast-agent",
+      "install": "pip install fast-agent",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "compound-engineering-plugin",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "EveryInc/compound-engineering-plugin",
+      "stars": 19729,
+      "desc": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "install": "npm i -g compound-engineering-plugin",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "SocratiCode",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "giancarloerra/SocratiCode",
+      "stars": 2802,
+      "desc": "Enterprise-grade (40m+ LOC) codebase intelligence, zero-setup, local & private Plugin/Skill/Extension or MCP: hybrid semantic search, polyglot dependency graphs, symbol-level impact analysis & call-fl",
+      "url": "https://github.com/giancarloerra/SocratiCode",
+      "install": "npm i -g SocratiCode",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "agent-rules",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "steipete/agent-rules",
+      "stars": 5683,
+      "desc": "Rules and Knowledge to work better with agents such as Claude Code or Cursor",
+      "url": "https://github.com/steipete/agent-rules",
+      "install": "git clone https://github.com/steipete/agent-rules.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "ruler",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "intellectronica/ruler",
+      "stars": 2730,
+      "desc": "Ruler — apply the same rules to all coding agents",
+      "url": "https://github.com/intellectronica/ruler",
+      "install": "npm i -g ruler",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "HarnessKit",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "RealZST/HarnessKit",
+      "stars": 299,
+      "desc": "More than a skill manager — manage skills, MCP servers, plugins, hooks, CLIs, configs, memory & rules across every AI coding agent. 🌟 Star if you like it!",
+      "url": "https://github.com/RealZST/HarnessKit",
+      "install": "cargo install HarnessKit",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "meta-llm-charter",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "entropyvortex/meta-llm-charter",
+      "stars": 238,
+      "desc": "Compact operational charter that turns LLM coding agents into disciplined principal engineers. Eleven rules + one meta-rule.",
+      "url": "https://github.com/entropyvortex/meta-llm-charter",
+      "install": "npm i -g meta-llm-charter",
       "functionCategory": "dev-tools"
     }
   ]

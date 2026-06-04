@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "data-ai",
-    "count": 3,
+    "count": 4,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -40,6 +40,18 @@
       "desc": "A curated collection of skills for Claude Code and other AI agents | 精选的 Claude Code 和其他 AI 智能体技能集合",
       "url": "https://github.com/littleben/awesomeAgentskills",
       "install": "git clone https://github.com/littleben/awesomeAgentskills.git  # browse the awesome list",
+      "functionCategory": "data-ai"
+    },
+    {
+      "name": "claude-skills-llm-council",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "aiwithremy/claude-skills-llm-council",
+      "stars": 429,
+      "desc": "LLM Council — a Claude Code skill that runs your decisions through 5 AI advisors with peer review",
+      "url": "https://github.com/aiwithremy/claude-skills-llm-council",
+      "install": "git clone https://github.com/aiwithremy/claude-skills-llm-council.git",
       "functionCategory": "data-ai"
     }
   ]

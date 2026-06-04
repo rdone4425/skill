@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "general",
-    "count": 3,
+    "count": 9,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -40,6 +40,78 @@
       "desc": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw",
       "url": "https://github.com/davepoon/buildwithclaude",
       "install": "git clone https://github.com/davepoon/buildwithclaude.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "awesome-claude-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "BehiSecc/awesome-claude-skills",
+      "stars": 9392,
+      "desc": "A curated list of Claude Skills.",
+      "url": "https://github.com/BehiSecc/awesome-claude-skills",
+      "install": "git clone https://github.com/BehiSecc/awesome-claude-skills.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "claude-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "simonw/claude-skills",
+      "stars": 924,
+      "desc": "The contents of /mnt/skills in Claude's code interpreter environment",
+      "url": "https://github.com/simonw/claude-skills",
+      "install": "git clone https://github.com/simonw/claude-skills.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "claude-skills-collection",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "abubakarsiddik31/claude-skills-collection",
+      "stars": 676,
+      "desc": "A curated collection of official and community-built Claude Skills – extend Anthropic's Claude with powerful, modular capabilities for productivity, creativity, coding, and more.",
+      "url": "https://github.com/abubakarsiddik31/claude-skills-collection",
+      "install": "git clone https://github.com/abubakarsiddik31/claude-skills-collection.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "ClaudeSkills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "staruhub/ClaudeSkills",
+      "stars": 447,
+      "desc": "Some sharing on Claude Skills",
+      "url": "https://github.com/staruhub/ClaudeSkills",
+      "install": "pip install ClaudeSkills",
+      "functionCategory": "general"
+    },
+    {
+      "name": "ai-labs-claude-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "ailabs-393/ai-labs-claude-skills",
+      "stars": 394,
+      "desc": "This package is use to remove the hustle of finding claudeskills and shift them into any of the user project. This project become a bridge between user's usage and claude skills ",
+      "url": "https://github.com/ailabs-393/ai-labs-claude-skills",
+      "install": "pip install ai-labs-claude-skills",
+      "functionCategory": "general"
+    },
+    {
+      "name": "awesome-claude-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "karanb192/awesome-claude-skills",
+      "stars": 366,
+      "desc": "🎯 The definitive collection of 50+ verified Awesome Claude Skills for Claude Code, Claude.ai, and API. Boost productivity with TDD, debugging, git workflows, document processing, and more. Community-d",
+      "url": "https://github.com/karanb192/awesome-claude-skills",
+      "install": "git clone https://github.com/karanb192/awesome-claude-skills.git",
       "functionCategory": "general"
     }
   ]

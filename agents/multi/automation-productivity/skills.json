@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "automation-productivity",
-    "count": 3,
+    "count": 4,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -40,6 +40,18 @@
       "desc": "AI-powered travel hacking and search with cash, points, miles, and award flights. Drop-in skills and MCP servers for Claude, Codex, and OpenCode.",
       "url": "https://github.com/borski/travel-hacking-toolkit",
       "install": "git clone https://github.com/borski/travel-hacking-toolkit.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "agents",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "wshobson/agents",
+      "stars": 36360,
+      "desc": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI",
+      "url": "https://github.com/wshobson/agents",
+      "install": "pip install agents",
       "functionCategory": "automation-productivity"
     }
   ]

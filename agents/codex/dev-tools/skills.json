@@ -2,7 +2,7 @@
   "meta": {
     "agent": "codex",
     "functionCategory": "dev-tools",
-    "count": 11,
+    "count": 15,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -136,6 +136,54 @@
       "desc": "\"Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow using the GitHub CLI (`gh`).\"",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/yeet",
       "install": "$skill-installer yeet",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "skill-codex",
+      "source": "general",
+      "agent": "codex",
+      "group": null,
+      "repo": "skills-directory/skill-codex",
+      "stars": 1290,
+      "desc": "A claude code skill to delegate prompts to codex",
+      "url": "https://github.com/skills-directory/skill-codex",
+      "install": "git clone https://github.com/skills-directory/skill-codex.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "codex-skills",
+      "source": "general",
+      "agent": "codex",
+      "group": null,
+      "repo": "am-will/codex-skills",
+      "stars": 938,
+      "desc": "",
+      "url": "https://github.com/am-will/codex-skills",
+      "install": "git clone https://github.com/am-will/codex-skills.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "codex-skills",
+      "source": "general",
+      "agent": "codex",
+      "group": null,
+      "repo": "jMerta/codex-skills",
+      "stars": 127,
+      "desc": "Codex CLI skills catalog",
+      "url": "https://github.com/jMerta/codex-skills",
+      "install": "pip install codex-skills",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "codex-plugin-cc",
+      "source": "general",
+      "agent": "codex",
+      "group": null,
+      "repo": "openai/codex-plugin-cc",
+      "stars": 20265,
+      "desc": "Use Codex from Claude Code to review code or delegate tasks.",
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "install": "npm i -g codex-plugin-cc",
       "functionCategory": "dev-tools"
     }
   ]

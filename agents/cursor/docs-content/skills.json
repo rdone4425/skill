@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "agent": "cursor",
+    "functionCategory": "docs-content",
+    "count": 1,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "ai-prompts",
+      "source": "general",
+      "agent": "cursor",
+      "group": null,
+      "repo": "instructa/ai-prompts",
+      "stars": 1047,
+      "desc": "Curated AI Prompts for Cursor Rules, Cline, Windsurf and Github Copilot",
+      "url": "https://github.com/instructa/ai-prompts",
+      "install": "npm i -g ai-prompts",
+      "functionCategory": "docs-content"
+    }
+  ]
+}

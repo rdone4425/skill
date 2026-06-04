@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "automation-productivity",
-    "count": 1,
+    "count": 5,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -16,6 +16,54 @@
       "desc": "\"Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, format",
       "url": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
       "install": "$skill-installer xlsx",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "claude-trading-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "tradermonty/claude-trading-skills",
+      "stars": 1780,
+      "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "install": "pip install claude-trading-skills",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "pm-claude-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "mohitagw15856/pm-claude-skills",
+      "stars": 930,
+      "desc": "Professional skills for Claude AI — 167 skills across 17 professions. Save 8-10 hours per week. PM stands for Professional.",
+      "url": "https://github.com/mohitagw15856/pm-claude-skills",
+      "install": "git clone https://github.com/mohitagw15856/pm-claude-skills.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "ai-marketing-claude-code-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "stars": 316,
+      "desc": "Marketing frameworks that AI actually executes. Designed for Claude Code, but could be used for OpenClaw, etc. ",
+      "url": "https://github.com/BrianRWagner/ai-marketing-claude-code-skills",
+      "install": "git clone https://github.com/BrianRWagner/ai-marketing-claude-code-skills.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "superpowers-marketplace",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "obra/superpowers-marketplace",
+      "stars": 1045,
+      "desc": "Curated Claude Code plugin marketplace",
+      "url": "https://github.com/obra/superpowers-marketplace",
+      "install": "git clone https://github.com/obra/superpowers-marketplace.git",
       "functionCategory": "automation-productivity"
     }
   ]

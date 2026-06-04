@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "design-ui",
-    "count": 14,
+    "count": 15,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -172,6 +172,18 @@
       "desc": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
       "url": "https://github.com/anthropics/skills/tree/main/skills/webapp-testing",
       "install": "$skill-installer webapp-testing",
+      "functionCategory": "design-ui"
+    },
+    {
+      "name": "swiftui-design-skill",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "Wholiver/swiftui-design-skill",
+      "stars": 125,
+      "desc": "SwiftUI Front-End Design Skills — Six Ironclad Rules Against AI Sloppiness, Design Direction Consulting, Brand Asset Guidelines, and Five-Dimensional Review. Supports all AI agent platforms, including",
+      "url": "https://github.com/Wholiver/swiftui-design-skill",
+      "install": "git clone https://github.com/Wholiver/swiftui-design-skill.git",
       "functionCategory": "design-ui"
     }
   ]

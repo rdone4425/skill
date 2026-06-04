@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "docs-content",
-    "count": 6,
+    "count": 11,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -76,6 +76,66 @@
       "desc": "\"Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted co",
       "url": "https://github.com/anthropics/skills/tree/main/skills/pptx",
       "install": "$skill-installer pptx",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "claude-office-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "tfriedel/claude-office-skills",
+      "stars": 718,
+      "desc": "Office document creation and editing skills for Claude Code - PPTX, DOCX, XLSX, and PDF workflows with automation support",
+      "url": "https://github.com/tfriedel/claude-office-skills",
+      "install": "pip install claude-office-skills",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "xhs-claude-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "chenxiachan/xhs-claude-skills",
+      "stars": 312,
+      "desc": "Claude Code slash commands for extracting Xiaohongshu posts into Obsidian notes",
+      "url": "https://github.com/chenxiachan/xhs-claude-skills",
+      "install": "git clone https://github.com/chenxiachan/xhs-claude-skills.git",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "codex-claude-academic-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "zLanqing/codex-claude-academic-skills",
+      "stars": 307,
+      "desc": "本仓库包含三个面向学术科研人员的Skills，覆盖从文献阅读、论文写作到科学计算的完整研究工作流。office-academic-skill 负责论文阅读报告与学术 PPT/Word 文档生成；research-writing-skill 提供论文写作、润色与审稿回复辅助；scientific-toolkit-skill 整合 MATLAB/Python 科学计算与期刊级图表生成。三个 Skill",
+      "url": "https://github.com/zLanqing/codex-claude-academic-skills",
+      "install": "pip install codex-claude-academic-skills",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "claude-code-guide",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "zebbern/claude-code-guide",
+      "stars": 4231,
+      "desc": "Claude Code Guide - Setup, Commands, workflows, agents, skills & tips-n-tricks go from beginner to power user!",
+      "url": "https://github.com/zebbern/claude-code-guide",
+      "install": "pip install claude-code-guide",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "arscontexta",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "agenticnotetaking/arscontexta",
+      "stars": 3388,
+      "desc": "Claude Code plugin that generates individualized knowledge systems from conversation. You describe how you think and work, have a conversation and get a complete second brain as markdown files you own",
+      "url": "https://github.com/agenticnotetaking/arscontexta",
+      "install": "git clone https://github.com/agenticnotetaking/arscontexta.git",
       "functionCategory": "docs-content"
     }
   ]
