@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "automation-productivity",
-    "count": 1,
+    "count": 14,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -16,6 +16,162 @@
       "desc": "\"Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, format",
       "url": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
       "install": "$skill-installer xlsx",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "NotFair",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "nowork-studio/NotFair",
+      "stars": 2775,
+      "desc": "Open-source Claude Code skills for SEO, GEO, Google Ads, Meta Ads",
+      "url": "https://github.com/nowork-studio/NotFair",
+      "install": "npm i -g NotFair",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "videocut-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "Ceeon/videocut-skills",
+      "stars": 1816,
+      "desc": "用 Claude Code Skills 做的视频剪辑 Agent",
+      "url": "https://github.com/Ceeon/videocut-skills",
+      "install": "npm i -g videocut-skills",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "claude-trading-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "tradermonty/claude-trading-skills",
+      "stars": 1780,
+      "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "install": "pip install claude-trading-skills",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "gtm-engineer-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "onvoyage-ai/gtm-engineer-skills",
+      "stars": 1124,
+      "desc": "Claude Code skill for improving website AEO (AI Engine Optimization) and GEO (Generative Engine Optimization) scores — 16 foundational checks, 6 intelligence dimensions, framework-specific fixes",
+      "url": "https://github.com/onvoyage-ai/gtm-engineer-skills",
+      "install": "git clone https://github.com/onvoyage-ai/gtm-engineer-skills.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "claude-skill-app-onboarding-questionnaire",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "adamlyttleapps/claude-skill-app-onboarding-questionnaire",
+      "stars": 1051,
+      "desc": " A Claude Code skill that designs and builds high-converting questionnaire-style app onboarding flows — modelled    on proven conversion patterns from top subscription apps like Mob, Headspace and Noom",
+      "url": "https://github.com/adamlyttleapps/claude-skill-app-onboarding-questionnaire",
+      "install": "git clone https://github.com/adamlyttleapps/claude-skill-app-onboarding-questionnaire.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "x-article-publisher-skill",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "wshuyi/x-article-publisher-skill",
+      "stars": 790,
+      "desc": "Claude Code skill for publishing Markdown articles to X (Twitter) Articles",
+      "url": "https://github.com/wshuyi/x-article-publisher-skill",
+      "install": "pip install x-article-publisher-skill",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "ralph-wiggum-marketer",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "muratcankoylan/ralph-wiggum-marketer",
+      "stars": 746,
+      "desc": "A Claude Code Plugin that provides an autonomous AI copywriter.",
+      "url": "https://github.com/muratcankoylan/ralph-wiggum-marketer",
+      "install": "npm i -g ralph-wiggum-marketer",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "claude-equity-research",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "quant-sentiment-ai/claude-equity-research",
+      "stars": 554,
+      "desc": "🔌 Claude Code Plugin for institutional-grade equity research.   Install with /plugin marketplace add. Generates professional   buy/sell recommendations with comprehensive fundamental   analysis, technical indicators, and risk assessment. Educational    use only - not financial advice.",
+      "url": "https://github.com/quant-sentiment-ai/claude-equity-research",
+      "install": "git clone https://github.com/quant-sentiment-ai/claude-equity-research.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "nano-banana-2-skill",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "kingbootoshi/nano-banana-2-skill",
+      "stars": 381,
+      "desc": "AI image generation CLI powered by Gemini 3 Pro. Green screen transparency, reference images, style transfer. Also a Claude Code plugin.",
+      "url": "https://github.com/kingbootoshi/nano-banana-2-skill",
+      "install": "npm i -g nano-banana-2-skill",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "pm-claude-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "mohitagw15856/pm-claude-skills",
+      "stars": 930,
+      "desc": "Professional skills for Claude AI — 167 skills across 17 professions. Save 8-10 hours per week. PM stands for Professional.",
+      "url": "https://github.com/mohitagw15856/pm-claude-skills",
+      "install": "git clone https://github.com/mohitagw15856/pm-claude-skills.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "claude-skills-llm-council",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "aiwithremy/claude-skills-llm-council",
+      "stars": 431,
+      "desc": "LLM Council — a Claude Code skill that runs your decisions through 5 AI advisors with peer review",
+      "url": "https://github.com/aiwithremy/claude-skills-llm-council",
+      "install": "git clone https://github.com/aiwithremy/claude-skills-llm-council.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "ai-marketing-claude-code-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "stars": 316,
+      "desc": "Marketing frameworks that AI actually executes. Designed for Claude Code, but could be used for OpenClaw, etc. ",
+      "url": "https://github.com/BrianRWagner/ai-marketing-claude-code-skills",
+      "install": "git clone https://github.com/BrianRWagner/ai-marketing-claude-code-skills.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "xhs-claude-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "chenxiachan/xhs-claude-skills",
+      "stars": 312,
+      "desc": "Claude Code slash commands for extracting Xiaohongshu posts into Obsidian notes",
+      "url": "https://github.com/chenxiachan/xhs-claude-skills",
+      "install": "git clone https://github.com/chenxiachan/xhs-claude-skills.git",
       "functionCategory": "automation-productivity"
     }
   ]

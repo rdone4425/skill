@@ -2,7 +2,7 @@
   "meta": {
     "agent": "codex",
     "functionCategory": "dev-tools",
-    "count": 11,
+    "count": 12,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -136,6 +136,18 @@
       "desc": "\"Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow using the GitHub CLI (`gh`).\"",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/yeet",
       "install": "$skill-installer yeet",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "skill-codex",
+      "source": "general",
+      "agent": "codex",
+      "group": null,
+      "repo": "skills-directory/skill-codex",
+      "stars": 1292,
+      "desc": "A claude code skill to delegate prompts to codex",
+      "url": "https://github.com/skills-directory/skill-codex",
+      "install": "git clone https://github.com/skills-directory/skill-codex.git",
       "functionCategory": "dev-tools"
     }
   ]

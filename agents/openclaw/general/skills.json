@@ -2,7 +2,7 @@
   "meta": {
     "agent": "openclaw",
     "functionCategory": "general",
-    "count": 8,
+    "count": 9,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -100,6 +100,18 @@
       "desc": "🇨🇳 中文开发者友好的 OpenClaw Skills 精选 | 含国产模型接入指南（DeepSeek/Qwen/GLM/Moonshot）| 2868+ Skills 分类整理",
       "url": "https://github.com/AIPMAndy/awesome-openclaw-skills-CN",
       "install": "git clone https://github.com/AIPMAndy/awesome-openclaw-skills-CN.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "openclaw-search-skills",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "blessonism/openclaw-search-skills",
+      "stars": 433,
+      "desc": "OpenClaw skills for deep search — multi-source search, content extraction, and structured research reports.",
+      "url": "https://github.com/blessonism/openclaw-search-skills",
+      "install": "pip install openclaw-search-skills",
       "functionCategory": "general"
     }
   ]

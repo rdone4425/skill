@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "design-ui",
-    "count": 14,
+    "count": 15,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -172,6 +172,18 @@
       "desc": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
       "url": "https://github.com/anthropics/skills/tree/main/skills/webapp-testing",
       "install": "$skill-installer webapp-testing",
+      "functionCategory": "design-ui"
+    },
+    {
+      "name": "nothing-design-skill",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "dominikmartn/nothing-design-skill",
+      "stars": 2411,
+      "desc": "A Claude Code skill for generating UI in the Nothing design language. Monochrome, typographic, industrial.",
+      "url": "https://github.com/dominikmartn/nothing-design-skill",
+      "install": "git clone https://github.com/dominikmartn/nothing-design-skill.git",
       "functionCategory": "design-ui"
     }
   ]

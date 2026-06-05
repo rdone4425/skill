@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "dev-tools",
-    "count": 29,
+    "count": 30,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -352,6 +352,18 @@
       "desc": "🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 16 款 AI 编程工具真正会干活",
       "url": "https://github.com/jnMetaCode/superpowers-zh",
       "install": "git clone https://github.com/jnMetaCode/superpowers-zh.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "gaster-code-releases",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "HereditaryDog/gaster-code-releases",
+      "stars": 104,
+      "desc": "Gaster Code: public local AI coding assistant with CLI, desktop app, MCP, Skills, Agents, and signed installers",
+      "url": "https://github.com/HereditaryDog/gaster-code-releases",
+      "install": "npm i -g gaster-code-releases",
       "functionCategory": "dev-tools"
     }
   ]

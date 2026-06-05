@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "general",
-    "count": 2,
+    "count": 6,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -28,6 +28,54 @@
       "desc": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
       "url": "https://github.com/JuliusBrussee/caveman",
       "install": "npm i -g caveman",
+      "functionCategory": "general"
+    },
+    {
+      "name": "claude-code-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "daymade/claude-code-skills",
+      "stars": 1144,
+      "desc": "Professional Claude Code skills marketplace featuring production-ready skills for enhanced development workflows.",
+      "url": "https://github.com/daymade/claude-code-skills",
+      "install": "pip install claude-code-skills",
+      "functionCategory": "general"
+    },
+    {
+      "name": "claude-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "Jeffallan/claude-skills",
+      "stars": 9637,
+      "desc": "66 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
+      "url": "https://github.com/Jeffallan/claude-skills",
+      "install": "pip install claude-skills",
+      "functionCategory": "general"
+    },
+    {
+      "name": "claude-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "simonw/claude-skills",
+      "stars": 924,
+      "desc": "The contents of /mnt/skills in Claude's code interpreter environment",
+      "url": "https://github.com/simonw/claude-skills",
+      "install": "git clone https://github.com/simonw/claude-skills.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "ClaudeSkills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "staruhub/ClaudeSkills",
+      "stars": 446,
+      "desc": "Some sharing on Claude Skills",
+      "url": "https://github.com/staruhub/ClaudeSkills",
+      "install": "pip install ClaudeSkills",
       "functionCategory": "general"
     }
   ]
