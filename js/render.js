@@ -7,6 +7,8 @@
   const hub = window.SkillHub = window.SkillHub || {};
   const s = hub.state;
   const { state, dom } = s;
+  let filteredCacheKey = '';
+  let filteredCacheValue = [];
 
   function renderAgentMark(agentId, className = 'agent-mark') {
     const meta = s.getAgentMeta(agentId);
@@ -47,6 +49,18 @@
   }
 
   function getFiltered() {
+    const cacheKey = [
+      state.dataVersion,
+      state.category,
+      state.subgroup || '',
+      state.keyword,
+      state.sort
+    ].join('::');
+
+    if (cacheKey === filteredCacheKey) {
+      return filteredCacheValue;
+    }
+
     let list = state.data;
 
     if (state.category !== 'all') {
@@ -58,19 +72,23 @@
     if (state.keyword) {
       const kw = state.keyword.toLowerCase();
       list = list.filter(item =>
+        String(item.searchText || '').includes(kw) ||
         item.name.toLowerCase().includes(kw) ||
         item.desc.toLowerCase().includes(kw) ||
-        item.repo.toLowerCase().includes(kw) ||
-        String(item.install || '').toLowerCase().includes(kw)
+        item.repo.toLowerCase().includes(kw)
       );
     }
 
     const [field, dir] = state.sort.split('-');
     const mul = dir === 'asc' ? 1 : -1;
     if (field === 'stars') {
-      return [...list].sort((a, b) => (a.stars - b.stars) * mul);
+      filteredCacheValue = [...list].sort((a, b) => (a.stars - b.stars) * mul);
+    } else {
+      filteredCacheValue = [...list].sort((a, b) => a.name.localeCompare(b.name) * mul);
     }
-    return [...list].sort((a, b) => a.name.localeCompare(b.name) * mul);
+
+    filteredCacheKey = cacheKey;
+    return filteredCacheValue;
   }
 
   function renderDirectoryMenu() {
@@ -83,7 +101,7 @@
       card.className = 'directory-agent-card';
       card.style.setProperty('--accent', cat.color || s.getAgentMeta(cat.id).color || '#6366f1');
 
-      const count = state.data.filter(skill => s.getSkillAgent(skill) === cat.id).length;
+      const count = cat.count || state.data.filter(skill => s.getSkillAgent(skill) === cat.id).length;
       const top = document.createElement('div');
       top.className = 'directory-agent-top';
       top.innerHTML = `
@@ -285,9 +303,9 @@
     const wrap = document.getElementById('stats');
     if (!wrap) return;
 
-    const skills = state.data.length;
+    const skills = state.meta.totalCount || state.data.length;
     const agents = state.categories.length;
-    const repos = new Set(state.data.map(item => item.repo)).size;
+    const repos = state.meta.sources || new Set(state.data.map(item => item.repo)).size;
 
     wrap.innerHTML = `
       <span class="stat-pill"><strong>${skills}</strong><span>${hub.i18n.t('skills')}</span></span>
@@ -471,6 +489,19 @@
     renderCategoryDesc();
   }
 
+  function renderListOnly() {
+    s.syncControls();
+    render();
+    s.persistState();
+  }
+
+  function renderFilterChrome() {
+    s.syncControls();
+    renderFilters();
+    render();
+    s.persistState();
+  }
+
   function renderAll() {
     s.syncControls();
     renderHeaderStats();
@@ -493,6 +524,8 @@
     renderPagination,
     render,
     renderFilters,
+    renderListOnly,
+    renderFilterChrome,
     renderAll
   };
 })();

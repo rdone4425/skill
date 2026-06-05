@@ -13,9 +13,18 @@
     hub.events.setupHistoryListener();
   }
 
-  function hydrateAndInit(data) {
-    hub.state.applyLoadedData(data);
+  async function hydrateAndInit() {
+    if (hub.data && typeof hub.data.loadIndex === 'function') {
+      const indexData = await hub.data.loadIndex();
+      hub.state.applyIndexData(indexData);
+    }
+
+    await hub.state.ensureDataForCurrentState();
     finishInit();
+
+    if (hub.data && typeof hub.data.prefetchAllData === 'function' && hub.state.state.category !== 'all') {
+      hub.data.prefetchAllData().catch(() => {});
+    }
   }
 
   function init() {
@@ -23,22 +32,9 @@
     hub.state.applyPersistedState();
     hub.i18n.applyI18n(hub.i18n.getLang());
 
-    const data = window.SKILL_DATA || window.SKILLS_DATA;
-    if (data) {
-      hydrateAndInit(data);
-      return;
-    }
-
-    if (window.SKILL_DATA_PROMISE && typeof window.SKILL_DATA_PROMISE.then === 'function') {
-      window.SKILL_DATA_PROMISE
-        .then(hydrateAndInit)
-        .catch(() => {
-          finishInit();
-        });
-      return;
-    }
-
-    finishInit();
+    hydrateAndInit().catch(() => {
+      finishInit();
+    });
   }
 
   document.addEventListener('DOMContentLoaded', init);

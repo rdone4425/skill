@@ -35,6 +35,13 @@
   };
 
   const state = {
+    meta: {
+      title: 'Skill Hub',
+      description: 'AI Agent Skills 导航站',
+      lastUpdated: '',
+      totalCount: 0,
+      sources: null
+    },
     data: [],
     categories: [],
     keyword: '',
@@ -43,7 +50,9 @@
     sort: 'stars-desc',
     groupBy: 'none',
     viewMode: 'flat',
-    page: 1
+    page: 1,
+    requestSeq: 0,
+    dataVersion: 0
   };
 
   const dom = {};
@@ -232,15 +241,46 @@
     if (dom['search-clear']) dom['search-clear'].classList.toggle('visible', Boolean(state.keyword));
   }
 
-  function applyLoadedData(data) {
-    if (!data) return;
-    state.data = data.skills || [];
-    state.categories = (data.categories || []).sort((a, b) => {
+  function sortCategories(categories) {
+    return (categories || []).sort((a, b) => {
       const orderA = getAgentMeta(a.id).order || 999;
       const orderB = getAgentMeta(b.id).order || 999;
       return orderA - orderB;
     });
+  }
+
+  function applyIndexData(indexData) {
+    if (!indexData) return;
+    if (indexData.meta) {
+      state.meta = { ...state.meta, ...indexData.meta };
+    }
+    state.categories = sortCategories(indexData.categories);
     normalizeStateAfterData();
+  }
+
+  function applyLoadedData(data) {
+    if (!data) return;
+    if (data.meta) {
+      state.meta = { ...state.meta, ...data.meta };
+    }
+    state.data = data.skills || [];
+    state.dataVersion += 1;
+    state.categories = sortCategories(data.categories);
+    normalizeStateAfterData();
+  }
+
+  async function ensureDataForCurrentState() {
+    if (!hub.data || typeof hub.data.loadForSelection !== 'function') return;
+
+    const requestSeq = ++state.requestSeq;
+    const payload = await hub.data.loadForSelection({
+      category: state.category,
+      subgroup: state.subgroup,
+      keyword: state.keyword
+    });
+
+    if (requestSeq !== state.requestSeq) return;
+    applyLoadedData(payload);
   }
 
   hub.state = {
@@ -272,6 +312,9 @@
     persistState,
     normalizeStateAfterData,
     syncControls,
-    applyLoadedData
+    sortCategories,
+    applyIndexData,
+    applyLoadedData,
+    ensureDataForCurrentState
   };
 })();

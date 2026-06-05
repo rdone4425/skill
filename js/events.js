@@ -15,18 +15,20 @@
       let timer = null;
       search.addEventListener('input', () => {
         clearTimeout(timer);
-        timer = setTimeout(() => {
+        timer = setTimeout(async () => {
           s.setKeyword(search.value);
-          r.renderAll();
+          await s.ensureDataForCurrentState();
+          r.renderListOnly();
         }, 250);
       });
     }
 
     if (dom['search-clear']) {
-      dom['search-clear'].addEventListener('click', () => {
+      dom['search-clear'].addEventListener('click', async () => {
         if (dom.search) dom.search.value = '';
         s.setKeyword('');
-        r.renderAll();
+        await s.ensureDataForCurrentState();
+        r.renderListOnly();
         if (dom.search) dom.search.focus();
       });
     }
@@ -34,38 +36,40 @@
     if (dom['sort-select']) {
       dom['sort-select'].addEventListener('change', () => {
         s.setSort(dom['sort-select'].value);
-        r.renderAll();
+        r.renderListOnly();
       });
     }
 
     if (dom['group-select']) {
       dom['group-select'].addEventListener('change', () => {
         s.setViewMode(dom['group-select'].value === 'none' ? 'flat' : 'grouped');
-        r.renderAll();
+        r.renderListOnly();
       });
     }
 
     if (dom['view-toggle']) {
       dom['view-toggle'].addEventListener('click', () => {
         s.setViewMode(state.viewMode === 'grouped' ? 'flat' : 'grouped');
-        r.renderAll();
+        r.renderListOnly();
       });
     }
 
     if (dom['category-tabs']) {
-      dom['category-tabs'].addEventListener('click', (e) => {
+      dom['category-tabs'].addEventListener('click', async (e) => {
         const btn = e.target.closest('.cat-tab');
         if (!btn) return;
         s.selectCategory(btn.dataset.id);
+        await s.ensureDataForCurrentState();
         r.renderAll();
       });
     }
 
     if (dom['subgroup-tabs']) {
-      dom['subgroup-tabs'].addEventListener('click', (e) => {
+      dom['subgroup-tabs'].addEventListener('click', async (e) => {
         const btn = e.target.closest('.sub-tab');
         if (!btn) return;
         s.selectSubgroup(btn.dataset.group || null);
+        await s.ensureDataForCurrentState();
         r.renderAll();
       });
     }
@@ -74,7 +78,7 @@
       dom['page-prev'].addEventListener('click', () => {
         if (state.page > 1) {
           state.page -= 1;
-          r.renderAll();
+          r.renderListOnly();
         }
       });
     }
@@ -82,7 +86,7 @@
     if (dom['page-next']) {
       dom['page-next'].addEventListener('click', () => {
         state.page += 1;
-        r.renderAll();
+        r.renderListOnly();
       });
     }
   }
@@ -97,7 +101,7 @@
   }
 
   function setupHistoryListener() {
-    window.addEventListener('popstate', () => {
+    window.addEventListener('popstate', async () => {
       const next = { ...s.readStoredState(), ...s.readUrlState() };
       if (typeof next.keyword === 'string') state.keyword = next.keyword;
       if (typeof next.category === 'string') state.category = next.category || 'all';
@@ -108,7 +112,7 @@
         state.groupBy = state.viewMode === 'flat' ? 'none' : 'agent';
       }
       state.page = s.parsePositiveInt(next.page, 1);
-      s.normalizeStateAfterData();
+      await s.ensureDataForCurrentState();
       r.renderAll();
     });
   }

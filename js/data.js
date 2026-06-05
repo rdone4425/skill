@@ -4,7 +4,15 @@
 (function () {
   'use strict';
 
+  const hub = window.SkillHub = window.SkillHub || {};
+
   const AGENTS_INDEX_URL = 'agents/index.json';
+  const SESSION_BUCKET_PREFIX = 'skill-hub.bucket.';
+
+  let indexPromise = null;
+  let allDataPromise = null;
+
+  const bucketCache = new Map();
 
   function fetchJson(url) {
     return fetch(url, { cache: 'no-store' }).then(response => {
@@ -15,99 +23,197 @@
     });
   }
 
+  function readBucketSessionCache(cacheKey) {
+    try {
+      const raw = sessionStorage.getItem(SESSION_BUCKET_PREFIX + cacheKey);
+      if (!raw) return null;
+      const parsed = JSON.parse(raw);
+      return Array.isArray(parsed) ? parsed : null;
+    } catch {
+      return null;
+    }
+  }
+
+  function writeBucketSessionCache(cacheKey, skills) {
+    try {
+      sessionStorage.setItem(SESSION_BUCKET_PREFIX + cacheKey, JSON.stringify(skills));
+    } catch {
+      // ignore storage failures
+    }
+  }
+
+  function normalizeSkill(skill, agentId, groupId) {
+    const install = String(skill.install || '').trim();
+    const normalized = {
+      ...skill,
+      agent: skill.agent || agentId,
+      group: groupId,
+      install
+    };
+
+    normalized.searchText = [
+      normalized.name,
+      normalized.desc,
+      normalized.repo,
+      normalized.install
+    ].filter(Boolean).join(' ').toLowerCase();
+
+    return normalized;
+  }
+
   function createCategoryMap(index) {
     const map = new Map();
 
     (index.buckets || []).forEach(bucket => {
       const agentId = bucket.agent || 'other';
       const groupId = bucket.functionCategory || 'general';
+      const bucketCount = bucket.count || 0;
 
       if (!map.has(agentId)) {
         map.set(agentId, {
           id: agentId,
+          count: 0,
           groups: new Map()
         });
       }
 
       const category = map.get(agentId);
+      category.count += bucketCount;
+
       if (!category.groups.has(groupId)) {
         category.groups.set(groupId, {
           id: groupId,
-          label: groupId
+          label: groupId,
+          count: 0
         });
       }
+
+      category.groups.get(groupId).count += bucketCount;
     });
 
     return Array.from(map.values()).map(category => ({
       id: category.id,
+      count: category.count,
       groups: Array.from(category.groups.values()).sort((a, b) => a.id.localeCompare(b.id))
     }));
   }
 
-  async function loadSkillData() {
-    const index = await fetchJson(AGENTS_INDEX_URL);
-    const categories = createCategoryMap(index);
-
-    const bucketFiles = (index.buckets || []).map(bucket => ({
-      agent: bucket.agent || 'other',
-      functionCategory: bucket.functionCategory || 'general',
-      url: `agents/${bucket.agent}/${bucket.functionCategory}/skills.json`
-    }));
-
-    const bucketPayloads = await Promise.all(
-      bucketFiles.map(bucket =>
-        fetchJson(bucket.url).then(payload => ({
-          agent: bucket.agent,
-          functionCategory: bucket.functionCategory,
-          payload
-        }))
-      )
-    );
-
-    const skills = [];
-    bucketPayloads.forEach(({ agent, functionCategory, payload }) => {
-      (payload.skills || []).forEach(skill => {
-        skills.push({
-          ...skill,
-          agent: skill.agent || agent,
-          group: functionCategory
-        });
-      });
-    });
-
-    const meta = {
+  function createMeta(index, overrides = {}) {
+    return {
       title: 'Skill Hub',
       description: 'AI Agent Skills 导航站',
       lastUpdated: index.generatedAt || '',
-      totalCount: skills.length,
-      sources: new Set(skills.map(skill => skill.repo)).size
+      totalCount: index.totalSkills || 0,
+      sources: null,
+      ...overrides
     };
+  }
+
+  function prepareBuckets(index) {
+    return (index.buckets || []).map(bucket => ({
+      agent: bucket.agent || 'other',
+      functionCategory: bucket.functionCategory || 'general',
+      count: bucket.count || 0,
+      cacheKey: `${bucket.agent || 'other'}__${bucket.functionCategory || 'general'}`,
+      url: `agents/${bucket.agent}/${bucket.functionCategory}/skills.json`
+    }));
+  }
+
+  function filterBuckets(buckets, selection) {
+    return buckets.filter(bucket => {
+      if (selection.category !== 'all' && bucket.agent !== selection.category) {
+        return false;
+      }
+      if (selection.subgroup && bucket.functionCategory !== selection.subgroup) {
+        return false;
+      }
+      return true;
+    });
+  }
+
+  function loadBucket(bucket) {
+    if (bucketCache.has(bucket.cacheKey)) {
+      return bucketCache.get(bucket.cacheKey);
+    }
+
+    const cached = readBucketSessionCache(bucket.cacheKey);
+    if (cached) {
+      const cachedPromise = Promise.resolve(cached);
+      bucketCache.set(bucket.cacheKey, cachedPromise);
+      return cachedPromise;
+    }
+
+    const promise = fetchJson(bucket.url)
+      .then(payload => {
+        const skills = (payload.skills || []).map(skill =>
+          normalizeSkill(skill, bucket.agent, bucket.functionCategory)
+        );
+        writeBucketSessionCache(bucket.cacheKey, skills);
+        return skills;
+      });
+
+    bucketCache.set(bucket.cacheKey, promise);
+    return promise;
+  }
+
+  async function loadBuckets(buckets) {
+    const groups = await Promise.all(buckets.map(loadBucket));
+    return groups.flat();
+  }
+
+  function loadIndex() {
+    if (indexPromise) return indexPromise;
+
+    indexPromise = fetchJson(AGENTS_INDEX_URL).then(index => ({
+      raw: index,
+      meta: createMeta(index),
+      categories: createCategoryMap(index),
+      buckets: prepareBuckets(index)
+    }));
+
+    return indexPromise;
+  }
+
+  function prefetchAllData() {
+    if (allDataPromise) return allDataPromise;
+
+    allDataPromise = loadIndex().then(async indexData => {
+      const skills = await loadBuckets(indexData.buckets);
+      return {
+        skills,
+        sources: new Set(skills.map(skill => skill.repo)).size
+      };
+    });
+
+    return allDataPromise;
+  }
+
+  async function loadForSelection(selection) {
+    const indexData = await loadIndex();
+
+    const shouldLoadAllBuckets = selection.category === 'all' && !selection.subgroup;
+    if (shouldLoadAllBuckets) {
+      const allData = await prefetchAllData();
+      return {
+        meta: createMeta(indexData.raw, { sources: allData.sources }),
+        categories: indexData.categories,
+        skills: allData.skills
+      };
+    }
+
+    const buckets = filterBuckets(indexData.buckets, selection);
+    const skills = await loadBuckets(buckets);
 
     return {
-      meta,
-      categories,
+      meta: indexData.meta,
+      categories: indexData.categories,
       skills
     };
   }
 
-  window.SKILL_DATA_PROMISE = loadSkillData()
-    .then(data => {
-      window.SKILL_DATA = data;
-      return data;
-    })
-    .catch(error => {
-      console.error('Failed to load agent data:', error);
-      window.SKILL_DATA = {
-        meta: {
-          title: 'Skill Hub',
-          description: 'AI Agent Skills 导航站',
-          lastUpdated: '',
-          totalCount: 0,
-          sources: 0
-        },
-        categories: [],
-        skills: []
-      };
-      return window.SKILL_DATA;
-    });
+  hub.data = {
+    loadIndex,
+    loadForSelection,
+    prefetchAllData
+  };
 })();
