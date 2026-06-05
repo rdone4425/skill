@@ -172,6 +172,34 @@
     }
   }
 
+  function renderLoadedData(data) {
+    if (!data) return;
+    renderSummary(data);
+    renderStatsTable(data);
+    renderAgentCards(data);
+  }
+
+  function loadStatsData() {
+    const directData = window.SKILL_DATA || window.SKILLS_DATA;
+    if (directData) {
+      return Promise.resolve(directData);
+    }
+
+    if (window.SKILL_DATA_PROMISE && typeof window.SKILL_DATA_PROMISE.then === 'function') {
+      return window.SKILL_DATA_PROMISE;
+    }
+
+    if (hub.data && typeof hub.data.loadForSelection === 'function') {
+      return hub.data.loadForSelection({
+        category: 'all',
+        subgroup: null,
+        keyword: ''
+      });
+    }
+
+    return Promise.resolve(null);
+  }
+
   function init() {
     hub.i18n.applyI18n(hub.i18n.getLang());
     applyPageI18n();
@@ -186,21 +214,9 @@
 
     window.addEventListener('langchange', applyPageI18n);
 
-    const data = window.SKILL_DATA || window.SKILLS_DATA;
-    if (data) {
-      renderSummary(data);
-      renderStatsTable(data);
-      renderAgentCards(data);
-      return;
-    }
-
-    if (window.SKILL_DATA_PROMISE && typeof window.SKILL_DATA_PROMISE.then === 'function') {
-      window.SKILL_DATA_PROMISE.then(loaded => {
-        renderSummary(loaded);
-        renderStatsTable(loaded);
-        renderAgentCards(loaded);
-      });
-    }
+    loadStatsData()
+      .then(renderLoadedData)
+      .catch(error => console.error('Failed to load stats data', error));
   }
 
   document.addEventListener('DOMContentLoaded', init);

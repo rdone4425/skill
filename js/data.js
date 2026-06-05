@@ -61,7 +61,15 @@
     return normalized;
   }
 
-  function createCategoryMap(index) {
+  function finalizeCategoryMap(map) {
+    return Array.from(map.values()).map(category => ({
+      id: category.id,
+      count: category.count,
+      groups: Array.from(category.groups.values()).sort((a, b) => a.id.localeCompare(b.id))
+    }));
+  }
+
+  function createCategoryMapFromBuckets(index) {
     const map = new Map();
 
     (index.buckets || []).forEach(bucket => {
@@ -91,11 +99,39 @@
       category.groups.get(groupId).count += bucketCount;
     });
 
-    return Array.from(map.values()).map(category => ({
-      id: category.id,
-      count: category.count,
-      groups: Array.from(category.groups.values()).sort((a, b) => a.id.localeCompare(b.id))
-    }));
+    return finalizeCategoryMap(map);
+  }
+
+  function createCategoryMapFromSkills(skills) {
+    const map = new Map();
+
+    (skills || []).forEach(skill => {
+      const agentId = skill.agent || 'other';
+      const groupId = skill.group || 'general';
+
+      if (!map.has(agentId)) {
+        map.set(agentId, {
+          id: agentId,
+          count: 0,
+          groups: new Map()
+        });
+      }
+
+      const category = map.get(agentId);
+      category.count += 1;
+
+      if (!category.groups.has(groupId)) {
+        category.groups.set(groupId, {
+          id: groupId,
+          label: groupId,
+          count: 0
+        });
+      }
+
+      category.groups.get(groupId).count += 1;
+    });
+
+    return finalizeCategoryMap(map);
   }
 
   function createMeta(index, overrides = {}) {
@@ -161,13 +197,26 @@
     return groups.flat();
   }
 
+  function createSummaryFromSkills(index, skills) {
+    const repoCount = new Set((skills || []).map(skill => skill.repo).filter(Boolean)).size;
+    return {
+      meta: createMeta(index, {
+        totalCount: skills.length,
+        sources: repoCount
+      }),
+      categories: createCategoryMapFromSkills(skills),
+      skills,
+      sources: repoCount
+    };
+  }
+
   function loadIndex() {
     if (indexPromise) return indexPromise;
 
     indexPromise = fetchJson(AGENTS_INDEX_URL).then(index => ({
       raw: index,
       meta: createMeta(index),
-      categories: createCategoryMap(index),
+      categories: createCategoryMapFromBuckets(index),
       buckets: prepareBuckets(index)
     }));
 
@@ -179,10 +228,7 @@
 
     allDataPromise = loadIndex().then(async indexData => {
       const skills = await loadBuckets(indexData.buckets);
-      return {
-        skills,
-        sources: new Set(skills.map(skill => skill.repo)).size
-      };
+      return createSummaryFromSkills(indexData.raw, skills);
     });
 
     return allDataPromise;
@@ -190,23 +236,27 @@
 
   async function loadForSelection(selection) {
     const indexData = await loadIndex();
+    const summaryPromise = prefetchAllData();
 
     const shouldLoadAllBuckets = selection.category === 'all' && !selection.subgroup;
     if (shouldLoadAllBuckets) {
-      const allData = await prefetchAllData();
+      const allData = await summaryPromise;
       return {
-        meta: createMeta(indexData.raw, { sources: allData.sources }),
-        categories: indexData.categories,
+        meta: allData.meta,
+        categories: allData.categories,
         skills: allData.skills
       };
     }
 
     const buckets = filterBuckets(indexData.buckets, selection);
-    const skills = await loadBuckets(buckets);
+    const [allData, skills] = await Promise.all([
+      summaryPromise,
+      loadBuckets(buckets)
+    ]);
 
     return {
-      meta: indexData.meta,
-      categories: indexData.categories,
+      meta: allData.meta,
+      categories: allData.categories,
       skills
     };
   }
