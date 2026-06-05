@@ -404,8 +404,20 @@ a:hover { color: #a5b4fc; }
 }
 
 /* ===== Controls ===== */
+.content-shell {
+  display: grid;
+  grid-template-columns: minmax(280px, 340px) minmax(0, 1fr);
+  gap: 20px;
+  align-items: start;
+}
+
+.content-main {
+  min-width: 0;
+}
+
 .controls {
-  margin-bottom: 18px;
+  position: sticky;
+  top: 92px;
   padding: 20px;
   border: 1px solid var(--border);
   border-radius: 24px;
@@ -481,12 +493,13 @@ a:hover { color: #a5b4fc; }
 /* ===== Category Tabs ===== */
 .category-tabs {
   display: flex;
+  flex-wrap: wrap;
   gap: 6px;
   padding: 6px;
   background: rgba(120, 93, 56, 0.05);
   border: 1px solid var(--border);
   border-radius: 18px;
-  overflow-x: auto;
+  overflow: visible;
 }
 
 .tab,
@@ -577,7 +590,7 @@ a:hover { color: #a5b4fc; }
 }
 
 .results-section {
-  margin-top: 18px;
+  margin-top: 0;
 }
 
 .card-grid {
@@ -875,6 +888,11 @@ a:hover { color: #a5b4fc; }
 
   .container { padding: 20px 16px 60px; }
 
+  .content-shell {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
   .hero {
     padding: 18px 18px;
     border-radius: 22px;
@@ -897,6 +915,11 @@ a:hover { color: #a5b4fc; }
     font-size: 14px;
   }
 
+  .controls {
+    position: static;
+    top: auto;
+  }
+
   .search-input { height: 48px; font-size: 14px; }
 
   .results {
@@ -904,7 +927,11 @@ a:hover { color: #a5b4fc; }
     gap: 12px;
   }
 
-  .category-tabs { font-size: 12px; }
+  .category-tabs {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    font-size: 12px;
+  }
   .tab { padding: 6px 10px; font-size: 12px; }
 
   .category-desc { font-size: 12px; padding: 8px 12px; }
@@ -1340,19 +1367,57 @@ a:hover { color: #a5b4fc; }
 }
 
 .view-toggle {
-  background: var(--tag-bg);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  background: rgba(255,255,255,0.95);
   border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 6px 10px;
+  border-radius: 12px;
+  padding: 0;
   cursor: pointer;
   font-size: 16px;
+  color: var(--heading);
+  font-family: inherit;
   transition: all 0.2s;
 }
 
 .view-toggle:hover {
-  background: var(--accent);
-  color: white;
+  background: var(--card-hover);
+  border-color: var(--border-hover);
+}
+
+.view-toggle:focus-visible {
+  outline: none;
   border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-glow);
+}
+
+@media (min-width: 769px) {
+  .results-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .toolbar-controls {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .sort-wrap {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .sort-select {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .pagination {
+    justify-content: flex-start;
+  }
 }
 
 /* 统计表格样式 */
