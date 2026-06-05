@@ -2,7 +2,7 @@
   "meta": {
     "agent": "openclaw",
     "functionCategory": "automation-productivity",
-    "count": 7,
+    "count": 11,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -88,6 +88,54 @@
       "desc": "钉钉 AI 表格（多维表）操作技能 - OpenClaw Skill",
       "url": "https://github.com/aliramw/dingtalk-ai-table",
       "install": "git clone https://github.com/aliramw/dingtalk-ai-table.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "gogcli",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "openclaw/gogcli",
+      "stars": 7667,
+      "desc": "Google Workspace in your terminal.",
+      "url": "https://github.com/openclaw/gogcli",
+      "install": "go install github.com/openclaw/gogcli@latest",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "wacli",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "openclaw/wacli",
+      "stars": 2510,
+      "desc": "WhatsApp CLI: sync, search, send",
+      "url": "https://github.com/openclaw/wacli",
+      "install": "go install github.com/openclaw/wacli@latest",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "openclaw-lark",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "larksuite/openclaw-lark",
+      "stars": 2256,
+      "desc": "飞书官方出品的 OpenClaw 飞书/Lark Channel 插件",
+      "url": "https://github.com/larksuite/openclaw-lark",
+      "install": "npm i -g openclaw-lark",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "dingtalk-openclaw-connector",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "DingTalk-Real-AI/dingtalk-openclaw-connector",
+      "stars": 2082,
+      "desc": "Official OpenClaw DingTalk channel plugin | 钉钉官方 OpenClaw 插件",
+      "url": "https://github.com/DingTalk-Real-AI/dingtalk-openclaw-connector",
+      "install": "npm i -g dingtalk-openclaw-connector",
       "functionCategory": "automation-productivity"
     }
   ]

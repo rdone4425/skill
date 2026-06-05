@@ -2,7 +2,7 @@
   "meta": {
     "agent": "opencode",
     "functionCategory": "dev-tools",
-    "count": 4,
+    "count": 18,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -52,6 +52,174 @@
       "desc": "OpenCode skill for creating, testing, and optimizing other OpenCode skills. Adapted from Anthropic's skill-creator for Claude Code.",
       "url": "https://github.com/antongulin/opencode-skill-creator",
       "install": "npx opencode-skill-creator",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "anomalyco/opencode",
+      "stars": 170085,
+      "desc": "The open source coding agent.",
+      "url": "https://github.com/anomalyco/opencode",
+      "install": "npm i -g opencode",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "oh-my-opencode-slim",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "alvinunreal/oh-my-opencode-slim",
+      "stars": 5083,
+      "desc": "Slimmed, cleaned and fine-tuned oh-my-opencode fork, consumes much less tokens",
+      "url": "https://github.com/alvinunreal/oh-my-opencode-slim",
+      "install": "npm i -g oh-my-opencode-slim",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode.nvim",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "nickjvandyke/opencode.nvim",
+      "stars": 3540,
+      "desc": "Bridge Neovim and OpenCode AI to stay in your flow.",
+      "url": "https://github.com/nickjvandyke/opencode.nvim",
+      "install": "git clone https://github.com/nickjvandyke/opencode.nvim.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-dynamic-context-pruning",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "Opencode-DCP/opencode-dynamic-context-pruning",
+      "stars": 3198,
+      "desc": "Dynamic context pruning plugin for OpenCode - intelligently manages conversation context to optimize token usage",
+      "url": "https://github.com/Opencode-DCP/opencode-dynamic-context-pruning",
+      "install": "npm i -g opencode-dynamic-context-pruning",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-obsidian",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "mtymek/opencode-obsidian",
+      "stars": 963,
+      "desc": "Embed OpenCode AI assistant directly in Obsidian's sidebar.",
+      "url": "https://github.com/mtymek/opencode-obsidian",
+      "install": "npm i -g opencode-obsidian",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode.nvim",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "sudo-tee/opencode.nvim",
+      "stars": 842,
+      "desc": "neovim frontend for opencode - a terminal-based AI coding agent",
+      "url": "https://github.com/sudo-tee/opencode.nvim",
+      "install": "git clone https://github.com/sudo-tee/opencode.nvim.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-studio",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "Microck/opencode-studio",
+      "stars": 652,
+      "desc": "web GUI for securely managing local OpenCode configuration",
+      "url": "https://github.com/Microck/opencode-studio",
+      "install": "npm i -g opencode-studio",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-notifier",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "mohak34/opencode-notifier",
+      "stars": 627,
+      "desc": "OpenCode plugin for desktop notifications and sounds on permission, completion, and error events.",
+      "url": "https://github.com/mohak34/opencode-notifier",
+      "install": "npm i -g opencode-notifier",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-worktree",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "kdcokenny/opencode-worktree",
+      "stars": 577,
+      "desc": "Zero-friction git worktrees for OpenCode. Auto-spawns terminals, syncs files, cleans up on exit.",
+      "url": "https://github.com/kdcokenny/opencode-worktree",
+      "install": "npm i -g opencode-worktree",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-manager",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "chriswritescode-dev/opencode-manager",
+      "stars": 566,
+      "desc": "Mobile-first web interface for OpenCode AI agents. Manage, control, and code with multiple OpenCode agents from any device - your phone, tablet, or desktop. Features Git integration, file management, and real-time chat in a responsive PWA. Deploy with Docker for instant setup.",
+      "url": "https://github.com/chriswritescode-dev/opencode-manager",
+      "install": "npm i -g opencode-manager",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-quota",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "slkiser/opencode-quota",
+      "stars": 540,
+      "desc": "OpenCode quota & tokens usage with zero context window pollution. Supports OpenCode Go, Cursor, GitHub Copilot, OpenAl (Plus/Pro), Kimi Code, Alibaba Coding Plan, Chutes Al, Google Antigravity, Z.ai Coding Plan and more.",
+      "url": "https://github.com/slkiser/opencode-quota",
+      "install": "npm i -g opencode-quota",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-workspace",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "kdcokenny/opencode-workspace",
+      "stars": 473,
+      "desc": "Bundled multi-agent orchestration harness for OpenCode. One install, complete control.",
+      "url": "https://github.com/kdcokenny/opencode-workspace",
+      "install": "npm i -g opencode-workspace",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-pty",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "shekohex/opencode-pty",
+      "stars": 460,
+      "desc": "OpenCode plugin for interactive PTY management - run background processes, send input, read output with regex filtering",
+      "url": "https://github.com/shekohex/opencode-pty",
+      "install": "npm i -g opencode-pty",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-browser",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "different-ai/opencode-browser",
+      "stars": 458,
+      "desc": "OpenCode plugin to automate Chrome. Inspired by Claude in Chrome.",
+      "url": "https://github.com/different-ai/opencode-browser",
+      "install": "npm i -g opencode-browser",
       "functionCategory": "dev-tools"
     }
   ]

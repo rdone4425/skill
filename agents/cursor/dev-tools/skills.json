@@ -2,7 +2,7 @@
   "meta": {
     "agent": "cursor",
     "functionCategory": "dev-tools",
-    "count": 1,
+    "count": 2,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -16,6 +16,18 @@
       "desc": "Give Cursor Agent an AI Team and Advanced Skills",
       "url": "https://github.com/eastlondoner/vibe-tools",
       "install": "npm i -g vibe-tools",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "RIPER-5",
+      "source": "community",
+      "agent": "cursor",
+      "group": null,
+      "repo": "NeekChaw/RIPER-5",
+      "stars": 2630,
+      "desc": "神级Cursor Rule",
+      "url": "https://github.com/NeekChaw/RIPER-5",
+      "install": "git clone https://github.com/NeekChaw/RIPER-5.git",
       "functionCategory": "dev-tools"
     }
   ]

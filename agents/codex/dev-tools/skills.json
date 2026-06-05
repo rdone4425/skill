@@ -2,7 +2,7 @@
   "meta": {
     "agent": "codex",
     "functionCategory": "dev-tools",
-    "count": 12,
+    "count": 14,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -148,6 +148,30 @@
       "desc": "A claude code skill to delegate prompts to codex",
       "url": "https://github.com/skills-directory/skill-codex",
       "install": "git clone https://github.com/skills-directory/skill-codex.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "codex-skills",
+      "source": "official",
+      "agent": "codex",
+      "group": null,
+      "repo": "am-will/codex-skills",
+      "stars": 938,
+      "desc": "",
+      "url": "https://github.com/am-will/codex-skills",
+      "install": "git clone https://github.com/am-will/codex-skills.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "codex-skills",
+      "source": "official",
+      "agent": "codex",
+      "group": null,
+      "repo": "jMerta/codex-skills",
+      "stars": 127,
+      "desc": "Codex CLI skills catalog",
+      "url": "https://github.com/jMerta/codex-skills",
+      "install": "pip install codex-skills",
       "functionCategory": "dev-tools"
     }
   ]

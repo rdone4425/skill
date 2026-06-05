@@ -2,7 +2,7 @@
   "meta": {
     "agent": "openclaw",
     "functionCategory": "dev-tools",
-    "count": 4,
+    "count": 15,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -52,6 +52,138 @@
       "desc": "OpenClaw skill for scraping any URL using the Decodo Web Scraping API.",
       "url": "https://github.com/Decodo/decodo-openclaw-skill",
       "install": "pip install decodo-openclaw-skill",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "openclaw-zero-token",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "linuxhsj/openclaw-zero-token",
+      "stars": 4947,
+      "desc": "OpenClaw: Use All Major AI Models NO API Token! Claude/ChatGPT/Gemini/DeepSeek/Doubao/Grok/Qwen/Manus/Kimi",
+      "url": "https://github.com/linuxhsj/openclaw-zero-token",
+      "install": "npm i -g openclaw-zero-token",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "Peekaboo",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "openclaw/Peekaboo",
+      "stars": 4619,
+      "desc": "Peekaboo is a macOS CLI & optional MCP server that enables AI agents to capture screenshots of applications, or the entire system, with optional visual question answering through local or remote AI models.",
+      "url": "https://github.com/openclaw/Peekaboo",
+      "install": "git clone https://github.com/openclaw/Peekaboo.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "mcporter",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "openclaw/mcporter",
+      "stars": 4576,
+      "desc": "Call MCPs via TypeScript, masquerading as simple TypeScript API. Or package them as cli.",
+      "url": "https://github.com/openclaw/mcporter",
+      "install": "npm i -g mcporter",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "openclaw-mission-control",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "abhi1693/openclaw-mission-control",
+      "stars": 4019,
+      "desc": "AI Agent Orchestration Dashboard - Manage AI agents, assign tasks, and coordinate multi-agent collaboration via OpenClaw Gateway.",
+      "url": "https://github.com/abhi1693/openclaw-mission-control",
+      "install": "npm i -g openclaw-mission-control",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "openclaw-control-center",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "TianyiDataScience/openclaw-control-center",
+      "stars": 3983,
+      "desc": "Turn OpenClaw from a black box into a local control center you can see, trust, and control.",
+      "url": "https://github.com/TianyiDataScience/openclaw-control-center",
+      "install": "npm i -g openclaw-control-center",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "openclaw-china",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "BytePioneer-AI/openclaw-china",
+      "stars": 3939,
+      "desc": "OpenClaw中国插件：支持飞书，钉钉，QQ，企业微信，微信",
+      "url": "https://github.com/BytePioneer-AI/openclaw-china",
+      "install": "npm i -g openclaw-china",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "OpenClawInstaller",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "miaoxworld/OpenClawInstaller",
+      "stars": 3431,
+      "desc": "ClawdBot 一键部署工具",
+      "url": "https://github.com/miaoxworld/OpenClawInstaller",
+      "install": "git clone https://github.com/miaoxworld/OpenClawInstaller.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "acpx",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "openclaw/acpx",
+      "stars": 2818,
+      "desc": "Headless CLI client for stateful Agent Client Protocol (ACP) sessions",
+      "url": "https://github.com/openclaw/acpx",
+      "install": "npm i -g acpx",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "openclaw-studio",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "grp06/openclaw-studio",
+      "stars": 2023,
+      "desc": "A clean web dashboard for OpenClaw. Connect your Gateway, manage agents, and ship faster. ⭐️ Star if you like it!",
+      "url": "https://github.com/grp06/openclaw-studio",
+      "install": "npm i -g openclaw-studio",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "OpenClaw-bot-review",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "xmanrui/OpenClaw-bot-review",
+      "stars": 1965,
+      "desc": "A lightweight web dashboard for viewing all your OpenClaw Bots/Agents/Models/Sessions status at a glance.",
+      "url": "https://github.com/xmanrui/OpenClaw-bot-review",
+      "install": "npm i -g OpenClaw-bot-review",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "clawsweeper",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "openclaw/clawsweeper",
+      "stars": 1705,
+      "desc": "ClawSweeper scans all issues and PRs and suggest what we can close, and why. It runs every PR / Issue once a week.",
+      "url": "https://github.com/openclaw/clawsweeper",
+      "install": "npm i -g clawsweeper",
       "functionCategory": "dev-tools"
     }
   ]

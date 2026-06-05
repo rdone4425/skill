@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "dev-tools",
-    "count": 30,
+    "count": 31,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -364,6 +364,18 @@
       "desc": "Gaster Code: public local AI coding assistant with CLI, desktop app, MCP, Skills, Agents, and signed installers",
       "url": "https://github.com/HereditaryDog/gaster-code-releases",
       "install": "npm i -g gaster-code-releases",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "skillx",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "nextlevelbuilder/skillx",
+      "stars": 140,
+      "desc": "SkillX.sh — The Only Skill That Your AI Agent Needs. AI agent skills marketplace with semantic search, leaderboard, ratings, and CLI.",
+      "url": "https://github.com/nextlevelbuilder/skillx",
+      "install": "npm i -g skillx",
       "functionCategory": "dev-tools"
     }
   ]

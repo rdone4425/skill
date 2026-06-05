@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "automation-productivity",
-    "count": 14,
+    "count": 16,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -172,6 +172,30 @@
       "desc": "Claude Code slash commands for extracting Xiaohongshu posts into Obsidian notes",
       "url": "https://github.com/chenxiachan/xhs-claude-skills",
       "install": "git clone https://github.com/chenxiachan/xhs-claude-skills.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "claude-plugin-weixin",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "m1heng/claude-plugin-weixin",
+      "stars": 563,
+      "desc": "",
+      "url": "https://github.com/m1heng/claude-plugin-weixin",
+      "install": "npm i -g claude-plugin-weixin",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "claude-code-notion-plugin",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "makenotion/claude-code-notion-plugin",
+      "stars": 406,
+      "desc": "Connect Claude Code to Notion via this Plugin",
+      "url": "https://github.com/makenotion/claude-code-notion-plugin",
+      "install": "git clone https://github.com/makenotion/claude-code-notion-plugin.git",
       "functionCategory": "automation-productivity"
     }
   ]

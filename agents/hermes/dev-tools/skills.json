@@ -2,7 +2,7 @@
   "meta": {
     "agent": "hermes",
     "functionCategory": "dev-tools",
-    "count": 3,
+    "count": 10,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -40,6 +40,90 @@
       "desc": "Skills that teach Hermes Agent to write its own analytical prompts",
       "url": "https://github.com/Cranot/super-hermes",
       "install": "git clone https://github.com/Cranot/super-hermes.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "hermes-agent",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "NousResearch/hermes-agent",
+      "stars": 181345,
+      "desc": "The agent that grows with you",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "install": "pip install hermes-agent",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "hermes-agent-self-evolution",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "NousResearch/hermes-agent-self-evolution",
+      "stars": 3859,
+      "desc": "⚒ Evolutionary self-improvement for Hermes Agent — optimize skills, prompts, and code using DSPy + GEPA",
+      "url": "https://github.com/NousResearch/hermes-agent-self-evolution",
+      "install": "pip install hermes-agent-self-evolution",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "hermes-agent-control-room",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "CryptoDmitry/hermes-agent-control-room",
+      "stars": 844,
+      "desc": "Control Room-first template for managing Hermes agents from one VPS agent to specialist teams and orchestrated workflows ",
+      "url": "https://github.com/CryptoDmitry/hermes-agent-control-room",
+      "install": "git clone https://github.com/CryptoDmitry/hermes-agent-control-room.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "hermes-agent-control-room",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "shannhk/hermes-agent-control-room",
+      "stars": 520,
+      "desc": "Control Room-first template for managing Hermes agents from one VPS agent to specialist teams and orchestrated workflows",
+      "url": "https://github.com/shannhk/hermes-agent-control-room",
+      "install": "git clone https://github.com/shannhk/hermes-agent-control-room.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "hermes-agent-cn-desktop",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "Eynzof/hermes-agent-cn-desktop",
+      "stars": 239,
+      "desc": "Hermes Agent CN desktop app, Windows-First, built with Tauri, Typescript and Rust. Isolated Hermes Agent core insides. ",
+      "url": "https://github.com/Eynzof/hermes-agent-cn-desktop",
+      "install": "npm i -g hermes-agent-cn-desktop",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "portable-hermes-agent",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "aivrar/portable-hermes-agent",
+      "stars": 157,
+      "desc": "Hermes Agent made portable desktop for Windows — 100 tools, GUI, local models via LM Studio, TTS, Music, ComfyUI, workflows, tool maker. No install. No Docker. No admin rights.",
+      "url": "https://github.com/aivrar/portable-hermes-agent",
+      "install": "pip install portable-hermes-agent",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "hermes-agent-team",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "linke-ai/hermes-agent-team",
+      "stars": 137,
+      "desc": "基于 Hermes Agent 构建的本地多 Agent 团队协作 Web 系统",
+      "url": "https://github.com/linke-ai/hermes-agent-team",
+      "install": "pip install hermes-agent-team",
       "functionCategory": "dev-tools"
     }
   ]

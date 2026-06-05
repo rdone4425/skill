@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "automation-productivity",
-    "count": 4,
+    "count": 5,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -52,6 +52,18 @@
       "desc": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI",
       "url": "https://github.com/wshobson/agents",
       "install": "pip install agents",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "home-assistant-vibecode-agent",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "Coolver/home-assistant-vibecode-agent",
+      "stars": 565,
+      "desc": "Home Assistant MCP server agent. Enable Claude Code, Cursor, VS Code or any MCP-enabled IDE to help you vibe-code and manage Home Assistant: create and debug automations, design dashboards, tweak themes, modify configs, and deploy changes using natural language",
+      "url": "https://github.com/Coolver/home-assistant-vibecode-agent",
+      "install": "pip install home-assistant-vibecode-agent",
       "functionCategory": "automation-productivity"
     }
   ]

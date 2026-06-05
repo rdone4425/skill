@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "agent": "opencode",
+    "functionCategory": "docs-content",
+    "count": 3,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "awesome-opencode",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "awesome-opencode/awesome-opencode",
+      "stars": 7616,
+      "desc": "A curated list of awesome plugins, themes, agents, projects, and resources for https://opencode.ai",
+      "url": "https://github.com/awesome-opencode/awesome-opencode",
+      "install": "npm i -g awesome-opencode",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "learn-opencode",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "vbgate/learn-opencode",
+      "stars": 1534,
+      "desc": "OpenCode 中文实战课源码与内容仓库：一课一页，覆盖入门到实战工作流。",
+      "url": "https://github.com/vbgate/learn-opencode",
+      "install": "git clone https://github.com/vbgate/learn-opencode.git",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "learn-agents-from-opencode",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "yexia553/learn-agents-from-opencode",
+      "stars": 448,
+      "desc": "根据 opencode 源码编写的 agent 开发教程 ",
+      "url": "https://github.com/yexia553/learn-agents-from-opencode",
+      "install": "git clone https://github.com/yexia553/learn-agents-from-opencode.git",
+      "functionCategory": "docs-content"
+    }
+  ]
+}

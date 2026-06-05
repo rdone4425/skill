@@ -2,7 +2,7 @@
   "meta": {
     "agent": "openclaw",
     "functionCategory": "security",
-    "count": 3,
+    "count": 4,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -40,6 +40,18 @@
       "desc": "OnionClaw™ — OpenClaw skill for full Tor dark web access: search .onion sites, fetch hidden services, rotate identity, run OSINT pipeline, craw.",
       "url": "https://github.com/JacobJandon/OnionClaw",
       "install": "git clone https://github.com/JacobJandon/OnionClaw.git",
+      "functionCategory": "security"
+    },
+    {
+      "name": "openclaw-security-practice-guide",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "slowmist/openclaw-security-practice-guide",
+      "stars": 2841,
+      "desc": "This guide is designed for OpenClaw itself (Agent-facing), not as a traditional human-only hardening checklist.",
+      "url": "https://github.com/slowmist/openclaw-security-practice-guide",
+      "install": "git clone https://github.com/slowmist/openclaw-security-practice-guide.git",
       "functionCategory": "security"
     }
   ]

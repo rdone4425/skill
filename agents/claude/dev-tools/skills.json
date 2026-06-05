@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "dev-tools",
-    "count": 36,
+    "count": 43,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -436,6 +436,90 @@
       "desc": "Stack-agnostic Claude Skills covering the full website lifecycle: brand, design, content, SEO, dev, ops, growth, and research. Build, ship, audit, optimize.",
       "url": "https://github.com/rampstackco/claude-skills",
       "install": "pip install claude-skills",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "skills",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "Mindrally/skills",
+      "stars": 131,
+      "desc": "240+ Claude Code skills converted from Cursor rules. Expert coding guidelines for every major framework and language.",
+      "url": "https://github.com/Mindrally/skills",
+      "install": "git clone https://github.com/Mindrally/skills.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "claude-code-toolkit",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "xixu-me/claude-code-toolkit",
+      "stars": 133,
+      "desc": "Comprehensive cross-platform toolkit for Claude Code",
+      "url": "https://github.com/xixu-me/claude-code-toolkit",
+      "install": "git clone https://github.com/xixu-me/claude-code-toolkit.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "everything-claude-code",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "WorldFlowAI/everything-claude-code",
+      "stars": 121,
+      "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
+      "url": "https://github.com/WorldFlowAI/everything-claude-code",
+      "install": "npm i -g everything-claude-code",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "claude-plugins",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "Kamalnrf/claude-plugins",
+      "stars": 517,
+      "desc": "Lightweight registry to discover, install, and manage all public Claude plugins and agent skills for your favourite AI coding agent.",
+      "url": "https://github.com/Kamalnrf/claude-plugins",
+      "install": "npm i -g claude-plugins",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "claude-code-plugins",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "astral-sh/claude-code-plugins",
+      "stars": 261,
+      "desc": "",
+      "url": "https://github.com/astral-sh/claude-code-plugins",
+      "install": "git clone https://github.com/astral-sh/claude-code-plugins.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "claude-code-production-grade-plugin",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "nagisanzenin/claude-code-production-grade-plugin",
+      "stars": 148,
+      "desc": "Claude Code Plugin: Fully autonomous production-grade SaaS pipeline — 14 bundled skills, CEO/CTO command-driven, single install",
+      "url": "https://github.com/nagisanzenin/claude-code-production-grade-plugin",
+      "install": "git clone https://github.com/nagisanzenin/claude-code-production-grade-plugin.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "firecrawl-claude-plugin",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "firecrawl/firecrawl-claude-plugin",
+      "stars": 117,
+      "desc": "Firecrawl plugin for Claude Code - web scraping and crawling",
+      "url": "https://github.com/firecrawl/firecrawl-claude-plugin",
+      "install": "git clone https://github.com/firecrawl/firecrawl-claude-plugin.git",
       "functionCategory": "dev-tools"
     }
   ]

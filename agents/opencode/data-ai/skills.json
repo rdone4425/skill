@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "agent": "opencode",
+    "functionCategory": "data-ai",
+    "count": 2,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "opencode-supermemory",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "supermemoryai/opencode-supermemory",
+      "stars": 1279,
+      "desc": "Supermemory plugin for OpenCode",
+      "url": "https://github.com/supermemoryai/opencode-supermemory",
+      "install": "npm i -g opencode-supermemory",
+      "functionCategory": "data-ai"
+    },
+    {
+      "name": "opencode-mem",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "tickernelz/opencode-mem",
+      "stars": 828,
+      "desc": "OpenCode plugin that gives coding agents persistent memory using local vector database",
+      "url": "https://github.com/tickernelz/opencode-mem",
+      "install": "npm i -g opencode-mem",
+      "functionCategory": "data-ai"
+    }
+  ]
+}

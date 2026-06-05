@@ -2,7 +2,7 @@
   "meta": {
     "agent": "openclaw",
     "functionCategory": "data-ai",
-    "count": 1,
+    "count": 3,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -16,6 +16,30 @@
       "desc": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
       "url": "https://github.com/openclaw/openclaw",
       "install": "docker pull openclaw/openclaw",
+      "functionCategory": "data-ai"
+    },
+    {
+      "name": "OpenClaw-RL",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "Gen-Verse/OpenClaw-RL",
+      "stars": 5443,
+      "desc": "OpenClaw-RL: Train any agent simply by talking",
+      "url": "https://github.com/Gen-Verse/OpenClaw-RL",
+      "install": "pip install OpenClaw-RL",
+      "functionCategory": "data-ai"
+    },
+    {
+      "name": "OpenClaw-Medical-Skills",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "stars": 2599,
+      "desc": "The largest open-source medical AI skills library for OpenClaw🦞.",
+      "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills",
+      "install": "pip install OpenClaw-Medical-Skills",
       "functionCategory": "data-ai"
     }
   ]

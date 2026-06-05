@@ -2,7 +2,7 @@
   "meta": {
     "agent": "cursor",
     "functionCategory": "docs-content",
-    "count": 1,
+    "count": 3,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -16,6 +16,30 @@
       "desc": "Curated AI Prompts for Cursor Rules, Cline, Windsurf and Github Copilot",
       "url": "https://github.com/instructa/ai-prompts",
       "install": "npm i -g ai-prompts",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "awesome-cursor-rules-mdc",
+      "source": "community",
+      "agent": "cursor",
+      "group": null,
+      "repo": "sanjeed5/awesome-cursor-rules-mdc",
+      "stars": 3521,
+      "desc": "Curated list of awesome Cursor Rules .mdc files",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc",
+      "install": "pip install awesome-cursor-rules-mdc",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "cursor-rules",
+      "source": "community",
+      "agent": "cursor",
+      "group": null,
+      "repo": "flyeric0212/cursor-rules",
+      "stars": 1845,
+      "desc": "整理和收集来自不同项目的Cursor规则文件，提供多种编程语言和框架的规则支持。",
+      "url": "https://github.com/flyeric0212/cursor-rules",
+      "install": "git clone https://github.com/flyeric0212/cursor-rules.git",
       "functionCategory": "docs-content"
     }
   ]

@@ -2,7 +2,7 @@
   "meta": {
     "agent": "codex",
     "functionCategory": "docs-content",
-    "count": 4,
+    "count": 6,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -52,6 +52,30 @@
       "desc": "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-spec-to-implementation",
       "install": "$skill-installer notion-spec-to-implementation",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "academic-research-skills-codex",
+      "source": "official",
+      "agent": "codex",
+      "group": null,
+      "repo": "Imbad0202/academic-research-skills-codex",
+      "stars": 2921,
+      "desc": "Codex-native Academic Research Skills suite for human-in-the-loop academic research workflows",
+      "url": "https://github.com/Imbad0202/academic-research-skills-codex",
+      "install": "pip install academic-research-skills-codex",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "codex-academic-paper-skills",
+      "source": "official",
+      "agent": "codex",
+      "group": null,
+      "repo": "AAASS554/codex-academic-paper-skills",
+      "stars": 482,
+      "desc": "Codex academic paper skills for software engineering thesis planning and revision",
+      "url": "https://github.com/AAASS554/codex-academic-paper-skills",
+      "install": "pip install codex-academic-paper-skills",
       "functionCategory": "docs-content"
     }
   ]
