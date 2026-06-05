@@ -15,19 +15,17 @@
       let timer = null;
       search.addEventListener('input', () => {
         clearTimeout(timer);
-        timer = setTimeout(async () => {
+        timer = setTimeout(() => {
           s.setKeyword(search.value);
-          await s.ensureDataForCurrentState();
           r.renderListOnly();
         }, 250);
       });
     }
 
     if (dom['search-clear']) {
-      dom['search-clear'].addEventListener('click', async () => {
+      dom['search-clear'].addEventListener('click', () => {
         if (dom.search) dom.search.value = '';
         s.setKeyword('');
-        await s.ensureDataForCurrentState();
         r.renderListOnly();
         if (dom.search) dom.search.focus();
       });
@@ -40,13 +38,6 @@
       });
     }
 
-    if (dom['group-select']) {
-      dom['group-select'].addEventListener('change', () => {
-        s.setViewMode(dom['group-select'].value === 'none' ? 'flat' : 'grouped');
-        r.renderListOnly();
-      });
-    }
-
     if (dom['view-toggle']) {
       dom['view-toggle'].addEventListener('click', () => {
         s.setViewMode(state.viewMode === 'grouped' ? 'flat' : 'grouped');
@@ -55,21 +46,32 @@
     }
 
     if (dom['category-tabs']) {
-      dom['category-tabs'].addEventListener('click', async (e) => {
-        const btn = e.target.closest('.cat-tab');
-        if (!btn) return;
-        s.selectCategory(btn.dataset.id);
+      dom['category-tabs'].addEventListener('click', async (event) => {
+        const button = event.target.closest('.cat-tab');
+        if (!button) return;
+        s.selectCategory(button.dataset.id);
         await s.ensureDataForCurrentState();
         r.renderAll();
       });
     }
 
-    if (dom['subgroup-tabs']) {
-      dom['subgroup-tabs'].addEventListener('click', async (e) => {
-        const btn = e.target.closest('.sub-tab');
-        if (!btn) return;
-        s.selectSubgroup(btn.dataset.group || null);
-        await s.ensureDataForCurrentState();
+    if (dom.results) {
+      dom.results.addEventListener('click', (event) => {
+        const agentButton = event.target.closest('[data-agent-id]');
+        if (agentButton) {
+          const nextAgent = agentButton.dataset.agentId;
+          s.setAgentFilter(state.agent === nextAgent ? null : nextAgent);
+          r.renderAll();
+          return;
+        }
+      });
+    }
+
+    if (dom['category-desc']) {
+      dom['category-desc'].addEventListener('click', (event) => {
+        const clearButton = event.target.closest('[data-clear-agent]');
+        if (!clearButton) return;
+        s.setAgentFilter(null);
         r.renderAll();
       });
     }
@@ -92,9 +94,9 @@
   }
 
   function setupI18nListener() {
-    const langBtn = document.getElementById('lang-btn');
-    if (!langBtn) return;
-    langBtn.addEventListener('click', () => {
+    const langButton = document.getElementById('lang-btn');
+    if (!langButton) return;
+    langButton.addEventListener('click', () => {
       hub.i18n.setLang(hub.i18n.getLang() === 'zh' ? 'en' : 'zh');
       setTimeout(() => r.renderAll(), 50);
     });
@@ -105,12 +107,9 @@
       const next = { ...s.readStoredState(), ...s.readUrlState() };
       if (typeof next.keyword === 'string') state.keyword = next.keyword;
       if (typeof next.category === 'string') state.category = next.category || 'all';
-      state.subgroup = Object.prototype.hasOwnProperty.call(next, 'subgroup') ? (next.subgroup || null) : null;
+      state.agent = Object.prototype.hasOwnProperty.call(next, 'agent') ? (next.agent || null) : null;
       if (typeof next.sort === 'string') state.sort = next.sort || 'stars-desc';
-      if (typeof next.viewMode === 'string') {
-        state.viewMode = next.viewMode === 'flat' ? 'flat' : 'grouped';
-        state.groupBy = state.viewMode === 'flat' ? 'none' : 'agent';
-      }
+      if (typeof next.viewMode === 'string') state.viewMode = next.viewMode === 'grouped' ? 'grouped' : 'flat';
       state.page = s.parsePositiveInt(next.page, 1);
       await s.ensureDataForCurrentState();
       r.renderAll();
@@ -120,6 +119,6 @@
   hub.events = {
     bindEvents,
     setupI18nListener,
-    setupHistoryListener
+    setupHistoryListener,
   };
 })();

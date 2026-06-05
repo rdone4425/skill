@@ -10,13 +10,13 @@
   let filteredCacheKey = '';
   let filteredCacheValue = [];
 
-  function renderAgentMark(agentId, className = 'agent-mark') {
+  function renderAgentMark(agentId, className) {
     const meta = s.getAgentMeta(agentId);
     const label = s.getAgentLabel(agentId);
     if (meta.iconUrl) {
       return `<img class="${className}" src="${meta.iconUrl}" alt="${label}" loading="lazy" referrerpolicy="no-referrer">`;
     }
-    return `<span class="${className} ${className}-emoji">${meta.icon || '📦'}</span>`;
+    return `<span class="${className} ${className}-emoji">${meta.icon || '?'}</span>`;
   }
 
   function getLabelWithFallback(key, fallbackZh, fallbackEn) {
@@ -52,9 +52,9 @@
     const cacheKey = [
       state.dataVersion,
       state.category,
-      state.subgroup || '',
+      state.agent || '',
       state.keyword,
-      state.sort
+      state.sort,
     ].join('::');
 
     if (cacheKey === filteredCacheKey) {
@@ -64,80 +64,31 @@
     let list = state.data;
 
     if (state.category !== 'all') {
-      list = list.filter(item => s.getSkillAgent(item) === state.category);
+      list = list.filter((item) => s.getSkillCategory(item) === state.category);
     }
-    if (state.subgroup) {
-      list = list.filter(item => s.getSkillGroup(item) === state.subgroup);
+    if (state.agent) {
+      list = list.filter((item) => s.getSkillAgents(item).includes(state.agent));
     }
     if (state.keyword) {
-      const kw = state.keyword.toLowerCase();
-      list = list.filter(item =>
-        String(item.searchText || '').includes(kw) ||
-        item.name.toLowerCase().includes(kw) ||
-        item.desc.toLowerCase().includes(kw) ||
-        item.repo.toLowerCase().includes(kw)
+      const keyword = state.keyword.toLowerCase();
+      list = list.filter((item) =>
+        String(item.searchText || '').includes(keyword) ||
+        String(item.name || '').toLowerCase().includes(keyword) ||
+        String(item.desc || '').toLowerCase().includes(keyword) ||
+        String(item.repo || '').toLowerCase().includes(keyword),
       );
     }
 
     const [field, dir] = state.sort.split('-');
-    const mul = dir === 'asc' ? 1 : -1;
+    const multiplier = dir === 'asc' ? 1 : -1;
     if (field === 'stars') {
-      filteredCacheValue = [...list].sort((a, b) => (a.stars - b.stars) * mul);
+      filteredCacheValue = [...list].sort((left, right) => (left.stars - right.stars) * multiplier);
     } else {
-      filteredCacheValue = [...list].sort((a, b) => a.name.localeCompare(b.name) * mul);
+      filteredCacheValue = [...list].sort((left, right) => String(left.name || '').localeCompare(String(right.name || '')) * multiplier);
     }
 
     filteredCacheKey = cacheKey;
     return filteredCacheValue;
-  }
-
-  function renderDirectoryMenu() {
-    const wrap = dom['directory-menu'];
-    if (!wrap) return;
-    wrap.innerHTML = '';
-
-    state.categories.forEach(cat => {
-      const card = document.createElement('section');
-      card.className = 'directory-agent-card';
-      card.style.setProperty('--accent', cat.color || s.getAgentMeta(cat.id).color || '#6366f1');
-
-      const count = cat.count || state.data.filter(skill => s.getSkillAgent(skill) === cat.id).length;
-      const top = document.createElement('div');
-      top.className = 'directory-agent-top';
-      top.innerHTML = `
-        <div class="directory-agent-name">${renderAgentMark(cat.id, 'agent-mark agent-mark-sm')} ${s.getAgentLabel(cat.id)}</div>
-        <span class="directory-agent-count">${count}</span>
-      `;
-
-      const list = document.createElement('div');
-      list.className = 'directory-group-list';
-
-      const allChip = document.createElement('button');
-      allChip.type = 'button';
-      allChip.className = 'directory-group-chip' + (state.category === cat.id && !state.subgroup ? ' active' : '');
-      allChip.textContent = hub.i18n.t('categoryAll');
-      allChip.addEventListener('click', () => {
-        s.selectCategory(cat.id);
-        hub.render.renderAll();
-      });
-      list.appendChild(allChip);
-
-      (cat.groups || []).forEach(group => {
-        const chip = document.createElement('button');
-        chip.type = 'button';
-        chip.className = 'directory-group-chip' + (state.category === cat.id && state.subgroup === group.id ? ' active' : '');
-        chip.textContent = s.getGroupLabel(group.id);
-        chip.addEventListener('click', () => {
-          s.selectCategory(cat.id, group.id);
-          hub.render.renderAll();
-        });
-        list.appendChild(chip);
-      });
-
-      card.appendChild(top);
-      card.appendChild(list);
-      wrap.appendChild(card);
-    });
   }
 
   function renderCategoryTabs() {
@@ -145,153 +96,144 @@
     if (!wrap) return;
     wrap.innerHTML = '';
 
-    const allTab = document.createElement('button');
-    allTab.className = 'tab cat-tab' + (state.category === 'all' ? ' active' : '');
-    allTab.dataset.id = 'all';
-    allTab.textContent = hub.i18n.t('categoryAll');
-    wrap.appendChild(allTab);
+    const allButton = document.createElement('button');
+    allButton.type = 'button';
+    allButton.className = `cat-tab${state.category === 'all' ? ' active' : ''}`;
+    allButton.dataset.id = 'all';
+    allButton.innerHTML = `
+      <span class="cat-tab-label">${hub.i18n.t('categoryAll')}</span>
+      <span class="cat-tab-count">${state.meta.totalCount || state.data.length}</span>
+    `;
+    wrap.appendChild(allButton);
 
-    state.categories.forEach(cat => {
-      const btn = document.createElement('button');
-      btn.className = 'tab cat-tab' + (state.category === cat.id ? ' active' : '');
-      btn.dataset.id = cat.id;
-      btn.innerHTML = `${renderAgentMark(cat.id, 'agent-mark agent-mark-xs')} ${s.getAgentLabel(cat.id)}`;
-      wrap.appendChild(btn);
+    state.categories.forEach((category) => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = `cat-tab${state.category === category.id ? ' active' : ''}`;
+      button.dataset.id = category.id;
+      button.innerHTML = `
+        <span class="cat-tab-label">${s.getCategoryLabel(category.id)}</span>
+        <span class="cat-tab-count">${category.count || 0}</span>
+      `;
+      wrap.appendChild(button);
     });
   }
 
   function renderSubgroupTabs() {
     const wrap = dom['subgroup-tabs'];
     if (!wrap) return;
-    wrap.innerHTML = '';
     wrap.hidden = true;
-
-    if (state.category === 'all') {
-      const allGroups = Array.from(new Set(
-        state.categories.flatMap(cat => (cat.groups || []).map(group => group.id))
-      )).sort((a, b) => a.localeCompare(b));
-
-      if (allGroups.length === 0) return;
-
-      wrap.hidden = false;
-
-      const allBtn = document.createElement('button');
-      allBtn.className = 'subgroup-tab sub-tab' + (!state.subgroup ? ' active' : '');
-      allBtn.dataset.group = '';
-      allBtn.textContent = hub.i18n.t('categoryAll');
-      wrap.appendChild(allBtn);
-
-      allGroups.forEach(groupId => {
-        const btn = document.createElement('button');
-        btn.className = 'subgroup-tab sub-tab' + (state.subgroup === groupId ? ' active' : '');
-        btn.dataset.group = groupId;
-        btn.textContent = s.getGroupLabel(groupId);
-        wrap.appendChild(btn);
-      });
-      return;
-    }
-
-    const cat = s.getCategoryById(state.category);
-    if (!cat || !cat.groups || cat.groups.length === 0) return;
-
-    wrap.hidden = false;
-
-    const allBtn = document.createElement('button');
-    allBtn.className = 'subgroup-tab sub-tab' + (!state.subgroup ? ' active' : '');
-    allBtn.dataset.group = '';
-    allBtn.textContent = hub.i18n.t('categoryAll');
-    wrap.appendChild(allBtn);
-
-    cat.groups.forEach(group => {
-      const btn = document.createElement('button');
-      btn.className = 'subgroup-tab sub-tab' + (state.subgroup === group.id ? ' active' : '');
-      btn.dataset.group = group.id;
-      btn.textContent = s.getGroupLabel(group.id) || group.label;
-      wrap.appendChild(btn);
-    });
+    wrap.innerHTML = '';
   }
 
   function renderCategoryDesc() {
-    const el = dom['category-desc'];
-    if (!el) return;
-    el.hidden = true;
+    const element = dom['category-desc'];
+    if (!element) return;
 
+    const parts = [];
     if (state.category === 'all') {
-      el.textContent = hub.i18n.t('categoryAllDesc');
-      el.hidden = false;
-      return;
+      parts.push(hub.i18n.t('categoryAllDesc'));
+    } else {
+      parts.push(`${hub.i18n.t('activeCategory')}: ${s.getCategoryLabel(state.category)}`);
     }
 
-    const cat = s.getCategoryById(state.category);
-    const desc = s.getAgentDesc(state.category, cat ? (cat.description || '') : '');
-    if (desc) {
-      el.textContent = desc;
-      el.hidden = false;
+    if (state.agent) {
+      parts.push(`${hub.i18n.t('activePlatform')}: ${s.getAgentLabel(state.agent)}`);
     }
+
+    const clearAgent = state.agent
+      ? `<button type="button" class="filter-inline-btn" data-clear-agent="1">${hub.i18n.t('clearPlatformFilter')}</button>`
+      : '';
+
+    element.hidden = false;
+    element.innerHTML = `
+      <div class="filter-summary">
+        <span>${parts.join(' · ')}</span>
+        ${clearAgent}
+      </div>
+    `;
+  }
+
+  function createAgentChip(agentId) {
+    const meta = s.getAgentMeta(agentId);
+    const active = state.agent === agentId;
+    return `
+      <button
+        type="button"
+        class="agent-filter-chip${active ? ' active' : ''}"
+        data-agent-id="${agentId}"
+        style="--agent-chip:${meta.color || '#6b7280'}"
+        title="${s.getAgentLabel(agentId)}"
+      >
+        ${renderAgentMark(agentId, 'agent-mark agent-mark-inline')}
+        <span>${s.getAgentLabel(agentId)}</span>
+      </button>
+    `;
   }
 
   function createCard(skill) {
-    const agentId = s.getSkillAgent(skill);
-    const meta = s.getAgentMeta(agentId);
-    const color = meta.color || '#6b7280';
+    const primaryAgentId = s.getPrimarySkillAgent(skill);
+    const primaryMeta = s.getAgentMeta(primaryAgentId);
     const repoOwner = String(skill.repo || '').split('/')[0] || '';
     const avatarUrl = repoOwner ? `https://github.com/${repoOwner}.png?size=96` : '';
     const card = document.createElement('article');
     card.className = 'skill-card card';
-    card.style.setProperty('--card-accent', color);
+    card.style.setProperty('--card-accent', primaryMeta.color || '#6b7280');
     card.innerHTML = `
       <div class="card-head">
         <div class="card-icon">
           ${avatarUrl
             ? `<img class="card-avatar" src="${avatarUrl}" alt="${repoOwner || skill.name}" loading="lazy" referrerpolicy="no-referrer">`
-            : `<span class="card-emoji">${meta.icon || '📦'}</span>`}
+            : `<span class="card-emoji">${primaryMeta.icon || '?'}</span>`}
         </div>
         <div class="card-title-wrap">
           <div class="card-name">${skill.name}</div>
           <div class="card-repo">
             <a href="https://github.com/${skill.repo}" target="_blank" rel="noopener">${skill.repo}</a>
-            <span class="card-stars" title="${skill.stars.toLocaleString()}">⭐ ${s.STAR_FMT(skill.stars)}</span>
+            <span class="card-stars" title="${Number(skill.stars || 0).toLocaleString()}">★ ${s.STAR_FMT(Number(skill.stars || 0))}</span>
           </div>
         </div>
       </div>
-      <p class="card-desc">${skill.desc}</p>
+      <p class="card-desc">${skill.desc || ''}</p>
       <div class="card-meta">
-        <span class="source-tag" style="background:${color}18;color:${color};border-color:${color}33">${renderAgentMark(agentId, 'agent-mark agent-mark-inline')} ${s.getAgentLabel(agentId)}</span>
-        <span class="card-group">${s.getGroupLabel(s.getSkillGroup(skill))}</span>
+        <span class="card-group">${s.getCategoryLabel(s.getSkillCategory(skill))}</span>
       </div>
-      <div class="card-install" title="${skill.install}">
-        <code>$ ${skill.install}</code>
+      <div class="agent-chip-list">
+        ${s.getSkillAgents(skill).map(createAgentChip).join('')}
+      </div>
+      <div class="card-install" title="${skill.install || ''}">
+        <code>$ ${skill.install || ''}</code>
       </div>
       <div class="card-footer">
-        <a class="card-link" href="https://github.com/${skill.repo}" target="_blank" rel="noopener">↗ ${hub.i18n.t('viewOnGitHub')}</a>
-        <button type="button" class="copy-btn card-copy-btn" title="${getLabelWithFallback('install', '\u5b89\u88c5', 'Install')}">${getLabelWithFallback('install', '\u5b89\u88c5', 'Install')}</button>
+        <a class="card-link" href="https://github.com/${skill.repo}" target="_blank" rel="noopener">${hub.i18n.t('viewOnGitHub')}</a>
+        <button type="button" class="copy-btn card-copy-btn" title="${getLabelWithFallback('install', '安装', 'Install')}">${getLabelWithFallback('install', '安装', 'Install')}</button>
       </div>
     `;
 
-    const copyBtn = card.querySelector('.copy-btn');
+    const copyButton = card.querySelector('.copy-btn');
     const installCode = String(skill.install || '').trim();
-    if (copyBtn) {
-      copyBtn.addEventListener('click', async () => {
-        const copiedLabel = getLabelWithFallback('installCopied', '\u5df2\u590d\u5236', 'Copied');
-        const installLabel = getLabelWithFallback('install', '\u5b89\u88c5', 'Install');
+    if (copyButton) {
+      copyButton.addEventListener('click', async () => {
+        const copiedLabel = getLabelWithFallback('installCopied', '已复制', 'Copied');
+        const installLabel = getLabelWithFallback('install', '安装', 'Install');
         try {
           await copyInstallText(installCode);
-          copyBtn.textContent = copiedLabel;
-          copyBtn.classList.add('copied');
-          copyBtn.title = copiedLabel;
+          copyButton.textContent = copiedLabel;
+          copyButton.classList.add('copied');
+          copyButton.title = copiedLabel;
           setTimeout(() => {
-            copyBtn.textContent = installLabel;
-            copyBtn.classList.remove('copied');
-            copyBtn.title = installLabel;
+            copyButton.textContent = installLabel;
+            copyButton.classList.remove('copied');
+            copyButton.title = installLabel;
           }, 1200);
         } catch {
           const promptLabel = hub.i18n.getLang() === 'zh'
-            ? '\u8bf7\u624b\u52a8\u590d\u5236\u5b89\u88c5\u547d\u4ee4'
+            ? '请手动复制安装命令'
             : 'Copy the install command manually';
           window.prompt(promptLabel, installCode);
-          copyBtn.textContent = installLabel;
-          copyBtn.classList.remove('copied');
-          copyBtn.title = installLabel;
+          copyButton.textContent = installLabel;
+          copyButton.classList.remove('copied');
+          copyButton.title = installLabel;
         }
       });
     }
@@ -304,79 +246,42 @@
     if (!wrap) return;
 
     const skills = state.meta.totalCount || state.data.length;
-    const agents = state.categories.length;
-    const repos = state.meta.sources || new Set(state.data.map(item => item.repo)).size;
+    const categories = state.meta.categoryCount || state.categories.length;
+    const platforms = state.meta.platformCount || new Set(state.data.flatMap((item) => s.getSkillAgents(item))).size;
+    const repos = state.meta.sources || new Set(state.data.map((item) => item.repo)).size;
 
     wrap.innerHTML = `
       <span class="stat-pill"><strong>${skills}</strong><span>${hub.i18n.t('skills')}</span></span>
-      <span class="stat-pill"><strong>${agents}</strong><span>Agents</span></span>
-      <span class="stat-pill"><strong>${repos}</strong><span>Repos</span></span>
+      <span class="stat-pill"><strong>${categories}</strong><span>${hub.i18n.t('categoriesLabel')}</span></span>
+      <span class="stat-pill"><strong>${platforms}</strong><span>${hub.i18n.t('platformsLabel')}</span></span>
+      <span class="stat-pill"><strong>${repos}</strong><span>${hub.i18n.t('reposLabel')}</span></span>
     `;
   }
 
   function renderGroupedView(list) {
-    const grouped = {};
-    list.forEach(skill => {
-      const agent = s.getSkillAgent(skill);
-      const group = skill.group || 'other';
-      if (!grouped[agent]) grouped[agent] = {};
-      if (!grouped[agent][group]) grouped[agent][group] = [];
-      grouped[agent][group].push(skill);
+    const grouped = new Map();
+    list.forEach((skill) => {
+      const categoryId = s.getSkillCategory(skill);
+      if (!grouped.has(categoryId)) grouped.set(categoryId, []);
+      grouped.get(categoryId).push(skill);
     });
 
-    const agentKeys = Object.keys(grouped).sort((a, b) => (s.AGENT_META[a]?.order || 99) - (s.AGENT_META[b]?.order || 99));
     const container = document.createDocumentFragment();
-
-    agentKeys.forEach(agent => {
-      const meta = s.getAgentMeta(agent);
-      const groups = grouped[agent];
-      const totalCount = Object.values(groups).reduce((sum, arr) => sum + arr.length, 0);
+    [...grouped.entries()].sort((left, right) => left[0].localeCompare(right[0])).forEach(([categoryId, skills]) => {
       const section = document.createElement('section');
-      section.className = 'agent-section';
-      section.style.setProperty('--agent-color', meta.color || '#6b7280');
-
-      const header = document.createElement('div');
-      header.className = 'agent-header';
-      header.innerHTML = `
-        <div class="agent-header-left">
-          ${renderAgentMark(agent, 'agent-mark agent-mark-sm')}
-          <h2 class="agent-title">${s.getAgentLabel(agent)}</h2>
-          <span class="agent-count">${totalCount} ${hub.i18n.t('skills')}</span>
+      section.className = 'type-group';
+      section.innerHTML = `
+        <div class="type-header">
+          <h3 class="type-title">${s.getCategoryLabel(categoryId)}</h3>
+          <span class="type-count">${skills.length}</span>
         </div>
-        <span class="agent-toggle">▼</span>
       `;
 
-      const content = document.createElement('div');
-      content.className = 'agent-content';
-
-      Object.keys(groups).sort((a, b) => {
-        if (a === 'other') return 1;
-        if (b === 'other') return -1;
-        return a.localeCompare(b);
-      }).forEach(group => {
-        const groupSection = document.createElement('div');
-        groupSection.className = 'type-group';
-        groupSection.innerHTML = `
-          <div class="type-header">
-            <h3 class="type-title">🏷️ ${s.getGroupLabel(group)}</h3>
-            <span class="type-count">${groups[group].length}</span>
-          </div>
-        `;
-
-        const grid = document.createElement('div');
-        grid.className = 'card-grid';
-        groups[group].forEach(skill => grid.appendChild(createCard(skill)));
-        groupSection.appendChild(grid);
-        content.appendChild(groupSection);
-      });
-
-      section.appendChild(header);
-      section.appendChild(content);
+      const grid = document.createElement('div');
+      grid.className = 'card-grid';
+      skills.forEach((skill) => grid.appendChild(createCard(skill)));
+      section.appendChild(grid);
       container.appendChild(section);
-
-      header.addEventListener('click', () => {
-        section.classList.toggle('collapsed');
-      });
     });
 
     return container;
@@ -384,68 +289,16 @@
 
   function renderFlatView(list) {
     const container = document.createDocumentFragment();
-    list.forEach(skill => container.appendChild(createCard(skill)));
+    list.forEach((skill) => container.appendChild(createCard(skill)));
     return container;
   }
 
   function renderStats() {
-    if (!dom['stats-section']) return;
-
-    const byAgent = {};
-    state.data.forEach(skill => {
-      const agentId = s.getSkillAgent(skill);
-      byAgent[agentId] = (byAgent[agentId] || 0) + 1;
-    });
-
-    const sortedSources = Object.entries(byAgent).sort((a, b) => b[1] - a[1]);
-    const chartWrap = dom['stats-chart'];
-
-    if (chartWrap) {
-      const parent = chartWrap.parentElement;
-      let table = parent.querySelector('.stats-table');
-      if (!table) {
-        chartWrap.style.display = 'none';
-        table = document.createElement('div');
-        table.className = 'stats-table';
-        parent.appendChild(table);
-      }
-
-      table.innerHTML = sortedSources.map(([src, count]) => {
-        const pct = (count / state.data.length * 100).toFixed(1);
-        const meta = s.getAgentMeta(src);
-        return `<div class="stats-row">
-          <span class="stats-label">${renderAgentMark(src, 'agent-mark agent-mark-xs')} ${s.getAgentLabel(src)}</span>
-          <div class="stats-bar-bg">
-            <div class="stats-bar-fill" style="width:${pct}%;background:${meta.color || '#6366f1'}"></div>
-          </div>
-          <span class="stats-count">${count} (${pct}%)</span>
-        </div>`;
-      }).join('');
-    }
-
-    const repoMap = {};
-    state.data.forEach(skill => {
-      repoMap[skill.repo] = (repoMap[skill.repo] || 0) + 1;
-    });
-    const topRepos = Object.entries(repoMap).sort((a, b) => b[1] - a[1]).slice(0, 10);
-    const maxCount = topRepos.length > 0 ? topRepos[0][1] : 1;
-
-    if (dom['stats-bars']) {
-      dom['stats-bars'].innerHTML = topRepos.map(([repo, count]) => {
-        const pct = (count / maxCount * 100).toFixed(1);
-        return `<div class="stats-row">
-          <a class="stats-label link" href="https://github.com/${repo}" target="_blank">${repo.split('/')[1] || repo}</a>
-          <div class="stats-bar-bg">
-            <div class="stats-bar-fill" style="width:${pct}%"></div>
-          </div>
-          <span class="stats-count">${count}</span>
-        </div>`;
-      }).join('');
-    }
+    return;
   }
 
   function renderPagination(totalPages) {
-    const nav = dom['pagination'];
+    const nav = dom.pagination;
     if (!nav) return;
     nav.hidden = totalPages <= 1;
     if (totalPages <= 1) return;
@@ -476,14 +329,14 @@
 
     if (dom.empty) dom.empty.hidden = filtered.length > 0;
     if (dom['results-count']) {
-      dom['results-count'].textContent = (state.keyword || state.category !== 'all')
+      const hasFilter = Boolean(state.keyword || state.category !== 'all' || state.agent);
+      dom['results-count'].textContent = hasFilter
         ? hub.i18n.t('resultsCountFiltered').replace('{count}', filtered.length).replace('{total}', state.data.length)
         : hub.i18n.t('resultsCount').replace('{count}', state.data.length);
     }
   }
 
   function renderFilters() {
-    renderDirectoryMenu();
     renderCategoryTabs();
     renderSubgroupTabs();
     renderCategoryDesc();
@@ -513,7 +366,6 @@
 
   hub.render = {
     getFiltered,
-    renderDirectoryMenu,
     renderCategoryTabs,
     renderSubgroupTabs,
     renderCategoryDesc,
@@ -526,6 +378,6 @@
     renderFilters,
     renderListOnly,
     renderFilterChrome,
-    renderAll
+    renderAll,
   };
 })();

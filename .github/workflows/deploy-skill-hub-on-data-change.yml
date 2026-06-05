@@ -5,8 +5,14 @@ on:
     branches:
       - main
     paths:
-      - "agents/**/*.json"
-      - "agents/**/*.js"
+      - "categories/**"
+      - "index.html"
+      - "stats.html"
+      - "css/**"
+      - "js/**"
+      - ".github/scripts/refresh_skill_hub_data.mjs"
+      - ".github/workflows/deploy-skill-hub-on-data-change.yml"
+      - ".github/workflows/update-skill-hub-content.yml"
   workflow_dispatch:
 
 concurrency:
@@ -22,6 +28,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Refresh generated category data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node .github/scripts/refresh_skill_hub_data.mjs --root .
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3

@@ -8,135 +8,81 @@
 
   const dictionary = {
     zh: {
-      pageTitle: 'Skill Hub — AI Agent Skills 导航站',
-      metaDesc: 'Skill Hub — 汇集 OpenAI Codex、Claude Code、Hermes Agent、OpenCode 等主流 AI Agent 平台的 Skills，按 Agent 分类，支持安装、收藏、分页浏览。',
+      pageTitle: 'Skill Hub - AI Agent Skills 导航站',
+      metaDesc: '按功能分类浏览 AI Agent Skills，支持平台兼容筛选、搜索、排序与统计。',
       heroTitle: 'Skill Hub',
-      heroSub: 'AI Agent Skills 导航站',
-      heroDesc: '汇集主流 AI Agent 平台的 Skills，一站式搜索、浏览、安装。',
-      searchPlaceholder: '搜索 skills / 仓库 / 描述…',
+      heroSub: '功能分类驱动的 AI Agent Skills 导航',
+      heroDesc: '分类来自目录自动发现，平台标签支持点选叠加筛选。',
+      searchPlaceholder: '搜索 skills / 仓库 / 描述...',
       searchClearTitle: '清空',
-      emptyState: '没找到匹配的 skill 😕',
-      pagePrev: '← 上一页',
-      pageNext: '下一页 →',
-      statsTitle: '📊 数据统计',
-      statsBySource: '按 Agent 来源分布',
-      statsTopRepos: '热门仓库 Top 10',
-      directoryTitle: '平台与分类',
-      directoryDesc: '从 agents 目录动态加载平台和功能分类',
-      aboutTitle: '📚 关于',
-      aboutP1: 'Skill Hub 汇集了 <strong>OpenAI Codex</strong>、<strong>Claude Code</strong>、<strong>Hermes Agent</strong>、<strong>OpenCode</strong>、<strong>OpenClaw</strong> 等主流 AI Agent 平台的 Skills。<br>社区还在不断贡献中，欢迎 <a href="https://github.com/rdone4425/skill" target="_blank">提交你的仓库</a>！',
-      aboutP2: '数据来源：GitHub 公开仓库，每日 UTC 00:00 自动更新。',
-      footerDesc: '社区维护 · 每日自动更新',
+      emptyState: '没有找到匹配的 skill',
+      pagePrev: '上一页',
+      pageNext: '下一页',
+      aboutTitle: '关于',
+      aboutP1: 'Skill Hub 现在以<strong>功能分类</strong>为主组织 skill，同时保留 <strong>Claude Code</strong>、<strong>Codex</strong>、<strong>Cursor</strong> 等平台兼容标签，方便跨平台筛选。',
+      aboutP2: '数据来自仓库内的 <code>categories/</code> 目录，新增分类时只需创建一个目录，生成脚本会自动补齐索引与统计。',
+      footerDesc: '社区维护 · 数据自动汇总',
       sortBy: '排序',
-      groupBy: '分组',
-      viewMode: '视图',
-      flatView: '卡片视图',
-      groupedView: '分组视图',
-      sortStarsDesc: '⭐ 最多',
-      sortStarsAsc: '⭐ 最少',
-      sortNameAsc: 'A → Z',
-      sortNameDesc: 'Z → A',
-      groupNone: '不分组',
-      groupAgent: '按 Agent 分类',
+      sortStarsDesc: 'Stars 从高到低',
+      sortStarsAsc: 'Stars 从低到高',
+      sortNameAsc: '名称 A-Z',
+      sortNameDesc: '名称 Z-A',
       resultsCount: '{count} 个 skill',
-      resultsCountFiltered: '{count} 个 skill（共 {total} 个）',
-      skills: '个 skill',
-      viewOnGitHub: '仓库',
+      resultsCountFiltered: '{count} 个 skill（当前集合共 {total} 个）',
+      skills: '技能',
+      categoriesLabel: '分类',
+      platformsLabel: '平台',
+      reposLabel: '仓库',
+      viewOnGitHub: '查看仓库',
       install: '安装',
       installCopied: '已复制',
       categoryAll: '全部',
-      categoryAllDesc: '所有收录的 skills',
-      group_figma: 'Figma',
-      group_github: 'GitHub',
-      group_notion: 'Notion',
-      group_playwright: 'Playwright',
-      group_deploy: '部署',
-      group_security: '安全',
-      group_other: '其他',
-      group_claude_official: 'Claude 官方',
-      group_nicoboss: '个人项目',
-      group_community: '社区收集',
-      group_skills: 'Skills',
-      group_plugins: '插件',
-      group_codegen: '代码生成',
-      group_general: '通用',
-      group_design_ui: '设计 UI',
-      group_docs_content: '文档内容',
-      group_dev_tools: '开发工具',
-      group_devops_deploy: '部署运维',
-      group_backend_api: '后端 API',
-      group_testing_qa: '测试质检',
-      group_data_ai: '数据 AI',
-      group_automation_productivity: '自动化效率'
+      categoryAllDesc: '所有功能分类',
+      activeCategory: '当前分类',
+      activePlatform: '当前平台',
+      clearPlatformFilter: '清除平台筛选',
     },
     en: {
-      pageTitle: 'Skill Hub — AI Agent Skills Directory',
-      metaDesc: 'Skill Hub — Browse skills from OpenAI Codex, Claude Code, Hermes Agent, OpenCode and more. Search across agents, install with one click.',
+      pageTitle: 'Skill Hub - AI Agent Skills Directory',
+      metaDesc: 'Browse AI agent skills by function category with platform compatibility filters, search, sorting, and stats.',
       heroTitle: 'Skill Hub',
-      heroSub: 'AI Agent Skills Directory',
-      heroDesc: 'Browse and search skills from mainstream AI Agent platforms.',
-      searchPlaceholder: 'Search skills / repos / descriptions…',
+      heroSub: 'Function-category-first AI agent skills directory',
+      heroDesc: 'Categories are discovered from directories, and platform chips act as additive filters.',
+      searchPlaceholder: 'Search skills / repos / descriptions...',
       searchClearTitle: 'Clear',
-      emptyState: 'No matching skills found 😕',
-      pagePrev: '← Previous',
-      pageNext: 'Next →',
-      statsTitle: '📊 Statistics',
-      statsBySource: 'Distribution by Agent Source',
-      statsTopRepos: 'Top 10 Popular Repos',
-      directoryTitle: 'Platforms & Categories',
-      directoryDesc: 'Dynamically loaded from the agents directory',
-      aboutTitle: '📚 About',
-      aboutP1: 'Skill Hub aggregates skills from <strong>OpenAI Codex</strong>, <strong>Claude Code</strong>, <strong>Hermes Agent</strong>, <strong>OpenCode</strong>, <strong>OpenClaw</strong> and more.<br>The community is growing — <a href="https://github.com/rdone4425/skill" target="_blank">submit your repo</a>!',
-      aboutP2: 'Data source: public GitHub repos, auto-updated daily at UTC 00:00.',
-      footerDesc: 'Community maintained · Updated daily',
+      emptyState: 'No matching skills found',
+      pagePrev: 'Previous',
+      pageNext: 'Next',
+      aboutTitle: 'About',
+      aboutP1: 'Skill Hub now organizes skills by <strong>function category</strong> first while keeping compatibility chips for <strong>Claude Code</strong>, <strong>Codex</strong>, <strong>Cursor</strong>, and more.',
+      aboutP2: 'Data comes from the repository <code>categories/</code> directory. Creating a new category directory is enough for the generator to add index and stats output.',
+      footerDesc: 'Community maintained · Auto-generated data',
       sortBy: 'Sort',
-      groupBy: 'Group',
-      viewMode: 'View',
-      flatView: 'Cards',
-      groupedView: 'Grouped',
-      sortStarsDesc: '⭐ Most',
-      sortStarsAsc: '⭐ Fewest',
-      sortNameAsc: 'A → Z',
-      sortNameDesc: 'Z → A',
-      groupNone: 'No Group',
-      groupAgent: 'By Agent',
+      sortStarsDesc: 'Stars high to low',
+      sortStarsAsc: 'Stars low to high',
+      sortNameAsc: 'Name A-Z',
+      sortNameDesc: 'Name Z-A',
       resultsCount: '{count} skills',
-      resultsCountFiltered: '{count} skills (of {total})',
-      skills: ' skills',
-      viewOnGitHub: 'Repo',
+      resultsCountFiltered: '{count} skills (of {total} in the current set)',
+      skills: 'Skills',
+      categoriesLabel: 'Categories',
+      platformsLabel: 'Platforms',
+      reposLabel: 'Repos',
+      viewOnGitHub: 'View repo',
       install: 'Install',
       installCopied: 'Copied',
       categoryAll: 'All',
-      categoryAllDesc: 'All indexed skills',
-      group_figma: 'Figma',
-      group_github: 'GitHub',
-      group_notion: 'Notion',
-      group_playwright: 'Playwright',
-      group_deploy: 'Deploy',
-      group_security: 'Security',
-      group_other: 'Other',
-      group_claude_official: 'Claude Official',
-      group_nicoboss: 'Personal Projects',
-      group_community: 'Community',
-      group_skills: 'Skills',
-      group_plugins: 'Plugins',
-      group_codegen: 'Code Generation',
-      group_general: 'General',
-      group_design_ui: 'Design UI',
-      group_docs_content: 'Docs Content',
-      group_dev_tools: 'Dev Tools',
-      group_devops_deploy: 'DevOps Deploy',
-      group_backend_api: 'Backend API',
-      group_testing_qa: 'Testing QA',
-      group_data_ai: 'Data AI',
-      group_automation_productivity: 'Automation'
-    }
+      categoryAllDesc: 'All function categories',
+      activeCategory: 'Active category',
+      activePlatform: 'Active platform',
+      clearPlatformFilter: 'Clear platform filter',
+    },
   };
 
   function getLang() {
     const saved = localStorage.getItem('skill-hub.lang') || localStorage.getItem('lang');
     if (saved === 'en' || saved === 'zh') return saved;
-    return navigator.language.startsWith('zh') ? 'zh' : 'en';
+    return navigator.language && navigator.language.startsWith('zh') ? 'zh' : 'en';
   }
 
   function t(key) {
@@ -147,43 +93,43 @@
     const dict = dictionary[lang] || dictionary.zh;
     document.documentElement.lang = lang;
 
-    const langEl = document.getElementById('lang-current');
-    if (langEl) langEl.textContent = lang === 'zh' ? '中文' : 'EN';
+    const langElement = document.getElementById('lang-current');
+    if (langElement) langElement.textContent = lang === 'zh' ? '中文' : 'EN';
 
-    document.querySelectorAll('[data-i18n]').forEach(el => {
-      const key = el.getAttribute('data-i18n');
-      if (dict[key] !== undefined) el.textContent = dict[key];
+    document.querySelectorAll('[data-i18n]').forEach((element) => {
+      const key = element.getAttribute('data-i18n');
+      if (dict[key] !== undefined) element.textContent = dict[key];
     });
 
-    document.querySelectorAll('[data-i18n-html]').forEach(el => {
-      const key = el.getAttribute('data-i18n-html');
-      if (dict[key] !== undefined) el.innerHTML = dict[key];
+    document.querySelectorAll('[data-i18n-html]').forEach((element) => {
+      const key = element.getAttribute('data-i18n-html');
+      if (dict[key] !== undefined) element.innerHTML = dict[key];
     });
 
-    document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
-      const key = el.getAttribute('data-i18n-placeholder');
-      if (dict[key] !== undefined) el.placeholder = dict[key];
+    document.querySelectorAll('[data-i18n-placeholder]').forEach((element) => {
+      const key = element.getAttribute('data-i18n-placeholder');
+      if (dict[key] !== undefined) element.placeholder = dict[key];
     });
 
-    document.querySelectorAll('[data-i18n-title]').forEach(el => {
-      const key = el.getAttribute('data-i18n-title');
-      if (dict[key] !== undefined) el.title = dict[key];
+    document.querySelectorAll('[data-i18n-title]').forEach((element) => {
+      const key = element.getAttribute('data-i18n-title');
+      if (dict[key] !== undefined) element.title = dict[key];
     });
 
     if (dict.pageTitle) document.title = dict.pageTitle;
 
     if (dict.metaDesc) {
-      const metaEl = document.querySelector('meta[name="description"]');
-      if (metaEl) metaEl.content = dict.metaDesc;
+      const metaElement = document.querySelector('meta[name="description"]');
+      if (metaElement) metaElement.content = dict.metaDesc;
     }
 
-    document.querySelectorAll('[data-i18n-options]').forEach(select => {
+    document.querySelectorAll('[data-i18n-options]').forEach((select) => {
       const mapping = select.getAttribute('data-i18n-options');
-      mapping.split(',').forEach(pair => {
+      mapping.split(',').forEach((pair) => {
         const [value, key] = pair.split(':');
-        const opt = select.querySelector(`option[value="${value.trim()}"]`);
-        if (opt && dict[key.trim()] !== undefined) {
-          opt.textContent = dict[key.trim()];
+        const option = select.querySelector(`option[value="${value.trim()}"]`);
+        if (option && dict[key.trim()] !== undefined) {
+          option.textContent = dict[key.trim()];
         }
       });
     });
@@ -201,10 +147,6 @@
     getLang,
     setLang,
     t,
-    applyI18n
+    applyI18n,
   };
-
-  window.getLang = getLang;
-  window.setLang = setLang;
-  window.t = t;
 })();

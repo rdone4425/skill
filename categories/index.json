@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-06-05T17:13:59.598Z",
+  "sourceData": "categories",
+  "totalSkills": 560,
+  "categories": [
+    {
+      "id": "dev-tools",
+      "count": 248
+    },
+    {
+      "id": "design-ui",
+      "count": 71
+    },
+    {
+      "id": "docs-content",
+      "count": 71
+    },
+    {
+      "id": "automation-productivity",
+      "count": 44
+    },
+    {
+      "id": "data-ai",
+      "count": 40
+    },
+    {
+      "id": "general",
+      "count": 37
+    },
+    {
+      "id": "devops-deploy",
+      "count": 23
+    },
+    {
+      "id": "security",
+      "count": 18
+    },
+    {
+      "id": "testing-qa",
+      "count": 5
+    },
+    {
+      "id": "backend-api",
+      "count": 3
+    }
+  ],
+  "platforms": [
+    {
+      "id": "claude",
+      "count": 281
+    },
+    {
+      "id": "codex",
+      "count": 132
+    },
+    {
+      "id": "openclaw",
+      "count": 103
+    },
+    {
+      "id": "opencode",
+      "count": 103
+    },
+    {
+      "id": "cursor",
+      "count": 79
+    },
+    {
+      "id": "hermes",
+      "count": 65
+    },
+    {
+      "id": "other",
+      "count": 54
+    },
+    {
+      "id": "copilot",
+      "count": 53
+    },
+    {
+      "id": "gemini",
+      "count": 36
+    }
+  ]
+}

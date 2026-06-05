@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "functionCategory": "testing-qa",
+    "count": 5,
+    "sourceData": "categories"
+  },
+  "skills": [
+    {
+      "name": "skill-creator",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "anthropics/skills",
+      "stars": 146634,
+      "desc": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with varia",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
+      "install": "$skill-installer skill-creator",
+      "functionCategory": "testing-qa",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "skill-creator create new skills, modify and improve existing skills, and measure skill performance. use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with varia anthropics/skills $skill-installer skill-creator testing-qa claude"
+    },
+    {
+      "name": "playwright-skill",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "lackeyjb/playwright-skill",
+      "stars": 2721,
+      "desc": "Claude Code Skill for browser automation with Playwright. Model-invoked - Claude autonomously writes and executes custom automation for testing and validation.",
+      "url": "https://github.com/lackeyjb/playwright-skill",
+      "install": "npm i -g playwright-skill",
+      "functionCategory": "testing-qa",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "playwright-skill claude code skill for browser automation with playwright. model-invoked - claude autonomously writes and executes custom automation for testing and validation. lackeyjb/playwright-skill npm i -g playwright-skill testing-qa claude"
+    },
+    {
+      "name": "codex-autoresearch",
+      "source": "general",
+      "sourceAgent": "codex",
+      "repo": "leo-lilinxiao/codex-autoresearch",
+      "stars": 1832,
+      "desc": "Codex Autoresearch Skill — A self-directed iterative system for Codex that continuously cycles through: modify, verify, retain or discard, and repeat indefinitely. Inspired by Karpathy’s autoresearch concept.",
+      "url": "https://github.com/leo-lilinxiao/codex-autoresearch",
+      "install": "git clone https://github.com/leo-lilinxiao/codex-autoresearch.git",
+      "functionCategory": "testing-qa",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "codex-autoresearch codex autoresearch skill — a self-directed iterative system for codex that continuously cycles through: modify, verify, retain or discard, and repeat indefinitely. inspired by karpathy’s autoresearch concept. leo-lilinxiao/codex-autoresearch git clone https://github.com/leo-lilinxiao/codex-autoresearch.git testing-qa codex"
+    },
+    {
+      "name": "claude-review-loop",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "hamelsmu/claude-review-loop",
+      "stars": 676,
+      "desc": "Claude Code plugin: automated code review loop with Codex",
+      "url": "https://github.com/hamelsmu/claude-review-loop",
+      "install": "git clone https://github.com/hamelsmu/claude-review-loop.git",
+      "functionCategory": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex"
+      ],
+      "searchText": "claude-review-loop claude code plugin: automated code review loop with codex hamelsmu/claude-review-loop git clone https://github.com/hamelsmu/claude-review-loop.git testing-qa claude codex"
+    },
+    {
+      "name": "jeffreysprompts.com",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "Dicklesworthstone/jeffreysprompts.com",
+      "stars": 107,
+      "desc": "A curated collection of battle-tested prompts for agentic coding - Browse, copy, and install as Claude Code skills",
+      "url": "https://github.com/Dicklesworthstone/jeffreysprompts.com",
+      "install": "git clone https://github.com/Dicklesworthstone/jeffreysprompts.com.git  # browse the awesome list",
+      "functionCategory": "testing-qa",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "jeffreysprompts.com a curated collection of battle-tested prompts for agentic coding - browse, copy, and install as claude code skills dicklesworthstone/jeffreysprompts.com git clone https://github.com/dicklesworthstone/jeffreysprompts.com.git  # browse the awesome list testing-qa claude"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "functionCategory": "backend-api",
+    "count": 3,
+    "sourceData": "categories"
+  },
+  "skills": [
+    {
+      "name": "awesome-ChatGPT-repositories",
+      "source": "community",
+      "sourceAgent": "multi",
+      "repo": "taishi-i/awesome-ChatGPT-repositories",
+      "stars": 3067,
+      "desc": "A curated list of resources dedicated to open source GitHub repositories related to ChatGPT, OpenAI API, and Codex. Searchable via Claude Code skills.",
+      "url": "https://github.com/taishi-i/awesome-ChatGPT-repositories",
+      "install": "git clone https://github.com/taishi-i/awesome-ChatGPT-repositories.git  # browse the awesome list",
+      "functionCategory": "backend-api",
+      "supportedAgents": [
+        "claude",
+        "codex"
+      ],
+      "searchText": "awesome-chatgpt-repositories a curated list of resources dedicated to open source github repositories related to chatgpt, openai api, and codex. searchable via claude code skills. taishi-i/awesome-chatgpt-repositories git clone https://github.com/taishi-i/awesome-chatgpt-repositories.git  # browse the awesome list backend-api claude codex"
+    },
+    {
+      "name": "pg-aiguide",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "timescale/pg-aiguide",
+      "stars": 1755,
+      "desc": "MCP server and Claude plugin for Postgres skills and documentation. Helps AI coding tools generate better PostgreSQL code.",
+      "url": "https://github.com/timescale/pg-aiguide",
+      "install": "pip install pg-aiguide",
+      "functionCategory": "backend-api",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "pg-aiguide mcp server and claude plugin for postgres skills and documentation. helps ai coding tools generate better postgresql code. timescale/pg-aiguide pip install pg-aiguide backend-api claude"
+    },
+    {
+      "name": "yupi-hot-monitor",
+      "source": "tools",
+      "sourceAgent": "copilot",
+      "repo": "liyupi/yupi-hot-monitor",
+      "stars": 489,
+      "desc": "2026 年编程导航 AI 编程实战新项目，基于 Node.js + Express + React + OpenRouter 的 AI 热点监控工具，支持多信息源聚合抓取（Twitter / Bing / HackerNews / B 站等 7+ 平台）、AI 查询扩展、AI 真假识别与相关性分析、WebSocket 实时推送、邮件通知、多维度筛选排序，并将热点监控能力封装为 Agent Skills 技能包。覆盖 Prisma + SQLite 数据库、Socket.io",
+      "url": "https://github.com/liyupi/yupi-hot-monitor",
+      "install": "npm i -g yupi-hot-monitor",
+      "functionCategory": "backend-api",
+      "supportedAgents": [
+        "copilot",
+        "other"
+      ],
+      "searchText": "yupi-hot-monitor 2026 年编程导航 ai 编程实战新项目，基于 node.js + express + react + openrouter 的 ai 热点监控工具，支持多信息源聚合抓取（twitter / bing / hackernews / b 站等 7+ 平台）、ai 查询扩展、ai 真假识别与相关性分析、websocket 实时推送、邮件通知、多维度筛选排序，并将热点监控能力封装为 agent skills 技能包。覆盖 prisma + sqlite 数据库、socket.io liyupi/yupi-hot-monitor npm i -g yupi-hot-monitor backend-api copilot other"
+    }
+  ]
+}

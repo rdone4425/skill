@@ -15,16 +15,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          python-version: "3.12"
+          node-version: "22"
 
-      - name: Refresh stars and check existing entries
+      - name: Refresh category data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python .github/scripts/refresh_skill_hub_data.py \
+          node .github/scripts/refresh_skill_hub_data.mjs \
             --root . \
             --verbose
 
@@ -32,5 +32,5 @@ jobs:
         id: auto-commit-action
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "chore: refresh Skill Hub stars and health report"
-          file_pattern: "agents/**/*.json agents/**/*.js agents/health-report.json"
+          commit_message: "chore: refresh category data and health report"
+          file_pattern: "categories/**/*.json categories/health-report.json"

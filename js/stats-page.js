@@ -5,29 +5,38 @@
   'use strict';
 
   const hub = window.SkillHub = window.SkillHub || {};
+
   const statsDictionary = {
     zh: {
-      title: 'Skill Hub — 统计页',
+      title: 'Skill Hub - 统计页',
       summary: '总览',
-      distribution: '平台分布',
-      distributionByAgent: '按 Agent 分布',
+      distribution: '分类分布',
+      distributionByCategory: '按功能分类',
       topRepos: '热门仓库 Top 10',
-      details: '平台详情',
-      heroSub: '平台与功能分类统计',
-      heroDesc: '数据来自 agents 目录的动态聚合结果。',
-      home: '← 首页'
+      details: '平台覆盖',
+      heroSub: '功能分类与平台兼容统计',
+      heroDesc: '数据来自 categories 目录自动生成的索引和技能集合。',
+      home: '返回首页',
+      categories: '分类数',
+      platforms: '平台数',
+      totalStars: '总 Stars',
+      skills: 'Skills',
     },
     en: {
-      title: 'Skill Hub — Stats',
+      title: 'Skill Hub - Stats',
       summary: 'Overview',
-      distribution: 'Platform Distribution',
-      distributionByAgent: 'By Agent',
-      topRepos: 'Top 10 Repos',
-      details: 'Platform Details',
-      heroSub: 'Platform and functional category statistics',
-      heroDesc: 'Data is aggregated dynamically from the agents directory.',
-      home: '← Home'
-    }
+      distribution: 'Category distribution',
+      distributionByCategory: 'By function category',
+      topRepos: 'Top 10 repos',
+      details: 'Platform coverage',
+      heroSub: 'Function categories and platform compatibility',
+      heroDesc: 'Data is generated from the categories directory index and skill buckets.',
+      home: 'Back to home',
+      categories: 'Categories',
+      platforms: 'Platforms',
+      totalStars: 'Total stars',
+      skills: 'Skills',
+    },
   };
 
   function applyPageI18n() {
@@ -41,7 +50,7 @@
     const summaryTitle = document.getElementById('stats-summary-title');
     const distributionTitle = document.getElementById('stats-distribution-title');
     const agentTitle = document.getElementById('stats-agent-title');
-    const distributionByAgent = document.querySelector('.stats-chart-wrap h3');
+    const distributionByCategory = document.querySelector('.stats-chart-wrap h3');
     const topRepos = document.querySelector('.stats-bars-wrap h3');
     const homeLink = document.querySelector('.main-nav a[href="index.html"]');
 
@@ -50,7 +59,7 @@
     if (summaryTitle) summaryTitle.textContent = dict.summary;
     if (distributionTitle) distributionTitle.textContent = dict.distribution;
     if (agentTitle) agentTitle.textContent = dict.details;
-    if (distributionByAgent) distributionByAgent.textContent = dict.distributionByAgent;
+    if (distributionByCategory) distributionByCategory.textContent = dict.distributionByCategory;
     if (topRepos) topRepos.textContent = dict.topRepos;
     if (homeLink) homeLink.textContent = dict.home;
   }
@@ -59,15 +68,17 @@
     const wrap = document.getElementById('stats-summary');
     if (!wrap) return;
 
-    const repos = new Set((data.skills || []).map(skill => skill.repo));
-    const agents = new Set((data.skills || []).map(skill => skill.agent || 'other'));
-    const categories = new Set((data.skills || []).map(skill => skill.group || 'general'));
+    const repos = new Set((data.skills || []).map((skill) => skill.repo).filter(Boolean));
+    const platforms = new Set((data.skills || []).flatMap((skill) => skill.supportedAgents || []));
+    const categories = new Set((data.skills || []).map((skill) => skill.functionCategory || 'general'));
+    const totalStars = (data.skills || []).reduce((sum, skill) => sum + Number(skill.stars || 0), 0);
 
     const cards = [
-      ['Skills', data.skills.length],
-      ['Agents', agents.size],
-      ['Repos', repos.size],
-      ['Categories', categories.size]
+      [hub.i18n.t('skills'), data.skills.length],
+      [hub.i18n.t('reposLabel'), repos.size],
+      [hub.i18n.t('categoriesLabel'), categories.size],
+      [hub.i18n.t('platformsLabel'), platforms.size],
+      ['Stars', hub.state.STAR_FMT(totalStars)],
     ];
 
     wrap.innerHTML = cards.map(([label, value]) => `
@@ -78,39 +89,46 @@
     `).join('');
   }
 
-  function renderAgentCards(data) {
+  function renderPlatformCards(data) {
     const wrap = document.getElementById('stats-agent-grid');
     if (!wrap) return;
 
     const map = new Map();
-    (data.skills || []).forEach(skill => {
-      const agent = skill.agent || 'other';
-      if (!map.has(agent)) {
-        map.set(agent, {
-          count: 0,
-          stars: 0,
-          categories: new Set()
-        });
-      }
-      const item = map.get(agent);
-      item.count += 1;
-      item.stars += skill.stars || 0;
-      item.categories.add(skill.group || 'general');
+    (data.skills || []).forEach((skill) => {
+      const supportedAgents = Array.isArray(skill.supportedAgents) && skill.supportedAgents.length > 0
+        ? skill.supportedAgents
+        : ['other'];
+
+      supportedAgents.forEach((agentId) => {
+        if (!map.has(agentId)) {
+          map.set(agentId, {
+            count: 0,
+            stars: 0,
+            categories: new Set(),
+          });
+        }
+        const item = map.get(agentId);
+        item.count += 1;
+        item.stars += Number(skill.stars || 0);
+        item.categories.add(skill.functionCategory || 'general');
+      });
     });
 
     wrap.innerHTML = Array.from(map.entries())
-      .sort((a, b) => (hub.state.getAgentMeta(a[0]).order || 999) - (hub.state.getAgentMeta(b[0]).order || 999))
-      .map(([agent, item]) => {
-        const meta = hub.state.getAgentMeta(agent);
+      .sort((left, right) => (hub.state.getAgentMeta(left[0]).order || 999) - (hub.state.getAgentMeta(right[0]).order || 999))
+      .map(([agentId, item]) => {
+        const meta = hub.state.getAgentMeta(agentId);
         return `
           <article class="stats-agent-card">
             <div class="stats-agent-title">
-              <span>${meta.icon || '📦'} ${hub.state.getAgentLabel(agent)}</span>
+              <span>${meta.iconUrl
+                ? `<img class="agent-mark agent-mark-inline" src="${meta.iconUrl}" alt="${hub.state.getAgentLabel(agentId)}" loading="lazy" referrerpolicy="no-referrer">`
+                : meta.icon || '?'} ${hub.state.getAgentLabel(agentId)}</span>
               <span>${item.count}</span>
             </div>
             <div class="stats-agent-meta">
-              <div class="stats-agent-line"><span>分类数</span><span>${item.categories.size}</span></div>
-              <div class="stats-agent-line"><span>总 Stars</span><span>${hub.state.STAR_FMT(item.stars)}</span></div>
+              <div class="stats-agent-line"><span>${hub.i18n.t('categoriesLabel')}</span><span>${item.categories.size}</span></div>
+              <div class="stats-agent-line"><span>Stars</span><span>${hub.state.STAR_FMT(item.stars)}</span></div>
             </div>
           </article>
         `;
@@ -118,13 +136,13 @@
   }
 
   function renderStatsTable(data) {
-    const byAgent = {};
-    (data.skills || []).forEach(skill => {
-      const agent = skill.agent || 'other';
-      byAgent[agent] = (byAgent[agent] || 0) + 1;
+    const byCategory = new Map();
+    (data.skills || []).forEach((skill) => {
+      const category = skill.functionCategory || 'general';
+      byCategory.set(category, (byCategory.get(category) || 0) + 1);
     });
 
-    const sortedAgents = Object.entries(byAgent).sort((a, b) => b[1] - a[1]);
+    const sortedCategories = Array.from(byCategory.entries()).sort((left, right) => right[1] - left[1]);
     const chartWrap = document.getElementById('stats-chart');
 
     if (chartWrap) {
@@ -137,32 +155,32 @@
         parent.appendChild(table);
       }
 
-      table.innerHTML = sortedAgents.map(([agent, count]) => {
-        const pct = (count / data.skills.length * 100).toFixed(1);
-        const meta = hub.state.getAgentMeta(agent);
+      table.innerHTML = sortedCategories.map(([categoryId, count]) => {
+        const pct = data.skills.length > 0 ? (count / data.skills.length * 100).toFixed(1) : '0.0';
         return `<div class="stats-row">
-          <span class="stats-label">${meta.icon || '📦'} ${hub.state.getAgentLabel(agent)}</span>
+          <span class="stats-label">${categoryId}</span>
           <div class="stats-bar-bg">
-            <div class="stats-bar-fill" style="width:${pct}%;background:${meta.color || '#6366f1'}"></div>
+            <div class="stats-bar-fill" style="width:${pct}%"></div>
           </div>
           <span class="stats-count">${count} (${pct}%)</span>
         </div>`;
       }).join('');
     }
 
-    const repoMap = {};
-    (data.skills || []).forEach(skill => {
-      repoMap[skill.repo] = (repoMap[skill.repo] || 0) + 1;
+    const repoMap = new Map();
+    (data.skills || []).forEach((skill) => {
+      if (!skill.repo) return;
+      repoMap.set(skill.repo, (repoMap.get(skill.repo) || 0) + 1);
     });
 
-    const topRepos = Object.entries(repoMap).sort((a, b) => b[1] - a[1]).slice(0, 10);
+    const topRepos = Array.from(repoMap.entries()).sort((left, right) => right[1] - left[1]).slice(0, 10);
     const maxCount = topRepos.length ? topRepos[0][1] : 1;
     const bars = document.getElementById('stats-bars');
     if (bars) {
       bars.innerHTML = topRepos.map(([repo, count]) => {
         const pct = (count / maxCount * 100).toFixed(1);
         return `<div class="stats-row">
-          <a class="stats-label link" href="https://github.com/${repo}" target="_blank">${repo.split('/')[1] || repo}</a>
+          <a class="stats-label link" href="https://github.com/${repo}" target="_blank">${repo}</a>
           <div class="stats-bar-bg">
             <div class="stats-bar-fill" style="width:${pct}%"></div>
           </div>
@@ -176,7 +194,7 @@
     if (!data) return;
     renderSummary(data);
     renderStatsTable(data);
-    renderAgentCards(data);
+    renderPlatformCards(data);
   }
 
   function loadStatsData() {
@@ -192,8 +210,6 @@
     if (hub.data && typeof hub.data.loadForSelection === 'function') {
       return hub.data.loadForSelection({
         category: 'all',
-        subgroup: null,
-        keyword: ''
       });
     }
 
@@ -216,7 +232,7 @@
 
     loadStatsData()
       .then(renderLoadedData)
-      .catch(error => console.error('Failed to load stats data', error));
+      .catch((error) => console.error('Failed to load stats data', error));
   }
 
   document.addEventListener('DOMContentLoaded', init);

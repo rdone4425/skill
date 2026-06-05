@@ -1,0 +1,689 @@
+{
+  "meta": {
+    "functionCategory": "automation-productivity",
+    "count": 44,
+    "sourceData": "categories"
+  },
+  "skills": [
+    {
+      "name": "xlsx",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "anthropics/skills",
+      "stars": 146900,
+      "desc": "\"Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, format",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
+      "install": "$skill-installer xlsx",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "xlsx \"use this skill any time a spreadsheet file is the primary input or output. this means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, format anthropics/skills $skill-installer xlsx automation-productivity claude"
+    },
+    {
+      "name": "agents",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "wshobson/agents",
+      "stars": 36402,
+      "desc": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI",
+      "url": "https://github.com/wshobson/agents",
+      "install": "pip install agents",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "opencode",
+        "gemini"
+      ],
+      "searchText": "agents multi-harness agentic plugin marketplace for claude code, codex cli, cursor, opencode, and gemini cli wshobson/agents pip install agents automation-productivity claude codex cursor opencode gemini"
+    },
+    {
+      "name": "gogcli",
+      "source": "openclaw",
+      "sourceAgent": "openclaw",
+      "repo": "openclaw/gogcli",
+      "stars": 7670,
+      "desc": "Google Workspace in your terminal.",
+      "url": "https://github.com/openclaw/gogcli",
+      "install": "go install github.com/openclaw/gogcli@latest",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "gogcli google workspace in your terminal. openclaw/gogcli go install github.com/openclaw/gogcli@latest automation-productivity openclaw"
+    },
+    {
+      "name": "OfficeCLI",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "iOfficeAI/OfficeCLI",
+      "stars": 6189,
+      "desc": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-so",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "install": "git clone https://github.com/iOfficeAI/OfficeCLI.git",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "copilot",
+        "hermes",
+        "opencode",
+        "openclaw"
+      ],
+      "searchText": "officecli officecli is the first and best office suite  purpose-built for ai agents to read, edit, and automate word, excel, and powerpoint files. free, open-so iofficeai/officecli git clone https://github.com/iofficeai/officecli.git automation-productivity claude codex cursor copilot hermes opencode openclaw"
+    },
+    {
+      "name": "xiaohongshu-skills",
+      "source": "general",
+      "sourceAgent": "openclaw",
+      "repo": "white0dew/XiaohongshuSkills",
+      "stars": 2968,
+      "desc": "Xiaohongshu auto-publishing, auto-commenting, auto-search skill. Supports OpenClaw, Codex, CC, etc.",
+      "url": "https://github.com/white0dew/XiaohongshuSkills",
+      "install": "git clone https://github.com/white0dew/XiaohongshuSkills.git",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "codex",
+        "openclaw"
+      ],
+      "searchText": "xiaohongshu-skills xiaohongshu auto-publishing, auto-commenting, auto-search skill. supports openclaw, codex, cc, etc. white0dew/xiaohongshuskills git clone https://github.com/white0dew/xiaohongshuskills.git automation-productivity codex openclaw"
+    },
+    {
+      "name": "NotFair",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "nowork-studio/NotFair",
+      "stars": 2783,
+      "desc": "Open-source Claude Code skills for SEO, GEO, Google Ads, Meta Ads",
+      "url": "https://github.com/nowork-studio/NotFair",
+      "install": "npm i -g NotFair",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "notfair open-source claude code skills for seo, geo, google ads, meta ads nowork-studio/notfair npm i -g notfair automation-productivity claude"
+    },
+    {
+      "name": "wacli",
+      "source": "openclaw",
+      "sourceAgent": "openclaw",
+      "repo": "openclaw/wacli",
+      "stars": 2510,
+      "desc": "WhatsApp CLI: sync, search, send",
+      "url": "https://github.com/openclaw/wacli",
+      "install": "go install github.com/openclaw/wacli@latest",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "wacli whatsapp cli: sync, search, send openclaw/wacli go install github.com/openclaw/wacli@latest automation-productivity openclaw"
+    },
+    {
+      "name": "openclaw-lark",
+      "source": "openclaw",
+      "sourceAgent": "openclaw",
+      "repo": "larksuite/openclaw-lark",
+      "stars": 2256,
+      "desc": "飞书官方出品的 OpenClaw 飞书/Lark Channel 插件",
+      "url": "https://github.com/larksuite/openclaw-lark",
+      "install": "npm i -g openclaw-lark",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-lark 飞书官方出品的 openclaw 飞书/lark channel 插件 larksuite/openclaw-lark npm i -g openclaw-lark automation-productivity openclaw"
+    },
+    {
+      "name": "dingtalk-openclaw-connector",
+      "source": "openclaw",
+      "sourceAgent": "openclaw",
+      "repo": "DingTalk-Real-AI/dingtalk-openclaw-connector",
+      "stars": 2081,
+      "desc": "Official OpenClaw DingTalk channel plugin | 钉钉官方 OpenClaw 插件",
+      "url": "https://github.com/DingTalk-Real-AI/dingtalk-openclaw-connector",
+      "install": "npm i -g dingtalk-openclaw-connector",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "dingtalk-openclaw-connector official openclaw dingtalk channel plugin | 钉钉官方 openclaw 插件 dingtalk-real-ai/dingtalk-openclaw-connector npm i -g dingtalk-openclaw-connector automation-productivity openclaw"
+    },
+    {
+      "name": "videocut-skills",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "Ceeon/videocut-skills",
+      "stars": 1833,
+      "desc": "用 Claude Code Skills 做的视频剪辑 Agent",
+      "url": "https://github.com/Ceeon/videocut-skills",
+      "install": "npm i -g videocut-skills",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "videocut-skills 用 claude code skills 做的视频剪辑 agent ceeon/videocut-skills npm i -g videocut-skills automation-productivity claude"
+    },
+    {
+      "name": "claude-trading-skills",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "tradermonty/claude-trading-skills",
+      "stars": 1789,
+      "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "install": "pip install claude-trading-skills",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "claude-trading-skills claude code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development. tradermonty/claude-trading-skills pip install claude-trading-skills automation-productivity claude"
+    },
+    {
+      "name": "browserwing",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "browserwing/browserwing",
+      "stars": 1292,
+      "desc": "BrowserWing turns your browser actions into MCP commands Or Claude Skill, allowing AI agents to control browsers efficiently and reliably. Say goodbye to slow, token-heavy LLM interactions — let agents call commands directly for faster automation. Perfect for AI-driven tasks, browser automation, and boosting productivity.",
+      "url": "https://github.com/browserwing/browserwing",
+      "install": "go install github.com/browserwing/browserwing@latest",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "browserwing browserwing turns your browser actions into mcp commands or claude skill, allowing ai agents to control browsers efficiently and reliably. say goodbye to slow, token-heavy llm interactions — let agents call commands directly for faster automation. perfect for ai-driven tasks, browser automation, and boosting productivity. browserwing/browserwing go install github.com/browserwing/browserwing@latest automation-productivity claude"
+    },
+    {
+      "name": "gtm-engineer-skills",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "onvoyage-ai/gtm-engineer-skills",
+      "stars": 1133,
+      "desc": "Claude Code skill for improving website AEO (AI Engine Optimization) and GEO (Generative Engine Optimization) scores — 16 foundational checks, 6 intelligence dimensions, framework-specific fixes",
+      "url": "https://github.com/onvoyage-ai/gtm-engineer-skills",
+      "install": "git clone https://github.com/onvoyage-ai/gtm-engineer-skills.git",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "gtm-engineer-skills claude code skill for improving website aeo (ai engine optimization) and geo (generative engine optimization) scores — 16 foundational checks, 6 intelligence dimensions, framework-specific fixes onvoyage-ai/gtm-engineer-skills git clone https://github.com/onvoyage-ai/gtm-engineer-skills.git automation-productivity claude"
+    },
+    {
+      "name": "claude-skill-app-onboarding-questionnaire",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "adamlyttleapps/claude-skill-app-onboarding-questionnaire",
+      "stars": 1051,
+      "desc": "A Claude Code skill that designs and builds high-converting questionnaire-style app onboarding flows — modelled    on proven conversion patterns from top subscription apps like Mob, Headspace and Noom",
+      "url": "https://github.com/adamlyttleapps/claude-skill-app-onboarding-questionnaire",
+      "install": "git clone https://github.com/adamlyttleapps/claude-skill-app-onboarding-questionnaire.git",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "claude-skill-app-onboarding-questionnaire a claude code skill that designs and builds high-converting questionnaire-style app onboarding flows — modelled    on proven conversion patterns from top subscription apps like mob, headspace and noom adamlyttleapps/claude-skill-app-onboarding-questionnaire git clone https://github.com/adamlyttleapps/claude-skill-app-onboarding-questionnaire.git automation-productivity claude"
+    },
+    {
+      "name": "pm-claude-skills",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "mohitagw15856/pm-claude-skills",
+      "stars": 934,
+      "desc": "Professional skills for Claude AI — 167 skills across 17 professions. Save 8-10 hours per week. PM stands for Professional.",
+      "url": "https://github.com/mohitagw15856/pm-claude-skills",
+      "install": "git clone https://github.com/mohitagw15856/pm-claude-skills.git",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "pm-claude-skills professional skills for claude ai — 167 skills across 17 professions. save 8-10 hours per week. pm stands for professional. mohitagw15856/pm-claude-skills git clone https://github.com/mohitagw15856/pm-claude-skills.git automation-productivity claude"
+    },
+    {
+      "name": "agentsys",
+      "source": "tools",
+      "sourceAgent": "multi",
+      "repo": "agent-sh/agentsys",
+      "stars": 843,
+      "desc": "AI writes code. This automates everything else. 24 plugins, 49 agents, 44 skills. For Claude Code, OpenCode, Codex, Cursor, Kiro.",
+      "url": "https://github.com/agent-sh/agentsys",
+      "install": "git clone https://github.com/agent-sh/agentsys.git",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "opencode"
+      ],
+      "searchText": "agentsys ai writes code. this automates everything else. 24 plugins, 49 agents, 44 skills. for claude code, opencode, codex, cursor, kiro. agent-sh/agentsys git clone https://github.com/agent-sh/agentsys.git automation-productivity claude codex cursor opencode"
+    },
+    {
+      "name": "x-article-publisher-skill",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "wshuyi/x-article-publisher-skill",
+      "stars": 790,
+      "desc": "Claude Code skill for publishing Markdown articles to X (Twitter) Articles",
+      "url": "https://github.com/wshuyi/x-article-publisher-skill",
+      "install": "pip install x-article-publisher-skill",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "x-article-publisher-skill claude code skill for publishing markdown articles to x (twitter) articles wshuyi/x-article-publisher-skill pip install x-article-publisher-skill automation-productivity claude"
+    },
+    {
+      "name": "gsd-opencode",
+      "source": "opencode",
+      "sourceAgent": "opencode",
+      "repo": "rokicool/gsd-opencode",
+      "stars": 785,
+      "desc": "Get-Shit-Done by TACHES for OpenCode",
+      "url": "https://github.com/rokicool/gsd-opencode",
+      "install": "npm i -g gsd-opencode",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "opencode"
+      ],
+      "searchText": "gsd-opencode get-shit-done by taches for opencode rokicool/gsd-opencode npm i -g gsd-opencode automation-productivity opencode"
+    },
+    {
+      "name": "opencode-telegram-bot",
+      "source": "opencode",
+      "sourceAgent": "opencode",
+      "repo": "grinev/opencode-telegram-bot",
+      "stars": 758,
+      "desc": "OpenCode mobile client via Telegram: run and monitor AI coding tasks from your phone while everything runs locally on your machine. Scheduled tasks support.",
+      "url": "https://github.com/grinev/opencode-telegram-bot",
+      "install": "npm i -g opencode-telegram-bot",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "opencode"
+      ],
+      "searchText": "opencode-telegram-bot opencode mobile client via telegram: run and monitor ai coding tasks from your phone while everything runs locally on your machine. scheduled tasks support. grinev/opencode-telegram-bot npm i -g opencode-telegram-bot automation-productivity opencode"
+    },
+    {
+      "name": "ralph-wiggum-marketer",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "muratcankoylan/ralph-wiggum-marketer",
+      "stars": 747,
+      "desc": "A Claude Code Plugin that provides an autonomous AI copywriter.",
+      "url": "https://github.com/muratcankoylan/ralph-wiggum-marketer",
+      "install": "npm i -g ralph-wiggum-marketer",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "ralph-wiggum-marketer a claude code plugin that provides an autonomous ai copywriter. muratcankoylan/ralph-wiggum-marketer npm i -g ralph-wiggum-marketer automation-productivity claude"
+    },
+    {
+      "name": "CountBot",
+      "source": "general",
+      "sourceAgent": "openclaw",
+      "repo": "countbot-ai/CountBot",
+      "stars": 716,
+      "desc": "更适配中文用户的轻量开源AI Agent | 国产大模型Coding plan支持 | 兼容OpenClaw Skills生态| 已接入微信ClawBot/微博龙虾/飞书/钉钉/QQ/小智AI/Telegram/deepseek-v4。",
+      "url": "https://github.com/countbot-ai/CountBot",
+      "install": "git clone https://github.com/countbot-ai/CountBot.git",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "countbot 更适配中文用户的轻量开源ai agent | 国产大模型coding plan支持 | 兼容openclaw skills生态| 已接入微信clawbot/微博龙虾/飞书/钉钉/qq/小智ai/telegram/deepseek-v4。 countbot-ai/countbot git clone https://github.com/countbot-ai/countbot.git automation-productivity openclaw"
+    },
+    {
+      "name": "home-assistant-vibecode-agent",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "Coolver/home-assistant-vibecode-agent",
+      "stars": 565,
+      "desc": "Home Assistant MCP server agent. Enable Claude Code, Cursor, VS Code or any MCP-enabled IDE to help you vibe-code and manage Home Assistant: create and debug automations, design dashboards, tweak themes, modify configs, and deploy changes using natural language",
+      "url": "https://github.com/Coolver/home-assistant-vibecode-agent",
+      "install": "pip install home-assistant-vibecode-agent",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "cursor"
+      ],
+      "searchText": "home-assistant-vibecode-agent home assistant mcp server agent. enable claude code, cursor, vs code or any mcp-enabled ide to help you vibe-code and manage home assistant: create and debug automations, design dashboards, tweak themes, modify configs, and deploy changes using natural language coolver/home-assistant-vibecode-agent pip install home-assistant-vibecode-agent automation-productivity claude cursor"
+    },
+    {
+      "name": "claude-plugin-weixin",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "m1heng/claude-plugin-weixin",
+      "stars": 563,
+      "desc": "",
+      "url": "https://github.com/m1heng/claude-plugin-weixin",
+      "install": "npm i -g claude-plugin-weixin",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "claude-plugin-weixin m1heng/claude-plugin-weixin npm i -g claude-plugin-weixin automation-productivity claude"
+    },
+    {
+      "name": "tuya-openclaw-skills",
+      "source": "general",
+      "sourceAgent": "openclaw",
+      "repo": "tuya/tuya-openclaw-skills",
+      "stars": 561,
+      "desc": "Tuya AI Skill Library for OpenClaw/TuyaClaw - An AI-driven skill set built for the development of Tuya's smart ecosystem (e.g., device control).",
+      "url": "https://github.com/tuya/tuya-openclaw-skills",
+      "install": "git clone https://github.com/tuya/tuya-openclaw-skills.git",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "tuya-openclaw-skills tuya ai skill library for openclaw/tuyaclaw - an ai-driven skill set built for the development of tuya's smart ecosystem (e.g., device control). tuya/tuya-openclaw-skills git clone https://github.com/tuya/tuya-openclaw-skills.git automation-productivity openclaw"
+    },
+    {
+      "name": "claude-equity-research",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "quant-sentiment-ai/claude-equity-research",
+      "stars": 554,
+      "desc": "🔌 Claude Code Plugin for institutional-grade equity research.   Install with /plugin marketplace add. Generates professional   buy/sell recommendations with comprehensive fundamental   analysis, technical indicators, and risk assessment. Educational    use only - not financial advice.",
+      "url": "https://github.com/quant-sentiment-ai/claude-equity-research",
+      "install": "git clone https://github.com/quant-sentiment-ai/claude-equity-research.git",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "claude-equity-research 🔌 claude code plugin for institutional-grade equity research.   install with /plugin marketplace add. generates professional   buy/sell recommendations with comprehensive fundamental   analysis, technical indicators, and risk assessment. educational    use only - not financial advice. quant-sentiment-ai/claude-equity-research git clone https://github.com/quant-sentiment-ai/claude-equity-research.git automation-productivity claude"
+    },
+    {
+      "name": "travel-hacking-toolkit",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "borski/travel-hacking-toolkit",
+      "stars": 530,
+      "desc": "AI-powered travel hacking and search with cash, points, miles, and award flights. Drop-in skills and MCP servers for Claude, Codex, and OpenCode.",
+      "url": "https://github.com/borski/travel-hacking-toolkit",
+      "install": "git clone https://github.com/borski/travel-hacking-toolkit.git",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "opencode"
+      ],
+      "searchText": "travel-hacking-toolkit ai-powered travel hacking and search with cash, points, miles, and award flights. drop-in skills and mcp servers for claude, codex, and opencode. borski/travel-hacking-toolkit git clone https://github.com/borski/travel-hacking-toolkit.git automation-productivity claude codex opencode"
+    },
+    {
+      "name": "claude-skills-llm-council",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "aiwithremy/claude-skills-llm-council",
+      "stars": 439,
+      "desc": "LLM Council — a Claude Code skill that runs your decisions through 5 AI advisors with peer review",
+      "url": "https://github.com/aiwithremy/claude-skills-llm-council",
+      "install": "git clone https://github.com/aiwithremy/claude-skills-llm-council.git",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "claude-skills-llm-council llm council — a claude code skill that runs your decisions through 5 ai advisors with peer review aiwithremy/claude-skills-llm-council git clone https://github.com/aiwithremy/claude-skills-llm-council.git automation-productivity claude"
+    },
+    {
+      "name": "claude-skill-homeassistant",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "komal-SkyNET/claude-skill-homeassistant",
+      "stars": 423,
+      "desc": "Claude Code skill to supercharge and manage all Home Assistant workflows",
+      "url": "https://github.com/komal-SkyNET/claude-skill-homeassistant",
+      "install": "git clone https://github.com/komal-SkyNET/claude-skill-homeassistant.git",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "claude-skill-homeassistant claude code skill to supercharge and manage all home assistant workflows komal-skynet/claude-skill-homeassistant git clone https://github.com/komal-skynet/claude-skill-homeassistant.git automation-productivity claude"
+    },
+    {
+      "name": "claude-code-notion-plugin",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "makenotion/claude-code-notion-plugin",
+      "stars": 406,
+      "desc": "Connect Claude Code to Notion via this Plugin",
+      "url": "https://github.com/makenotion/claude-code-notion-plugin",
+      "install": "git clone https://github.com/makenotion/claude-code-notion-plugin.git",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "claude-code-notion-plugin connect claude code to notion via this plugin makenotion/claude-code-notion-plugin git clone https://github.com/makenotion/claude-code-notion-plugin.git automation-productivity claude"
+    },
+    {
+      "name": "nano-banana-2-skill",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "kingbootoshi/nano-banana-2-skill",
+      "stars": 381,
+      "desc": "AI image generation CLI powered by Gemini 3 Pro. Green screen transparency, reference images, style transfer. Also a Claude Code plugin.",
+      "url": "https://github.com/kingbootoshi/nano-banana-2-skill",
+      "install": "npm i -g nano-banana-2-skill",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "gemini"
+      ],
+      "searchText": "nano-banana-2-skill ai image generation cli powered by gemini 3 pro. green screen transparency, reference images, style transfer. also a claude code plugin. kingbootoshi/nano-banana-2-skill npm i -g nano-banana-2-skill automation-productivity claude gemini"
+    },
+    {
+      "name": "ai-marketing-claude-code-skills",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "stars": 316,
+      "desc": "Marketing frameworks that AI actually executes. Designed for Claude Code, but could be used for OpenClaw, etc.",
+      "url": "https://github.com/BrianRWagner/ai-marketing-claude-code-skills",
+      "install": "git clone https://github.com/BrianRWagner/ai-marketing-claude-code-skills.git",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "openclaw"
+      ],
+      "searchText": "ai-marketing-claude-code-skills marketing frameworks that ai actually executes. designed for claude code, but could be used for openclaw, etc. brianrwagner/ai-marketing-claude-code-skills git clone https://github.com/brianrwagner/ai-marketing-claude-code-skills.git automation-productivity claude openclaw"
+    },
+    {
+      "name": "xhs-claude-skills",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "chenxiachan/xhs-claude-skills",
+      "stars": 313,
+      "desc": "Claude Code slash commands for extracting Xiaohongshu posts into Obsidian notes",
+      "url": "https://github.com/chenxiachan/xhs-claude-skills",
+      "install": "git clone https://github.com/chenxiachan/xhs-claude-skills.git",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "xhs-claude-skills claude code slash commands for extracting xiaohongshu posts into obsidian notes chenxiachan/xhs-claude-skills git clone https://github.com/chenxiachan/xhs-claude-skills.git automation-productivity claude"
+    },
+    {
+      "name": "x-bookmarks",
+      "source": "general",
+      "sourceAgent": "openclaw",
+      "repo": "sharbelxyz/x-bookmarks",
+      "stars": 270,
+      "desc": "OpenClaw skill: turn your X bookmarks into agent actions. Stop hoarding. Start applying.",
+      "url": "https://github.com/sharbelxyz/x-bookmarks",
+      "install": "git clone https://github.com/sharbelxyz/x-bookmarks.git",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "x-bookmarks openclaw skill: turn your x bookmarks into agent actions. stop hoarding. start applying. sharbelxyz/x-bookmarks git clone https://github.com/sharbelxyz/x-bookmarks.git automation-productivity openclaw"
+    },
+    {
+      "name": "content-collector-skill",
+      "source": "general",
+      "sourceAgent": "openclaw",
+      "repo": "vigorX777/content-collector-skill",
+      "stars": 232,
+      "desc": "OpenClaw skill: 自动收集社交媒体内容并整理成结构化笔记存入飞书文档",
+      "url": "https://github.com/vigorX777/content-collector-skill",
+      "install": "git clone https://github.com/vigorX777/content-collector-skill.git",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "content-collector-skill openclaw skill: 自动收集社交媒体内容并整理成结构化笔记存入飞书文档 vigorx777/content-collector-skill git clone https://github.com/vigorx777/content-collector-skill.git automation-productivity openclaw"
+    },
+    {
+      "name": "hermes-multi-agent-workflow",
+      "source": "general",
+      "sourceAgent": "hermes",
+      "repo": "tonbistudio/hermes-multi-agent-workflow",
+      "stars": 189,
+      "desc": "",
+      "url": "https://github.com/tonbistudio/hermes-multi-agent-workflow",
+      "install": "git clone https://github.com/tonbistudio/hermes-multi-agent-workflow.git",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-multi-agent-workflow tonbistudio/hermes-multi-agent-workflow git clone https://github.com/tonbistudio/hermes-multi-agent-workflow.git automation-productivity hermes"
+    },
+    {
+      "name": "hermes-agent-idea-workflow",
+      "source": "hermes",
+      "sourceAgent": "hermes",
+      "repo": "AkoliteZA/hermes-agent-idea-workflow",
+      "stars": 144,
+      "desc": "Pre-build idea-to-spec workflow skills for Hermes Agent: turn rough ideas into design docs, implementation specs, and Superpowers-ready build handoffs",
+      "url": "https://github.com/AkoliteZA/hermes-agent-idea-workflow",
+      "install": "git clone https://github.com/AkoliteZA/hermes-agent-idea-workflow.git",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-agent-idea-workflow pre-build idea-to-spec workflow skills for hermes agent: turn rough ideas into design docs, implementation specs, and superpowers-ready build handoffs akoliteza/hermes-agent-idea-workflow git clone https://github.com/akoliteza/hermes-agent-idea-workflow.git automation-productivity hermes"
+    },
+    {
+      "name": "reddit-growth-skill",
+      "source": "general",
+      "sourceAgent": "openclaw",
+      "repo": "oh-ashen-one/reddit-growth-skill",
+      "stars": 142,
+      "desc": "OpenClaw skill for Reddit community growth — human-style engagement, intent harvesting, warm-up protocol",
+      "url": "https://github.com/oh-ashen-one/reddit-growth-skill",
+      "install": "git clone https://github.com/oh-ashen-one/reddit-growth-skill.git",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "reddit-growth-skill openclaw skill for reddit community growth — human-style engagement, intent harvesting, warm-up protocol oh-ashen-one/reddit-growth-skill git clone https://github.com/oh-ashen-one/reddit-growth-skill.git automation-productivity openclaw"
+    },
+    {
+      "name": "hermes-geopolitical-market-sim",
+      "source": "hermes",
+      "sourceAgent": "hermes",
+      "repo": "nativ3ai/hermes-geopolitical-market-sim",
+      "stars": 114,
+      "desc": "Hermes skill package for WorldOSINT headless + Polymarket + MiroFish simulation workflows",
+      "url": "https://github.com/nativ3ai/hermes-geopolitical-market-sim",
+      "install": "pip install hermes-geopolitical-market-sim",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-geopolitical-market-sim hermes skill package for worldosint headless + polymarket + mirofish simulation workflows nativ3ai/hermes-geopolitical-market-sim pip install hermes-geopolitical-market-sim automation-productivity hermes"
+    },
+    {
+      "name": "dingtalk-ai-table",
+      "source": "general",
+      "sourceAgent": "openclaw",
+      "repo": "aliramw/dingtalk-ai-table",
+      "stars": 102,
+      "desc": "钉钉 AI 表格（多维表）操作技能 - OpenClaw Skill",
+      "url": "https://github.com/aliramw/dingtalk-ai-table",
+      "install": "git clone https://github.com/aliramw/dingtalk-ai-table.git",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "dingtalk-ai-table 钉钉 ai 表格（多维表）操作技能 - openclaw skill aliramw/dingtalk-ai-table git clone https://github.com/aliramw/dingtalk-ai-table.git automation-productivity openclaw"
+    },
+    {
+      "name": "seo-kit",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "TheMattBerman/seo-kit",
+      "stars": 80,
+      "desc": "AI agent that finds keywords, writes content, monitors rankings, and self-improves. Two OpenClaw skills that chain into a compounding SEO loop.",
+      "url": "https://github.com/TheMattBerman/seo-kit",
+      "install": "git clone https://github.com/TheMattBerman/seo-kit.git",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "seo-kit ai agent that finds keywords, writes content, monitors rankings, and self-improves. two openclaw skills that chain into a compounding seo loop. themattberman/seo-kit git clone https://github.com/themattberman/seo-kit.git automation-productivity openclaw"
+    },
+    {
+      "name": "open-artisan",
+      "source": "opencode",
+      "sourceAgent": "opencode",
+      "repo": "yehudacohen/open-artisan",
+      "stars": 59,
+      "desc": "OpenCode plugin for structured AI workflow orchestration",
+      "url": "https://github.com/yehudacohen/open-artisan",
+      "install": "npm i -g open-artisan",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "opencode"
+      ],
+      "searchText": "open-artisan opencode plugin for structured ai workflow orchestration yehudacohen/open-artisan npm i -g open-artisan automation-productivity opencode"
+    },
+    {
+      "name": "flightclaw",
+      "source": "openclaw",
+      "sourceAgent": "openclaw",
+      "repo": "jackculpan/flightclaw",
+      "stars": 56,
+      "desc": "Track flight prices from Google Flights with this OpenClaw skill. Search routes, monitor prices, and get alerts when prices drop.",
+      "url": "https://github.com/jackculpan/flightclaw",
+      "install": "pip install flightclaw",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "flightclaw track flight prices from google flights with this openclaw skill. search routes, monitor prices, and get alerts when prices drop. jackculpan/flightclaw pip install flightclaw automation-productivity openclaw"
+    },
+    {
+      "name": "dotskills",
+      "source": "openclaw",
+      "sourceAgent": "openclaw",
+      "repo": "vincentkoc/dotskills",
+      "stars": 55,
+      "desc": "🐙 A curated set of Codex and OpenClaw skills for workflow automation, technical debugging, and agent-assisted development patterns.",
+      "url": "https://github.com/vincentkoc/dotskills",
+      "install": "pip install dotskills",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "codex",
+        "openclaw"
+      ],
+      "searchText": "dotskills 🐙 a curated set of codex and openclaw skills for workflow automation, technical debugging, and agent-assisted development patterns. vincentkoc/dotskills pip install dotskills automation-productivity codex openclaw"
+    },
+    {
+      "name": "nightscout-cgm-skill",
+      "source": "community",
+      "sourceAgent": "copilot",
+      "repo": "shanselman/nightscout-cgm-skill",
+      "stars": 53,
+      "desc": "GitHub Copilot Agent Skill for Nightscout CGM blood glucose analysis",
+      "url": "https://github.com/shanselman/nightscout-cgm-skill",
+      "install": "pip install nightscout-cgm-skill",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "copilot"
+      ],
+      "searchText": "nightscout-cgm-skill github copilot agent skill for nightscout cgm blood glucose analysis shanselman/nightscout-cgm-skill pip install nightscout-cgm-skill automation-productivity copilot"
+    }
+  ]
+}
