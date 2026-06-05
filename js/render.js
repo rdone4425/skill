@@ -8,6 +8,44 @@
   const s = hub.state;
   const { state, dom } = s;
 
+  function renderAgentMark(agentId, className = 'agent-mark') {
+    const meta = s.getAgentMeta(agentId);
+    const label = s.getAgentLabel(agentId);
+    if (meta.iconUrl) {
+      return `<img class="${className}" src="${meta.iconUrl}" alt="${label}" loading="lazy" referrerpolicy="no-referrer">`;
+    }
+    return `<span class="${className} ${className}-emoji">${meta.icon || '📦'}</span>`;
+  }
+
+  function getLabelWithFallback(key, fallbackZh, fallbackEn) {
+    const text = hub.i18n.t(key);
+    if (text && text !== key) return text;
+    return hub.i18n.getLang() === 'zh' ? fallbackZh : fallbackEn;
+  }
+
+  function fallbackCopyText(text) {
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    textarea.setAttribute('readonly', '');
+    textarea.style.position = 'fixed';
+    textarea.style.top = '-9999px';
+    textarea.style.opacity = '0';
+    document.body.appendChild(textarea);
+    textarea.select();
+    textarea.setSelectionRange(0, textarea.value.length);
+    const copied = document.execCommand('copy');
+    document.body.removeChild(textarea);
+    if (!copied) throw new Error('copy_failed');
+  }
+
+  async function copyInstallText(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(text);
+      return;
+    }
+    fallbackCopyText(text);
+  }
+
   function getFiltered() {
     let list = state.data;
 
@@ -15,14 +53,15 @@
       list = list.filter(item => s.getSkillAgent(item) === state.category);
     }
     if (state.subgroup) {
-      list = list.filter(item => item.group === state.subgroup);
+      list = list.filter(item => s.getSkillGroup(item) === state.subgroup);
     }
     if (state.keyword) {
       const kw = state.keyword.toLowerCase();
       list = list.filter(item =>
         item.name.toLowerCase().includes(kw) ||
         item.desc.toLowerCase().includes(kw) ||
-        item.repo.toLowerCase().includes(kw)
+        item.repo.toLowerCase().includes(kw) ||
+        String(item.install || '').toLowerCase().includes(kw)
       );
     }
 
@@ -48,7 +87,7 @@
       const top = document.createElement('div');
       top.className = 'directory-agent-top';
       top.innerHTML = `
-        <div class="directory-agent-name">${cat.icon || s.getAgentMeta(cat.id).icon} ${s.getAgentLabel(cat.id)}</div>
+        <div class="directory-agent-name">${renderAgentMark(cat.id, 'agent-mark agent-mark-sm')} ${s.getAgentLabel(cat.id)}</div>
         <span class="directory-agent-count">${count}</span>
       `;
 
@@ -98,7 +137,7 @@
       const btn = document.createElement('button');
       btn.className = 'tab cat-tab' + (state.category === cat.id ? ' active' : '');
       btn.dataset.id = cat.id;
-      btn.innerHTML = `${cat.icon || s.getAgentMeta(cat.id).icon} ${s.getAgentLabel(cat.id)}`;
+      btn.innerHTML = `${renderAgentMark(cat.id, 'agent-mark agent-mark-xs')} ${s.getAgentLabel(cat.id)}`;
       wrap.appendChild(btn);
     });
   }
@@ -109,7 +148,30 @@
     wrap.innerHTML = '';
     wrap.hidden = true;
 
-    if (state.category === 'all') return;
+    if (state.category === 'all') {
+      const allGroups = Array.from(new Set(
+        state.categories.flatMap(cat => (cat.groups || []).map(group => group.id))
+      )).sort((a, b) => a.localeCompare(b));
+
+      if (allGroups.length === 0) return;
+
+      wrap.hidden = false;
+
+      const allBtn = document.createElement('button');
+      allBtn.className = 'subgroup-tab sub-tab' + (!state.subgroup ? ' active' : '');
+      allBtn.dataset.group = '';
+      allBtn.textContent = hub.i18n.t('categoryAll');
+      wrap.appendChild(allBtn);
+
+      allGroups.forEach(groupId => {
+        const btn = document.createElement('button');
+        btn.className = 'subgroup-tab sub-tab' + (state.subgroup === groupId ? ' active' : '');
+        btn.dataset.group = groupId;
+        btn.textContent = s.getGroupLabel(groupId);
+        wrap.appendChild(btn);
+      });
+      return;
+    }
 
     const cat = s.getCategoryById(state.category);
     if (!cat || !cat.groups || cat.groups.length === 0) return;
@@ -154,12 +216,18 @@
     const agentId = s.getSkillAgent(skill);
     const meta = s.getAgentMeta(agentId);
     const color = meta.color || '#6b7280';
+    const repoOwner = String(skill.repo || '').split('/')[0] || '';
+    const avatarUrl = repoOwner ? `https://github.com/${repoOwner}.png?size=96` : '';
     const card = document.createElement('article');
     card.className = 'skill-card card';
     card.style.setProperty('--card-accent', color);
     card.innerHTML = `
       <div class="card-head">
-        <div class="card-icon">${meta.icon || '📦'}</div>
+        <div class="card-icon">
+          ${avatarUrl
+            ? `<img class="card-avatar" src="${avatarUrl}" alt="${repoOwner || skill.name}" loading="lazy" referrerpolicy="no-referrer">`
+            : `<span class="card-emoji">${meta.icon || '📦'}</span>`}
+        </div>
         <div class="card-title-wrap">
           <div class="card-name">${skill.name}</div>
           <div class="card-repo">
@@ -170,17 +238,46 @@
       </div>
       <p class="card-desc">${skill.desc}</p>
       <div class="card-meta">
-        <span class="source-tag" style="background:${color}18;color:${color};border-color:${color}33">${meta.icon || '📦'} ${s.getAgentLabel(agentId)}</span>
-        <span class="card-group">${s.getGroupLabel(skill.group || 'other')}</span>
+        <span class="source-tag" style="background:${color}18;color:${color};border-color:${color}33">${renderAgentMark(agentId, 'agent-mark agent-mark-inline')} ${s.getAgentLabel(agentId)}</span>
+        <span class="card-group">${s.getGroupLabel(s.getSkillGroup(skill))}</span>
       </div>
       <div class="card-install" title="${skill.install}">
         <code>$ ${skill.install}</code>
       </div>
       <div class="card-footer">
         <a class="card-link" href="https://github.com/${skill.repo}" target="_blank" rel="noopener">↗ ${hub.i18n.t('viewOnGitHub')}</a>
-        <span class="card-link card-link-muted">${hub.i18n.t('install')}</span>
+        <button type="button" class="copy-btn card-copy-btn" title="${getLabelWithFallback('install', '\u5b89\u88c5', 'Install')}">${getLabelWithFallback('install', '\u5b89\u88c5', 'Install')}</button>
       </div>
     `;
+
+    const copyBtn = card.querySelector('.copy-btn');
+    const installCode = String(skill.install || '').trim();
+    if (copyBtn) {
+      copyBtn.addEventListener('click', async () => {
+        const copiedLabel = getLabelWithFallback('installCopied', '\u5df2\u590d\u5236', 'Copied');
+        const installLabel = getLabelWithFallback('install', '\u5b89\u88c5', 'Install');
+        try {
+          await copyInstallText(installCode);
+          copyBtn.textContent = copiedLabel;
+          copyBtn.classList.add('copied');
+          copyBtn.title = copiedLabel;
+          setTimeout(() => {
+            copyBtn.textContent = installLabel;
+            copyBtn.classList.remove('copied');
+            copyBtn.title = installLabel;
+          }, 1200);
+        } catch {
+          const promptLabel = hub.i18n.getLang() === 'zh'
+            ? '\u8bf7\u624b\u52a8\u590d\u5236\u5b89\u88c5\u547d\u4ee4'
+            : 'Copy the install command manually';
+          window.prompt(promptLabel, installCode);
+          copyBtn.textContent = installLabel;
+          copyBtn.classList.remove('copied');
+          copyBtn.title = installLabel;
+        }
+      });
+    }
+
     return card;
   }
 
@@ -224,7 +321,7 @@
       header.className = 'agent-header';
       header.innerHTML = `
         <div class="agent-header-left">
-          <span class="agent-icon">${meta.icon || '📦'}</span>
+          ${renderAgentMark(agent, 'agent-mark agent-mark-sm')}
           <h2 class="agent-title">${s.getAgentLabel(agent)}</h2>
           <span class="agent-count">${totalCount} ${hub.i18n.t('skills')}</span>
         </div>
@@ -299,7 +396,7 @@
         const pct = (count / state.data.length * 100).toFixed(1);
         const meta = s.getAgentMeta(src);
         return `<div class="stats-row">
-          <span class="stats-label">${meta.icon || '📦'} ${s.getAgentLabel(src)}</span>
+          <span class="stats-label">${renderAgentMark(src, 'agent-mark agent-mark-xs')} ${s.getAgentLabel(src)}</span>
           <div class="stats-bar-bg">
             <div class="stats-bar-fill" style="width:${pct}%;background:${meta.color || '#6366f1'}"></div>
           </div>

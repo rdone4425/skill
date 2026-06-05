@@ -10,7 +10,7 @@
     zh: {
       pageTitle: 'Skill Hub — AI Agent Skills 导航站',
       metaDesc: 'Skill Hub — 汇集 OpenAI Codex、Claude Code、Hermes Agent、OpenCode 等主流 AI Agent 平台的 Skills，按 Agent 分类，支持安装、收藏、分页浏览。',
-      heroTitle: '🔍 Skill Hub',
+      heroTitle: 'Skill Hub',
       heroSub: 'AI Agent Skills 导航站',
       heroDesc: '汇集主流 AI Agent 平台的 Skills，一站式搜索、浏览、安装。',
       searchPlaceholder: '搜索 skills / 仓库 / 描述…',
@@ -43,6 +43,7 @@
       skills: '个 skill',
       viewOnGitHub: '仓库',
       install: '安装',
+      installCopied: '已复制',
       categoryAll: '全部',
       categoryAllDesc: '所有收录的 skills',
       group_figma: 'Figma',
@@ -71,7 +72,7 @@
     en: {
       pageTitle: 'Skill Hub — AI Agent Skills Directory',
       metaDesc: 'Skill Hub — Browse skills from OpenAI Codex, Claude Code, Hermes Agent, OpenCode and more. Search across agents, install with one click.',
-      heroTitle: '🔍 Skill Hub',
+      heroTitle: 'Skill Hub',
       heroSub: 'AI Agent Skills Directory',
       heroDesc: 'Browse and search skills from mainstream AI Agent platforms.',
       searchPlaceholder: 'Search skills / repos / descriptions…',
@@ -104,6 +105,7 @@
       skills: ' skills',
       viewOnGitHub: 'Repo',
       install: 'Install',
+      installCopied: 'Copied',
       categoryAll: 'All',
       categoryAllDesc: 'All indexed skills',
       group_figma: 'Figma',

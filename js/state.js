@@ -9,18 +9,29 @@
   const PER_PAGE = 24;
   const STATE_STORAGE_KEY = 'skill-hub.view-state';
   const STAR_FMT = n => n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k' : n.toLocaleString();
+  const FUNCTION_CATEGORIES = [
+    ['design-ui', ['figma', 'design', 'ui', 'ux', 'frontend', 'component', 'visual', 'style', 'css', 'html', 'layout']],
+    ['docs-content', ['document', 'docs', 'pdf', 'word', 'excel', 'powerpoint', 'slides', 'notion', 'obsidian', 'content', 'writing', 'report', 'presentation']],
+    ['dev-tools', ['cli', 'tool', 'plugin', 'mcp', 'wrapper', 'installer', 'editor', 'workspace', 'terminal', 'command']],
+    ['devops-deploy', ['deploy', 'deployment', 'cloudflare', 'vercel', 'netlify', 'docker', 'infra', 'infrastructure', 'kubernetes', 'ci', 'cd', 'workflow', 'ops']],
+    ['backend-api', ['api', 'backend', 'server', 'grpc', 'database', 'sql', 'auth', 'asp.net', 'mvc', 'microservice']],
+    ['testing-qa', ['test', 'testing', 'qa', 'debug', 'bug', 'e2e', 'playwright', 'verify', 'validation']],
+    ['security', ['security', 'secure', 'auth', 'privacy', 'guard', 'cyber', 'vulnerability', 'ctf']],
+    ['data-ai', ['ai', 'llm', 'model', 'agent', 'rag', 'research', 'analysis', 'prompt', 'memory', 'vector', 'dataset']],
+    ['automation-productivity', ['automation', 'automate', 'productivity', 'sync', 'manage', 'manager', 'organize', 'planner', 'planning', 'task']]
+  ];
 
   const AGENT_META = {
-    codex:    { icon: '🎯', color: '#6366f1', order: 1, zh: 'Codex', en: 'Codex', zhDesc: '面向 Codex 生态的 skills、工具和资源', enDesc: 'Skills, tools, and resources for the Codex ecosystem' },
-    claude:   { icon: '🟠', color: '#fb923c', order: 2, zh: 'Claude Code', en: 'Claude Code', zhDesc: '面向 Claude Code 生态的 skills、工具和资源', enDesc: 'Skills, tools, and resources for the Claude Code ecosystem' },
-    hermes:   { icon: '⚡', color: '#06b6d4', order: 3, zh: 'Hermes Agent', en: 'Hermes Agent', zhDesc: '面向 Hermes Agent 生态的 skills、工具和资源', enDesc: 'Skills, tools, and resources for the Hermes Agent ecosystem' },
-    opencode: { icon: '🟢', color: '#22c55e', order: 4, zh: 'OpenCode', en: 'OpenCode', zhDesc: '面向 OpenCode 生态的 skills、工具和资源', enDesc: 'Skills, tools, and resources for the OpenCode ecosystem' },
-    openclaw: { icon: '🐾', color: '#f97316', order: 5, zh: 'OpenClaw', en: 'OpenClaw', zhDesc: '面向 OpenClaw 生态的 skills、工具和资源', enDesc: 'Skills, tools, and resources for the OpenClaw ecosystem' },
-    cursor:   { icon: '🖱️', color: '#10b981', order: 6, zh: 'Cursor', en: 'Cursor', zhDesc: '面向 Cursor 生态的 skills、工具和资源', enDesc: 'Skills, tools, and resources for the Cursor ecosystem' },
-    copilot:  { icon: '🧭', color: '#0ea5e9', order: 7, zh: 'GitHub Copilot', en: 'GitHub Copilot', zhDesc: '面向 GitHub Copilot 生态的 skills、工具和资源', enDesc: 'Skills, tools, and resources for the GitHub Copilot ecosystem' },
-    gemini:   { icon: '💠', color: '#8b5cf6', order: 8, zh: 'Gemini', en: 'Gemini', zhDesc: '面向 Gemini 生态的 skills、工具和资源', enDesc: 'Skills, tools, and resources for the Gemini ecosystem' },
-    multi:    { icon: '🧩', color: '#a855f7', order: 90, zh: '多 Agent', en: 'Multi-Agent', zhDesc: '同时面向多个 Agent 生态的 skills、工具和资源', enDesc: 'Skills, tools, and resources that target multiple agent ecosystems' },
-    other:    { icon: '📦', color: '#6b7280', order: 99, zh: '其他', en: 'Other', zhDesc: '暂未识别到明确 Agent 名称的 skills、工具和资源', enDesc: 'Skills, tools, and resources without a clearly detected agent name' }
+    codex:    { icon: '🎯', iconUrl: 'https://www.google.com/s2/favicons?domain=openai.com&sz=64', color: '#6366f1', order: 1, zh: 'Codex', en: 'Codex', zhDesc: '面向 Codex 生态的 skills、工具和资源', enDesc: 'Skills, tools, and resources for the Codex ecosystem' },
+    claude:   { icon: '🟠', iconUrl: 'https://www.google.com/s2/favicons?domain=anthropic.com&sz=64', color: '#fb923c', order: 2, zh: 'Claude Code', en: 'Claude Code', zhDesc: '面向 Claude Code 生态的 skills、工具和资源', enDesc: 'Skills, tools, and resources for the Claude Code ecosystem' },
+    hermes:   { icon: '⚡', iconUrl: 'https://www.google.com/s2/favicons?domain=nousresearch.com&sz=64', color: '#06b6d4', order: 3, zh: 'Hermes Agent', en: 'Hermes Agent', zhDesc: '面向 Hermes Agent 生态的 skills、工具和资源', enDesc: 'Skills, tools, and resources for the Hermes Agent ecosystem' },
+    opencode: { icon: '🟢', iconUrl: 'https://www.google.com/s2/favicons?domain=opencode.ai&sz=64', color: '#22c55e', order: 4, zh: 'OpenCode', en: 'OpenCode', zhDesc: '面向 OpenCode 生态的 skills、工具和资源', enDesc: 'Skills, tools, and resources for the OpenCode ecosystem' },
+    openclaw: { icon: '🐾', iconUrl: 'https://www.google.com/s2/favicons?domain=github.com&sz=64', color: '#f97316', order: 5, zh: 'OpenClaw', en: 'OpenClaw', zhDesc: '面向 OpenClaw 生态的 skills、工具和资源', enDesc: 'Skills, tools, and resources for the OpenClaw ecosystem' },
+    cursor:   { icon: '🖱️', iconUrl: 'https://www.google.com/s2/favicons?domain=cursor.com&sz=64', color: '#10b981', order: 6, zh: 'Cursor', en: 'Cursor', zhDesc: '面向 Cursor 生态的 skills、工具和资源', enDesc: 'Skills, tools, and resources for the Cursor ecosystem' },
+    copilot:  { icon: '🧭', iconUrl: 'https://www.google.com/s2/favicons?domain=github.com&sz=64', color: '#0ea5e9', order: 7, zh: 'GitHub Copilot', en: 'GitHub Copilot', zhDesc: '面向 GitHub Copilot 生态的 skills、工具和资源', enDesc: 'Skills, tools, and resources for the GitHub Copilot ecosystem' },
+    gemini:   { icon: '💠', iconUrl: 'https://www.google.com/s2/favicons?domain=gemini.google.com&sz=64', color: '#8b5cf6', order: 8, zh: 'Gemini', en: 'Gemini', zhDesc: '面向 Gemini 生态的 skills、工具和资源', enDesc: 'Skills, tools, and resources for the Gemini ecosystem' },
+    multi:    { icon: '🧩', iconUrl: '', color: '#a855f7', order: 90, zh: '多 Agent', en: 'Multi-Agent', zhDesc: '同时面向多个 Agent 生态的 skills、工具和资源', enDesc: 'Skills, tools, and resources that target multiple agent ecosystems' },
+    other:    { icon: '📦', iconUrl: '', color: '#6b7280', order: 99, zh: '其他', en: 'Other', zhDesc: '暂未识别到明确 Agent 名称的 skills、工具和资源', enDesc: 'Skills, tools, and resources without a clearly detected agent name' }
   };
 
   const state = {
@@ -114,6 +125,26 @@
   function getGroupLabel(groupId) {
     const key = 'group_' + String(groupId || 'general').replace(/-/g, '_');
     return hub.i18n.t(key) || groupId;
+  }
+
+  function inferFunctionCategory(skill) {
+    const text = [skill.name, skill.desc, skill.repo]
+      .filter(Boolean)
+      .join(' ')
+      .toLowerCase();
+
+    for (const [category, keywords] of FUNCTION_CATEGORIES) {
+      if (keywords.some(keyword => text.includes(keyword))) {
+        return category;
+      }
+    }
+
+    return 'general';
+  }
+
+  function getSkillGroup(skill) {
+    if (skill && skill.group) return skill.group;
+    return inferFunctionCategory(skill || {});
   }
 
   function resetPage() {
@@ -225,11 +256,13 @@
     applyPersistedState,
     cacheDom,
     getSkillAgent,
+    getSkillGroup,
     getAgentMeta,
     getAgentLabel,
     getAgentDesc,
     getCategoryById,
     getGroupLabel,
+    inferFunctionCategory,
     resetPage,
     selectCategory,
     selectSubgroup,

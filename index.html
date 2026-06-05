@@ -15,17 +15,21 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Skill Hub — AI Agent Skills 导航站">
   <meta property="og:description" content="汇集主流 AI Agent 平台的 Skills，一站式搜索、浏览、安装。按 Agent 分类，快速找寻。">
-  <meta property="og:url" content="https://skill.442595.xyz">
-  <meta property="og:image" content="https://skill.442595.xyz/og-image.png">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="/og-image.png">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Skill Hub — AI Agent Skills 导航站">
   <meta name="twitter:description" content="汇集主流 AI Agent 平台的 Skills，一站式搜索、浏览、安装。按 Agent 分类，快速找寻。">
-  <meta name="twitter:image" content="https://skill.442595.xyz/og-image.png">
+  <meta name="twitter:image" content="/og-image.png">
 
   <!-- Canonical -->
-  <link rel="canonical" href="https://skill.442595.xyz">
+  <link rel="canonical" href="/">
+  <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico?v=12">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png?v=12">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png?v=12">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png?v=12">
 
   <!-- JSON-LD -->
   <script id="ld-json" type="application/ld+json">
@@ -34,15 +38,38 @@
     "@type": "WebSite",
     "name": "Skill Hub — AI Agent Skills 导航站",
     "description": "汇集主流 AI Agent 平台的 Skills，一站式搜索、浏览、安装。",
-    "url": "https://skill.442595.xyz",
+    "url": "/",
     "author": {
       "@type": "Person",
       "name": "rdone4425"
     }
   }
   </script>
+  <script>
+    (function () {
+      var origin = window.location.origin;
+      var path = window.location.pathname;
+      var canonicalUrl = origin + path;
+      var canonical = document.querySelector('link[rel="canonical"]');
+      if (canonical) canonical.setAttribute('href', canonicalUrl);
+      var ogUrl = document.querySelector('meta[property="og:url"]');
+      if (ogUrl) ogUrl.setAttribute('content', canonicalUrl);
+      document.querySelectorAll('meta[property="og:image"], meta[name="twitter:image"]').forEach(function (meta) {
+        var content = meta.getAttribute('content') || '';
+        if (content.charAt(0) === '/') meta.setAttribute('content', origin + content);
+      });
+      var ldJson = document.getElementById('ld-json');
+      if (ldJson) {
+        try {
+          var data = JSON.parse(ldJson.textContent);
+          data.url = canonicalUrl;
+          ldJson.textContent = JSON.stringify(data);
+        } catch (e) {}
+      }
+    })();
+  </script>
 
-  <link rel="stylesheet" href="css/style.css?v=4">
+  <link rel="stylesheet" href="css/style.css?v=13">
 </head>
 <body>
   <a class="skip-link" href="#main-content">跳到主要内容</a>
@@ -50,7 +77,10 @@
   <header class="site-header">
     <div class="header-inner">
       <div class="brand">
-        <a href="index.html" class="brand-name" data-i18n="heroTitle" aria-label="Skill Hub home">🔍 Skill Hub</a>
+        <a href="index.html" class="brand-name brand-lockup" aria-label="Skill Hub home">
+          <img class="brand-logo" src="assets/icons/favicon-32x32.png?v=12" alt="Skill Hub logo">
+          <span data-i18n="heroTitle">Skill Hub</span>
+        </a>
         <span class="brand-badge">BETA</span>
       </div>
       <div class="header-right">
@@ -74,9 +104,18 @@
 
   <main class="container" id="main-content">
     <section class="hero" aria-labelledby="hero-title">
-      <h1 id="hero-title" data-i18n="heroTitle">🔍 Skill Hub</h1>
-      <p class="hero-sub" data-i18n="heroSub">AI Agent Skills 导航站</p>
-      <p class="hero-desc" data-i18n="heroDesc">汇集主流 AI Agent 平台的 Skills，一站式搜索、浏览、安装。</p>
+      <div class="hero-content">
+        <div class="hero-brand">
+          <img class="hero-logo" src="assets/icons/favicon.png?v=12" alt="Skill Hub logo">
+          <div class="hero-copy">
+            <h1 id="hero-title" class="hero-title">
+              <span data-i18n="heroTitle">Skill Hub</span>
+            </h1>
+            <p class="hero-sub" data-i18n="heroSub">AI Agent Skills 导航站</p>
+          </div>
+        </div>
+        <p class="hero-desc" data-i18n="heroDesc">汇集主流 AI Agent 平台的 Skills，一站式搜索、浏览、安装。</p>
+      </div>
     </section>
 
     <section class="controls" aria-labelledby="controls-title">
@@ -114,13 +153,6 @@
               <option value="name-desc">Z → A</option>
             </select>
           </div>
-          <div class="group-wrap">
-            <label class="sort-label" for="group-select" data-i18n="groupBy">分组</label>
-            <select id="group-select" class="sort-select" data-i18n-options="agent:groupAgent,none:groupNone">
-              <option value="agent">按 Agent</option>
-              <option value="none">不分组</option>
-            </select>
-          </div>
           <button class="view-toggle" id="view-toggle" type="button" title="切换视图" aria-label="切换视图">📋</button>
         </div>
       </div>
@@ -150,7 +182,10 @@
   <footer class="site-footer">
     <div class="footer-inner">
       <div class="footer-brand">
-        <a href="/" class="brand-name">🔍 Skill Hub</a>
+        <a href="/" class="brand-name brand-lockup">
+          <img class="brand-logo" src="assets/icons/favicon-32x32.png?v=12" alt="Skill Hub logo">
+          <span>Skill Hub</span>
+        </a>
         <span class="footer-sep">·</span>
         <span data-i18n="footerDesc" class="footer-desc">社区维护 · 每日自动更新</span>
       </div>
@@ -162,11 +197,11 @@
     </div>
   </footer>
 
-  <script src="js/data.js?v=4"></script>
-  <script src="js/i18n.js?v=4"></script>
-  <script src="js/state.js?v=4"></script>
-  <script src="js/render.js?v=4"></script>
-  <script src="js/events.js?v=4"></script>
-  <script src="js/app.js?v=4"></script>
+  <script src="js/data.js?v=11"></script>
+  <script src="js/i18n.js?v=11"></script>
+  <script src="js/state.js?v=11"></script>
+  <script src="js/render.js?v=11"></script>
+  <script src="js/events.js?v=11"></script>
+  <script src="js/app.js?v=11"></script>
 </body>
 </html>

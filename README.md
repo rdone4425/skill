@@ -74,8 +74,6 @@ skill/
 │   ├── discover-skills.py           # 搜索 GitHub 发现新仓库，写入 config/repos.json
 │   ├── export-agent-function-data.js # 按 Agent/功能分类导出 agents 目录
 │   ├── run-data-pipeline.sh         # fetch + export 流水线
-│   ├── auto-update-skills.sh        # 发现 + 更新 + 提交的一体化脚本
-│   ├── discover-new-skills.sh       # 仅发现新仓库并提交
 │   └── lib/common.sh                # shell 公共函数
 ├── .github/
 │   └── workflows/
