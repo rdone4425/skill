@@ -1,9 +1,9 @@
 window.AGENT_STATS = {
-  "generatedAt": "2026-06-05T03:29:23.571Z",
-  "sourceData": "js/data.js",
+  "generatedAt": "maintenance",
+  "sourceData": "agents directory",
   "agent": "other",
-  "totalSkills": 53,
-  "functionCategoryCount": 7,
+  "totalSkills": 54,
+  "functionCategoryCount": 8,
   "functionCategories": [
     {
       "name": "data-ai",
@@ -26,6 +26,10 @@ window.AGENT_STATS = {
       "count": 5
     },
     {
+      "name": "backend-api",
+      "count": 1
+    },
+    {
       "name": "general",
       "count": 1
     },
@@ -41,7 +45,7 @@ window.AGENT_STATS = {
     },
     {
       "name": "tools",
-      "count": 18
+      "count": 19
     },
     {
       "name": "community",
@@ -54,15 +58,71 @@ window.AGENT_STATS = {
       "count": 1
     },
     {
+      "name": "BAAI-Agents/Cradle",
+      "count": 1
+    },
+    {
+      "name": "CherryHQ/cherry-studio",
+      "count": 1
+    },
+    {
+      "name": "EtienneLescot/n8n-as-code",
+      "count": 1
+    },
+    {
+      "name": "EverMind-AI/EverOS",
+      "count": 1
+    },
+    {
+      "name": "EvoMap/awesome-agent-evolution",
+      "count": 1
+    },
+    {
+      "name": "FireRedTeam/FireRed-OpenStoryline",
+      "count": 1
+    },
+    {
+      "name": "JCodesMore/ai-website-cloner-template",
+      "count": 1
+    },
+    {
+      "name": "Kilo-Org/kilo-marketplace",
+      "count": 1
+    },
+    {
+      "name": "Leonxlnx/taste-skill",
+      "count": 1
+    },
+    {
+      "name": "Mathews-Tom/armory",
+      "count": 1
+    },
+    {
+      "name": "MemTensor/MemOS",
+      "count": 1
+    },
+    {
+      "name": "MicrosoftDocs/Agent-Skills",
+      "count": 1
+    },
+    {
+      "name": "MicrosoftDocs/mcp",
+      "count": 1
+    },
+    {
+      "name": "ModelEngine-Group/nexent",
+      "count": 1
+    },
+    {
+      "name": "MoizIbnYousaf/Ai-Agent-Skills",
+      "count": 1
+    },
+    {
       "name": "addyosmani/agent-skills",
       "count": 1
     },
     {
       "name": "agentregistry-dev/agentregistry",
-      "count": 1
-    },
-    {
-      "name": "BAAI-Agents/Cradle",
       "count": 1
     },
     {
@@ -86,10 +146,6 @@ window.AGENT_STATS = {
       "count": 1
     },
     {
-      "name": "CherryHQ/cherry-studio",
-      "count": 1
-    },
-    {
       "name": "dbt-labs/dbt-agent-skills",
       "count": 1
     },
@@ -99,22 +155,6 @@ window.AGENT_STATS = {
     },
     {
       "name": "eat-pray-ai/yutu",
-      "count": 1
-    },
-    {
-      "name": "EtienneLescot/n8n-as-code",
-      "count": 1
-    },
-    {
-      "name": "EverMind-AI/EverOS",
-      "count": 1
-    },
-    {
-      "name": "EvoMap/awesome-agent-evolution",
-      "count": 1
-    },
-    {
-      "name": "FireRedTeam/FireRed-OpenStoryline",
       "count": 1
     },
     {
@@ -134,10 +174,6 @@ window.AGENT_STATS = {
       "count": 1
     },
     {
-      "name": "JCodesMore/ai-website-cloner-template",
-      "count": 1
-    },
-    {
       "name": "jeecgboot/JeecgBoot",
       "count": 1
     },
@@ -150,19 +186,11 @@ window.AGENT_STATS = {
       "count": 1
     },
     {
-      "name": "Kilo-Org/kilo-marketplace",
-      "count": 1
-    },
-    {
-      "name": "Leonxlnx/taste-skill",
+      "name": "liyupi/yupi-hot-monitor",
       "count": 1
     },
     {
       "name": "ljagiello/ctf-skills",
-      "count": 1
-    },
-    {
-      "name": "Mathews-Tom/armory",
       "count": 1
     },
     {
@@ -174,10 +202,6 @@ window.AGENT_STATS = {
       "count": 1
     },
     {
-      "name": "MemTensor/MemOS",
-      "count": 1
-    },
-    {
       "name": "mgechev/skills-best-practices",
       "count": 1
     },
@@ -186,27 +210,11 @@ window.AGENT_STATS = {
       "count": 1
     },
     {
-      "name": "MicrosoftDocs/Agent-Skills",
-      "count": 1
-    },
-    {
-      "name": "MicrosoftDocs/mcp",
-      "count": 1
-    },
-    {
       "name": "mksglu/context-mode",
       "count": 1
     },
     {
       "name": "mlhher/late-cli",
-      "count": 1
-    },
-    {
-      "name": "ModelEngine-Group/nexent",
-      "count": 1
-    },
-    {
-      "name": "MoizIbnYousaf/Ai-Agent-Skills",
       "count": 1
     },
     {

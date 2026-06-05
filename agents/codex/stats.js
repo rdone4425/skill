@@ -1,9 +1,9 @@
 window.AGENT_STATS = {
-  "generatedAt": "2026-06-05T03:29:23.570Z",
-  "sourceData": "js/data.js",
+  "generatedAt": "maintenance",
+  "sourceData": "agents directory",
   "agent": "codex",
-  "totalSkills": 45,
-  "functionCategoryCount": 6,
+  "totalSkills": 51,
+  "functionCategoryCount": 7,
   "functionCategories": [
     {
       "name": "design-ui",
@@ -11,7 +11,7 @@ window.AGENT_STATS = {
     },
     {
       "name": "dev-tools",
-      "count": 11
+      "count": 14
     },
     {
       "name": "devops-deploy",
@@ -19,11 +19,15 @@ window.AGENT_STATS = {
     },
     {
       "name": "docs-content",
-      "count": 4
+      "count": 6
     },
     {
       "name": "data-ai",
       "count": 2
+    },
+    {
+      "name": "general",
+      "count": 1
     },
     {
       "name": "testing-qa",
@@ -33,7 +37,7 @@ window.AGENT_STATS = {
   "sources": [
     {
       "name": "official",
-      "count": 39
+      "count": 43
     },
     {
       "name": "community",
@@ -41,7 +45,7 @@ window.AGENT_STATS = {
     },
     {
       "name": "general",
-      "count": 1
+      "count": 3
     },
     {
       "name": "tools",
@@ -54,11 +58,35 @@ window.AGENT_STATS = {
       "count": 39
     },
     {
+      "name": "AAASS554/codex-academic-paper-skills",
+      "count": 1
+    },
+    {
       "name": "ComposioHQ/awesome-codex-skills",
       "count": 1
     },
     {
+      "name": "Imbad0202/academic-research-skills-codex",
+      "count": 1
+    },
+    {
+      "name": "RoggeOhta/awesome-codex-cli",
+      "count": 1
+    },
+    {
+      "name": "VoltAgent/awesome-codex-subagents",
+      "count": 1
+    },
+    {
+      "name": "am-will/codex-skills",
+      "count": 1
+    },
+    {
       "name": "hashgraph-online/awesome-codex-plugins",
+      "count": 1
+    },
+    {
+      "name": "jMerta/codex-skills",
       "count": 1
     },
     {
@@ -70,11 +98,11 @@ window.AGENT_STATS = {
       "count": 1
     },
     {
-      "name": "RoggeOhta/awesome-codex-cli",
+      "name": "proflead/codex-skills-library",
       "count": 1
     },
     {
-      "name": "VoltAgent/awesome-codex-subagents",
+      "name": "skills-directory/skill-codex",
       "count": 1
     }
   ],

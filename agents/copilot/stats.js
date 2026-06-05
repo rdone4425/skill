@@ -1,10 +1,18 @@
 window.AGENT_STATS = {
-  "generatedAt": "2026-06-05T03:29:23.572Z",
-  "sourceData": "js/data.js",
+  "generatedAt": "maintenance",
+  "sourceData": "agents directory",
   "agent": "copilot",
-  "totalSkills": 4,
-  "functionCategoryCount": 4,
+  "totalSkills": 6,
+  "functionCategoryCount": 5,
   "functionCategories": [
+    {
+      "name": "dev-tools",
+      "count": 2
+    },
+    {
+      "name": "automation-productivity",
+      "count": 1
+    },
     {
       "name": "backend-api",
       "count": 1
@@ -16,20 +24,16 @@ window.AGENT_STATS = {
     {
       "name": "design-ui",
       "count": 1
-    },
-    {
-      "name": "dev-tools",
-      "count": 1
     }
   ],
   "sources": [
     {
       "name": "community",
-      "count": 2
+      "count": 3
     },
     {
       "name": "general",
-      "count": 1
+      "count": 2
     },
     {
       "name": "tools",
@@ -51,6 +55,14 @@ window.AGENT_STATS = {
     },
     {
       "name": "microsoft/hve-core",
+      "count": 1
+    },
+    {
+      "name": "shanselman/nightscout-cgm-skill",
+      "count": 1
+    },
+    {
+      "name": "thomast1906/github-copilot-agent-skills",
       "count": 1
     }
   ],
@@ -86,6 +98,22 @@ window.AGENT_STATS = {
       "functionCategory": "backend-api",
       "source": "tools",
       "url": "https://github.com/liyupi/yupi-hot-monitor"
+    },
+    {
+      "name": "github-copilot-agent-skills",
+      "repo": "thomast1906/github-copilot-agent-skills",
+      "stars": 179,
+      "functionCategory": "dev-tools",
+      "source": "general",
+      "url": "https://github.com/thomast1906/github-copilot-agent-skills"
+    },
+    {
+      "name": "nightscout-cgm-skill",
+      "repo": "shanselman/nightscout-cgm-skill",
+      "stars": 53,
+      "functionCategory": "automation-productivity",
+      "source": "community",
+      "url": "https://github.com/shanselman/nightscout-cgm-skill"
     }
   ]
 };
