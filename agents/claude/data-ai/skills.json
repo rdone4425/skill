@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "data-ai",
-    "count": 6,
+    "count": 3,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -12,7 +12,7 @@
       "agent": "claude",
       "group": null,
       "repo": "Imbad0202/academic-research-skills",
-      "stars": 27185,
+      "stars": 27310,
       "desc": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
       "url": "https://github.com/Imbad0202/academic-research-skills",
       "install": "git clone https://github.com/Imbad0202/academic-research-skills.git",
@@ -24,7 +24,7 @@
       "agent": "claude",
       "group": null,
       "repo": "multica-ai/andrej-karpathy-skills",
-      "stars": 167594,
+      "stars": 167919,
       "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
       "install": "git clone https://github.com/multica-ai/andrej-karpathy-skills.git",
@@ -40,42 +40,6 @@
       "desc": "A curated collection of skills for Claude Code and other AI agents | 精选的 Claude Code 和其他 AI 智能体技能集合",
       "url": "https://github.com/littleben/awesomeAgentskills",
       "install": "git clone https://github.com/littleben/awesomeAgentskills.git  # browse the awesome list",
-      "functionCategory": "data-ai"
-    },
-    {
-      "name": "claude-skills-llm-council",
-      "source": "general",
-      "agent": "claude",
-      "group": null,
-      "repo": "aiwithremy/claude-skills-llm-council",
-      "stars": 429,
-      "desc": "LLM Council — a Claude Code skill that runs your decisions through 5 AI advisors with peer review",
-      "url": "https://github.com/aiwithremy/claude-skills-llm-council",
-      "install": "git clone https://github.com/aiwithremy/claude-skills-llm-council.git",
-      "functionCategory": "data-ai"
-    },
-    {
-      "name": "claude-video-vision",
-      "source": "general",
-      "agent": "claude",
-      "group": null,
-      "repo": "jordanrendric/claude-video-vision",
-      "stars": 744,
-      "desc": "Give Claude the ability to watch and understand videos — Claude Code plugin with frame extraction and multimodal audio analysis",
-      "url": "https://github.com/jordanrendric/claude-video-vision",
-      "install": "npx claude-video-vision",
-      "functionCategory": "data-ai"
-    },
-    {
-      "name": "nano-banana-2-skill",
-      "source": "general",
-      "agent": "claude",
-      "group": null,
-      "repo": "kingbootoshi/nano-banana-2-skill",
-      "stars": 381,
-      "desc": "AI image generation CLI powered by Gemini 3 Pro. Green screen transparency, reference images, style transfer. Also a Claude Code plugin.",
-      "url": "https://github.com/kingbootoshi/nano-banana-2-skill",
-      "install": "npx nano-banana-2-skill",
       "functionCategory": "data-ai"
     }
   ]

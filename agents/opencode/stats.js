@@ -1,5 +1,5 @@
 window.AGENT_STATS = {
-  "generatedAt": "2026-06-04T17:00:19.555Z",
+  "generatedAt": "2026-06-05T03:29:23.572Z",
   "sourceData": "js/data.js",
   "agent": "opencode",
   "totalSkills": 1,
@@ -26,7 +26,7 @@ window.AGENT_STATS = {
     {
       "name": "opencode",
       "repo": "opencode-ai/opencode",
-      "stars": 12821,
+      "stars": 12824,
       "functionCategory": "design-ui",
       "source": "opencode",
       "url": "https://github.com/opencode-ai/opencode"

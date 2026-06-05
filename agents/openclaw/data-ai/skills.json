@@ -2,7 +2,7 @@
   "meta": {
     "agent": "openclaw",
     "functionCategory": "data-ai",
-    "count": 5,
+    "count": 1,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -12,58 +12,10 @@
       "agent": "openclaw",
       "group": null,
       "repo": "openclaw/openclaw",
-      "stars": 376804,
+      "stars": 376897,
       "desc": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
       "url": "https://github.com/openclaw/openclaw",
       "install": "docker pull openclaw/openclaw",
-      "functionCategory": "data-ai"
-    },
-    {
-      "name": "memU",
-      "source": "openclaw",
-      "agent": "openclaw",
-      "group": null,
-      "repo": "NevaMind-AI/memU",
-      "stars": 13777,
-      "desc": "Memory for 24/7 proactive agents like OpenClaw.",
-      "url": "https://github.com/NevaMind-AI/memU",
-      "install": "git clone https://github.com/NevaMind-AI/memU.git",
-      "functionCategory": "data-ai"
-    },
-    {
-      "name": "SkillClaw",
-      "source": "openclaw",
-      "agent": "openclaw",
-      "group": null,
-      "repo": "AMAP-ML/SkillClaw",
-      "stars": 1610,
-      "desc": "Let Skills Evolve Collectively with Agentic Evolver ",
-      "url": "https://github.com/AMAP-ML/SkillClaw",
-      "install": "git clone https://github.com/AMAP-ML/SkillClaw.git",
-      "functionCategory": "data-ai"
-    },
-    {
-      "name": "openclaw-search-skills",
-      "source": "general",
-      "agent": "openclaw",
-      "group": null,
-      "repo": "blessonism/openclaw-search-skills",
-      "stars": 433,
-      "desc": "OpenClaw skills for deep search — multi-source search, content extraction, and structured research reports.",
-      "url": "https://github.com/blessonism/openclaw-search-skills",
-      "install": "git clone https://github.com/blessonism/openclaw-search-skills.git",
-      "functionCategory": "data-ai"
-    },
-    {
-      "name": "decodo-openclaw-skill",
-      "source": "general",
-      "agent": "openclaw",
-      "group": null,
-      "repo": "Decodo/decodo-openclaw-skill",
-      "stars": 149,
-      "desc": "OpenClaw skill for scraping any URL using the Decodo Web Scraping API.",
-      "url": "https://github.com/Decodo/decodo-openclaw-skill",
-      "install": "git clone https://github.com/Decodo/decodo-openclaw-skill.git",
       "functionCategory": "data-ai"
     }
   ]

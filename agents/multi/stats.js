@@ -1,5 +1,5 @@
 window.AGENT_STATS = {
-  "generatedAt": "2026-06-04T17:00:19.554Z",
+  "generatedAt": "2026-06-05T03:29:23.571Z",
   "sourceData": "js/data.js",
   "agent": "multi",
   "totalSkills": 69,
@@ -330,7 +330,7 @@ window.AGENT_STATS = {
     {
       "name": "ECC",
       "repo": "affaan-m/ECC",
-      "stars": 206885,
+      "stars": 207398,
       "functionCategory": "security",
       "source": "general",
       "url": "https://github.com/affaan-m/ECC"
@@ -338,7 +338,7 @@ window.AGENT_STATS = {
     {
       "name": "cc-switch",
       "repo": "farion1231/cc-switch",
-      "stars": 91603,
+      "stars": 91856,
       "functionCategory": "dev-tools",
       "source": "tools",
       "url": "https://github.com/farion1231/cc-switch"
@@ -346,7 +346,7 @@ window.AGENT_STATS = {
     {
       "name": "graphify",
       "repo": "safishamsi/graphify",
-      "stars": 59235,
+      "stars": 59405,
       "functionCategory": "docs-content",
       "source": "general",
       "url": "https://github.com/safishamsi/graphify"
@@ -354,7 +354,7 @@ window.AGENT_STATS = {
     {
       "name": "open-design",
       "repo": "nexu-io/open-design",
-      "stars": 58659,
+      "stars": 58921,
       "functionCategory": "design-ui",
       "source": "tools",
       "url": "https://github.com/nexu-io/open-design"
@@ -362,7 +362,7 @@ window.AGENT_STATS = {
     {
       "name": "ruflo",
       "repo": "ruvnet/ruflo",
-      "stars": 57843,
+      "stars": 57913,
       "functionCategory": "design-ui",
       "source": "general",
       "url": "https://github.com/ruvnet/ruflo"
@@ -370,7 +370,7 @@ window.AGENT_STATS = {
     {
       "name": "antigravity-awesome-skills",
       "repo": "sickn33/antigravity-awesome-skills",
-      "stars": 39700,
+      "stars": 39745,
       "functionCategory": "dev-tools",
       "source": "general",
       "url": "https://github.com/sickn33/antigravity-awesome-skills"
@@ -378,7 +378,7 @@ window.AGENT_STATS = {
     {
       "name": "CLIProxyAPI",
       "repo": "router-for-me/CLIProxyAPI",
-      "stars": 36046,
+      "stars": 36085,
       "functionCategory": "design-ui",
       "source": "tools",
       "url": "https://github.com/router-for-me/CLIProxyAPI"
@@ -386,7 +386,7 @@ window.AGENT_STATS = {
     {
       "name": "AionUi",
       "repo": "iOfficeAI/AionUi",
-      "stars": 27579,
+      "stars": 27604,
       "functionCategory": "design-ui",
       "source": "tools",
       "url": "https://github.com/iOfficeAI/AionUi"
@@ -394,7 +394,7 @@ window.AGENT_STATS = {
     {
       "name": "scientific-agent-skills",
       "repo": "K-Dense-AI/scientific-agent-skills",
-      "stars": 27237,
+      "stars": 27271,
       "functionCategory": "devops-deploy",
       "source": "general",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
@@ -402,7 +402,7 @@ window.AGENT_STATS = {
     {
       "name": "awesome-agent-skills",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 24213,
+      "stars": 24256,
       "functionCategory": "dev-tools",
       "source": "community",
       "url": "https://github.com/VoltAgent/awesome-agent-skills"

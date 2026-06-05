@@ -1,5 +1,5 @@
 window.AGENT_STATS = {
-  "generatedAt": "2026-06-04T17:00:19.555Z",
+  "generatedAt": "2026-06-05T03:29:23.572Z",
   "sourceData": "js/data.js",
   "agent": "copilot",
   "totalSkills": 4,
@@ -58,7 +58,7 @@ window.AGENT_STATS = {
     {
       "name": "awesome-copilot",
       "repo": "github/awesome-copilot",
-      "stars": 34456,
+      "stars": 34479,
       "functionCategory": "data-ai",
       "source": "community",
       "url": "https://github.com/github/awesome-copilot"
@@ -66,7 +66,7 @@ window.AGENT_STATS = {
     {
       "name": "hve-core",
       "repo": "microsoft/hve-core",
-      "stars": 1100,
+      "stars": 1101,
       "functionCategory": "design-ui",
       "source": "general",
       "url": "https://github.com/microsoft/hve-core"
@@ -74,7 +74,7 @@ window.AGENT_STATS = {
     {
       "name": "awesome-copilot-agents",
       "repo": "Code-and-Sorts/awesome-copilot-agents",
-      "stars": 530,
+      "stars": 532,
       "functionCategory": "dev-tools",
       "source": "community",
       "url": "https://github.com/Code-and-Sorts/awesome-copilot-agents"

@@ -1,5 +1,5 @@
 window.AGENT_STATS = {
-  "generatedAt": "2026-06-04T17:00:19.555Z",
+  "generatedAt": "2026-06-05T03:29:23.571Z",
   "sourceData": "js/data.js",
   "agent": "hermes",
   "totalSkills": 2,
@@ -38,7 +38,7 @@ window.AGENT_STATS = {
     {
       "name": "hermes-agent",
       "repo": "nousresearch/hermes-agent",
-      "stars": 180571,
+      "stars": 181214,
       "functionCategory": "data-ai",
       "source": "hermes",
       "url": "https://github.com/NousResearch/hermes-agent"

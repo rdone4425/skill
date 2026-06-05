@@ -1,5 +1,5 @@
 window.AGENT_STATS = {
-  "generatedAt": "2026-06-04T17:00:19.554Z",
+  "generatedAt": "2026-06-05T03:29:23.570Z",
   "sourceData": "js/data.js",
   "agent": "claude",
   "totalSkills": 38,
@@ -154,7 +154,7 @@ window.AGENT_STATS = {
     {
       "name": "andrej-karpathy-skills",
       "repo": "multica-ai/andrej-karpathy-skills",
-      "stars": 167594,
+      "stars": 167919,
       "functionCategory": "data-ai",
       "source": "general",
       "url": "https://github.com/multica-ai/andrej-karpathy-skills"
@@ -162,7 +162,7 @@ window.AGENT_STATS = {
     {
       "name": "algorithmic-art",
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "functionCategory": "general",
       "source": "claude",
       "url": "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art"
@@ -170,7 +170,7 @@ window.AGENT_STATS = {
     {
       "name": "brand-guidelines",
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "functionCategory": "design-ui",
       "source": "claude",
       "url": "https://github.com/anthropics/skills/tree/main/skills/brand-guidelines"
@@ -178,7 +178,7 @@ window.AGENT_STATS = {
     {
       "name": "canvas-design",
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "functionCategory": "design-ui",
       "source": "claude",
       "url": "https://github.com/anthropics/skills/tree/main/skills/canvas-design"
@@ -186,7 +186,7 @@ window.AGENT_STATS = {
     {
       "name": "claude-api",
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "functionCategory": "design-ui",
       "source": "claude",
       "url": "https://github.com/anthropics/skills/tree/main/skills/claude-api"
@@ -194,7 +194,7 @@ window.AGENT_STATS = {
     {
       "name": "doc-coauthoring",
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "functionCategory": "design-ui",
       "source": "claude",
       "url": "https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring"
@@ -202,7 +202,7 @@ window.AGENT_STATS = {
     {
       "name": "docx",
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "functionCategory": "docs-content",
       "source": "claude",
       "url": "https://github.com/anthropics/skills/tree/main/skills/docx"
@@ -210,7 +210,7 @@ window.AGENT_STATS = {
     {
       "name": "frontend-design",
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "functionCategory": "design-ui",
       "source": "claude",
       "url": "https://github.com/anthropics/skills/tree/main/skills/frontend-design"
@@ -218,7 +218,7 @@ window.AGENT_STATS = {
     {
       "name": "internal-comms",
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "functionCategory": "docs-content",
       "source": "claude",
       "url": "https://github.com/anthropics/skills/tree/main/skills/internal-comms"
@@ -226,7 +226,7 @@ window.AGENT_STATS = {
     {
       "name": "mcp-builder",
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "functionCategory": "design-ui",
       "source": "claude",
       "url": "https://github.com/anthropics/skills/tree/main/skills/mcp-builder"

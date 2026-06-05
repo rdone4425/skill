@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "devops-deploy",
-    "count": 7,
+    "count": 6,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -12,7 +12,7 @@
       "agent": "multi",
       "group": null,
       "repo": "ciembor/agent-rules-books",
-      "stars": 1742,
+      "stars": 1746,
       "desc": "AGENTS.md rules / skills for AI coding agents: Codex, Cursor & Claude Code. Inspired by Clean Code, Refactoring, DDD, Clean Architecture and DDIA programming books.",
       "url": "https://github.com/ciembor/agent-rules-books",
       "install": "git clone https://github.com/ciembor/agent-rules-books.git",
@@ -60,7 +60,7 @@
       "agent": "multi",
       "group": null,
       "repo": "K-Dense-AI/scientific-agent-skills",
-      "stars": 27237,
+      "stars": 27271,
       "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 160,000+ scientists worldwide. 140 ready-to-use skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compat",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "install": "git clone https://github.com/K-Dense-AI/scientific-agent-skills.git",
@@ -76,18 +76,6 @@
       "desc": "Agent skill for color science expertise. Many references covering color spaces, accessibility (APCA, WCAG), palette   generation, pigment mixing, and historical color theory. Works with Claude Code, Codex, Cursor, Copilot & others.",
       "url": "https://github.com/meodai/skill.color-expert",
       "install": "git clone https://github.com/meodai/skill.color-expert.git",
-      "functionCategory": "devops-deploy"
-    },
-    {
-      "name": "evotown",
-      "source": "general",
-      "agent": "multi",
-      "group": null,
-      "repo": "EXboys/evotown",
-      "stars": 950,
-      "desc": "a middle platform for enterprise Agent runtime governance and capability assets — connect OpenClaw, Hermes, SkillLite, and custom runtimes in one plac",
-      "url": "https://github.com/EXboys/evotown",
-      "install": "git clone https://github.com/EXboys/evotown.git",
       "functionCategory": "devops-deploy"
     }
   ]

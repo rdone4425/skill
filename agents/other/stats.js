@@ -1,5 +1,5 @@
 window.AGENT_STATS = {
-  "generatedAt": "2026-06-04T17:00:19.555Z",
+  "generatedAt": "2026-06-05T03:29:23.571Z",
   "sourceData": "js/data.js",
   "agent": "other",
   "totalSkills": 53,
@@ -266,7 +266,7 @@ window.AGENT_STATS = {
     {
       "name": "deer-flow",
       "repo": "bytedance/deer-flow",
-      "stars": 70460,
+      "stars": 70479,
       "functionCategory": "dev-tools",
       "source": "tools",
       "url": "https://github.com/bytedance/deer-flow"
@@ -274,7 +274,7 @@ window.AGENT_STATS = {
     {
       "name": "agent-skills",
       "repo": "addyosmani/agent-skills",
-      "stars": 48231,
+      "stars": 48311,
       "functionCategory": "data-ai",
       "source": "general",
       "url": "https://github.com/addyosmani/agent-skills"
@@ -282,7 +282,7 @@ window.AGENT_STATS = {
     {
       "name": "cherry-studio",
       "repo": "CherryHQ/cherry-studio",
-      "stars": 46870,
+      "stars": 46885,
       "functionCategory": "data-ai",
       "source": "general",
       "url": "https://github.com/CherryHQ/cherry-studio"
@@ -290,7 +290,7 @@ window.AGENT_STATS = {
     {
       "name": "JeecgBoot",
       "repo": "jeecgboot/JeecgBoot",
-      "stars": 46611,
+      "stars": 46614,
       "functionCategory": "dev-tools",
       "source": "general",
       "url": "https://github.com/jeecgboot/JeecgBoot"
@@ -298,7 +298,7 @@ window.AGENT_STATS = {
     {
       "name": "CowAgent",
       "repo": "zhayujie/CowAgent",
-      "stars": 45056,
+      "stars": 45058,
       "functionCategory": "dev-tools",
       "source": "tools",
       "url": "https://github.com/zhayujie/CowAgent"
@@ -306,7 +306,7 @@ window.AGENT_STATS = {
     {
       "name": "obsidian-skills",
       "repo": "kepano/obsidian-skills",
-      "stars": 34252,
+      "stars": 34293,
       "functionCategory": "docs-content",
       "source": "general",
       "url": "https://github.com/kepano/obsidian-skills"
@@ -314,7 +314,7 @@ window.AGENT_STATS = {
     {
       "name": "taste-skill",
       "repo": "Leonxlnx/taste-skill",
-      "stars": 33002,
+      "stars": 33213,
       "functionCategory": "devops-deploy",
       "source": "general",
       "url": "https://github.com/Leonxlnx/taste-skill"
@@ -322,7 +322,7 @@ window.AGENT_STATS = {
     {
       "name": "frontend-slides",
       "repo": "zarazhangrui/frontend-slides",
-      "stars": 20331,
+      "stars": 20359,
       "functionCategory": "design-ui",
       "source": "general",
       "url": "https://github.com/zarazhangrui/frontend-slides"
@@ -330,7 +330,7 @@ window.AGENT_STATS = {
     {
       "name": "context-mode",
       "repo": "mksglu/context-mode",
-      "stars": 16418,
+      "stars": 16433,
       "functionCategory": "dev-tools",
       "source": "tools",
       "url": "https://github.com/mksglu/context-mode"
@@ -338,7 +338,7 @@ window.AGENT_STATS = {
     {
       "name": "ai-website-cloner-template",
       "repo": "JCodesMore/ai-website-cloner-template",
-      "stars": 16229,
+      "stars": 16255,
       "functionCategory": "dev-tools",
       "source": "general",
       "url": "https://github.com/JCodesMore/ai-website-cloner-template"

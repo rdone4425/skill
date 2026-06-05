@@ -8,7 +8,7 @@ window.SKILL_DATA = {
   "meta": {
     "title": "Skill Hub",
     "description": "AI Agent Skills 导航站 — Codex · Claude · Hermes · OpenCode · OpenClaw",
-    "lastUpdated": "2026-06-04",
+    "lastUpdated": "2026-06-05",
     "totalCount": 217,
     "sources": 163
   },
@@ -131,7 +131,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "other",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET web development. Use when working on Blazor Web Apps, Razor Pages, MVC, Minimal APIs, controller-based Web APIs, SignalR, gRPC, mid",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/aspnet-core",
       "install": "$skill-installer aspnet-core"
@@ -142,7 +142,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "other",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications that combine an MCP server and widget UI. Use when Codex needs to design tools, register UI resources, wire the MCP Apps bridge or ChatGPT compatibility APIs, apply A",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/chatgpt-apps",
       "install": "$skill-installer chatgpt-apps"
@@ -153,7 +153,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "other",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Codex to create a command-line tool that can run from any repo, expose com",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/cli-creator",
       "install": "$skill-installer cli-creator"
@@ -164,7 +164,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "deploy",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Deploy applications and infrastructure to Cloudflare using Workers, Pages, and related platform services. Use when the user asks to deploy, host, publish, or set up a project on Cloudflare.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/cloudflare-deploy",
       "install": "$skill-installer cloudflare-deploy"
@@ -175,7 +175,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "other",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Help the user define a concrete, measurable goal before starting work, especially when they ask to use the goal tool, create a goal, set an objective, clarify success criteria, or turn a fuzzy intention into a quantitative outcome. Use this",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/define-goal",
       "install": "$skill-installer define-goal"
@@ -186,7 +186,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "figma",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Connects Figma design components to code components using Code Connect mapping tools. Use when user says \"code connect\", \"connect this component to code\", \"map this component\", \"link component to code\", \"create code connect mapping\", or wan",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-code-connect-components",
       "install": "$skill-installer figma-code-connect-components"
@@ -197,7 +197,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "figma",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Generates custom design system rules for the user's codebase. Use when user says \"create design system rules\", \"generate rules for my project\", \"set up design rules\", \"customize design system guidelines\", or wants to establish project-speci",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-create-design-system-rules",
       "install": "$skill-installer figma-create-design-system-rules"
@@ -208,7 +208,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "figma",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Create a new blank Figma file. Use when the user wants to create a new Figma design or FigJam file, or when you need a new file before calling use_figma. Handles plan resolution via whoami if needed. Usage — /figma-create-new-file [editorTy",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-create-new-file",
       "install": "$skill-installer figma-create-new-file"
@@ -219,7 +219,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "figma",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "\"Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: 'write to Figma', 'create in Figma from code', 'push page to Figma', 'take this app/page and bui",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-generate-design",
       "install": "$skill-installer figma-generate-design"
@@ -230,7 +230,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "figma",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "\"Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variables/tokens, build component libraries, set up theming (light/dark modes), document foundations, or reconcile gaps between ",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-generate-library",
       "install": "$skill-installer figma-generate-library"
@@ -241,7 +241,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "figma",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementing UI code from Figma files, when user mentions \"implement design\", \"generate code\", \"implement component\", provides Figma URLs, or",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-implement-design",
       "install": "$skill-installer figma-implement-design"
@@ -252,7 +252,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "figma",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "\"**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `use_figma` tool call. NEVER call `use_figma` directly without loading this skill first. Skipping it causes common, hard-to-debug failures. Trigger whenever the user want",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-use",
       "install": "$skill-installer figma-use"
@@ -263,7 +263,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "figma",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Use the Figma MCP server to fetch design context, screenshots, variables, and assets from Figma, and to translate Figma nodes into production code. Trigger when a task involves Figma URLs, node IDs, design-to-code implementation, or Figma M",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma",
       "install": "$skill-installer figma"
@@ -274,7 +274,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "github",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/gh-address-comments",
       "install": "$skill-installer gh-address-comments"
@@ -285,7 +285,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "github",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "\"Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. Treat external provider",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/gh-fix-ci",
       "install": "$skill-installer gh-fix-ci"
@@ -296,7 +296,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "other",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Create, repair, validate, visually QA, and package Codex-compatible animated pets and pet spritesheets from character art, generated images, company or prospect brand cues, or visual references. Use when a user wants a lightweight-worker Co",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/hatch-pet",
       "install": "$skill-installer hatch-pet"
@@ -307,7 +307,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "other",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "\"Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` to generate a clean starting notebook.\"",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/jupyter-notebook",
       "install": "$skill-installer jupyter-notebook"
@@ -318,7 +318,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "other",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/linear",
       "install": "$skill-installer linear"
@@ -329,7 +329,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "other",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Migrate supported instruction files, skills, agents, and MCP config into Codex project and global files.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/migrate-to-codex",
       "install": "$skill-installer migrate-to-codex"
@@ -340,7 +340,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "deploy",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Deploy web projects to Netlify using the Netlify CLI (`npx netlify`). Use when the user asks to deploy, host, publish, or link a site/repo on Netlify, including preview and production deploys.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/netlify-deploy",
       "install": "$skill-installer netlify-deploy"
@@ -351,7 +351,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "notion",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-knowledge-capture",
       "install": "$skill-installer notion-knowledge-capture"
@@ -362,7 +362,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "notion",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-meeting-intelligence",
       "install": "$skill-installer notion-meeting-intelligence"
@@ -373,7 +373,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "notion",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-research-documentation",
       "install": "$skill-installer notion-research-documentation"
@@ -384,7 +384,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "notion",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-spec-to-implementation",
       "install": "$skill-installer notion-spec-to-implementation"
@@ -395,7 +395,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "other",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "\"Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade a",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/openai-docs",
       "install": "$skill-installer openai-docs"
@@ -406,7 +406,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "other",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "\"Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as `reportlab`, `pdfplumber`, and `pypdf` for generation and ex",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/pdf",
       "install": "$skill-installer pdf"
@@ -417,7 +417,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "playwright",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "\"Persistent browser and Electron interaction through `js_repl` for fast iterative UI debugging.\"",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/playwright-interactive",
       "install": "$skill-installer playwright-interactive"
@@ -428,7 +428,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "playwright",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "\"Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via `playwright-cli` or the bundled wrapper script.\"",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/playwright",
       "install": "$skill-installer playwright"
@@ -439,7 +439,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "deploy",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Deploy applications to Render by analyzing codebases, generating render.yaml Blueprints, and providing Dashboard deeplinks. Use when the user wants to deploy, host, publish, or set up their application on Render's cloud platform.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/render-deploy",
       "install": "$skill-installer render-deploy"
@@ -450,7 +450,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "other",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "\"Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel region), or when tool-specific capture capabilities are unavailable and an OS-level capture is needed.\"",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/screenshot",
       "install": "$skill-installer screenshot"
@@ -461,7 +461,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "security",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "\"Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-default coding help. T",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/security-best-practices",
       "install": "$skill-installer security-best-practices"
@@ -472,7 +472,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "security",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "\"Analyze git repositories to build a security ownership topology (people-to-file), compute bus factor and sensitive-code ownership, and export CSV/JSON for graph databases and visualization. Trigger only when the user explicitly wants a sec",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/security-ownership-map",
       "install": "$skill-installer security-ownership-map"
@@ -483,7 +483,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "security",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "\"Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model. Trigger only when the user explicitly asks to threat model a cod",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/security-threat-model",
       "install": "$skill-installer security-threat-model"
@@ -494,7 +494,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "other",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "\"Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry CLI; perform read-only queries using the `sentry` command.\"",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/sentry",
       "install": "$skill-installer sentry"
@@ -505,7 +505,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "other",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "\"Use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch speech generation via the OpenAI Audio API; run the bundled CLI (`scripts/text_to_speech.py`) with built-in voices and require `",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/speech",
       "install": "$skill-installer speech"
@@ -516,7 +516,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "other",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "\"Transcribe audio files to text with optional diarization and known-speaker hints. Use when a user asks to transcribe speech from audio/video, extract text from recordings, or label speakers in interviews or meetings.\"",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/transcribe",
       "install": "$skill-installer transcribe"
@@ -527,7 +527,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "deploy",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/vercel-deploy",
       "install": "$skill-installer vercel-deploy"
@@ -538,7 +538,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "other",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Bootstrap, develop, and design modern WinUI 3 desktop applications with C# and the Windows App SDK using official Microsoft guidance, WinUI Gallery patterns, Windows App SDK samples, and CommunityToolkit components. Use when creating a bran",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/winui-app",
       "install": "$skill-installer winui-app"
@@ -549,7 +549,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": "other",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "\"Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow using the GitHub CLI (`gh`).\"",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/yeet",
       "install": "$skill-installer yeet"
@@ -560,7 +560,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "desc": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algor",
       "url": "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art",
       "install": "$skill-installer algorithmic-art"
@@ -571,7 +571,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "desc": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
       "url": "https://github.com/anthropics/skills/tree/main/skills/brand-guidelines",
       "install": "$skill-installer brand-guidelines"
@@ -582,7 +582,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "desc": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying exis",
       "url": "https://github.com/anthropics/skills/tree/main/skills/canvas-design",
       "install": "$skill-installer canvas-design"
@@ -593,7 +593,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "desc": "\"Build, debug, and optimize Claude API / Anthropic SDK apps. Apps built with this skill should include prompt caching. Also handles migrating existing Claude API code between Claude model versions (4.5 → 4.6, 4.6 → 4.7, retired-model replac",
       "url": "https://github.com/anthropics/skills/tree/main/skills/claude-api",
       "install": "$skill-installer claude-api"
@@ -604,7 +604,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "desc": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer c",
       "url": "https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring",
       "install": "$skill-installer doc-coauthoring"
@@ -615,7 +615,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "desc": "\"Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', or requests to produce professional documents with formatting ",
       "url": "https://github.com/anthropics/skills/tree/main/skills/docx",
       "install": "$skill-installer docx"
@@ -626,7 +626,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "desc": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, ",
       "url": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
       "install": "$skill-installer frontend-design"
@@ -637,7 +637,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "desc": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership ",
       "url": "https://github.com/anthropics/skills/tree/main/skills/internal-comms",
       "install": "$skill-installer internal-comms"
@@ -648,7 +648,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "desc": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (F",
       "url": "https://github.com/anthropics/skills/tree/main/skills/mcp-builder",
       "install": "$skill-installer mcp-builder"
@@ -659,7 +659,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "desc": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating ",
       "url": "https://github.com/anthropics/skills/tree/main/skills/pdf",
       "install": "$skill-installer pdf"
@@ -670,7 +670,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "desc": "\"Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted co",
       "url": "https://github.com/anthropics/skills/tree/main/skills/pptx",
       "install": "$skill-installer pptx"
@@ -681,7 +681,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "desc": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with varia",
       "url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
       "install": "$skill-installer skill-creator"
@@ -692,7 +692,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "desc": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
       "url": "https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator",
       "install": "$skill-installer slack-gif-creator"
@@ -703,7 +703,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "desc": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a",
       "url": "https://github.com/anthropics/skills/tree/main/skills/theme-factory",
       "install": "$skill-installer theme-factory"
@@ -714,7 +714,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "desc": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components ",
       "url": "https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder",
       "install": "$skill-installer web-artifacts-builder"
@@ -725,7 +725,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "desc": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
       "url": "https://github.com/anthropics/skills/tree/main/skills/webapp-testing",
       "install": "$skill-installer webapp-testing"
@@ -736,7 +736,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "anthropics/skills",
-      "stars": 146488,
+      "stars": 146634,
       "desc": "\"Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, format",
       "url": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
       "install": "$skill-installer xlsx"
@@ -747,7 +747,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": null,
       "repo": "ComposioHQ/awesome-codex-skills",
-      "stars": 12915,
+      "stars": 12932,
       "desc": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
       "url": "https://github.com/ComposioHQ/awesome-codex-skills",
       "install": "git clone https://github.com/ComposioHQ/awesome-codex-skills.git  # browse the awesome list"
@@ -758,7 +758,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": null,
       "repo": "VoltAgent/awesome-codex-subagents",
-      "stars": 5050,
+      "stars": 5056,
       "desc": "A collection of 130+ specialized Codex subagents covering a wide range of development use cases.",
       "url": "https://github.com/VoltAgent/awesome-codex-subagents",
       "install": "git clone https://github.com/VoltAgent/awesome-codex-subagents.git  # browse the awesome list"
@@ -769,7 +769,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": null,
       "repo": "hashgraph-online/awesome-codex-plugins",
-      "stars": 378,
+      "stars": 379,
       "desc": "A curated list of awesome OpenAI Codex plugins, skills, and resources. The #1 Codex Marketplace.  See live plugins at: https://hol.org/registry/plugins",
       "url": "https://github.com/hashgraph-online/awesome-codex-plugins",
       "install": "git clone https://github.com/hashgraph-online/awesome-codex-plugins.git  # browse the awesome list"
@@ -780,7 +780,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": null,
       "repo": "RoggeOhta/awesome-codex-cli",
-      "stars": 257,
+      "stars": 258,
       "desc": "Curated list of 150+ tools, skills, subagents & plugins for OpenAI Codex CLI",
       "url": "https://github.com/RoggeOhta/awesome-codex-cli",
       "install": "git clone https://github.com/RoggeOhta/awesome-codex-cli.git  # browse the awesome list"
@@ -791,7 +791,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "JackyST0/awesome-agent-skills",
-      "stars": 553,
+      "stars": 554,
       "desc": "🤖 精选的 AI Agent Skills 列表，适用于 Cursor、Claude Code、GitHub Copilot 等 AI 编程工具",
       "url": "https://github.com/JackyST0/awesome-agent-skills",
       "install": "git clone https://github.com/JackyST0/awesome-agent-skills.git  # browse the awesome list"
@@ -802,7 +802,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "router-for-me/CLIProxyAPI",
-      "stars": 36046,
+      "stars": 36085,
       "desc": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API",
       "url": "https://github.com/router-for-me/CLIProxyAPI",
       "install": "go install github.com/router-for-me/CLIProxyAPI@latest"
@@ -813,7 +813,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "decolua/9router",
-      "stars": 16281,
+      "stars": 16343,
       "desc": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
       "url": "https://github.com/decolua/9router",
       "install": "npm i -g 9router"
@@ -824,7 +824,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": null,
       "repo": "openai/codex",
-      "stars": 88611,
+      "stars": 88727,
       "desc": "Lightweight coding agent that runs in your terminal",
       "url": "https://github.com/openai/codex",
       "install": "npm i -g @openai/codex"
@@ -835,7 +835,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "affaan-m/ECC",
-      "stars": 206885,
+      "stars": 207398,
       "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "url": "https://github.com/affaan-m/ECC",
       "install": "git clone https://github.com/affaan-m/ECC.git"
@@ -846,7 +846,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "safishamsi/graphify",
-      "stars": 59235,
+      "stars": 59405,
       "desc": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database sc",
       "url": "https://github.com/safishamsi/graphify",
       "install": "git clone https://github.com/safishamsi/graphify.git"
@@ -857,7 +857,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "alirezarezvani/claude-skills",
-      "stars": 17131,
+      "stars": 17178,
       "desc": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, complian",
       "url": "https://github.com/alirezarezvani/claude-skills",
       "install": "git clone https://github.com/alirezarezvani/claude-skills.git"
@@ -868,7 +868,7 @@ window.SKILL_DATA = {
       "agent": "codex",
       "group": null,
       "repo": "leo-lilinxiao/codex-autoresearch",
-      "stars": 1831,
+      "stars": 1832,
       "desc": "Codex Autoresearch Skill — A self-directed iterative system for Codex that continuously cycles through: modify, verify, retain or discard, and repeat indefinitely. Inspired by Karpathy’s autoresearch concept.",
       "url": "https://github.com/leo-lilinxiao/codex-autoresearch",
       "install": "git clone https://github.com/leo-lilinxiao/codex-autoresearch.git"
@@ -879,7 +879,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "ljagiello/ctf-skills",
-      "stars": 2284,
+      "stars": 2292,
       "desc": "Agent skills for solving CTF challenges - web exploitation, binary pwn, crypto, reverse engineering, forensics, OSINT, and more",
       "url": "https://github.com/ljagiello/ctf-skills",
       "install": "git clone https://github.com/ljagiello/ctf-skills.git"
@@ -890,7 +890,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "mukul975/Anthropic-Cybersecurity-Skills",
-      "stars": 14088,
+      "stars": 14207,
       "desc": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20",
       "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "install": "git clone https://github.com/mukul975/Anthropic-Cybersecurity-Skills.git"
@@ -901,7 +901,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "kepano/obsidian-skills",
-      "stars": 34252,
+      "stars": 34293,
       "desc": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
       "url": "https://github.com/kepano/obsidian-skills",
       "install": "git clone https://github.com/kepano/obsidian-skills.git"
@@ -912,7 +912,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "coreyhaines31/marketingskills",
-      "stars": 31904,
+      "stars": 31969,
       "desc": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
       "url": "https://github.com/coreyhaines31/marketingskills",
       "install": "git clone https://github.com/coreyhaines31/marketingskills.git"
@@ -923,7 +923,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "Prat011/awesome-llm-skills",
-      "stars": 1290,
+      "stars": 1293,
       "desc": "A curated list of awesome LLM and AI Agent Skills, resources and tools for customising AI Agent workflows - that works with Claude Code, Codex, Gemini CLI and your custom AI Agents",
       "url": "https://github.com/Prat011/awesome-llm-skills",
       "install": "git clone https://github.com/Prat011/awesome-llm-skills.git"
@@ -934,7 +934,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "sickn33/antigravity-awesome-skills",
-      "stars": 39700,
+      "stars": 39745,
       "desc": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
       "url": "https://github.com/sickn33/antigravity-awesome-skills",
       "install": "git clone https://github.com/sickn33/antigravity-awesome-skills.git"
@@ -945,7 +945,7 @@ window.SKILL_DATA = {
       "agent": "hermes",
       "group": null,
       "repo": "nousresearch/hermes-agent",
-      "stars": 180571,
+      "stars": 181214,
       "desc": "The agent that grows with you",
       "url": "https://github.com/NousResearch/hermes-agent",
       "install": "npm i -g @nousresearch/hermes-agent"
@@ -956,7 +956,7 @@ window.SKILL_DATA = {
       "agent": "openclaw",
       "group": null,
       "repo": "openclaw/openclaw",
-      "stars": 376804,
+      "stars": 376897,
       "desc": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
       "url": "https://github.com/openclaw/openclaw",
       "install": "docker pull openclaw/openclaw"
@@ -967,7 +967,7 @@ window.SKILL_DATA = {
       "agent": "opencode",
       "group": null,
       "repo": "opencode-ai/opencode",
-      "stars": 12821,
+      "stars": 12824,
       "desc": "A powerful AI coding agent. Built for the terminal.",
       "url": "https://github.com/opencode-ai/opencode",
       "install": "npm i -g opencode-ai"
@@ -978,7 +978,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "multica-ai/andrej-karpathy-skills",
-      "stars": 167594,
+      "stars": 167919,
       "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
       "install": "git clone https://github.com/multica-ai/andrej-karpathy-skills.git"
@@ -989,7 +989,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "farion1231/cc-switch",
-      "stars": 91603,
+      "stars": 91856,
       "desc": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
       "url": "https://github.com/farion1231/cc-switch",
       "install": "git clone https://github.com/farion1231/cc-switch.git"
@@ -1000,7 +1000,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "bytedance/deer-flow",
-      "stars": 70460,
+      "stars": 70479,
       "desc": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
       "url": "https://github.com/bytedance/deer-flow",
       "install": "git clone https://github.com/bytedance/deer-flow.git"
@@ -1011,7 +1011,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "JuliusBrussee/caveman",
-      "stars": 68774,
+      "stars": 68938,
       "desc": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
       "url": "https://github.com/JuliusBrussee/caveman",
       "install": "npm i -g caveman"
@@ -1022,7 +1022,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "ComposioHQ/awesome-claude-skills",
-      "stars": 63230,
+      "stars": 63279,
       "desc": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
       "url": "https://github.com/ComposioHQ/awesome-claude-skills",
       "install": "git clone https://github.com/ComposioHQ/awesome-claude-skills.git  # browse the awesome list"
@@ -1033,7 +1033,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "nexu-io/open-design",
-      "stars": 58659,
+      "stars": 58921,
       "desc": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export ",
       "url": "https://github.com/nexu-io/open-design",
       "install": "npm i -g open-design"
@@ -1044,7 +1044,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "ruvnet/ruflo",
-      "stars": 57843,
+      "stars": 57913,
       "desc": "🌊 The leading agent meta-harness for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning swarm intelligence, RAG integration, and nativ",
       "url": "https://github.com/ruvnet/ruflo",
       "install": "npm i -g ruflo"
@@ -1055,7 +1055,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "santifer/career-ops",
-      "stars": 48653,
+      "stars": 48728,
       "desc": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
       "url": "https://github.com/santifer/career-ops",
       "install": "npm i -g career-ops"
@@ -1066,7 +1066,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "addyosmani/agent-skills",
-      "stars": 48231,
+      "stars": 48311,
       "desc": "Production-grade engineering skills for AI coding agents.",
       "url": "https://github.com/addyosmani/agent-skills",
       "install": "git clone https://github.com/addyosmani/agent-skills.git"
@@ -1077,7 +1077,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "CherryHQ/cherry-studio",
-      "stars": 46870,
+      "stars": 46885,
       "desc": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
       "url": "https://github.com/CherryHQ/cherry-studio",
       "install": "npm i -g cherry-studio"
@@ -1088,7 +1088,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "jeecgboot/JeecgBoot",
-      "stars": 46611,
+      "stars": 46614,
       "desc": "AI 低代码平台「低代码 + 零代码」双驱动！低代码可一键生成前后端代码;零代码可 5 分钟搭建系统;AI Skills 一句话画流程、设计表单、生成整套系统。内置 AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领「AI 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，消除 Java 项目 80% 的重复工作，提效而不失灵活。",
       "url": "https://github.com/jeecgboot/JeecgBoot",
       "install": "git clone https://github.com/jeecgboot/JeecgBoot.git"
@@ -1099,7 +1099,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 45665,
+      "stars": 45703,
       "desc": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic",
       "url": "https://github.com/hesreallyhim/awesome-claude-code",
       "install": "git clone https://github.com/hesreallyhim/awesome-claude-code.git  # browse the awesome list"
@@ -1110,7 +1110,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "zhayujie/CowAgent",
-      "stars": 45056,
+      "stars": 45058,
       "desc": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, autonomously grows with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly chatgpt-on-wechat)",
       "url": "https://github.com/zhayujie/CowAgent",
       "install": "git clone https://github.com/zhayujie/CowAgent.git"
@@ -1121,7 +1121,7 @@ window.SKILL_DATA = {
       "agent": "copilot",
       "group": null,
       "repo": "github/awesome-copilot",
-      "stars": 34456,
+      "stars": 34479,
       "desc": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
       "url": "https://github.com/github/awesome-copilot",
       "install": "git clone https://github.com/github/awesome-copilot.git  # browse the awesome list"
@@ -1132,7 +1132,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "Leonxlnx/taste-skill",
-      "stars": 33002,
+      "stars": 33213,
       "desc": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
       "url": "https://github.com/Leonxlnx/taste-skill",
       "install": "git clone https://github.com/Leonxlnx/taste-skill.git"
@@ -1143,7 +1143,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "anthropics/claude-plugins-official",
-      "stars": 29341,
+      "stars": 29367,
       "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "url": "https://github.com/anthropics/claude-plugins-official",
       "install": "git clone https://github.com/anthropics/claude-plugins-official.git"
@@ -1154,7 +1154,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "iOfficeAI/AionUi",
-      "stars": 27579,
+      "stars": 27604,
       "desc": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!",
       "url": "https://github.com/iOfficeAI/AionUi",
       "install": "npm i -g AionUi"
@@ -1165,7 +1165,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "K-Dense-AI/scientific-agent-skills",
-      "stars": 27237,
+      "stars": 27271,
       "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 160,000+ scientists worldwide. 140 ready-to-use skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compat",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "install": "git clone https://github.com/K-Dense-AI/scientific-agent-skills.git"
@@ -1176,7 +1176,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "Imbad0202/academic-research-skills",
-      "stars": 27185,
+      "stars": 27310,
       "desc": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
       "url": "https://github.com/Imbad0202/academic-research-skills",
       "install": "git clone https://github.com/Imbad0202/academic-research-skills.git"
@@ -1187,7 +1187,7 @@ window.SKILL_DATA = {
       "agent": "openclaw",
       "group": null,
       "repo": "volcengine/OpenViking",
-      "stars": 25137,
+      "stars": 25149,
       "desc": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hier",
       "url": "https://github.com/volcengine/OpenViking",
       "install": "git clone https://github.com/volcengine/OpenViking.git"
@@ -1198,7 +1198,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 24213,
+      "stars": 24256,
       "desc": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
       "url": "https://github.com/VoltAgent/awesome-agent-skills",
       "install": "git clone https://github.com/VoltAgent/awesome-agent-skills.git  # browse the awesome list"
@@ -1209,7 +1209,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "OthmanAdi/planning-with-files",
-      "stars": 22691,
+      "stars": 22712,
       "desc": "Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.",
       "url": "https://github.com/OthmanAdi/planning-with-files",
       "install": "git clone https://github.com/OthmanAdi/planning-with-files.git"
@@ -1220,7 +1220,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "blader/humanizer",
-      "stars": 22350,
+      "stars": 22395,
       "desc": "Claude Code skill that removes signs of AI-generated writing from text",
       "url": "https://github.com/blader/humanizer",
       "install": "git clone https://github.com/blader/humanizer.git"
@@ -1231,7 +1231,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "Donchitos/Claude-Code-Game-Studios",
-      "stars": 20816,
+      "stars": 20843,
       "desc": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
       "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
       "install": "git clone https://github.com/Donchitos/Claude-Code-Game-Studios.git"
@@ -1242,7 +1242,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "zarazhangrui/frontend-slides",
-      "stars": 20331,
+      "stars": 20359,
       "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
       "url": "https://github.com/zarazhangrui/frontend-slides",
       "install": "npm i -g frontend-slides"
@@ -1253,7 +1253,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "mksglu/context-mode",
-      "stars": 16418,
+      "stars": 16433,
       "desc": "Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 15 platforms",
       "url": "https://github.com/mksglu/context-mode",
       "install": "npm i -g context-mode"
@@ -1264,7 +1264,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "alchaincyf/huashu-design",
-      "stars": 16222,
+      "stars": 16247,
       "desc": "Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic",
       "url": "https://github.com/alchaincyf/huashu-design",
       "install": "git clone https://github.com/alchaincyf/huashu-design.git"
@@ -1275,7 +1275,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "JCodesMore/ai-website-cloner-template",
-      "stars": 16229,
+      "stars": 16255,
       "desc": "Clone any website with one command using AI coding agents",
       "url": "https://github.com/JCodesMore/ai-website-cloner-template",
       "install": "npm i -g ai-website-cloner-template"
@@ -1286,7 +1286,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "teng-lin/notebooklm-py",
-      "stars": 15856,
+      "stars": 15890,
       "desc": "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
       "url": "https://github.com/teng-lin/notebooklm-py",
       "install": "git clone https://github.com/teng-lin/notebooklm-py.git"
@@ -1297,7 +1297,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "liyupi/ai-guide",
-      "stars": 15151,
+      "stars": 15165,
       "desc": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（Agent Skills / RAG / MCP / A2A）、AI 编程教程（Harness Engineering）、AI 工具用法（Cursor / Claude Code / TRAE / Codex / Copilot）、A",
       "url": "https://github.com/liyupi/ai-guide",
       "install": "npm i -g ai-guide"
@@ -1308,7 +1308,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "op7418/guizang-ppt-skill",
-      "stars": 14961,
+      "stars": 15051,
       "desc": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
       "url": "https://github.com/op7418/guizang-ppt-skill",
       "install": "git clone https://github.com/op7418/guizang-ppt-skill.git"
@@ -1319,7 +1319,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "wasp-lang/open-saas",
-      "stars": 14615,
+      "stars": 14619,
       "desc": "A 100% free modern JS SaaS boilerplate (React, NodeJS, Prisma). Full-featured: Auth (email, google, github, slack, MS), Email sending, Background jobs, Landing page, Payments (Stripe, Polar.sh), Shadcn UI, S3 file upload. AI-ready with tail",
       "url": "https://github.com/wasp-lang/open-saas",
       "install": "npm i -g open-saas"
@@ -1330,7 +1330,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "travisvn/awesome-claude-skills",
-      "stars": 13164,
+      "stars": 13179,
       "desc": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
       "url": "https://github.com/travisvn/awesome-claude-skills",
       "install": "git clone https://github.com/travisvn/awesome-claude-skills.git  # browse the awesome list"
@@ -1341,7 +1341,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "stars": 11387,
+      "stars": 11402,
       "desc": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any ",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
       "install": "git clone https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git"
@@ -1352,7 +1352,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "MemTensor/MemOS",
-      "stars": 9558,
+      "stars": 9567,
       "desc": "Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings",
       "url": "https://github.com/MemTensor/MemOS",
       "install": "npm i -g MemOS"
@@ -1363,7 +1363,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "Orchestra-Research/AI-Research-SKILLs",
-      "stars": 9315,
+      "stars": 9327,
       "desc": "Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills and your claude code/codex/gemini agent will be an AI research agent with full horsepower. Maintained by Orchestra Research.",
       "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
       "install": "git clone https://github.com/Orchestra-Research/AI-Research-SKILLs.git"
@@ -1374,7 +1374,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "refly-ai/refly",
-      "stars": 7344,
+      "stars": 7345,
       "desc": "The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are infrastructure, not prompts.",
       "url": "https://github.com/refly-ai/refly",
       "install": "npm i -g refly"
@@ -1385,7 +1385,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "EverMind-AI/EverOS",
-      "stars": 6906,
+      "stars": 6932,
       "desc": "Self-evolving memory across Agent and platform.",
       "url": "https://github.com/EverMind-AI/EverOS",
       "install": "git clone https://github.com/EverMind-AI/EverOS.git"
@@ -1396,7 +1396,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "nexu-io/html-anything",
-      "stars": 6044,
+      "stars": 6079,
       "desc": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu /",
       "url": "https://github.com/nexu-io/html-anything",
       "install": "git clone https://github.com/nexu-io/html-anything.git"
@@ -1407,7 +1407,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "backnotprop/plannotator",
-      "stars": 5920,
+      "stars": 5941,
       "desc": "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.",
       "url": "https://github.com/backnotprop/plannotator",
       "install": "npm i -g plannotator"
@@ -1418,7 +1418,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "google-labs-code/stitch-skills",
-      "stars": 5889,
+      "stars": 5899,
       "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "url": "https://github.com/google-labs-code/stitch-skills",
       "install": "npm i -g stitch-skills"
@@ -1429,7 +1429,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "heilcheng/awesome-agent-skills",
-      "stars": 5331,
+      "stars": 5336,
       "desc": "Tutorials, Guides and Agent Skills Directories",
       "url": "https://github.com/heilcheng/awesome-agent-skills",
       "install": "git clone https://github.com/heilcheng/awesome-agent-skills.git  # browse the awesome list"
@@ -1440,7 +1440,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "ModelEngine-Group/nexent",
-      "stars": 4866,
+      "stars": 4880,
       "desc": "Nexent is a zero-code platform for auto-generating production-grade AI agents using Harness Engineering principles — unified tools, skills, memory, and orchestration with built-in constraints, feedback loops, and control planes.",
       "url": "https://github.com/ModelEngine-Group/nexent",
       "install": "git clone https://github.com/ModelEngine-Group/nexent.git"
@@ -1451,7 +1451,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "microsoft/SkillOpt",
-      "stars": 4871,
+      "stars": 4935,
       "desc": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
       "url": "https://github.com/microsoft/SkillOpt",
       "install": "git clone https://github.com/microsoft/SkillOpt.git"
@@ -1473,7 +1473,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "deanpeters/Product-Manager-Skills",
-      "stars": 4756,
+      "stars": 4769,
       "desc": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agents.",
       "url": "https://github.com/deanpeters/Product-Manager-Skills",
       "install": "git clone https://github.com/deanpeters/Product-Manager-Skills.git"
@@ -1484,7 +1484,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "jnMetaCode/superpowers-zh",
-      "stars": 4696,
+      "stars": 4717,
       "desc": "🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 16 款 AI 编程工具真正会干活",
       "url": "https://github.com/jnMetaCode/superpowers-zh",
       "install": "git clone https://github.com/jnMetaCode/superpowers-zh.git"
@@ -1495,7 +1495,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "tech-leads-club/agent-skills",
-      "stars": 4519,
+      "stars": 4525,
       "desc": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
       "url": "https://github.com/tech-leads-club/agent-skills",
       "install": "npm i -g agent-skills"
@@ -1506,7 +1506,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "calesthio/OpenMontage",
-      "stars": 4341,
+      "stars": 4363,
       "desc": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
       "url": "https://github.com/calesthio/OpenMontage",
       "install": "git clone https://github.com/calesthio/OpenMontage.git"
@@ -1517,7 +1517,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "twostraws/SwiftUI-Agent-Skill",
-      "stars": 4039,
+      "stars": 4042,
       "desc": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
       "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
       "install": "git clone https://github.com/twostraws/SwiftUI-Agent-Skill.git"
@@ -1528,7 +1528,7 @@ window.SKILL_DATA = {
       "agent": "openclaw",
       "group": null,
       "repo": "Tencent/AI-Infra-Guard",
-      "stars": 3834,
+      "stars": 3835,
       "desc": "A full-stack AI Red Teaming platform securing AI ecosystems via OpenClaw Security Scan, Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
       "url": "https://github.com/Tencent/AI-Infra-Guard",
       "install": "git clone https://github.com/Tencent/AI-Infra-Guard.git"
@@ -1539,7 +1539,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "memodb-io/Acontext",
-      "stars": 3507,
+      "stars": 3510,
       "desc": "Agent Skills as a Memory Layer",
       "url": "https://github.com/memodb-io/Acontext",
       "install": "npm i -g Acontext"
@@ -1550,7 +1550,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "gotalab/cc-sdd",
-      "stars": 3436,
+      "stars": 3437,
       "desc": "Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.",
       "url": "https://github.com/gotalab/cc-sdd",
       "install": "npm i -g cc-sdd"
@@ -1561,7 +1561,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "SamurAIGPT/Generative-Media-Skills",
-      "stars": 3384,
+      "stars": 3393,
       "desc": "Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and audio generation powered by muapi.ai.",
       "url": "https://github.com/SamurAIGPT/Generative-Media-Skills",
       "install": "git clone https://github.com/SamurAIGPT/Generative-Media-Skills.git"
@@ -1572,7 +1572,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "nexu-io/nexu",
-      "stars": 3086,
+      "stars": 3091,
       "desc": "The simplest desktop client for OpenClaw 🦞 — bridge your Agent to WeChat, Feishu, Slack & Discord in one click. Works with Claude Code, Codex & any LLM. BYOK, Oauth, local-first, chat from your phone 24/7.",
       "url": "https://github.com/nexu-io/nexu",
       "install": "npm i -g nexu"
@@ -1594,7 +1594,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "IvanMurzak/Unity-MCP",
-      "stars": 3028,
+      "stars": 3031,
       "desc": "AI Skills, MCP Tools, and CLI for Unity Engine. Full AI develop and test loop. Use cli for quick setup. Efficient token usage, advanced tools. Any C# method may be turned into a tool by a single line. Works with Claude Code, Gemini, Copilot",
       "url": "https://github.com/IvanMurzak/Unity-MCP",
       "install": "git clone https://github.com/IvanMurzak/Unity-MCP.git"
@@ -1605,7 +1605,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "FireRedTeam/FireRed-OpenStoryline",
-      "stars": 2855,
+      "stars": 2857,
       "desc": "FireRed-OpenStoryline is an AI video editing agent that transforms manual editing into intention-driven directing through natural language interaction, LLM-powered planning, and precise tool orchestration. It facilitates transparent, human-",
       "url": "https://github.com/FireRedTeam/FireRed-OpenStoryline",
       "install": "git clone https://github.com/FireRedTeam/FireRed-OpenStoryline.git"
@@ -1616,7 +1616,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "opensquilla/opensquilla",
-      "stars": 2855,
+      "stars": 3015,
       "desc": "OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density",
       "url": "https://github.com/opensquilla/opensquilla",
       "install": "git clone https://github.com/opensquilla/opensquilla.git"
@@ -1638,7 +1638,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "google/agents-cli",
-      "stars": 2697,
+      "stars": 2701,
       "desc": "The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud.",
       "url": "https://github.com/google/agents-cli",
       "install": "git clone https://github.com/google/agents-cli.git"
@@ -1660,7 +1660,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "jeremylongshore/claude-code-plugins-plus-skills",
-      "stars": 2292,
+      "stars": 2302,
       "desc": "425 plugins, 2,810 skills, 200 agents for Claude Code. Open-source marketplace at tonsofskills.com with the ccpi CLI package manager.",
       "url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills",
       "install": "git clone https://github.com/jeremylongshore/claude-code-plugins-plus-skills.git"
@@ -1682,7 +1682,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "foryourhealth111-pixel/Vibe-Skills",
-      "stars": 2237,
+      "stars": 2241,
       "desc": "Vibe-Skills is an all-in-one AI skills package. It seamlessly integrates expert-level capabilities and context management into a general-purpose skills package， enabling any AI agent to instantly upgrade its functionality—eliminating the fr",
       "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
       "install": "git clone https://github.com/foryourhealth111-pixel/Vibe-Skills.git"
@@ -1693,7 +1693,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "runkids/skillshare",
-      "stars": 2131,
+      "stars": 2135,
       "desc": "📚 Sync skills across all AI CLI tools with one command and simplify team sharing. Supporting Codex, Claude Code, OpenClaw & more",
       "url": "https://github.com/runkids/skillshare",
       "install": "go install github.com/runkids/skillshare@latest"
@@ -1704,7 +1704,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "eugeniughelbur/obsidian-second-brain",
-      "stars": 2134,
+      "stars": 2158,
       "desc": "Cross-CLI skill for Obsidian: turn your vault into a living AI-first second brain across Claude Code, Codex, Gemini, and OpenCode. 43 commands - now with /obsidian-architect to document your codebase, key-less web research, Google Calendar,",
       "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
       "install": "git clone https://github.com/eugeniughelbur/obsidian-second-brain.git"
@@ -1715,7 +1715,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "codejunkie99/agentic-stack",
-      "stars": 2067,
+      "stars": 2072,
       "desc": "One brain, many harnesses. Portable .agent/ folder (memory + skills + protocols) that plugs into Claude Code, Cursor, Windsurf, OpenCode, OpenClaw, Hermes, or DIY Python — and keeps its knowledge when you switch.",
       "url": "https://github.com/codejunkie99/agentic-stack",
       "install": "git clone https://github.com/codejunkie99/agentic-stack.git"
@@ -1726,7 +1726,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "aaron-he-zhu/seo-geo-claude-skills",
-      "stars": 1992,
+      "stars": 1998,
       "desc": "20 SEO & GEO skills for Claude Code, Cursor, Codex, and 35+ AI agents. Keyword research, content writing, technical audits, rank tracking. CORE-EEAT + CITE frameworks.",
       "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
       "install": "git clone https://github.com/aaron-he-zhu/seo-geo-claude-skills.git"
@@ -1737,7 +1737,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "iamzhihuix/skills-manage",
-      "stars": 1976,
+      "stars": 1977,
       "desc": "Desktop app to manage AI coding agent skills across Claude Code, Cursor, Gemini CLI, Codex, and 20+ platforms from one place.",
       "url": "https://github.com/iamzhihuix/skills-manage",
       "install": "npm i -g skills-manage"
@@ -1748,7 +1748,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "softaworks/agent-toolkit",
-      "stars": 1959,
+      "stars": 1960,
       "desc": "A curated collection of skills for AI coding agents. Skills are packaged instructions and scripts that extend agent capabilities across development, documentation, planning, and professional workflows.",
       "url": "https://github.com/softaworks/agent-toolkit",
       "install": "git clone https://github.com/softaworks/agent-toolkit.git  # browse the awesome list"
@@ -1759,7 +1759,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "samber/cc-skills-golang",
-      "stars": 1960,
+      "stars": 1968,
       "desc": "🧑‍🎨 A collection of Golang agentic skills that works",
       "url": "https://github.com/samber/cc-skills-golang",
       "install": "go install github.com/samber/cc-skills-golang@latest"
@@ -1770,7 +1770,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "twostraws/Swift-Agent-Skills",
-      "stars": 1944,
+      "stars": 1950,
       "desc": "A curated directory of open-source AI agent skills for Swift and Apple platform development.",
       "url": "https://github.com/twostraws/Swift-Agent-Skills",
       "install": "git clone https://github.com/twostraws/Swift-Agent-Skills.git  # browse the awesome list"
@@ -1781,7 +1781,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "mgechev/skills-best-practices",
-      "stars": 1927,
+      "stars": 1928,
       "desc": "Write professional-grade skills for agents, validate them using LLMs, and maintain a lean context window.",
       "url": "https://github.com/mgechev/skills-best-practices",
       "install": "git clone https://github.com/mgechev/skills-best-practices.git"
@@ -1792,7 +1792,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "xingkongliang/skills-manager",
-      "stars": 1917,
+      "stars": 1933,
       "desc": "A lightweight desktop app to manage, sync, and organize AI agent skills across 15+ coding tools — Cursor, Claude Code, Codex, Copilot, and more.",
       "url": "https://github.com/xingkongliang/skills-manager",
       "install": "git clone https://github.com/xingkongliang/skills-manager.git"
@@ -1803,7 +1803,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "jjyaoao/HelloAgents",
-      "stars": 1897,
+      "stars": 1901,
       "desc": "A agent framework based on the tutorial hello-agents",
       "url": "https://github.com/jjyaoao/HelloAgents",
       "install": "git clone https://github.com/jjyaoao/HelloAgents.git"
@@ -1814,7 +1814,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "browser-act/skills",
-      "stars": 1809,
+      "stars": 1835,
       "desc": "Browser automation CLI built for AI agents. Break through anti-bot walls, hand off to humans across platforms when stuck. Parallel multi-task execution, independent multi-session operation, isolated multi-account browsing.",
       "url": "https://github.com/browser-act/skills",
       "install": "git clone https://github.com/browser-act/skills.git"
@@ -1825,7 +1825,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "ciembor/agent-rules-books",
-      "stars": 1742,
+      "stars": 1746,
       "desc": "AGENTS.md rules / skills for AI coding agents: Codex, Cursor & Claude Code. Inspired by Clean Code, Refactoring, DDD, Clean Architecture and DDIA programming books.",
       "url": "https://github.com/ciembor/agent-rules-books",
       "install": "git clone https://github.com/ciembor/agent-rules-books.git"
@@ -1836,7 +1836,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "didilili/ai-agents-from-zero",
-      "stars": 1706,
+      "stars": 1711,
       "desc": "🚀 2026 最系统的 AI Agent 速成指南｜智能体实战教程 · 完整学习路径  + 实战项目 + 面试题库 · 对标大模型应用开发工程师岗位 · 覆盖LangChain / LangGraph / Coze / Dify / MCP / skills / LLM / RAG / 提示词 · 企业级部署与微调 · 从0到企业级落地 + 从学习到上线项目 + 面试准备一体化",
       "url": "https://github.com/didilili/ai-agents-from-zero",
       "install": "git clone https://github.com/didilili/ai-agents-from-zero.git"
@@ -1847,7 +1847,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "MicrosoftDocs/mcp",
-      "stars": 1683,
+      "stars": 1682,
       "desc": "Official Microsoft Learn MCP Server and CLI tool – powering LLMs and AI agents with real-time, trusted Microsoft docs & code samples.",
       "url": "https://github.com/MicrosoftDocs/mcp",
       "install": "npm i -g mcp"
@@ -1858,7 +1858,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "brycewang-stanford/Auto-Empirical-Research-Skills",
-      "stars": 1676,
+      "stars": 1684,
       "desc": "🔬 A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,000+ AI Agent 技能库，覆盖8大社会科学学科的实证研究。CoPaper.AI 20分钟完成一篇可复现的规范实证论文，并支持用户上传 Skills。-- Maintained by CoPaper.AI from Stanford REAP",
       "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills",
       "install": "git clone https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills.git  # browse the awesome list"
@@ -1869,7 +1869,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "Eronred/aso-skills",
-      "stars": 1453,
+      "stars": 1455,
       "desc": "AI agent skills for App Store Optimization (ASO) and app marketing. Built for indie developers, app marketers, and growth teams who want Cursor, Claude Code, or any Agent Skills-compatible AI assistant to help with keyword research, metadat",
       "url": "https://github.com/Eronred/aso-skills",
       "install": "git clone https://github.com/Eronred/aso-skills.git"
@@ -1902,7 +1902,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "FrancyJGLisboa/agent-skill-creator",
-      "stars": 1320,
+      "stars": 1323,
       "desc": "Turn any workflow into reusable AI agent skills that install on 14+ tools — Claude Code, Copilot, Cursor, Windsurf, Codex, Gemini, Kiro, and more. One SKILL.md, every platform.",
       "url": "https://github.com/FrancyJGLisboa/agent-skill-creator",
       "install": "git clone https://github.com/FrancyJGLisboa/agent-skill-creator.git"
@@ -1913,7 +1913,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "EtienneLescot/n8n-as-code",
-      "stars": 1307,
+      "stars": 1308,
       "desc": "Give your AI agent n8n superpowers. 537 nodes with full schemas, 7,700+ templates, Git-like sync, and TypeScript workflows.",
       "url": "https://github.com/EtienneLescot/n8n-as-code",
       "install": "npm i -g n8n-as-code"
@@ -1924,7 +1924,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "rohitg00/skillkit",
-      "stars": 1183,
+      "stars": 1184,
       "desc": "Supercharge AI coding agents with portable skills. Install, translate & share skills across Claude Code, Cursor, Codex, Copilot & 40 more",
       "url": "https://github.com/rohitg00/skillkit",
       "install": "npm i -g skillkit"
@@ -1935,7 +1935,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "bergside/awesome-design-skills",
-      "stars": 1124,
+      "stars": 1126,
       "desc": "List of 67 awesome DESIGN.md and SKILL.md design skill files for agentic tools like Claude Design, Google Stitch, Codex, Cursor, and other AI tools",
       "url": "https://github.com/bergside/awesome-design-skills",
       "install": "git clone https://github.com/bergside/awesome-design-skills.git  # browse the awesome list"
@@ -1946,7 +1946,7 @@ window.SKILL_DATA = {
       "agent": "copilot",
       "group": null,
       "repo": "microsoft/hve-core",
-      "stars": 1100,
+      "stars": 1101,
       "desc": "A refined collection of Hypervelocity Engineering components (instructions, prompts, agents, and skills) to start your project off right, or upgrade your existing projects to get the most out of GitHub Copilot",
       "url": "https://github.com/microsoft/hve-core",
       "install": "git clone https://github.com/microsoft/hve-core.git"
@@ -1957,7 +1957,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "thClaws/thClaws",
-      "stars": 1074,
+      "stars": 1076,
       "desc": "Open-source AI agent harness in native Rust — GUI, CLI, headless, and webapp from one binary. Multi-provider, MCP, skills, plugins, agent teams.",
       "url": "https://github.com/thClaws/thClaws",
       "install": "git clone https://github.com/thClaws/thClaws.git"
@@ -1990,7 +1990,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "bergside/typeui",
-      "stars": 1046,
+      "stars": 1051,
       "desc": "Build better UI with Codex, Claude, Cursor and other AI tools",
       "url": "https://github.com/bergside/typeui",
       "install": "npm i -g typeui"
@@ -2034,7 +2034,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "milisp/codexia",
-      "stars": 710,
+      "stars": 712,
       "desc": "Agent Workstation for Codex CLI + Claude Code — with task scheduler, git worktree & remote control, skills management",
       "url": "https://github.com/milisp/codexia",
       "install": "npm i -g codexia"
@@ -2045,7 +2045,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "oracle/skills",
-      "stars": 642,
+      "stars": 643,
       "desc": "Oracle Skills is a curated, open-source collection of practical, installable skills for working with Oracle technologies. It provides developers, administrators, and AI agents with high-quality, source-backed guidance across the entire Orac",
       "url": "https://github.com/oracle/skills",
       "install": "git clone https://github.com/oracle/skills.git  # browse the awesome list"
@@ -2078,7 +2078,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "MicrosoftDocs/Agent-Skills",
-      "stars": 577,
+      "stars": 579,
       "desc": "Curated Agent Skills for Microsoft & Azure – giving AI coding assistants structured, real-time expertise from Microsoft Learn docs.",
       "url": "https://github.com/MicrosoftDocs/Agent-Skills",
       "install": "git clone https://github.com/MicrosoftDocs/Agent-Skills.git  # browse the awesome list"
@@ -2089,7 +2089,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "maxbogo/awesome-ai-tools-for-ui",
-      "stars": 543,
+      "stars": 545,
       "desc": "Curated list of awesome AI tools to build beautiful UI/UX.",
       "url": "https://github.com/maxbogo/awesome-ai-tools-for-ui",
       "install": "git clone https://github.com/maxbogo/awesome-ai-tools-for-ui.git  # browse the awesome list"
@@ -2100,7 +2100,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "dbt-labs/dbt-agent-skills",
-      "stars": 542,
+      "stars": 543,
       "desc": "A curated collection of Agent Skills for working with dbt, to help AI agents understand and execute dbt workflows more effectively.",
       "url": "https://github.com/dbt-labs/dbt-agent-skills",
       "install": "git clone https://github.com/dbt-labs/dbt-agent-skills.git  # browse the awesome list"
@@ -2111,7 +2111,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "Gentleman-Programming/Gentleman-Skills",
-      "stars": 541,
+      "stars": 542,
       "desc": "Community-driven AI agent skills for Claude Code, OpenCode, and other AI assistants. Curated patterns and community contributions.",
       "url": "https://github.com/Gentleman-Programming/Gentleman-Skills",
       "install": "git clone https://github.com/Gentleman-Programming/Gentleman-Skills.git  # browse the awesome list"
@@ -2122,7 +2122,7 @@ window.SKILL_DATA = {
       "agent": "copilot",
       "group": null,
       "repo": "Code-and-Sorts/awesome-copilot-agents",
-      "stars": 530,
+      "stars": 532,
       "desc": "✨ A curated list of awesome GitHub instructions, prompt, skills, MCPs and agent markdown files for enhancing your GitHub Copilot AI experience.",
       "url": "https://github.com/Code-and-Sorts/awesome-copilot-agents",
       "install": "git clone https://github.com/Code-and-Sorts/awesome-copilot-agents.git  # browse the awesome list"
@@ -2133,7 +2133,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "aitytech/agentkits-marketing",
-      "stars": 527,
+      "stars": 528,
       "desc": "Enterprise-grade AI marketing automation for Claude Code, Cursor, GitHub Copilot, and any AI assistant supporting agents & skills",
       "url": "https://github.com/aitytech/agentkits-marketing",
       "install": "git clone https://github.com/aitytech/agentkits-marketing.git"
@@ -2144,7 +2144,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "huytieu/COG-second-brain",
-      "stars": 520,
+      "stars": 521,
       "desc": "Self-evolving second brain with 17 AI skills, 6 worker agents, and people CRM — inspired by Garry Tan's gstack and gbrain. Works with Claude Code, Cursor, Kiro, Gemini CLI, Codex.",
       "url": "https://github.com/huytieu/COG-second-brain",
       "install": "git clone https://github.com/huytieu/COG-second-brain.git"
@@ -2166,7 +2166,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "aldefy/compose-skill",
-      "stars": 490,
+      "stars": 492,
       "desc": "Jetpack Compose Agent Skill — AI-powered coding guidance with actual androidx/androidx source code receipts. Works with Claude Code, Codex CLI, Gemini CLI, Cursor, Copilot, Windsurf, and more.",
       "url": "https://github.com/aldefy/compose-skill",
       "install": "git clone https://github.com/aldefy/compose-skill.git"
@@ -2188,7 +2188,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "forcedotcom/sf-skills",
-      "stars": 483,
+      "stars": 487,
       "desc": "Salesforce's curated collection of agent skills for building applications. Optimized for Agentforce Vibes, compatible with all AI tools.",
       "url": "https://github.com/forcedotcom/sf-skills",
       "install": "git clone https://github.com/forcedotcom/sf-skills.git  # browse the awesome list"
@@ -2243,7 +2243,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "codexstar69/bug-hunter",
-      "stars": 404,
+      "stars": 405,
       "desc": "Adversarial AI bug hunter with auto-fix skill for Claude Code, Cursor, Codex CLI, GitHub Copilot CLI, Kiro CLI, Opencode, Pi Coding Agent, and more. Multi-agent pipeline finds security vulnerabilities, logic errors, and runtime bugs — then ",
       "url": "https://github.com/codexstar69/bug-hunter",
       "install": "npm i -g bug-hunter"
@@ -2276,7 +2276,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "mlhher/late-cli",
-      "stars": 339,
+      "stars": 340,
       "desc": "Orchestrate an entire AI dev team on 5GB VRAM. Ephemeral subagents, exact-match diffs. Single static binary, any model. Zero config, zero context bloat.",
       "url": "https://github.com/mlhher/late-cli",
       "install": "go install github.com/mlhher/late-cli@latest"
@@ -2287,7 +2287,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "microsoft/power-platform-skills",
-      "stars": 336,
+      "stars": 339,
       "desc": "A plugin marketplace for Claude Code/GitHub Copilot that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.",
       "url": "https://github.com/microsoft/power-platform-skills",
       "install": "npm i -g power-platform-skills"
@@ -2320,7 +2320,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "recomby-ai/recomby-geo",
-      "stars": 302,
+      "stars": 305,
       "desc": "GEO 领域 AI 员工开源方案 · Open-source GEO AI-employee solution (MIT). GEO Skills package + curated lists of agents and office CLIs that make up the AI-employee stack.",
       "url": "https://github.com/recomby-ai/recomby-geo",
       "install": "git clone https://github.com/recomby-ai/recomby-geo.git  # browse the awesome list"
@@ -2331,7 +2331,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "microsoft/skills-for-copilot-studio",
-      "stars": 298,
+      "stars": 300,
       "desc": "A skill for AI-coding tools to build and edit Microsoft Copilot Studio agents as YAML — with schema validation, templates, and AI-powered skills. Suited for Claude Code, GitHub Copilot CLI, and more.",
       "url": "https://github.com/microsoft/skills-for-copilot-studio",
       "install": "npm i -g skills-for-copilot-studio"
@@ -2375,7 +2375,7 @@ window.SKILL_DATA = {
       "agent": "claude",
       "group": null,
       "repo": "JSONbored/awesome-claude",
-      "stars": 257,
+      "stars": 260,
       "desc": "HeyClaude is a curated registry and distribution surface for Claude and AI-workflow assets: agents, MCP servers, skills, commands, hooks, rules, guides, tools, jobs, Raycast feeds, static data exports, and an npm MCP package.",
       "url": "https://github.com/JSONbored/awesome-claude",
       "install": "git clone https://github.com/JSONbored/awesome-claude.git  # browse the awesome list"
@@ -2441,7 +2441,7 @@ window.SKILL_DATA = {
       "agent": "multi",
       "group": null,
       "repo": "NeverSight/learn-skills.dev",
-      "stars": 157,
+      "stars": 158,
       "desc": "Curated high-quality AI Agent Skills. Search, install, copy and share. Works with Claude Code, Cursor, OpenClaw, and other AI coding tools.",
       "url": "https://github.com/NeverSight/learn-skills.dev",
       "install": "git clone https://github.com/NeverSight/learn-skills.dev.git  # browse the awesome list"
@@ -2485,7 +2485,7 @@ window.SKILL_DATA = {
       "agent": "other",
       "group": null,
       "repo": "EvoMap/awesome-agent-evolution",
-      "stars": 131,
+      "stars": 132,
       "desc": "A curated list of AI Agent evolution, memory systems, multi-agent architectures, and self-improvement projects. | evomap.ai",
       "url": "https://github.com/EvoMap/awesome-agent-evolution",
       "install": "git clone https://github.com/EvoMap/awesome-agent-evolution.git  # browse the awesome list"

@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "docs-content",
-    "count": 6,
+    "count": 4,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -24,7 +24,7 @@
       "agent": "multi",
       "group": null,
       "repo": "safishamsi/graphify",
-      "stars": 59235,
+      "stars": 59405,
       "desc": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database sc",
       "url": "https://github.com/safishamsi/graphify",
       "install": "git clone https://github.com/safishamsi/graphify.git",
@@ -36,7 +36,7 @@
       "agent": "multi",
       "group": null,
       "repo": "eugeniughelbur/obsidian-second-brain",
-      "stars": 2134,
+      "stars": 2158,
       "desc": "Cross-CLI skill for Obsidian: turn your vault into a living AI-first second brain across Claude Code, Codex, Gemini, and OpenCode. 43 commands - now with /obsidian-architect to document your codebase, key-less web research, Google Calendar,",
       "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
       "install": "git clone https://github.com/eugeniughelbur/obsidian-second-brain.git",
@@ -48,34 +48,10 @@
       "agent": "multi",
       "group": null,
       "repo": "aaron-he-zhu/seo-geo-claude-skills",
-      "stars": 1992,
+      "stars": 1998,
       "desc": "20 SEO & GEO skills for Claude Code, Cursor, Codex, and 35+ AI agents. Keyword research, content writing, technical audits, rank tracking. CORE-EEAT + CITE frameworks.",
       "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
       "install": "git clone https://github.com/aaron-he-zhu/seo-geo-claude-skills.git",
-      "functionCategory": "docs-content"
-    },
-    {
-      "name": "avoid-ai-writing",
-      "source": "general",
-      "agent": "multi",
-      "group": null,
-      "repo": "conorbronsdon/avoid-ai-writing",
-      "stars": 1687,
-      "desc": "Skill that audits and rewrites content to remove AI writing patterns. Use it with Claude Code, OpenClaw, and Hermes.",
-      "url": "https://github.com/conorbronsdon/avoid-ai-writing",
-      "install": "git clone https://github.com/conorbronsdon/avoid-ai-writing.git",
-      "functionCategory": "docs-content"
-    },
-    {
-      "name": "litprog-skill",
-      "source": "general",
-      "agent": "multi",
-      "group": null,
-      "repo": "tlehman/litprog-skill",
-      "stars": 167,
-      "desc": "Literate programming skill for agent harnesses like Claude Code, OpenCode and Hermes Agent",
-      "url": "https://github.com/tlehman/litprog-skill",
-      "install": "git clone https://github.com/tlehman/litprog-skill.git",
       "functionCategory": "docs-content"
     }
   ]

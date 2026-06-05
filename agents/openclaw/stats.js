@@ -1,5 +1,5 @@
 window.AGENT_STATS = {
-  "generatedAt": "2026-06-04T17:00:19.555Z",
+  "generatedAt": "2026-06-05T03:29:23.571Z",
   "sourceData": "js/data.js",
   "agent": "openclaw",
   "totalSkills": 4,
@@ -54,7 +54,7 @@ window.AGENT_STATS = {
     {
       "name": "openclaw",
       "repo": "openclaw/openclaw",
-      "stars": 376804,
+      "stars": 376897,
       "functionCategory": "data-ai",
       "source": "openclaw",
       "url": "https://github.com/openclaw/openclaw"
@@ -62,7 +62,7 @@ window.AGENT_STATS = {
     {
       "name": "OpenViking",
       "repo": "volcengine/OpenViking",
-      "stars": 25137,
+      "stars": 25149,
       "functionCategory": "design-ui",
       "source": "general",
       "url": "https://github.com/volcengine/OpenViking"
@@ -70,7 +70,7 @@ window.AGENT_STATS = {
     {
       "name": "AI-Infra-Guard",
       "repo": "Tencent/AI-Infra-Guard",
-      "stars": 3834,
+      "stars": 3835,
       "functionCategory": "dev-tools",
       "source": "general",
       "url": "https://github.com/Tencent/AI-Infra-Guard"

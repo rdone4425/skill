@@ -12,7 +12,7 @@
       "agent": "copilot",
       "group": null,
       "repo": "github/awesome-copilot",
-      "stars": 34456,
+      "stars": 34479,
       "desc": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
       "url": "https://github.com/github/awesome-copilot",
       "install": "git clone https://github.com/github/awesome-copilot.git  # browse the awesome list",

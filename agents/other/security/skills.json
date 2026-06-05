@@ -12,7 +12,7 @@
       "agent": "other",
       "group": null,
       "repo": "ljagiello/ctf-skills",
-      "stars": 2284,
+      "stars": 2292,
       "desc": "Agent skills for solving CTF challenges - web exploitation, binary pwn, crypto, reverse engineering, forensics, OSINT, and more",
       "url": "https://github.com/ljagiello/ctf-skills",
       "install": "git clone https://github.com/ljagiello/ctf-skills.git",

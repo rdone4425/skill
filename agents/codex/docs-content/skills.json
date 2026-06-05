@@ -2,7 +2,7 @@
   "meta": {
     "agent": "codex",
     "functionCategory": "docs-content",
-    "count": 7,
+    "count": 4,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -12,7 +12,7 @@
       "agent": "codex",
       "group": "notion",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-knowledge-capture",
       "install": "$skill-installer notion-knowledge-capture",
@@ -24,7 +24,7 @@
       "agent": "codex",
       "group": "notion",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-meeting-intelligence",
       "install": "$skill-installer notion-meeting-intelligence",
@@ -36,7 +36,7 @@
       "agent": "codex",
       "group": "notion",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-research-documentation",
       "install": "$skill-installer notion-research-documentation",
@@ -48,46 +48,10 @@
       "agent": "codex",
       "group": "notion",
       "repo": "openai/skills",
-      "stars": 21326,
+      "stars": 21359,
       "desc": "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-spec-to-implementation",
       "install": "$skill-installer notion-spec-to-implementation",
-      "functionCategory": "docs-content"
-    },
-    {
-      "name": "ppt-image-first",
-      "source": "general",
-      "agent": "codex",
-      "group": null,
-      "repo": "NyxTides/ppt-image-first",
-      "stars": 1004,
-      "desc": "PPT image-first skill for Codex/Claude Code/Opencode CLI",
-      "url": "https://github.com/NyxTides/ppt-image-first",
-      "install": "git clone https://github.com/NyxTides/ppt-image-first.git",
-      "functionCategory": "docs-content"
-    },
-    {
-      "name": "academic-research-skills-codex",
-      "source": "general",
-      "agent": "codex",
-      "group": null,
-      "repo": "Imbad0202/academic-research-skills-codex",
-      "stars": 2890,
-      "desc": "Codex-native Academic Research Skills suite for human-in-the-loop academic research workflows",
-      "url": "https://github.com/Imbad0202/academic-research-skills-codex",
-      "install": "pip install academic-research-skills-codex",
-      "functionCategory": "docs-content"
-    },
-    {
-      "name": "codex-academic-paper-skills",
-      "source": "general",
-      "agent": "codex",
-      "group": null,
-      "repo": "AAASS554/codex-academic-paper-skills",
-      "stars": 481,
-      "desc": "Codex academic paper skills for software engineering thesis planning and revision",
-      "url": "https://github.com/AAASS554/codex-academic-paper-skills",
-      "install": "pip install codex-academic-paper-skills",
       "functionCategory": "docs-content"
     }
   ]
