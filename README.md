@@ -1,186 +1,179 @@
-# 🎯 Skill Hub — AI Agent Skills 导航站
+# Skill Hub
 
-> 一个按 Agent 平台和功能分类组织的静态导航站，展示并聚合各类 AI Agent Skills。
+一个按 Agent 平台和功能分类组织的静态导航站，用来浏览、筛选和统计 AI Agent Skills。
 
-Skill Hub 现在采用“生成数据 + 动态目录加载”的结构：
-- 首页从 `agents/index.json` 动态加载平台菜单和功能分类
-- 具体 skill 数据存放在 `agents/<agent>/<functionCategory>/skills.json`
-- `js/data.js` 不再硬编码全量数据，而是负责读取 `agents/` 目录产物
-- 统计页已拆分到独立的 `stats.html`
-- 页面刷新后会保留当前分类、子分类、搜索词、排序、视图和分页状态
+当前站点的数据来源已经收敛为仓库内已提交的 `agents/` 目录产物。前端运行时不会再读取 `config/repos.json` 之类的上游配置文件。
 
-**特点**：
-- 按 Agent 平台浏览：Codex、Claude、Cursor、Copilot、Hermes、OpenCode、OpenClaw 等
-- 按功能分类浏览：设计 UI、开发工具、部署运维、测试质检、自动化效率等
-- 动态菜单、客户端搜索、分页和排序
+## 功能
+
+- 按 Agent 平台浏览：Codex、Claude、Cursor、Copilot、Hermes、OpenCode、OpenClaw、Multi-Agent、Other
+- 按功能分类筛选：Design UI、Dev Tools、Docs Content、DevOps Deploy、Data AI、Testing QA 等
+- 搜索、排序、分页、视图切换
 - 中英文切换
-- 零依赖前端（纯 HTML + CSS + JS）
-- SEO 优化（JSON-LD、Open Graph、Twitter Card）
+- 独立统计页
+- 纯静态前端：HTML + CSS + JavaScript
 
-## 🖥 在线访问
+## 在线访问
 
-**https://skill.pages.dev** — 部署在 Cloudflare Pages
+- 主站：[https://skill.442595.xyz/](https://skill.442595.xyz/)
 
-## 🚀 本地运行
+## 本地运行
+
+这是一个纯静态站点，直接起一个本地 HTTP 服务即可：
 
 ```bash
 git clone https://github.com/rdone4425/skill.git
 cd skill
-python3 -m http.server 8000
-# 访问 http://localhost:8000
+python -m http.server 8000
 ```
 
-或者用任何静态服务器（Nginx、Surge、Netlify 都可以）。
+然后访问 [http://127.0.0.1:8000/](http://127.0.0.1:8000/)。
 
-## ☁️ 部署到 Cloudflare Pages
+## 部署
 
-1. 登录 [Cloudflare Dashboard](https://dash.cloudflare.com/)
-2. **Workers & Pages** → **Create** → **Pages** → **Connect to Git**
-3. 选择 `rdone4425/skill` 仓库
-4. 配置：
-   - **Build command**：留空
-   - **Build output directory**：`/`（项目根目录）
-5. 点击 **Save and Deploy**
-6. 等 1-2 分钟，CF 会自动分配 `skill.pages.dev` 域名
+项目使用 Cloudflare Pages 资产部署，配置见 [wrangler.jsonc](./wrangler.jsonc)。
 
-> 💡 也可以用 `wrangler` CLI：`wrangler pages deploy .`
+手动部署示例：
 
-## 📁 项目结构
-
+```bash
+npx wrangler pages deploy . --project-name=skill-hub
 ```
+
+## 当前数据结构
+
+```text
 skill/
-├── index.html              # 主页面（平台菜单、分类筛选、搜索、分页）
-├── stats.html              # 独立统计页
-├── css/
-│   └── style.css           # 页面样式
-├── js/
-│   ├── data.js             # 动态加载 agents 目录数据
-│   ├── i18n.js             # 中英文翻译
-│   ├── state.js            # 页面状态与 URL/本地缓存同步
-│   ├── render.js           # 首页渲染
-│   ├── events.js           # 首页交互事件
-│   ├── app.js              # 首页 bootstrap
-│   └── stats-page.js       # 统计页逻辑
-├── agents/
-│   ├── index.json          # Agent 平台与功能分类索引
-│   └── <agent>/
-│       ├── stats.js        # 当前 agent 的统计信息
-│       └── <functionCategory>/
-│           └── skills.json # 当前平台 + 功能分类下的 skills
-├── config/
-│   └── repos.json          # 仓库来源配置
-├── scripts/
-│   ├── fetch-skills.py              # 拉取原始 skill 数据，写入 js/data.js
-│   ├── discover-skills.py           # 搜索 GitHub 发现新仓库，写入 config/repos.json
-│   ├── export-agent-function-data.js # 按 Agent/功能分类导出 agents 目录
-│   ├── run-data-pipeline.sh         # fetch + export 流水线
-│   └── lib/common.sh                # shell 公共函数
-├── .github/
-│   └── workflows/
-│       ├── update-generated-data.yml # 更新 js/data.js 和 agents/
-│       └── discover-skill-repos.yml  # 自动发现新仓库
-├── LICENSE                 # MIT
-└── README.md               # 本文件
+├─ index.html
+├─ stats.html
+├─ css/
+│  └─ style.css
+├─ js/
+│  ├─ app.js
+│  ├─ data.js
+│  ├─ events.js
+│  ├─ i18n.js
+│  ├─ render.js
+│  ├─ state.js
+│  └─ stats-page.js
+├─ agents/
+│  ├─ index.json
+│  ├─ health-report.json
+│  └─ <agent>/
+│     ├─ stats.js
+│     └─ <functionCategory>/
+│        └─ skills.json
+├─ .github/
+│  ├─ scripts/
+│  │  └─ refresh_skill_hub_data.py
+│  └─ workflows/
+│     └─ update-skill-hub-content.yml
+├─ assets/
+├─ LICENSE
+├─ README.md
+├─ wrangler.jsonc
+└─ _headers
 ```
 
-**数据流**：
+## 运行时数据链路
+
+页面运行时的数据链路如下：
+
+```text
+agents/index.json
+        +
+agents/<agent>/<functionCategory>/skills.json
+        +
+agents/<agent>/stats.js
+        ↓
+js/data.js / js/state.js / js/render.js / js/stats-page.js
+        ↓
+index.html / stats.html
 ```
-GitHub / config/repos.json
-          ↓
-  scripts/fetch-skills.py
-          ↓
-       js/data.js
-          ↓
-scripts/export-agent-function-data.js
-          ↓
-agents/index.json + agents/<agent>/<functionCategory>/skills.json + stats.js
-          ↓
- index.html / stats.html 动态加载
+
+也就是说：
+
+- 首页和统计页依赖的是 `agents/` 目录里的生成产物
+- 修改 `agents/` 数据会直接影响页面展示
+- 当前仓库不再通过 `config/repos.json` 驱动前端
+
+## 数据维护
+
+当前仓库保留了一条“维护已存在数据”的 GitHub Actions 流程：
+
+- 工作流：[.github/workflows/update-skill-hub-content.yml](./.github/workflows/update-skill-hub-content.yml)
+- 脚本：[.github/scripts/refresh_skill_hub_data.py](./.github/scripts/refresh_skill_hub_data.py)
+
+这条流程当前主要负责：
+
+- 刷新已收录仓库的 GitHub stars
+- 检查仓库或链接是否失效
+- 更新 `agents/health-report.json`
+- 重写各 Agent 的 `stats.js`
+
+注意：它现在不是“自动发现新仓库”的管线，而是“维护现有数据”的管线。
+
+## 如何新增或修改 skill
+
+当前推荐直接编辑 `agents/` 目录里的数据文件，而不是改某个上游配置表。
+
+### 1. 新增一个 skill
+
+把 skill 写入对应 bucket：
+
+```text
+agents/<agent>/<functionCategory>/skills.json
 ```
 
-## ✏️ 添加新 Skill
-
-### 方式 A：编辑 `config/repos.json`（推荐）✅
-
-编辑 `config/repos.json`，在 `repos` 字典中添加：
+每条 skill 至少应包含这些字段：
 
 ```json
 {
-  "repos": {
-    "owner/repo-name": {
-      "source": "general",
-      "name": "my-skill",
-      "install": "git clone https://github.com/owner/repo-name.git"
-    }
-  }
+  "name": "example-skill",
+  "source": "general",
+  "agent": "codex",
+  "group": "dev-tools",
+  "repo": "owner/repo",
+  "stars": 1234,
+  "desc": "Short description",
+  "url": "https://github.com/owner/repo",
+  "install": "git clone https://github.com/owner/repo.git",
+  "functionCategory": "dev-tools"
 }
 ```
 
-然后 `git commit -am "add my-skill" && git push`，CI 自动更新数据并部署。
+### 2. 同步目录索引
 
-### 方式 B：自动发现（零操作）🤖
+新增或移动 bucket 后，需要同步更新：
 
-`discover-skills.py` 会自动搜索 GitHub，发现新的高星 skill 仓库并写入 `config/repos.json`。
-
-由 `.github/workflows/discover-skill-repos.yml` 定时运行，也可以手动触发。
-
-### 方式 C：自动更新生成数据（CI）✅
-
-更新链路分为两步：
-
-1. `discover-skill-repos.yml`
-   - 定时发现新仓库
-   - 只更新 `config/repos.json`
-
-2. `update-generated-data.yml`
-   - 执行 `scripts/run-data-pipeline.sh`
-   - 生成最新的 `js/data.js`
-   - 导出 `agents/` 目录结构
-   - 有变化时直接提交到 `main`
-
-默认调度：
-- `discover-skill-repos.yml`：每 6 小时
-- `update-generated-data.yml`：每天 UTC 00:00
-
-**手动触发**：
-1. 打开 https://github.com/rdone4425/skill/actions
-2. 选择对应 workflow
-3. 点 **Run workflow**
-4. `update-generated-data.yml` 可选勾选 `dry_run`
-
-**调整更新频率**：编辑对应 workflow 里的 `cron` 字段
-- `0 0 * * *` — 每天
-- `0 */6 * * *` — 每 6 小时
-
-**添加新仓库**：编辑 `config/repos.json` 的 `repos` 字典即可，无需改 Python 代码。
-
-**回滚一次更新**：
-```bash
-git revert HEAD    # 创建反向 commit
-git push
+```text
+agents/index.json
 ```
 
-## 📊 数据来源
+它至少要反映：
 
-| 来源 | 数量 | 链接 |
-|---|---:|---|
-| `openai/skills` (.curated) | 39 | https://github.com/openai/skills |
-| `anthropics/skills` | 17 | https://github.com/anthropics/skills |
-| `ComposioHQ/awesome-codex-skills` | 1 | https://github.com/ComposioHQ/awesome-codex-skills |
-| `VoltAgent/awesome-codex-subagents` | 1 | https://github.com/VoltAgent/awesome-codex-subagents |
-| `hashgraph-online/awesome-codex-plugins` | 1 | https://github.com/hashgraph-online/awesome-codex-plugins |
-| `RoggeOhta/awesome-codex-cli` | 1 | https://github.com/RoggeOhta/awesome-codex-cli |
-| `JackyST0/awesome-agent-skills` | 1 | https://github.com/JackyST0/awesome-agent-skills |
-| `router-for-me/CLIProxyAPI` | 1 | https://github.com/router-for-me/CLIProxyAPI |
-| `decolua/9router` | 1 | https://github.com/decolua/9router |
-| `openai/codex` | 1 | https://github.com/openai/codex |
-| `nousresearch/hermes-agent` | 1 | https://github.com/NousResearch/hermes-agent |
-| `openclaw/openclaw` | 1 | https://github.com/openclaw/openclaw |
-| `opencode-ai/opencode` | 1 | https://github.com/opencode-ai/opencode |
-| 其他通用 skills | 10 | — |
+- `totalSkills`
+- 各个 `agent + functionCategory` bucket 的 `count`
 
-最后更新：**2026-06-04**
+### 3. 可选：刷新 stars 和健康报告
 
-## 📜 License
+本地执行：
+
+```bash
+python .github/scripts/refresh_skill_hub_data.py --root . --verbose
+```
+
+如果只想检查不落盘，可以加：
+
+```bash
+python .github/scripts/refresh_skill_hub_data.py --root . --dry-run
+```
+
+## 维护建议
+
+- 改动 `agents/**/skills.json` 后，顺手检查 `agents/index.json` 是否仍然匹配
+- 如果首页总数、分类总数、分页不对，先检查 `agents/index.json`
+- 如果统计页空白或缺数据，先检查 `js/stats-page.js` 和 `agents/health-report.json`
+
+## License
 
 MIT
