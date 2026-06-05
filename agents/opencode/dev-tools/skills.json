@@ -2,7 +2,7 @@
   "meta": {
     "agent": "opencode",
     "functionCategory": "dev-tools",
-    "count": 18,
+    "count": 22,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -220,6 +220,54 @@
       "desc": "OpenCode plugin to automate Chrome. Inspired by Claude in Chrome.",
       "url": "https://github.com/different-ai/opencode-browser",
       "install": "npm i -g opencode-browser",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-antigravity-auth",
+      "source": "general",
+      "agent": "opencode",
+      "group": null,
+      "repo": "NoeFabris/opencode-antigravity-auth",
+      "stars": 10741,
+      "desc": "Enable Opencode to authenticate against Antigravity (Google's IDE) via OAuth so you can use Antigravity rate limits and access models like gemini-3-pro and claude-opus-4-5-thinking with your Google credentials.",
+      "url": "https://github.com/NoeFabris/opencode-antigravity-auth",
+      "install": "git clone https://github.com/NoeFabris/opencode-antigravity-auth.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-openai-codex-auth",
+      "source": "general",
+      "agent": "opencode",
+      "group": null,
+      "repo": "numman-ali/opencode-openai-codex-auth",
+      "stars": 2100,
+      "desc": "OAuth authentication plugin for personal coding assistance with ChatGPT Plus/Pro subscriptions - uses OpenAI's official authentication method",
+      "url": "https://github.com/numman-ali/opencode-openai-codex-auth",
+      "install": "git clone https://github.com/numman-ali/opencode-openai-codex-auth.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-gemini-auth",
+      "source": "general",
+      "agent": "opencode",
+      "group": null,
+      "repo": "jenslys/opencode-gemini-auth",
+      "stars": 1653,
+      "desc": "Gemini auth plugin for opencode",
+      "url": "https://github.com/jenslys/opencode-gemini-auth",
+      "install": "git clone https://github.com/jenslys/opencode-gemini-auth.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-cursor",
+      "source": "general",
+      "agent": "opencode",
+      "group": null,
+      "repo": "Nomadcxx/opencode-cursor",
+      "stars": 484,
+      "desc": "Use Cursor Pro models in OpenCode via HTTP proxy with OAuth",
+      "url": "https://github.com/Nomadcxx/opencode-cursor",
+      "install": "git clone https://github.com/Nomadcxx/opencode-cursor.git",
       "functionCategory": "dev-tools"
     }
   ]

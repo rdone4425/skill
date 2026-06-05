@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "dev-tools",
-    "count": 31,
+    "count": 34,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -376,6 +376,42 @@
       "desc": "SkillX.sh — The Only Skill That Your AI Agent Needs. AI agent skills marketplace with semantic search, leaderboard, ratings, and CLI.",
       "url": "https://github.com/nextlevelbuilder/skillx",
       "install": "npm i -g skillx",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "cli",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "TanStack/cli",
+      "stars": 1262,
+      "desc": "The official TanStack CLI - Project Scaffolding, MCP Server, Agent Skills Installation, etc",
+      "url": "https://github.com/TanStack/cli",
+      "install": "npm i -g @tanstack/cli",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "himarket",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "higress-group/himarket",
+      "stars": 1184,
+      "desc": "HiMarket is an enterprise-level \"AI Capability Marketplace and Developer Ecosystem Hub.\" It is not merely a simple aggregation of traditional APIs, but rather a comprehensive platform that packages, publishes, manages, and operates core AI assets such as enterprise Model APIs, MCP Servers, Agent APIs, etc., through standardized product formats.",
+      "url": "https://github.com/higress-group/himarket",
+      "install": "git clone https://github.com/higress-group/himarket.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "codeguide-starter-fullstack",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "CodeGuide-dev/codeguide-starter-fullstack",
+      "stars": 145,
+      "desc": "Boilerplate built for AI coding agents, tools, CLI",
+      "url": "https://github.com/CodeGuide-dev/codeguide-starter-fullstack",
+      "install": "git clone https://github.com/CodeGuide-dev/codeguide-starter-fullstack.git",
       "functionCategory": "dev-tools"
     }
   ]
