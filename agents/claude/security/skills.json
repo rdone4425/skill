@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "security",
-    "count": 7,
+    "count": 8,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -88,6 +88,18 @@
       "desc": "A Claude Code plugin that turns Claude into a senior GRC (Governance, Risk, and Compliance) analyst. 72+ reference files covering 15 frameworks, 24 slash commands, and deep domain knowledge for federal and commercial compliance work.",
       "url": "https://github.com/mlunato47/claude-grc-plugin",
       "install": "npm i -g claude-grc-plugin",
+      "functionCategory": "security"
+    },
+    {
+      "name": "Claude-Red",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "SnailSploit/Claude-Red",
+      "stars": 2028,
+      "desc": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "install": "pip install Claude-Red",
       "functionCategory": "security"
     }
   ]

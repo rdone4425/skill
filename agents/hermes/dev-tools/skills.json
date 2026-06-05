@@ -2,7 +2,7 @@
   "meta": {
     "agent": "hermes",
     "functionCategory": "dev-tools",
-    "count": 11,
+    "count": 12,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -136,6 +136,18 @@
       "desc": "",
       "url": "https://github.com/praveen-ks-2001/hermes-agent-template",
       "install": "git clone https://github.com/praveen-ks-2001/hermes-agent-template.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "hermes-kanban",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "GumbyEnder/hermes-kanban",
+      "stars": 250,
+      "desc": "A dedicated Obsidian plugin + Hermes skill that turns Hermes into an autonomous project executor using Kanban boards inside your Obsidian vault.",
+      "url": "https://github.com/GumbyEnder/hermes-kanban",
+      "install": "pip install hermes-kanban",
       "functionCategory": "dev-tools"
     }
   ]

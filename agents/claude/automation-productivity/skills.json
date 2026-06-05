@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "automation-productivity",
-    "count": 16,
+    "count": 17,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -196,6 +196,18 @@
       "desc": "Connect Claude Code to Notion via this Plugin",
       "url": "https://github.com/makenotion/claude-code-notion-plugin",
       "install": "git clone https://github.com/makenotion/claude-code-notion-plugin.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "claude-skill-homeassistant",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "komal-SkyNET/claude-skill-homeassistant",
+      "stars": 423,
+      "desc": "Claude Code skill to supercharge and manage all Home Assistant workflows",
+      "url": "https://github.com/komal-SkyNET/claude-skill-homeassistant",
+      "install": "git clone https://github.com/komal-SkyNET/claude-skill-homeassistant.git",
       "functionCategory": "automation-productivity"
     }
   ]

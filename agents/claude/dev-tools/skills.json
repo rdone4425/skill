@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "dev-tools",
-    "count": 44,
+    "count": 49,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -532,6 +532,66 @@
       "desc": "Claude Code Advanced Plugins",
       "url": "https://github.com/JoasASantos/ClaudeAdvancedPlugins",
       "install": "git clone https://github.com/JoasASantos/ClaudeAdvancedPlugins.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "Claude-OSINT",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "elementalsouls/Claude-OSINT",
+      "stars": 1625,
+      "desc": "Two paired Claude skills · 90+ recon modules · 48 secret-regex patterns · 80+ dorks · 9 read-only credential validators · 27 attack-path templates · 5,500+ lines of structured tradecraft. Drop-in SKILL.md files that turn Claude into a god-mode external recon operator for authorized red-team and bug-bounty engagements.",
+      "url": "https://github.com/elementalsouls/Claude-OSINT",
+      "install": "pip install Claude-OSINT",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "claude-skill-aso-appstore-screenshots",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "adamlyttleapps/claude-skill-aso-appstore-screenshots",
+      "stars": 1407,
+      "desc": "",
+      "url": "https://github.com/adamlyttleapps/claude-skill-aso-appstore-screenshots",
+      "install": "pip install claude-skill-aso-appstore-screenshots",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "webgpu-claude-skill",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "dgreenheck/webgpu-claude-skill",
+      "stars": 965,
+      "desc": "A Claude skill for developing WebGPU applications with Three.js",
+      "url": "https://github.com/dgreenheck/webgpu-claude-skill",
+      "install": "npm i -g webgpu-claude-skill",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "csv-data-summarizer-claude-skill",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "coffeefuelbump/csv-data-summarizer-claude-skill",
+      "stars": 394,
+      "desc": "A Claude Skill that automatically analyzes uploaded CSV files — generating summary statistics, detecting missing data, and creating quick visualizations using Python and pandas.",
+      "url": "https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill",
+      "install": "pip install csv-data-summarizer-claude-skill",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "claude-skill-registry",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "majiayu000/claude-skill-registry",
+      "stars": 375,
+      "desc": "The most comprehensive Claude Code skills registry | Web Search: https://majiayu000.github.io/claude-skill-registry-core/",
+      "url": "https://github.com/majiayu000/claude-skill-registry",
+      "install": "git clone https://github.com/majiayu000/claude-skill-registry.git",
       "functionCategory": "dev-tools"
     }
   ]

@@ -2,7 +2,7 @@
   "meta": {
     "agent": "openclaw",
     "functionCategory": "dev-tools",
-    "count": 17,
+    "count": 18,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -208,6 +208,18 @@
       "desc": "OpenClaw Claude Code Plugin",
       "url": "https://github.com/alizarion/openclaw-claude-code-plugin",
       "install": "git clone https://github.com/alizarion/openclaw-claude-code-plugin.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "buildwithclaude",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "davepoon/buildwithclaude",
+      "stars": 3024,
+      "desc": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw",
+      "url": "https://github.com/davepoon/buildwithclaude",
+      "install": "npm i -g buildwithclaude",
       "functionCategory": "dev-tools"
     }
   ]

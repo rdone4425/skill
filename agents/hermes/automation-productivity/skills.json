@@ -2,7 +2,7 @@
   "meta": {
     "agent": "hermes",
     "functionCategory": "automation-productivity",
-    "count": 2,
+    "count": 3,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -28,6 +28,18 @@
       "desc": "",
       "url": "https://github.com/tonbistudio/hermes-multi-agent-workflow",
       "install": "git clone https://github.com/tonbistudio/hermes-multi-agent-workflow.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "hermes-geopolitical-market-sim",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "nativ3ai/hermes-geopolitical-market-sim",
+      "stars": 114,
+      "desc": "Hermes skill package for WorldOSINT headless + Polymarket + MiroFish simulation workflows",
+      "url": "https://github.com/nativ3ai/hermes-geopolitical-market-sim",
+      "install": "pip install hermes-geopolitical-market-sim",
       "functionCategory": "automation-productivity"
     }
   ]

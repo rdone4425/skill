@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "automation-productivity",
-    "count": 5,
+    "count": 6,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -64,6 +64,18 @@
       "desc": "Home Assistant MCP server agent. Enable Claude Code, Cursor, VS Code or any MCP-enabled IDE to help you vibe-code and manage Home Assistant: create and debug automations, design dashboards, tweak themes, modify configs, and deploy changes using natural language",
       "url": "https://github.com/Coolver/home-assistant-vibecode-agent",
       "install": "pip install home-assistant-vibecode-agent",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "browserwing",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "browserwing/browserwing",
+      "stars": 1291,
+      "desc": "BrowserWing turns your browser actions into MCP commands Or Claude Skill, allowing AI agents to control browsers efficiently and reliably. Say goodbye to slow, token-heavy LLM interactions — let agents call commands directly for faster automation. Perfect for AI-driven tasks, browser automation, and boosting productivity.",
+      "url": "https://github.com/browserwing/browserwing",
+      "install": "go install github.com/browserwing/browserwing@latest",
       "functionCategory": "automation-productivity"
     }
   ]

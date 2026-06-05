@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "docs-content",
-    "count": 28,
+    "count": 29,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -340,6 +340,18 @@
       "desc": "Claude code plugin marketplace for the BuildAtScale YouTube Channel",
       "url": "https://github.com/buildatscale-tv/claude-code-plugins",
       "install": "pip install claude-code-plugins",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "academic-pptx-skill",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "Gabberflast/academic-pptx-skill",
+      "stars": 513,
+      "desc": "A Claude Skill for creating academic presentations (conference talks, seminar slides, thesis defenses, grant briefings). Enforces action titles, structured argument, exhibit discipline, citation standards, and communication-first design. Works alongside Anthropic's built-in PPTX skill.",
+      "url": "https://github.com/Gabberflast/academic-pptx-skill",
+      "install": "git clone https://github.com/Gabberflast/academic-pptx-skill.git",
       "functionCategory": "docs-content"
     }
   ]

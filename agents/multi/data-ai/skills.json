@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "data-ai",
-    "count": 7,
+    "count": 8,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -88,6 +88,18 @@
       "desc": "Supercharge AI coding agents with portable skills. Install, translate & share skills across Claude Code, Cursor, Codex, Copilot & 40 more",
       "url": "https://github.com/rohitg00/skillkit",
       "install": "npm i -g skillkit",
+      "functionCategory": "data-ai"
+    },
+    {
+      "name": "prompt-master",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "nidhinjs/prompt-master",
+      "stars": 8785,
+      "desc": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
+      "url": "https://github.com/nidhinjs/prompt-master",
+      "install": "git clone https://github.com/nidhinjs/prompt-master.git",
       "functionCategory": "data-ai"
     }
   ]
