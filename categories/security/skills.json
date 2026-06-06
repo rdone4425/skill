@@ -1,6 +1,9 @@
 {
   "meta": {
     "functionCategory": "security",
+    "topCategoryId": "security",
+    "subCategoryId": "general",
+    "categoryPath": "security",
     "count": 18,
     "sourceData": "categories"
   },
@@ -10,37 +13,39 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "affaan-m/ECC",
-      "stars": 208644,
+      "stars": 208827,
       "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "url": "https://github.com/affaan-m/ECC",
       "install": "git clone https://github.com/affaan-m/ECC.git",
       "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
       "supportedAgents": [
         "claude",
         "codex",
         "cursor",
         "opencode"
       ],
-      "searchText": "ecc the agent harness performance optimization system. skills, instincts, memory, security, and research-first development for claude code, codex, opencode, cursor and beyond. affaan-m/ecc git clone https://github.com/affaan-m/ecc.git security claude codex cursor opencode",
-      "topCategoryId": "security",
-      "subCategoryId": "defensive"
+      "searchText": "ecc the agent harness performance optimization system. skills, instincts, memory, security, and research-first development for claude code, codex, opencode, cursor and beyond. affaan-m/ecc git clone https://github.com/affaan-m/ecc.git security claude codex cursor opencode"
     },
     {
       "name": "skills",
       "source": "general",
       "sourceAgent": "claude",
       "repo": "trailofbits/skills",
-      "stars": 5572,
+      "stars": 5575,
       "desc": "Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows",
       "url": "https://github.com/trailofbits/skills",
       "install": "pip install skills",
       "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "skills trail of bits claude code skills for security research, vulnerability detection, and audit workflows trailofbits/skills pip install skills security claude",
-      "topCategoryId": "security",
-      "subCategoryId": "defensive"
+      "searchText": "skills trail of bits claude code skills for security research, vulnerability detection, and audit workflows trailofbits/skills pip install skills security claude"
     },
     {
       "name": "agent-skills",
@@ -52,14 +57,15 @@
       "url": "https://github.com/tech-leads-club/agent-skills",
       "install": "npm i -g agent-skills",
       "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
       "supportedAgents": [
         "claude",
         "cursor",
         "copilot"
       ],
-      "searchText": "agent-skills the secure, validated skill registry for professional ai coding agents. extend antigravity, claude code, cursor, copilot and more with absolute confidence. tech-leads-club/agent-skills npm i -g agent-skills security claude cursor copilot",
-      "topCategoryId": "security",
-      "subCategoryId": "defensive"
+      "searchText": "agent-skills the secure, validated skill registry for professional ai coding agents. extend antigravity, claude code, cursor, copilot and more with absolute confidence. tech-leads-club/agent-skills npm i -g agent-skills security claude cursor copilot"
     },
     {
       "name": "openclaw-security-practice-guide",
@@ -71,12 +77,13 @@
       "url": "https://github.com/slowmist/openclaw-security-practice-guide",
       "install": "git clone https://github.com/slowmist/openclaw-security-practice-guide.git",
       "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "openclaw-security-practice-guide this guide is designed for openclaw itself (agent-facing), not as a traditional human-only hardening checklist. slowmist/openclaw-security-practice-guide git clone https://github.com/slowmist/openclaw-security-practice-guide.git security openclaw",
-      "topCategoryId": "security",
-      "subCategoryId": "defensive"
+      "searchText": "openclaw-security-practice-guide this guide is designed for openclaw itself (agent-facing), not as a traditional human-only hardening checklist. slowmist/openclaw-security-practice-guide git clone https://github.com/slowmist/openclaw-security-practice-guide.git security openclaw"
     },
     {
       "name": "DeepCamera",
@@ -88,80 +95,85 @@
       "url": "https://github.com/SharpAI/DeepCamera",
       "install": "npm i -g DeepCamera",
       "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "deepcamera open-source ai camera skills platform, ai nvr & cctv surveillance. local vlm video analysis with qwen, deepseek, smolvlm, llava, yolo26. llm-powered agentic security camera agent — watches, understands, remembers & guards your home via tele sharpai/deepcamera npm i -g deepcamera security claude",
-      "topCategoryId": "security",
-      "subCategoryId": "defensive"
+      "searchText": "deepcamera open-source ai camera skills platform, ai nvr & cctv surveillance. local vlm video analysis with qwen, deepseek, smolvlm, llava, yolo26. llm-powered agentic security camera agent — watches, understands, remembers & guards your home via tele sharpai/deepcamera npm i -g deepcamera security claude"
     },
     {
       "name": "ctf-skills",
       "source": "general",
       "sourceAgent": "other",
       "repo": "ljagiello/ctf-skills",
-      "stars": 2307,
+      "stars": 2308,
       "desc": "Agent skills for solving CTF challenges - web exploitation, binary pwn, crypto, reverse engineering, forensics, OSINT, and more",
       "url": "https://github.com/ljagiello/ctf-skills",
       "install": "git clone https://github.com/ljagiello/ctf-skills.git",
       "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
       "supportedAgents": [
         "other"
       ],
-      "searchText": "ctf-skills agent skills for solving ctf challenges - web exploitation, binary pwn, crypto, reverse engineering, forensics, osint, and more ljagiello/ctf-skills git clone https://github.com/ljagiello/ctf-skills.git security other",
-      "topCategoryId": "security",
-      "subCategoryId": "offensive"
+      "searchText": "ctf-skills agent skills for solving ctf challenges - web exploitation, binary pwn, crypto, reverse engineering, forensics, osint, and more ljagiello/ctf-skills git clone https://github.com/ljagiello/ctf-skills.git security other"
     },
     {
       "name": "Claude-Red",
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "SnailSploit/Claude-Red",
-      "stars": 2066,
+      "stars": 2073,
       "desc": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
       "url": "https://github.com/SnailSploit/Claude-Red",
       "install": "pip install Claude-Red",
       "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-red claude-red is a curated library of offensive security skills designed for the claude skills system. each skill is a structured skill.md file that primes claude with expert-level methodology for a specific attack surface — from sqli to shellcode, edr evasion to exploit development. snailsploit/claude-red pip install claude-red security claude",
-      "topCategoryId": "security",
-      "subCategoryId": "offensive"
+      "searchText": "claude-red claude-red is a curated library of offensive security skills designed for the claude skills system. each skill is a structured skill.md file that primes claude with expert-level methodology for a specific attack surface — from sqli to shellcode, edr evasion to exploit development. snailsploit/claude-red pip install claude-red security claude"
     },
     {
       "name": "Claude-BugHunter",
       "source": "general",
       "sourceAgent": "claude",
       "repo": "elementalsouls/Claude-BugHunter",
-      "stars": 1683,
+      "stars": 1686,
       "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 51 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "install": "pip install Claude-BugHunter",
       "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-bughunter a claude code skill bundle for bug hunting and external red-team work - 51 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 vulnerability classes, plus enterprise identity + infrastructure attack matrices. elementalsouls/claude-bughunter pip install claude-bughunter security claude",
-      "topCategoryId": "security",
-      "subCategoryId": "defensive"
+      "searchText": "claude-bughunter a claude code skill bundle for bug hunting and external red-team work - 51 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 vulnerability classes, plus enterprise identity + infrastructure attack matrices. elementalsouls/claude-bughunter pip install claude-bughunter security claude"
     },
     {
       "name": "automotive-skills-suite",
       "source": "general",
       "sourceAgent": "multi",
       "repo": "jherrodthomas/automotive-skills-suite",
-      "stars": 1586,
+      "stars": 1599,
       "desc": "100+ installable Claude skills covering Engineering areas such as, ISO 26262 functional safety, ISO/SAE 21434 cybersecurity, ISO 21448 SOTIF, AIAG-VDA quality (APQP/PPAP/FMEA), Automotive SPICE, and continuous improvement tools — every builder paired with a confirmation reviewer.",
       "url": "https://github.com/jherrodthomas/automotive-skills-suite",
       "install": "git clone https://github.com/jherrodthomas/automotive-skills-suite.git",
       "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "automotive-skills-suite 100+ installable claude skills covering engineering areas such as, iso 26262 functional safety, iso/sae 21434 cybersecurity, iso 21448 sotif, aiag-vda quality (apqp/ppap/fmea), automotive spice, and continuous improvement tools — every builder paired with a confirmation reviewer. jherrodthomas/automotive-skills-suite git clone https://github.com/jherrodthomas/automotive-skills-suite.git security claude",
-      "topCategoryId": "security",
-      "subCategoryId": "defensive"
+      "searchText": "automotive-skills-suite 100+ installable claude skills covering engineering areas such as, iso 26262 functional safety, iso/sae 21434 cybersecurity, iso 21448 sotif, aiag-vda quality (apqp/ppap/fmea), automotive spice, and continuous improvement tools — every builder paired with a confirmation reviewer. jherrodthomas/automotive-skills-suite git clone https://github.com/jherrodthomas/automotive-skills-suite.git security claude"
     },
     {
       "name": "clawsec",
@@ -173,64 +185,68 @@
       "url": "https://github.com/prompt-security/clawsec",
       "install": "git clone https://github.com/prompt-security/clawsec.git",
       "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
       "supportedAgents": [
         "hermes",
         "openclaw"
       ],
-      "searchText": "clawsec a complete security skill suite for openclaw, hermes, picoclaw and nanoclaw agents. drift detection, security recommendations, automated audits, skill integrity verification. prompt-security/clawsec git clone https://github.com/prompt-security/clawsec.git security hermes openclaw",
-      "topCategoryId": "security",
-      "subCategoryId": "defensive"
+      "searchText": "clawsec a complete security skill suite for openclaw, hermes, picoclaw and nanoclaw agents. drift detection, security recommendations, automated audits, skill integrity verification. prompt-security/clawsec git clone https://github.com/prompt-security/clawsec.git security hermes openclaw"
     },
     {
       "name": "hackingtool-plugin",
       "source": "general",
       "sourceAgent": "claude",
       "repo": "AKCodez/hackingtool-plugin",
-      "stars": 744,
+      "stars": 745,
       "desc": "Claude Code plugin: 183+ pentesting & OSINT tools from Z4nzu/hackingtool. Auto-runs what it can, hands off the rest.",
       "url": "https://github.com/AKCodez/hackingtool-plugin",
       "install": "pip install hackingtool-plugin",
       "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "hackingtool-plugin claude code plugin: 183+ pentesting & osint tools from z4nzu/hackingtool. auto-runs what it can, hands off the rest. akcodez/hackingtool-plugin pip install hackingtool-plugin security claude",
-      "topCategoryId": "security",
-      "subCategoryId": "offensive"
+      "searchText": "hackingtool-plugin claude code plugin: 183+ pentesting & osint tools from z4nzu/hackingtool. auto-runs what it can, hands off the rest. akcodez/hackingtool-plugin pip install hackingtool-plugin security claude"
     },
     {
       "name": "Claude-Skills-Governance-Risk-and-Compliance",
       "source": "general",
       "sourceAgent": "claude",
       "repo": "Sushegaad/Claude-Skills-Governance-Risk-and-Compliance",
-      "stars": 573,
+      "stars": 577,
       "desc": "Claude Skills for Governance, Risk, & Compliance (GRC): Expert-level compliance guidance for ISO 27001, SOC 2, FedRAMP, GDPR, HIPAA, NIST CSF, PCI DSS, EU AI Act, ISO 42001, ISO 27701, DORA, CSRD, India's DPDPA, CMMC 2.0, NIST AI Risk, SWIFT, Australia's ISM, EU NIS2, and CCPA/CPRA. Benchmark 97% (with skills) vs 81% (without skills).",
       "url": "https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance",
       "install": "git clone https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance.git",
       "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-skills-governance-risk-and-compliance claude skills for governance, risk, & compliance (grc): expert-level compliance guidance for iso 27001, soc 2, fedramp, gdpr, hipaa, nist csf, pci dss, eu ai act, iso 42001, iso 27701, dora, csrd, india's dpdpa, cmmc 2.0, nist ai risk, swift, australia's ism, eu nis2, and ccpa/cpra. benchmark 97% (with skills) vs 81% (without skills). sushegaad/claude-skills-governance-risk-and-compliance git clone https://github.com/sushegaad/claude-skills-governance-risk-and-compliance.git security claude",
-      "topCategoryId": "security",
-      "subCategoryId": "governance"
+      "searchText": "claude-skills-governance-risk-and-compliance claude skills for governance, risk, & compliance (grc): expert-level compliance guidance for iso 27001, soc 2, fedramp, gdpr, hipaa, nist csf, pci dss, eu ai act, iso 42001, iso 27701, dora, csrd, india's dpdpa, cmmc 2.0, nist ai risk, swift, australia's ism, eu nis2, and ccpa/cpra. benchmark 97% (with skills) vs 81% (without skills). sushegaad/claude-skills-governance-risk-and-compliance git clone https://github.com/sushegaad/claude-skills-governance-risk-and-compliance.git security claude"
     },
     {
       "name": "skills-curated",
       "source": "general",
       "sourceAgent": "claude",
       "repo": "trailofbits/skills-curated",
-      "stars": 427,
+      "stars": 428,
       "desc": "Curated, community-vetted Claude Code plugin marketplace",
       "url": "https://github.com/trailofbits/skills-curated",
       "install": "pip install skills-curated",
       "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "skills-curated curated, community-vetted claude code plugin marketplace trailofbits/skills-curated pip install skills-curated security claude",
-      "topCategoryId": "security",
-      "subCategoryId": "defensive"
+      "searchText": "skills-curated curated, community-vetted claude code plugin marketplace trailofbits/skills-curated pip install skills-curated security claude"
     },
     {
       "name": "OnionClaw",
@@ -242,12 +258,13 @@
       "url": "https://github.com/christinminor459/OnionClaw",
       "install": "git clone https://github.com/christinminor459/OnionClaw.git",
       "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "onionclaw provide ai agents with full tor network access and dark web data through a zero-config openclaw skill or standalone tool. christinminor459/onionclaw git clone https://github.com/christinminor459/onionclaw.git security openclaw",
-      "topCategoryId": "security",
-      "subCategoryId": "offensive"
+      "searchText": "onionclaw provide ai agents with full tor network access and dark web data through a zero-config openclaw skill or standalone tool. christinminor459/onionclaw git clone https://github.com/christinminor459/onionclaw.git security openclaw"
     },
     {
       "name": "hermes-agent-camel",
@@ -259,12 +276,13 @@
       "url": "https://github.com/nativ3ai/hermes-agent-camel",
       "install": "pip install hermes-agent-camel",
       "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "hermes-agent-camel hermes agent fork with integrated camel trust boundaries nativ3ai/hermes-agent-camel pip install hermes-agent-camel security hermes",
-      "topCategoryId": "security",
-      "subCategoryId": "governance"
+      "searchText": "hermes-agent-camel hermes agent fork with integrated camel trust boundaries nativ3ai/hermes-agent-camel pip install hermes-agent-camel security hermes"
     },
     {
       "name": "claude-grc-plugin",
@@ -276,12 +294,13 @@
       "url": "https://github.com/mlunato47/claude-grc-plugin",
       "install": "npm i -g claude-grc-plugin",
       "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-grc-plugin a claude code plugin that turns claude into a senior grc (governance, risk, and compliance) analyst. 72+ reference files covering 15 frameworks, 24 slash commands, and deep domain knowledge for federal and commercial compliance work. mlunato47/claude-grc-plugin npm i -g claude-grc-plugin security claude",
-      "topCategoryId": "security",
-      "subCategoryId": "governance"
+      "searchText": "claude-grc-plugin a claude code plugin that turns claude into a senior grc (governance, risk, and compliance) analyst. 72+ reference files covering 15 frameworks, 24 slash commands, and deep domain knowledge for federal and commercial compliance work. mlunato47/claude-grc-plugin npm i -g claude-grc-plugin security claude"
     },
     {
       "name": "OnionClaw",
@@ -293,12 +312,13 @@
       "url": "https://github.com/JacobJandon/OnionClaw",
       "install": "git clone https://github.com/JacobJandon/OnionClaw.git",
       "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "onionclaw onionclaw™ — openclaw skill for full tor dark web access: search .onion sites, fetch hidden services, rotate identity, run osint pipeline, craw. jacobjandon/onionclaw git clone https://github.com/jacobjandon/onionclaw.git security openclaw",
-      "topCategoryId": "security",
-      "subCategoryId": "offensive"
+      "searchText": "onionclaw onionclaw™ — openclaw skill for full tor dark web access: search .onion sites, fetch hidden services, rotate identity, run osint pipeline, craw. jacobjandon/onionclaw git clone https://github.com/jacobjandon/onionclaw.git security openclaw"
     },
     {
       "name": "openclaw-skills-security",
@@ -310,14 +330,15 @@
       "url": "https://github.com/UseAI-pro/openclaw-skills-security",
       "install": "pip install openclaw-skills-security",
       "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
       "supportedAgents": [
         "claude",
         "codex",
         "openclaw"
       ],
-      "searchText": "openclaw-skills-security curated, security-first openclaw skills (markdown-based). security audit skills - detect prompt injection, supply chain attacks, credential leaks. works with codex cli, claude code, any llm. useai-pro/openclaw-skills-security pip install openclaw-skills-security security claude codex openclaw",
-      "topCategoryId": "security",
-      "subCategoryId": "defensive"
+      "searchText": "openclaw-skills-security curated, security-first openclaw skills (markdown-based). security audit skills - detect prompt injection, supply chain attacks, credential leaks. works with codex cli, claude code, any llm. useai-pro/openclaw-skills-security pip install openclaw-skills-security security claude codex openclaw"
     }
   ]
 }

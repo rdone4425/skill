@@ -1,6 +1,9 @@
 {
   "meta": {
     "functionCategory": "general",
+    "topCategoryId": "general",
+    "subCategoryId": "general",
+    "categoryPath": "general",
     "count": 37,
     "sourceData": "categories"
   },
@@ -10,62 +13,68 @@
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
-      "stars": 147061,
+      "stars": 147155,
       "desc": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algor",
       "url": "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art",
       "install": "$skill-installer algorithmic-art",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "algorithmic-art creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. create original algor anthropics/skills $skill-installer algorithmic-art general claude",
-      "topCategoryId": "design",
-      "subCategoryId": "ui"
+      "searchText": "algorithmic-art creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. create original algor anthropics/skills $skill-installer algorithmic-art general claude"
     },
     {
       "name": "caveman",
       "source": "general",
       "sourceAgent": "claude",
       "repo": "JuliusBrussee/caveman",
-      "stars": 69365,
+      "stars": 69427,
       "desc": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
       "url": "https://github.com/JuliusBrussee/caveman",
       "install": "npm i -g caveman",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "caveman 🪨 why use many token when few token do trick — claude code skill that cuts 65% of tokens by talking like caveman juliusbrussee/caveman npm i -g caveman general claude",
-      "topCategoryId": "development",
-      "subCategoryId": "coding"
+      "searchText": "caveman 🪨 why use many token when few token do trick — claude code skill that cuts 65% of tokens by talking like caveman juliusbrussee/caveman npm i -g caveman general claude"
     },
     {
       "name": "awesome-openclaw-skills",
       "source": "community",
       "sourceAgent": "openclaw",
       "repo": "VoltAgent/awesome-openclaw-skills",
-      "stars": 49880,
+      "stars": 49895,
       "desc": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.",
       "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
       "install": "git clone https://github.com/VoltAgent/awesome-openclaw-skills.git # browse the awesome list",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "awesome-openclaw-skills the awesome collection of openclaw skills. 5,400+ skills filtered and categorized from the official openclaw skills registry. voltagent/awesome-openclaw-skills git clone https://github.com/voltagent/awesome-openclaw-skills.git # browse the awesome list general openclaw",
-      "topCategoryId": "docs",
-      "subCategoryId": "awesome"
+      "searchText": "awesome-openclaw-skills the awesome collection of openclaw skills. 5,400+ skills filtered and categorized from the official openclaw skills registry. voltagent/awesome-openclaw-skills git clone https://github.com/voltagent/awesome-openclaw-skills.git # browse the awesome list general openclaw"
     },
     {
       "name": "last30days-skill",
       "source": "general",
       "sourceAgent": "multi",
       "repo": "mvanhorn/last30days-skill",
-      "stars": 28373,
+      "stars": 28494,
       "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "url": "https://github.com/mvanhorn/last30days-skill",
       "install": "git clone https://github.com/mvanhorn/last30days-skill.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "claude",
         "codex",
@@ -75,54 +84,57 @@
         "opencode",
         "openclaw"
       ],
-      "searchText": "last30days-skill ai agent skill that researches any topic across reddit, x, youtube, hn, polymarket, and the web - then synthesizes a grounded summary mvanhorn/last30days-skill git clone https://github.com/mvanhorn/last30days-skill.git general claude codex cursor copilot hermes opencode openclaw",
-      "topCategoryId": "docs",
-      "subCategoryId": "libraries"
+      "searchText": "last30days-skill ai agent skill that researches any topic across reddit, x, youtube, hn, polymarket, and the web - then synthesizes a grounded summary mvanhorn/last30days-skill git clone https://github.com/mvanhorn/last30days-skill.git general claude codex cursor copilot hermes opencode openclaw"
     },
     {
       "name": "claude-skills",
       "source": "general",
       "sourceAgent": "claude",
       "repo": "Jeffallan/claude-skills",
-      "stars": 9673,
+      "stars": 9680,
       "desc": "66 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
       "url": "https://github.com/Jeffallan/claude-skills",
       "install": "pip install claude-skills",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-skills 66 specialized skills for full-stack developers. transform claude code into your expert pair programmer. jeffallan/claude-skills pip install claude-skills general claude",
-      "topCategoryId": "development",
-      "subCategoryId": "coding"
+      "searchText": "claude-skills 66 specialized skills for full-stack developers. transform claude code into your expert pair programmer. jeffallan/claude-skills pip install claude-skills general claude"
     },
     {
       "name": "clawhub",
       "source": "official",
       "sourceAgent": "openclaw",
       "repo": "openclaw/clawhub",
-      "stars": 8882,
+      "stars": 8883,
       "desc": "Skill + Plugin Registry for OpenClaw",
       "url": "https://github.com/openclaw/clawhub",
       "install": "git clone https://github.com/openclaw/clawhub.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "clawhub skill + plugin registry for openclaw openclaw/clawhub git clone https://github.com/openclaw/clawhub.git general openclaw",
-      "topCategoryId": "development",
-      "subCategoryId": "platforms"
+      "searchText": "clawhub skill + plugin registry for openclaw openclaw/clawhub git clone https://github.com/openclaw/clawhub.git general openclaw"
     },
     {
       "name": "awesome-agent-skills",
       "source": "community",
       "sourceAgent": "multi",
       "repo": "libukai/awesome-agent-skills",
-      "stars": 4607,
+      "stars": 4609,
       "desc": "Agent Skills 终极指南：快速入门、资源推荐、精选技能与实用工具 ｜The Ultimate Guide to Agent Skills: QuickStart, Resources, Features&Toolkit",
       "url": "https://github.com/libukai/awesome-agent-skills",
       "install": "git clone https://github.com/libukai/awesome-agent-skills.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "claude",
         "codex",
@@ -132,9 +144,7 @@
         "opencode",
         "openclaw"
       ],
-      "searchText": "awesome-agent-skills agent skills 终极指南：快速入门、资源推荐、精选技能与实用工具 ｜the ultimate guide to agent skills: quickstart, resources, features&toolkit libukai/awesome-agent-skills git clone https://github.com/libukai/awesome-agent-skills.git general claude codex cursor copilot hermes opencode openclaw",
-      "topCategoryId": "docs",
-      "subCategoryId": "awesome"
+      "searchText": "awesome-agent-skills agent skills 终极指南：快速入门、资源推荐、精选技能与实用工具 ｜the ultimate guide to agent skills: quickstart, resources, features&toolkit libukai/awesome-agent-skills git clone https://github.com/libukai/awesome-agent-skills.git general claude codex cursor copilot hermes opencode openclaw"
     },
     {
       "name": "awesome-openclaw-skills-zh",
@@ -146,40 +156,45 @@
       "url": "https://github.com/clawdbot-ai/awesome-openclaw-skills-zh",
       "install": "git clone https://github.com/clawdbot-ai/awesome-openclaw-skills-zh.git # browse the awesome list",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "awesome-openclaw-skills-zh openclaw chinese official skills library, translated from clawdbot official skills, categorized by scenario, supports chinese natural language invocation. clawdbot-ai/awesome-openclaw-skills-zh git clone https://github.com/clawdbot-ai/awesome-openclaw-skills-zh.git # browse the awesome list general openclaw",
-      "topCategoryId": "docs",
-      "subCategoryId": "awesome"
+      "searchText": "awesome-openclaw-skills-zh openclaw chinese official skills library, translated from clawdbot official skills, categorized by scenario, supports chinese natural language invocation. clawdbot-ai/awesome-openclaw-skills-zh git clone https://github.com/clawdbot-ai/awesome-openclaw-skills-zh.git # browse the awesome list general openclaw"
     },
     {
       "name": "awesome-hermes-agent-nyx",
       "source": "community",
       "sourceAgent": "hermes",
       "repo": "0xNyk/awesome-hermes-agent",
-      "stars": 3756,
+      "stars": 3758,
       "desc": "A curated list of awesome skills, tools, integrations, and resources for Hermes Agent by Nous Research",
       "url": "https://github.com/0xNyk/awesome-hermes-agent",
       "install": "git clone https://github.com/0xNyk/awesome-hermes-agent.git # browse the awesome list",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "awesome-hermes-agent-nyx a curated list of awesome skills, tools, integrations, and resources for hermes agent by nous research 0xnyk/awesome-hermes-agent git clone https://github.com/0xnyk/awesome-hermes-agent.git # browse the awesome list general hermes",
-      "topCategoryId": "docs",
-      "subCategoryId": "awesome"
+      "searchText": "awesome-hermes-agent-nyx a curated list of awesome skills, tools, integrations, and resources for hermes agent by nous research 0xnyk/awesome-hermes-agent git clone https://github.com/0xnyk/awesome-hermes-agent.git # browse the awesome list general hermes"
     },
     {
       "name": "anysearch-skill",
       "source": "general",
       "sourceAgent": "multi",
       "repo": "anysearch-ai/anysearch-skill",
-      "stars": 2536,
+      "stars": 2558,
       "desc": "Unified real-time search engine skill for AI agents.",
       "url": "https://github.com/anysearch-ai/anysearch-skill",
       "install": "git clone https://github.com/anysearch-ai/anysearch-skill.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "claude",
         "codex",
@@ -189,9 +204,7 @@
         "opencode",
         "openclaw"
       ],
-      "searchText": "anysearch-skill unified real-time search engine skill for ai agents. anysearch-ai/anysearch-skill git clone https://github.com/anysearch-ai/anysearch-skill.git general claude codex cursor copilot hermes opencode openclaw",
-      "topCategoryId": "development",
-      "subCategoryId": "coding"
+      "searchText": "anysearch-skill unified real-time search engine skill for ai agents. anysearch-ai/anysearch-skill git clone https://github.com/anysearch-ai/anysearch-skill.git general claude codex cursor copilot hermes opencode openclaw"
     },
     {
       "name": "openclaw-master-skills",
@@ -203,81 +216,86 @@
       "url": "https://github.com/LeoYeAI/openclaw-master-skills",
       "install": "git clone https://github.com/LeoYeAI/openclaw-master-skills.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "openclaw-master-skills 🧠 curated collection of 1209+ best openclaw skills — weekly updated by myclaw.ai leoyeai/openclaw-master-skills git clone https://github.com/leoyeai/openclaw-master-skills.git general openclaw",
-      "topCategoryId": "development",
-      "subCategoryId": "coding"
+      "searchText": "openclaw-master-skills 🧠 curated collection of 1209+ best openclaw skills — weekly updated by myclaw.ai leoyeai/openclaw-master-skills git clone https://github.com/leoyeai/openclaw-master-skills.git general openclaw"
     },
     {
       "name": "awesome-hermes-agent-samurai",
       "source": "community",
       "sourceAgent": "hermes",
       "repo": "SamurAIGPT/awesome-hermes-agent",
-      "stars": 1666,
+      "stars": 1667,
       "desc": "A curated list of skills, plugins, tools, integrations, and resources for Hermes Agent by Nous Research",
       "url": "https://github.com/SamurAIGPT/awesome-hermes-agent",
       "install": "git clone https://github.com/SamurAIGPT/awesome-hermes-agent.git # browse the awesome list",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "awesome-hermes-agent-samurai a curated list of skills, plugins, tools, integrations, and resources for hermes agent by nous research samuraigpt/awesome-hermes-agent git clone https://github.com/samuraigpt/awesome-hermes-agent.git # browse the awesome list general hermes",
-      "topCategoryId": "docs",
-      "subCategoryId": "awesome"
+      "searchText": "awesome-hermes-agent-samurai a curated list of skills, plugins, tools, integrations, and resources for hermes agent by nous research samuraigpt/awesome-hermes-agent git clone https://github.com/samuraigpt/awesome-hermes-agent.git # browse the awesome list general hermes"
     },
     {
       "name": "claude-code-skills",
       "source": "general",
       "sourceAgent": "claude",
       "repo": "daymade/claude-code-skills",
-      "stars": 1150,
+      "stars": 1152,
       "desc": "Professional Claude Code skills marketplace featuring production-ready skills for enhanced development workflows.",
       "url": "https://github.com/daymade/claude-code-skills",
       "install": "pip install claude-code-skills",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-code-skills professional claude code skills marketplace featuring production-ready skills for enhanced development workflows. daymade/claude-code-skills pip install claude-code-skills general claude",
-      "topCategoryId": "development",
-      "subCategoryId": "platforms"
+      "searchText": "claude-code-skills professional claude code skills marketplace featuring production-ready skills for enhanced development workflows. daymade/claude-code-skills pip install claude-code-skills general claude"
     },
     {
       "name": "Deep-Research-skills",
       "source": "general",
       "sourceAgent": "multi",
       "repo": "Weizhena/Deep-Research-skills",
-      "stars": 990,
+      "stars": 993,
       "desc": "Structured deep research skill for Claude Code/Open Code/Codex with human-in-the-loop control",
       "url": "https://github.com/Weizhena/Deep-Research-skills",
       "install": "git clone https://github.com/Weizhena/Deep-Research-skills.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "claude",
         "codex"
       ],
-      "searchText": "deep-research-skills structured deep research skill for claude code/open code/codex with human-in-the-loop control weizhena/deep-research-skills git clone https://github.com/weizhena/deep-research-skills.git general claude codex",
-      "topCategoryId": "data",
-      "subCategoryId": "research"
+      "searchText": "deep-research-skills structured deep research skill for claude code/open code/codex with human-in-the-loop control weizhena/deep-research-skills git clone https://github.com/weizhena/deep-research-skills.git general claude codex"
     },
     {
       "name": "hermes-ecosystem",
       "source": "hermes",
       "sourceAgent": "hermes",
       "repo": "ksimback/hermes-ecosystem",
-      "stars": 953,
+      "stars": 955,
       "desc": "🗺️ Hermes Atlas — the community map of every tool, skill, and integration for Hermes Agent by Nous Research. Live at hermesatlas.com",
       "url": "https://github.com/ksimback/hermes-ecosystem",
       "install": "git clone https://github.com/ksimback/hermes-ecosystem.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "hermes-ecosystem 🗺️ hermes atlas — the community map of every tool, skill, and integration for hermes agent by nous research. live at hermesatlas.com ksimback/hermes-ecosystem git clone https://github.com/ksimback/hermes-ecosystem.git general hermes",
-      "topCategoryId": "docs",
-      "subCategoryId": "awesome"
+      "searchText": "hermes-ecosystem 🗺️ hermes atlas — the community map of every tool, skill, and integration for hermes agent by nous research. live at hermesatlas.com ksimback/hermes-ecosystem git clone https://github.com/ksimback/hermes-ecosystem.git general hermes"
     },
     {
       "name": "claude-skills",
@@ -289,12 +307,13 @@
       "url": "https://github.com/simonw/claude-skills",
       "install": "git clone https://github.com/simonw/claude-skills.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-skills the contents of /mnt/skills in claude's code interpreter environment simonw/claude-skills git clone https://github.com/simonw/claude-skills.git general claude",
-      "topCategoryId": "docs",
-      "subCategoryId": "libraries"
+      "searchText": "claude-skills the contents of /mnt/skills in claude's code interpreter environment simonw/claude-skills git clone https://github.com/simonw/claude-skills.git general claude"
     },
     {
       "name": "llm-cursor-rules",
@@ -306,12 +325,13 @@
       "url": "https://github.com/RayFernando1337/llm-cursor-rules",
       "install": "git clone https://github.com/RayFernando1337/llm-cursor-rules.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "cursor"
       ],
-      "searchText": "llm-cursor-rules my go-to rules for using cursor and llms in software development. rayfernando1337/llm-cursor-rules git clone https://github.com/rayfernando1337/llm-cursor-rules.git general cursor",
-      "topCategoryId": "development",
-      "subCategoryId": "coding"
+      "searchText": "llm-cursor-rules my go-to rules for using cursor and llms in software development. rayfernando1337/llm-cursor-rules git clone https://github.com/rayfernando1337/llm-cursor-rules.git general cursor"
     },
     {
       "name": "antigravity-skills",
@@ -323,6 +343,9 @@
       "url": "https://github.com/guanyang/antigravity-skills",
       "install": "git clone https://github.com/guanyang/antigravity-skills.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "claude",
         "codex",
@@ -332,9 +355,7 @@
         "opencode",
         "openclaw"
       ],
-      "searchText": "antigravity-skills empower agents with professional capabilities in specific fields (such as full-stack development, complex logic planning, multimedia processing, etc.) guanyang/antigravity-skills git clone https://github.com/guanyang/antigravity-skills.git general claude codex cursor copilot hermes opencode openclaw",
-      "topCategoryId": "development",
-      "subCategoryId": "coding"
+      "searchText": "antigravity-skills empower agents with professional capabilities in specific fields (such as full-stack development, complex logic planning, multimedia processing, etc.) guanyang/antigravity-skills git clone https://github.com/guanyang/antigravity-skills.git general claude codex cursor copilot hermes opencode openclaw"
     },
     {
       "name": "awesome-openclaw-skills",
@@ -346,12 +367,13 @@
       "url": "https://github.com/sundial-org/awesome-openclaw-skills",
       "install": "git clone https://github.com/sundial-org/awesome-openclaw-skills.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "awesome-openclaw-skills top openclaw skills, with the most popular and useful ones. sundial-org/awesome-openclaw-skills git clone https://github.com/sundial-org/awesome-openclaw-skills.git general openclaw",
-      "topCategoryId": "docs",
-      "subCategoryId": "awesome"
+      "searchText": "awesome-openclaw-skills top openclaw skills, with the most popular and useful ones. sundial-org/awesome-openclaw-skills git clone https://github.com/sundial-org/awesome-openclaw-skills.git general openclaw"
     },
     {
       "name": "opencode-skills",
@@ -363,12 +385,13 @@
       "url": "https://github.com/malhashemi/opencode-skills",
       "install": "git clone https://github.com/malhashemi/opencode-skills.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "opencode"
       ],
-      "searchText": "opencode-skills malhashemi/opencode-skills git clone https://github.com/malhashemi/opencode-skills.git general opencode",
-      "topCategoryId": "development",
-      "subCategoryId": "coding"
+      "searchText": "opencode-skills malhashemi/opencode-skills git clone https://github.com/malhashemi/opencode-skills.git general opencode"
     },
     {
       "name": "ClaudeSkills",
@@ -380,12 +403,13 @@
       "url": "https://github.com/staruhub/ClaudeSkills",
       "install": "pip install ClaudeSkills",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claudeskills some sharing on claude skills staruhub/claudeskills pip install claudeskills general claude",
-      "topCategoryId": "development",
-      "subCategoryId": "platforms"
+      "searchText": "claudeskills some sharing on claude skills staruhub/claudeskills pip install claudeskills general claude"
     },
     {
       "name": "openclaw-search-skills",
@@ -397,12 +421,13 @@
       "url": "https://github.com/blessonism/openclaw-search-skills",
       "install": "pip install openclaw-search-skills",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "openclaw-search-skills openclaw skills for deep search — multi-source search, content extraction, and structured research reports. blessonism/openclaw-search-skills pip install openclaw-search-skills general openclaw",
-      "topCategoryId": "docs",
-      "subCategoryId": "libraries"
+      "searchText": "openclaw-search-skills openclaw skills for deep search — multi-source search, content extraction, and structured research reports. blessonism/openclaw-search-skills pip install openclaw-search-skills general openclaw"
     },
     {
       "name": "awesome-legal-skills",
@@ -414,6 +439,9 @@
       "url": "https://github.com/lawve-ai/awesome-legal-skills",
       "install": "git clone https://github.com/lawve-ai/awesome-legal-skills.git # browse the awesome list",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "claude",
         "codex",
@@ -423,46 +451,46 @@
         "opencode",
         "openclaw"
       ],
-      "searchText": "awesome-legal-skills a curated list of awesome agent skills for automating legal work lawve-ai/awesome-legal-skills git clone https://github.com/lawve-ai/awesome-legal-skills.git # browse the awesome list general claude codex cursor copilot hermes opencode openclaw",
-      "topCategoryId": "docs",
-      "subCategoryId": "awesome"
+      "searchText": "awesome-legal-skills a curated list of awesome agent skills for automating legal work lawve-ai/awesome-legal-skills git clone https://github.com/lawve-ai/awesome-legal-skills.git # browse the awesome list general claude codex cursor copilot hermes opencode openclaw"
     },
     {
       "name": "hermes-optimization-guide",
       "source": "hermes",
       "sourceAgent": "hermes",
       "repo": "OnlyTerp/hermes-optimization-guide",
-      "stars": 406,
+      "stars": 408,
       "desc": "Hermes Agent setup, migration, LightRAG, Telegram, and skill creation guide",
       "url": "https://github.com/OnlyTerp/hermes-optimization-guide",
       "install": "git clone https://github.com/OnlyTerp/hermes-optimization-guide.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "hermes-optimization-guide hermes agent setup, migration, lightrag, telegram, and skill creation guide onlyterp/hermes-optimization-guide git clone https://github.com/onlyterp/hermes-optimization-guide.git general hermes",
-      "topCategoryId": "docs",
-      "subCategoryId": "guides"
+      "searchText": "hermes-optimization-guide hermes agent setup, migration, lightrag, telegram, and skill creation guide onlyterp/hermes-optimization-guide git clone https://github.com/onlyterp/hermes-optimization-guide.git general hermes"
     },
     {
       "name": "youtube-skills",
       "source": "general",
       "sourceAgent": "multi",
       "repo": "ZeroPointRepo/youtube-skills",
-      "stars": 251,
+      "stars": 252,
       "desc": "YouTube Transcript API skills for AI agents. Get transcripts, search videos, browse channels. Works with OpenClaw, Hermes-Agent, Claude Code, Cursor,",
       "url": "https://github.com/ZeroPointRepo/youtube-skills",
       "install": "git clone https://github.com/ZeroPointRepo/youtube-skills.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "claude",
         "cursor",
         "hermes",
         "openclaw"
       ],
-      "searchText": "youtube-skills youtube transcript api skills for ai agents. get transcripts, search videos, browse channels. works with openclaw, hermes-agent, claude code, cursor, zeropointrepo/youtube-skills git clone https://github.com/zeropointrepo/youtube-skills.git general claude cursor hermes openclaw",
-      "topCategoryId": "development",
-      "subCategoryId": "coding"
+      "searchText": "youtube-skills youtube transcript api skills for ai agents. get transcripts, search videos, browse channels. works with openclaw, hermes-agent, claude code, cursor, zeropointrepo/youtube-skills git clone https://github.com/zeropointrepo/youtube-skills.git general claude cursor hermes openclaw"
     },
     {
       "name": "cursor-rules-and-prompts",
@@ -474,12 +502,13 @@
       "url": "https://github.com/thehimel/cursor-rules-and-prompts",
       "install": "git clone https://github.com/thehimel/cursor-rules-and-prompts.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "cursor"
       ],
-      "searchText": "cursor-rules-and-prompts a comprehensive, open-source collection of rules and prompts designed to guide cursor ai in generating better, more consistent code. enhance code quality, enforce coding standards, and streamline deve thehimel/cursor-rules-and-prompts git clone https://github.com/thehimel/cursor-rules-and-prompts.git general cursor",
-      "topCategoryId": "development",
-      "subCategoryId": "coding"
+      "searchText": "cursor-rules-and-prompts a comprehensive, open-source collection of rules and prompts designed to guide cursor ai in generating better, more consistent code. enhance code quality, enforce coding standards, and streamline deve thehimel/cursor-rules-and-prompts git clone https://github.com/thehimel/cursor-rules-and-prompts.git general cursor"
     },
     {
       "name": "hermeshub",
@@ -491,23 +520,27 @@
       "url": "https://github.com/amanning3390/hermeshub",
       "install": "git clone https://github.com/amanning3390/hermeshub.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "hermeshub hermeshub - the skills hub for hermes agent by nous research. browse, share, and install community skills. amanning3390/hermeshub git clone https://github.com/amanning3390/hermeshub.git general hermes",
-      "topCategoryId": "development",
-      "subCategoryId": "platforms"
+      "searchText": "hermeshub hermeshub - the skills hub for hermes agent by nous research. browse, share, and install community skills. amanning3390/hermeshub git clone https://github.com/amanning3390/hermeshub.git general hermes"
     },
     {
       "name": "agent-skills.md",
       "source": "community",
       "sourceAgent": "multi",
       "repo": "futantan/agent-skills.md",
-      "stars": 197,
+      "stars": 198,
       "desc": "Find awesome Agent Skills",
       "url": "https://github.com/futantan/agent-skills.md",
       "install": "git clone https://github.com/futantan/agent-skills.md.git # browse the curated list",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "claude",
         "codex",
@@ -517,9 +550,7 @@
         "opencode",
         "openclaw"
       ],
-      "searchText": "agent-skills.md find awesome agent skills futantan/agent-skills.md git clone https://github.com/futantan/agent-skills.md.git # browse the curated list general claude codex cursor copilot hermes opencode openclaw",
-      "topCategoryId": "docs",
-      "subCategoryId": "awesome"
+      "searchText": "agent-skills.md find awesome agent skills futantan/agent-skills.md git clone https://github.com/futantan/agent-skills.md.git # browse the curated list general claude codex cursor copilot hermes opencode openclaw"
     },
     {
       "name": "AbsolutelySkilled",
@@ -531,12 +562,13 @@
       "url": "https://github.com/AbsolutelySkilled/AbsolutelySkilled",
       "install": "git clone https://github.com/AbsolutelySkilled/AbsolutelySkilled.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "other"
       ],
-      "searchText": "absolutelyskilled awesome skills from around the world absolutelyskilled/absolutelyskilled git clone https://github.com/absolutelyskilled/absolutelyskilled.git general other",
-      "topCategoryId": "development",
-      "subCategoryId": "coding"
+      "searchText": "absolutelyskilled awesome skills from around the world absolutelyskilled/absolutelyskilled git clone https://github.com/absolutelyskilled/absolutelyskilled.git general other"
     },
     {
       "name": "opencode-skills-chinese",
@@ -548,12 +580,13 @@
       "url": "https://github.com/linxuan-sys/opencode-skills-chinese",
       "install": "git clone https://github.com/linxuan-sys/opencode-skills-chinese.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "opencode"
       ],
-      "searchText": "opencode-skills-chinese 一个存放终端ai skills 的仓库, 语言为中文 linxuan-sys/opencode-skills-chinese git clone https://github.com/linxuan-sys/opencode-skills-chinese.git general opencode",
-      "topCategoryId": "development",
-      "subCategoryId": "coding"
+      "searchText": "opencode-skills-chinese 一个存放终端ai skills 的仓库, 语言为中文 linxuan-sys/opencode-skills-chinese git clone https://github.com/linxuan-sys/opencode-skills-chinese.git general opencode"
     },
     {
       "name": "openclaw-chat-history-import",
@@ -565,12 +598,13 @@
       "url": "https://github.com/dashhuang/openclaw-chat-history-import",
       "install": "git clone https://github.com/dashhuang/openclaw-chat-history-import.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "openclaw-chat-history-import openclaw skill for importing external chat history into archive, daily memory, and memory.md workflows. dashhuang/openclaw-chat-history-import git clone https://github.com/dashhuang/openclaw-chat-history-import.git general openclaw",
-      "topCategoryId": "development",
-      "subCategoryId": "coding"
+      "searchText": "openclaw-chat-history-import openclaw skill for importing external chat history into archive, daily memory, and memory.md workflows. dashhuang/openclaw-chat-history-import git clone https://github.com/dashhuang/openclaw-chat-history-import.git general openclaw"
     },
     {
       "name": "awesome-agent-skills",
@@ -582,6 +616,9 @@
       "url": "https://github.com/itgoyo/awesome-agent-skills",
       "install": "git clone https://github.com/itgoyo/awesome-agent-skills.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "claude",
         "codex",
@@ -591,9 +628,7 @@
         "opencode",
         "openclaw"
       ],
-      "searchText": "awesome-agent-skills 收集全网最热门的agent-skills项目 itgoyo/awesome-agent-skills git clone https://github.com/itgoyo/awesome-agent-skills.git general claude codex cursor copilot hermes opencode openclaw",
-      "topCategoryId": "docs",
-      "subCategoryId": "awesome"
+      "searchText": "awesome-agent-skills 收集全网最热门的agent-skills项目 itgoyo/awesome-agent-skills git clone https://github.com/itgoyo/awesome-agent-skills.git general claude codex cursor copilot hermes opencode openclaw"
     },
     {
       "name": "awesome-skills-cn",
@@ -605,13 +640,14 @@
       "url": "https://github.com/lingxling/awesome-skills-cn",
       "install": "git clone https://github.com/lingxling/awesome-skills-cn.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "claude",
         "openclaw"
       ],
-      "searchText": "awesome-skills-cn 热门skills中文cn学习版+教程，提供7000+skills，集成claude skills (11w+star) | awesome-openclaw-skills (4w+star) | ui-ux-pro-max-skill (4w+star)等10余个热门skill项目 lingxling/awesome-skills-cn git clone https://github.com/lingxling/awesome-skills-cn.git general claude openclaw",
-      "topCategoryId": "docs",
-      "subCategoryId": "awesome"
+      "searchText": "awesome-skills-cn 热门skills中文cn学习版+教程，提供7000+skills，集成claude skills (11w+star) | awesome-openclaw-skills (4w+star) | ui-ux-pro-max-skill (4w+star)等10余个热门skill项目 lingxling/awesome-skills-cn git clone https://github.com/lingxling/awesome-skills-cn.git general claude openclaw"
     },
     {
       "name": "open-skills",
@@ -623,6 +659,9 @@
       "url": "https://github.com/besoeasy/open-skills",
       "install": "git clone https://github.com/besoeasy/open-skills.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "claude",
         "codex",
@@ -632,9 +671,7 @@
         "opencode",
         "openclaw"
       ],
-      "searchText": "open-skills battle-tested skill library for ai agents. save 98% of api costs with ready-to-use code for crypto, pdfs, search, web scraping & more. no trial-and-er besoeasy/open-skills git clone https://github.com/besoeasy/open-skills.git general claude codex cursor copilot hermes opencode openclaw",
-      "topCategoryId": "development",
-      "subCategoryId": "coding"
+      "searchText": "open-skills battle-tested skill library for ai agents. save 98% of api costs with ready-to-use code for crypto, pdfs, search, web scraping & more. no trial-and-er besoeasy/open-skills git clone https://github.com/besoeasy/open-skills.git general claude codex cursor copilot hermes opencode openclaw"
     },
     {
       "name": "awesome-openclaw-skills-CN",
@@ -646,29 +683,31 @@
       "url": "https://github.com/AIPMAndy/awesome-openclaw-skills-CN",
       "install": "git clone https://github.com/AIPMAndy/awesome-openclaw-skills-CN.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "awesome-openclaw-skills-cn 🇨🇳 中文开发者友好的 openclaw skills 精选 | 含国产模型接入指南（deepseek/qwen/glm/moonshot）| 2868+ skills 分类整理 aipmandy/awesome-openclaw-skills-cn git clone https://github.com/aipmandy/awesome-openclaw-skills-cn.git general openclaw",
-      "topCategoryId": "docs",
-      "subCategoryId": "awesome"
+      "searchText": "awesome-openclaw-skills-cn 🇨🇳 中文开发者友好的 openclaw skills 精选 | 含国产模型接入指南（deepseek/qwen/glm/moonshot）| 2868+ skills 分类整理 aipmandy/awesome-openclaw-skills-cn git clone https://github.com/aipmandy/awesome-openclaw-skills-cn.git general openclaw"
     },
     {
       "name": "codex-skills-library",
       "source": "general",
       "sourceAgent": "codex",
       "repo": "proflead/codex-skills-library",
-      "stars": 106,
+      "stars": 107,
       "desc": "Codex Skills Library is a curated library of reusable Codex skills for developers, individuals, and teams.",
       "url": "https://github.com/proflead/codex-skills-library",
       "install": "git clone https://github.com/proflead/codex-skills-library.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "codex"
       ],
-      "searchText": "codex-skills-library codex skills library is a curated library of reusable codex skills for developers, individuals, and teams. proflead/codex-skills-library git clone https://github.com/proflead/codex-skills-library.git general codex",
-      "topCategoryId": "development",
-      "subCategoryId": "coding"
+      "searchText": "codex-skills-library codex skills library is a curated library of reusable codex skills for developers, individuals, and teams. proflead/codex-skills-library git clone https://github.com/proflead/codex-skills-library.git general codex"
     },
     {
       "name": "awesome-claude-plugins",
@@ -680,12 +719,13 @@
       "url": "https://github.com/Chat2AnyLLM/awesome-claude-plugins",
       "install": "git clone https://github.com/Chat2AnyLLM/awesome-claude-plugins.git",
       "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "awesome-claude-plugins a curated list of awesome claude marketplaces and plugins chat2anyllm/awesome-claude-plugins git clone https://github.com/chat2anyllm/awesome-claude-plugins.git general claude",
-      "topCategoryId": "docs",
-      "subCategoryId": "awesome"
+      "searchText": "awesome-claude-plugins a curated list of awesome claude marketplaces and plugins chat2anyllm/awesome-claude-plugins git clone https://github.com/chat2anyllm/awesome-claude-plugins.git general claude"
     }
   ]
 }
