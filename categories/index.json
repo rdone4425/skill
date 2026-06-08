@@ -1,47 +1,343 @@
 {
-  "generatedAt": "2026-06-05T17:13:59.598Z",
+  "generatedAt": "2026-06-08T16:13:23.492Z",
   "sourceData": "categories",
   "totalSkills": 560,
   "categories": [
     {
       "id": "dev-tools",
+      "path": "dev-tools",
+      "groupId": "development",
+      "subcategoryId": "tools",
       "count": 248
     },
     {
       "id": "design-ui",
+      "path": "design-ui",
+      "groupId": "design",
+      "subcategoryId": "ui",
       "count": 71
     },
     {
       "id": "docs-content",
+      "path": "docs-content",
+      "groupId": "docs",
+      "subcategoryId": "content",
       "count": 71
     },
     {
       "id": "automation-productivity",
+      "path": "automation-productivity",
+      "groupId": "automation",
+      "subcategoryId": "productivity",
       "count": 44
     },
     {
       "id": "data-ai",
+      "path": "data-ai",
+      "groupId": "data",
+      "subcategoryId": "ai",
       "count": 40
     },
     {
       "id": "general",
+      "path": "general",
+      "groupId": "general",
+      "subcategoryId": "general",
       "count": 37
     },
     {
       "id": "devops-deploy",
+      "path": "devops-deploy",
+      "groupId": "devops",
+      "subcategoryId": "deploy",
       "count": 23
     },
     {
       "id": "security",
+      "path": "security",
+      "groupId": "security",
+      "subcategoryId": "general",
       "count": 18
     },
     {
       "id": "testing-qa",
+      "path": "testing-qa",
+      "groupId": "testing",
+      "subcategoryId": "qa",
       "count": 5
     },
     {
       "id": "backend-api",
+      "path": "backend-api",
+      "groupId": "backend",
+      "subcategoryId": "api",
       "count": 3
+    }
+  ],
+  "groups": [
+    {
+      "id": "development",
+      "count": 281,
+      "subcategories": [
+        {
+          "id": "development/coding",
+          "path": "development/coding",
+          "subcategoryId": "coding",
+          "count": 104
+        },
+        {
+          "id": "development/plugins",
+          "path": "development/plugins",
+          "subcategoryId": "plugins",
+          "count": 91
+        },
+        {
+          "id": "development/platforms",
+          "path": "development/platforms",
+          "subcategoryId": "platforms",
+          "count": 40
+        },
+        {
+          "id": "development/tooling",
+          "path": "development/tooling",
+          "subcategoryId": "tooling",
+          "count": 27
+        },
+        {
+          "id": "development/agents",
+          "path": "development/agents",
+          "subcategoryId": "agents",
+          "count": 19
+        }
+      ]
+    },
+    {
+      "id": "docs",
+      "count": 118,
+      "subcategories": [
+        {
+          "id": "docs/awesome",
+          "path": "docs/awesome",
+          "subcategoryId": "awesome",
+          "count": 66
+        },
+        {
+          "id": "docs/libraries",
+          "path": "docs/libraries",
+          "subcategoryId": "libraries",
+          "count": 22
+        },
+        {
+          "id": "docs/references",
+          "path": "docs/references",
+          "subcategoryId": "references",
+          "count": 20
+        },
+        {
+          "id": "docs/guides",
+          "path": "docs/guides",
+          "subcategoryId": "guides",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "count": 48,
+      "subcategories": [
+        {
+          "id": "automation/productivity",
+          "path": "automation/productivity",
+          "subcategoryId": "productivity",
+          "count": 12
+        },
+        {
+          "id": "automation/ops",
+          "path": "automation/ops",
+          "subcategoryId": "ops",
+          "count": 10
+        },
+        {
+          "id": "automation/publishing",
+          "path": "automation/publishing",
+          "subcategoryId": "publishing",
+          "count": 10
+        },
+        {
+          "id": "automation/office",
+          "path": "automation/office",
+          "subcategoryId": "office",
+          "count": 8
+        },
+        {
+          "id": "automation/workflow",
+          "path": "automation/workflow",
+          "subcategoryId": "workflow",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "count": 39,
+      "subcategories": [
+        {
+          "id": "data/models",
+          "path": "data/models",
+          "subcategoryId": "models",
+          "count": 14
+        },
+        {
+          "id": "data/memory",
+          "path": "data/memory",
+          "subcategoryId": "memory",
+          "count": 12
+        },
+        {
+          "id": "data/research",
+          "path": "data/research",
+          "subcategoryId": "research",
+          "count": 9
+        },
+        {
+          "id": "data/analytics",
+          "path": "data/analytics",
+          "subcategoryId": "analytics",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "count": 27,
+      "subcategories": [
+        {
+          "id": "design/figma",
+          "path": "design/figma",
+          "subcategoryId": "figma",
+          "count": 8
+        },
+        {
+          "id": "design/ui",
+          "path": "design/ui",
+          "subcategoryId": "ui",
+          "count": 7
+        },
+        {
+          "id": "design/deck",
+          "path": "design/deck",
+          "subcategoryId": "deck",
+          "count": 6
+        },
+        {
+          "id": "design/media",
+          "path": "design/media",
+          "subcategoryId": "media",
+          "count": 4
+        },
+        {
+          "id": "design/visual",
+          "path": "design/visual",
+          "subcategoryId": "visual",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "count": 26,
+      "subcategories": [
+        {
+          "id": "security/defensive",
+          "path": "security/defensive",
+          "subcategoryId": "defensive",
+          "count": 13
+        },
+        {
+          "id": "security/offensive",
+          "path": "security/offensive",
+          "subcategoryId": "offensive",
+          "count": 10
+        },
+        {
+          "id": "security/governance",
+          "path": "security/governance",
+          "subcategoryId": "governance",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "count": 9,
+      "subcategories": [
+        {
+          "id": "testing/browser",
+          "path": "testing/browser",
+          "subcategoryId": "browser",
+          "count": 5
+        },
+        {
+          "id": "testing/review",
+          "path": "testing/review",
+          "subcategoryId": "review",
+          "count": 3
+        },
+        {
+          "id": "testing/qa",
+          "path": "testing/qa",
+          "subcategoryId": "qa",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "count": 8,
+      "subcategories": [
+        {
+          "id": "devops/deploy",
+          "path": "devops/deploy",
+          "subcategoryId": "deploy",
+          "count": 4
+        },
+        {
+          "id": "devops/infra",
+          "path": "devops/infra",
+          "subcategoryId": "infra",
+          "count": 3
+        },
+        {
+          "id": "devops/ci",
+          "path": "devops/ci",
+          "subcategoryId": "ci",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "count": 4,
+      "subcategories": [
+        {
+          "id": "backend/integration",
+          "path": "backend/integration",
+          "subcategoryId": "integration",
+          "count": 2
+        },
+        {
+          "id": "backend/api",
+          "path": "backend/api",
+          "subcategoryId": "api",
+          "count": 1
+        },
+        {
+          "id": "backend/database",
+          "path": "backend/database",
+          "subcategoryId": "database",
+          "count": 1
+        }
+      ]
     }
   ],
   "platforms": [
@@ -80,237 +376,6 @@
     {
       "id": "gemini",
       "count": 36
-    }
-  ],
-  "groups": [
-    {
-      "id": "development",
-      "count": 281,
-      "subcategories": [
-        {
-          "id": "development/coding",
-          "subcategoryId": "coding",
-          "count": 104
-        },
-        {
-          "id": "development/plugins",
-          "subcategoryId": "plugins",
-          "count": 91
-        },
-        {
-          "id": "development/platforms",
-          "subcategoryId": "platforms",
-          "count": 40
-        },
-        {
-          "id": "development/tooling",
-          "subcategoryId": "tooling",
-          "count": 27
-        },
-        {
-          "id": "development/agents",
-          "subcategoryId": "agents",
-          "count": 19
-        }
-      ]
-    },
-    {
-      "id": "docs",
-      "count": 118,
-      "subcategories": [
-        {
-          "id": "docs/awesome",
-          "subcategoryId": "awesome",
-          "count": 66
-        },
-        {
-          "id": "docs/libraries",
-          "subcategoryId": "libraries",
-          "count": 22
-        },
-        {
-          "id": "docs/references",
-          "subcategoryId": "references",
-          "count": 20
-        },
-        {
-          "id": "docs/guides",
-          "subcategoryId": "guides",
-          "count": 10
-        }
-      ]
-    },
-    {
-      "id": "automation",
-      "count": 48,
-      "subcategories": [
-        {
-          "id": "automation/productivity",
-          "subcategoryId": "productivity",
-          "count": 12
-        },
-        {
-          "id": "automation/ops",
-          "subcategoryId": "ops",
-          "count": 10
-        },
-        {
-          "id": "automation/publishing",
-          "subcategoryId": "publishing",
-          "count": 10
-        },
-        {
-          "id": "automation/office",
-          "subcategoryId": "office",
-          "count": 8
-        },
-        {
-          "id": "automation/workflow",
-          "subcategoryId": "workflow",
-          "count": 8
-        }
-      ]
-    },
-    {
-      "id": "data",
-      "count": 39,
-      "subcategories": [
-        {
-          "id": "data/models",
-          "subcategoryId": "models",
-          "count": 14
-        },
-        {
-          "id": "data/memory",
-          "subcategoryId": "memory",
-          "count": 12
-        },
-        {
-          "id": "data/research",
-          "subcategoryId": "research",
-          "count": 9
-        },
-        {
-          "id": "data/analytics",
-          "subcategoryId": "analytics",
-          "count": 4
-        }
-      ]
-    },
-    {
-      "id": "design",
-      "count": 27,
-      "subcategories": [
-        {
-          "id": "design/figma",
-          "subcategoryId": "figma",
-          "count": 8
-        },
-        {
-          "id": "design/ui",
-          "subcategoryId": "ui",
-          "count": 7
-        },
-        {
-          "id": "design/deck",
-          "subcategoryId": "deck",
-          "count": 6
-        },
-        {
-          "id": "design/media",
-          "subcategoryId": "media",
-          "count": 4
-        },
-        {
-          "id": "design/visual",
-          "subcategoryId": "visual",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "security",
-      "count": 26,
-      "subcategories": [
-        {
-          "id": "security/defensive",
-          "subcategoryId": "defensive",
-          "count": 13
-        },
-        {
-          "id": "security/offensive",
-          "subcategoryId": "offensive",
-          "count": 10
-        },
-        {
-          "id": "security/governance",
-          "subcategoryId": "governance",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "testing",
-      "count": 9,
-      "subcategories": [
-        {
-          "id": "testing/browser",
-          "subcategoryId": "browser",
-          "count": 5
-        },
-        {
-          "id": "testing/review",
-          "subcategoryId": "review",
-          "count": 3
-        },
-        {
-          "id": "testing/qa",
-          "subcategoryId": "qa",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": "devops",
-      "count": 8,
-      "subcategories": [
-        {
-          "id": "devops/deploy",
-          "subcategoryId": "deploy",
-          "count": 4
-        },
-        {
-          "id": "devops/infra",
-          "subcategoryId": "infra",
-          "count": 3
-        },
-        {
-          "id": "devops/ci",
-          "subcategoryId": "ci",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": "backend",
-      "count": 4,
-      "subcategories": [
-        {
-          "id": "backend/integration",
-          "subcategoryId": "integration",
-          "count": 2
-        },
-        {
-          "id": "backend/api",
-          "subcategoryId": "api",
-          "count": 1
-        },
-        {
-          "id": "backend/database",
-          "subcategoryId": "database",
-          "count": 1
-        }
-      ]
     }
   ]
 }

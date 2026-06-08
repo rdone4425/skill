@@ -13,13 +13,13 @@
       "source": "hermes",
       "sourceAgent": "hermes",
       "repo": "NousResearch/hermes-agent",
-      "stars": 186756,
+      "stars": 187052,
       "desc": "The agent that grows with you",
       "url": "https://github.com/NousResearch/hermes-agent",
       "install": "pip install hermes-agent",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "hermes"
@@ -31,13 +31,13 @@
       "source": "opencode",
       "sourceAgent": "opencode",
       "repo": "anomalyco/opencode",
-      "stars": 171493,
+      "stars": 171598,
       "desc": "The open source coding agent.",
       "url": "https://github.com/anomalyco/opencode",
       "install": "npm i -g opencode",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -49,13 +49,13 @@
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
-      "stars": 147839,
+      "stars": 147948,
       "desc": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
       "url": "https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator",
       "install": "$skill-installer slack-gif-creator",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "design",
+      "subCategoryId": "media",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -67,13 +67,13 @@
       "source": "tools",
       "sourceAgent": "multi",
       "repo": "farion1231/cc-switch",
-      "stars": 94864,
+      "stars": 95090,
       "desc": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
       "url": "https://github.com/farion1231/cc-switch",
       "install": "git clone https://github.com/farion1231/cc-switch.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -90,13 +90,13 @@
       "source": "tools",
       "sourceAgent": "codex",
       "repo": "openai/codex",
-      "stars": 89565,
+      "stars": 89632,
       "desc": "Lightweight coding agent that runs in your terminal",
       "url": "https://github.com/openai/codex",
       "install": "npm i -g @openai/codex",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "codex"
@@ -108,13 +108,13 @@
       "source": "tools",
       "sourceAgent": "other",
       "repo": "bytedance/deer-flow",
-      "stars": 70737,
+      "stars": 70753,
       "desc": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
       "url": "https://github.com/bytedance/deer-flow",
       "install": "git clone https://github.com/bytedance/deer-flow.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "agents",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "other"
@@ -126,13 +126,13 @@
       "source": "community",
       "sourceAgent": "claude",
       "repo": "ComposioHQ/awesome-claude-skills",
-      "stars": 63703,
+      "stars": 63736,
       "desc": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
       "url": "https://github.com/ComposioHQ/awesome-claude-skills",
       "install": "git clone https://github.com/ComposioHQ/awesome-claude-skills.git  # browse the awesome list",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -144,13 +144,13 @@
       "source": "general",
       "sourceAgent": "other",
       "repo": "jeecgboot/JeecgBoot",
-      "stars": 46664,
+      "stars": 46668,
       "desc": "AI 低代码平台「低代码 + 零代码」双驱动！低代码可一键生成前后端代码;零代码可 5 分钟搭建系统;AI Skills 一句话画流程、设计表单、生成整套系统。内置 AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领「AI 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，消除 Java 项目 80% 的重复工作，提效而不失灵活。",
       "url": "https://github.com/jeecgboot/JeecgBoot",
       "install": "git clone https://github.com/jeecgboot/JeecgBoot.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "other"
@@ -162,13 +162,13 @@
       "source": "community",
       "sourceAgent": "claude",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 45956,
+      "stars": 45979,
       "desc": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic",
       "url": "https://github.com/hesreallyhim/awesome-claude-code",
       "install": "git clone https://github.com/hesreallyhim/awesome-claude-code.git  # browse the awesome list",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -180,13 +180,13 @@
       "source": "tools",
       "sourceAgent": "other",
       "repo": "zhayujie/CowAgent",
-      "stars": 45150,
+      "stars": 45153,
       "desc": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, autonomously grows with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly chatgpt-on-wechat)",
       "url": "https://github.com/zhayujie/CowAgent",
       "install": "git clone https://github.com/zhayujie/CowAgent.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "agents",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "other"
@@ -198,13 +198,13 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "sickn33/antigravity-awesome-skills",
-      "stars": 40058,
+      "stars": 40086,
       "desc": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
       "url": "https://github.com/sickn33/antigravity-awesome-skills",
       "install": "git clone https://github.com/sickn33/antigravity-awesome-skills.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -219,13 +219,13 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "anthropics/claude-plugins-official",
-      "stars": 29623,
+      "stars": 29645,
       "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "url": "https://github.com/anthropics/claude-plugins-official",
       "install": "git clone https://github.com/anthropics/claude-plugins-official.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -237,13 +237,13 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "jarrodwatts/claude-hud",
-      "stars": 24693,
+      "stars": 24711,
       "desc": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
       "url": "https://github.com/jarrodwatts/claude-hud",
       "install": "npm i -g claude-hud",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -255,13 +255,13 @@
       "source": "community",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 24629,
+      "stars": 24657,
       "desc": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
       "url": "https://github.com/VoltAgent/awesome-agent-skills",
       "install": "git clone https://github.com/VoltAgent/awesome-agent-skills.git  # browse the awesome list",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -276,13 +276,13 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 21679,
+      "stars": 21704,
       "desc": "Help the user define a concrete, measurable goal before starting work, especially when they ask to use the goal tool, create a goal, set an objective, clarify success criteria, or turn a fuzzy intention into a quantitative outcome. Use this",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/define-goal",
       "install": "$skill-installer define-goal",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "codex"
@@ -294,13 +294,13 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 21679,
+      "stars": 21704,
       "desc": "Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/gh-address-comments",
       "install": "$skill-installer gh-address-comments",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "codex"
@@ -312,13 +312,13 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 21679,
+      "stars": 21704,
       "desc": "Migrate supported instruction files, skills, agents, and MCP config into Codex project and global files.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/migrate-to-codex",
       "install": "$skill-installer migrate-to-codex",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "codex"
@@ -330,13 +330,13 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 21679,
+      "stars": 21704,
       "desc": "Deploy web projects to Netlify using the Netlify CLI (`npx netlify`). Use when the user asks to deploy, host, publish, or link a site/repo on Netlify, including preview and production deploys.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/netlify-deploy",
       "install": "$skill-installer netlify-deploy",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "codex"
@@ -348,13 +348,13 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 21679,
+      "stars": 21704,
       "desc": "\"Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel region), or when tool-specific capture capabilities are unavailable and an OS-level capture is needed.\"",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/screenshot",
       "install": "$skill-installer screenshot",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "codex"
@@ -366,13 +366,13 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 21679,
+      "stars": 21704,
       "desc": "\"Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry CLI; perform read-only queries using the `sentry` command.\"",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/sentry",
       "install": "$skill-installer sentry",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "codex"
@@ -384,13 +384,13 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 21679,
+      "stars": 21704,
       "desc": "\"Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow using the GitHub CLI (`gh`).\"",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/yeet",
       "install": "$skill-installer yeet",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "codex"
@@ -402,13 +402,13 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "alirezarezvani/claude-skills",
-      "stars": 17477,
+      "stars": 17500,
       "desc": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, complian",
       "url": "https://github.com/alirezarezvani/claude-skills",
       "install": "git clone https://github.com/alirezarezvani/claude-skills.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -423,13 +423,13 @@
       "source": "tools",
       "sourceAgent": "multi",
       "repo": "decolua/9router",
-      "stars": 16902,
+      "stars": 16921,
       "desc": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
       "url": "https://github.com/decolua/9router",
       "install": "npm i -g 9router",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -445,13 +445,13 @@
       "source": "tools",
       "sourceAgent": "other",
       "repo": "mksglu/context-mode",
-      "stars": 16660,
+      "stars": 16673,
       "desc": "Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 15 platforms",
       "url": "https://github.com/mksglu/context-mode",
       "install": "npm i -g context-mode",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "other"
@@ -463,13 +463,13 @@
       "source": "general",
       "sourceAgent": "other",
       "repo": "JCodesMore/ai-website-cloner-template",
-      "stars": 16555,
+      "stars": 16566,
       "desc": "Clone any website with one command using AI coding agents",
       "url": "https://github.com/JCodesMore/ai-website-cloner-template",
       "install": "npm i -g ai-website-cloner-template",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "other"
@@ -481,13 +481,13 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "mukul975/Anthropic-Cybersecurity-Skills",
-      "stars": 14843,
+      "stars": 14877,
       "desc": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20",
       "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "install": "git clone https://github.com/mukul975/Anthropic-Cybersecurity-Skills.git",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "security",
+      "subCategoryId": "defensive",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -503,13 +503,13 @@
       "source": "community",
       "sourceAgent": "codex",
       "repo": "ComposioHQ/awesome-codex-skills",
-      "stars": 13305,
+      "stars": 13326,
       "desc": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
       "url": "https://github.com/ComposioHQ/awesome-codex-skills",
       "install": "git clone https://github.com/ComposioHQ/awesome-codex-skills.git  # browse the awesome list",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "codex"
@@ -521,13 +521,13 @@
       "source": "community",
       "sourceAgent": "claude",
       "repo": "travisvn/awesome-claude-skills",
-      "stars": 13288,
+      "stars": 13293,
       "desc": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
       "url": "https://github.com/travisvn/awesome-claude-skills",
       "install": "git clone https://github.com/travisvn/awesome-claude-skills.git  # browse the awesome list",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -539,13 +539,13 @@
       "source": "general",
       "sourceAgent": "opencode",
       "repo": "NoeFabris/opencode-antigravity-auth",
-      "stars": 10762,
+      "stars": 10764,
       "desc": "Enable Opencode to authenticate against Antigravity (Google's IDE) via OAuth so you can use Antigravity rate limits and access models like gemini-3-pro and claude-opus-4-5-thinking with your Google credentials.",
       "url": "https://github.com/NoeFabris/opencode-antigravity-auth",
       "install": "git clone https://github.com/NoeFabris/opencode-antigravity-auth.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -559,13 +559,13 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "SawyerHood/dev-browser",
-      "stars": 6224,
+      "stars": 6226,
       "desc": "A Claude Skill to give your agent the ability to use a web browser",
       "url": "https://github.com/SawyerHood/dev-browser",
       "install": "npm i -g dev-browser",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -577,13 +577,13 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "SimoneAvogadro/android-reverse-engineering-skill",
-      "stars": 5993,
+      "stars": 5994,
       "desc": "Claude Code skill to support Android app's reverse engineering",
       "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
       "install": "git clone https://github.com/SimoneAvogadro/android-reverse-engineering-skill.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -595,13 +595,13 @@
       "source": "tools",
       "sourceAgent": "hermes",
       "repo": "outsourc-e/hermes-workspace",
-      "stars": 5507,
+      "stars": 5518,
       "desc": "Native web workspace for Hermes Agent - chat, terminal, memory, skills, inspector.",
       "url": "https://github.com/outsourc-e/hermes-workspace",
       "install": "git clone https://github.com/outsourc-e/hermes-workspace.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "agents",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "hermes"
@@ -613,13 +613,13 @@
       "source": "opencode",
       "sourceAgent": "opencode",
       "repo": "alvinunreal/oh-my-opencode-slim",
-      "stars": 5192,
+      "stars": 5199,
       "desc": "Slimmed, cleaned and fine-tuned oh-my-opencode fork, consumes much less tokens",
       "url": "https://github.com/alvinunreal/oh-my-opencode-slim",
       "install": "npm i -g oh-my-opencode-slim",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -631,13 +631,13 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "joeseesun/qiaomu-anything-to-notebooklm",
-      "stars": 4998,
+      "stars": 5001,
       "desc": "Claude Skill: Multi-source content processor for NotebookLM. Supports WeChat articles, web pages, YouTube, PDF, Markdown, search queries → Podcast/PPT/MindMap/Quiz etc.",
       "url": "https://github.com/joeseesun/qiaomu-anything-to-notebooklm",
       "install": "pip install qiaomu-anything-to-notebooklm",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -649,13 +649,13 @@
       "source": "openclaw",
       "sourceAgent": "openclaw",
       "repo": "linuxhsj/openclaw-zero-token",
-      "stars": 4967,
+      "stars": 4969,
       "desc": "OpenClaw: Use All Major AI Models NO API Token! Claude/ChatGPT/Gemini/DeepSeek/Doubao/Grok/Qwen/Manus/Kimi",
       "url": "https://github.com/linuxhsj/openclaw-zero-token",
       "install": "npm i -g openclaw-zero-token",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -669,13 +669,13 @@
       "source": "tools",
       "sourceAgent": "multi",
       "repo": "jnMetaCode/superpowers-zh",
-      "stars": 4937,
+      "stars": 4954,
       "desc": "🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 16 款 AI 编程工具真正会干活",
       "url": "https://github.com/jnMetaCode/superpowers-zh",
       "install": "git clone https://github.com/jnMetaCode/superpowers-zh.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -697,7 +697,7 @@
       "install": "npm i -g vibe-tools",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "cursor"
@@ -715,7 +715,7 @@
       "install": "git clone https://github.com/openclaw/Peekaboo.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "openclaw"
@@ -733,7 +733,7 @@
       "install": "npm i -g mcporter",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "openclaw"
@@ -745,13 +745,13 @@
       "source": "tools",
       "sourceAgent": "other",
       "repo": "calesthio/OpenMontage",
-      "stars": 4512,
+      "stars": 4517,
       "desc": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
       "url": "https://github.com/calesthio/OpenMontage",
       "install": "git clone https://github.com/calesthio/OpenMontage.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "agents",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "other"
@@ -763,13 +763,13 @@
       "source": "openclaw",
       "sourceAgent": "openclaw",
       "repo": "abhi1693/openclaw-mission-control",
-      "stars": 4028,
+      "stars": 4030,
       "desc": "AI Agent Orchestration Dashboard - Manage AI agents, assign tasks, and coordinate multi-agent collaboration via OpenClaw Gateway.",
       "url": "https://github.com/abhi1693/openclaw-mission-control",
       "install": "npm i -g openclaw-mission-control",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "agents",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "openclaw"
@@ -781,13 +781,13 @@
       "source": "openclaw",
       "sourceAgent": "openclaw",
       "repo": "TianyiDataScience/openclaw-control-center",
-      "stars": 3986,
+      "stars": 3988,
       "desc": "Turn OpenClaw from a black box into a local control center you can see, trust, and control.",
       "url": "https://github.com/TianyiDataScience/openclaw-control-center",
       "install": "npm i -g openclaw-control-center",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "openclaw"
@@ -799,13 +799,13 @@
       "source": "hermes",
       "sourceAgent": "hermes",
       "repo": "NousResearch/hermes-agent-self-evolution",
-      "stars": 3951,
+      "stars": 3958,
       "desc": "⚒ Evolutionary self-improvement for Hermes Agent — optimize skills, prompts, and code using DSPy + GEPA",
       "url": "https://github.com/NousResearch/hermes-agent-self-evolution",
       "install": "pip install hermes-agent-self-evolution",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "hermes"
@@ -817,13 +817,13 @@
       "source": "openclaw",
       "sourceAgent": "openclaw",
       "repo": "BytePioneer-AI/openclaw-china",
-      "stars": 3943,
+      "stars": 3944,
       "desc": "OpenClaw中国插件：支持飞书，钉钉，QQ，企业微信，微信",
       "url": "https://github.com/BytePioneer-AI/openclaw-china",
       "install": "npm i -g openclaw-china",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "openclaw"
@@ -835,13 +835,13 @@
       "source": "general",
       "sourceAgent": "openclaw",
       "repo": "Tencent/AI-Infra-Guard",
-      "stars": 3856,
+      "stars": 3857,
       "desc": "A full-stack AI Red Teaming platform securing AI ecosystems via OpenClaw Security Scan, Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
       "url": "https://github.com/Tencent/AI-Infra-Guard",
       "install": "git clone https://github.com/Tencent/AI-Infra-Guard.git",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "security",
+      "subCategoryId": "offensive",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "openclaw"
@@ -853,18 +853,38 @@
       "source": "opencode",
       "sourceAgent": "opencode",
       "repo": "nickjvandyke/opencode.nvim",
-      "stars": 3542,
+      "stars": 3543,
       "desc": "Bridge Neovim and OpenCode AI to stay in your flow.",
       "url": "https://github.com/nickjvandyke/opencode.nvim",
       "install": "git clone https://github.com/nickjvandyke/opencode.nvim.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
       ],
       "searchText": "opencode.nvim bridge neovim and opencode ai to stay in your flow. nickjvandyke/opencode.nvim git clone https://github.com/nickjvandyke/opencode.nvim.git dev-tools opencode"
+    },
+    {
+      "name": "Generative-Media-Skills",
+      "source": "tools",
+      "sourceAgent": "multi",
+      "repo": "SamurAIGPT/Generative-Media-Skills",
+      "stars": 3458,
+      "desc": "Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and audio generation powered by muapi.ai.",
+      "url": "https://github.com/SamurAIGPT/Generative-Media-Skills",
+      "install": "git clone https://github.com/SamurAIGPT/Generative-Media-Skills.git",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "coding",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "gemini"
+      ],
+      "searchText": "generative-media-skills multi-modal generative media skills for ai agents (claude code, cursor, gemini cli). high-quality image, video, and audio generation powered by muapi.ai. samuraigpt/generative-media-skills git clone https://github.com/samuraigpt/generative-media-skills.git dev-tools claude cursor gemini"
     },
     {
       "name": "cc-sdd",
@@ -877,7 +897,7 @@
       "install": "npm i -g cc-sdd",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -890,37 +910,17 @@
       "searchText": "cc-sdd turn approved specs into long-running autonomous implementation. a minimal, adaptable sdd harness with agent skills for claude code, codex, cursor, copilot, windsurf, opencode, gemini cli, and antigravity. gotalab/cc-sdd npm i -g cc-sdd dev-tools claude codex cursor copilot opencode gemini"
     },
     {
-      "name": "Generative-Media-Skills",
-      "source": "tools",
-      "sourceAgent": "multi",
-      "repo": "SamurAIGPT/Generative-Media-Skills",
-      "stars": 3456,
-      "desc": "Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and audio generation powered by muapi.ai.",
-      "url": "https://github.com/SamurAIGPT/Generative-Media-Skills",
-      "install": "git clone https://github.com/SamurAIGPT/Generative-Media-Skills.git",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "gemini"
-      ],
-      "searchText": "generative-media-skills multi-modal generative media skills for ai agents (claude code, cursor, gemini cli). high-quality image, video, and audio generation powered by muapi.ai. samuraigpt/generative-media-skills git clone https://github.com/samuraigpt/generative-media-skills.git dev-tools claude cursor gemini"
-    },
-    {
       "name": "OpenClawInstaller",
       "source": "openclaw",
       "sourceAgent": "openclaw",
       "repo": "miaoxworld/OpenClawInstaller",
-      "stars": 3433,
+      "stars": 3432,
       "desc": "ClawdBot 一键部署工具",
       "url": "https://github.com/miaoxworld/OpenClawInstaller",
       "install": "git clone https://github.com/miaoxworld/OpenClawInstaller.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "openclaw"
@@ -932,13 +932,13 @@
       "source": "opencode",
       "sourceAgent": "opencode",
       "repo": "Opencode-DCP/opencode-dynamic-context-pruning",
-      "stars": 3252,
+      "stars": 3259,
       "desc": "Dynamic context pruning plugin for OpenCode - intelligently manages conversation context to optimize token usage",
       "url": "https://github.com/Opencode-DCP/opencode-dynamic-context-pruning",
       "install": "npm i -g opencode-dynamic-context-pruning",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -950,13 +950,13 @@
       "source": "tools",
       "sourceAgent": "multi",
       "repo": "nexu-io/nexu",
-      "stars": 3101,
+      "stars": 3100,
       "desc": "The simplest desktop client for OpenClaw 🦞 — bridge your Agent to WeChat, Feishu, Slack & Discord in one click. Works with Claude Code, Codex & any LLM. BYOK, Oauth, local-first, chat from your phone 24/7.",
       "url": "https://github.com/nexu-io/nexu",
       "install": "npm i -g nexu",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -975,8 +975,8 @@
       "url": "https://github.com/davepoon/buildwithclaude",
       "install": "npm i -g buildwithclaude",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -989,13 +989,13 @@
       "source": "tools",
       "sourceAgent": "other",
       "repo": "FireRedTeam/FireRed-OpenStoryline",
-      "stars": 2873,
+      "stars": 2874,
       "desc": "FireRed-OpenStoryline is an AI video editing agent that transforms manual editing into intention-driven directing through natural language interaction, LLM-powered planning, and precise tool orchestration. It facilitates transparent, human-",
       "url": "https://github.com/FireRedTeam/FireRed-OpenStoryline",
       "install": "git clone https://github.com/FireRedTeam/FireRed-OpenStoryline.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "agents",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "other"
@@ -1007,13 +1007,13 @@
       "source": "openclaw",
       "sourceAgent": "openclaw",
       "repo": "openclaw/acpx",
-      "stars": 2832,
+      "stars": 2833,
       "desc": "Headless CLI client for stateful Agent Client Protocol (ACP) sessions",
       "url": "https://github.com/openclaw/acpx",
       "install": "npm i -g acpx",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "openclaw"
@@ -1025,13 +1025,13 @@
       "source": "tools",
       "sourceAgent": "other",
       "repo": "google/agents-cli",
-      "stars": 2729,
+      "stars": 2731,
       "desc": "The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud.",
       "url": "https://github.com/google/agents-cli",
       "install": "git clone https://github.com/google/agents-cli.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "other"
@@ -1049,7 +1049,7 @@
       "install": "git clone https://github.com/NeekChaw/RIPER-5.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "cursor"
@@ -1061,13 +1061,13 @@
       "source": "tools",
       "sourceAgent": "claude",
       "repo": "jeremylongshore/claude-code-plugins-plus-skills",
-      "stars": 2333,
+      "stars": 2334,
       "desc": "425 plugins, 2,810 skills, 200 agents for Claude Code. Open-source marketplace at tonsofskills.com with the ccpi CLI package manager.",
       "url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills",
       "install": "git clone https://github.com/jeremylongshore/claude-code-plugins-plus-skills.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -1079,13 +1079,13 @@
       "source": "tools",
       "sourceAgent": "multi",
       "repo": "runkids/skillshare",
-      "stars": 2175,
+      "stars": 2177,
       "desc": "📚 Sync skills across all AI CLI tools with one command and simplify team sharing. Supporting Codex, Claude Code, OpenClaw & more",
       "url": "https://github.com/runkids/skillshare",
       "install": "go install github.com/runkids/skillshare@latest",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -1105,7 +1105,7 @@
       "install": "pip install claudekit-skills",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -1117,13 +1117,13 @@
       "source": "general",
       "sourceAgent": "opencode",
       "repo": "numman-ali/opencode-openai-codex-auth",
-      "stars": 2102,
+      "stars": 2101,
       "desc": "OAuth authentication plugin for personal coding assistance with ChatGPT Plus/Pro subscriptions - uses OpenAI's official authentication method",
       "url": "https://github.com/numman-ali/opencode-openai-codex-auth",
       "install": "git clone https://github.com/numman-ali/opencode-openai-codex-auth.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "codex",
@@ -1142,12 +1142,33 @@
       "install": "npm i -g mcp_excalidraw",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
       ],
       "searchText": "mcp_excalidraw mcp server and claude code skill for excalidraw — programmatic canvas toolkit to create, edit, and export diagrams via ai agents with real-time canvas sync. yctimlin/mcp_excalidraw npm i -g mcp_excalidraw dev-tools claude"
+    },
+    {
+      "name": "skills-manager",
+      "source": "tools",
+      "sourceAgent": "multi",
+      "repo": "xingkongliang/skills-manager",
+      "stars": 2028,
+      "desc": "A lightweight desktop app to manage, sync, and organize AI agent skills across 15+ coding tools — Cursor, Claude Code, Codex, Copilot, and more.",
+      "url": "https://github.com/xingkongliang/skills-manager",
+      "install": "git clone https://github.com/xingkongliang/skills-manager.git",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "coding",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "copilot"
+      ],
+      "searchText": "skills-manager a lightweight desktop app to manage, sync, and organize ai agent skills across 15+ coding tools — cursor, claude code, codex, copilot, and more. xingkongliang/skills-manager git clone https://github.com/xingkongliang/skills-manager.git dev-tools claude codex cursor copilot"
     },
     {
       "name": "openclaw-studio",
@@ -1160,7 +1181,7 @@
       "install": "npm i -g openclaw-studio",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "agents",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "openclaw"
@@ -1168,38 +1189,17 @@
       "searchText": "openclaw-studio a clean web dashboard for openclaw. connect your gateway, manage agents, and ship faster. ⭐️ star if you like it! grp06/openclaw-studio npm i -g openclaw-studio dev-tools openclaw"
     },
     {
-      "name": "skills-manager",
-      "source": "tools",
-      "sourceAgent": "multi",
-      "repo": "xingkongliang/skills-manager",
-      "stars": 2023,
-      "desc": "A lightweight desktop app to manage, sync, and organize AI agent skills across 15+ coding tools — Cursor, Claude Code, Codex, Copilot, and more.",
-      "url": "https://github.com/xingkongliang/skills-manager",
-      "install": "git clone https://github.com/xingkongliang/skills-manager.git",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude",
-        "codex",
-        "cursor",
-        "copilot"
-      ],
-      "searchText": "skills-manager a lightweight desktop app to manage, sync, and organize ai agent skills across 15+ coding tools — cursor, claude code, codex, copilot, and more. xingkongliang/skills-manager git clone https://github.com/xingkongliang/skills-manager.git dev-tools claude codex cursor copilot"
-    },
-    {
       "name": "OpenClaw-bot-review",
       "source": "openclaw",
       "sourceAgent": "openclaw",
       "repo": "xmanrui/OpenClaw-bot-review",
-      "stars": 1967,
+      "stars": 1968,
       "desc": "A lightweight web dashboard for viewing all your OpenClaw Bots/Agents/Models/Sessions status at a glance.",
       "url": "https://github.com/xmanrui/OpenClaw-bot-review",
       "install": "npm i -g OpenClaw-bot-review",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "openclaw"
@@ -1211,13 +1211,13 @@
       "source": "general",
       "sourceAgent": "other",
       "repo": "didilili/ai-agents-from-zero",
-      "stars": 1795,
+      "stars": 1804,
       "desc": "🚀 2026 最系统的 AI Agent 速成指南｜智能体实战教程 · 完整学习路径  + 实战项目 + 面试题库 · 对标大模型应用开发工程师岗位 · 覆盖LangChain / LangGraph / Coze / Dify / MCP / skills / LLM / RAG / 提示词 · 企业级部署与微调 · 从0到企业级落地 + 从学习到上线项目 + 面试准备一体化",
       "url": "https://github.com/didilili/ai-agents-from-zero",
       "install": "git clone https://github.com/didilili/ai-agents-from-zero.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "other"
@@ -1229,13 +1229,13 @@
       "source": "openclaw",
       "sourceAgent": "openclaw",
       "repo": "openclaw/clawsweeper",
-      "stars": 1747,
+      "stars": 1790,
       "desc": "ClawSweeper scans all issues and PRs and suggest what we can close, and why. It runs every PR / Issue once a week.",
       "url": "https://github.com/openclaw/clawsweeper",
       "install": "npm i -g clawsweeper",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "openclaw"
@@ -1247,13 +1247,13 @@
       "source": "general",
       "sourceAgent": "opencode",
       "repo": "jenslys/opencode-gemini-auth",
-      "stars": 1656,
+      "stars": 1658,
       "desc": "Gemini auth plugin for opencode",
       "url": "https://github.com/jenslys/opencode-gemini-auth",
       "install": "git clone https://github.com/jenslys/opencode-gemini-auth.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode",
@@ -1266,13 +1266,13 @@
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "elementalsouls/Claude-OSINT",
-      "stars": 1637,
+      "stars": 1640,
       "desc": "Two paired Claude skills · 90+ recon modules · 48 secret-regex patterns · 80+ dorks · 9 read-only credential validators · 27 attack-path templates · 5,500+ lines of structured tradecraft. Drop-in SKILL.md files that turn Claude into a god-mode external recon operator for authorized red-team and bug-bounty engagements.",
       "url": "https://github.com/elementalsouls/Claude-OSINT",
       "install": "pip install Claude-OSINT",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "security",
+      "subCategoryId": "offensive",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -1284,13 +1284,13 @@
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "adamlyttleapps/claude-skill-aso-appstore-screenshots",
-      "stars": 1415,
+      "stars": 1416,
       "desc": "",
       "url": "https://github.com/adamlyttleapps/claude-skill-aso-appstore-screenshots",
       "install": "pip install claude-skill-aso-appstore-screenshots",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -1298,35 +1298,17 @@
       "searchText": "claude-skill-aso-appstore-screenshots adamlyttleapps/claude-skill-aso-appstore-screenshots pip install claude-skill-aso-appstore-screenshots dev-tools claude"
     },
     {
-      "name": "skill-prompt-generator",
-      "source": "general",
-      "sourceAgent": "multi",
-      "repo": "huangserva/skill-prompt-generator",
-      "stars": 1379,
-      "desc": "这是一个基于Claude Skill的**AI人像Prompt生成系统**，能够从特征库中智能组合生成高质量的人像描述Prompt，并具备自动学习和库扩展能力。 核心能力: Prompt生成、特征提取、自动学习、智能审核、版本控制",
-      "url": "https://github.com/huangserva/skill-prompt-generator",
-      "install": "pip install skill-prompt-generator",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "skill-prompt-generator 这是一个基于claude skill的**ai人像prompt生成系统**，能够从特征库中智能组合生成高质量的人像描述prompt，并具备自动学习和库扩展能力。 核心能力: prompt生成、特征提取、自动学习、智能审核、版本控制 huangserva/skill-prompt-generator pip install skill-prompt-generator dev-tools claude"
-    },
-    {
       "name": "agent-skill-creator",
       "source": "tools",
       "sourceAgent": "multi",
       "repo": "FrancyJGLisboa/agent-skill-creator",
-      "stars": 1376,
+      "stars": 1380,
       "desc": "Turn any workflow into reusable AI agent skills that install on 14+ tools — Claude Code, Copilot, Cursor, Windsurf, Codex, Gemini, Kiro, and more. One SKILL.md, every platform.",
       "url": "https://github.com/FrancyJGLisboa/agent-skill-creator",
       "install": "git clone https://github.com/FrancyJGLisboa/agent-skill-creator.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -1338,17 +1320,35 @@
       "searchText": "agent-skill-creator turn any workflow into reusable ai agent skills that install on 14+ tools — claude code, copilot, cursor, windsurf, codex, gemini, kiro, and more. one skill.md, every platform. francyjglisboa/agent-skill-creator git clone https://github.com/francyjglisboa/agent-skill-creator.git dev-tools claude codex cursor copilot gemini"
     },
     {
+      "name": "skill-prompt-generator",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "huangserva/skill-prompt-generator",
+      "stars": 1380,
+      "desc": "这是一个基于Claude Skill的**AI人像Prompt生成系统**，能够从特征库中智能组合生成高质量的人像描述Prompt，并具备自动学习和库扩展能力。 核心能力: Prompt生成、特征提取、自动学习、智能审核、版本控制",
+      "url": "https://github.com/huangserva/skill-prompt-generator",
+      "install": "pip install skill-prompt-generator",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "coding",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "skill-prompt-generator 这是一个基于claude skill的**ai人像prompt生成系统**，能够从特征库中智能组合生成高质量的人像描述prompt，并具备自动学习和库扩展能力。 核心能力: prompt生成、特征提取、自动学习、智能审核、版本控制 huangserva/skill-prompt-generator pip install skill-prompt-generator dev-tools claude"
+    },
+    {
       "name": "claude-workflow-v2",
       "source": "general",
       "sourceAgent": "claude",
       "repo": "CloudAI-X/claude-workflow-v2",
-      "stars": 1366,
+      "stars": 1365,
       "desc": "Universal Claude Code workflow plugin with agents, skills, hooks, and commands",
       "url": "https://github.com/CloudAI-X/claude-workflow-v2",
       "install": "git clone https://github.com/CloudAI-X/claude-workflow-v2.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -1360,13 +1360,13 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "Prat011/awesome-llm-skills",
-      "stars": 1303,
+      "stars": 1305,
       "desc": "A curated list of awesome LLM and AI Agent Skills, resources and tools for customising AI Agent workflows - that works with Claude Code, Codex, Gemini CLI and your custom AI Agents",
       "url": "https://github.com/Prat011/awesome-llm-skills",
       "install": "git clone https://github.com/Prat011/awesome-llm-skills.git",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -1386,7 +1386,7 @@
       "install": "git clone https://github.com/skills-directory/skill-codex.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -1399,13 +1399,13 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "TanStack/cli",
-      "stars": 1264,
+      "stars": 1265,
       "desc": "The official TanStack CLI - Project Scaffolding, MCP Server, Agent Skills Installation, etc",
       "url": "https://github.com/TanStack/cli",
       "install": "npm i -g @tanstack/cli",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -1423,13 +1423,13 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "P4nda0s/reverse-skills",
-      "stars": 1252,
+      "stars": 1254,
       "desc": "Reverse engineering skills for Claude Code | 逆向工程 Claude Code Skills 插件",
       "url": "https://github.com/P4nda0s/reverse-skills",
       "install": "git clone https://github.com/P4nda0s/reverse-skills.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -1447,7 +1447,7 @@
       "install": "git clone https://github.com/higress-group/himarket.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -1465,13 +1465,13 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "yzfly/douyin-mcp-server",
-      "stars": 1086,
+      "stars": 1089,
       "desc": "提取抖音无水印视频链接，视频文案，douyin-mcp-server，mcp，claude skill，支持龙虾",
       "url": "https://github.com/yzfly/douyin-mcp-server",
       "install": "git clone https://github.com/yzfly/douyin-mcp-server.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -1483,13 +1483,13 @@
       "source": "tools",
       "sourceAgent": "multi",
       "repo": "NeoLabHQ/context-engineering-kit",
-      "stars": 1082,
+      "stars": 1083,
       "desc": "Hand-crafted Claude Code Skills focused on improving agent results quality. Compatible with OpenCode, Cursor, Antigravity, Gemini CLI, and others.",
       "url": "https://github.com/NeoLabHQ/context-engineering-kit",
       "install": "npm i -g context-engineering-kit",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -1510,7 +1510,7 @@
       "install": "npm i -g opencode-claude-auth",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -1529,7 +1529,7 @@
       "install": "git clone https://github.com/obra/superpowers-marketplace.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -1547,7 +1547,7 @@
       "install": "git clone https://github.com/JuliusBrussee/cavekit.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -1559,13 +1559,13 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "numman-ali/n-skills",
-      "stars": 994,
+      "stars": 993,
       "desc": "Curated plugin marketplace for AI agents - works with Claude Code, Codex, and openskills",
       "url": "https://github.com/numman-ali/n-skills",
       "install": "git clone https://github.com/numman-ali/n-skills.git  # browse the awesome list",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -1584,7 +1584,7 @@
       "install": "git clone https://github.com/Aaronontheweb/dotnet-skills.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -1602,7 +1602,7 @@
       "install": "npm i -g webgpu-claude-skill",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -1614,13 +1614,13 @@
       "source": "opencode",
       "sourceAgent": "opencode",
       "repo": "mtymek/opencode-obsidian",
-      "stars": 973,
+      "stars": 974,
       "desc": "Embed OpenCode AI assistant directly in Obsidian's sidebar.",
       "url": "https://github.com/mtymek/opencode-obsidian",
       "install": "npm i -g opencode-obsidian",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -1632,13 +1632,13 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "CharlesWiltgen/Axiom",
-      "stars": 956,
+      "stars": 957,
       "desc": "Battle-tested Claude Code skills for modern xOS (iOS, iPadOS, watchOS, tvOS) development",
       "url": "https://github.com/CharlesWiltgen/Axiom",
       "install": "go install github.com/CharlesWiltgen/Axiom@latest",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -1655,8 +1655,8 @@
       "url": "https://github.com/SamurAIGPT/awesome-openclaw",
       "install": "git clone https://github.com/SamurAIGPT/awesome-openclaw.git  # browse the awesome list",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "openclaw"
@@ -1674,7 +1674,7 @@
       "install": "git clone https://github.com/am-will/codex-skills.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "codex"
@@ -1692,7 +1692,7 @@
       "install": "pip install synalinks-skills",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -1710,12 +1710,30 @@
       "install": "git clone https://github.com/sudo-tee/opencode.nvim.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
       ],
       "searchText": "opencode.nvim neovim frontend for opencode - a terminal-based ai coding agent sudo-tee/opencode.nvim git clone https://github.com/sudo-tee/opencode.nvim.git dev-tools opencode"
+    },
+    {
+      "name": "claude-skills",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "jezweb/claude-skills",
+      "stars": 842,
+      "desc": "Skills for Claude Code CLI such as full stack dev Cloudflare, React, Tailwind v4, and AI integrations.",
+      "url": "https://github.com/jezweb/claude-skills",
+      "install": "pip install claude-skills",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "coding",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "claude-skills skills for claude code cli such as full stack dev cloudflare, react, tailwind v4, and ai integrations. jezweb/claude-skills pip install claude-skills dev-tools claude"
     },
     {
       "name": "dedao-dl",
@@ -1728,30 +1746,12 @@
       "install": "go install github.com/yann0917/dedao-dl@latest",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "openclaw"
       ],
       "searchText": "dedao-dl 得到 app 课程下载工具，可在终端查看文章内容，可生成 pdf，音频文件，markdown 文稿，可下载电子书。可结合 openclaw +skill 等使用 yann0917/dedao-dl go install github.com/yann0917/dedao-dl@latest dev-tools openclaw"
-    },
-    {
-      "name": "claude-skills",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "jezweb/claude-skills",
-      "stars": 841,
-      "desc": "Skills for Claude Code CLI such as full stack dev Cloudflare, React, Tailwind v4, and AI integrations.",
-      "url": "https://github.com/jezweb/claude-skills",
-      "install": "pip install claude-skills",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "claude-skills skills for claude code cli such as full stack dev cloudflare, react, tailwind v4, and ai integrations. jezweb/claude-skills pip install claude-skills dev-tools claude"
     },
     {
       "name": "hermes-agent-control-room",
@@ -1764,7 +1764,7 @@
       "install": "git clone https://github.com/CryptoDmitry/hermes-agent-control-room.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "agents",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "hermes"
@@ -1782,7 +1782,7 @@
       "install": "pip install plugins-for-claude-natives",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -1794,13 +1794,13 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "alirezarezvani/claude-code-skill-factory",
-      "stars": 796,
+      "stars": 795,
       "desc": "Claude Code Skill Factory — A powerful open-source toolkit for building and deploying production-ready Claude Skills, Code Agents, custom Slash Commands, and LLM Prompts at scale. Easily generate structured skill templates, automate workflow integration, and accelerate AI agent development with a clean, developer-friendly setup.",
       "url": "https://github.com/alirezarezvani/claude-code-skill-factory",
       "install": "pip install claude-code-skill-factory",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -1817,8 +1817,8 @@
       "url": "https://github.com/BrownFineSecurity/iothackbot",
       "install": "pip install iothackbot",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "security",
+      "subCategoryId": "offensive",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -1830,13 +1830,13 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "jordanrendric/claude-video-vision",
-      "stars": 762,
+      "stars": 764,
       "desc": "Give Claude the ability to watch and understand videos — Claude Code plugin with frame extraction and multimodal audio analysis",
       "url": "https://github.com/jordanrendric/claude-video-vision",
       "install": "npm i -g claude-video-vision",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -1848,13 +1848,13 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "coleam00/second-brain-skills",
-      "stars": 761,
+      "stars": 763,
       "desc": "A collection of Claude Skills to turn Claude Code into a Second Brain",
       "url": "https://github.com/coleam00/second-brain-skills",
       "install": "pip install second-brain-skills",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -1872,7 +1872,7 @@
       "install": "git clone https://github.com/sangrokjung/claude-forge.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -1890,7 +1890,7 @@
       "install": "npm i -g codexia",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -1909,7 +1909,7 @@
       "install": "npm i -g hello2cc",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -1927,12 +1927,30 @@
       "install": "pip install cc-marketplace",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
       ],
       "searchText": "cc-marketplace marketplace repo for claude code plugins ananddtyagi/cc-marketplace pip install cc-marketplace dev-tools claude"
+    },
+    {
+      "name": "agent-skills",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "hashicorp/agent-skills",
+      "stars": 655,
+      "desc": "A collection of Agent skills and Claude Code plugins for HashiCorp products.",
+      "url": "https://github.com/hashicorp/agent-skills",
+      "install": "git clone https://github.com/hashicorp/agent-skills.git",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "plugins",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "agent-skills a collection of agent skills and claude code plugins for hashicorp products. hashicorp/agent-skills git clone https://github.com/hashicorp/agent-skills.git dev-tools claude"
     },
     {
       "name": "opencode-studio",
@@ -1945,7 +1963,7 @@
       "install": "npm i -g opencode-studio",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "agents",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -1953,35 +1971,17 @@
       "searchText": "opencode-studio web gui for securely managing local opencode configuration microck/opencode-studio npm i -g opencode-studio dev-tools opencode"
     },
     {
-      "name": "agent-skills",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "hashicorp/agent-skills",
-      "stars": 654,
-      "desc": "A collection of Agent skills and Claude Code plugins for HashiCorp products.",
-      "url": "https://github.com/hashicorp/agent-skills",
-      "install": "git clone https://github.com/hashicorp/agent-skills.git",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "agent-skills a collection of agent skills and claude code plugins for hashicorp products. hashicorp/agent-skills git clone https://github.com/hashicorp/agent-skills.git dev-tools claude"
-    },
-    {
       "name": "opencode-notifier",
       "source": "opencode",
       "sourceAgent": "opencode",
       "repo": "mohak34/opencode-notifier",
-      "stars": 636,
+      "stars": 637,
       "desc": "OpenCode plugin for desktop notifications and sounds on permission, completion, and error events.",
       "url": "https://github.com/mohak34/opencode-notifier",
       "install": "npm i -g opencode-notifier",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -1999,7 +1999,7 @@
       "install": "npm i -g skills",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2011,13 +2011,13 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "ReflexioAI/claude-smart",
-      "stars": 601,
+      "stars": 602,
       "desc": "A Claude Code plugin that makes Claude Code self-improve — learning from your corrections, not just remembering them (also support codex now)",
       "url": "https://github.com/ReflexioAI/claude-smart",
       "install": "pip install claude-smart",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -2036,7 +2036,7 @@
       "install": "git clone https://github.com/mhattingpete/claude-skills-marketplace.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2054,7 +2054,7 @@
       "install": "npm i -g cartographer",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2072,7 +2072,7 @@
       "install": "npm i -g opencode-worktree",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -2084,13 +2084,13 @@
       "source": "opencode",
       "sourceAgent": "opencode",
       "repo": "chriswritescode-dev/opencode-manager",
-      "stars": 572,
+      "stars": 573,
       "desc": "Mobile-first web interface for OpenCode AI agents. Manage, control, and code with multiple OpenCode agents from any device - your phone, tablet, or desktop. Features Git integration, file management, and real-time chat in a responsive PWA. Deploy with Docker for instant setup.",
       "url": "https://github.com/chriswritescode-dev/opencode-manager",
       "install": "npm i -g opencode-manager",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -2108,7 +2108,7 @@
       "install": "git clone https://github.com/rokpiy/auto-commenter.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2120,13 +2120,13 @@
       "source": "opencode",
       "sourceAgent": "opencode",
       "repo": "slkiser/opencode-quota",
-      "stars": 552,
+      "stars": 553,
       "desc": "OpenCode quota & tokens usage with zero context window pollution. Supports OpenCode Go, Cursor, GitHub Copilot, OpenAl (Plus/Pro), Kimi Code, Alibaba Coding Plan, Chutes Al, Google Antigravity, Z.ai Coding Plan and more.",
       "url": "https://github.com/slkiser/opencode-quota",
       "install": "npm i -g opencode-quota",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "cursor",
@@ -2140,13 +2140,13 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "zscole/adversarial-spec",
-      "stars": 550,
+      "stars": 549,
       "desc": "A Claude Code plugin that iteratively refines product specifications by debating between multiple LLMs until all models reach consensus.",
       "url": "https://github.com/zscole/adversarial-spec",
       "install": "pip install adversarial-spec",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2163,8 +2163,8 @@
       "url": "https://github.com/Code-and-Sorts/awesome-copilot-agents",
       "install": "git clone https://github.com/Code-and-Sorts/awesome-copilot-agents.git  # browse the awesome list",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "copilot"
@@ -2176,13 +2176,13 @@
       "source": "hermes",
       "sourceAgent": "hermes",
       "repo": "shannhk/hermes-agent-control-room",
-      "stars": 527,
+      "stars": 528,
       "desc": "Control Room-first template for managing Hermes agents from one VPS agent to specialist teams and orchestrated workflows",
       "url": "https://github.com/shannhk/hermes-agent-control-room",
       "install": "git clone https://github.com/shannhk/hermes-agent-control-room.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "agents",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "hermes"
@@ -2200,7 +2200,7 @@
       "install": "git clone https://github.com/huytieu/COG-second-brain.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -2221,7 +2221,7 @@
       "install": "npm i -g claude-plugins",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2239,7 +2239,7 @@
       "install": "npm i -g copilot-mcp",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -2253,13 +2253,13 @@
       "source": "general",
       "sourceAgent": "opencode",
       "repo": "Nomadcxx/opencode-cursor",
-      "stars": 493,
+      "stars": 494,
       "desc": "Use Cursor Pro models in OpenCode via HTTP proxy with OAuth",
       "url": "https://github.com/Nomadcxx/opencode-cursor",
       "install": "git clone https://github.com/Nomadcxx/opencode-cursor.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "cursor",
@@ -2272,13 +2272,13 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "levnikolaevich/claude-code-skills",
-      "stars": 486,
+      "stars": 487,
       "desc": "Plugin suite + bundled MCP servers for Claude Code. Full delivery lifecycle: Agile pipeline with multi-model AI review, project bootstrap, documentation generation, codebase audits, performance optimization, community workflows. Includes hex-line (hash-verified editing), hex-graph (code knowledge graph), and hex-ssh (remote SSH) MCP servers.",
       "url": "https://github.com/levnikolaevich/claude-code-skills",
       "install": "npm i -g claude-code-skills",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2290,13 +2290,13 @@
       "source": "opencode",
       "sourceAgent": "opencode",
       "repo": "kdcokenny/opencode-workspace",
-      "stars": 481,
+      "stars": 483,
       "desc": "Bundled multi-agent orchestration harness for OpenCode. One install, complete control.",
       "url": "https://github.com/kdcokenny/opencode-workspace",
       "install": "npm i -g opencode-workspace",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "agents",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -2314,7 +2314,7 @@
       "install": "npm i -g claude-code-lsps",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2332,7 +2332,7 @@
       "install": "go install github.com/eat-pray-ai/yutu@latest",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "other"
@@ -2350,7 +2350,7 @@
       "install": "npm i -g opencode-pty",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -2362,13 +2362,13 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "zarazhangrui/youtube-to-ebook",
-      "stars": 463,
+      "stars": 462,
       "desc": "Claude skill for turning YouTube transcripts from your favorite channels into EPUB ebooks, delivered to your email inbox regularly",
       "url": "https://github.com/zarazhangrui/youtube-to-ebook",
       "install": "pip install youtube-to-ebook",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2386,7 +2386,7 @@
       "install": "npm i -g opencode-browser",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -2405,7 +2405,7 @@
       "install": "git clone https://github.com/vladikk/modularity.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2423,7 +2423,7 @@
       "install": "git clone https://github.com/aj-geddes/claude-code-bmad-skills.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2441,7 +2441,7 @@
       "install": "git clone https://github.com/managedcode/dotnet-skills.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -2456,13 +2456,13 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "oliver-kriska/claude-elixir-phoenix",
-      "stars": 422,
+      "stars": 423,
       "desc": "Claude Code plugin for Elixir/Phoenix/LiveView — 20 specialist agents, Iron Laws enforcement, and Tidewave MCP integration. Plan features with parallel research agents, execute with automatic verification, review with 4-agent parallel audits, and capture learnings as reusable knowledge.",
       "url": "https://github.com/oliver-kriska/claude-elixir-phoenix",
       "install": "pip install claude-elixir-phoenix",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2474,13 +2474,13 @@
       "source": "opencode",
       "sourceAgent": "opencode",
       "repo": "vtemian/micode",
-      "stars": 413,
+      "stars": 414,
       "desc": "RPI OpenCode Plugin",
       "url": "https://github.com/vtemian/micode",
       "install": "npm i -g micode",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -2498,7 +2498,7 @@
       "install": "pip install open-skills",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2516,7 +2516,7 @@
       "install": "git clone https://github.com/mxyhi/ok-skills.git  # browse the awesome list",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -2531,13 +2531,13 @@
       "source": "tools",
       "sourceAgent": "multi",
       "repo": "codexstar69/bug-hunter",
-      "stars": 407,
+      "stars": 408,
       "desc": "Adversarial AI bug hunter with auto-fix skill for Claude Code, Cursor, Codex CLI, GitHub Copilot CLI, Kiro CLI, Opencode, Pi Coding Agent, and more. Multi-agent pipeline finds security vulnerabilities, logic errors, and runtime bugs — then",
       "url": "https://github.com/codexstar69/bug-hunter",
       "install": "npm i -g bug-hunter",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "security",
+      "subCategoryId": "defensive",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -2559,7 +2559,7 @@
       "install": "pip install web-asset-generator",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "agents",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2571,13 +2571,13 @@
       "source": "community",
       "sourceAgent": "codex",
       "repo": "hashgraph-online/awesome-codex-plugins",
-      "stars": 404,
+      "stars": 405,
       "desc": "A curated list of awesome OpenAI Codex plugins, skills, and resources. The #1 Codex Marketplace.  See live plugins at: https://hol.org/registry/plugins",
       "url": "https://github.com/hashgraph-online/awesome-codex-plugins",
       "install": "git clone https://github.com/hashgraph-online/awesome-codex-plugins.git  # browse the awesome list",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "codex"
@@ -2589,13 +2589,13 @@
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "coffeefuelbump/csv-data-summarizer-claude-skill",
-      "stars": 399,
+      "stars": 400,
       "desc": "A Claude Skill that automatically analyzes uploaded CSV files — generating summary statistics, detecting missing data, and creating quick visualizations using Python and pandas.",
       "url": "https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill",
       "install": "pip install csv-data-summarizer-claude-skill",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2613,12 +2613,30 @@
       "install": "git clone https://github.com/rshankras/claude-code-apple-skills.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
       ],
       "searchText": "claude-code-apple-skills claude code skills for apple platform development (ios, macos, ipados) — product validation, code generation, app store optimization, and more rshankras/claude-code-apple-skills git clone https://github.com/rshankras/claude-code-apple-skills.git dev-tools claude"
+    },
+    {
+      "name": "opencode-scheduler",
+      "source": "opencode",
+      "sourceAgent": "opencode",
+      "repo": "different-ai/opencode-scheduler",
+      "stars": 392,
+      "desc": "OpenCode plugin for scheduling recurring jobs using launchd (Mac) or systemd (Linux)",
+      "url": "https://github.com/different-ai/opencode-scheduler",
+      "install": "npm i -g opencode-scheduler",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "plugins",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "opencode"
+      ],
+      "searchText": "opencode-scheduler opencode plugin for scheduling recurring jobs using launchd (mac) or systemd (linux) different-ai/opencode-scheduler npm i -g opencode-scheduler dev-tools opencode"
     },
     {
       "name": "claude-skills-mcp",
@@ -2631,7 +2649,7 @@
       "install": "pip install claude-skills-mcp",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2639,35 +2657,17 @@
       "searchText": "claude-skills-mcp mcp server for searching and retrieving claude agent skills using vector search k-dense-ai/claude-skills-mcp pip install claude-skills-mcp dev-tools claude"
     },
     {
-      "name": "opencode-scheduler",
-      "source": "opencode",
-      "sourceAgent": "opencode",
-      "repo": "different-ai/opencode-scheduler",
-      "stars": 391,
-      "desc": "OpenCode plugin for scheduling recurring jobs using launchd (Mac) or systemd (Linux)",
-      "url": "https://github.com/different-ai/opencode-scheduler",
-      "install": "npm i -g opencode-scheduler",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "opencode"
-      ],
-      "searchText": "opencode-scheduler opencode plugin for scheduling recurring jobs using launchd (mac) or systemd (linux) different-ai/opencode-scheduler npm i -g opencode-scheduler dev-tools opencode"
-    },
-    {
       "name": "skills",
       "source": "general",
       "sourceAgent": "multi",
       "repo": "posit-dev/skills",
-      "stars": 386,
+      "stars": 388,
       "desc": "A collection of Claude Skills from Posit",
       "url": "https://github.com/posit-dev/skills",
       "install": "git clone https://github.com/posit-dev/skills.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2684,8 +2684,8 @@
       "url": "https://github.com/majiayu000/claude-skill-registry",
       "install": "git clone https://github.com/majiayu000/claude-skill-registry.git",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2703,7 +2703,7 @@
       "install": "pip install skills",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2721,7 +2721,7 @@
       "install": "git clone https://github.com/Romanescu11/hermes-skill-factory.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "hermes"
@@ -2733,13 +2733,13 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "ItsssssJack/power-design",
-      "stars": 358,
+      "stars": 357,
       "desc": "A Claude skill for slides that don't look like AI made them. Brand DNA × 20 codified design principles.",
       "url": "https://github.com/ItsssssJack/power-design",
       "install": "git clone https://github.com/ItsssssJack/power-design.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2751,13 +2751,13 @@
       "source": "tools",
       "sourceAgent": "other",
       "repo": "recomby-ai/recomby-geo",
-      "stars": 355,
+      "stars": 357,
       "desc": "GEO 领域 AI 员工开源方案 · Open-source GEO AI-employee solution (MIT). GEO Skills package + curated lists of agents and office CLIs that make up the AI-employee stack.",
       "url": "https://github.com/recomby-ai/recomby-geo",
       "install": "git clone https://github.com/recomby-ai/recomby-geo.git  # browse the awesome list",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "other"
@@ -2775,7 +2775,7 @@
       "install": "git clone https://github.com/hashgraph-online/hol-guard.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -2797,7 +2797,7 @@
       "install": "git clone https://github.com/jherrodthomas/robotics-skills-suite.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2815,7 +2815,7 @@
       "install": "go install github.com/mlhher/late-cli@latest",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "other"
@@ -2833,7 +2833,7 @@
       "install": "pip install model-hierarchy-skill",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "openclaw"
@@ -2851,7 +2851,7 @@
       "install": "go install github.com/zippoxer/subtask@latest",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2869,7 +2869,7 @@
       "install": "pip install claude-skills",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -2887,7 +2887,7 @@
       "install": "git clone https://github.com/plmbr/notebook-intelligence.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -2906,7 +2906,7 @@
       "install": "git clone https://github.com/dsifry/metaswarm.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "agents",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -2926,7 +2926,7 @@
       "install": "npx opencode-skillful",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -2944,7 +2944,7 @@
       "install": "npm i -g opencode-with-claude",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -2957,13 +2957,13 @@
       "source": "hermes",
       "sourceAgent": "hermes",
       "repo": "Eynzof/hermes-agent-cn-desktop",
-      "stars": 288,
+      "stars": 292,
       "desc": "Hermes Agent CN desktop app, Windows-First, built with Tauri, Typescript and Rust. Isolated Hermes Agent core insides.",
       "url": "https://github.com/Eynzof/hermes-agent-cn-desktop",
       "install": "npm i -g hermes-agent-cn-desktop",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "hermes"
@@ -2981,7 +2981,7 @@
       "install": "git clone https://github.com/keli-wen/agentic-harness-patterns-skill.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "agents",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -3001,7 +3001,7 @@
       "install": "npm i -g agent-skills",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -3022,7 +3022,7 @@
       "install": "git clone https://github.com/astral-sh/claude-code-plugins.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -3034,13 +3034,13 @@
       "source": "community",
       "sourceAgent": "codex",
       "repo": "RoggeOhta/awesome-codex-cli",
-      "stars": 264,
+      "stars": 265,
       "desc": "Curated list of 150+ tools, skills, subagents & plugins for OpenAI Codex CLI",
       "url": "https://github.com/RoggeOhta/awesome-codex-cli",
       "install": "git clone https://github.com/RoggeOhta/awesome-codex-cli.git  # browse the awesome list",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "codex"
@@ -3058,7 +3058,7 @@
       "install": "pip install hermes-kanban",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "hermes"
@@ -3076,7 +3076,7 @@
       "install": "npm i -g opencode-beads",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -3094,7 +3094,7 @@
       "install": "npm i -g opencode-agent-skills",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -3112,7 +3112,7 @@
       "install": "git clone https://github.com/Cranot/super-hermes.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "hermes"
@@ -3130,7 +3130,7 @@
       "install": "git clone https://github.com/zrt-ai-lab/opencode-skills.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -3149,7 +3149,7 @@
       "install": "npm i -g opencode-websearch-cited",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -3167,7 +3167,7 @@
       "install": "git clone https://github.com/praveen-ks-2001/hermes-agent-template.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "hermes"
@@ -3185,7 +3185,7 @@
       "install": "git clone https://github.com/thomast1906/github-copilot-agent-skills.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "copilot"
@@ -3203,12 +3203,30 @@
       "install": "npm i -g opencode-orchestrator",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
       ],
       "searchText": "opencode-orchestrator opencode plugin for ai-agent orchestration agnusdei1207/opencode-orchestrator npm i -g opencode-orchestrator dev-tools opencode"
+    },
+    {
+      "name": "portable-hermes-agent",
+      "source": "hermes",
+      "sourceAgent": "hermes",
+      "repo": "aivrar/portable-hermes-agent",
+      "stars": 161,
+      "desc": "Hermes Agent made portable desktop for Windows — 100 tools, GUI, local models via LM Studio, TTS, Music, ComfyUI, workflows, tool maker. No install. No Docker. No admin rights.",
+      "url": "https://github.com/aivrar/portable-hermes-agent",
+      "install": "pip install portable-hermes-agent",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "agents",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "portable-hermes-agent hermes agent made portable desktop for windows — 100 tools, gui, local models via lm studio, tts, music, comfyui, workflows, tool maker. no install. no docker. no admin rights. aivrar/portable-hermes-agent pip install portable-hermes-agent dev-tools hermes"
     },
     {
       "name": "learn-skills.dev",
@@ -3220,8 +3238,8 @@
       "url": "https://github.com/NeverSight/learn-skills.dev",
       "install": "git clone https://github.com/NeverSight/learn-skills.dev.git  # browse the awesome list",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -3231,35 +3249,17 @@
       "searchText": "learn-skills.dev curated high-quality ai agent skills. search, install, copy and share. works with claude code, cursor, openclaw, and other ai coding tools. neversight/learn-skills.dev git clone https://github.com/neversight/learn-skills.dev.git  # browse the awesome list dev-tools claude cursor openclaw"
     },
     {
-      "name": "portable-hermes-agent",
-      "source": "hermes",
-      "sourceAgent": "hermes",
-      "repo": "aivrar/portable-hermes-agent",
-      "stars": 159,
-      "desc": "Hermes Agent made portable desktop for Windows — 100 tools, GUI, local models via LM Studio, TTS, Music, ComfyUI, workflows, tool maker. No install. No Docker. No admin rights.",
-      "url": "https://github.com/aivrar/portable-hermes-agent",
-      "install": "pip install portable-hermes-agent",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "hermes"
-      ],
-      "searchText": "portable-hermes-agent hermes agent made portable desktop for windows — 100 tools, gui, local models via lm studio, tts, music, comfyui, workflows, tool maker. no install. no docker. no admin rights. aivrar/portable-hermes-agent pip install portable-hermes-agent dev-tools hermes"
-    },
-    {
       "name": "spotme",
       "source": "opencode",
       "sourceAgent": "opencode",
       "repo": "wtfzambo/spotme",
-      "stars": 154,
+      "stars": 155,
       "desc": "Gym mode for agentic coding. OpenCode plugin that scaffolds exercises and reviews your work. Keep your edge.",
       "url": "https://github.com/wtfzambo/spotme",
       "install": "npm i -g spotme",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -3277,7 +3277,7 @@
       "install": "git clone https://github.com/JoasASantos/ClaudeAdvancedPlugins.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -3295,7 +3295,7 @@
       "install": "npm i -g openrtk",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -3313,7 +3313,7 @@
       "install": "pip install decodo-openclaw-skill",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "openclaw"
@@ -3331,7 +3331,7 @@
       "install": "git clone https://github.com/nagisanzenin/claude-code-production-grade-plugin.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -3349,7 +3349,7 @@
       "install": "npm i -g message-bridge-opencode-plugin",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -3361,13 +3361,13 @@
       "source": "opencode",
       "sourceAgent": "opencode",
       "repo": "JRedeker/opencode-morph-fast-apply",
-      "stars": 146,
+      "stars": 147,
       "desc": "OpenCode plugin for Morph Fast Apply - 10x faster code editing with lazy edit markers. No MCP server needed.",
       "url": "https://github.com/JRedeker/opencode-morph-fast-apply",
       "install": "npm i -g opencode-morph-fast-apply",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -3385,7 +3385,7 @@
       "install": "git clone https://github.com/CodeGuide-dev/codeguide-starter-fullstack.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -3409,7 +3409,7 @@
       "install": "pip install hermes-agent-team",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "hermes"
@@ -3421,13 +3421,13 @@
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "WorldFlowAI/everything-claude-code",
-      "stars": 140,
+      "stars": 142,
       "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
       "url": "https://github.com/WorldFlowAI/everything-claude-code",
       "install": "npm i -g everything-claude-code",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -3445,7 +3445,7 @@
       "install": "npm i -g skillx",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -3469,7 +3469,7 @@
       "install": "git clone https://github.com/Kilo-Org/kilo-marketplace.git  # browse the awesome list",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "other"
@@ -3487,7 +3487,7 @@
       "install": "git clone https://github.com/xixu-me/claude-code-toolkit.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -3505,7 +3505,7 @@
       "install": "git clone https://github.com/Mindrally/skills.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "agents",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -3524,13 +3524,31 @@
       "install": "npm i -g opencode-antigravity-quota",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode",
         "gemini"
       ],
       "searchText": "opencode-antigravity-quota opencode plugin to monitor antigravity api/gemini cli quotas across multiple accounts. frieser/opencode-antigravity-quota npm i -g opencode-antigravity-quota dev-tools opencode gemini"
+    },
+    {
+      "name": "Opencode-Context-Analysis-Plugin",
+      "source": "opencode",
+      "sourceAgent": "opencode",
+      "repo": "IgorWarzocha/Opencode-Context-Analysis-Plugin",
+      "stars": 132,
+      "desc": "A powerful OpenCode plugin that provides detailed token usage analysis for your AI sessions. Track and understand how tokens are distributed across system prompts, user messages, assistant responses, tool outputs, and reasoning traces.",
+      "url": "https://github.com/IgorWarzocha/Opencode-Context-Analysis-Plugin",
+      "install": "npm i -g Opencode-Context-Analysis-Plugin",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "plugins",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "opencode"
+      ],
+      "searchText": "opencode-context-analysis-plugin a powerful opencode plugin that provides detailed token usage analysis for your ai sessions. track and understand how tokens are distributed across system prompts, user messages, assistant responses, tool outputs, and reasoning traces. igorwarzocha/opencode-context-analysis-plugin npm i -g opencode-context-analysis-plugin dev-tools opencode"
     },
     {
       "name": "openclaw-claude-code-plugin",
@@ -3543,31 +3561,13 @@
       "install": "git clone https://github.com/alizarion/openclaw-claude-code-plugin.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
         "openclaw"
       ],
       "searchText": "openclaw-claude-code-plugin openclaw claude code plugin alizarion/openclaw-claude-code-plugin git clone https://github.com/alizarion/openclaw-claude-code-plugin.git dev-tools claude openclaw"
-    },
-    {
-      "name": "Opencode-Context-Analysis-Plugin",
-      "source": "opencode",
-      "sourceAgent": "opencode",
-      "repo": "IgorWarzocha/Opencode-Context-Analysis-Plugin",
-      "stars": 131,
-      "desc": "A powerful OpenCode plugin that provides detailed token usage analysis for your AI sessions. Track and understand how tokens are distributed across system prompts, user messages, assistant responses, tool outputs, and reasoning traces.",
-      "url": "https://github.com/IgorWarzocha/Opencode-Context-Analysis-Plugin",
-      "install": "npm i -g Opencode-Context-Analysis-Plugin",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "opencode"
-      ],
-      "searchText": "opencode-context-analysis-plugin a powerful opencode plugin that provides detailed token usage analysis for your ai sessions. track and understand how tokens are distributed across system prompts, user messages, assistant responses, tool outputs, and reasoning traces. igorwarzocha/opencode-context-analysis-plugin npm i -g opencode-context-analysis-plugin dev-tools opencode"
     },
     {
       "name": "fish-claude",
@@ -3580,7 +3580,7 @@
       "install": "git clone https://github.com/makoMakoGo/fish-claude.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -3599,7 +3599,7 @@
       "install": "pip install codex-skills",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "codex"
@@ -3617,7 +3617,7 @@
       "install": "npm i -g oc-codex-multi-auth",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "codex",
@@ -3636,7 +3636,7 @@
       "install": "npm i -g opencode-plugin-simple-memory",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -3654,7 +3654,7 @@
       "install": "git clone https://github.com/firecrawl/firecrawl-claude-plugin.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -3672,7 +3672,7 @@
       "install": "npm i -g opencode-lmstudio",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -3690,7 +3690,7 @@
       "install": "npm i -g advance-minimax-m3-cursor-rules",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "agents",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "cursor"
@@ -3708,7 +3708,7 @@
       "install": "npm i -g opencode-anthropic-login-via-cli",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -3721,13 +3721,13 @@
       "source": "opencode",
       "sourceAgent": "opencode",
       "repo": "Octane0411/opencode-plugin-openspec",
-      "stars": 115,
+      "stars": 116,
       "desc": "An OpenCode plugin that integrates OpenSpec, adding a dedicated 'openspec-plan' mode for creating and editing spec files.",
       "url": "https://github.com/Octane0411/opencode-plugin-openspec",
       "install": "npm i -g opencode-plugin-openspec",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -3745,7 +3745,7 @@
       "install": "npm i -g opencode-snip",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -3763,7 +3763,7 @@
       "install": "npm i -g ask-user-questions-mcp",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -3781,13 +3781,32 @@
       "install": "npm i -g opencode-anthropic-oauth",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
         "opencode"
       ],
       "searchText": "opencode-anthropic-oauth opencode plugin for anthropic claude pro/max oauth login — no claude code needed. shahidshabbir-se/opencode-anthropic-oauth npm i -g opencode-anthropic-oauth dev-tools claude opencode"
+    },
+    {
+      "name": "codex-imagen",
+      "source": "openclaw",
+      "sourceAgent": "openclaw",
+      "repo": "darkamenosa/codex-imagen",
+      "stars": 110,
+      "desc": "Codex/OpenClaw skill for generating images with ChatGPT/Codex OAuth",
+      "url": "https://github.com/darkamenosa/codex-imagen",
+      "install": "npm i -g codex-imagen",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "coding",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "codex",
+        "openclaw"
+      ],
+      "searchText": "codex-imagen codex/openclaw skill for generating images with chatgpt/codex oauth darkamenosa/codex-imagen npm i -g codex-imagen dev-tools codex openclaw"
     },
     {
       "name": "opencode-skill-creator",
@@ -3800,32 +3819,13 @@
       "install": "npx opencode-skill-creator",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
         "opencode"
       ],
       "searchText": "opencode-skill-creator opencode skill for creating, testing, and optimizing other opencode skills. adapted from anthropic's skill-creator for claude code. antongulin/opencode-skill-creator npx opencode-skill-creator dev-tools claude opencode"
-    },
-    {
-      "name": "codex-imagen",
-      "source": "openclaw",
-      "sourceAgent": "openclaw",
-      "repo": "darkamenosa/codex-imagen",
-      "stars": 107,
-      "desc": "Codex/OpenClaw skill for generating images with ChatGPT/Codex OAuth",
-      "url": "https://github.com/darkamenosa/codex-imagen",
-      "install": "npm i -g codex-imagen",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "codex",
-        "openclaw"
-      ],
-      "searchText": "codex-imagen codex/openclaw skill for generating images with chatgpt/codex oauth darkamenosa/codex-imagen npm i -g codex-imagen dev-tools codex openclaw"
     },
     {
       "name": "gaster-code-releases",
@@ -3838,7 +3838,7 @@
       "install": "npm i -g gaster-code-releases",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -3862,7 +3862,7 @@
       "install": "git clone https://github.com/AbuZar-Ansarii/Hermes-Agent-On-Android.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "hermes"
@@ -3880,7 +3880,7 @@
       "install": "npm i -g wemp-operator",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "openclaw"
@@ -3898,7 +3898,7 @@
       "install": "git clone https://github.com/robertguss/claude-code-toolkit.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -3916,7 +3916,7 @@
       "install": "pip install claude-plugins",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -3934,7 +3934,7 @@
       "install": "npm i -g claude-code-toolkit",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -3952,7 +3952,7 @@
       "install": "pip install Wizards-of-the-Ghosts",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "hermes"
@@ -3964,13 +3964,13 @@
       "source": "hermes",
       "sourceAgent": "hermes",
       "repo": "howdymary/hermes-agent-metaharness",
-      "stars": 90,
+      "stars": 91,
       "desc": "An implementation of a Meta Harness for Hermes.",
       "url": "https://github.com/howdymary/hermes-agent-metaharness",
       "install": "pip install hermes-agent-metaharness",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "hermes"
@@ -3982,13 +3982,13 @@
       "source": "hermes",
       "sourceAgent": "hermes",
       "repo": "ultraworkers/hermes-agent-helm-chart",
-      "stars": 89,
+      "stars": 90,
       "desc": "The community-driven unofficial chart packages Hermes Agent for Kubernetes with cloud-native defaults, explicit state-safety guardrails, and flexible composition points for platform teams.",
       "url": "https://github.com/ultraworkers/hermes-agent-helm-chart",
       "install": "git clone https://github.com/ultraworkers/hermes-agent-helm-chart.git",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "devops",
+      "subCategoryId": "infra",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "hermes"
@@ -4006,7 +4006,7 @@
       "install": "npm i -g humanizer",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "openclaw"
@@ -4024,7 +4024,7 @@
       "install": "npm i -g oc-tps",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -4036,13 +4036,13 @@
       "source": "opencode",
       "sourceAgent": "opencode",
       "repo": "dotCipher/opencode-claude-bridge",
-      "stars": 84,
+      "stars": 85,
       "desc": "OpenCode plugin for Claude Pro/Max OAuth — auto-syncs from Claude CLI",
       "url": "https://github.com/dotCipher/opencode-claude-bridge",
       "install": "npm i -g opencode-claude-bridge",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -4061,7 +4061,7 @@
       "install": "npm i -g obsidian-claude-code-plugin",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -4079,7 +4079,7 @@
       "install": "pip install hermes-arxiv-agent",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "hermes"
@@ -4097,7 +4097,7 @@
       "install": "npm i -g claude-plugins",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -4115,7 +4115,7 @@
       "install": "pip install claude-code-plugins",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -4133,7 +4133,7 @@
       "install": "git clone https://github.com/corca-ai/claude-plugins.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -4151,7 +4151,7 @@
       "install": "npm i -g opencode-claude-code-plugin",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -4170,7 +4170,7 @@
       "install": "npm i -g openslimedit",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -4188,7 +4188,7 @@
       "install": "pip install xiaohongshu-auto-operation",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "openclaw"
@@ -4206,7 +4206,7 @@
       "install": "npm i -g open-trees",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -4224,7 +4224,7 @@
       "install": "git clone https://github.com/joinmassive/clawpod.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "openclaw"
@@ -4242,7 +4242,7 @@
       "install": "npm i -g opencode-plugin-otel",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -4261,7 +4261,7 @@
       "install": "pip install claude-code-toolkit",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -4279,7 +4279,7 @@
       "install": "npm i -g claude-code-plugin",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -4297,7 +4297,7 @@
       "install": "npm i -g caveman-opencode-plugin",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -4315,7 +4315,7 @@
       "install": "git clone https://github.com/hrconsultnj/claude-plugins.git",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -4333,7 +4333,7 @@
       "install": "npm i -g opencode-background",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -4351,7 +4351,7 @@
       "install": "pip install pinecone-claude-code-plugin",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
@@ -4369,7 +4369,7 @@
       "install": "pip install wookstar-claude-plugins",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -4389,7 +4389,7 @@
       "install": "npm i -g opencode-notificator",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -4406,8 +4406,8 @@
       "url": "https://github.com/91fapiao-cn/playwright-browser-skill",
       "install": "git clone https://github.com/91fapiao-cn/playwright-browser-skill.git",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "testing",
+      "subCategoryId": "browser",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "openclaw"
@@ -4425,7 +4425,7 @@
       "install": "npm i -g opencode-ignore",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -4443,12 +4443,30 @@
       "install": "npm i -g .claude",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "platforms",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude"
       ],
       "searchText": ".claude the ultimate claude code toolkit — 127 skills, 86 agents, 109 marketplace repos (11,700+ community skills), 30 commands, 8 hooks, gsd framework. drop-in ~/.claude config that auto-activates the right resources from your prompt. zero config required. travisjneuman/.claude npm i -g .claude dev-tools claude"
+    },
+    {
+      "name": "hermes-agent-rtk-caveman",
+      "source": "hermes",
+      "sourceAgent": "hermes",
+      "repo": "adityahimaone/hermes-agent-rtk-caveman",
+      "stars": 59,
+      "desc": "Hermes Agent RTK + Caveman setup - 90-99% token savings on CLI operations with 35+ pre-configured skills",
+      "url": "https://github.com/adityahimaone/hermes-agent-rtk-caveman",
+      "install": "git clone https://github.com/adityahimaone/hermes-agent-rtk-caveman.git",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "coding",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-agent-rtk-caveman hermes agent rtk + caveman setup - 90-99% token savings on cli operations with 35+ pre-configured skills adityahimaone/hermes-agent-rtk-caveman git clone https://github.com/adityahimaone/hermes-agent-rtk-caveman.git dev-tools hermes"
     },
     {
       "name": "opencode-morph-plugin",
@@ -4461,7 +4479,7 @@
       "install": "npm i -g opencode-morph-plugin",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -4479,7 +4497,7 @@
       "install": "pip install yara-rule-skill",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "claude",
@@ -4502,8 +4520,8 @@
       "url": "https://github.com/codesstar/hermes-skill-atlas",
       "install": "git clone https://github.com/codesstar/hermes-skill-atlas.git",
       "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "hermes"
@@ -4521,30 +4539,12 @@
       "install": "npm i -g opencode-plugin-langfuse",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
       ],
       "searchText": "opencode-plugin-langfuse omercnet/opencode-plugin-langfuse npm i -g opencode-plugin-langfuse dev-tools opencode"
-    },
-    {
-      "name": "hermes-agent-rtk-caveman",
-      "source": "hermes",
-      "sourceAgent": "hermes",
-      "repo": "adityahimaone/hermes-agent-rtk-caveman",
-      "stars": 57,
-      "desc": "Hermes Agent RTK + Caveman setup - 90-99% token savings on CLI operations with 35+ pre-configured skills",
-      "url": "https://github.com/adityahimaone/hermes-agent-rtk-caveman",
-      "install": "git clone https://github.com/adityahimaone/hermes-agent-rtk-caveman.git",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "hermes"
-      ],
-      "searchText": "hermes-agent-rtk-caveman hermes agent rtk + caveman setup - 90-99% token savings on cli operations with 35+ pre-configured skills adityahimaone/hermes-agent-rtk-caveman git clone https://github.com/adityahimaone/hermes-agent-rtk-caveman.git dev-tools hermes"
     },
     {
       "name": "openclaw-skills",
@@ -4557,7 +4557,7 @@
       "install": "pip install openclaw-skills",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "openclaw"
@@ -4575,7 +4575,7 @@
       "install": "npm i -g Opencode-Google-AI-Search-Plugin",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -4593,7 +4593,7 @@
       "install": "npm i -g OpencodePlugins",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "plugins",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "opencode"
@@ -4611,7 +4611,7 @@
       "install": "pip install mdc_autogen",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "tools",
+      "subCategoryId": "coding",
       "categoryPath": "dev-tools",
       "supportedAgents": [
         "cursor"

@@ -13,13 +13,13 @@
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
-      "stars": 147839,
+      "stars": 147948,
       "desc": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with varia",
       "url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
       "install": "$skill-installer skill-creator",
       "functionCategory": "testing-qa",
-      "topCategoryId": "testing",
-      "subCategoryId": "qa",
+      "topCategoryId": "development",
+      "subCategoryId": "coding",
       "categoryPath": "testing-qa",
       "supportedAgents": [
         "claude"
@@ -37,7 +37,7 @@
       "install": "npm i -g playwright-skill",
       "functionCategory": "testing-qa",
       "topCategoryId": "testing",
-      "subCategoryId": "qa",
+      "subCategoryId": "browser",
       "categoryPath": "testing-qa",
       "supportedAgents": [
         "claude"
@@ -49,13 +49,13 @@
       "source": "general",
       "sourceAgent": "codex",
       "repo": "leo-lilinxiao/codex-autoresearch",
-      "stars": 1843,
+      "stars": 1844,
       "desc": "Codex Autoresearch Skill — A self-directed iterative system for Codex that continuously cycles through: modify, verify, retain or discard, and repeat indefinitely. Inspired by Karpathy’s autoresearch concept.",
       "url": "https://github.com/leo-lilinxiao/codex-autoresearch",
       "install": "git clone https://github.com/leo-lilinxiao/codex-autoresearch.git",
       "functionCategory": "testing-qa",
       "topCategoryId": "testing",
-      "subCategoryId": "qa",
+      "subCategoryId": "review",
       "categoryPath": "testing-qa",
       "supportedAgents": [
         "codex"
@@ -73,7 +73,7 @@
       "install": "git clone https://github.com/hamelsmu/claude-review-loop.git",
       "functionCategory": "testing-qa",
       "topCategoryId": "testing",
-      "subCategoryId": "qa",
+      "subCategoryId": "review",
       "categoryPath": "testing-qa",
       "supportedAgents": [
         "claude",

@@ -13,13 +13,13 @@
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
-      "stars": 147839,
+      "stars": 147948,
       "desc": "\"Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, format",
       "url": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
       "install": "$skill-installer xlsx",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "ops",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "claude"
@@ -31,13 +31,13 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "wshobson/agents",
-      "stars": 36507,
+      "stars": 36517,
       "desc": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI",
       "url": "https://github.com/wshobson/agents",
       "install": "pip install agents",
       "functionCategory": "automation-productivity",
-      "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "topCategoryId": "development",
+      "subCategoryId": "platforms",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "claude",
@@ -53,13 +53,13 @@
       "source": "openclaw",
       "sourceAgent": "openclaw",
       "repo": "openclaw/gogcli",
-      "stars": 7693,
+      "stars": 7692,
       "desc": "Google Workspace in your terminal.",
       "url": "https://github.com/openclaw/gogcli",
       "install": "go install github.com/openclaw/gogcli@latest",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "office",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "openclaw"
@@ -71,13 +71,13 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "iOfficeAI/OfficeCLI",
-      "stars": 6493,
+      "stars": 6523,
       "desc": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-so",
       "url": "https://github.com/iOfficeAI/OfficeCLI",
       "install": "git clone https://github.com/iOfficeAI/OfficeCLI.git",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "office",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "claude",
@@ -95,13 +95,13 @@
       "source": "general",
       "sourceAgent": "openclaw",
       "repo": "white0dew/XiaohongshuSkills",
-      "stars": 2984,
+      "stars": 2985,
       "desc": "Xiaohongshu auto-publishing, auto-commenting, auto-search skill. Supports OpenClaw, Codex, CC, etc.",
       "url": "https://github.com/white0dew/XiaohongshuSkills",
       "install": "git clone https://github.com/white0dew/XiaohongshuSkills.git",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "publishing",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "codex",
@@ -114,13 +114,13 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "nowork-studio/NotFair",
-      "stars": 2803,
+      "stars": 2804,
       "desc": "Open-source Claude Code skills for SEO, GEO, Google Ads, Meta Ads",
       "url": "https://github.com/nowork-studio/NotFair",
       "install": "npm i -g NotFair",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "ops",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "claude"
@@ -132,13 +132,13 @@
       "source": "openclaw",
       "sourceAgent": "openclaw",
       "repo": "openclaw/wacli",
-      "stars": 2517,
+      "stars": 2516,
       "desc": "WhatsApp CLI: sync, search, send",
       "url": "https://github.com/openclaw/wacli",
       "install": "go install github.com/openclaw/wacli@latest",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "office",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "openclaw"
@@ -156,7 +156,7 @@
       "install": "npm i -g openclaw-lark",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "office",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "openclaw"
@@ -168,13 +168,13 @@
       "source": "openclaw",
       "sourceAgent": "openclaw",
       "repo": "DingTalk-Real-AI/dingtalk-openclaw-connector",
-      "stars": 2083,
+      "stars": 2084,
       "desc": "Official OpenClaw DingTalk channel plugin | 钉钉官方 OpenClaw 插件",
       "url": "https://github.com/DingTalk-Real-AI/dingtalk-openclaw-connector",
       "install": "npm i -g dingtalk-openclaw-connector",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "office",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "openclaw"
@@ -186,13 +186,13 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "Ceeon/videocut-skills",
-      "stars": 1884,
+      "stars": 1888,
       "desc": "用 Claude Code Skills 做的视频剪辑 Agent",
       "url": "https://github.com/Ceeon/videocut-skills",
       "install": "npm i -g videocut-skills",
       "functionCategory": "automation-productivity",
-      "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "topCategoryId": "design",
+      "subCategoryId": "media",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "claude"
@@ -204,13 +204,13 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "tradermonty/claude-trading-skills",
-      "stars": 1827,
+      "stars": 1833,
       "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "url": "https://github.com/tradermonty/claude-trading-skills",
       "install": "pip install claude-trading-skills",
       "functionCategory": "automation-productivity",
-      "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "topCategoryId": "data",
+      "subCategoryId": "analytics",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "claude"
@@ -240,13 +240,13 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "onvoyage-ai/gtm-engineer-skills",
-      "stars": 1164,
+      "stars": 1166,
       "desc": "Claude Code skill for improving website AEO (AI Engine Optimization) and GEO (Generative Engine Optimization) scores — 16 foundational checks, 6 intelligence dimensions, framework-specific fixes",
       "url": "https://github.com/onvoyage-ai/gtm-engineer-skills",
       "install": "git clone https://github.com/onvoyage-ai/gtm-engineer-skills.git",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "ops",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "claude"
@@ -264,7 +264,7 @@
       "install": "git clone https://github.com/adamlyttleapps/claude-skill-app-onboarding-questionnaire.git",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "ops",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "claude"
@@ -276,7 +276,7 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "mohitagw15856/pm-claude-skills",
-      "stars": 942,
+      "stars": 943,
       "desc": "Professional skills for Claude AI — 167 skills across 17 professions. Save 8-10 hours per week. PM stands for Professional.",
       "url": "https://github.com/mohitagw15856/pm-claude-skills",
       "install": "git clone https://github.com/mohitagw15856/pm-claude-skills.git",
@@ -294,7 +294,7 @@
       "source": "tools",
       "sourceAgent": "multi",
       "repo": "agent-sh/agentsys",
-      "stars": 843,
+      "stars": 844,
       "desc": "AI writes code. This automates everything else. 24 plugins, 49 agents, 44 skills. For Claude Code, OpenCode, Codex, Cursor, Kiro.",
       "url": "https://github.com/agent-sh/agentsys",
       "install": "git clone https://github.com/agent-sh/agentsys.git",
@@ -315,13 +315,13 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "wshuyi/x-article-publisher-skill",
-      "stars": 790,
+      "stars": 791,
       "desc": "Claude Code skill for publishing Markdown articles to X (Twitter) Articles",
       "url": "https://github.com/wshuyi/x-article-publisher-skill",
       "install": "pip install x-article-publisher-skill",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "publishing",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "claude"
@@ -339,7 +339,7 @@
       "install": "npm i -g gsd-opencode",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "workflow",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "opencode"
@@ -351,13 +351,13 @@
       "source": "opencode",
       "sourceAgent": "opencode",
       "repo": "grinev/opencode-telegram-bot",
-      "stars": 774,
+      "stars": 775,
       "desc": "OpenCode mobile client via Telegram: run and monitor AI coding tasks from your phone while everything runs locally on your machine. Scheduled tasks support.",
       "url": "https://github.com/grinev/opencode-telegram-bot",
       "install": "npm i -g opencode-telegram-bot",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "publishing",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "opencode"
@@ -387,7 +387,7 @@
       "source": "general",
       "sourceAgent": "openclaw",
       "repo": "countbot-ai/CountBot",
-      "stars": 718,
+      "stars": 717,
       "desc": "更适配中文用户的轻量开源AI Agent | 国产大模型Coding plan支持 | 兼容OpenClaw Skills生态| 已接入微信ClawBot/微博龙虾/飞书/钉钉/QQ/小智AI/Telegram/deepseek-v4。",
       "url": "https://github.com/countbot-ai/CountBot",
       "install": "git clone https://github.com/countbot-ai/CountBot.git",
@@ -430,7 +430,7 @@
       "install": "npm i -g claude-plugin-weixin",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "publishing",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "claude"
@@ -465,8 +465,8 @@
       "url": "https://github.com/quant-sentiment-ai/claude-equity-research",
       "install": "git clone https://github.com/quant-sentiment-ai/claude-equity-research.git",
       "functionCategory": "automation-productivity",
-      "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "topCategoryId": "data",
+      "subCategoryId": "research",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "claude"
@@ -478,13 +478,13 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "borski/travel-hacking-toolkit",
-      "stars": 534,
+      "stars": 533,
       "desc": "AI-powered travel hacking and search with cash, points, miles, and award flights. Drop-in skills and MCP servers for Claude, Codex, and OpenCode.",
       "url": "https://github.com/borski/travel-hacking-toolkit",
       "install": "git clone https://github.com/borski/travel-hacking-toolkit.git",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "ops",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "claude",
@@ -498,7 +498,7 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "aiwithremy/claude-skills-llm-council",
-      "stars": 480,
+      "stars": 482,
       "desc": "LLM Council — a Claude Code skill that runs your decisions through 5 AI advisors with peer review",
       "url": "https://github.com/aiwithremy/claude-skills-llm-council",
       "install": "git clone https://github.com/aiwithremy/claude-skills-llm-council.git",
@@ -522,7 +522,7 @@
       "install": "git clone https://github.com/komal-SkyNET/claude-skill-homeassistant.git",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "workflow",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "claude"
@@ -540,7 +540,7 @@
       "install": "git clone https://github.com/makenotion/claude-code-notion-plugin.git",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "office",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "claude"
@@ -557,8 +557,8 @@
       "url": "https://github.com/kingbootoshi/nano-banana-2-skill",
       "install": "npm i -g nano-banana-2-skill",
       "functionCategory": "automation-productivity",
-      "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "topCategoryId": "design",
+      "subCategoryId": "media",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "claude",
@@ -571,13 +571,13 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "stars": 318,
+      "stars": 319,
       "desc": "Marketing frameworks that AI actually executes. Designed for Claude Code, but could be used for OpenClaw, etc.",
       "url": "https://github.com/BrianRWagner/ai-marketing-claude-code-skills",
       "install": "git clone https://github.com/BrianRWagner/ai-marketing-claude-code-skills.git",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "ops",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "claude",
@@ -590,13 +590,13 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "chenxiachan/xhs-claude-skills",
-      "stars": 318,
+      "stars": 319,
       "desc": "Claude Code slash commands for extracting Xiaohongshu posts into Obsidian notes",
       "url": "https://github.com/chenxiachan/xhs-claude-skills",
       "install": "git clone https://github.com/chenxiachan/xhs-claude-skills.git",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "publishing",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "claude"
@@ -632,7 +632,7 @@
       "install": "git clone https://github.com/vigorX777/content-collector-skill.git",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "publishing",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "openclaw"
@@ -644,13 +644,13 @@
       "source": "general",
       "sourceAgent": "hermes",
       "repo": "tonbistudio/hermes-multi-agent-workflow",
-      "stars": 221,
+      "stars": 225,
       "desc": "",
       "url": "https://github.com/tonbistudio/hermes-multi-agent-workflow",
       "install": "git clone https://github.com/tonbistudio/hermes-multi-agent-workflow.git",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "workflow",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "hermes"
@@ -668,7 +668,7 @@
       "install": "git clone https://github.com/AkoliteZA/hermes-agent-idea-workflow.git",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "workflow",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "hermes"
@@ -686,7 +686,7 @@
       "install": "git clone https://github.com/oh-ashen-one/reddit-growth-skill.git",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "ops",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "openclaw"
@@ -704,7 +704,7 @@
       "install": "pip install hermes-geopolitical-market-sim",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "ops",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "hermes"
@@ -722,7 +722,7 @@
       "install": "git clone https://github.com/aliramw/dingtalk-ai-table.git",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "office",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "openclaw"
@@ -740,7 +740,7 @@
       "install": "git clone https://github.com/TheMattBerman/seo-kit.git",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "publishing",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "openclaw"
@@ -758,7 +758,7 @@
       "install": "pip install dotskills",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "workflow",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "codex",
@@ -777,7 +777,7 @@
       "install": "npm i -g open-artisan",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "workflow",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "opencode"
@@ -795,7 +795,7 @@
       "install": "pip install flightclaw",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "productivity",
+      "subCategoryId": "publishing",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "openclaw"

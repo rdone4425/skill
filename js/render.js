@@ -171,7 +171,12 @@
         toggle.className = `cat-expand${isExpanded ? ' active' : ''}`;
         toggle.dataset.expandId = category.id;
         toggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
-        toggle.setAttribute('aria-label', isExpanded ? '?????' : '?????');
+        toggle.setAttribute(
+          'aria-label',
+          isExpanded
+            ? getLabelWithFallback('collapseCategory', '收起子分类', 'Collapse subcategories')
+            : getLabelWithFallback('expandCategory', '展开子分类', 'Expand subcategories'),
+        );
         toggle.innerHTML = '<span class="cat-expand-icon" aria-hidden="true">+</span>'; 
         row.appendChild(toggle);
       }

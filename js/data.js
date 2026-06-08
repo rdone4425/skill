@@ -384,14 +384,9 @@
       };
     }
 
-    const groupBuckets = (indexData.buckets || []).filter((bucket) => bucket.groupId === resolved.category);
+    const allData = await summaryPromise;
 
-    const [allData, skills] = await Promise.all([
-      summaryPromise,
-      loadBuckets(groupBuckets),
-    ]);
-
-    const groupSkills = skills.filter((skill) => String(skill.topCategoryId || '') === resolved.category);
+    const groupSkills = allData.skills.filter((skill) => String(skill.topCategoryId || '') === resolved.category);
     const subgroupMap = new Map();
     groupSkills.forEach((skill) => {
       const subcategoryId = String(skill.subCategoryId || resolved.category);
