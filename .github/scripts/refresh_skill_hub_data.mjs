@@ -330,6 +330,9 @@ function inferSupportedAgents(skill, sourceAgent, warnings) {
 
 function normalizeSkill(skill, categoryMeta, sourceAgent, warnings) {
   const categoryId = categoryMeta.id;
+  const topCategoryId = String(skill.topCategoryId || categoryMeta.groupId || categoryId).trim() || categoryMeta.groupId || categoryId;
+  const subCategoryId = String(skill.subCategoryId || categoryMeta.subcategoryId || categoryId).trim() || categoryMeta.subcategoryId || categoryId;
+  const categoryPath = normalizeCategoryPath(skill.categoryPath || `${topCategoryId}/${subCategoryId}` || categoryMeta.path || categoryId);
   const normalized = {
     name: String(skill.name || "").trim(),
     source: String(skill.source || "general").trim() || "general",
@@ -340,9 +343,9 @@ function normalizeSkill(skill, categoryMeta, sourceAgent, warnings) {
     url: String(skill.url || "").trim(),
     install: String(skill.install || "").trim(),
     functionCategory: categoryId,
-    topCategoryId: categoryMeta.groupId,
-    subCategoryId: categoryMeta.subcategoryId,
-    categoryPath: categoryMeta.path,
+    topCategoryId,
+    subCategoryId,
+    categoryPath,
   };
 
   const supportedAgents = inferSupportedAgents(
@@ -613,22 +616,26 @@ async function refreshCategoryData(root, args) {
   }
 
   const groupMap = new Map();
-  for (const category of categorySummaries) {
-    if (!groupMap.has(category.groupId)) {
-      groupMap.set(category.groupId, {
-        id: category.groupId,
+  for (const skill of allSkills) {
+    const groupId = String(skill.topCategoryId || skill.functionCategory || "general").trim() || "general";
+    const subcategoryId = String(skill.subCategoryId || skill.functionCategory || groupId).trim() || groupId;
+    if (!groupMap.has(groupId)) {
+      groupMap.set(groupId, {
+        id: groupId,
         count: 0,
-        subcategories: [],
+        subcategories: new Map(),
       });
     }
-    const group = groupMap.get(category.groupId);
-    group.count += category.count || 0;
-    group.subcategories.push({
-      id: category.id,
-      path: category.path,
-      subcategoryId: category.subcategoryId,
-      count: category.count || 0,
-    });
+    const group = groupMap.get(groupId);
+    group.count += 1;
+    const current = group.subcategories.get(subcategoryId) || {
+      id: `${groupId}/${subcategoryId}`,
+      path: `${groupId}/${subcategoryId}`,
+      subcategoryId,
+      count: 0,
+    };
+    current.count += 1;
+    group.subcategories.set(subcategoryId, current);
   }
 
   const indexPayload = {
@@ -641,8 +648,9 @@ async function refreshCategoryData(root, args) {
     }),
     groups: [...groupMap.values()]
       .map((group) => ({
-        ...group,
-        subcategories: group.subcategories.sort((left, right) => {
+        id: group.id,
+        count: group.count,
+        subcategories: [...group.subcategories.values()].sort((left, right) => {
           if (right.count !== left.count) return right.count - left.count;
           return left.subcategoryId.localeCompare(right.subcategoryId);
         }),

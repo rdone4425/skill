@@ -13,13 +13,13 @@
       "source": "community",
       "sourceAgent": "multi",
       "repo": "taishi-i/awesome-ChatGPT-repositories",
-      "stars": 3073,
+      "stars": 3074,
       "desc": "A curated list of resources dedicated to open source GitHub repositories related to ChatGPT, OpenAI API, and Codex. Searchable via Claude Code skills.",
       "url": "https://github.com/taishi-i/awesome-ChatGPT-repositories",
       "install": "git clone https://github.com/taishi-i/awesome-ChatGPT-repositories.git  # browse the awesome list",
       "functionCategory": "backend-api",
-      "topCategoryId": "backend",
-      "subCategoryId": "api",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
       "categoryPath": "backend-api",
       "supportedAgents": [
         "claude",
@@ -38,7 +38,7 @@
       "install": "pip install pg-aiguide",
       "functionCategory": "backend-api",
       "topCategoryId": "backend",
-      "subCategoryId": "api",
+      "subCategoryId": "database",
       "categoryPath": "backend-api",
       "supportedAgents": [
         "claude"
@@ -55,8 +55,8 @@
       "url": "https://github.com/liyupi/yupi-hot-monitor",
       "install": "npm i -g yupi-hot-monitor",
       "functionCategory": "backend-api",
-      "topCategoryId": "backend",
-      "subCategoryId": "api",
+      "topCategoryId": "automation",
+      "subCategoryId": "publishing",
       "categoryPath": "backend-api",
       "supportedAgents": [
         "copilot",

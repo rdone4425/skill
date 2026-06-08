@@ -13,13 +13,13 @@
       "source": "openclaw",
       "sourceAgent": "openclaw",
       "repo": "openclaw/openclaw",
-      "stars": 377545,
+      "stars": 377590,
       "desc": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
       "url": "https://github.com/openclaw/openclaw",
       "install": "docker pull openclaw/openclaw",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "models",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "openclaw"
@@ -31,13 +31,13 @@
       "source": "hermes",
       "sourceAgent": "hermes",
       "repo": "nousresearch/hermes-agent",
-      "stars": 186756,
+      "stars": 187052,
       "desc": "The agent that grows with you",
       "url": "https://github.com/NousResearch/hermes-agent",
       "install": "npm i -g @nousresearch/hermes-agent",
       "functionCategory": "data-ai",
-      "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "topCategoryId": "development",
+      "subCategoryId": "tooling",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "hermes"
@@ -49,13 +49,13 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "multica-ai/andrej-karpathy-skills",
-      "stars": 170943,
+      "stars": 171178,
       "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
       "install": "git clone https://github.com/multica-ai/andrej-karpathy-skills.git",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "models",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "claude"
@@ -67,13 +67,13 @@
       "source": "general",
       "sourceAgent": "other",
       "repo": "addyosmani/agent-skills",
-      "stars": 49057,
+      "stars": 49132,
       "desc": "Production-grade engineering skills for AI coding agents.",
       "url": "https://github.com/addyosmani/agent-skills",
       "install": "git clone https://github.com/addyosmani/agent-skills.git",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "models",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "other"
@@ -85,13 +85,13 @@
       "source": "general",
       "sourceAgent": "other",
       "repo": "CherryHQ/cherry-studio",
-      "stars": 47056,
+      "stars": 47066,
       "desc": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
       "url": "https://github.com/CherryHQ/cherry-studio",
       "install": "npm i -g cherry-studio",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "models",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "other"
@@ -103,13 +103,13 @@
       "source": "community",
       "sourceAgent": "copilot",
       "repo": "github/awesome-copilot",
-      "stars": 34622,
+      "stars": 34636,
       "desc": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
       "url": "https://github.com/github/awesome-copilot",
       "install": "git clone https://github.com/github/awesome-copilot.git  # browse the awesome list",
       "functionCategory": "data-ai",
-      "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "copilot"
@@ -121,13 +121,13 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "Imbad0202/academic-research-skills",
-      "stars": 28798,
+      "stars": 28914,
       "desc": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
       "url": "https://github.com/Imbad0202/academic-research-skills",
       "install": "git clone https://github.com/Imbad0202/academic-research-skills.git",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "research",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "claude"
@@ -139,13 +139,13 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 21679,
+      "stars": 21704,
       "desc": "\"Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` to generate a clean starting notebook.\"",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/jupyter-notebook",
       "install": "$skill-installer jupyter-notebook",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "analytics",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "codex"
@@ -157,13 +157,13 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 21679,
+      "stars": 21704,
       "desc": "\"Transcribe audio files to text with optional diarization and known-speaker hints. Use when a user asks to transcribe speech from audio/video, extract text from recordings, or label speakers in interviews or meetings.\"",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/transcribe",
       "install": "$skill-installer transcribe",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "analytics",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "codex"
@@ -175,13 +175,13 @@
       "source": "general",
       "sourceAgent": "other",
       "repo": "MemTensor/MemOS",
-      "stars": 9663,
+      "stars": 9666,
       "desc": "Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings",
       "url": "https://github.com/MemTensor/MemOS",
       "install": "npm i -g MemOS",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "memory",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "other"
@@ -193,13 +193,13 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "Orchestra-Research/AI-Research-SKILLs",
-      "stars": 9424,
+      "stars": 9433,
       "desc": "Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills and your claude code/codex/gemini agent will be an AI research agent with full horsepower. Maintained by Orchestra Research.",
       "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
       "install": "git clone https://github.com/Orchestra-Research/AI-Research-SKILLs.git",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "research",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "claude",
@@ -213,13 +213,13 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "nidhinjs/prompt-master",
-      "stars": 9002,
+      "stars": 9010,
       "desc": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
       "url": "https://github.com/nidhinjs/prompt-master",
       "install": "git clone https://github.com/nidhinjs/prompt-master.git",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "memory",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "claude"
@@ -231,13 +231,13 @@
       "source": "general",
       "sourceAgent": "other",
       "repo": "EverMind-AI/EverOS",
-      "stars": 7125,
+      "stars": 7139,
       "desc": "Self-evolving memory across Agent and platform.",
       "url": "https://github.com/EverMind-AI/EverOS",
       "install": "git clone https://github.com/EverMind-AI/EverOS.git",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "memory",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "other"
@@ -249,13 +249,13 @@
       "source": "openclaw",
       "sourceAgent": "openclaw",
       "repo": "Gen-Verse/OpenClaw-RL",
-      "stars": 5454,
+      "stars": 5456,
       "desc": "OpenClaw-RL: Train any agent simply by talking",
       "url": "https://github.com/Gen-Verse/OpenClaw-RL",
       "install": "pip install OpenClaw-RL",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "models",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "openclaw"
@@ -273,7 +273,7 @@
       "install": "npm i -g Acontext",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "memory",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "other"
@@ -291,7 +291,7 @@
       "install": "pip install OpenClaw-Medical-Skills",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "models",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "openclaw"
@@ -309,7 +309,7 @@
       "install": "git clone https://github.com/BAAI-Agents/Cradle.git",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "models",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "other"
@@ -321,13 +321,13 @@
       "source": "tools",
       "sourceAgent": "other",
       "repo": "foryourhealth111-pixel/Vibe-Skills",
-      "stars": 2258,
+      "stars": 2261,
       "desc": "Vibe-Skills is an all-in-one AI skills package. It seamlessly integrates expert-level capabilities and context management into a general-purpose skills package， enabling any AI agent to instantly upgrade its functionality—eliminating the fr",
       "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
       "install": "git clone https://github.com/foryourhealth111-pixel/Vibe-Skills.git",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "memory",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "other"
@@ -339,13 +339,13 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "codejunkie99/agentic-stack",
-      "stars": 2088,
+      "stars": 2092,
       "desc": "One brain, many harnesses. Portable .agent/ folder (memory + skills + protocols) that plugs into Claude Code, Cursor, Windsurf, OpenCode, OpenClaw, Hermes, or DIY Python — and keeps its knowledge when you switch.",
       "url": "https://github.com/codejunkie99/agentic-stack",
       "install": "git clone https://github.com/codejunkie99/agentic-stack.git",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "memory",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "claude",
@@ -361,13 +361,13 @@
       "source": "general",
       "sourceAgent": "other",
       "repo": "samber/cc-skills-golang",
-      "stars": 2023,
+      "stars": 2024,
       "desc": "🧑‍🎨 A collection of Golang agentic skills that works",
       "url": "https://github.com/samber/cc-skills-golang",
       "install": "go install github.com/samber/cc-skills-golang@latest",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "models",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "other"
@@ -384,8 +384,8 @@
       "url": "https://github.com/twostraws/Swift-Agent-Skills",
       "install": "git clone https://github.com/twostraws/Swift-Agent-Skills.git  # browse the awesome list",
       "functionCategory": "data-ai",
-      "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "other"
@@ -397,13 +397,13 @@
       "source": "general",
       "sourceAgent": "other",
       "repo": "jjyaoao/HelloAgents",
-      "stars": 1950,
+      "stars": 1954,
       "desc": "A agent framework based on the tutorial hello-agents",
       "url": "https://github.com/jjyaoao/HelloAgents",
       "install": "git clone https://github.com/jjyaoao/HelloAgents.git",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "models",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "other"
@@ -420,8 +420,8 @@
       "url": "https://github.com/mgechev/skills-best-practices",
       "install": "git clone https://github.com/mgechev/skills-best-practices.git",
       "functionCategory": "data-ai",
-      "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "other"
@@ -433,13 +433,13 @@
       "source": "opencode",
       "sourceAgent": "opencode",
       "repo": "supermemoryai/opencode-supermemory",
-      "stars": 1296,
+      "stars": 1299,
       "desc": "Supermemory plugin for OpenCode",
       "url": "https://github.com/supermemoryai/opencode-supermemory",
       "install": "npm i -g opencode-supermemory",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "memory",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "opencode"
@@ -451,13 +451,13 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "rohitg00/skillkit",
-      "stars": 1195,
+      "stars": 1196,
       "desc": "Supercharge AI coding agents with portable skills. Install, translate & share skills across Claude Code, Cursor, Codex, Copilot & 40 more",
       "url": "https://github.com/rohitg00/skillkit",
       "install": "npm i -g skillkit",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "models",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "claude",
@@ -472,13 +472,13 @@
       "source": "general",
       "sourceAgent": "other",
       "repo": "MoizIbnYousaf/Ai-Agent-Skills",
-      "stars": 1070,
+      "stars": 1069,
       "desc": "my curated agent skills library",
       "url": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills",
       "install": "git clone https://github.com/MoizIbnYousaf/Ai-Agent-Skills.git  # browse the awesome list",
       "functionCategory": "data-ai",
-      "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "other"
@@ -490,13 +490,13 @@
       "source": "opencode",
       "sourceAgent": "opencode",
       "repo": "tickernelz/opencode-mem",
-      "stars": 847,
+      "stars": 859,
       "desc": "OpenCode plugin that gives coding agents persistent memory using local vector database",
       "url": "https://github.com/tickernelz/opencode-mem",
       "install": "npm i -g opencode-mem",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "memory",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "opencode"
@@ -513,8 +513,8 @@
       "url": "https://github.com/new-silvermoon/awesome-android-agent-skills",
       "install": "git clone https://github.com/new-silvermoon/awesome-android-agent-skills.git  # browse the awesome list",
       "functionCategory": "data-ai",
-      "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "claude",
@@ -534,8 +534,8 @@
       "url": "https://github.com/skillmatic-ai/awesome-agent-skills",
       "install": "git clone https://github.com/skillmatic-ai/awesome-agent-skills.git  # browse the awesome list",
       "functionCategory": "data-ai",
-      "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "other"
@@ -552,8 +552,8 @@
       "url": "https://github.com/JackyST0/awesome-agent-skills",
       "install": "git clone https://github.com/JackyST0/awesome-agent-skills.git  # browse the awesome list",
       "functionCategory": "data-ai",
-      "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "claude",
@@ -573,7 +573,7 @@
       "install": "git clone https://github.com/Gentleman-Programming/Gentleman-Skills.git  # browse the awesome list",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "models",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "claude",
@@ -586,13 +586,13 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "aitytech/agentkits-marketing",
-      "stars": 531,
+      "stars": 532,
       "desc": "Enterprise-grade AI marketing automation for Claude Code, Cursor, GitHub Copilot, and any AI assistant supporting agents & skills",
       "url": "https://github.com/aitytech/agentkits-marketing",
       "install": "git clone https://github.com/aitytech/agentkits-marketing.git",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "models",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "claude",
@@ -611,8 +611,8 @@
       "url": "https://github.com/agentregistry-dev/agentregistry",
       "install": "git clone https://github.com/agentregistry-dev/agentregistry.git  # browse the awesome list",
       "functionCategory": "data-ai",
-      "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "other"
@@ -629,8 +629,8 @@
       "url": "https://github.com/littleben/awesomeAgentskills",
       "install": "git clone https://github.com/littleben/awesomeAgentskills.git  # browse the awesome list",
       "functionCategory": "data-ai",
-      "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "claude"
@@ -647,8 +647,8 @@
       "url": "https://github.com/EvoMap/awesome-agent-evolution",
       "install": "git clone https://github.com/EvoMap/awesome-agent-evolution.git  # browse the awesome list",
       "functionCategory": "data-ai",
-      "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "other"
@@ -665,8 +665,8 @@
       "url": "https://github.com/frap129/opencode-rules",
       "install": "npm i -g opencode-rules",
       "functionCategory": "data-ai",
-      "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "topCategoryId": "development",
+      "subCategoryId": "plugins",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "cursor",
@@ -685,7 +685,7 @@
       "install": "git clone https://github.com/r0b0tlab/hermes-concurrent-agents.git",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "memory",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "hermes"
@@ -703,7 +703,7 @@
       "install": "git clone https://github.com/yzfly/Mind-Cloning-Engineering.git",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "models",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "claude",
@@ -727,7 +727,7 @@
       "install": "pip install ZotPilot",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "research",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "claude",
@@ -751,7 +751,7 @@
       "install": "git clone https://github.com/Samin12/obsidian-openclaw-memory.git",
       "functionCategory": "data-ai",
       "topCategoryId": "data",
-      "subCategoryId": "ai",
+      "subCategoryId": "memory",
       "categoryPath": "data-ai",
       "supportedAgents": [
         "openclaw"
