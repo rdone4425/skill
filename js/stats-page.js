@@ -64,13 +64,17 @@
     if (homeLink) homeLink.textContent = dict.home;
   }
 
+  function getStatsCategoryId(skill) {
+    return hub.state.getSkillTopCategory(skill);
+  }
+
   function renderSummary(data) {
     const wrap = document.getElementById('stats-summary');
     if (!wrap) return;
 
     const repos = new Set((data.skills || []).map((skill) => skill.repo).filter(Boolean));
     const platforms = new Set((data.skills || []).flatMap((skill) => skill.supportedAgents || []));
-    const categories = new Set((data.skills || []).map((skill) => skill.functionCategory || 'general'));
+    const categories = new Set((data.skills || []).map(getStatsCategoryId));
     const totalStars = (data.skills || []).reduce((sum, skill) => sum + Number(skill.stars || 0), 0);
 
     const cards = [
@@ -110,7 +114,7 @@
         const item = map.get(agentId);
         item.count += 1;
         item.stars += Number(skill.stars || 0);
-        item.categories.add(skill.functionCategory || 'general');
+        item.categories.add(getStatsCategoryId(skill));
       });
     });
 
@@ -138,7 +142,7 @@
   function renderStatsTable(data) {
     const byCategory = new Map();
     (data.skills || []).forEach((skill) => {
-      const category = skill.functionCategory || 'general';
+      const category = getStatsCategoryId(skill);
       byCategory.set(category, (byCategory.get(category) || 0) + 1);
     });
 
