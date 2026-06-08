@@ -15,3 +15,5 @@ node_modules/
 __pycache__/
 *.pyc
 *.pyo
+# Hermes/profile-agent runtime artifacts belong under ~/.hermes/profiles/<profile>/workspace, not in this repo
+.hermes/
