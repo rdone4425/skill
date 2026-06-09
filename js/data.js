@@ -215,7 +215,7 @@
       title: 'Skill Hub',
       description: 'AI agent skill directory',
       lastUpdated: index.generatedAt || '',
-      totalCount: index.totalSkills || 0,
+      totalCount: Number(next.totalCount ?? index.totalSkills ?? 0),
       sources: next.sources || 0,
       categoryCount: Array.isArray(groups) ? groups.length : 0,
       platformCount: Array.isArray(index.platforms) ? index.platforms.length : 0,
@@ -298,6 +298,7 @@
     const repoCount = new Set((skills || []).map((skill) => skill.repo).filter(Boolean)).size;
     return {
       meta: createMeta(index, computedGroups, {
+        totalCount: (skills || []).length,
         sources: repoCount,
       }),
       categories: computedGroups,
