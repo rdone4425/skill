@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 250,
+    "count": 254,
     "sourceData": "categories"
   },
   "skills": [
@@ -4658,6 +4658,79 @@
         "gemini"
       ],
       "searchText": "agent-skills a collection of ai agent skills for clawdbot, claude code, codex jdrhyne/agent-skills git clone https://github.com/jdrhyne/agent-skills.git dev-tools openclaw claude codex cursor gemini"
+    },
+    {
+      "name": "claude-code-tips",
+      "source": "github",
+      "sourceAgent": "claude",
+      "repo": "ykdojo/claude-code-tips",
+      "stars": 8654,
+      "desc": "45 tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script, cutting the system prompt in half, using Gemini CLI as Claude Code's minion, and Claude Code running itself in a container. Also includes the dx plugin.",
+      "url": "https://github.com/ykdojo/claude-code-tips",
+      "install": "git clone https://github.com/ykdojo/claude-code-tips",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "claude-code-tips 45 tips for getting the most out of claude code, from basics to advanced - includes a custom status line script, cutting the system prompt in half, using gemini cli as claude code's minion, and claude code running itself in a container. also includes the dx plugin. ykdojo/claude-code-tips git clone https://github.com/ykdojo/claude-code-tips dev-tools claude"
+    },
+    {
+      "name": "claude-skills",
+      "source": "github",
+      "sourceAgent": "claude",
+      "repo": "glebis/claude-skills",
+      "stars": 253,
+      "desc": "Collection of Claude Code skills for enhanced AI workflows",
+      "url": "https://github.com/glebis/claude-skills",
+      "install": "git clone https://github.com/glebis/claude-skills",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "claude-skills collection of claude code skills for enhanced ai workflows glebis/claude-skills git clone https://github.com/glebis/claude-skills dev-tools claude"
+    },
+    {
+      "name": "claude-code-commands-skills-agents",
+      "source": "github",
+      "sourceAgent": "claude",
+      "repo": "shakacode/claude-code-commands-skills-agents",
+      "stars": 40,
+      "desc": "ShakaCode Team Shared Claude Code Commands, Agents, Skills, Tips",
+      "url": "https://github.com/shakacode/claude-code-commands-skills-agents",
+      "install": "git clone https://github.com/shakacode/claude-code-commands-skills-agents",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "claude-code-commands-skills-agents shakacode team shared claude code commands, agents, skills, tips shakacode/claude-code-commands-skills-agents git clone https://github.com/shakacode/claude-code-commands-skills-agents dev-tools claude"
+    },
+    {
+      "name": "dot-agents",
+      "source": "github",
+      "sourceAgent": "multi",
+      "repo": "PaulRBerg/dot-agents",
+      "stars": 4,
+      "desc": "Central repository for AI agent skills (Claude Code, Codex CLI, etc.)",
+      "url": "https://github.com/PaulRBerg/dot-agents",
+      "install": "git clone https://github.com/PaulRBerg/dot-agents",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex"
+      ],
+      "searchText": "dot-agents central repository for ai agent skills (claude code, codex cli, etc.) paulrberg/dot-agents git clone https://github.com/paulrberg/dot-agents dev-tools claude codex"
     }
   ]
 }
