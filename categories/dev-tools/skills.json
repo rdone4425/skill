@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 248,
+    "count": 250,
     "sourceData": "categories"
   },
   "skills": [
@@ -4617,6 +4617,47 @@
         "cursor"
       ],
       "searchText": "mdc_autogen autogenerates cursor rules for a given repository pranav270-create/mdc_autogen pip install mdc_autogen dev-tools cursor"
+    },
+    {
+      "name": "opencode-power-pack",
+      "source": "opencode",
+      "sourceAgent": "opencode",
+      "repo": "waybarrios/opencode-power-pack",
+      "stars": 377,
+      "desc": "Eleven Claude Code skills ported to OpenCode: code-review, security-review, feature-dev, frontend-design + 7 more. One config line, one plugin.",
+      "url": "https://github.com/waybarrios/opencode-power-pack",
+      "install": "opencode plugin add waybarrios/opencode-power-pack",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "plugins",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "opencode",
+        "claude"
+      ],
+      "searchText": "opencode-power-pack eleven claude code skills ported to opencode: code-review, security-review, feature-dev, frontend-design + 7 more. one config line, one plugin. waybarrios/opencode-power-pack opencode plugin add waybarrios/opencode-power-pack dev-tools opencode claude"
+    },
+    {
+      "name": "agent-skills",
+      "source": "multi",
+      "sourceAgent": "multi",
+      "repo": "jdrhyne/agent-skills",
+      "stars": 234,
+      "desc": "A collection of AI agent skills for Clawdbot, Claude Code, Codex",
+      "url": "https://github.com/jdrhyne/agent-skills",
+      "install": "git clone https://github.com/jdrhyne/agent-skills.git",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "plugins",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw",
+        "claude",
+        "codex",
+        "cursor",
+        "gemini"
+      ],
+      "searchText": "agent-skills a collection of ai agent skills for clawdbot, claude code, codex jdrhyne/agent-skills git clone https://github.com/jdrhyne/agent-skills.git dev-tools openclaw claude codex cursor gemini"
     }
   ]
 }

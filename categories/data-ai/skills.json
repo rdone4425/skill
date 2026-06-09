@@ -4,7 +4,7 @@
     "topCategoryId": "data",
     "subCategoryId": "ai",
     "categoryPath": "data-ai",
-    "count": 40,
+    "count": 41,
     "sourceData": "categories"
   },
   "skills": [
@@ -757,6 +757,28 @@
         "openclaw"
       ],
       "searchText": "obsidian-openclaw-memory openclaw skill: use obsidian + openclaw as an ai memory system with knowledge graph samin12/obsidian-openclaw-memory git clone https://github.com/samin12/obsidian-openclaw-memory.git data-ai openclaw"
+    },
+    {
+      "name": "Agent-Skills-for-Context-Engineering",
+      "source": "claude",
+      "sourceAgent": "multi",
+      "repo": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "stars": 16421,
+      "desc": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "install": "/plugin marketplace add muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "research",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "copilot",
+        "gemini"
+      ],
+      "searchText": "agent-skills-for-context-engineering a comprehensive collection of agent skills for context engineering, multi-agent architectures, and production agent systems. use when building, optimizing, or debugging agent systems that require effective context management. muratcankoylan/agent-skills-for-context-engineering /plugin marketplace add muratcankoylan/agent-skills-for-context-engineering data-ai claude cursor codex copilot gemini"
     }
   ]
 }
