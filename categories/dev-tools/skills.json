@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 267,
+    "count": 268,
     "sourceData": "categories"
   },
   "skills": [
@@ -4995,6 +4995,24 @@
         "claude"
       ],
       "searchText": "ai agent skills 9 reusable skill.md files for claude code and ai agents — keep-green, prod-watch, hill-climb, adversarial-verify, closed-loop, fleet-loop, and more. jpoindexter/ai-agent-skills git clone https://github.com/jpoindexter/ai-agent-skills dev-tools claude"
+    },
+    {
+      "name": "wzrdxOS",
+      "source": "github",
+      "sourceAgent": "claude-code",
+      "repo": "WizardingCode-io/wzrdxos",
+      "stars": 0,
+      "desc": "Open-source operating system for AI agent teams built on Claude Code primitives, skills, workflows, subagents, and memory.",
+      "url": "https://github.com/WizardingCode-io/wzrdxos",
+      "install": "See repository README for setup and usage instructions",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tooling",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "wzrdxOS open-source operating system for AI agent teams claude code skills workflows subagents memory WizardingCode-io/wzrdxos dev-tools claude-code"
     }
   ]
 }
