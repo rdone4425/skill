@@ -19,7 +19,7 @@
       "install": "$skill-installer xlsx",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "ops",
+      "subCategoryId": "office",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "claude"
@@ -138,7 +138,7 @@
       "install": "go install github.com/openclaw/wacli@latest",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "office",
+      "subCategoryId": "workflow",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "openclaw"
@@ -156,7 +156,7 @@
       "install": "npm i -g openclaw-lark",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "office",
+      "subCategoryId": "workflow",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "openclaw"
@@ -174,7 +174,7 @@
       "install": "npm i -g dingtalk-openclaw-connector",
       "functionCategory": "automation-productivity",
       "topCategoryId": "automation",
-      "subCategoryId": "office",
+      "subCategoryId": "workflow",
       "categoryPath": "automation-productivity",
       "supportedAgents": [
         "openclaw"
