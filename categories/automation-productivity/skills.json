@@ -435,7 +435,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-plugin-weixin WeChat channel plugin for Claude Code that lets users receive and reply to WeChat messages directly in the terminal via the WeChat iLink Bot API. m1heng/claude-plugin-weixin npm i -g claude-plugin-weixin automation-productivity claude"
+      "searchText": "claude-plugin-weixin wechat channel plugin for claude code that lets users receive and reply to wechat messages directly in the terminal via the wechat ilink bot api. m1heng/claude-plugin-weixin npm i -g claude-plugin-weixin automation-productivity claude"
     },
     {
       "name": "tuya-openclaw-skills",
@@ -655,7 +655,7 @@
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "hermes-multi-agent-workflow Reusable Hermes skeleton for an autonomous multi-agent triage pipeline that detects, deduplicates, scores, researches, routes, gates, fulfills, and delivers items on a Kanban board. tonbistudio/hermes-multi-agent-workflow git clone https://github.com/tonbistudio/hermes-multi-agent-workflow.git automation-productivity hermes"
+      "searchText": "hermes-multi-agent-workflow reusable hermes skeleton for an autonomous multi-agent triage pipeline that detects, deduplicates, scores, researches, routes, gates, fulfills, and delivers items on a kanban board. tonbistudio/hermes-multi-agent-workflow git clone https://github.com/tonbistudio/hermes-multi-agent-workflow.git automation-productivity hermes"
     },
     {
       "name": "hermes-agent-idea-workflow",

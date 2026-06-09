@@ -391,7 +391,7 @@
       "supportedAgents": [
         "opencode"
       ],
-      "searchText": "opencode-skills Archived OpenCode skills plugin whose functionality graduated into native OpenCode support. malhashemi/opencode-skills git clone https://github.com/malhashemi/opencode-skills.git general opencode"
+      "searchText": "opencode-skills archived opencode skills plugin whose functionality graduated into native opencode support. malhashemi/opencode-skills git clone https://github.com/malhashemi/opencode-skills.git general opencode"
     },
     {
       "name": "ClaudeSkills",
