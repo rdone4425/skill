@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 250,
+    "count": 251,
     "sourceData": "categories"
   },
   "skills": [
@@ -4658,6 +4658,27 @@
         "gemini"
       ],
       "searchText": "agent-skills a collection of ai agent skills for clawdbot, claude code, codex jdrhyne/agent-skills git clone https://github.com/jdrhyne/agent-skills.git dev-tools openclaw claude codex cursor gemini"
+    },
+    {
+      "name": "agent-skills",
+      "source": "tools",
+      "sourceAgent": "multi",
+      "repo": "vercel-labs/agent-skills",
+      "stars": 27746,
+      "desc": "Vercel's official collection of packaged instructions and optional scripts that extend AI coding agent capabilities, including React, Next.js, web design, writing, and Vercel optimization skills.",
+      "url": "https://github.com/vercel-labs/agent-skills",
+      "install": "npx skills add vercel-labs/agent-skills",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "opencode"
+      ],
+      "searchText": "agent-skills vercel's official collection of packaged instructions and optional scripts that extend ai coding agent capabilities, including react, next.js, web design, writing, and vercel optimization skills. vercel-labs/agent-skills npx skills add vercel-labs/agent-skills dev-tools claude codex cursor opencode"
     }
   ]
 }

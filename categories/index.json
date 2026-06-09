@@ -1,14 +1,14 @@
 {
   "generatedAt": "2026-06-08T16:13:23.492Z",
   "sourceData": "categories",
-  "totalSkills": 560,
+  "totalSkills": 561,
   "categories": [
     {
       "id": "dev-tools",
       "path": "dev-tools",
       "groupId": "development",
       "subcategoryId": "tools",
-      "count": 248
+      "count": 249
     },
     {
       "id": "design-ui",
@@ -77,7 +77,7 @@
   "groups": [
     {
       "id": "development",
-      "count": 281,
+      "count": 282,
       "subcategories": [
         {
           "id": "development/coding",
@@ -343,11 +343,11 @@
   "platforms": [
     {
       "id": "claude",
-      "count": 281
+      "count": 282
     },
     {
       "id": "codex",
-      "count": 132
+      "count": 133
     },
     {
       "id": "openclaw",
@@ -355,11 +355,11 @@
     },
     {
       "id": "opencode",
-      "count": 103
+      "count": 104
     },
     {
       "id": "cursor",
-      "count": 79
+      "count": 80
     },
     {
       "id": "hermes",
