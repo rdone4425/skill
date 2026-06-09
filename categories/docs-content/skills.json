@@ -4,7 +4,7 @@
     "topCategoryId": "docs",
     "subCategoryId": "content",
     "categoryPath": "docs-content",
-    "count": 71,
+    "count": 72,
     "sourceData": "categories"
   },
   "skills": [
@@ -1310,6 +1310,24 @@
         "hermes"
       ],
       "searchText": "awesome-hermes-agent-zh nous research 精心整理了一份适用于 hermes agent 的实用技能、工具、集成和资源列表。 jefferyjob/awesome-hermes-agent-zh git clone https://github.com/jefferyjob/awesome-hermes-agent-zh.git docs-content hermes"
+    },
+    {
+      "name": "mdbook",
+      "source": "marceloeatworld",
+      "sourceAgent": "multi",
+      "repo": "marceloeatworld/mdbook-ai-skill",
+      "stars": 1,
+      "desc": "This skill should be used when the user asks about \"mdBook\", \"mdbook\",",
+      "url": "https://github.com/marceloeatworld/mdbook-ai-skill/blob/main/SKILL.md",
+      "install": "$skill-installer mdbook",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "references",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "agent-skills-compatible"
+      ],
+      "searchText": "mdbook this skill should be used when the user asks about \"mdbook\", \"mdbook\", marceloeatworld/mdbook-ai-skill $skill-installer mdbook docs-content agent-skills-compatible"
     }
   ]
 }
