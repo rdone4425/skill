@@ -4,7 +4,7 @@
     "topCategoryId": "devops",
     "subCategoryId": "deploy",
     "categoryPath": "devops-deploy",
-    "count": 23,
+    "count": 24,
     "sourceData": "categories"
   },
   "skills": [
@@ -438,6 +438,30 @@
         "copilot"
       ],
       "searchText": "qaskills qa skills directory qa skills is a curated directory of testing-specific skills for ai coding agents (claude code, cursor, copilot, etc.). pramoddutta/qaskills git clone https://github.com/pramoddutta/qaskills.git  # browse the awesome list devops-deploy claude cursor copilot"
+    },
+    {
+      "name": "fastly-agent-toolkit",
+      "source": "official",
+      "sourceAgent": "multi",
+      "repo": "fastly/fastly-agent-toolkit",
+      "stars": 23,
+      "desc": "A collection of skills for AI coding agents to work with the Fastly platform and edge computing tools, including Fastly services, CLI, VCL, Compute, Viceroy, Falco, Fastlike, XVCL, and NGWAF workflows.",
+      "url": "https://github.com/fastly/fastly-agent-toolkit",
+      "install": "npx skills add github:fastly/fastly-agent-toolkit",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "edge",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "copilot",
+        "opencode",
+        "gemini",
+        "other"
+      ],
+      "searchText": "fastly-agent-toolkit a collection of skills for ai coding agents to work with the fastly platform and edge computing tools, including fastly services, cli, vcl, compute, viceroy, falco, fastlike, xvcl, and ngwaf workflows. fastly/fastly-agent-toolkit npx skills add github:fastly/fastly-agent-toolkit devops-deploy claude codex cursor copilot opencode gemini other"
     }
   ]
 }
