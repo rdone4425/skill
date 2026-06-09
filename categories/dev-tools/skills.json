@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 254,
+    "count": 257,
     "sourceData": "categories"
   },
   "skills": [
@@ -4744,6 +4744,66 @@
         "gemini"
       ],
       "searchText": "netresearch-claude-code-marketplace curated agent skills marketplace by netresearch with approximately 40 portable skills for ai-assisted development, including typo3, php, go, docker, jira, security, documentation, devops, productivity, and skill-authoring workflows. netresearch/claude-code-marketplace /plugin marketplace add netresearch/claude-code-marketplace dev-tools claude codex cursor copilot opencode gemini"
+    },
+    {
+      "name": "hyprland-ai-skill",
+      "source": "marceloeatworld",
+      "sourceAgent": "cursor",
+      "repo": "marceloeatworld/hyprland-ai-skill",
+      "stars": 6,
+      "desc": "This skill should be used when the user asks about \"Hyprland configuration\",",
+      "url": "https://github.com/marceloeatworld/hyprland-ai-skill/blob/main/SKILL.md",
+      "install": "$skill-installer hyprland-ai-skill",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tooling",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "cursor"
+      ],
+      "searchText": "hyprland-ai-skill this skill should be used when the user asks about \"hyprland configuration\", marceloeatworld/hyprland-ai-skill $skill-installer hyprland-ai-skill dev-tools cursor"
+    },
+    {
+      "name": "php-opcua-ai-skills",
+      "source": "php_opcua",
+      "sourceAgent": "multi",
+      "repo": "php-opcua/ai-skills",
+      "stars": 0,
+      "desc": "<h1 align=\"center\"><strong>OPC UA — AI Skills</strong></h1>",
+      "url": "https://github.com/php-opcua/ai-skills/blob/master/README.md",
+      "install": "Install/copy skills from repository README",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tooling",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude-code",
+        "cursor",
+        "gemini"
+      ],
+      "searchText": "php-opcua-ai-skills <h1 align=\"center\"><strong>opc ua — ai skills</strong></h1> php-opcua/ai-skills install/copy skills from repository readme dev-tools claude-code cursor gemini"
+    },
+    {
+      "name": "agnix",
+      "source": "agent_sh",
+      "sourceAgent": "multi",
+      "repo": "agent-sh/agnix",
+      "stars": 279,
+      "desc": "<p><strong>Lint agent configurations before they break your workflow</strong></p>",
+      "url": "https://github.com/agent-sh/agnix/blob/main/README.md",
+      "install": "Install from GitHub releases or package manager per README",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tooling",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude-code",
+        "codex",
+        "cursor",
+        "gemini",
+        "opencode"
+      ],
+      "searchText": "agnix <p><strong>lint agent configurations before they break your workflow</strong></p> agent-sh/agnix install from github releases or package manager per readme dev-tools claude-code codex cursor gemini opencode"
     }
   ]
 }

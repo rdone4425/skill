@@ -4,7 +4,7 @@
     "topCategoryId": "automation",
     "subCategoryId": "productivity",
     "categoryPath": "automation-productivity",
-    "count": 44,
+    "count": 45,
     "sourceData": "categories"
   },
   "skills": [
@@ -819,6 +819,24 @@
         "copilot"
       ],
       "searchText": "nightscout-cgm-skill github copilot agent skill for nightscout cgm blood glucose analysis shanselman/nightscout-cgm-skill pip install nightscout-cgm-skill automation-productivity copilot"
+    },
+    {
+      "name": "openhealth",
+      "source": "yazanabuashour",
+      "sourceAgent": "multi",
+      "repo": "yazanabuashour/openhealth",
+      "stars": 0,
+      "desc": "OpenHealth is a local-first health data runtime for agents. The supported",
+      "url": "https://github.com/yazanabuashour/openhealth/blob/main/README.md",
+      "install": "Install the openhealth runner per README",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "agent-skills-compatible"
+      ],
+      "searchText": "openhealth openhealth is a local-first health data runtime for agents. the supported yazanabuashour/openhealth install the openhealth runner per readme automation-productivity agent-skills-compatible"
     }
   ]
 }
