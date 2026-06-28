@@ -5,8 +5,7 @@
     "subCategoryId": "qa",
     "categoryPath": "testing-qa",
     "count": 5,
-    "sourceData": "categories",
-    "monetizationEnriched": true
+    "sourceData": "categories"
   },
   "skills": [
     {
@@ -14,7 +13,7 @@
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
-      "stars": 148344,
+      "stars": 156232,
       "desc": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with varia",
       "url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
       "install": "$skill-installer skill-creator",
@@ -25,16 +24,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "skill-creator create new skills, modify and improve existing skills, and measure skill performance. use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with varia anthropics/skills $skill-installer skill-creator testing-qa claude",
-      "officialUrl": "https://claude.ai",
-      "pricing": "freemium",
-      "tags": [
-        "ai",
-        "claude",
-        "coding",
-        "llm",
-        "testing-qa"
-      ]
+      "searchText": "skill-creator create new skills, modify and improve existing skills, and measure skill performance. use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with varia anthropics/skills $skill-installer skill-creator testing-qa claude"
     },
     {
       "name": "playwright-skill",
@@ -52,20 +42,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "playwright-skill claude code skill for browser automation with playwright. model-invoked - claude autonomously writes and executes custom automation for testing and validation. lackeyjb/playwright-skill npm i -g playwright-skill testing-qa claude",
-      "officialUrl": "https://playwright.dev",
-      "pricing": "free",
-      "tags": [
-        "automation",
-        "browser",
-        "claude",
-        "e2e",
-        "general",
-        "qa",
-        "testing",
-        "testing-qa"
-      ],
-      "affiliateUrl": null
+      "searchText": "playwright-skill claude code skill for browser automation with playwright. model-invoked - claude autonomously writes and executes custom automation for testing and validation. lackeyjb/playwright-skill npm i -g playwright-skill testing-qa claude"
     },
     {
       "name": "codex-autoresearch",
@@ -83,19 +60,7 @@
       "supportedAgents": [
         "codex"
       ],
-      "searchText": "codex-autoresearch codex autoresearch skill — a self-directed iterative system for codex that continuously cycles through: modify, verify, retain or discard, and repeat indefinitely. inspired by karpathy’s autoresearch concept. leo-lilinxiao/codex-autoresearch git clone https://github.com/leo-lilinxiao/codex-autoresearch.git testing-qa codex",
-      "officialUrl": "https://openai.com/codex",
-      "pricing": "freemium",
-      "tags": [
-        "ai",
-        "codex",
-        "coding",
-        "general",
-        "llm",
-        "openai",
-        "review",
-        "testing-qa"
-      ]
+      "searchText": "codex-autoresearch codex autoresearch skill — a self-directed iterative system for codex that continuously cycles through: modify, verify, retain or discard, and repeat indefinitely. inspired by karpathy’s autoresearch concept. leo-lilinxiao/codex-autoresearch git clone https://github.com/leo-lilinxiao/codex-autoresearch.git testing-qa codex"
     },
     {
       "name": "claude-review-loop",
@@ -114,16 +79,7 @@
         "claude",
         "codex"
       ],
-      "searchText": "claude-review-loop claude code plugin: automated code review loop with codex hamelsmu/claude-review-loop git clone https://github.com/hamelsmu/claude-review-loop.git testing-qa claude codex",
-      "officialUrl": "https://github.com/hamelsmu/claude-review-loop",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "codex",
-        "general",
-        "review",
-        "testing-qa"
-      ]
+      "searchText": "claude-review-loop claude code plugin: automated code review loop with codex hamelsmu/claude-review-loop git clone https://github.com/hamelsmu/claude-review-loop.git testing-qa claude codex"
     },
     {
       "name": "jeffreysprompts.com",
@@ -141,16 +97,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "jeffreysprompts.com a curated collection of battle-tested prompts for agentic coding - browse, copy, and install as claude code skills dicklesworthstone/jeffreysprompts.com git clone https://github.com/dicklesworthstone/jeffreysprompts.com.git  # browse the awesome list testing-qa claude",
-      "officialUrl": "https://github.com/Dicklesworthstone/jeffreysprompts.com",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "general",
-        "qa",
-        "testing-qa"
-      ],
-      "affiliateUrl": null
+      "searchText": "jeffreysprompts.com a curated collection of battle-tested prompts for agentic coding - browse, copy, and install as claude code skills dicklesworthstone/jeffreysprompts.com git clone https://github.com/dicklesworthstone/jeffreysprompts.com.git  # browse the awesome list testing-qa claude"
     }
   ]
 }

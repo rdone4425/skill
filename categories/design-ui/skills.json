@@ -5,8 +5,7 @@
     "subCategoryId": "ui",
     "categoryPath": "design-ui",
     "count": 71,
-    "sourceData": "categories",
-    "monetizationEnriched": true
+    "sourceData": "categories"
   },
   "skills": [
     {
@@ -14,7 +13,7 @@
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
-      "stars": 148344,
+      "stars": 156232,
       "desc": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
       "url": "https://github.com/anthropics/skills/tree/main/skills/brand-guidelines",
       "install": "$skill-installer brand-guidelines",
@@ -25,24 +24,14 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "brand-guidelines applies anthropic's official brand colors and typography to any sort of artifact that may benefit from having anthropic's look-and-feel. use it when brand colors or style guidelines, visual formatting, or company design standards apply. anthropics/skills $skill-installer brand-guidelines design-ui claude",
-      "officialUrl": "https://claude.ai",
-      "pricing": "freemium",
-      "tags": [
-        "ai",
-        "claude",
-        "coding",
-        "deck",
-        "design-ui",
-        "llm"
-      ]
+      "searchText": "brand-guidelines applies anthropic's official brand colors and typography to any sort of artifact that may benefit from having anthropic's look-and-feel. use it when brand colors or style guidelines, visual formatting, or company design standards apply. anthropics/skills $skill-installer brand-guidelines design-ui claude"
     },
     {
       "name": "canvas-design",
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
-      "stars": 148344,
+      "stars": 156232,
       "desc": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying exis",
       "url": "https://github.com/anthropics/skills/tree/main/skills/canvas-design",
       "install": "$skill-installer canvas-design",
@@ -53,25 +42,14 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "canvas-design create beautiful visual art in .png and .pdf documents using design philosophy. you should use this skill when the user asks to create a poster, piece of art, design, or other static piece. create original visual designs, never copying exis anthropics/skills $skill-installer canvas-design design-ui claude",
-      "officialUrl": "https://claude.ai",
-      "pricing": "freemium",
-      "tags": [
-        "ai",
-        "claude",
-        "coding",
-        "deck",
-        "design-ui",
-        "llm"
-      ],
-      "affiliateUrl": "https://www.canva.com/join/rdone4425"
+      "searchText": "canvas-design create beautiful visual art in .png and .pdf documents using design philosophy. you should use this skill when the user asks to create a poster, piece of art, design, or other static piece. create original visual designs, never copying exis anthropics/skills $skill-installer canvas-design design-ui claude"
     },
     {
       "name": "claude-api",
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
-      "stars": 148344,
+      "stars": 156232,
       "desc": "\"Build, debug, and optimize Claude API / Anthropic SDK apps. Apps built with this skill should include prompt caching. Also handles migrating existing Claude API code between Claude model versions (4.5 → 4.6, 4.6 → 4.7, retired-model replac",
       "url": "https://github.com/anthropics/skills/tree/main/skills/claude-api",
       "install": "$skill-installer claude-api",
@@ -82,24 +60,14 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-api \"build, debug, and optimize claude api / anthropic sdk apps. apps built with this skill should include prompt caching. also handles migrating existing claude api code between claude model versions (4.5 → 4.6, 4.6 → 4.7, retired-model replac anthropics/skills $skill-installer claude-api design-ui claude",
-      "officialUrl": "https://claude.ai",
-      "pricing": "freemium",
-      "tags": [
-        "ai",
-        "claude",
-        "coding",
-        "design-ui",
-        "integration",
-        "llm"
-      ]
+      "searchText": "claude-api \"build, debug, and optimize claude api / anthropic sdk apps. apps built with this skill should include prompt caching. also handles migrating existing claude api code between claude model versions (4.5 → 4.6, 4.6 → 4.7, retired-model replac anthropics/skills $skill-installer claude-api design-ui claude"
     },
     {
       "name": "doc-coauthoring",
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
-      "stars": 148344,
+      "stars": 156232,
       "desc": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer c",
       "url": "https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring",
       "install": "$skill-installer doc-coauthoring",
@@ -110,24 +78,14 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "doc-coauthoring guide users through a structured workflow for co-authoring documentation. use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. this workflow helps users efficiently transfer c anthropics/skills $skill-installer doc-coauthoring design-ui claude",
-      "officialUrl": "https://claude.ai",
-      "pricing": "freemium",
-      "tags": [
-        "ai",
-        "claude",
-        "coding",
-        "design-ui",
-        "guides",
-        "llm"
-      ]
+      "searchText": "doc-coauthoring guide users through a structured workflow for co-authoring documentation. use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. this workflow helps users efficiently transfer c anthropics/skills $skill-installer doc-coauthoring design-ui claude"
     },
     {
       "name": "frontend-design",
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
-      "stars": 148344,
+      "stars": 156232,
       "desc": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards,",
       "url": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
       "install": "$skill-installer frontend-design",
@@ -138,24 +96,14 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "frontend-design create distinctive, production-grade frontend interfaces with high design quality. use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, anthropics/skills $skill-installer frontend-design design-ui claude",
-      "officialUrl": "https://claude.ai",
-      "pricing": "freemium",
-      "tags": [
-        "ai",
-        "claude",
-        "coding",
-        "design-ui",
-        "llm",
-        "ui"
-      ]
+      "searchText": "frontend-design create distinctive, production-grade frontend interfaces with high design quality. use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, anthropics/skills $skill-installer frontend-design design-ui claude"
     },
     {
       "name": "mcp-builder",
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
-      "stars": 148344,
+      "stars": 156232,
       "desc": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (F",
       "url": "https://github.com/anthropics/skills/tree/main/skills/mcp-builder",
       "install": "$skill-installer mcp-builder",
@@ -166,27 +114,14 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "mcp-builder guide for creating high-quality mcp (model context protocol) servers that enable llms to interact with external services through well-designed tools. use when building mcp servers to integrate external apis or services, whether in python (f anthropics/skills $skill-installer mcp-builder design-ui claude",
-      "officialUrl": "https://modelcontextprotocol.io",
-      "pricing": "free",
-      "tags": [
-        "ai",
-        "claude",
-        "coding",
-        "design-ui",
-        "integration",
-        "llm",
-        "mcp",
-        "plugins",
-        "protocol"
-      ]
+      "searchText": "mcp-builder guide for creating high-quality mcp (model context protocol) servers that enable llms to interact with external services through well-designed tools. use when building mcp servers to integrate external apis or services, whether in python (f anthropics/skills $skill-installer mcp-builder design-ui claude"
     },
     {
       "name": "theme-factory",
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
-      "stars": 148344,
+      "stars": 156232,
       "desc": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a",
       "url": "https://github.com/anthropics/skills/tree/main/skills/theme-factory",
       "install": "$skill-installer theme-factory",
@@ -197,24 +132,14 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "theme-factory toolkit for styling artifacts with a theme. these artifacts can be slides, docs, reportings, html landing pages, etc. there are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a anthropics/skills $skill-installer theme-factory design-ui claude",
-      "officialUrl": "https://claude.ai",
-      "pricing": "freemium",
-      "tags": [
-        "ai",
-        "claude",
-        "coding",
-        "deck",
-        "design-ui",
-        "llm"
-      ]
+      "searchText": "theme-factory toolkit for styling artifacts with a theme. these artifacts can be slides, docs, reportings, html landing pages, etc. there are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a anthropics/skills $skill-installer theme-factory design-ui claude"
     },
     {
       "name": "web-artifacts-builder",
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
-      "stars": 148344,
+      "stars": 156232,
       "desc": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components",
       "url": "https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder",
       "install": "$skill-installer web-artifacts-builder",
@@ -225,24 +150,14 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "web-artifacts-builder suite of tools for creating elaborate, multi-component claude.ai html artifacts using modern frontend web technologies (react, tailwind css, shadcn/ui). use for complex artifacts requiring state management, routing, or shadcn/ui components anthropics/skills $skill-installer web-artifacts-builder design-ui claude",
-      "officialUrl": "https://claude.ai",
-      "pricing": "freemium",
-      "tags": [
-        "ai",
-        "claude",
-        "coding",
-        "design-ui",
-        "llm",
-        "ui"
-      ]
+      "searchText": "web-artifacts-builder suite of tools for creating elaborate, multi-component claude.ai html artifacts using modern frontend web technologies (react, tailwind css, shadcn/ui). use for complex artifacts requiring state management, routing, or shadcn/ui components anthropics/skills $skill-installer web-artifacts-builder design-ui claude"
     },
     {
       "name": "webapp-testing",
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
-      "stars": 148344,
+      "stars": 156232,
       "desc": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
       "url": "https://github.com/anthropics/skills/tree/main/skills/webapp-testing",
       "install": "$skill-installer webapp-testing",
@@ -253,24 +168,14 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "webapp-testing toolkit for interacting with and testing local web applications using playwright. supports verifying frontend functionality, debugging ui behavior, capturing browser screenshots, and viewing browser logs. anthropics/skills $skill-installer webapp-testing design-ui claude",
-      "officialUrl": "https://claude.ai",
-      "pricing": "freemium",
-      "tags": [
-        "ai",
-        "browser",
-        "claude",
-        "coding",
-        "design-ui",
-        "llm"
-      ]
+      "searchText": "webapp-testing toolkit for interacting with and testing local web applications using playwright. supports verifying frontend functionality, debugging ui behavior, capturing browser screenshots, and viewing browser logs. anthropics/skills $skill-installer webapp-testing design-ui claude"
     },
     {
       "name": "open-design",
       "source": "tools",
       "sourceAgent": "multi",
       "repo": "nexu-io/open-design",
-      "stars": 62061,
+      "stars": 72402,
       "desc": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export",
       "url": "https://github.com/nexu-io/open-design",
       "install": "npm i -g open-design",
@@ -281,22 +186,14 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "open-design 🎨 local-first, open-source claude design alternative. 🖥️ native desktop app. ⚡ 259+ skills · ✨ 142+ design systems 🖼️ web · desktop · mobile prototypes · slides · images · videos · hyperframes 📦 sandboxed preview · html/pdf/pptx/mp4 export nexu-io/open-design npm i -g open-design design-ui claude",
-      "officialUrl": "https://github.com/nexu-io/open-design",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "deck",
-        "design-ui",
-        "tools"
-      ]
+      "searchText": "open-design 🎨 local-first, open-source claude design alternative. 🖥️ native desktop app. ⚡ 259+ skills · ✨ 142+ design systems 🖼️ web · desktop · mobile prototypes · slides · images · videos · hyperframes 📦 sandboxed preview · html/pdf/pptx/mp4 export nexu-io/open-design npm i -g open-design design-ui claude"
     },
     {
       "name": "ruflo",
       "source": "general",
       "sourceAgent": "multi",
       "repo": "ruvnet/ruflo",
-      "stars": 58618,
+      "stars": 61908,
       "desc": "🌊 The leading agent meta-harness for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning swarm intelligence, RAG integration, and nativ",
       "url": "https://github.com/ruvnet/ruflo",
       "install": "npm i -g ruflo",
@@ -307,22 +204,14 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "ruflo 🌊 the leading agent meta-harness for claude. deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational ai systems. features adaptive memory, self-learning swarm intelligence, rag integration, and nativ ruvnet/ruflo npm i -g ruflo design-ui claude",
-      "officialUrl": "https://github.com/ruvnet/ruflo",
-      "pricing": "unknown",
-      "tags": [
-        "agents",
-        "claude",
-        "design-ui",
-        "general"
-      ]
+      "searchText": "ruflo 🌊 the leading agent meta-harness for claude. deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational ai systems. features adaptive memory, self-learning swarm intelligence, rag integration, and nativ ruvnet/ruflo npm i -g ruflo design-ui claude"
     },
     {
       "name": "career-ops",
       "source": "general",
       "sourceAgent": "claude",
       "repo": "santifer/career-ops",
-      "stars": 51023,
+      "stars": 56353,
       "desc": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
       "url": "https://github.com/santifer/career-ops",
       "install": "npm i -g career-ops",
@@ -333,22 +222,14 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "career-ops ai-powered job search system built on claude code. 14 skill modes, go dashboard, pdf generation, batch processing. santifer/career-ops npm i -g career-ops design-ui claude",
-      "officialUrl": "https://github.com/santifer/career-ops",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "design-ui",
-        "general",
-        "productivity"
-      ]
+      "searchText": "career-ops ai-powered job search system built on claude code. 14 skill modes, go dashboard, pdf generation, batch processing. santifer/career-ops npm i -g career-ops design-ui claude"
     },
     {
       "name": "CLIProxyAPI",
       "source": "tools",
       "sourceAgent": "multi",
       "repo": "router-for-me/CLIProxyAPI",
-      "stars": 36896,
+      "stars": 38627,
       "desc": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API",
       "url": "https://github.com/router-for-me/CLIProxyAPI",
       "install": "go install github.com/router-for-me/CLIProxyAPI@latest",
@@ -361,24 +242,14 @@
         "codex",
         "gemini"
       ],
-      "searchText": "cliproxyapi wrap gemini cli, antigravity, chatgpt codex, claude code, grok build as an openai/gemini/claude/codex compatible api service, allowing you to enjoy the free gemini 3.1 pro, gpt 5.5, grok 4.3, claude model through api router-for-me/cliproxyapi go install github.com/router-for-me/cliproxyapi@latest design-ui claude codex gemini",
-      "officialUrl": "https://github.com/router-for-me/CLIProxyAPI",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "codex",
-        "design-ui",
-        "gemini",
-        "integration",
-        "tools"
-      ]
+      "searchText": "cliproxyapi wrap gemini cli, antigravity, chatgpt codex, claude code, grok build as an openai/gemini/claude/codex compatible api service, allowing you to enjoy the free gemini 3.1 pro, gpt 5.5, grok 4.3, claude model through api router-for-me/cliproxyapi go install github.com/router-for-me/cliproxyapi@latest design-ui claude codex gemini"
     },
     {
       "name": "AionUi",
       "source": "tools",
       "sourceAgent": "multi",
       "repo": "iOfficeAI/AionUi",
-      "stars": 27880,
+      "stars": 29001,
       "desc": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!",
       "url": "https://github.com/iOfficeAI/AionUi",
       "install": "npm i -g AionUi",
@@ -394,27 +265,14 @@
         "openclaw",
         "gemini"
       ],
-      "searchText": "aionui free, local, open-source 24/7 cowork app for openclaw, hermes agent, claude code, codex, opencode, gemini cli and 20+ more cli | customize your assistants | star if you like it! iofficeai/aionui npm i -g aionui design-ui claude codex hermes opencode openclaw gemini",
-      "officialUrl": "https://github.com/iOfficeAI/AionUi",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "codex",
-        "design-ui",
-        "gemini",
-        "hermes",
-        "openclaw",
-        "opencode",
-        "tooling",
-        "tools"
-      ]
+      "searchText": "aionui free, local, open-source 24/7 cowork app for openclaw, hermes agent, claude code, codex, opencode, gemini cli and 20+ more cli | customize your assistants | star if you like it! iofficeai/aionui npm i -g aionui design-ui claude codex hermes opencode openclaw gemini"
     },
     {
       "name": "OpenViking",
       "source": "general",
       "sourceAgent": "openclaw",
       "repo": "volcengine/OpenViking",
-      "stars": 25396,
+      "stars": 26129,
       "desc": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hier",
       "url": "https://github.com/volcengine/OpenViking",
       "install": "git clone https://github.com/volcengine/OpenViking.git",
@@ -425,22 +283,14 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "openviking openviking is an open-source context database designed specifically for ai agents(such as openclaw). openviking unifies the management of context (memory, resources, and skills) that agents need through a file system paradigm, enabling hier volcengine/openviking git clone https://github.com/volcengine/openviking.git design-ui openclaw",
-      "officialUrl": "https://github.com/volcengine/OpenViking",
-      "pricing": "unknown",
-      "tags": [
-        "design-ui",
-        "general",
-        "memory",
-        "openclaw"
-      ]
+      "searchText": "openviking openviking is an open-source context database designed specifically for ai agents(such as openclaw). openviking unifies the management of context (memory, resources, and skills) that agents need through a file system paradigm, enabling hier volcengine/openviking git clone https://github.com/volcengine/openviking.git design-ui openclaw"
     },
     {
       "name": "planning-with-files",
       "source": "general",
       "sourceAgent": "claude",
       "repo": "OthmanAdi/planning-with-files",
-      "stars": 22932,
+      "stars": 24069,
       "desc": "Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.",
       "url": "https://github.com/OthmanAdi/planning-with-files",
       "install": "git clone https://github.com/OthmanAdi/planning-with-files.git",
@@ -451,693 +301,14 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "planning-with-files claude code skill implementing manus-style persistent markdown planning — the workflow pattern behind the $2b acquisition. othmanadi/planning-with-files git clone https://github.com/othmanadi/planning-with-files.git design-ui claude",
-      "officialUrl": "https://github.com/OthmanAdi/planning-with-files",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "design-ui",
-        "general",
-        "workflow"
-      ]
-    },
-    {
-      "name": "aspnet-core",
-      "source": "official",
-      "sourceAgent": "codex",
-      "repo": "openai/skills",
-      "stars": 21773,
-      "desc": "Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET web development. Use when working on Blazor Web Apps, Razor Pages, MVC, Minimal APIs, controller-based Web APIs, SignalR, gRPC, mid",
-      "url": "https://github.com/openai/skills/tree/main/skills/.curated/aspnet-core",
-      "install": "$skill-installer aspnet-core",
-      "functionCategory": "design-ui",
-      "topCategoryId": "backend",
-      "subCategoryId": "api",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "codex"
-      ],
-      "searchText": "aspnet-core build, review, refactor, or architect asp.net core web applications using current official guidance for .net web development. use when working on blazor web apps, razor pages, mvc, minimal apis, controller-based web apis, signalr, grpc, mid openai/skills $skill-installer aspnet-core design-ui codex",
-      "officialUrl": "https://platform.openai.com",
-      "pricing": "freemium",
-      "affiliateUrl": null,
-      "tags": [
-        "ai",
-        "api",
-        "codex",
-        "design-ui",
-        "gpt-4",
-        "llm",
-        "official",
-        "production"
-      ]
-    },
-    {
-      "name": "chatgpt-apps",
-      "source": "official",
-      "sourceAgent": "codex",
-      "repo": "openai/skills",
-      "stars": 21773,
-      "desc": "Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications that combine an MCP server and widget UI. Use when Codex needs to design tools, register UI resources, wire the MCP Apps bridge or ChatGPT compatibility APIs, apply A",
-      "url": "https://github.com/openai/skills/tree/main/skills/.curated/chatgpt-apps",
-      "install": "$skill-installer chatgpt-apps",
-      "functionCategory": "design-ui",
-      "topCategoryId": "development",
-      "subCategoryId": "plugins",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "codex"
-      ],
-      "searchText": "chatgpt-apps build, scaffold, refactor, and troubleshoot chatgpt apps sdk applications that combine an mcp server and widget ui. use when codex needs to design tools, register ui resources, wire the mcp apps bridge or chatgpt compatibility apis, apply a openai/skills $skill-installer chatgpt-apps design-ui codex",
-      "officialUrl": "https://platform.openai.com",
-      "pricing": "freemium",
-      "affiliateUrl": null,
-      "tags": [
-        "ai",
-        "api",
-        "codex",
-        "design-ui",
-        "gpt-4",
-        "llm",
-        "official",
-        "plugins",
-        "production"
-      ]
-    },
-    {
-      "name": "cli-creator",
-      "source": "official",
-      "sourceAgent": "codex",
-      "repo": "openai/skills",
-      "stars": 21773,
-      "desc": "Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Codex to create a command-line tool that can run from any repo, expose com",
-      "url": "https://github.com/openai/skills/tree/main/skills/.curated/cli-creator",
-      "install": "$skill-installer cli-creator",
-      "functionCategory": "design-ui",
-      "topCategoryId": "development",
-      "subCategoryId": "coding",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "codex"
-      ],
-      "searchText": "cli-creator build a composable cli for codex from api docs, an openapi spec, existing curl examples, an sdk, a web app, an admin tool, or a local script. use when the user wants codex to create a command-line tool that can run from any repo, expose com openai/skills $skill-installer cli-creator design-ui codex",
-      "officialUrl": "https://platform.openai.com",
-      "pricing": "freemium",
-      "affiliateUrl": null,
-      "tags": [
-        "ai",
-        "api",
-        "codex",
-        "coding",
-        "design-ui",
-        "gpt-4",
-        "llm",
-        "official",
-        "production"
-      ]
-    },
-    {
-      "name": "figma",
-      "source": "official",
-      "sourceAgent": "codex",
-      "repo": "openai/skills",
-      "stars": 21773,
-      "desc": "Use the Figma MCP server to fetch design context, screenshots, variables, and assets from Figma, and to translate Figma nodes into production code. Trigger when a task involves Figma URLs, node IDs, design-to-code implementation, or Figma M",
-      "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma",
-      "install": "$skill-installer figma",
-      "functionCategory": "design-ui",
-      "topCategoryId": "design",
-      "subCategoryId": "figma",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "codex"
-      ],
-      "searchText": "figma use the figma mcp server to fetch design context, screenshots, variables, and assets from figma, and to translate figma nodes into production code. trigger when a task involves figma urls, node ids, design-to-code implementation, or figma m openai/skills $skill-installer figma design-ui codex",
-      "officialUrl": "https://figma.com",
-      "pricing": "freemium",
-      "affiliateUrl": null,
-      "tags": [
-        "ai",
-        "api",
-        "codex",
-        "design",
-        "design-ui",
-        "figma",
-        "gpt-4",
-        "llm",
-        "official",
-        "production",
-        "prototyping",
-        "ui"
-      ]
-    },
-    {
-      "name": "figma-code-connect-components",
-      "source": "official",
-      "sourceAgent": "codex",
-      "repo": "openai/skills",
-      "stars": 21773,
-      "desc": "Connects Figma design components to code components using Code Connect mapping tools. Use when user says \"code connect\", \"connect this component to code\", \"map this component\", \"link component to code\", \"create code connect mapping\", or wan",
-      "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-code-connect-components",
-      "install": "$skill-installer figma-code-connect-components",
-      "functionCategory": "design-ui",
-      "topCategoryId": "design",
-      "subCategoryId": "figma",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "codex"
-      ],
-      "searchText": "figma-code-connect-components connects figma design components to code components using code connect mapping tools. use when user says \"code connect\", \"connect this component to code\", \"map this component\", \"link component to code\", \"create code connect mapping\", or wan openai/skills $skill-installer figma-code-connect-components design-ui codex",
-      "officialUrl": "https://figma.com",
-      "pricing": "freemium",
-      "affiliateUrl": null,
-      "tags": [
-        "ai",
-        "api",
-        "codex",
-        "design",
-        "design-ui",
-        "figma",
-        "gpt-4",
-        "llm",
-        "official",
-        "production",
-        "prototyping",
-        "ui"
-      ]
-    },
-    {
-      "name": "figma-create-design-system-rules",
-      "source": "official",
-      "sourceAgent": "codex",
-      "repo": "openai/skills",
-      "stars": 21773,
-      "desc": "Generates custom design system rules for the user's codebase. Use when user says \"create design system rules\", \"generate rules for my project\", \"set up design rules\", \"customize design system guidelines\", or wants to establish project-speci",
-      "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-create-design-system-rules",
-      "install": "$skill-installer figma-create-design-system-rules",
-      "functionCategory": "design-ui",
-      "topCategoryId": "design",
-      "subCategoryId": "figma",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "codex"
-      ],
-      "searchText": "figma-create-design-system-rules generates custom design system rules for the user's codebase. use when user says \"create design system rules\", \"generate rules for my project\", \"set up design rules\", \"customize design system guidelines\", or wants to establish project-speci openai/skills $skill-installer figma-create-design-system-rules design-ui codex",
-      "officialUrl": "https://figma.com",
-      "pricing": "freemium",
-      "affiliateUrl": null,
-      "tags": [
-        "ai",
-        "api",
-        "codex",
-        "design",
-        "design-ui",
-        "figma",
-        "gpt-4",
-        "llm",
-        "official",
-        "production",
-        "prototyping",
-        "ui"
-      ]
-    },
-    {
-      "name": "figma-create-new-file",
-      "source": "official",
-      "sourceAgent": "codex",
-      "repo": "openai/skills",
-      "stars": 21773,
-      "desc": "Create a new blank Figma file. Use when the user wants to create a new Figma design or FigJam file, or when you need a new file before calling use_figma. Handles plan resolution via whoami if needed. Usage — /figma-create-new-file [editorTy",
-      "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-create-new-file",
-      "install": "$skill-installer figma-create-new-file",
-      "functionCategory": "design-ui",
-      "topCategoryId": "design",
-      "subCategoryId": "figma",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "codex"
-      ],
-      "searchText": "figma-create-new-file create a new blank figma file. use when the user wants to create a new figma design or figjam file, or when you need a new file before calling use_figma. handles plan resolution via whoami if needed. usage — /figma-create-new-file [editorty openai/skills $skill-installer figma-create-new-file design-ui codex",
-      "officialUrl": "https://figma.com",
-      "pricing": "freemium",
-      "affiliateUrl": null,
-      "tags": [
-        "ai",
-        "api",
-        "codex",
-        "design",
-        "design-ui",
-        "figma",
-        "gpt-4",
-        "llm",
-        "official",
-        "production",
-        "prototyping",
-        "ui"
-      ]
-    },
-    {
-      "name": "figma-generate-design",
-      "source": "official",
-      "sourceAgent": "codex",
-      "repo": "openai/skills",
-      "stars": 21773,
-      "desc": "\"Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: 'write to Figma', 'create in Figma from code', 'push page to Figma', 'take this app/page and bui",
-      "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-generate-design",
-      "install": "$skill-installer figma-generate-design",
-      "functionCategory": "design-ui",
-      "topCategoryId": "design",
-      "subCategoryId": "figma",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "codex"
-      ],
-      "searchText": "figma-generate-design \"use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into figma. triggers: 'write to figma', 'create in figma from code', 'push page to figma', 'take this app/page and bui openai/skills $skill-installer figma-generate-design design-ui codex",
-      "officialUrl": "https://figma.com",
-      "pricing": "freemium",
-      "affiliateUrl": null,
-      "tags": [
-        "ai",
-        "api",
-        "codex",
-        "design",
-        "design-ui",
-        "figma",
-        "gpt-4",
-        "llm",
-        "official",
-        "production",
-        "prototyping",
-        "ui"
-      ]
-    },
-    {
-      "name": "figma-generate-library",
-      "source": "official",
-      "sourceAgent": "codex",
-      "repo": "openai/skills",
-      "stars": 21773,
-      "desc": "\"Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variables/tokens, build component libraries, set up theming (light/dark modes), document foundations, or reconcile gaps between",
-      "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-generate-library",
-      "install": "$skill-installer figma-generate-library",
-      "functionCategory": "design-ui",
-      "topCategoryId": "design",
-      "subCategoryId": "figma",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "codex"
-      ],
-      "searchText": "figma-generate-library \"build or update a professional-grade design system in figma from a codebase. use when the user wants to create variables/tokens, build component libraries, set up theming (light/dark modes), document foundations, or reconcile gaps between openai/skills $skill-installer figma-generate-library design-ui codex",
-      "officialUrl": "https://figma.com",
-      "pricing": "freemium",
-      "affiliateUrl": null,
-      "tags": [
-        "ai",
-        "api",
-        "codex",
-        "design",
-        "design-ui",
-        "figma",
-        "gpt-4",
-        "llm",
-        "official",
-        "production",
-        "prototyping",
-        "ui"
-      ]
-    },
-    {
-      "name": "figma-implement-design",
-      "source": "official",
-      "sourceAgent": "codex",
-      "repo": "openai/skills",
-      "stars": 21773,
-      "desc": "Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementing UI code from Figma files, when user mentions \"implement design\", \"generate code\", \"implement component\", provides Figma URLs, or",
-      "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-implement-design",
-      "install": "$skill-installer figma-implement-design",
-      "functionCategory": "design-ui",
-      "topCategoryId": "design",
-      "subCategoryId": "figma",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "codex"
-      ],
-      "searchText": "figma-implement-design translates figma designs into production-ready application code with 1:1 visual fidelity. use when implementing ui code from figma files, when user mentions \"implement design\", \"generate code\", \"implement component\", provides figma urls, or openai/skills $skill-installer figma-implement-design design-ui codex",
-      "officialUrl": "https://figma.com",
-      "pricing": "freemium",
-      "affiliateUrl": null,
-      "tags": [
-        "ai",
-        "api",
-        "codex",
-        "design",
-        "design-ui",
-        "figma",
-        "gpt-4",
-        "llm",
-        "official",
-        "production",
-        "prototyping",
-        "ui"
-      ]
-    },
-    {
-      "name": "figma-use",
-      "source": "official",
-      "sourceAgent": "codex",
-      "repo": "openai/skills",
-      "stars": 21773,
-      "desc": "\"**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `use_figma` tool call. NEVER call `use_figma` directly without loading this skill first. Skipping it causes common, hard-to-debug failures. Trigger whenever the user want",
-      "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-use",
-      "install": "$skill-installer figma-use",
-      "functionCategory": "design-ui",
-      "topCategoryId": "design",
-      "subCategoryId": "figma",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "codex"
-      ],
-      "searchText": "figma-use \"**mandatory prerequisite** — you must invoke this skill before every `use_figma` tool call. never call `use_figma` directly without loading this skill first. skipping it causes common, hard-to-debug failures. trigger whenever the user want openai/skills $skill-installer figma-use design-ui codex",
-      "officialUrl": "https://figma.com",
-      "pricing": "freemium",
-      "affiliateUrl": null,
-      "tags": [
-        "ai",
-        "api",
-        "codex",
-        "design",
-        "design-ui",
-        "figma",
-        "gpt-4",
-        "llm",
-        "official",
-        "production",
-        "prototyping",
-        "ui"
-      ]
-    },
-    {
-      "name": "hatch-pet",
-      "source": "official",
-      "sourceAgent": "codex",
-      "repo": "openai/skills",
-      "stars": 21773,
-      "desc": "Create, repair, validate, visually QA, and package Codex-compatible animated pets and pet spritesheets from character art, generated images, company or prospect brand cues, or visual references. Use when a user wants a lightweight-worker Co",
-      "url": "https://github.com/openai/skills/tree/main/skills/.curated/hatch-pet",
-      "install": "$skill-installer hatch-pet",
-      "functionCategory": "design-ui",
-      "topCategoryId": "design",
-      "subCategoryId": "media",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "codex"
-      ],
-      "searchText": "hatch-pet create, repair, validate, visually qa, and package codex-compatible animated pets and pet spritesheets from character art, generated images, company or prospect brand cues, or visual references. use when a user wants a lightweight-worker co openai/skills $skill-installer hatch-pet design-ui codex",
-      "officialUrl": "https://platform.openai.com",
-      "pricing": "freemium",
-      "affiliateUrl": null,
-      "tags": [
-        "ai",
-        "api",
-        "codex",
-        "design-ui",
-        "gpt-4",
-        "llm",
-        "media",
-        "official",
-        "production"
-      ]
-    },
-    {
-      "name": "openai-docs",
-      "source": "official",
-      "sourceAgent": "codex",
-      "repo": "openai/skills",
-      "stars": 21773,
-      "desc": "\"Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade a",
-      "url": "https://github.com/openai/skills/tree/main/skills/.curated/openai-docs",
-      "install": "$skill-installer openai-docs",
-      "functionCategory": "design-ui",
-      "topCategoryId": "docs",
-      "subCategoryId": "references",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "codex"
-      ],
-      "searchText": "openai-docs \"use when the user asks how to build with openai products or apis, asks about codex itself or choosing codex surfaces, needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade a openai/skills $skill-installer openai-docs design-ui codex",
-      "officialUrl": "https://platform.openai.com",
-      "pricing": "freemium",
-      "affiliateUrl": null,
-      "tags": [
-        "ai",
-        "api",
-        "codex",
-        "design-ui",
-        "gpt-4",
-        "llm",
-        "official",
-        "production",
-        "references"
-      ]
-    },
-    {
-      "name": "pdf",
-      "source": "official",
-      "sourceAgent": "codex",
-      "repo": "openai/skills",
-      "stars": 21773,
-      "desc": "\"Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as `reportlab`, `pdfplumber`, and `pypdf` for generation and ex",
-      "url": "https://github.com/openai/skills/tree/main/skills/.curated/pdf",
-      "install": "$skill-installer pdf",
-      "functionCategory": "design-ui",
-      "topCategoryId": "docs",
-      "subCategoryId": "references",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "codex"
-      ],
-      "searchText": "pdf \"use when tasks involve reading, creating, or reviewing pdf files where rendering and layout matter; prefer visual checks by rendering pages (poppler) and use python tools such as `reportlab`, `pdfplumber`, and `pypdf` for generation and ex openai/skills $skill-installer pdf design-ui codex",
-      "officialUrl": "https://platform.openai.com",
-      "pricing": "freemium",
-      "affiliateUrl": null,
-      "tags": [
-        "ai",
-        "api",
-        "codex",
-        "design-ui",
-        "gpt-4",
-        "llm",
-        "official",
-        "production",
-        "references"
-      ]
-    },
-    {
-      "name": "playwright",
-      "source": "official",
-      "sourceAgent": "codex",
-      "repo": "openai/skills",
-      "stars": 21773,
-      "desc": "\"Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via `playwright-cli` or the bundled wrapper script.\"",
-      "url": "https://github.com/openai/skills/tree/main/skills/.curated/playwright",
-      "install": "$skill-installer playwright",
-      "functionCategory": "design-ui",
-      "topCategoryId": "testing",
-      "subCategoryId": "browser",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "codex"
-      ],
-      "searchText": "playwright \"use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, ui-flow debugging) via `playwright-cli` or the bundled wrapper script.\" openai/skills $skill-installer playwright design-ui codex",
-      "officialUrl": "https://playwright.dev",
-      "pricing": "free",
-      "affiliateUrl": null,
-      "tags": [
-        "ai",
-        "api",
-        "automation",
-        "browser",
-        "codex",
-        "design-ui",
-        "e2e",
-        "gpt-4",
-        "llm",
-        "official",
-        "production",
-        "qa",
-        "testing"
-      ]
-    },
-    {
-      "name": "playwright-interactive",
-      "source": "official",
-      "sourceAgent": "codex",
-      "repo": "openai/skills",
-      "stars": 21773,
-      "desc": "\"Persistent browser and Electron interaction through `js_repl` for fast iterative UI debugging.\"",
-      "url": "https://github.com/openai/skills/tree/main/skills/.curated/playwright-interactive",
-      "install": "$skill-installer playwright-interactive",
-      "functionCategory": "design-ui",
-      "topCategoryId": "testing",
-      "subCategoryId": "browser",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "codex"
-      ],
-      "searchText": "playwright-interactive \"persistent browser and electron interaction through `js_repl` for fast iterative ui debugging.\" openai/skills $skill-installer playwright-interactive design-ui codex",
-      "officialUrl": "https://playwright.dev",
-      "pricing": "free",
-      "affiliateUrl": null,
-      "tags": [
-        "ai",
-        "api",
-        "automation",
-        "browser",
-        "codex",
-        "design-ui",
-        "e2e",
-        "gpt-4",
-        "llm",
-        "official",
-        "production",
-        "qa",
-        "testing"
-      ]
-    },
-    {
-      "name": "security-best-practices",
-      "source": "official",
-      "sourceAgent": "codex",
-      "repo": "openai/skills",
-      "stars": 21773,
-      "desc": "\"Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-default coding help. T",
-      "url": "https://github.com/openai/skills/tree/main/skills/.curated/security-best-practices",
-      "install": "$skill-installer security-best-practices",
-      "functionCategory": "design-ui",
-      "topCategoryId": "security",
-      "subCategoryId": "defensive",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "codex"
-      ],
-      "searchText": "security-best-practices \"perform language and framework specific security best-practice reviews and suggest improvements. trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-default coding help. t openai/skills $skill-installer security-best-practices design-ui codex",
-      "officialUrl": "https://platform.openai.com",
-      "pricing": "freemium",
-      "affiliateUrl": null,
-      "tags": [
-        "ai",
-        "api",
-        "codex",
-        "defensive",
-        "design-ui",
-        "gpt-4",
-        "llm",
-        "official",
-        "production"
-      ]
-    },
-    {
-      "name": "security-ownership-map",
-      "source": "official",
-      "sourceAgent": "codex",
-      "repo": "openai/skills",
-      "stars": 21773,
-      "desc": "\"Analyze git repositories to build a security ownership topology (people-to-file), compute bus factor and sensitive-code ownership, and export CSV/JSON for graph databases and visualization. Trigger only when the user explicitly wants a sec",
-      "url": "https://github.com/openai/skills/tree/main/skills/.curated/security-ownership-map",
-      "install": "$skill-installer security-ownership-map",
-      "functionCategory": "design-ui",
-      "topCategoryId": "security",
-      "subCategoryId": "offensive",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "codex"
-      ],
-      "searchText": "security-ownership-map \"analyze git repositories to build a security ownership topology (people-to-file), compute bus factor and sensitive-code ownership, and export csv/json for graph databases and visualization. trigger only when the user explicitly wants a sec openai/skills $skill-installer security-ownership-map design-ui codex",
-      "officialUrl": "https://platform.openai.com",
-      "pricing": "freemium",
-      "affiliateUrl": null,
-      "tags": [
-        "ai",
-        "api",
-        "codex",
-        "design-ui",
-        "gpt-4",
-        "llm",
-        "offensive",
-        "official",
-        "production"
-      ]
-    },
-    {
-      "name": "speech",
-      "source": "official",
-      "sourceAgent": "codex",
-      "repo": "openai/skills",
-      "stars": 21773,
-      "desc": "\"Use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch speech generation via the OpenAI Audio API; run the bundled CLI (`scripts/text_to_speech.py`) with built-in voices and require `",
-      "url": "https://github.com/openai/skills/tree/main/skills/.curated/speech",
-      "install": "$skill-installer speech",
-      "functionCategory": "design-ui",
-      "topCategoryId": "data",
-      "subCategoryId": "analytics",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "codex"
-      ],
-      "searchText": "speech \"use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch speech generation via the openai audio api; run the bundled cli (`scripts/text_to_speech.py`) with built-in voices and require ` openai/skills $skill-installer speech design-ui codex",
-      "officialUrl": "https://platform.openai.com",
-      "pricing": "freemium",
-      "affiliateUrl": null,
-      "tags": [
-        "ai",
-        "analytics",
-        "api",
-        "codex",
-        "design-ui",
-        "gpt-4",
-        "llm",
-        "official",
-        "production"
-      ]
-    },
-    {
-      "name": "winui-app",
-      "source": "official",
-      "sourceAgent": "codex",
-      "repo": "openai/skills",
-      "stars": 21773,
-      "desc": "Bootstrap, develop, and design modern WinUI 3 desktop applications with C# and the Windows App SDK using official Microsoft guidance, WinUI Gallery patterns, Windows App SDK samples, and CommunityToolkit components. Use when creating a bran",
-      "url": "https://github.com/openai/skills/tree/main/skills/.curated/winui-app",
-      "install": "$skill-installer winui-app",
-      "functionCategory": "design-ui",
-      "topCategoryId": "development",
-      "subCategoryId": "coding",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "codex"
-      ],
-      "searchText": "winui-app bootstrap, develop, and design modern winui 3 desktop applications with c# and the windows app sdk using official microsoft guidance, winui gallery patterns, windows app sdk samples, and communitytoolkit components. use when creating a bran openai/skills $skill-installer winui-app design-ui codex",
-      "officialUrl": "https://platform.openai.com",
-      "pricing": "freemium",
-      "affiliateUrl": null,
-      "tags": [
-        "ai",
-        "api",
-        "codex",
-        "coding",
-        "design-ui",
-        "gpt-4",
-        "llm",
-        "official",
-        "production"
-      ]
+      "searchText": "planning-with-files claude code skill implementing manus-style persistent markdown planning — the workflow pattern behind the $2b acquisition. othmanadi/planning-with-files git clone https://github.com/othmanadi/planning-with-files.git design-ui claude"
     },
     {
       "name": "frontend-slides",
       "source": "general",
       "sourceAgent": "other",
       "repo": "zarazhangrui/frontend-slides",
-      "stars": 20925,
+      "stars": 23720,
       "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
       "url": "https://github.com/zarazhangrui/frontend-slides",
       "install": "npm i -g frontend-slides",
@@ -1148,22 +319,374 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "frontend-slides create beautiful slides on the web using a coding agent's frontend skills zarazhangrui/frontend-slides npm i -g frontend-slides design-ui other",
-      "officialUrl": "https://github.com/zarazhangrui/frontend-slides",
-      "pricing": "unknown",
-      "tags": [
-        "deck",
-        "design-ui",
-        "general",
-        "other"
-      ]
+      "searchText": "frontend-slides create beautiful slides on the web using a coding agent's frontend skills zarazhangrui/frontend-slides npm i -g frontend-slides design-ui other"
+    },
+    {
+      "name": "aspnet-core",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22981,
+      "desc": "Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET web development. Use when working on Blazor Web Apps, Razor Pages, MVC, Minimal APIs, controller-based Web APIs, SignalR, gRPC, mid",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/aspnet-core",
+      "install": "$skill-installer aspnet-core",
+      "functionCategory": "design-ui",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "aspnet-core build, review, refactor, or architect asp.net core web applications using current official guidance for .net web development. use when working on blazor web apps, razor pages, mvc, minimal apis, controller-based web apis, signalr, grpc, mid openai/skills $skill-installer aspnet-core design-ui codex"
+    },
+    {
+      "name": "chatgpt-apps",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22981,
+      "desc": "Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications that combine an MCP server and widget UI. Use when Codex needs to design tools, register UI resources, wire the MCP Apps bridge or ChatGPT compatibility APIs, apply A",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/chatgpt-apps",
+      "install": "$skill-installer chatgpt-apps",
+      "functionCategory": "design-ui",
+      "topCategoryId": "development",
+      "subCategoryId": "plugins",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "chatgpt-apps build, scaffold, refactor, and troubleshoot chatgpt apps sdk applications that combine an mcp server and widget ui. use when codex needs to design tools, register ui resources, wire the mcp apps bridge or chatgpt compatibility apis, apply a openai/skills $skill-installer chatgpt-apps design-ui codex"
+    },
+    {
+      "name": "cli-creator",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22981,
+      "desc": "Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Codex to create a command-line tool that can run from any repo, expose com",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/cli-creator",
+      "install": "$skill-installer cli-creator",
+      "functionCategory": "design-ui",
+      "topCategoryId": "development",
+      "subCategoryId": "coding",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "cli-creator build a composable cli for codex from api docs, an openapi spec, existing curl examples, an sdk, a web app, an admin tool, or a local script. use when the user wants codex to create a command-line tool that can run from any repo, expose com openai/skills $skill-installer cli-creator design-ui codex"
+    },
+    {
+      "name": "figma",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22981,
+      "desc": "Use the Figma MCP server to fetch design context, screenshots, variables, and assets from Figma, and to translate Figma nodes into production code. Trigger when a task involves Figma URLs, node IDs, design-to-code implementation, or Figma M",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma",
+      "install": "$skill-installer figma",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design",
+      "subCategoryId": "figma",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "figma use the figma mcp server to fetch design context, screenshots, variables, and assets from figma, and to translate figma nodes into production code. trigger when a task involves figma urls, node ids, design-to-code implementation, or figma m openai/skills $skill-installer figma design-ui codex"
+    },
+    {
+      "name": "figma-code-connect-components",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22981,
+      "desc": "Connects Figma design components to code components using Code Connect mapping tools. Use when user says \"code connect\", \"connect this component to code\", \"map this component\", \"link component to code\", \"create code connect mapping\", or wan",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-code-connect-components",
+      "install": "$skill-installer figma-code-connect-components",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design",
+      "subCategoryId": "figma",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "figma-code-connect-components connects figma design components to code components using code connect mapping tools. use when user says \"code connect\", \"connect this component to code\", \"map this component\", \"link component to code\", \"create code connect mapping\", or wan openai/skills $skill-installer figma-code-connect-components design-ui codex"
+    },
+    {
+      "name": "figma-create-design-system-rules",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22981,
+      "desc": "Generates custom design system rules for the user's codebase. Use when user says \"create design system rules\", \"generate rules for my project\", \"set up design rules\", \"customize design system guidelines\", or wants to establish project-speci",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-create-design-system-rules",
+      "install": "$skill-installer figma-create-design-system-rules",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design",
+      "subCategoryId": "figma",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "figma-create-design-system-rules generates custom design system rules for the user's codebase. use when user says \"create design system rules\", \"generate rules for my project\", \"set up design rules\", \"customize design system guidelines\", or wants to establish project-speci openai/skills $skill-installer figma-create-design-system-rules design-ui codex"
+    },
+    {
+      "name": "figma-create-new-file",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22981,
+      "desc": "Create a new blank Figma file. Use when the user wants to create a new Figma design or FigJam file, or when you need a new file before calling use_figma. Handles plan resolution via whoami if needed. Usage — /figma-create-new-file [editorTy",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-create-new-file",
+      "install": "$skill-installer figma-create-new-file",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design",
+      "subCategoryId": "figma",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "figma-create-new-file create a new blank figma file. use when the user wants to create a new figma design or figjam file, or when you need a new file before calling use_figma. handles plan resolution via whoami if needed. usage — /figma-create-new-file [editorty openai/skills $skill-installer figma-create-new-file design-ui codex"
+    },
+    {
+      "name": "figma-generate-design",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22981,
+      "desc": "\"Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: 'write to Figma', 'create in Figma from code', 'push page to Figma', 'take this app/page and bui",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-generate-design",
+      "install": "$skill-installer figma-generate-design",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design",
+      "subCategoryId": "figma",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "figma-generate-design \"use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into figma. triggers: 'write to figma', 'create in figma from code', 'push page to figma', 'take this app/page and bui openai/skills $skill-installer figma-generate-design design-ui codex"
+    },
+    {
+      "name": "figma-generate-library",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22981,
+      "desc": "\"Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variables/tokens, build component libraries, set up theming (light/dark modes), document foundations, or reconcile gaps between",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-generate-library",
+      "install": "$skill-installer figma-generate-library",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design",
+      "subCategoryId": "figma",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "figma-generate-library \"build or update a professional-grade design system in figma from a codebase. use when the user wants to create variables/tokens, build component libraries, set up theming (light/dark modes), document foundations, or reconcile gaps between openai/skills $skill-installer figma-generate-library design-ui codex"
+    },
+    {
+      "name": "figma-implement-design",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22981,
+      "desc": "Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementing UI code from Figma files, when user mentions \"implement design\", \"generate code\", \"implement component\", provides Figma URLs, or",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-implement-design",
+      "install": "$skill-installer figma-implement-design",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design",
+      "subCategoryId": "figma",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "figma-implement-design translates figma designs into production-ready application code with 1:1 visual fidelity. use when implementing ui code from figma files, when user mentions \"implement design\", \"generate code\", \"implement component\", provides figma urls, or openai/skills $skill-installer figma-implement-design design-ui codex"
+    },
+    {
+      "name": "figma-use",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22981,
+      "desc": "\"**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `use_figma` tool call. NEVER call `use_figma` directly without loading this skill first. Skipping it causes common, hard-to-debug failures. Trigger whenever the user want",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-use",
+      "install": "$skill-installer figma-use",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design",
+      "subCategoryId": "figma",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "figma-use \"**mandatory prerequisite** — you must invoke this skill before every `use_figma` tool call. never call `use_figma` directly without loading this skill first. skipping it causes common, hard-to-debug failures. trigger whenever the user want openai/skills $skill-installer figma-use design-ui codex"
+    },
+    {
+      "name": "hatch-pet",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22981,
+      "desc": "Create, repair, validate, visually QA, and package Codex-compatible animated pets and pet spritesheets from character art, generated images, company or prospect brand cues, or visual references. Use when a user wants a lightweight-worker Co",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/hatch-pet",
+      "install": "$skill-installer hatch-pet",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design",
+      "subCategoryId": "media",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "hatch-pet create, repair, validate, visually qa, and package codex-compatible animated pets and pet spritesheets from character art, generated images, company or prospect brand cues, or visual references. use when a user wants a lightweight-worker co openai/skills $skill-installer hatch-pet design-ui codex"
+    },
+    {
+      "name": "openai-docs",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22981,
+      "desc": "\"Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade a",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/openai-docs",
+      "install": "$skill-installer openai-docs",
+      "functionCategory": "design-ui",
+      "topCategoryId": "docs",
+      "subCategoryId": "references",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "openai-docs \"use when the user asks how to build with openai products or apis, asks about codex itself or choosing codex surfaces, needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade a openai/skills $skill-installer openai-docs design-ui codex"
+    },
+    {
+      "name": "pdf",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22981,
+      "desc": "\"Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as `reportlab`, `pdfplumber`, and `pypdf` for generation and ex",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/pdf",
+      "install": "$skill-installer pdf",
+      "functionCategory": "design-ui",
+      "topCategoryId": "docs",
+      "subCategoryId": "references",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "pdf \"use when tasks involve reading, creating, or reviewing pdf files where rendering and layout matter; prefer visual checks by rendering pages (poppler) and use python tools such as `reportlab`, `pdfplumber`, and `pypdf` for generation and ex openai/skills $skill-installer pdf design-ui codex"
+    },
+    {
+      "name": "playwright",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22981,
+      "desc": "\"Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via `playwright-cli` or the bundled wrapper script.\"",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/playwright",
+      "install": "$skill-installer playwright",
+      "functionCategory": "design-ui",
+      "topCategoryId": "testing",
+      "subCategoryId": "browser",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "playwright \"use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, ui-flow debugging) via `playwright-cli` or the bundled wrapper script.\" openai/skills $skill-installer playwright design-ui codex"
+    },
+    {
+      "name": "playwright-interactive",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22981,
+      "desc": "\"Persistent browser and Electron interaction through `js_repl` for fast iterative UI debugging.\"",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/playwright-interactive",
+      "install": "$skill-installer playwright-interactive",
+      "functionCategory": "design-ui",
+      "topCategoryId": "testing",
+      "subCategoryId": "browser",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "playwright-interactive \"persistent browser and electron interaction through `js_repl` for fast iterative ui debugging.\" openai/skills $skill-installer playwright-interactive design-ui codex"
+    },
+    {
+      "name": "security-best-practices",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22981,
+      "desc": "\"Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-default coding help. T",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/security-best-practices",
+      "install": "$skill-installer security-best-practices",
+      "functionCategory": "design-ui",
+      "topCategoryId": "security",
+      "subCategoryId": "defensive",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "security-best-practices \"perform language and framework specific security best-practice reviews and suggest improvements. trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-default coding help. t openai/skills $skill-installer security-best-practices design-ui codex"
+    },
+    {
+      "name": "security-ownership-map",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22981,
+      "desc": "\"Analyze git repositories to build a security ownership topology (people-to-file), compute bus factor and sensitive-code ownership, and export CSV/JSON for graph databases and visualization. Trigger only when the user explicitly wants a sec",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/security-ownership-map",
+      "install": "$skill-installer security-ownership-map",
+      "functionCategory": "design-ui",
+      "topCategoryId": "security",
+      "subCategoryId": "offensive",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "security-ownership-map \"analyze git repositories to build a security ownership topology (people-to-file), compute bus factor and sensitive-code ownership, and export csv/json for graph databases and visualization. trigger only when the user explicitly wants a sec openai/skills $skill-installer security-ownership-map design-ui codex"
+    },
+    {
+      "name": "speech",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22981,
+      "desc": "\"Use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch speech generation via the OpenAI Audio API; run the bundled CLI (`scripts/text_to_speech.py`) with built-in voices and require `",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/speech",
+      "install": "$skill-installer speech",
+      "functionCategory": "design-ui",
+      "topCategoryId": "data",
+      "subCategoryId": "analytics",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "speech \"use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch speech generation via the openai audio api; run the bundled cli (`scripts/text_to_speech.py`) with built-in voices and require ` openai/skills $skill-installer speech design-ui codex"
+    },
+    {
+      "name": "winui-app",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22981,
+      "desc": "Bootstrap, develop, and design modern WinUI 3 desktop applications with C# and the Windows App SDK using official Microsoft guidance, WinUI Gallery patterns, Windows App SDK samples, and CommunityToolkit components. Use when creating a bran",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/winui-app",
+      "install": "$skill-installer winui-app",
+      "functionCategory": "design-ui",
+      "topCategoryId": "development",
+      "subCategoryId": "coding",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "winui-app bootstrap, develop, and design modern winui 3 desktop applications with c# and the windows app sdk using official microsoft guidance, winui gallery patterns, windows app sdk samples, and communitytoolkit components. use when creating a bran openai/skills $skill-installer winui-app design-ui codex"
     },
     {
       "name": "huashu-design",
       "source": "general",
       "sourceAgent": "claude",
       "repo": "alchaincyf/huashu-design",
-      "stars": 17724,
+      "stars": 20176,
       "desc": "Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic",
       "url": "https://github.com/alchaincyf/huashu-design",
       "install": "git clone https://github.com/alchaincyf/huashu-design.git",
@@ -1174,22 +697,32 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "huashu-design huashu design · html-native design skill for claude code · claude code 里 html 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + mp4 导出 · agent-agnostic alchaincyf/huashu-design git clone https://github.com/alchaincyf/huashu-design.git design-ui claude",
-      "officialUrl": "https://github.com/alchaincyf/huashu-design",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "design-ui",
-        "general",
-        "ui"
-      ]
+      "searchText": "huashu-design huashu design · html-native design skill for claude code · claude code 里 html 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + mp4 导出 · agent-agnostic alchaincyf/huashu-design git clone https://github.com/alchaincyf/huashu-design.git design-ui claude"
+    },
+    {
+      "name": "guizang-ppt-skill",
+      "source": "general",
+      "sourceAgent": "other",
+      "repo": "op7418/guizang-ppt-skill",
+      "stars": 19286,
+      "desc": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
+      "url": "https://github.com/op7418/guizang-ppt-skill",
+      "install": "git clone https://github.com/op7418/guizang-ppt-skill.git",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design",
+      "subCategoryId": "deck",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "other"
+      ],
+      "searchText": "guizang-ppt-skill ai-agent skill for generating polished html slide decks: editorial magazine and swiss layouts, image prompts, social covers, and a webgl/low-power presentation runtime. op7418/guizang-ppt-skill git clone https://github.com/op7418/guizang-ppt-skill.git design-ui other"
     },
     {
       "name": "notebooklm-py",
       "source": "tools",
       "sourceAgent": "multi",
       "repo": "teng-lin/notebooklm-py",
-      "stars": 16149,
+      "stars": 16946,
       "desc": "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
       "url": "https://github.com/teng-lin/notebooklm-py",
       "install": "git clone https://github.com/teng-lin/notebooklm-py.git",
@@ -1202,54 +735,14 @@
         "codex",
         "openclaw"
       ],
-      "searchText": "notebooklm-py unofficial python api and agentic skill for google notebooklm. full programmatic access to notebooklm's features—including capabilities the web ui doesn't expose—via python, cli, and ai agents like claude code, codex, and openclaw. teng-lin/notebooklm-py git clone https://github.com/teng-lin/notebooklm-py.git design-ui claude codex openclaw",
-      "officialUrl": "https://notebooklm.google.com",
-      "pricing": "free",
-      "tags": [
-        "ai",
-        "claude",
-        "codex",
-        "design-ui",
-        "llm",
-        "memory",
-        "note-taking",
-        "openclaw",
-        "research",
-        "tools"
-      ]
-    },
-    {
-      "name": "guizang-ppt-skill",
-      "source": "general",
-      "sourceAgent": "other",
-      "repo": "op7418/guizang-ppt-skill",
-      "stars": 15960,
-      "desc": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
-      "url": "https://github.com/op7418/guizang-ppt-skill",
-      "install": "git clone https://github.com/op7418/guizang-ppt-skill.git",
-      "functionCategory": "design-ui",
-      "topCategoryId": "design",
-      "subCategoryId": "deck",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "other"
-      ],
-      "searchText": "guizang-ppt-skill ai-agent skill for generating polished html slide decks: editorial magazine and swiss layouts, image prompts, social covers, and a webgl/low-power presentation runtime. op7418/guizang-ppt-skill git clone https://github.com/op7418/guizang-ppt-skill.git design-ui other",
-      "officialUrl": "https://github.com/op7418/guizang-ppt-skill",
-      "pricing": "unknown",
-      "tags": [
-        "deck",
-        "design-ui",
-        "general",
-        "other"
-      ]
+      "searchText": "notebooklm-py unofficial python api and agentic skill for google notebooklm. full programmatic access to notebooklm's features—including capabilities the web ui doesn't expose—via python, cli, and ai agents like claude code, codex, and openclaw. teng-lin/notebooklm-py git clone https://github.com/teng-lin/notebooklm-py.git design-ui claude codex openclaw"
     },
     {
       "name": "ai-guide",
       "source": "general",
       "sourceAgent": "multi",
       "repo": "liyupi/ai-guide",
-      "stars": 15399,
+      "stars": 16441,
       "desc": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（Agent Skills / RAG / MCP / A2A）、AI 编程教程（Harness Engineering）、AI 工具用法（Cursor / Claude Code / TRAE / Codex / Copilot）、A",
       "url": "https://github.com/liyupi/ai-guide",
       "install": "npm i -g ai-guide",
@@ -1265,27 +758,14 @@
         "openclaw",
         "gemini"
       ],
-      "searchText": "ai-guide 程序员鱼皮的 ai 资源大全 + vibe coding 零基础教程，分享 openclaw 保姆级教程、大模型玩法（deepseek / gpt / gemini / claude）、最新 ai 资讯、prompt 提示词大全、ai 知识百科（agent skills / rag / mcp / a2a）、ai 编程教程（harness engineering）、ai 工具用法（cursor / claude code / trae / codex / copilot）、a liyupi/ai-guide npm i -g ai-guide design-ui claude codex cursor copilot openclaw gemini",
-      "officialUrl": "https://github.com/liyupi/ai-guide",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "codex",
-        "copilot",
-        "cursor",
-        "design-ui",
-        "gemini",
-        "general",
-        "guides",
-        "openclaw"
-      ]
+      "searchText": "ai-guide 程序员鱼皮的 ai 资源大全 + vibe coding 零基础教程，分享 openclaw 保姆级教程、大模型玩法（deepseek / gpt / gemini / claude）、最新 ai 资讯、prompt 提示词大全、ai 知识百科（agent skills / rag / mcp / a2a）、ai 编程教程（harness engineering）、ai 工具用法（cursor / claude code / trae / codex / copilot）、a liyupi/ai-guide npm i -g ai-guide design-ui claude codex cursor copilot openclaw gemini"
     },
     {
       "name": "open-saas",
       "source": "general",
       "sourceAgent": "claude",
       "repo": "wasp-lang/open-saas",
-      "stars": 14648,
+      "stars": 14791,
       "desc": "A 100% free modern JS SaaS boilerplate (React, NodeJS, Prisma). Full-featured: Auth (email, google, github, slack, MS), Email sending, Background jobs, Landing page, Payments (Stripe, Polar.sh), Shadcn UI, S3 file upload. AI-ready with tail",
       "url": "https://github.com/wasp-lang/open-saas",
       "install": "npm i -g open-saas",
@@ -1296,22 +776,14 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "open-saas a 100% free modern js saas boilerplate (react, nodejs, prisma). full-featured: auth (email, google, github, slack, ms), email sending, background jobs, landing page, payments (stripe, polar.sh), shadcn ui, s3 file upload. ai-ready with tail wasp-lang/open-saas npm i -g open-saas design-ui claude",
-      "officialUrl": "https://github.com/wasp-lang/open-saas",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "design-ui",
-        "general",
-        "platforms"
-      ]
+      "searchText": "open-saas a 100% free modern js saas boilerplate (react, nodejs, prisma). full-featured: auth (email, google, github, slack, ms), email sending, background jobs, landing page, payments (stripe, polar.sh), shadcn ui, s3 file upload. ai-ready with tail wasp-lang/open-saas npm i -g open-saas design-ui claude"
     },
     {
       "name": "opencode",
       "source": "opencode",
       "sourceAgent": "opencode",
       "repo": "opencode-ai/opencode",
-      "stars": 12885,
+      "stars": 13128,
       "desc": "A powerful AI coding agent. Built for the terminal.",
       "url": "https://github.com/opencode-ai/opencode",
       "install": "npm i -g opencode-ai",
@@ -1322,24 +794,14 @@
       "supportedAgents": [
         "opencode"
       ],
-      "searchText": "opencode a powerful ai coding agent. built for the terminal. opencode-ai/opencode npm i -g opencode-ai design-ui opencode",
-      "officialUrl": "https://opencode.ai",
-      "pricing": "free",
-      "tags": [
-        "agent",
-        "coding",
-        "design-ui",
-        "llm",
-        "open-source",
-        "opencode"
-      ]
+      "searchText": "opencode a powerful ai coding agent. built for the terminal. opencode-ai/opencode npm i -g opencode-ai design-ui opencode"
     },
     {
       "name": "Auto-claude-code-research-in-sleep",
       "source": "general",
       "sourceAgent": "multi",
       "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "stars": 11749,
+      "stars": 12746,
       "desc": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
       "install": "git clone https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git",
@@ -1352,24 +814,14 @@
         "codex",
         "openclaw"
       ],
-      "searchText": "auto-claude-code-research-in-sleep aris ⚔️ (auto-research-in-sleep) — lightweight markdown-only skills for autonomous ml research: cross-model review loops, idea discovery, and experiment automation. no framework, no lock-in — works with claude code, codex, openclaw, or any wanshuiyin/auto-claude-code-research-in-sleep git clone https://github.com/wanshuiyin/auto-claude-code-research-in-sleep.git design-ui claude codex openclaw",
-      "officialUrl": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "codex",
-        "design-ui",
-        "general",
-        "openclaw",
-        "research"
-      ]
+      "searchText": "auto-claude-code-research-in-sleep aris ⚔️ (auto-research-in-sleep) — lightweight markdown-only skills for autonomous ml research: cross-model review loops, idea discovery, and experiment automation. no framework, no lock-in — works with claude code, codex, openclaw, or any wanshuiyin/auto-claude-code-research-in-sleep git clone https://github.com/wanshuiyin/auto-claude-code-research-in-sleep.git design-ui claude codex openclaw"
     },
     {
       "name": "refly",
       "source": "general",
       "sourceAgent": "multi",
       "repo": "refly-ai/refly",
-      "stars": 7355,
+      "stars": 7408,
       "desc": "The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are infrastructure, not prompts.",
       "url": "https://github.com/refly-ai/refly",
       "install": "npm i -g refly",
@@ -1382,24 +834,14 @@
         "codex",
         "cursor"
       ],
-      "searchText": "refly the first open-source agent skills builder. define skills by vibe workflow, run on claude code, cursor, codex & more. build clawdbot 🦞· apis for lovable · bots for slack & lark/feishu · skills are infrastructure, not prompts. refly-ai/refly npm i -g refly design-ui claude codex cursor",
-      "officialUrl": "https://github.com/refly-ai/refly",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "codex",
-        "coding",
-        "cursor",
-        "design-ui",
-        "general"
-      ]
+      "searchText": "refly the first open-source agent skills builder. define skills by vibe workflow, run on claude code, cursor, codex & more. build clawdbot 🦞· apis for lovable · bots for slack & lark/feishu · skills are infrastructure, not prompts. refly-ai/refly npm i -g refly design-ui claude codex cursor"
     },
     {
       "name": "html-anything",
       "source": "tools",
       "sourceAgent": "multi",
       "repo": "nexu-io/html-anything",
-      "stars": 6463,
+      "stars": 7338,
       "desc": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu /",
       "url": "https://github.com/nexu-io/html-anything",
       "install": "git clone https://github.com/nexu-io/html-anything.git",
@@ -1416,28 +858,14 @@
         "opencode",
         "openclaw"
       ],
-      "searchText": "html-anything ✨ the agentic html editor — your local ai agent writes the html, you ship it. 🚀 75 skills × 9 surfaces (magazine · deck · poster · xhs / tweet · prototype · data report · hyperframes) 🛡️ sandboxed preview · 📤 1-click to wechat / x / zhihu / nexu-io/html-anything git clone https://github.com/nexu-io/html-anything.git design-ui claude codex cursor copilot hermes opencode openclaw",
-      "officialUrl": "https://github.com/nexu-io/html-anything",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "codex",
-        "coding",
-        "copilot",
-        "cursor",
-        "design-ui",
-        "hermes",
-        "openclaw",
-        "opencode",
-        "tools"
-      ]
+      "searchText": "html-anything ✨ the agentic html editor — your local ai agent writes the html, you ship it. 🚀 75 skills × 9 surfaces (magazine · deck · poster · xhs / tweet · prototype · data report · hyperframes) 🛡️ sandboxed preview · 📤 1-click to wechat / x / zhihu / nexu-io/html-anything git clone https://github.com/nexu-io/html-anything.git design-ui claude codex cursor copilot hermes opencode openclaw"
     },
     {
       "name": "plannotator",
       "source": "tools",
       "sourceAgent": "other",
       "repo": "backnotprop/plannotator",
-      "stars": 6014,
+      "stars": 6556,
       "desc": "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.",
       "url": "https://github.com/backnotprop/plannotator",
       "install": "npm i -g plannotator",
@@ -1448,22 +876,14 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "plannotator annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click. backnotprop/plannotator npm i -g plannotator design-ui other",
-      "officialUrl": "https://github.com/backnotprop/plannotator",
-      "pricing": "unknown",
-      "tags": [
-        "coding",
-        "design-ui",
-        "other",
-        "tools"
-      ]
+      "searchText": "plannotator annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click. backnotprop/plannotator npm i -g plannotator design-ui other"
     },
     {
       "name": "stitch-skills",
       "source": "tools",
       "sourceAgent": "multi",
       "repo": "google-labs-code/stitch-skills",
-      "stars": 5967,
+      "stars": 6231,
       "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "url": "https://github.com/google-labs-code/stitch-skills",
       "install": "npm i -g stitch-skills",
@@ -1476,24 +896,14 @@
         "cursor",
         "gemini"
       ],
-      "searchText": "stitch-skills a library of agent skills designed to work with the stitch mcp server. each skill follows the agent skills open standard, for compatibility with coding agents such as antigravity, gemini cli, claude code, cursor. google-labs-code/stitch-skills npm i -g stitch-skills design-ui claude cursor gemini",
-      "officialUrl": "https://github.com/google-labs-code/stitch-skills",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "cursor",
-        "design-ui",
-        "gemini",
-        "tools",
-        "ui"
-      ]
+      "searchText": "stitch-skills a library of agent skills designed to work with the stitch mcp server. each skill follows the agent skills open standard, for compatibility with coding agents such as antigravity, gemini cli, claude code, cursor. google-labs-code/stitch-skills npm i -g stitch-skills design-ui claude cursor gemini"
     },
     {
       "name": "awesome-agent-skills",
       "source": "community",
       "sourceAgent": "other",
       "repo": "heilcheng/awesome-agent-skills",
-      "stars": 5429,
+      "stars": 5901,
       "desc": "Tutorials, Guides and Agent Skills Directories",
       "url": "https://github.com/heilcheng/awesome-agent-skills",
       "install": "git clone https://github.com/heilcheng/awesome-agent-skills.git  # browse the awesome list",
@@ -1504,22 +914,14 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "awesome-agent-skills tutorials, guides and agent skills directories heilcheng/awesome-agent-skills git clone https://github.com/heilcheng/awesome-agent-skills.git  # browse the awesome list design-ui other",
-      "officialUrl": "https://github.com/heilcheng/awesome-agent-skills",
-      "pricing": "unknown",
-      "tags": [
-        "awesome",
-        "community",
-        "design-ui",
-        "other"
-      ]
+      "searchText": "awesome-agent-skills tutorials, guides and agent skills directories heilcheng/awesome-agent-skills git clone https://github.com/heilcheng/awesome-agent-skills.git  # browse the awesome list design-ui other"
     },
     {
       "name": "Product-Manager-Skills",
       "source": "general",
       "sourceAgent": "multi",
       "repo": "deanpeters/Product-Manager-Skills",
-      "stars": 4989,
+      "stars": 5456,
       "desc": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agents.",
       "url": "https://github.com/deanpeters/Product-Manager-Skills",
       "install": "git clone https://github.com/deanpeters/Product-Manager-Skills.git",
@@ -1531,23 +933,14 @@
         "claude",
         "codex"
       ],
-      "searchText": "product-manager-skills product management skills framework built on battle-tested methods for claude code, cowork, codex, and ai agents. deanpeters/product-manager-skills git clone https://github.com/deanpeters/product-manager-skills.git design-ui claude codex",
-      "officialUrl": "https://github.com/deanpeters/Product-Manager-Skills",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "codex",
-        "design-ui",
-        "general",
-        "productivity"
-      ]
+      "searchText": "product-manager-skills product management skills framework built on battle-tested methods for claude code, cowork, codex, and ai agents. deanpeters/product-manager-skills git clone https://github.com/deanpeters/product-manager-skills.git design-ui claude codex"
     },
     {
       "name": "nexent",
       "source": "tools",
       "sourceAgent": "other",
       "repo": "ModelEngine-Group/nexent",
-      "stars": 4975,
+      "stars": 5355,
       "desc": "Nexent is a zero-code platform for auto-generating production-grade AI agents using Harness Engineering principles — unified tools, skills, memory, and orchestration with built-in constraints, feedback loops, and control planes.",
       "url": "https://github.com/ModelEngine-Group/nexent",
       "install": "git clone https://github.com/ModelEngine-Group/nexent.git",
@@ -1558,22 +951,32 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "nexent nexent is a zero-code platform for auto-generating production-grade ai agents using harness engineering principles — unified tools, skills, memory, and orchestration with built-in constraints, feedback loops, and control planes. modelengine-group/nexent git clone https://github.com/modelengine-group/nexent.git design-ui other",
-      "officialUrl": "https://github.com/ModelEngine-Group/nexent",
-      "pricing": "unknown",
-      "tags": [
-        "design-ui",
-        "other",
-        "platforms",
-        "tools"
-      ]
+      "searchText": "nexent nexent is a zero-code platform for auto-generating production-grade ai agents using harness engineering principles — unified tools, skills, memory, and orchestration with built-in constraints, feedback loops, and control planes. modelengine-group/nexent git clone https://github.com/modelengine-group/nexent.git design-ui other"
+    },
+    {
+      "name": "opensquilla",
+      "source": "general",
+      "sourceAgent": "other",
+      "repo": "opensquilla/opensquilla",
+      "stars": 4940,
+      "desc": "OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density",
+      "url": "https://github.com/opensquilla/opensquilla",
+      "install": "git clone https://github.com/opensquilla/opensquilla.git",
+      "functionCategory": "design-ui",
+      "topCategoryId": "development",
+      "subCategoryId": "tooling",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "other"
+      ],
+      "searchText": "opensquilla opensquilla — token-efficient ai agent with same budget, higher intelligence density opensquilla/opensquilla git clone https://github.com/opensquilla/opensquilla.git design-ui other"
     },
     {
       "name": "SwiftUI-Agent-Skill",
       "source": "tools",
       "sourceAgent": "multi",
       "repo": "twostraws/SwiftUI-Agent-Skill",
-      "stars": 4068,
+      "stars": 4218,
       "desc": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
       "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
       "install": "git clone https://github.com/twostraws/SwiftUI-Agent-Skill.git",
@@ -1585,49 +988,14 @@
         "claude",
         "codex"
       ],
-      "searchText": "swiftui-agent-skill swiftui agent skill for claude code, codex, and other ai tools. twostraws/swiftui-agent-skill git clone https://github.com/twostraws/swiftui-agent-skill.git design-ui claude codex",
-      "officialUrl": "https://github.com/twostraws/SwiftUI-Agent-Skill",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "codex",
-        "coding",
-        "design-ui",
-        "tools"
-      ]
-    },
-    {
-      "name": "opensquilla",
-      "source": "general",
-      "sourceAgent": "other",
-      "repo": "opensquilla/opensquilla",
-      "stars": 3625,
-      "desc": "OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density",
-      "url": "https://github.com/opensquilla/opensquilla",
-      "install": "git clone https://github.com/opensquilla/opensquilla.git",
-      "functionCategory": "design-ui",
-      "topCategoryId": "development",
-      "subCategoryId": "tooling",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "other"
-      ],
-      "searchText": "opensquilla opensquilla — token-efficient ai agent with same budget, higher intelligence density opensquilla/opensquilla git clone https://github.com/opensquilla/opensquilla.git design-ui other",
-      "officialUrl": "https://github.com/opensquilla/opensquilla",
-      "pricing": "unknown",
-      "tags": [
-        "design-ui",
-        "general",
-        "other",
-        "tooling"
-      ]
+      "searchText": "swiftui-agent-skill swiftui agent skill for claude code, codex, and other ai tools. twostraws/swiftui-agent-skill git clone https://github.com/twostraws/swiftui-agent-skill.git design-ui claude codex"
     },
     {
       "name": "Unity-MCP",
       "source": "tools",
       "sourceAgent": "multi",
       "repo": "IvanMurzak/Unity-MCP",
-      "stars": 3091,
+      "stars": 3364,
       "desc": "AI Skills, MCP Tools, and CLI for Unity Engine. Full AI develop and test loop. Use cli for quick setup. Efficient token usage, advanced tools. Any C# method may be turned into a tool by a single line. Works with Claude Code, Gemini, Copilot",
       "url": "https://github.com/IvanMurzak/Unity-MCP",
       "install": "git clone https://github.com/IvanMurzak/Unity-MCP.git",
@@ -1640,54 +1008,14 @@
         "copilot",
         "gemini"
       ],
-      "searchText": "unity-mcp ai skills, mcp tools, and cli for unity engine. full ai develop and test loop. use cli for quick setup. efficient token usage, advanced tools. any c# method may be turned into a tool by a single line. works with claude code, gemini, copilot ivanmurzak/unity-mcp git clone https://github.com/ivanmurzak/unity-mcp.git design-ui claude copilot gemini",
-      "officialUrl": "https://modelcontextprotocol.io",
-      "pricing": "free",
-      "tags": [
-        "ai",
-        "claude",
-        "copilot",
-        "design-ui",
-        "gemini",
-        "integration",
-        "mcp",
-        "plugins",
-        "protocol",
-        "tools"
-      ]
-    },
-    {
-      "name": "nothing-design-skill",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "dominikmartn/nothing-design-skill",
-      "stars": 2418,
-      "desc": "A Claude Code skill for generating UI in the Nothing design language. Monochrome, typographic, industrial.",
-      "url": "https://github.com/dominikmartn/nothing-design-skill",
-      "install": "git clone https://github.com/dominikmartn/nothing-design-skill.git",
-      "functionCategory": "design-ui",
-      "topCategoryId": "design",
-      "subCategoryId": "ui",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "nothing-design-skill a claude code skill for generating ui in the nothing design language. monochrome, typographic, industrial. dominikmartn/nothing-design-skill git clone https://github.com/dominikmartn/nothing-design-skill.git design-ui claude",
-      "officialUrl": "https://github.com/dominikmartn/nothing-design-skill",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "design-ui",
-        "general",
-        "ui"
-      ]
+      "searchText": "unity-mcp ai skills, mcp tools, and cli for unity engine. full ai develop and test loop. use cli for quick setup. efficient token usage, advanced tools. any c# method may be turned into a tool by a single line. works with claude code, gemini, copilot ivanmurzak/unity-mcp git clone https://github.com/ivanmurzak/unity-mcp.git design-ui claude copilot gemini"
     },
     {
       "name": "skills",
       "source": "tools",
       "sourceAgent": "other",
       "repo": "browser-act/skills",
-      "stars": 2247,
+      "stars": 3119,
       "desc": "Browser automation CLI built for AI agents. Break through anti-bot walls, hand off to humans across platforms when stuck. Parallel multi-task execution, independent multi-session operation, isolated multi-account browsing.",
       "url": "https://github.com/browser-act/skills",
       "install": "git clone https://github.com/browser-act/skills.git",
@@ -1698,22 +1026,32 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "skills browser automation cli built for ai agents. break through anti-bot walls, hand off to humans across platforms when stuck. parallel multi-task execution, independent multi-session operation, isolated multi-account browsing. browser-act/skills git clone https://github.com/browser-act/skills.git design-ui other",
-      "officialUrl": "https://github.com/browser-act/skills",
-      "pricing": "unknown",
-      "tags": [
-        "design-ui",
-        "other",
-        "platforms",
-        "tools"
-      ]
+      "searchText": "skills browser automation cli built for ai agents. break through anti-bot walls, hand off to humans across platforms when stuck. parallel multi-task execution, independent multi-session operation, isolated multi-account browsing. browser-act/skills git clone https://github.com/browser-act/skills.git design-ui other"
+    },
+    {
+      "name": "nothing-design-skill",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "dominikmartn/nothing-design-skill",
+      "stars": 2565,
+      "desc": "A Claude Code skill for generating UI in the Nothing design language. Monochrome, typographic, industrial.",
+      "url": "https://github.com/dominikmartn/nothing-design-skill",
+      "install": "git clone https://github.com/dominikmartn/nothing-design-skill.git",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design",
+      "subCategoryId": "ui",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "nothing-design-skill a claude code skill for generating ui in the nothing design language. monochrome, typographic, industrial. dominikmartn/nothing-design-skill git clone https://github.com/dominikmartn/nothing-design-skill.git design-ui claude"
     },
     {
       "name": "skills-manage",
       "source": "tools",
       "sourceAgent": "multi",
       "repo": "iamzhihuix/skills-manage",
-      "stars": 1999,
+      "stars": 2048,
       "desc": "Desktop app to manage AI coding agent skills across Claude Code, Cursor, Gemini CLI, Codex, and 20+ platforms from one place.",
       "url": "https://github.com/iamzhihuix/skills-manage",
       "install": "npm i -g skills-manage",
@@ -1727,25 +1065,14 @@
         "cursor",
         "gemini"
       ],
-      "searchText": "skills-manage desktop app to manage ai coding agent skills across claude code, cursor, gemini cli, codex, and 20+ platforms from one place. iamzhihuix/skills-manage npm i -g skills-manage design-ui claude codex cursor gemini",
-      "officialUrl": "https://github.com/iamzhihuix/skills-manage",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "codex",
-        "cursor",
-        "design-ui",
-        "gemini",
-        "platforms",
-        "tools"
-      ]
+      "searchText": "skills-manage desktop app to manage ai coding agent skills across claude code, cursor, gemini cli, codex, and 20+ platforms from one place. iamzhihuix/skills-manage npm i -g skills-manage design-ui claude codex cursor gemini"
     },
     {
       "name": "aso-skills",
       "source": "general",
       "sourceAgent": "multi",
       "repo": "Eronred/aso-skills",
-      "stars": 1469,
+      "stars": 1547,
       "desc": "AI agent skills for App Store Optimization (ASO) and app marketing. Built for indie developers, app marketers, and growth teams who want Cursor, Claude Code, or any Agent Skills-compatible AI assistant to help with keyword research, metadat",
       "url": "https://github.com/Eronred/aso-skills",
       "install": "git clone https://github.com/Eronred/aso-skills.git",
@@ -1757,23 +1084,14 @@
         "claude",
         "cursor"
       ],
-      "searchText": "aso-skills ai agent skills for app store optimization (aso) and app marketing. built for indie developers, app marketers, and growth teams who want cursor, claude code, or any agent skills-compatible ai assistant to help with keyword research, metadat eronred/aso-skills git clone https://github.com/eronred/aso-skills.git design-ui claude cursor",
-      "officialUrl": "https://github.com/Eronred/aso-skills",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "cursor",
-        "design-ui",
-        "general",
-        "ops"
-      ]
+      "searchText": "aso-skills ai agent skills for app store optimization (aso) and app marketing. built for indie developers, app marketers, and growth teams who want cursor, claude code, or any agent skills-compatible ai assistant to help with keyword research, metadat eronred/aso-skills git clone https://github.com/eronred/aso-skills.git design-ui claude cursor"
     },
     {
       "name": "awesome-design-skills",
       "source": "community",
       "sourceAgent": "multi",
       "repo": "bergside/awesome-design-skills",
-      "stars": 1181,
+      "stars": 1437,
       "desc": "List of 67 awesome DESIGN.md and SKILL.md design skill files for agentic tools like Claude Design, Google Stitch, Codex, Cursor, and other AI tools",
       "url": "https://github.com/bergside/awesome-design-skills",
       "install": "git clone https://github.com/bergside/awesome-design-skills.git  # browse the awesome list",
@@ -1786,24 +1104,14 @@
         "codex",
         "cursor"
       ],
-      "searchText": "awesome-design-skills list of 67 awesome design.md and skill.md design skill files for agentic tools like claude design, google stitch, codex, cursor, and other ai tools bergside/awesome-design-skills git clone https://github.com/bergside/awesome-design-skills.git  # browse the awesome list design-ui claude codex cursor",
-      "officialUrl": "https://github.com/bergside/awesome-design-skills",
-      "pricing": "unknown",
-      "tags": [
-        "awesome",
-        "claude",
-        "codex",
-        "community",
-        "cursor",
-        "design-ui"
-      ]
+      "searchText": "awesome-design-skills list of 67 awesome design.md and skill.md design skill files for agentic tools like claude design, google stitch, codex, cursor, and other ai tools bergside/awesome-design-skills git clone https://github.com/bergside/awesome-design-skills.git  # browse the awesome list design-ui claude codex cursor"
     },
     {
       "name": "hve-core",
       "source": "general",
       "sourceAgent": "copilot",
       "repo": "microsoft/hve-core",
-      "stars": 1113,
+      "stars": 1228,
       "desc": "A refined collection of Hypervelocity Engineering components (instructions, prompts, agents, and skills) to start your project off right, or upgrade your existing projects to get the most out of GitHub Copilot",
       "url": "https://github.com/microsoft/hve-core",
       "install": "git clone https://github.com/microsoft/hve-core.git",
@@ -1814,15 +1122,7 @@
       "supportedAgents": [
         "copilot"
       ],
-      "searchText": "hve-core a refined collection of hypervelocity engineering components (instructions, prompts, agents, and skills) to start your project off right, or upgrade your existing projects to get the most out of github copilot microsoft/hve-core git clone https://github.com/microsoft/hve-core.git design-ui copilot",
-      "officialUrl": "https://github.com/microsoft/hve-core",
-      "pricing": "unknown",
-      "tags": [
-        "copilot",
-        "design-ui",
-        "general",
-        "platforms"
-      ]
+      "searchText": "hve-core a refined collection of hypervelocity engineering components (instructions, prompts, agents, and skills) to start your project off right, or upgrade your existing projects to get the most out of github copilot microsoft/hve-core git clone https://github.com/microsoft/hve-core.git design-ui copilot"
     },
     {
       "name": "typeui",
@@ -1842,17 +1142,7 @@
         "codex",
         "cursor"
       ],
-      "searchText": "typeui build better ui with codex, claude, cursor and other ai tools bergside/typeui npm i -g typeui design-ui claude codex cursor",
-      "officialUrl": "https://github.com/bergside/typeui",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "codex",
-        "cursor",
-        "design-ui",
-        "tools",
-        "ui"
-      ]
+      "searchText": "typeui build better ui with codex, claude, cursor and other ai tools bergside/typeui npm i -g typeui design-ui claude codex cursor"
     },
     {
       "name": "thClaws",
@@ -1870,48 +1160,14 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "thclaws open-source ai agent harness in native rust — gui, cli, headless, and webapp from one binary. multi-provider, mcp, skills, plugins, agent teams. thclaws/thclaws git clone https://github.com/thclaws/thclaws.git design-ui other",
-      "officialUrl": "https://github.com/thClaws/thClaws",
-      "pricing": "unknown",
-      "tags": [
-        "design-ui",
-        "other",
-        "plugins",
-        "tools"
-      ]
-    },
-    {
-      "name": "skills",
-      "source": "general",
-      "sourceAgent": "other",
-      "repo": "oracle/skills",
-      "stars": 657,
-      "desc": "Oracle Skills is a curated, open-source collection of practical, installable skills for working with Oracle technologies. It provides developers, administrators, and AI agents with high-quality, source-backed guidance across the entire Orac",
-      "url": "https://github.com/oracle/skills",
-      "install": "git clone https://github.com/oracle/skills.git  # browse the awesome list",
-      "functionCategory": "design-ui",
-      "topCategoryId": "development",
-      "subCategoryId": "coding",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "other"
-      ],
-      "searchText": "skills oracle skills is a curated, open-source collection of practical, installable skills for working with oracle technologies. it provides developers, administrators, and ai agents with high-quality, source-backed guidance across the entire orac oracle/skills git clone https://github.com/oracle/skills.git  # browse the awesome list design-ui other",
-      "officialUrl": "https://github.com/oracle/skills",
-      "pricing": "unknown",
-      "tags": [
-        "coding",
-        "design-ui",
-        "general",
-        "other"
-      ]
+      "searchText": "thclaws open-source ai agent harness in native rust — gui, cli, headless, and webapp from one binary. multi-provider, mcp, skills, plugins, agent teams. thclaws/thclaws git clone https://github.com/thclaws/thclaws.git design-ui other"
     },
     {
       "name": "awesome-ai-tools-for-ui",
       "source": "community",
       "sourceAgent": "other",
       "repo": "maxbogo/awesome-ai-tools-for-ui",
-      "stars": 547,
+      "stars": 709,
       "desc": "Curated list of awesome AI tools to build beautiful UI/UX.",
       "url": "https://github.com/maxbogo/awesome-ai-tools-for-ui",
       "install": "git clone https://github.com/maxbogo/awesome-ai-tools-for-ui.git  # browse the awesome list",
@@ -1922,22 +1178,32 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "awesome-ai-tools-for-ui curated list of awesome ai tools to build beautiful ui/ux. maxbogo/awesome-ai-tools-for-ui git clone https://github.com/maxbogo/awesome-ai-tools-for-ui.git  # browse the awesome list design-ui other",
-      "officialUrl": "https://github.com/maxbogo/awesome-ai-tools-for-ui",
-      "pricing": "unknown",
-      "tags": [
-        "awesome",
-        "community",
-        "design-ui",
+      "searchText": "awesome-ai-tools-for-ui curated list of awesome ai tools to build beautiful ui/ux. maxbogo/awesome-ai-tools-for-ui git clone https://github.com/maxbogo/awesome-ai-tools-for-ui.git  # browse the awesome list design-ui other"
+    },
+    {
+      "name": "skills",
+      "source": "general",
+      "sourceAgent": "other",
+      "repo": "oracle/skills",
+      "stars": 704,
+      "desc": "Oracle Skills is a curated, open-source collection of practical, installable skills for working with Oracle technologies. It provides developers, administrators, and AI agents with high-quality, source-backed guidance across the entire Orac",
+      "url": "https://github.com/oracle/skills",
+      "install": "git clone https://github.com/oracle/skills.git  # browse the awesome list",
+      "functionCategory": "design-ui",
+      "topCategoryId": "development",
+      "subCategoryId": "coding",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
         "other"
-      ]
+      ],
+      "searchText": "skills oracle skills is a curated, open-source collection of practical, installable skills for working with oracle technologies. it provides developers, administrators, and ai agents with high-quality, source-backed guidance across the entire orac oracle/skills git clone https://github.com/oracle/skills.git  # browse the awesome list design-ui other"
     },
     {
       "name": "sf-skills",
       "source": "tools",
       "sourceAgent": "other",
       "repo": "forcedotcom/sf-skills",
-      "stars": 520,
+      "stars": 619,
       "desc": "Salesforce's curated collection of agent skills for building applications. Optimized for Agentforce Vibes, compatible with all AI tools.",
       "url": "https://github.com/forcedotcom/sf-skills",
       "install": "git clone https://github.com/forcedotcom/sf-skills.git  # browse the awesome list",
@@ -1948,15 +1214,7 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "sf-skills salesforce's curated collection of agent skills for building applications. optimized for agentforce vibes, compatible with all ai tools. forcedotcom/sf-skills git clone https://github.com/forcedotcom/sf-skills.git  # browse the awesome list design-ui other",
-      "officialUrl": "https://github.com/forcedotcom/sf-skills",
-      "pricing": "unknown",
-      "tags": [
-        "coding",
-        "design-ui",
-        "other",
-        "tools"
-      ]
+      "searchText": "sf-skills salesforce's curated collection of agent skills for building applications. optimized for agentforce vibes, compatible with all ai tools. forcedotcom/sf-skills git clone https://github.com/forcedotcom/sf-skills.git  # browse the awesome list design-ui other"
     },
     {
       "name": "compose-skill",
@@ -1978,19 +1236,25 @@
         "copilot",
         "gemini"
       ],
-      "searchText": "compose-skill jetpack compose agent skill — ai-powered coding guidance with actual androidx/androidx source code receipts. works with claude code, codex cli, gemini cli, cursor, copilot, windsurf, and more. aldefy/compose-skill git clone https://github.com/aldefy/compose-skill.git design-ui claude codex cursor copilot gemini",
-      "officialUrl": "https://github.com/aldefy/compose-skill",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "codex",
-        "coding",
-        "copilot",
-        "cursor",
-        "design-ui",
-        "gemini",
-        "tools"
-      ]
+      "searchText": "compose-skill jetpack compose agent skill — ai-powered coding guidance with actual androidx/androidx source code receipts. works with claude code, codex cli, gemini cli, cursor, copilot, windsurf, and more. aldefy/compose-skill git clone https://github.com/aldefy/compose-skill.git design-ui claude codex cursor copilot gemini"
+    },
+    {
+      "name": "mercury-agent-skills",
+      "source": "general",
+      "sourceAgent": "hermes",
+      "repo": "cosmicstack-labs/mercury-agent-skills",
+      "stars": 352,
+      "desc": "A curated registry of reusable Mercury Agent, Open Claw or Hermes Agent skills designed for real developer workflows, persistent memory, and token-efficient execution.",
+      "url": "https://github.com/cosmicstack-labs/mercury-agent-skills",
+      "install": "git clone https://github.com/cosmicstack-labs/mercury-agent-skills.git  # browse the awesome list",
+      "functionCategory": "design-ui",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "mercury-agent-skills a curated registry of reusable mercury agent, open claw or hermes agent skills designed for real developer workflows, persistent memory, and token-efficient execution. cosmicstack-labs/mercury-agent-skills git clone https://github.com/cosmicstack-labs/mercury-agent-skills.git  # browse the awesome list design-ui hermes"
     },
     {
       "name": "power-platform-skills",
@@ -2009,49 +1273,14 @@
         "claude",
         "copilot"
       ],
-      "searchText": "power-platform-skills a plugin marketplace for claude code/github copilot that provides power platform development plugins, including reusable skills, agents, and commands for building and deploying solutions. microsoft/power-platform-skills npm i -g power-platform-skills design-ui claude copilot",
-      "officialUrl": "https://github.com/microsoft/power-platform-skills",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "copilot",
-        "design-ui",
-        "general",
-        "platforms"
-      ]
-    },
-    {
-      "name": "mercury-agent-skills",
-      "source": "general",
-      "sourceAgent": "hermes",
-      "repo": "cosmicstack-labs/mercury-agent-skills",
-      "stars": 339,
-      "desc": "A curated registry of reusable Mercury Agent, Open Claw or Hermes Agent skills designed for real developer workflows, persistent memory, and token-efficient execution.",
-      "url": "https://github.com/cosmicstack-labs/mercury-agent-skills",
-      "install": "git clone https://github.com/cosmicstack-labs/mercury-agent-skills.git  # browse the awesome list",
-      "functionCategory": "design-ui",
-      "topCategoryId": "docs",
-      "subCategoryId": "awesome",
-      "categoryPath": "design-ui",
-      "supportedAgents": [
-        "hermes"
-      ],
-      "searchText": "mercury-agent-skills a curated registry of reusable mercury agent, open claw or hermes agent skills designed for real developer workflows, persistent memory, and token-efficient execution. cosmicstack-labs/mercury-agent-skills git clone https://github.com/cosmicstack-labs/mercury-agent-skills.git  # browse the awesome list design-ui hermes",
-      "officialUrl": "https://github.com/cosmicstack-labs/mercury-agent-skills",
-      "pricing": "unknown",
-      "tags": [
-        "awesome",
-        "design-ui",
-        "general",
-        "hermes"
-      ]
+      "searchText": "power-platform-skills a plugin marketplace for claude code/github copilot that provides power platform development plugins, including reusable skills, agents, and commands for building and deploying solutions. microsoft/power-platform-skills npm i -g power-platform-skills design-ui claude copilot"
     },
     {
       "name": "skills-for-copilot-studio",
       "source": "tools",
       "sourceAgent": "multi",
       "repo": "microsoft/skills-for-copilot-studio",
-      "stars": 307,
+      "stars": 335,
       "desc": "A skill for AI-coding tools to build and edit Microsoft Copilot Studio agents as YAML — with schema validation, templates, and AI-powered skills. Suited for Claude Code, GitHub Copilot CLI, and more.",
       "url": "https://github.com/microsoft/skills-for-copilot-studio",
       "install": "npm i -g skills-for-copilot-studio",
@@ -2063,23 +1292,14 @@
         "claude",
         "copilot"
       ],
-      "searchText": "skills-for-copilot-studio a skill for ai-coding tools to build and edit microsoft copilot studio agents as yaml — with schema validation, templates, and ai-powered skills. suited for claude code, github copilot cli, and more. microsoft/skills-for-copilot-studio npm i -g skills-for-copilot-studio design-ui claude copilot",
-      "officialUrl": "https://github.com/microsoft/skills-for-copilot-studio",
-      "pricing": "unknown",
-      "tags": [
-        "claude",
-        "copilot",
-        "design-ui",
-        "platforms",
-        "tools"
-      ]
+      "searchText": "skills-for-copilot-studio a skill for ai-coding tools to build and edit microsoft copilot studio agents as yaml — with schema validation, templates, and ai-powered skills. suited for claude code, github copilot cli, and more. microsoft/skills-for-copilot-studio npm i -g skills-for-copilot-studio design-ui claude copilot"
     },
     {
       "name": "awesome-claude",
       "source": "community",
       "sourceAgent": "claude",
       "repo": "JSONbored/awesome-claude",
-      "stars": 262,
+      "stars": 273,
       "desc": "HeyClaude is a curated registry and distribution surface for Claude and AI-workflow assets: agents, MCP servers, skills, commands, hooks, rules, guides, tools, jobs, Raycast feeds, static data exports, and an npm MCP package.",
       "url": "https://github.com/JSONbored/awesome-claude",
       "install": "git clone https://github.com/JSONbored/awesome-claude.git  # browse the awesome list",
@@ -2090,15 +1310,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "awesome-claude heyclaude is a curated registry and distribution surface for claude and ai-workflow assets: agents, mcp servers, skills, commands, hooks, rules, guides, tools, jobs, raycast feeds, static data exports, and an npm mcp package. jsonbored/awesome-claude git clone https://github.com/jsonbored/awesome-claude.git  # browse the awesome list design-ui claude",
-      "officialUrl": "https://github.com/JSONbored/awesome-claude",
-      "pricing": "unknown",
-      "tags": [
-        "awesome",
-        "claude",
-        "community",
-        "design-ui"
-      ]
+      "searchText": "awesome-claude heyclaude is a curated registry and distribution surface for claude and ai-workflow assets: agents, mcp servers, skills, commands, hooks, rules, guides, tools, jobs, raycast feeds, static data exports, and an npm mcp package. jsonbored/awesome-claude git clone https://github.com/jsonbored/awesome-claude.git  # browse the awesome list design-ui claude"
     },
     {
       "name": "solana-new",
@@ -2116,15 +1328,7 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "solana-new think. build. ship. tasteful & useful crypto apps. using a curated skills + knowledge base for ai agents on solana contracts & integrations sendaifun/solana-new git clone https://github.com/sendaifun/solana-new.git  # browse the awesome list design-ui other",
-      "officialUrl": "https://github.com/sendaifun/solana-new",
-      "pricing": "unknown",
-      "tags": [
-        "coding",
-        "design-ui",
-        "general",
-        "other"
-      ]
+      "searchText": "solana-new think. build. ship. tasteful & useful crypto apps. using a curated skills + knowledge base for ai agents on solana contracts & integrations sendaifun/solana-new git clone https://github.com/sendaifun/solana-new.git  # browse the awesome list design-ui other"
     }
   ]
 }
