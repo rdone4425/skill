@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "functionCategory": "video-gen",
+    "topCategoryId": "video-gen",
+    "subCategoryId": "general",
+    "categoryPath": "video-gen",
+    "count": 3,
+    "sourceData": "categories"
+  },
+  "skills": [
+    {
+      "name": "hyperframes",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "heygen-com/hyperframes",
+      "stars": 32015,
+      "desc": "Write HTML. Render video. Built for agents. AI-native video production framework.",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "hyperframes write html. render video. built for agents. ai-native video production framework. heygen-com/hyperframes video-multimedia general"
+    },
+    {
+      "name": "waoowaoo",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "waooAI/waoowaoo",
+      "stars": 12963,
+      "desc": "首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production.",
+      "url": "https://github.com/waooAI/waoowaoo",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "waoowaoo 首家工业级全流程 ai 影视生产平台。industry-first professional ai agent platform for controllable film & video production. waooai/waoowaoo video-multimedia general"
+    },
+    {
+      "name": "toonflow",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "HBAI-Ltd/Toonflow-app",
+      "stars": 10698,
+      "desc": "开源一站式 AI 短剧创作工具，将小说、剧本转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成。",
+      "url": "https://github.com/HBAI-Ltd/Toonflow-app",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "toonflow 开源一站式 ai 短剧创作工具，将小说、剧本转化为动画短剧。集成 ai 编剧、智能分镜、角色与视频生成。 hbai-ltd/toonflow-app video-multimedia general"
+    }
+  ]
+}

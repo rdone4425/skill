@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "functionCategory": "audio-speech",
+    "topCategoryId": "audio-speech",
+    "subCategoryId": "general",
+    "categoryPath": "audio-speech",
+    "count": 1,
+    "sourceData": "categories"
+  },
+  "skills": [
+    {
+      "name": "riffusion",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "riffusion/riffusion-hobby",
+      "stars": 3897,
+      "desc": "Stable diffusion for real-time music generation. Generate AI music with text prompts in your browser.",
+      "url": "https://github.com/riffusion/riffusion-hobby",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "riffusion stable diffusion for real-time music generation. generate ai music with text prompts in your browser. riffusion/riffusion-hobby video-multimedia general"
+    }
+  ]
+}

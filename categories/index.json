@@ -8,7 +8,7 @@
       "path": "dev-tools",
       "groupId": "development",
       "subcategoryId": "tools",
-      "count": 978
+      "count": 831
     },
     {
       "id": "general",
@@ -113,7 +113,7 @@
       "path": "video-multimedia",
       "groupId": "video-multimedia",
       "subcategoryId": "video-multimedia",
-      "count": 73
+      "count": 69
     },
     {
       "id": "3d",
@@ -135,6 +135,27 @@
       "groupId": "audio",
       "subcategoryId": "audio",
       "count": 60
+    },
+    {
+      "id": "agent-framework",
+      "path": "agent-framework",
+      "groupId": "agent-framework",
+      "subcategoryId": "general",
+      "count": 147
+    },
+    {
+      "id": "video-gen",
+      "path": "video-gen",
+      "groupId": "video-gen",
+      "subcategoryId": "general",
+      "count": 3
+    },
+    {
+      "id": "audio-speech",
+      "path": "audio-speech",
+      "groupId": "audio-speech",
+      "subcategoryId": "general",
+      "count": 1
     }
   ],
   "groups": [
