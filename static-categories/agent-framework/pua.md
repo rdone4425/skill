@@ -1,0 +1,16 @@
+---
+name: pua
+category: agent-framework
+category_name: Agent 框架
+description: 你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。  一个agent使用的高能动性的skill。  Your AI has been placed on a PIP. 30 days to show improvement.
+url: https://github.com/tanweai/pua
+platform: general
+---
+
+# pua
+
+Agent 框架 | general
+
+你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。  一个agent使用的高能动性的skill。  Your AI has been placed on a PIP. 30 days to show improvement.
+
+Source: 

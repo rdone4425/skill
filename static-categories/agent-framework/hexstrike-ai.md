@@ -1,0 +1,16 @@
+---
+name: hexstrike-ai
+category: agent-framework
+category_name: Agent 框架
+description: HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.
+url: https://github.com/0x4m4/hexstrike-ai
+platform: claude
+---
+
+# hexstrike-ai
+
+Agent 框架 | claude
+
+HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.
+
+Source: 

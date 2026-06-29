@@ -7810,5 +7810,261 @@
     "url": "https://github.com/mugisha1555/Aeon-Flux-DeepSeek",
     "category": "agent-framework",
     "platform": "general"
+  },
+  {
+    "name": "ascii-ui-mockup-generator",
+    "description": "ASCII UI Mockup Generator - creates terminal UI mockups",
+    "url": "https://github.com/softaworks/agent-toolkit",
+    "category": "design-ui",
+    "platform": "claude",
+    "source": "softaworks/agent-toolkit"
+  },
+  {
+    "name": "codebase-pattern-finder",
+    "description": "Codebase Pattern Finder - analyzes code patterns at scale",
+    "url": "https://github.com/softaworks/agent-toolkit",
+    "category": "dev-tools",
+    "platform": "claude",
+    "source": "softaworks/agent-toolkit"
+  },
+  {
+    "name": "communication-excellence-coach",
+    "description": "Communication Excellence Coach - agent for improving communication",
+    "url": "https://github.com/softaworks/agent-toolkit",
+    "category": "docs-content",
+    "platform": "claude",
+    "source": "softaworks/agent-toolkit"
+  },
+  {
+    "name": "general-purpose",
+    "description": "General Purpose Agent - universal AI agent",
+    "url": "https://github.com/softaworks/agent-toolkit",
+    "category": "agent-framework",
+    "platform": "claude",
+    "source": "softaworks/agent-toolkit"
+  },
+  {
+    "name": "mermaid-diagram-specialist",
+    "description": "Mermaid Diagram Specialist - creates Mermaid diagrams",
+    "url": "https://github.com/softaworks/agent-toolkit",
+    "category": "design-ui",
+    "platform": "claude",
+    "source": "softaworks/agent-toolkit"
+  },
+  {
+    "name": "ui-ux-designer",
+    "description": "UI/UX Designer agent - design and frontend skills",
+    "url": "https://github.com/softaworks/agent-toolkit",
+    "category": "design-ui",
+    "platform": "claude",
+    "source": "softaworks/agent-toolkit"
+  },
+  {
+    "name": "agent-md-refactor",
+    "description": "Agent MD Refactor - refactors AGENTS.md/SKILL.md files",
+    "url": "https://github.com/softaworks/agent-toolkit",
+    "category": "dev-tools",
+    "platform": "claude",
+    "source": "softaworks/agent-toolkit"
+  },
+  {
+    "name": "backend-to-frontend-handoff-docs",
+    "description": "Backend to Frontend Handoff Docs generator",
+    "url": "https://github.com/softaworks/agent-toolkit",
+    "category": "backend-api",
+    "platform": "claude",
+    "source": "softaworks/agent-toolkit"
+  },
+  {
+    "name": "n-skills-dev-browser",
+    "description": "Dev Browser - automated browser testing and dev tools",
+    "url": "https://github.com/numman-ali/n-skills",
+    "category": "dev-tools",
+    "platform": "claude",
+    "source": "numman-ali/n-skills"
+  },
+  {
+    "name": "n-skills-gastown",
+    "description": "Gastown - tool management for AI agents",
+    "url": "https://github.com/numman-ali/n-skills",
+    "category": "dev-tools",
+    "platform": "claude",
+    "source": "numman-ali/n-skills"
+  },
+  {
+    "name": "n-skills-zai-cli",
+    "description": "Zai CLI - command-line AI tool",
+    "url": "https://github.com/numman-ali/n-skills",
+    "category": "dev-tools",
+    "platform": "claude",
+    "source": "numman-ali/n-skills"
+  },
+  {
+    "name": "n-skills-open-source-maintainer",
+    "description": "Open Source Maintainer - automated maintainer workflow",
+    "url": "https://github.com/numman-ali/n-skills",
+    "category": "dev-tools",
+    "platform": "claude",
+    "source": "numman-ali/n-skills"
+  },
+  {
+    "name": "azure-advisor",
+    "description": "Azure Advisor - personalized cloud best practices recommendations",
+    "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+    "category": "devops-deploy",
+    "platform": "general",
+    "source": "MicrosoftDocs/Agent-Skills"
+  },
+  {
+    "name": "azure-api-management",
+    "description": "Azure API Management - publish, secure, and analyze APIs",
+    "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+    "category": "backend-api",
+    "platform": "general",
+    "source": "MicrosoftDocs/Agent-Skills"
+  },
+  {
+    "name": "azure-app-service",
+    "description": "Azure App Service - web app hosting and deployment",
+    "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+    "category": "devops-deploy",
+    "platform": "general",
+    "source": "MicrosoftDocs/Agent-Skills"
+  },
+  {
+    "name": "azure-architecture",
+    "description": "Azure Architecture - cloud architecture design patterns",
+    "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+    "category": "devops-deploy",
+    "platform": "general",
+    "source": "MicrosoftDocs/Agent-Skills"
+  },
+  {
+    "name": "azure-automation",
+    "description": "Azure Automation - cloud automation and configuration management",
+    "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+    "category": "automation-productivity",
+    "platform": "general",
+    "source": "MicrosoftDocs/Agent-Skills"
+  },
+  {
+    "name": "azure-ai-vision",
+    "description": "Azure AI Vision - computer vision and image analysis",
+    "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+    "category": "data-ai",
+    "platform": "general",
+    "source": "MicrosoftDocs/Agent-Skills"
+  },
+  {
+    "name": "azure-anomaly-detector",
+    "description": "Azure Anomaly Detector - detect anomalies in time-series data",
+    "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+    "category": "data-ai",
+    "platform": "general",
+    "source": "MicrosoftDocs/Agent-Skills"
+  },
+  {
+    "name": "azure-devops",
+    "description": "Azure DevOps - CI/CD, testing, and project management",
+    "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+    "category": "devops-deploy",
+    "platform": "general",
+    "source": "MicrosoftDocs/Agent-Skills"
+  },
+  {
+    "name": "azure-cosmos-db",
+    "description": "Azure Cosmos DB - globally distributed NoSQL database",
+    "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+    "category": "backend-api",
+    "platform": "general",
+    "source": "MicrosoftDocs/Agent-Skills"
+  },
+  {
+    "name": "azure-functions",
+    "description": "Azure Functions - serverless compute platform",
+    "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+    "category": "backend-api",
+    "platform": "general",
+    "source": "MicrosoftDocs/Agent-Skills"
+  },
+  {
+    "name": "azure-key-vault",
+    "description": "Azure Key Vault - secrets, keys, and certificate management",
+    "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+    "category": "security",
+    "platform": "general",
+    "source": "MicrosoftDocs/Agent-Skills"
+  },
+  {
+    "name": "azure-sql-database",
+    "description": "Azure SQL Database - managed cloud database service",
+    "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+    "category": "backend-api",
+    "platform": "general",
+    "source": "MicrosoftDocs/Agent-Skills"
+  },
+  {
+    "name": "azure-kubernetes-service",
+    "description": "Azure Kubernetes Service - managed Kubernetes",
+    "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+    "category": "devops-deploy",
+    "platform": "general",
+    "source": "MicrosoftDocs/Agent-Skills"
+  },
+  {
+    "name": "azure-container-apps",
+    "description": "Azure Container Apps - serverless containers",
+    "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+    "category": "devops-deploy",
+    "platform": "general",
+    "source": "MicrosoftDocs/Agent-Skills"
+  },
+  {
+    "name": "azure-static-web-apps",
+    "description": "Azure Static Web Apps - static site hosting with serverless APIs",
+    "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+    "category": "devops-deploy",
+    "platform": "general",
+    "source": "MicrosoftDocs/Agent-Skills"
+  },
+  {
+    "name": "azure-sentinel",
+    "description": "Azure Sentinel - cloud-native SIEM and SOAR",
+    "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+    "category": "security",
+    "platform": "general",
+    "source": "MicrosoftDocs/Agent-Skills"
+  },
+  {
+    "name": "azure-monitor",
+    "description": "Azure Monitor - full-stack monitoring and observability",
+    "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+    "category": "devops-deploy",
+    "platform": "general",
+    "source": "MicrosoftDocs/Agent-Skills"
+  },
+  {
+    "name": "azure-active-directory",
+    "description": "Azure Active Directory - identity and access management",
+    "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+    "category": "security",
+    "platform": "general",
+    "source": "MicrosoftDocs/Agent-Skills"
+  },
+  {
+    "name": "azure-storage",
+    "description": "Azure Storage - blob, file, queue, and table storage",
+    "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+    "category": "backend-api",
+    "platform": "general",
+    "source": "MicrosoftDocs/Agent-Skills"
+  },
+  {
+    "name": "azure-networking",
+    "description": "Azure Networking - VNet, load balancer, gateway, firewall",
+    "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+    "category": "devops-deploy",
+    "platform": "general",
+    "source": "MicrosoftDocs/Agent-Skills"
   }
 ]

@@ -1,0 +1,11 @@
+{
+  "total_skills": 1148,
+  "categories": 14,
+  "new_from_competitors": 32,
+  "sources": [
+    "softaworks/agent-toolkit",
+    "numman-ali/n-skills",
+    "MicrosoftDocs/Agent-Skills"
+  ],
+  "timestamp": "2026-06-29T20:00:00Z"
+}

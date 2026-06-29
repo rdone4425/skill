@@ -1,0 +1,16 @@
+---
+name: huashu-design
+category: agent-framework
+category_name: Agent 框架
+description: Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic
+url: https://github.com/alchaincyf/huashu-design
+platform: claude
+---
+
+# huashu-design
+
+Agent 框架 | claude
+
+Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic
+
+Source: 
