@@ -1,0 +1,16 @@
+# Cloudflare Pages headers
+# 静态资源缓存 5 分钟，配合 push 自动更新；
+# （之前用 1 年 immutable 会有 CSS 旧版问题，浏览器不会重新拉取）
+
+/css/*
+  Cache-Control: public, max-age=300, must-revalidate
+  X-Content-Type-Options: nosniff
+
+/js/*
+  Cache-Control: public, max-age=300, must-revalidate
+  X-Content-Type-Options: nosniff
+
+/
+  Cache-Control: public, max-age=60, must-revalidate
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY

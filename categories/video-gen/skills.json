@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "functionCategory": "video-gen",
+    "topCategoryId": "video-gen",
+    "subCategoryId": "video-gen",
+    "categoryPath": "video-gen",
+    "count": 10,
+    "sourceData": "categories"
+  },
+  "skills": [
+    {
+      "name": "hyperframes",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "heygen-com/hyperframes",
+      "stars": 32015,
+      "desc": "Write HTML. Render video. Built for agents. AI-native video production framework.",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "hyperframes write html. render video. built for agents. ai-native video production framework. heygen-com/hyperframes video-gen general"
+    },
+    {
+      "name": "waoowaoo",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "waooAI/waoowaoo",
+      "stars": 12963,
+      "desc": "首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production.",
+      "url": "https://github.com/waooAI/waoowaoo",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "waoowaoo 首家工业级全流程 ai 影视生产平台。industry-first professional ai agent platform for controllable film & video production. waooai/waoowaoo video-gen general"
+    },
+    {
+      "name": "toonflow",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "HBAI-Ltd/Toonflow-app",
+      "stars": 10698,
+      "desc": "开源一站式 AI 短剧创作工具，将小说、剧本转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成。",
+      "url": "https://github.com/HBAI-Ltd/Toonflow-app",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "toonflow 开源一站式 ai 短剧创作工具，将小说、剧本转化为动画短剧。集成 ai 编剧、智能分镜、角色与视频生成。 hbai-ltd/toonflow-app video-gen general"
+    },
+    {
+      "name": "mmagic",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "open-mmlab/mmagic",
+      "stars": 7436,
+      "desc": "OpenMMLab Multimodal Advanced, Generative, and Intelligent Creation Toolbox. Unlocks the abilities of multimodal models for image/video generation, editing, and vision-language tasks.",
+      "url": "https://github.com/open-mmlab/mmagic",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mmagic openmmlab multimodal advanced, generative, and intelligent creation toolbox. unlocks the abilities of multimodal models for image/video generation, editing, and vision-language tasks. open-mmlab/mmagic video-gen general"
+    },
+    {
+      "name": "Open-LLM-VTuber",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Open-LLM-VTuber/Open-LLM-VTuber",
+      "stars": 4172,
+      "desc": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D avatar.",
+      "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+      "install": "git clone https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "open-llm-vtuber talk to any llm with hands-free voice interaction, voice interruption, and live2d avatar. open-llm-vtuber/open-llm-vtuber git clone https://github.com/open-llm-vtuber/open-llm-vtuber video-gen general"
+    },
+    {
+      "name": "awesome_world_models",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "leofan90/Awesome-World-Models",
+      "stars": 1845,
+      "desc": "A comprehensive list of papers for the definition of World Models and using World Models for video generation and robotics.",
+      "url": "https://github.com/leofan90/Awesome-World-Models",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome_world_models a comprehensive list of papers for the definition of world models and using world models for video generation and robotics. leofan90/awesome-world-models video-gen general"
+    },
+    {
+      "name": "Open-Generative-AI",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Anil-matcha/Open-Generative-AI",
+      "stars": 1365,
+      "desc": "Free AI image & video generation studio with 200+ models. Open-source alternative to AI video platforms.",
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "install": "git clone https://github.com/Anil-matcha/Open-Generative-AI",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "open-generative-ai free ai image & video generation studio with 200+ models. open-source alternative to ai video platforms. anil-matcha/open-generative-ai git clone https://github.com/anil-matcha/open-generative-ai video-gen general"
+    },
+    {
+      "name": "videotuna",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "VideoVerses/VideoTuna",
+      "stars": 551,
+      "desc": "Lets finetune video generation models!",
+      "url": "https://github.com/VideoVerses/VideoTuna",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "videotuna lets finetune video generation models! videoverses/videotuna video-gen general"
+    },
+    {
+      "name": "comfyui-workflow-skill",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "LingyiChen-AI/comfyui-workflow-skill",
+      "stars": 322,
+      "desc": "Natural language → ComfyUI workflow JSON. 34 built-in templates, 360+ node definitions, auto model download.",
+      "url": "https://github.com/LingyiChen-AI/comfyui-workflow-skill",
+      "install": "$skill-installer comfyui-workflow",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "comfyui-workflow-skill natural language → comfyui workflow json. 34 built-in templates, 360+ node definitions, auto model download. lingyichen-ai/comfyui-workflow-skill $skill-installer comfyui-workflow video-gen general"
+    },
+    {
+      "name": "WhatDreamsCost-ComfyUI",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "WhatDreamsCost/WhatDreamsCost-ComfyUI",
+      "stars": 177,
+      "desc": "LTX Director and a variety of custom ComfyUI nodes and workflows.",
+      "url": "https://github.com/WhatDreamsCost/WhatDreamsCost-ComfyUI",
+      "install": "git clone https://github.com/WhatDreamsCost/WhatDreamsCost-ComfyUI",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "whatdreamscost-comfyui ltx director and a variety of custom comfyui nodes and workflows. whatdreamscost/whatdreamscost-comfyui git clone https://github.com/whatdreamscost/whatdreamscost-comfyui video-gen general"
+    }
+  ]
+}

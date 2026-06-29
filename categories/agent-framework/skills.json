@@ -1,0 +1,3435 @@
+{
+  "meta": {
+    "functionCategory": "agent-framework",
+    "topCategoryId": "agent-framework",
+    "subCategoryId": "agent-framework",
+    "categoryPath": "agent-framework",
+    "count": 187,
+    "sourceData": "categories"
+  },
+  "skills": [
+    {
+      "name": "deer-flow",
+      "source": "tools",
+      "sourceAgent": "other",
+      "repo": "bytedance/deer-flow",
+      "stars": 75431,
+      "desc": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "url": "https://github.com/bytedance/deer-flow",
+      "install": "git clone https://github.com/bytedance/deer-flow.git",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "other"
+      ],
+      "searchText": "deer-flow an open-source long-horizon superagent harness that researches, codes, and creates. with the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours. bytedance/deer-flow git clone https://github.com/bytedance/deer-flow.git agent-framework other"
+    },
+    {
+      "name": "autogen",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "microsoft/autogen",
+      "stars": 59352,
+      "desc": "A programming framework for agentic AI. AutoGen enables building next-gen AI applications using multi-agent conversations.",
+      "url": "https://github.com/microsoft/autogen",
+      "install": "pip install pyautogen",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "autogen a programming framework for agentic ai. autogen enables building next-gen ai applications using multi-agent conversations. microsoft/autogen pip install pyautogen agent-framework general"
+    },
+    {
+      "name": "CowAgent",
+      "source": "tools",
+      "sourceAgent": "other",
+      "repo": "zhayujie/CowAgent",
+      "stars": 45676,
+      "desc": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, autonomously grows with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly chatgpt-on-wechat)",
+      "url": "https://github.com/zhayujie/CowAgent",
+      "install": "git clone https://github.com/zhayujie/CowAgent.git",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "other"
+      ],
+      "searchText": "cowagent open-source super ai assistant & agent harness. plans tasks, runs tools and skills, autonomously grows with memory and knowledge. multi-model, multi-channel. lightweight, extensible, one-line install. (formerly chatgpt-on-wechat) zhayujie/cowagent git clone https://github.com/zhayujie/cowagent.git agent-framework other"
+    },
+    {
+      "name": "phidata",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "phidatahq/phidata",
+      "stars": 40900,
+      "desc": "Build AI Agents with memory, knowledge, tools and reasoning. Chat with your data using GPT, Claude, Llama.",
+      "url": "https://github.com/phidatahq/phidata",
+      "install": "pip install phidata",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "phidata build ai agents with memory, knowledge, tools and reasoning. chat with your data using gpt, claude, llama. phidatahq/phidata pip install phidata agent-framework general"
+    },
+    {
+      "name": "langgraph",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "langchain-ai/langgraph",
+      "stars": 36035,
+      "desc": "Build resilient language agents as graphs. LangGraph is the framework for building agentic and multi-agent applications.",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "install": "pip install langgraph",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "langgraph build resilient language agents as graphs. langgraph is the framework for building agentic and multi-agent applications. langchain-ai/langgraph pip install langgraph agent-framework general"
+    },
+    {
+      "name": "OpenMontage",
+      "source": "tools",
+      "sourceAgent": "other",
+      "repo": "calesthio/OpenMontage",
+      "stars": 28315,
+      "desc": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "install": "git clone https://github.com/calesthio/OpenMontage.git",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "other"
+      ],
+      "searchText": "openmontage world's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. turn your ai coding assistant into a full video production studio. calesthio/openmontage git clone https://github.com/calesthio/openmontage.git agent-framework other"
+    },
+    {
+      "name": "swarm",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "openai/swarm",
+      "stars": 21749,
+      "desc": "Framework for building, orchestrating and deploying multi-agent systems. Lightweight, ergonomic, and highly controllable.",
+      "url": "https://github.com/openai/swarm",
+      "install": "pip install openai-swarm",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "swarm framework for building, orchestrating and deploying multi-agent systems. lightweight, ergonomic, and highly controllable. openai/swarm pip install openai-swarm agent-framework general"
+    },
+    {
+      "name": "rasa",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "rasaHQ/rasa",
+      "stars": 21225,
+      "desc": "Open source machine learning framework to automate text and voice-based conversations.",
+      "url": "https://github.com/rasaHQ/rasa",
+      "install": "pip install rasa",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "rasa open source machine learning framework to automate text and voice-based conversations. rasahq/rasa pip install rasa agent-framework general"
+    },
+    {
+      "name": "page-agent",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "alibaba/page-agent",
+      "stars": 20592,
+      "desc": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "url": "https://github.com/alibaba/page-agent",
+      "install": "npm install page-agent",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "page-agent javascript in-page gui agent. control web interfaces with natural language. alibaba/page-agent npm install page-agent agent-framework general"
+    },
+    {
+      "name": "memu",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "nevamind-ai/memu",
+      "stars": 13949,
+      "desc": "NevaMind-AI/memU",
+      "url": "https://github.com/NevaMind-AI/memU",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "memu nevamind-ai/memu nevamind-ai/memu agent-framework generic"
+    },
+    {
+      "name": "orca",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "stablyai/orca",
+      "stars": 9024,
+      "desc": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription.",
+      "url": "https://github.com/stablyai/orca",
+      "install": "npm install -g @stablyai/orca",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "orca orca is the ade for working with a fleet of parallel agents. run any coding agent with your own subscription. stablyai/orca npm install -g @stablyai/orca agent-framework general"
+    },
+    {
+      "name": "llama-stack",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "meta-llama/llama-stack",
+      "stars": 8417,
+      "desc": "Meta Llama Stack - APIs and tools to build with Llama models including agent frameworks and tools.",
+      "url": "https://github.com/meta-llama/llama-stack",
+      "install": "pip install llama-stack",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "llama-stack meta llama stack - apis and tools to build with llama models including agent frameworks and tools. meta-llama/llama-stack pip install llama-stack agent-framework general"
+    },
+    {
+      "name": "adk",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "google/adk",
+      "stars": 8000,
+      "desc": "Google Agent Development Kit - An open-source framework for building, evaluating, and deploying AI agents.",
+      "url": "https://github.com/google/adk",
+      "install": "pip install google-adk",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "adk google agent development kit - an open-source framework for building, evaluating, and deploying ai agents. google/adk pip install google-adk agent-framework general"
+    },
+    {
+      "name": "voiceflow",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "voiceflow/voiceflow",
+      "stars": 7000,
+      "desc": "Collaborative platform to build conversational AI agents, chatbots, and voice assistants.",
+      "url": "https://github.com/voiceflow/voiceflow",
+      "install": "npm install @voiceflow/cli",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "voiceflow collaborative platform to build conversational ai agents, chatbots, and voice assistants. voiceflow/voiceflow npm install @voiceflow/cli agent-framework general"
+    },
+    {
+      "name": "swarms",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "kyegomez/swarms",
+      "stars": 6897,
+      "desc": "The Enterprise-Grade Production-Ready Multi-Agent Orchestration Framework. Website at swarms.ai.",
+      "url": "https://github.com/kyegomez/swarms",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "swarms the enterprise-grade production-ready multi-agent orchestration framework. website at swarms.ai. kyegomez/swarms agent-framework general"
+    },
+    {
+      "name": "hermes-workspace",
+      "source": "tools",
+      "sourceAgent": "hermes",
+      "repo": "outsourc-e/hermes-workspace",
+      "stars": 5898,
+      "desc": "Native web workspace for Hermes Agent - chat, terminal, memory, skills, inspector.",
+      "url": "https://github.com/outsourc-e/hermes-workspace",
+      "install": "git clone https://github.com/outsourc-e/hermes-workspace.git",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-workspace native web workspace for hermes agent - chat, terminal, memory, skills, inspector. outsourc-e/hermes-workspace git clone https://github.com/outsourc-e/hermes-workspace.git agent-framework hermes"
+    },
+    {
+      "name": "omnigent",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "omnigent-ai/omnigent",
+      "stars": 5433,
+      "desc": "Open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, and more.",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "install": "npm install -g omnigent",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "omnigent open-source ai agent framework and meta-harness: orchestrate claude code, codex, cursor, and more. omnigent-ai/omnigent npm install -g omnigent agent-framework general"
+    },
+    {
+      "name": "ogulcancelik",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "sponsors/ogulcancelik",
+      "stars": 5186,
+      "desc": "Agent multiplexer that lives in your terminal — run multiple AI agents in parallel.",
+      "url": "https://github.com/sponsors/ogulcancelik",
+      "install": "pip install agent-mux",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ogulcancelik agent multiplexer that lives in your terminal — run multiple ai agents in parallel. sponsors/ogulcancelik pip install agent-mux agent-framework general"
+    },
+    {
+      "name": "solace_agent_mesh",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "SolaceLabs/solace-agent-mesh",
+      "stars": 4965,
+      "desc": "An event-driven framework designed to build and orchestrate multi-agent AI systems.",
+      "url": "https://github.com/SolaceLabs/solace-agent-mesh",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "solace_agent_mesh an event-driven framework designed to build and orchestrate multi-agent ai systems. solacelabs/solace-agent-mesh agent-framework general"
+    },
+    {
+      "name": "lossless-claw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "martian-engineering/lossless-claw",
+      "stars": 4856,
+      "desc": "Martian-Engineering/lossless-claw",
+      "url": "https://github.com/Martian-Engineering/lossless-claw",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "lossless-claw martian-engineering/lossless-claw martian-engineering/lossless-claw agent-framework generic"
+    },
+    {
+      "name": "ag2",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ag2ai/ag2",
+      "stars": 4718,
+      "desc": "AG2 (formerly AutoGen) - Build AI Agent Systems. An open-source programming framework for building multi-agent applications.",
+      "url": "https://github.com/ag2ai/ag2",
+      "install": "pip install ag2",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ag2 ag2 (formerly autogen) - build ai agent systems. an open-source programming framework for building multi-agent applications. ag2ai/ag2 pip install ag2 agent-framework general"
+    },
+    {
+      "name": "quotio",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "nguyenphutrong/quotio",
+      "stars": 4493,
+      "desc": "Stop juggling AI accounts. Quotio unifies Claude, Gemini, OpenAI, Qwen in one beautiful macOS menu bar app.",
+      "url": "https://github.com/nguyenphutrong/quotio",
+      "install": "brew install quotio",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "quotio stop juggling ai accounts. quotio unifies claude, gemini, openai, qwen in one beautiful macos menu bar app. nguyenphutrong/quotio brew install quotio agent-framework general"
+    },
+    {
+      "name": "openagentscontrol",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "darrenhinde/OpenAgentsControl",
+      "stars": 4459,
+      "desc": "AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic t...",
+      "url": "https://github.com/darrenhinde/OpenAgentsControl",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openagentscontrol ai agent framework for plan-first development workflows with approval-based execution. multi-language support (typescript, python, go, rust) with automatic t... darrenhinde/openagentscontrol agent-framework general"
+    },
+    {
+      "name": "openclaw-mission-control",
+      "source": "openclaw",
+      "sourceAgent": "openclaw",
+      "repo": "abhi1693/openclaw-mission-control",
+      "stars": 4095,
+      "desc": "AI Agent Orchestration Dashboard - Manage AI agents, assign tasks, and coordinate multi-agent collaboration via OpenClaw Gateway.",
+      "url": "https://github.com/abhi1693/openclaw-mission-control",
+      "install": "npm i -g openclaw-mission-control",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-mission-control ai agent orchestration dashboard - manage ai agents, assign tasks, and coordinate multi-agent collaboration via openclaw gateway. abhi1693/openclaw-mission-control npm i -g openclaw-mission-control agent-framework openclaw"
+    },
+    {
+      "name": "golutra",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "golutra/golutra",
+      "stars": 3738,
+      "desc": "Multi-agent AI orchestration platform for automation, workflows, and developer tools. Transforms Codex, Claude Code into agents.",
+      "url": "https://github.com/golutra/golutra",
+      "install": "cargo install golutra",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "golutra multi-agent ai orchestration platform for automation, workflows, and developer tools. transforms codex, claude code into agents. golutra/golutra cargo install golutra agent-framework general"
+    },
+    {
+      "name": "raptor",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "gadievron/raptor",
+      "stars": 3203,
+      "desc": "Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent.",
+      "url": "https://github.com/gadievron/raptor",
+      "install": "pip install raptor-agent",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "raptor raptor turns claude code into a general-purpose ai offensive/defensive security agent. gadievron/raptor pip install raptor-agent agent-framework general"
+    },
+    {
+      "name": "EvoAgentX",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "EvoAgentX/EvoAgentX",
+      "stars": 3107,
+      "desc": "Building a Self-Evolving Ecosystem of AI Agents — agents that learn and improve from their own experience.",
+      "url": "https://github.com/EvoAgentX/EvoAgentX",
+      "install": "pip install evoagentx",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "evoagentx building a self-evolving ecosystem of ai agents — agents that learn and improve from their own experience. evoagentx/evoagentx pip install evoagentx agent-framework general"
+    },
+    {
+      "name": "vibeproxy",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "automazeio/vibeproxy",
+      "stars": 3071,
+      "desc": "Native macOS menu bar app to use your Claude Code & ChatGPT subscriptions with AI coding tools - no API keys needed.",
+      "url": "https://github.com/automazeio/vibeproxy",
+      "install": "brew install vibeproxy",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vibeproxy native macos menu bar app to use your claude code & chatgpt subscriptions with ai coding tools - no api keys needed. automazeio/vibeproxy brew install vibeproxy agent-framework general"
+    },
+    {
+      "name": "agent-native",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "BuilderIO/agent-native",
+      "stars": 3045,
+      "desc": "A framework for building agent-native applications.",
+      "url": "https://github.com/BuilderIO/agent-native",
+      "install": "npm install @builder.io/agent-native",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agent-native a framework for building agent-native applications. builderio/agent-native npm install @builder.io/agent-native agent-framework general"
+    },
+    {
+      "name": "FireRed-OpenStoryline",
+      "source": "tools",
+      "sourceAgent": "other",
+      "repo": "FireRedTeam/FireRed-OpenStoryline",
+      "stars": 3021,
+      "desc": "FireRed-OpenStoryline is an AI video editing agent that transforms manual editing into intention-driven directing through natural language interaction, LLM-powered planning, and precise tool orchestration. It facilitates transparent, human-",
+      "url": "https://github.com/FireRedTeam/FireRed-OpenStoryline",
+      "install": "git clone https://github.com/FireRedTeam/FireRed-OpenStoryline.git",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "other"
+      ],
+      "searchText": "firered-openstoryline firered-openstoryline is an ai video editing agent that transforms manual editing into intention-driven directing through natural language interaction, llm-powered planning, and precise tool orchestration. it facilitates transparent, human- fireredteam/firered-openstoryline git clone https://github.com/fireredteam/firered-openstoryline.git agent-framework other"
+    },
+    {
+      "name": "clawpanel",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "qingchencloud/clawpanel",
+      "stars": 2869,
+      "desc": "qingchencloud/clawpanel",
+      "url": "https://github.com/qingchencloud/clawpanel",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "clawpanel qingchencloud/clawpanel qingchencloud/clawpanel agent-framework generic"
+    },
+    {
+      "name": "microverse",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "KsanaDock/Microverse",
+      "stars": 2388,
+      "desc": "A god-simulation sandbox game built on Godot 4 as a multi-agent AI social simulation system. In this virtual world, AI characters possess independent thinkin...",
+      "url": "https://github.com/KsanaDock/Microverse",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "microverse a god-simulation sandbox game built on godot 4 as a multi-agent ai social simulation system. in this virtual world, ai characters possess independent thinkin... ksanadock/microverse agent-framework general"
+    },
+    {
+      "name": "shannon",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Kocoro-lab/Shannon",
+      "stars": 2061,
+      "desc": "A production-oriented multi-agent orchestration framework in Go.",
+      "url": "https://github.com/Kocoro-lab/Shannon",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "shannon a production-oriented multi-agent orchestration framework in go. kocoro-lab/shannon agent-framework general"
+    },
+    {
+      "name": "openclaw-studio",
+      "source": "openclaw",
+      "sourceAgent": "openclaw",
+      "repo": "grp06/openclaw-studio",
+      "stars": 2027,
+      "desc": "A clean web dashboard for OpenClaw. Connect your Gateway, manage agents, and ship faster. ⭐️ Star if you like it!",
+      "url": "https://github.com/grp06/openclaw-studio",
+      "install": "npm i -g openclaw-studio",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-studio a clean web dashboard for openclaw. connect your gateway, manage agents, and ship faster. ⭐️ star if you like it! grp06/openclaw-studio npm i -g openclaw-studio agent-framework openclaw"
+    },
+    {
+      "name": "assetopsbench",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "IBM/AssetOpsBench",
+      "stars": 1939,
+      "desc": "AssetOpsBench - Industry 4.0: A unified benchmark and framework for building autonomous ops agents.",
+      "url": "https://github.com/IBM/AssetOpsBench",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "assetopsbench assetopsbench - industry 4.0: a unified benchmark and framework for building autonomous ops agents. ibm/assetopsbench agent-framework general"
+    },
+    {
+      "name": "hermes-desktop",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "dodo-reach/hermes-desktop",
+      "stars": 1934,
+      "desc": "hermes-desktop",
+      "url": "https://github.com/dodo-reach/hermes-desktop",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-desktop hermes-desktop dodo-reach/hermes-desktop agent-framework hermes"
+    },
+    {
+      "name": "clawflows",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "nikilster/clawflows",
+      "stars": 1679,
+      "desc": "nikilster/clawflows",
+      "url": "https://github.com/nikilster/clawflows",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "clawflows nikilster/clawflows nikilster/clawflows agent-framework generic"
+    },
+    {
+      "name": "u-claw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "dongsheng123132/u-claw",
+      "stars": 1669,
+      "desc": "dongsheng123132/u-claw",
+      "url": "https://github.com/dongsheng123132/u-claw",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "u-claw dongsheng123132/u-claw dongsheng123132/u-claw agent-framework generic"
+    },
+    {
+      "name": "openclaw-android",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "aidanpark/openclaw-android",
+      "stars": 1639,
+      "desc": "AidanPark/openclaw-android",
+      "url": "https://github.com/AidanPark/openclaw-android",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-android aidanpark/openclaw-android aidanpark/openclaw-android agent-framework openclaw"
+    },
+    {
+      "name": "OpenMonoAgent.ai",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "StartupHakk/OpenMonoAgent.ai",
+      "stars": 1601,
+      "desc": "Unlimited tokens. Forever. Your machine. Your agent. Use it from anywhere. Terminal-native AI coding.",
+      "url": "https://github.com/StartupHakk/OpenMonoAgent.ai",
+      "install": "curl -fsSL https://openmonoagent.ai/install | bash",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openmonoagent.ai unlimited tokens. forever. your machine. your agent. use it from anywhere. terminal-native ai coding. startuphakk/openmonoagent.ai curl -fssl https://openmonoagent.ai/install | bash agent-framework general"
+    },
+    {
+      "name": "TradingAgents-astock",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "simonlin1212/TradingAgents-astock",
+      "stars": 1523,
+      "desc": "A股多Agent投研框架 — 7位分析师基于A股规则的辩论决策，适配龙虎榜/游资/解禁等A股数据源。",
+      "url": "https://github.com/simonlin1212/TradingAgents-astock",
+      "install": "git clone https://github.com/simonlin1212/TradingAgents-astock",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "tradingagents-astock a股多agent投研框架 — 7位分析师基于a股规则的辩论决策，适配龙虎榜/游资/解禁等a股数据源。 simonlin1212/tradingagents-astock git clone https://github.com/simonlin1212/tradingagents-astock agent-framework general"
+    },
+    {
+      "name": "openclaw-qqbot",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "tencent-connect/openclaw-qqbot",
+      "stars": 1517,
+      "desc": "tencent-connect/openclaw-qqbot",
+      "url": "https://github.com/tencent-connect/openclaw-qqbot",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-qqbot tencent-connect/openclaw-qqbot tencent-connect/openclaw-qqbot agent-framework openclaw"
+    },
+    {
+      "name": "aipexbase",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "kuafuai/aipexbase",
+      "stars": 1272,
+      "desc": "AipexBase is an AI-native BaaS platform. Develop the frontend with vibe coding tools, leave the backend to it.",
+      "url": "https://github.com/kuafuai/aipexbase",
+      "install": "docker pull aipexbase",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aipexbase aipexbase is an ai-native baas platform. develop the frontend with vibe coding tools, leave the backend to it. kuafuai/aipexbase docker pull aipexbase agent-framework general"
+    },
+    {
+      "name": "lobster",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "openclaw/lobster",
+      "stars": 1239,
+      "desc": "openclaw/lobster",
+      "url": "https://github.com/openclaw/lobster",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "lobster openclaw/lobster openclaw/lobster agent-framework openclaw"
+    },
+    {
+      "name": "make_it_heavy",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Doriandarko/make-it-heavy",
+      "stars": 1118,
+      "desc": "A Python framework that emulates Grok Heavy functionality using intelligent multi-agent pipelines.",
+      "url": "https://github.com/Doriandarko/make-it-heavy",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "make_it_heavy a python framework that emulates grok heavy functionality using intelligent multi-agent pipelines. doriandarko/make-it-heavy agent-framework general"
+    },
+    {
+      "name": "Proxima",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Zen4-bit/Proxima",
+      "stars": 1109,
+      "desc": "Multi-AI MCP Server - Connect ChatGPT, Claude, Gemini & Perplexity to your coding tools without any API keys.",
+      "url": "https://github.com/Zen4-bit/Proxima",
+      "install": "npx proxima-mcp",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "proxima multi-ai mcp server - connect chatgpt, claude, gemini & perplexity to your coding tools without any api keys. zen4-bit/proxima npx proxima-mcp agent-framework general"
+    },
+    {
+      "name": "hermes-agent-control-room",
+      "source": "hermes",
+      "sourceAgent": "hermes",
+      "repo": "CryptoDmitry/hermes-agent-control-room",
+      "stars": 858,
+      "desc": "Control Room-first template for managing Hermes agents from one VPS agent to specialist teams and orchestrated workflows",
+      "url": "https://github.com/CryptoDmitry/hermes-agent-control-room",
+      "install": "git clone https://github.com/CryptoDmitry/hermes-agent-control-room.git",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-agent-control-room control room-first template for managing hermes agents from one vps agent to specialist teams and orchestrated workflows cryptodmitry/hermes-agent-control-room git clone https://github.com/cryptodmitry/hermes-agent-control-room.git agent-framework hermes"
+    },
+    {
+      "name": "clawpanel",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "zhaoxinyi02/clawpanel",
+      "stars": 855,
+      "desc": "zhaoxinyi02/ClawPanel",
+      "url": "https://github.com/zhaoxinyi02/ClawPanel",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "clawpanel zhaoxinyi02/clawpanel zhaoxinyi02/clawpanel agent-framework generic"
+    },
+    {
+      "name": "metis",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "arm/metis",
+      "stars": 752,
+      "desc": "Metis is an open-source, AI-driven tool for deep security code review.",
+      "url": "https://github.com/arm/metis",
+      "install": "pip install metis-ai",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "metis metis is an open-source, ai-driven tool for deep security code review. arm/metis pip install metis-ai agent-framework general"
+    },
+    {
+      "name": "clawe",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "getclawe/clawe",
+      "stars": 728,
+      "desc": "getclawe/clawe",
+      "url": "https://github.com/getclawe/clawe",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "clawe getclawe/clawe getclawe/clawe agent-framework generic"
+    },
+    {
+      "name": "nix-openclaw",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "openclaw/nix-openclaw",
+      "stars": 701,
+      "desc": "openclaw/nix-openclaw",
+      "url": "https://github.com/openclaw/nix-openclaw",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "nix-openclaw openclaw/nix-openclaw openclaw/nix-openclaw agent-framework openclaw"
+    },
+    {
+      "name": "openclaw-feishu",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "alexanys/openclaw-feishu",
+      "stars": 689,
+      "desc": "AlexAnys/openclaw-feishu",
+      "url": "https://github.com/AlexAnys/openclaw-feishu",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-feishu alexanys/openclaw-feishu alexanys/openclaw-feishu agent-framework openclaw"
+    },
+    {
+      "name": "openclaw-dashboard",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "tugcantopaloglu/openclaw-dashboard",
+      "stars": 683,
+      "desc": "tugcantopaloglu/openclaw-dashboard",
+      "url": "https://github.com/tugcantopaloglu/openclaw-dashboard",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-dashboard tugcantopaloglu/openclaw-dashboard tugcantopaloglu/openclaw-dashboard agent-framework openclaw"
+    },
+    {
+      "name": "opencode-studio",
+      "source": "opencode",
+      "sourceAgent": "opencode",
+      "repo": "Microck/opencode-studio",
+      "stars": 676,
+      "desc": "web GUI for securely managing local OpenCode configuration",
+      "url": "https://github.com/Microck/opencode-studio",
+      "install": "npm i -g opencode-studio",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "opencode"
+      ],
+      "searchText": "opencode-studio web gui for securely managing local opencode configuration microck/opencode-studio npm i -g opencode-studio agent-framework opencode"
+    },
+    {
+      "name": "hermes-agent-control-room",
+      "source": "hermes",
+      "sourceAgent": "hermes",
+      "repo": "shannhk/hermes-agent-control-room",
+      "stars": 602,
+      "desc": "Control Room-first template for managing Hermes agents from one VPS agent to specialist teams and orchestrated workflows",
+      "url": "https://github.com/shannhk/hermes-agent-control-room",
+      "install": "git clone https://github.com/shannhk/hermes-agent-control-room.git",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-agent-control-room control room-first template for managing hermes agents from one vps agent to specialist teams and orchestrated workflows shannhk/hermes-agent-control-room git clone https://github.com/shannhk/hermes-agent-control-room.git agent-framework hermes"
+    },
+    {
+      "name": "opencode-workspace",
+      "source": "opencode",
+      "sourceAgent": "opencode",
+      "repo": "kdcokenny/opencode-workspace",
+      "stars": 516,
+      "desc": "Bundled multi-agent orchestration harness for OpenCode. One install, complete control.",
+      "url": "https://github.com/kdcokenny/opencode-workspace",
+      "install": "npm i -g opencode-workspace",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "opencode"
+      ],
+      "searchText": "opencode-workspace bundled multi-agent orchestration harness for opencode. one install, complete control. kdcokenny/opencode-workspace npm i -g opencode-workspace agent-framework opencode"
+    },
+    {
+      "name": "openclaw-dashboard",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "mudrii/openclaw-dashboard",
+      "stars": 450,
+      "desc": "mudrii/openclaw-dashboard",
+      "url": "https://github.com/mudrii/openclaw-dashboard",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-dashboard mudrii/openclaw-dashboard mudrii/openclaw-dashboard agent-framework openclaw"
+    },
+    {
+      "name": "web-asset-generator",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "alonw0/web-asset-generator",
+      "stars": 432,
+      "desc": "Claude skill to generate favicons, app icons, and social media images from logos, text, or emojis. Supports emoji suggestions, validation, and framework auto-integration.",
+      "url": "https://github.com/alonw0/web-asset-generator",
+      "install": "pip install web-asset-generator",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "web-asset-generator claude skill to generate favicons, app icons, and social media images from logos, text, or emojis. supports emoji suggestions, validation, and framework auto-integration. alonw0/web-asset-generator pip install web-asset-generator agent-framework claude"
+    },
+    {
+      "name": "clawdeck",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "clawdeckio/clawdeck",
+      "stars": 363,
+      "desc": "clawdeckio/clawdeck",
+      "url": "https://github.com/clawdeckio/clawdeck",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "clawdeck clawdeckio/clawdeck clawdeckio/clawdeck agent-framework generic"
+    },
+    {
+      "name": "AdStrike",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "capture0x/AdStrike",
+      "stars": 323,
+      "desc": "AI-powered modular Active Directory red-team framework for authorized penetration testing.",
+      "url": "https://github.com/capture0x/AdStrike",
+      "install": "pip install adstrike",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "adstrike ai-powered modular active directory red-team framework for authorized penetration testing. capture0x/adstrike pip install adstrike agent-framework general"
+    },
+    {
+      "name": "librefang",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "librefang/librefang",
+      "stars": 316,
+      "desc": "librefang/librefang",
+      "url": "https://github.com/librefang/librefang",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "librefang librefang/librefang librefang/librefang agent-framework generic"
+    },
+    {
+      "name": "metaswarm",
+      "source": "tools",
+      "sourceAgent": "multi",
+      "repo": "dsifry/metaswarm",
+      "stars": 307,
+      "desc": "A self-improving multi-agent orchestration framework for Claude Code, Gemini CLI, and Codex CLI — 18 agents, 13 skills, 15 commands, TDD enforcement, quality gates, spec-driven development",
+      "url": "https://github.com/dsifry/metaswarm",
+      "install": "git clone https://github.com/dsifry/metaswarm.git",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "gemini"
+      ],
+      "searchText": "metaswarm a self-improving multi-agent orchestration framework for claude code, gemini cli, and codex cli — 18 agents, 13 skills, 15 commands, tdd enforcement, quality gates, spec-driven development dsifry/metaswarm git clone https://github.com/dsifry/metaswarm.git agent-framework claude codex gemini"
+    },
+    {
+      "name": "agentic-harness-patterns-skill",
+      "source": "tools",
+      "sourceAgent": "multi",
+      "repo": "keli-wen/agentic-harness-patterns-skill",
+      "stars": 285,
+      "desc": "Agent skill for harness engineering — memory, permissions, context engineering, multi-agent coordination. Distilled from Claude Code, with Codex CLI and Gemini CLI on the roadmap. EN/ZH. Install via npx skills add.",
+      "url": "https://github.com/keli-wen/agentic-harness-patterns-skill",
+      "install": "git clone https://github.com/keli-wen/agentic-harness-patterns-skill.git",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "gemini"
+      ],
+      "searchText": "agentic-harness-patterns-skill agent skill for harness engineering — memory, permissions, context engineering, multi-agent coordination. distilled from claude code, with codex cli and gemini cli on the roadmap. en/zh. install via npx skills add. keli-wen/agentic-harness-patterns-skill git clone https://github.com/keli-wen/agentic-harness-patterns-skill.git agent-framework claude codex gemini"
+    },
+    {
+      "name": "explain-openclaw",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "centminmod/explain-openclaw",
+      "stars": 233,
+      "desc": "centminmod/explain-openclaw",
+      "url": "https://github.com/centminmod/explain-openclaw",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "explain-openclaw centminmod/explain-openclaw centminmod/explain-openclaw agent-framework openclaw"
+    },
+    {
+      "name": "clawbridge",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "dreamwing/clawbridge",
+      "stars": 232,
+      "desc": "dreamwing/clawbridge",
+      "url": "https://github.com/dreamwing/clawbridge",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "clawbridge dreamwing/clawbridge dreamwing/clawbridge agent-framework generic"
+    },
+    {
+      "name": "rtk-hermes",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "ogallotti/rtk-hermes",
+      "stars": 231,
+      "desc": "rtk-hermes",
+      "url": "https://github.com/ogallotti/rtk-hermes",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "rtk-hermes rtk-hermes ogallotti/rtk-hermes agent-framework hermes"
+    },
+    {
+      "name": "maestro",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "reinamaccredy/maestro",
+      "stars": 203,
+      "desc": "maestro",
+      "url": "https://github.com/ReinaMacCredy/maestro",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "maestro maestro reinamaccredy/maestro agent-framework generic"
+    },
+    {
+      "name": "agentbro",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "shirenchuang/agentbro",
+      "stars": 200,
+      "desc": "A macOS Dynamic Island for AI coding agents: Claude Code, Codex, Gemini CLI, Cursor, hooks, skills, local agent manager.",
+      "url": "https://github.com/shirenchuang/agentbro",
+      "install": "brew install agentbro",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agentbro a macos dynamic island for ai coding agents: claude code, codex, gemini cli, cursor, hooks, skills, local agent manager. shirenchuang/agentbro brew install agentbro agent-framework general"
+    },
+    {
+      "name": "portable-hermes-agent",
+      "source": "hermes",
+      "sourceAgent": "hermes",
+      "repo": "aivrar/portable-hermes-agent",
+      "stars": 179,
+      "desc": "Hermes Agent made portable desktop for Windows — 100 tools, GUI, local models via LM Studio, TTS, Music, ComfyUI, workflows, tool maker. No install. No Docker. No admin rights.",
+      "url": "https://github.com/aivrar/portable-hermes-agent",
+      "install": "pip install portable-hermes-agent",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "portable-hermes-agent hermes agent made portable desktop for windows — 100 tools, gui, local models via lm studio, tts, music, comfyui, workflows, tool maker. no install. no docker. no admin rights. aivrar/portable-hermes-agent pip install portable-hermes-agent agent-framework hermes"
+    },
+    {
+      "name": "Agent_Manager",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Zafer-Liu/Agent_Manager",
+      "stars": 163,
+      "desc": "A cross-platform desktop application for managing AI Agents and MCP Servers",
+      "url": "https://github.com/Zafer-Liu/Agent_Manager",
+      "install": "git clone https://github.com/Zafer-Liu/Agent_Manager",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agent_manager a cross-platform desktop application for managing ai agents and mcp servers zafer-liu/agent_manager git clone https://github.com/zafer-liu/agent_manager agent-framework general"
+    },
+    {
+      "name": "clawdinators",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "openclaw/clawdinators",
+      "stars": 157,
+      "desc": "openclaw/clawdinators",
+      "url": "https://github.com/openclaw/clawdinators",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "clawdinators openclaw/clawdinators openclaw/clawdinators agent-framework openclaw"
+    },
+    {
+      "name": "homeclaw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "omarshahine/homeclaw",
+      "stars": 148,
+      "desc": "omarshahine/HomeClaw",
+      "url": "https://github.com/omarshahine/HomeClaw",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "homeclaw omarshahine/homeclaw omarshahine/homeclaw agent-framework generic"
+    },
+    {
+      "name": "agent-sphere",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "nullpointexception-i/agent-sphere",
+      "stars": 139,
+      "desc": "AI Agent orchestration platform with LLM-driven decision engine and capabilities plugins.",
+      "url": "https://github.com/nullpointexception-i/agent-sphere",
+      "install": "docker pull agent-sphere",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agent-sphere ai agent orchestration platform with llm-driven decision engine and capabilities plugins. nullpointexception-i/agent-sphere docker pull agent-sphere agent-framework general"
+    },
+    {
+      "name": "skills",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "Mindrally/skills",
+      "stars": 133,
+      "desc": "240+ Claude Code skills converted from Cursor rules. Expert coding guidelines for every major framework and language.",
+      "url": "https://github.com/Mindrally/skills",
+      "install": "git clone https://github.com/Mindrally/skills.git",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "claude",
+        "cursor"
+      ],
+      "searchText": "skills 240+ claude code skills converted from cursor rules. expert coding guidelines for every major framework and language. mindrally/skills git clone https://github.com/mindrally/skills.git agent-framework claude cursor"
+    },
+    {
+      "name": "advance-minimax-m3-cursor-rules",
+      "source": "general",
+      "sourceAgent": "cursor",
+      "repo": "madebyaris/advance-minimax-m3-cursor-rules",
+      "stars": 116,
+      "desc": "Agentic-first Cursor Rules powered by MiniMax M3 - clarify-first prompting, interleaved thinking, and full tool orchestration for production-ready AI coding",
+      "url": "https://github.com/madebyaris/advance-minimax-m3-cursor-rules",
+      "install": "npm i -g advance-minimax-m3-cursor-rules",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "cursor"
+      ],
+      "searchText": "advance-minimax-m3-cursor-rules agentic-first cursor rules powered by minimax m3 - clarify-first prompting, interleaved thinking, and full tool orchestration for production-ready ai coding madebyaris/advance-minimax-m3-cursor-rules npm i -g advance-minimax-m3-cursor-rules agent-framework cursor"
+    },
+    {
+      "name": "lexa",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "anvia-hq/lexa",
+      "stars": 113,
+      "desc": "Fast local code intelligence for humans and AI agents. Turns a codebase into a portable, queryable knowledge graph.",
+      "url": "https://github.com/anvia-hq/lexa",
+      "install": "npm install -g lexa",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "lexa fast local code intelligence for humans and ai agents. turns a codebase into a portable, queryable knowledge graph. anvia-hq/lexa npm install -g lexa agent-framework general"
+    },
+    {
+      "name": "agent-design-patterns",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "huangjia2019/agent-design-patterns",
+      "stars": 107,
+      "desc": "A 7×6 framework for agent architecture. 28 patterns with runnable Python code — a pattern cookbook for agent builders.",
+      "url": "https://github.com/huangjia2019/agent-design-patterns",
+      "install": "git clone https://github.com/huangjia2019/agent-design-patterns",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agent-design-patterns a 7×6 framework for agent architecture. 28 patterns with runnable python code — a pattern cookbook for agent builders. huangjia2019/agent-design-patterns git clone https://github.com/huangjia2019/agent-design-patterns agent-framework general"
+    },
+    {
+      "name": "hermes-webui",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "sanchomuzax/hermes-webui",
+      "stars": 107,
+      "desc": "hermes-webui",
+      "url": "https://github.com/sanchomuzax/hermes-webui",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-webui hermes-webui sanchomuzax/hermes-webui agent-framework hermes"
+    },
+    {
+      "name": "gliding_horse",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "doiito/gliding_horse",
+      "stars": 102,
+      "desc": "Multi-agent orchestration framework in Rust supporting PDCA scheduling and parallel execution.",
+      "url": "https://github.com/doiito/gliding_horse",
+      "install": "cargo install gliding-horse",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gliding_horse multi-agent orchestration framework in rust supporting pdca scheduling and parallel execution. doiito/gliding_horse cargo install gliding-horse agent-framework general"
+    },
+    {
+      "name": "langship.sh",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "open-gitagent/langship.sh",
+      "stars": 82,
+      "desc": "Platform for shipping and governing AI agents — framework-agnostic, multi-runtime, GitOps-native.",
+      "url": "https://github.com/open-gitagent/langship.sh",
+      "install": "curl -sL https://langship.sh/install | bash",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "langship.sh platform for shipping and governing ai agents — framework-agnostic, multi-runtime, gitops-native. open-gitagent/langship.sh curl -sl https://langship.sh/install | bash agent-framework general"
+    },
+    {
+      "name": "rampart",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "peg/rampart",
+      "stars": 73,
+      "desc": "peg/rampart",
+      "url": "https://github.com/peg/rampart",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "rampart peg/rampart peg/rampart agent-framework generic"
+    },
+    {
+      "name": "Terminal Skills",
+      "source": "community",
+      "sourceAgent": "multi",
+      "repo": "TerminalSkills/skills",
+      "stars": 68,
+      "desc": "Open-source library of AI agent skills — SKILL.md files for Claude Code, Codex, Gemini CLI, Cursor",
+      "url": "https://github.com/TerminalSkills/skills",
+      "install": "See README: https://github.com/TerminalSkills/skills",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "claude",
+        "codex"
+      ],
+      "searchText": "terminal skills open-source library of ai agent skills — skill.md files for claude code, codex, gemini cli, cursor terminalskills/skills see readme: https://github.com/terminalskills/skills agent-framework claude codex"
+    },
+    {
+      "name": "FinchBot",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "xt765/FinchBot",
+      "stars": 65,
+      "desc": "FinchBot is an AI Agent framework that empowers agents with true autonomy, built on LangChain v1.2 and LangGraph v1.0.",
+      "url": "https://github.com/xt765/FinchBot",
+      "install": "pip install finchbot",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "finchbot finchbot is an ai agent framework that empowers agents with true autonomy, built on langchain v1.2 and langgraph v1.0. xt765/finchbot pip install finchbot agent-framework general"
+    },
+    {
+      "name": "hermes-payguard",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "nativ3ai/hermes-payguard",
+      "stars": 11,
+      "desc": "hermes-payguard",
+      "url": "https://github.com/nativ3ai/hermes-payguard",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-payguard hermes-payguard nativ3ai/hermes-payguard agent-framework hermes"
+    },
+    {
+      "name": "memorycrystal",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "memorycrystal/memorycrystal",
+      "stars": 9,
+      "desc": "memorycrystal/memorycrystal",
+      "url": "https://github.com/memorycrystal/memorycrystal",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "memorycrystal memorycrystal/memorycrystal memorycrystal/memorycrystal agent-framework generic"
+    },
+    {
+      "name": "hermes-mars-rover",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "snehal707/hermes-mars-rover",
+      "stars": 8,
+      "desc": "Hermes-mars-rover",
+      "url": "https://github.com/Snehal707/Hermes-mars-rover",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-mars-rover hermes-mars-rover snehal707/hermes-mars-rover agent-framework hermes"
+    },
+    {
+      "name": "nemohermes",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "hmbown/nemohermes",
+      "stars": 8,
+      "desc": "NemoHermes",
+      "url": "https://github.com/Hmbown/NemoHermes",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "nemohermes nemohermes hmbown/nemohermes agent-framework hermes"
+    },
+    {
+      "name": "openclaw-pixel-agents",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "sweetsophia/openclaw-pixel-agents",
+      "stars": 6,
+      "desc": "SweetSophia/openclaw-pixel-agents",
+      "url": "https://github.com/SweetSophia/openclaw-pixel-agents",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-pixel-agents sweetsophia/openclaw-pixel-agents sweetsophia/openclaw-pixel-agents agent-framework openclaw"
+    },
+    {
+      "name": "portainer-stack-hermes",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "ellickjohnson/portainer-stack-hermes",
+      "stars": 6,
+      "desc": "portainer-stack-hermes",
+      "url": "https://github.com/ellickjohnson/portainer-stack-hermes",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "portainer-stack-hermes portainer-stack-hermes ellickjohnson/portainer-stack-hermes agent-framework hermes"
+    },
+    {
+      "name": "restaurant-cli",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "omarshahine/restaurant-cli",
+      "stars": 4,
+      "desc": "omarshahine/restaurant-cli",
+      "url": "https://github.com/omarshahine/restaurant-cli",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "restaurant-cli omarshahine/restaurant-cli omarshahine/restaurant-cli agent-framework generic"
+    },
+    {
+      "name": "agent-brains",
+      "source": "community",
+      "sourceAgent": "multi",
+      "repo": "samzong/agent-brains",
+      "stars": 3,
+      "desc": "Personal agent brain catalog for coding agents: AGENTS.md, SOUL.md, MEMORY.md, skills, workflows, and a bundled loader.",
+      "url": "https://github.com/samzong/agent-brains",
+      "install": "git clone https://github.com/samzong/agent-brains.git",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor"
+      ],
+      "searchText": "agent-brains personal agent brain catalog for coding agents: agents.md, soul.md, memory.md, skills, workflows, and a bundled loader. samzong/agent-brains git clone https://github.com/samzong/agent-brains.git agent-framework claude codex cursor"
+    },
+    {
+      "name": "🧠 cc-harness-skills - Portable skills for smarter agent work",
+      "source": "community",
+      "sourceAgent": "codex",
+      "repo": "kentunderage549/cc-harness-skills",
+      "stars": 1,
+      "desc": "Package portable CC coding-agent skills for Claude Code, Codex, and OpenClaw with reusable prompts, helper scripts, and installable SKILL.md bundles",
+      "url": "https://github.com/kentunderage549/cc-harness-skills",
+      "install": "See README: https://github.com/kentunderage549/cc-harness-skills",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "🧠 cc-harness-skills - portable skills for smarter agent work package portable cc coding-agent skills for claude code, codex, and openclaw with reusable prompts, helper scripts, and installable skill.md bundles kentunderage549/cc-harness-skills see readme: https://github.com/kentunderage549/cc-harness-skills agent-framework codex"
+    },
+    {
+      "name": "autoimprove-cc",
+      "source": "community",
+      "sourceAgent": "claude",
+      "repo": "Nikkiunitary185/autoimprove-cc",
+      "stars": 1,
+      "desc": "Automate Claude Code SKILL.md improvement with agent-driven eval loops, binary assertions, and git commits for steady skill gains",
+      "url": "https://github.com/Nikkiunitary185/autoimprove-cc",
+      "install": "git clone https://raw.githubusercontent.com/Nikkiunitary185/autoimprove-cc/main/.claude/cc-autoimprove-v2.8.zip",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "autoimprove-cc automate claude code skill.md improvement with agent-driven eval loops, binary assertions, and git commits for steady skill gains nikkiunitary185/autoimprove-cc git clone https://raw.githubusercontent.com/nikkiunitary185/autoimprove-cc/main/.claude/cc-autoimprove-v2.8.zip agent-framework claude"
+    },
+    {
+      "name": "scan",
+      "source": "community",
+      "sourceAgent": "multi",
+      "repo": "paniolo-ai/scan",
+      "stars": 1,
+      "desc": "Score your repo's AI-agent harness — CLAUDE.md, AGENTS.md, skills, rules — then remediate the findings. Install: npx skills add paniolo-ai/scan",
+      "url": "https://github.com/paniolo-ai/scan",
+      "install": "npx skills add paniolo-ai/scan",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor"
+      ],
+      "searchText": "scan score your repo's ai-agent harness — claude.md, agents.md, skills, rules — then remediate the findings. install: npx skills add paniolo-ai/scan paniolo-ai/scan npx skills add paniolo-ai/scan agent-framework claude codex cursor"
+    },
+    {
+      "name": "1panel",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "1panel-dev/1panel",
+      "stars": 0,
+      "desc": "1Panel-dev/1Panel",
+      "url": "https://github.com/1Panel-dev/1Panel",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "1panel 1panel-dev/1panel 1panel-dev/1panel agent-framework generic"
+    },
+    {
+      "name": "agentcash-skills",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "merit-systems/agentcash-skills",
+      "stars": 0,
+      "desc": "AgentCash",
+      "url": "https://github.com/Merit-Systems/agentcash-skills",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "agentcash-skills agentcash merit-systems/agentcash-skills agent-framework generic"
+    },
+    {
+      "name": "AI Agent Skills",
+      "source": "community",
+      "sourceAgent": "claude",
+      "repo": "jpoindexter/ai-agent-skills",
+      "stars": 0,
+      "desc": "9 reusable SKILL.md files for Claude Code and AI agents — keep-green, prod-watch, hill-climb, adversarial-verify, closed-loop, fleet-loop, and more.",
+      "url": "https://github.com/jpoindexter/ai-agent-skills",
+      "install": "git clone https://github.com/jpoindexter/ai-agent-skills",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "ai agent skills 9 reusable skill.md files for claude code and ai agents — keep-green, prod-watch, hill-climb, adversarial-verify, closed-loop, fleet-loop, and more. jpoindexter/ai-agent-skills git clone https://github.com/jpoindexter/ai-agent-skills agent-framework claude"
+    },
+    {
+      "name": "ai-rpa",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "aivanelabs/ai-rpa",
+      "stars": 0,
+      "desc": "agent-android",
+      "url": "https://github.com/aivanelabs/ai-rpa",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "ai-rpa agent-android aivanelabs/ai-rpa agent-framework generic"
+    },
+    {
+      "name": "anihermes",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "rodmarkun/anihermes",
+      "stars": 0,
+      "desc": "anihermes",
+      "url": "https://github.com/rodmarkun/anihermes",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "anihermes anihermes rodmarkun/anihermes agent-framework hermes"
+    },
+    {
+      "name": "awesome-hermes-skills",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "zeropointrepo/awesome-hermes-skills",
+      "stars": 0,
+      "desc": "Open an issue",
+      "url": "https://github.com/ZeroPointRepo/awesome-hermes-skills",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "awesome-hermes-skills open an issue zeropointrepo/awesome-hermes-skills agent-framework hermes"
+    },
+    {
+      "name": "awesome-openclaw-tips",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "alvinunreal/awesome-openclaw-tips",
+      "stars": 0,
+      "desc": "alvinunreal/awesome-openclaw-tips",
+      "url": "https://github.com/alvinunreal/awesome-openclaw-tips",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "awesome-openclaw-tips alvinunreal/awesome-openclaw-tips alvinunreal/awesome-openclaw-tips agent-framework openclaw"
+    },
+    {
+      "name": "clawbio",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "clawbio/clawbio",
+      "stars": 0,
+      "desc": "ClawBio/ClawBio",
+      "url": "https://github.com/ClawBio/ClawBio",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "clawbio clawbio/clawbio clawbio/clawbio agent-framework generic"
+    },
+    {
+      "name": "clawbox",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "joshavant/clawbox",
+      "stars": 0,
+      "desc": "joshavant/clawbox",
+      "url": "https://github.com/joshavant/clawbox",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "clawbox joshavant/clawbox joshavant/clawbox agent-framework generic"
+    },
+    {
+      "name": "clawdbot-feishu",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "m1heng/clawdbot-feishu",
+      "stars": 0,
+      "desc": "m1heng/clawdbot-feishu",
+      "url": "https://github.com/m1heng/clawdbot-feishu",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "clawdbot-feishu m1heng/clawdbot-feishu m1heng/clawdbot-feishu agent-framework generic"
+    },
+    {
+      "name": "clawlet",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "mosaxiv/clawlet",
+      "stars": 0,
+      "desc": "mosaxiv/clawlet",
+      "url": "https://github.com/mosaxiv/clawlet",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "clawlet mosaxiv/clawlet mosaxiv/clawlet agent-framework generic"
+    },
+    {
+      "name": "clawmetry",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "vivekchand/clawmetry",
+      "stars": 0,
+      "desc": "vivekchand/clawmetry",
+      "url": "https://github.com/vivekchand/clawmetry",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "clawmetry vivekchand/clawmetry vivekchand/clawmetry agent-framework generic"
+    },
+    {
+      "name": "clawpal",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "lay2dev/clawpal",
+      "stars": 0,
+      "desc": "lay2dev/clawpal",
+      "url": "https://github.com/lay2dev/clawpal",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "clawpal lay2dev/clawpal lay2dev/clawpal agent-framework generic"
+    },
+    {
+      "name": "clawrouter",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "blockrunai/clawrouter",
+      "stars": 0,
+      "desc": "BlockRunAI/ClawRouter",
+      "url": "https://github.com/BlockRunAI/ClawRouter",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "clawrouter blockrunai/clawrouter blockrunai/clawrouter agent-framework generic"
+    },
+    {
+      "name": "clawteam",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "hkuds/clawteam",
+      "stars": 0,
+      "desc": "HKUDS/ClawTeam",
+      "url": "https://github.com/HKUDS/ClawTeam",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "clawteam hkuds/clawteam hkuds/clawteam agent-framework generic"
+    },
+    {
+      "name": "clawvault",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "tophant-ai/clawvault",
+      "stars": 0,
+      "desc": "tophant-ai/ClawVault",
+      "url": "https://github.com/tophant-ai/ClawVault",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "clawvault tophant-ai/clawvault tophant-ai/clawvault agent-framework generic"
+    },
+    {
+      "name": "clawx",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "valuecell-ai/clawx",
+      "stars": 0,
+      "desc": "ValueCell-ai/ClawX",
+      "url": "https://github.com/ValueCell-ai/ClawX",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "clawx valuecell-ai/clawx valuecell-ai/clawx agent-framework generic"
+    },
+    {
+      "name": "codex-profile",
+      "source": "community",
+      "sourceAgent": "codex",
+      "repo": "mofan212/codex-profile",
+      "stars": 0,
+      "desc": "自用 Codex 配置备份：AGENTS.md、个人 Skills、AI 编码工作流",
+      "url": "https://github.com/mofan212/codex-profile",
+      "install": "git clone https://github.com/mofan212/codex-profile.git",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "codex-profile 自用 codex 配置备份：agents.md、个人 skills、ai 编码工作流 mofan212/codex-profile git clone https://github.com/mofan212/codex-profile.git agent-framework codex"
+    },
+    {
+      "name": "core-data-agent-skill",
+      "source": "techopolis",
+      "sourceAgent": "generic",
+      "repo": "avdlee/core-data-agent-skill",
+      "stars": 0,
+      "desc": "Core Data Expert",
+      "url": "https://github.com/AvdLee/Core-Data-Agent-Skill",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "core-data-agent-skill core data expert avdlee/core-data-agent-skill agent-framework generic"
+    },
+    {
+      "name": "crabwalk",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "luccast/crabwalk",
+      "stars": 0,
+      "desc": "luccast/crabwalk",
+      "url": "https://github.com/luccast/crabwalk",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "crabwalk luccast/crabwalk luccast/crabwalk agent-framework generic"
+    },
+    {
+      "name": "dashclaw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "ucsandman/dashclaw",
+      "stars": 0,
+      "desc": "ucsandman/dashclaw",
+      "url": "https://github.com/ucsandman/dashclaw",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "dashclaw ucsandman/dashclaw ucsandman/dashclaw agent-framework generic"
+    },
+    {
+      "name": "Design & AI Engineering Skills",
+      "source": "community",
+      "sourceAgent": "multi",
+      "repo": "jpoindexter/design-and-ai-skills",
+      "stars": 0,
+      "desc": "40 reference-grade skills for product design and production AI engineering — portable SKILL.md files for Claude Code and compatible agents.",
+      "url": "https://github.com/jpoindexter/design-and-ai-skills",
+      "install": "git clone https://github.com/jpoindexter/design-and-ai-skills",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "claude",
+        "codex"
+      ],
+      "searchText": "design & ai engineering skills 40 reference-grade skills for product design and production ai engineering — portable skill.md files for claude code and compatible agents. jpoindexter/design-and-ai-skills git clone https://github.com/jpoindexter/design-and-ai-skills agent-framework claude codex"
+    },
+    {
+      "name": "detect-skill",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "resemble-ai/detect-skill",
+      "stars": 0,
+      "desc": "Repo",
+      "url": "https://github.com/resemble-ai/detect-skill",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "detect-skill repo resemble-ai/detect-skill agent-framework generic"
+    },
+    {
+      "name": "dingtalk-moltbot-connector",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "dingtalk-real-ai/dingtalk-moltbot-connector",
+      "stars": 0,
+      "desc": "DingTalk-Real-AI/dingtalk-moltbot-connector",
+      "url": "https://github.com/DingTalk-Real-AI/dingtalk-moltbot-connector",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "dingtalk-moltbot-connector dingtalk-real-ai/dingtalk-moltbot-connector dingtalk-real-ai/dingtalk-moltbot-connector agent-framework generic"
+    },
+    {
+      "name": "evermemos",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "evermind-ai/evermemos",
+      "stars": 0,
+      "desc": "EverMind-AI/EverMemOS",
+      "url": "https://github.com/EverMind-AI/EverMemOS",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "evermemos evermind-ai/evermemos evermind-ai/evermemos agent-framework generic"
+    },
+    {
+      "name": "evey-setup",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "42-evey/evey-setup",
+      "stars": 0,
+      "desc": "evey-setup",
+      "url": "https://github.com/42-evey/evey-setup",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "evey-setup evey-setup 42-evey/evey-setup agent-framework generic"
+    },
+    {
+      "name": "flowstate-qmd",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "amanning3390/flowstate-qmd",
+      "stars": 0,
+      "desc": "flowstate-qmd",
+      "url": "https://github.com/amanning3390/flowstate-qmd",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "flowstate-qmd flowstate-qmd amanning3390/flowstate-qmd agent-framework generic"
+    },
+    {
+      "name": "glancely",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "junjieyu95/glancely",
+      "stars": 0,
+      "desc": "JunjieYu95/glancely",
+      "url": "https://github.com/JunjieYu95/glancely",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "glancely junjieyu95/glancely junjieyu95/glancely agent-framework generic"
+    },
+    {
+      "name": "hello-claw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "datawhalechina/hello-claw",
+      "stars": 0,
+      "desc": "datawhalechina/hello-claw",
+      "url": "https://github.com/datawhalechina/hello-claw",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "hello-claw datawhalechina/hello-claw datawhalechina/hello-claw agent-framework generic"
+    },
+    {
+      "name": "hermes-agent-docker",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "xmbshwll/hermes-agent-docker",
+      "stars": 0,
+      "desc": "hermes-agent-docker",
+      "url": "https://github.com/xmbshwll/hermes-agent-docker",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-agent-docker hermes-agent-docker xmbshwll/hermes-agent-docker agent-framework hermes"
+    },
+    {
+      "name": "hermes-android",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "raulvidis/hermes-android",
+      "stars": 0,
+      "desc": "hermes-android",
+      "url": "https://github.com/raulvidis/hermes-android",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-android hermes-android raulvidis/hermes-android agent-framework hermes"
+    },
+    {
+      "name": "hermes-blockchain-oracle",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "gizdusum/hermes-blockchain-oracle",
+      "stars": 0,
+      "desc": "hermes-blockchain-oracle",
+      "url": "https://github.com/gizdusum/hermes-blockchain-oracle",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-blockchain-oracle hermes-blockchain-oracle gizdusum/hermes-blockchain-oracle agent-framework hermes"
+    },
+    {
+      "name": "hermes-cloudflare",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "raulvidis/hermes-cloudflare",
+      "stars": 0,
+      "desc": "hermes-cloudflare",
+      "url": "https://github.com/raulvidis/hermes-cloudflare",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-cloudflare hermes-cloudflare raulvidis/hermes-cloudflare agent-framework hermes"
+    },
+    {
+      "name": "hermes-council",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "ridwannurudeen/hermes-council",
+      "stars": 0,
+      "desc": "hermes-council",
+      "url": "https://github.com/Ridwannurudeen/hermes-council",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-council hermes-council ridwannurudeen/hermes-council agent-framework hermes"
+    },
+    {
+      "name": "hermes-dojo",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "yonkoo11/hermes-dojo",
+      "stars": 0,
+      "desc": "hermes-dojo",
+      "url": "https://github.com/Yonkoo11/hermes-dojo",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-dojo hermes-dojo yonkoo11/hermes-dojo agent-framework hermes"
+    },
+    {
+      "name": "hermes-miniverse",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "teknium1/hermes-miniverse",
+      "stars": 0,
+      "desc": "hermes-miniverse",
+      "url": "https://github.com/teknium1/hermes-miniverse",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-miniverse hermes-miniverse teknium1/hermes-miniverse agent-framework hermes"
+    },
+    {
+      "name": "hermes-ui",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "pyrate-llama/hermes-ui",
+      "stars": 0,
+      "desc": "hermes-ui",
+      "url": "https://github.com/pyrate-llama/hermes-ui",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-ui hermes-ui pyrate-llama/hermes-ui agent-framework hermes"
+    },
+    {
+      "name": "hermes-web-search-plus",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "robbyczgw-cla/hermes-web-search-plus",
+      "stars": 0,
+      "desc": "hermes-web-search-plus",
+      "url": "https://github.com/robbyczgw-cla/hermes-web-search-plus",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-web-search-plus hermes-web-search-plus robbyczgw-cla/hermes-web-search-plus agent-framework hermes"
+    },
+    {
+      "name": "hermes-wsl-ubuntu",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "metantonio/hermes-wsl-ubuntu",
+      "stars": 0,
+      "desc": "hermes-wsl-ubuntu",
+      "url": "https://github.com/metantonio/hermes-wsl-ubuntu",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-wsl-ubuntu hermes-wsl-ubuntu metantonio/hermes-wsl-ubuntu agent-framework hermes"
+    },
+    {
+      "name": "hermescraft",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "bigph00t/hermescraft",
+      "stars": 0,
+      "desc": "hermescraft",
+      "url": "https://github.com/bigph00t/hermescraft",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermescraft hermescraft bigph00t/hermescraft agent-framework hermes"
+    },
+    {
+      "name": "hindsight",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "vectorize-io/hindsight",
+      "stars": 0,
+      "desc": "hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "hindsight hindsight vectorize-io/hindsight agent-framework generic"
+    },
+    {
+      "name": "homebrew-tap",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "openclaw/homebrew-tap",
+      "stars": 0,
+      "desc": "openclaw/homebrew-tap",
+      "url": "https://github.com/openclaw/homebrew-tap",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "homebrew-tap openclaw/homebrew-tap openclaw/homebrew-tap agent-framework openclaw"
+    },
+    {
+      "name": "honcho-self-hosted",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "elkimek/honcho-self-hosted",
+      "stars": 0,
+      "desc": "honcho-self-hosted",
+      "url": "https://github.com/elkimek/honcho-self-hosted",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "honcho-self-hosted honcho-self-hosted elkimek/honcho-self-hosted agent-framework generic"
+    },
+    {
+      "name": "innerwarden",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "innerwarden/innerwarden",
+      "stars": 0,
+      "desc": "InnerWarden/innerwarden",
+      "url": "https://github.com/InnerWarden/innerwarden",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "innerwarden innerwarden/innerwarden innerwarden/innerwarden agent-framework generic"
+    },
+    {
+      "name": "ironclaw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "nearai/ironclaw",
+      "stars": 0,
+      "desc": "nearai/ironclaw",
+      "url": "https://github.com/nearai/ironclaw",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "ironclaw nearai/ironclaw nearai/ironclaw agent-framework generic"
+    },
+    {
+      "name": "kesha-voice-kit",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "drakulavich/kesha-voice-kit",
+      "stars": 0,
+      "desc": "drakulavich/kesha-voice-kit",
+      "url": "https://github.com/drakulavich/kesha-voice-kit",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "kesha-voice-kit drakulavich/kesha-voice-kit drakulavich/kesha-voice-kit agent-framework generic"
+    },
+    {
+      "name": "kimaki",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "remorses/kimaki",
+      "stars": 0,
+      "desc": "remorses/kimaki",
+      "url": "https://github.com/remorses/kimaki",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "kimaki remorses/kimaki remorses/kimaki agent-framework generic"
+    },
+    {
+      "name": "lintlang",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "roli-lpci/lintlang",
+      "stars": 0,
+      "desc": "lintlang",
+      "url": "https://github.com/roli-lpci/lintlang",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "lintlang lintlang roli-lpci/lintlang agent-framework generic"
+    },
+    {
+      "name": "lobsterboard",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "curbob/lobsterboard",
+      "stars": 0,
+      "desc": "Curbob/LobsterBoard",
+      "url": "https://github.com/Curbob/LobsterBoard",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "lobsterboard curbob/lobsterboard curbob/lobsterboard agent-framework generic"
+    },
+    {
+      "name": "manifest",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "mnfst/manifest",
+      "stars": 0,
+      "desc": "mnfst/manifest",
+      "url": "https://github.com/mnfst/manifest",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "manifest mnfst/manifest mnfst/manifest agent-framework generic"
+    },
+    {
+      "name": "mem9",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "mem9-ai/mem9",
+      "stars": 0,
+      "desc": "mem9-ai/mem9",
+      "url": "https://github.com/mem9-ai/mem9",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "mem9 mem9-ai/mem9 mem9-ai/mem9 agent-framework generic"
+    },
+    {
+      "name": "memory-lancedb-pro",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "cortexreach/memory-lancedb-pro",
+      "stars": 0,
+      "desc": "CortexReach/memory-lancedb-pro",
+      "url": "https://github.com/CortexReach/memory-lancedb-pro",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "memory-lancedb-pro cortexreach/memory-lancedb-pro cortexreach/memory-lancedb-pro agent-framework generic"
+    },
+    {
+      "name": "memsearch",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "zilliztech/memsearch",
+      "stars": 0,
+      "desc": "zilliztech/memsearch",
+      "url": "https://github.com/zilliztech/memsearch",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "memsearch zilliztech/memsearch zilliztech/memsearch agent-framework generic"
+    },
+    {
+      "name": "mercury",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "hxsteric/mercury",
+      "stars": 0,
+      "desc": "mercury",
+      "url": "https://github.com/hxsteric/mercury",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "mercury mercury hxsteric/mercury agent-framework generic"
+    },
+    {
+      "name": "mimiclaw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "memovai/mimiclaw",
+      "stars": 0,
+      "desc": "memovai/mimiclaw",
+      "url": "https://github.com/memovai/mimiclaw",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "mimiclaw memovai/mimiclaw memovai/mimiclaw agent-framework generic"
+    },
+    {
+      "name": "mission-control",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "builderz-labs/mission-control",
+      "stars": 0,
+      "desc": "builderz-labs/mission-control",
+      "url": "https://github.com/builderz-labs/mission-control",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "mission-control builderz-labs/mission-control builderz-labs/mission-control agent-framework generic"
+    },
+    {
+      "name": "moltis",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "moltis-org/moltis",
+      "stars": 0,
+      "desc": "moltis-org/moltis",
+      "url": "https://github.com/moltis-org/moltis",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "moltis moltis-org/moltis moltis-org/moltis agent-framework generic"
+    },
+    {
+      "name": "moltworker",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "cloudflare/moltworker",
+      "stars": 0,
+      "desc": "cloudflare/moltworker",
+      "url": "https://github.com/cloudflare/moltworker",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "moltworker cloudflare/moltworker cloudflare/moltworker agent-framework generic"
+    },
+    {
+      "name": "nanoclaw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "qwibitai/nanoclaw",
+      "stars": 0,
+      "desc": "qwibitai/nanoclaw",
+      "url": "https://github.com/qwibitai/nanoclaw",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "nanoclaw qwibitai/nanoclaw qwibitai/nanoclaw agent-framework generic"
+    },
+    {
+      "name": "nemoclaw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "nvidia/nemoclaw",
+      "stars": 0,
+      "desc": "NVIDIA/NemoClaw",
+      "url": "https://github.com/NVIDIA/NemoClaw",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "nemoclaw nvidia/nemoclaw nvidia/nemoclaw agent-framework generic"
+    },
+    {
+      "name": "nix-hermes-agent",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "0xrsydn/nix-hermes-agent",
+      "stars": 0,
+      "desc": "nix-hermes-agent",
+      "url": "https://github.com/0xrsydn/nix-hermes-agent",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "nix-hermes-agent nix-hermes-agent 0xrsydn/nix-hermes-agent agent-framework hermes"
+    },
+    {
+      "name": "nixos-ai-skill",
+      "source": "community",
+      "sourceAgent": "multi",
+      "repo": "marceloeatworld/nixos-ai-skill",
+      "stars": 0,
+      "desc": "Auto-updated NixOS and Nix documentation skill for AI coding assistants using the Agent Skills standard, with install paths for Claude Code, Cursor, GitHub Copilot, OpenCode, Codex, and other compatible tools.",
+      "url": "https://github.com/marceloeatworld/nixos-ai-skill",
+      "install": "git clone https://github.com/marceloeatworld/nixos-ai-skill.git .agents/skills/nixos",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "opencode"
+      ],
+      "searchText": "nixos-ai-skill auto-updated nixos and nix documentation skill for ai coding assistants using the agent skills standard, with install paths for claude code, cursor, github copilot, opencode, codex, and other compatible tools. marceloeatworld/nixos-ai-skill git clone https://github.com/marceloeatworld/nixos-ai-skill.git .agents/skills/nixos agent-framework claude codex cursor opencode"
+    },
+    {
+      "name": "nothumansearch-mcp",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "unitedideas/nothumansearch-mcp",
+      "stars": 0,
+      "desc": "Not Human Search",
+      "url": "https://github.com/unitedideas/nothumansearch-mcp",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "nothumansearch-mcp not human search unitedideas/nothumansearch-mcp agent-framework generic"
+    },
+    {
+      "name": "openclaw-ansible",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "openclaw/openclaw-ansible",
+      "stars": 0,
+      "desc": "openclaw/openclaw-ansible",
+      "url": "https://github.com/openclaw/openclaw-ansible",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-ansible openclaw/openclaw-ansible openclaw/openclaw-ansible agent-framework openclaw"
+    },
+    {
+      "name": "openclaw-assistant",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "yuga-hashimoto/openclaw-assistant",
+      "stars": 0,
+      "desc": "yuga-hashimoto/openclaw-assistant",
+      "url": "https://github.com/yuga-hashimoto/openclaw-assistant",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-assistant yuga-hashimoto/openclaw-assistant yuga-hashimoto/openclaw-assistant agent-framework openclaw"
+    },
+    {
+      "name": "openclaw-channel-dingtalk",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "soimy/openclaw-channel-dingtalk",
+      "stars": 0,
+      "desc": "soimy/openclaw-channel-dingtalk",
+      "url": "https://github.com/soimy/openclaw-channel-dingtalk",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-channel-dingtalk soimy/openclaw-channel-dingtalk soimy/openclaw-channel-dingtalk agent-framework openclaw"
+    },
+    {
+      "name": "openclaw-command-center",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "jontsai/openclaw-command-center",
+      "stars": 0,
+      "desc": "jontsai/openclaw-command-center",
+      "url": "https://github.com/jontsai/openclaw-command-center",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-command-center jontsai/openclaw-command-center jontsai/openclaw-command-center agent-framework openclaw"
+    },
+    {
+      "name": "openclaw-docker-cn-im",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "justlovemaki/openclaw-docker-cn-im",
+      "stars": 0,
+      "desc": "justlovemaki/openclaw-docker-cn-im",
+      "url": "https://github.com/justlovemaki/openclaw-docker-cn-im",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-docker-cn-im justlovemaki/openclaw-docker-cn-im justlovemaki/openclaw-docker-cn-im agent-framework openclaw"
+    },
+    {
+      "name": "openclaw-guardian",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "leoyeai/openclaw-guardian",
+      "stars": 0,
+      "desc": "LeoYeAI/openclaw-guardian",
+      "url": "https://github.com/LeoYeAI/openclaw-guardian",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-guardian leoyeai/openclaw-guardian leoyeai/openclaw-guardian agent-framework openclaw"
+    },
+    {
+      "name": "openclaw-helm",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "serhanekicii/openclaw-helm",
+      "stars": 0,
+      "desc": "serhanekicii/openclaw-helm",
+      "url": "https://github.com/serhanekicii/openclaw-helm",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-helm serhanekicii/openclaw-helm serhanekicii/openclaw-helm agent-framework openclaw"
+    },
+    {
+      "name": "openclaw-hydradb",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "usecortex/openclaw-hydradb",
+      "stars": 0,
+      "desc": "usecortex/openclaw-hydradb",
+      "url": "https://github.com/usecortex/openclaw-hydradb",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-hydradb usecortex/openclaw-hydradb usecortex/openclaw-hydradb agent-framework openclaw"
+    },
+    {
+      "name": "openclaw-mission-control",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "robsannaa/openclaw-mission-control",
+      "stars": 0,
+      "desc": "robsannaa/openclaw-mission-control",
+      "url": "https://github.com/robsannaa/openclaw-mission-control",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-mission-control robsannaa/openclaw-mission-control robsannaa/openclaw-mission-control agent-framework openclaw"
+    },
+    {
+      "name": "openclaw-nerve",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "daggerhashimoto/openclaw-nerve",
+      "stars": 0,
+      "desc": "daggerhashimoto/openclaw-nerve",
+      "url": "https://github.com/daggerhashimoto/openclaw-nerve",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-nerve daggerhashimoto/openclaw-nerve daggerhashimoto/openclaw-nerve agent-framework openclaw"
+    },
+    {
+      "name": "openclaw-supermemory",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "supermemoryai/openclaw-supermemory",
+      "stars": 0,
+      "desc": "supermemoryai/openclaw-supermemory",
+      "url": "https://github.com/supermemoryai/openclaw-supermemory",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-supermemory supermemoryai/openclaw-supermemory supermemoryai/openclaw-supermemory agent-framework openclaw"
+    },
+    {
+      "name": "openclaw-to-hermes",
+      "source": "zeropointrepo",
+      "sourceAgent": "openclaw",
+      "repo": "0xnyk/openclaw-to-hermes",
+      "stars": 0,
+      "desc": "openclaw-to-hermes",
+      "url": "https://github.com/0xNyk/openclaw-to-hermes",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-to-hermes openclaw-to-hermes 0xnyk/openclaw-to-hermes agent-framework openclaw"
+    },
+    {
+      "name": "openclaw-wechat",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "dingxiang-me/openclaw-wechat",
+      "stars": 0,
+      "desc": "dingxiang-me/OpenClaw-Wechat",
+      "url": "https://github.com/dingxiang-me/OpenClaw-Wechat",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-wechat dingxiang-me/openclaw-wechat dingxiang-me/openclaw-wechat agent-framework openclaw"
+    },
+    {
+      "name": "openclaw-windows-node",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "openclaw/openclaw-windows-node",
+      "stars": 0,
+      "desc": "openclaw/openclaw-windows-node",
+      "url": "https://github.com/openclaw/openclaw-windows-node",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-windows-node openclaw/openclaw-windows-node openclaw/openclaw-windows-node agent-framework openclaw"
+    },
+    {
+      "name": "opencode-hermes-multiagent",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "1ilkhamov/opencode-hermes-multiagent",
+      "stars": 0,
+      "desc": "opencode-hermes-multiagent",
+      "url": "https://github.com/1ilkhamov/opencode-hermes-multiagent",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "opencode-hermes-multiagent opencode-hermes-multiagent 1ilkhamov/opencode-hermes-multiagent agent-framework hermes"
+    },
+    {
+      "name": "opik-openclaw",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "comet-ml/opik-openclaw",
+      "stars": 0,
+      "desc": "comet-ml/opik-openclaw",
+      "url": "https://github.com/comet-ml/opik-openclaw",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "opik-openclaw comet-ml/opik-openclaw comet-ml/opik-openclaw agent-framework openclaw"
+    },
+    {
+      "name": "orahermes-agent",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "jasperan/orahermes-agent",
+      "stars": 0,
+      "desc": "orahermes-agent",
+      "url": "https://github.com/jasperan/orahermes-agent",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "orahermes-agent orahermes-agent jasperan/orahermes-agent agent-framework hermes"
+    },
+    {
+      "name": "personal-api-skill",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "beiyuii/personal-api-skill",
+      "stars": 0,
+      "desc": "personal-api",
+      "url": "https://github.com/beiyuii/personal-api-skill",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "personal-api-skill personal-api beiyuii/personal-api-skill agent-framework generic"
+    },
+    {
+      "name": "picoclaw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "sipeed/picoclaw",
+      "stars": 0,
+      "desc": "sipeed/picoclaw",
+      "url": "https://github.com/sipeed/picoclaw",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "picoclaw sipeed/picoclaw sipeed/picoclaw agent-framework generic"
+    },
+    {
+      "name": "plur",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "plur-ai/plur",
+      "stars": 0,
+      "desc": "plur",
+      "url": "https://github.com/plur-ai/plur",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "plur plur plur-ai/plur agent-framework generic"
+    },
+    {
+      "name": "poco-agent",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "poco-ai/poco-agent",
+      "stars": 0,
+      "desc": "poco-ai/poco-agent",
+      "url": "https://github.com/poco-ai/poco-agent",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "poco-agent poco-ai/poco-agent poco-ai/poco-agent agent-framework generic"
+    },
+    {
+      "name": "portable-hermes-agent",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "rookiemann/portable-hermes-agent",
+      "stars": 0,
+      "desc": "portable-hermes-agent",
+      "url": "https://github.com/rookiemann/portable-hermes-agent",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "portable-hermes-agent portable-hermes-agent rookiemann/portable-hermes-agent agent-framework hermes"
+    },
+    {
+      "name": "ripley-xmr-gateway",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "kyc-rip/ripley-xmr-gateway",
+      "stars": 0,
+      "desc": "ripley-xmr-gateway",
+      "url": "https://github.com/KYC-rip/ripley-xmr-gateway",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "ripley-xmr-gateway ripley-xmr-gateway kyc-rip/ripley-xmr-gateway agent-framework generic"
+    },
+    {
+      "name": "rt-claw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "zevorn/rt-claw",
+      "stars": 0,
+      "desc": "zevorn/rt-claw",
+      "url": "https://github.com/zevorn/rt-claw",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "rt-claw zevorn/rt-claw zevorn/rt-claw agent-framework generic"
+    },
+    {
+      "name": "serverless-openclaw",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "serithemage/serverless-openclaw",
+      "stars": 0,
+      "desc": "serithemage/serverless-openclaw",
+      "url": "https://github.com/serithemage/serverless-openclaw",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "serverless-openclaw serithemage/serverless-openclaw serithemage/serverless-openclaw agent-framework openclaw"
+    },
+    {
+      "name": "skills",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "mattpocock/skills",
+      "stars": 0,
+      "desc": "Repo",
+      "url": "https://github.com/mattpocock/skills",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "skills repo mattpocock/skills agent-framework generic"
+    },
+    {
+      "name": "swift-agents",
+      "source": "techopolis",
+      "sourceAgent": "generic",
+      "repo": "techopolis/swift-agents",
+      "stars": 0,
+      "desc": "Swift Agents",
+      "url": "https://github.com/Techopolis/swift-agents",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "swift-agents swift agents techopolis/swift-agents agent-framework generic"
+    },
+    {
+      "name": "unbrowse",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "unbrowse-ai/unbrowse",
+      "stars": 0,
+      "desc": "unbrowse-ai/unbrowse",
+      "url": "https://github.com/unbrowse-ai/unbrowse",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "unbrowse unbrowse-ai/unbrowse unbrowse-ai/unbrowse agent-framework generic"
+    },
+    {
+      "name": "vessel-browser",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "unmodeled-tyler/vessel-browser",
+      "stars": 0,
+      "desc": "vessel-browser",
+      "url": "https://github.com/unmodeled-tyler/vessel-browser",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "vessel-browser vessel-browser unmodeled-tyler/vessel-browser agent-framework generic"
+    },
+    {
+      "name": "waclaw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "onfabric/waclaw",
+      "stars": 0,
+      "desc": "onfabric/waclaw",
+      "url": "https://github.com/onfabric/waclaw",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "waclaw onfabric/waclaw onfabric/waclaw agent-framework generic"
+    },
+    {
+      "name": "Paperclip Adapter",
+      "repo": "nousresearch/hermes-paperclip-adapter",
+      "description": "Paperclip adapter for Hermes Agent — run as managed employee in Paperclip",
+      "platforms": [
+        "hermes"
+      ]
+    },
+    {
+      "name": "Hermes LCM",
+      "repo": "stephenschoettler/hermes-lcm",
+      "description": "Lossless Context Management plugin for Hermes Agent — DAG-based context engine",
+      "platforms": [
+        "hermes"
+      ]
+    },
+    {
+      "name": "FableCodex",
+      "repo": "baskduf/fablecodex",
+      "description": "Codex-style coding agent workflow that plans like Fable",
+      "platforms": [
+        "codex"
+      ]
+    },
+    {
+      "name": "AutoContext",
+      "repo": "greyhaven-ai/autocontext",
+      "description": "Recursive self-improving harness for AI agents and future iterations",
+      "platforms": [
+        "claude-code",
+        "hermes"
+      ]
+    },
+    {
+      "name": "Maestro Orchestrate",
+      "repo": "josstei/maestro-orchestrate",
+      "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, Qwen",
+      "platforms": [
+        "claude-code",
+        "codex",
+        "cursor"
+      ]
+    }
+  ]
+}

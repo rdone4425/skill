@@ -1,0 +1,1812 @@
+{
+  "meta": {
+    "functionCategory": "testing-qa",
+    "topCategoryId": "testing",
+    "subCategoryId": "qa",
+    "categoryPath": "testing-qa",
+    "count": 93,
+    "sourceData": "categories"
+  },
+  "skills": [
+    {
+      "name": "skill-creator",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "anthropics/skills",
+      "stars": 156452,
+      "desc": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with varia",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
+      "install": "$skill-installer skill-creator",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "development",
+      "subCategoryId": "coding",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "skill-creator create new skills, modify and improve existing skills, and measure skill performance. use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with varia anthropics/skills $skill-installer skill-creator testing-qa claude"
+    },
+    {
+      "name": "playwright--automation",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "microsoft/playwright",
+      "stars": 91851,
+      "desc": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+      "url": "https://github.com/microsoft/playwright",
+      "install": "npm i playwright",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "playwright--automation playwright is a framework for web testing and automation. it allows testing chromium, firefox and webkit with a single api. microsoft/playwright npm i playwright testing-qa general"
+    },
+    {
+      "name": "hoppscotch",
+      "source": "hoppscotch",
+      "sourceAgent": "hoppscotch",
+      "repo": "hoppscotch/hoppscotch",
+      "stars": 79664,
+      "desc": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
+      "url": "https://github.com/hoppscotch/hoppscotch",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "hoppscotch"
+      ],
+      "searchText": "hoppscotch open-source api development ecosystem • https://hoppscotch.io • offline, on-prem & cloud • web, desktop & cli • open-source alternative to postman, insomnia hoppscotch/hoppscotch testing-qa hoppscotch"
+    },
+    {
+      "name": "bruno",
+      "source": "bruno",
+      "sourceAgent": "bruno",
+      "repo": "usebruno/bruno",
+      "stars": 45203,
+      "desc": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
+      "url": "https://github.com/usebruno/bruno",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "bruno"
+      ],
+      "searchText": "bruno opensource ide for exploring and testing api's (lightweight alternative to postman/insomnia) usebruno/bruno testing-qa bruno"
+    },
+    {
+      "name": "k6",
+      "source": "k6",
+      "sourceAgent": "k6",
+      "repo": "grafana/k6",
+      "stars": 30899,
+      "desc": "A modern load testing tool, using Go and JavaScript",
+      "url": "https://github.com/grafana/k6",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "k6"
+      ],
+      "searchText": "k6 a modern load testing tool, using go and javascript grafana/k6 testing-qa k6"
+    },
+    {
+      "name": "locust",
+      "source": "locust",
+      "sourceAgent": "locust",
+      "repo": "locustio/locust",
+      "stars": 27947,
+      "desc": "Write scalable load tests in plain Python 🚗💨",
+      "url": "https://github.com/locustio/locust",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "locust"
+      ],
+      "searchText": "locust write scalable load tests in plain python 🚗💨 locustio/locust testing-qa locust"
+    },
+    {
+      "name": "behat-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate Behat BDD tests for PHP with Gherkin and Mink",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/behat-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "behat-skill generate behat bdd tests for php with gherkin and mink voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "behave-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate Behave BDD tests for Python with Gherkin and step implementations",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/behave-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "behave-skill generate behave bdd tests for python with gherkin and step implementations voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "capybara-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate Capybara E2E tests in Ruby with RSpec integration",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/capybara-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "capybara-skill generate capybara e2e tests in ruby with rspec integration voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "cucumber-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate Cucumber BDD tests with Gherkin and step definitions in Java, JS, or Ruby",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/cucumber-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "cucumber-skill generate cucumber bdd tests with gherkin and step definitions in java, js, or ruby voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "epic-hypothesis",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Turn initiatives into testable hypotheses with measurable success metrics",
+      "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/epic-hypothesis",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "epic-hypothesis turn initiatives into testable hypotheses with measurable success metrics voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "gstack-upgrade",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Self-Updater: upgrade gstack to latest version",
+      "url": "https://officialskills.sh/garrytan/skills/gstack-upgrade",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "gstack-upgrade self-updater: upgrade gstack to latest version voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "jasmine-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate Jasmine BDD tests in JavaScript with spies and async support",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/jasmine-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "jasmine-skill generate jasmine bdd tests in javascript with spies and async support voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "jest-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate Jest unit and integration tests in JS/TS with mocking and snapshots",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/jest-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "jest-skill generate jest unit and integration tests in js/ts with mocking and snapshots voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "junit-5-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate JUnit 5 unit and integration tests in Java with Mockito",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/junit-5-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "junit-5-skill generate junit 5 unit and integration tests in java with mockito voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "laravel-dusk-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate Laravel Dusk Chrome-based browser tests in PHP",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/laravel-dusk-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "laravel-dusk-skill generate laravel dusk chrome-based browser tests in php voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "lettuce-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate Lettuce BDD tests for Python (legacy; prefer Behave)",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/lettuce-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "lettuce-skill generate lettuce bdd tests for python (legacy; prefer behave) voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "modern-python",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Modern Python tooling with uv, ruff, ty, and pytest best practices",
+      "url": "https://officialskills.sh/trailofbits/skills/modern-python",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "modern-python modern python tooling with uv, ruff, ty, and pytest best practices voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "mstest-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate MSTest tests in C# for .NET",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/mstest-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "mstest-skill generate mstest tests in c# for .net voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "nemojs-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate Nemo.js Selenium-based tests for Node.js",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/nemojs-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "nemojs-skill generate nemo.js selenium-based tests for node.js voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "nightwatchjs-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate NightwatchJS E2E tests in JavaScript with Selenium WebDriver",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/nightwatchjs-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "nightwatchjs-skill generate nightwatchjs e2e tests in javascript with selenium webdriver voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "opportunity-solution-tree",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate opportunities and solutions and recommend proof-of-concept tests",
+      "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/opportunity-solution-tree",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "opportunity-solution-tree generate opportunities and solutions and recommend proof-of-concept tests voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "pol-probe",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Define lightweight validation experiments to test hypotheses",
+      "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/pol-probe",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "pol-probe define lightweight validation experiments to test hypotheses voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "pytest-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate pytest tests in Python with fixtures, parametrize, and mocking",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/pytest-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "pytest-skill generate pytest tests in python with fixtures, parametrize, and mocking voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "qa",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "QA Lead: test your app, find bugs, fix them with atomic commits, auto-generate regression tests",
+      "url": "https://officialskills.sh/garrytan/skills/qa",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "qa qa lead: test your app, find bugs, fix them with atomic commits, auto-generate regression tests voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "reqnroll-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate Reqnroll BDD tests for web and mobile in C#",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/reqnroll-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "reqnroll-skill generate reqnroll bdd tests for web and mobile in c# voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "robot-framework-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate Robot Framework keyword-driven tests in Python",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/robot-framework-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "robot-framework-skill generate robot framework keyword-driven tests in python voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "rspec-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate RSpec tests in Ruby with matchers, hooks, and mocking",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/rspec-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "rspec-skill generate rspec tests in ruby with matchers, hooks, and mocking voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "selenium-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate Selenium WebDriver tests in Java, Python, JS, C#, Ruby, or PHP",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/selenium-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "selenium-skill generate selenium webdriver tests in java, python, js, c#, ruby, or php voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "semgrep-rule-variant-creator",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Port existing Semgrep rules to new target languages with test-driven validation",
+      "url": "https://officialskills.sh/trailofbits/skills/semgrep-rule-variant-creator",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "semgrep-rule-variant-creator port existing semgrep rules to new target languages with test-driven validation voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "serenity-bdd-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate Serenity BDD tests in Java with the Screenplay pattern and reporting",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/serenity-bdd-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "serenity-bdd-skill generate serenity bdd tests in java with the screenplay pattern and reporting voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "specflow-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate SpecFlow BDD tests for C#/.NET with Gherkin and step bindings",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/specflow-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "specflow-skill generate specflow bdd tests for c#/.net with gherkin and step bindings voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "test-scenarios",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Create comprehensive test scenarios from user stories",
+      "url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/test-scenarios",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "test-scenarios create comprehensive test scenarios from user stories voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "testunit-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate Test::Unit xUnit-style tests in Ruby",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/testunit-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "testunit-skill generate test::unit xunit-style tests in ruby voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "unittest-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate Python unittest tests with TestCase and setUp/tearDown",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/unittest-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "unittest-skill generate python unittest tests with testcase and setup/teardown voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "xunit-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate xUnit.net tests in C# with Fact/Theory and FluentAssertions",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/xunit-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "xunit-skill generate xunit.net tests in c# with fact/theory and fluentassertions voltagent/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "testify",
+      "source": "testify",
+      "sourceAgent": "testify",
+      "repo": "stretchr/testify",
+      "stars": 26045,
+      "desc": "A toolkit with common assertions and mocks that plays nicely with the standard library",
+      "url": "https://github.com/stretchr/testify",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "testify"
+      ],
+      "searchText": "testify a toolkit with common assertions and mocks that plays nicely with the standard library stretchr/testify testing-qa testify"
+    },
+    {
+      "name": "vegeta",
+      "source": "vegeta",
+      "sourceAgent": "vegeta",
+      "repo": "tsenart/vegeta",
+      "stars": 25088,
+      "desc": "HTTP load testing tool and library. It's over 9000!",
+      "url": "https://github.com/tsenart/vegeta",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "vegeta"
+      ],
+      "searchText": "vegeta http load testing tool and library. it's over 9000! tsenart/vegeta testing-qa vegeta"
+    },
+    {
+      "name": "appium",
+      "source": "appium",
+      "sourceAgent": "appium",
+      "repo": "appium/appium",
+      "stars": 21699,
+      "desc": "Cross-platform automation framework for all kinds of apps, built on top of the W3C WebDriver protocol",
+      "url": "https://github.com/appium/appium",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "appium"
+      ],
+      "searchText": "appium cross-platform automation framework for all kinds of apps, built on top of the w3c webdriver protocol appium/appium testing-qa appium"
+    },
+    {
+      "name": "mobile-security-framework-mobsf",
+      "source": "mobile-security-framework-mobsf",
+      "sourceAgent": "mobile-security-framework-mobsf",
+      "repo": "MobSF/Mobile-Security-Framework-MobSF",
+      "stars": 21300,
+      "desc": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and",
+      "url": "https://github.com/MobSF/Mobile-Security-Framework-MobSF",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "mobile-security-framework-mobsf"
+      ],
+      "searchText": "mobile-security-framework-mobsf mobile security framework (mobsf) is an automated, all-in-one mobile application (android/ios/windows) pen-testing, malware analysis and security assessment framework capable of performing static and mobsf/mobile-security-framework-mobsf testing-qa mobile-security-framework-mobsf"
+    },
+    {
+      "name": "hurl",
+      "source": "hurl",
+      "sourceAgent": "hurl",
+      "repo": "Orange-OpenSource/hurl",
+      "stars": 19038,
+      "desc": "Hurl, run and test HTTP requests with plain text.",
+      "url": "https://github.com/Orange-OpenSource/hurl",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "hurl"
+      ],
+      "searchText": "hurl hurl, run and test http requests with plain text. orange-opensource/hurl testing-qa hurl"
+    },
+    {
+      "name": "keploy",
+      "source": "keploy",
+      "sourceAgent": "keploy",
+      "repo": "keploy/keploy",
+      "stars": 17807,
+      "desc": "Open-source platform for creating safe, isolated production sandboxes for API, integration, and E2E testing.",
+      "url": "https://github.com/keploy/keploy",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "keploy"
+      ],
+      "searchText": "keploy open-source platform for creating safe, isolated production sandboxes for api, integration, and e2e testing. keploy/keploy testing-qa keploy"
+    },
+    {
+      "name": "mockito",
+      "source": "mockito",
+      "sourceAgent": "mockito",
+      "repo": "mockito/mockito",
+      "stars": 15439,
+      "desc": "Most popular Mocking framework for unit tests written in Java",
+      "url": "https://github.com/mockito/mockito",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "mockito"
+      ],
+      "searchText": "mockito most popular mocking framework for unit tests written in java mockito/mockito testing-qa mockito"
+    },
+    {
+      "name": "midscene",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "web-infra-dev/midscene",
+      "stars": 13869,
+      "desc": "AI-powered, vision-driven UI automation for every platform. Write tests in natural language.",
+      "url": "https://github.com/web-infra-dev/midscene",
+      "install": "npm i @midscene/web",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "midscene ai-powered, vision-driven ui automation for every platform. write tests in natural language. web-infra-dev/midscene npm i @midscene/web testing-qa general"
+    },
+    {
+      "name": "metersphere",
+      "source": "metersphere",
+      "sourceAgent": "metersphere",
+      "repo": "metersphere/metersphere",
+      "stars": 13308,
+      "desc": "MeterSphere 是新一代的开源持续测试工具，内置 AI 助手，让软件测试工作更简单、更高效，不再成为持续交付的瓶颈。",
+      "url": "https://github.com/metersphere/metersphere",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "metersphere"
+      ],
+      "searchText": "metersphere metersphere 是新一代的开源持续测试工具，内置 ai 助手，让软件测试工作更简单、更高效，不再成为持续交付的瓶颈。 metersphere/metersphere testing-qa metersphere"
+    },
+    {
+      "name": "seleniumbase",
+      "source": "seleniumbase",
+      "sourceAgent": "seleniumbase",
+      "repo": "seleniumbase/SeleniumBase",
+      "stars": 12823,
+      "desc": "SeleniumBase is a framework for UI Testing, Web Scraping, and Stealth. Passes every bot-detection test with CDP Mode, and extends Playwright.",
+      "url": "https://github.com/seleniumbase/SeleniumBase",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "seleniumbase"
+      ],
+      "searchText": "seleniumbase seleniumbase is a framework for ui testing, web scraping, and stealth. passes every bot-detection test with cdp mode, and extends playwright. seleniumbase/seleniumbase testing-qa seleniumbase"
+    },
+    {
+      "name": "detox",
+      "source": "detox",
+      "sourceAgent": "detox",
+      "repo": "wix/Detox",
+      "stars": 11969,
+      "desc": "Gray box end-to-end testing and automation framework for mobile apps",
+      "url": "https://github.com/wix/Detox",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "detox"
+      ],
+      "searchText": "detox gray box end-to-end testing and automation framework for mobile apps wix/detox testing-qa detox"
+    },
+    {
+      "name": "oha",
+      "source": "oha",
+      "sourceAgent": "oha",
+      "repo": "hatoo/oha",
+      "stars": 10339,
+      "desc": "Ohayou(おはよう), HTTP load generator, inspired by rakyll/hey with tui animation.",
+      "url": "https://github.com/hatoo/oha",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "oha"
+      ],
+      "searchText": "oha ohayou(おはよう), http load generator, inspired by rakyll/hey with tui animation. hatoo/oha testing-qa oha"
+    },
+    {
+      "name": "testcafe",
+      "source": "testcafe",
+      "sourceAgent": "testcafe",
+      "repo": "DevExpress/testcafe",
+      "stars": 9908,
+      "desc": "A Node.js tool to automate end-to-end web testing.",
+      "url": "https://github.com/DevExpress/testcafe",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "testcafe"
+      ],
+      "searchText": "testcafe a node.js tool to automate end-to-end web testing. devexpress/testcafe testing-qa testcafe"
+    },
+    {
+      "name": "airtest",
+      "source": "airtest",
+      "sourceAgent": "airtest",
+      "repo": "AirtestProject/Airtest",
+      "stars": 9428,
+      "desc": "UI Automation Framework for Games and Apps",
+      "url": "https://github.com/AirtestProject/Airtest",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "airtest"
+      ],
+      "searchText": "airtest ui automation framework for games and apps airtestproject/airtest testing-qa airtest"
+    },
+    {
+      "name": "http-prompt",
+      "source": "http-prompt",
+      "sourceAgent": "http-prompt",
+      "repo": "httpie/http-prompt",
+      "stars": 9100,
+      "desc": "An interactive command-line HTTP and API testing client built on top of HTTPie featuring autocomplete, syntax highlighting, and more. https://twitter.com/httpie",
+      "url": "https://github.com/httpie/http-prompt",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "http-prompt"
+      ],
+      "searchText": "http-prompt an interactive command-line http and api testing client built on top of httpie featuring autocomplete, syntax highlighting, and more. https://twitter.com/httpie httpie/http-prompt testing-qa http-prompt"
+    },
+    {
+      "name": "artillery",
+      "source": "artillery",
+      "sourceAgent": "artillery",
+      "repo": "artilleryio/artillery",
+      "stars": 9008,
+      "desc": "The complete load testing platform. Everything you need for production-grade load tests. Serverless & distributed. Load test with Playwright. Load test HTTP APIs, GraphQL, WebSocket, and more. Use any",
+      "url": "https://github.com/artilleryio/artillery",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "artillery"
+      ],
+      "searchText": "artillery the complete load testing platform. everything you need for production-grade load tests. serverless & distributed. load test with playwright. load test http apis, graphql, websocket, and more. use any artilleryio/artillery testing-qa artillery"
+    },
+    {
+      "name": "karate",
+      "source": "karate",
+      "sourceAgent": "karate",
+      "repo": "karatelabs/karate",
+      "stars": 8885,
+      "desc": "Test Automation Made Simple",
+      "url": "https://github.com/karatelabs/karate",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "karate"
+      ],
+      "searchText": "karate test automation made simple karatelabs/karate testing-qa karate"
+    },
+    {
+      "name": "anteon",
+      "source": "anteon",
+      "sourceAgent": "anteon",
+      "repo": "getanteon/anteon",
+      "stars": 8527,
+      "desc": "Anteon (formerly Ddosify): eBPF-based Kubernetes Monitoring and Performance Testing",
+      "url": "https://github.com/getanteon/anteon",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "anteon"
+      ],
+      "searchText": "anteon anteon (formerly ddosify): ebpf-based kubernetes monitoring and performance testing getanteon/anteon testing-qa anteon"
+    },
+    {
+      "name": "xh",
+      "source": "xh",
+      "sourceAgent": "xh",
+      "repo": "ducaale/xh",
+      "stars": 7894,
+      "desc": "Friendly and fast tool for sending HTTP requests",
+      "url": "https://github.com/ducaale/xh",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "xh"
+      ],
+      "searchText": "xh friendly and fast tool for sending http requests ducaale/xh testing-qa xh"
+    },
+    {
+      "name": "mockery",
+      "source": "mockery",
+      "sourceAgent": "mockery",
+      "repo": "vektra/mockery",
+      "stars": 7141,
+      "desc": "A mock code autogenerator for Go",
+      "url": "https://github.com/vektra/mockery",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "mockery"
+      ],
+      "searchText": "mockery a mock code autogenerator for go vektra/mockery testing-qa mockery"
+    },
+    {
+      "name": "awesome-test-automation",
+      "source": "awesome-test-automation",
+      "sourceAgent": "awesome-test-automation",
+      "repo": "atinfo/awesome-test-automation",
+      "stars": 7092,
+      "desc": "A curated list of awesome test automation frameworks, tools, libraries, and software for different programming languages. Sponsored by https://zapple.tech and https://automated-testing.info",
+      "url": "https://github.com/atinfo/awesome-test-automation",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "awesome-test-automation"
+      ],
+      "searchText": "awesome-test-automation a curated list of awesome test automation frameworks, tools, libraries, and software for different programming languages. sponsored by https://zapple.tech and https://automated-testing.info atinfo/awesome-test-automation testing-qa awesome-test-automation"
+    },
+    {
+      "name": "gatling",
+      "source": "gatling",
+      "sourceAgent": "gatling",
+      "repo": "gatling/gatling",
+      "stars": 6926,
+      "desc": "Modern Load Testing as Code",
+      "url": "https://github.com/gatling/gatling",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "gatling"
+      ],
+      "searchText": "gatling modern load testing as code gatling/gatling testing-qa gatling"
+    },
+    {
+      "name": "bombardier",
+      "source": "bombardier",
+      "sourceAgent": "bombardier",
+      "repo": "codesenberg/bombardier",
+      "stars": 6801,
+      "desc": "Fast cross-platform HTTP benchmarking tool written in Go",
+      "url": "https://github.com/codesenberg/bombardier",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "bombardier"
+      ],
+      "searchText": "bombardier fast cross-platform http benchmarking tool written in go codesenberg/bombardier testing-qa bombardier"
+    },
+    {
+      "name": "podinfo",
+      "source": "podinfo",
+      "sourceAgent": "podinfo",
+      "repo": "stefanprodan/podinfo",
+      "stars": 5931,
+      "desc": "Go microservice template for Kubernetes",
+      "url": "https://github.com/stefanprodan/podinfo",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "podinfo"
+      ],
+      "searchText": "podinfo go microservice template for kubernetes stefanprodan/podinfo testing-qa podinfo"
+    },
+    {
+      "name": "shortest",
+      "source": "shortest",
+      "sourceAgent": "shortest",
+      "repo": "antiwork/shortest",
+      "stars": 5628,
+      "desc": "QA via natural language AI tests",
+      "url": "https://github.com/antiwork/shortest",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "shortest"
+      ],
+      "searchText": "shortest qa via natural language ai tests antiwork/shortest testing-qa shortest"
+    },
+    {
+      "name": "mcp-playwright",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "executeautomation/mcp-playwright",
+      "stars": 5562,
+      "desc": "Playwright Model Context Protocol Server - Tool to automate Browsers and APIs",
+      "url": "https://github.com/executeautomation/mcp-playwright",
+      "install": "$skill-installer mcp-playwright",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "mcp-playwright playwright model context protocol server - tool to automate browsers and apis executeautomation/mcp-playwright $skill-installer mcp-playwright testing-qa claude"
+    },
+    {
+      "name": "qodo-cover",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "qodo-ai/qodo-cover",
+      "stars": 5456,
+      "desc": "AI-Powered Tool for Automated Test Generation and Code Coverage Enhancement.",
+      "url": "https://github.com/qodo-ai/qodo-cover",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex"
+      ],
+      "searchText": "qodo-cover ai-powered tool for automated test generation and code coverage enhancement. qodo-ai/qodo-cover testing-qa claude codex"
+    },
+    {
+      "name": "mobile-mcp",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "mobile-next/mobile-mcp",
+      "stars": 5300,
+      "desc": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android)",
+      "url": "https://github.com/mobile-next/mobile-mcp",
+      "install": "$skill-installer mobile-mcp",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "mobile-mcp model context protocol server for mobile automation and scraping (ios, android) mobile-next/mobile-mcp $skill-installer mobile-mcp testing-qa claude"
+    },
+    {
+      "name": "powermock",
+      "source": "powermock",
+      "sourceAgent": "powermock",
+      "repo": "powermock/powermock",
+      "stars": 4172,
+      "desc": "PowerMock is a Java framework that allows you to unit test code normally regarded as untestable.",
+      "url": "https://github.com/powermock/powermock",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "powermock"
+      ],
+      "searchText": "powermock powermock is a java framework that allows you to unit test code normally regarded as untestable. powermock/powermock testing-qa powermock"
+    },
+    {
+      "name": "puppeteer-sharp",
+      "source": "puppeteer-sharp",
+      "sourceAgent": "puppeteer-sharp",
+      "repo": "hardkoded/puppeteer-sharp",
+      "stars": 3901,
+      "desc": "Headless Chrome .NET API",
+      "url": "https://github.com/hardkoded/puppeteer-sharp",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "puppeteer-sharp"
+      ],
+      "searchText": "puppeteer-sharp headless chrome .net api hardkoded/puppeteer-sharp testing-qa puppeteer-sharp"
+    },
+    {
+      "name": "awesome-http-benchmark",
+      "source": "awesome-http-benchmark",
+      "sourceAgent": "awesome-http-benchmark",
+      "repo": "denji/awesome-http-benchmark",
+      "stars": 3759,
+      "desc": "HTTP(S) benchmark tools, testing/debugging, & restAPI (RESTful)",
+      "url": "https://github.com/denji/awesome-http-benchmark",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "awesome-http-benchmark"
+      ],
+      "searchText": "awesome-http-benchmark http(s) benchmark tools, testing/debugging, & restapi (restful) denji/awesome-http-benchmark testing-qa awesome-http-benchmark"
+    },
+    {
+      "name": "cli",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "qawolf/cli",
+      "stars": 3435,
+      "desc": "QA Wolf from anywhere — your terminal, your CI, your AI agent. Create browser tests with no code.",
+      "url": "https://github.com/qawolf/cli",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing-qa",
+      "subCategoryId": "general",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cli qa wolf from anywhere — your terminal, your ci, your ai agent. create browser tests with no code. qawolf/cli testing-qa general"
+    },
+    {
+      "name": "pester",
+      "source": "pester",
+      "sourceAgent": "pester",
+      "repo": "pester/Pester",
+      "stars": 3293,
+      "desc": "Pester is the ubiquitous test and mock framework for PowerShell.",
+      "url": "https://github.com/pester/Pester",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "pester"
+      ],
+      "searchText": "pester pester is the ubiquitous test and mock framework for powershell. pester/pester testing-qa pester"
+    },
+    {
+      "name": "sikulix1",
+      "source": "sikulix1",
+      "sourceAgent": "sikulix1",
+      "repo": "oculix-org/SikuliX1",
+      "stars": 3221,
+      "desc": "SikuliX version 2.0.0+ (2019+)",
+      "url": "https://github.com/oculix-org/SikuliX1",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "sikulix1"
+      ],
+      "searchText": "sikulix1 sikulix version 2.0.0+ (2019+) oculix-org/sikulix1 testing-qa sikulix1"
+    },
+    {
+      "name": "phoronix-test-suite",
+      "source": "phoronix-test-suite",
+      "sourceAgent": "phoronix-test-suite",
+      "repo": "phoronix-test-suite/phoronix-test-suite",
+      "stars": 3082,
+      "desc": "The Phoronix Test Suite open-source, cross-platform automated testing/benchmarking software.",
+      "url": "https://github.com/phoronix-test-suite/phoronix-test-suite",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "phoronix-test-suite"
+      ],
+      "searchText": "phoronix-test-suite the phoronix test suite open-source, cross-platform automated testing/benchmarking software. phoronix-test-suite/phoronix-test-suite testing-qa phoronix-test-suite"
+    },
+    {
+      "name": "panther",
+      "source": "panther",
+      "sourceAgent": "panther",
+      "repo": "symfony/panther",
+      "stars": 3067,
+      "desc": "A browser testing and web crawling library for PHP and Symfony",
+      "url": "https://github.com/symfony/panther",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "panther"
+      ],
+      "searchText": "panther a browser testing and web crawling library for php and symfony symfony/panther testing-qa panther"
+    },
+    {
+      "name": "vcrpy",
+      "source": "vcrpy",
+      "sourceAgent": "vcrpy",
+      "repo": "kevin1024/vcrpy",
+      "stars": 2973,
+      "desc": "Automatically mock your HTTP interactions to simplify and speed up testing",
+      "url": "https://github.com/kevin1024/vcrpy",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "vcrpy"
+      ],
+      "searchText": "vcrpy automatically mock your http interactions to simplify and speed up testing kevin1024/vcrpy testing-qa vcrpy"
+    },
+    {
+      "name": "nsubstitute",
+      "source": "nsubstitute",
+      "sourceAgent": "nsubstitute",
+      "repo": "nsubstitute/NSubstitute",
+      "stars": 2956,
+      "desc": "A friendly substitute for .NET mocking libraries.",
+      "url": "https://github.com/nsubstitute/NSubstitute",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "nsubstitute"
+      ],
+      "searchText": "nsubstitute a friendly substitute for .net mocking libraries. nsubstitute/nsubstitute testing-qa nsubstitute"
+    },
+    {
+      "name": "agent-device",
+      "source": "agent-device",
+      "sourceAgent": "agent-device",
+      "repo": "callstack/agent-device",
+      "stars": 2935,
+      "desc": "CLI to control iOS and Android devices for AI agents",
+      "url": "https://github.com/callstack/agent-device",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "agent-device"
+      ],
+      "searchText": "agent-device cli to control ios and android devices for ai agents callstack/agent-device testing-qa agent-device"
+    },
+    {
+      "name": "playwright-skill",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "lackeyjb/playwright-skill",
+      "stars": 2740,
+      "desc": "Claude Code Skill for browser automation with Playwright. Model-invoked - Claude autonomously writes and executes custom automation for testing and validation.",
+      "url": "https://github.com/lackeyjb/playwright-skill",
+      "install": "npm i -g playwright-skill",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "browser",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "playwright-skill claude code skill for browser automation with playwright. model-invoked - claude autonomously writes and executes custom automation for testing and validation. lackeyjb/playwright-skill npm i -g playwright-skill testing-qa claude"
+    },
+    {
+      "name": "hoverfly",
+      "source": "hoverfly",
+      "sourceAgent": "hoverfly",
+      "repo": "SpectoLabs/hoverfly",
+      "stars": 2499,
+      "desc": "Lightweight service virtualization/ API simulation / API mocking tool for developers and testers",
+      "url": "https://github.com/SpectoLabs/hoverfly",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "hoverfly"
+      ],
+      "searchText": "hoverfly lightweight service virtualization/ api simulation / api mocking tool for developers and testers spectolabs/hoverfly testing-qa hoverfly"
+    },
+    {
+      "name": "gock",
+      "source": "gock",
+      "sourceAgent": "gock",
+      "repo": "h2non/gock",
+      "stars": 2216,
+      "desc": "HTTP traffic mocking and testing made easy in Go ༼ʘ̚ل͜ʘ̚༽",
+      "url": "https://github.com/h2non/gock",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "gock"
+      ],
+      "searchText": "gock http traffic mocking and testing made easy in go ༼ʘ̚ل͜ʘ̚༽ h2non/gock testing-qa gock"
+    },
+    {
+      "name": "moq",
+      "source": "moq",
+      "sourceAgent": "moq",
+      "repo": "matryer/moq",
+      "stars": 2200,
+      "desc": "Interface mocking tool for go generate",
+      "url": "https://github.com/matryer/moq",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "moq"
+      ],
+      "searchText": "moq interface mocking tool for go generate matryer/moq testing-qa moq"
+    },
+    {
+      "name": "awesome-quality-assurance-roadmap",
+      "source": "awesome-quality-assurance-roadmap",
+      "sourceAgent": "awesome-quality-assurance-roadmap",
+      "repo": "fityanos/awesome-quality-assurance-roadmap",
+      "stars": 2125,
+      "desc": ":books: The starting point of your career as a Software Quality Assurance Engineer | Quality Automation Engineer :books:",
+      "url": "https://github.com/fityanos/awesome-quality-assurance-roadmap",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "awesome-quality-assurance-roadmap"
+      ],
+      "searchText": "awesome-quality-assurance-roadmap :books: the starting point of your career as a software quality assurance engineer | quality automation engineer :books: fityanos/awesome-quality-assurance-roadmap testing-qa awesome-quality-assurance-roadmap"
+    },
+    {
+      "name": "loki",
+      "source": "loki",
+      "sourceAgent": "loki",
+      "repo": "oblador/loki",
+      "stars": 1909,
+      "desc": "👁 Visual Regression Testing for Storybook",
+      "url": "https://github.com/oblador/loki",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "loki"
+      ],
+      "searchText": "loki 👁 visual regression testing for storybook oblador/loki testing-qa loki"
+    },
+    {
+      "name": "codex-autoresearch",
+      "source": "general",
+      "sourceAgent": "codex",
+      "repo": "leo-lilinxiao/codex-autoresearch",
+      "stars": 1847,
+      "desc": "Codex Autoresearch Skill — A self-directed iterative system for Codex that continuously cycles through: modify, verify, retain or discard, and repeat indefinitely. Inspired by Karpathy’s autoresearch concept.",
+      "url": "https://github.com/leo-lilinxiao/codex-autoresearch",
+      "install": "git clone https://github.com/leo-lilinxiao/codex-autoresearch.git",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "review",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "codex-autoresearch codex autoresearch skill — a self-directed iterative system for codex that continuously cycles through: modify, verify, retain or discard, and repeat indefinitely. inspired by karpathy’s autoresearch concept. leo-lilinxiao/codex-autoresearch git clone https://github.com/leo-lilinxiao/codex-autoresearch.git testing-qa codex"
+    },
+    {
+      "name": "evalplus",
+      "source": "evalplus",
+      "sourceAgent": "evalplus",
+      "repo": "evalplus/evalplus",
+      "stars": 1770,
+      "desc": "Rigourous evaluation of LLM-synthesized code - NeurIPS 2023 & COLM 2024",
+      "url": "https://github.com/evalplus/evalplus",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "evalplus"
+      ],
+      "searchText": "evalplus rigourous evaluation of llm-synthesized code - neurips 2023 & colm 2024 evalplus/evalplus testing-qa evalplus"
+    },
+    {
+      "name": "ui-testing-best-practices",
+      "source": "ui-testing-best-practices",
+      "sourceAgent": "ui-testing-best-practices",
+      "repo": "NoriSte/ui-testing-best-practices",
+      "stars": 1734,
+      "desc": "The largest UI testing best practices list (last update: March 2025)",
+      "url": "https://github.com/NoriSte/ui-testing-best-practices",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "ui-testing-best-practices"
+      ],
+      "searchText": "ui-testing-best-practices the largest ui testing best practices list (last update: march 2025) noriste/ui-testing-best-practices testing-qa ui-testing-best-practices"
+    },
+    {
+      "name": "testzeus-hercules",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "test-zeus-ai/testzeus-hercules",
+      "stars": 1056,
+      "desc": "World's first open-source testing agent — UI, API, Security, Accessibility, and Visual testing.",
+      "url": "https://github.com/test-zeus-ai/testzeus-hercules",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "testzeus-hercules world's first open-source testing agent — ui, api, security, accessibility, and visual testing. test-zeus-ai/testzeus-hercules testing-qa general"
+    },
+    {
+      "name": "storycap",
+      "source": "storycap",
+      "sourceAgent": "storycap",
+      "repo": "reg-viz/storycap",
+      "stars": 752,
+      "desc": "A Storybook Addon, Save the screenshot image of your stories :camera: via puppeteer.",
+      "url": "https://github.com/reg-viz/storycap",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "storycap"
+      ],
+      "searchText": "storycap a storybook addon, save the screenshot image of your stories :camera: via puppeteer. reg-viz/storycap testing-qa storycap"
+    },
+    {
+      "name": "visual-regression-tracker",
+      "source": "visual-regression-tracker",
+      "sourceAgent": "visual-regression-tracker",
+      "repo": "Visual-Regression-Tracker/Visual-Regression-Tracker",
+      "stars": 695,
+      "desc": "Backend and Frontend application for tracking differences via image comparison",
+      "url": "https://github.com/Visual-Regression-Tracker/Visual-Regression-Tracker",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "visual-regression-tracker"
+      ],
+      "searchText": "visual-regression-tracker backend and frontend application for tracking differences via image comparison visual-regression-tracker/visual-regression-tracker testing-qa visual-regression-tracker"
+    },
+    {
+      "name": "claude-review-loop",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "hamelsmu/claude-review-loop",
+      "stars": 677,
+      "desc": "Claude Code plugin: automated code review loop with Codex",
+      "url": "https://github.com/hamelsmu/claude-review-loop",
+      "install": "git clone https://github.com/hamelsmu/claude-review-loop.git",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "review",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex"
+      ],
+      "searchText": "claude-review-loop claude code plugin: automated code review loop with codex hamelsmu/claude-review-loop git clone https://github.com/hamelsmu/claude-review-loop.git testing-qa claude codex"
+    },
+    {
+      "name": "differencify",
+      "source": "differencify",
+      "sourceAgent": "differencify",
+      "repo": "NimaSoroush/differencify",
+      "stars": 638,
+      "desc": "Differencify is a library for visual regression testing",
+      "url": "https://github.com/NimaSoroush/differencify",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "differencify"
+      ],
+      "searchText": "differencify differencify is a library for visual regression testing nimasoroush/differencify testing-qa differencify"
+    },
+    {
+      "name": "rspec-benchmark",
+      "source": "rspec-benchmark",
+      "sourceAgent": "rspec-benchmark",
+      "repo": "piotrmurach/rspec-benchmark",
+      "stars": 618,
+      "desc": "Performance testing matchers for RSpec",
+      "url": "https://github.com/piotrmurach/rspec-benchmark",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "rspec-benchmark"
+      ],
+      "searchText": "rspec-benchmark performance testing matchers for rspec piotrmurach/rspec-benchmark testing-qa rspec-benchmark"
+    },
+    {
+      "name": "unit-test-generator",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "JackyST0/awesome-agent-skills",
+      "stars": 576,
+      "desc": "Unit test auto-generator Skill.",
+      "url": "https://github.com/JackyST0/awesome-agent-skills/tree/main/examples/unit-test-generator",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "unit-test-generator unit test auto-generator skill. jackyst0/awesome-agent-skills testing-qa claude codex cursor hermes gemini"
+    },
+    {
+      "name": "static-to-dynamic-llmeval",
+      "source": "static-to-dynamic-llmeval",
+      "sourceAgent": "static-to-dynamic-llmeval",
+      "repo": "SeekingDream/Static-to-Dynamic-LLMEval",
+      "stars": 499,
+      "desc": "The official GitHub repository of the paper \"Recent advances in large language model benchmarks against data contamination: From static to dynamic evaluation\"",
+      "url": "https://github.com/SeekingDream/Static-to-Dynamic-LLMEval",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "static-to-dynamic-llmeval"
+      ],
+      "searchText": "static-to-dynamic-llmeval the official github repository of the paper \"recent advances in large language model benchmarks against data contamination: from static to dynamic evaluation\" seekingdream/static-to-dynamic-llmeval testing-qa static-to-dynamic-llmeval"
+    },
+    {
+      "name": "jeffreysprompts.com",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "Dicklesworthstone/jeffreysprompts.com",
+      "stars": 108,
+      "desc": "A curated collection of battle-tested prompts for agentic coding - Browse, copy, and install as Claude Code skills",
+      "url": "https://github.com/Dicklesworthstone/jeffreysprompts.com",
+      "install": "git clone https://github.com/Dicklesworthstone/jeffreysprompts.com.git  # browse the awesome list",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "jeffreysprompts.com a curated collection of battle-tested prompts for agentic coding - browse, copy, and install as claude code skills dicklesworthstone/jeffreysprompts.com git clone https://github.com/dicklesworthstone/jeffreysprompts.com.git  # browse the awesome list testing-qa claude"
+    }
+  ]
+}

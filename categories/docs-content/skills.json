@@ -1,0 +1,3636 @@
+{
+  "meta": {
+    "functionCategory": "docs-content",
+    "topCategoryId": "docs",
+    "subCategoryId": "content",
+    "categoryPath": "docs-content",
+    "count": 182,
+    "sourceData": "categories"
+  },
+  "skills": [
+    {
+      "name": "docx",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "anthropics/skills",
+      "stars": 156452,
+      "desc": "\"Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', or requests to produce professional documents with formatting",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/docx",
+      "install": "$skill-installer docx",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "docx \"use this skill whenever the user wants to create, read, edit, or manipulate word documents (.docx files). triggers include: any mention of 'word doc', 'word document', '.docx', or requests to produce professional documents with formatting anthropics/skills $skill-installer docx docs-content claude"
+    },
+    {
+      "name": "internal-comms",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "anthropics/skills",
+      "stars": 156452,
+      "desc": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/internal-comms",
+      "install": "$skill-installer internal-comms",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "internal-comms a set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership anthropics/skills $skill-installer internal-comms docs-content claude"
+    },
+    {
+      "name": "pdf",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "anthropics/skills",
+      "stars": 156452,
+      "desc": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/pdf",
+      "install": "$skill-installer pdf",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "references",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "pdf use this skill whenever the user wants to do anything with pdf files. this includes reading or extracting text/tables from pdfs, combining or merging multiple pdfs into one, splitting pdfs apart, rotating pages, adding watermarks, creating anthropics/skills $skill-installer pdf docs-content claude"
+    },
+    {
+      "name": "pptx",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "anthropics/skills",
+      "stars": 156452,
+      "desc": "\"Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted co",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/pptx",
+      "install": "$skill-installer pptx",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "references",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "pptx \"use this skill any time a .pptx file is involved in any way — as input, output, or both. this includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted co anthropics/skills $skill-installer pptx docs-content claude"
+    },
+    {
+      "name": "graphify",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "safishamsi/graphify",
+      "stars": 63777,
+      "desc": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database sc",
+      "url": "https://github.com/safishamsi/graphify",
+      "install": "git clone https://github.com/safishamsi/graphify.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "development",
+      "subCategoryId": "coding",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "opencode",
+        "gemini"
+      ],
+      "searchText": "graphify ai coding assistant skill (claude code, codex, opencode, cursor, gemini cli, and more). turn any folder of code, sql schemas, r scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. app code + database sc safishamsi/graphify git clone https://github.com/safishamsi/graphify.git docs-content claude codex cursor opencode gemini"
+    },
+    {
+      "name": "/add-to-changelog",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47560,
+      "desc": "Adds new entries to changelog files while maintaining format consistency, properly documenting changes, and following established project standards for version tracking.",
+      "url": "https://github.com/berrydev-ai/blockdoc-python/blob/main/.claude/commands/add-to-changelog.md",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs/content",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/add-to-changelog adds new entries to changelog files while maintaining format consistency, properly documenting changes, and following established project standards for version tracking. hesreallyhim/awesome-claude-code docs-content claude-code"
+    },
+    {
+      "name": "/create-docs",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47560,
+      "desc": "Analyzes code structure and purpose to create comprehensive documentation detailing inputs/outputs, behavior, user interaction flows, and edge cases with error handling.",
+      "url": "https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/create-docs.md",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs/content",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/create-docs analyzes code structure and purpose to create comprehensive documentation detailing inputs/outputs, behavior, user interaction flows, and edge cases with error handling. hesreallyhim/awesome-claude-code docs-content claude-code"
+    },
+    {
+      "name": "/docs",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47560,
+      "desc": "Generates comprehensive documentation that follows project structure, documenting APIs and usage patterns with consistent formatting for better user understanding.",
+      "url": "https://github.com/slunsford/coffee-analytics/blob/main/.claude/commands/docs.md",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs/content",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/docs generates comprehensive documentation that follows project structure, documenting apis and usage patterns with consistent formatting for better user understanding. hesreallyhim/awesome-claude-code docs-content claude-code"
+    },
+    {
+      "name": "/update-docs",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47560,
+      "desc": "Reviews current documentation status, updates implementation progress, reviews phase documents, and maintains documentation consistency across the project.",
+      "url": "https://github.com/Consiliency/Flutter-Structurizr/blob/main/.claude/commands/update-docs.md",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs/content",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/update-docs reviews current documentation status, updates implementation progress, reviews phase documents, and maintains documentation consistency across the project. hesreallyhim/awesome-claude-code docs-content claude-code"
+    },
+    {
+      "name": "Anthropic Documentation",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47560,
+      "desc": "The official documentation for Claude Code, including installation instructions, usage guidelines, API references, tutorials, examples, loads of information that I won't list individually. Like Claude Code, the documentation is frequently updated.",
+      "url": "https://docs.claude.com/en/home",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs/content",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "anthropic documentation the official documentation for claude code, including installation instructions, usage guidelines, api references, tutorials, examples, loads of information that i won't list individually. like claude code, the documentation is frequently updated. hesreallyhim/awesome-claude-code docs-content claude-code"
+    },
+    {
+      "name": "claude-rules-doctor",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47560,
+      "desc": "CLI that detects dead `.claude/rules/` files by checking if `paths:` globs actually match files in your repo. Catches silent rule failures where renamed directories or typos in glob patterns cause rules to never apply. Features CI mode (exit 1 on dead rules), JSON output, and verbose mode showing matched files.",
+      "url": "https://github.com/nulone/claude-rules-doctor",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs/content",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "claude-rules-doctor cli that detects dead `.claude/rules/` files by checking if `paths:` globs actually match files in your repo. catches silent rule failures where renamed directories or typos in glob patterns cause rules to never apply. features ci mode (exit 1 on dead rules), json output, and verbose mode showing matched files. hesreallyhim/awesome-claude-code docs-content claude-code"
+    },
+    {
+      "name": "obsidian-skills",
+      "source": "general",
+      "sourceAgent": "other",
+      "repo": "kepano/obsidian-skills",
+      "stars": 35024,
+      "desc": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "install": "git clone https://github.com/kepano/obsidian-skills.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "other"
+      ],
+      "searchText": "obsidian-skills agent skills for obsidian. teach your agent to use markdown, bases, json canvas, and use the cli. kepano/obsidian-skills git clone https://github.com/kepano/obsidian-skills.git docs-content other"
+    },
+    {
+      "name": "marketingskills",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "coreyhaines31/marketingskills",
+      "stars": 32588,
+      "desc": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "install": "git clone https://github.com/coreyhaines31/marketingskills.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "automation",
+      "subCategoryId": "ops",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "marketingskills marketing skills for claude code and ai agents. cro, copywriting, seo, analytics, and growth engineering. coreyhaines31/marketingskills git clone https://github.com/coreyhaines31/marketingskills.git docs-content claude"
+    },
+    {
+      "name": "awesome-openclaw-usecases",
+      "source": "openclaw",
+      "sourceAgent": "openclaw",
+      "repo": "hesamsheikh/awesome-openclaw-usecases",
+      "stars": 31317,
+      "desc": "A community collection of OpenClaw use cases for making life easier.",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases",
+      "install": "git clone https://github.com/hesamsheikh/awesome-openclaw-usecases.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "awesome-openclaw-usecases a community collection of openclaw use cases for making life easier. hesamsheikh/awesome-openclaw-usecases git clone https://github.com/hesamsheikh/awesome-openclaw-usecases.git docs-content openclaw"
+    },
+    {
+      "name": "ai-seo",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Optimize content to appear in AI-generated answers and LLM search results",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ai-seo",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "ai-seo optimize content to appear in ai-generated answers and llm search results voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "api-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Suite of API skills for designing, mocking, documenting, securing, and generating tests for REST/GraphQL/gRPC APIs",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/api-skill",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "api-skill suite of api skills for designing, mocking, documenting, securing, and generating tests for rest/graphql/grpc apis voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "azure-ai-contentsafety-java",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Content moderation and safety",
+      "url": "https://officialskills.sh/microsoft/skills/azure-ai-contentsafety-java",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "azure-ai-contentsafety-java content moderation and safety voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "azure-ai-contentsafety-py",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Harmful content detection",
+      "url": "https://officialskills.sh/microsoft/skills/azure-ai-contentsafety-py",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "azure-ai-contentsafety-py harmful content detection voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "azure-ai-contentsafety-ts",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Content safety for text and images",
+      "url": "https://officialskills.sh/microsoft/skills/azure-ai-contentsafety-ts",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "azure-ai-contentsafety-ts content safety for text and images voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "azure-ai-contentunderstanding-py",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Multimodal content extraction",
+      "url": "https://officialskills.sh/microsoft/skills/azure-ai-contentunderstanding-py",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "azure-ai-contentunderstanding-py multimodal content extraction voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "azure-ai-document-intelligence-dotnet",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Document text, table, and data extraction",
+      "url": "https://officialskills.sh/microsoft/skills/azure-ai-document-intelligence-dotnet",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "azure-ai-document-intelligence-dotnet document text, table, and data extraction voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "azure-ai-document-intelligence-ts",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Document text and table extraction",
+      "url": "https://officialskills.sh/microsoft/skills/azure-ai-document-intelligence-ts",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "azure-ai-document-intelligence-ts document text and table extraction voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "azure-ai-formrecognizer-java",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Document analysis and form extraction",
+      "url": "https://officialskills.sh/microsoft/skills/azure-ai-formrecognizer-java",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "azure-ai-formrecognizer-java document analysis and form extraction voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "azure-ai-translation-document-py",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Batch document translation",
+      "url": "https://officialskills.sh/microsoft/skills/azure-ai-translation-document-py",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "azure-ai-translation-document-py batch document translation voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "azure-ai-translation-ts",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Text and document translation",
+      "url": "https://officialskills.sh/microsoft/skills/azure-ai-translation-ts",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "azure-ai-translation-ts text and document translation voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "azure-search-documents-dotnet",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Full-text, vector, and hybrid search",
+      "url": "https://officialskills.sh/microsoft/skills/azure-search-documents-dotnet",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "azure-search-documents-dotnet full-text, vector, and hybrid search voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "azure-search-documents-py",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Full-text, vector, and hybrid search",
+      "url": "https://officialskills.sh/microsoft/skills/azure-search-documents-py",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "azure-search-documents-py full-text, vector, and hybrid search voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "azure-search-documents-ts",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Vector/hybrid search with semantic ranking",
+      "url": "https://officialskills.sh/microsoft/skills/azure-search-documents-ts",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "azure-search-documents-ts vector/hybrid search with semantic ranking voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "beautiful_prose",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Hard-edged writing style contract for timeless, forceful English prose without AI tics",
+      "url": "https://github.com/SHADOWPR0/beautiful_prose",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "beautiful_prose hard-edged writing style contract for timeless, forceful english prose without ai tics voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "claude-seo",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Universal SEO skill for comprehensive website analysis and optimization",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "claude-seo universal seo skill for comprehensive website analysis and optimization voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "competitor-alternatives",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Build competitor comparison and alternative landing pages for SEO",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/competitor-alternatives",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "competitor-alternatives build competitor comparison and alternative landing pages for seo voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "copywriting",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Write and rewrite marketing copy for landing pages, homepages, and ads",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/copywriting",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "copywriting write and rewrite marketing copy for landing pages, homepages, and ads voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "creative-director-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "AI creative director with recursive self-assessment: 20+ methodologies (SIT, TRIZ, Bisociation, SCAMPER, Synectics), 3-axis evaluation calibrated against Cannes/D&AD/HumanKind, 5-phase process from br",
+      "url": "https://github.com/smixs/creative-director-skill",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "creative-director-skill ai creative director with recursive self-assessment: 20+ methodologies (sit, triz, bisociation, scamper, synectics), 3-axis evaluation calibrated against cannes/d&ad/humankind, 5-phase process from br voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "culture-index",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Index and search culture documentation",
+      "url": "https://officialskills.sh/trailofbits/skills/culture-index",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "culture-index index and search culture documentation voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "cypress-docs",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Search and extract Cypress information from official documentation.",
+      "url": "https://github.com/cypress-io/ai-toolkit/tree/main/skills/cypress-docs",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "cypress-docs search and extract cypress information from official documentation. voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "dd-docs",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Look up Datadog documentation via the LLM-optimized docs index",
+      "url": "https://officialskills.sh/datadog-labs/skills/dd-docs",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "dd-docs look up datadog documentation via the llm-optimized docs index voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "document-release",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Technical Writer: update all project docs to match what you just shipped",
+      "url": "https://officialskills.sh/garrytan/skills/document-release",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "document-release technical writer: update all project docs to match what you just shipped voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "duckdb-docs",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Search DuckDB and DuckLake documentation using full-text search over HTTPS",
+      "url": "https://officialskills.sh/duckdb/skills/duckdb-docs",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "duckdb-docs search duckdb and ducklake documentation using full-text search over https voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "fal-restore",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Restore and fix image quality — deblur, denoise, fix faces, restore documents",
+      "url": "https://officialskills.sh/fal-ai-community/skills/fal-restore",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "fal-restore restore and fix image quality — deblur, denoise, fix faces, restore documents voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "firecrawl-build-search",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Integrate Firecrawl `/search` for query-first discovery with optional content hydration",
+      "url": "https://officialskills.sh/firecrawl/skills/firecrawl-build-search",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "firecrawl-build-search integrate firecrawl `/search` for query-first discovery with optional content hydration voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "free-tool-strategy",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Plan and build free tools for lead generation and SEO value",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/free-tool-strategy",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "free-tool-strategy plan and build free tools for lead generation and seo value voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "gauge-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate Gauge specs in Markdown with steps in Java, Python, JS, or Ruby",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/gauge-skill",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "gauge-skill generate gauge specs in markdown with steps in java, python, js, or ruby voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "gws-docs",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Read and write Google Docs documents",
+      "url": "https://officialskills.sh/googleworkspace/skills/gws-docs",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "gws-docs read and write google docs documents voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "gws-modelarmor",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Filter user-generated content for safety",
+      "url": "https://officialskills.sh/googleworkspace/skills/gws-modelarmor",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "gws-modelarmor filter user-generated content for safety voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "kernel-cute-writing",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "> Write and implement GPU kernels using NVIDIA CuTe DSL (CUTLASS 4.x Python API) — NOT for Triton, CUDA C++, or conceptual explanations.",
+      "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/kernel-cute-writing",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "kernel-cute-writing > write and implement gpu kernels using nvidia cute dsl (cutlass 4.x python api) — not for triton, cuda c++, or conceptual explanations. voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "kernel-triton-writing",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "> ONLY for OpenAI Triton (@triton.jit) kernel development.",
+      "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/kernel-triton-writing",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "kernel-triton-writing > only for openai triton (@triton.jit) kernel development. voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "knowledge-capture",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Transform conversations into structured Notion documentation pages with proper organization and linking",
+      "url": "https://officialskills.sh/makenotion/skills/knowledge-capture",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "knowledge-capture transform conversations into structured notion documentation pages with proper organization and linking voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "kreuzberg",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Extract text, tables, and metadata from 62+ document formats",
+      "url": "https://github.com/kreuzberg-dev/kreuzberg/tree/main/skills/kreuzberg",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "kreuzberg extract text, tables, and metadata from 62+ document formats voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "mechanical-engineering-research-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Thermal-fluid research writing, proposals, DOE, and presentation feedback",
+      "url": "https://github.com/hanhuark/mechanical-engineering-research-skill",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "mechanical-engineering-research-skill thermal-fluid research writing, proposals, doe, and presentation feedback voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "minimax-docx",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Professional DOCX document creation and editing using OpenXML SDK",
+      "url": "https://officialskills.sh/MiniMax-AI/skills/minimax-docx",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "minimax-docx professional docx document creation and editing using openxml sdk voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "minimax-pdf",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate, fill, and reformat PDFs with a token-based design system and 15 cover styles",
+      "url": "https://officialskills.sh/MiniMax-AI/skills/minimax-pdf",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "minimax-pdf generate, fill, and reformat pdfs with a token-based design system and 15 cover styles voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "minimax-xlsx",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Create, read, analyze, and validate Excel/spreadsheet files with zero format loss",
+      "url": "https://officialskills.sh/MiniMax-AI/skills/minimax-xlsx",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "minimax-xlsx create, read, analyze, and validate excel/spreadsheet files with zero format loss voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "mongodb-schema-design",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Design efficient document schemas with validation and indexing patterns",
+      "url": "https://officialskills.sh/mongodb/skills/mongodb-schema-design",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "mongodb-schema-design design efficient document schemas with validation and indexing patterns voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "NanoBanana-PPT-Skills",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "AI-powered PPT generation with document analysis and styled images",
+      "url": "https://github.com/op7418/NanoBanana-PPT-Skills",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "nanobanana-ppt-skills ai-powered ppt generation with document analysis and styled images voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "nemo-gym-docs",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "> Maintain the NeMo Gym Fern docs site — add, update, move, or remove pages under fern/.",
+      "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Gym/nemo-gym-docs",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "nemo-gym-docs > maintain the nemo gym fern docs site — add, update, move, or remove pages under fern/. voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "nemo-gym-pivot-datasets",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": ">- Use when creating, validating, or documenting Nemo Gym pivot datasets from rollout, trajectory, chat-completion, Responses API, or tool-call artifacts.",
+      "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Gym/nemo-gym-pivot-datasets",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "nemo-gym-pivot-datasets >- use when creating, validating, or documenting nemo gym pivot datasets from rollout, trajectory, chat-completion, responses api, or tool-call artifacts. voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "notebooklm-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Interact with NotebookLM for document-based conversations",
+      "url": "https://github.com/PleasePrompto/notebooklm-skill",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "notebooklm-skill interact with notebooklm for document-based conversations voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "opc-skills",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Agent skills for solopreneurs with SEO, geo, and LLM tools",
+      "url": "https://github.com/ReScienceLab/opc-skills",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "opc-skills agent skills for solopreneurs with seo, geo, and llm tools voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "pptx-generator",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Create and edit PowerPoint presentations from scratch with PptxGenJS",
+      "url": "https://officialskills.sh/MiniMax-AI/skills/pptx-generator",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "pptx-generator create and edit powerpoint presentations from scratch with pptxgenjs voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "product-marketing-context",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Create and maintain a product marketing context document for consistent messaging",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/product-marketing-context",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "product-marketing-context create and maintain a product marketing context document for consistent messaging voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "programmatic-seo",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Build SEO-driven page templates for large-scale content generation",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/programmatic-seo",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "programmatic-seo build seo-driven page templates for large-scale content generation voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "puppeteer-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate Puppeteer scripts for browser automation, scraping, and PDF generation",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/puppeteer-skill",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "puppeteer-skill generate puppeteer scripts for browser automation, scraping, and pdf generation voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "readme",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Generate comprehensive project documentation",
+      "url": "https://github.com/Shpigford/skills/tree/main/readme",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "readme generate comprehensive project documentation voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "recommendation-canvas",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Document AI-powered product recommendations",
+      "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/recommendation-canvas",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "recommendation-canvas document ai-powered product recommendations voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "research-documentation",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Search Notion workspace, synthesize findings, and create comprehensive research reports",
+      "url": "https://officialskills.sh/makenotion/skills/research-documentation",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "research-documentation search notion workspace, synthesize findings, and create comprehensive research reports voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "sales-enablement",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Create pitch decks, one-pagers, objection handling docs, and demo scripts",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/sales-enablement",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "sales-enablement create pitch decks, one-pagers, objection handling docs, and demo scripts voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "sanity-best-practices",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Best practices for Sanity Studio, GROQ queries, and content workflows",
+      "url": "https://officialskills.sh/sanity-io/skills/sanity-best-practices",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "sanity-best-practices best practices for sanity studio, groq queries, and content workflows voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "schema-markup",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Add and optimize schema markup and structured data for better SEO",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/schema-markup",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "schema-markup add and optimize schema markup and structured data for better seo voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "seo",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Search engine optimization, crawlability, and structured data",
+      "url": "https://officialskills.sh/addyosmani/skills/seo",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "seo search engine optimization, crawlability, and structured data voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "seo-aeo-best-practices",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "SEO and answer engine optimization patterns for content sites",
+      "url": "https://officialskills.sh/sanity-io/skills/seo-aeo-best-practices",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "seo-aeo-best-practices seo and answer engine optimization patterns for content sites voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "seo-audit",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Audit and diagnose technical and on-page SEO issues on a site",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/seo-audit",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "seo-audit audit and diagnose technical and on-page seo issues on a site voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "skill-authoring-workflow",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Meta workflow for authoring skills: choose path → validate → update docs → package",
+      "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/skill-authoring-workflow",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "skill-authoring-workflow meta workflow for authoring skills: choose path → validate → update docs → package voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "social-content",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Create and schedule social media content for LinkedIn, Twitter/X, and Instagram",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/social-content",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "social-content create and schedule social media content for linkedin, twitter/x, and instagram voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "typefully",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Create, schedule, and publish social media content across X, LinkedIn, Threads, Bluesky, and Mastodon",
+      "url": "https://officialskills.sh/typefully/skills/typefully",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "typefully create, schedule, and publish social media content across x, linkedin, threads, bluesky, and mastodon voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "unslop",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Removes named AI writing tells (tricolons, em-dash pileups, hedging stacks, sycophancy openers, stock vocab like \"delve\"/\"crucial\"). Split lint/rewrite modes for auditing your own text without auto-re",
+      "url": "https://github.com/MohamedAbdallah-14/unslop",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "unslop removes named ai writing tells (tricolons, em-dash pileups, hedging stacks, sycophancy openers, stock vocab like \"delve\"/\"crucial\"). split lint/rewrite modes for auditing your own text without auto-re voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "voltagent-docs-bundle",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Lookup embedded docs from @voltagent/core for version-matched documentation",
+      "url": "https://officialskills.sh/voltagent/skills/voltagent-docs-bundle",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "voltagent-docs-bundle lookup embedded docs from @voltagent/core for version-matched documentation voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "web-quality-audit",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Comprehensive quality review across performance, accessibility, SEO, and best practices categories",
+      "url": "https://officialskills.sh/addyosmani/skills/web-quality-audit",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "web-quality-audit comprehensive quality review across performance, accessibility, seo, and best practices categories voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "write-concisely",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Applies the famous *The Elements of Style* book principles to make documentation and writing clearer and more professional by eliminating wordiness and improving structure.",
+      "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/docs/skills/write-concisely",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "write-concisely applies the famous *the elements of style* book principles to make documentation and writing clearer and more professional by eliminating wordiness and improving structure. voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "writing-plans",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Create strategic documentation",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/writing-plans/SKILL.md",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "writing-plans create strategic documentation voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "writing-skills",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Develop and document capabilities",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/writing-skills/SKILL.md",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "writing-skills develop and document capabilities voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "humanizer",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "blader/humanizer",
+      "stars": 23101,
+      "desc": "Claude Code skill that removes signs of AI-generated writing from text",
+      "url": "https://github.com/blader/humanizer",
+      "install": "git clone https://github.com/blader/humanizer.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "references",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "humanizer claude code skill that removes signs of ai-generated writing from text blader/humanizer git clone https://github.com/blader/humanizer.git docs-content claude"
+    },
+    {
+      "name": "notion-knowledge-capture",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22988,
+      "desc": "Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking.",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-knowledge-capture",
+      "install": "$skill-installer notion-knowledge-capture",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "references",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "notion-knowledge-capture capture conversations and decisions into structured notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or faqs with proper linking. openai/skills $skill-installer notion-knowledge-capture docs-content codex"
+    },
+    {
+      "name": "notion-meeting-intelligence",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22988,
+      "desc": "Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees.",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-meeting-intelligence",
+      "install": "$skill-installer notion-meeting-intelligence",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "notion-meeting-intelligence prepare meeting materials with notion context and codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees. openai/skills $skill-installer notion-meeting-intelligence docs-content codex"
+    },
+    {
+      "name": "notion-research-documentation",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22988,
+      "desc": "Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations.",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-research-documentation",
+      "install": "$skill-installer notion-research-documentation",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "references",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "notion-research-documentation research across notion and synthesize into structured documentation; use when gathering info from multiple notion sources to produce briefs, comparisons, or reports with citations. openai/skills $skill-installer notion-research-documentation docs-content codex"
+    },
+    {
+      "name": "notion-spec-to-implementation",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "openai/skills",
+      "stars": 22988,
+      "desc": "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-spec-to-implementation",
+      "install": "$skill-installer notion-spec-to-implementation",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "notion-spec-to-implementation turn notion specs into implementation plans, tasks, and progress tracking; use when implementing prds/feature specs and creating notion plans + tasks from them. openai/skills $skill-installer notion-spec-to-implementation docs-content codex"
+    },
+    {
+      "name": "agents-towards-production",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "NirDiamant/agents-towards-production",
+      "stars": 20873,
+      "desc": "End-to-end, code-first tutorials for building production-grade GenAI agents.",
+      "url": "https://github.com/NirDiamant/agents-towards-production",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex"
+      ],
+      "searchText": "agents-towards-production end-to-end, code-first tutorials for building production-grade genai agents. nirdiamant/agents-towards-production docs-content claude codex"
+    },
+    {
+      "name": "DocsGPT",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "arc53/DocsGPT",
+      "stars": 17955,
+      "desc": "Private AI platform for agents, assistants and enterprise search",
+      "url": "https://github.com/arc53/DocsGPT",
+      "install": "$skill-installer DocsGPT",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "docsgpt private ai platform for agents, assistants and enterprise search arc53/docsgpt $skill-installer docsgpt docs-content claude"
+    },
+    {
+      "name": "Blog: Superpowers",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "travisvn/awesome-claude-skills",
+      "stars": 13792,
+      "desc": "Author's overview by Jesse Vincent",
+      "url": "https://blog.fsck.com/2025/10/09/superpowers/",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "blog: superpowers author's overview by jesse vincent travisvn/awesome-claude-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "Claude Developer Platform",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "travisvn/awesome-claude-skills",
+      "stars": 13792,
+      "desc": "Official documentation",
+      "url": "https://docs.claude.com/",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "claude developer platform official documentation travisvn/awesome-claude-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "Skills API Endpoint",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "travisvn/awesome-claude-skills",
+      "stars": 13792,
+      "desc": "`/v1/skills` API documentation",
+      "url": "https://platform.claude.com/docs/en/api/beta/skills",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "skills api endpoint `/v1/skills` api documentation travisvn/awesome-claude-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "Skills Explained",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "travisvn/awesome-claude-skills",
+      "stars": 13792,
+      "desc": "Official Anthropic blog post covering progressive disclosure, use cases, and when to use Skills vs other tools",
+      "url": "https://claude.com/blog/skills-explained",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "skills explained official anthropic blog post covering progressive disclosure, use cases, and when to use skills vs other tools travisvn/awesome-claude-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "note-gen",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "codexu/note-gen",
+      "stars": 12244,
+      "desc": "A cross-platform Markdown AI note-taking software",
+      "url": "https://github.com/codexu/note-gen",
+      "install": "$skill-installer note-gen",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "note-gen a cross-platform markdown ai note-taking software codexu/note-gen $skill-installer note-gen docs-content claude"
+    },
+    {
+      "name": "Humanizer-zh",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "op7418/Humanizer-zh",
+      "stars": 9744,
+      "desc": "Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。",
+      "url": "https://github.com/op7418/Humanizer-zh",
+      "install": "git clone https://github.com/op7418/Humanizer-zh.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "humanizer-zh humanizer 的汉化版本，claude code skills，旨在消除文本中 ai 生成的痕迹。 op7418/humanizer-zh git clone https://github.com/op7418/humanizer-zh.git docs-content claude"
+    },
+    {
+      "name": "awesome-claude-skills",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "BehiSecc/awesome-claude-skills",
+      "stars": 9444,
+      "desc": "A curated list of Claude Skills.",
+      "url": "https://github.com/BehiSecc/awesome-claude-skills",
+      "install": "git clone https://github.com/BehiSecc/awesome-claude-skills.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "awesome-claude-skills a curated list of claude skills. behisecc/awesome-claude-skills git clone https://github.com/behisecc/awesome-claude-skills.git docs-content claude"
+    },
+    {
+      "name": "awesome-opencode",
+      "source": "opencode",
+      "sourceAgent": "opencode",
+      "repo": "awesome-opencode/awesome-opencode",
+      "stars": 7755,
+      "desc": "A curated list of awesome plugins, themes, agents, projects, and resources for https://opencode.ai",
+      "url": "https://github.com/awesome-opencode/awesome-opencode",
+      "install": "npm i -g awesome-opencode",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "opencode"
+      ],
+      "searchText": "awesome-opencode a curated list of awesome plugins, themes, agents, projects, and resources for https://opencode.ai awesome-opencode/awesome-opencode npm i -g awesome-opencode docs-content opencode"
+    },
+    {
+      "name": "agent-gtm-skills",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "heilcheng/awesome-agent-skills",
+      "stars": 5907,
+      "desc": "18 go-to-market skills: pricing, outbound, SEO, ads, retention, and ops",
+      "url": "https://github.com/chadboyda/agent-gtm-skills",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "agent-gtm-skills 18 go-to-market skills: pricing, outbound, seo, ads, retention, and ops heilcheng/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "firecrawl-scrape",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "heilcheng/awesome-agent-skills",
+      "stars": 5907,
+      "desc": "Scrape web pages and extract content",
+      "url": "https://github.com/firecrawl/cli/tree/main/skills/firecrawl-scrape",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "firecrawl-scrape scrape web pages and extract content heilcheng/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "notebooklm-mcp-cli",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "jacob-bd/notebooklm-mcp-cli",
+      "stars": 5101,
+      "desc": "Programmatic access to Google NotebookLM via CLI, MCP, REST API",
+      "url": "https://github.com/jacob-bd/notebooklm-mcp-cli",
+      "install": "$skill-installer notebooklm-mcp-cli",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "notebooklm-mcp-cli programmatic access to google notebooklm via cli, mcp, rest api jacob-bd/notebooklm-mcp-cli $skill-installer notebooklm-mcp-cli docs-content claude"
+    },
+    {
+      "name": "book-to-skill",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "virgiliojr94/book-to-skill",
+      "stars": 4750,
+      "desc": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "install": "pip install book-to-skill",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "references",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "book-to-skill turn any technical book pdf into a claude code skill — ready to study, reference, and use while you work. virgiliojr94/book-to-skill pip install book-to-skill docs-content claude"
+    },
+    {
+      "name": "codebase-to-course",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "zarazhangrui/codebase-to-course",
+      "stars": 4593,
+      "desc": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
+      "url": "https://github.com/zarazhangrui/codebase-to-course",
+      "install": "git clone https://github.com/zarazhangrui/codebase-to-course.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "guides",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "codebase-to-course a claude code skill that turns any codebase into a beautiful, interactive single-page html course for non-technical vibe coders. zarazhangrui/codebase-to-course git clone https://github.com/zarazhangrui/codebase-to-course.git docs-content claude"
+    },
+    {
+      "name": "awesome-openclaw-tutorial",
+      "source": "openclaw",
+      "sourceAgent": "openclaw",
+      "repo": "xianyu110/awesome-openclaw-tutorial",
+      "stars": 4478,
+      "desc": "从零开始玩转OpenClaw：最全面的中文教程，涵盖安装、配置、实战案例和避坑指南（github版）",
+      "url": "https://github.com/xianyu110/awesome-openclaw-tutorial",
+      "install": "git clone https://github.com/xianyu110/awesome-openclaw-tutorial.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "awesome-openclaw-tutorial 从零开始玩转openclaw：最全面的中文教程，涵盖安装、配置、实战案例和避坑指南（github版） xianyu110/awesome-openclaw-tutorial git clone https://github.com/xianyu110/awesome-openclaw-tutorial.git docs-content openclaw"
+    },
+    {
+      "name": "awesome-gbdev",
+      "source": "awesome-gbdev",
+      "sourceAgent": "awesome-gbdev",
+      "repo": "gbdev/awesome-gbdev",
+      "stars": 4461,
+      "desc": "A curated list of Game Boy development resources such as tools, docs, emulators, related projects and open-source ROMs.",
+      "url": "https://github.com/gbdev/awesome-gbdev",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "awesome-gbdev"
+      ],
+      "searchText": "awesome-gbdev a curated list of game boy development resources such as tools, docs, emulators, related projects and open-source roms. gbdev/awesome-gbdev docs-content awesome-gbdev"
+    },
+    {
+      "name": "awesome-openclaw-usecases-zh",
+      "source": "openclaw",
+      "sourceAgent": "openclaw",
+      "repo": "AlexAnys/awesome-openclaw-usecases-zh",
+      "stars": 4354,
+      "desc": "🇨🇳 OpenClaw中文用例大全 | 50个真实场景 | 国内特色 + 海外案例的国内适配 | 自动化办公·内容创作·运维·AI助理·知识管理 | 新手友好",
+      "url": "https://github.com/AlexAnys/awesome-openclaw-usecases-zh",
+      "install": "git clone https://github.com/AlexAnys/awesome-openclaw-usecases-zh.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "awesome-openclaw-usecases-zh 🇨🇳 openclaw中文用例大全 | 50个真实场景 | 国内特色 + 海外案例的国内适配 | 自动化办公·内容创作·运维·ai助理·知识管理 | 新手友好 alexanys/awesome-openclaw-usecases-zh git clone https://github.com/alexanys/awesome-openclaw-usecases-zh.git docs-content openclaw"
+    },
+    {
+      "name": "hermes-agent-orange-book",
+      "source": "hermes",
+      "sourceAgent": "hermes",
+      "repo": "alchaincyf/hermes-agent-orange-book",
+      "stars": 4199,
+      "desc": "Hermes Agent 从入门到精通 · 橙皮书系列 · Nous Research 开源 AI Agent 框架实战指南",
+      "url": "https://github.com/alchaincyf/hermes-agent-orange-book",
+      "install": "git clone https://github.com/alchaincyf/hermes-agent-orange-book.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-agent-orange-book hermes agent 从入门到精通 · 橙皮书系列 · nous research 开源 ai agent 框架实战指南 alchaincyf/hermes-agent-orange-book git clone https://github.com/alchaincyf/hermes-agent-orange-book.git docs-content hermes"
+    },
+    {
+      "name": "OpenClawChineseTranslation",
+      "source": "openclaw",
+      "sourceAgent": "openclaw",
+      "repo": "1186258278/OpenClawChineseTranslation",
+      "stars": 3796,
+      "desc": "🦞 OpenClaw (Clawdbot/Moltbot) 汉化版 - 开源个人 AI 助手中文版 | Claude/ChatGPT LLM 接入 | WhatsApp/Telegram/Discord 多平台 | 每小时自动同步 | CLI + Dashboard 全中文 | 全流程搭建教程，以及排错指南！",
+      "url": "https://github.com/1186258278/OpenClawChineseTranslation",
+      "install": "npm i -g OpenClawChineseTranslation",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "references",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "openclaw"
+      ],
+      "searchText": "openclawchinesetranslation 🦞 openclaw (clawdbot/moltbot) 汉化版 - 开源个人 ai 助手中文版 | claude/chatgpt llm 接入 | whatsapp/telegram/discord 多平台 | 每小时自动同步 | cli + dashboard 全中文 | 全流程搭建教程，以及排错指南！ 1186258278/openclawchinesetranslation npm i -g openclawchinesetranslation docs-content claude openclaw"
+    },
+    {
+      "name": "awesome-openclaw-agents",
+      "source": "openclaw",
+      "sourceAgent": "openclaw",
+      "repo": "mergisi/awesome-openclaw-agents",
+      "stars": 3741,
+      "desc": "162 production-ready AI agent templates for OpenClaw. SOUL.md configs across 19 categories. Submit yours!",
+      "url": "https://github.com/mergisi/awesome-openclaw-agents",
+      "install": "git clone https://github.com/mergisi/awesome-openclaw-agents.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "awesome-openclaw-agents 162 production-ready ai agent templates for openclaw. soul.md configs across 19 categories. submit yours! mergisi/awesome-openclaw-agents git clone https://github.com/mergisi/awesome-openclaw-agents.git docs-content openclaw"
+    },
+    {
+      "name": "awesome-cursor-rules-mdc",
+      "source": "community",
+      "sourceAgent": "cursor",
+      "repo": "sanjeed5/awesome-cursor-rules-mdc",
+      "stars": 3526,
+      "desc": "Curated list of awesome Cursor Rules .mdc files",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc",
+      "install": "pip install awesome-cursor-rules-mdc",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "cursor"
+      ],
+      "searchText": "awesome-cursor-rules-mdc curated list of awesome cursor rules .mdc files sanjeed5/awesome-cursor-rules-mdc pip install awesome-cursor-rules-mdc docs-content cursor"
+    },
+    {
+      "name": "academic-research-skills-codex",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "Imbad0202/academic-research-skills-codex",
+      "stars": 3425,
+      "desc": "Codex-native Academic Research Skills suite for human-in-the-loop academic research workflows",
+      "url": "https://github.com/Imbad0202/academic-research-skills-codex",
+      "install": "pip install academic-research-skills-codex",
+      "functionCategory": "docs-content",
+      "topCategoryId": "data",
+      "subCategoryId": "research",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "academic-research-skills-codex codex-native academic research skills suite for human-in-the-loop academic research workflows imbad0202/academic-research-skills-codex pip install academic-research-skills-codex docs-content codex"
+    },
+    {
+      "name": "arscontexta",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "agenticnotetaking/arscontexta",
+      "stars": 3396,
+      "desc": "Claude Code plugin that generates individualized knowledge systems from conversation. You describe how you think and work, have a conversation and get a complete second brain as markdown files you own.",
+      "url": "https://github.com/agenticnotetaking/arscontexta",
+      "install": "git clone https://github.com/agenticnotetaking/arscontexta.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "arscontexta claude code plugin that generates individualized knowledge systems from conversation. you describe how you think and work, have a conversation and get a complete second brain as markdown files you own. agenticnotetaking/arscontexta git clone https://github.com/agenticnotetaking/arscontexta.git docs-content claude"
+    },
+    {
+      "name": "openclaw101",
+      "source": "openclaw",
+      "sourceAgent": "openclaw",
+      "repo": "mengjian-github/openclaw101",
+      "stars": 2919,
+      "desc": "🐾 OpenClaw 101 — 从零开始，7天掌握你的AI私人助理 | 全网资源聚合站",
+      "url": "https://github.com/mengjian-github/openclaw101",
+      "install": "npm i -g openclaw101",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "guides",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw101 🐾 openclaw 101 — 从零开始，7天掌握你的ai私人助理 | 全网资源聚合站 mengjian-github/openclaw101 npm i -g openclaw101 docs-content openclaw"
+    },
+    {
+      "name": "notebooklm-mcp",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "PleasePrompto/notebooklm-mcp",
+      "stars": 2886,
+      "desc": "MCP server for NotebookLM - Let your AI agents research documents from NotebookLM",
+      "url": "https://github.com/PleasePrompto/notebooklm-mcp",
+      "install": "$skill-installer notebooklm-mcp",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "notebooklm-mcp mcp server for notebooklm - let your ai agents research documents from notebooklm pleaseprompto/notebooklm-mcp $skill-installer notebooklm-mcp docs-content claude"
+    },
+    {
+      "name": "obsidian-second-brain",
+      "source": "tools",
+      "sourceAgent": "multi",
+      "repo": "eugeniughelbur/obsidian-second-brain",
+      "stars": 2799,
+      "desc": "Cross-CLI skill for Obsidian: turn your vault into a living AI-first second brain across Claude Code, Codex, Gemini, and OpenCode. 43 commands - now with /obsidian-architect to document your codebase, key-less web research, Google Calendar,",
+      "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
+      "install": "git clone https://github.com/eugeniughelbur/obsidian-second-brain.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "opencode",
+        "gemini"
+      ],
+      "searchText": "obsidian-second-brain cross-cli skill for obsidian: turn your vault into a living ai-first second brain across claude code, codex, gemini, and opencode. 43 commands - now with /obsidian-architect to document your codebase, key-less web research, google calendar, eugeniughelbur/obsidian-second-brain git clone https://github.com/eugeniughelbur/obsidian-second-brain.git docs-content claude codex opencode gemini"
+    },
+    {
+      "name": "scriberr",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "rishikanthc/Scriberr",
+      "stars": 2799,
+      "desc": "Self-hosted AI audio transcription. Convert podcasts, meetings, and voice notes to text with speaker diarization.",
+      "url": "https://github.com/rishikanthc/Scriberr",
+      "install": "docker compose up",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "scriberr self-hosted ai audio transcription. convert podcasts, meetings, and voice notes to text with speaker diarization. rishikanthc/scriberr docker compose up docs-content general"
+    },
+    {
+      "name": "markdownify-mcp",
+      "source": "markdownify-mcp",
+      "sourceAgent": "markdownify-mcp",
+      "repo": "zcaceres/markdownify-mcp",
+      "stars": 2765,
+      "desc": "A Model Context Protocol server for converting almost anything to Markdown",
+      "url": "https://github.com/zcaceres/markdownify-mcp",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "markdownify-mcp"
+      ],
+      "searchText": "markdownify-mcp a model context protocol server for converting almost anything to markdown zcaceres/markdownify-mcp docs-content markdownify-mcp"
+    },
+    {
+      "name": "cybersources",
+      "source": "cybersources",
+      "sourceAgent": "cybersources",
+      "repo": "bst04/CyberSources",
+      "stars": 2314,
+      "desc": "A curated list of cybersecurity tools and resources.",
+      "url": "https://github.com/bst04/CyberSources",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "cybersources"
+      ],
+      "searchText": "cybersources a curated list of cybersecurity tools and resources. bst04/cybersources docs-content cybersources"
+    },
+    {
+      "name": "agent-toolkit",
+      "source": "tools",
+      "sourceAgent": "other",
+      "repo": "softaworks/agent-toolkit",
+      "stars": 2117,
+      "desc": "A curated collection of skills for AI coding agents. Skills are packaged instructions and scripts that extend agent capabilities across development, documentation, planning, and professional workflows.",
+      "url": "https://github.com/softaworks/agent-toolkit",
+      "install": "git clone https://github.com/softaworks/agent-toolkit.git  # browse the awesome list",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "other"
+      ],
+      "searchText": "agent-toolkit a curated collection of skills for ai coding agents. skills are packaged instructions and scripts that extend agent capabilities across development, documentation, planning, and professional workflows. softaworks/agent-toolkit git clone https://github.com/softaworks/agent-toolkit.git  # browse the awesome list docs-content other"
+    },
+    {
+      "name": "DevDocs",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "cyberagiinc/DevDocs",
+      "stars": 2093,
+      "desc": "Completely free, private, UI based Tech Documentation MCP server",
+      "url": "https://github.com/cyberagiinc/DevDocs",
+      "install": "$skill-installer DevDocs",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "devdocs completely free, private, ui based tech documentation mcp server cyberagiinc/devdocs $skill-installer devdocs docs-content claude"
+    },
+    {
+      "name": "seo-geo-claude-skills",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "stars": 2065,
+      "desc": "20 SEO & GEO skills for Claude Code, Cursor, Codex, and 35+ AI agents. Keyword research, content writing, technical audits, rank tracking. CORE-EEAT + CITE frameworks.",
+      "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
+      "install": "git clone https://github.com/aaron-he-zhu/seo-geo-claude-skills.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "automation",
+      "subCategoryId": "publishing",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor"
+      ],
+      "searchText": "seo-geo-claude-skills 20 seo & geo skills for claude code, cursor, codex, and 35+ ai agents. keyword research, content writing, technical audits, rank tracking. core-eeat + cite frameworks. aaron-he-zhu/seo-geo-claude-skills git clone https://github.com/aaron-he-zhu/seo-geo-claude-skills.git docs-content claude codex cursor"
+    },
+    {
+      "name": "awesome-claude-code-toolkit",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "rohitg00/awesome-claude-code-toolkit",
+      "stars": 2000,
+      "desc": "The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills, 42 commands, 176+ plugins, 20 hooks, 15 rules, 7 templates, 14 MCP configs, 26 companion apps, 52 ecosystem entries, and more.",
+      "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+      "install": "npm i -g awesome-claude-code-toolkit",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "awesome-claude-code-toolkit the most comprehensive toolkit for claude code -- 135 agents, 35 curated skills, 42 commands, 176+ plugins, 20 hooks, 15 rules, 7 templates, 14 mcp configs, 26 companion apps, 52 ecosystem entries, and more. rohitg00/awesome-claude-code-toolkit npm i -g awesome-claude-code-toolkit docs-content claude"
+    },
+    {
+      "name": "cursor-rules",
+      "source": "community",
+      "sourceAgent": "cursor",
+      "repo": "flyeric0212/cursor-rules",
+      "stars": 1850,
+      "desc": "整理和收集来自不同项目的Cursor规则文件，提供多种编程语言和框架的规则支持。",
+      "url": "https://github.com/flyeric0212/cursor-rules",
+      "install": "git clone https://github.com/flyeric0212/cursor-rules.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "development",
+      "subCategoryId": "coding",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "cursor"
+      ],
+      "searchText": "cursor-rules 整理和收集来自不同项目的cursor规则文件，提供多种编程语言和框架的规则支持。 flyeric0212/cursor-rules git clone https://github.com/flyeric0212/cursor-rules.git docs-content cursor"
+    },
+    {
+      "name": "awesome-claude-plugins",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "ComposioHQ/awesome-claude-plugins",
+      "stars": 1780,
+      "desc": "A curated list of Plugins that let you extend Claude Code with custom commands, agents, hooks, and MCP servers through the plugin system.",
+      "url": "https://github.com/ComposioHQ/awesome-claude-plugins",
+      "install": "npm i -g awesome-claude-plugins",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "awesome-claude-plugins a curated list of plugins that let you extend claude code with custom commands, agents, hooks, and mcp servers through the plugin system. composiohq/awesome-claude-plugins npm i -g awesome-claude-plugins docs-content claude"
+    },
+    {
+      "name": "mcp",
+      "source": "tools",
+      "sourceAgent": "other",
+      "repo": "MicrosoftDocs/mcp",
+      "stars": 1696,
+      "desc": "Official Microsoft Learn MCP Server and CLI tool – powering LLMs and AI agents with real-time, trusted Microsoft docs & code samples.",
+      "url": "https://github.com/MicrosoftDocs/mcp",
+      "install": "npm i -g mcp",
+      "functionCategory": "docs-content",
+      "topCategoryId": "development",
+      "subCategoryId": "plugins",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "other"
+      ],
+      "searchText": "mcp official microsoft learn mcp server and cli tool – powering llms and ai agents with real-time, trusted microsoft docs & code samples. microsoftdocs/mcp npm i -g mcp docs-content other"
+    },
+    {
+      "name": "learn-opencode",
+      "source": "opencode",
+      "sourceAgent": "opencode",
+      "repo": "vbgate/learn-opencode",
+      "stars": 1545,
+      "desc": "OpenCode 中文实战课源码与内容仓库：一课一页，覆盖入门到实战工作流。",
+      "url": "https://github.com/vbgate/learn-opencode",
+      "install": "git clone https://github.com/vbgate/learn-opencode.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "guides",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "opencode"
+      ],
+      "searchText": "learn-opencode opencode 中文实战课源码与内容仓库：一课一页，覆盖入门到实战工作流。 vbgate/learn-opencode git clone https://github.com/vbgate/learn-opencode.git docs-content opencode"
+    },
+    {
+      "name": "ai-prompts",
+      "source": "general",
+      "sourceAgent": "cursor",
+      "repo": "instructa/ai-prompts",
+      "stars": 1054,
+      "desc": "Curated AI Prompts for Cursor Rules, Cline, Windsurf and Github Copilot",
+      "url": "https://github.com/instructa/ai-prompts",
+      "install": "npm i -g ai-prompts",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "cursor",
+        "copilot"
+      ],
+      "searchText": "ai-prompts curated ai prompts for cursor rules, cline, windsurf and github copilot instructa/ai-prompts npm i -g ai-prompts docs-content cursor copilot"
+    },
+    {
+      "name": "tutor-skills",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "bevibing/tutor-skills",
+      "stars": 934,
+      "desc": "A Claude Code skill that turns PDFs, docs, and codebases into Obsidian study vaults",
+      "url": "https://github.com/bevibing/tutor-skills",
+      "install": "git clone https://github.com/bevibing/tutor-skills.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "references",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "tutor-skills a claude code skill that turns pdfs, docs, and codebases into obsidian study vaults bevibing/tutor-skills git clone https://github.com/bevibing/tutor-skills.git docs-content claude"
+    },
+    {
+      "name": "awesome-claude-plugins",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "quemsah/awesome-claude-plugins",
+      "stars": 908,
+      "desc": "Automated collection of Claude Code plugin adoption metrics across GitHub repositories using n8n workflows",
+      "url": "https://github.com/quemsah/awesome-claude-plugins",
+      "install": "npm i -g awesome-claude-plugins",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "awesome-claude-plugins automated collection of claude code plugin adoption metrics across github repositories using n8n workflows quemsah/awesome-claude-plugins npm i -g awesome-claude-plugins docs-content claude"
+    },
+    {
+      "name": "gpt-image2-ppt-skills",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "JuneYaooo/gpt-image2-ppt-skills",
+      "stars": 893,
+      "desc": "Clone any .pptx into your own deck — OpenAI gpt-image-2 mimics the layout, you supply the content. 10 bundled styles. | 把任何 .pptx 模板\"抄\"成你的 PPT：gpt-image-2 仿版式、你换内容，另含 10 套精选风格。Claude Code / OpenClaw skill.",
+      "url": "https://github.com/JuneYaooo/gpt-image2-ppt-skills",
+      "install": "pip install gpt-image2-ppt-skills",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "references",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "openclaw"
+      ],
+      "searchText": "gpt-image2-ppt-skills clone any .pptx into your own deck — openai gpt-image-2 mimics the layout, you supply the content. 10 bundled styles. | 把任何 .pptx 模板\"抄\"成你的 ppt：gpt-image-2 仿版式、你换内容，另含 10 套精选风格。claude code / openclaw skill. juneyaooo/gpt-image2-ppt-skills pip install gpt-image2-ppt-skills docs-content claude openclaw"
+    },
+    {
+      "name": "awesome-claude-code-plugins",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "ccplugins/awesome-claude-code-plugins",
+      "stars": 824,
+      "desc": "Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP servers, and hooks for Claude Code",
+      "url": "https://github.com/ccplugins/awesome-claude-code-plugins",
+      "install": "pip install awesome-claude-code-plugins",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "awesome-claude-code-plugins awesome claude code plugins — a curated list of slash commands, subagents, mcp servers, and hooks for claude code ccplugins/awesome-claude-code-plugins pip install awesome-claude-code-plugins docs-content claude"
+    },
+    {
+      "name": "translate-book",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "deusyu/translate-book",
+      "stars": 809,
+      "desc": "Claude Code skill that translates entire books (PDF/DOCX/EPUB) into any language using parallel subagents",
+      "url": "https://github.com/deusyu/translate-book",
+      "install": "pip install translate-book",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "references",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "translate-book claude code skill that translates entire books (pdf/docx/epub) into any language using parallel subagents deusyu/translate-book pip install translate-book docs-content claude"
+    },
+    {
+      "name": "claude-office-skills",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "tfriedel/claude-office-skills",
+      "stars": 770,
+      "desc": "Office document creation and editing skills for Claude Code - PPTX, DOCX, XLSX, and PDF workflows with automation support",
+      "url": "https://github.com/tfriedel/claude-office-skills",
+      "install": "pip install claude-office-skills",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "references",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "claude-office-skills office document creation and editing skills for claude code - pptx, docx, xlsx, and pdf workflows with automation support tfriedel/claude-office-skills pip install claude-office-skills docs-content claude"
+    },
+    {
+      "name": "claude-skills-collection",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "abubakarsiddik31/claude-skills-collection",
+      "stars": 681,
+      "desc": "A curated collection of official and community-built Claude Skills – extend Anthropic's Claude with powerful, modular capabilities for productivity, creativity, coding, and more.",
+      "url": "https://github.com/abubakarsiddik31/claude-skills-collection",
+      "install": "git clone https://github.com/abubakarsiddik31/claude-skills-collection.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "claude-skills-collection a curated collection of official and community-built claude skills – extend anthropic's claude with powerful, modular capabilities for productivity, creativity, coding, and more. abubakarsiddik31/claude-skills-collection git clone https://github.com/abubakarsiddik31/claude-skills-collection.git docs-content claude"
+    },
+    {
+      "name": "Oh-my--paper",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "LigphiDonk/Oh-my--paper",
+      "stars": 673,
+      "desc": "A Claude Code plugin that turns your terminal into an autonomous research lab — literature survey, experiment execution, paper writing, all in one pipeline.",
+      "url": "https://github.com/LigphiDonk/Oh-my--paper",
+      "install": "npm i -g Oh-my--paper",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "oh-my--paper a claude code plugin that turns your terminal into an autonomous research lab — literature survey, experiment execution, paper writing, all in one pipeline. ligphidonk/oh-my--paper npm i -g oh-my--paper docs-content claude"
+    },
+    {
+      "name": "Agent-Skills",
+      "source": "general",
+      "sourceAgent": "other",
+      "repo": "MicrosoftDocs/Agent-Skills",
+      "stars": 621,
+      "desc": "Curated Agent Skills for Microsoft & Azure – giving AI coding assistants structured, real-time expertise from Microsoft Learn docs.",
+      "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+      "install": "git clone https://github.com/MicrosoftDocs/Agent-Skills.git  # browse the awesome list",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "other"
+      ],
+      "searchText": "agent-skills curated agent skills for microsoft & azure – giving ai coding assistants structured, real-time expertise from microsoft learn docs. microsoftdocs/agent-skills git clone https://github.com/microsoftdocs/agent-skills.git  # browse the awesome list docs-content other"
+    },
+    {
+      "name": "agentfiles",
+      "source": "tools",
+      "sourceAgent": "multi",
+      "repo": "Railly/agentfiles",
+      "stars": 585,
+      "desc": "Browse, create, and edit AI agent files across Claude Code, Cursor, Codex, and 13+ tools — from Obsidian.",
+      "url": "https://github.com/Railly/agentfiles",
+      "install": "npm i -g agentfiles",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor"
+      ],
+      "searchText": "agentfiles browse, create, and edit ai agent files across claude code, cursor, codex, and 13+ tools — from obsidian. railly/agentfiles npm i -g agentfiles docs-content claude codex cursor"
+    },
+    {
+      "name": "agentskills",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "JackyST0/awesome-agent-skills",
+      "stars": 576,
+      "desc": "Official Agent Skills specification and documentation repository.",
+      "url": "https://github.com/agentskills/agentskills",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "agentskills official agent skills specification and documentation repository. jackyst0/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "api-doc-generator",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "JackyST0/awesome-agent-skills",
+      "stars": 576,
+      "desc": "API documentation generator Skill.",
+      "url": "https://github.com/JackyST0/awesome-agent-skills/tree/main/examples/api-doc-generator",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "api-doc-generator api documentation generator skill. jackyst0/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "best-skills",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "JackyST0/awesome-agent-skills",
+      "stars": 576,
+      "desc": "High-quality Skills collection for paper writing, dev workflow, and content creation.",
+      "url": "https://github.com/xstongxue/best-skills",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "best-skills high-quality skills collection for paper writing, dev workflow, and content creation. jackyst0/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "Skywork-Skills",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "JackyST0/awesome-agent-skills",
+      "stars": 576,
+      "desc": "Officially maintained Skywork agent skills for AI office workflows, including PPT, documents, Excel, design, search, and music.",
+      "url": "https://github.com/SkyworkAI/Skywork-Skills",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "skywork-skills officially maintained skywork agent skills for ai office workflows, including ppt, documents, excel, design, search, and music. jackyst0/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+    },
+    {
+      "name": "awesome-n64-development",
+      "source": "awesome-n64-development",
+      "sourceAgent": "awesome-n64-development",
+      "repo": "command-tab/awesome-n64-development",
+      "stars": 558,
+      "desc": "A curated list of Nintendo 64 development resources including toolchains, documentation, emulators, example code, and more",
+      "url": "https://github.com/command-tab/awesome-n64-development",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "awesome-n64-development"
+      ],
+      "searchText": "awesome-n64-development a curated list of nintendo 64 development resources including toolchains, documentation, emulators, example code, and more command-tab/awesome-n64-development docs-content awesome-n64-development"
+    },
+    {
+      "name": "academic-pptx-skill",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "Gabberflast/academic-pptx-skill",
+      "stars": 535,
+      "desc": "A Claude Skill for creating academic presentations (conference talks, seminar slides, thesis defenses, grant briefings). Enforces action titles, structured argument, exhibit discipline, citation standards, and communication-first design. Works alongside Anthropic's built-in PPTX skill.",
+      "url": "https://github.com/Gabberflast/academic-pptx-skill",
+      "install": "git clone https://github.com/Gabberflast/academic-pptx-skill.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "references",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "academic-pptx-skill a claude skill for creating academic presentations (conference talks, seminar slides, thesis defenses, grant briefings). enforces action titles, structured argument, exhibit discipline, citation standards, and communication-first design. works alongside anthropic's built-in pptx skill. gabberflast/academic-pptx-skill git clone https://github.com/gabberflast/academic-pptx-skill.git docs-content claude"
+    },
+    {
+      "name": "codex-academic-paper-skills",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "AAASS554/codex-academic-paper-skills",
+      "stars": 505,
+      "desc": "Codex academic paper skills for software engineering thesis planning and revision",
+      "url": "https://github.com/AAASS554/codex-academic-paper-skills",
+      "install": "pip install codex-academic-paper-skills",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "codex-academic-paper-skills codex academic paper skills for software engineering thesis planning and revision aaass554/codex-academic-paper-skills pip install codex-academic-paper-skills docs-content codex"
+    },
+    {
+      "name": "codex-claude-academic-skills",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "zLanqing/codex-claude-academic-skills",
+      "stars": 492,
+      "desc": "本仓库包含三个面向学术科研人员的Skills，覆盖从文献阅读、论文写作到科学计算的完整研究工作流。office-academic-skill 负责论文阅读报告与学术 PPT/Word 文档生成；research-writing-skill 提供论文写作、润色与审稿回复辅助；scientific-toolkit-skill 整合 MATLAB/Python 科学计算与期刊级图表生成。三个 Skill 专为中文科研用户设计，可在 Claude Code 和 codex 中一键调用。",
+      "url": "https://github.com/zLanqing/codex-claude-academic-skills",
+      "install": "pip install codex-claude-academic-skills",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "references",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex"
+      ],
+      "searchText": "codex-claude-academic-skills 本仓库包含三个面向学术科研人员的skills，覆盖从文献阅读、论文写作到科学计算的完整研究工作流。office-academic-skill 负责论文阅读报告与学术 ppt/word 文档生成；research-writing-skill 提供论文写作、润色与审稿回复辅助；scientific-toolkit-skill 整合 matlab/python 科学计算与期刊级图表生成。三个 skill 专为中文科研用户设计，可在 claude code 和 codex 中一键调用。 zlanqing/codex-claude-academic-skills pip install codex-claude-academic-skills docs-content claude codex"
+    },
+    {
+      "name": "Claude_skills_zh-CN",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "LeastBit/Claude_skills_zh-CN",
+      "stars": 486,
+      "desc": "Anthropics/skills中文学习版本 来自：https://github.com/anthropics/skills",
+      "url": "https://github.com/LeastBit/Claude_skills_zh-CN",
+      "install": "pip install Claude_skills_zh-CN",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "claude_skills_zh-cn anthropics/skills中文学习版本 来自：https://github.com/anthropics/skills leastbit/claude_skills_zh-cn pip install claude_skills_zh-cn docs-content claude"
+    },
+    {
+      "name": "oh-story-claudecode",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "worldwonderer/oh-story-claudecode",
+      "stars": 484,
+      "desc": "网络小说写作skill包，覆盖长篇与短篇网络小说的扫榜、拆文、写作、去AI味、封面图全流程。",
+      "url": "https://github.com/worldwonderer/oh-story-claudecode",
+      "install": "$skill-installer oh-story",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "general",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "oh-story-claudecode 网络小说写作skill包，覆盖长篇与短篇网络小说的扫榜、拆文、写作、去ai味、封面图全流程。 worldwonderer/oh-story-claudecode $skill-installer oh-story docs-content general"
+    },
+    {
+      "name": "mckinsey-pptx",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "seulee26/mckinsey-pptx",
+      "stars": 474,
+      "desc": "McKinsey-style PPTX generator — Claude Code plugin with 40 slide templates + subagent that picks the right template and defends its choice. Built by AX Labs (이승필).",
+      "url": "https://github.com/seulee26/mckinsey-pptx",
+      "install": "pip install mckinsey-pptx",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "references",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "mckinsey-pptx mckinsey-style pptx generator — claude code plugin with 40 slide templates + subagent that picks the right template and defends its choice. built by ax labs (이승필). seulee26/mckinsey-pptx pip install mckinsey-pptx docs-content claude"
+    },
+    {
+      "name": "learn-agents-from-opencode",
+      "source": "opencode",
+      "sourceAgent": "opencode",
+      "repo": "yexia553/learn-agents-from-opencode",
+      "stars": 448,
+      "desc": "根据 opencode 源码编写的 agent 开发教程",
+      "url": "https://github.com/yexia553/learn-agents-from-opencode",
+      "install": "git clone https://github.com/yexia553/learn-agents-from-opencode.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "guides",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "opencode"
+      ],
+      "searchText": "learn-agents-from-opencode 根据 opencode 源码编写的 agent 开发教程 yexia553/learn-agents-from-opencode git clone https://github.com/yexia553/learn-agents-from-opencode.git docs-content opencode"
+    },
+    {
+      "name": "ai-labs-claude-skills",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "ailabs-393/ai-labs-claude-skills",
+      "stars": 399,
+      "desc": "This package is use to remove the hustle of finding claudeskills and shift them into any of the user project. This project become a bridge between user's usage and claude skills",
+      "url": "https://github.com/ailabs-393/ai-labs-claude-skills",
+      "install": "pip install ai-labs-claude-skills",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "ai-labs-claude-skills this package is use to remove the hustle of finding claudeskills and shift them into any of the user project. this project become a bridge between user's usage and claude skills ailabs-393/ai-labs-claude-skills pip install ai-labs-claude-skills docs-content claude"
+    },
+    {
+      "name": "awesome-claude-skills",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "karanb192/awesome-claude-skills",
+      "stars": 372,
+      "desc": "🎯 The definitive collection of 50+ verified Awesome Claude Skills for Claude Code, Claude.ai, and API. Boost productivity with TDD, debugging, git workflows, document processing, and more. Community-driven, actively maintained.",
+      "url": "https://github.com/karanb192/awesome-claude-skills",
+      "install": "git clone https://github.com/karanb192/awesome-claude-skills.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "awesome-claude-skills 🎯 the definitive collection of 50+ verified awesome claude skills for claude code, claude.ai, and api. boost productivity with tdd, debugging, git workflows, document processing, and more. community-driven, actively maintained. karanb192/awesome-claude-skills git clone https://github.com/karanb192/awesome-claude-skills.git docs-content claude"
+    },
+    {
+      "name": "tools",
+      "source": "tools",
+      "sourceAgent": "tools",
+      "repo": "mydearcc/tools",
+      "stars": 369,
+      "desc": "free online tools, developer toolbox, web utilities: Minify CSS, Format JSON, Encrypt/Decrypt, Convert Formats, QR Code, Dev Docs,Webmaster Tools, Image Tools & more. For programmers, webmasters,desig",
+      "url": "https://github.com/mydearcc/tools",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "tools"
+      ],
+      "searchText": "tools free online tools, developer toolbox, web utilities: minify css, format json, encrypt/decrypt, convert formats, qr code, dev docs,webmaster tools, image tools & more. for programmers, webmasters,desig mydearcc/tools docs-content tools"
+    },
+    {
+      "name": "hermes-agent-guide",
+      "source": "hermes",
+      "sourceAgent": "hermes",
+      "repo": "jwangkun/hermes-agent-guide",
+      "stars": 334,
+      "desc": "Hermes Agent 是目前开源社区最具潜力的 AI Agent 框架之一。它继承了 OpenClaw 的优秀基因，在架构设计、记忆系统、技能生态和自动化能力上实现全面升级。但 Hermes 的文档分散在多个仓库和平台，缺乏一本系统性的中文指南。  本书填补的正是这个空白。全书 16 册、30 万+ 字，覆盖从安装部署到高阶开发、从个人玩赚到企业服务、从单 Agent 操控到多 Agent 编排的完整知识图谱。",
+      "url": "https://github.com/jwangkun/hermes-agent-guide",
+      "install": "pip install hermes-agent-guide",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "guides",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "hermes",
+        "openclaw"
+      ],
+      "searchText": "hermes-agent-guide hermes agent 是目前开源社区最具潜力的 ai agent 框架之一。它继承了 openclaw 的优秀基因，在架构设计、记忆系统、技能生态和自动化能力上实现全面升级。但 hermes 的文档分散在多个仓库和平台，缺乏一本系统性的中文指南。  本书填补的正是这个空白。全书 16 册、30 万+ 字，覆盖从安装部署到高阶开发、从个人玩赚到企业服务、从单 agent 操控到多 agent 编排的完整知识图谱。 jwangkun/hermes-agent-guide pip install hermes-agent-guide docs-content hermes openclaw"
+    },
+    {
+      "name": "Agent-Framework-Samples--agent-framework",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "microsoft/Agent-Framework-Samples",
+      "stars": 321,
+      "desc": "Agent Framework Samples  - showcasing ways in which agent framework can be utilized.",
+      "url": "https://github.com/microsoft/Agent-Framework-Samples",
+      "install": "pip install Agent-Framework-Samples",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agent-framework-samples--agent-framework agent framework samples  - showcasing ways in which agent framework can be utilized. microsoft/agent-framework-samples pip install agent-framework-samples docs-content general"
+    },
+    {
+      "name": "biobakery",
+      "source": "biobakery",
+      "sourceAgent": "biobakery",
+      "repo": "biobakery/biobakery",
+      "stars": 319,
+      "desc": "bioBakery tools for meta'omic profiling",
+      "url": "https://github.com/biobakery/biobakery",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "biobakery"
+      ],
+      "searchText": "biobakery biobakery tools for meta'omic profiling biobakery/biobakery docs-content biobakery"
+    },
+    {
+      "name": "PaperClaw",
+      "source": "general",
+      "sourceAgent": "openclaw",
+      "repo": "guhaohao0991/PaperClaw",
+      "stars": 236,
+      "desc": "an OpenClaw skill that can generate paper search-review-critque expert-agent relevant to specific topics (we use Scientific ML and 3D geometry surrogate modeling as a demo).",
+      "url": "https://github.com/guhaohao0991/PaperClaw",
+      "install": "git clone https://github.com/guhaohao0991/PaperClaw.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "paperclaw an openclaw skill that can generate paper search-review-critque expert-agent relevant to specific topics (we use scientific ml and 3d geometry surrogate modeling as a demo). guhaohao0991/paperclaw git clone https://github.com/guhaohao0991/paperclaw.git docs-content openclaw"
+    },
+    {
+      "name": "VLM-Radiology-Agent-Framework--agent-framework",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Project-MONAI/VLM-Radiology-Agent-Framework",
+      "stars": 217,
+      "desc": "",
+      "url": "https://github.com/Project-MONAI/VLM-Radiology-Agent-Framework",
+      "install": "pip install VLM-Radiology-Agent-Framework",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vlm-radiology-agent-framework--agent-framework project-monai/vlm-radiology-agent-framework pip install vlm-radiology-agent-framework docs-content general"
+    },
+    {
+      "name": "kubernetes-icons",
+      "source": "kubernetes-icons",
+      "sourceAgent": "kubernetes-icons",
+      "repo": "octo-technology/kubernetes-icons",
+      "stars": 216,
+      "desc": "[obsolete] Set of icons for Kubernetes diagrams, has been merged into official k8s repo!!",
+      "url": "https://github.com/octo-technology/kubernetes-icons",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "kubernetes-icons"
+      ],
+      "searchText": "kubernetes-icons [obsolete] set of icons for kubernetes diagrams, has been merged into official k8s repo!! octo-technology/kubernetes-icons docs-content kubernetes-icons"
+    },
+    {
+      "name": "scholar-skill",
+      "source": "general",
+      "sourceAgent": "openclaw",
+      "repo": "EESJGong/scholar-skill",
+      "stars": 199,
+      "desc": "An OpenClaw skill for academic reading, knowledge linking, reflection, and knowledge evolution in Obsidian.",
+      "url": "https://github.com/EESJGong/scholar-skill",
+      "install": "git clone https://github.com/EESJGong/scholar-skill.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "scholar-skill an openclaw skill for academic reading, knowledge linking, reflection, and knowledge evolution in obsidian. eesjgong/scholar-skill git clone https://github.com/eesjgong/scholar-skill.git docs-content openclaw"
+    },
+    {
+      "name": "dotnet9-com",
+      "source": "dotnet9-com",
+      "sourceAgent": "dotnet9-com",
+      "repo": "dotnet9/dotnet9.com",
+      "stars": 195,
+      "desc": "Under development. See https://dotnet9.com for preview effect",
+      "url": "https://github.com/dotnet9/dotnet9.com",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "dotnet9-com"
+      ],
+      "searchText": "dotnet9-com under development. see https://dotnet9.com for preview effect dotnet9/dotnet9.com docs-content dotnet9-com"
+    },
+    {
+      "name": "obsidian-systemsculpt-ai",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "SystemSculpt/obsidian-systemsculpt-ai",
+      "stars": 189,
+      "desc": "Enhance your Obsidian App experience with AI-powered tools for note-taking",
+      "url": "https://github.com/SystemSculpt/obsidian-systemsculpt-ai",
+      "install": "$skill-installer obsidian-systemsculpt-ai",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "obsidian-systemsculpt-ai enhance your obsidian app experience with ai-powered tools for note-taking systemsculpt/obsidian-systemsculpt-ai $skill-installer obsidian-systemsculpt-ai docs-content claude"
+    },
+    {
+      "name": "cpplangnet",
+      "source": "cpplangnet",
+      "sourceAgent": "cpplangnet",
+      "repo": "Cpp4You/CppLangNet",
+      "stars": 182,
+      "desc": "The modern website for C++ language to make it more accessible.",
+      "url": "https://github.com/Cpp4You/CppLangNet",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "cpplangnet"
+      ],
+      "searchText": "cpplangnet the modern website for c++ language to make it more accessible. cpp4you/cpplangnet docs-content cpplangnet"
+    },
+    {
+      "name": "anywhere-agents",
+      "source": "general",
+      "sourceAgent": "other",
+      "repo": "yzhao062/anywhere-agents",
+      "stars": 180,
+      "desc": "One config to rule all your AI agents: portable (every project, every session), effective (curated writing, routing, skills), and safer (destructive-command guard).",
+      "url": "https://github.com/yzhao062/anywhere-agents",
+      "install": "git clone https://github.com/yzhao062/anywhere-agents.git  # browse the awesome list",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "other"
+      ],
+      "searchText": "anywhere-agents one config to rule all your ai agents: portable (every project, every session), effective (curated writing, routing, skills), and safer (destructive-command guard). yzhao062/anywhere-agents git clone https://github.com/yzhao062/anywhere-agents.git  # browse the awesome list docs-content other"
+    },
+    {
+      "name": "claude-plugins-community",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "anthropics/claude-plugins-community",
+      "stars": 171,
+      "desc": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+      "url": "https://github.com/anthropics/claude-plugins-community",
+      "install": "git clone https://github.com/anthropics/claude-plugins-community.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "claude-plugins-community community plugin marketplace for claude cowork and claude code. read-only mirror — submit plugins at clau.de/plugin-directory-submission. anthropics/claude-plugins-community git clone https://github.com/anthropics/claude-plugins-community.git docs-content claude"
+    },
+    {
+      "name": "awesome-web-you-should-know",
+      "source": "awesome-web-you-should-know",
+      "sourceAgent": "awesome-web-you-should-know",
+      "repo": "freyhill/awesome-web-you-should-know",
+      "stars": 165,
+      "desc": "🌎awesome web you should know",
+      "url": "https://github.com/freyhill/awesome-web-you-should-know",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "awesome-web-you-should-know"
+      ],
+      "searchText": "awesome-web-you-should-know 🌎awesome web you should know freyhill/awesome-web-you-should-know docs-content awesome-web-you-should-know"
+    },
+    {
+      "name": "awesome-emu-resources",
+      "source": "awesome-emu-resources",
+      "sourceAgent": "awesome-emu-resources",
+      "repo": "marethyu/awesome-emu-resources",
+      "stars": 154,
+      "desc": "A curated list of emulator development resources",
+      "url": "https://github.com/marethyu/awesome-emu-resources",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "awesome-emu-resources"
+      ],
+      "searchText": "awesome-emu-resources a curated list of emulator development resources marethyu/awesome-emu-resources docs-content awesome-emu-resources"
+    },
+    {
+      "name": "fortran-tools",
+      "source": "fortran-tools",
+      "sourceAgent": "fortran-tools",
+      "repo": "Beliavsky/Fortran-Tools",
+      "stars": 148,
+      "desc": "Links to Fortran compilers, preprocessors, formatters, static analyzers, transpilers, IDEs, build systems, etc.",
+      "url": "https://github.com/Beliavsky/Fortran-Tools",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "fortran-tools"
+      ],
+      "searchText": "fortran-tools links to fortran compilers, preprocessors, formatters, static analyzers, transpilers, ides, build systems, etc. beliavsky/fortran-tools docs-content fortran-tools"
+    },
+    {
+      "name": "learn-hermes-agent",
+      "source": "hermes",
+      "sourceAgent": "hermes",
+      "repo": "longyunfeigu/learn-hermes-agent",
+      "stars": 147,
+      "desc": "A 27-chapter hands-on tutorial for building an autonomous AI agent from zero in Python. Agent loop, tool system, memory, skills, MCP,     multi-platfo",
+      "url": "https://github.com/longyunfeigu/learn-hermes-agent",
+      "install": "git clone https://github.com/longyunfeigu/learn-hermes-agent.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "guides",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "learn-hermes-agent a 27-chapter hands-on tutorial for building an autonomous ai agent from zero in python. agent loop, tool system, memory, skills, mcp,     multi-platfo longyunfeigu/learn-hermes-agent git clone https://github.com/longyunfeigu/learn-hermes-agent.git docs-content hermes"
+    },
+    {
+      "name": "docs",
+      "source": "docs",
+      "sourceAgent": "docs",
+      "repo": "jacksonkasi1/docs",
+      "stars": 144,
+      "desc": "Better Code Practices",
+      "url": "https://github.com/jacksonkasi1/docs",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "docs"
+      ],
+      "searchText": "docs better code practices jacksonkasi1/docs docs-content docs"
+    },
+    {
+      "name": "claude-code-plugins",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "buildatscale-tv/claude-code-plugins",
+      "stars": 131,
+      "desc": "Claude code plugin marketplace for the BuildAtScale YouTube Channel",
+      "url": "https://github.com/buildatscale-tv/claude-code-plugins",
+      "install": "pip install claude-code-plugins",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "references",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "claude-code-plugins claude code plugin marketplace for the buildatscale youtube channel buildatscale-tv/claude-code-plugins pip install claude-code-plugins docs-content claude"
+    },
+    {
+      "name": "dotnet-adr",
+      "source": "dotnet-adr",
+      "sourceAgent": "dotnet-adr",
+      "repo": "endjin/dotnet-adr",
+      "stars": 130,
+      "desc": "A cross platform .NET Global Tool for creating and managing Architectural Decision Records (ADRs).",
+      "url": "https://github.com/endjin/dotnet-adr",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "dotnet-adr"
+      ],
+      "searchText": "dotnet-adr a cross platform .net global tool for creating and managing architectural decision records (adrs). endjin/dotnet-adr docs-content dotnet-adr"
+    },
+    {
+      "name": "hermes-agent-insights",
+      "source": "general",
+      "sourceAgent": "hermes",
+      "repo": "HZ0108/hermes-agent-insights",
+      "stars": 124,
+      "desc": "In-depth source code analysis and architectural study of Hermes Agent by Nous Research.",
+      "url": "https://github.com/HZ0108/hermes-agent-insights",
+      "install": "git clone https://github.com/HZ0108/hermes-agent-insights.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "references",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-agent-insights in-depth source code analysis and architectural study of hermes agent by nous research. hz0108/hermes-agent-insights git clone https://github.com/hz0108/hermes-agent-insights.git docs-content hermes"
+    },
+    {
+      "name": "cova",
+      "source": "cova",
+      "sourceAgent": "cova",
+      "repo": "Guizimo/cova",
+      "stars": 120,
+      "desc": "简单易用的封面图片生成工具，为你的文章、视频、社交媒体创作提供专业的封面设计。",
+      "url": "https://github.com/Guizimo/cova",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "cova"
+      ],
+      "searchText": "cova 简单易用的封面图片生成工具，为你的文章、视频、社交媒体创作提供专业的封面设计。 guizimo/cova docs-content cova"
+    },
+    {
+      "name": "go-mygen",
+      "source": "go-mygen",
+      "sourceAgent": "go-mygen",
+      "repo": "yezihack/go-mygen",
+      "stars": 120,
+      "desc": "Quickly generate CURD and documentation for operating MYSQL.etc",
+      "url": "https://github.com/yezihack/go-mygen",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "go-mygen"
+      ],
+      "searchText": "go-mygen quickly generate curd and documentation for operating mysql.etc yezihack/go-mygen docs-content go-mygen"
+    },
+    {
+      "name": "getnote-openclaw",
+      "source": "general",
+      "sourceAgent": "openclaw",
+      "repo": "iswalle/getnote-openclaw",
+      "stars": 118,
+      "desc": "Get 笔记 openclaw Skill",
+      "url": "https://github.com/iswalle/getnote-openclaw",
+      "install": "git clone https://github.com/iswalle/getnote-openclaw.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "references",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "getnote-openclaw get 笔记 openclaw skill iswalle/getnote-openclaw git clone https://github.com/iswalle/getnote-openclaw.git docs-content openclaw"
+    },
+    {
+      "name": "bitdowntoc",
+      "source": "bitdowntoc",
+      "sourceAgent": "bitdowntoc",
+      "repo": "derlin/bitdowntoc",
+      "stars": 107,
+      "desc": "Online and command-line Markdown TOC generator, with built-in support for BitBucket Server, GitHub, Gitlab, dev.to and more!",
+      "url": "https://github.com/derlin/bitdowntoc",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "bitdowntoc"
+      ],
+      "searchText": "bitdowntoc online and command-line markdown toc generator, with built-in support for bitbucket server, github, gitlab, dev.to and more! derlin/bitdowntoc docs-content bitdowntoc"
+    },
+    {
+      "name": "Awesome-Agent-Skills",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "JayLZhou/Awesome-Agent-Skills",
+      "stars": 106,
+      "desc": "Curated paper list and resource hub for skill-centric LLM agent ecosystems.",
+      "url": "https://github.com/JayLZhou/Awesome-Agent-Skills",
+      "install": "git clone https://github.com/JayLZhou/Awesome-Agent-Skills.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "copilot",
+        "hermes",
+        "opencode",
+        "openclaw"
+      ],
+      "searchText": "awesome-agent-skills curated paper list and resource hub for skill-centric llm agent ecosystems. jaylzhou/awesome-agent-skills git clone https://github.com/jaylzhou/awesome-agent-skills.git docs-content claude codex cursor copilot hermes opencode openclaw"
+    },
+    {
+      "name": "awesome-cursor-rules",
+      "source": "community",
+      "sourceAgent": "cursor",
+      "repo": "blefnk/awesome-cursor-rules",
+      "stars": 82,
+      "desc": "❇️ neatly composed rules for ai ides like cursor, windsurf, vscode microsoft github copilot, reliverse ai, etc. optimized for modern frontend development with next.js 15, react 19, typescript 5, tailwind 4, shadcn/ui, drizzle orm, better auth, polar, tanstack form, react query, etc.",
+      "url": "https://github.com/blefnk/awesome-cursor-rules",
+      "install": "git clone https://github.com/blefnk/awesome-cursor-rules.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "cursor",
+        "copilot"
+      ],
+      "searchText": "awesome-cursor-rules ❇️ neatly composed rules for ai ides like cursor, windsurf, vscode microsoft github copilot, reliverse ai, etc. optimized for modern frontend development with next.js 15, react 19, typescript 5, tailwind 4, shadcn/ui, drizzle orm, better auth, polar, tanstack form, react query, etc. blefnk/awesome-cursor-rules git clone https://github.com/blefnk/awesome-cursor-rules.git docs-content cursor copilot"
+    },
+    {
+      "name": "awesome-agent-skills",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "kodustech/awesome-agent-skills",
+      "stars": 79,
+      "desc": "Curated list of Agent Skills for AI coding agents like Claude Code, Codex and Cursor.",
+      "url": "https://github.com/kodustech/awesome-agent-skills",
+      "install": "git clone https://github.com/kodustech/awesome-agent-skills.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor"
+      ],
+      "searchText": "awesome-agent-skills curated list of agent skills for ai coding agents like claude code, codex and cursor. kodustech/awesome-agent-skills git clone https://github.com/kodustech/awesome-agent-skills.git docs-content claude codex cursor"
+    },
+    {
+      "name": "awesome-hermes-skills",
+      "source": "hermes",
+      "sourceAgent": "hermes",
+      "repo": "ChuckSRQ/awesome-hermes-skills",
+      "stars": 67,
+      "desc": "A curated collection of production-ready Hermes Agent skills — brainstorming, PRD workflows, debugging, Apple integrations, MLOps, document processing, and more.",
+      "url": "https://github.com/ChuckSRQ/awesome-hermes-skills",
+      "install": "pip install awesome-hermes-skills",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "awesome-hermes-skills a curated collection of production-ready hermes agent skills — brainstorming, prd workflows, debugging, apple integrations, mlops, document processing, and more. chucksrq/awesome-hermes-skills pip install awesome-hermes-skills docs-content hermes"
+    },
+    {
+      "name": "awesome-openclaw-skills-zh",
+      "source": "openclaw",
+      "sourceAgent": "openclaw",
+      "repo": "Rito-w/awesome-openclaw-skills-zh",
+      "stars": 66,
+      "desc": "Awesome OpenClaw Skills 中文版 - 5494 个 OpenClaw 技能的中文翻译与分类",
+      "url": "https://github.com/Rito-w/awesome-openclaw-skills-zh",
+      "install": "git clone https://github.com/Rito-w/awesome-openclaw-skills-zh.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "awesome-openclaw-skills-zh awesome openclaw skills 中文版 - 5494 个 openclaw 技能的中文翻译与分类 rito-w/awesome-openclaw-skills-zh git clone https://github.com/rito-w/awesome-openclaw-skills-zh.git docs-content openclaw"
+    },
+    {
+      "name": "hermes-agent-docs",
+      "source": "hermes",
+      "sourceAgent": "hermes",
+      "repo": "mudrii/hermes-agent-docs",
+      "stars": 60,
+      "desc": "Comprehensive documentation for Hermes Agent by NousResearch — the self-improving AI agent (v0.2.0)",
+      "url": "https://github.com/mudrii/hermes-agent-docs",
+      "install": "git clone https://github.com/mudrii/hermes-agent-docs.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "references",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-agent-docs comprehensive documentation for hermes agent by nousresearch — the self-improving ai agent (v0.2.0) mudrii/hermes-agent-docs git clone https://github.com/mudrii/hermes-agent-docs.git docs-content hermes"
+    },
+    {
+      "name": "hermes-agent-anatomy",
+      "source": "hermes",
+      "sourceAgent": "hermes",
+      "repo": "anneheartrecord/hermes-agent-anatomy",
+      "stars": 56,
+      "desc": "hermes-agent源码解析",
+      "url": "https://github.com/anneheartrecord/hermes-agent-anatomy",
+      "install": "git clone https://github.com/anneheartrecord/hermes-agent-anatomy.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "guides",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-agent-anatomy hermes-agent源码解析 anneheartrecord/hermes-agent-anatomy git clone https://github.com/anneheartrecord/hermes-agent-anatomy.git docs-content hermes"
+    },
+    {
+      "name": "awesome-hermes-agent-zh",
+      "source": "hermes",
+      "sourceAgent": "hermes",
+      "repo": "jefferyjob/awesome-hermes-agent-zh",
+      "stars": 55,
+      "desc": "Nous Research 精心整理了一份适用于 Hermes Agent 的实用技能、工具、集成和资源列表。",
+      "url": "https://github.com/jefferyjob/awesome-hermes-agent-zh",
+      "install": "git clone https://github.com/jefferyjob/awesome-hermes-agent-zh.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "awesome-hermes-agent-zh nous research 精心整理了一份适用于 hermes agent 的实用技能、工具、集成和资源列表。 jefferyjob/awesome-hermes-agent-zh git clone https://github.com/jefferyjob/awesome-hermes-agent-zh.git docs-content hermes"
+    },
+    {
+      "name": "mdbook",
+      "source": "marceloeatworld",
+      "sourceAgent": "multi",
+      "repo": "marceloeatworld/mdbook-ai-skill",
+      "stars": 1,
+      "desc": "This skill should be used when the user asks about \"mdBook\", \"mdbook\",",
+      "url": "https://github.com/marceloeatworld/mdbook-ai-skill/blob/main/SKILL.md",
+      "install": "$skill-installer mdbook",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "references",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "agent-skills-compatible"
+      ],
+      "searchText": "mdbook this skill should be used when the user asks about \"mdbook\", \"mdbook\", marceloeatworld/mdbook-ai-skill $skill-installer mdbook docs-content agent-skills-compatible"
+    },
+    {
+      "name": "Claude SEO",
+      "repo": "agricidaniel/claude-seo",
+      "description": "Universal SEO skill for Claude Code — 25 sub-skills + 18 sub-agents for technical SEO",
+      "platforms": [
+        "claude-code"
+      ]
+    },
+    {
+      "name": "Notion Cookbook",
+      "repo": "makenotion/notion-cookbook",
+      "description": "Hub for getting started with Notion — docs, scripts, customizable for AI agents",
+      "platforms": [
+        "claude-code",
+        "codex",
+        "cursor"
+      ]
+    }
+  ]
+}

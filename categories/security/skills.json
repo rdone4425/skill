@@ -1,0 +1,3069 @@
+{
+  "meta": {
+    "functionCategory": "security",
+    "topCategoryId": "security",
+    "subCategoryId": "general",
+    "categoryPath": "security",
+    "count": 160,
+    "sourceData": "categories"
+  },
+  "skills": [
+    {
+      "name": "ECC",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "affaan-m/ECC",
+      "stars": 211362,
+      "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "url": "https://github.com/affaan-m/ECC",
+      "install": "git clone https://github.com/affaan-m/ECC.git",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defensive",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "opencode"
+      ],
+      "searchText": "ecc the agent harness performance optimization system. skills, instincts, memory, security, and research-first development for claude code, codex, opencode, cursor and beyond. affaan-m/ecc git clone https://github.com/affaan-m/ecc.git security claude codex cursor opencode"
+    },
+    {
+      "name": "payloadsallthethings",
+      "source": "payloadsallthethings",
+      "sourceAgent": "payloadsallthethings",
+      "repo": "swisskyrepo/PayloadsAllTheThings",
+      "stars": 78755,
+      "desc": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "payloadsallthethings"
+      ],
+      "searchText": "payloadsallthethings a list of useful payloads and bypass for web application security and pentest/ctf swisskyrepo/payloadsallthethings security payloadsallthethings"
+    },
+    {
+      "name": "trivy",
+      "source": "trivy",
+      "sourceAgent": "trivy",
+      "repo": "aquasecurity/trivy",
+      "stars": 36635,
+      "desc": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "url": "https://github.com/aquasecurity/trivy",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "trivy"
+      ],
+      "searchText": "trivy find vulnerabilities, misconfigurations, secrets, sbom in containers, kubernetes, code repositories, clouds and more aquasecurity/trivy security trivy"
+    },
+    {
+      "name": "nuclei",
+      "source": "nuclei",
+      "sourceAgent": "nuclei",
+      "repo": "projectdiscovery/nuclei",
+      "stars": 29387,
+      "desc": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the int",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "nuclei"
+      ],
+      "searchText": "nuclei nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple yaml-based dsl, enabling collaboration to tackle trending vulnerabilities on the int projectdiscovery/nuclei security nuclei"
+    },
+    {
+      "name": "h4cker",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "The-Art-of-Hacking/h4cker",
+      "stars": 28031,
+      "desc": "Resources for learning about cybersecurity, ethical hacking, penetration testing, and vulnerability research.",
+      "url": "https://github.com/The-Art-of-Hacking/h4cker",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "h4cker resources for learning about cybersecurity, ethical hacking, penetration testing, and vulnerability research. the-art-of-hacking/h4cker security general"
+    },
+    {
+      "name": "ab-test-analysis",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Analyze A/B test results with statistical significance and recommendations",
+      "url": "https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/skills/ab-test-analysis",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "ab-test-analysis analyze a/b test results with statistical significance and recommendations voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "accessibility",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "WCAG compliance, screen reader support, and keyboard navigation",
+      "url": "https://officialskills.sh/addyosmani/skills/accessibility",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "accessibility wcag compliance, screen reader support, and keyboard navigation voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "app-store-preflight-skills",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Scan iOS/macOS projects to catch common mistakes that lead to App Store rejection before submission",
+      "url": "https://github.com/truongduy2611/app-store-preflight-skills",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "app-store-preflight-skills scan ios/macos projects to catch common mistakes that lead to app store rejection before submission voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "auth0-android",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Add authentication to native Android apps using the Auth0 SDK",
+      "url": "https://officialskills.sh/auth0/skills/auth0-android",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "auth0-android add authentication to native android apps using the auth0 sdk voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "auth0-angular",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Add authentication to Angular apps using @auth0/auth0-angular",
+      "url": "https://officialskills.sh/auth0/skills/auth0-angular",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "auth0-angular add authentication to angular apps using @auth0/auth0-angular voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "auth0-aspnetcore-api",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Add JWT access token validation to ASP.NET Core APIs",
+      "url": "https://officialskills.sh/auth0/skills/auth0-aspnetcore-api",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "auth0-aspnetcore-api add jwt access token validation to asp.net core apis voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "auth0-express",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Add session-based authentication to Express.js apps",
+      "url": "https://officialskills.sh/auth0/skills/auth0-express",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "auth0-express add session-based authentication to express.js apps voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "auth0-fastify",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Add session-based authentication to Fastify web apps",
+      "url": "https://officialskills.sh/auth0/skills/auth0-fastify",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "auth0-fastify add session-based authentication to fastify web apps voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "auth0-fastify-api",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Secure Fastify API endpoints with JWT Bearer token validation",
+      "url": "https://officialskills.sh/auth0/skills/auth0-fastify-api",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "auth0-fastify-api secure fastify api endpoints with jwt bearer token validation voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "auth0-mfa",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Add Multi-Factor Authentication to Auth0-powered apps",
+      "url": "https://officialskills.sh/auth0/skills/auth0-mfa",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "auth0-mfa add multi-factor authentication to auth0-powered apps voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "auth0-nextjs",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Add authentication to Next.js apps",
+      "url": "https://officialskills.sh/auth0/skills/auth0-nextjs",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "auth0-nextjs add authentication to next.js apps voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "auth0-vue",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Add authentication to Vue.js apps",
+      "url": "https://officialskills.sh/auth0/skills/auth0-vue",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "auth0-vue add authentication to vue.js apps voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "azure-keyvault-keys-rust",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Key Vault cryptographic key management",
+      "url": "https://officialskills.sh/microsoft/skills/azure-keyvault-keys-rust",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "azure-keyvault-keys-rust key vault cryptographic key management voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "azure-keyvault-keys-ts",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Cryptographic key management",
+      "url": "https://officialskills.sh/microsoft/skills/azure-keyvault-keys-ts",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "azure-keyvault-keys-ts cryptographic key management voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "azure-security-keyvault-keys-dotnet",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Cryptographic key management",
+      "url": "https://officialskills.sh/microsoft/skills/azure-security-keyvault-keys-dotnet",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "azure-security-keyvault-keys-dotnet cryptographic key management voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "azure-security-keyvault-keys-java",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Cryptographic key management",
+      "url": "https://officialskills.sh/microsoft/skills/azure-security-keyvault-keys-java",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "azure-security-keyvault-keys-java cryptographic key management voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "azure-security-keyvault-secrets-java",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Secret management for passwords and keys",
+      "url": "https://officialskills.sh/microsoft/skills/azure-security-keyvault-secrets-java",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "azure-security-keyvault-secrets-java secret management for passwords and keys voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "best-practices",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Best practices for Better Auth integration",
+      "url": "https://officialskills.sh/better-auth/skills/best-practices",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "best-practices best practices for better auth integration voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "create-auth",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Create authentication setup with Better Auth",
+      "url": "https://officialskills.sh/better-auth/skills/create-auth",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "create-auth create authentication setup with better auth voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "defense-in-depth",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Multi-layered security approaches",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/defense-in-depth/SKILL.md",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "defense-in-depth multi-layered security approaches voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "fastapi-router-py",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "FastAPI routers with CRUD and auth",
+      "url": "https://officialskills.sh/microsoft/skills/fastapi-router-py",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "fastapi-router-py fastapi routers with crud and auth voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "ffuf-claude-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Web fuzzing with ffuf",
+      "url": "https://github.com/jthack/ffuf_claude_skill",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "ffuf-claude-skill web fuzzing with ffuf voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "firebase-apk-scanner",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Scan Android APKs for Firebase misconfigurations and security vulnerabilities",
+      "url": "https://officialskills.sh/trailofbits/skills/firebase-apk-scanner",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "firebase-apk-scanner scan android apks for firebase misconfigurations and security vulnerabilities voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "firebase-security-rules-auditor",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Audit Firestore security rules and flag risky patterns",
+      "url": "https://officialskills.sh/firebase/skills/firebase-security-rules-auditor",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "firebase-security-rules-auditor audit firestore security rules and flag risky patterns voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "gws-shared",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Shared authentication, global flags, and output formatting",
+      "url": "https://officialskills.sh/googleworkspace/skills/gws-shared",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "gws-shared shared authentication, global flags, and output formatting voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "microsoft-azure-webjobs-extensions-authentication-events-dotnet",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Entra ID custom auth events handler",
+      "url": "https://officialskills.sh/microsoft/skills/microsoft-azure-webjobs-extensions-authentication-events-dotnet",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "microsoft-azure-webjobs-extensions-authentication-events-dotnet entra id custom auth events handler voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "nemoclaw-user-configure-security",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Presents a risk framework for every configurable security control in NemoClaw.",
+      "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-configure-security",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "nemoclaw-user-configure-security presents a risk framework for every configurable security control in nemoclaw. voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "onboarding-cro",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Optimize post-signup onboarding and user activation to improve time-to-value",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/onboarding-cro",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "onboarding-cro optimize post-signup onboarding and user activation to improve time-to-value voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "organization",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Organization management with Better Auth",
+      "url": "https://officialskills.sh/better-auth/skills/organization",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "organization organization management with better auth voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "semgrep-rule-creator",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Create and refine Semgrep rules for vulnerability detection",
+      "url": "https://officialskills.sh/trailofbits/skills/semgrep-rule-creator",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "semgrep-rule-creator create and refine semgrep rules for vulnerability detection voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "signup-flow-cro",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Optimize signup, registration, and trial activation flows for higher conversion",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/signup-flow-cro",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "signup-flow-cro optimize signup, registration, and trial activation flows for higher conversion voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "twoFactor",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Two-factor authentication with Better Auth",
+      "url": "https://officialskills.sh/better-auth/skills/twoFactor",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "twofactor two-factor authentication with better auth voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "venice-auth",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "API keys and wallet-based Venice authentication",
+      "url": "https://github.com/veniceai/skills/tree/main/skills/venice-auth",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "venice-auth api keys and wallet-based venice authentication voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "venice-crypto-rpc",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "JSON-RPC proxying for supported crypto networks",
+      "url": "https://github.com/veniceai/skills/tree/main/skills/venice-crypto-rpc",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "venice-crypto-rpc json-rpc proxying for supported crypto networks voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "wp-abilities-api",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "Capability-based permissions and REST API authentication",
+      "url": "https://officialskills.sh/WordPress/skills/wp-abilities-api",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "wp-abilities-api capability-based permissions and rest api authentication voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "wp-rest-api",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26782,
+      "desc": "REST API routes/endpoints, schema, auth, and response shaping",
+      "url": "https://officialskills.sh/WordPress/skills/wp-rest-api",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "wp-rest-api rest api routes/endpoints, schema, auth, and response shaping voltagent/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "strix",
+      "source": "strix",
+      "sourceAgent": "strix",
+      "repo": "usestrix/strix",
+      "stars": 26727,
+      "desc": "Open-source AI hackers to find and fix your app’s vulnerabilities.",
+      "url": "https://github.com/usestrix/strix",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "strix"
+      ],
+      "searchText": "strix open-source ai hackers to find and fix your app’s vulnerabilities. usestrix/strix security strix"
+    },
+    {
+      "name": "Anthropic-Cybersecurity-Skills",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 22761,
+      "desc": "817 structured cybersecurity skills for AI agents mapped to 6 frameworks",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "install": "$skill-installer Anthropic-Cybersecurity-Skills",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "anthropic-cybersecurity-skills 817 structured cybersecurity skills for ai agents mapped to 6 frameworks mukul975/anthropic-cybersecurity-skills $skill-installer anthropic-cybersecurity-skills security claude"
+    },
+    {
+      "name": "authentik",
+      "source": "authentik",
+      "sourceAgent": "authentik",
+      "repo": "goauthentik/authentik",
+      "stars": 22159,
+      "desc": "The authentication glue you need.",
+      "url": "https://github.com/goauthentik/authentik",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "authentik"
+      ],
+      "searchText": "authentik the authentication glue you need. goauthentik/authentik security authentik"
+    },
+    {
+      "name": "casbin",
+      "source": "casbin",
+      "sourceAgent": "casbin",
+      "repo": "apache/casbin",
+      "stars": 20208,
+      "desc": "Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC.",
+      "url": "https://github.com/apache/casbin",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "casbin"
+      ],
+      "searchText": "casbin apache casbin: an authorization library that supports access control models like acl, rbac, abac. apache/casbin security casbin"
+    },
+    {
+      "name": "sa-token",
+      "source": "sa-token",
+      "sourceAgent": "sa-token",
+      "repo": "dromara/Sa-Token",
+      "stars": 18909,
+      "desc": "✨ 开源、免费、一站式 Java 权限认证框架，让鉴权变得简单、优雅！—— 登录认证、权限认证、分布式 Session 会话、微服务网关鉴权、SSO 单点登录、OAuth2.0 统一认证、jwt 集成、API Key 秘钥授权、API 参数签名",
+      "url": "https://github.com/dromara/Sa-Token",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "sa-token"
+      ],
+      "searchText": "sa-token ✨ 开源、免费、一站式 java 权限认证框架，让鉴权变得简单、优雅！—— 登录认证、权限认证、分布式 session 会话、微服务网关鉴权、sso 单点登录、oauth2.0 统一认证、jwt 集成、api key 秘钥授权、api 参数签名 dromara/sa-token security sa-token"
+    },
+    {
+      "name": "hydra",
+      "source": "hydra",
+      "sourceAgent": "hydra",
+      "repo": "ory/hydra",
+      "stars": 17359,
+      "desc": "Internet-scale OpenID Certified™ OpenID Connect and OAuth2.1 provider that integrates with your user management through headless APIs. Solve OIDC/OAuth2 user cases over night. Consume as a service on",
+      "url": "https://github.com/ory/hydra",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "hydra"
+      ],
+      "searchText": "hydra internet-scale openid certified™ openid connect and oauth2.1 provider that integrates with your user management through headless apis. solve oidc/oauth2 user cases over night. consume as a service on ory/hydra security hydra"
+    },
+    {
+      "name": "semgrep",
+      "source": "semgrep",
+      "sourceAgent": "semgrep",
+      "repo": "semgrep/semgrep",
+      "stars": 15685,
+      "desc": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.",
+      "url": "https://github.com/semgrep/semgrep",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "semgrep"
+      ],
+      "searchText": "semgrep lightweight static analysis for many languages. find bug variants with patterns that look like source code. semgrep/semgrep security semgrep"
+    },
+    {
+      "name": "static-analysis",
+      "source": "static-analysis",
+      "sourceAgent": "static-analysis",
+      "repo": "analysis-tools-dev/static-analysis",
+      "stars": 14653,
+      "desc": "⚙️ A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build tools, and more. The focus is on tools which improve code quality.",
+      "url": "https://github.com/analysis-tools-dev/static-analysis",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "static-analysis"
+      ],
+      "searchText": "static-analysis ⚙️ a curated list of static analysis (sast) tools and linters for all programming languages, config files, build tools, and more. the focus is on tools which improve code quality. analysis-tools-dev/static-analysis security static-analysis"
+    },
+    {
+      "name": "hacker101",
+      "source": "hacker101",
+      "sourceAgent": "hacker101",
+      "repo": "Hacker0x01/hacker101",
+      "stars": 14464,
+      "desc": "Source code for Hacker101.com - a free online web and mobile security class.",
+      "url": "https://github.com/Hacker0x01/hacker101",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "hacker101"
+      ],
+      "searchText": "hacker101 source code for hacker101.com - a free online web and mobile security class. hacker0x01/hacker101 security hacker101"
+    },
+    {
+      "name": "zitadel",
+      "source": "zitadel",
+      "sourceAgent": "zitadel",
+      "repo": "zitadel/zitadel",
+      "stars": 14217,
+      "desc": "ZITADEL - Identity infrastructure, simplified for you.",
+      "url": "https://github.com/zitadel/zitadel",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "zitadel"
+      ],
+      "searchText": "zitadel zitadel - identity infrastructure, simplified for you. zitadel/zitadel security zitadel"
+    },
+    {
+      "name": "fscan",
+      "source": "fscan",
+      "sourceAgent": "fscan",
+      "repo": "shadow1ng/fscan",
+      "stars": 14042,
+      "desc": "一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。(An intranet comprehensive scanning tool, enabling one-click automated, all-round vulnerability scanning)",
+      "url": "https://github.com/shadow1ng/fscan",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "fscan"
+      ],
+      "searchText": "fscan 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。(an intranet comprehensive scanning tool, enabling one-click automated, all-round vulnerability scanning) shadow1ng/fscan security fscan"
+    },
+    {
+      "name": "dvwa",
+      "source": "dvwa",
+      "sourceAgent": "dvwa",
+      "repo": "digininja/DVWA",
+      "stars": 13285,
+      "desc": "Damn Vulnerable Web Application (DVWA)",
+      "url": "https://github.com/digininja/DVWA",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "dvwa"
+      ],
+      "searchText": "dvwa damn vulnerable web application (dvwa) digininja/dvwa security dvwa"
+    },
+    {
+      "name": "nuclei-templates",
+      "source": "nuclei-templates",
+      "sourceAgent": "nuclei-templates",
+      "repo": "projectdiscovery/nuclei-templates",
+      "stars": 12557,
+      "desc": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
+      "url": "https://github.com/projectdiscovery/nuclei-templates",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "nuclei-templates"
+      ],
+      "searchText": "nuclei-templates community curated list of templates for the nuclei engine to find security vulnerabilities. projectdiscovery/nuclei-templates security nuclei-templates"
+    },
+    {
+      "name": "grype",
+      "source": "grype",
+      "sourceAgent": "grype",
+      "repo": "anchore/grype",
+      "stars": 12491,
+      "desc": "A vulnerability scanner for container images and filesystems",
+      "url": "https://github.com/anchore/grype",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "grype"
+      ],
+      "searchText": "grype a vulnerability scanner for container images and filesystems anchore/grype security grype"
+    },
+    {
+      "name": "mukul975",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "sponsors/mukul975",
+      "stars": 11207,
+      "desc": "817 structured cybersecurity skills for AI agents mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS.",
+      "url": "https://github.com/sponsors/mukul975",
+      "install": "git clone https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mukul975 817 structured cybersecurity skills for ai agents mapped to 6 frameworks: mitre att&ck, nist csf 2.0, mitre atlas. sponsors/mukul975 git clone https://github.com/mukul975/anthropic-cybersecurity-skills security general"
+    },
+    {
+      "name": "404starlink",
+      "source": "404starlink",
+      "sourceAgent": "404starlink",
+      "repo": "knownsec/404StarLink",
+      "stars": 10773,
+      "desc": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
+      "url": "https://github.com/knownsec/404StarLink",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "404starlink"
+      ],
+      "searchText": "404starlink 404starlink - 推荐优质、有意义、有趣、坚持维护的安全开源项目 knownsec/404starlink security 404starlink"
+    },
+    {
+      "name": "hexstrike-ai",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "0x4m4/hexstrike-ai",
+      "stars": 10002,
+      "desc": "HexStrike AI MCP Agents is an advanced MCP server for AI agents with security tools",
+      "url": "https://github.com/0x4m4/hexstrike-ai",
+      "install": "$skill-installer hexstrike-ai",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "hexstrike-ai hexstrike ai mcp agents is an advanced mcp server for ai agents with security tools 0x4m4/hexstrike-ai $skill-installer hexstrike-ai security claude"
+    },
+    {
+      "name": "reverse-skill",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "zhaoxuya520/reverse-skill",
+      "stars": 6888,
+      "desc": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evol...",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "reverse-skill reverse engineering / authorized penetration testing / security research skill router pack ai-powered routing + on-demand toolchain bootstrapping + self-evol... zhaoxuya520/reverse-skill security general"
+    },
+    {
+      "name": "superagent",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "superagent-ai/superagent",
+      "stars": 6655,
+      "desc": "Protects your AI applications against prompt injections, data leaks, and harmful outputs.",
+      "url": "https://github.com/superagent-ai/superagent",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "superagent protects your ai applications against prompt injections, data leaks, and harmful outputs. superagent-ai/superagent security general"
+    },
+    {
+      "name": "deepaudit",
+      "source": "deepaudit",
+      "sourceAgent": "deepaudit",
+      "repo": "lintsinghua/DeepAudit",
+      "stars": 6507,
+      "desc": "DeepAudit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。国内首个开源的代码漏洞挖掘多智能体系统。小白一键部署运行，自主协作审计 + 自动化沙箱 PoC 验证。支持 Ollama 私有部署 ，一键生成报告。支持中转站。​让安全不再昂贵，让审计不再复杂。",
+      "url": "https://github.com/lintsinghua/DeepAudit",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "deepaudit"
+      ],
+      "searchText": "deepaudit deepaudit：人人拥有的 ai 黑客战队，让漏洞挖掘触手可及。国内首个开源的代码漏洞挖掘多智能体系统。小白一键部署运行，自主协作审计 + 自动化沙箱 poc 验证。支持 ollama 私有部署 ，一键生成报告。支持中转站。​让安全不再昂贵，让审计不再复杂。 lintsinghua/deepaudit security deepaudit"
+    },
+    {
+      "name": "How to create custom skills",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "heilcheng/awesome-agent-skills",
+      "stars": 5907,
+      "desc": "Step-by-step authoring",
+      "url": "https://support.claude.com/en/articles/12512198-creating-custom-skills",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "how to create custom skills step-by-step authoring heilcheng/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "skills",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "trailofbits/skills",
+      "stars": 5615,
+      "desc": "Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows",
+      "url": "https://github.com/trailofbits/skills",
+      "install": "pip install skills",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defensive",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "skills trail of bits claude code skills for security research, vulnerability detection, and audit workflows trailofbits/skills pip install skills security claude"
+    },
+    {
+      "name": "ladon",
+      "source": "ladon",
+      "sourceAgent": "ladon",
+      "repo": "k8gege/Ladon",
+      "stars": 5302,
+      "desc": "Ladon大型内网渗透扫描器，PowerShell、Cobalt Strike插件、内存加载、无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。网络资产探测32种协议(ICMP\\NBT\\DNS\\MAC\\SMB\\WMI\\SSH\\HTTP\\HTTPS\\Exchan",
+      "url": "https://github.com/k8gege/Ladon",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "ladon"
+      ],
+      "searchText": "ladon ladon大型内网渗透扫描器，powershell、cobalt strike插件、内存加载、无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、高危漏洞检测、漏洞利用、密码读取以及一键getshell，支持批量a段/b段/c段以及跨网段扫描，支持url、主机、域名列表扫描等。网络资产探测32种协议(icmp\\nbt\\dns\\mac\\smb\\wmi\\ssh\\http\\https\\exchan k8gege/ladon security ladon"
+    },
+    {
+      "name": "terrascan",
+      "source": "terrascan",
+      "sourceAgent": "terrascan",
+      "repo": "tenable/terrascan",
+      "stars": 5209,
+      "desc": "Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure.",
+      "url": "https://github.com/tenable/terrascan",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "terrascan"
+      ],
+      "searchText": "terrascan detect compliance and security violations across infrastructure as code to mitigate risk before provisioning cloud native infrastructure. tenable/terrascan security terrascan"
+    },
+    {
+      "name": "guardrails-ai",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "guardrails-ai/guardrails",
+      "stars": 5000,
+      "desc": "Validators on input/output, retry logic. Structured output validation.",
+      "url": "https://github.com/guardrails-ai/guardrails",
+      "install": "pip install guardrails-ai",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "guardrails-ai validators on input/output, retry logic. structured output validation. guardrails-ai/guardrails pip install guardrails-ai security claude cursor hermes generic"
+    },
+    {
+      "name": "webhackersweapons",
+      "source": "webhackersweapons",
+      "sourceAgent": "webhackersweapons",
+      "repo": "hahwul/WebHackersWeapons",
+      "stars": 4866,
+      "desc": "⚔️ Web Hacker's Weapons / A collection of cool tools used by Web hackers. Happy hacking , Happy bug-hunting",
+      "url": "https://github.com/hahwul/WebHackersWeapons",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "webhackersweapons"
+      ],
+      "searchText": "webhackersweapons ⚔️ web hacker's weapons / a collection of cool tools used by web hackers. happy hacking , happy bug-hunting hahwul/webhackersweapons security webhackersweapons"
+    },
+    {
+      "name": "agent-skills",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "tech-leads-club/agent-skills",
+      "stars": 4554,
+      "desc": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+      "url": "https://github.com/tech-leads-club/agent-skills",
+      "install": "npm i -g agent-skills",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defensive",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "copilot"
+      ],
+      "searchText": "agent-skills the secure, validated skill registry for professional ai coding agents. extend antigravity, claude code, cursor, copilot and more with absolute confidence. tech-leads-club/agent-skills npm i -g agent-skills security claude cursor copilot"
+    },
+    {
+      "name": "nemo-guardrails",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "nvidia/nemo-guardrails",
+      "stars": 4000,
+      "desc": "Conversation rails, topic control. NVIDIA stack, conversation safety.",
+      "url": "https://github.com/NVIDIA/NeMo-Guardrails",
+      "install": "pip install nemoguardrails",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defense",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "nemo-guardrails conversation rails, topic control. nvidia stack, conversation safety. nvidia/nemo-guardrails pip install nemoguardrails security claude hermes generic"
+    },
+    {
+      "name": "appinfoscanner",
+      "source": "appinfoscanner",
+      "sourceAgent": "appinfoscanner",
+      "repo": "kelvinBen/AppInfoScanner",
+      "stars": 3537,
+      "desc": "一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。",
+      "url": "https://github.com/kelvinBen/AppInfoScanner",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "appinfoscanner"
+      ],
+      "searchText": "appinfoscanner 一款适用于以hw行动/红队/渗透测试团队为场景的移动端(android、ios、web、h5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态web站点中关键的资产信息并提供基本的信息输出,如：title、domain、cdn、指纹信息、状态信息等。 kelvinben/appinfoscanner security appinfoscanner"
+    },
+    {
+      "name": "blackarch",
+      "source": "blackarch",
+      "sourceAgent": "blackarch",
+      "repo": "BlackArch/blackarch",
+      "stars": 3414,
+      "desc": "An ArchLinux based distribution for penetration testers and security researchers.",
+      "url": "https://github.com/BlackArch/blackarch",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "blackarch"
+      ],
+      "searchText": "blackarch an archlinux based distribution for penetration testers and security researchers. blackarch/blackarch security blackarch"
+    },
+    {
+      "name": "anything-analyzer",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "Mouseww/anything-analyzer",
+      "stars": 3030,
+      "desc": "全能协议分析工具：浏览器抓包+MITM代理+指纹伪装+AI分析+MCP Server",
+      "url": "https://github.com/Mouseww/anything-analyzer",
+      "install": "$skill-installer anything-analyzer",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "anything-analyzer 全能协议分析工具：浏览器抓包+mitm代理+指纹伪装+ai分析+mcp server mouseww/anything-analyzer $skill-installer anything-analyzer security claude"
+    },
+    {
+      "name": "llm-guard",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "laiyer-ai/llm-guard",
+      "stars": 3000,
+      "desc": "Prompt sanitization, PII detection. Enterprise compliance.",
+      "url": "https://github.com/laiyer-ai/llm-guard",
+      "install": "pip install llm-guard",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "llm-guard prompt sanitization, pii detection. enterprise compliance. laiyer-ai/llm-guard pip install llm-guard security claude cursor hermes generic"
+    },
+    {
+      "name": "penetration-testing-tools",
+      "source": "penetration-testing-tools",
+      "sourceAgent": "penetration-testing-tools",
+      "repo": "mgeeky/Penetration-Testing-Tools",
+      "stars": 2964,
+      "desc": "A collection of more than 170+ tools, scripts, cheatsheets and other loots that I've developed over years for Red Teaming/Pentesting/IT Security audits purposes.",
+      "url": "https://github.com/mgeeky/Penetration-Testing-Tools",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "penetration-testing-tools"
+      ],
+      "searchText": "penetration-testing-tools a collection of more than 170+ tools, scripts, cheatsheets and other loots that i've developed over years for red teaming/pentesting/it security audits purposes. mgeeky/penetration-testing-tools security penetration-testing-tools"
+    },
+    {
+      "name": "openclaw-security-practice-guide",
+      "source": "openclaw",
+      "sourceAgent": "openclaw",
+      "repo": "slowmist/openclaw-security-practice-guide",
+      "stars": 2854,
+      "desc": "This guide is designed for OpenClaw itself (Agent-facing), not as a traditional human-only hardening checklist.",
+      "url": "https://github.com/slowmist/openclaw-security-practice-guide",
+      "install": "git clone https://github.com/slowmist/openclaw-security-practice-guide.git",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defensive",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-security-practice-guide this guide is designed for openclaw itself (agent-facing), not as a traditional human-only hardening checklist. slowmist/openclaw-security-practice-guide git clone https://github.com/slowmist/openclaw-security-practice-guide.git security openclaw"
+    },
+    {
+      "name": "DeepCamera",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "SharpAI/DeepCamera",
+      "stars": 2790,
+      "desc": "Open-Source AI Camera Skills Platform, AI NVR & CCTV Surveillance. Local VLM video analysis with Qwen, DeepSeek, SmolVLM, LLaVA, YOLO26. LLM-powered agentic security camera agent — watches, understands, remembers & guards your home via Tele",
+      "url": "https://github.com/SharpAI/DeepCamera",
+      "install": "npm i -g DeepCamera",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defensive",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "deepcamera open-source ai camera skills platform, ai nvr & cctv surveillance. local vlm video analysis with qwen, deepseek, smolvlm, llava, yolo26. llm-powered agentic security camera agent — watches, understands, remembers & guards your home via tele sharpai/deepcamera npm i -g deepcamera security claude"
+    },
+    {
+      "name": "vulnhuntr",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "protectai/vulnhuntr",
+      "stars": 2693,
+      "desc": "Zero shot vulnerability discovery using LLMs. Automatically finds security vulnerabilities in code.",
+      "url": "https://github.com/protectai/vulnhuntr",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vulnhuntr zero shot vulnerability discovery using llms. automatically finds security vulnerabilities in code. protectai/vulnhuntr security general"
+    },
+    {
+      "name": "bearer",
+      "source": "bearer",
+      "sourceAgent": "bearer",
+      "repo": "Bearer/bearer",
+      "stars": 2690,
+      "desc": "Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks.",
+      "url": "https://github.com/Bearer/bearer",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "bearer"
+      ],
+      "searchText": "bearer code security scanning tool (sast) to discover, filter and prioritize security and privacy risks. bearer/bearer security bearer"
+    },
+    {
+      "name": "ctf-skills",
+      "source": "general",
+      "sourceAgent": "other",
+      "repo": "ljagiello/ctf-skills",
+      "stars": 2342,
+      "desc": "Agent skills for solving CTF challenges - web exploitation, binary pwn, crypto, reverse engineering, forensics, OSINT, and more",
+      "url": "https://github.com/ljagiello/ctf-skills",
+      "install": "git clone https://github.com/ljagiello/ctf-skills.git",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "offensive",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "other"
+      ],
+      "searchText": "ctf-skills agent skills for solving ctf challenges - web exploitation, binary pwn, crypto, reverse engineering, forensics, osint, and more ljagiello/ctf-skills git clone https://github.com/ljagiello/ctf-skills.git security other"
+    },
+    {
+      "name": "burpgpt",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "aress31/burpgpt",
+      "stars": 2335,
+      "desc": "A Burp Suite extension that integrates OpenAIs GPT to perform an additional passive security scan.",
+      "url": "https://github.com/aress31/burpgpt",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "burpgpt a burp suite extension that integrates openais gpt to perform an additional passive security scan. aress31/burpgpt security general"
+    },
+    {
+      "name": "SkillSpector",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "NVIDIA/SkillSpector",
+      "stars": 2312,
+      "desc": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "install": "docker pull nvidia/skillspector",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "skillspector security scanner for ai agent skills. detect vulnerabilities, malicious patterns, and security risks. nvidia/skillspector docker pull nvidia/skillspector security general"
+    },
+    {
+      "name": "Claude-Red",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "SnailSploit/Claude-Red",
+      "stars": 2199,
+      "desc": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "install": "pip install Claude-Red",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "offensive",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "claude-red claude-red is a curated library of offensive security skills designed for the claude skills system. each skill is a structured skill.md file that primes claude with expert-level methodology for a specific attack surface — from sqli to shellcode, edr evasion to exploit development. snailsploit/claude-red pip install claude-red security claude"
+    },
+    {
+      "name": "gohacktools",
+      "source": "gohacktools",
+      "sourceAgent": "gohacktools",
+      "repo": "dreddsa5dies/goHackTools",
+      "stars": 2182,
+      "desc": "Hacker tools on Go (Golang)",
+      "url": "https://github.com/dreddsa5dies/goHackTools",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "gohacktools"
+      ],
+      "searchText": "gohacktools hacker tools on go (golang) dreddsa5dies/gohacktools security gohacktools"
+    },
+    {
+      "name": "devsecops",
+      "source": "devsecops",
+      "sourceAgent": "devsecops",
+      "repo": "hahwul/DevSecOps",
+      "stars": 2132,
+      "desc": "♾️ Collection and Roadmap for everyone who wants DevSecOps. Hope your DevOps are more safe 😎",
+      "url": "https://github.com/hahwul/DevSecOps",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "devsecops"
+      ],
+      "searchText": "devsecops ♾️ collection and roadmap for everyone who wants devsecops. hope your devops are more safe 😎 hahwul/devsecops security devsecops"
+    },
+    {
+      "name": "js-reverse-mcp",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "zhizhuodemao/js-reverse-mcp",
+      "stars": 2041,
+      "desc": "AI Agent-first JS逆向MCP Server：有头Chrome调试、断点、网络分析、反检测",
+      "url": "https://github.com/zhizhuodemao/js-reverse-mcp",
+      "install": "$skill-installer js-reverse-mcp",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "js-reverse-mcp ai agent-first js逆向mcp server：有头chrome调试、断点、网络分析、反检测 zhizhuodemao/js-reverse-mcp $skill-installer js-reverse-mcp security claude"
+    },
+    {
+      "name": "ics-security-tools",
+      "source": "ics-security-tools",
+      "sourceAgent": "ics-security-tools",
+      "repo": "ITI/ICS-Security-Tools",
+      "stars": 1985,
+      "desc": "Tools, tips, tricks, and more for exploring ICS Security.",
+      "url": "https://github.com/ITI/ICS-Security-Tools",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "ics-security-tools"
+      ],
+      "searchText": "ics-security-tools tools, tips, tricks, and more for exploring ics security. iti/ics-security-tools security ics-security-tools"
+    },
+    {
+      "name": "agentic_security",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "msoedov/agentic_security",
+      "stars": 1912,
+      "desc": "Agentic LLM Vulnerability Scanner / AI red teaming kit for automated security testing.",
+      "url": "https://github.com/msoedov/agentic_security",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agentic_security agentic llm vulnerability scanner / ai red teaming kit for automated security testing. msoedov/agentic_security security general"
+    },
+    {
+      "name": "Claude-BugHunter",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "elementalsouls/Claude-BugHunter",
+      "stars": 1812,
+      "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 51 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "install": "pip install Claude-BugHunter",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defensive",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "claude-bughunter a claude code skill bundle for bug hunting and external red-team work - 51 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 vulnerability classes, plus enterprise identity + infrastructure attack matrices. elementalsouls/claude-bughunter pip install claude-bughunter security claude"
+    },
+    {
+      "name": "guardian-cli",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "zakirkun/guardian-cli",
+      "stars": 1694,
+      "desc": "Production-ready AI-powered penetration testing automation CLI tool",
+      "url": "https://github.com/zakirkun/guardian-cli",
+      "install": "$skill-installer guardian-cli",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "guardian-cli production-ready ai-powered penetration testing automation cli tool zakirkun/guardian-cli $skill-installer guardian-cli security claude"
+    },
+    {
+      "name": "dumpall",
+      "source": "dumpall",
+      "sourceAgent": "dumpall",
+      "repo": "0xHJK/dumpall",
+      "stars": 1578,
+      "desc": "一款信息泄漏利用工具，适用于.git/.svn/.DS_Store泄漏和目录列出",
+      "url": "https://github.com/0xHJK/dumpall",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "dumpall"
+      ],
+      "searchText": "dumpall 一款信息泄漏利用工具，适用于.git/.svn/.ds_store泄漏和目录列出 0xhjk/dumpall security dumpall"
+    },
+    {
+      "name": "atscan",
+      "source": "atscan",
+      "sourceAgent": "atscan",
+      "repo": "AlisamTechnology/ATSCAN",
+      "stars": 1577,
+      "desc": "Advanced dork Search & Mass Exploit Scanner",
+      "url": "https://github.com/AlisamTechnology/ATSCAN",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "atscan"
+      ],
+      "searchText": "atscan advanced dork search & mass exploit scanner alisamtechnology/atscan security atscan"
+    },
+    {
+      "name": "w5",
+      "source": "w5",
+      "sourceAgent": "w5",
+      "repo": "w5teams/w5",
+      "stars": 1545,
+      "desc": "Security Orchestration, Automation and Response (SOAR) Platform. 安全编排与自动化响应平台，无需编写代码的安全自动化，使用 SOAR 可以让团队工作更加高效",
+      "url": "https://github.com/w5teams/w5",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "w5"
+      ],
+      "searchText": "w5 security orchestration, automation and response (soar) platform. 安全编排与自动化响应平台，无需编写代码的安全自动化，使用 soar 可以让团队工作更加高效 w5teams/w5 security w5"
+    },
+    {
+      "name": "automotive-skills-suite",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "jherrodthomas/automotive-skills-suite",
+      "stars": 1508,
+      "desc": "100+ installable Claude skills covering Engineering areas such as, ISO 26262 functional safety, ISO/SAE 21434 cybersecurity, ISO 21448 SOTIF, AIAG-VDA quality (APQP/PPAP/FMEA), Automotive SPICE, and continuous improvement tools — every builder paired with a confirmation reviewer.",
+      "url": "https://github.com/jherrodthomas/automotive-skills-suite",
+      "install": "git clone https://github.com/jherrodthomas/automotive-skills-suite.git",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defensive",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "automotive-skills-suite 100+ installable claude skills covering engineering areas such as, iso 26262 functional safety, iso/sae 21434 cybersecurity, iso 21448 sotif, aiag-vda quality (apqp/ppap/fmea), automotive spice, and continuous improvement tools — every builder paired with a confirmation reviewer. jherrodthomas/automotive-skills-suite git clone https://github.com/jherrodthomas/automotive-skills-suite.git security claude"
+    },
+    {
+      "name": "trivy-action",
+      "source": "trivy-action",
+      "sourceAgent": "trivy-action",
+      "repo": "aquasecurity/trivy-action",
+      "stars": 1359,
+      "desc": "Runs Trivy as GitHub action to scan your Docker container image for vulnerabilities",
+      "url": "https://github.com/aquasecurity/trivy-action",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "trivy-action"
+      ],
+      "searchText": "trivy-action runs trivy as github action to scan your docker container image for vulnerabilities aquasecurity/trivy-action security trivy-action"
+    },
+    {
+      "name": "golang-tls",
+      "source": "golang-tls",
+      "sourceAgent": "golang-tls",
+      "repo": "denji/golang-tls",
+      "stars": 1329,
+      "desc": "Simple Golang HTTPS/TLS Examples",
+      "url": "https://github.com/denji/golang-tls",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "golang-tls"
+      ],
+      "searchText": "golang-tls simple golang https/tls examples denji/golang-tls security golang-tls"
+    },
+    {
+      "name": "ios",
+      "source": "ios",
+      "sourceAgent": "ios",
+      "repo": "ansjdnakjdnajkd/iOS",
+      "stars": 1272,
+      "desc": "Most usable tools for iOS penetration testing",
+      "url": "https://github.com/ansjdnakjdnajkd/iOS",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "ios"
+      ],
+      "searchText": "ios most usable tools for ios penetration testing ansjdnakjdnajkd/ios security ios"
+    },
+    {
+      "name": "pentest-ai",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "0xSteph/pentest-ai",
+      "stars": 1139,
+      "desc": "Offensive-security MCP server with 205 tools, 17 specialist agents",
+      "url": "https://github.com/0xSteph/pentest-ai",
+      "install": "$skill-installer pentest-ai",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "pentest-ai offensive-security mcp server with 205 tools, 17 specialist agents 0xsteph/pentest-ai $skill-installer pentest-ai security claude"
+    },
+    {
+      "name": "clawsec",
+      "source": "tools",
+      "sourceAgent": "openclaw",
+      "repo": "prompt-security/clawsec",
+      "stars": 1031,
+      "desc": "A complete security skill suite for OpenClaw, Hermes, PicoClaw and NanoClaw agents. Drift detection, security recommendations, automated audits, skill integrity verification.",
+      "url": "https://github.com/prompt-security/clawsec",
+      "install": "git clone https://github.com/prompt-security/clawsec.git",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defensive",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "hermes",
+        "openclaw"
+      ],
+      "searchText": "clawsec a complete security skill suite for openclaw, hermes, picoclaw and nanoclaw agents. drift detection, security recommendations, automated audits, skill integrity verification. prompt-security/clawsec git clone https://github.com/prompt-security/clawsec.git security hermes openclaw"
+    },
+    {
+      "name": "reconmap",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "reconmap/reconmap",
+      "stars": 936,
+      "desc": "Reconmap is a collaboration-first security operations platform for infosec teams and pentesters.",
+      "url": "https://github.com/reconmap/reconmap",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "reconmap reconmap is a collaboration-first security operations platform for infosec teams and pentesters. reconmap/reconmap security general"
+    },
+    {
+      "name": "agentshield",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "affaan-m/agentshield",
+      "stars": 931,
+      "desc": "AI agent security scanner. Detect vulnerabilities in agent configurations, MCP servers, and tool permissions. Available as CLI, GitHub Action, ECC plugin, an...",
+      "url": "https://github.com/affaan-m/agentshield",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agentshield ai agent security scanner. detect vulnerabilities in agent configurations, mcp servers, and tool permissions. available as cli, github action, ecc plugin, an... affaan-m/agentshield security general"
+    },
+    {
+      "name": "hackingtool-plugin",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "AKCodez/hackingtool-plugin",
+      "stars": 820,
+      "desc": "Claude Code plugin: 183+ pentesting & OSINT tools from Z4nzu/hackingtool. Auto-runs what it can, hands off the rest.",
+      "url": "https://github.com/AKCodez/hackingtool-plugin",
+      "install": "pip install hackingtool-plugin",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "offensive",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "hackingtool-plugin claude code plugin: 183+ pentesting & osint tools from z4nzu/hackingtool. auto-runs what it can, hands off the rest. akcodez/hackingtool-plugin pip install hackingtool-plugin security claude"
+    },
+    {
+      "name": "secpipe",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "FuzzingLabs/secpipe",
+      "stars": 798,
+      "desc": "MCP server for AI-driven security pipelines",
+      "url": "https://github.com/FuzzingLabs/secpipe",
+      "install": "$skill-installer secpipe",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "secpipe mcp server for ai-driven security pipelines fuzzinglabs/secpipe $skill-installer secpipe security claude"
+    },
+    {
+      "name": "codegate",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "stacklok/codegate",
+      "stars": 789,
+      "desc": "CodeGate: Security, Workspaces and Multiplexing for AI Agentic Frameworks",
+      "url": "https://github.com/stacklok/codegate",
+      "install": "$skill-installer codegate",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "codegate codegate: security, workspaces and multiplexing for ai agentic frameworks stacklok/codegate $skill-installer codegate security claude"
+    },
+    {
+      "name": "OpenOSINT",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "OpenOSINT/OpenOSINT",
+      "stars": 786,
+      "desc": "AI-powered OSINT agent with interactive REPL, MCP server, and CLI. 16 tools.",
+      "url": "https://github.com/OpenOSINT/OpenOSINT",
+      "install": "$skill-installer OpenOSINT",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "openosint ai-powered osint agent with interactive repl, mcp server, and cli. 16 tools. openosint/openosint $skill-installer openosint security claude"
+    },
+    {
+      "name": "vigolium",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "vigolium/vigolium",
+      "stars": 739,
+      "desc": "Vigolium - High-fidelity vulnerability scanner fusing agentic AI with native speed, modularity, and precision",
+      "url": "https://github.com/vigolium/vigolium",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vigolium vigolium - high-fidelity vulnerability scanner fusing agentic ai with native speed, modularity, and precision vigolium/vigolium security general"
+    },
+    {
+      "name": "MCP-Kali-Server",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "Wh0am123/MCP-Kali-Server",
+      "stars": 738,
+      "desc": "MCP configuration to connect AI agent to a Linux machine for security testing",
+      "url": "https://github.com/Wh0am123/MCP-Kali-Server",
+      "install": "$skill-installer MCP-Kali-Server",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "mcp-kali-server mcp configuration to connect ai agent to a linux machine for security testing wh0am123/mcp-kali-server $skill-installer mcp-kali-server security claude"
+    },
+    {
+      "name": "zeroleaks",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "ZeroLeaks/zeroleaks",
+      "stars": 680,
+      "desc": "AI Security Scanner - Test your AI systems for prompt injection and extraction vulnerabilities",
+      "url": "https://github.com/ZeroLeaks/zeroleaks",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "zeroleaks ai security scanner - test your ai systems for prompt injection and extraction vulnerabilities zeroleaks/zeroleaks security general"
+    },
+    {
+      "name": "Claude-Skills-Governance-Risk-and-Compliance",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "Sushegaad/Claude-Skills-Governance-Risk-and-Compliance",
+      "stars": 616,
+      "desc": "Claude Skills for Governance, Risk, & Compliance (GRC): Expert-level compliance guidance for ISO 27001, SOC 2, FedRAMP, GDPR, HIPAA, NIST CSF, PCI DSS, EU AI Act, ISO 42001, ISO 27701, DORA, CSRD, India's DPDPA, CMMC 2.0, NIST AI Risk, SWIFT, Australia's ISM, EU NIS2, and CCPA/CPRA. Benchmark 97% (with skills) vs 81% (without skills).",
+      "url": "https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance",
+      "install": "git clone https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance.git",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "governance",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "claude-skills-governance-risk-and-compliance claude skills for governance, risk, & compliance (grc): expert-level compliance guidance for iso 27001, soc 2, fedramp, gdpr, hipaa, nist csf, pci dss, eu ai act, iso 42001, iso 27701, dora, csrd, india's dpdpa, cmmc 2.0, nist ai risk, swift, australia's ism, eu nis2, and ccpa/cpra. benchmark 97% (with skills) vs 81% (without skills). sushegaad/claude-skills-governance-risk-and-compliance git clone https://github.com/sushegaad/claude-skills-governance-risk-and-compliance.git security claude"
+    },
+    {
+      "name": "bilig-workpaper",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "JackyST0/awesome-agent-skills",
+      "stars": 576,
+      "desc": "Formula-backed WorkPaper skill for editing cells, recalculating, verifying readback, and persisting spreadsheet logic from agents.",
+      "url": "https://github.com/proompteng/bilig/tree/main/skills/bilig-workpaper",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "bilig-workpaper formula-backed workpaper skill for editing cells, recalculating, verifying readback, and persisting spreadsheet logic from agents. jackyst0/awesome-agent-skills security claude codex cursor hermes gemini"
+    },
+    {
+      "name": "docksec",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "OWASP/DockSec",
+      "stars": 443,
+      "desc": "AI-powered Docker security scanner that explains vulnerabilities in plain English. An OWASP Lab Project.",
+      "url": "https://github.com/OWASP/DockSec",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "docksec ai-powered docker security scanner that explains vulnerabilities in plain english. an owasp lab project. owasp/docksec security general"
+    },
+    {
+      "name": "skills-curated",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "trailofbits/skills-curated",
+      "stars": 433,
+      "desc": "Curated, community-vetted Claude Code plugin marketplace",
+      "url": "https://github.com/trailofbits/skills-curated",
+      "install": "pip install skills-curated",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defensive",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "skills-curated curated, community-vetted claude code plugin marketplace trailofbits/skills-curated pip install skills-curated security claude"
+    },
+    {
+      "name": "VulnClaw",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Unclecheng-li/VulnClaw",
+      "stars": 386,
+      "desc": "AI Agent + MCP tool chain + pentest Skill orchestration — 自然语言输入 → 信息收集 → 漏洞发现 → 漏洞利用 → 报告生成全流程。",
+      "url": "https://github.com/Unclecheng-li/VulnClaw",
+      "install": "git clone https://github.com/Unclecheng-li/VulnClaw",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vulnclaw ai agent + mcp tool chain + pentest skill orchestration — 自然语言输入 → 信息收集 → 漏洞发现 → 漏洞利用 → 报告生成全流程。 unclecheng-li/vulnclaw git clone https://github.com/unclecheng-li/vulnclaw security general"
+    },
+    {
+      "name": "claude_code_owasp",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "agamm/claude-code-owasp",
+      "stars": 265,
+      "desc": "Claude Code skill for OWASP security best practices (2025-2026). Includes Top 10 vulnerability categories.",
+      "url": "https://github.com/agamm/claude-code-owasp",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "claude_code_owasp claude code skill for owasp security best practices (2025-2026). includes top 10 vulnerability categories. agamm/claude-code-owasp security general"
+    },
+    {
+      "name": "OnionClaw",
+      "source": "general",
+      "sourceAgent": "openclaw",
+      "repo": "christinminor459/OnionClaw",
+      "stars": 204,
+      "desc": "Provide AI agents with full Tor network access and dark web data through a zero-config OpenClaw skill or standalone tool.",
+      "url": "https://github.com/christinminor459/OnionClaw",
+      "install": "git clone https://github.com/christinminor459/OnionClaw.git",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "offensive",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "onionclaw provide ai agents with full tor network access and dark web data through a zero-config openclaw skill or standalone tool. christinminor459/onionclaw git clone https://github.com/christinminor459/onionclaw.git security openclaw"
+    },
+    {
+      "name": "hermes-agent-camel",
+      "source": "hermes",
+      "sourceAgent": "hermes",
+      "repo": "nativ3ai/hermes-agent-camel",
+      "stars": 186,
+      "desc": "Hermes Agent fork with integrated CaMeL trust boundaries",
+      "url": "https://github.com/nativ3ai/hermes-agent-camel",
+      "install": "pip install hermes-agent-camel",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "governance",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-agent-camel hermes agent fork with integrated camel trust boundaries nativ3ai/hermes-agent-camel pip install hermes-agent-camel security hermes"
+    },
+    {
+      "name": "claude-grc-plugin",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "mlunato47/claude-grc-plugin",
+      "stars": 165,
+      "desc": "A Claude Code plugin that turns Claude into a senior GRC (Governance, Risk, and Compliance) analyst. 72+ reference files covering 15 frameworks, 24 slash commands, and deep domain knowledge for federal and commercial compliance work.",
+      "url": "https://github.com/mlunato47/claude-grc-plugin",
+      "install": "npm i -g claude-grc-plugin",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "governance",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "claude-grc-plugin a claude code plugin that turns claude into a senior grc (governance, risk, and compliance) analyst. 72+ reference files covering 15 frameworks, 24 slash commands, and deep domain knowledge for federal and commercial compliance work. mlunato47/claude-grc-plugin npm i -g claude-grc-plugin security claude"
+    },
+    {
+      "name": "Doberman-Core",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "fu351/Doberman-Core",
+      "stars": 88,
+      "desc": "Doberman is an AI agent security framework for guardrails, prompt injection defense, runtime policy enforcement.",
+      "url": "https://github.com/fu351/Doberman-Core",
+      "install": "pip install doberman-core",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "doberman-core doberman is an ai agent security framework for guardrails, prompt injection defense, runtime policy enforcement. fu351/doberman-core pip install doberman-core security general"
+    },
+    {
+      "name": "OnionClaw",
+      "source": "general",
+      "sourceAgent": "openclaw",
+      "repo": "JacobJandon/OnionClaw",
+      "stars": 80,
+      "desc": "OnionClaw™ — OpenClaw skill for full Tor dark web access: search .onion sites, fetch hidden services, rotate identity, run OSINT pipeline, craw.",
+      "url": "https://github.com/JacobJandon/OnionClaw",
+      "install": "git clone https://github.com/JacobJandon/OnionClaw.git",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "offensive",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "onionclaw onionclaw™ — openclaw skill for full tor dark web access: search .onion sites, fetch hidden services, rotate identity, run osint pipeline, craw. jacobjandon/onionclaw git clone https://github.com/jacobjandon/onionclaw.git security openclaw"
+    },
+    {
+      "name": "darknet-mcp-server",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "badchars/darknet-mcp-server",
+      "stars": 67,
+      "desc": "66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access.",
+      "url": "https://github.com/badchars/darknet-mcp-server",
+      "install": "npx darknet-mcp-server",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "darknet-mcp-server 66-tool mcp server for dark web intelligence — breach data, ransomware tracking, tor .onion access. badchars/darknet-mcp-server npx darknet-mcp-server security general"
+    },
+    {
+      "name": "openclaw-skills-security",
+      "source": "openclaw",
+      "sourceAgent": "openclaw",
+      "repo": "UseAI-pro/openclaw-skills-security",
+      "stars": 62,
+      "desc": "Curated, security-first OpenClaw skills (Markdown-based). Security audit skills - detect prompt injection, supply chain attacks, credential leaks. Works with Codex CLI, Claude Code, any LLM.",
+      "url": "https://github.com/UseAI-pro/openclaw-skills-security",
+      "install": "pip install openclaw-skills-security",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defensive",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "openclaw"
+      ],
+      "searchText": "openclaw-skills-security curated, security-first openclaw skills (markdown-based). security audit skills - detect prompt injection, supply chain attacks, credential leaks. works with codex cli, claude code, any llm. useai-pro/openclaw-skills-security pip install openclaw-skills-security security claude codex openclaw"
+    },
+    {
+      "name": "damn-vulnerable-ai-agent",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "opena2a-org/damn-vulnerable-ai-agent",
+      "stars": 56,
+      "desc": "Damn Vulnerable AI Agent is a deliberately vulnerable AI agent platform for security testing and education.",
+      "url": "https://github.com/opena2a-org/damn-vulnerable-ai-agent",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "damn-vulnerable-ai-agent damn vulnerable ai agent is a deliberately vulnerable ai agent platform for security testing and education. opena2a-org/damn-vulnerable-ai-agent security general"
+    },
+    {
+      "name": "agent-diff-guard",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "cubxxw/agent-diff-guard",
+      "stars": 0,
+      "desc": "agent-diff-guard",
+      "url": "https://github.com/cubxxw/agent-diff-guard",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defense",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "agent-diff-guard agent-diff-guard cubxxw/agent-diff-guard security generic"
+    },
+    {
+      "name": "agent-scan",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "snyk/agent-scan",
+      "stars": 0,
+      "desc": "Agent Scan",
+      "url": "https://github.com/snyk/agent-scan",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "agent-scan agent scan snyk/agent-scan security generic"
+    },
+    {
+      "name": "agent-sentinel",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "junlinwk/agent-sentinel",
+      "stars": 0,
+      "desc": "agent-sentinel",
+      "url": "https://github.com/junlinwk/agent-sentinel",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "agent-sentinel agent-sentinel junlinwk/agent-sentinel security generic"
+    },
+    {
+      "name": "agentskillsscanner",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "sumleo/agentskillsscanner",
+      "stars": 0,
+      "desc": "AgentSkillsScanner",
+      "url": "https://github.com/sumleo/AgentSkillsScanner",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "agentskillsscanner agentskillsscanner sumleo/agentskillsscanner security generic"
+    },
+    {
+      "name": "armorer-guard",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "armorerlabs/armorer-guard",
+      "stars": 0,
+      "desc": "Armorer Guard",
+      "url": "https://github.com/ArmorerLabs/Armorer-Guard",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defense",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "armorer-guard armorer guard armorerlabs/armorer-guard security generic"
+    },
+    {
+      "name": "asb",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "agiresearch/asb",
+      "stars": 0,
+      "desc": "ASB",
+      "url": "https://github.com/agiresearch/ASB",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "asb asb agiresearch/asb security generic"
+    },
+    {
+      "name": "assay-harness",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "rul1an/assay-harness",
+      "stars": 0,
+      "desc": "Assay Harness",
+      "url": "https://github.com/Rul1an/Assay-Harness",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "assay-harness assay harness rul1an/assay-harness security generic"
+    },
+    {
+      "name": "autogpt",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "significant-gravitas/autogpt",
+      "stars": 0,
+      "desc": "AutoGPT Plugins",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "autogpt autogpt plugins significant-gravitas/autogpt security generic"
+    },
+    {
+      "name": "awesome-ai-agents",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "e2b-dev/awesome-ai-agents",
+      "stars": 0,
+      "desc": "awesome-ai-agents",
+      "url": "https://github.com/e2b-dev/awesome-ai-agents",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "awesome-ai-agents awesome-ai-agents e2b-dev/awesome-ai-agents security generic"
+    },
+    {
+      "name": "awesome-ai-safety",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "hari-sikchi/awesome-ai-safety",
+      "stars": 0,
+      "desc": "awesome-ai-safety",
+      "url": "https://github.com/hari-sikchi/awesome-ai-safety",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "awesome-ai-safety awesome-ai-safety hari-sikchi/awesome-ai-safety security generic"
+    },
+    {
+      "name": "awesome-chatgpt-prompts",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "f/awesome-chatgpt-prompts",
+      "stars": 0,
+      "desc": "awesome-chatgpt-prompts",
+      "url": "https://github.com/f/awesome-chatgpt-prompts",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "awesome-chatgpt-prompts awesome-chatgpt-prompts f/awesome-chatgpt-prompts security generic"
+    },
+    {
+      "name": "awesome-llm-security",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "corca-ai/awesome-llm-security",
+      "stars": 0,
+      "desc": "awesome-llm-security",
+      "url": "https://github.com/corca-ai/awesome-llm-security",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "awesome-llm-security awesome-llm-security corca-ai/awesome-llm-security security generic"
+    },
+    {
+      "name": "awesome-mcp-servers",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "punkpeye/awesome-mcp-servers",
+      "stars": 0,
+      "desc": "awesome-mcp-servers",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "awesome-mcp-servers awesome-mcp-servers punkpeye/awesome-mcp-servers security generic"
+    },
+    {
+      "name": "awesome-ml-for-cybersecurity",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "jivoi/awesome-ml-for-cybersecurity",
+      "stars": 0,
+      "desc": "awesome-ml-for-cybersecurity",
+      "url": "https://github.com/jivoi/awesome-ml-for-cybersecurity",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "awesome-ml-for-cybersecurity awesome-ml-for-cybersecurity jivoi/awesome-ml-for-cybersecurity security generic"
+    },
+    {
+      "name": "bounty-sieve",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "junbuilds96/bounty-sieve",
+      "stars": 0,
+      "desc": "Bounty Sieve",
+      "url": "https://github.com/junbuilds96/bounty-sieve",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "bounty-sieve bounty sieve junbuilds96/bounty-sieve security generic"
+    },
+    {
+      "name": "chatinject",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "hwanchang00/chatinject",
+      "stars": 0,
+      "desc": "Code",
+      "url": "https://github.com/hwanchang00/ChatInject",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "chatinject code hwanchang00/chatinject security generic"
+    },
+    {
+      "name": "clawvisor",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "clawvisor/clawvisor",
+      "stars": 0,
+      "desc": "Clawvisor",
+      "url": "https://github.com/clawvisor/clawvisor",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "clawvisor clawvisor clawvisor/clawvisor security generic"
+    },
+    {
+      "name": "dscan",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "deepscan-security/dscan",
+      "stars": 0,
+      "desc": "DScan",
+      "url": "https://github.com/DeepScan-Security/dscan",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "dscan dscan deepscan-security/dscan security generic"
+    },
+    {
+      "name": "garak",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "leondz/garak",
+      "stars": 0,
+      "desc": "Garak",
+      "url": "https://github.com/leondz/garak",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "garak garak leondz/garak security generic"
+    },
+    {
+      "name": "injecagent",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "uiuc-kang-lab/injecagent",
+      "stars": 0,
+      "desc": "InjecAgent",
+      "url": "https://github.com/uiuc-kang-lab/InjecAgent",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "injecagent injecagent uiuc-kang-lab/injecagent security generic"
+    },
+    {
+      "name": "invariant",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "invariantlabs-ai/invariant",
+      "stars": 0,
+      "desc": "Invariant Guardrails",
+      "url": "https://github.com/invariantlabs-ai/invariant",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defense",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "invariant invariant guardrails invariantlabs-ai/invariant security generic"
+    },
+    {
+      "name": "ipi-proxy",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "vulcanlab/ipi-proxy",
+      "stars": 0,
+      "desc": "IPI-Proxy",
+      "url": "https://github.com/VulcanLab/IPI-Proxy",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "ipi-proxy ipi-proxy vulcanlab/ipi-proxy security generic"
+    },
+    {
+      "name": "llm-guard",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "protectai/llm-guard",
+      "stars": 0,
+      "desc": "LLM Guard",
+      "url": "https://github.com/protectai/llm-guard",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defense",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "llm-guard llm guard protectai/llm-guard security generic"
+    },
+    {
+      "name": "mcp-sploit",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "prasanna-27eng/mcp-sploit",
+      "stars": 0,
+      "desc": "mcp-sploit",
+      "url": "https://github.com/Prasanna-27eng/mcp-sploit",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "mcp-sploit mcp-sploit prasanna-27eng/mcp-sploit security generic"
+    },
+    {
+      "name": "nemoclaw",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "nvidia/nemoclaw",
+      "stars": 0,
+      "desc": "NemoClaw",
+      "url": "https://github.com/NVIDIA/NemoClaw",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "nemoclaw nemoclaw nvidia/nemoclaw security generic"
+    },
+    {
+      "name": "pic-standard",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "madeinplutofabio/pic-standard",
+      "stars": 0,
+      "desc": "PIC Standard",
+      "url": "https://github.com/madeinplutofabio/pic-standard",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "pic-standard pic standard madeinplutofabio/pic-standard security generic"
+    },
+    {
+      "name": "pipelock",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "luckypipewrench/pipelock",
+      "stars": 0,
+      "desc": "Pipelock",
+      "url": "https://github.com/luckyPipewrench/pipelock",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "pipelock pipelock luckypipewrench/pipelock security generic"
+    },
+    {
+      "name": "promptfoo",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "promptfoo/promptfoo",
+      "stars": 0,
+      "desc": "Promptfoo",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "promptfoo promptfoo promptfoo/promptfoo security generic"
+    },
+    {
+      "name": "r-judge",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "lordog/r-judge",
+      "stars": 0,
+      "desc": "R-Judge",
+      "url": "https://github.com/Lordog/R-Judge",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "r-judge r-judge lordog/r-judge security generic"
+    },
+    {
+      "name": "rebuff",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "protectai/rebuff",
+      "stars": 0,
+      "desc": "Rebuff",
+      "url": "https://github.com/protectai/rebuff",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "rebuff rebuff protectai/rebuff security generic"
+    },
+    {
+      "name": "sayfos-sdk",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "sayfos-labs/sayfos-sdk",
+      "stars": 0,
+      "desc": "Sayfos SDK",
+      "url": "https://github.com/sayfos-labs/sayfos-sdk",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "sayfos-sdk sayfos sdk sayfos-labs/sayfos-sdk security generic"
+    },
+    {
+      "name": "skil-lock",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "skills-lock/skil-lock",
+      "stars": 0,
+      "desc": "SkilLock",
+      "url": "https://github.com/skills-lock/skil-lock",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "skil-lock skillock skills-lock/skil-lock security generic"
+    },
+    {
+      "name": "skillguard",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "llmsecurity/skillguard",
+      "stars": 0,
+      "desc": "SkillGuard Dataset",
+      "url": "https://github.com/LLMSecurity/skillguard",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defense",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "skillguard skillguard dataset llmsecurity/skillguard security generic"
+    },
+    {
+      "name": "skillid",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "dkoly/skillid",
+      "stars": 0,
+      "desc": "Skillid",
+      "url": "https://github.com/dkoly/skillid",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "skillid skillid dkoly/skillid security generic"
+    },
+    {
+      "name": "skilltotal",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "pezhik/skilltotal",
+      "stars": 0,
+      "desc": "SkillTotal",
+      "url": "https://github.com/pezhik/skilltotal",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "skilltotal skilltotal pezhik/skilltotal security generic"
+    },
+    {
+      "name": "toolsword",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "junjie-ye/toolsword",
+      "stars": 0,
+      "desc": "ToolSword",
+      "url": "https://github.com/Junjie-Ye/ToolSword",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "toolsword toolsword junjie-ye/toolsword security generic"
+    },
+    {
+      "name": "trent-openclaw-security-assessment",
+      "source": "llmsecurity",
+      "sourceAgent": "openclaw",
+      "repo": "trnt-ai/trent-openclaw-security-assessment",
+      "stars": 0,
+      "desc": "trentclaw",
+      "url": "https://github.com/trnt-ai/trent-openclaw-security-assessment",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "trent-openclaw-security-assessment trentclaw trnt-ai/trent-openclaw-security-assessment security openclaw"
+    },
+    {
+      "name": "tuning-engines-cli",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "cerebrixos-org/tuning-engines-cli",
+      "stars": 0,
+      "desc": "Tuning Engines CLI",
+      "url": "https://github.com/cerebrixos-org/tuning-engines-cli",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "tuning-engines-cli tuning engines cli cerebrixos-org/tuning-engines-cli security generic"
+    },
+    {
+      "name": "www-project-agent-memory-guard",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "owasp/www-project-agent-memory-guard",
+      "stars": 0,
+      "desc": "Agent Memory Guard",
+      "url": "https://github.com/OWASP/www-project-agent-memory-guard",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defense",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "www-project-agent-memory-guard agent memory guard owasp/www-project-agent-memory-guard security generic"
+    },
+    {
+      "name": "SlowMist Agent Security",
+      "repo": "slowmist/slowmist-agent-security",
+      "description": "Comprehensive security review framework for AI agents by SlowMist",
+      "platforms": [
+        "claude-code",
+        "codex"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "functionCategory": "audio-speech",
+    "topCategoryId": "audio-speech",
+    "subCategoryId": "audio-speech",
+    "categoryPath": "audio-speech",
+    "count": 11,
+    "sourceData": "categories"
+  },
+  "skills": [
+    {
+      "name": "vibevoice",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "microsoft/VibeVoice",
+      "stars": 49728,
+      "desc": "Open-Source Frontier Voice AI",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vibevoice open-source frontier voice ai microsoft/vibevoice audio-speech general"
+    },
+    {
+      "name": "qwen3-tts",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "QwenLM/Qwen3-TTS",
+      "stars": 12209,
+      "desc": "Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation,...",
+      "url": "https://github.com/QwenLM/Qwen3-TTS",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "qwen3-tts qwen3-tts is an open-source series of tts models developed by the qwen team at alibaba cloud, supporting stable, expressive, and streaming speech generation,... qwenlm/qwen3-tts audio-speech general"
+    },
+    {
+      "name": "moonshine",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "moonshine-ai/moonshine",
+      "stars": 8564,
+      "desc": "Very low latency speech to text, intent recognition, and text to speech, for building real-time voice AI applications.",
+      "url": "https://github.com/moonshine-ai/moonshine",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "moonshine very low latency speech to text, intent recognition, and text to speech, for building real-time voice ai applications. moonshine-ai/moonshine audio-speech general"
+    },
+    {
+      "name": "omnivoice-studio",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "debpalash/OmniVoice-Studio",
+      "stars": 7730,
+      "desc": "The open-source ElevenLabs alternative for local voice cloning, design, create, dubbing and dictation Desktop App",
+      "url": "https://github.com/debpalash/OmniVoice-Studio",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "omnivoice-studio the open-source elevenlabs alternative for local voice cloning, design, create, dubbing and dictation desktop app debpalash/omnivoice-studio audio-speech general"
+    },
+    {
+      "name": "dograh",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "dograh-hq/dograh",
+      "stars": 4696,
+      "desc": "Open source voice AI platform. Self-hosted alternative to Vapi and Retell. On Prem, BYOK across  Speech to Speech or LLM/STT/TTS, with a visual workflow buil...",
+      "url": "https://github.com/dograh-hq/dograh",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "dograh open source voice ai platform. self-hosted alternative to vapi and retell. on prem, byok across  speech to speech or llm/stt/tts, with a visual workflow buil... dograh-hq/dograh audio-speech general"
+    },
+    {
+      "name": "riffusion",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "riffusion/riffusion-hobby",
+      "stars": 3897,
+      "desc": "Stable diffusion for real-time music generation. Generate AI music with text prompts in your browser.",
+      "url": "https://github.com/riffusion/riffusion-hobby",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "riffusion stable diffusion for real-time music generation. generate ai music with text prompts in your browser. riffusion/riffusion-hobby audio-speech general"
+    },
+    {
+      "name": "awesome_speech_recognition_speech_synthesis_papers",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "zzw922cn/awesome-speech-recognition-speech-synthesis-papers",
+      "stars": 3126,
+      "desc": "Automatic Speech Recognition (ASR), Speaker Verification, Speech Synthesis, Text-to-Speech (TTS) papers and models.",
+      "url": "https://github.com/zzw922cn/awesome-speech-recognition-speech-synthesis-papers",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome_speech_recognition_speech_synthesis_papers automatic speech recognition (asr), speaker verification, speech synthesis, text-to-speech (tts) papers and models. zzw922cn/awesome-speech-recognition-speech-synthesis-papers audio-speech general"
+    },
+    {
+      "name": "vieneu_tts",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "pnnbao97/VieNeu-TTS",
+      "stars": 1975,
+      "desc": "Vietnamese TTS with instant voice cloning. On-device. Real-time CPU inference.",
+      "url": "https://github.com/pnnbao97/VieNeu-TTS",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vieneu_tts vietnamese tts with instant voice cloning. on-device. real-time cpu inference. pnnbao97/vieneu-tts audio-speech general"
+    },
+    {
+      "name": "auto_synced_translated_dubs",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "ThioJoe/Auto-Synced-Translated-Dubs",
+      "stars": 1734,
+      "desc": "Automatically translates the text of a video based on a subtitle file, and then generates AI voice dubs.",
+      "url": "https://github.com/ThioJoe/Auto-Synced-Translated-Dubs",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "auto_synced_translated_dubs automatically translates the text of a video based on a subtitle file, and then generates ai voice dubs. thiojoe/auto-synced-translated-dubs audio-speech general"
+    },
+    {
+      "name": "kokoro_tts",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "nazdridoy/kokoro-tts",
+      "stars": 1636,
+      "desc": "A CLI text-to-speech tool using the Kokoro model, supporting multiple languages and voices.",
+      "url": "https://github.com/nazdridoy/kokoro-tts",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "kokoro_tts a cli text-to-speech tool using the kokoro model, supporting multiple languages and voices. nazdridoy/kokoro-tts audio-speech general"
+    },
+    {
+      "name": "comfyui-maya1_tts",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Saganaki22/ComfyUI-Maya1_TTS",
+      "stars": 63,
+      "desc": "A ComfyUI node for Maya1, a 3B-parameter speech model built for expressive voice generation with rich human emotion and precise voice design.",
+      "url": "https://github.com/Saganaki22/ComfyUI-Maya1_TTS",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "comfyui-maya1_tts a comfyui node for maya1, a 3b-parameter speech model built for expressive voice generation with rich human emotion and precise voice design. saganaki22/comfyui-maya1_tts audio-speech general"
+    }
+  ]
+}

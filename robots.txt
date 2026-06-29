@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://skill.442595.xyz/sitemap.xml
+
+# Block non-public paths
+Disallow: /api/
+Disallow: /_headers
