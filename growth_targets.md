@@ -33,3 +33,16 @@
 | 17 | helloianneo/awesome-claude-code-skills #50 | 317 | new |
 | 18 | ccplugins/awesome-claude-code-plugins #289 | 861 | new |
 | 19 | ai4s-research/awesome-ai-for-science #74 | 1.7K | new |
+## 2026-06-30 新增目标 (v4)
+
+| # | 仓库 | Stars | 状态 |
+|---|------|-------|------|
+| 20 | awesome-opencode/awesome-opencode | 8.4K | pending — 需重新fork |
+| 21 | kyrolabs/awesome-agents | 2.6K | pending |
+| 22 | ruvnet/ruflo | 62K | pending — 大盘受众，需克制 |
+| 23 | davepoon/buildwithclaude | 3.1K | pending — Claude Code生态 |
+| 24 | ai-boost/awesome-harness-engineering | 2.1K | pending — 工程师向 |
+
+### 本轮新增策略
+- Growth Agent无GitHub CLI认证，PR提交需手动完成
+- v4计划制定完毕，留存清单待下次执行
