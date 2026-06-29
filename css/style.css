@@ -1072,6 +1072,17 @@ a:hover { color: #a5b4fc; }
   .stats {
     width: 100%;
   }
+
+  .trending-tags {
+    gap: 6px;
+  }
+  .tag-pill {
+    padding: 3px 10px;
+    font-size: 11px;
+  }
+  .trending-label {
+    font-size: 12px;
+  }
 }
 
 /* ===== Results Toolbar (sort + count) ===== */
@@ -2656,6 +2667,7 @@ a:hover {
   .stats {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
   }
 
   .stat-pill {
@@ -2687,11 +2699,16 @@ a:hover {
     flex-wrap: wrap;
     margin-left: 0;
     justify-self: stretch;
+    gap: 8px;
   }
 
   .sort-wrap,
   .view-toggle {
     width: 100%;
+  }
+
+  .sort-wrap {
+    grid-template-columns: auto minmax(0, 1fr);
   }
 
   .sort-select {
@@ -2711,6 +2728,24 @@ a:hover {
 
   .about {
     padding: 18px;
+  }
+
+  .promo-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .promo-placeholder {
+    padding: 16px 12px;
+  }
+
+  .results-section > .results-toolbar {
+    grid-template-columns: 1fr;
+  }
+
+  .results-toolbar .toolbar-controls {
+    flex-direction: column;
+    align-items: stretch;
   }
 }
 
@@ -3093,6 +3128,57 @@ a:hover {
 
 .rec-grid .skill-card {
   min-width: 0;
+}
+
+/* ponytail: dark mode — just override :root vars + a few hardcoded rules. 
+   Upgrade path: replace all hardcoded colors with var() refs, then this block shrinks to :root only. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141110;
+    --bg-elevated: rgba(20, 17, 16, 0.9);
+    --card: #1c1816;
+    --card-hover: #24201c;
+    --border: rgba(255, 255, 255, 0.08);
+    --border-hover: rgba(255, 255, 255, 0.14);
+
+    --text: #e8e2d8;
+    --text-2: #a09688;
+    --text-3: #7a7166;
+    --heading: #f0ebe4;
+    --muted: #8a8075;
+    --tag-bg: rgba(255, 255, 255, 0.06);
+
+    --accent: #f08a5c;
+    --accent-glow: rgba(240, 138, 92, 0.22);
+    --accent-2: #eebc3a;
+
+    --green: #34d399;
+    --yellow: #fbbf24;
+    --pink: #f472b6;
+    --red: #f87171;
+
+    --shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+    --shadow-hover: 0 18px 40px rgba(0, 0, 0, 0.35);
+
+    color-scheme: dark;
+  }
+
+  html, body {
+    background: var(--bg);
+  }
+
+  a:hover { color: var(--accent); }
+
+  /* Kill white semi-transparent overlays that look wrong in dark */
+  *[class*="glass"],
+  .header,
+  .nav-bar,
+  .hero,
+  .filter-bar,
+  .search-bar {
+    background: var(--bg-elevated) !important;
+    backdrop-filter: blur(12px);
+  }
 }
 
 @media (max-width: 640px) {

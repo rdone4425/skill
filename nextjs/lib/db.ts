@@ -96,7 +96,7 @@ export function searchSkills(query: string): Skill[] {
     ignoreLocation: true,
   })
 
-  return fuse.search(q).map(r => r.item)
+  return (fuse.search(q) as any[]).map((r: any) => r.item)
 }
 
 export function getSkillByName(name: string): Skill | null {
