@@ -749,6 +749,78 @@
         "dash-tools"
       ],
       "searchText": "dash-tools dashtools - plotly dash command line tools - create, run and deploy templated python apps from terminal andrew-hossack/dash-tools finance-crypto dash-tools"
+    },
+    {
+      "name": "tradingview-mcp",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "tradesdontlie/tradingview-mcp",
+      "stars": 4036,
+      "desc": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView",
+      "url": "https://github.com/tradesdontlie/tradingview-mcp",
+      "install": "$skill-installer tradingview-mcp",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "tradingview-mcp ai-assisted tradingview chart analysis — connect claude code to your tradingview tradesdontlie/tradingview-mcp $skill-installer tradingview-mcp finance-crypto claude"
+    },
+    {
+      "name": "valuecell",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "ValueCell-ai/valuecell",
+      "stars": 10872,
+      "desc": "Community-driven multi-agent platform for financial applications",
+      "url": "https://github.com/ValueCell-ai/valuecell",
+      "install": "$skill-installer valuecell",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "valuecell community-driven multi-agent platform for financial applications valuecell-ai/valuecell $skill-installer valuecell finance-crypto claude"
+    },
+    {
+      "name": "QuantDinger",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "brokermr810/QuantDinger",
+      "stars": 8964,
+      "desc": "AI quantitative trading platform for crypto, stocks, and forex with backtesting",
+      "url": "https://github.com/brokermr810/QuantDinger",
+      "install": "$skill-installer QuantDinger",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "QuantDinger ai quantitative trading platform for crypto, stocks, and forex with backtesting brokermr810/quantdinger $skill-installer QuantDinger finance-crypto claude"
+    },
+    {
+      "name": "AutoHedge",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "The-Swarm-Corporation/AutoHedge",
+      "stars": 3619,
+      "desc": "Build your autonomous hedge fund in minutes with AI trading strategies",
+      "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
+      "install": "$skill-installer AutoHedge",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "AutoHedge build your autonomous hedge fund in minutes with ai trading strategies the-swarm-corporation/autohedge $skill-installer AutoHedge finance-crypto claude"
     }
   ]
 }

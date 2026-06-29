@@ -14955,6 +14955,3999 @@
         "claude-code"
       ],
       "searchText": "wzrdxos open-source operating system for ai agent teams built on claude code primitives, skills, workflows, subagents, and memory. wizardingcode-io/wzrdxos see repository readme for setup and usage instructions dev-tools claude-code"
+    },
+    {
+      "name": "lobster",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "openclaw/lobster",
+      "stars": 0,
+      "desc": "openclaw/lobster",
+      "url": "https://github.com/openclaw/lobster",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw/lobster openclaw/lobster",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "openclaw-windows-node",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "openclaw/openclaw-windows-node",
+      "stars": 0,
+      "desc": "openclaw/openclaw-windows-node",
+      "url": "https://github.com/openclaw/openclaw-windows-node",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw/openclaw-windows-node openclaw/openclaw-windows-node",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "skills",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "openclaw/skills",
+      "stars": 0,
+      "desc": "openclaw/skills",
+      "url": "https://github.com/openclaw/skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw/skills openclaw/skills",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "clawbio",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "clawbio/clawbio",
+      "stars": 0,
+      "desc": "ClawBio/ClawBio",
+      "url": "https://github.com/ClawBio/ClawBio",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "ClawBio/ClawBio clawbio/clawbio",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "unbrowse",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "unbrowse-ai/unbrowse",
+      "stars": 0,
+      "desc": "unbrowse-ai/unbrowse",
+      "url": "https://github.com/unbrowse-ai/unbrowse",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "unbrowse-ai/unbrowse unbrowse-ai/unbrowse",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "coding-agent-openclaw-skill",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "kesslerio/coding-agent-openclaw-skill",
+      "stars": 0,
+      "desc": "kesslerio/coding-agent-openclaw-skill",
+      "url": "https://github.com/kesslerio/coding-agent-openclaw-skill",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "kesslerio/coding-agent-openclaw-skill kesslerio/coding-agent-openclaw-skill",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "skills",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "agentskillexchange/skills",
+      "stars": 0,
+      "desc": "agentskillexchange/skills",
+      "url": "https://github.com/agentskillexchange/skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "agentskillexchange/skills agentskillexchange/skills",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "kesha-voice-kit",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "drakulavich/kesha-voice-kit",
+      "stars": 0,
+      "desc": "drakulavich/kesha-voice-kit",
+      "url": "https://github.com/drakulavich/kesha-voice-kit",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "drakulavich/kesha-voice-kit drakulavich/kesha-voice-kit",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "user-research-skill",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "cookiy-ai/user-research-skill",
+      "stars": 0,
+      "desc": "cookiy-ai/user-research-skill",
+      "url": "https://github.com/cookiy-ai/user-research-skill",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "cookiy-ai/user-research-skill cookiy-ai/user-research-skill",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "powershell-windows-skill",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "jsrgjcy/powershell-windows-skill",
+      "stars": 0,
+      "desc": "jsrgjcy/powershell-windows-skill",
+      "url": "https://github.com/jsrgjcy/powershell-windows-skill",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "jsrgjcy/powershell-windows-skill jsrgjcy/powershell-windows-skill",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "glancely",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "junjieyu95/glancely",
+      "stars": 0,
+      "desc": "JunjieYu95/glancely",
+      "url": "https://github.com/JunjieYu95/glancely",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "JunjieYu95/glancely junjieyu95/glancely",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "clawx",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "valuecell-ai/clawx",
+      "stars": 0,
+      "desc": "ValueCell-ai/ClawX",
+      "url": "https://github.com/ValueCell-ai/ClawX",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "ValueCell-ai/ClawX valuecell-ai/clawx",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "clawdeck",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "clawdeckio/clawdeck",
+      "stars": 0,
+      "desc": "clawdeckio/clawdeck",
+      "url": "https://github.com/clawdeckio/clawdeck",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "clawdeckio/clawdeck clawdeckio/clawdeck",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "openclaw-dashboard",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "mudrii/openclaw-dashboard",
+      "stars": 0,
+      "desc": "mudrii/openclaw-dashboard",
+      "url": "https://github.com/mudrii/openclaw-dashboard",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "mudrii/openclaw-dashboard mudrii/openclaw-dashboard",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "openclaw-dashboard",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "tugcantopaloglu/openclaw-dashboard",
+      "stars": 0,
+      "desc": "tugcantopaloglu/openclaw-dashboard",
+      "url": "https://github.com/tugcantopaloglu/openclaw-dashboard",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "tugcantopaloglu/openclaw-dashboard tugcantopaloglu/openclaw-dashboard",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "mission-control",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "builderz-labs/mission-control",
+      "stars": 0,
+      "desc": "builderz-labs/mission-control",
+      "url": "https://github.com/builderz-labs/mission-control",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "builderz-labs/mission-control builderz-labs/mission-control",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "openclaw-command-center",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "jontsai/openclaw-command-center",
+      "stars": 0,
+      "desc": "jontsai/openclaw-command-center",
+      "url": "https://github.com/jontsai/openclaw-command-center",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "jontsai/openclaw-command-center jontsai/openclaw-command-center",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "openclaw-nerve",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "daggerhashimoto/openclaw-nerve",
+      "stars": 0,
+      "desc": "daggerhashimoto/openclaw-nerve",
+      "url": "https://github.com/daggerhashimoto/openclaw-nerve",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "daggerhashimoto/openclaw-nerve daggerhashimoto/openclaw-nerve",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "clawmetry",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "vivekchand/clawmetry",
+      "stars": 0,
+      "desc": "vivekchand/clawmetry",
+      "url": "https://github.com/vivekchand/clawmetry",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "vivekchand/clawmetry vivekchand/clawmetry",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "clawbridge",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "dreamwing/clawbridge",
+      "stars": 0,
+      "desc": "dreamwing/clawbridge",
+      "url": "https://github.com/dreamwing/clawbridge",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "dreamwing/clawbridge dreamwing/clawbridge",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "clawpal",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "lay2dev/clawpal",
+      "stars": 0,
+      "desc": "lay2dev/clawpal",
+      "url": "https://github.com/lay2dev/clawpal",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "lay2dev/clawpal lay2dev/clawpal",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "lobsterboard",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "curbob/lobsterboard",
+      "stars": 0,
+      "desc": "Curbob/LobsterBoard",
+      "url": "https://github.com/Curbob/LobsterBoard",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "Curbob/LobsterBoard curbob/lobsterboard",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "clawpanel",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "qingchencloud/clawpanel",
+      "stars": 0,
+      "desc": "qingchencloud/clawpanel",
+      "url": "https://github.com/qingchencloud/clawpanel",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "qingchencloud/clawpanel qingchencloud/clawpanel",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "openclaw-mission-control",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "robsannaa/openclaw-mission-control",
+      "stars": 0,
+      "desc": "robsannaa/openclaw-mission-control",
+      "url": "https://github.com/robsannaa/openclaw-mission-control",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "robsannaa/openclaw-mission-control robsannaa/openclaw-mission-control",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "clawpanel",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "zhaoxinyi02/clawpanel",
+      "stars": 0,
+      "desc": "zhaoxinyi02/ClawPanel",
+      "url": "https://github.com/zhaoxinyi02/ClawPanel",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "zhaoxinyi02/ClawPanel zhaoxinyi02/clawpanel",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "crabwalk",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "luccast/crabwalk",
+      "stars": 0,
+      "desc": "luccast/crabwalk",
+      "url": "https://github.com/luccast/crabwalk",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "luccast/crabwalk luccast/crabwalk",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "clawe",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "getclawe/clawe",
+      "stars": 0,
+      "desc": "getclawe/clawe",
+      "url": "https://github.com/getclawe/clawe",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "getclawe/clawe getclawe/clawe",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "openclaw-pixel-agents",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "sweetsophia/openclaw-pixel-agents",
+      "stars": 0,
+      "desc": "SweetSophia/openclaw-pixel-agents",
+      "url": "https://github.com/SweetSophia/openclaw-pixel-agents",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "agent",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "SweetSophia/openclaw-pixel-agents sweetsophia/openclaw-pixel-agents",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "opik-openclaw",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "comet-ml/opik-openclaw",
+      "stars": 0,
+      "desc": "comet-ml/opik-openclaw",
+      "url": "https://github.com/comet-ml/opik-openclaw",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "comet-ml/opik-openclaw comet-ml/opik-openclaw",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "openclaw-ansible",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "openclaw/openclaw-ansible",
+      "stars": 0,
+      "desc": "openclaw/openclaw-ansible",
+      "url": "https://github.com/openclaw/openclaw-ansible",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw/openclaw-ansible openclaw/openclaw-ansible",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "nix-openclaw",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "openclaw/nix-openclaw",
+      "stars": 0,
+      "desc": "openclaw/nix-openclaw",
+      "url": "https://github.com/openclaw/nix-openclaw",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw/nix-openclaw openclaw/nix-openclaw",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "homebrew-tap",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "openclaw/homebrew-tap",
+      "stars": 0,
+      "desc": "openclaw/homebrew-tap",
+      "url": "https://github.com/openclaw/homebrew-tap",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw/homebrew-tap openclaw/homebrew-tap",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "clawdinators",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "openclaw/clawdinators",
+      "stars": 0,
+      "desc": "openclaw/clawdinators",
+      "url": "https://github.com/openclaw/clawdinators",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw/clawdinators openclaw/clawdinators",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "moltworker",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "cloudflare/moltworker",
+      "stars": 0,
+      "desc": "cloudflare/moltworker",
+      "url": "https://github.com/cloudflare/moltworker",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "cloudflare/moltworker cloudflare/moltworker",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "clawbox",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "joshavant/clawbox",
+      "stars": 0,
+      "desc": "joshavant/clawbox",
+      "url": "https://github.com/joshavant/clawbox",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "joshavant/clawbox joshavant/clawbox",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "clawflows",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "nikilster/clawflows",
+      "stars": 0,
+      "desc": "nikilster/clawflows",
+      "url": "https://github.com/nikilster/clawflows",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "nikilster/clawflows nikilster/clawflows",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "1panel",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "1panel-dev/1panel",
+      "stars": 0,
+      "desc": "1Panel-dev/1Panel",
+      "url": "https://github.com/1Panel-dev/1Panel",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "1Panel-dev/1Panel 1panel-dev/1panel",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "openclaw-helm",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "serhanekicii/openclaw-helm",
+      "stars": 0,
+      "desc": "serhanekicii/openclaw-helm",
+      "url": "https://github.com/serhanekicii/openclaw-helm",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "serhanekicii/openclaw-helm serhanekicii/openclaw-helm",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "serverless-openclaw",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "serithemage/serverless-openclaw",
+      "stars": 0,
+      "desc": "serithemage/serverless-openclaw",
+      "url": "https://github.com/serithemage/serverless-openclaw",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "serithemage/serverless-openclaw serithemage/serverless-openclaw",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "manifest",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "mnfst/manifest",
+      "stars": 0,
+      "desc": "mnfst/manifest",
+      "url": "https://github.com/mnfst/manifest",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "mnfst/manifest mnfst/manifest",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "openclaw-guardian",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "leoyeai/openclaw-guardian",
+      "stars": 0,
+      "desc": "LeoYeAI/openclaw-guardian",
+      "url": "https://github.com/LeoYeAI/openclaw-guardian",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "LeoYeAI/openclaw-guardian leoyeai/openclaw-guardian",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "u-claw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "dongsheng123132/u-claw",
+      "stars": 0,
+      "desc": "dongsheng123132/u-claw",
+      "url": "https://github.com/dongsheng123132/u-claw",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "dongsheng123132/u-claw dongsheng123132/u-claw",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "openclaw-docker-cn-im",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "justlovemaki/openclaw-docker-cn-im",
+      "stars": 0,
+      "desc": "justlovemaki/openclaw-docker-cn-im",
+      "url": "https://github.com/justlovemaki/openclaw-docker-cn-im",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "justlovemaki/openclaw-docker-cn-im justlovemaki/openclaw-docker-cn-im",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "lossless-claw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "martian-engineering/lossless-claw",
+      "stars": 0,
+      "desc": "Martian-Engineering/lossless-claw",
+      "url": "https://github.com/Martian-Engineering/lossless-claw",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "Martian-Engineering/lossless-claw martian-engineering/lossless-claw",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "memu",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "nevamind-ai/memu",
+      "stars": 0,
+      "desc": "NevaMind-AI/memU",
+      "url": "https://github.com/NevaMind-AI/memU",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "NevaMind-AI/memU nevamind-ai/memu",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "memory-lancedb-pro",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "cortexreach/memory-lancedb-pro",
+      "stars": 0,
+      "desc": "CortexReach/memory-lancedb-pro",
+      "url": "https://github.com/CortexReach/memory-lancedb-pro",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "CortexReach/memory-lancedb-pro cortexreach/memory-lancedb-pro",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "evermemos",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "evermind-ai/evermemos",
+      "stars": 0,
+      "desc": "EverMind-AI/EverMemOS",
+      "url": "https://github.com/EverMind-AI/EverMemOS",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "EverMind-AI/EverMemOS evermind-ai/evermemos",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "openclaw-supermemory",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "supermemoryai/openclaw-supermemory",
+      "stars": 0,
+      "desc": "supermemoryai/openclaw-supermemory",
+      "url": "https://github.com/supermemoryai/openclaw-supermemory",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "supermemoryai/openclaw-supermemory supermemoryai/openclaw-supermemory",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "mem9",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "mem9-ai/mem9",
+      "stars": 0,
+      "desc": "mem9-ai/mem9",
+      "url": "https://github.com/mem9-ai/mem9",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "mem9-ai/mem9 mem9-ai/mem9",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "memsearch",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "zilliztech/memsearch",
+      "stars": 0,
+      "desc": "zilliztech/memsearch",
+      "url": "https://github.com/zilliztech/memsearch",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "zilliztech/memsearch zilliztech/memsearch",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "memorycrystal",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "memorycrystal/memorycrystal",
+      "stars": 0,
+      "desc": "memorycrystal/memorycrystal",
+      "url": "https://github.com/memorycrystal/memorycrystal",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "memorycrystal/memorycrystal memorycrystal/memorycrystal",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "openclaw-hydradb",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "usecortex/openclaw-hydradb",
+      "stars": 0,
+      "desc": "usecortex/openclaw-hydradb",
+      "url": "https://github.com/usecortex/openclaw-hydradb",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "usecortex/openclaw-hydradb usecortex/openclaw-hydradb",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "dashclaw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "ucsandman/dashclaw",
+      "stars": 0,
+      "desc": "ucsandman/dashclaw",
+      "url": "https://github.com/ucsandman/dashclaw",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "ucsandman/dashclaw ucsandman/dashclaw",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "ironclaw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "nearai/ironclaw",
+      "stars": 0,
+      "desc": "nearai/ironclaw",
+      "url": "https://github.com/nearai/ironclaw",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "nearai/ironclaw nearai/ironclaw",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "nemoclaw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "nvidia/nemoclaw",
+      "stars": 0,
+      "desc": "NVIDIA/NemoClaw",
+      "url": "https://github.com/NVIDIA/NemoClaw",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "NVIDIA/NemoClaw nvidia/nemoclaw",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "clawvault",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "tophant-ai/clawvault",
+      "stars": 0,
+      "desc": "tophant-ai/ClawVault",
+      "url": "https://github.com/tophant-ai/ClawVault",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "tophant-ai/ClawVault tophant-ai/clawvault",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "innerwarden",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "innerwarden/innerwarden",
+      "stars": 0,
+      "desc": "InnerWarden/innerwarden",
+      "url": "https://github.com/InnerWarden/innerwarden",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "InnerWarden/innerwarden innerwarden/innerwarden",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "rampart",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "peg/rampart",
+      "stars": 0,
+      "desc": "peg/rampart",
+      "url": "https://github.com/peg/rampart",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "peg/rampart peg/rampart",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "axonflow-openclaw-plugin",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "getaxonflow/axonflow-openclaw-plugin",
+      "stars": 0,
+      "desc": "getaxonflow/axonflow-openclaw-plugin",
+      "url": "https://github.com/getaxonflow/axonflow-openclaw-plugin",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "getaxonflow/axonflow-openclaw-plugin getaxonflow/axonflow-openclaw-plugin",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "openclaw-plugin",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "secr-dev/openclaw-plugin",
+      "stars": 0,
+      "desc": "secr-dev/openclaw-plugin",
+      "url": "https://github.com/secr-dev/openclaw-plugin",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "secr-dev/openclaw-plugin secr-dev/openclaw-plugin",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "clawrouter",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "blockrunai/clawrouter",
+      "stars": 0,
+      "desc": "BlockRunAI/ClawRouter",
+      "url": "https://github.com/BlockRunAI/ClawRouter",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "BlockRunAI/ClawRouter blockrunai/clawrouter",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "openclaw-channel-dingtalk",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "soimy/openclaw-channel-dingtalk",
+      "stars": 0,
+      "desc": "soimy/openclaw-channel-dingtalk",
+      "url": "https://github.com/soimy/openclaw-channel-dingtalk",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "soimy/openclaw-channel-dingtalk soimy/openclaw-channel-dingtalk",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "openclaw-feishu",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "alexanys/openclaw-feishu",
+      "stars": 0,
+      "desc": "AlexAnys/openclaw-feishu",
+      "url": "https://github.com/AlexAnys/openclaw-feishu",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "AlexAnys/openclaw-feishu alexanys/openclaw-feishu",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "clawdbot-feishu",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "m1heng/clawdbot-feishu",
+      "stars": 0,
+      "desc": "m1heng/clawdbot-feishu",
+      "url": "https://github.com/m1heng/clawdbot-feishu",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "agent",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "m1heng/clawdbot-feishu m1heng/clawdbot-feishu",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "dingtalk-moltbot-connector",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "dingtalk-real-ai/dingtalk-moltbot-connector",
+      "stars": 0,
+      "desc": "DingTalk-Real-AI/dingtalk-moltbot-connector",
+      "url": "https://github.com/DingTalk-Real-AI/dingtalk-moltbot-connector",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "agent",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "DingTalk-Real-AI/dingtalk-moltbot-connector dingtalk-real-ai/dingtalk-moltbot-connector",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "openclaw-qqbot",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "tencent-connect/openclaw-qqbot",
+      "stars": 0,
+      "desc": "tencent-connect/openclaw-qqbot",
+      "url": "https://github.com/tencent-connect/openclaw-qqbot",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "agent",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "tencent-connect/openclaw-qqbot tencent-connect/openclaw-qqbot",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "openclaw-wechat",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "dingxiang-me/openclaw-wechat",
+      "stars": 0,
+      "desc": "dingxiang-me/OpenClaw-Wechat",
+      "url": "https://github.com/dingxiang-me/OpenClaw-Wechat",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "dingxiang-me/OpenClaw-Wechat dingxiang-me/openclaw-wechat",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "waclaw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "onfabric/waclaw",
+      "stars": 0,
+      "desc": "onfabric/waclaw",
+      "url": "https://github.com/onfabric/waclaw",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "onfabric/waclaw onfabric/waclaw",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "homeclaw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "omarshahine/homeclaw",
+      "stars": 0,
+      "desc": "omarshahine/HomeClaw",
+      "url": "https://github.com/omarshahine/HomeClaw",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "omarshahine/HomeClaw omarshahine/homeclaw",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "restaurant-cli",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "omarshahine/restaurant-cli",
+      "stars": 0,
+      "desc": "omarshahine/restaurant-cli",
+      "url": "https://github.com/omarshahine/restaurant-cli",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "omarshahine/restaurant-cli omarshahine/restaurant-cli",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "moltis",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "moltis-org/moltis",
+      "stars": 0,
+      "desc": "moltis-org/moltis",
+      "url": "https://github.com/moltis-org/moltis",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "moltis-org/moltis moltis-org/moltis",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "mimiclaw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "memovai/mimiclaw",
+      "stars": 0,
+      "desc": "memovai/mimiclaw",
+      "url": "https://github.com/memovai/mimiclaw",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "memovai/mimiclaw memovai/mimiclaw",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "picoclaw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "sipeed/picoclaw",
+      "stars": 0,
+      "desc": "sipeed/picoclaw",
+      "url": "https://github.com/sipeed/picoclaw",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "sipeed/picoclaw sipeed/picoclaw",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "nanoclaw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "qwibitai/nanoclaw",
+      "stars": 0,
+      "desc": "qwibitai/nanoclaw",
+      "url": "https://github.com/qwibitai/nanoclaw",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "qwibitai/nanoclaw qwibitai/nanoclaw",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "poco-agent",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "poco-ai/poco-agent",
+      "stars": 0,
+      "desc": "poco-ai/poco-agent",
+      "url": "https://github.com/poco-ai/poco-agent",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "agent",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "poco-ai/poco-agent poco-ai/poco-agent",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "openclaw-android",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "aidanpark/openclaw-android",
+      "stars": 0,
+      "desc": "AidanPark/openclaw-android",
+      "url": "https://github.com/AidanPark/openclaw-android",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "AidanPark/openclaw-android aidanpark/openclaw-android",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "openclaw-assistant",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "yuga-hashimoto/openclaw-assistant",
+      "stars": 0,
+      "desc": "yuga-hashimoto/openclaw-assistant",
+      "url": "https://github.com/yuga-hashimoto/openclaw-assistant",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "agent",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "yuga-hashimoto/openclaw-assistant yuga-hashimoto/openclaw-assistant",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "clawteam",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "hkuds/clawteam",
+      "stars": 0,
+      "desc": "HKUDS/ClawTeam",
+      "url": "https://github.com/HKUDS/ClawTeam",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "HKUDS/ClawTeam hkuds/clawteam",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "kimaki",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "remorses/kimaki",
+      "stars": 0,
+      "desc": "remorses/kimaki",
+      "url": "https://github.com/remorses/kimaki",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "remorses/kimaki remorses/kimaki",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "clawlet",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "mosaxiv/clawlet",
+      "stars": 0,
+      "desc": "mosaxiv/clawlet",
+      "url": "https://github.com/mosaxiv/clawlet",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "mosaxiv/clawlet mosaxiv/clawlet",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "rt-claw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "zevorn/rt-claw",
+      "stars": 0,
+      "desc": "zevorn/rt-claw",
+      "url": "https://github.com/zevorn/rt-claw",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "zevorn/rt-claw zevorn/rt-claw",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "librefang",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "librefang/librefang",
+      "stars": 0,
+      "desc": "librefang/librefang",
+      "url": "https://github.com/librefang/librefang",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "librefang/librefang librefang/librefang",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "awesome-openclaw-tips",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "alvinunreal/awesome-openclaw-tips",
+      "stars": 0,
+      "desc": "alvinunreal/awesome-openclaw-tips",
+      "url": "https://github.com/alvinunreal/awesome-openclaw-tips",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "alvinunreal/awesome-openclaw-tips alvinunreal/awesome-openclaw-tips",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "hello-claw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "datawhalechina/hello-claw",
+      "stars": 0,
+      "desc": "datawhalechina/hello-claw",
+      "url": "https://github.com/datawhalechina/hello-claw",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "datawhalechina/hello-claw datawhalechina/hello-claw",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "explain-openclaw",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "centminmod/explain-openclaw",
+      "stars": 0,
+      "desc": "centminmod/explain-openclaw",
+      "url": "https://github.com/centminmod/explain-openclaw",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "centminmod/explain-openclaw centminmod/explain-openclaw",
+      "sources": [
+        "alvinreal/awesome-openclaw"
+      ]
+    },
+    {
+      "name": "skillclaw",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "amap-ml/skillclaw",
+      "stars": 0,
+      "desc": "SkillClaw",
+      "url": "https://github.com/AMAP-ML/SkillClaw",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "SkillClaw amap-ml/skillclaw",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "skills",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "mattpocock/skills",
+      "stars": 0,
+      "desc": "Repo",
+      "url": "https://github.com/mattpocock/skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "Repo mattpocock/skills",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "detect-skill",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "resemble-ai/detect-skill",
+      "stars": 0,
+      "desc": "Repo",
+      "url": "https://github.com/resemble-ai/detect-skill",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "Repo resemble-ai/detect-skill",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hermes-spotify-skill",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "alexeyisme/hermes-spotify-skill",
+      "stars": 0,
+      "desc": "hermes-spotify-skill",
+      "url": "https://github.com/Alexeyisme/hermes-spotify-skill",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-spotify-skill alexeyisme/hermes-spotify-skill",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hindsight",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "vectorize-io/hindsight",
+      "stars": 0,
+      "desc": "hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "hindsight vectorize-io/hindsight",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "honcho-self-hosted",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "elkimek/honcho-self-hosted",
+      "stars": 0,
+      "desc": "honcho-self-hosted",
+      "url": "https://github.com/elkimek/honcho-self-hosted",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "honcho-self-hosted elkimek/honcho-self-hosted",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "yantrikdb-hermes-plugin",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "yantrikos/yantrikdb-hermes-plugin",
+      "stars": 0,
+      "desc": "yantrikdb-hermes-plugin",
+      "url": "https://github.com/yantrikos/yantrikdb-hermes-plugin",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "yantrikdb-hermes-plugin yantrikos/yantrikdb-hermes-plugin",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "plur",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "plur-ai/plur",
+      "stars": 0,
+      "desc": "plur",
+      "url": "https://github.com/plur-ai/plur",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "plur plur-ai/plur",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "flowstate-qmd",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "amanning3390/flowstate-qmd",
+      "stars": 0,
+      "desc": "flowstate-qmd",
+      "url": "https://github.com/amanning3390/flowstate-qmd",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "flowstate-qmd amanning3390/flowstate-qmd",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "personal-api-skill",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "beiyuii/personal-api-skill",
+      "stars": 0,
+      "desc": "personal-api",
+      "url": "https://github.com/beiyuii/personal-api-skill",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "personal-api beiyuii/personal-api-skill",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hermes-web-search-plus",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "robbyczgw-cla/hermes-web-search-plus",
+      "stars": 0,
+      "desc": "hermes-web-search-plus",
+      "url": "https://github.com/robbyczgw-cla/hermes-web-search-plus",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-web-search-plus robbyczgw-cla/hermes-web-search-plus",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "nothumansearch-mcp",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "unitedideas/nothumansearch-mcp",
+      "stars": 0,
+      "desc": "Not Human Search",
+      "url": "https://github.com/unitedideas/nothumansearch-mcp",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "Not Human Search unitedideas/nothumansearch-mcp",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "bmad-module-skill-forge",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "armelhbobdad/bmad-module-skill-forge",
+      "stars": 0,
+      "desc": "bmad-module-skill-forge",
+      "url": "https://github.com/armelhbobdad/bmad-module-skill-forge",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "bmad-module-skill-forge armelhbobdad/bmad-module-skill-forge",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "litprog-skill",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "tlehman/litprog-skill",
+      "stars": 0,
+      "desc": "litprog-skill",
+      "url": "https://github.com/tlehman/litprog-skill",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "litprog-skill tlehman/litprog-skill",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "execplan-skill",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "tiann/execplan-skill",
+      "stars": 0,
+      "desc": "execplan-skill",
+      "url": "https://github.com/tiann/execplan-skill",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "execplan-skill tiann/execplan-skill",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "maestro",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "reinamaccredy/maestro",
+      "stars": 0,
+      "desc": "maestro",
+      "url": "https://github.com/ReinaMacCredy/maestro",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "maestro reinamaccredy/maestro",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "skills",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "wondelai/skills",
+      "stars": 0,
+      "desc": "wondelai/skills",
+      "url": "https://github.com/wondelai/skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "wondelai/skills wondelai/skills",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "skillsdotnet",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "pederhp/skillsdotnet",
+      "stars": 0,
+      "desc": "skillsdotnet",
+      "url": "https://github.com/PederHP/skillsdotnet",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "skillsdotnet pederhp/skillsdotnet",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "agentic-mcp-skill",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "cablate/agentic-mcp-skill",
+      "stars": 0,
+      "desc": "Agentic-MCP-Skill",
+      "url": "https://github.com/cablate/Agentic-MCP-Skill",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "Agentic-MCP-Skill cablate/agentic-mcp-skill",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "pydantic-ai-skills",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "dougtrajano/pydantic-ai-skills",
+      "stars": 0,
+      "desc": "pydantic-ai-skills",
+      "url": "https://github.com/DougTrajano/pydantic-ai-skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "pydantic-ai-skills dougtrajano/pydantic-ai-skills",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "evey-bridge-plugin",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "42-evey/evey-bridge-plugin",
+      "stars": 0,
+      "desc": "evey-bridge-plugin",
+      "url": "https://github.com/42-evey/evey-bridge-plugin",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "evey-bridge-plugin 42-evey/evey-bridge-plugin",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "lintlang",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "roli-lpci/lintlang",
+      "stars": 0,
+      "desc": "lintlang",
+      "url": "https://github.com/roli-lpci/lintlang",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "lintlang roli-lpci/lintlang",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hermes-dojo",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "yonkoo11/hermes-dojo",
+      "stars": 0,
+      "desc": "hermes-dojo",
+      "url": "https://github.com/Yonkoo11/hermes-dojo",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-dojo yonkoo11/hermes-dojo",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hermes-skill-distillation",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "beardthelion/hermes-skill-distillation",
+      "stars": 0,
+      "desc": "hermes-skill-distillation",
+      "url": "https://github.com/beardthelion/hermes-skill-distillation",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-skill-distillation beardthelion/hermes-skill-distillation",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "rtk-hermes",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "ogallotti/rtk-hermes",
+      "stars": 0,
+      "desc": "rtk-hermes",
+      "url": "https://github.com/ogallotti/rtk-hermes",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "rtk-hermes ogallotti/rtk-hermes",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hermes-plugin-chrome-profiles",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "anpicasso/hermes-plugin-chrome-profiles",
+      "stars": 0,
+      "desc": "hermes-plugin-chrome-profiles",
+      "url": "https://github.com/anpicasso/hermes-plugin-chrome-profiles",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-plugin-chrome-profiles anpicasso/hermes-plugin-chrome-profiles",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hermes-cloudflare",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "raulvidis/hermes-cloudflare",
+      "stars": 0,
+      "desc": "hermes-cloudflare",
+      "url": "https://github.com/raulvidis/hermes-cloudflare",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-cloudflare raulvidis/hermes-cloudflare",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "vessel-browser",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "unmodeled-tyler/vessel-browser",
+      "stars": 0,
+      "desc": "vessel-browser",
+      "url": "https://github.com/unmodeled-tyler/vessel-browser",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "vessel-browser unmodeled-tyler/vessel-browser",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "microsoft-workspace-skill",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "andrew-girgis/microsoft-workspace-skill",
+      "stars": 0,
+      "desc": "microsoft-workspace-skill",
+      "url": "https://github.com/Andrew-Girgis/microsoft-workspace-skill",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "microsoft-workspace-skill andrew-girgis/microsoft-workspace-skill",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "clawsocial-hermes-plugin",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "mrpeter2025/clawsocial-hermes-plugin",
+      "stars": 0,
+      "desc": "clawsocial-hermes-plugin",
+      "url": "https://github.com/mrpeter2025/clawsocial-hermes-plugin",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "clawsocial-hermes-plugin mrpeter2025/clawsocial-hermes-plugin",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hermes-plugins",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "42-evey/hermes-plugins",
+      "stars": 0,
+      "desc": "hermes-plugins",
+      "url": "https://github.com/42-evey/hermes-plugins",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-plugins 42-evey/hermes-plugins",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "agent-analytics-hermes-plugin",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "agent-analytics/agent-analytics-hermes-plugin",
+      "stars": 0,
+      "desc": "agent-analytics-hermes-plugin",
+      "url": "https://github.com/Agent-Analytics/agent-analytics-hermes-plugin",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "agent-analytics-hermes-plugin agent-analytics/agent-analytics-hermes-plugin",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "skills",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "black-forest-labs/skills",
+      "stars": 0,
+      "desc": "black-forest-labs/skills",
+      "url": "https://github.com/black-forest-labs/skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "black-forest-labs/skills black-forest-labs/skills",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hermes-weather-plugin",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "fahrenheitresearch/hermes-weather-plugin",
+      "stars": 0,
+      "desc": "hermes-weather-plugin",
+      "url": "https://github.com/FahrenheitResearch/hermes-weather-plugin",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-weather-plugin fahrenheitresearch/hermes-weather-plugin",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hermes-wxtrain-plugin",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "fahrenheitresearch/hermes-wxtrain-plugin",
+      "stars": 0,
+      "desc": "hermes-wxtrain-plugin",
+      "url": "https://github.com/FahrenheitResearch/hermes-wxtrain-plugin",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-wxtrain-plugin fahrenheitresearch/hermes-wxtrain-plugin",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hermes-agent-docker",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "xmbshwll/hermes-agent-docker",
+      "stars": 0,
+      "desc": "hermes-agent-docker",
+      "url": "https://github.com/xmbshwll/hermes-agent-docker",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "agent",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-agent-docker xmbshwll/hermes-agent-docker",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "portainer-stack-hermes",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "ellickjohnson/portainer-stack-hermes",
+      "stars": 0,
+      "desc": "portainer-stack-hermes",
+      "url": "https://github.com/ellickjohnson/portainer-stack-hermes",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "portainer-stack-hermes ellickjohnson/portainer-stack-hermes",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "nix-hermes-agent",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "0xrsydn/nix-hermes-agent",
+      "stars": 0,
+      "desc": "nix-hermes-agent",
+      "url": "https://github.com/0xrsydn/nix-hermes-agent",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "agent",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "nix-hermes-agent 0xrsydn/nix-hermes-agent",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "openclaw-to-hermes",
+      "source": "zeropointrepo",
+      "sourceAgent": "openclaw",
+      "repo": "0xnyk/openclaw-to-hermes",
+      "stars": 0,
+      "desc": "openclaw-to-hermes",
+      "url": "https://github.com/0xNyk/openclaw-to-hermes",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-to-hermes 0xnyk/openclaw-to-hermes",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "evey-setup",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "42-evey/evey-setup",
+      "stars": 0,
+      "desc": "evey-setup",
+      "url": "https://github.com/42-evey/evey-setup",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "evey-setup 42-evey/evey-setup",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hermes-payguard",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "nativ3ai/hermes-payguard",
+      "stars": 0,
+      "desc": "hermes-payguard",
+      "url": "https://github.com/nativ3ai/hermes-payguard",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-payguard nativ3ai/hermes-payguard",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "agentcash-skills",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "merit-systems/agentcash-skills",
+      "stars": 0,
+      "desc": "AgentCash",
+      "url": "https://github.com/Merit-Systems/agentcash-skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "agent",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "AgentCash merit-systems/agentcash-skills",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "ripley-xmr-gateway",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "kyc-rip/ripley-xmr-gateway",
+      "stars": 0,
+      "desc": "ripley-xmr-gateway",
+      "url": "https://github.com/KYC-rip/ripley-xmr-gateway",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "ripley-xmr-gateway kyc-rip/ripley-xmr-gateway",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hermes-blockchain-oracle",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "gizdusum/hermes-blockchain-oracle",
+      "stars": 0,
+      "desc": "hermes-blockchain-oracle",
+      "url": "https://github.com/gizdusum/hermes-blockchain-oracle",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-blockchain-oracle gizdusum/hermes-blockchain-oracle",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "chainlink-agent-skills",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "smartcontractkit/chainlink-agent-skills",
+      "stars": 0,
+      "desc": "chainlink-agent-skills",
+      "url": "https://github.com/smartcontractkit/chainlink-agent-skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "chainlink-agent-skills smartcontractkit/chainlink-agent-skills",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "mercury",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "hxsteric/mercury",
+      "stars": 0,
+      "desc": "mercury",
+      "url": "https://github.com/hxsteric/mercury",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "mercury hxsteric/mercury",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hermes-agent-acp-skill",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "rainhoole/hermes-agent-acp-skill",
+      "stars": 0,
+      "desc": "hermes-agent-acp-skill",
+      "url": "https://github.com/Rainhoole/hermes-agent-acp-skill",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-agent-acp-skill rainhoole/hermes-agent-acp-skill",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hermes-council",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "ridwannurudeen/hermes-council",
+      "stars": 0,
+      "desc": "hermes-council",
+      "url": "https://github.com/Ridwannurudeen/hermes-council",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-council ridwannurudeen/hermes-council",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "opencode-hermes-multiagent",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "1ilkhamov/opencode-hermes-multiagent",
+      "stars": 0,
+      "desc": "opencode-hermes-multiagent",
+      "url": "https://github.com/1ilkhamov/opencode-hermes-multiagent",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "agent",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "opencode-hermes-multiagent 1ilkhamov/opencode-hermes-multiagent",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "nemohermes",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "hmbown/nemohermes",
+      "stars": 0,
+      "desc": "NemoHermes",
+      "url": "https://github.com/Hmbown/NemoHermes",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "NemoHermes hmbown/nemohermes",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hermes-android",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "raulvidis/hermes-android",
+      "stars": 0,
+      "desc": "hermes-android",
+      "url": "https://github.com/raulvidis/hermes-android",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-android raulvidis/hermes-android",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "ai-rpa",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "aivanelabs/ai-rpa",
+      "stars": 0,
+      "desc": "agent-android",
+      "url": "https://github.com/aivanelabs/ai-rpa",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "agent",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "agent-android aivanelabs/ai-rpa",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hermescraft",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "bigph00t/hermescraft",
+      "stars": 0,
+      "desc": "hermescraft",
+      "url": "https://github.com/bigph00t/hermescraft",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermescraft bigph00t/hermescraft",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hermes-mars-rover",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "snehal707/hermes-mars-rover",
+      "stars": 0,
+      "desc": "Hermes-mars-rover",
+      "url": "https://github.com/Snehal707/Hermes-mars-rover",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "Hermes-mars-rover snehal707/hermes-mars-rover",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hermes-miniverse",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "teknium1/hermes-miniverse",
+      "stars": 0,
+      "desc": "hermes-miniverse",
+      "url": "https://github.com/teknium1/hermes-miniverse",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-miniverse teknium1/hermes-miniverse",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "anihermes",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "rodmarkun/anihermes",
+      "stars": 0,
+      "desc": "anihermes",
+      "url": "https://github.com/rodmarkun/anihermes",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "anihermes rodmarkun/anihermes",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "colony-skill",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "thecolonycc/colony-skill",
+      "stars": 0,
+      "desc": "colony-skill",
+      "url": "https://github.com/TheColonyCC/colony-skill",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "colony-skill thecolonycc/colony-skill",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hermes-desktop",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "dodo-reach/hermes-desktop",
+      "stars": 0,
+      "desc": "hermes-desktop",
+      "url": "https://github.com/dodo-reach/hermes-desktop",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-desktop dodo-reach/hermes-desktop",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "portable-hermes-agent",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "rookiemann/portable-hermes-agent",
+      "stars": 0,
+      "desc": "portable-hermes-agent",
+      "url": "https://github.com/rookiemann/portable-hermes-agent",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "agent",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "portable-hermes-agent rookiemann/portable-hermes-agent",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hermes-ui",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "pyrate-llama/hermes-ui",
+      "stars": 0,
+      "desc": "hermes-ui",
+      "url": "https://github.com/pyrate-llama/hermes-ui",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-ui pyrate-llama/hermes-ui",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hermes-webui",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "sanchomuzax/hermes-webui",
+      "stars": 0,
+      "desc": "hermes-webui",
+      "url": "https://github.com/sanchomuzax/hermes-webui",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-webui sanchomuzax/hermes-webui",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "orahermes-agent",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "jasperan/orahermes-agent",
+      "stars": 0,
+      "desc": "orahermes-agent",
+      "url": "https://github.com/jasperan/orahermes-agent",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "agent",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "orahermes-agent jasperan/orahermes-agent",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "skilldock.io",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "chigwell/skilldock.io",
+      "stars": 0,
+      "desc": "skilldock.io",
+      "url": "https://github.com/chigwell/skilldock.io",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "skilldock.io chigwell/skilldock.io",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "hermes-wsl-ubuntu",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "metantonio/hermes-wsl-ubuntu",
+      "stars": 0,
+      "desc": "hermes-wsl-ubuntu",
+      "url": "https://github.com/metantonio/hermes-wsl-ubuntu",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-wsl-ubuntu metantonio/hermes-wsl-ubuntu",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "agent-scan",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "snyk/agent-scan",
+      "stars": 0,
+      "desc": "Snyk Skill Security Scanner",
+      "url": "https://github.com/snyk/agent-scan",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "Snyk Skill Security Scanner snyk/agent-scan",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "awesome-hermes-skills",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "zeropointrepo/awesome-hermes-skills",
+      "stars": 0,
+      "desc": "Open an issue",
+      "url": "https://github.com/ZeroPointRepo/awesome-hermes-skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "Open an issue zeropointrepo/awesome-hermes-skills",
+      "sources": [
+        "zeropointrepo/awesome-hermes-skills"
+      ]
+    },
+    {
+      "name": "swiftui-agent-skill",
+      "source": "techopolis",
+      "sourceAgent": "generic",
+      "repo": "avdlee/swiftui-agent-skill",
+      "stars": 0,
+      "desc": "SwiftUI Expert",
+      "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "ios",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "SwiftUI Expert avdlee/swiftui-agent-skill",
+      "sources": [
+        "techopolis/awesome-ios-ai"
+      ]
+    },
+    {
+      "name": "skills",
+      "source": "techopolis",
+      "sourceAgent": "generic",
+      "repo": "dimillian/skills",
+      "stars": 0,
+      "desc": "SwiftUI Performance Audit",
+      "url": "https://github.com/Dimillian/Skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "ios",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "SwiftUI Performance Audit dimillian/skills",
+      "sources": [
+        "techopolis/awesome-ios-ai"
+      ]
+    },
+    {
+      "name": "swift-concurrency-agent-skill",
+      "source": "techopolis",
+      "sourceAgent": "generic",
+      "repo": "avdlee/swift-concurrency-agent-skill",
+      "stars": 0,
+      "desc": "Swift Concurrency",
+      "url": "https://github.com/AvdLee/Swift-Concurrency-Agent-Skill",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "ios",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "Swift Concurrency avdlee/swift-concurrency-agent-skill",
+      "sources": [
+        "techopolis/awesome-ios-ai"
+      ]
+    },
+    {
+      "name": "swift-architecture-skill",
+      "source": "techopolis",
+      "sourceAgent": "generic",
+      "repo": "efremidze/swift-architecture-skill",
+      "stars": 0,
+      "desc": "Swift Architecture",
+      "url": "https://github.com/efremidze/swift-architecture-skill",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "ios",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "Swift Architecture efremidze/swift-architecture-skill",
+      "sources": [
+        "techopolis/awesome-ios-ai"
+      ]
+    },
+    {
+      "name": "core-data-agent-skill",
+      "source": "techopolis",
+      "sourceAgent": "generic",
+      "repo": "avdlee/core-data-agent-skill",
+      "stars": 0,
+      "desc": "Core Data Expert",
+      "url": "https://github.com/AvdLee/Core-Data-Agent-Skill",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "Core Data Expert avdlee/core-data-agent-skill",
+      "sources": [
+        "techopolis/awesome-ios-ai"
+      ]
+    },
+    {
+      "name": "swift-ios-skills",
+      "source": "techopolis",
+      "sourceAgent": "generic",
+      "repo": "dpearson2699/swift-ios-skills",
+      "stars": 0,
+      "desc": "SwiftData",
+      "url": "https://github.com/dpearson2699/swift-ios-skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "ios",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "SwiftData dpearson2699/swift-ios-skills",
+      "sources": [
+        "techopolis/awesome-ios-ai"
+      ]
+    },
+    {
+      "name": "swift-testing-agent-skill",
+      "source": "techopolis",
+      "sourceAgent": "generic",
+      "repo": "avdlee/swift-testing-agent-skill",
+      "stars": 0,
+      "desc": "Swift Testing Expert",
+      "url": "https://github.com/AvdLee/Swift-Testing-Agent-Skill",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "ios",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "Swift Testing Expert avdlee/swift-testing-agent-skill",
+      "sources": [
+        "techopolis/awesome-ios-ai"
+      ]
+    },
+    {
+      "name": "claude-swift-engineering",
+      "source": "techopolis",
+      "sourceAgent": "claude",
+      "repo": "johnrogers/claude-swift-engineering",
+      "stars": 0,
+      "desc": "iOS HIG",
+      "url": "https://github.com/johnrogers/claude-swift-engineering",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "ios",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "iOS HIG johnrogers/claude-swift-engineering",
+      "sources": [
+        "techopolis/awesome-ios-ai"
+      ]
+    },
+    {
+      "name": "skills",
+      "source": "techopolis",
+      "sourceAgent": "generic",
+      "repo": "swiftwasm/skills",
+      "stars": 0,
+      "desc": "SwiftWasm Skills",
+      "url": "https://github.com/swiftwasm/skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "SwiftWasm Skills swiftwasm/skills",
+      "sources": [
+        "techopolis/awesome-ios-ai"
+      ]
+    },
+    {
+      "name": "swift-agents",
+      "source": "techopolis",
+      "sourceAgent": "generic",
+      "repo": "techopolis/swift-agents",
+      "stars": 0,
+      "desc": "Swift Agents",
+      "url": "https://github.com/Techopolis/swift-agents",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "agent",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "Swift Agents techopolis/swift-agents",
+      "sources": [
+        "techopolis/awesome-ios-ai"
+      ]
+    },
+    {
+      "name": "xcodebuildmcp",
+      "source": "techopolis",
+      "sourceAgent": "generic",
+      "repo": "getsentry/xcodebuildmcp",
+      "stars": 0,
+      "desc": "XcodeBuildMCP",
+      "url": "https://github.com/getsentry/XcodeBuildMCP",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "XcodeBuildMCP getsentry/xcodebuildmcp",
+      "sources": [
+        "techopolis/awesome-ios-ai"
+      ]
+    },
+    {
+      "name": "apple-docs-mcp",
+      "source": "techopolis",
+      "sourceAgent": "generic",
+      "repo": "kimsungwhee/apple-docs-mcp",
+      "stars": 0,
+      "desc": "Apple Docs MCP",
+      "url": "https://github.com/kimsungwhee/apple-docs-mcp",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "Apple Docs MCP kimsungwhee/apple-docs-mcp",
+      "sources": [
+        "techopolis/awesome-ios-ai"
+      ]
+    },
+    {
+      "name": "xcode-mcp-server",
+      "source": "techopolis",
+      "sourceAgent": "generic",
+      "repo": "r-huijts/xcode-mcp-server",
+      "stars": 0,
+      "desc": "Xcode MCP Server",
+      "url": "https://github.com/r-huijts/xcode-mcp-server",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "Xcode MCP Server r-huijts/xcode-mcp-server",
+      "sources": [
+        "techopolis/awesome-ios-ai"
+      ]
+    },
+    {
+      "name": "swift-sdk",
+      "source": "techopolis",
+      "sourceAgent": "generic",
+      "repo": "modelcontextprotocol/swift-sdk",
+      "stars": 0,
+      "desc": "MCP Swift SDK",
+      "url": "https://github.com/modelcontextprotocol/swift-sdk",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "MCP Swift SDK modelcontextprotocol/swift-sdk",
+      "sources": [
+        "techopolis/awesome-ios-ai"
+      ]
+    },
+    {
+      "name": "swift-patterns-mcp",
+      "source": "techopolis",
+      "sourceAgent": "generic",
+      "repo": "efremidze/swift-patterns-mcp",
+      "stars": 0,
+      "desc": "Swift Patterns MCP",
+      "url": "https://github.com/efremidze/swift-patterns-mcp",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [],
+      "searchText": "Swift Patterns MCP efremidze/swift-patterns-mcp",
+      "sources": [
+        "techopolis/awesome-ios-ai"
+      ]
+    },
+    {
+      "name": "copilotforxcode",
+      "source": "techopolis",
+      "sourceAgent": "copilot",
+      "repo": "github/copilotforxcode",
+      "stars": 0,
+      "desc": "Copilot for Xcode",
+      "url": "https://github.com/github/CopilotForXcode",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "ios",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "copilot"
+      ],
+      "searchText": "Copilot for Xcode github/copilotforxcode",
+      "sources": [
+        "techopolis/awesome-ios-ai"
+      ]
+    },
+    {
+      "name": "ToolJet",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "ToolJet/ToolJet",
+      "stars": 38109,
+      "desc": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generator",
+      "url": "https://github.com/ToolJet/ToolJet",
+      "install": "$skill-installer ToolJet",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "ToolJet tooljet is the open-source foundation of tooljet ai - the enterprise app generator tooljet/tooljet $skill-installer ToolJet dev-tools claude"
+    },
+    {
+      "name": "mcp-use",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "mcp-use/mcp-use",
+      "stars": 10164,
+      "desc": "The fullstack MCP framework to develop MCP Apps for ChatGPT/Claude & MCP Servers",
+      "url": "https://github.com/mcp-use/mcp-use",
+      "install": "$skill-installer mcp-use",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "mcp-use the fullstack mcp framework to develop mcp apps for chatgpt/claude & mcp servers mcp-use/mcp-use $skill-installer mcp-use dev-tools claude"
+    },
+    {
+      "name": "ua-parser-js",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "faisalman/ua-parser-js",
+      "stars": 10151,
+      "desc": "UAParser.js - The Essential Web Development Tool for User-Agent Detection",
+      "url": "https://github.com/faisalman/ua-parser-js",
+      "install": "$skill-installer ua-parser-js",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "ua-parser-js uaparser.js - the essential web development tool for user-agent detection faisalman/ua-parser-js $skill-installer ua-parser-js dev-tools claude"
+    },
+    {
+      "name": "DesktopCommanderMCP",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "wonderwhy-er/DesktopCommanderMCP",
+      "stars": 6224,
+      "desc": "MCP server for Claude that gives it terminal control, file system, diff tools",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "install": "$skill-installer DesktopCommanderMCP",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "DesktopCommanderMCP mcp server for claude that gives it terminal control, file system, diff tools wonderwhy-er/desktopcommandermcp $skill-installer DesktopCommanderMCP dev-tools claude"
+    },
+    {
+      "name": "bb-browser",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "epiral/bb-browser",
+      "stars": 5910,
+      "desc": "Your browser is the API. CLI + MCP server for AI agents to control Chrome",
+      "url": "https://github.com/epiral/bb-browser",
+      "install": "$skill-installer bb-browser",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "bb-browser your browser is the api. cli + mcp server for ai agents to control chrome epiral/bb-browser $skill-installer bb-browser dev-tools claude"
+    },
+    {
+      "name": "loop-engineering",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "cobusgreyling/loop-engineering",
+      "stars": 3771,
+      "desc": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents",
+      "url": "https://github.com/cobusgreyling/loop-engineering",
+      "install": "$skill-installer loop-engineering",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "loop-engineering practical patterns, starters & cli tools for loop engineering with ai coding agents cobusgreyling/loop-engineering $skill-installer loop-engineering dev-tools claude"
+    },
+    {
+      "name": "loopy",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "Forward-Future/loopy",
+      "stars": 2059,
+      "desc": "A library of practical AI-agent loops and installable skill for agent workflows",
+      "url": "https://github.com/Forward-Future/loopy",
+      "install": "$skill-installer loopy",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "loopy a library of practical ai-agent loops and installable skill for agent workflows forward-future/loopy $skill-installer loopy dev-tools claude"
+    },
+    {
+      "name": "agentql",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "tinyfish-io/agentql",
+      "stars": 1409,
+      "desc": "AgentQL is a suite of tools for connecting your AI to the web with query language",
+      "url": "https://github.com/tinyfish-io/agentql",
+      "install": "$skill-installer agentql",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "agentql agentql is a suite of tools for connecting your ai to the web with query language tinyfish-io/agentql $skill-installer agentql dev-tools claude"
+    },
+    {
+      "name": "continue",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "continuedev/continue",
+      "stars": 23705,
+      "desc": "Continue is the leading open-source AI code assistant with custom slash commands",
+      "url": "https://github.com/continuedev/continue",
+      "install": "$skill-installer continue",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "continue continue is the leading open-source ai code assistant with custom slash commands continuedev/continue $skill-installer continue dev-tools claude"
+    },
+    {
+      "name": "stagehand",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "browserbase/stagehand",
+      "stars": 11728,
+      "desc": "AI web browsing framework for agents - simple, fast, reliable automation",
+      "url": "https://github.com/browserbase/stagehand",
+      "install": "$skill-installer stagehand",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "stagehand ai web browsing framework for agents - simple, fast, reliable automation browserbase/stagehand $skill-installer stagehand dev-tools claude"
+    },
+    {
+      "name": "plandex",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "plandex-ai/plandex",
+      "stars": 13663,
+      "desc": "AI coding agent in your terminal - build complex software with LLMs",
+      "url": "https://github.com/plandex-ai/plandex",
+      "install": "$skill-installer plandex",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "plandex ai coding agent in your terminal - build complex software with llms plandex-ai/plandex $skill-installer plandex dev-tools claude"
+    },
+    {
+      "name": "DeepSeek-engineer",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "Doriandarko/DeepSeek-engineer",
+      "stars": 1405,
+      "desc": "DeepSeek Engineer - AI coding agent with file operations and context management",
+      "url": "https://github.com/Doriandarko/DeepSeek-engineer",
+      "install": "$skill-installer DeepSeek-engineer",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "DeepSeek-engineer deepseek engineer - ai coding agent with file operations and context management doriandarko/deepseek-engineer $skill-installer DeepSeek-engineer dev-tools claude"
+    },
+    {
+      "name": "codex-mcp",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "openai/codex-mcp",
+      "stars": 2123,
+      "desc": "OpenAI Codex MCP integration - connect Codex to MCP ecosystem",
+      "url": "https://github.com/openai/codex-mcp",
+      "install": "$skill-installer codex-mcp",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "codex-mcp openai codex mcp integration - connect codex to mcp ecosystem openai/codex-mcp $skill-installer codex-mcp dev-tools claude"
+    },
+    {
+      "name": "mcp-use-servers",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "anthropics/mcp-use-servers",
+      "stars": 2547,
+      "desc": "Official MCP servers from Anthropic for common tools and services",
+      "url": "https://github.com/anthropics/mcp-use-servers",
+      "install": "$skill-installer mcp-use-servers",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "mcp-use-servers official mcp servers from anthropic for common tools and services anthropics/mcp-use-servers $skill-installer mcp-use-servers dev-tools claude"
+    },
+    {
+      "name": "OpenSpec",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "Fission-AI/OpenSpec",
+      "stars": 57506,
+      "desc": "Spec-driven development (SDD) for AI coding assistants",
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "install": "$skill-installer OpenSpec",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "OpenSpec spec-driven development (sdd) for ai coding assistants fission-ai/openspec $skill-installer OpenSpec dev-tools claude"
+    },
+    {
+      "name": "mcp-chrome",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "hangwin/mcp-chrome",
+      "stars": 12002,
+      "desc": "Chrome MCP Server is a Chrome extension-based Model Context Protocol server",
+      "url": "https://github.com/hangwin/mcp-chrome",
+      "install": "$skill-installer mcp-chrome",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "mcp-chrome chrome mcp server is a chrome extension-based model context protocol server hangwin/mcp-chrome $skill-installer mcp-chrome dev-tools claude"
+    },
+    {
+      "name": "git-mcp",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "idosal/git-mcp",
+      "stars": 8214,
+      "desc": "GitMCP is a free, open-source, remote code context for AI agents via MCP",
+      "url": "https://github.com/idosal/git-mcp",
+      "install": "$skill-installer git-mcp",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "git-mcp gitmcp is a free, open-source, remote code context for ai agents via mcp idosal/git-mcp $skill-installer git-mcp dev-tools claude"
+    },
+    {
+      "name": "lamda",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "firerpa/lamda",
+      "stars": 7845,
+      "desc": "Android Full-Stack Device Control Platform: WebRTC/H.264 remote desktop",
+      "url": "https://github.com/firerpa/lamda",
+      "install": "$skill-installer lamda",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "lamda android full-stack device control platform: webrtc/h.264 remote desktop firerpa/lamda $skill-installer lamda dev-tools claude"
+    },
+    {
+      "name": "camofox-browser",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "jo-inc/camofox-browser",
+      "stars": 7270,
+      "desc": "Stealth headless browser for AI agents bypassing Cloudflare, bot detection",
+      "url": "https://github.com/jo-inc/camofox-browser",
+      "install": "$skill-installer camofox-browser",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "camofox-browser stealth headless browser for ai agents bypassing cloudflare, bot detection jo-inc/camofox-browser $skill-installer camofox-browser dev-tools claude"
+    },
+    {
+      "name": "mcp",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "BrowserMCP/mcp",
+      "stars": 6737,
+      "desc": "Browser MCP is a Model Context Provider server that allows AI apps to browse",
+      "url": "https://github.com/BrowserMCP/mcp",
+      "install": "$skill-installer mcp",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "mcp browser mcp is a model context provider server that allows ai apps to browse browsermcp/mcp $skill-installer mcp dev-tools claude"
+    },
+    {
+      "name": "klavis",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "Klavis-AI/klavis",
+      "stars": 5763,
+      "desc": "Klavis AI: MCP integration platforms that let AI agents use tools reliably",
+      "url": "https://github.com/Klavis-AI/klavis",
+      "install": "$skill-installer klavis",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "klavis klavis ai: mcp integration platforms that let ai agents use tools reliably klavis-ai/klavis $skill-installer klavis dev-tools claude"
+    },
+    {
+      "name": "cody-public-snapshot",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "sourcegraph/cody-public-snapshot",
+      "stars": 3801,
+      "desc": "Cody is an AI code assistant that uses advanced search for accurate answers",
+      "url": "https://github.com/sourcegraph/cody-public-snapshot",
+      "install": "$skill-installer cody-public-snapshot",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "cody-public-snapshot cody is an ai code assistant that uses advanced search for accurate answers sourcegraph/cody-public-snapshot $skill-installer cody-public-snapshot dev-tools claude"
+    },
+    {
+      "name": "tabularis",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "TabularisDB/tabularis",
+      "stars": 3451,
+      "desc": "Open-source desktop SQL workspace for PostgreSQL, MySQL/MariaDB, SQLite",
+      "url": "https://github.com/TabularisDB/tabularis",
+      "install": "$skill-installer tabularis",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "tabularis open-source desktop sql workspace for postgresql, mysql/mariadb, sqlite tabularisdb/tabularis $skill-installer tabularis dev-tools claude"
+    },
+    {
+      "name": "dbhub",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "bytebase/dbhub",
+      "stars": 3049,
+      "desc": "Zero-dependency, token-efficient database MCP server for Postgres, MySQL",
+      "url": "https://github.com/bytebase/dbhub",
+      "install": "$skill-installer dbhub",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "dbhub zero-dependency, token-efficient database mcp server for postgres, mysql bytebase/dbhub $skill-installer dbhub dev-tools claude"
+    },
+    {
+      "name": "opendia",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "aaronjmars/opendia",
+      "stars": 1837,
+      "desc": "Connect your browser to AI models - Dia for Chrome, Arc or Firefox",
+      "url": "https://github.com/aaronjmars/opendia",
+      "install": "$skill-installer opendia",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "opendia connect your browser to ai models - dia for chrome, arc or firefox aaronjmars/opendia $skill-installer opendia dev-tools claude"
+    },
+    {
+      "name": "pi",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "earendil-works/pi",
+      "stars": 66294,
+      "desc": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "url": "https://github.com/earendil-works/pi",
+      "install": "$skill-installer pi",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "pi ai agent toolkit: unified llm api, agent loop, tui, coding agent cli earendil-works/pi $skill-installer pi dev-tools claude"
+    },
+    {
+      "name": "ai",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "vercel/ai",
+      "stars": 25225,
+      "desc": "The AI Toolkit for TypeScript. Build AI-powered products with the AI SDK.",
+      "url": "https://github.com/vercel/ai",
+      "install": "$skill-installer ai",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "ai the ai toolkit for typescript. build ai-powered products with the ai sdk. vercel/ai $skill-installer ai dev-tools claude"
+    },
+    {
+      "name": "opcode",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "winfunc/opcode",
+      "stars": 22125,
+      "desc": "A powerful GUI app and Toolkit for Claude Code - create custom agents",
+      "url": "https://github.com/winfunc/opcode",
+      "install": "$skill-installer opcode",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "opcode a powerful gui app and toolkit for claude code - create custom agents winfunc/opcode $skill-installer opcode dev-tools claude"
+    },
+    {
+      "name": "nanobrowser",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "nanobrowser/nanobrowser",
+      "stars": 13373,
+      "desc": "Open-Source Chrome extension for AI-powered web automation. Multi-agent workflows.",
+      "url": "https://github.com/nanobrowser/nanobrowser",
+      "install": "$skill-installer nanobrowser",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "nanobrowser open-source chrome extension for ai-powered web automation. multi-agent workflows. nanobrowser/nanobrowser $skill-installer nanobrowser dev-tools claude"
+    },
+    {
+      "name": "superset",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "superset-sh/superset",
+      "stars": 12158,
+      "desc": "Code Editor for the AI Agents Era - Run an army of Claude Code, Codex on your codebase",
+      "url": "https://github.com/superset-sh/superset",
+      "install": "$skill-installer superset",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "superset code editor for the ai agents era - run an army of claude code, codex on your codebase superset-sh/superset $skill-installer superset dev-tools claude"
+    },
+    {
+      "name": "BrowserOS",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "browseros-ai/BrowserOS",
+      "stars": 11571,
+      "desc": "The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Comet",
+      "url": "https://github.com/browseros-ai/BrowserOS",
+      "install": "$skill-installer BrowserOS",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "BrowserOS the open-source agentic browser; alternative to chatgpt atlas, perplexity comet browseros-ai/browseros $skill-installer BrowserOS dev-tools claude"
+    },
+    {
+      "name": "humanlayer",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "humanlayer/humanlayer",
+      "stars": 11071,
+      "desc": "The best way to get AI coding agents to solve hard problems in complex codebases",
+      "url": "https://github.com/humanlayer/humanlayer",
+      "install": "$skill-installer humanlayer",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "humanlayer the best way to get ai coding agents to solve hard problems in complex codebases humanlayer/humanlayer $skill-installer humanlayer dev-tools claude"
+    },
+    {
+      "name": "sandbox",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "agent-infra/sandbox",
+      "stars": 5278,
+      "desc": "All-in-One Sandbox for AI Agents: Browser, Shell, File, MCP and VSCode",
+      "url": "https://github.com/agent-infra/sandbox",
+      "install": "$skill-installer sandbox",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "sandbox all-in-one sandbox for ai agents: browser, shell, file, mcp and vscode agent-infra/sandbox $skill-installer sandbox dev-tools claude"
+    },
+    {
+      "name": "rocketride-server",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "rocketride-org/rocketride-server",
+      "stars": 4683,
+      "desc": "High-performance AI pipeline engine with C++ core and 50+ Python-extensible nodes",
+      "url": "https://github.com/rocketride-org/rocketride-server",
+      "install": "$skill-installer rocketride-server",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "rocketride-server high-performance ai pipeline engine with c++ core and 50+ python-extensible nodes rocketride-org/rocketride-server $skill-installer rocketride-server dev-tools claude"
+    },
+    {
+      "name": "arcade-mcp",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "ArcadeAI/arcade-mcp",
+      "stars": 939,
+      "desc": "MCP Server Framework and Tool Development library for building custom capabilities",
+      "url": "https://github.com/ArcadeAI/arcade-mcp",
+      "install": "$skill-installer arcade-mcp",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "arcade-mcp mcp server framework and tool development library for building custom capabilities arcadeai/arcade-mcp $skill-installer arcade-mcp dev-tools claude"
+    },
+    {
+      "name": "golf",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "golf-mcp/golf",
+      "stars": 834,
+      "desc": "Production-Ready MCP Server Framework for building secure AI agent integrations",
+      "url": "https://github.com/golf-mcp/golf",
+      "install": "$skill-installer golf",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "golf production-ready mcp server framework for building secure ai agent integrations golf-mcp/golf $skill-installer golf dev-tools claude"
+    },
+    {
+      "name": "mcp-gateway-registry",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "agentic-community/mcp-gateway-registry",
+      "stars": 751,
+      "desc": "Enterprise-ready MCP Gateway & Registry for centralizing AI development tools",
+      "url": "https://github.com/agentic-community/mcp-gateway-registry",
+      "install": "$skill-installer mcp-gateway-registry",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "mcp-gateway-registry enterprise-ready mcp gateway & registry for centralizing ai development tools agentic-community/mcp-gateway-registry $skill-installer mcp-gateway-registry dev-tools claude"
+    },
+    {
+      "name": "idea-reality-mcp",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "mnemox-ai/idea-reality-mcp",
+      "stars": 737,
+      "desc": "Pre-build reality check for AI coding agents. Scans GitHub, HN, npm, PyPI, ProductHunt",
+      "url": "https://github.com/mnemox-ai/idea-reality-mcp",
+      "install": "$skill-installer idea-reality-mcp",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "idea-reality-mcp pre-build reality check for ai coding agents. scans github, hn, npm, pypi, producthunt mnemox-ai/idea-reality-mcp $skill-installer idea-reality-mcp dev-tools claude"
     }
   ]
 }

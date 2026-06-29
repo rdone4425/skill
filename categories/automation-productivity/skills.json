@@ -2795,6 +2795,186 @@
         "agent-skills-compatible"
       ],
       "searchText": "openhealth openhealth is a local-first health data runtime for agents. the supported yazanabuashour/openhealth install the openhealth runner per readme automation-productivity agent-skills-compatible"
+    },
+    {
+      "name": "activepieces",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "activepieces/activepieces",
+      "stars": 23030,
+      "desc": "AI Agents & MCPs & AI Workflow Automation (~400 MCP servers for AI agents)",
+      "url": "https://github.com/activepieces/activepieces",
+      "install": "$skill-installer activepieces",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "activepieces ai agents & mcps & ai workflow automation (~400 mcp servers for ai agents) activepieces/activepieces $skill-installer activepieces automation-productivity claude"
+    },
+    {
+      "name": "ai-goofish-monitor",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "Usagi-org/ai-goofish-monitor",
+      "stars": 12690,
+      "desc": "基于Playwright和AI实现的闲鱼多任务实时/定时监控与智能分析系统",
+      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+      "install": "$skill-installer ai-goofish-monitor",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "ai-goofish-monitor 基于playwright和ai实现的闲鱼多任务实时/定时监控与智能分析系统 usagi-org/ai-goofish-monitor $skill-installer ai-goofish-monitor automation-productivity claude"
+    },
+    {
+      "name": "vexa",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "Vexa-ai/vexa",
+      "stars": 2225,
+      "desc": "Open-source meeting transcription API for Google Meet, Microsoft Teams & Zoom",
+      "url": "https://github.com/Vexa-ai/vexa",
+      "install": "$skill-installer vexa",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "vexa open-source meeting transcription api for google meet, microsoft teams & zoom vexa-ai/vexa $skill-installer vexa automation-productivity claude"
+    },
+    {
+      "name": "mcp-shrimp-task-manager",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "cjo4m06/mcp-shrimp-task-manager",
+      "stars": 2122,
+      "desc": "Shrimp Task Manager - task tool built for AI Agents with chain-of-thought",
+      "url": "https://github.com/cjo4m06/mcp-shrimp-task-manager",
+      "install": "$skill-installer mcp-shrimp-task-manager",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "mcp-shrimp-task-manager shrimp task manager - task tool built for ai agents with chain-of-thought cjo4m06/mcp-shrimp-task-manager $skill-installer mcp-shrimp-task-manager automation-productivity claude"
+    },
+    {
+      "name": "rpaframework",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "robocorp/rpaframework",
+      "stars": 1525,
+      "desc": "Collection of open-source libraries and tools for Robotic Process Automation",
+      "url": "https://github.com/robocorp/rpaframework",
+      "install": "$skill-installer rpaframework",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "rpaframework collection of open-source libraries and tools for robotic process automation robocorp/rpaframework $skill-installer rpaframework automation-productivity claude"
+    },
+    {
+      "name": "obsei",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "obsei/obsei",
+      "stars": 1412,
+      "desc": "Obsei is a low code AI powered automation tool for business intelligence",
+      "url": "https://github.com/obsei/obsei",
+      "install": "$skill-installer obsei",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "obsei obsei is a low code ai powered automation tool for business intelligence obsei/obsei $skill-installer obsei automation-productivity claude"
+    },
+    {
+      "name": "n8n",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "n8n-io/n8n",
+      "stars": 76780,
+      "desc": "Free and source-available fair-code licensed workflow automation tool",
+      "url": "https://github.com/n8n-io/n8n",
+      "install": "$skill-installer n8n",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "n8n free and source-available fair-code licensed workflow automation tool n8n-io/n8n $skill-installer n8n automation-productivity claude"
+    },
+    {
+      "name": "baserow",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "baserow/baserow",
+      "stars": 5185,
+      "desc": "Build databases, automations, apps & agents with AI — no code. Open source.",
+      "url": "https://github.com/baserow/baserow",
+      "install": "$skill-installer baserow",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "baserow build databases, automations, apps & agents with ai — no code. open source. baserow/baserow $skill-installer baserow automation-productivity claude"
+    },
+    {
+      "name": "Integuru",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "Integuru-AI/Integuru",
+      "stars": 4628,
+      "desc": "The first AI agent that builds permissionless integrations through reverse engineering",
+      "url": "https://github.com/Integuru-AI/Integuru",
+      "install": "$skill-installer Integuru",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Integuru the first ai agent that builds permissionless integrations through reverse engineering integuru-ai/integuru $skill-installer Integuru automation-productivity claude"
+    },
+    {
+      "name": "natively-cluely-ai-assistant",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "Natively-AI-assistant/natively-cluely-ai-assistant",
+      "stars": 1662,
+      "desc": "Free open-source AI meeting assistant, interview copilot with transcription",
+      "url": "https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant",
+      "install": "$skill-installer natively-cluely-ai-assistant",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "natively-cluely-ai-assistant free open-source ai meeting assistant, interview copilot with transcription natively-ai-assistant/natively-cluely-ai-assistant $skill-installer natively-cluely-ai-assistant automation-productivity claude"
     }
   ]
 }

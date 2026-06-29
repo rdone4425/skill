@@ -9419,6 +9419,1463 @@
         "claude"
       ],
       "searchText": "zoom automation automate zoom: meetings, recordings, participants, webinars, and reports. composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "bazi-persona-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "cantian-ai/bazi-persona-skill",
+      "stars": 0,
+      "desc": "八字人格",
+      "url": "https://github.com/cantian-ai/bazi-persona-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "八字人格 cantian-ai/bazi-persona-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "curator-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "aar0npb/curator-skill",
+      "stars": 0,
+      "desc": "图鉴.skill",
+      "url": "https://github.com/Aar0nPB/curator-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "图鉴.skill aar0npb/curator-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "digital-life",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "wildbyteai/digital-life",
+      "stars": 0,
+      "desc": "数字人生.skills",
+      "url": "https://github.com/wildbyteai/digital-life",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "数字人生.skills wildbyteai/digital-life",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "forge-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "yikuaibanzi/forge-skill",
+      "stars": 0,
+      "desc": "Forge Skill",
+      "url": "https://github.com/YIKUAIBANZI/forge-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "Forge Skill yikuaibanzi/forge-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "immortal-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "agenmod/immortal-skill",
+      "stars": 0,
+      "desc": "永生.skill",
+      "url": "https://github.com/agenmod/immortal-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "永生.skill agenmod/immortal-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "master-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "swaylq/master-skill",
+      "stars": 0,
+      "desc": "大师.skill",
+      "url": "https://github.com/swaylq/master-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "大师.skill swaylq/master-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "midas-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "realteamprinz/midas-skill",
+      "stars": 0,
+      "desc": "midas.skill",
+      "url": "https://github.com/realteamprinz/midas-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "midas.skill realteamprinz/midas-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "my-anti-distill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "lcmomo/my-anti-distill",
+      "stars": 0,
+      "desc": "反蒸馏 Skill",
+      "url": "https://github.com/lcmomo/my-anti-distill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "反蒸馏 Skill lcmomo/my-anti-distill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "my-digital-life",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "weixr18/my-digital-life",
+      "stars": 0,
+      "desc": "数字生命开源计划",
+      "url": "https://github.com/weixr18/my-digital-life",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "数字生命开源计划 weixr18/my-digital-life",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "nuwa-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/nuwa-skill",
+      "stars": 0,
+      "desc": "女娲.skill",
+      "url": "https://github.com/alchaincyf/nuwa-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "女娲.skill alchaincyf/nuwa-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "persona-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "tomsawyerhu/persona-skill",
+      "stars": 0,
+      "desc": "Persona Skill",
+      "url": "https://github.com/Tomsawyerhu/Persona-Skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "agent",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "Persona Skill tomsawyerhu/persona-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "skill-fidelity-bench",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "c0ffee-milk/skill-fidelity-bench",
+      "stars": 0,
+      "desc": "Skill Fidelity Bench",
+      "url": "https://github.com/c0ffee-milk/skill-fidelity-bench",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "Skill Fidelity Bench c0ffee-milk/skill-fidelity-bench",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "vibeportrait",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "dadwadw233/vibeportrait",
+      "stars": 0,
+      "desc": "VibePortrait",
+      "url": "https://github.com/dadwadw233/VibePortrait",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "VibePortrait dadwadw233/vibeportrait",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "yourself-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "notdog1998/yourself-skill",
+      "stars": 0,
+      "desc": "自己.skill",
+      "url": "https://github.com/notdog1998/yourself-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "自己.skill notdog1998/yourself-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "zhuzi-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "linzzzzzz/zhuzi-skill",
+      "stars": 0,
+      "desc": "诸子.skill",
+      "url": "https://github.com/linzzzzzz/zhuzi-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "诸子.skill linzzzzzz/zhuzi-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "boss-skills",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "vogtsw/boss-skills",
+      "stars": 0,
+      "desc": "老板.skill",
+      "url": "https://github.com/vogtsw/boss-skills",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "老板.skill vogtsw/boss-skills",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "colleague-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "titanwings/colleague-skill",
+      "stars": 0,
+      "desc": "同事.skill",
+      "url": "https://github.com/titanwings/colleague-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "同事.skill titanwings/colleague-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "hr-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "schlaflied/hr-skill",
+      "stars": 0,
+      "desc": "HR.skill",
+      "url": "https://github.com/Schlaflied/hr-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "HR.skill schlaflied/hr-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "professor-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "commithu502craft/professor-skill",
+      "stars": 0,
+      "desc": "大学老师.skill",
+      "url": "https://github.com/CommitHu502Craft/professor-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "大学老师.skill commithu502craft/professor-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "roast-cold-email-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "schlaflied/roast-cold-email-skill",
+      "stars": 0,
+      "desc": "roast-cold-email-skill",
+      "url": "https://github.com/Schlaflied/roast-cold-email-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "roast-cold-email-skill schlaflied/roast-cold-email-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "senpai-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "zhanghaichao520/senpai-skill",
+      "stars": 0,
+      "desc": "师兄.skill",
+      "url": "https://github.com/zhanghaichao520/senpai-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "师兄.skill zhanghaichao520/senpai-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "supervisor",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "ybq22/supervisor",
+      "stars": 0,
+      "desc": "导师.skill",
+      "url": "https://github.com/ybq22/supervisor",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "导师.skill ybq22/supervisor",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "brother-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "realteamprinz/brother-skill",
+      "stars": 0,
+      "desc": "兄弟.skill",
+      "url": "https://github.com/realteamprinz/brother-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "兄弟.skill realteamprinz/brother-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "crush-skills",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "xiaoheizi8/crush-skills",
+      "stars": 0,
+      "desc": "暗恋对象.skill",
+      "url": "https://github.com/xiaoheizi8/crush-skills",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "暗恋对象.skill xiaoheizi8/crush-skills",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "ex-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "therealxiaomanchu/ex-skill",
+      "stars": 0,
+      "desc": "前任.skill",
+      "url": "https://github.com/therealXiaomanChu/ex-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "前任.skill therealxiaomanchu/ex-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "mamaskill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "jiangziyan-693/mamaskill",
+      "stars": 0,
+      "desc": "MamaSkill",
+      "url": "https://github.com/jiangziyan-693/MamaSkill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "MamaSkill jiangziyan-693/mamaskill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "parents-skills",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "xiaoheizi8/parents-skills",
+      "stars": 0,
+      "desc": "父母.skill",
+      "url": "https://github.com/xiaoheizi8/parents-skills",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "父母.skill xiaoheizi8/parents-skills",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "relationship-training-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "tammytan516/relationship-training-skill",
+      "stars": 0,
+      "desc": "恋爱训练营.skill",
+      "url": "https://github.com/TammyTan516/relationship-training-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "恋爱训练营.skill tammytan516/relationship-training-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "reunion-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "yangdongchen66-boop/reunion-skill",
+      "stars": 0,
+      "desc": "Reunion Skill",
+      "url": "https://github.com/yangdongchen66-boop/reunion-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "Reunion Skill yangdongchen66-boop/reunion-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "aiweizhou-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "terrytian-tech/aiweizhou-skill",
+      "stars": 0,
+      "desc": "AI 维舟.skill",
+      "url": "https://github.com/TerryTian-tech/AIWeiZhou-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "AI 维舟.skill terrytian-tech/aiweizhou-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "buffett-perspective",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "will2025btc/buffett-perspective",
+      "stars": 0,
+      "desc": "巴菲特思维操作系统",
+      "url": "https://github.com/will2025btc/buffett-perspective",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "巴菲特思维操作系统 will2025btc/buffett-perspective",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "changshu-anuo",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "ricardo-vv/changshu-anuo",
+      "stars": 0,
+      "desc": "常熟阿诺（加州盛亦陶） Skill",
+      "url": "https://github.com/Ricardo-Vv/changshu-anuo",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "常熟阿诺（加州盛亦陶） Skill ricardo-vv/changshu-anuo",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "chenze-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "fisher-yu-like/chenze-skill",
+      "stars": 0,
+      "desc": "陈泽.skill",
+      "url": "https://github.com/fisher-yu-like/chenze-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "陈泽.skill fisher-yu-like/chenze-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "elon-musk-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/elon-musk-skill",
+      "stars": 0,
+      "desc": "马斯克.skill",
+      "url": "https://github.com/alchaincyf/elon-musk-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "马斯克.skill alchaincyf/elon-musk-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "fengge-wangmingtianya-perspective",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "rottenpen/fengge-wangmingtianya-perspective",
+      "stars": 0,
+      "desc": "峰哥亡命天涯 Skill",
+      "url": "https://github.com/rottenpen/fengge-wangmingtianya-perspective",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "峰哥亡命天涯 Skill rottenpen/fengge-wangmingtianya-perspective",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "feynman-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/feynman-skill",
+      "stars": 0,
+      "desc": "费曼.skill",
+      "url": "https://github.com/alchaincyf/feynman-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "费曼.skill alchaincyf/feynman-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "guodegang-skills",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "byterax/guodegang-skills",
+      "stars": 0,
+      "desc": "郭德纲.skill",
+      "url": "https://github.com/ByteRax/guodegang-skills",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "郭德纲.skill byterax/guodegang-skills",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "hu-chenfeng-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "janlaywss/hu-chenfeng-skill",
+      "stars": 0,
+      "desc": "户晨风.skill",
+      "url": "https://github.com/Janlaywss/hu-chenfeng-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "户晨风.skill janlaywss/hu-chenfeng-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "ilya-sutskever-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/ilya-sutskever-skill",
+      "stars": 0,
+      "desc": "Ilya.skill",
+      "url": "https://github.com/alchaincyf/ilya-sutskever-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "Ilya.skill alchaincyf/ilya-sutskever-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "justin-bieber-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "fisher-yu-like/justin-bieber-skill",
+      "stars": 0,
+      "desc": "Justin Bieber ·Skill",
+      "url": "https://github.com/fisher-yu-like/justin-bieber-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "Justin Bieber ·Skill fisher-yu-like/justin-bieber-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "karl-marx-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "youaifuou/karl-marx-skill",
+      "stars": 0,
+      "desc": "卡尔·马克思的思维框架与批判方法",
+      "url": "https://github.com/youaifuou/karl-marx-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "卡尔·马克思的思维框架与批判方法 youaifuou/karl-marx-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "karlmarx-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "baojiachen0214/karlmarx-skill",
+      "stars": 0,
+      "desc": "KarlMarx Skill",
+      "url": "https://github.com/baojiachen0214/karlmarx-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "KarlMarx Skill baojiachen0214/karlmarx-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "karpathy-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/karpathy-skill",
+      "stars": 0,
+      "desc": "Karpathy.skill",
+      "url": "https://github.com/alchaincyf/karpathy-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "Karpathy.skill alchaincyf/karpathy-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "liangxi-skills",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "1sh1ro/liangxi-skills",
+      "stars": 0,
+      "desc": "liangxi-skills",
+      "url": "https://github.com/1sh1ro/liangxi-skills",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "liangxi-skills 1sh1ro/liangxi-skills",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "luxun-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "youaifuou/luxun-skill",
+      "stars": 0,
+      "desc": "鲁迅的思维框架与反讽笔法",
+      "url": "https://github.com/youaifuou/luxun-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "鲁迅的思维框架与反讽笔法 youaifuou/luxun-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "mao-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "wwwaapplleecu-source/mao-skill",
+      "stars": 0,
+      "desc": "毛泽东.skill",
+      "url": "https://github.com/wwwaapplleecu-source/mao-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "毛泽东.skill wwwaapplleecu-source/mao-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "maoxuan-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "leezythu/maoxuan-skill",
+      "stars": 0,
+      "desc": "毛选.skill",
+      "url": "https://github.com/leezythu/maoxuan-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "毛选.skill leezythu/maoxuan-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "mises-perspective",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "lijiayudeng/mises-perspective",
+      "stars": 0,
+      "desc": "米塞斯方法论",
+      "url": "https://github.com/LijiayuDeng/mises-perspective",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "米塞斯方法论 lijiayudeng/mises-perspective",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "mrbeast-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/mrbeast-skill",
+      "stars": 0,
+      "desc": "MrBeast.skill",
+      "url": "https://github.com/alchaincyf/mrbeast-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "MrBeast.skill alchaincyf/mrbeast-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "munger-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/munger-skill",
+      "stars": 0,
+      "desc": "芒格.skill",
+      "url": "https://github.com/alchaincyf/munger-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "芒格.skill alchaincyf/munger-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "naval-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/naval-skill",
+      "stars": 0,
+      "desc": "纳瓦尔.skill",
+      "url": "https://github.com/alchaincyf/naval-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "纳瓦尔.skill alchaincyf/naval-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "paul-graham-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/paul-graham-skill",
+      "stars": 0,
+      "desc": "PG.skill",
+      "url": "https://github.com/alchaincyf/paul-graham-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "PG.skill alchaincyf/paul-graham-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "qiushi-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "hughyau/qiushi-skill",
+      "stars": 0,
+      "desc": "求是 Skill",
+      "url": "https://github.com/HughYau/qiushi-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "求是 Skill hughyau/qiushi-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "rob-pike-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "smallnest/rob-pike-skill",
+      "stars": 0,
+      "desc": "罗布派克.skill",
+      "url": "https://github.com/smallnest/rob-pike-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "罗布派克.skill smallnest/rob-pike-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "star-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "yanghaoraneve/star-skill",
+      "stars": 0,
+      "desc": "内娱.skill",
+      "url": "https://github.com/yanghaoraneve/star-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "内娱.skill yanghaoraneve/star-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "steve-jobs-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/steve-jobs-skill",
+      "stars": 0,
+      "desc": "乔布斯.skill",
+      "url": "https://github.com/alchaincyf/steve-jobs-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "乔布斯.skill alchaincyf/steve-jobs-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "taleb-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/taleb-skill",
+      "stars": 0,
+      "desc": "塔勒布.skill",
+      "url": "https://github.com/alchaincyf/taleb-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "塔勒布.skill alchaincyf/taleb-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "tong-jincheng-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "hotcoffeeshake/tong-jincheng-skill",
+      "stars": 0,
+      "desc": "童锦程.skill",
+      "url": "https://github.com/hotcoffeeshake/tong-jincheng-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "童锦程.skill hotcoffeeshake/tong-jincheng-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "trump-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/trump-skill",
+      "stars": 0,
+      "desc": "特朗普.skill",
+      "url": "https://github.com/alchaincyf/trump-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "特朗普.skill alchaincyf/trump-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "wang-er-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "fisher-yu-like/wang-er-skill",
+      "stars": 0,
+      "desc": "王二.skill",
+      "url": "https://github.com/fisher-yu-like/wang-er-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "王二.skill fisher-yu-like/wang-er-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "x-mentor-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/x-mentor-skill",
+      "stars": 0,
+      "desc": "X 导师.skill",
+      "url": "https://github.com/alchaincyf/x-mentor-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "X 导师.skill alchaincyf/x-mentor-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "xinqingnian-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "samadhifire/xinqingnian-skill",
+      "stars": 0,
+      "desc": "新青年.Skill",
+      "url": "https://github.com/SamadhiFire/xinqingnian-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "新青年.Skill samadhifire/xinqingnian-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "zhang-yiming-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/zhang-yiming-skill",
+      "stars": 0,
+      "desc": "张一鸣.skill",
+      "url": "https://github.com/alchaincyf/zhang-yiming-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "张一鸣.skill alchaincyf/zhang-yiming-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "zhangxuefeng-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/zhangxuefeng-skill",
+      "stars": 0,
+      "desc": "张雪峰.skill",
+      "url": "https://github.com/alchaincyf/zhangxuefeng-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "张雪峰.skill alchaincyf/zhangxuefeng-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "zizek-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "jikunr/zizek-skill",
+      "stars": 0,
+      "desc": "zizek-skill",
+      "url": "https://github.com/JikunR/zizek-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "zizek-skill jikunr/zizek-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "bazi-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "jinchenma94/bazi-skill",
+      "stars": 0,
+      "desc": "赛博算命 Skill",
+      "url": "https://github.com/jinchenma94/bazi-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "赛博算命 Skill jinchenma94/bazi-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "diamond-sutra-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "dull-bird/diamond-sutra-skill",
+      "stars": 0,
+      "desc": "金刚经.skill",
+      "url": "https://github.com/dull-bird/diamond-sutra-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "金刚经.skill dull-bird/diamond-sutra-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "fengshui.skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "voidforall/fengshui.skill",
+      "stars": 0,
+      "desc": "堪舆子",
+      "url": "https://github.com/voidforall/fengshui.skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "堪舆子 voidforall/fengshui.skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "master-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "xr843/master-skill",
+      "stars": 0,
+      "desc": "Master-skill",
+      "url": "https://github.com/xr843/Master-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "Master-skill xr843/master-skill",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "numerologist_skills",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "fanzr-arch/numerologist_skills",
+      "stars": 0,
+      "desc": "Numerologist Skills",
+      "url": "https://github.com/FANzR-arch/Numerologist_skills",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "Numerologist Skills fanzr-arch/numerologist_skills",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "yinyuan-skills",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "ming-h/yinyuan-skills",
+      "stars": 0,
+      "desc": "月老·姻缘测算 Skills",
+      "url": "https://github.com/Ming-H/yinyuan-skills",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [],
+      "searchText": "月老·姻缘测算 Skills ming-h/yinyuan-skills",
+      "sources": [
+        "xixu-me/awesome-persona-distill-skills"
+      ]
+    },
+    {
+      "name": "openrecall",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "openrecall/openrecall",
+      "stars": 2872,
+      "desc": "Fully open-source, privacy-first alternative to proprietary recall solutions",
+      "url": "https://github.com/openrecall/openrecall",
+      "install": "$skill-installer openrecall",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "openrecall fully open-source, privacy-first alternative to proprietary recall solutions openrecall/openrecall $skill-installer openrecall general claude"
+    },
+    {
+      "name": "row-bot",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "siddsachar/row-bot",
+      "stars": 1314,
+      "desc": "Row-Bot - Personal AI Sovereignty. Local-first AI assistant with integrated tools",
+      "url": "https://github.com/siddsachar/row-bot",
+      "install": "$skill-installer row-bot",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "row-bot row-bot - personal ai sovereignty. local-first ai assistant with integrated tools siddsachar/row-bot $skill-installer row-bot general claude"
+    },
+    {
+      "name": "AI-Account-Toolkit",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "adminlove520/AI-Account-Toolkit",
+      "stars": 963,
+      "desc": "AI账号注册与管理一站式工具集：ChatGPT/Claude/Gemini批量注册、Token管理",
+      "url": "https://github.com/adminlove520/AI-Account-Toolkit",
+      "install": "$skill-installer AI-Account-Toolkit",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "AI-Account-Toolkit ai账号注册与管理一站式工具集：chatgpt/claude/gemini批量注册、token管理 adminlove520/ai-account-toolkit $skill-installer AI-Account-Toolkit general claude"
+    },
+    {
+      "name": "py-gpt",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "szczyglis-dev/py-gpt",
+      "stars": 1836,
+      "desc": "Desktop AI Assistant powered by GPT-5, GPT-4, Gemini, Claude, local LLMs",
+      "url": "https://github.com/szczyglis-dev/py-gpt",
+      "install": "$skill-installer py-gpt",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "py-gpt desktop ai assistant powered by gpt-5, gpt-4, gemini, claude, local llms szczyglis-dev/py-gpt $skill-installer py-gpt general claude"
+    },
+    {
+      "name": "phantom",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "ghostwright/phantom",
+      "stars": 1436,
+      "desc": "An AI co-worker with its own computer. Self-evolving, persistent memory.",
+      "url": "https://github.com/ghostwright/phantom",
+      "install": "$skill-installer phantom",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "phantom an ai co-worker with its own computer. self-evolving, persistent memory. ghostwright/phantom $skill-installer phantom general claude"
+    },
+    {
+      "name": "bytebot",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "bytebot-ai/bytebot",
+      "stars": 11060,
+      "desc": "Bytebot is a self-hosted AI desktop agent that automates computer tasks",
+      "url": "https://github.com/bytebot-ai/bytebot",
+      "install": "$skill-installer bytebot",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "bytebot bytebot is a self-hosted ai desktop agent that automates computer tasks bytebot-ai/bytebot $skill-installer bytebot general claude"
     }
   ]
 }

@@ -581,6 +581,24 @@
         "unity_resources"
       ],
       "searchText": "unity_resources a list of resources and tutorials for those doing programming in unity. endarren/unity_resources game-dev unity_resources"
+    },
+    {
+      "name": "ai-game-devtools",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "Yuan-ManX/ai-game-devtools",
+      "stars": 1239,
+      "desc": "Your AI Game Dev Hub - ultimate resource hub for AI-powered game development",
+      "url": "https://github.com/Yuan-ManX/ai-game-devtools",
+      "install": "$skill-installer ai-game-devtools",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "ai-game-devtools your ai game dev hub - ultimate resource hub for ai-powered game development yuan-manx/ai-game-devtools $skill-installer ai-game-devtools game-dev claude"
     }
   ]
 }

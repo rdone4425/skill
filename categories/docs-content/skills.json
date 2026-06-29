@@ -3451,6 +3451,114 @@
         "agent-skills-compatible"
       ],
       "searchText": "mdbook this skill should be used when the user asks about \"mdbook\", \"mdbook\", marceloeatworld/mdbook-ai-skill $skill-installer mdbook docs-content agent-skills-compatible"
+    },
+    {
+      "name": "notebooklm-mcp",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "PleasePrompto/notebooklm-mcp",
+      "stars": 2886,
+      "desc": "MCP server for NotebookLM - Let your AI agents research documents from NotebookLM",
+      "url": "https://github.com/PleasePrompto/notebooklm-mcp",
+      "install": "$skill-installer notebooklm-mcp",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "notebooklm-mcp mcp server for notebooklm - let your ai agents research documents from notebooklm pleaseprompto/notebooklm-mcp $skill-installer notebooklm-mcp docs-content claude"
+    },
+    {
+      "name": "DocsGPT",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "arc53/DocsGPT",
+      "stars": 17955,
+      "desc": "Private AI platform for agents, assistants and enterprise search",
+      "url": "https://github.com/arc53/DocsGPT",
+      "install": "$skill-installer DocsGPT",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "DocsGPT private ai platform for agents, assistants and enterprise search arc53/docsgpt $skill-installer DocsGPT docs-content claude"
+    },
+    {
+      "name": "DevDocs",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "cyberagiinc/DevDocs",
+      "stars": 2093,
+      "desc": "Completely free, private, UI based Tech Documentation MCP server",
+      "url": "https://github.com/cyberagiinc/DevDocs",
+      "install": "$skill-installer DevDocs",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "DevDocs completely free, private, ui based tech documentation mcp server cyberagiinc/devdocs $skill-installer DevDocs docs-content claude"
+    },
+    {
+      "name": "note-gen",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "codexu/note-gen",
+      "stars": 12244,
+      "desc": "A cross-platform Markdown AI note-taking software",
+      "url": "https://github.com/codexu/note-gen",
+      "install": "$skill-installer note-gen",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "note-gen a cross-platform markdown ai note-taking software codexu/note-gen $skill-installer note-gen docs-content claude"
+    },
+    {
+      "name": "notebooklm-mcp-cli",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "jacob-bd/notebooklm-mcp-cli",
+      "stars": 5101,
+      "desc": "Programmatic access to Google NotebookLM via CLI, MCP, REST API",
+      "url": "https://github.com/jacob-bd/notebooklm-mcp-cli",
+      "install": "$skill-installer notebooklm-mcp-cli",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "notebooklm-mcp-cli programmatic access to google notebooklm via cli, mcp, rest api jacob-bd/notebooklm-mcp-cli $skill-installer notebooklm-mcp-cli docs-content claude"
+    },
+    {
+      "name": "obsidian-systemsculpt-ai",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "SystemSculpt/obsidian-systemsculpt-ai",
+      "stars": 189,
+      "desc": "Enhance your Obsidian App experience with AI-powered tools for note-taking",
+      "url": "https://github.com/SystemSculpt/obsidian-systemsculpt-ai",
+      "install": "$skill-installer obsidian-systemsculpt-ai",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "obsidian-systemsculpt-ai enhance your obsidian app experience with ai-powered tools for note-taking systemsculpt/obsidian-systemsculpt-ai $skill-installer obsidian-systemsculpt-ai docs-content claude"
     }
   ]
 }

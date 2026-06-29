@@ -1735,6 +1735,42 @@
         "claude"
       ],
       "searchText": "jeffreysprompts.com a curated collection of battle-tested prompts for agentic coding - browse, copy, and install as claude code skills dicklesworthstone/jeffreysprompts.com git clone https://github.com/dicklesworthstone/jeffreysprompts.com.git  # browse the awesome list testing-qa claude"
+    },
+    {
+      "name": "mobile-mcp",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "mobile-next/mobile-mcp",
+      "stars": 5300,
+      "desc": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android)",
+      "url": "https://github.com/mobile-next/mobile-mcp",
+      "install": "$skill-installer mobile-mcp",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "mobile-mcp model context protocol server for mobile automation and scraping (ios, android) mobile-next/mobile-mcp $skill-installer mobile-mcp testing-qa claude"
+    },
+    {
+      "name": "mcp-playwright",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "executeautomation/mcp-playwright",
+      "stars": 5562,
+      "desc": "Playwright Model Context Protocol Server - Tool to automate Browsers and APIs",
+      "url": "https://github.com/executeautomation/mcp-playwright",
+      "install": "$skill-installer mcp-playwright",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "mcp-playwright playwright model context protocol server - tool to automate browsers and apis executeautomation/mcp-playwright $skill-installer mcp-playwright testing-qa claude"
     }
   ]
 }

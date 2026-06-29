@@ -1909,6 +1909,42 @@
         "copilot"
       ],
       "searchText": "qaskills qa skills directory qa skills is a curated directory of testing-specific skills for ai coding agents (claude code, cursor, copilot, etc.). pramoddutta/qaskills git clone https://github.com/pramoddutta/qaskills.git  # browse the awesome list devops-deploy claude cursor copilot"
+    },
+    {
+      "name": "azure-devops-mcp",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "microsoft/azure-devops-mcp",
+      "stars": 1858,
+      "desc": "The MCP server for Azure DevOps, bringing Azure DevOps directly to AI agents",
+      "url": "https://github.com/microsoft/azure-devops-mcp",
+      "install": "$skill-installer azure-devops-mcp",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "azure-devops-mcp the mcp server for azure devops, bringing azure devops directly to ai agents microsoft/azure-devops-mcp $skill-installer azure-devops-mcp devops-deploy claude"
+    },
+    {
+      "name": "agent-toolkit-for-aws",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "aws/agent-toolkit-for-aws",
+      "stars": 1555,
+      "desc": "Official AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "install": "$skill-installer agent-toolkit-for-aws",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "agent-toolkit-for-aws official aws-supported mcp servers, skills, and plugins to help ai agents build on aws aws/agent-toolkit-for-aws $skill-installer agent-toolkit-for-aws devops-deploy claude"
     }
   ]
 }

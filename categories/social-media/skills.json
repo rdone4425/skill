@@ -353,6 +353,60 @@
         "telegram-instapy-scheduling"
       ],
       "searchText": "telegram-instapy-scheduling a telegram bot for scheduling instapy tkd-alex/telegram-instapy-scheduling social-media telegram-instapy-scheduling"
+    },
+    {
+      "name": "xhs_ai_publisher",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "BetaStreetOmnis/xhs_ai_publisher",
+      "stars": 1999,
+      "desc": "AI-powered Xiaohongshu/Rednote content creation and publishing tool with PyQt",
+      "url": "https://github.com/BetaStreetOmnis/xhs_ai_publisher",
+      "install": "$skill-installer xhs_ai_publisher",
+      "functionCategory": "social-media",
+      "topCategoryId": "social",
+      "subCategoryId": "media",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "xhs_ai_publisher ai-powered xiaohongshu/rednote content creation and publishing tool with pyqt betastreetomnis/xhs_ai_publisher $skill-installer xhs_ai_publisher social-media claude"
+    },
+    {
+      "name": "x-tweet-fetcher",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "ythx-101/x-tweet-fetcher",
+      "stars": 888,
+      "desc": "Fetch X/Twitter tweets, replies, timelines, and articles without login or API key",
+      "url": "https://github.com/ythx-101/x-tweet-fetcher",
+      "install": "$skill-installer x-tweet-fetcher",
+      "functionCategory": "social-media",
+      "topCategoryId": "social",
+      "subCategoryId": "media",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "x-tweet-fetcher fetch x/twitter tweets, replies, timelines, and articles without login or api key ythx-101/x-tweet-fetcher $skill-installer x-tweet-fetcher social-media claude"
+    },
+    {
+      "name": "linkedin-mcp-server",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "stickerdaniel/linkedin-mcp-server",
+      "stars": 2552,
+      "desc": "Open-source MCP server for LinkedIn for Claude and MCP-compatible AI agents",
+      "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
+      "install": "$skill-installer linkedin-mcp-server",
+      "functionCategory": "social-media",
+      "topCategoryId": "social",
+      "subCategoryId": "media",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "linkedin-mcp-server open-source mcp server for linkedin for claude and mcp-compatible ai agents stickerdaniel/linkedin-mcp-server $skill-installer linkedin-mcp-server social-media claude"
     }
   ]
 }

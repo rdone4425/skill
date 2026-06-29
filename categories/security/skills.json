@@ -1805,6 +1805,948 @@
         "openclaw"
       ],
       "searchText": "openclaw-skills-security curated, security-first openclaw skills (markdown-based). security audit skills - detect prompt injection, supply chain attacks, credential leaks. works with codex cli, claude code, any llm. useai-pro/openclaw-skills-security pip install openclaw-skills-security security claude codex openclaw"
+    },
+    {
+      "name": "chatinject",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "hwanchang00/chatinject",
+      "stars": 0,
+      "desc": "Code",
+      "url": "https://github.com/hwanchang00/ChatInject",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "Code hwanchang00/chatinject",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "asb",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "agiresearch/asb",
+      "stars": 0,
+      "desc": "ASB",
+      "url": "https://github.com/agiresearch/ASB",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "ASB agiresearch/asb",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "injecagent",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "uiuc-kang-lab/injecagent",
+      "stars": 0,
+      "desc": "InjecAgent",
+      "url": "https://github.com/uiuc-kang-lab/InjecAgent",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "InjecAgent uiuc-kang-lab/injecagent",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "r-judge",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "lordog/r-judge",
+      "stars": 0,
+      "desc": "R-Judge",
+      "url": "https://github.com/Lordog/R-Judge",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "R-Judge lordog/r-judge",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "toolsword",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "junjie-ye/toolsword",
+      "stars": 0,
+      "desc": "ToolSword",
+      "url": "https://github.com/Junjie-Ye/ToolSword",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "ToolSword junjie-ye/toolsword",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "skillguard",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "llmsecurity/skillguard",
+      "stars": 0,
+      "desc": "SkillGuard Dataset",
+      "url": "https://github.com/LLMSecurity/skillguard",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defense",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "SkillGuard Dataset llmsecurity/skillguard",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "www-project-agent-memory-guard",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "owasp/www-project-agent-memory-guard",
+      "stars": 0,
+      "desc": "Agent Memory Guard",
+      "url": "https://github.com/OWASP/www-project-agent-memory-guard",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defense",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "Agent Memory Guard owasp/www-project-agent-memory-guard",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "bounty-sieve",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "junbuilds96/bounty-sieve",
+      "stars": 0,
+      "desc": "Bounty Sieve",
+      "url": "https://github.com/junbuilds96/bounty-sieve",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "Bounty Sieve junbuilds96/bounty-sieve",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "pipelock",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "luckypipewrench/pipelock",
+      "stars": 0,
+      "desc": "Pipelock",
+      "url": "https://github.com/luckyPipewrench/pipelock",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "Pipelock luckypipewrench/pipelock",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "nemoclaw",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "nvidia/nemoclaw",
+      "stars": 0,
+      "desc": "NemoClaw",
+      "url": "https://github.com/NVIDIA/NemoClaw",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "NemoClaw nvidia/nemoclaw",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "invariant",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "invariantlabs-ai/invariant",
+      "stars": 0,
+      "desc": "Invariant Guardrails",
+      "url": "https://github.com/invariantlabs-ai/invariant",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defense",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "Invariant Guardrails invariantlabs-ai/invariant",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "armorer-guard",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "armorerlabs/armorer-guard",
+      "stars": 0,
+      "desc": "Armorer Guard",
+      "url": "https://github.com/ArmorerLabs/Armorer-Guard",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defense",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "Armorer Guard armorerlabs/armorer-guard",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "llm-guard",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "protectai/llm-guard",
+      "stars": 0,
+      "desc": "LLM Guard",
+      "url": "https://github.com/protectai/llm-guard",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defense",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "LLM Guard protectai/llm-guard",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "rebuff",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "protectai/rebuff",
+      "stars": 0,
+      "desc": "Rebuff",
+      "url": "https://github.com/protectai/rebuff",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "Rebuff protectai/rebuff",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "nemo-guardrails",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "nvidia/nemo-guardrails",
+      "stars": 0,
+      "desc": "NeMo Guardrails",
+      "url": "https://github.com/NVIDIA/NeMo-Guardrails",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defense",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "NeMo Guardrails nvidia/nemo-guardrails",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "promptfoo",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "promptfoo/promptfoo",
+      "stars": 0,
+      "desc": "Promptfoo",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "Promptfoo promptfoo/promptfoo",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "garak",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "leondz/garak",
+      "stars": 0,
+      "desc": "Garak",
+      "url": "https://github.com/leondz/garak",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "Garak leondz/garak",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "ipi-proxy",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "vulcanlab/ipi-proxy",
+      "stars": 0,
+      "desc": "IPI-Proxy",
+      "url": "https://github.com/VulcanLab/IPI-Proxy",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "IPI-Proxy vulcanlab/ipi-proxy",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "tuning-engines-cli",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "cerebrixos-org/tuning-engines-cli",
+      "stars": 0,
+      "desc": "Tuning Engines CLI",
+      "url": "https://github.com/cerebrixos-org/tuning-engines-cli",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "Tuning Engines CLI cerebrixos-org/tuning-engines-cli",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "agentskillsscanner",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "sumleo/agentskillsscanner",
+      "stars": 0,
+      "desc": "AgentSkillsScanner",
+      "url": "https://github.com/sumleo/AgentSkillsScanner",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "AgentSkillsScanner sumleo/agentskillsscanner",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "skilltotal",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "pezhik/skilltotal",
+      "stars": 0,
+      "desc": "SkillTotal",
+      "url": "https://github.com/pezhik/skilltotal",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "SkillTotal pezhik/skilltotal",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "skil-lock",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "skills-lock/skil-lock",
+      "stars": 0,
+      "desc": "SkilLock",
+      "url": "https://github.com/skills-lock/skil-lock",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "SkilLock skills-lock/skil-lock",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "agent-diff-guard",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "cubxxw/agent-diff-guard",
+      "stars": 0,
+      "desc": "agent-diff-guard",
+      "url": "https://github.com/cubxxw/agent-diff-guard",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defense",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "agent-diff-guard cubxxw/agent-diff-guard",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "skillid",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "dkoly/skillid",
+      "stars": 0,
+      "desc": "Skillid",
+      "url": "https://github.com/dkoly/skillid",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "Skillid dkoly/skillid",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "assay-harness",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "rul1an/assay-harness",
+      "stars": 0,
+      "desc": "Assay Harness",
+      "url": "https://github.com/Rul1an/Assay-Harness",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "Assay Harness rul1an/assay-harness",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "agent-scan",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "snyk/agent-scan",
+      "stars": 0,
+      "desc": "Agent Scan",
+      "url": "https://github.com/snyk/agent-scan",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "Agent Scan snyk/agent-scan",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "dscan",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "deepscan-security/dscan",
+      "stars": 0,
+      "desc": "DScan",
+      "url": "https://github.com/DeepScan-Security/dscan",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "DScan deepscan-security/dscan",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "sayfos-sdk",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "sayfos-labs/sayfos-sdk",
+      "stars": 0,
+      "desc": "Sayfos SDK",
+      "url": "https://github.com/sayfos-labs/sayfos-sdk",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "Sayfos SDK sayfos-labs/sayfos-sdk",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "pic-standard",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "madeinplutofabio/pic-standard",
+      "stars": 0,
+      "desc": "PIC Standard",
+      "url": "https://github.com/madeinplutofabio/pic-standard",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "PIC Standard madeinplutofabio/pic-standard",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "agent-sentinel",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "junlinwk/agent-sentinel",
+      "stars": 0,
+      "desc": "agent-sentinel",
+      "url": "https://github.com/junlinwk/agent-sentinel",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "agent-sentinel junlinwk/agent-sentinel",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "mcp-sploit",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "prasanna-27eng/mcp-sploit",
+      "stars": 0,
+      "desc": "mcp-sploit",
+      "url": "https://github.com/Prasanna-27eng/mcp-sploit",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "mcp-sploit prasanna-27eng/mcp-sploit",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "clawvisor",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "clawvisor/clawvisor",
+      "stars": 0,
+      "desc": "Clawvisor",
+      "url": "https://github.com/clawvisor/clawvisor",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "Clawvisor clawvisor/clawvisor",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "trent-openclaw-security-assessment",
+      "source": "llmsecurity",
+      "sourceAgent": "openclaw",
+      "repo": "trnt-ai/trent-openclaw-security-assessment",
+      "stars": 0,
+      "desc": "trentclaw",
+      "url": "https://github.com/trnt-ai/trent-openclaw-security-assessment",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "trentclaw trnt-ai/trent-openclaw-security-assessment",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "autogpt",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "significant-gravitas/autogpt",
+      "stars": 0,
+      "desc": "AutoGPT Plugins",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "AutoGPT Plugins significant-gravitas/autogpt",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "awesome-llm-security",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "corca-ai/awesome-llm-security",
+      "stars": 0,
+      "desc": "awesome-llm-security",
+      "url": "https://github.com/corca-ai/awesome-llm-security",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "awesome-llm-security corca-ai/awesome-llm-security",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "awesome-ai-safety",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "hari-sikchi/awesome-ai-safety",
+      "stars": 0,
+      "desc": "awesome-ai-safety",
+      "url": "https://github.com/hari-sikchi/awesome-ai-safety",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "awesome-ai-safety hari-sikchi/awesome-ai-safety",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "awesome-chatgpt-prompts",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "f/awesome-chatgpt-prompts",
+      "stars": 0,
+      "desc": "awesome-chatgpt-prompts",
+      "url": "https://github.com/f/awesome-chatgpt-prompts",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "awesome-chatgpt-prompts f/awesome-chatgpt-prompts",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "awesome-ml-for-cybersecurity",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "jivoi/awesome-ml-for-cybersecurity",
+      "stars": 0,
+      "desc": "awesome-ml-for-cybersecurity",
+      "url": "https://github.com/jivoi/awesome-ml-for-cybersecurity",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "awesome-ml-for-cybersecurity jivoi/awesome-ml-for-cybersecurity",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "awesome-mcp-servers",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "punkpeye/awesome-mcp-servers",
+      "stars": 0,
+      "desc": "awesome-mcp-servers",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "awesome-mcp-servers punkpeye/awesome-mcp-servers",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "awesome-ai-agents",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "e2b-dev/awesome-ai-agents",
+      "stars": 0,
+      "desc": "awesome-ai-agents",
+      "url": "https://github.com/e2b-dev/awesome-ai-agents",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "audit",
+      "categoryPath": "security",
+      "supportedAgents": [],
+      "searchText": "awesome-ai-agents e2b-dev/awesome-ai-agents",
+      "sources": [
+        "llmsecurity/awesome-agent-skills-security"
+      ]
+    },
+    {
+      "name": "hexstrike-ai",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "0x4m4/hexstrike-ai",
+      "stars": 10002,
+      "desc": "HexStrike AI MCP Agents is an advanced MCP server for AI agents with security tools",
+      "url": "https://github.com/0x4m4/hexstrike-ai",
+      "install": "$skill-installer hexstrike-ai",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "hexstrike-ai hexstrike ai mcp agents is an advanced mcp server for ai agents with security tools 0x4m4/hexstrike-ai $skill-installer hexstrike-ai security claude"
+    },
+    {
+      "name": "anything-analyzer",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "Mouseww/anything-analyzer",
+      "stars": 3030,
+      "desc": "全能协议分析工具：浏览器抓包+MITM代理+指纹伪装+AI分析+MCP Server",
+      "url": "https://github.com/Mouseww/anything-analyzer",
+      "install": "$skill-installer anything-analyzer",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "anything-analyzer 全能协议分析工具：浏览器抓包+mitm代理+指纹伪装+ai分析+mcp server mouseww/anything-analyzer $skill-installer anything-analyzer security claude"
+    },
+    {
+      "name": "js-reverse-mcp",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "zhizhuodemao/js-reverse-mcp",
+      "stars": 2041,
+      "desc": "AI Agent-first JS逆向MCP Server：有头Chrome调试、断点、网络分析、反检测",
+      "url": "https://github.com/zhizhuodemao/js-reverse-mcp",
+      "install": "$skill-installer js-reverse-mcp",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "js-reverse-mcp ai agent-first js逆向mcp server：有头chrome调试、断点、网络分析、反检测 zhizhuodemao/js-reverse-mcp $skill-installer js-reverse-mcp security claude"
+    },
+    {
+      "name": "guardian-cli",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "zakirkun/guardian-cli",
+      "stars": 1694,
+      "desc": "Production-ready AI-powered penetration testing automation CLI tool",
+      "url": "https://github.com/zakirkun/guardian-cli",
+      "install": "$skill-installer guardian-cli",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "guardian-cli production-ready ai-powered penetration testing automation cli tool zakirkun/guardian-cli $skill-installer guardian-cli security claude"
+    },
+    {
+      "name": "Anthropic-Cybersecurity-Skills",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 22761,
+      "desc": "817 structured cybersecurity skills for AI agents mapped to 6 frameworks",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "install": "$skill-installer Anthropic-Cybersecurity-Skills",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Anthropic-Cybersecurity-Skills 817 structured cybersecurity skills for ai agents mapped to 6 frameworks mukul975/anthropic-cybersecurity-skills $skill-installer Anthropic-Cybersecurity-Skills security claude"
+    },
+    {
+      "name": "pentest-ai",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "0xSteph/pentest-ai",
+      "stars": 1139,
+      "desc": "Offensive-security MCP server with 205 tools, 17 specialist agents",
+      "url": "https://github.com/0xSteph/pentest-ai",
+      "install": "$skill-installer pentest-ai",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "pentest-ai offensive-security mcp server with 205 tools, 17 specialist agents 0xsteph/pentest-ai $skill-installer pentest-ai security claude"
+    },
+    {
+      "name": "secpipe",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "FuzzingLabs/secpipe",
+      "stars": 798,
+      "desc": "MCP server for AI-driven security pipelines",
+      "url": "https://github.com/FuzzingLabs/secpipe",
+      "install": "$skill-installer secpipe",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "secpipe mcp server for ai-driven security pipelines fuzzinglabs/secpipe $skill-installer secpipe security claude"
+    },
+    {
+      "name": "codegate",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "stacklok/codegate",
+      "stars": 789,
+      "desc": "CodeGate: Security, Workspaces and Multiplexing for AI Agentic Frameworks",
+      "url": "https://github.com/stacklok/codegate",
+      "install": "$skill-installer codegate",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "codegate codegate: security, workspaces and multiplexing for ai agentic frameworks stacklok/codegate $skill-installer codegate security claude"
+    },
+    {
+      "name": "OpenOSINT",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "OpenOSINT/OpenOSINT",
+      "stars": 786,
+      "desc": "AI-powered OSINT agent with interactive REPL, MCP server, and CLI. 16 tools.",
+      "url": "https://github.com/OpenOSINT/OpenOSINT",
+      "install": "$skill-installer OpenOSINT",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "OpenOSINT ai-powered osint agent with interactive repl, mcp server, and cli. 16 tools. openosint/openosint $skill-installer OpenOSINT security claude"
+    },
+    {
+      "name": "MCP-Kali-Server",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "Wh0am123/MCP-Kali-Server",
+      "stars": 738,
+      "desc": "MCP configuration to connect AI agent to a Linux machine for security testing",
+      "url": "https://github.com/Wh0am123/MCP-Kali-Server",
+      "install": "$skill-installer MCP-Kali-Server",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "MCP-Kali-Server mcp configuration to connect ai agent to a linux machine for security testing wh0am123/mcp-kali-server $skill-installer MCP-Kali-Server security claude"
     }
   ]
 }

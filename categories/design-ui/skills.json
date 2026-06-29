@@ -6876,6 +6876,24 @@
         "openlab"
       ],
       "searchText": "openlab technical details for a great lab davidmalawey/openlab design-ui openlab"
+    },
+    {
+      "name": "Figma-Context-MCP",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "GLips/Figma-Context-MCP",
+      "stars": 15247,
+      "desc": "MCP server to provide Figma layout information to AI coding agents like Cursor",
+      "url": "https://github.com/GLips/Figma-Context-MCP",
+      "install": "$skill-installer Figma-Context-MCP",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design",
+      "subCategoryId": "ui",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Figma-Context-MCP mcp server to provide figma layout information to ai coding agents like cursor glips/figma-context-mcp $skill-installer Figma-Context-MCP design-ui claude"
     }
   ]
 }

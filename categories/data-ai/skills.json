@@ -5817,6 +5817,672 @@
         "openclaw"
       ],
       "searchText": "obsidian-openclaw-memory openclaw skill: use obsidian + openclaw as an ai memory system with knowledge graph samin12/obsidian-openclaw-memory git clone https://github.com/samin12/obsidian-openclaw-memory.git data-ai openclaw"
+    },
+    {
+      "name": "agentset",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "agentset-ai/agentset",
+      "stars": 2022,
+      "desc": "Open-source RAG platform: built-in citations, deep research, 22+ file formats",
+      "url": "https://github.com/agentset-ai/agentset",
+      "install": "$skill-installer agentset",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "agentset open-source rag platform: built-in citations, deep research, 22+ file formats agentset-ai/agentset $skill-installer agentset data-ai claude"
+    },
+    {
+      "name": "awesome-LangGraph",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "vonzosten/awesome-LangGraph",
+      "stars": 1883,
+      "desc": "An index of the LangChain + LangGraph ecosystem: concepts, projects, tools",
+      "url": "https://github.com/vonzosten/awesome-LangGraph",
+      "install": "$skill-installer awesome-LangGraph",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "awesome-LangGraph an index of the langchain + langgraph ecosystem: concepts, projects, tools vonzosten/awesome-langgraph $skill-installer awesome-LangGraph data-ai claude"
+    },
+    {
+      "name": "letta",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "letta-ai/letta",
+      "stars": 23562,
+      "desc": "Platform for stateful agents with advanced memory that can learn and reason",
+      "url": "https://github.com/letta-ai/letta",
+      "install": "$skill-installer letta",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "letta platform for stateful agents with advanced memory that can learn and reason letta-ai/letta $skill-installer letta data-ai claude"
+    },
+    {
+      "name": "mastra",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "mastra-ai/mastra",
+      "stars": 25543,
+      "desc": "Mastra is the modern TypeScript framework for AI-powered applications and agents",
+      "url": "https://github.com/mastra-ai/mastra",
+      "install": "$skill-installer mastra",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "mastra mastra is the modern typescript framework for ai-powered applications and agents mastra-ai/mastra $skill-installer mastra data-ai claude"
+    },
+    {
+      "name": "crewAI",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "crewAIInc/crewAI",
+      "stars": 30777,
+      "desc": "Framework for orchestrating role-playing, autonomous AI agents",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "install": "$skill-installer crewAI",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "crewAI framework for orchestrating role-playing, autonomous ai agents crewaiinc/crewai $skill-installer crewAI data-ai claude"
+    },
+    {
+      "name": "context7-mcp",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "upstash/context7-mcp",
+      "stars": 3291,
+      "desc": "Context7 - up-to-date code context for LLMs via MCP server with 100K+ libraries",
+      "url": "https://github.com/upstash/context7-mcp",
+      "install": "$skill-installer context7-mcp",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "context7-mcp context7 - up-to-date code context for llms via mcp server with 100k+ libraries upstash/context7-mcp $skill-installer context7-mcp data-ai claude"
+    },
+    {
+      "name": "exa-mcp-server",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "exa-labs/exa-mcp-server",
+      "stars": 1687,
+      "desc": "Exa MCP Server - web search for AI agents via Model Context Protocol",
+      "url": "https://github.com/exa-labs/exa-mcp-server",
+      "install": "$skill-installer exa-mcp-server",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "exa-mcp-server exa mcp server - web search for ai agents via model context protocol exa-labs/exa-mcp-server $skill-installer exa-mcp-server data-ai claude"
+    },
+    {
+      "name": "kraken",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "kraken-ai/kraken",
+      "stars": 1783,
+      "desc": "Kraken - open source AI agent orchestrator with multi-agent workflows",
+      "url": "https://github.com/kraken-ai/kraken",
+      "install": "$skill-installer kraken",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "kraken kraken - open source ai agent orchestrator with multi-agent workflows kraken-ai/kraken $skill-installer kraken data-ai claude"
+    },
+    {
+      "name": "pydantic-ai",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "pydantic/pydantic-ai",
+      "stars": 13216,
+      "desc": "Agent Framework for building production-grade LLM applications with Pydantic",
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "install": "$skill-installer pydantic-ai",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "pydantic-ai agent framework for building production-grade llm applications with pydantic pydantic/pydantic-ai $skill-installer pydantic-ai data-ai claude"
+    },
+    {
+      "name": "smolagents",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "huggingface/smolagents",
+      "stars": 20154,
+      "desc": "Smolagents - minimal framework for agents that can write actions in code",
+      "url": "https://github.com/huggingface/smolagents",
+      "install": "$skill-installer smolagents",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "smolagents smolagents - minimal framework for agents that can write actions in code huggingface/smolagents $skill-installer smolagents data-ai claude"
+    },
+    {
+      "name": "gemini-mcp",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "google-gemini/gemini-mcp",
+      "stars": 1898,
+      "desc": "Google Gemini MCP adapter - connect Gemini to any MCP server",
+      "url": "https://github.com/google-gemini/gemini-mcp",
+      "install": "$skill-installer gemini-mcp",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "gemini-mcp google gemini mcp adapter - connect gemini to any mcp server google-gemini/gemini-mcp $skill-installer gemini-mcp data-ai claude"
+    },
+    {
+      "name": "langchain",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "langchain-ai/langchain",
+      "stars": 140435,
+      "desc": "The agent engineering platform for building LLM applications",
+      "url": "https://github.com/langchain-ai/langchain",
+      "install": "$skill-installer langchain",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "langchain the agent engineering platform for building llm applications langchain-ai/langchain $skill-installer langchain data-ai claude"
+    },
+    {
+      "name": "AstrBot",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "AstrBotDevs/AstrBot",
+      "stars": 35527,
+      "desc": "AI Agent Assistant & development framework that integrates lots of IM platforms",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "install": "$skill-installer AstrBot",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "AstrBot ai agent assistant & development framework that integrates lots of im platforms astrbotdevs/astrbot $skill-installer AstrBot data-ai claude"
+    },
+    {
+      "name": "mlflow",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "mlflow/mlflow",
+      "stars": 26761,
+      "desc": "The open source AI engineering platform for agents, LLMs, and ML models",
+      "url": "https://github.com/mlflow/mlflow",
+      "install": "$skill-installer mlflow",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "mlflow the open source ai engineering platform for agents, llms, and ml models mlflow/mlflow $skill-installer mlflow data-ai claude"
+    },
+    {
+      "name": "cognee",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "topoteretes/cognee",
+      "stars": 25030,
+      "desc": "Cognee is the open-source AI memory platform for agents with graph-based memory",
+      "url": "https://github.com/topoteretes/cognee",
+      "install": "$skill-installer cognee",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "cognee cognee is the open-source ai memory platform for agents with graph-based memory topoteretes/cognee $skill-installer cognee data-ai claude"
+    },
+    {
+      "name": "RagaAI-Catalyst",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "raga-ai-hub/RagaAI-Catalyst",
+      "stars": 16149,
+      "desc": "Python SDK for Agent AI Observability, Monitoring and Evaluation Framework",
+      "url": "https://github.com/raga-ai-hub/RagaAI-Catalyst",
+      "install": "$skill-installer RagaAI-Catalyst",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "RagaAI-Catalyst python sdk for agent ai observability, monitoring and evaluation framework raga-ai-hub/ragaai-catalyst $skill-installer RagaAI-Catalyst data-ai claude"
+    },
+    {
+      "name": "ottomator-agents",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "coleam00/ottomator-agents",
+      "stars": 5654,
+      "desc": "All the open source AI Agents hosted on the oTTomator Live Agent Studio",
+      "url": "https://github.com/coleam00/ottomator-agents",
+      "install": "$skill-installer ottomator-agents",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "ottomator-agents all the open source ai agents hosted on the ottomator live agent studio coleam00/ottomator-agents $skill-installer ottomator-agents data-ai claude"
+    },
+    {
+      "name": "zenml",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "zenml-io/zenml",
+      "stars": 5463,
+      "desc": "ZenML: One AI Platform from Pipelines to Agents for ML workflows",
+      "url": "https://github.com/zenml-io/zenml",
+      "install": "$skill-installer zenml",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "zenml zenml: one ai platform from pipelines to agents for ml workflows zenml-io/zenml $skill-installer zenml data-ai claude"
+    },
+    {
+      "name": "Rapid-MLX",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "raullenchai/Rapid-MLX",
+      "stars": 3137,
+      "desc": "The fastest local AI engine for Apple Silicon. 4.2x faster than Ollama.",
+      "url": "https://github.com/raullenchai/Rapid-MLX",
+      "install": "$skill-installer Rapid-MLX",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Rapid-MLX the fastest local ai engine for apple silicon. 4.2x faster than ollama. raullenchai/rapid-mlx $skill-installer Rapid-MLX data-ai claude"
+    },
+    {
+      "name": "griptape",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "griptape-ai/griptape",
+      "stars": 2548,
+      "desc": "Modular Python framework for AI agents and workflows with chain-of-thought",
+      "url": "https://github.com/griptape-ai/griptape",
+      "install": "$skill-installer griptape",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "griptape modular python framework for ai agents and workflows with chain-of-thought griptape-ai/griptape $skill-installer griptape data-ai claude"
+    },
+    {
+      "name": "gemini-mcp-tool",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "jamubc/gemini-mcp-tool",
+      "stars": 2244,
+      "desc": "MCP server that enables AI assistants to interact with Google Gemini CLI",
+      "url": "https://github.com/jamubc/gemini-mcp-tool",
+      "install": "$skill-installer gemini-mcp-tool",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "gemini-mcp-tool mcp server that enables ai assistants to interact with google gemini cli jamubc/gemini-mcp-tool $skill-installer gemini-mcp-tool data-ai claude"
+    },
+    {
+      "name": "forge",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "antoinezambelli/forge",
+      "stars": 2141,
+      "desc": "A Python framework for self-hosted LLM tool-calling and multi-step agents",
+      "url": "https://github.com/antoinezambelli/forge",
+      "install": "$skill-installer forge",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "forge a python framework for self-hosted llm tool-calling and multi-step agents antoinezambelli/forge $skill-installer forge data-ai claude"
+    },
+    {
+      "name": "company-research-agent",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "guy-hartstein/company-research-agent",
+      "stars": 1984,
+      "desc": "An agentic company research tool powered by LangGraph and Tavily",
+      "url": "https://github.com/guy-hartstein/company-research-agent",
+      "install": "$skill-installer company-research-agent",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "company-research-agent an agentic company research tool powered by langgraph and tavily guy-hartstein/company-research-agent $skill-installer company-research-agent data-ai claude"
+    },
+    {
+      "name": "DemoGPT",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "melih-unsal/DemoGPT",
+      "stars": 1901,
+      "desc": "Create LLM agents in a second with your prompts - complete framework",
+      "url": "https://github.com/melih-unsal/DemoGPT",
+      "install": "$skill-installer DemoGPT",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "DemoGPT create llm agents in a second with your prompts - complete framework melih-unsal/demogpt $skill-installer DemoGPT data-ai claude"
+    },
+    {
+      "name": "NagaAgent",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "RTGS2017/NagaAgent",
+      "stars": 1526,
+      "desc": "Simple yet powerful agent framework for personal assistants with tools",
+      "url": "https://github.com/RTGS2017/NagaAgent",
+      "install": "$skill-installer NagaAgent",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "NagaAgent simple yet powerful agent framework for personal assistants with tools rtgs2017/nagaagent $skill-installer NagaAgent data-ai claude"
+    },
+    {
+      "name": "awesome-web-agents",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "steel-dev/awesome-web-agents",
+      "stars": 1487,
+      "desc": "A list of tools, frameworks, and resources for building AI web agents",
+      "url": "https://github.com/steel-dev/awesome-web-agents",
+      "install": "$skill-installer awesome-web-agents",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "awesome-web-agents a list of tools, frameworks, and resources for building ai web agents steel-dev/awesome-web-agents $skill-installer awesome-web-agents data-ai claude"
+    },
+    {
+      "name": "octotools",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "octotools/octotools",
+      "stars": 1471,
+      "desc": "OctoTools: An agentic framework with extensible tools for complex reasoning",
+      "url": "https://github.com/octotools/octotools",
+      "install": "$skill-installer octotools",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "octotools octotools: an agentic framework with extensible tools for complex reasoning octotools/octotools $skill-installer octotools data-ai claude"
+    },
+    {
+      "name": "dify",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "langgenius/dify",
+      "stars": 146901,
+      "desc": "Production-ready platform for agentic workflow development",
+      "url": "https://github.com/langgenius/dify",
+      "install": "$skill-installer dify",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "dify production-ready platform for agentic workflow development langgenius/dify $skill-installer dify data-ai claude"
+    },
+    {
+      "name": "AgentGPT",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "reworkd/AgentGPT",
+      "stars": 36233,
+      "desc": "Assemble, configure, and deploy autonomous AI Agents in your browser",
+      "url": "https://github.com/reworkd/AgentGPT",
+      "install": "$skill-installer AgentGPT",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "AgentGPT assemble, configure, and deploy autonomous ai agents in your browser reworkd/agentgpt $skill-installer AgentGPT data-ai claude"
+    },
+    {
+      "name": "FastGPT",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "labring/FastGPT",
+      "stars": 28691,
+      "desc": "FastGPT is a knowledge-based platform built on the LLMs with comprehensive tools",
+      "url": "https://github.com/labring/FastGPT",
+      "install": "$skill-installer FastGPT",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "FastGPT fastgpt is a knowledge-based platform built on the llms with comprehensive tools labring/fastgpt $skill-installer FastGPT data-ai claude"
+    },
+    {
+      "name": "12-factor-agents",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "humanlayer/12-factor-agents",
+      "stars": 23643,
+      "desc": "Principles for building LLM-powered software that is actually reliable",
+      "url": "https://github.com/humanlayer/12-factor-agents",
+      "install": "$skill-installer 12-factor-agents",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "12-factor-agents principles for building llm-powered software that is actually reliable humanlayer/12-factor-agents $skill-installer 12-factor-agents data-ai claude"
+    },
+    {
+      "name": "botpress",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "botpress/botpress",
+      "stars": 14766,
+      "desc": "The open-source hub to build & deploy GPT/LLM Agents",
+      "url": "https://github.com/botpress/botpress",
+      "install": "$skill-installer botpress",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "botpress the open-source hub to build & deploy gpt/llm agents botpress/botpress $skill-installer botpress data-ai claude"
+    },
+    {
+      "name": "bisheng",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "dataelement/bisheng",
+      "stars": 11479,
+      "desc": "BISHENG is an open LLM devops platform for next generation Enterprise AI applications",
+      "url": "https://github.com/dataelement/bisheng",
+      "install": "$skill-installer bisheng",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "bisheng bisheng is an open llm devops platform for next generation enterprise ai applications dataelement/bisheng $skill-installer bisheng data-ai claude"
+    },
+    {
+      "name": "voltagent",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "VoltAgent/voltagent",
+      "stars": 9841,
+      "desc": "AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework",
+      "url": "https://github.com/VoltAgent/voltagent",
+      "install": "$skill-installer voltagent",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "voltagent ai agent engineering platform built on an open source typescript ai agent framework voltagent/voltagent $skill-installer voltagent data-ai claude"
+    },
+    {
+      "name": "awesome-generative-ai-apps",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "Anil-matcha/awesome-generative-ai-apps",
+      "stars": 2411,
+      "desc": "50+ open-source generative AI apps: image gen, video, chatbots, RAG, voice",
+      "url": "https://github.com/Anil-matcha/awesome-generative-ai-apps",
+      "install": "$skill-installer awesome-generative-ai-apps",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "awesome-generative-ai-apps 50+ open-source generative ai apps: image gen, video, chatbots, rag, voice anil-matcha/awesome-generative-ai-apps $skill-installer awesome-generative-ai-apps data-ai claude"
+    },
+    {
+      "name": "nocturne_memory",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "Dataojitori/nocturne_memory",
+      "stars": 1236,
+      "desc": "A lightweight, rollbackable, visual Long-Term Memory Server for MCP Agents",
+      "url": "https://github.com/Dataojitori/nocturne_memory",
+      "install": "$skill-installer nocturne_memory",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "nocturne_memory a lightweight, rollbackable, visual long-term memory server for mcp agents dataojitori/nocturne_memory $skill-installer nocturne_memory data-ai claude"
+    },
+    {
+      "name": "mcp-client-for-ollama",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "jonigl/mcp-client-for-ollama",
+      "stars": 763,
+      "desc": "TUI MCP Client for Ollama - harness the power of local LLMs with MCP",
+      "url": "https://github.com/jonigl/mcp-client-for-ollama",
+      "install": "$skill-installer mcp-client-for-ollama",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "mcp-client-for-ollama tui mcp client for ollama - harness the power of local llms with mcp jonigl/mcp-client-for-ollama $skill-installer mcp-client-for-ollama data-ai claude"
     }
   ]
 }
