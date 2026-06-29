@@ -31,6 +31,17 @@
       });
     }
 
+    // Trending tag pills click handler
+    document.querySelectorAll('.tag-pill').forEach(pill => {
+      pill.addEventListener('click', () => {
+        const tag = pill.getAttribute('data-tag');
+        if (dom.search) dom.search.value = tag;
+        s.setKeyword(tag);
+        r.renderListOnly();
+        if (dom.search) dom.search.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+    });
+
     if (dom['sort-select']) {
       dom['sort-select'].addEventListener('change', () => {
         s.setSort(dom['sort-select'].value);
