@@ -4,7 +4,7 @@
     "topCategoryId": "3d",
     "subCategoryId": "3d",
     "categoryPath": "3d",
-    "count": 68,
+    "count": 76,
     "sourceData": "categories"
   },
   "skills": [
@@ -297,6 +297,42 @@
       "searchText": "houdini procedural 3d animation and vfx software for film/games sidefx.com web https://www.sidefx.com 3d general"
     },
     {
+      "name": "hunyuan3d2",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Tencent-Hunyuan/Hunyuan3D-2",
+      "stars": 14055,
+      "desc": "High-Resolution 3D Assets Generation with Large Scale Hunyuan3D Diffusion Models",
+      "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
+      "install": "",
+      "functionCategory": "3d",
+      "topCategoryId": "3d",
+      "subCategoryId": "general",
+      "categoryPath": "3d",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "hunyuan3d2 high-resolution 3d assets generation with large scale hunyuan3d diffusion models tencent-hunyuan/hunyuan3d-2 3d general"
+    },
+    {
+      "name": "trellis",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "microsoft/TRELLIS",
+      "stars": 13027,
+      "desc": "Structured 3D Latents for Scalable and Versatile 3D Generation",
+      "url": "https://github.com/microsoft/TRELLIS",
+      "install": "",
+      "functionCategory": "3d",
+      "topCategoryId": "3d",
+      "subCategoryId": "general",
+      "categoryPath": "3d",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "trellis structured 3d latents for scalable and versatile 3d generation microsoft/trellis 3d general"
+    },
+    {
       "name": "autodesk-maya",
       "source": "3d",
       "sourceAgent": "3d",
@@ -493,6 +529,24 @@
         "general"
       ],
       "searchText": "lingbot-map a feed-forward 3d foundation model for reconstructing scenes from streaming data. robbyant/lingbot-map pip install lingbot-map 3d general"
+    },
+    {
+      "name": "trellis2",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "microsoft/TRELLIS.2",
+      "stars": 8532,
+      "desc": "Native and Compact Structured Latents for 3D Generation",
+      "url": "https://github.com/microsoft/TRELLIS.2",
+      "install": "",
+      "functionCategory": "3d",
+      "topCategoryId": "3d",
+      "subCategoryId": "general",
+      "categoryPath": "3d",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "trellis2 native and compact structured latents for 3d generation microsoft/trellis.2 3d general"
     },
     {
       "name": "cascadeur",
@@ -891,6 +945,24 @@
       "searchText": "wonder-dynamics ai vfx — automate 3d character animation into live-action footage wonderdynamics.com web https://www.wonderdynamics.com 3d general"
     },
     {
+      "name": "gsplat",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "nerfstudio-project/gsplat",
+      "stars": 5292,
+      "desc": "CUDA accelerated rasterization of gaussian splatting",
+      "url": "https://github.com/nerfstudio-project/gsplat",
+      "install": "",
+      "functionCategory": "3d",
+      "topCategoryId": "3d",
+      "subCategoryId": "general",
+      "categoryPath": "3d",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gsplat cuda accelerated rasterization of gaussian splatting nerfstudio-project/gsplat 3d general"
+    },
+    {
       "name": "3d-gaussian-splatting",
       "source": "3d",
       "sourceAgent": "3d",
@@ -1035,6 +1107,24 @@
       "searchText": "sloyd ai-powered procedural 3d asset generator sloyd.ai web https://www.sloyd.ai 3d general"
     },
     {
+      "name": "instantmesh",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "TencentARC/InstantMesh",
+      "stars": 4439,
+      "desc": "InstantMesh: Efficient 3D Mesh Generation from a Single Image",
+      "url": "https://github.com/TencentARC/InstantMesh",
+      "install": "",
+      "functionCategory": "3d",
+      "topCategoryId": "3d",
+      "subCategoryId": "general",
+      "categoryPath": "3d",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "instantmesh instantmesh: efficient 3d mesh generation from a single image tencentarc/instantmesh 3d general"
+    },
+    {
       "name": "claybox",
       "source": "3d",
       "sourceAgent": "3d",
@@ -1105,6 +1195,60 @@
         "general"
       ],
       "searchText": "quadremesher ai automatic quad remeshing plugin for major 3d apps quadremesher.com web https://www.quadremesher.com 3d general"
+    },
+    {
+      "name": "comfyui3dpack",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "MrForExample/ComfyUI-3D-Pack",
+      "stars": 3789,
+      "desc": "An extensive node suite that enables ComfyUI to process 3D inputs using cutting-edge 3D algorithms",
+      "url": "https://github.com/MrForExample/ComfyUI-3D-Pack",
+      "install": "",
+      "functionCategory": "3d",
+      "topCategoryId": "3d",
+      "subCategoryId": "general",
+      "categoryPath": "3d",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "comfyui3dpack an extensive node suite that enables comfyui to process 3d inputs using cutting-edge 3d algorithms mrforexample/comfyui-3d-pack 3d general"
+    },
+    {
+      "name": "hunyuan3d21",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+      "stars": 3624,
+      "desc": "From Images to High-Fidelity 3D Assets with Production-Ready PBR Material",
+      "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1",
+      "install": "",
+      "functionCategory": "3d",
+      "topCategoryId": "3d",
+      "subCategoryId": "general",
+      "categoryPath": "3d",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "hunyuan3d21 from images to high-fidelity 3d assets with production-ready pbr material tencent-hunyuan/hunyuan3d-2.1 3d general"
+    },
+    {
+      "name": "unique3d",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "AiuniAI/Unique3D",
+      "stars": 3565,
+      "desc": "Unique3D: High-Quality and Efficient 3D Mesh Generation from a Single Image",
+      "url": "https://github.com/AiuniAI/Unique3D",
+      "install": "",
+      "functionCategory": "3d",
+      "topCategoryId": "3d",
+      "subCategoryId": "general",
+      "categoryPath": "3d",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "unique3d unique3d: high-quality and efficient 3d mesh generation from a single image aiuniai/unique3d 3d general"
     },
     {
       "name": "3d-scan-co",

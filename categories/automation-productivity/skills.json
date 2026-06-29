@@ -4,7 +4,7 @@
     "topCategoryId": "automation",
     "subCategoryId": "productivity",
     "categoryPath": "automation-productivity",
-    "count": 177,
+    "count": 178,
     "sourceData": "categories"
   },
   "skills": [
@@ -1971,6 +1971,24 @@
         "general"
       ],
       "searchText": "coze-studio--workflow an ai agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before. coze your way coze-dev/coze-studio npm i coze-studio automation-productivity general"
+    },
+    {
+      "name": "screenpipe",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "screenpipe/screenpipe",
+      "stars": 19549,
+      "desc": "AI that knows what you've seen, said, or heard. Records everything you see and makes it searchable.",
+      "url": "https://github.com/screenpipe/screenpipe",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "screenpipe ai that knows what you've seen, said, or heard. records everything you see and makes it searchable. screenpipe/screenpipe automation-productivity general"
     },
     {
       "name": "taipy--workflow",

@@ -4,7 +4,7 @@
     "topCategoryId": "video-gen",
     "subCategoryId": "video-gen",
     "categoryPath": "video-gen",
-    "count": 10,
+    "count": 24,
     "sourceData": "categories"
   },
   "skills": [
@@ -27,6 +27,60 @@
       "searchText": "hyperframes write html. render video. built for agents. ai-native video production framework. heygen-com/hyperframes video-gen general"
     },
     {
+      "name": "pixellevideo",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "AIDC-AI/Pixelle-Video",
+      "stars": 23816,
+      "desc": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+      "url": "https://github.com/AIDC-AI/Pixelle-Video",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "pixellevideo 🚀 ai 全自动短视频引擎 | ai fully automated short video engine aidc-ai/pixelle-video video-gen general"
+    },
+    {
+      "name": "liveportrait",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "KlingAIResearch/LivePortrait",
+      "stars": 18657,
+      "desc": "Bring portraits to life!",
+      "url": "https://github.com/KlingAIResearch/LivePortrait",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "liveportrait bring portraits to life! klingairesearch/liveportrait video-gen general"
+    },
+    {
+      "name": "wan22",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Wan-Video/Wan2.2",
+      "stars": 16451,
+      "desc": "Wan: Open and Advanced Large-Scale Video Generative Models",
+      "url": "https://github.com/Wan-Video/Wan2.2",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "wan22 wan: open and advanced large-scale video generative models wan-video/wan2.2 video-gen general"
+    },
+    {
       "name": "waoowaoo",
       "source": "general",
       "sourceAgent": "general",
@@ -43,6 +97,42 @@
         "general"
       ],
       "searchText": "waoowaoo 首家工业级全流程 ai 影视生产平台。industry-first professional ai agent platform for controllable film & video production. waooai/waoowaoo video-gen general"
+    },
+    {
+      "name": "hunyuanvideo",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Tencent-Hunyuan/HunyuanVideo",
+      "stars": 12267,
+      "desc": "HunyuanVideo: A Systematic Framework For Large Video Generation Model",
+      "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "hunyuanvideo hunyuanvideo: a systematic framework for large video generation model tencent-hunyuan/hunyuanvideo video-gen general"
+    },
+    {
+      "name": "vimax",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "HKUDS/ViMax",
+      "stars": 10760,
+      "desc": "ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)",
+      "url": "https://github.com/HKUDS/ViMax",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vimax vimax: agentic video generation (director, screenwriter, producer, and video generator all-in-one) hkuds/vimax video-gen general"
     },
     {
       "name": "toonflow",
@@ -63,6 +153,24 @@
       "searchText": "toonflow 开源一站式 ai 短剧创作工具，将小说、剧本转化为动画短剧。集成 ai 编剧、智能分镜、角色与视频生成。 hbai-ltd/toonflow-app video-gen general"
     },
     {
+      "name": "ltxvideo",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Lightricks/LTX-Video",
+      "stars": 10601,
+      "desc": "Official repository for LTX-Video",
+      "url": "https://github.com/Lightricks/LTX-Video",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ltxvideo official repository for ltx-video lightricks/ltx-video video-gen general"
+    },
+    {
       "name": "mmagic",
       "source": "general",
       "sourceAgent": "general",
@@ -81,6 +189,78 @@
       "searchText": "mmagic openmmlab multimodal advanced, generative, and intelligent creation toolbox. unlocks the abilities of multimodal models for image/video generation, editing, and vision-language tasks. open-mmlab/mmagic video-gen general"
     },
     {
+      "name": "infinitetalk",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "MeiGen-AI/InfiniteTalk",
+      "stars": 7121,
+      "desc": "Unlimited-length talking video generation that supports image-to-video and video-to-video generation",
+      "url": "https://github.com/MeiGen-AI/InfiniteTalk",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "infinitetalk unlimited-length talking video generation that supports image-to-video and video-to-video generation meigen-ai/infinitetalk video-gen general"
+    },
+    {
+      "name": "autoclip",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "zhouxiaoka/autoclip",
+      "stars": 5806,
+      "desc": "AutoClip: AI-powered video clipping and highlight generation",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "autoclip autoclip: ai-powered video clipping and highlight generation zhouxiaoka/autoclip video-gen general"
+    },
+    {
+      "name": "hunyuanvideo15",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Tencent-Hunyuan/HunyuanVideo-1.5",
+      "stars": 4501,
+      "desc": "HunyuanVideo-1.5: A leading lightweight video generation model",
+      "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "hunyuanvideo15 hunyuanvideo-1.5: a leading lightweight video generation model tencent-hunyuan/hunyuanvideo-1.5 video-gen general"
+    },
+    {
+      "name": "champ",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "fudan-generative-vision/champ",
+      "stars": 4254,
+      "desc": "Champ: Controllable and Consistent Human Image Animation with 3D Parametric Guidance",
+      "url": "https://github.com/fudan-generative-vision/champ",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "champ champ: controllable and consistent human image animation with 3d parametric guidance fudan-generative-vision/champ video-gen general"
+    },
+    {
       "name": "Open-LLM-VTuber",
       "source": "github",
       "sourceAgent": "general",
@@ -97,6 +277,78 @@
         "general"
       ],
       "searchText": "open-llm-vtuber talk to any llm with hands-free voice interaction, voice interruption, and live2d avatar. open-llm-vtuber/open-llm-vtuber git clone https://github.com/open-llm-vtuber/open-llm-vtuber video-gen general"
+    },
+    {
+      "name": "vace",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "ali-vilab/VACE",
+      "stars": 3835,
+      "desc": "VACE: All-in-One Video Creation and Editing",
+      "url": "https://github.com/ali-vilab/VACE",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vace vace: all-in-one video creation and editing ali-vilab/vace video-gen general"
+    },
+    {
+      "name": "magi1",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "SandAI-org/MAGI-1",
+      "stars": 3722,
+      "desc": "MAGI-1: Autoregressive Video Generation at Scale",
+      "url": "https://github.com/SandAI-org/MAGI-1",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "magi1 magi-1: autoregressive video generation at scale sandai-org/magi-1 video-gen general"
+    },
+    {
+      "name": "mochi",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "genmoai/mochi",
+      "stars": 3684,
+      "desc": "The best OSS video generation models, created by Genmo",
+      "url": "https://github.com/genmoai/mochi",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mochi the best oss video generation models, created by genmo genmoai/mochi video-gen general"
+    },
+    {
+      "name": "turbodiffusion",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "thu-ml/TurboDiffusion",
+      "stars": 3543,
+      "desc": "TurboDiffusion: 100-200x Acceleration for Video Diffusion Models",
+      "url": "https://github.com/thu-ml/TurboDiffusion",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "turbodiffusion turbodiffusion: 100-200x acceleration for video diffusion models thu-ml/turbodiffusion video-gen general"
     },
     {
       "name": "awesome_world_models",

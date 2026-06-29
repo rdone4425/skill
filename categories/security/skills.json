@@ -4,7 +4,7 @@
     "topCategoryId": "security",
     "subCategoryId": "general",
     "categoryPath": "security",
-    "count": 160,
+    "count": 166,
     "sourceData": "categories"
   },
   "skills": [
@@ -912,6 +912,24 @@
       "searchText": "strix open-source ai hackers to find and fix your app’s vulnerabilities. usestrix/strix security strix"
     },
     {
+      "name": "anthropiccybersecurityskills",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 23010,
+      "desc": "817 structured cybersecurity skills for AI agents, mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "anthropiccybersecurityskills 817 structured cybersecurity skills for ai agents, mapped to 6 frameworks: mitre att&ck, nist csf 2 mukul975/anthropic-cybersecurity-skills security general"
+    },
+    {
       "name": "Anthropic-Cybersecurity-Skills",
       "source": "claude",
       "sourceAgent": "claude",
@@ -1182,6 +1200,24 @@
       "searchText": "404starlink 404starlink - 推荐优质、有意义、有趣、坚持维护的安全开源项目 knownsec/404starlink security 404starlink"
     },
     {
+      "name": "hexstrikeai",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "0x4m4/hexstrike-ai",
+      "stars": 10017,
+      "desc": "HexStrike AI MCP Agents: Advanced MCP server for AI agents to perform offensive security operations",
+      "url": "https://github.com/0x4m4/hexstrike-ai",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "hexstrikeai hexstrike ai mcp agents: advanced mcp server for ai agents to perform offensive security operations 0x4m4/hexstrike-ai security general"
+    },
+    {
       "name": "hexstrike-ai",
       "source": "claude",
       "sourceAgent": "claude",
@@ -1234,6 +1270,24 @@
         "general"
       ],
       "searchText": "superagent protects your ai applications against prompt injections, data leaks, and harmful outputs. superagent-ai/superagent security general"
+    },
+    {
+      "name": "guardrails",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "NVIDIA-NeMo/Guardrails",
+      "stars": 6575,
+      "desc": "NeMo Guardrails: Open-source toolkit for easily adding programmable guardrails to LLM-based conversational systems",
+      "url": "https://github.com/NVIDIA-NeMo/Guardrails",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "guardrails nemo guardrails: open-source toolkit for easily adding programmable guardrails to llm-based conversational systems nvidia-nemo/guardrails security general"
     },
     {
       "name": "deepaudit",
@@ -1292,6 +1346,24 @@
         "claude"
       ],
       "searchText": "skills trail of bits claude code skills for security research, vulnerability detection, and audit workflows trailofbits/skills pip install skills security claude"
+    },
+    {
+      "name": "claudecodesecurityreview",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "anthropics/claude-code-security-review",
+      "stars": 5412,
+      "desc": "AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities",
+      "url": "https://github.com/anthropics/claude-code-security-review",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "claudecodesecurityreview ai-powered security review github action using claude to analyze code changes for security vulnerabilities anthropics/claude-code-security-review security general"
     },
     {
       "name": "ladon",
@@ -1387,6 +1459,42 @@
         "copilot"
       ],
       "searchText": "agent-skills the secure, validated skill registry for professional ai coding agents. extend antigravity, claude code, cursor, copilot and more with absolute confidence. tech-leads-club/agent-skills npm i -g agent-skills security claude cursor copilot"
+    },
+    {
+      "name": "purplellama",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "meta-llama/PurpleLlama",
+      "stars": 4246,
+      "desc": "Set of tools to assess and improve LLM security",
+      "url": "https://github.com/meta-llama/PurpleLlama",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "purplellama set of tools to assess and improve llm security meta-llama/purplellama security general"
+    },
+    {
+      "name": "aiinfraguard",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Tencent/AI-Infra-Guard",
+      "stars": 4004,
+      "desc": "A full-stack AI Red Teaming platform securing AI ecosystems",
+      "url": "https://github.com/Tencent/AI-Infra-Guard",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aiinfraguard a full-stack ai red teaming platform securing ai ecosystems tencent/ai-infra-guard security general"
     },
     {
       "name": "nemo-guardrails",

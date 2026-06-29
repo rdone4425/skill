@@ -4,7 +4,7 @@
     "topCategoryId": "data",
     "subCategoryId": "ai",
     "categoryPath": "data-ai",
-    "count": 454,
+    "count": 457,
     "sourceData": "categories"
   },
   "skills": [
@@ -1169,6 +1169,24 @@
       "searchText": "llamaindex advanced rag, structured queries, agents. complex document understanding. run-llama/llama_index pip install llama-index data-ai claude cursor hermes generic"
     },
     {
+      "name": "langextract",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "google/langextract",
+      "stars": 36970,
+      "desc": "A Python library for extracting structured information from unstructured text using LLMs",
+      "url": "https://github.com/google/langextract",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "langextract a python library for extracting structured information from unstructured text using llms google/langextract data-ai general"
+    },
+    {
       "name": "AgentGPT",
       "source": "claude",
       "sourceAgent": "claude",
@@ -1314,6 +1332,24 @@
         "ppt-master"
       ],
       "searchText": "ppt-master ai generates a real, editable powerpoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · b hugohe3/ppt-master data-ai ppt-master"
+    },
+    {
+      "name": "pageindex",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "VectifyAI/PageIndex",
+      "stars": 33510,
+      "desc": "PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "pageindex pageindex: document index for vectorless, reasoning-based rag vectifyai/pageindex data-ai general"
     },
     {
       "name": "chatgpt-web--chatgpt",
@@ -5800,6 +5836,24 @@
         "claude"
       ],
       "searchText": "ragaai-catalyst python sdk for agent ai observability, monitoring and evaluation framework raga-ai-hub/ragaai-catalyst $skill-installer ragaai-catalyst data-ai claude"
+    },
+    {
+      "name": "memvid",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "memvid/memvid",
+      "stars": 15699,
+      "desc": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless API.",
+      "url": "https://github.com/memvid/memvid",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "memvid memory layer for ai agents. replace complex rag pipelines with a serverless api. memvid/memvid data-ai general"
     },
     {
       "name": "memori",

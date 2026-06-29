@@ -4,7 +4,7 @@
     "topCategoryId": "audio-speech",
     "subCategoryId": "audio-speech",
     "categoryPath": "audio-speech",
-    "count": 11,
+    "count": 21,
     "sourceData": "categories"
   },
   "skills": [
@@ -27,6 +27,78 @@
       "searchText": "vibevoice open-source frontier voice ai microsoft/vibevoice audio-speech general"
     },
     {
+      "name": "voxcpm",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "OpenBMB/VoxCPM",
+      "stars": 32113,
+      "desc": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Audio",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "voxcpm voxcpm2: tokenizer-free tts for multilingual speech generation, creative voice design, and true-to-life audio openbmb/voxcpm audio-speech general"
+    },
+    {
+      "name": "cosyvoice",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "FunAudioLLM/CosyVoice",
+      "stars": 21886,
+      "desc": "Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability",
+      "url": "https://github.com/FunAudioLLM/CosyVoice",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cosyvoice multi-lingual large voice generation model, providing inference, training and deployment full-stack ability funaudiollm/cosyvoice audio-speech general"
+    },
+    {
+      "name": "indextts",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "index-tts/index-tts",
+      "stars": 21499,
+      "desc": "An Industrial-Level Controllable and Efficient Zero-Shot Text-To-Speech System",
+      "url": "https://github.com/index-tts/index-tts",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "indextts an industrial-level controllable and efficient zero-shot text-to-speech system index-tts/index-tts audio-speech general"
+    },
+    {
+      "name": "dia",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "nari-labs/dia",
+      "stars": 19325,
+      "desc": "A TTS model capable of generating ultra-realistic dialogue in one pass",
+      "url": "https://github.com/nari-labs/dia",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "dia a tts model capable of generating ultra-realistic dialogue in one pass nari-labs/dia audio-speech general"
+    },
+    {
       "name": "qwen3-tts",
       "source": "general",
       "sourceAgent": "general",
@@ -43,6 +115,78 @@
         "general"
       ],
       "searchText": "qwen3-tts qwen3-tts is an open-source series of tts models developed by the qwen team at alibaba cloud, supporting stable, expressive, and streaming speech generation,... qwenlm/qwen3-tts audio-speech general"
+    },
+    {
+      "name": "whisperlivekit",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "QuentinFuxa/WhisperLiveKit",
+      "stars": 10496,
+      "desc": "Simultaneous speech-to-text models",
+      "url": "https://github.com/QuentinFuxa/WhisperLiveKit",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "whisperlivekit simultaneous speech-to-text models quentinfuxa/whisperlivekit audio-speech general"
+    },
+    {
+      "name": "realtimestt",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "KoljaB/RealtimeSTT",
+      "stars": 9939,
+      "desc": "A robust, efficient, low-latency speech-to-text library with advanced VAD, wake word activation",
+      "url": "https://github.com/KoljaB/RealtimeSTT",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "realtimestt a robust, efficient, low-latency speech-to-text library with advanced vad, wake word activation koljab/realtimestt audio-speech general"
+    },
+    {
+      "name": "amphion",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "open-mmlab/Amphion",
+      "stars": 9909,
+      "desc": "Amphion: A toolkit for Audio, Music, and Speech Generation",
+      "url": "https://github.com/open-mmlab/Amphion",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "amphion amphion: a toolkit for audio, music, and speech generation open-mmlab/amphion audio-speech general"
+    },
+    {
+      "name": "espnet",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "espnet/espnet",
+      "stars": 9870,
+      "desc": "End-to-End Speech Processing Toolkit",
+      "url": "https://github.com/espnet/espnet",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "espnet end-to-end speech processing toolkit espnet/espnet audio-speech general"
     },
     {
       "name": "moonshine",
@@ -63,6 +207,24 @@
       "searchText": "moonshine very low latency speech to text, intent recognition, and text to speech, for building real-time voice ai applications. moonshine-ai/moonshine audio-speech general"
     },
     {
+      "name": "omnivoice",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "k2-fsa/OmniVoice",
+      "stars": 7851,
+      "desc": "High-Quality Voice Cloning TTS for 600+ Languages",
+      "url": "https://github.com/k2-fsa/OmniVoice",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "omnivoice high-quality voice cloning tts for 600+ languages k2-fsa/omnivoice audio-speech general"
+    },
+    {
       "name": "omnivoice-studio",
       "source": "general",
       "sourceAgent": "general",
@@ -79,6 +241,24 @@
         "general"
       ],
       "searchText": "omnivoice-studio the open-source elevenlabs alternative for local voice cloning, design, create, dubbing and dictation desktop app debpalash/omnivoice-studio audio-speech general"
+    },
+    {
+      "name": "speechtospeech",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "huggingface/speech-to-speech",
+      "stars": 4910,
+      "desc": "Build local voice agents with open-source models",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "speechtospeech build local voice agents with open-source models huggingface/speech-to-speech audio-speech general"
     },
     {
       "name": "dograh",

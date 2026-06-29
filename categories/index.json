@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-29T17:53:02.257Z",
+  "generatedAt": "2026-06-29T18:31:55.821Z",
   "sourceData": "categories",
-  "totalSkills": 4133,
+  "totalSkills": 4190,
   "categories": [
     {
       "id": "dev-tools",
       "path": "dev-tools",
       "groupId": "development",
       "subcategoryId": "tools",
-      "count": 919
+      "count": 921
     },
     {
       "id": "general",
@@ -22,7 +22,7 @@
       "path": "data-ai",
       "groupId": "data",
       "subcategoryId": "ai",
-      "count": 454
+      "count": 457
     },
     {
       "id": "design-ui",
@@ -36,7 +36,7 @@
       "path": "agent-framework",
       "groupId": "agent-framework",
       "subcategoryId": "agent-framework",
-      "count": 187
+      "count": 196
     },
     {
       "id": "docs-content",
@@ -50,21 +50,21 @@
       "path": "automation-productivity",
       "groupId": "automation",
       "subcategoryId": "productivity",
-      "count": 177
+      "count": 178
     },
     {
       "id": "security",
       "path": "security",
       "groupId": "security",
       "subcategoryId": "general",
-      "count": 160
+      "count": 166
     },
     {
       "id": "social-media",
       "path": "social-media",
       "groupId": "social-media",
       "subcategoryId": "social-media",
-      "count": 137
+      "count": 138
     },
     {
       "id": "finance-crypto",
@@ -78,7 +78,7 @@
       "path": "devops-deploy",
       "groupId": "devops",
       "subcategoryId": "deploy",
-      "count": 104
+      "count": 105
     },
     {
       "id": "backend-api",
@@ -99,14 +99,14 @@
       "path": "testing-qa",
       "groupId": "testing",
       "subcategoryId": "qa",
-      "count": 93
+      "count": 94
     },
     {
       "id": "education",
       "path": "education",
       "groupId": "education",
       "subcategoryId": "education",
-      "count": 89
+      "count": 90
     },
     {
       "id": "health-medical",
@@ -114,6 +114,13 @@
       "groupId": "health-medical",
       "subcategoryId": "health-medical",
       "count": 82
+    },
+    {
+      "id": "3d",
+      "path": "3d",
+      "groupId": "3d",
+      "subcategoryId": "3d",
+      "count": 76
     },
     {
       "id": "ecommerce",
@@ -130,13 +137,6 @@
       "count": 72
     },
     {
-      "id": "3d",
-      "path": "3d",
-      "groupId": "3d",
-      "subcategoryId": "3d",
-      "count": 68
-    },
-    {
       "id": "audio",
       "path": "audio",
       "groupId": "audio",
@@ -144,18 +144,18 @@
       "count": 63
     },
     {
-      "id": "audio-speech",
-      "path": "audio-speech",
-      "groupId": "audio-speech",
-      "subcategoryId": "audio-speech",
-      "count": 11
-    },
-    {
       "id": "video-gen",
       "path": "video-gen",
       "groupId": "video-gen",
       "subcategoryId": "video-gen",
-      "count": 10
+      "count": 24
+    },
+    {
+      "id": "audio-speech",
+      "path": "audio-speech",
+      "groupId": "audio-speech",
+      "subcategoryId": "audio-speech",
+      "count": 21
     }
   ],
   "groups": [
@@ -443,13 +443,13 @@
     },
     {
       "id": "security",
-      "count": 168,
+      "count": 174,
       "subcategories": [
         {
           "id": "security/general",
           "path": "security/general",
           "subcategoryId": "general",
-          "count": 68
+          "count": 74
         },
         {
           "id": "security/tools",
@@ -491,25 +491,25 @@
     },
     {
       "id": "agent-framework",
-      "count": 154,
+      "count": 163,
       "subcategories": [
         {
           "id": "agent-framework/general",
           "path": "agent-framework/general",
           "subcategoryId": "general",
-          "count": 154
+          "count": 163
         }
       ]
     },
     {
       "id": "social-media",
-      "count": 116,
+      "count": 117,
       "subcategories": [
         {
           "id": "social-media/general",
           "path": "social-media/general",
           "subcategoryId": "general",
-          "count": 66
+          "count": 67
         },
         {
           "id": "social-media/social-media",
@@ -574,6 +574,30 @@
       ]
     },
     {
+      "id": "education",
+      "count": 90,
+      "subcategories": [
+        {
+          "id": "education/general",
+          "path": "education/general",
+          "subcategoryId": "general",
+          "count": 75
+        },
+        {
+          "id": "education/education",
+          "path": "education/education",
+          "subcategoryId": "education",
+          "count": 10
+        },
+        {
+          "id": "education/tools",
+          "path": "education/tools",
+          "subcategoryId": "tools",
+          "count": 5
+        }
+      ]
+    },
+    {
       "id": "devops",
       "count": 89,
       "subcategories": [
@@ -600,30 +624,6 @@
           "path": "devops/general",
           "subcategoryId": "general",
           "count": 1
-        }
-      ]
-    },
-    {
-      "id": "education",
-      "count": 89,
-      "subcategories": [
-        {
-          "id": "education/general",
-          "path": "education/general",
-          "subcategoryId": "general",
-          "count": 74
-        },
-        {
-          "id": "education/education",
-          "path": "education/education",
-          "subcategoryId": "education",
-          "count": 10
-        },
-        {
-          "id": "education/tools",
-          "path": "education/tools",
-          "subcategoryId": "tools",
-          "count": 5
         }
       ]
     },
@@ -658,6 +658,24 @@
       ]
     },
     {
+      "id": "3d",
+      "count": 76,
+      "subcategories": [
+        {
+          "id": "3d/general",
+          "path": "3d/general",
+          "subcategoryId": "general",
+          "count": 74
+        },
+        {
+          "id": "3d/3d",
+          "path": "3d/3d",
+          "subcategoryId": "3d",
+          "count": 2
+        }
+      ]
+    },
+    {
       "id": "ecommerce",
       "count": 73,
       "subcategories": [
@@ -672,24 +690,6 @@
           "path": "ecommerce/ecommerce",
           "subcategoryId": "ecommerce",
           "count": 5
-        }
-      ]
-    },
-    {
-      "id": "3d",
-      "count": 68,
-      "subcategories": [
-        {
-          "id": "3d/general",
-          "path": "3d/general",
-          "subcategoryId": "general",
-          "count": 66
-        },
-        {
-          "id": "3d/3d",
-          "path": "3d/3d",
-          "subcategoryId": "3d",
-          "count": 2
         }
       ]
     },
@@ -796,6 +796,18 @@
       ]
     },
     {
+      "id": "audio-speech",
+      "count": 21,
+      "subcategories": [
+        {
+          "id": "audio-speech/general",
+          "path": "audio-speech/general",
+          "subcategoryId": "general",
+          "count": 21
+        }
+      ]
+    },
+    {
       "id": "social",
       "count": 21,
       "subcategories": [
@@ -820,6 +832,18 @@
       ]
     },
     {
+      "id": "video-gen",
+      "count": 20,
+      "subcategories": [
+        {
+          "id": "video-gen/general",
+          "path": "video-gen/general",
+          "subcategoryId": "general",
+          "count": 20
+        }
+      ]
+    },
+    {
       "id": "video",
       "count": 14,
       "subcategories": [
@@ -838,48 +862,36 @@
       ]
     },
     {
-      "id": "audio-speech",
-      "count": 11,
-      "subcategories": [
-        {
-          "id": "audio-speech/general",
-          "path": "audio-speech/general",
-          "subcategoryId": "general",
-          "count": 11
-        }
-      ]
-    },
-    {
       "id": "data-ai",
-      "count": 7,
+      "count": 10,
       "subcategories": [
         {
           "id": "data-ai/general",
           "path": "data-ai/general",
           "subcategoryId": "general",
-          "count": 7
+          "count": 10
         }
       ]
     },
     {
-      "id": "video-gen",
+      "id": "automation-productivity",
       "count": 6,
       "subcategories": [
         {
-          "id": "video-gen/general",
-          "path": "video-gen/general",
+          "id": "automation-productivity/general",
+          "path": "automation-productivity/general",
           "subcategoryId": "general",
           "count": 6
         }
       ]
     },
     {
-      "id": "automation-productivity",
+      "id": "dev-tools",
       "count": 5,
       "subcategories": [
         {
-          "id": "automation-productivity/general",
-          "path": "automation-productivity/general",
+          "id": "dev-tools/general",
+          "path": "dev-tools/general",
           "subcategoryId": "general",
           "count": 5
         }
@@ -904,24 +916,24 @@
       ]
     },
     {
-      "id": "dev-tools",
-      "count": 3,
-      "subcategories": [
-        {
-          "id": "dev-tools/general",
-          "path": "dev-tools/general",
-          "subcategoryId": "general",
-          "count": 3
-        }
-      ]
-    },
-    {
       "id": "testing-qa",
-      "count": 1,
+      "count": 2,
       "subcategories": [
         {
           "id": "testing-qa/general",
           "path": "testing-qa/general",
+          "subcategoryId": "general",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "devops-deploy",
+      "count": 1,
+      "subcategories": [
+        {
+          "id": "devops-deploy/general",
+          "path": "devops-deploy/general",
           "subcategoryId": "general",
           "count": 1
         }
@@ -951,7 +963,7 @@
     },
     {
       "id": "general",
-      "count": 1047
+      "count": 1104
     },
     {
       "id": "claude-code",

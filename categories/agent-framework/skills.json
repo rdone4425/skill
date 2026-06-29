@@ -4,10 +4,46 @@
     "topCategoryId": "agent-framework",
     "subCategoryId": "agent-framework",
     "categoryPath": "agent-framework",
-    "count": 187,
+    "count": 196,
     "sourceData": "categories"
   },
   "skills": [
+    {
+      "name": "langflow",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "langflow-ai/langflow",
+      "stars": 150203,
+      "desc": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows",
+      "url": "https://github.com/langflow-ai/langflow",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "langflow langflow is a powerful tool for building and deploying ai-powered agents and workflows langflow-ai/langflow agent-framework general"
+    },
+    {
+      "name": "deerflow",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "bytedance/deer-flow",
+      "stars": 75432,
+      "desc": "An open-source long-horizon SuperAgent harness that researches, codes, and creates.",
+      "url": "https://github.com/bytedance/deer-flow",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "deerflow an open-source long-horizon superagent harness that researches, codes, and creates. bytedance/deer-flow agent-framework general"
+    },
     {
       "name": "deer-flow",
       "source": "tools",
@@ -25,6 +61,42 @@
         "other"
       ],
       "searchText": "deer-flow an open-source long-horizon superagent harness that researches, codes, and creates. with the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours. bytedance/deer-flow git clone https://github.com/bytedance/deer-flow.git agent-framework other"
+    },
+    {
+      "name": "metagpt",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "FoundationAgents/MetaGPT",
+      "stars": 69114,
+      "desc": "The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
+      "url": "https://github.com/FoundationAgents/MetaGPT",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "metagpt the multi-agent framework: first ai software company, towards natural language programming foundationagents/metagpt agent-framework general"
+    },
+    {
+      "name": "mem0",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "mem0ai/mem0",
+      "stars": 59710,
+      "desc": "Universal memory layer for AI Agents",
+      "url": "https://github.com/mem0ai/mem0",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mem0 universal memory layer for ai agents mem0ai/mem0 agent-framework general"
     },
     {
       "name": "autogen",
@@ -63,6 +135,24 @@
       "searchText": "cowagent open-source super ai assistant & agent harness. plans tasks, runs tools and skills, autonomously grows with memory and knowledge. multi-model, multi-channel. lightweight, extensible, one-line install. (formerly chatgpt-on-wechat) zhayujie/cowagent git clone https://github.com/zhayujie/cowagent.git agent-framework other"
     },
     {
+      "name": "agentreach",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Panniantong/Agent-Reach",
+      "stars": 45567,
+      "desc": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agentreach give your ai agent eyes to see the entire internet. read & search twitter, reddit, youtube, github panniantong/agent-reach agent-framework general"
+    },
+    {
       "name": "phidata",
       "source": "github",
       "sourceAgent": "general",
@@ -99,6 +189,24 @@
       "searchText": "langgraph build resilient language agents as graphs. langgraph is the framework for building agentic and multi-agent applications. langchain-ai/langgraph pip install langgraph agent-framework general"
     },
     {
+      "name": "pptmaster",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "hugohe3/ppt-master",
+      "stars": 34325,
+      "desc": "AI generates a real, editable PowerPoint from any document",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "pptmaster ai generates a real, editable powerpoint from any document hugohe3/ppt-master agent-framework general"
+    },
+    {
       "name": "OpenMontage",
       "source": "tools",
       "sourceAgent": "other",
@@ -115,6 +223,42 @@
         "other"
       ],
       "searchText": "openmontage world's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. turn your ai coding assistant into a full video production studio. calesthio/openmontage git clone https://github.com/calesthio/openmontage.git agent-framework other"
+    },
+    {
+      "name": "graphiti",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "getzep/graphiti",
+      "stars": 28143,
+      "desc": "Build Real-Time Knowledge Graphs for AI Agents",
+      "url": "https://github.com/getzep/graphiti",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "graphiti build real-time knowledge graphs for ai agents getzep/graphiti agent-framework general"
+    },
+    {
+      "name": "openaiagentspython",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "openai/openai-agents-python",
+      "stars": 27508,
+      "desc": "A lightweight, powerful framework for multi-agent workflows",
+      "url": "https://github.com/openai/openai-agents-python",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openaiagentspython a lightweight, powerful framework for multi-agent workflows openai/openai-agents-python agent-framework general"
     },
     {
       "name": "swarm",
@@ -331,6 +475,24 @@
         "general"
       ],
       "searchText": "ogulcancelik agent multiplexer that lives in your terminal — run multiple ai agents in parallel. sponsors/ogulcancelik pip install agent-mux agent-framework general"
+    },
+    {
+      "name": "gaianetnode",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "GaiaNet-AI/gaianet-node",
+      "stars": 5025,
+      "desc": "Install, run and deploy your own decentralized AI agent service",
+      "url": "https://github.com/GaiaNet-AI/gaianet-node",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gaianetnode install, run and deploy your own decentralized ai agent service gaianet-ai/gaianet-node agent-framework general"
     },
     {
       "name": "solace_agent_mesh",

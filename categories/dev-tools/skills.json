@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 919,
+    "count": 921,
     "sourceData": "categories"
   },
   "skills": [
@@ -451,6 +451,24 @@
         "general"
       ],
       "searchText": "prettier prettier is an opinionated code formatter. prettier/prettier npm install prettier dev-tools general"
+    },
+    {
+      "name": "awesomeclaudecode",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47590,
+      "desc": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, apps, and resources for Claude Code",
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesomeclaudecode a curated list of awesome skills, hooks, slash-commands, agent orchestrators, apps, and resources for claude code hesreallyhim/awesome-claude-code dev-tools general"
     },
     {
       "name": "/analyze-code",
@@ -11007,6 +11025,24 @@
         "openclaw"
       ],
       "searchText": "mcporter call mcps via typescript, masquerading as simple typescript api. or package them as cli. openclaw/mcporter npm i -g mcporter dev-tools openclaw"
+    },
+    {
+      "name": "adalflow",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "SylphAI-Inc/AdalFlow",
+      "stars": 4172,
+      "desc": "AdalFlow: The library to build & auto-optimize LLM applications.",
+      "url": "https://github.com/SylphAI-Inc/AdalFlow",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "adalflow adalflow: the library to build & auto-optimize llm applications. sylphai-inc/adalflow dev-tools general"
     },
     {
       "name": "tokscale",

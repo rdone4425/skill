@@ -4,7 +4,7 @@
     "topCategoryId": "devops",
     "subCategoryId": "deploy",
     "categoryPath": "devops-deploy",
-    "count": 104,
+    "count": 105,
     "sourceData": "categories"
   },
   "skills": [
@@ -1285,6 +1285,24 @@
         "codex"
       ],
       "searchText": "opensandbox secure, fast, and extensible sandbox runtime for ai agents. isolated execution for untrusted ai-generated code. opensandbox-group/opensandbox devops-deploy claude codex"
+    },
+    {
+      "name": "tensorzero",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "tensorzero/tensorzero",
+      "stars": 11674,
+      "desc": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, and optimization.",
+      "url": "https://github.com/tensorzero/tensorzero",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "tensorzero tensorzero is an open-source llmops platform that unifies an llm gateway, observability, and optimization. tensorzero/tensorzero devops-deploy general"
     },
     {
       "name": "flyway",

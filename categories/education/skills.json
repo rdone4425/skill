@@ -4,7 +4,7 @@
     "topCategoryId": "education",
     "subCategoryId": "education",
     "categoryPath": "education",
-    "count": 89,
+    "count": 90,
     "sourceData": "categories"
   },
   "skills": [
@@ -1374,6 +1374,24 @@
         "gemini"
       ],
       "searchText": "how to create your first claude skill step-by-step tutorial with examples travisvn/awesome-claude-skills education claude codex cursor hermes gemini"
+    },
+    {
+      "name": "reasoningfromscratch",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "rasbt/reasoning-from-scratch",
+      "stars": 4586,
+      "desc": "Implement a reasoning LLM in PyTorch from scratch, step by step",
+      "url": "https://github.com/rasbt/reasoning-from-scratch",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "general",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "reasoningfromscratch implement a reasoning llm in pytorch from scratch, step by step rasbt/reasoning-from-scratch education general"
     },
     {
       "name": "classisland",

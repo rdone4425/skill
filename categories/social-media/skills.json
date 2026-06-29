@@ -4,7 +4,7 @@
     "topCategoryId": "social-media",
     "subCategoryId": "social-media",
     "categoryPath": "social-media",
-    "count": 137,
+    "count": 138,
     "sourceData": "categories"
   },
   "skills": [
@@ -133,6 +133,24 @@
         "general"
       ],
       "searchText": "twitter/x-api-v2 official twitter developer api for tweets and analytics developer.twitter.com web https://developer.twitter.com social-media general"
+    },
+    {
+      "name": "trendradar",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "sansan0/TrendRadar",
+      "stars": 60037,
+      "desc": "AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, sentiment analysis.",
+      "url": "https://github.com/sansan0/TrendRadar",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social-media",
+      "subCategoryId": "general",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "trendradar ai-driven public opinion & trend monitor with multi-platform aggregation, rss, sentiment analysis. sansan0/trendradar social-media general"
     },
     {
       "name": "unsplash-api",

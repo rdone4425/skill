@@ -4,7 +4,7 @@
     "topCategoryId": "testing",
     "subCategoryId": "qa",
     "categoryPath": "testing-qa",
-    "count": 93,
+    "count": 94,
     "sourceData": "categories"
   },
   "skills": [
@@ -1280,6 +1280,24 @@
         "claude"
       ],
       "searchText": "mobile-mcp model context protocol server for mobile automation and scraping (ios, android) mobile-next/mobile-mcp $skill-installer mobile-mcp testing-qa claude"
+    },
+    {
+      "name": "kiln",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Kiln-AI/Kiln",
+      "stars": 4939,
+      "desc": "Build, Evaluate, and Optimize AI Systems. Includes evals, RAG, agents, fine-tuning.",
+      "url": "https://github.com/Kiln-AI/Kiln",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing-qa",
+      "subCategoryId": "general",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "kiln build, evaluate, and optimize ai systems. includes evals, rag, agents, fine-tuning. kiln-ai/kiln testing-qa general"
     },
     {
       "name": "powermock",
