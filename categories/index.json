@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-06-29T11:10:50.435Z",
   "sourceData": "categories",
-  "totalSkills": 2594,
+  "totalSkills": 2595,
   "categories": [
     {
       "id": "dev-tools",
@@ -43,7 +43,7 @@
       "path": "automation-productivity",
       "groupId": "automation",
       "subcategoryId": "productivity",
-      "count": 134
+      "count": 135
     },
     {
       "id": "devops-deploy",
@@ -320,7 +320,7 @@
     },
     {
       "id": "automation",
-      "count": 138,
+      "count": 139,
       "subcategories": [
         {
           "id": "automation/productivity",

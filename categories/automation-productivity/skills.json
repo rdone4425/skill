@@ -4,7 +4,7 @@
     "topCategoryId": "automation",
     "subCategoryId": "productivity",
     "categoryPath": "automation-productivity",
-    "count": 134,
+    "count": 135,
     "sourceData": "categories"
   },
   "skills": [
@@ -2705,6 +2705,24 @@
         "copilot"
       ],
       "searchText": "nightscout-cgm-skill github copilot agent skill for nightscout cgm blood glucose analysis shanselman/nightscout-cgm-skill pip install nightscout-cgm-skill automation-productivity copilot"
+    },
+    {
+      "name": "hermes-tweet",
+      "source": "hermes",
+      "sourceAgent": "hermes",
+      "repo": "Xquik-dev/hermes-tweet",
+      "stars": 15,
+      "desc": "Native Hermes Agent X/Twitter plugin with read-first workflows, a bundled Hermes skill, and approval-gated actions. Requires XQUIK_API_KEY for live reads/actions.",
+      "url": "https://github.com/Xquik-dev/hermes-tweet",
+      "install": "hermes plugins install Xquik-dev/hermes-tweet --enable",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-tweet native hermes agent x/twitter plugin with read-first workflows, a bundled hermes skill, and approval-gated actions. requires xquik_api_key for live reads/actions. xquik-dev/hermes-tweet hermes plugins install xquik-dev/hermes-tweet --enable automation-productivity hermes"
     },
     {
       "name": "openhealth",
