@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "functionCategory": "social-media",
+    "topCategoryId": "social-media",
+    "subCategoryId": "social-media",
+    "categoryPath": "social-media",
+    "count": 4,
+    "sourceData": "categories"
+  },
+  "skills": [
+    {
+      "name": "f2",
+      "source": "f2",
+      "sourceAgent": "f2",
+      "repo": "Johnserf-Seed/f2",
+      "stars": 2534,
+      "desc": "High-speed downloader for multiple platforms",
+      "url": "https://github.com/Johnserf-Seed/f2",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social",
+      "subCategoryId": "media",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "f2"
+      ],
+      "searchText": "f2 high-speed downloader for multiple platforms johnserf-seed/f2 social-media f2"
+    },
+    {
+      "name": "slash",
+      "source": "slash",
+      "sourceAgent": "slash",
+      "repo": "theahmadov/slash",
+      "stars": 703,
+      "desc": "The Slash OSINT Tool",
+      "url": "https://github.com/theahmadov/slash",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social",
+      "subCategoryId": "media",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "slash"
+      ],
+      "searchText": "slash the slash osint tool theahmadov/slash social-media slash"
+    },
+    {
+      "name": "emora-project",
+      "source": "emora-project",
+      "sourceAgent": "emora-project",
+      "repo": "idefasoft/Emora-Project",
+      "stars": 702,
+      "desc": "Emora is an OSINT tool like sherlock but with a GUI, which search for accounts by username across social networks",
+      "url": "https://github.com/idefasoft/Emora-Project",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social",
+      "subCategoryId": "media",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "emora-project"
+      ],
+      "searchText": "emora-project emora is an osint tool like sherlock but with a gui, which search for accounts by username across social networks idefasoft/emora-project social-media emora-project"
+    },
+    {
+      "name": "telegram-instapy-scheduling",
+      "source": "telegram-instapy-scheduling",
+      "sourceAgent": "telegram-instapy-scheduling",
+      "repo": "Tkd-Alex/Telegram-InstaPy-Scheduling",
+      "stars": 154,
+      "desc": "A Telegram bot for scheduling InstaPy",
+      "url": "https://github.com/Tkd-Alex/Telegram-InstaPy-Scheduling",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social",
+      "subCategoryId": "media",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "telegram-instapy-scheduling"
+      ],
+      "searchText": "telegram-instapy-scheduling a telegram bot for scheduling instapy tkd-alex/telegram-instapy-scheduling social-media telegram-instapy-scheduling"
+    }
+  ]
+}

@@ -4,10 +4,462 @@
     "topCategoryId": "backend",
     "subCategoryId": "api",
     "categoryPath": "backend-api",
-    "count": 3,
+    "count": 42,
     "sourceData": "categories"
   },
   "skills": [
+    {
+      "name": "nest",
+      "source": "nest",
+      "sourceAgent": "nest",
+      "repo": "nestjs/nest",
+      "stars": 76106,
+      "desc": "A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript 🚀",
+      "url": "https://github.com/nestjs/nest",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "nest"
+      ],
+      "searchText": "nest a progressive node.js framework for building efficient, scalable, and enterprise-grade server-side applications with typescript/javascript 🚀 nestjs/nest backend-api nest"
+    },
+    {
+      "name": "kong",
+      "source": "kong",
+      "sourceAgent": "kong",
+      "repo": "Kong/kong",
+      "stars": 43690,
+      "desc": "🦍 The API and AI Gateway",
+      "url": "https://github.com/Kong/kong",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "kong"
+      ],
+      "searchText": "kong 🦍 the api and ai gateway kong/kong backend-api kong"
+    },
+    {
+      "name": "dubbo",
+      "source": "dubbo",
+      "sourceAgent": "dubbo",
+      "repo": "apache/dubbo",
+      "stars": 41523,
+      "desc": "The java implementation of Apache Dubbo. An RPC and microservice framework.",
+      "url": "https://github.com/apache/dubbo",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "dubbo"
+      ],
+      "searchText": "dubbo the java implementation of apache dubbo. an rpc and microservice framework. apache/dubbo backend-api dubbo"
+    },
+    {
+      "name": "insomnia",
+      "source": "insomnia",
+      "sourceAgent": "insomnia",
+      "repo": "Kong/insomnia",
+      "stars": 39814,
+      "desc": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
+      "url": "https://github.com/Kong/insomnia",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "insomnia"
+      ],
+      "searchText": "insomnia the open-source, cross-platform api client for graphql, rest, websockets, sse and grpc. with cloud, local and git storage. kong/insomnia backend-api insomnia"
+    },
+    {
+      "name": "one-api",
+      "source": "one-api",
+      "sourceAgent": "one-api",
+      "repo": "songquanpeng/one-api",
+      "stars": 35319,
+      "desc": "LLM API 管理 & 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management & key",
+      "url": "https://github.com/songquanpeng/one-api",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "claude",
+        "gemini",
+        "one-api"
+      ],
+      "searchText": "one-api llm api 管理 & 分发系统，支持 openai、azure、anthropic claude、google gemini、deepseek、字节豆包、chatglm、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 api 适配，可用于 key 管理与二次分发。单可执行文件，提供 docker 镜像，一键部署，开箱即用。llm api management & key songquanpeng/one-api backend-api claude gemini one-api"
+    },
+    {
+      "name": "go-zero",
+      "source": "go-zero",
+      "sourceAgent": "go-zero",
+      "repo": "zeromicro/go-zero",
+      "stars": 33142,
+      "desc": "A cloud-native Go microservices framework with cli tool for productivity.",
+      "url": "https://github.com/zeromicro/go-zero",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "go-zero"
+      ],
+      "searchText": "go-zero a cloud-native go microservices framework with cli tool for productivity. zeromicro/go-zero backend-api go-zero"
+    },
+    {
+      "name": "conductor",
+      "source": "conductor",
+      "sourceAgent": "conductor",
+      "repo": "conductor-oss/conductor",
+      "stars": 31970,
+      "desc": "Conductor is an event driven agentic workflow engine providing durable and highly resilient execution engine for applications and AI Agents",
+      "url": "https://github.com/conductor-oss/conductor",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "conductor"
+      ],
+      "searchText": "conductor conductor is an event driven agentic workflow engine providing durable and highly resilient execution engine for applications and ai agents conductor-oss/conductor backend-api conductor"
+    },
+    {
+      "name": "consul",
+      "source": "consul",
+      "sourceAgent": "consul",
+      "repo": "hashicorp/consul",
+      "stars": 29970,
+      "desc": "Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure.",
+      "url": "https://github.com/hashicorp/consul",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "consul"
+      ],
+      "searchText": "consul consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure. hashicorp/consul backend-api consul"
+    },
+    {
+      "name": "flatbuffers",
+      "source": "flatbuffers",
+      "sourceAgent": "flatbuffers",
+      "repo": "google/flatbuffers",
+      "stars": 26150,
+      "desc": "FlatBuffers: Memory Efficient Serialization Library",
+      "url": "https://github.com/google/flatbuffers",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "flatbuffers"
+      ],
+      "searchText": "flatbuffers flatbuffers: memory efficient serialization library google/flatbuffers backend-api flatbuffers"
+    },
+    {
+      "name": "kratos",
+      "source": "kratos",
+      "sourceAgent": "kratos",
+      "repo": "go-kratos/kratos",
+      "stars": 25760,
+      "desc": "Your ultimate Go microservices framework for the cloud-native era.",
+      "url": "https://github.com/go-kratos/kratos",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "kratos"
+      ],
+      "searchText": "kratos your ultimate go microservices framework for the cloud-native era. go-kratos/kratos backend-api kratos"
+    },
+    {
+      "name": "safeline",
+      "source": "safeline",
+      "sourceAgent": "safeline",
+      "repo": "chaitin/SafeLine",
+      "stars": 21588,
+      "desc": "SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.",
+      "url": "https://github.com/chaitin/SafeLine",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "safeline"
+      ],
+      "searchText": "safeline safeline is a self-hosted waf(web application firewall) / reverse proxy to protect your web apps from attacks and exploits. chaitin/safeline backend-api safeline"
+    },
+    {
+      "name": "iii",
+      "source": "iii",
+      "sourceAgent": "iii",
+      "repo": "iii-hq/iii",
+      "stars": 18382,
+      "desc": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
+      "url": "https://github.com/iii-hq/iii",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "iii"
+      ],
+      "searchText": "iii effortlessly compose, extend, and observe every service in real-time for the first time ever. iii-hq/iii backend-api iii"
+    },
+    {
+      "name": "apisix",
+      "source": "apisix",
+      "sourceAgent": "apisix",
+      "repo": "apache/apisix",
+      "stars": 16787,
+      "desc": "The Cloud-Native API Gateway and AI Gateway",
+      "url": "https://github.com/apache/apisix",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "apisix"
+      ],
+      "searchText": "apisix the cloud-native api gateway and ai gateway apache/apisix backend-api apisix"
+    },
+    {
+      "name": "qiankun",
+      "source": "qiankun",
+      "sourceAgent": "qiankun",
+      "repo": "umijs/qiankun",
+      "stars": 16622,
+      "desc": "📦 🚀 Blazing fast, simple and complete solution for micro frontends.",
+      "url": "https://github.com/umijs/qiankun",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "qiankun"
+      ],
+      "searchText": "qiankun 📦 🚀 blazing fast, simple and complete solution for micro frontends. umijs/qiankun backend-api qiankun"
+    },
+    {
+      "name": "zappa",
+      "source": "zappa",
+      "sourceAgent": "zappa",
+      "repo": "Miserlou/Zappa",
+      "stars": 11837,
+      "desc": "Serverless Python",
+      "url": "https://github.com/Miserlou/Zappa",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "zappa"
+      ],
+      "searchText": "zappa serverless python miserlou/zappa backend-api zappa"
+    },
+    {
+      "name": "tyk",
+      "source": "tyk",
+      "sourceAgent": "tyk",
+      "repo": "TykTechnologies/tyk",
+      "stars": 10756,
+      "desc": "Tyk Open Source API Gateway written in Go, supporting REST, GraphQL, TCP and gRPC protocols",
+      "url": "https://github.com/TykTechnologies/tyk",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "tyk"
+      ],
+      "searchText": "tyk tyk open source api gateway written in go, supporting rest, graphql, tcp and grpc protocols tyktechnologies/tyk backend-api tyk"
+    },
+    {
+      "name": "up",
+      "source": "up",
+      "sourceAgent": "up",
+      "repo": "apex/up",
+      "stars": 8798,
+      "desc": "Deploy infinitely scalable serverless apps, apis, and sites in seconds to AWS.",
+      "url": "https://github.com/apex/up",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "up"
+      ],
+      "searchText": "up deploy infinitely scalable serverless apps, apis, and sites in seconds to aws. apex/up backend-api up"
+    },
+    {
+      "name": "shenyu",
+      "source": "shenyu",
+      "sourceAgent": "shenyu",
+      "repo": "apache/shenyu",
+      "stars": 8796,
+      "desc": "Apache ShenYu is a Java native API Gateway for service proxy, protocol conversion and API governance.",
+      "url": "https://github.com/apache/shenyu",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "shenyu"
+      ],
+      "searchText": "shenyu apache shenyu is a java native api gateway for service proxy, protocol conversion and api governance. apache/shenyu backend-api shenyu"
+    },
+    {
+      "name": "higress",
+      "source": "higress",
+      "sourceAgent": "higress",
+      "repo": "higress-group/higress",
+      "stars": 8736,
+      "desc": "🤖 AI Gateway | AI Native API Gateway",
+      "url": "https://github.com/higress-group/higress",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "higress"
+      ],
+      "searchText": "higress 🤖 ai gateway | ai native api gateway higress-group/higress backend-api higress"
+    },
+    {
+      "name": "kitex",
+      "source": "kitex",
+      "sourceAgent": "kitex",
+      "repo": "cloudwego/kitex",
+      "stars": 7983,
+      "desc": "Go RPC framework with high-performance and strong-extensibility for building micro-services.",
+      "url": "https://github.com/cloudwego/kitex",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "kitex"
+      ],
+      "searchText": "kitex go rpc framework with high-performance and strong-extensibility for building micro-services. cloudwego/kitex backend-api kitex"
+    },
+    {
+      "name": "hyperf",
+      "source": "hyperf",
+      "sourceAgent": "hyperf",
+      "repo": "hyperf/hyperf",
+      "stars": 6860,
+      "desc": "🚀 A coroutine framework that focuses on hyperspeed and flexibility. Building microservice or middleware with ease.",
+      "url": "https://github.com/hyperf/hyperf",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "hyperf"
+      ],
+      "searchText": "hyperf 🚀 a coroutine framework that focuses on hyperspeed and flexibility. building microservice or middleware with ease. hyperf/hyperf backend-api hyperf"
+    },
+    {
+      "name": "loopback-next",
+      "source": "loopback-next",
+      "sourceAgent": "loopback-next",
+      "repo": "loopbackio/loopback-next",
+      "stars": 5095,
+      "desc": "LoopBack makes it easy to build modern API applications that require complex integrations.",
+      "url": "https://github.com/loopbackio/loopback-next",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "loopback-next"
+      ],
+      "searchText": "loopback-next loopback makes it easy to build modern api applications that require complex integrations. loopbackio/loopback-next backend-api loopback-next"
+    },
+    {
+      "name": "nameko",
+      "source": "nameko",
+      "sourceAgent": "nameko",
+      "repo": "nameko/nameko",
+      "stars": 4755,
+      "desc": "Python framework for building microservices",
+      "url": "https://github.com/nameko/nameko",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "nameko"
+      ],
+      "searchText": "nameko python framework for building microservices nameko/nameko backend-api nameko"
+    },
+    {
+      "name": "wa-automate-nodejs",
+      "source": "wa-automate-nodejs",
+      "sourceAgent": "wa-automate-nodejs",
+      "repo": "open-wa/wa-automate-nodejs",
+      "stars": 3624,
+      "desc": "💬 🤖  The most reliable tool for chatbots with advanced features. Be sure to 🌟 this repository for updates!",
+      "url": "https://github.com/open-wa/wa-automate-nodejs",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "wa-automate-nodejs"
+      ],
+      "searchText": "wa-automate-nodejs 💬 🤖  the most reliable tool for chatbots with advanced features. be sure to 🌟 this repository for updates! open-wa/wa-automate-nodejs backend-api wa-automate-nodejs"
+    },
+    {
+      "name": "wppconnect",
+      "source": "wppconnect",
+      "sourceAgent": "wppconnect",
+      "repo": "wppconnect-team/wppconnect",
+      "stars": 3352,
+      "desc": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interacti",
+      "url": "https://github.com/wppconnect-team/wppconnect",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "wppconnect"
+      ],
+      "searchText": "wppconnect wppconnect is an open source project developed by the javascript community with the aim of exporting functions from whatsapp web to the node, which can be used to support the creation of any interacti wppconnect-team/wppconnect backend-api wppconnect"
+    },
     {
       "name": "awesome-ChatGPT-repositories",
       "source": "community",
@@ -28,6 +480,78 @@
       "searchText": "awesome-chatgpt-repositories a curated list of resources dedicated to open source github repositories related to chatgpt, openai api, and codex. searchable via claude code skills. taishi-i/awesome-chatgpt-repositories git clone https://github.com/taishi-i/awesome-chatgpt-repositories.git  # browse the awesome list backend-api claude codex"
     },
     {
+      "name": "userver",
+      "source": "userver",
+      "sourceAgent": "userver",
+      "repo": "userver-framework/userver",
+      "stars": 2909,
+      "desc": "Production-ready C++ Asynchronous Framework with rich functionality",
+      "url": "https://github.com/userver-framework/userver",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "userver"
+      ],
+      "searchText": "userver production-ready c++ asynchronous framework with rich functionality userver-framework/userver backend-api userver"
+    },
+    {
+      "name": "actionhero",
+      "source": "actionhero",
+      "sourceAgent": "actionhero",
+      "repo": "actionhero/actionhero",
+      "stars": 2415,
+      "desc": "Actionhero is a realtime multi-transport nodejs API Server with integrated cluster capabilities and delayed tasks",
+      "url": "https://github.com/actionhero/actionhero",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "actionhero"
+      ],
+      "searchText": "actionhero actionhero is a realtime multi-transport nodejs api server with integrated cluster capabilities and delayed tasks actionhero/actionhero backend-api actionhero"
+    },
+    {
+      "name": "finatra",
+      "source": "finatra",
+      "sourceAgent": "finatra",
+      "repo": "twitter/finatra",
+      "stars": 2273,
+      "desc": "Fast, testable, Scala services built on TwitterServer and Finagle",
+      "url": "https://github.com/twitter/finatra",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "finatra"
+      ],
+      "searchText": "finatra fast, testable, scala services built on twitterserver and finagle twitter/finatra backend-api finatra"
+    },
+    {
+      "name": "foal",
+      "source": "foal",
+      "sourceAgent": "foal",
+      "repo": "FoalTS/foal",
+      "stars": 1935,
+      "desc": "Full-featured Node.js framework 🚀",
+      "url": "https://github.com/FoalTS/foal",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "foal"
+      ],
+      "searchText": "foal full-featured node.js framework 🚀 foalts/foal backend-api foal"
+    },
+    {
       "name": "pg-aiguide",
       "source": "general",
       "sourceAgent": "claude",
@@ -44,6 +568,60 @@
         "claude"
       ],
       "searchText": "pg-aiguide mcp server and claude plugin for postgres skills and documentation. helps ai coding tools generate better postgresql code. timescale/pg-aiguide pip install pg-aiguide backend-api claude"
+    },
+    {
+      "name": "drash",
+      "source": "drash",
+      "sourceAgent": "drash",
+      "repo": "drashland/drash",
+      "stars": 1067,
+      "desc": "A microframework for building JavaScript HTTP applications. Runtime-agnostic. Strongly typed.",
+      "url": "https://github.com/drashland/drash",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "drash"
+      ],
+      "searchText": "drash a microframework for building javascript http applications. runtime-agnostic. strongly typed. drashland/drash backend-api drash"
+    },
+    {
+      "name": "cot",
+      "source": "cot",
+      "sourceAgent": "cot",
+      "repo": "cot-rs/cot",
+      "stars": 977,
+      "desc": "The Rust web framework for lazy developers.",
+      "url": "https://github.com/cot-rs/cot",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "cot"
+      ],
+      "searchText": "cot the rust web framework for lazy developers. cot-rs/cot backend-api cot"
+    },
+    {
+      "name": "graphql-framework-experiment",
+      "source": "graphql-framework-experiment",
+      "sourceAgent": "graphql-framework-experiment",
+      "repo": "prisma-labs/graphql-framework-experiment",
+      "stars": 668,
+      "desc": "Code-First Type-Safe GraphQL Framework",
+      "url": "https://github.com/prisma-labs/graphql-framework-experiment",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "graphql-framework-experiment"
+      ],
+      "searchText": "graphql-framework-experiment code-first type-safe graphql framework prisma-labs/graphql-framework-experiment backend-api graphql-framework-experiment"
     },
     {
       "name": "yupi-hot-monitor",
@@ -63,6 +641,132 @@
         "other"
       ],
       "searchText": "yupi-hot-monitor 2026 年编程导航 ai 编程实战新项目，基于 node.js + express + react + openrouter 的 ai 热点监控工具，支持多信息源聚合抓取（twitter / bing / hackernews / b 站等 7+ 平台）、ai 查询扩展、ai 真假识别与相关性分析、websocket 实时推送、邮件通知、多维度筛选排序，并将热点监控能力封装为 agent skills 技能包。覆盖 prisma + sqlite 数据库、socket.io liyupi/yupi-hot-monitor npm i -g yupi-hot-monitor backend-api copilot other"
+    },
+    {
+      "name": "wtx",
+      "source": "wtx",
+      "sourceAgent": "wtx",
+      "repo": "c410-f3r/wtx",
+      "stars": 362,
+      "desc": "Written by humans. WTX is a collection of different transport implementations and related tools focused primarily on web technologies.",
+      "url": "https://github.com/c410-f3r/wtx",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "wtx"
+      ],
+      "searchText": "wtx written by humans. wtx is a collection of different transport implementations and related tools focused primarily on web technologies. c410-f3r/wtx backend-api wtx"
+    },
+    {
+      "name": "kitajs",
+      "source": "kitajs",
+      "sourceAgent": "kitajs",
+      "repo": "kitajs/kitajs",
+      "stars": 348,
+      "desc": "🌷 Performant & type safe fastify router — end-to-end safety with ZERO abstraction cost!",
+      "url": "https://github.com/kitajs/kitajs",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "kitajs"
+      ],
+      "searchText": "kitajs 🌷 performant & type safe fastify router — end-to-end safety with zero abstraction cost! kitajs/kitajs backend-api kitajs"
+    },
+    {
+      "name": "fastapi-vscode",
+      "source": "fastapi-vscode",
+      "sourceAgent": "fastapi-vscode",
+      "repo": "fastapi/fastapi-vscode",
+      "stars": 332,
+      "desc": "VS Code extension for FastAPI and friends ✨",
+      "url": "https://github.com/fastapi/fastapi-vscode",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "fastapi-vscode"
+      ],
+      "searchText": "fastapi-vscode vs code extension for fastapi and friends ✨ fastapi/fastapi-vscode backend-api fastapi-vscode"
+    },
+    {
+      "name": "harmony",
+      "source": "harmony",
+      "sourceAgent": "harmony",
+      "repo": "harmonyland/harmony",
+      "stars": 325,
+      "desc": "An easy to use Discord API Library for Deno.",
+      "url": "https://github.com/harmonyland/harmony",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "harmony"
+      ],
+      "searchText": "harmony an easy to use discord api library for deno. harmonyland/harmony backend-api harmony"
+    },
+    {
+      "name": "jsonschema",
+      "source": "jsonschema",
+      "sourceAgent": "jsonschema",
+      "repo": "sourcemeta/jsonschema",
+      "stars": 285,
+      "desc": "The CLI for working with JSON Schema. Covers formatting, linting, testing, bundling, and more for both local development and CI/CD pipelines",
+      "url": "https://github.com/sourcemeta/jsonschema",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "jsonschema"
+      ],
+      "searchText": "jsonschema the cli for working with json schema. covers formatting, linting, testing, bundling, and more for both local development and ci/cd pipelines sourcemeta/jsonschema backend-api jsonschema"
+    },
+    {
+      "name": "cloudflare-worker-router",
+      "source": "cloudflare-worker-router",
+      "sourceAgent": "cloudflare-worker-router",
+      "repo": "tsndr/cloudflare-worker-router",
+      "stars": 258,
+      "desc": "A super lightweight router (1.0K) with middleware support and ZERO dependencies for Cloudflare Workers.",
+      "url": "https://github.com/tsndr/cloudflare-worker-router",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "cloudflare-worker-router"
+      ],
+      "searchText": "cloudflare-worker-router a super lightweight router (1.0k) with middleware support and zero dependencies for cloudflare workers. tsndr/cloudflare-worker-router backend-api cloudflare-worker-router"
+    },
+    {
+      "name": "igniter-js",
+      "source": "igniter-js",
+      "sourceAgent": "igniter-js",
+      "repo": "felipebarcelospro/igniter-js",
+      "stars": 241,
+      "desc": "Igniter is a modern, type-safe HTTP framework designed to streamline the development of scalable TypeScript applications.",
+      "url": "https://github.com/felipebarcelospro/igniter-js",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "igniter-js"
+      ],
+      "searchText": "igniter-js igniter is a modern, type-safe http framework designed to streamline the development of scalable typescript applications. felipebarcelospro/igniter-js backend-api igniter-js"
     }
   ]
 }

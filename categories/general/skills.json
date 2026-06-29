@@ -4,7 +4,7 @@
     "topCategoryId": "general",
     "subCategoryId": "general",
     "categoryPath": "general",
-    "count": 37,
+    "count": 67,
     "sourceData": "categories"
   },
   "skills": [
@@ -13,7 +13,7 @@
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
-      "stars": 156232,
+      "stars": 156261,
       "desc": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algor",
       "url": "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art",
       "install": "$skill-installer algorithmic-art",
@@ -25,6 +25,78 @@
         "claude"
       ],
       "searchText": "algorithmic-art creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. create original algor anthropics/skills $skill-installer algorithmic-art general claude"
+    },
+    {
+      "name": "puppeteer",
+      "source": "puppeteer",
+      "sourceAgent": "puppeteer",
+      "repo": "puppeteer/puppeteer",
+      "stars": 95267,
+      "desc": "JavaScript API for Chrome and Firefox",
+      "url": "https://github.com/puppeteer/puppeteer",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "puppeteer"
+      ],
+      "searchText": "puppeteer javascript api for chrome and firefox puppeteer/puppeteer general puppeteer"
+    },
+    {
+      "name": "sherlock",
+      "source": "sherlock",
+      "sourceAgent": "sherlock",
+      "repo": "sherlock-project/sherlock",
+      "stars": 85809,
+      "desc": "Hunt down social media accounts by username across social networks",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "sherlock"
+      ],
+      "searchText": "sherlock hunt down social media accounts by username across social networks sherlock-project/sherlock general sherlock"
+    },
+    {
+      "name": "openhands",
+      "source": "openhands",
+      "sourceAgent": "openhands",
+      "repo": "OpenHands/OpenHands",
+      "stars": 78591,
+      "desc": "🙌 OpenHands: AI-Driven Development",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "openhands"
+      ],
+      "searchText": "openhands 🙌 openhands: ai-driven development openhands/openhands general openhands"
+    },
+    {
+      "name": "daytona",
+      "source": "daytona",
+      "sourceAgent": "daytona",
+      "repo": "daytonaio/daytona",
+      "stars": 72367,
+      "desc": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code",
+      "url": "https://github.com/daytonaio/daytona",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "daytona"
+      ],
+      "searchText": "daytona daytona is a secure and elastic infrastructure for running ai-generated code daytonaio/daytona general daytona"
     },
     {
       "name": "caveman",
@@ -45,6 +117,60 @@
       "searchText": "caveman 🪨 why use many token when few token do trick — claude code skill that cuts 65% of tokens by talking like caveman juliusbrussee/caveman npm i -g caveman general claude"
     },
     {
+      "name": "rtk",
+      "source": "rtk",
+      "sourceAgent": "rtk",
+      "repo": "rtk-ai/rtk",
+      "stars": 66765,
+      "desc": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "url": "https://github.com/rtk-ai/rtk",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "rtk"
+      ],
+      "searchText": "rtk cli proxy that reduces llm token consumption by 60-90% on common dev commands. single rust binary, zero dependencies rtk-ai/rtk general rtk"
+    },
+    {
+      "name": "localstack",
+      "source": "localstack",
+      "sourceAgent": "localstack",
+      "repo": "localstack/localstack",
+      "stars": 65082,
+      "desc": "💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline",
+      "url": "https://github.com/localstack/localstack",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "localstack"
+      ],
+      "searchText": "localstack 💻 a fully functional local aws cloud stack. develop and test your cloud & serverless apps offline localstack/localstack general localstack"
+    },
+    {
+      "name": "ponytail",
+      "source": "ponytail",
+      "sourceAgent": "ponytail",
+      "repo": "DietrichGebert/ponytail",
+      "stars": 64400,
+      "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "ponytail"
+      ],
+      "searchText": "ponytail makes your ai agent think like the laziest senior dev in the room. the best code is the code you never wrote. dietrichgebert/ponytail general ponytail"
+    },
+    {
       "name": "awesome-openclaw-skills",
       "source": "community",
       "sourceAgent": "openclaw",
@@ -61,6 +187,78 @@
         "openclaw"
       ],
       "searchText": "awesome-openclaw-skills the awesome collection of openclaw skills. 5,400+ skills filtered and categorized from the official openclaw skills registry. voltagent/awesome-openclaw-skills git clone https://github.com/voltagent/awesome-openclaw-skills.git # browse the awesome list general openclaw"
+    },
+    {
+      "name": "githubdaily",
+      "source": "githubdaily",
+      "sourceAgent": "githubdaily",
+      "repo": "GitHubDaily/GitHubDaily",
+      "stars": 46918,
+      "desc": "坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.",
+      "url": "https://github.com/GitHubDaily/GitHubDaily",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "githubdaily"
+      ],
+      "searchText": "githubdaily 坚持分享 github 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。a list cool, interesting projects of github. githubdaily/githubdaily general githubdaily"
+    },
+    {
+      "name": "streamlit",
+      "source": "streamlit",
+      "sourceAgent": "streamlit",
+      "repo": "streamlit/streamlit",
+      "stars": 45097,
+      "desc": "Streamlit — A faster way to build and share data apps.",
+      "url": "https://github.com/streamlit/streamlit",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "streamlit"
+      ],
+      "searchText": "streamlit streamlit — a faster way to build and share data apps. streamlit/streamlit general streamlit"
+    },
+    {
+      "name": "files",
+      "source": "files",
+      "sourceAgent": "files",
+      "repo": "files-community/Files",
+      "stars": 44078,
+      "desc": "A modern file manager that helps users organize their files and folders.",
+      "url": "https://github.com/files-community/Files",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "files"
+      ],
+      "searchText": "files a modern file manager that helps users organize their files and folders. files-community/files general files"
+    },
+    {
+      "name": "agno",
+      "source": "agno",
+      "sourceAgent": "agno",
+      "repo": "agno-agi/agno",
+      "stars": 40880,
+      "desc": "Build, run, and manage agent platforms.",
+      "url": "https://github.com/agno-agi/agno",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "agno"
+      ],
+      "searchText": "agno build, run, and manage agent platforms. agno-agi/agno general agno"
     },
     {
       "name": "last30days-skill",
@@ -85,6 +283,24 @@
         "openclaw"
       ],
       "searchText": "last30days-skill ai agent skill that researches any topic across reddit, x, youtube, hn, polymarket, and the web - then synthesizes a grounded summary mvanhorn/last30days-skill git clone https://github.com/mvanhorn/last30days-skill.git general claude codex cursor copilot hermes opencode openclaw"
+    },
+    {
+      "name": "modern-unix",
+      "source": "modern-unix",
+      "sourceAgent": "modern-unix",
+      "repo": "ibraheemdev/modern-unix",
+      "stars": 32937,
+      "desc": "A collection of modern/faster/saner alternatives to common unix commands.",
+      "url": "https://github.com/ibraheemdev/modern-unix",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "modern-unix"
+      ],
+      "searchText": "modern-unix a collection of modern/faster/saner alternatives to common unix commands. ibraheemdev/modern-unix general modern-unix"
     },
     {
       "name": "claude-skills",
@@ -121,6 +337,24 @@
         "openclaw"
       ],
       "searchText": "clawhub skill + plugin registry for openclaw openclaw/clawhub git clone https://github.com/openclaw/clawhub.git general openclaw"
+    },
+    {
+      "name": "hygen",
+      "source": "hygen",
+      "sourceAgent": "hygen",
+      "repo": "jondot/hygen",
+      "stars": 5935,
+      "desc": "The simple, fast, and scalable code generator that lives in your project.",
+      "url": "https://github.com/jondot/hygen",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "hygen"
+      ],
+      "searchText": "hygen the simple, fast, and scalable code generator that lives in your project. jondot/hygen general hygen"
     },
     {
       "name": "awesome-agent-skills",
@@ -165,6 +399,42 @@
       "searchText": "awesome-openclaw-skills-zh openclaw chinese official skills library, translated from clawdbot official skills, categorized by scenario, supports chinese natural language invocation. clawdbot-ai/awesome-openclaw-skills-zh git clone https://github.com/clawdbot-ai/awesome-openclaw-skills-zh.git # browse the awesome list general openclaw"
     },
     {
+      "name": "linux-bash-commands",
+      "source": "linux-bash-commands",
+      "sourceAgent": "linux-bash-commands",
+      "repo": "trinib/Linux-Bash-Commands",
+      "stars": 4070,
+      "desc": ":godmode: Ultimate list of Linux bash commands, cheatsheets and resources",
+      "url": "https://github.com/trinib/Linux-Bash-Commands",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "linux-bash-commands"
+      ],
+      "searchText": "linux-bash-commands :godmode: ultimate list of linux bash commands, cheatsheets and resources trinib/linux-bash-commands general linux-bash-commands"
+    },
+    {
+      "name": "vfox",
+      "source": "vfox",
+      "sourceAgent": "vfox",
+      "repo": "version-fox/vfox",
+      "stars": 3915,
+      "desc": "A cross-platform and extendable version manager with support for Java, Node.js, Golang, Python, Flutter, .NET & more",
+      "url": "https://github.com/version-fox/vfox",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "vfox"
+      ],
+      "searchText": "vfox a cross-platform and extendable version manager with support for java, node.js, golang, python, flutter, .net & more version-fox/vfox general vfox"
+    },
+    {
       "name": "awesome-hermes-agent-nyx",
       "source": "community",
       "sourceAgent": "hermes",
@@ -181,6 +451,24 @@
         "hermes"
       ],
       "searchText": "awesome-hermes-agent-nyx a curated list of awesome skills, tools, integrations, and resources for hermes agent by nous research 0xnyk/awesome-hermes-agent git clone https://github.com/0xnyk/awesome-hermes-agent.git # browse the awesome list general hermes"
+    },
+    {
+      "name": "harbor",
+      "source": "harbor",
+      "sourceAgent": "harbor",
+      "repo": "av/harbor",
+      "stars": 3109,
+      "desc": "Stop configuring your AI stack. Start using it. One command brings a complete pre-wired LLM stack with hundreds of services to explore.",
+      "url": "https://github.com/av/harbor",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "harbor"
+      ],
+      "searchText": "harbor stop configuring your ai stack. start using it. one command brings a complete pre-wired llm stack with hundreds of services to explore. av/harbor general harbor"
     },
     {
       "name": "anysearch-skill",
@@ -207,6 +495,24 @@
       "searchText": "anysearch-skill unified real-time search engine skill for ai agents. anysearch-ai/anysearch-skill git clone https://github.com/anysearch-ai/anysearch-skill.git general claude codex cursor copilot hermes opencode openclaw"
     },
     {
+      "name": "teleconsole",
+      "source": "teleconsole",
+      "sourceAgent": "teleconsole",
+      "repo": "gravitational/teleconsole",
+      "stars": 2764,
+      "desc": "Command line tool to share your UNIX terminal and forward local TCP ports to people you trust.",
+      "url": "https://github.com/gravitational/teleconsole",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "teleconsole"
+      ],
+      "searchText": "teleconsole command line tool to share your unix terminal and forward local tcp ports to people you trust. gravitational/teleconsole general teleconsole"
+    },
+    {
       "name": "openclaw-master-skills",
       "source": "general",
       "sourceAgent": "openclaw",
@@ -229,7 +535,7 @@
       "source": "community",
       "sourceAgent": "hermes",
       "repo": "SamurAIGPT/awesome-hermes-agent",
-      "stars": 1679,
+      "stars": 1782,
       "desc": "A curated list of skills, plugins, tools, integrations, and resources for Hermes Agent by Nous Research",
       "url": "https://github.com/SamurAIGPT/awesome-hermes-agent",
       "install": "git clone https://github.com/SamurAIGPT/awesome-hermes-agent.git # browse the awesome list",
@@ -241,6 +547,42 @@
         "hermes"
       ],
       "searchText": "awesome-hermes-agent-samurai a curated list of skills, plugins, tools, integrations, and resources for hermes agent by nous research samuraigpt/awesome-hermes-agent git clone https://github.com/samuraigpt/awesome-hermes-agent.git # browse the awesome list general hermes"
+    },
+    {
+      "name": "jql",
+      "source": "jql",
+      "sourceAgent": "jql",
+      "repo": "yamafaktory/jql",
+      "stars": 1673,
+      "desc": "A JSON Query Language CLI tool",
+      "url": "https://github.com/yamafaktory/jql",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "jql"
+      ],
+      "searchText": "jql a json query language cli tool yamafaktory/jql general jql"
+    },
+    {
+      "name": "ibackupextractor",
+      "source": "ibackupextractor",
+      "sourceAgent": "ibackupextractor",
+      "repo": "unixzii/ibackupextractor",
+      "stars": 1333,
+      "desc": "A simple tool for extracting files from iOS backup archive.",
+      "url": "https://github.com/unixzii/ibackupextractor",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "ibackupextractor"
+      ],
+      "searchText": "ibackupextractor a simple tool for extracting files from ios backup archive. unixzii/ibackupextractor general ibackupextractor"
     },
     {
       "name": "claude-code-skills",
@@ -261,6 +603,24 @@
       "searchText": "claude-code-skills professional claude code skills marketplace featuring production-ready skills for enhanced development workflows. daymade/claude-code-skills pip install claude-code-skills general claude"
     },
     {
+      "name": "swiftinfo",
+      "source": "swiftinfo",
+      "sourceAgent": "swiftinfo",
+      "repo": "rockbruno/SwiftInfo",
+      "stars": 1150,
+      "desc": "📊 Extract and analyze the evolution of an iOS app's code.",
+      "url": "https://github.com/rockbruno/SwiftInfo",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "swiftinfo"
+      ],
+      "searchText": "swiftinfo 📊 extract and analyze the evolution of an ios app's code. rockbruno/swiftinfo general swiftinfo"
+    },
+    {
       "name": "Deep-Research-skills",
       "source": "general",
       "sourceAgent": "multi",
@@ -278,6 +638,24 @@
         "codex"
       ],
       "searchText": "deep-research-skills structured deep research skill for claude code/open code/codex with human-in-the-loop control weizhena/deep-research-skills git clone https://github.com/weizhena/deep-research-skills.git general claude codex"
+    },
+    {
+      "name": "mcpm-sh",
+      "source": "mcpm-sh",
+      "sourceAgent": "mcpm-sh",
+      "repo": "pathintegral-institute/mcpm.sh",
+      "stars": 976,
+      "desc": "CLI MCP package manager & registry for all platforms and all clients. Search & configure MCP servers. Advanced Router & Profile features.",
+      "url": "https://github.com/pathintegral-institute/mcpm.sh",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "mcpm-sh"
+      ],
+      "searchText": "mcpm-sh cli mcp package manager & registry for all platforms and all clients. search & configure mcp servers. advanced router & profile features. pathintegral-institute/mcpm.sh general mcpm-sh"
     },
     {
       "name": "hermes-ecosystem",
@@ -334,6 +712,24 @@
       "searchText": "llm-cursor-rules my go-to rules for using cursor and llms in software development. rayfernando1337/llm-cursor-rules git clone https://github.com/rayfernando1337/llm-cursor-rules.git general cursor"
     },
     {
+      "name": "code2prompt",
+      "source": "code2prompt",
+      "sourceAgent": "code2prompt",
+      "repo": "raphaelmansuy/code2prompt",
+      "stars": 883,
+      "desc": "Code2Prompt is a powerful command-line tool that simplifies the process of providing context to Large Language Models (LLMs) by generating a comprehensive Markdown file containing the content of your",
+      "url": "https://github.com/raphaelmansuy/code2prompt",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "code2prompt"
+      ],
+      "searchText": "code2prompt code2prompt is a powerful command-line tool that simplifies the process of providing context to large language models (llms) by generating a comprehensive markdown file containing the content of your raphaelmansuy/code2prompt general code2prompt"
+    },
+    {
       "name": "antigravity-skills",
       "source": "general",
       "sourceAgent": "multi",
@@ -356,6 +752,42 @@
         "openclaw"
       ],
       "searchText": "antigravity-skills empower agents with professional capabilities in specific fields (such as full-stack development, complex logic planning, multimedia processing, etc.) guanyang/antigravity-skills git clone https://github.com/guanyang/antigravity-skills.git general claude codex cursor copilot hermes opencode openclaw"
+    },
+    {
+      "name": "micro-dev",
+      "source": "micro-dev",
+      "sourceAgent": "micro-dev",
+      "repo": "vercel/micro-dev",
+      "stars": 712,
+      "desc": "The development environment for `micro`",
+      "url": "https://github.com/vercel/micro-dev",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "micro-dev"
+      ],
+      "searchText": "micro-dev the development environment for `micro` vercel/micro-dev general micro-dev"
+    },
+    {
+      "name": "protolock",
+      "source": "protolock",
+      "sourceAgent": "protolock",
+      "repo": "nilslice/protolock",
+      "stars": 634,
+      "desc": "Protocol Buffer companion tool. Track your .proto files and prevent changes to messages and services which impact API compatibility.",
+      "url": "https://github.com/nilslice/protolock",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "protolock"
+      ],
+      "searchText": "protolock protocol buffer companion tool. track your .proto files and prevent changes to messages and services which impact api compatibility. nilslice/protolock general protolock"
     },
     {
       "name": "awesome-openclaw-skills",
@@ -394,6 +826,24 @@
       "searchText": "opencode-skills archived opencode skills plugin whose functionality graduated into native opencode support. malhashemi/opencode-skills git clone https://github.com/malhashemi/opencode-skills.git general opencode"
     },
     {
+      "name": "van-gonography",
+      "source": "van-gonography",
+      "sourceAgent": "van-gonography",
+      "repo": "JoshuaKasa/van-gonography",
+      "stars": 452,
+      "desc": "Hide 🕵️‍♂️ your files of any type inside a image of your choice using steganography",
+      "url": "https://github.com/JoshuaKasa/van-gonography",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "van-gonography"
+      ],
+      "searchText": "van-gonography hide 🕵️‍♂️ your files of any type inside a image of your choice using steganography joshuakasa/van-gonography general van-gonography"
+    },
+    {
       "name": "ClaudeSkills",
       "source": "general",
       "sourceAgent": "claude",
@@ -428,6 +878,42 @@
         "openclaw"
       ],
       "searchText": "openclaw-search-skills openclaw skills for deep search — multi-source search, content extraction, and structured research reports. blessonism/openclaw-search-skills pip install openclaw-search-skills general openclaw"
+    },
+    {
+      "name": "tmux2k",
+      "source": "tmux2k",
+      "sourceAgent": "tmux2k",
+      "repo": "2KAbhishek/tmux2k",
+      "stars": 432,
+      "desc": "Make tmux powerful and pretty 🥊💅",
+      "url": "https://github.com/2KAbhishek/tmux2k",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "tmux2k"
+      ],
+      "searchText": "tmux2k make tmux powerful and pretty 🥊💅 2kabhishek/tmux2k general tmux2k"
+    },
+    {
+      "name": "stup",
+      "source": "stup",
+      "sourceAgent": "stup",
+      "repo": "iridakos/stup",
+      "stars": 423,
+      "desc": "Daily notes in the terminal :penguin:",
+      "url": "https://github.com/iridakos/stup",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "stup"
+      ],
+      "searchText": "stup daily notes in the terminal :penguin: iridakos/stup general stup"
     },
     {
       "name": "hermes-optimization-guide",
@@ -470,6 +956,61 @@
         "openclaw"
       ],
       "searchText": "awesome-legal-skills a curated list of awesome agent skills for automating legal work lawve-ai/awesome-legal-skills git clone https://github.com/lawve-ai/awesome-legal-skills.git # browse the awesome list general claude codex cursor copilot hermes opencode openclaw"
+    },
+    {
+      "name": "lit-bb-hack-tools",
+      "source": "lit-bb-hack-tools",
+      "sourceAgent": "lit-bb-hack-tools",
+      "repo": "edoardottt/lit-bb-hack-tools",
+      "stars": 381,
+      "desc": "Little Bug Bounty & Hacking Tools⚔️",
+      "url": "https://github.com/edoardottt/lit-bb-hack-tools",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "lit-bb-hack-tools"
+      ],
+      "searchText": "lit-bb-hack-tools little bug bounty & hacking tools⚔️ edoardottt/lit-bb-hack-tools general lit-bb-hack-tools"
+    },
+    {
+      "name": "auto-copilot-cli",
+      "source": "auto-copilot-cli",
+      "sourceAgent": "auto-copilot-cli",
+      "repo": "rsaryev/auto-copilot-cli",
+      "stars": 366,
+      "desc": "auto-copilot-cli",
+      "url": "https://github.com/rsaryev/auto-copilot-cli",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "copilot",
+        "auto-copilot-cli"
+      ],
+      "searchText": "auto-copilot-cli auto-copilot-cli rsaryev/auto-copilot-cli general copilot auto-copilot-cli"
+    },
+    {
+      "name": "eat",
+      "source": "eat",
+      "sourceAgent": "eat",
+      "repo": "shawn-bluce/eat",
+      "stars": 328,
+      "desc": "I'm a CPU and memory eating monster. 一个吃 CPU 内存的怪兽。",
+      "url": "https://github.com/shawn-bluce/eat",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "tools",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "eat"
+      ],
+      "searchText": "eat i'm a cpu and memory eating monster. 一个吃 cpu 内存的怪兽。 shawn-bluce/eat general eat"
     },
     {
       "name": "youtube-skills",

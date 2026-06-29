@@ -4,7 +4,7 @@
     "topCategoryId": "automation",
     "subCategoryId": "productivity",
     "categoryPath": "automation-productivity",
-    "count": 45,
+    "count": 56,
     "sourceData": "categories"
   },
   "skills": [
@@ -13,7 +13,7 @@
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
-      "stars": 156232,
+      "stars": 156261,
       "desc": "\"Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, format",
       "url": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
       "install": "$skill-installer xlsx",
@@ -31,7 +31,7 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "wshobson/agents",
-      "stars": 37294,
+      "stars": 37296,
       "desc": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI",
       "url": "https://github.com/wshobson/agents",
       "install": "pip install agents",
@@ -49,11 +49,65 @@
       "searchText": "agents multi-harness agentic plugin marketplace for claude code, codex cli, cursor, opencode, and gemini cli wshobson/agents pip install agents automation-productivity claude codex cursor opencode gemini"
     },
     {
+      "name": "jobs_applier_ai_agent_aihawk",
+      "source": "jobs_applier_ai_agent_aihawk",
+      "sourceAgent": "jobs_applier_ai_agent_aihawk",
+      "repo": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+      "stars": 29959,
+      "desc": "AIHawk aims to easy job hunt process by automating the job application process. Utilizing artificial intelligence, it enables users to apply for multiple jobs in a tailored way.",
+      "url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "jobs_applier_ai_agent_aihawk"
+      ],
+      "searchText": "jobs_applier_ai_agent_aihawk aihawk aims to easy job hunt process by automating the job application process. utilizing artificial intelligence, it enables users to apply for multiple jobs in a tailored way. feder-cr/jobs_applier_ai_agent_aihawk automation-productivity jobs_applier_ai_agent_aihawk"
+    },
+    {
+      "name": "instapy",
+      "source": "instapy",
+      "sourceAgent": "instapy",
+      "repo": "InstaPy/InstaPy",
+      "stars": 17991,
+      "desc": "📷 Instagram Bot - Tool for automated Instagram interactions",
+      "url": "https://github.com/InstaPy/InstaPy",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "instapy"
+      ],
+      "searchText": "instapy 📷 instagram bot - tool for automated instagram interactions instapy/instapy automation-productivity instapy"
+    },
+    {
+      "name": "leon",
+      "source": "leon",
+      "sourceAgent": "leon",
+      "repo": "leon-ai/leon",
+      "stars": 17345,
+      "desc": "🧠 Leon is your open-source personal assistant.",
+      "url": "https://github.com/leon-ai/leon",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "leon"
+      ],
+      "searchText": "leon 🧠 leon is your open-source personal assistant. leon-ai/leon automation-productivity leon"
+    },
+    {
       "name": "OfficeCLI",
       "source": "general",
       "sourceAgent": "multi",
       "repo": "iOfficeAI/OfficeCLI",
-      "stars": 8169,
+      "stars": 8172,
       "desc": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-so",
       "url": "https://github.com/iOfficeAI/OfficeCLI",
       "install": "git clone https://github.com/iOfficeAI/OfficeCLI.git",
@@ -77,7 +131,7 @@
       "source": "openclaw",
       "sourceAgent": "openclaw",
       "repo": "openclaw/gogcli",
-      "stars": 8049,
+      "stars": 8050,
       "desc": "Google Workspace in your terminal.",
       "url": "https://github.com/openclaw/gogcli",
       "install": "go install github.com/openclaw/gogcli@latest",
@@ -89,6 +143,78 @@
         "openclaw"
       ],
       "searchText": "gogcli google workspace in your terminal. openclaw/gogcli go install github.com/openclaw/gogcli@latest automation-productivity openclaw"
+    },
+    {
+      "name": "browser-fingerprinting",
+      "source": "browser-fingerprinting",
+      "sourceAgent": "browser-fingerprinting",
+      "repo": "niespodd/browser-fingerprinting",
+      "stars": 5045,
+      "desc": "Analysis of Bot Protection systems with available countermeasures 🚿. How to defeat anti-bot system 👻 and get around browser fingerprinting scripts 🕵️‍♂️ when scraping the web?",
+      "url": "https://github.com/niespodd/browser-fingerprinting",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "browser-fingerprinting"
+      ],
+      "searchText": "browser-fingerprinting analysis of bot protection systems with available countermeasures 🚿. how to defeat anti-bot system 👻 and get around browser fingerprinting scripts 🕵️‍♂️ when scraping the web? niespodd/browser-fingerprinting automation-productivity browser-fingerprinting"
+    },
+    {
+      "name": "chatgpt-on-cs",
+      "source": "chatgpt-on-cs",
+      "sourceAgent": "chatgpt-on-cs",
+      "repo": "cs-lazy-tools/ChatGPT-On-CS",
+      "stars": 4133,
+      "desc": "基于大模型的智能对话客服工具，支持微信、拼多多、千牛、哔哩哔哩、抖音企业号、抖音、抖店、微博聊天、小红书专业号运营、小红书、知乎等平台接入，可选择 GPT3.5/GPT4.0/ 懒人百宝箱 （后续会支持更多平台），能处理文本、语音和图片，通过插件访问操作系统和互联网等外部资源，支持基于自有知识库定制企业 AI 应用。",
+      "url": "https://github.com/cs-lazy-tools/ChatGPT-On-CS",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "chatgpt-on-cs"
+      ],
+      "searchText": "chatgpt-on-cs 基于大模型的智能对话客服工具，支持微信、拼多多、千牛、哔哩哔哩、抖音企业号、抖音、抖店、微博聊天、小红书专业号运营、小红书、知乎等平台接入，可选择 gpt3.5/gpt4.0/ 懒人百宝箱 （后续会支持更多平台），能处理文本、语音和图片，通过插件访问操作系统和互联网等外部资源，支持基于自有知识库定制企业 ai 应用。 cs-lazy-tools/chatgpt-on-cs automation-productivity chatgpt-on-cs"
+    },
+    {
+      "name": "pokemongo-bot",
+      "source": "pokemongo-bot",
+      "sourceAgent": "pokemongo-bot",
+      "repo": "PokemonGoF/PokemonGo-Bot",
+      "stars": 3899,
+      "desc": "The Pokemon Go Bot, baking with community.",
+      "url": "https://github.com/PokemonGoF/PokemonGo-Bot",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "pokemongo-bot"
+      ],
+      "searchText": "pokemongo-bot the pokemon go bot, baking with community. pokemongof/pokemongo-bot automation-productivity pokemongo-bot"
+    },
+    {
+      "name": "patchright",
+      "source": "patchright",
+      "sourceAgent": "patchright",
+      "repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "stars": 3607,
+      "desc": "Undetected version of the Playwright testing and automation library.",
+      "url": "https://github.com/Kaliiiiiiiiii-Vinyzu/patchright",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "patchright"
+      ],
+      "searchText": "patchright undetected version of the playwright testing and automation library. kaliiiiiiiiii-vinyzu/patchright automation-productivity patchright"
     },
     {
       "name": "xiaohongshu-skills",
@@ -132,7 +258,7 @@
       "source": "openclaw",
       "sourceAgent": "openclaw",
       "repo": "openclaw/wacli",
-      "stars": 2568,
+      "stars": 2569,
       "desc": "WhatsApp CLI: sync, search, send",
       "url": "https://github.com/openclaw/wacli",
       "install": "go install github.com/openclaw/wacli@latest",
@@ -182,6 +308,24 @@
       "searchText": "openclaw-lark 飞书官方出品的 openclaw 飞书/lark channel 插件 larksuite/openclaw-lark npm i -g openclaw-lark automation-productivity openclaw"
     },
     {
+      "name": "openoutreach",
+      "source": "openoutreach",
+      "sourceAgent": "openoutreach",
+      "repo": "eracle/OpenOutreach",
+      "stars": 2270,
+      "desc": "Linkedin Automation Tool: Describe your product. Define your target market. The AI finds the leads for you.",
+      "url": "https://github.com/eracle/OpenOutreach",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "openoutreach"
+      ],
+      "searchText": "openoutreach linkedin automation tool: describe your product. define your target market. the ai finds the leads for you. eracle/openoutreach automation-productivity openoutreach"
+    },
+    {
       "name": "dingtalk-openclaw-connector",
       "source": "openclaw",
       "sourceAgent": "openclaw",
@@ -204,7 +348,7 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "tradermonty/claude-trading-skills",
-      "stars": 2080,
+      "stars": 2082,
       "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "url": "https://github.com/tradermonty/claude-trading-skills",
       "install": "pip install claude-trading-skills",
@@ -216,6 +360,42 @@
         "claude"
       ],
       "searchText": "claude-trading-skills claude code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development. tradermonty/claude-trading-skills pip install claude-trading-skills automation-productivity claude"
+    },
+    {
+      "name": "twitter-api-client",
+      "source": "twitter-api-client",
+      "sourceAgent": "twitter-api-client",
+      "repo": "trevorhobenshield/twitter-api-client",
+      "stars": 1891,
+      "desc": "Implementation of X/Twitter v1, v2, and GraphQL APIs",
+      "url": "https://github.com/trevorhobenshield/twitter-api-client",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "twitter-api-client"
+      ],
+      "searchText": "twitter-api-client implementation of x/twitter v1, v2, and graphql apis trevorhobenshield/twitter-api-client automation-productivity twitter-api-client"
+    },
+    {
+      "name": "openomnibot",
+      "source": "openomnibot",
+      "sourceAgent": "openomnibot",
+      "repo": "omnimind-ai/OpenOmniBot",
+      "stars": 1833,
+      "desc": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and performing a wide range of tasks in the Android world || 你的手机 AI 代理，她可以操作终端，也可以完成 Android 世界的广泛任务",
+      "url": "https://github.com/omnimind-ai/OpenOmniBot",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "openomnibot"
+      ],
+      "searchText": "openomnibot your on-phone / mobile ai agent / claw, capable of operating terminals and performing a wide range of tasks in the android world || 你的手机 ai 代理，她可以操作终端，也可以完成 android 世界的广泛任务 omnimind-ai/openomnibot automation-productivity openomnibot"
     },
     {
       "name": "browserwing",
@@ -240,7 +420,7 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "onvoyage-ai/gtm-engineer-skills",
-      "stars": 1246,
+      "stars": 1247,
       "desc": "Claude Code skill for improving website AEO (AI Engine Optimization) and GEO (Generative Engine Optimization) scores — 16 foundational checks, 6 intelligence dimensions, framework-specific fixes",
       "url": "https://github.com/onvoyage-ai/gtm-engineer-skills",
       "install": "git clone https://github.com/onvoyage-ai/gtm-engineer-skills.git",
@@ -315,7 +495,7 @@
       "source": "opencode",
       "sourceAgent": "opencode",
       "repo": "grinev/opencode-telegram-bot",
-      "stars": 860,
+      "stars": 861,
       "desc": "OpenCode mobile client via Telegram: run and monitor AI coding tasks from your phone while everything runs locally on your machine. Scheduled tasks support.",
       "url": "https://github.com/grinev/opencode-telegram-bot",
       "install": "npm i -g opencode-telegram-bot",
@@ -351,7 +531,7 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "wshuyi/x-article-publisher-skill",
-      "stars": 820,
+      "stars": 819,
       "desc": "Claude Code skill for publishing Markdown articles to X (Twitter) Articles",
       "url": "https://github.com/wshuyi/x-article-publisher-skill",
       "install": "pip install x-article-publisher-skill",
@@ -423,7 +603,7 @@
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "komal-SkyNET/claude-skill-homeassistant",
-      "stars": 631,
+      "stars": 637,
       "desc": "Claude Code skill to supercharge and manage all Home Assistant workflows",
       "url": "https://github.com/komal-SkyNET/claude-skill-homeassistant",
       "install": "git clone https://github.com/komal-SkyNET/claude-skill-homeassistant.git",
@@ -441,7 +621,7 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "quant-sentiment-ai/claude-equity-research",
-      "stars": 602,
+      "stars": 604,
       "desc": "🔌 Claude Code Plugin for institutional-grade equity research.   Install with /plugin marketplace add. Generates professional   buy/sell recommendations with comprehensive fundamental   analysis, technical indicators, and risk assessment. Educational    use only - not financial advice.",
       "url": "https://github.com/quant-sentiment-ai/claude-equity-research",
       "install": "git clone https://github.com/quant-sentiment-ai/claude-equity-research.git",
@@ -674,6 +854,24 @@
         "hermes"
       ],
       "searchText": "hermes-agent-idea-workflow pre-build idea-to-spec workflow skills for hermes agent: turn rough ideas into design docs, implementation specs, and superpowers-ready build handoffs akoliteza/hermes-agent-idea-workflow git clone https://github.com/akoliteza/hermes-agent-idea-workflow.git automation-productivity hermes"
+    },
+    {
+      "name": "geo-aeo-tracker",
+      "source": "geo-aeo-tracker",
+      "sourceAgent": "geo-aeo-tracker",
+      "repo": "danishashko/geo-aeo-tracker",
+      "stars": 171,
+      "desc": "Open-source, local-first AI visibility intelligence dashboard. Track your brand across 6 AI models.",
+      "url": "https://github.com/danishashko/geo-aeo-tracker",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation",
+      "subCategoryId": "productivity",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "geo-aeo-tracker"
+      ],
+      "searchText": "geo-aeo-tracker open-source, local-first ai visibility intelligence dashboard. track your brand across 6 ai models. danishashko/geo-aeo-tracker automation-productivity geo-aeo-tracker"
     },
     {
       "name": "reddit-growth-skill",

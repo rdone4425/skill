@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "functionCategory": "education",
+    "topCategoryId": "education",
+    "subCategoryId": "education",
+    "categoryPath": "education",
+    "count": 5,
+    "sourceData": "categories"
+  },
+  "skills": [
+    {
+      "name": "classisland",
+      "source": "classisland",
+      "sourceAgent": "classisland",
+      "repo": "ClassIsland/ClassIsland",
+      "stars": 2596,
+      "desc": "一款功能强、可定制、跨平台，适用于班级多媒体屏幕的课表信息显示工具，可以一目了然地显示各种信息。",
+      "url": "https://github.com/ClassIsland/ClassIsland",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "tools",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "classisland"
+      ],
+      "searchText": "classisland 一款功能强、可定制、跨平台，适用于班级多媒体屏幕的课表信息显示工具，可以一目了然地显示各种信息。 classisland/classisland education classisland"
+    },
+    {
+      "name": "osint-cheat-sheet",
+      "source": "osint-cheat-sheet",
+      "sourceAgent": "osint-cheat-sheet",
+      "repo": "Jieyab89/OSINT-Cheat-sheet",
+      "stars": 2035,
+      "desc": "OSINT cheat sheet, list OSINT tools, wiki, dataset, article, book , red team OSINT for hackers and OSINT tips and OSINT branch. This repository will grow every time will research, there is a research,",
+      "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "tools",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "osint-cheat-sheet"
+      ],
+      "searchText": "osint-cheat-sheet osint cheat sheet, list osint tools, wiki, dataset, article, book , red team osint for hackers and osint tips and osint branch. this repository will grow every time will research, there is a research, jieyab89/osint-cheat-sheet education osint-cheat-sheet"
+    },
+    {
+      "name": "class-widgets",
+      "source": "class-widgets",
+      "sourceAgent": "class-widgets",
+      "repo": "Class-Widgets/Class-Widgets",
+      "stars": 774,
+      "desc": "请转用 Class Widgets 2，谢谢。",
+      "url": "https://github.com/Class-Widgets/Class-Widgets",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "tools",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "class-widgets"
+      ],
+      "searchText": "class-widgets 请转用 class widgets 2，谢谢。 class-widgets/class-widgets education class-widgets"
+    },
+    {
+      "name": "hypatia",
+      "source": "hypatia",
+      "sourceAgent": "hypatia",
+      "repo": "gazpachu/hypatia",
+      "stars": 652,
+      "desc": "A JavaScript open source LMS (eLearning platform) for MOOCs and online courses",
+      "url": "https://github.com/gazpachu/hypatia",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "tools",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "hypatia"
+      ],
+      "searchText": "hypatia a javascript open source lms (elearning platform) for moocs and online courses gazpachu/hypatia education hypatia"
+    },
+    {
+      "name": "kicknosub",
+      "source": "kicknosub",
+      "sourceAgent": "kicknosub",
+      "repo": "Enmn/KickNoSub",
+      "stars": 88,
+      "desc": "Extract direct stream URLs from Kick videos in your preferred quality for educational and research purposes.",
+      "url": "https://github.com/Enmn/KickNoSub",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "tools",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "kicknosub"
+      ],
+      "searchText": "kicknosub extract direct stream urls from kick videos in your preferred quality for educational and research purposes. enmn/kicknosub education kicknosub"
+    }
+  ]
+}

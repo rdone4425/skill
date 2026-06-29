@@ -1,0 +1,444 @@
+{
+  "meta": {
+    "functionCategory": "game-dev",
+    "topCategoryId": "game-dev",
+    "subCategoryId": "game-dev",
+    "categoryPath": "game-dev",
+    "count": 24,
+    "sourceData": "categories"
+  },
+  "skills": [
+    {
+      "name": "godot",
+      "source": "godot",
+      "sourceAgent": "godot",
+      "repo": "godotengine/godot",
+      "stars": 113262,
+      "desc": "Godot Engine – Multi-platform 2D and 3D game engine",
+      "url": "https://github.com/godotengine/godot",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "godot"
+      ],
+      "searchText": "godot godot engine – multi-platform 2d and 3d game engine godotengine/godot game-dev godot"
+    },
+    {
+      "name": "imgui",
+      "source": "imgui",
+      "sourceAgent": "imgui",
+      "repo": "ocornut/imgui",
+      "stars": 74181,
+      "desc": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
+      "url": "https://github.com/ocornut/imgui",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "imgui"
+      ],
+      "searchText": "imgui dear imgui: bloat-free graphical user interface for c++ with minimal dependencies ocornut/imgui game-dev imgui"
+    },
+    {
+      "name": "bevy",
+      "source": "bevy",
+      "sourceAgent": "bevy",
+      "repo": "bevyengine/bevy",
+      "stars": 46910,
+      "desc": "A refreshingly simple data-driven game engine built in Rust",
+      "url": "https://github.com/bevyengine/bevy",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "bevy"
+      ],
+      "searchText": "bevy a refreshingly simple data-driven game engine built in rust bevyengine/bevy game-dev bevy"
+    },
+    {
+      "name": "raylib",
+      "source": "raylib",
+      "sourceAgent": "raylib",
+      "repo": "raysan5/raylib",
+      "stars": 33633,
+      "desc": "A simple and easy-to-use library to enjoy videogames programming",
+      "url": "https://github.com/raysan5/raylib",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "raylib"
+      ],
+      "searchText": "raylib a simple and easy-to-use library to enjoy videogames programming raysan5/raylib game-dev raylib"
+    },
+    {
+      "name": "babylon-js",
+      "source": "babylon-js",
+      "sourceAgent": "babylon-js",
+      "repo": "BabylonJS/Babylon.js",
+      "stars": 25707,
+      "desc": "Babylon.js is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly JavaScript framework.",
+      "url": "https://github.com/BabylonJS/Babylon.js",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "babylon-js"
+      ],
+      "searchText": "babylon-js babylon.js is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly javascript framework. babylonjs/babylon.js game-dev babylon-js"
+    },
+    {
+      "name": "libgdx",
+      "source": "libgdx",
+      "sourceAgent": "libgdx",
+      "repo": "libgdx/libgdx",
+      "stars": 25182,
+      "desc": "Desktop/Android/HTML5/iOS Java game development framework",
+      "url": "https://github.com/libgdx/libgdx",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "libgdx"
+      ],
+      "searchText": "libgdx desktop/android/html5/ios java game development framework libgdx/libgdx game-dev libgdx"
+    },
+    {
+      "name": "games",
+      "source": "games",
+      "sourceAgent": "games",
+      "repo": "leereilly/games",
+      "stars": 24860,
+      "desc": "Archived — A list of games, add-ons, maps, etc. hosted on GitHub. Any genre. Any platform. Any engine.",
+      "url": "https://github.com/leereilly/games",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "games"
+      ],
+      "searchText": "games archived — a list of games, add-ons, maps, etc. hosted on github. any genre. any platform. any engine. leereilly/games game-dev games"
+    },
+    {
+      "name": "gdevelop",
+      "source": "gdevelop",
+      "sourceAgent": "gdevelop",
+      "repo": "4ian/GDevelop",
+      "stars": 24221,
+      "desc": "🎮 Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone.",
+      "url": "https://github.com/4ian/GDevelop",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "gdevelop"
+      ],
+      "searchText": "gdevelop 🎮 open-source, cross-platform 2d/3d/multiplayer game engine designed for everyone. 4ian/gdevelop game-dev gdevelop"
+    },
+    {
+      "name": "cocos2d-x",
+      "source": "cocos2d-x",
+      "sourceAgent": "cocos2d-x",
+      "repo": "cocos2d/cocos2d-x",
+      "stars": 19080,
+      "desc": "Cocos2d-x is a suite of open-source, cross-platform, game-development tools utilized by millions of developers across the globe. Its core has evolved to serve as the foundation for Cocos Creator 1.x &",
+      "url": "https://github.com/cocos2d/cocos2d-x",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "cocos2d-x"
+      ],
+      "searchText": "cocos2d-x cocos2d-x is a suite of open-source, cross-platform, game-development tools utilized by millions of developers across the globe. its core has evolved to serve as the foundation for cocos creator 1.x & cocos2d/cocos2d-x game-dev cocos2d-x"
+    },
+    {
+      "name": "aframe",
+      "source": "aframe",
+      "sourceAgent": "aframe",
+      "repo": "aframevr/aframe",
+      "stars": 17571,
+      "desc": ":a: Web framework for building virtual reality experiences.",
+      "url": "https://github.com/aframevr/aframe",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "aframe"
+      ],
+      "searchText": "aframe :a: web framework for building virtual reality experiences. aframevr/aframe game-dev aframe"
+    },
+    {
+      "name": "gamedevmind",
+      "source": "gamedevmind",
+      "sourceAgent": "gamedevmind",
+      "repo": "gonglei007/GameDevMind",
+      "stars": 6380,
+      "desc": "最全面的游戏开发技术图谱(Game Development Map)。帮助游戏开发者们在已知问题上节省时间，省出更多的精力投入到更有创造性的工作中去。",
+      "url": "https://github.com/gonglei007/GameDevMind",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "gamedevmind"
+      ],
+      "searchText": "gamedevmind 最全面的游戏开发技术图谱(game development map)。帮助游戏开发者们在已知问题上节省时间，省出更多的精力投入到更有创造性的工作中去。 gonglei007/gamedevmind game-dev gamedevmind"
+    },
+    {
+      "name": "fxgl",
+      "source": "fxgl",
+      "sourceAgent": "fxgl",
+      "repo": "AlmasB/FXGL",
+      "stars": 4821,
+      "desc": "Java / JavaFX / Kotlin Game Library (Engine)",
+      "url": "https://github.com/AlmasB/FXGL",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "fxgl"
+      ],
+      "searchText": "fxgl java / javafx / kotlin game library (engine) almasb/fxgl game-dev fxgl"
+    },
+    {
+      "name": "mybox",
+      "source": "mybox",
+      "sourceAgent": "mybox",
+      "repo": "andrumak/MyBox",
+      "stars": 2191,
+      "desc": "MyBox is a set of attributes, tools and extensions for Unity",
+      "url": "https://github.com/andrumak/MyBox",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "mybox"
+      ],
+      "searchText": "mybox mybox is a set of attributes, tools and extensions for unity andrumak/mybox game-dev mybox"
+    },
+    {
+      "name": "duality",
+      "source": "duality",
+      "sourceAgent": "duality",
+      "repo": "AdamsLair/duality",
+      "stars": 1426,
+      "desc": "a 2D Game Development Framework",
+      "url": "https://github.com/AdamsLair/duality",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "duality"
+      ],
+      "searchText": "duality a 2d game development framework adamslair/duality game-dev duality"
+    },
+    {
+      "name": "awesome-game-engine-dev",
+      "source": "awesome-game-engine-dev",
+      "sourceAgent": "awesome-game-engine-dev",
+      "repo": "stevinz/awesome-game-engine-dev",
+      "stars": 1379,
+      "desc": "Awesome list of resources for Game Engine Development.",
+      "url": "https://github.com/stevinz/awesome-game-engine-dev",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "awesome-game-engine-dev"
+      ],
+      "searchText": "awesome-game-engine-dev awesome list of resources for game engine development. stevinz/awesome-game-engine-dev game-dev awesome-game-engine-dev"
+    },
+    {
+      "name": "godot-card-game-framework",
+      "source": "godot-card-game-framework",
+      "sourceAgent": "godot-card-game-framework",
+      "repo": "db0/godot-card-game-framework",
+      "stars": 1349,
+      "desc": "A framework which comes with prepared scenes and classes to kickstart your card game, as well as a powerful scripting engine to use to provide full rules enforcement.",
+      "url": "https://github.com/db0/godot-card-game-framework",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "godot-card-game-framework"
+      ],
+      "searchText": "godot-card-game-framework a framework which comes with prepared scenes and classes to kickstart your card game, as well as a powerful scripting engine to use to provide full rules enforcement. db0/godot-card-game-framework game-dev godot-card-game-framework"
+    },
+    {
+      "name": "gdx-ai",
+      "source": "gdx-ai",
+      "sourceAgent": "gdx-ai",
+      "repo": "libgdx/gdx-ai",
+      "stars": 1295,
+      "desc": "Artificial Intelligence framework for games based on libGDX or not. Features: Steering Behaviors, Formation Motion, Pathfinding, Behavior Trees and Finite State Machines",
+      "url": "https://github.com/libgdx/gdx-ai",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "gdx-ai"
+      ],
+      "searchText": "gdx-ai artificial intelligence framework for games based on libgdx or not. features: steering behaviors, formation motion, pathfinding, behavior trees and finite state machines libgdx/gdx-ai game-dev gdx-ai"
+    },
+    {
+      "name": "sidefxlabs",
+      "source": "sidefxlabs",
+      "sourceAgent": "sidefxlabs",
+      "repo": "sideeffects/SideFXLabs",
+      "stars": 1200,
+      "desc": "SideFXLabs",
+      "url": "https://github.com/sideeffects/SideFXLabs",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "sidefxlabs"
+      ],
+      "searchText": "sidefxlabs sidefxlabs sideeffects/sidefxlabs game-dev sidefxlabs"
+    },
+    {
+      "name": "artemis-odb",
+      "source": "artemis-odb",
+      "sourceAgent": "artemis-odb",
+      "repo": "junkdog/artemis-odb",
+      "stars": 832,
+      "desc": "A continuation of the popular Artemis ECS framework",
+      "url": "https://github.com/junkdog/artemis-odb",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "artemis-odb"
+      ],
+      "searchText": "artemis-odb a continuation of the popular artemis ecs framework junkdog/artemis-odb game-dev artemis-odb"
+    },
+    {
+      "name": "tyra",
+      "source": "tyra",
+      "sourceAgent": "tyra",
+      "repo": "h4570/tyra",
+      "stars": 684,
+      "desc": "Game engine for PlayStation 2™",
+      "url": "https://github.com/h4570/tyra",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "tyra"
+      ],
+      "searchText": "tyra game engine for playstation 2™ h4570/tyra game-dev tyra"
+    },
+    {
+      "name": "imgui_test_engine",
+      "source": "imgui_test_engine",
+      "sourceAgent": "imgui_test_engine",
+      "repo": "ocornut/imgui_test_engine",
+      "stars": 597,
+      "desc": "Dear ImGui Automation Engine & Test Suite",
+      "url": "https://github.com/ocornut/imgui_test_engine",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "imgui_test_engine"
+      ],
+      "searchText": "imgui_test_engine dear imgui automation engine & test suite ocornut/imgui_test_engine game-dev imgui_test_engine"
+    },
+    {
+      "name": "ultimate-xr-dev-guide",
+      "source": "ultimate-xr-dev-guide",
+      "sourceAgent": "ultimate-xr-dev-guide",
+      "repo": "authorTom/ultimate-XR-dev-guide",
+      "stars": 311,
+      "desc": "A curated list of XR/VR/AR and Spatial Computing development resources.",
+      "url": "https://github.com/authorTom/ultimate-XR-dev-guide",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "ultimate-xr-dev-guide"
+      ],
+      "searchText": "ultimate-xr-dev-guide a curated list of xr/vr/ar and spatial computing development resources. authortom/ultimate-xr-dev-guide game-dev ultimate-xr-dev-guide"
+    },
+    {
+      "name": "calvinball",
+      "source": "calvinball",
+      "sourceAgent": "calvinball",
+      "repo": "trentpolack/CALVINBALL",
+      "stars": 251,
+      "desc": "All sorts of random publicly-available information, assets, scripts, and more.",
+      "url": "https://github.com/trentpolack/CALVINBALL",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "calvinball"
+      ],
+      "searchText": "calvinball all sorts of random publicly-available information, assets, scripts, and more. trentpolack/calvinball game-dev calvinball"
+    },
+    {
+      "name": "unity_resources",
+      "source": "unity_resources",
+      "sourceAgent": "unity_resources",
+      "repo": "Endarren/Unity_Resources",
+      "stars": 244,
+      "desc": "A list of resources and tutorials for those doing programming in Unity.",
+      "url": "https://github.com/Endarren/Unity_Resources",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "unity_resources"
+      ],
+      "searchText": "unity_resources a list of resources and tutorials for those doing programming in unity. endarren/unity_resources game-dev unity_resources"
+    }
+  ]
+}

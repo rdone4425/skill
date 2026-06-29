@@ -49,7 +49,7 @@
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
-      "stars": 156232,
+      "stars": 156261,
       "desc": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
       "url": "https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator",
       "install": "$skill-installer slack-gif-creator",
@@ -180,7 +180,7 @@
       "source": "tools",
       "sourceAgent": "other",
       "repo": "zhayujie/CowAgent",
-      "stars": 45175,
+      "stars": 45656,
       "desc": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, autonomously grows with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly chatgpt-on-wechat)",
       "url": "https://github.com/zhayujie/CowAgent",
       "install": "git clone https://github.com/zhayujie/CowAgent.git",
@@ -198,7 +198,7 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "sickn33/antigravity-awesome-skills",
-      "stars": 40148,
+      "stars": 41956,
       "desc": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
       "url": "https://github.com/sickn33/antigravity-awesome-skills",
       "install": "git clone https://github.com/sickn33/antigravity-awesome-skills.git",
@@ -276,7 +276,7 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 22981,
+      "stars": 22988,
       "desc": "Help the user define a concrete, measurable goal before starting work, especially when they ask to use the goal tool, create a goal, set an objective, clarify success criteria, or turn a fuzzy intention into a quantitative outcome. Use this",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/define-goal",
       "install": "$skill-installer define-goal",
@@ -294,7 +294,7 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 22981,
+      "stars": 22988,
       "desc": "Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/gh-address-comments",
       "install": "$skill-installer gh-address-comments",
@@ -312,7 +312,7 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 22981,
+      "stars": 22988,
       "desc": "Migrate supported instruction files, skills, agents, and MCP config into Codex project and global files.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/migrate-to-codex",
       "install": "$skill-installer migrate-to-codex",
@@ -330,7 +330,7 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 22981,
+      "stars": 22988,
       "desc": "Deploy web projects to Netlify using the Netlify CLI (`npx netlify`). Use when the user asks to deploy, host, publish, or link a site/repo on Netlify, including preview and production deploys.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/netlify-deploy",
       "install": "$skill-installer netlify-deploy",
@@ -348,7 +348,7 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 22981,
+      "stars": 22988,
       "desc": "\"Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel region), or when tool-specific capture capabilities are unavailable and an OS-level capture is needed.\"",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/screenshot",
       "install": "$skill-installer screenshot",
@@ -366,7 +366,7 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 22981,
+      "stars": 22988,
       "desc": "\"Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry CLI; perform read-only queries using the `sentry` command.\"",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/sentry",
       "install": "$skill-installer sentry",
@@ -384,7 +384,7 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 22981,
+      "stars": 22988,
       "desc": "\"Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow using the GitHub CLI (`gh`).\"",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/yeet",
       "install": "$skill-installer yeet",
@@ -423,7 +423,7 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "alirezarezvani/claude-skills",
-      "stars": 17575,
+      "stars": 19303,
       "desc": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, complian",
       "url": "https://github.com/alirezarezvani/claude-skills",
       "install": "git clone https://github.com/alirezarezvani/claude-skills.git",
@@ -520,6 +520,24 @@
       "searchText": "cybersecurity-skills 754 structured cybersecurity skills for ai agents · mapped to 5 frameworks: mitre att&ck, nist csf 2.0, mitre atlas, d3fend & nist ai rmf · agentskills.io standard · works with claude code, github copilot, codex cli, cursor, gemini cli & 20 mukul975/anthropic-cybersecurity-skills git clone https://github.com/mukul975/anthropic-cybersecurity-skills.git dev-tools claude codex cursor copilot gemini"
     },
     {
+      "name": "awesome-claude-skills",
+      "source": "community",
+      "sourceAgent": "claude",
+      "repo": "travisvn/awesome-claude-skills",
+      "stars": 13792,
+      "desc": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
+      "url": "https://github.com/travisvn/awesome-claude-skills",
+      "install": "git clone https://github.com/travisvn/awesome-claude-skills.git  # browse the awesome list",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "awesome-claude-skills a curated list of awesome claude skills, resources, and tools for customizing claude ai workflows — particularly claude code travisvn/awesome-claude-skills git clone https://github.com/travisvn/awesome-claude-skills.git  # browse the awesome list dev-tools claude"
+    },
+    {
       "name": "awesome-codex-skills",
       "source": "community",
       "sourceAgent": "codex",
@@ -538,29 +556,11 @@
       "searchText": "awesome-codex-skills a curated list of practical codex skills for automating workflows across the codex cli and api. composiohq/awesome-codex-skills git clone https://github.com/composiohq/awesome-codex-skills.git  # browse the awesome list dev-tools codex"
     },
     {
-      "name": "awesome-claude-skills",
-      "source": "community",
-      "sourceAgent": "claude",
-      "repo": "travisvn/awesome-claude-skills",
-      "stars": 13319,
-      "desc": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
-      "url": "https://github.com/travisvn/awesome-claude-skills",
-      "install": "git clone https://github.com/travisvn/awesome-claude-skills.git  # browse the awesome list",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "docs",
-      "subCategoryId": "awesome",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "awesome-claude-skills a curated list of awesome claude skills, resources, and tools for customizing claude ai workflows — particularly claude code travisvn/awesome-claude-skills git clone https://github.com/travisvn/awesome-claude-skills.git  # browse the awesome list dev-tools claude"
-    },
-    {
       "name": "opencode-antigravity-auth",
       "source": "general",
       "sourceAgent": "opencode",
       "repo": "NoeFabris/opencode-antigravity-auth",
-      "stars": 10775,
+      "stars": 10921,
       "desc": "Enable Opencode to authenticate against Antigravity (Google's IDE) via OAuth so you can use Antigravity rate limits and access models like gemini-3-pro and claude-opus-4-5-thinking with your Google credentials.",
       "url": "https://github.com/NoeFabris/opencode-antigravity-auth",
       "install": "git clone https://github.com/NoeFabris/opencode-antigravity-auth.git",
@@ -933,7 +933,7 @@
       "source": "tools",
       "sourceAgent": "multi",
       "repo": "gotalab/cc-sdd",
-      "stars": 3458,
+      "stars": 3519,
       "desc": "Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.",
       "url": "https://github.com/gotalab/cc-sdd",
       "install": "npm i -g cc-sdd",
@@ -1031,7 +1031,7 @@
       "source": "tools",
       "sourceAgent": "other",
       "repo": "FireRedTeam/FireRed-OpenStoryline",
-      "stars": 2877,
+      "stars": 3019,
       "desc": "FireRed-OpenStoryline is an AI video editing agent that transforms manual editing into intention-driven directing through natural language interaction, LLM-powered planning, and precise tool orchestration. It facilitates transparent, human-",
       "url": "https://github.com/FireRedTeam/FireRed-OpenStoryline",
       "install": "git clone https://github.com/FireRedTeam/FireRed-OpenStoryline.git",
@@ -1142,7 +1142,7 @@
       "source": "tools",
       "sourceAgent": "multi",
       "repo": "runkids/skillshare",
-      "stars": 2188,
+      "stars": 2324,
       "desc": "📚 Sync skills across all AI CLI tools with one command and simplify team sharing. Supporting Codex, Claude Code, OpenClaw & more",
       "url": "https://github.com/runkids/skillshare",
       "install": "go install github.com/runkids/skillshare@latest",
@@ -1176,6 +1176,24 @@
       "searchText": "claudekit-skills all powerful skills of claudekit.cc! mrgoonie/claudekit-skills pip install claudekit-skills dev-tools claude"
     },
     {
+      "name": "mcp_excalidraw",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "yctimlin/mcp_excalidraw",
+      "stars": 2106,
+      "desc": "MCP server and Claude Code skill for Excalidraw — programmatic canvas toolkit to create, edit, and export diagrams via AI agents with real-time canvas sync.",
+      "url": "https://github.com/yctimlin/mcp_excalidraw",
+      "install": "npm i -g mcp_excalidraw",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "plugins",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "mcp_excalidraw mcp server and claude code skill for excalidraw — programmatic canvas toolkit to create, edit, and export diagrams via ai agents with real-time canvas sync. yctimlin/mcp_excalidraw npm i -g mcp_excalidraw dev-tools claude"
+    },
+    {
       "name": "opencode-openai-codex-auth",
       "source": "general",
       "sourceAgent": "opencode",
@@ -1193,24 +1211,6 @@
         "opencode"
       ],
       "searchText": "opencode-openai-codex-auth oauth authentication plugin for personal coding assistance with chatgpt plus/pro subscriptions - uses openai's official authentication method numman-ali/opencode-openai-codex-auth git clone https://github.com/numman-ali/opencode-openai-codex-auth.git dev-tools codex opencode"
-    },
-    {
-      "name": "mcp_excalidraw",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "yctimlin/mcp_excalidraw",
-      "stars": 2036,
-      "desc": "MCP server and Claude Code skill for Excalidraw — programmatic canvas toolkit to create, edit, and export diagrams via AI agents with real-time canvas sync.",
-      "url": "https://github.com/yctimlin/mcp_excalidraw",
-      "install": "npm i -g mcp_excalidraw",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "plugins",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "mcp_excalidraw mcp server and claude code skill for excalidraw — programmatic canvas toolkit to create, edit, and export diagrams via ai agents with real-time canvas sync. yctimlin/mcp_excalidraw npm i -g mcp_excalidraw dev-tools claude"
     },
     {
       "name": "openclaw-studio",
@@ -1854,7 +1854,7 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "BrownFineSecurity/iothackbot",
-      "stars": 775,
+      "stars": 792,
       "desc": "IoT HackBot: A collection of Claude Skills and custom tooling for hybrid IoT pentesting",
       "url": "https://github.com/BrownFineSecurity/iothackbot",
       "install": "pip install iothackbot",
@@ -1866,6 +1866,24 @@
         "claude"
       ],
       "searchText": "iothackbot iot hackbot: a collection of claude skills and custom tooling for hybrid iot pentesting brownfinesecurity/iothackbot pip install iothackbot dev-tools claude"
+    },
+    {
+      "name": "second-brain-skills",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "coleam00/second-brain-skills",
+      "stars": 785,
+      "desc": "A collection of Claude Skills to turn Claude Code into a Second Brain",
+      "url": "https://github.com/coleam00/second-brain-skills",
+      "install": "pip install second-brain-skills",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "coding",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "second-brain-skills a collection of claude skills to turn claude code into a second brain coleam00/second-brain-skills pip install second-brain-skills dev-tools claude"
     },
     {
       "name": "claude-forge",
@@ -1902,24 +1920,6 @@
         "claude"
       ],
       "searchText": "claude-video-vision give claude the ability to watch and understand videos — claude code plugin with frame extraction and multimodal audio analysis jordanrendric/claude-video-vision npm i -g claude-video-vision dev-tools claude"
-    },
-    {
-      "name": "second-brain-skills",
-      "source": "general",
-      "sourceAgent": "multi",
-      "repo": "coleam00/second-brain-skills",
-      "stars": 766,
-      "desc": "A collection of Claude Skills to turn Claude Code into a Second Brain",
-      "url": "https://github.com/coleam00/second-brain-skills",
-      "install": "pip install second-brain-skills",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "coding",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "second-brain-skills a collection of claude skills to turn claude code into a second brain coleam00/second-brain-skills pip install second-brain-skills dev-tools claude"
     },
     {
       "name": "codexia",
@@ -2437,6 +2437,24 @@
       "searchText": "opencode-browser opencode plugin to automate chrome. inspired by claude in chrome. different-ai/opencode-browser npm i -g opencode-browser dev-tools claude opencode"
     },
     {
+      "name": "claude-code-apple-skills",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "rshankras/claude-code-apple-skills",
+      "stars": 459,
+      "desc": "Claude Code skills for Apple platform development (iOS, macOS, iPadOS) — product validation, code generation, App Store optimization, and more",
+      "url": "https://github.com/rshankras/claude-code-apple-skills",
+      "install": "git clone https://github.com/rshankras/claude-code-apple-skills.git",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "platforms",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "claude-code-apple-skills claude code skills for apple platform development (ios, macos, ipados) — product validation, code generation, app store optimization, and more rshankras/claude-code-apple-skills git clone https://github.com/rshankras/claude-code-apple-skills.git dev-tools claude"
+    },
+    {
       "name": "modularity",
       "source": "general",
       "sourceAgent": "claude",
@@ -2605,6 +2623,24 @@
       "searchText": "awesome-codex-plugins a curated list of awesome openai codex plugins, skills, and resources. the #1 codex marketplace.  see live plugins at: https://hol.org/registry/plugins hashgraph-online/awesome-codex-plugins git clone https://github.com/hashgraph-online/awesome-codex-plugins.git  # browse the awesome list dev-tools codex"
     },
     {
+      "name": "hermes-skill-factory",
+      "source": "hermes",
+      "sourceAgent": "hermes",
+      "repo": "Romanescu11/hermes-skill-factory",
+      "stars": 409,
+      "desc": "A meta-skill plugin for Nous Research's Hermes AI agent that watches your workflows and automatically turns them into reusable skills.  Every time yo",
+      "url": "https://github.com/Romanescu11/hermes-skill-factory",
+      "install": "git clone https://github.com/Romanescu11/hermes-skill-factory.git",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "plugins",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-skill-factory a meta-skill plugin for nous research's hermes ai agent that watches your workflows and automatically turns them into reusable skills.  every time yo romanescu11/hermes-skill-factory git clone https://github.com/romanescu11/hermes-skill-factory.git dev-tools hermes"
+    },
+    {
       "name": "bug-hunter",
       "source": "tools",
       "sourceAgent": "multi",
@@ -2643,24 +2679,6 @@
         "claude"
       ],
       "searchText": "web-asset-generator claude skill to generate favicons, app icons, and social media images from logos, text, or emojis. supports emoji suggestions, validation, and framework auto-integration. alonw0/web-asset-generator pip install web-asset-generator dev-tools claude"
-    },
-    {
-      "name": "claude-code-apple-skills",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "rshankras/claude-code-apple-skills",
-      "stars": 396,
-      "desc": "Claude Code skills for Apple platform development (iOS, macOS, iPadOS) — product validation, code generation, App Store optimization, and more",
-      "url": "https://github.com/rshankras/claude-code-apple-skills",
-      "install": "git clone https://github.com/rshankras/claude-code-apple-skills.git",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "platforms",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "claude-code-apple-skills claude code skills for apple platform development (ios, macos, ipados) — product validation, code generation, app store optimization, and more rshankras/claude-code-apple-skills git clone https://github.com/rshankras/claude-code-apple-skills.git dev-tools claude"
     },
     {
       "name": "opencode-scheduler",
@@ -2843,24 +2861,6 @@
         "other"
       ],
       "searchText": "late-cli orchestrate an entire ai dev team on 5gb vram. ephemeral subagents, exact-match diffs. single static binary, any model. zero config, zero context bloat. mlhher/late-cli go install github.com/mlhher/late-cli@latest dev-tools other"
-    },
-    {
-      "name": "hermes-skill-factory",
-      "source": "hermes",
-      "sourceAgent": "hermes",
-      "repo": "Romanescu11/hermes-skill-factory",
-      "stars": 363,
-      "desc": "A meta-skill plugin for Nous Research's Hermes AI agent that watches your workflows and automatically turns them into reusable skills.  Every time yo",
-      "url": "https://github.com/Romanescu11/hermes-skill-factory",
-      "install": "git clone https://github.com/Romanescu11/hermes-skill-factory.git",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "plugins",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "hermes"
-      ],
-      "searchText": "hermes-skill-factory a meta-skill plugin for nous research's hermes ai agent that watches your workflows and automatically turns them into reusable skills.  every time yo romanescu11/hermes-skill-factory git clone https://github.com/romanescu11/hermes-skill-factory.git dev-tools hermes"
     },
     {
       "name": "power-design",
@@ -3624,6 +3624,25 @@
       "searchText": "skillx skillx.sh — the only skill that your ai agent needs. ai agent skills marketplace with semantic search, leaderboard, ratings, and cli. nextlevelbuilder/skillx npm i -g skillx dev-tools claude codex cursor copilot hermes opencode openclaw"
     },
     {
+      "name": "oc-codex-multi-auth",
+      "source": "opencode",
+      "sourceAgent": "opencode",
+      "repo": "ndycode/oc-codex-multi-auth",
+      "stars": 135,
+      "desc": "OpenCode plugin for ChatGPT Plus/Pro OAuth with Codex/GPT-5 routing, multi-account rotation, account switching, health checks, diagnostics, and recovery tools",
+      "url": "https://github.com/ndycode/oc-codex-multi-auth",
+      "install": "npm i -g oc-codex-multi-auth",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "plugins",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "codex",
+        "opencode"
+      ],
+      "searchText": "oc-codex-multi-auth opencode plugin for chatgpt plus/pro oauth with codex/gpt-5 routing, multi-account rotation, account switching, health checks, diagnostics, and recovery tools ndycode/oc-codex-multi-auth npm i -g oc-codex-multi-auth dev-tools codex opencode"
+    },
+    {
       "name": "Opencode-Context-Analysis-Plugin",
       "source": "opencode",
       "sourceAgent": "opencode",
@@ -3640,6 +3659,24 @@
         "opencode"
       ],
       "searchText": "opencode-context-analysis-plugin a powerful opencode plugin that provides detailed token usage analysis for your ai sessions. track and understand how tokens are distributed across system prompts, user messages, assistant responses, tool outputs, and reasoning traces. igorwarzocha/opencode-context-analysis-plugin npm i -g opencode-context-analysis-plugin dev-tools opencode"
+    },
+    {
+      "name": "opencode-plugin-openspec",
+      "source": "opencode",
+      "sourceAgent": "opencode",
+      "repo": "Octane0411/opencode-plugin-openspec",
+      "stars": 134,
+      "desc": "An OpenCode plugin that integrates OpenSpec, adding a dedicated 'openspec-plan' mode for creating and editing spec files.",
+      "url": "https://github.com/Octane0411/opencode-plugin-openspec",
+      "install": "npm i -g opencode-plugin-openspec",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "plugins",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "opencode"
+      ],
+      "searchText": "opencode-plugin-openspec an opencode plugin that integrates openspec, adding a dedicated 'openspec-plan' mode for creating and editing spec files. octane0411/opencode-plugin-openspec npm i -g opencode-plugin-openspec dev-tools opencode"
     },
     {
       "name": "claude-code-toolkit",
@@ -3698,6 +3735,24 @@
       "searchText": "opencode-antigravity-quota opencode plugin to monitor antigravity api/gemini cli quotas across multiple accounts. frieser/opencode-antigravity-quota npm i -g opencode-antigravity-quota dev-tools opencode gemini"
     },
     {
+      "name": "opencode-plugin-simple-memory",
+      "source": "opencode",
+      "sourceAgent": "opencode",
+      "repo": "ApplauseLab/opencode-plugin-simple-memory",
+      "stars": 132,
+      "desc": "A persistent memory plugin for OpenCode that enables the AI assistant to remember context across sessions",
+      "url": "https://github.com/ApplauseLab/opencode-plugin-simple-memory",
+      "install": "npm i -g opencode-plugin-simple-memory",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "plugins",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "opencode"
+      ],
+      "searchText": "opencode-plugin-simple-memory a persistent memory plugin for opencode that enables the ai assistant to remember context across sessions applauselab/opencode-plugin-simple-memory npm i -g opencode-plugin-simple-memory dev-tools opencode"
+    },
+    {
       "name": "openclaw-claude-code-plugin",
       "source": "general",
       "sourceAgent": "openclaw",
@@ -3754,25 +3809,6 @@
       "searchText": "codex-skills codex cli skills catalog jmerta/codex-skills pip install codex-skills dev-tools codex"
     },
     {
-      "name": "oc-codex-multi-auth",
-      "source": "opencode",
-      "sourceAgent": "opencode",
-      "repo": "ndycode/oc-codex-multi-auth",
-      "stars": 124,
-      "desc": "OpenCode plugin for ChatGPT Plus/Pro OAuth with Codex/GPT-5 routing, multi-account rotation, account switching, health checks, diagnostics, and recovery tools",
-      "url": "https://github.com/ndycode/oc-codex-multi-auth",
-      "install": "npm i -g oc-codex-multi-auth",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "plugins",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "codex",
-        "opencode"
-      ],
-      "searchText": "oc-codex-multi-auth opencode plugin for chatgpt plus/pro oauth with codex/gpt-5 routing, multi-account rotation, account switching, health checks, diagnostics, and recovery tools ndycode/oc-codex-multi-auth npm i -g oc-codex-multi-auth dev-tools codex opencode"
-    },
-    {
       "name": "firecrawl-claude-plugin",
       "source": "claude",
       "sourceAgent": "claude",
@@ -3789,24 +3825,6 @@
         "claude"
       ],
       "searchText": "firecrawl-claude-plugin firecrawl plugin for claude code - web scraping and crawling firecrawl/firecrawl-claude-plugin git clone https://github.com/firecrawl/firecrawl-claude-plugin.git dev-tools claude"
-    },
-    {
-      "name": "opencode-plugin-simple-memory",
-      "source": "opencode",
-      "sourceAgent": "opencode",
-      "repo": "ApplauseLab/opencode-plugin-simple-memory",
-      "stars": 119,
-      "desc": "A persistent memory plugin for OpenCode that enables the AI assistant to remember context across sessions",
-      "url": "https://github.com/ApplauseLab/opencode-plugin-simple-memory",
-      "install": "npm i -g opencode-plugin-simple-memory",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "plugins",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "opencode"
-      ],
-      "searchText": "opencode-plugin-simple-memory a persistent memory plugin for opencode that enables the ai assistant to remember context across sessions applauselab/opencode-plugin-simple-memory npm i -g opencode-plugin-simple-memory dev-tools opencode"
     },
     {
       "name": "opencode-lmstudio",
@@ -3864,24 +3882,6 @@
       "searchText": "opencode-anthropic-login-via-cli opencode plugin for using anthropic models with your claude pro/max subscription cemalturkcan/opencode-anthropic-login-via-cli npm i -g opencode-anthropic-login-via-cli dev-tools claude opencode"
     },
     {
-      "name": "opencode-plugin-openspec",
-      "source": "opencode",
-      "sourceAgent": "opencode",
-      "repo": "Octane0411/opencode-plugin-openspec",
-      "stars": 116,
-      "desc": "An OpenCode plugin that integrates OpenSpec, adding a dedicated 'openspec-plan' mode for creating and editing spec files.",
-      "url": "https://github.com/Octane0411/opencode-plugin-openspec",
-      "install": "npm i -g opencode-plugin-openspec",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "plugins",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "opencode"
-      ],
-      "searchText": "opencode-plugin-openspec an opencode plugin that integrates openspec, adding a dedicated 'openspec-plan' mode for creating and editing spec files. octane0411/opencode-plugin-openspec npm i -g opencode-plugin-openspec dev-tools opencode"
-    },
-    {
       "name": "opencode-snip",
       "source": "opencode",
       "sourceAgent": "opencode",
@@ -3898,6 +3898,25 @@
         "opencode"
       ],
       "searchText": "opencode-snip opencode plugin that prefixes shell commands with snip to reduce llm token consumption vincenthardouin/opencode-snip npm i -g opencode-snip dev-tools opencode"
+    },
+    {
+      "name": "opencode-anthropic-oauth",
+      "source": "opencode",
+      "sourceAgent": "opencode",
+      "repo": "shahidshabbir-se/opencode-anthropic-oauth",
+      "stars": 113,
+      "desc": "OpenCode plugin for Anthropic Claude Pro/Max OAuth login — no Claude Code needed.",
+      "url": "https://github.com/shahidshabbir-se/opencode-anthropic-oauth",
+      "install": "npm i -g opencode-anthropic-oauth",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "plugins",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "opencode"
+      ],
+      "searchText": "opencode-anthropic-oauth opencode plugin for anthropic claude pro/max oauth login — no claude code needed. shahidshabbir-se/opencode-anthropic-oauth npm i -g opencode-anthropic-oauth dev-tools claude opencode"
     },
     {
       "name": "ask-user-questions-mcp",
@@ -3935,25 +3954,6 @@
         "openclaw"
       ],
       "searchText": "codex-imagen codex/openclaw skill for generating images with chatgpt/codex oauth darkamenosa/codex-imagen npm i -g codex-imagen dev-tools codex openclaw"
-    },
-    {
-      "name": "opencode-anthropic-oauth",
-      "source": "opencode",
-      "sourceAgent": "opencode",
-      "repo": "shahidshabbir-se/opencode-anthropic-oauth",
-      "stars": 111,
-      "desc": "OpenCode plugin for Anthropic Claude Pro/Max OAuth login — no Claude Code needed.",
-      "url": "https://github.com/shahidshabbir-se/opencode-anthropic-oauth",
-      "install": "npm i -g opencode-anthropic-oauth",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "plugins",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude",
-        "opencode"
-      ],
-      "searchText": "opencode-anthropic-oauth opencode plugin for anthropic claude pro/max oauth login — no claude code needed. shahidshabbir-se/opencode-anthropic-oauth npm i -g opencode-anthropic-oauth dev-tools claude opencode"
     },
     {
       "name": "opencode-skill-creator",
@@ -4527,6 +4527,24 @@
       "searchText": "wookstar-claude-plugins an opinionated claude code plugin pack. skills, agents, hooks, mcps. examples: email draft preview assistance & humanisation. agents for codex and gemini \"outsourcing\". skills for google analytics & google tag manager, shopify and much more henkisdabro/wookstar-claude-plugins pip install wookstar-claude-plugins dev-tools claude codex gemini"
     },
     {
+      "name": "opencode-morph-plugin",
+      "source": "opencode",
+      "sourceAgent": "opencode",
+      "repo": "morphllm/opencode-morph-plugin",
+      "stars": 67,
+      "desc": "OpenCode plugin for Morph - FastApply, WarpGrep codebase search, FlashCompact",
+      "url": "https://github.com/morphllm/opencode-morph-plugin",
+      "install": "npm i -g opencode-morph-plugin",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "plugins",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "opencode"
+      ],
+      "searchText": "opencode-morph-plugin opencode plugin for morph - fastapply, warpgrep codebase search, flashcompact morphllm/opencode-morph-plugin npm i -g opencode-morph-plugin dev-tools opencode"
+    },
+    {
       "name": "pinecone-claude-code-plugin",
       "source": "claude",
       "sourceAgent": "claude",
@@ -4599,6 +4617,24 @@
       "searchText": "opencode-ignore opencode plugin to restrict ai access to files and directories using .ignore patterns (gitignore-style). lgladysz/opencode-ignore npm i -g opencode-ignore dev-tools opencode"
     },
     {
+      "name": "opencode-plugin-langfuse",
+      "source": "opencode",
+      "sourceAgent": "opencode",
+      "repo": "omercnet/opencode-plugin-langfuse",
+      "stars": 62,
+      "desc": "OpenCode plugin for automatic LLM observability using Langfuse via OpenTelemetry.",
+      "url": "https://github.com/omercnet/opencode-plugin-langfuse",
+      "install": "npm i -g opencode-plugin-langfuse",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "plugins",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "opencode"
+      ],
+      "searchText": "opencode-plugin-langfuse opencode plugin for automatic llm observability using langfuse via opentelemetry. omercnet/opencode-plugin-langfuse npm i -g opencode-plugin-langfuse dev-tools opencode"
+    },
+    {
       "name": ".claude",
       "source": "claude",
       "sourceAgent": "claude",
@@ -4633,24 +4669,6 @@
         "hermes"
       ],
       "searchText": "hermes-agent-rtk-caveman hermes agent rtk + caveman setup - 90-99% token savings on cli operations with 35+ pre-configured skills adityahimaone/hermes-agent-rtk-caveman git clone https://github.com/adityahimaone/hermes-agent-rtk-caveman.git dev-tools hermes"
-    },
-    {
-      "name": "opencode-morph-plugin",
-      "source": "opencode",
-      "sourceAgent": "opencode",
-      "repo": "morphllm/opencode-morph-plugin",
-      "stars": 59,
-      "desc": "OpenCode plugin for Morph - FastApply, WarpGrep codebase search, FlashCompact",
-      "url": "https://github.com/morphllm/opencode-morph-plugin",
-      "install": "npm i -g opencode-morph-plugin",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "plugins",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "opencode"
-      ],
-      "searchText": "opencode-morph-plugin opencode plugin for morph - fastapply, warpgrep codebase search, flashcompact morphllm/opencode-morph-plugin npm i -g opencode-morph-plugin dev-tools opencode"
     },
     {
       "name": "yara-rule-skill",
@@ -4693,24 +4711,6 @@
         "hermes"
       ],
       "searchText": "hermes-skill-atlas the complete, interactive map of hermes agent skills — 70+ curated, verified, open source. 🗺️ codesstar/hermes-skill-atlas git clone https://github.com/codesstar/hermes-skill-atlas.git dev-tools hermes"
-    },
-    {
-      "name": "opencode-plugin-langfuse",
-      "source": "opencode",
-      "sourceAgent": "opencode",
-      "repo": "omercnet/opencode-plugin-langfuse",
-      "stars": 58,
-      "desc": "OpenCode plugin for automatic LLM observability using Langfuse via OpenTelemetry.",
-      "url": "https://github.com/omercnet/opencode-plugin-langfuse",
-      "install": "npm i -g opencode-plugin-langfuse",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "plugins",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "opencode"
-      ],
-      "searchText": "opencode-plugin-langfuse opencode plugin for automatic llm observability using langfuse via opentelemetry. omercnet/opencode-plugin-langfuse npm i -g opencode-plugin-langfuse dev-tools opencode"
     },
     {
       "name": "openclaw-skills",

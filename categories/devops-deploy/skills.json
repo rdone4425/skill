@@ -4,7 +4,7 @@
     "topCategoryId": "devops",
     "subCategoryId": "deploy",
     "categoryPath": "devops-deploy",
-    "count": 23,
+    "count": 51,
     "sourceData": "categories"
   },
   "skills": [
@@ -25,6 +25,24 @@
         "other"
       ],
       "searchText": "taste-skill taste-skill - gives your ai good taste. stops the ai from generating boring, generic slop leonxlnx/taste-skill git clone https://github.com/leonxlnx/taste-skill.git devops-deploy other"
+    },
+    {
+      "name": "awesome-docker",
+      "source": "awesome-docker",
+      "sourceAgent": "awesome-docker",
+      "repo": "veggiemonk/awesome-docker",
+      "stars": 36327,
+      "desc": ":whale: A curated list of Docker resources and projects",
+      "url": "https://github.com/veggiemonk/awesome-docker",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "awesome-docker"
+      ],
+      "searchText": "awesome-docker :whale: a curated list of docker resources and projects veggiemonk/awesome-docker devops-deploy awesome-docker"
     },
     {
       "name": "scientific-agent-skills",
@@ -51,11 +69,65 @@
       "searchText": "scientific-agent-skills turn any ai agent into an ai scientist. the #1 agent skills library for science, used by 160,000+ scientists worldwide. 140 ready-to-use skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. compat k-dense-ai/scientific-agent-skills git clone https://github.com/k-dense-ai/scientific-agent-skills.git devops-deploy claude codex cursor copilot hermes opencode openclaw"
     },
     {
+      "name": "jenkins",
+      "source": "jenkins",
+      "sourceAgent": "jenkins",
+      "repo": "jenkinsci/jenkins",
+      "stars": 25514,
+      "desc": "Jenkins automation server",
+      "url": "https://github.com/jenkinsci/jenkins",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "jenkins"
+      ],
+      "searchText": "jenkins jenkins automation server jenkinsci/jenkins devops-deploy jenkins"
+    },
+    {
+      "name": "air",
+      "source": "air",
+      "sourceAgent": "air",
+      "repo": "air-verse/air",
+      "stars": 23732,
+      "desc": "☁️ Live reload for Go apps",
+      "url": "https://github.com/air-verse/air",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "air"
+      ],
+      "searchText": "air ☁️ live reload for go apps air-verse/air devops-deploy air"
+    },
+    {
+      "name": "argo-cd",
+      "source": "argo-cd",
+      "sourceAgent": "argo-cd",
+      "repo": "argoproj/argo-cd",
+      "stars": 23262,
+      "desc": "Declarative Continuous Deployment for Kubernetes",
+      "url": "https://github.com/argoproj/argo-cd",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "argo-cd"
+      ],
+      "searchText": "argo-cd declarative continuous deployment for kubernetes argoproj/argo-cd devops-deploy argo-cd"
+    },
+    {
       "name": "cloudflare-deploy",
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 22981,
+      "stars": 22988,
       "desc": "Deploy applications and infrastructure to Cloudflare using Workers, Pages, and related platform services. Use when the user asks to deploy, host, publish, or set up a project on Cloudflare.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/cloudflare-deploy",
       "install": "$skill-installer cloudflare-deploy",
@@ -73,7 +145,7 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 22981,
+      "stars": 22988,
       "desc": "\"Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. Treat external provider",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/gh-fix-ci",
       "install": "$skill-installer gh-fix-ci",
@@ -91,7 +163,7 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 22981,
+      "stars": 22988,
       "desc": "Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/linear",
       "install": "$skill-installer linear",
@@ -109,7 +181,7 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 22981,
+      "stars": 22988,
       "desc": "Deploy applications to Render by analyzing codebases, generating render.yaml Blueprints, and providing Dashboard deeplinks. Use when the user wants to deploy, host, publish, or set up their application on Render's cloud platform.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/render-deploy",
       "install": "$skill-installer render-deploy",
@@ -127,7 +199,7 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 22981,
+      "stars": 22988,
       "desc": "\"Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model. Trigger only when the user explicitly asks to threat model a cod",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/security-threat-model",
       "install": "$skill-installer security-threat-model",
@@ -145,7 +217,7 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 22981,
+      "stars": 22988,
       "desc": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/vercel-deploy",
       "install": "$skill-installer vercel-deploy",
@@ -177,6 +249,204 @@
       "searchText": "claude-code-game-studios turn claude code into a full game dev studio — 49 ai agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. donchitos/claude-code-game-studios git clone https://github.com/donchitos/claude-code-game-studios.git devops-deploy claude"
     },
     {
+      "name": "hivisionidphotos",
+      "source": "hivisionidphotos",
+      "sourceAgent": "hivisionidphotos",
+      "repo": "Zeyi-Lin/HivisionIDPhotos",
+      "stars": 21211,
+      "desc": "⚡️HivisionIDPhotos: a lightweight and efficient AI ID photos tools. 一个轻量级的AI证件照制作算法。",
+      "url": "https://github.com/Zeyi-Lin/HivisionIDPhotos",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "hivisionidphotos"
+      ],
+      "searchText": "hivisionidphotos ⚡️hivisionidphotos: a lightweight and efficient ai id photos tools. 一个轻量级的ai证件照制作算法。 zeyi-lin/hivisionidphotos devops-deploy hivisionidphotos"
+    },
+    {
+      "name": "dokit",
+      "source": "dokit",
+      "sourceAgent": "dokit",
+      "repo": "didi/DoKit",
+      "stars": 20415,
+      "desc": "一款面向泛前端产品研发全生命周期的效率平台。",
+      "url": "https://github.com/didi/DoKit",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "dokit"
+      ],
+      "searchText": "dokit 一款面向泛前端产品研发全生命周期的效率平台。 didi/dokit devops-deploy dokit"
+    },
+    {
+      "name": "dagger",
+      "source": "dagger",
+      "sourceAgent": "dagger",
+      "repo": "dagger/dagger",
+      "stars": 16009,
+      "desc": "Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud",
+      "url": "https://github.com/dagger/dagger",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "dagger"
+      ],
+      "searchText": "dagger automation engine to build, test and ship any codebase. runs locally, in ci, or directly in the cloud dagger/dagger devops-deploy dagger"
+    },
+    {
+      "name": "unleash",
+      "source": "unleash",
+      "sourceAgent": "unleash",
+      "repo": "Unleash/unleash",
+      "stars": 13614,
+      "desc": "Open-source feature management platform",
+      "url": "https://github.com/Unleash/unleash",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "unleash"
+      ],
+      "searchText": "unleash open-source feature management platform unleash/unleash devops-deploy unleash"
+    },
+    {
+      "name": "distrobox",
+      "source": "distrobox",
+      "sourceAgent": "distrobox",
+      "repo": "89luca89/distrobox",
+      "stars": 12674,
+      "desc": "Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you’re more comfortable with. Mirror available at",
+      "url": "https://github.com/89luca89/distrobox",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "distrobox"
+      ],
+      "searchText": "distrobox use any linux distribution inside your terminal. enable both backward and forward compatibility with software and freedom to use whatever distribution you’re more comfortable with. mirror available at 89luca89/distrobox devops-deploy distrobox"
+    },
+    {
+      "name": "flyway",
+      "source": "flyway",
+      "sourceAgent": "flyway",
+      "repo": "flyway/flyway",
+      "stars": 9873,
+      "desc": "Flyway by Redgate • Database Migrations Made Easy.",
+      "url": "https://github.com/flyway/flyway",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "flyway"
+      ],
+      "searchText": "flyway flyway by redgate • database migrations made easy. flyway/flyway devops-deploy flyway"
+    },
+    {
+      "name": "spinnaker",
+      "source": "spinnaker",
+      "sourceAgent": "spinnaker",
+      "repo": "spinnaker/spinnaker",
+      "stars": 9746,
+      "desc": "Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.",
+      "url": "https://github.com/spinnaker/spinnaker",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "spinnaker"
+      ],
+      "searchText": "spinnaker spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence. spinnaker/spinnaker devops-deploy spinnaker"
+    },
+    {
+      "name": "origin",
+      "source": "origin",
+      "sourceAgent": "origin",
+      "repo": "openshift/origin",
+      "stars": 8664,
+      "desc": "Conformance test suite for OpenShift",
+      "url": "https://github.com/openshift/origin",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "origin"
+      ],
+      "searchText": "origin conformance test suite for openshift openshift/origin devops-deploy origin"
+    },
+    {
+      "name": "databasus",
+      "source": "databasus",
+      "sourceAgent": "databasus",
+      "repo": "databasus/databasus",
+      "stars": 7544,
+      "desc": "PostgreSQL backup tool with Point-In-Time-Recovery and restore verification",
+      "url": "https://github.com/databasus/databasus",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "databasus"
+      ],
+      "searchText": "databasus postgresql backup tool with point-in-time-recovery and restore verification databasus/databasus devops-deploy databasus"
+    },
+    {
+      "name": "gocd",
+      "source": "gocd",
+      "sourceAgent": "gocd",
+      "repo": "gocd/gocd",
+      "stars": 7411,
+      "desc": "GoCD - Continuous Delivery server main repository",
+      "url": "https://github.com/gocd/gocd",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "gocd"
+      ],
+      "searchText": "gocd gocd - continuous delivery server main repository gocd/gocd devops-deploy gocd"
+    },
+    {
+      "name": "liquibase",
+      "source": "liquibase",
+      "sourceAgent": "liquibase",
+      "repo": "liquibase/liquibase",
+      "stars": 5538,
+      "desc": "Main Liquibase Source",
+      "url": "https://github.com/liquibase/liquibase",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "liquibase"
+      ],
+      "searchText": "liquibase main liquibase source liquibase/liquibase devops-deploy liquibase"
+    },
+    {
       "name": "SkillOpt",
       "source": "general",
       "sourceAgent": "other",
@@ -195,6 +465,24 @@
       "searchText": "skillopt skillopt is a text-space optimizer that trains reusable natural-language skills for frozen llm agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts. microsoft/skillopt git clone https://github.com/microsoft/skillopt.git devops-deploy other"
     },
     {
+      "name": "devtron",
+      "source": "devtron",
+      "sourceAgent": "devtron",
+      "repo": "devtron-labs/devtron",
+      "stars": 5519,
+      "desc": "The only Kubernetes dashboard you need",
+      "url": "https://github.com/devtron-labs/devtron",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "devtron"
+      ],
+      "searchText": "devtron the only kubernetes dashboard you need devtron-labs/devtron devops-deploy devtron"
+    },
+    {
       "name": "awesome-codex-subagents",
       "source": "community",
       "sourceAgent": "codex",
@@ -211,6 +499,24 @@
         "codex"
       ],
       "searchText": "awesome-codex-subagents a collection of 130+ specialized codex subagents covering a wide range of development use cases. voltagent/awesome-codex-subagents git clone https://github.com/voltagent/awesome-codex-subagents.git  # browse the awesome list devops-deploy codex"
+    },
+    {
+      "name": "mcp-context-forge",
+      "source": "mcp-context-forge",
+      "sourceAgent": "mcp-context-forge",
+      "repo": "IBM/mcp-context-forge",
+      "stars": 3975,
+      "desc": "An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/gRPC APIs, exposing a unified endpoint with centralized discovery, guardrails and management. Optimizes Agent & Tool call",
+      "url": "https://github.com/IBM/mcp-context-forge",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "mcp-context-forge"
+      ],
+      "searchText": "mcp-context-forge an ai gateway, registry, and proxy that sits in front of any mcp, a2a, or rest/grpc apis, exposing a unified endpoint with centralized discovery, guardrails and management. optimizes agent & tool call ibm/mcp-context-forge devops-deploy mcp-context-forge"
     },
     {
       "name": "openclaw-china-docker",
@@ -249,6 +555,60 @@
       "searchText": "pinme deploy your frontend in a single command. claude code skills supported. glitternetwork/pinme npm i -g pinme devops-deploy claude"
     },
     {
+      "name": "sh",
+      "source": "sh",
+      "sourceAgent": "sh",
+      "repo": "kejilion/sh",
+      "stars": 2947,
+      "desc": "KEJILION.SH 一款全功能的Linux管理脚本！An all-in-one Linux management script!",
+      "url": "https://github.com/kejilion/sh",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "sh"
+      ],
+      "searchText": "sh kejilion.sh 一款全功能的linux管理脚本！an all-in-one linux management script! kejilion/sh devops-deploy sh"
+    },
+    {
+      "name": "Auto-Empirical-Research-Skills",
+      "source": "general",
+      "sourceAgent": "other",
+      "repo": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "stars": 2396,
+      "desc": "🔬 A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,000+ AI Agent 技能库，覆盖8大社会科学学科的实证研究。CoPaper.AI 20分钟完成一篇可复现的规范实证论文，并支持用户上传 Skills。-- Maintained by CoPaper.AI from Stanford REAP",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills",
+      "install": "git clone https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills.git  # browse the awesome list",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "data",
+      "subCategoryId": "research",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "other"
+      ],
+      "searchText": "auto-empirical-research-skills 🔬 a curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,000+ ai agent 技能库，覆盖8大社会科学学科的实证研究。copaper.ai 20分钟完成一篇可复现的规范实证论文，并支持用户上传 skills。-- maintained by copaper.ai from stanford reap brycewang-stanford/auto-empirical-research-skills git clone https://github.com/brycewang-stanford/auto-empirical-research-skills.git  # browse the awesome list devops-deploy other"
+    },
+    {
+      "name": "devops-bootcamp",
+      "source": "devops-bootcamp",
+      "sourceAgent": "devops-bootcamp",
+      "repo": "kunal-kushwaha/DevOps-Bootcamp",
+      "stars": 2386,
+      "desc": "This repository consists of the code samples, assignments, and notes for the DevOps bootcamp of WeMakeDevs.",
+      "url": "https://github.com/kunal-kushwaha/DevOps-Bootcamp",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "devops-bootcamp"
+      ],
+      "searchText": "devops-bootcamp this repository consists of the code samples, assignments, and notes for the devops bootcamp of wemakedevs. kunal-kushwaha/devops-bootcamp devops-deploy devops-bootcamp"
+    },
+    {
       "name": "pro-workflow",
       "source": "general",
       "sourceAgent": "claude",
@@ -265,6 +625,24 @@
         "claude"
       ],
       "searchText": "pro-workflow claude code learns from your corrections: self-correcting memory that compounds over 50+ sessions. context engineering, parallel worktrees, agent teams, and 17 battle-tested skills. rohitg00/pro-workflow npm i -g pro-workflow devops-deploy claude"
+    },
+    {
+      "name": "awesome-cloud-security",
+      "source": "awesome-cloud-security",
+      "sourceAgent": "awesome-cloud-security",
+      "repo": "teamssix/awesome-cloud-security",
+      "stars": 2100,
+      "desc": "awesome cloud security 收集一些国内外不错的云安全资源，该项目主要面向国内的安全人员",
+      "url": "https://github.com/teamssix/awesome-cloud-security",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "awesome-cloud-security"
+      ],
+      "searchText": "awesome-cloud-security awesome cloud security 收集一些国内外不错的云安全资源，该项目主要面向国内的安全人员 teamssix/awesome-cloud-security devops-deploy awesome-cloud-security"
     },
     {
       "name": "agent-rules-books",
@@ -287,24 +665,6 @@
       "searchText": "agent-rules-books agents.md rules / skills for ai coding agents: codex, cursor & claude code. inspired by clean code, refactoring, ddd, clean architecture and ddia programming books. ciembor/agent-rules-books git clone https://github.com/ciembor/agent-rules-books.git devops-deploy claude codex cursor"
     },
     {
-      "name": "Auto-Empirical-Research-Skills",
-      "source": "general",
-      "sourceAgent": "other",
-      "repo": "brycewang-stanford/Auto-Empirical-Research-Skills",
-      "stars": 1775,
-      "desc": "🔬 A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,000+ AI Agent 技能库，覆盖8大社会科学学科的实证研究。CoPaper.AI 20分钟完成一篇可复现的规范实证论文，并支持用户上传 Skills。-- Maintained by CoPaper.AI from Stanford REAP",
-      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills",
-      "install": "git clone https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills.git  # browse the awesome list",
-      "functionCategory": "devops-deploy",
-      "topCategoryId": "data",
-      "subCategoryId": "research",
-      "categoryPath": "devops-deploy",
-      "supportedAgents": [
-        "other"
-      ],
-      "searchText": "auto-empirical-research-skills 🔬 a curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,000+ ai agent 技能库，覆盖8大社会科学学科的实证研究。copaper.ai 20分钟完成一篇可复现的规范实证论文，并支持用户上传 skills。-- maintained by copaper.ai from stanford reap brycewang-stanford/auto-empirical-research-skills git clone https://github.com/brycewang-stanford/auto-empirical-research-skills.git  # browse the awesome list devops-deploy other"
-    },
-    {
       "name": "chops",
       "source": "general",
       "sourceAgent": "multi",
@@ -325,6 +685,24 @@
       "searchText": "chops your ai agent skills, finally organized. a macos app to browse, edit, and manage skills across claude code, cursor, codex, windsurf, and amp. shpigford/chops git clone https://github.com/shpigford/chops.git devops-deploy claude codex cursor"
     },
     {
+      "name": "kubevpn",
+      "source": "kubevpn",
+      "sourceAgent": "kubevpn",
+      "repo": "kubenetworks/kubevpn",
+      "stars": 1345,
+      "desc": "KubeVPN offers a Cloud Native Dev Environment that connects to kubernetes cluster network.",
+      "url": "https://github.com/kubenetworks/kubevpn",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "kubevpn"
+      ],
+      "searchText": "kubevpn kubevpn offers a cloud native dev environment that connects to kubernetes cluster network. kubenetworks/kubevpn devops-deploy kubevpn"
+    },
+    {
       "name": "n8n-as-code",
       "source": "general",
       "sourceAgent": "other",
@@ -341,6 +719,78 @@
         "other"
       ],
       "searchText": "n8n-as-code give your ai agent n8n superpowers. 537 nodes with full schemas, 7,700+ templates, git-like sync, and typescript workflows. etiennelescot/n8n-as-code npm i -g n8n-as-code devops-deploy other"
+    },
+    {
+      "name": "houdini",
+      "source": "houdini",
+      "sourceAgent": "houdini",
+      "repo": "cybersecsi/houdini",
+      "stars": 1253,
+      "desc": "Hundreds of Offensive and Useful Docker Images for Network Intrusion. The name says it all.",
+      "url": "https://github.com/cybersecsi/houdini",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "houdini"
+      ],
+      "searchText": "houdini hundreds of offensive and useful docker images for network intrusion. the name says it all. cybersecsi/houdini devops-deploy houdini"
+    },
+    {
+      "name": "boxer",
+      "source": "boxer",
+      "sourceAgent": "boxer",
+      "repo": "dphilla/boxer",
+      "stars": 989,
+      "desc": "Dockerfile → Universal Wasm Distribution",
+      "url": "https://github.com/dphilla/boxer",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "boxer"
+      ],
+      "searchText": "boxer dockerfile → universal wasm distribution dphilla/boxer devops-deploy boxer"
+    },
+    {
+      "name": "lilipod",
+      "source": "lilipod",
+      "sourceAgent": "lilipod",
+      "repo": "89luca89/lilipod",
+      "stars": 660,
+      "desc": "Lilipod is a simple container manager, able to download, unpack and use OCI images from various container registries.",
+      "url": "https://github.com/89luca89/lilipod",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "lilipod"
+      ],
+      "searchText": "lilipod lilipod is a simple container manager, able to download, unpack and use oci images from various container registries. 89luca89/lilipod devops-deploy lilipod"
+    },
+    {
+      "name": "raudi",
+      "source": "raudi",
+      "sourceAgent": "raudi",
+      "repo": "cybersecsi/RAUDI",
+      "stars": 558,
+      "desc": "A repo to automatically generate and keep updated a series of Docker images through GitHub Actions.",
+      "url": "https://github.com/cybersecsi/RAUDI",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "raudi"
+      ],
+      "searchText": "raudi a repo to automatically generate and keep updated a series of docker images through github actions. cybersecsi/raudi devops-deploy raudi"
     },
     {
       "name": "dbt-agent-skills",
@@ -382,6 +832,42 @@
       "searchText": "skill.color-expert agent skill for color science expertise. many references covering color spaces, accessibility (apca, wcag), palette   generation, pigment mixing, and historical color theory. works with claude code, codex, cursor, copilot & others. meodai/skill.color-expert git clone https://github.com/meodai/skill.color-expert.git devops-deploy claude codex cursor copilot"
     },
     {
+      "name": "slack-watchman",
+      "source": "slack-watchman",
+      "sourceAgent": "slack-watchman",
+      "repo": "PaperMtn/slack-watchman",
+      "stars": 402,
+      "desc": "Slack enumeration and exposed secrets detection tool",
+      "url": "https://github.com/PaperMtn/slack-watchman",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "slack-watchman"
+      ],
+      "searchText": "slack-watchman slack enumeration and exposed secrets detection tool papermtn/slack-watchman devops-deploy slack-watchman"
+    },
+    {
+      "name": "supervizer",
+      "source": "supervizer",
+      "sourceAgent": "supervizer",
+      "repo": "oOthkOo/supervizer",
+      "stars": 299,
+      "desc": "The most simple NodeJS application manager with RESTful API.",
+      "url": "https://github.com/oOthkOo/supervizer",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "supervizer"
+      ],
+      "searchText": "supervizer the most simple nodejs application manager with restful api. oothkoo/supervizer devops-deploy supervizer"
+    },
+    {
       "name": "armory",
       "source": "general",
       "sourceAgent": "other",
@@ -418,6 +904,24 @@
         "copilot"
       ],
       "searchText": "ai-agents-skills 🧠 ai agent skills repository - a curated collection of specialized skills for ai coding agents (claude code, github copilot, cursor, windsurf). created by yuval avidani using github copilot via vs code insiders. hoodini/ai-agents-skills git clone https://github.com/hoodini/ai-agents-skills.git  # browse the awesome list devops-deploy claude cursor copilot"
+    },
+    {
+      "name": "gitlab-watchman",
+      "source": "gitlab-watchman",
+      "sourceAgent": "gitlab-watchman",
+      "repo": "PaperMtn/gitlab-watchman",
+      "stars": 203,
+      "desc": "Finding exposed secrets and personal data in GitLab",
+      "url": "https://github.com/PaperMtn/gitlab-watchman",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "gitlab-watchman"
+      ],
+      "searchText": "gitlab-watchman finding exposed secrets and personal data in gitlab papermtn/gitlab-watchman devops-deploy gitlab-watchman"
     },
     {
       "name": "qaskills",

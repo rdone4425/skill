@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "functionCategory": "health-medical",
+    "topCategoryId": "health-medical",
+    "subCategoryId": "health-medical",
+    "categoryPath": "health-medical",
+    "count": 1,
+    "sourceData": "categories"
+  },
+  "skills": [
+    {
+      "name": "mostly-free-resources-for-almost-everyone",
+      "source": "mostly-free-resources-for-almost-everyone",
+      "sourceAgent": "mostly-free-resources-for-almost-everyone",
+      "repo": "chasedooley/mostly-free-resources-for-almost-everyone",
+      "stars": 420,
+      "desc": "A list of mostly free resources for almost anyone.",
+      "url": "https://github.com/chasedooley/mostly-free-resources-for-almost-everyone",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health",
+      "subCategoryId": "medical",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "mostly-free-resources-for-almost-everyone"
+      ],
+      "searchText": "mostly-free-resources-for-almost-everyone a list of mostly free resources for almost anyone. chasedooley/mostly-free-resources-for-almost-everyone health-medical mostly-free-resources-for-almost-everyone"
+    }
+  ]
+}

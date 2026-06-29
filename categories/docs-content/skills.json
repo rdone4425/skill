@@ -4,7 +4,7 @@
     "topCategoryId": "docs",
     "subCategoryId": "content",
     "categoryPath": "docs-content",
-    "count": 72,
+    "count": 89,
     "sourceData": "categories"
   },
   "skills": [
@@ -13,7 +13,7 @@
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
-      "stars": 156232,
+      "stars": 156261,
       "desc": "\"Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', or requests to produce professional documents with formatting",
       "url": "https://github.com/anthropics/skills/tree/main/skills/docx",
       "install": "$skill-installer docx",
@@ -31,7 +31,7 @@
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
-      "stars": 156232,
+      "stars": 156261,
       "desc": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership",
       "url": "https://github.com/anthropics/skills/tree/main/skills/internal-comms",
       "install": "$skill-installer internal-comms",
@@ -49,7 +49,7 @@
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
-      "stars": 156232,
+      "stars": 156261,
       "desc": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating",
       "url": "https://github.com/anthropics/skills/tree/main/skills/pdf",
       "install": "$skill-installer pdf",
@@ -67,7 +67,7 @@
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
-      "stars": 156232,
+      "stars": 156261,
       "desc": "\"Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted co",
       "url": "https://github.com/anthropics/skills/tree/main/skills/pptx",
       "install": "$skill-installer pptx",
@@ -179,7 +179,7 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 22981,
+      "stars": 22988,
       "desc": "Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-knowledge-capture",
       "install": "$skill-installer notion-knowledge-capture",
@@ -197,7 +197,7 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 22981,
+      "stars": 22988,
       "desc": "Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-meeting-intelligence",
       "install": "$skill-installer notion-meeting-intelligence",
@@ -215,7 +215,7 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 22981,
+      "stars": 22988,
       "desc": "Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-research-documentation",
       "install": "$skill-installer notion-research-documentation",
@@ -233,7 +233,7 @@
       "source": "official",
       "sourceAgent": "codex",
       "repo": "openai/skills",
-      "stars": 22981,
+      "stars": 22988,
       "desc": "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-spec-to-implementation",
       "install": "$skill-installer notion-spec-to-implementation",
@@ -355,6 +355,24 @@
       "searchText": "awesome-openclaw-tutorial 从零开始玩转openclaw：最全面的中文教程，涵盖安装、配置、实战案例和避坑指南（github版） xianyu110/awesome-openclaw-tutorial git clone https://github.com/xianyu110/awesome-openclaw-tutorial.git docs-content openclaw"
     },
     {
+      "name": "awesome-gbdev",
+      "source": "awesome-gbdev",
+      "sourceAgent": "awesome-gbdev",
+      "repo": "gbdev/awesome-gbdev",
+      "stars": 4461,
+      "desc": "A curated list of Game Boy development resources such as tools, docs, emulators, related projects and open-source ROMs.",
+      "url": "https://github.com/gbdev/awesome-gbdev",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "awesome-gbdev"
+      ],
+      "searchText": "awesome-gbdev a curated list of game boy development resources such as tools, docs, emulators, related projects and open-source roms. gbdev/awesome-gbdev docs-content awesome-gbdev"
+    },
+    {
       "name": "awesome-openclaw-usecases-zh",
       "source": "openclaw",
       "sourceAgent": "openclaw",
@@ -395,7 +413,7 @@
       "source": "openclaw",
       "sourceAgent": "openclaw",
       "repo": "1186258278/OpenClawChineseTranslation",
-      "stars": 3802,
+      "stars": 3796,
       "desc": "🦞 OpenClaw (Clawdbot/Moltbot) 汉化版 - 开源个人 AI 助手中文版 | Claude/ChatGPT LLM 接入 | WhatsApp/Telegram/Discord 多平台 | 每小时自动同步 | CLI + Dashboard 全中文 | 全流程搭建教程，以及排错指南！",
       "url": "https://github.com/1186258278/OpenClawChineseTranslation",
       "install": "npm i -g OpenClawChineseTranslation",
@@ -414,7 +432,7 @@
       "source": "openclaw",
       "sourceAgent": "openclaw",
       "repo": "mergisi/awesome-openclaw-agents",
-      "stars": 3621,
+      "stars": 3741,
       "desc": "162 production-ready AI agent templates for OpenClaw. SOUL.md configs across 19 categories. Submit yours!",
       "url": "https://github.com/mergisi/awesome-openclaw-agents",
       "install": "git clone https://github.com/mergisi/awesome-openclaw-agents.git",
@@ -498,6 +516,42 @@
         "openclaw"
       ],
       "searchText": "openclaw101 🐾 openclaw 101 — 从零开始，7天掌握你的ai私人助理 | 全网资源聚合站 mengjian-github/openclaw101 npm i -g openclaw101 docs-content openclaw"
+    },
+    {
+      "name": "markdownify-mcp",
+      "source": "markdownify-mcp",
+      "sourceAgent": "markdownify-mcp",
+      "repo": "zcaceres/markdownify-mcp",
+      "stars": 2764,
+      "desc": "A Model Context Protocol server for converting almost anything to Markdown",
+      "url": "https://github.com/zcaceres/markdownify-mcp",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "markdownify-mcp"
+      ],
+      "searchText": "markdownify-mcp a model context protocol server for converting almost anything to markdown zcaceres/markdownify-mcp docs-content markdownify-mcp"
+    },
+    {
+      "name": "cybersources",
+      "source": "cybersources",
+      "sourceAgent": "cybersources",
+      "repo": "bst04/CyberSources",
+      "stars": 2314,
+      "desc": "A curated list of cybersecurity tools and resources.",
+      "url": "https://github.com/bst04/CyberSources",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "cybersources"
+      ],
+      "searchText": "cybersources a curated list of cybersecurity tools and resources. bst04/cybersources docs-content cybersources"
     },
     {
       "name": "obsidian-second-brain",
@@ -745,7 +799,7 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "deusyu/translate-book",
-      "stars": 757,
+      "stars": 809,
       "desc": "Claude Code skill that translates entire books (PDF/DOCX/EPUB) into any language using parallel subagents",
       "url": "https://github.com/deusyu/translate-book",
       "install": "pip install translate-book",
@@ -849,6 +903,24 @@
         "cursor"
       ],
       "searchText": "agentfiles browse, create, and edit ai agent files across claude code, cursor, codex, and 13+ tools — from obsidian. railly/agentfiles npm i -g agentfiles docs-content claude codex cursor"
+    },
+    {
+      "name": "awesome-n64-development",
+      "source": "awesome-n64-development",
+      "sourceAgent": "awesome-n64-development",
+      "repo": "command-tab/awesome-n64-development",
+      "stars": 558,
+      "desc": "A curated list of Nintendo 64 development resources including toolchains, documentation, emulators, example code, and more",
+      "url": "https://github.com/command-tab/awesome-n64-development",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "awesome-n64-development"
+      ],
+      "searchText": "awesome-n64-development a curated list of nintendo 64 development resources including toolchains, documentation, emulators, example code, and more command-tab/awesome-n64-development docs-content awesome-n64-development"
     },
     {
       "name": "academic-pptx-skill",
@@ -996,6 +1068,24 @@
       "searchText": "awesome-claude-skills 🎯 the definitive collection of 50+ verified awesome claude skills for claude code, claude.ai, and api. boost productivity with tdd, debugging, git workflows, document processing, and more. community-driven, actively maintained. karanb192/awesome-claude-skills git clone https://github.com/karanb192/awesome-claude-skills.git docs-content claude"
     },
     {
+      "name": "tools",
+      "source": "tools",
+      "sourceAgent": "tools",
+      "repo": "mydearcc/tools",
+      "stars": 369,
+      "desc": "free online tools, developer toolbox, web utilities: Minify CSS, Format JSON, Encrypt/Decrypt, Convert Formats, QR Code, Dev Docs,Webmaster Tools, Image Tools & more. For programmers, webmasters,desig",
+      "url": "https://github.com/mydearcc/tools",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "tools"
+      ],
+      "searchText": "tools free online tools, developer toolbox, web utilities: minify css, format json, encrypt/decrypt, convert formats, qr code, dev docs,webmaster tools, image tools & more. for programmers, webmasters,desig mydearcc/tools docs-content tools"
+    },
+    {
       "name": "hermes-agent-guide",
       "source": "hermes",
       "sourceAgent": "hermes",
@@ -1013,6 +1103,24 @@
         "openclaw"
       ],
       "searchText": "hermes-agent-guide hermes agent 是目前开源社区最具潜力的 ai agent 框架之一。它继承了 openclaw 的优秀基因，在架构设计、记忆系统、技能生态和自动化能力上实现全面升级。但 hermes 的文档分散在多个仓库和平台，缺乏一本系统性的中文指南。  本书填补的正是这个空白。全书 16 册、30 万+ 字，覆盖从安装部署到高阶开发、从个人玩赚到企业服务、从单 agent 操控到多 agent 编排的完整知识图谱。 jwangkun/hermes-agent-guide pip install hermes-agent-guide docs-content hermes openclaw"
+    },
+    {
+      "name": "biobakery",
+      "source": "biobakery",
+      "sourceAgent": "biobakery",
+      "repo": "biobakery/biobakery",
+      "stars": 319,
+      "desc": "bioBakery tools for meta'omic profiling",
+      "url": "https://github.com/biobakery/biobakery",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "biobakery"
+      ],
+      "searchText": "biobakery biobakery tools for meta'omic profiling biobakery/biobakery docs-content biobakery"
     },
     {
       "name": "PaperClaw",
@@ -1033,6 +1141,24 @@
       "searchText": "paperclaw an openclaw skill that can generate paper search-review-critque expert-agent relevant to specific topics (we use scientific ml and 3d geometry surrogate modeling as a demo). guhaohao0991/paperclaw git clone https://github.com/guhaohao0991/paperclaw.git docs-content openclaw"
     },
     {
+      "name": "kubernetes-icons",
+      "source": "kubernetes-icons",
+      "sourceAgent": "kubernetes-icons",
+      "repo": "octo-technology/kubernetes-icons",
+      "stars": 216,
+      "desc": "[obsolete] Set of icons for Kubernetes diagrams, has been merged into official k8s repo!!",
+      "url": "https://github.com/octo-technology/kubernetes-icons",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "kubernetes-icons"
+      ],
+      "searchText": "kubernetes-icons [obsolete] set of icons for kubernetes diagrams, has been merged into official k8s repo!! octo-technology/kubernetes-icons docs-content kubernetes-icons"
+    },
+    {
       "name": "scholar-skill",
       "source": "general",
       "sourceAgent": "openclaw",
@@ -1049,6 +1175,42 @@
         "openclaw"
       ],
       "searchText": "scholar-skill an openclaw skill for academic reading, knowledge linking, reflection, and knowledge evolution in obsidian. eesjgong/scholar-skill git clone https://github.com/eesjgong/scholar-skill.git docs-content openclaw"
+    },
+    {
+      "name": "dotnet9-com",
+      "source": "dotnet9-com",
+      "sourceAgent": "dotnet9-com",
+      "repo": "dotnet9/dotnet9.com",
+      "stars": 195,
+      "desc": "Under development. See https://dotnet9.com for preview effect",
+      "url": "https://github.com/dotnet9/dotnet9.com",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "dotnet9-com"
+      ],
+      "searchText": "dotnet9-com under development. see https://dotnet9.com for preview effect dotnet9/dotnet9.com docs-content dotnet9-com"
+    },
+    {
+      "name": "cpplangnet",
+      "source": "cpplangnet",
+      "sourceAgent": "cpplangnet",
+      "repo": "Cpp4You/CppLangNet",
+      "stars": 182,
+      "desc": "The modern website for C++ language to make it more accessible.",
+      "url": "https://github.com/Cpp4You/CppLangNet",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "cpplangnet"
+      ],
+      "searchText": "cpplangnet the modern website for c++ language to make it more accessible. cpp4you/cpplangnet docs-content cpplangnet"
     },
     {
       "name": "anywhere-agents",
@@ -1087,6 +1249,60 @@
       "searchText": "claude-plugins-community community plugin marketplace for claude cowork and claude code. read-only mirror — submit plugins at clau.de/plugin-directory-submission. anthropics/claude-plugins-community git clone https://github.com/anthropics/claude-plugins-community.git docs-content claude"
     },
     {
+      "name": "awesome-web-you-should-know",
+      "source": "awesome-web-you-should-know",
+      "sourceAgent": "awesome-web-you-should-know",
+      "repo": "freyhill/awesome-web-you-should-know",
+      "stars": 165,
+      "desc": "🌎awesome web you should know",
+      "url": "https://github.com/freyhill/awesome-web-you-should-know",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "awesome-web-you-should-know"
+      ],
+      "searchText": "awesome-web-you-should-know 🌎awesome web you should know freyhill/awesome-web-you-should-know docs-content awesome-web-you-should-know"
+    },
+    {
+      "name": "awesome-emu-resources",
+      "source": "awesome-emu-resources",
+      "sourceAgent": "awesome-emu-resources",
+      "repo": "marethyu/awesome-emu-resources",
+      "stars": 154,
+      "desc": "A curated list of emulator development resources",
+      "url": "https://github.com/marethyu/awesome-emu-resources",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "awesome-emu-resources"
+      ],
+      "searchText": "awesome-emu-resources a curated list of emulator development resources marethyu/awesome-emu-resources docs-content awesome-emu-resources"
+    },
+    {
+      "name": "fortran-tools",
+      "source": "fortran-tools",
+      "sourceAgent": "fortran-tools",
+      "repo": "Beliavsky/Fortran-Tools",
+      "stars": 148,
+      "desc": "Links to Fortran compilers, preprocessors, formatters, static analyzers, transpilers, IDEs, build systems, etc.",
+      "url": "https://github.com/Beliavsky/Fortran-Tools",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "fortran-tools"
+      ],
+      "searchText": "fortran-tools links to fortran compilers, preprocessors, formatters, static analyzers, transpilers, ides, build systems, etc. beliavsky/fortran-tools docs-content fortran-tools"
+    },
+    {
       "name": "learn-hermes-agent",
       "source": "hermes",
       "sourceAgent": "hermes",
@@ -1103,6 +1319,24 @@
         "hermes"
       ],
       "searchText": "learn-hermes-agent a 27-chapter hands-on tutorial for building an autonomous ai agent from zero in python. agent loop, tool system, memory, skills, mcp,     multi-platfo longyunfeigu/learn-hermes-agent git clone https://github.com/longyunfeigu/learn-hermes-agent.git docs-content hermes"
+    },
+    {
+      "name": "docs",
+      "source": "docs",
+      "sourceAgent": "docs",
+      "repo": "jacksonkasi1/docs",
+      "stars": 144,
+      "desc": "Better Code Practices",
+      "url": "https://github.com/jacksonkasi1/docs",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "docs"
+      ],
+      "searchText": "docs better code practices jacksonkasi1/docs docs-content docs"
     },
     {
       "name": "claude-code-plugins",
@@ -1123,6 +1357,24 @@
       "searchText": "claude-code-plugins claude code plugin marketplace for the buildatscale youtube channel buildatscale-tv/claude-code-plugins pip install claude-code-plugins docs-content claude"
     },
     {
+      "name": "dotnet-adr",
+      "source": "dotnet-adr",
+      "sourceAgent": "dotnet-adr",
+      "repo": "endjin/dotnet-adr",
+      "stars": 130,
+      "desc": "A cross platform .NET Global Tool for creating and managing Architectural Decision Records (ADRs).",
+      "url": "https://github.com/endjin/dotnet-adr",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "dotnet-adr"
+      ],
+      "searchText": "dotnet-adr a cross platform .net global tool for creating and managing architectural decision records (adrs). endjin/dotnet-adr docs-content dotnet-adr"
+    },
+    {
       "name": "hermes-agent-insights",
       "source": "general",
       "sourceAgent": "hermes",
@@ -1139,6 +1391,42 @@
         "hermes"
       ],
       "searchText": "hermes-agent-insights in-depth source code analysis and architectural study of hermes agent by nous research. hz0108/hermes-agent-insights git clone https://github.com/hz0108/hermes-agent-insights.git docs-content hermes"
+    },
+    {
+      "name": "cova",
+      "source": "cova",
+      "sourceAgent": "cova",
+      "repo": "Guizimo/cova",
+      "stars": 120,
+      "desc": "简单易用的封面图片生成工具，为你的文章、视频、社交媒体创作提供专业的封面设计。",
+      "url": "https://github.com/Guizimo/cova",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "cova"
+      ],
+      "searchText": "cova 简单易用的封面图片生成工具，为你的文章、视频、社交媒体创作提供专业的封面设计。 guizimo/cova docs-content cova"
+    },
+    {
+      "name": "go-mygen",
+      "source": "go-mygen",
+      "sourceAgent": "go-mygen",
+      "repo": "yezihack/go-mygen",
+      "stars": 120,
+      "desc": "Quickly generate CURD and documentation for operating MYSQL.etc",
+      "url": "https://github.com/yezihack/go-mygen",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "go-mygen"
+      ],
+      "searchText": "go-mygen quickly generate curd and documentation for operating mysql.etc yezihack/go-mygen docs-content go-mygen"
     },
     {
       "name": "getnote-openclaw",
@@ -1159,11 +1447,29 @@
       "searchText": "getnote-openclaw get 笔记 openclaw skill iswalle/getnote-openclaw git clone https://github.com/iswalle/getnote-openclaw.git docs-content openclaw"
     },
     {
+      "name": "bitdowntoc",
+      "source": "bitdowntoc",
+      "sourceAgent": "bitdowntoc",
+      "repo": "derlin/bitdowntoc",
+      "stars": 107,
+      "desc": "Online and command-line Markdown TOC generator, with built-in support for BitBucket Server, GitHub, Gitlab, dev.to and more!",
+      "url": "https://github.com/derlin/bitdowntoc",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "content",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "bitdowntoc"
+      ],
+      "searchText": "bitdowntoc online and command-line markdown toc generator, with built-in support for bitbucket server, github, gitlab, dev.to and more! derlin/bitdowntoc docs-content bitdowntoc"
+    },
+    {
       "name": "Awesome-Agent-Skills",
       "source": "general",
       "sourceAgent": "multi",
       "repo": "JayLZhou/Awesome-Agent-Skills",
-      "stars": 93,
+      "stars": 106,
       "desc": "Curated paper list and resource hub for skill-centric LLM agent ecosystems.",
       "url": "https://github.com/JayLZhou/Awesome-Agent-Skills",
       "install": "git clone https://github.com/JayLZhou/Awesome-Agent-Skills.git",

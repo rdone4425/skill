@@ -1,0 +1,282 @@
+{
+  "meta": {
+    "functionCategory": "finance-crypto",
+    "topCategoryId": "finance-crypto",
+    "subCategoryId": "finance-crypto",
+    "categoryPath": "finance-crypto",
+    "count": 15,
+    "sourceData": "categories"
+  },
+  "skills": [
+    {
+      "name": "ccxt",
+      "source": "ccxt",
+      "sourceAgent": "ccxt",
+      "repo": "ccxt/ccxt",
+      "stars": 43103,
+      "desc": "A cryptocurrency trading API with more than 100 exchanges in JavaScript / TypeScript / Python / C# / PHP / Go / Java",
+      "url": "https://github.com/ccxt/ccxt",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "ccxt"
+      ],
+      "searchText": "ccxt a cryptocurrency trading api with more than 100 exchanges in javascript / typescript / python / c# / php / go / java ccxt/ccxt finance-crypto ccxt"
+    },
+    {
+      "name": "hummingbot",
+      "source": "hummingbot",
+      "sourceAgent": "hummingbot",
+      "repo": "hummingbot/hummingbot",
+      "stars": 19014,
+      "desc": "Open source software that helps you create and deploy high-frequency crypto trading bots",
+      "url": "https://github.com/hummingbot/hummingbot",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "hummingbot"
+      ],
+      "searchText": "hummingbot open source software that helps you create and deploy high-frequency crypto trading bots hummingbot/hummingbot finance-crypto hummingbot"
+    },
+    {
+      "name": "jesse",
+      "source": "jesse",
+      "sourceAgent": "jesse",
+      "repo": "jesse-ai/jesse",
+      "stars": 8116,
+      "desc": "An advanced crypto trading bot written in Python",
+      "url": "https://github.com/jesse-ai/jesse",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "jesse"
+      ],
+      "searchText": "jesse an advanced crypto trading bot written in python jesse-ai/jesse finance-crypto jesse"
+    },
+    {
+      "name": "trump2cash",
+      "source": "trump2cash",
+      "sourceAgent": "trump2cash",
+      "repo": "maxbbraun/trump2cash",
+      "stars": 6523,
+      "desc": "A stock trading bot powered by Trump tweets",
+      "url": "https://github.com/maxbbraun/trump2cash",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "trump2cash"
+      ],
+      "searchText": "trump2cash a stock trading bot powered by trump tweets maxbbraun/trump2cash finance-crypto trump2cash"
+    },
+    {
+      "name": "crypto-trading-bot",
+      "source": "crypto-trading-bot",
+      "sourceAgent": "crypto-trading-bot",
+      "repo": "Haehnchen/crypto-trading-bot",
+      "stars": 3496,
+      "desc": "Cryptocurrency trading bot in javascript for Bitfinex, Bitmex, Binance, Bybit ... (public edition)",
+      "url": "https://github.com/Haehnchen/crypto-trading-bot",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "crypto-trading-bot"
+      ],
+      "searchText": "crypto-trading-bot cryptocurrency trading bot in javascript for bitfinex, bitmex, binance, bybit ... (public edition) haehnchen/crypto-trading-bot finance-crypto crypto-trading-bot"
+    },
+    {
+      "name": "crypto_info",
+      "source": "crypto_info",
+      "sourceAgent": "crypto_info",
+      "repo": "Tangent-Wei/crypto_info",
+      "stars": 2737,
+      "desc": "（原创）全网最全-币圈区块链各类常用工具与相关信息资料大全-虚拟加密货币-欧易OKX币安Binace芝麻开门Gate-交易所App注册-NFT-Defi-加密钱包-比特币-新手入门教程 -持续更新",
+      "url": "https://github.com/Tangent-Wei/crypto_info",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "crypto_info"
+      ],
+      "searchText": "crypto_info （原创）全网最全-币圈区块链各类常用工具与相关信息资料大全-虚拟加密货币-欧易okx币安binace芝麻开门gate-交易所app注册-nft-defi-加密钱包-比特币-新手入门教程 -持续更新 tangent-wei/crypto_info finance-crypto crypto_info"
+    },
+    {
+      "name": "opentrader",
+      "source": "opentrader",
+      "sourceAgent": "opentrader",
+      "repo": "Open-Trader/opentrader",
+      "stars": 2724,
+      "desc": "🤖 Open-source crypto trading bot | 📈 DCA & GRID strategies | ✨ UI | ⭐ Star to support the project!",
+      "url": "https://github.com/Open-Trader/opentrader",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "opentrader"
+      ],
+      "searchText": "opentrader 🤖 open-source crypto trading bot | 📈 dca & grid strategies | ✨ ui | ⭐ star to support the project! open-trader/opentrader finance-crypto opentrader"
+    },
+    {
+      "name": "blankly",
+      "source": "blankly",
+      "sourceAgent": "blankly",
+      "repo": "blankly-finance/blankly",
+      "stars": 2451,
+      "desc": "🚀 💸  Easily build, backtest and deploy your algo in just a few lines of code. Trade stocks, cryptos, and forex across exchanges w/ one package.",
+      "url": "https://github.com/blankly-finance/blankly",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "blankly"
+      ],
+      "searchText": "blankly 🚀 💸  easily build, backtest and deploy your algo in just a few lines of code. trade stocks, cryptos, and forex across exchanges w/ one package. blankly-finance/blankly finance-crypto blankly"
+    },
+    {
+      "name": "tradingview-webhook-bot",
+      "source": "tradingview-webhook-bot",
+      "sourceAgent": "tradingview-webhook-bot",
+      "repo": "fabston/TradingView-Webhook-Bot",
+      "stars": 1797,
+      "desc": "📊 Send TradingView alerts to Telegram, Discord, Slack, Twitter and Email.",
+      "url": "https://github.com/fabston/TradingView-Webhook-Bot",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "tradingview-webhook-bot"
+      ],
+      "searchText": "tradingview-webhook-bot 📊 send tradingview alerts to telegram, discord, slack, twitter and email. fabston/tradingview-webhook-bot finance-crypto tradingview-webhook-bot"
+    },
+    {
+      "name": "algotrading",
+      "source": "algotrading",
+      "sourceAgent": "algotrading",
+      "repo": "ivopetiz/algotrading",
+      "stars": 1620,
+      "desc": "Algorithmic trading framework for cryptocurrencies.",
+      "url": "https://github.com/ivopetiz/algotrading",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "algotrading"
+      ],
+      "searchText": "algotrading algorithmic trading framework for cryptocurrencies. ivopetiz/algotrading finance-crypto algotrading"
+    },
+    {
+      "name": "ninjabot",
+      "source": "ninjabot",
+      "sourceAgent": "ninjabot",
+      "repo": "rodrigo-brito/ninjabot",
+      "stars": 1619,
+      "desc": "A fast trading bot platform for cryptocurrency in Go (Binance)",
+      "url": "https://github.com/rodrigo-brito/ninjabot",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "ninjabot"
+      ],
+      "searchText": "ninjabot a fast trading bot platform for cryptocurrency in go (binance) rodrigo-brito/ninjabot finance-crypto ninjabot"
+    },
+    {
+      "name": "horus",
+      "source": "horus",
+      "sourceAgent": "horus",
+      "repo": "6abd/horus",
+      "stars": 509,
+      "desc": "An OSINT / digital forensics tool built in Python",
+      "url": "https://github.com/6abd/horus",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "horus"
+      ],
+      "searchText": "horus an osint / digital forensics tool built in python 6abd/horus finance-crypto horus"
+    },
+    {
+      "name": "web3-security-tools",
+      "source": "web3-security-tools",
+      "sourceAgent": "web3-security-tools",
+      "repo": "Quillhash/Web3-Security-Tools",
+      "stars": 469,
+      "desc": "This repository contains a list of the most popular and widely used tools in web3 security. If you find any tools missing, you can create a pull request and be a contribute the project.",
+      "url": "https://github.com/Quillhash/Web3-Security-Tools",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "web3-security-tools"
+      ],
+      "searchText": "web3-security-tools this repository contains a list of the most popular and widely used tools in web3 security. if you find any tools missing, you can create a pull request and be a contribute the project. quillhash/web3-security-tools finance-crypto web3-security-tools"
+    },
+    {
+      "name": "openzeppelin-relayer",
+      "source": "openzeppelin-relayer",
+      "sourceAgent": "openzeppelin-relayer",
+      "repo": "OpenZeppelin/openzeppelin-relayer",
+      "stars": 140,
+      "desc": "OpenZeppelin Relayer",
+      "url": "https://github.com/OpenZeppelin/openzeppelin-relayer",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "openzeppelin-relayer"
+      ],
+      "searchText": "openzeppelin-relayer openzeppelin relayer openzeppelin/openzeppelin-relayer finance-crypto openzeppelin-relayer"
+    },
+    {
+      "name": "dash-tools",
+      "source": "dash-tools",
+      "sourceAgent": "dash-tools",
+      "repo": "andrew-hossack/dash-tools",
+      "stars": 113,
+      "desc": "DashTools - Plotly Dash Command Line Tools - Create, Run and Deploy Templated Python Apps from Terminal",
+      "url": "https://github.com/andrew-hossack/dash-tools",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "dash-tools"
+      ],
+      "searchText": "dash-tools dashtools - plotly dash command line tools - create, run and deploy templated python apps from terminal andrew-hossack/dash-tools finance-crypto dash-tools"
+    }
+  ]
+}

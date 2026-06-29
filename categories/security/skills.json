@@ -4,7 +4,7 @@
     "topCategoryId": "security",
     "subCategoryId": "general",
     "categoryPath": "security",
-    "count": 18,
+    "count": 52,
     "sourceData": "categories"
   },
   "skills": [
@@ -30,6 +30,330 @@
       "searchText": "ecc the agent harness performance optimization system. skills, instincts, memory, security, and research-first development for claude code, codex, opencode, cursor and beyond. affaan-m/ecc git clone https://github.com/affaan-m/ecc.git security claude codex cursor opencode"
     },
     {
+      "name": "payloadsallthethings",
+      "source": "payloadsallthethings",
+      "sourceAgent": "payloadsallthethings",
+      "repo": "swisskyrepo/PayloadsAllTheThings",
+      "stars": 78755,
+      "desc": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "payloadsallthethings"
+      ],
+      "searchText": "payloadsallthethings a list of useful payloads and bypass for web application security and pentest/ctf swisskyrepo/payloadsallthethings security payloadsallthethings"
+    },
+    {
+      "name": "trivy",
+      "source": "trivy",
+      "sourceAgent": "trivy",
+      "repo": "aquasecurity/trivy",
+      "stars": 36635,
+      "desc": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "url": "https://github.com/aquasecurity/trivy",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "trivy"
+      ],
+      "searchText": "trivy find vulnerabilities, misconfigurations, secrets, sbom in containers, kubernetes, code repositories, clouds and more aquasecurity/trivy security trivy"
+    },
+    {
+      "name": "nuclei",
+      "source": "nuclei",
+      "sourceAgent": "nuclei",
+      "repo": "projectdiscovery/nuclei",
+      "stars": 29387,
+      "desc": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the int",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "nuclei"
+      ],
+      "searchText": "nuclei nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple yaml-based dsl, enabling collaboration to tackle trending vulnerabilities on the int projectdiscovery/nuclei security nuclei"
+    },
+    {
+      "name": "strix",
+      "source": "strix",
+      "sourceAgent": "strix",
+      "repo": "usestrix/strix",
+      "stars": 26727,
+      "desc": "Open-source AI hackers to find and fix your app’s vulnerabilities.",
+      "url": "https://github.com/usestrix/strix",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "strix"
+      ],
+      "searchText": "strix open-source ai hackers to find and fix your app’s vulnerabilities. usestrix/strix security strix"
+    },
+    {
+      "name": "authentik",
+      "source": "authentik",
+      "sourceAgent": "authentik",
+      "repo": "goauthentik/authentik",
+      "stars": 22159,
+      "desc": "The authentication glue you need.",
+      "url": "https://github.com/goauthentik/authentik",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "authentik"
+      ],
+      "searchText": "authentik the authentication glue you need. goauthentik/authentik security authentik"
+    },
+    {
+      "name": "casbin",
+      "source": "casbin",
+      "sourceAgent": "casbin",
+      "repo": "apache/casbin",
+      "stars": 20208,
+      "desc": "Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC.",
+      "url": "https://github.com/apache/casbin",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "casbin"
+      ],
+      "searchText": "casbin apache casbin: an authorization library that supports access control models like acl, rbac, abac. apache/casbin security casbin"
+    },
+    {
+      "name": "sa-token",
+      "source": "sa-token",
+      "sourceAgent": "sa-token",
+      "repo": "dromara/Sa-Token",
+      "stars": 18909,
+      "desc": "✨ 开源、免费、一站式 Java 权限认证框架，让鉴权变得简单、优雅！—— 登录认证、权限认证、分布式 Session 会话、微服务网关鉴权、SSO 单点登录、OAuth2.0 统一认证、jwt 集成、API Key 秘钥授权、API 参数签名",
+      "url": "https://github.com/dromara/Sa-Token",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "sa-token"
+      ],
+      "searchText": "sa-token ✨ 开源、免费、一站式 java 权限认证框架，让鉴权变得简单、优雅！—— 登录认证、权限认证、分布式 session 会话、微服务网关鉴权、sso 单点登录、oauth2.0 统一认证、jwt 集成、api key 秘钥授权、api 参数签名 dromara/sa-token security sa-token"
+    },
+    {
+      "name": "hydra",
+      "source": "hydra",
+      "sourceAgent": "hydra",
+      "repo": "ory/hydra",
+      "stars": 17359,
+      "desc": "Internet-scale OpenID Certified™ OpenID Connect and OAuth2.1 provider that integrates with your user management through headless APIs. Solve OIDC/OAuth2 user cases over night. Consume as a service on",
+      "url": "https://github.com/ory/hydra",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "hydra"
+      ],
+      "searchText": "hydra internet-scale openid certified™ openid connect and oauth2.1 provider that integrates with your user management through headless apis. solve oidc/oauth2 user cases over night. consume as a service on ory/hydra security hydra"
+    },
+    {
+      "name": "semgrep",
+      "source": "semgrep",
+      "sourceAgent": "semgrep",
+      "repo": "semgrep/semgrep",
+      "stars": 15685,
+      "desc": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.",
+      "url": "https://github.com/semgrep/semgrep",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "semgrep"
+      ],
+      "searchText": "semgrep lightweight static analysis for many languages. find bug variants with patterns that look like source code. semgrep/semgrep security semgrep"
+    },
+    {
+      "name": "static-analysis",
+      "source": "static-analysis",
+      "sourceAgent": "static-analysis",
+      "repo": "analysis-tools-dev/static-analysis",
+      "stars": 14653,
+      "desc": "⚙️ A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build tools, and more. The focus is on tools which improve code quality.",
+      "url": "https://github.com/analysis-tools-dev/static-analysis",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "static-analysis"
+      ],
+      "searchText": "static-analysis ⚙️ a curated list of static analysis (sast) tools and linters for all programming languages, config files, build tools, and more. the focus is on tools which improve code quality. analysis-tools-dev/static-analysis security static-analysis"
+    },
+    {
+      "name": "hacker101",
+      "source": "hacker101",
+      "sourceAgent": "hacker101",
+      "repo": "Hacker0x01/hacker101",
+      "stars": 14464,
+      "desc": "Source code for Hacker101.com - a free online web and mobile security class.",
+      "url": "https://github.com/Hacker0x01/hacker101",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "hacker101"
+      ],
+      "searchText": "hacker101 source code for hacker101.com - a free online web and mobile security class. hacker0x01/hacker101 security hacker101"
+    },
+    {
+      "name": "zitadel",
+      "source": "zitadel",
+      "sourceAgent": "zitadel",
+      "repo": "zitadel/zitadel",
+      "stars": 14217,
+      "desc": "ZITADEL - Identity infrastructure, simplified for you.",
+      "url": "https://github.com/zitadel/zitadel",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "zitadel"
+      ],
+      "searchText": "zitadel zitadel - identity infrastructure, simplified for you. zitadel/zitadel security zitadel"
+    },
+    {
+      "name": "fscan",
+      "source": "fscan",
+      "sourceAgent": "fscan",
+      "repo": "shadow1ng/fscan",
+      "stars": 14042,
+      "desc": "一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。(An intranet comprehensive scanning tool, enabling one-click automated, all-round vulnerability scanning)",
+      "url": "https://github.com/shadow1ng/fscan",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "fscan"
+      ],
+      "searchText": "fscan 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。(an intranet comprehensive scanning tool, enabling one-click automated, all-round vulnerability scanning) shadow1ng/fscan security fscan"
+    },
+    {
+      "name": "dvwa",
+      "source": "dvwa",
+      "sourceAgent": "dvwa",
+      "repo": "digininja/DVWA",
+      "stars": 13285,
+      "desc": "Damn Vulnerable Web Application (DVWA)",
+      "url": "https://github.com/digininja/DVWA",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "dvwa"
+      ],
+      "searchText": "dvwa damn vulnerable web application (dvwa) digininja/dvwa security dvwa"
+    },
+    {
+      "name": "nuclei-templates",
+      "source": "nuclei-templates",
+      "sourceAgent": "nuclei-templates",
+      "repo": "projectdiscovery/nuclei-templates",
+      "stars": 12557,
+      "desc": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
+      "url": "https://github.com/projectdiscovery/nuclei-templates",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "nuclei-templates"
+      ],
+      "searchText": "nuclei-templates community curated list of templates for the nuclei engine to find security vulnerabilities. projectdiscovery/nuclei-templates security nuclei-templates"
+    },
+    {
+      "name": "grype",
+      "source": "grype",
+      "sourceAgent": "grype",
+      "repo": "anchore/grype",
+      "stars": 12491,
+      "desc": "A vulnerability scanner for container images and filesystems",
+      "url": "https://github.com/anchore/grype",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "grype"
+      ],
+      "searchText": "grype a vulnerability scanner for container images and filesystems anchore/grype security grype"
+    },
+    {
+      "name": "404starlink",
+      "source": "404starlink",
+      "sourceAgent": "404starlink",
+      "repo": "knownsec/404StarLink",
+      "stars": 10769,
+      "desc": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
+      "url": "https://github.com/knownsec/404StarLink",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "404starlink"
+      ],
+      "searchText": "404starlink 404starlink - 推荐优质、有意义、有趣、坚持维护的安全开源项目 knownsec/404starlink security 404starlink"
+    },
+    {
+      "name": "deepaudit",
+      "source": "deepaudit",
+      "sourceAgent": "deepaudit",
+      "repo": "lintsinghua/DeepAudit",
+      "stars": 6507,
+      "desc": "DeepAudit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。国内首个开源的代码漏洞挖掘多智能体系统。小白一键部署运行，自主协作审计 + 自动化沙箱 PoC 验证。支持 Ollama 私有部署 ，一键生成报告。支持中转站。​让安全不再昂贵，让审计不再复杂。",
+      "url": "https://github.com/lintsinghua/DeepAudit",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "deepaudit"
+      ],
+      "searchText": "deepaudit deepaudit：人人拥有的 ai 黑客战队，让漏洞挖掘触手可及。国内首个开源的代码漏洞挖掘多智能体系统。小白一键部署运行，自主协作审计 + 自动化沙箱 poc 验证。支持 ollama 私有部署 ，一键生成报告。支持中转站。​让安全不再昂贵，让审计不再复杂。 lintsinghua/deepaudit security deepaudit"
+    },
+    {
       "name": "skills",
       "source": "general",
       "sourceAgent": "claude",
@@ -46,6 +370,60 @@
         "claude"
       ],
       "searchText": "skills trail of bits claude code skills for security research, vulnerability detection, and audit workflows trailofbits/skills pip install skills security claude"
+    },
+    {
+      "name": "ladon",
+      "source": "ladon",
+      "sourceAgent": "ladon",
+      "repo": "k8gege/Ladon",
+      "stars": 5302,
+      "desc": "Ladon大型内网渗透扫描器，PowerShell、Cobalt Strike插件、内存加载、无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。网络资产探测32种协议(ICMP\\NBT\\DNS\\MAC\\SMB\\WMI\\SSH\\HTTP\\HTTPS\\Exchan",
+      "url": "https://github.com/k8gege/Ladon",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "ladon"
+      ],
+      "searchText": "ladon ladon大型内网渗透扫描器，powershell、cobalt strike插件、内存加载、无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、高危漏洞检测、漏洞利用、密码读取以及一键getshell，支持批量a段/b段/c段以及跨网段扫描，支持url、主机、域名列表扫描等。网络资产探测32种协议(icmp\\nbt\\dns\\mac\\smb\\wmi\\ssh\\http\\https\\exchan k8gege/ladon security ladon"
+    },
+    {
+      "name": "terrascan",
+      "source": "terrascan",
+      "sourceAgent": "terrascan",
+      "repo": "tenable/terrascan",
+      "stars": 5209,
+      "desc": "Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure.",
+      "url": "https://github.com/tenable/terrascan",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "terrascan"
+      ],
+      "searchText": "terrascan detect compliance and security violations across infrastructure as code to mitigate risk before provisioning cloud native infrastructure. tenable/terrascan security terrascan"
+    },
+    {
+      "name": "webhackersweapons",
+      "source": "webhackersweapons",
+      "sourceAgent": "webhackersweapons",
+      "repo": "hahwul/WebHackersWeapons",
+      "stars": 4866,
+      "desc": "⚔️ Web Hacker's Weapons / A collection of cool tools used by Web hackers. Happy hacking , Happy bug-hunting",
+      "url": "https://github.com/hahwul/WebHackersWeapons",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "webhackersweapons"
+      ],
+      "searchText": "webhackersweapons ⚔️ web hacker's weapons / a collection of cool tools used by web hackers. happy hacking , happy bug-hunting hahwul/webhackersweapons security webhackersweapons"
     },
     {
       "name": "agent-skills",
@@ -66,6 +444,60 @@
         "copilot"
       ],
       "searchText": "agent-skills the secure, validated skill registry for professional ai coding agents. extend antigravity, claude code, cursor, copilot and more with absolute confidence. tech-leads-club/agent-skills npm i -g agent-skills security claude cursor copilot"
+    },
+    {
+      "name": "appinfoscanner",
+      "source": "appinfoscanner",
+      "sourceAgent": "appinfoscanner",
+      "repo": "kelvinBen/AppInfoScanner",
+      "stars": 3537,
+      "desc": "一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。",
+      "url": "https://github.com/kelvinBen/AppInfoScanner",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "appinfoscanner"
+      ],
+      "searchText": "appinfoscanner 一款适用于以hw行动/红队/渗透测试团队为场景的移动端(android、ios、web、h5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态web站点中关键的资产信息并提供基本的信息输出,如：title、domain、cdn、指纹信息、状态信息等。 kelvinben/appinfoscanner security appinfoscanner"
+    },
+    {
+      "name": "blackarch",
+      "source": "blackarch",
+      "sourceAgent": "blackarch",
+      "repo": "BlackArch/blackarch",
+      "stars": 3414,
+      "desc": "An ArchLinux based distribution for penetration testers and security researchers.",
+      "url": "https://github.com/BlackArch/blackarch",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "blackarch"
+      ],
+      "searchText": "blackarch an archlinux based distribution for penetration testers and security researchers. blackarch/blackarch security blackarch"
+    },
+    {
+      "name": "penetration-testing-tools",
+      "source": "penetration-testing-tools",
+      "sourceAgent": "penetration-testing-tools",
+      "repo": "mgeeky/Penetration-Testing-Tools",
+      "stars": 2964,
+      "desc": "A collection of more than 170+ tools, scripts, cheatsheets and other loots that I've developed over years for Red Teaming/Pentesting/IT Security audits purposes.",
+      "url": "https://github.com/mgeeky/Penetration-Testing-Tools",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "penetration-testing-tools"
+      ],
+      "searchText": "penetration-testing-tools a collection of more than 170+ tools, scripts, cheatsheets and other loots that i've developed over years for red teaming/pentesting/it security audits purposes. mgeeky/penetration-testing-tools security penetration-testing-tools"
     },
     {
       "name": "openclaw-security-practice-guide",
@@ -104,6 +536,24 @@
       "searchText": "deepcamera open-source ai camera skills platform, ai nvr & cctv surveillance. local vlm video analysis with qwen, deepseek, smolvlm, llava, yolo26. llm-powered agentic security camera agent — watches, understands, remembers & guards your home via tele sharpai/deepcamera npm i -g deepcamera security claude"
     },
     {
+      "name": "bearer",
+      "source": "bearer",
+      "sourceAgent": "bearer",
+      "repo": "Bearer/bearer",
+      "stars": 2690,
+      "desc": "Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks.",
+      "url": "https://github.com/Bearer/bearer",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "bearer"
+      ],
+      "searchText": "bearer code security scanning tool (sast) to discover, filter and prioritize security and privacy risks. bearer/bearer security bearer"
+    },
+    {
       "name": "ctf-skills",
       "source": "general",
       "sourceAgent": "other",
@@ -140,6 +590,60 @@
       "searchText": "claude-red claude-red is a curated library of offensive security skills designed for the claude skills system. each skill is a structured skill.md file that primes claude with expert-level methodology for a specific attack surface — from sqli to shellcode, edr evasion to exploit development. snailsploit/claude-red pip install claude-red security claude"
     },
     {
+      "name": "gohacktools",
+      "source": "gohacktools",
+      "sourceAgent": "gohacktools",
+      "repo": "dreddsa5dies/goHackTools",
+      "stars": 2182,
+      "desc": "Hacker tools on Go (Golang)",
+      "url": "https://github.com/dreddsa5dies/goHackTools",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "gohacktools"
+      ],
+      "searchText": "gohacktools hacker tools on go (golang) dreddsa5dies/gohacktools security gohacktools"
+    },
+    {
+      "name": "devsecops",
+      "source": "devsecops",
+      "sourceAgent": "devsecops",
+      "repo": "hahwul/DevSecOps",
+      "stars": 2132,
+      "desc": "♾️ Collection and Roadmap for everyone who wants DevSecOps. Hope your DevOps are more safe 😎",
+      "url": "https://github.com/hahwul/DevSecOps",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "devsecops"
+      ],
+      "searchText": "devsecops ♾️ collection and roadmap for everyone who wants devsecops. hope your devops are more safe 😎 hahwul/devsecops security devsecops"
+    },
+    {
+      "name": "ics-security-tools",
+      "source": "ics-security-tools",
+      "sourceAgent": "ics-security-tools",
+      "repo": "ITI/ICS-Security-Tools",
+      "stars": 1985,
+      "desc": "Tools, tips, tricks, and more for exploring ICS Security.",
+      "url": "https://github.com/ITI/ICS-Security-Tools",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "ics-security-tools"
+      ],
+      "searchText": "ics-security-tools tools, tips, tricks, and more for exploring ics security. iti/ics-security-tools security ics-security-tools"
+    },
+    {
       "name": "Claude-BugHunter",
       "source": "general",
       "sourceAgent": "claude",
@@ -158,6 +662,60 @@
       "searchText": "claude-bughunter a claude code skill bundle for bug hunting and external red-team work - 51 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 vulnerability classes, plus enterprise identity + infrastructure attack matrices. elementalsouls/claude-bughunter pip install claude-bughunter security claude"
     },
     {
+      "name": "dumpall",
+      "source": "dumpall",
+      "sourceAgent": "dumpall",
+      "repo": "0xHJK/dumpall",
+      "stars": 1578,
+      "desc": "一款信息泄漏利用工具，适用于.git/.svn/.DS_Store泄漏和目录列出",
+      "url": "https://github.com/0xHJK/dumpall",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "dumpall"
+      ],
+      "searchText": "dumpall 一款信息泄漏利用工具，适用于.git/.svn/.ds_store泄漏和目录列出 0xhjk/dumpall security dumpall"
+    },
+    {
+      "name": "atscan",
+      "source": "atscan",
+      "sourceAgent": "atscan",
+      "repo": "AlisamTechnology/ATSCAN",
+      "stars": 1577,
+      "desc": "Advanced dork Search & Mass Exploit Scanner",
+      "url": "https://github.com/AlisamTechnology/ATSCAN",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "atscan"
+      ],
+      "searchText": "atscan advanced dork search & mass exploit scanner alisamtechnology/atscan security atscan"
+    },
+    {
+      "name": "w5",
+      "source": "w5",
+      "sourceAgent": "w5",
+      "repo": "w5teams/w5",
+      "stars": 1545,
+      "desc": "Security Orchestration, Automation and Response (SOAR) Platform. 安全编排与自动化响应平台，无需编写代码的安全自动化，使用 SOAR 可以让团队工作更加高效",
+      "url": "https://github.com/w5teams/w5",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "w5"
+      ],
+      "searchText": "w5 security orchestration, automation and response (soar) platform. 安全编排与自动化响应平台，无需编写代码的安全自动化，使用 soar 可以让团队工作更加高效 w5teams/w5 security w5"
+    },
+    {
       "name": "automotive-skills-suite",
       "source": "general",
       "sourceAgent": "multi",
@@ -174,6 +732,60 @@
         "claude"
       ],
       "searchText": "automotive-skills-suite 100+ installable claude skills covering engineering areas such as, iso 26262 functional safety, iso/sae 21434 cybersecurity, iso 21448 sotif, aiag-vda quality (apqp/ppap/fmea), automotive spice, and continuous improvement tools — every builder paired with a confirmation reviewer. jherrodthomas/automotive-skills-suite git clone https://github.com/jherrodthomas/automotive-skills-suite.git security claude"
+    },
+    {
+      "name": "trivy-action",
+      "source": "trivy-action",
+      "sourceAgent": "trivy-action",
+      "repo": "aquasecurity/trivy-action",
+      "stars": 1359,
+      "desc": "Runs Trivy as GitHub action to scan your Docker container image for vulnerabilities",
+      "url": "https://github.com/aquasecurity/trivy-action",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "trivy-action"
+      ],
+      "searchText": "trivy-action runs trivy as github action to scan your docker container image for vulnerabilities aquasecurity/trivy-action security trivy-action"
+    },
+    {
+      "name": "golang-tls",
+      "source": "golang-tls",
+      "sourceAgent": "golang-tls",
+      "repo": "denji/golang-tls",
+      "stars": 1329,
+      "desc": "Simple Golang HTTPS/TLS Examples",
+      "url": "https://github.com/denji/golang-tls",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "golang-tls"
+      ],
+      "searchText": "golang-tls simple golang https/tls examples denji/golang-tls security golang-tls"
+    },
+    {
+      "name": "ios",
+      "source": "ios",
+      "sourceAgent": "ios",
+      "repo": "ansjdnakjdnajkd/iOS",
+      "stars": 1272,
+      "desc": "Most usable tools for iOS penetration testing",
+      "url": "https://github.com/ansjdnakjdnajkd/iOS",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "tools",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "ios"
+      ],
+      "searchText": "ios most usable tools for ios penetration testing ansjdnakjdnajkd/ios security ios"
     },
     {
       "name": "clawsec",

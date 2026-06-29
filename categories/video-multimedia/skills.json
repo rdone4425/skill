@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "functionCategory": "video-multimedia",
+    "topCategoryId": "video-multimedia",
+    "subCategoryId": "video-multimedia",
+    "categoryPath": "video-multimedia",
+    "count": 1,
+    "sourceData": "categories"
+  },
+  "skills": [
+    {
+      "name": "astri",
+      "source": "astri",
+      "sourceAgent": "astri",
+      "repo": "astros3x/Astri",
+      "stars": 117,
+      "desc": "Astri is a multitool written in python, it contains tools with different applications and is an excellent resource to find reliable sites of different types.",
+      "url": "https://github.com/astros3x/Astri",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video",
+      "subCategoryId": "multimedia",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "astri"
+      ],
+      "searchText": "astri astri is a multitool written in python, it contains tools with different applications and is an excellent resource to find reliable sites of different types. astros3x/astri video-multimedia astri"
+    }
+  ]
+}

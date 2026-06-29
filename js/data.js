@@ -20,6 +20,12 @@
     general: { groupId: 'general', subcategoryId: 'general' },
     security: { groupId: 'security', subcategoryId: 'general' },
     'testing-qa': { groupId: 'testing', subcategoryId: 'qa' },
+    'video-multimedia': { groupId: 'media-creation', subcategoryId: 'video' },
+    'game-dev': { groupId: 'media-creation', subcategoryId: 'game' },
+    'finance-crypto': { groupId: 'business', subcategoryId: 'finance' },
+    education: { groupId: 'business', subcategoryId: 'education' },
+    'health-medical': { groupId: 'lifestyle', subcategoryId: 'health' },
+    'social-media': { groupId: 'business', subcategoryId: 'social' },
   };
 
   let indexPromise = null;
