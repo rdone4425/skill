@@ -9,6 +9,28 @@
   },
   "skills": [
     {
+      "name": "ollama",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "ollama/ollama",
+      "stars": 100000,
+      "desc": "100+ models, simple CLI, GPU support. Local development, privacy-first.",
+      "url": "https://github.com/ollama/ollama",
+      "install": "curl -fsSL https://ollama.com/install.sh | sh",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "ollama 100+ models, simple cli, gpu support. local development, privacy-first. ollama/ollama curl -fssl https://ollama.com/install.sh | sh devops-deploy claude codex cursor hermes generic"
+    },
+    {
       "name": "/release",
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
@@ -79,6 +101,27 @@
         "claude-code"
       ],
       "searchText": "aws mcp server features multiple python environment setup options with detailed code style guidelines, comprehensive error handling recommendations, and security considerations for aws cli interactions. hesreallyhim/awesome-claude-code devops-deploy claude-code"
+    },
+    {
+      "name": "vllm",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "vllm-project/vllm",
+      "stars": 40000,
+      "desc": "High-throughput serving with PagedAttention. Production local inference at scale.",
+      "url": "https://github.com/vllm-project/vllm",
+      "install": "pip install vllm",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "vllm high-throughput serving with pagedattention. production local inference at scale. vllm-project/vllm pip install vllm devops-deploy claude cursor hermes generic"
     },
     {
       "name": "taste-skill",
@@ -1185,6 +1228,28 @@
       "searchText": "unleash open-source feature management platform unleash/unleash devops-deploy unleash"
     },
     {
+      "name": "e2b-sandbox",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "e2b-dev/e2b",
+      "stars": 12767,
+      "desc": "Sandboxed code execution, 150ms boot. Safe code execution inside agents.",
+      "url": "https://github.com/e2b-dev/e2b",
+      "install": "pip install e2b",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "e2b-sandbox sandboxed code execution, 150ms boot. safe code execution inside agents. e2b-dev/e2b pip install e2b devops-deploy claude codex cursor hermes generic"
+    },
+    {
       "name": "distrobox",
       "source": "distrobox",
       "sourceAgent": "distrobox",
@@ -1624,6 +1689,24 @@
       "searchText": "agent-toolkit-for-aws official aws-supported mcp servers, skills, and plugins to help ai agents build on aws aws/agent-toolkit-for-aws $skill-installer agent-toolkit-for-aws devops-deploy claude"
     },
     {
+      "name": "n8n-as-code",
+      "source": "general",
+      "sourceAgent": "other",
+      "repo": "EtienneLescot/n8n-as-code",
+      "stars": 1411,
+      "desc": "Give your AI agent n8n superpowers. 537 nodes with full schemas, 7,700+ templates, Git-like sync, and TypeScript workflows.",
+      "url": "https://github.com/EtienneLescot/n8n-as-code",
+      "install": "npm i -g n8n-as-code",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "automation",
+      "subCategoryId": "workflow",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "other"
+      ],
+      "searchText": "n8n-as-code give your ai agent n8n superpowers. 537 nodes with full schemas, 7,700+ templates, git-like sync, and typescript workflows. etiennelescot/n8n-as-code npm i -g n8n-as-code devops-deploy other"
+    },
+    {
       "name": "chops",
       "source": "general",
       "sourceAgent": "multi",
@@ -1660,24 +1743,6 @@
         "kubevpn"
       ],
       "searchText": "kubevpn kubevpn offers a cloud native dev environment that connects to kubernetes cluster network. kubenetworks/kubevpn devops-deploy kubevpn"
-    },
-    {
-      "name": "n8n-as-code",
-      "source": "general",
-      "sourceAgent": "other",
-      "repo": "EtienneLescot/n8n-as-code",
-      "stars": 1342,
-      "desc": "Give your AI agent n8n superpowers. 537 nodes with full schemas, 7,700+ templates, Git-like sync, and TypeScript workflows.",
-      "url": "https://github.com/EtienneLescot/n8n-as-code",
-      "install": "npm i -g n8n-as-code",
-      "functionCategory": "devops-deploy",
-      "topCategoryId": "automation",
-      "subCategoryId": "workflow",
-      "categoryPath": "devops-deploy",
-      "supportedAgents": [
-        "other"
-      ],
-      "searchText": "n8n-as-code give your ai agent n8n superpowers. 537 nodes with full schemas, 7,700+ templates, git-like sync, and typescript workflows. etiennelescot/n8n-as-code npm i -g n8n-as-code devops-deploy other"
     },
     {
       "name": "houdini",
@@ -1945,71 +2010,6 @@
         "copilot"
       ],
       "searchText": "qaskills qa skills directory qa skills is a curated directory of testing-specific skills for ai coding agents (claude code, cursor, copilot, etc.). pramoddutta/qaskills git clone https://github.com/pramoddutta/qaskills.git  # browse the awesome list devops-deploy claude cursor copilot"
-    },
-    {
-      "name": "e2b-sandbox",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "e2b-dev/e2b",
-      "stars": 10000,
-      "desc": "Sandboxed code execution, 150ms boot. Safe code execution inside agents.",
-      "url": "https://github.com/e2b-dev/e2b",
-      "install": "pip install e2b",
-      "functionCategory": "devops-deploy",
-      "topCategoryId": "devops",
-      "subCategoryId": "deploy",
-      "categoryPath": "devops-deploy",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "hermes",
-        "generic"
-      ],
-      "searchText": "e2b-sandbox sandboxed code execution, 150ms boot. safe code execution inside agents. human: e2b-dev/e2b pip install e2b devops-deploy claude cursor codex hermes generic"
-    },
-    {
-      "name": "ollama",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "ollama/ollama",
-      "stars": 100000,
-      "desc": "100+ models, simple CLI, GPU support. Local development, privacy-first.",
-      "url": "https://github.com/ollama/ollama",
-      "install": "curl -fsSL https://ollama.com/install.sh | sh",
-      "functionCategory": "devops-deploy",
-      "topCategoryId": "devops",
-      "subCategoryId": "deploy",
-      "categoryPath": "devops-deploy",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "hermes",
-        "generic"
-      ],
-      "searchText": "ollama 100+ models, simple cli, gpu support. local development, privacy-first. human: ollama/ollama curl -fssl https://ollama.com/install.sh | sh devops-deploy claude cursor codex hermes generic"
-    },
-    {
-      "name": "vllm",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "vllm-project/vllm",
-      "stars": 40000,
-      "desc": "High-throughput serving with PagedAttention. Production local inference at scale.",
-      "url": "https://github.com/vllm-project/vllm",
-      "install": "pip install vllm",
-      "functionCategory": "devops-deploy",
-      "topCategoryId": "devops",
-      "subCategoryId": "deploy",
-      "categoryPath": "devops-deploy",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "hermes",
-        "generic"
-      ],
-      "searchText": "vllm high-throughput serving with pagedattention. production local inference at scale. human: vllm-project/vllm pip install vllm devops-deploy claude cursor hermes generic"
     }
   ]
 }

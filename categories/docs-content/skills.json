@@ -2301,6 +2301,27 @@
       "searchText": "notebooklm-mcp mcp server for notebooklm - let your ai agents research documents from notebooklm pleaseprompto/notebooklm-mcp $skill-installer notebooklm-mcp docs-content claude"
     },
     {
+      "name": "obsidian-second-brain",
+      "source": "tools",
+      "sourceAgent": "multi",
+      "repo": "eugeniughelbur/obsidian-second-brain",
+      "stars": 2799,
+      "desc": "Cross-CLI skill for Obsidian: turn your vault into a living AI-first second brain across Claude Code, Codex, Gemini, and OpenCode. 43 commands - now with /obsidian-architect to document your codebase, key-less web research, Google Calendar,",
+      "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
+      "install": "git clone https://github.com/eugeniughelbur/obsidian-second-brain.git",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "opencode",
+        "gemini"
+      ],
+      "searchText": "obsidian-second-brain cross-cli skill for obsidian: turn your vault into a living ai-first second brain across claude code, codex, gemini, and opencode. 43 commands - now with /obsidian-architect to document your codebase, key-less web research, google calendar, eugeniughelbur/obsidian-second-brain git clone https://github.com/eugeniughelbur/obsidian-second-brain.git docs-content claude codex opencode gemini"
+    },
+    {
       "name": "scriberr",
       "source": "general",
       "sourceAgent": "general",
@@ -2323,7 +2344,7 @@
       "source": "markdownify-mcp",
       "sourceAgent": "markdownify-mcp",
       "repo": "zcaceres/markdownify-mcp",
-      "stars": 2764,
+      "stars": 2765,
       "desc": "A Model Context Protocol server for converting almost anything to Markdown",
       "url": "https://github.com/zcaceres/markdownify-mcp",
       "install": "",
@@ -2353,27 +2374,6 @@
         "cybersources"
       ],
       "searchText": "cybersources a curated list of cybersecurity tools and resources. bst04/cybersources docs-content cybersources"
-    },
-    {
-      "name": "obsidian-second-brain",
-      "source": "tools",
-      "sourceAgent": "multi",
-      "repo": "eugeniughelbur/obsidian-second-brain",
-      "stars": 2309,
-      "desc": "Cross-CLI skill for Obsidian: turn your vault into a living AI-first second brain across Claude Code, Codex, Gemini, and OpenCode. 43 commands - now with /obsidian-architect to document your codebase, key-less web research, Google Calendar,",
-      "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
-      "install": "git clone https://github.com/eugeniughelbur/obsidian-second-brain.git",
-      "functionCategory": "docs-content",
-      "topCategoryId": "docs",
-      "subCategoryId": "libraries",
-      "categoryPath": "docs-content",
-      "supportedAgents": [
-        "claude",
-        "codex",
-        "opencode",
-        "gemini"
-      ],
-      "searchText": "obsidian-second-brain cross-cli skill for obsidian: turn your vault into a living ai-first second brain across claude code, codex, gemini, and opencode. 43 commands - now with /obsidian-architect to document your codebase, key-less web research, google calendar, eugeniughelbur/obsidian-second-brain git clone https://github.com/eugeniughelbur/obsidian-second-brain.git docs-content claude codex opencode gemini"
     },
     {
       "name": "DevDocs",
@@ -2526,7 +2526,7 @@
       "source": "general",
       "sourceAgent": "cursor",
       "repo": "instructa/ai-prompts",
-      "stars": 1048,
+      "stars": 1054,
       "desc": "Curated AI Prompts for Cursor Rules, Cline, Windsurf and Github Copilot",
       "url": "https://github.com/instructa/ai-prompts",
       "install": "npm i -g ai-prompts",
@@ -2636,7 +2636,7 @@
       "source": "general",
       "sourceAgent": "claude",
       "repo": "tfriedel/claude-office-skills",
-      "stars": 727,
+      "stars": 770,
       "desc": "Office document creation and editing skills for Claude Code - PPTX, DOCX, XLSX, and PDF workflows with automation support",
       "url": "https://github.com/tfriedel/claude-office-skills",
       "install": "pip install claude-office-skills",
@@ -2848,6 +2848,24 @@
       "searchText": "academic-pptx-skill a claude skill for creating academic presentations (conference talks, seminar slides, thesis defenses, grant briefings). enforces action titles, structured argument, exhibit discipline, citation standards, and communication-first design. works alongside anthropic's built-in pptx skill. gabberflast/academic-pptx-skill git clone https://github.com/gabberflast/academic-pptx-skill.git docs-content claude"
     },
     {
+      "name": "codex-academic-paper-skills",
+      "source": "official",
+      "sourceAgent": "codex",
+      "repo": "AAASS554/codex-academic-paper-skills",
+      "stars": 505,
+      "desc": "Codex academic paper skills for software engineering thesis planning and revision",
+      "url": "https://github.com/AAASS554/codex-academic-paper-skills",
+      "install": "pip install codex-academic-paper-skills",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "codex-academic-paper-skills codex academic paper skills for software engineering thesis planning and revision aaass554/codex-academic-paper-skills pip install codex-academic-paper-skills docs-content codex"
+    },
+    {
       "name": "codex-claude-academic-skills",
       "source": "general",
       "sourceAgent": "claude",
@@ -2865,24 +2883,6 @@
         "codex"
       ],
       "searchText": "codex-claude-academic-skills 本仓库包含三个面向学术科研人员的skills，覆盖从文献阅读、论文写作到科学计算的完整研究工作流。office-academic-skill 负责论文阅读报告与学术 ppt/word 文档生成；research-writing-skill 提供论文写作、润色与审稿回复辅助；scientific-toolkit-skill 整合 matlab/python 科学计算与期刊级图表生成。三个 skill 专为中文科研用户设计，可在 claude code 和 codex 中一键调用。 zlanqing/codex-claude-academic-skills pip install codex-claude-academic-skills docs-content claude codex"
-    },
-    {
-      "name": "codex-academic-paper-skills",
-      "source": "official",
-      "sourceAgent": "codex",
-      "repo": "AAASS554/codex-academic-paper-skills",
-      "stars": 488,
-      "desc": "Codex academic paper skills for software engineering thesis planning and revision",
-      "url": "https://github.com/AAASS554/codex-academic-paper-skills",
-      "install": "pip install codex-academic-paper-skills",
-      "functionCategory": "docs-content",
-      "topCategoryId": "docs",
-      "subCategoryId": "libraries",
-      "categoryPath": "docs-content",
-      "supportedAgents": [
-        "codex"
-      ],
-      "searchText": "codex-academic-paper-skills codex academic paper skills for software engineering thesis planning and revision aaass554/codex-academic-paper-skills pip install codex-academic-paper-skills docs-content codex"
     },
     {
       "name": "Claude_skills_zh-CN",

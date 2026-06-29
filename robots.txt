@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rdone4425.github.io/skill/sitemap.xml
+Sitemap: https://skill.442595.xyz/sitemap.xml
 
 # Block non-public paths
 Disallow: /api/

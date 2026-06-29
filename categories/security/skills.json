@@ -4,7 +4,7 @@
     "topCategoryId": "security",
     "subCategoryId": "general",
     "categoryPath": "security",
-    "count": 144,
+    "count": 143,
     "sourceData": "categories"
   },
   "skills": [
@@ -1276,6 +1276,27 @@
       "searchText": "terrascan detect compliance and security violations across infrastructure as code to mitigate risk before provisioning cloud native infrastructure. tenable/terrascan security terrascan"
     },
     {
+      "name": "guardrails-ai",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "guardrails-ai/guardrails",
+      "stars": 5000,
+      "desc": "Validators on input/output, retry logic. Structured output validation.",
+      "url": "https://github.com/guardrails-ai/guardrails",
+      "install": "pip install guardrails-ai",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "guardrails-ai validators on input/output, retry logic. structured output validation. guardrails-ai/guardrails pip install guardrails-ai security claude cursor hermes generic"
+    },
+    {
       "name": "webhackersweapons",
       "source": "webhackersweapons",
       "sourceAgent": "webhackersweapons",
@@ -1312,6 +1333,26 @@
         "copilot"
       ],
       "searchText": "agent-skills the secure, validated skill registry for professional ai coding agents. extend antigravity, claude code, cursor, copilot and more with absolute confidence. tech-leads-club/agent-skills npm i -g agent-skills security claude cursor copilot"
+    },
+    {
+      "name": "nemo-guardrails",
+      "source": "llmsecurity",
+      "sourceAgent": "generic",
+      "repo": "nvidia/nemo-guardrails",
+      "stars": 4000,
+      "desc": "Conversation rails, topic control. NVIDIA stack, conversation safety.",
+      "url": "https://github.com/NVIDIA/NeMo-Guardrails",
+      "install": "pip install nemoguardrails",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "defense",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "nemo-guardrails nemo guardrails nvidia/nemo-guardrails security generic"
     },
     {
       "name": "appinfoscanner",
@@ -1366,6 +1407,27 @@
         "claude"
       ],
       "searchText": "anything-analyzer 全能协议分析工具：浏览器抓包+mitm代理+指纹伪装+ai分析+mcp server mouseww/anything-analyzer $skill-installer anything-analyzer security claude"
+    },
+    {
+      "name": "llm-guard",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "laiyer-ai/llm-guard",
+      "stars": 3000,
+      "desc": "Prompt sanitization, PII detection. Enterprise compliance.",
+      "url": "https://github.com/laiyer-ai/llm-guard",
+      "install": "pip install llm-guard",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "llm-guard prompt sanitization, pii detection. enterprise compliance. laiyer-ai/llm-guard pip install llm-guard security claude cursor hermes generic"
     },
     {
       "name": "penetration-testing-tools",
@@ -2419,24 +2481,6 @@
       "searchText": "mcp-sploit mcp-sploit prasanna-27eng/mcp-sploit security generic"
     },
     {
-      "name": "nemo-guardrails",
-      "source": "llmsecurity",
-      "sourceAgent": "generic",
-      "repo": "nvidia/nemo-guardrails",
-      "stars": 0,
-      "desc": "NeMo Guardrails",
-      "url": "https://github.com/NVIDIA/NeMo-Guardrails",
-      "install": "",
-      "functionCategory": "security",
-      "topCategoryId": "security",
-      "subCategoryId": "defense",
-      "categoryPath": "security",
-      "supportedAgents": [
-        "generic"
-      ],
-      "searchText": "nemo-guardrails nemo guardrails nvidia/nemo-guardrails security generic"
-    },
-    {
       "name": "nemoclaw",
       "source": "llmsecurity",
       "sourceAgent": "generic",
@@ -2705,68 +2749,6 @@
         "generic"
       ],
       "searchText": "www-project-agent-memory-guard agent memory guard owasp/www-project-agent-memory-guard security generic"
-    },
-    {
-      "name": "guardrails-ai",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "guardrails-ai/guardrails",
-      "stars": 5000,
-      "desc": "Validators on input/output, retry logic. Structured output validation.",
-      "url": "https://github.com/guardrails-ai/guardrails",
-      "install": "pip install guardrails-ai",
-      "functionCategory": "security",
-      "topCategoryId": "security",
-      "subCategoryId": "general",
-      "categoryPath": "security",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "hermes",
-        "generic"
-      ],
-      "searchText": "guardrails-ai validators on input/output, retry logic. structured output validation. human: guardrails-ai/guardrails pip install guardrails-ai security claude cursor hermes generic"
-    },
-    {
-      "name": "nemo-guardrails",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "NVIDIA/NeMo-Guardrails",
-      "stars": 4000,
-      "desc": "Conversation rails, topic control. NVIDIA stack, conversation safety.",
-      "url": "https://github.com/NVIDIA/NeMo-Guardrails",
-      "install": "pip install nemoguardrails",
-      "functionCategory": "security",
-      "topCategoryId": "security",
-      "subCategoryId": "general",
-      "categoryPath": "security",
-      "supportedAgents": [
-        "claude",
-        "hermes",
-        "generic"
-      ],
-      "searchText": "nemo-guardrails conversation rails, topic control. nvidia stack, conversation safety. human: nvidia/nemo-guardrails pip install nemoguardrails security claude hermes generic"
-    },
-    {
-      "name": "llm-guard",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "laiyer-ai/llm-guard",
-      "stars": 3000,
-      "desc": "Prompt sanitization, PII detection. Enterprise compliance.",
-      "url": "https://github.com/laiyer-ai/llm-guard",
-      "install": "pip install llm-guard",
-      "functionCategory": "security",
-      "topCategoryId": "security",
-      "subCategoryId": "general",
-      "categoryPath": "security",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "hermes",
-        "generic"
-      ],
-      "searchText": "llm-guard prompt sanitization, pii detection. enterprise compliance. human: laiyer-ai/llm-guard pip install llm-guard security claude cursor hermes generic"
     }
   ]
 }

@@ -81,6 +81,16 @@
     lifestyle: { zh: '生活方式', en: 'Lifestyle' },
     health: { zh: '健康', en: 'Health' },
     'health-medical': { zh: '健康医疗', en: 'Health & Medical' },
+    'agent-framework': { zh: 'Agent 框架', en: 'Agent Framework' },
+    'multi-modal': { zh: '多模态', en: 'Multi-modal' },
+    'video-gen': { zh: '视频生成', en: 'Video Generation' },
+    'browser-automation': { zh: '浏览器自动化', en: 'Browser Automation' },
+    'mcp-server': { zh: 'MCP Server', en: 'MCP Server' },
+    'llm': { zh: 'LLM 推理', en: 'LLM Inference' },
+    'audio-speech': { zh: '音频语音', en: 'Audio & Speech' },
+    'rag': { zh: 'RAG 检索', en: 'RAG' },
+    'image-gen': { zh: '图像生成', en: 'Image Generation' },
+    'media-creation': { zh: '媒体创作', en: 'Media Creation' },
   };
   const AGENT_META = {
     codex: { icon: 'C', iconUrl: 'https://www.google.com/s2/favicons?domain=openai.com&sz=64', color: '#6366f1', order: 1, zh: 'Codex', en: 'Codex' },

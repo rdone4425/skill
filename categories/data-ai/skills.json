@@ -247,7 +247,7 @@
       "source": "general",
       "sourceAgent": "general",
       "repo": "browser-use/browser-use",
-      "stars": 101280,
+      "stars": 101296,
       "desc": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
       "url": "https://github.com/browser-use/browser-use",
       "install": "pip install browser-use",
@@ -553,7 +553,7 @@
       "source": "learn-claude-code",
       "sourceAgent": "learn-claude-code",
       "repo": "shareAI-lab/learn-claude-code",
-      "stars": 68814,
+      "stars": 68941,
       "desc": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
       "url": "https://github.com/shareAI-lab/learn-claude-code",
       "install": "",
@@ -680,7 +680,7 @@
       "source": "general",
       "sourceAgent": "general",
       "repo": "mem0ai/mem0",
-      "stars": 59667,
+      "stars": 59674,
       "desc": "Universal memory layer for AI Agents",
       "url": "https://github.com/mem0ai/mem0",
       "install": "pip install mem0",
@@ -698,7 +698,7 @@
       "source": "general",
       "sourceAgent": "general",
       "repo": "pathwaycom/llm-app",
-      "stars": 59194,
+      "stars": 59190,
       "desc": "Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Dri",
       "url": "https://github.com/pathwaycom/llm-app",
       "install": "pip install llm-app",
@@ -790,7 +790,7 @@
       "source": "general",
       "sourceAgent": "general",
       "repo": "headroomlabs-ai/headroom",
-      "stars": 53237,
+      "stars": 53452,
       "desc": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, self-hosted.",
       "url": "https://github.com/headroomlabs-ai/headroom",
       "install": "pip install headroom-ai",
@@ -1130,6 +1130,27 @@
       "searchText": "agent-reach give your ai agent eyes to see the entire internet. read & search twitter, reddit, youtube, github, bilibili, xiaohongshu — one cli, zero api fees. panniantong/agent-reach data-ai agent-reach"
     },
     {
+      "name": "llamaindex",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "run-llama/llama_index",
+      "stars": 37000,
+      "desc": "Advanced RAG, structured queries, agents. Complex document understanding.",
+      "url": "https://github.com/run-llama/llama_index",
+      "install": "pip install llama-index",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "llamaindex advanced rag, structured queries, agents. complex document understanding. run-llama/llama_index pip install llama-index data-ai claude cursor hermes generic"
+    },
+    {
       "name": "AgentGPT",
       "source": "claude",
       "sourceAgent": "claude",
@@ -1238,6 +1259,27 @@
       "searchText": "academic-research-skills academic research skills for claude code: research → write → review → revise → finalize imbad0202/academic-research-skills git clone https://github.com/imbad0202/academic-research-skills.git data-ai claude"
     },
     {
+      "name": "agno",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "agno-agi/agno",
+      "stars": 35000,
+      "desc": "Multimodal agents with runtime + control plane. Multimodal tasks, agent observability.",
+      "url": "https://github.com/agno-agi/agno",
+      "install": "pip install agno",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "agno multimodal agents with runtime + control plane. multimodal tasks, agent observability. agno-agi/agno pip install agno data-ai claude cursor hermes generic"
+    },
+    {
       "name": "ppt-master",
       "source": "ppt-master",
       "sourceAgent": "ppt-master",
@@ -1296,7 +1338,7 @@
       "source": "openclaude",
       "sourceAgent": "openclaude",
       "repo": "Gitlawb/openclaude",
-      "stars": 29498,
+      "stars": 29514,
       "desc": "runs anywhere. uses anything",
       "url": "https://github.com/Gitlawb/openclaude",
       "install": "",
@@ -5516,6 +5558,27 @@
       "searchText": "awesome-free-chatgpt--chatgpt 🆓免费的 chatgpt 镜像网站列表，持续更新。list of free chatgpt mirror sites, continuously updated. lilittlecat/awesome-free-chatgpt pip install awesome-free-chatgpt data-ai general"
     },
     {
+      "name": "dspy",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "stanfordnlp/dspy",
+      "stars": 21000,
+      "desc": "Programmatic LM optimization, signatures. Prompt optimization, research.",
+      "url": "https://github.com/stanfordnlp/dspy",
+      "install": "pip install dspy-ai",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "dspy programmatic lm optimization, signatures. prompt optimization, research. stanfordnlp/dspy pip install dspy-ai data-ai claude cursor hermes generic"
+    },
+    {
       "name": "smolagents",
       "source": "claude",
       "sourceAgent": "claude",
@@ -5552,6 +5615,27 @@
       "searchText": "pydantic-ai agent framework for building production-grade llm applications with pydantic pydantic/pydantic-ai $skill-installer pydantic-ai data-ai claude"
     },
     {
+      "name": "haystack",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "deepset-ai/haystack",
+      "stars": 18000,
+      "desc": "Production NLP pipelines, modular. Enterprise search, QA systems.",
+      "url": "https://github.com/deepset-ai/haystack",
+      "install": "pip install haystack-ai",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "haystack production nlp pipelines, modular. enterprise search, qa systems. deepset-ai/haystack pip install haystack-ai data-ai claude cursor hermes generic"
+    },
+    {
       "name": "openfang",
       "source": "general",
       "sourceAgent": "general",
@@ -5574,7 +5658,7 @@
       "source": "claude",
       "sourceAgent": "multi",
       "repo": "muratcankoylan/Agent-Skills-for-Context-Engineering",
-      "stars": 16791,
+      "stars": 16799,
       "desc": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
       "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
       "install": "/plugin marketplace add muratcankoylan/Agent-Skills-for-Context-Engineering",
@@ -5614,7 +5698,7 @@
       "source": "general",
       "sourceAgent": "general",
       "repo": "MemoriLabs/Memori",
-      "stars": 15480,
+      "stars": 15487,
       "desc": "Agent-native memory infrastructure. LLM-agnostic layer that turns agent execution and context into retrievable memory.",
       "url": "https://github.com/MemoriLabs/Memori",
       "install": "",
@@ -5888,7 +5972,7 @@
       "source": "general",
       "sourceAgent": "other",
       "repo": "MemTensor/MemOS",
-      "stars": 10022,
+      "stars": 10028,
       "desc": "Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings",
       "url": "https://github.com/MemTensor/MemOS",
       "install": "npm i -g MemOS",
@@ -5924,7 +6008,7 @@
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "VoltAgent/voltagent",
-      "stars": 9842,
+      "stars": 9843,
       "desc": "AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework",
       "url": "https://github.com/VoltAgent/voltagent",
       "install": "$skill-installer voltagent",
@@ -6203,6 +6287,26 @@
         "aci"
       ],
       "searchText": "aci aci.dev is the open source tool-calling platform that hooks up 600+ tools into any agentic ide or custom ai agent through direct function calling or a unified mcp server. the birthplace of vibeops. aipotheosis-labs/aci data-ai aci"
+    },
+    {
+      "name": "zep-memory",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "getzep/zep",
+      "stars": 4707,
+      "desc": "Temporal knowledge graph, entity tracking. CRM-like memory, relationship tracking.",
+      "url": "https://github.com/getzep/zep",
+      "install": "pip install zep-python",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "zep-memory temporal knowledge graph, entity tracking. crm-like memory, relationship tracking. getzep/zep pip install zep-python data-ai claude hermes generic"
     },
     {
       "name": "Acontext",
@@ -6795,7 +6899,7 @@
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "Dataojitori/nocturne_memory",
-      "stars": 1236,
+      "stars": 1237,
       "desc": "A lightweight, rollbackable, visual Long-Term Memory Server for MCP Agents",
       "url": "https://github.com/Dataojitori/nocturne_memory",
       "install": "$skill-installer nocturne_memory",
@@ -7862,110 +7966,6 @@
         "openclaw"
       ],
       "searchText": "obsidian-openclaw-memory openclaw skill: use obsidian + openclaw as an ai memory system with knowledge graph samin12/obsidian-openclaw-memory git clone https://github.com/samin12/obsidian-openclaw-memory.git data-ai openclaw"
-    },
-    {
-      "name": "agno",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "agno-agi/agno",
-      "stars": 35000,
-      "desc": "Multimodal agents with runtime + control plane. Multimodal tasks, agent observability.",
-      "url": "https://github.com/agno-agi/agno",
-      "install": "pip install agno",
-      "functionCategory": "data-ai",
-      "topCategoryId": "data",
-      "subCategoryId": "ai",
-      "categoryPath": "data-ai",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "hermes",
-        "generic"
-      ],
-      "searchText": "agno multimodal agents with runtime + control plane. multimodal tasks, agent observability. human: agno-agi/agno pip install agno data-ai claude cursor hermes generic"
-    },
-    {
-      "name": "zep-memory",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "getzep/zep",
-      "stars": 7000,
-      "desc": "Temporal knowledge graph, entity tracking. CRM-like memory, relationship tracking.",
-      "url": "https://github.com/getzep/zep",
-      "install": "pip install zep-python",
-      "functionCategory": "data-ai",
-      "topCategoryId": "data",
-      "subCategoryId": "ai",
-      "categoryPath": "data-ai",
-      "supportedAgents": [
-        "claude",
-        "hermes",
-        "generic"
-      ],
-      "searchText": "zep-memory temporal knowledge graph, entity tracking. crm-like memory, relationship tracking. human: getzep/zep pip install zep-python data-ai claude hermes generic"
-    },
-    {
-      "name": "llamaindex",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "run-llama/llama_index",
-      "stars": 37000,
-      "desc": "Advanced RAG, structured queries, agents. Complex document understanding.",
-      "url": "https://github.com/run-llama/llama_index",
-      "install": "pip install llama-index",
-      "functionCategory": "data-ai",
-      "topCategoryId": "data",
-      "subCategoryId": "ai",
-      "categoryPath": "data-ai",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "hermes",
-        "generic"
-      ],
-      "searchText": "llamaindex advanced rag, structured queries, agents. complex document understanding. human: run-llama/llama_index pip install llama-index data-ai claude cursor hermes generic"
-    },
-    {
-      "name": "haystack",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "deepset-ai/haystack",
-      "stars": 18000,
-      "desc": "Production NLP pipelines, modular. Enterprise search, QA systems.",
-      "url": "https://github.com/deepset-ai/haystack",
-      "install": "pip install haystack-ai",
-      "functionCategory": "data-ai",
-      "topCategoryId": "data",
-      "subCategoryId": "ai",
-      "categoryPath": "data-ai",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "hermes",
-        "generic"
-      ],
-      "searchText": "haystack production nlp pipelines, modular. enterprise search, qa systems. human: deepset-ai/haystack pip install haystack-ai data-ai claude cursor hermes generic"
-    },
-    {
-      "name": "dspy",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "stanfordnlp/dspy",
-      "stars": 21000,
-      "desc": "Programmatic LM optimization, signatures. Prompt optimization, research.",
-      "url": "https://github.com/stanfordnlp/dspy",
-      "install": "pip install dspy-ai",
-      "functionCategory": "data-ai",
-      "topCategoryId": "data",
-      "subCategoryId": "ai",
-      "categoryPath": "data-ai",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "hermes",
-        "generic"
-      ],
-      "searchText": "dspy programmatic lm optimization, signatures. prompt optimization, research. human: stanfordnlp/dspy pip install dspy-ai data-ai claude cursor hermes generic"
     }
   ]
 }

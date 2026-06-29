@@ -26,6 +26,15 @@
     education: { groupId: 'business', subcategoryId: 'education' },
     'health-medical': { groupId: 'lifestyle', subcategoryId: 'health' },
     'social-media': { groupId: 'business', subcategoryId: 'social' },
+    'agent-framework': { groupId: 'development', subcategoryId: 'agent-framework' },
+    'multi-modal': { groupId: 'data', subcategoryId: 'multi-modal' },
+    'video-gen': { groupId: 'video-multimedia', subcategoryId: 'video-gen' },
+    'browser-automation': { groupId: 'development', subcategoryId: 'browser-automation' },
+    'mcp-server': { groupId: 'data', subcategoryId: 'mcp-server' },
+    'llm': { groupId: 'data', subcategoryId: 'llm' },
+    'audio-speech': { groupId: 'media-creation', subcategoryId: 'audio-speech' },
+    'rag': { groupId: 'data', subcategoryId: 'rag' },
+    'image-gen': { groupId: 'design', subcategoryId: 'image-gen' },
   };
 
   let indexPromise = null;

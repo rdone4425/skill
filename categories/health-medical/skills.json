@@ -4,10 +4,1162 @@
     "topCategoryId": "health-medical",
     "subCategoryId": "health-medical",
     "categoryPath": "health-medical",
-    "count": 4,
+    "count": 81,
     "sourceData": "categories"
   },
   "skills": [
+    {
+      "name": "tensorflow-medical-imaging",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "github.com/tensorflow/models",
+      "stars": 80000,
+      "desc": "Deep learning for medical image analysis",
+      "url": "https://github.com/tensorflow/models",
+      "install": "web https://github.com/tensorflow/models",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "tensorflow-medical-imaging deep learning for medical image analysis github.com/tensorflow/models web https://github.com/tensorflow/models health-medical general"
+    },
+    {
+      "name": "deepmind-alphafold",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "alphafold.ebi.ac.uk",
+      "stars": 50000,
+      "desc": "AI protein structure prediction revolutionizing drug discovery",
+      "url": "https://alphafold.ebi.ac.uk",
+      "install": "web https://alphafold.ebi.ac.uk",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "deepmind-alphafold ai protein structure prediction revolutionizing drug discovery alphafold.ebi.ac.uk web https://alphafold.ebi.ac.uk health-medical general"
+    },
+    {
+      "name": "apple-health",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "apple.com/ios/health",
+      "stars": 45000,
+      "desc": "Health data aggregation and ML-powered insights on iOS",
+      "url": "https://www.apple.com/ios/health",
+      "install": "web https://www.apple.com/ios/health",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "apple-health health data aggregation and ml-powered insights on ios apple.com/ios/health web https://www.apple.com/ios/health health-medical general"
+    },
+    {
+      "name": "mediapi",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "mediapipe.web.app",
+      "stars": 45000,
+      "desc": "TensorFlow Lite for health ML on mobile devices",
+      "url": "https://mediapipe.web.app",
+      "install": "web https://mediapipe.web.app",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mediapi tensorflow lite for health ml on mobile devices mediapipe.web.app web https://mediapipe.web.app health-medical general"
+    },
+    {
+      "name": "google-deepmind-medpalm",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "deepmind.google/med-palm",
+      "stars": 40000,
+      "desc": "Medical LLM for clinical question answering",
+      "url": "https://deepmind.google/med-palm",
+      "install": "web https://deepmind.google/med-palm",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "google-deepmind-medpalm medical llm for clinical question answering deepmind.google/med-palm web https://deepmind.google/med-palm health-medical general"
+    },
+    {
+      "name": "oura-ring",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "ouraring.com",
+      "stars": 40000,
+      "desc": "AI sleep and recovery analysis from ring sensor",
+      "url": "https://ouraring.com",
+      "install": "web https://ouraring.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "oura-ring ai sleep and recovery analysis from ring sensor ouraring.com web https://ouraring.com health-medical general"
+    },
+    {
+      "name": "fitbit",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "fitbit.com",
+      "stars": 35000,
+      "desc": "Google health platform with AI sleep/strain analytics",
+      "url": "https://www.fitbit.com",
+      "install": "web https://www.fitbit.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "fitbit google health platform with ai sleep/strain analytics fitbit.com web https://www.fitbit.com health-medical general"
+    },
+    {
+      "name": "ibm-watson-health",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "ibm.com/watson/health",
+      "stars": 30000,
+      "desc": "AI-powered clinical decision support and health data analytics",
+      "url": "https://www.ibm.com/watson/health",
+      "install": "web https://www.ibm.com/watson/health",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ibm-watson-health ai-powered clinical decision support and health data analytics ibm.com/watson/health web https://www.ibm.com/watson/health health-medical general"
+    },
+    {
+      "name": "nuance-dax",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "nuance.com/healthcare/solutions/ambient-experience",
+      "stars": 30000,
+      "desc": "AI-powered clinical documentation from patient conversations",
+      "url": "https://www.nuance.com/healthcare/solutions/ambient-experience",
+      "install": "web https://www.nuance.com/healthcare/solutions/ambient-experience",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "nuance-dax ai-powered clinical documentation from patient conversations nuance.com/healthcare/solutions/ambient-experience web https://www.nuance.com/healthcare/solutions/ambient-experience health-medical general"
+    },
+    {
+      "name": "google-health",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "health.google.com",
+      "stars": 25000,
+      "desc": "AI medical imaging, disease detection and health research",
+      "url": "https://health.google.com",
+      "install": "web https://health.google.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "google-health ai medical imaging, disease detection and health research health.google.com web https://health.google.com health-medical general"
+    },
+    {
+      "name": "microsoft-dragon-ambient-experience",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "microsoft.com/en-us/industry/health/microsoft-dax",
+      "stars": 25000,
+      "desc": "AI clinical documentation from ambient listening",
+      "url": "https://www.microsoft.com/en-us/industry/health/microsoft-dax",
+      "install": "web https://www.microsoft.com/en-us/industry/health/microsoft-dax",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "microsoft-dragon-ambient-experience ai clinical documentation from ambient listening microsoft.com/en-us/industry/health/microsoft-dax web https://www.microsoft.com/en-us/industry/health/microsoft-dax health-medical general"
+    },
+    {
+      "name": "whoop",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "whoop.com",
+      "stars": 25000,
+      "desc": "AI fitness and recovery tracker with strain/HRV analysis",
+      "url": "https://www.whoop.com",
+      "install": "web https://www.whoop.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "whoop ai fitness and recovery tracker with strain/hrv analysis whoop.com web https://www.whoop.com health-medical general"
+    },
+    {
+      "name": "ada-health",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "ada.com",
+      "stars": 20000,
+      "desc": "AI symptom checker and health assessment",
+      "url": "https://ada.com",
+      "install": "web https://ada.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ada-health ai symptom checker and health assessment ada.com web https://ada.com health-medical general"
+    },
+    {
+      "name": "uniprot",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "uniprot.org",
+      "stars": 20000,
+      "desc": "Protein sequence and functional information database",
+      "url": "https://www.uniprot.org",
+      "install": "web https://www.uniprot.org",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "uniprot protein sequence and functional information database uniprot.org web https://www.uniprot.org health-medical general"
+    },
+    {
+      "name": "google-cloud-healthcare-api",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "cloud.google.com/healthcare-api",
+      "stars": 18000,
+      "desc": "Interoperability and FHIR data management in the cloud",
+      "url": "https://cloud.google.com/healthcare-api",
+      "install": "web https://cloud.google.com/healthcare-api",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "google-cloud-healthcare-api interoperability and fhir data management in the cloud cloud.google.com/healthcare-api web https://cloud.google.com/healthcare-api health-medical general"
+    },
+    {
+      "name": "k-health",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "khealth.com",
+      "stars": 18000,
+      "desc": "AI primary care — triage and prescriptions via app",
+      "url": "https://www.khealth.com",
+      "install": "web https://www.khealth.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "k-health ai primary care — triage and prescriptions via app khealth.com web https://www.khealth.com health-medical general"
+    },
+    {
+      "name": "aidoc",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "aidoc.com",
+      "stars": 15000,
+      "desc": "AI radiology — flag critical findings in CT/MRI/X-ray",
+      "url": "https://www.aidoc.com",
+      "install": "web https://www.aidoc.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aidoc ai radiology — flag critical findings in ct/mri/x-ray aidoc.com web https://www.aidoc.com health-medical general"
+    },
+    {
+      "name": "amazon-healthlake",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "aws.amazon.com/healthlake",
+      "stars": 15000,
+      "desc": "HIPAA-compliant ML for health data analytics",
+      "url": "https://aws.amazon.com/healthlake",
+      "install": "web https://aws.amazon.com/healthlake",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "amazon-healthlake hipaa-compliant ml for health data analytics aws.amazon.com/healthlake web https://aws.amazon.com/healthlake health-medical general"
+    },
+    {
+      "name": "babylon-health",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "babylonhealth.com",
+      "stars": 15000,
+      "desc": "AI triage and digital health services",
+      "url": "https://www.babylonhealth.com",
+      "install": "web https://www.babylonhealth.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "babylon-health ai triage and digital health services babylonhealth.com web https://www.babylonhealth.com health-medical general"
+    },
+    {
+      "name": "drugbank",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "drugbank.ca",
+      "stars": 15000,
+      "desc": "Comprehensive drug and drug target database",
+      "url": "https://www.drugbank.ca",
+      "install": "web https://www.drugbank.ca",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "drugbank comprehensive drug and drug target database drugbank.ca web https://www.drugbank.ca health-medical general"
+    },
+    {
+      "name": "microsoft-health",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "microsoft.com/en-us-health",
+      "stars": 15000,
+      "desc": "Healthcare AI and cloud solutions for medical data",
+      "url": "https://www.microsoft.com/en-us-health",
+      "install": "web https://www.microsoft.com/en-us-health",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "microsoft-health healthcare ai and cloud solutions for medical data microsoft.com/en-us-health web https://www.microsoft.com/en-us-health health-medical general"
+    },
+    {
+      "name": "pubchem",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "pubchem.ncbi.nlm.nih.gov",
+      "stars": 15000,
+      "desc": "Largest free chemistry database — compound, bioactivity, patents",
+      "url": "https://pubchem.ncbi.nlm.nih.gov",
+      "install": "web https://pubchem.ncbi.nlm.nih.gov",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "pubchem largest free chemistry database — compound, bioactivity, patents pubchem.ncbi.nlm.nih.gov web https://pubchem.ncbi.nlm.nih.gov health-medical general"
+    },
+    {
+      "name": "zoe",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "zoe.com",
+      "stars": 15000,
+      "desc": "AI nutrition app — personalized diet based on continuous glucose monitoring",
+      "url": "https://zoe.com",
+      "install": "web https://zoe.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "zoe ai nutrition app — personalized diet based on continuous glucose monitoring zoe.com web https://zoe.com health-medical general"
+    },
+    {
+      "name": "aws-healthomics",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "aws.amazon.com/healthomics",
+      "stars": 12000,
+      "desc": "Multi-omics data processing and ML for healthcare",
+      "url": "https://aws.amazon.com/healthomics",
+      "install": "web https://aws.amazon.com/healthomics",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aws-healthomics multi-omics data processing and ml for healthcare aws.amazon.com/healthomics web https://aws.amazon.com/healthomics health-medical general"
+    },
+    {
+      "name": "buoy-health",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "buoyhealth.com",
+      "stars": 12000,
+      "desc": "AI symptom checker and care navigation",
+      "url": "https://www.buoyhealth.com",
+      "install": "web https://www.buoyhealth.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "buoy-health ai symptom checker and care navigation buoyhealth.com web https://www.buoyhealth.com health-medical general"
+    },
+    {
+      "name": "clinvar",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "ncbi.nlm.nih.gov/clinvar",
+      "stars": 12000,
+      "desc": "NCBI genetic variant clinical significance database",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar",
+      "install": "web https://www.ncbi.nlm.nih.gov/clinvar",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "clinvar ncbi genetic variant clinical significance database ncbi.nlm.nih.gov/clinvar web https://www.ncbi.nlm.nih.gov/clinvar health-medical general"
+    },
+    {
+      "name": "levels",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "levelshealth.com",
+      "stars": 12000,
+      "desc": "Continuous glucose monitoring + AI metabolic insights",
+      "url": "https://www.levelshealth.com",
+      "install": "web https://www.levelshealth.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "levels continuous glucose monitoring + ai metabolic insights levelshealth.com web https://www.levelshealth.com health-medical general"
+    },
+    {
+      "name": "monai",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "monai.io",
+      "stars": 12000,
+      "desc": "Medical Open Network for AI — PyTorch for medical imaging",
+      "url": "https://monai.io",
+      "install": "web https://monai.io",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "monai medical open network for ai — pytorch for medical imaging monai.io web https://monai.io health-medical general"
+    },
+    {
+      "name": "rdkit",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "rdkit.org",
+      "stars": 12000,
+      "desc": "Cheminformatics toolkit for drug discovery",
+      "url": "https://www.rdkit.org",
+      "install": "web https://www.rdkit.org",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "rdkit cheminformatics toolkit for drug discovery rdkit.org web https://www.rdkit.org health-medical general"
+    },
+    {
+      "name": "viz-ai",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "viz.ai",
+      "stars": 12000,
+      "desc": "AI stroke detection and care coordination platform",
+      "url": "https://www.viz.ai",
+      "install": "web https://www.viz.ai",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "viz-ai ai stroke detection and care coordination platform viz.ai web https://www.viz.ai health-medical general"
+    },
+    {
+      "name": "withings",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "withings.com",
+      "stars": 12000,
+      "desc": "Health IoT + app with AI body composition and ECG analysis",
+      "url": "https://www.withings.com",
+      "install": "web https://www.withings.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "withings health iot + app with ai body composition and ecg analysis withings.com web https://www.withings.com health-medical general"
+    },
+    {
+      "name": "gnomad",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "gnomad.broadinstitute.org",
+      "stars": 10000,
+      "desc": "Genome aggregation database for variant interpretation",
+      "url": "https://gnomad.broadinstitute.org",
+      "install": "web https://gnomad.broadinstitute.org",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gnomad genome aggregation database for variant interpretation gnomad.broadinstitute.org web https://gnomad.broadinstitute.org health-medical general"
+    },
+    {
+      "name": "insilico-medicine",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "insilico.com",
+      "stars": 10000,
+      "desc": "End-to-end AI for drug discovery and aging research",
+      "url": "https://insilico.com",
+      "install": "web https://insilico.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "insilico-medicine end-to-end ai for drug discovery and aging research insilico.com web https://insilico.com health-medical general"
+    },
+    {
+      "name": "butterfly-network",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "butterflynetwork.com",
+      "stars": 8000,
+      "desc": "AI-powered handheld ultrasound device",
+      "url": "https://www.butterflynetwork.com",
+      "install": "web https://www.butterflynetwork.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "butterfly-network ai-powered handheld ultrasound device butterflynetwork.com web https://www.butterflynetwork.com health-medical general"
+    },
+    {
+      "name": "deepchem",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "deepchem.io",
+      "stars": 8000,
+      "desc": "Deep learning for chemistry and drug discovery",
+      "url": "https://deepchem.io",
+      "install": "web https://deepchem.io",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "deepchem deep learning for chemistry and drug discovery deepchem.io web https://deepchem.io health-medical general"
+    },
+    {
+      "name": "ezra-ai",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "ezra.com",
+      "stars": 8000,
+      "desc": "AI-powered full-body MRI cancer screening",
+      "url": "https://ezra.com",
+      "install": "web https://ezra.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ezra-ai ai-powered full-body mri cancer screening ezra.com web https://ezra.com health-medical general"
+    },
+    {
+      "name": "infermedica",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "infermedica.com",
+      "stars": 8000,
+      "desc": "AI triage and diagnostic support API",
+      "url": "https://infermedica.com",
+      "install": "web https://infermedica.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "infermedica ai triage and diagnostic support api infermedica.com web https://infermedica.com health-medical general"
+    },
+    {
+      "name": "insitro",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "insitro.com",
+      "stars": 8000,
+      "desc": "ML-driven drug discovery combining genomics and chemistry",
+      "url": "https://www.insitro.com",
+      "install": "web https://www.insitro.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "insitro ml-driven drug discovery combining genomics and chemistry insitro.com web https://www.insitro.com health-medical general"
+    },
+    {
+      "name": "lunit",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "lunit.io",
+      "stars": 8000,
+      "desc": "AI pathology and radiology for cancer detection",
+      "url": "https://lunit.io",
+      "install": "web https://lunit.io",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "lunit ai pathology and radiology for cancer detection lunit.io web https://lunit.io health-medical general"
+    },
+    {
+      "name": "mimic-iv",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "physionet.org/content/mimiciv",
+      "stars": 8000,
+      "desc": "Public ICU dataset for health ML research",
+      "url": "https://physionet.org/content/mimiciv",
+      "install": "web https://physionet.org/content/mimiciv",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mimic-iv public icu dataset for health ml research physionet.org/content/mimiciv web https://physionet.org/content/mimiciv health-medical general"
+    },
+    {
+      "name": "openmrs",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "openmrs.org",
+      "stars": 8000,
+      "desc": "Open-source medical record system for developing countries",
+      "url": "https://openmrs.org",
+      "install": "web https://openmrs.org",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openmrs open-source medical record system for developing countries openmrs.org web https://openmrs.org health-medical general"
+    },
+    {
+      "name": "opentargets",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "opentargets.org",
+      "stars": 8000,
+      "desc": "AI-driven drug target identification platform",
+      "url": "https://www.opentargets.org",
+      "install": "web https://www.opentargets.org",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "opentargets ai-driven drug target identification platform opentargets.org web https://www.opentargets.org health-medical general"
+    },
+    {
+      "name": "pathai",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "pathai.com",
+      "stars": 8000,
+      "desc": "AI pathology for diagnostic accuracy and clinical trials",
+      "url": "https://www.pathai.com",
+      "install": "web https://www.pathai.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "pathai ai pathology for diagnostic accuracy and clinical trials pathai.com web https://www.pathai.com health-medical general"
+    },
+    {
+      "name": "schrödinger",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "schrodinger.com",
+      "stars": 8000,
+      "desc": "Quantum chemistry and ML for drug discovery",
+      "url": "https://www.schrodinger.com",
+      "install": "web https://www.schrodinger.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "schrödinger quantum chemistry and ml for drug discovery schrodinger.com web https://www.schrodinger.com health-medical general"
+    },
+    {
+      "name": "zebra-medical-vision",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "zegeramedical.com",
+      "stars": 8000,
+      "desc": "AI radiology reading for early disease detection",
+      "url": "https://www.zegeramedical.com",
+      "install": "web https://www.zegeramedical.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "zebra-medical-vision ai radiology reading for early disease detection zegeramedical.com web https://www.zegeramedical.com health-medical general"
+    },
+    {
+      "name": "benevolentai",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "benevolent.ai",
+      "stars": 7000,
+      "desc": "End-to-end AI drug discovery from target to clinic",
+      "url": "https://www.benevolent.ai",
+      "install": "web https://www.benevolent.ai",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "benevolentai end-to-end ai drug discovery from target to clinic benevolent.ai web https://www.benevolent.ai health-medical general"
+    },
+    {
+      "name": "atomwise",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "atomwise.com",
+      "stars": 6000,
+      "desc": "AI-powered virtual screening for drug discovery",
+      "url": "https://www.atomwise.com",
+      "install": "web https://www.atomwise.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "atomwise ai-powered virtual screening for drug discovery atomwise.com web https://www.atomwise.com health-medical general"
+    },
+    {
+      "name": "chembl",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "ebi.ac.uk/chembl",
+      "stars": 6000,
+      "desc": "Bioactive drug-like compound database",
+      "url": "https://www.ebi.ac.uk/chembl",
+      "install": "web https://www.ebi.ac.uk/chembl",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "chembl bioactive drug-like compound database ebi.ac.uk/chembl web https://www.ebi.ac.uk/chembl health-medical general"
+    },
+    {
+      "name": "chemprop",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "github.com/swansonk14/chemprop",
+      "stars": 6000,
+      "desc": "Message passing neural networks for molecular property prediction",
+      "url": "https://github.com/swansonk14/chemprop",
+      "install": "web https://github.com/swansonk14/chemprop",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "chemprop message passing neural networks for molecular property prediction github.com/swansonk14/chemprop web https://github.com/swansonk14/chemprop health-medical general"
+    },
+    {
+      "name": "paige-ai",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "paige.ai",
+      "stars": 6000,
+      "desc": "AI cancer diagnostics for digital pathology",
+      "url": "https://www.paige.ai",
+      "install": "web https://www.paige.ai",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "paige-ai ai cancer diagnostics for digital pathology paige.ai web https://www.paige.ai health-medical general"
+    },
+    {
+      "name": "prenuvo",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "prenuvo.com",
+      "stars": 6000,
+      "desc": "Full-body MRI AI scan for early disease detection",
+      "url": "https://www.prenuvo.com",
+      "install": "web https://www.prenuvo.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "prenuvo full-body mri ai scan for early disease detection prenuvo.com web https://www.prenuvo.com health-medical general"
+    },
+    {
+      "name": "recursion-pharmaceuticals",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "recursionpharma.com",
+      "stars": 6000,
+      "desc": "AI-powered drug discovery using cellular imaging",
+      "url": "https://www.recursionpharma.com",
+      "install": "web https://www.recursionpharma.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "recursion-pharmaceuticals ai-powered drug discovery using cellular imaging recursionpharma.com web https://www.recursionpharma.com health-medical general"
+    },
+    {
+      "name": "arterys",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "arterys.com",
+      "stars": 5000,
+      "desc": "Cloud AI for medical imaging interpretation",
+      "url": "https://www.arterys.com",
+      "install": "web https://www.arterys.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "arterys cloud ai for medical imaging interpretation arterys.com web https://www.arterys.com health-medical general"
+    },
+    {
+      "name": "calico",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "calicolabs.com",
+      "stars": 5000,
+      "desc": "Google's biotech venture for aging and disease research",
+      "url": "https://www.calicolabs.com",
+      "install": "web https://www.calicolabs.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "calico google's biotech venture for aging and disease research calicolabs.com web https://www.calicolabs.com health-medical general"
+    },
+    {
+      "name": "caption-health",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "captionhealth.com",
+      "stars": 5000,
+      "desc": "AI ultrasound for cardiac disease detection",
+      "url": "https://captionhealth.com",
+      "install": "web https://captionhealth.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "caption-health ai ultrasound for cardiac disease detection captionhealth.com web https://captionhealth.com health-medical general"
+    },
+    {
+      "name": "enlitic",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "enlitic.com",
+      "stars": 5000,
+      "desc": "Deep learning for radiology workflow optimization",
+      "url": "https://www.enlitic.com",
+      "install": "web https://www.enlitic.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "enlitic deep learning for radiology workflow optimization enlitic.com web https://www.enlitic.com health-medical general"
+    },
+    {
+      "name": "exscientia",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "exscientia.ai",
+      "stars": 5000,
+      "desc": "AI-driven small molecule drug design and clinical trials",
+      "url": "https://www.exscientia.ai",
+      "install": "web https://www.exscientia.ai",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "exscientia ai-driven small molecule drug design and clinical trials exscientia.ai web https://www.exscientia.ai health-medical general"
+    },
+    {
+      "name": "fhir-works",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "github.com/fhir/fhir-wrappers",
+      "stars": 5000,
+      "desc": "FHIR standard implementation for healthcare data exchange",
+      "url": "https://github.com/fhir/fhir-wrappers",
+      "install": "web https://github.com/fhir/fhir-wrappers",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "fhir-works fhir standard implementation for healthcare data exchange github.com/fhir/fhir-wrappers web https://github.com/fhir/fhir-wrappers health-medical general"
+    },
+    {
+      "name": "healx",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "healx.io",
+      "stars": 5000,
+      "desc": "AI for rare disease drug discovery",
+      "url": "https://www.healx.io",
+      "install": "web https://www.healx.io",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "healx ai for rare disease drug discovery healx.io web https://www.healx.io health-medical general"
+    },
+    {
+      "name": "human-api",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "humanapi.ai",
+      "stars": 5000,
+      "desc": "Health data aggregation platform for apps",
+      "url": "https://humanapi.ai",
+      "install": "web https://humanapi.ai",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "human-api health data aggregation platform for apps humanapi.ai web https://humanapi.ai health-medical general"
+    },
+    {
+      "name": "icometrix",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "icometrix.com",
+      "stars": 5000,
+      "desc": "AI brain MRI quantification for neurology trials",
+      "url": "https://www.icometrix.com",
+      "install": "web https://www.icometrix.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "icometrix ai brain mri quantification for neurology trials icometrix.com web https://www.icometrix.com health-medical general"
+    },
+    {
+      "name": "nference",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "nference.ai",
+      "stars": 5000,
+      "desc": "AI analytics for biomedical data and clinical insights",
+      "url": "https://nference.ai",
+      "install": "web https://nference.ai",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "nference ai analytics for biomedical data and clinical insights nference.ai web https://nference.ai health-medical general"
+    },
+    {
+      "name": "stitch",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "stitch.embl.de",
+      "stars": 5000,
+      "desc": "Bioinformatics data integration platform",
+      "url": "https://stitch.embl.de",
+      "install": "web https://stitch.embl.de",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "stitch bioinformatics data integration platform stitch.embl.de web https://stitch.embl.de health-medical general"
+    },
+    {
+      "name": "vuno",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "vuno.co.kr",
+      "stars": 5000,
+      "desc": "AI medical imaging analysis for radiology and pathology",
+      "url": "https://vuno.co.kr",
+      "install": "web https://vuno.co.kr",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vuno ai medical imaging analysis for radiology and pathology vuno.co.kr web https://vuno.co.kr health-medical general"
+    },
     {
       "name": "sparkyfitness",
       "source": "general",
@@ -25,6 +1177,240 @@
         "general"
       ],
       "searchText": "sparkyfitness built for families. powered by ai. track food, fitness, water, and health — together. codewithcj/sparkyfitness health-medical general"
+    },
+    {
+      "name": "-therapixel",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "therapixel.com",
+      "stars": 4000,
+      "desc": "AI mammography screening for breast cancer detection",
+      "url": "https://www.therapixel.com",
+      "install": "web https://www.therapixel.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "-therapixel ai mammography screening for breast cancer detection therapixel.com web https://www.therapixel.com health-medical general"
+    },
+    {
+      "name": "berg",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "berg.com",
+      "stars": 4000,
+      "desc": "AI platform for biomarker and drug discovery",
+      "url": "https://www.berg.com",
+      "install": "web https://www.berg.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "berg ai platform for biomarker and drug discovery berg.com web https://www.berg.com health-medical general"
+    },
+    {
+      "name": "human-longevity",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "humanlongevity.com",
+      "stars": 4000,
+      "desc": "AI-powered longevity assessment and precision health",
+      "url": "https://www.humanlongevity.com",
+      "install": "web https://www.humanlongevity.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "human-longevity ai-powered longevity assessment and precision health humanlongevity.com web https://www.humanlongevity.com health-medical general"
+    },
+    {
+      "name": "proct",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "github.com/decibelai/protein",
+      "stars": 4000,
+      "desc": "3D protein structure prediction for clinical research",
+      "url": "https://github.com/decibelai/protein",
+      "install": "web https://github.com/decibelai/protein",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "proct 3d protein structure prediction for clinical research github.com/decibelai/protein web https://github.com/decibelai/protein health-medical general"
+    },
+    {
+      "name": "quibim",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "quibim.com",
+      "stars": 4000,
+      "desc": "AI medical imaging analytics for radiology",
+      "url": "https://www.quibim.com",
+      "install": "web https://www.quibim.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "quibim ai medical imaging analytics for radiology quibim.com web https://www.quibim.com health-medical general"
+    },
+    {
+      "name": "radlogics",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "radlogics.com",
+      "stars": 4000,
+      "desc": "AI-powered medical image analysis for radiologists",
+      "url": "https://www.radlogics.com",
+      "install": "web https://www.radlogics.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "radlogics ai-powered medical image analysis for radiologists radlogics.com web https://www.radlogics.com health-medical general"
+    },
+    {
+      "name": "relay",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "relaytherapeutics.com",
+      "stars": 4000,
+      "desc": "Allosteric drug discovery using cryo-EM and ML",
+      "url": "https://relaytherapeutics.com",
+      "install": "web https://relaytherapeutics.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "relay allosteric drug discovery using cryo-em and ml relaytherapeutics.com web https://relaytherapeutics.com health-medical general"
+    },
+    {
+      "name": "relay-therapeutics",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "relaytherapeutics.com",
+      "stars": 4000,
+      "desc": "AI-enhanced protein motion analysis for drug design",
+      "url": "https://relaytherapeutics.com",
+      "install": "web https://relaytherapeutics.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "relay-therapeutics ai-enhanced protein motion analysis for drug design relaytherapeutics.com web https://relaytherapeutics.com health-medical general"
+    },
+    {
+      "name": "deep-radiology",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "deepradiology.ai",
+      "stars": 3000,
+      "desc": "AI-powered radiology report generation",
+      "url": "https://deepradiology.ai",
+      "install": "web https://deepradiology.ai",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "deep-radiology ai-powered radiology report generation deepradiology.ai web https://deepradiology.ai health-medical general"
+    },
+    {
+      "name": "ehrml",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "ehrlab.github.io",
+      "stars": 3000,
+      "desc": "EHR data standardization for machine learning",
+      "url": "https://ehrlab.github.io",
+      "install": "web https://ehrlab.github.io",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ehrml ehr data standardization for machine learning ehrlab.github.io web https://ehrlab.github.io health-medical general"
+    },
+    {
+      "name": "subtle-medical",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "subtlemedical.com",
+      "stars": 3000,
+      "desc": "AI image quality enhancement for medical imaging",
+      "url": "https://www.subtlemedical.com",
+      "install": "web https://www.subtlemedical.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "subtle-medical ai image quality enhancement for medical imaging subtlemedical.com web https://www.subtlemedical.com health-medical general"
+    },
+    {
+      "name": "twoxar",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "twoxar.com",
+      "stars": 3000,
+      "desc": "AI-driven drug candidate identification",
+      "url": "https://www.twoxar.com",
+      "install": "web https://www.twoxar.com",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "twoxar ai-driven drug candidate identification twoxar.com web https://www.twoxar.com health-medical general"
+    },
+    {
+      "name": "chemblr",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "github.com/brainbot-com/ChemblR",
+      "stars": 2000,
+      "desc": "R package for accessing ChEMBL database",
+      "url": "https://github.com/brainbot-com/ChemblR",
+      "install": "web https://github.com/brainbot-com/ChemblR",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "chemblr r package for accessing chembl database github.com/brainbot-com/chemblr web https://github.com/brainbot-com/chemblr health-medical general"
     },
     {
       "name": "jarvis-health",

@@ -158,6 +158,26 @@
       "searchText": "pi ai agent toolkit: unified llm api, agent loop, tui, coding agent cli earendil-works/pi $skill-installer pi dev-tools claude"
     },
     {
+      "name": "openhands",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "All-Hands-AI/OpenHands",
+      "stars": 65000,
+      "desc": "Docker-isolated, web UI, MIT license. Sandboxed execution, evaluation benchmarks.",
+      "url": "https://github.com/All-Hands-AI/OpenHands",
+      "install": "docker pull all-hands-ai/openhands",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor"
+      ],
+      "searchText": "openhands docker-isolated, web ui, mit license. sandboxed execution, evaluation benchmarks. all-hands-ai/openhands docker pull all-hands-ai/openhands dev-tools claude codex cursor"
+    },
+    {
       "name": "awesome-claude-skills",
       "source": "community",
       "sourceAgent": "claude",
@@ -176,6 +196,26 @@
       "searchText": "awesome-claude-skills a curated list of awesome claude skills, resources, and tools for customizing claude ai workflows composiohq/awesome-claude-skills git clone https://github.com/composiohq/awesome-claude-skills.git  # browse the awesome list dev-tools claude"
     },
     {
+      "name": "dify",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "langgenius/dify",
+      "stars": 60000,
+      "desc": "Visual workflow builder, self-hosted. GUI agent builder for teams.",
+      "url": "https://github.com/langgenius/dify",
+      "install": "docker run -p 3000:3000 langgenius/dify",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "generic"
+      ],
+      "searchText": "dify visual workflow builder, self-hosted. gui agent builder for teams. langgenius/dify docker run -p 3000:3000 langgenius/dify dev-tools claude cursor generic"
+    },
+    {
       "name": "OpenSpec",
       "source": "claude",
       "sourceAgent": "claude",
@@ -192,6 +232,27 @@
         "claude"
       ],
       "searchText": "openspec spec-driven development (sdd) for ai coding assistants fission-ai/openspec $skill-installer openspec dev-tools claude"
+    },
+    {
+      "name": "open-interpreter",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "OpenInterpreter/open-interpreter",
+      "stars": 56000,
+      "desc": "Natural language to code execution. Local automation, full OS control.",
+      "url": "https://github.com/OpenInterpreter/open-interpreter",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "open-interpreter natural language to code execution. local automation, full os control. openinterpreter/open-interpreter dev-tools claude cursor hermes generic"
     },
     {
       "name": "/analyze-code",
@@ -2016,7 +2077,7 @@
       "source": "tools",
       "sourceAgent": "other",
       "repo": "zhayujie/CowAgent",
-      "stars": 45656,
+      "stars": 45671,
       "desc": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, autonomously grows with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly chatgpt-on-wechat)",
       "url": "https://github.com/zhayujie/CowAgent",
       "install": "git clone https://github.com/zhayujie/CowAgent.git",
@@ -2141,6 +2202,26 @@
       "searchText": "surrealdb--devtools a scalable, distributed, collaborative, document-graph database, for the realtime web surrealdb/surrealdb cargo install surrealdb dev-tools general"
     },
     {
+      "name": "flowise",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "FlowiseAI/Flowise",
+      "stars": 32000,
+      "desc": "Drag-and-drop node editor for low-code agent building.",
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "install": "npm install -g flowise",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "generic"
+      ],
+      "searchText": "flowise drag-and-drop node editor for low-code agent building. flowiseai/flowise npm install -g flowise dev-tools claude cursor generic"
+    },
+    {
       "name": "claude-plugins-official",
       "source": "general",
       "sourceAgent": "claude",
@@ -2159,6 +2240,26 @@
       "searchText": "claude-plugins-official official, anthropic-managed directory of high quality claude code plugins. anthropics/claude-plugins-official git clone https://github.com/anthropics/claude-plugins-official.git dev-tools claude"
     },
     {
+      "name": "cline",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "cline/cline",
+      "stars": 28000,
+      "desc": "VS Code extension, any model, MCP. Open source, model-agnostic, community.",
+      "url": "https://github.com/cline/cline",
+      "install": "code --install-extension saoudrizwan.claude-dev",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor"
+      ],
+      "searchText": "cline vs code extension, any model, mcp. open source, model-agnostic, community. cline/cline code --install-extension saoudrizwan.claude-dev dev-tools claude codex cursor"
+    },
+    {
       "name": "ChatGPT--chatgpt",
       "source": "general",
       "sourceAgent": "general",
@@ -2175,6 +2276,27 @@
         "general"
       ],
       "searchText": "chatgpt--chatgpt reverse engineered chatgpt api acheong08/chatgpt pip install chatgpt dev-tools general"
+    },
+    {
+      "name": "composio",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "composio/composio",
+      "stars": 27000,
+      "desc": "100+ tool integrations with MCP support. Tool-heavy agents, SaaS automation.",
+      "url": "https://github.com/composio/composio",
+      "install": "pip install composio",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes"
+      ],
+      "searchText": "composio 100+ tool integrations with mcp support. tool-heavy agents, saas automation. composio/composio pip install composio dev-tools claude codex cursor hermes"
     },
     {
       "name": "ab-test-setup",
@@ -8544,6 +8666,27 @@
       "searchText": "ai the ai toolkit for typescript. build ai-powered products with the ai sdk. vercel/ai $skill-installer ai dev-tools claude"
     },
     {
+      "name": "aider",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "Aider-AI/aider",
+      "stars": 25000,
+      "desc": "Terminal, git-aware, pair programming. CLI users, git-native, repo-wide edits.",
+      "url": "https://github.com/Aider-AI/aider",
+      "install": "pip install aider-chat",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes"
+      ],
+      "searchText": "aider terminal, git-aware, pair programming. cli users, git-native, repo-wide edits. aider-ai/aider pip install aider-chat dev-tools claude codex cursor hermes"
+    },
+    {
       "name": "continue",
       "source": "claude",
       "sourceAgent": "claude",
@@ -8973,6 +9116,25 @@
         "claude"
       ],
       "searchText": "oh-my-pi ai coding agent for the terminal — hash-anchored edits, optimized tool harness, lsp, python, browser integration. can1357/oh-my-pi dev-tools claude"
+    },
+    {
+      "name": "swe-agent",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "princeton-nlp/SWE-agent",
+      "stars": 15000,
+      "desc": "Princeton's ACI interface, benchmark-driven. Research, SWE-bench evaluation.",
+      "url": "https://github.com/princeton-nlp/SWE-agent",
+      "install": "pip install swe-agent",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "cursor"
+      ],
+      "searchText": "swe-agent princeton's aci interface, benchmark-driven. research, swe-bench evaluation. princeton-nlp/swe-agent pip install swe-agent dev-tools claude cursor"
     },
     {
       "name": "webpack-dashboard--devtools",
@@ -9473,6 +9635,47 @@
       "searchText": "hotel--devtools 🏩 a simple process manager for developers. start apps from your browser and access them using local domains typicode/hotel npm i hotel dev-tools general"
     },
     {
+      "name": "goose",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "block/goose",
+      "stars": 10000,
+      "desc": "Block's extensible agent, MCP-native. Developer automation on local machines.",
+      "url": "https://github.com/block/goose",
+      "install": "pip install goose-agent",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes"
+      ],
+      "searchText": "goose block's extensible agent, mcp-native. developer automation on local machines. block/goose pip install goose-agent dev-tools claude cursor hermes"
+    },
+    {
+      "name": "langfuse",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "langfuse/langfuse",
+      "stars": 10000,
+      "desc": "Open source, prompt versioning, self-hostable. Privacy-first, LangChain/CrewAI teams.",
+      "url": "https://github.com/langfuse/langfuse",
+      "install": "pip install langfuse",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "langfuse open source, prompt versioning, self-hostable. privacy-first, langchain/crewai teams. langfuse/langfuse pip install langfuse dev-tools claude cursor hermes generic"
+    },
+    {
       "name": "webdriverio--devtools",
       "source": "general",
       "sourceAgent": "general",
@@ -9696,6 +9899,44 @@
         "gemini"
       ],
       "searchText": "superpowers-zh 🦸 ai 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 claude code / copilot cli / hermes agent / cursor / windsurf / kiro / gemini cli 等 16 款 ai 编程工具真正会干活 jnmetacode/superpowers-zh git clone https://github.com/jnmetacode/superpowers-zh.git dev-tools claude cursor copilot hermes gemini"
+    },
+    {
+      "name": "arize-phoenix",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "Arize-ai/phoenix",
+      "stars": 6000,
+      "desc": "Open source, LLM evals, embeddings. ML teams, explainability.",
+      "url": "https://github.com/Arize-ai/phoenix",
+      "install": "pip install arize-phoenix",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "arize-phoenix open source, llm evals, embeddings. ml teams, explainability. arize-ai/phoenix pip install arize-phoenix dev-tools claude hermes generic"
+    },
+    {
+      "name": "xcodebuildmcp",
+      "source": "techopolis",
+      "sourceAgent": "generic",
+      "repo": "getsentry/xcodebuildmcp",
+      "stars": 5997,
+      "desc": "XcodeBuildMCP",
+      "url": "https://github.com/getsentry/XcodeBuildMCP",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "xcodebuildmcp xcodebuildmcp getsentry/xcodebuildmcp dev-tools generic"
     },
     {
       "name": "bb-browser",
@@ -10282,6 +10523,28 @@
       "searchText": "openclaw-mission-control ai agent orchestration dashboard - manage ai agents, assign tasks, and coordinate multi-agent collaboration via openclaw gateway. abhi1693/openclaw-mission-control npm i -g openclaw-mission-control dev-tools openclaw"
     },
     {
+      "name": "helicone",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "Helicone/helicone",
+      "stars": 4000,
+      "desc": "Gateway-based, no SDK changes needed. Drop-in observability, any provider.",
+      "url": "https://github.com/Helicone/helicone",
+      "install": "npm install helicone",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "helicone gateway-based, no sdk changes needed. drop-in observability, any provider. helicone/helicone npm install helicone dev-tools claude codex cursor hermes generic"
+    },
+    {
       "name": "openclaw-control-center",
       "source": "openclaw",
       "sourceAgent": "openclaw",
@@ -10578,6 +10841,28 @@
         "other"
       ],
       "searchText": "firered-openstoryline firered-openstoryline is an ai video editing agent that transforms manual editing into intention-driven directing through natural language interaction, llm-powered planning, and precise tool orchestration. it facilitates transparent, human- fireredteam/firered-openstoryline git clone https://github.com/fireredteam/firered-openstoryline.git dev-tools other"
+    },
+    {
+      "name": "agentops",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "AgentOps-AI/agentops",
+      "stars": 3000,
+      "desc": "Session replay, 400+ framework integrations. Framework-agnostic, debugging agents.",
+      "url": "https://github.com/AgentOps-AI/agentops",
+      "install": "pip install agentops",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "agentops session replay, 400+ framework integrations. framework-agnostic, debugging agents. agentops-ai/agentops pip install agentops dev-tools claude codex cursor hermes generic"
     },
     {
       "name": "acpx",
@@ -10928,6 +11213,24 @@
       "searchText": "clawsweeper clawsweeper scans all issues and prs and suggest what we can close, and why. it runs every pr / issue once a week. openclaw/clawsweeper npm i -g clawsweeper dev-tools openclaw"
     },
     {
+      "name": "clawflows",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "nikilster/clawflows",
+      "stars": 1677,
+      "desc": "nikilster/clawflows",
+      "url": "https://github.com/nikilster/clawflows",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "clawflows nikilster/clawflows nikilster/clawflows dev-tools generic"
+    },
+    {
       "name": "opencode-gemini-auth",
       "source": "general",
       "sourceAgent": "opencode",
@@ -10967,6 +11270,24 @@
         "gemini"
       ],
       "searchText": "agent-skill-creator turn any workflow into reusable ai agent skills that install on 14+ tools — claude code, copilot, cursor, windsurf, codex, gemini, kiro, and more. one skill.md, every platform. francyjglisboa/agent-skill-creator git clone https://github.com/francyjglisboa/agent-skill-creator.git dev-tools claude codex cursor copilot gemini"
+    },
+    {
+      "name": "openclaw-android",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "aidanpark/openclaw-android",
+      "stars": 1639,
+      "desc": "AidanPark/openclaw-android",
+      "url": "https://github.com/AidanPark/openclaw-android",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-android aidanpark/openclaw-android aidanpark/openclaw-android dev-tools openclaw"
     },
     {
       "name": "claude-skill-aso-appstore-screenshots",
@@ -11457,6 +11778,24 @@
       "searchText": "hermes-agent-control-room control room-first template for managing hermes agents from one vps agent to specialist teams and orchestrated workflows cryptodmitry/hermes-agent-control-room git clone https://github.com/cryptodmitry/hermes-agent-control-room.git dev-tools hermes"
     },
     {
+      "name": "clawpanel",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "zhaoxinyi02/clawpanel",
+      "stars": 855,
+      "desc": "zhaoxinyi02/ClawPanel",
+      "url": "https://github.com/zhaoxinyi02/ClawPanel",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "clawpanel zhaoxinyi02/clawpanel zhaoxinyi02/clawpanel dev-tools generic"
+    },
+    {
       "name": "dedao-dl",
       "source": "general",
       "sourceAgent": "openclaw",
@@ -11711,6 +12050,24 @@
       "searchText": "hello2cc native-first claude code plugin for third-party models with silent agent model injection and output styles. hellowind777/hello2cc npm i -g hello2cc dev-tools claude"
     },
     {
+      "name": "nix-openclaw",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "openclaw/nix-openclaw",
+      "stars": 701,
+      "desc": "openclaw/nix-openclaw",
+      "url": "https://github.com/openclaw/nix-openclaw",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "nix-openclaw openclaw/nix-openclaw openclaw/nix-openclaw dev-tools openclaw"
+    },
+    {
       "name": "agent-skills",
       "source": "general",
       "sourceAgent": "claude",
@@ -11745,6 +12102,24 @@
         "claude"
       ],
       "searchText": "cc-marketplace marketplace repo for claude code plugins ananddtyagi/cc-marketplace pip install cc-marketplace dev-tools claude"
+    },
+    {
+      "name": "openclaw-dashboard",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "tugcantopaloglu/openclaw-dashboard",
+      "stars": 683,
+      "desc": "tugcantopaloglu/openclaw-dashboard",
+      "url": "https://github.com/tugcantopaloglu/openclaw-dashboard",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-dashboard tugcantopaloglu/openclaw-dashboard tugcantopaloglu/openclaw-dashboard dev-tools openclaw"
     },
     {
       "name": "opencode-notifier",
@@ -13883,6 +14258,24 @@
       "searchText": "late-cli orchestrate an entire ai dev team on 5gb vram. ephemeral subagents, exact-match diffs. single static binary, any model. zero config, zero context bloat. mlhher/late-cli go install github.com/mlhher/late-cli@latest dev-tools other"
     },
     {
+      "name": "clawdeck",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "clawdeckio/clawdeck",
+      "stars": 363,
+      "desc": "clawdeckio/clawdeck",
+      "url": "https://github.com/clawdeckio/clawdeck",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "clawdeck clawdeckio/clawdeck clawdeckio/clawdeck dev-tools generic"
+    },
+    {
       "name": "hol-guard",
       "source": "tools",
       "sourceAgent": "multi",
@@ -13945,7 +14338,7 @@
       "source": "general",
       "sourceAgent": "multi",
       "repo": "plmbr/notebook-intelligence",
-      "stars": 311,
+      "stars": 318,
       "desc": "A JupyterLab extension supporting Claude Code, Copilot, Ollama, and OpenAI-compatible LLMs, with MCP, skills, plugins, and notebook agents.",
       "url": "https://github.com/plmbr/notebook-intelligence",
       "install": "git clone https://github.com/plmbr/notebook-intelligence.git",
@@ -14227,6 +14620,42 @@
       "searchText": "agent-skills a collection of ai agent skills for clawdbot, claude code, codex jdrhyne/agent-skills git clone https://github.com/jdrhyne/agent-skills.git dev-tools claude codex cursor openclaw gemini"
     },
     {
+      "name": "explain-openclaw",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "centminmod/explain-openclaw",
+      "stars": 233,
+      "desc": "centminmod/explain-openclaw",
+      "url": "https://github.com/centminmod/explain-openclaw",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "explain-openclaw centminmod/explain-openclaw centminmod/explain-openclaw dev-tools openclaw"
+    },
+    {
+      "name": "rtk-hermes",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "ogallotti/rtk-hermes",
+      "stars": 231,
+      "desc": "rtk-hermes",
+      "url": "https://github.com/ogallotti/rtk-hermes",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "rtk-hermes rtk-hermes ogallotti/rtk-hermes dev-tools hermes"
+    },
+    {
       "name": "hermes-agent-template",
       "source": "general",
       "sourceAgent": "hermes",
@@ -14280,6 +14709,24 @@
         "opencode"
       ],
       "searchText": "opencode-skills opencode/claude code 技能库 。特色技能：视频生成、图片生成、ai agent 互联、智能问数等等各场景，持续开发更新中 zrt-ai-lab/opencode-skills git clone https://github.com/zrt-ai-lab/opencode-skills.git dev-tools claude opencode"
+    },
+    {
+      "name": "claude-swift-engineering",
+      "source": "techopolis",
+      "sourceAgent": "claude",
+      "repo": "johnrogers/claude-swift-engineering",
+      "stars": 216,
+      "desc": "iOS HIG",
+      "url": "https://github.com/johnrogers/claude-swift-engineering",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "ios",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "claude-swift-engineering ios hig johnrogers/claude-swift-engineering dev-tools claude"
     },
     {
       "name": "opencode-websearch-cited",
@@ -14539,6 +14986,24 @@
         "claude"
       ],
       "searchText": "firecrawl-claude-plugin firecrawl plugin for claude code - web scraping and crawling firecrawl/firecrawl-claude-plugin git clone https://github.com/firecrawl/firecrawl-claude-plugin.git dev-tools claude"
+    },
+    {
+      "name": "homeclaw",
+      "source": "alvinreal",
+      "sourceAgent": "generic",
+      "repo": "omarshahine/homeclaw",
+      "stars": 148,
+      "desc": "omarshahine/HomeClaw",
+      "url": "https://github.com/omarshahine/HomeClaw",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "homeclaw omarshahine/homeclaw omarshahine/homeclaw dev-tools generic"
     },
     {
       "name": "skillx",
@@ -14958,6 +15423,24 @@
       "searchText": "codex-imagen codex/openclaw skill for generating images with chatgpt/codex oauth darkamenosa/codex-imagen npm i -g codex-imagen dev-tools codex openclaw"
     },
     {
+      "name": "hermes-webui",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "sanchomuzax/hermes-webui",
+      "stars": 107,
+      "desc": "hermes-webui",
+      "url": "https://github.com/sanchomuzax/hermes-webui",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-webui hermes-webui sanchomuzax/hermes-webui dev-tools hermes"
+    },
+    {
       "name": "gaster-code-releases",
       "source": "general",
       "sourceAgent": "multi",
@@ -15144,6 +15627,25 @@
       "searchText": "hermes-agent-metaharness an implementation of a meta harness for hermes. howdymary/hermes-agent-metaharness pip install hermes-agent-metaharness dev-tools hermes"
     },
     {
+      "name": "opencode-claude-bridge",
+      "source": "opencode",
+      "sourceAgent": "opencode",
+      "repo": "dotCipher/opencode-claude-bridge",
+      "stars": 90,
+      "desc": "OpenCode plugin for Claude Pro/Max OAuth — auto-syncs from Claude CLI",
+      "url": "https://github.com/dotCipher/opencode-claude-bridge",
+      "install": "npm i -g opencode-claude-bridge",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "plugins",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "opencode"
+      ],
+      "searchText": "opencode-claude-bridge opencode plugin for claude pro/max oauth — auto-syncs from claude cli dotcipher/opencode-claude-bridge npm i -g opencode-claude-bridge dev-tools claude opencode"
+    },
+    {
       "name": "oc-tps",
       "source": "opencode",
       "sourceAgent": "opencode",
@@ -15162,25 +15664,6 @@
       "searchText": "oc-tps opencode plugin for viewing llm tokens per second (tps) rates tarquinen/oc-tps npm i -g oc-tps dev-tools opencode"
     },
     {
-      "name": "opencode-claude-bridge",
-      "source": "opencode",
-      "sourceAgent": "opencode",
-      "repo": "dotCipher/opencode-claude-bridge",
-      "stars": 85,
-      "desc": "OpenCode plugin for Claude Pro/Max OAuth — auto-syncs from Claude CLI",
-      "url": "https://github.com/dotCipher/opencode-claude-bridge",
-      "install": "npm i -g opencode-claude-bridge",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "plugins",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude",
-        "opencode"
-      ],
-      "searchText": "opencode-claude-bridge opencode plugin for claude pro/max oauth — auto-syncs from claude cli dotcipher/opencode-claude-bridge npm i -g opencode-claude-bridge dev-tools claude opencode"
-    },
-    {
       "name": "obsidian-claude-code-plugin",
       "source": "claude",
       "sourceAgent": "claude",
@@ -15197,6 +15680,24 @@
         "claude"
       ],
       "searchText": "obsidian-claude-code-plugin interactive claude code integration for obsidian deivid11/obsidian-claude-code-plugin npm i -g obsidian-claude-code-plugin dev-tools claude"
+    },
+    {
+      "name": "skills",
+      "source": "zeropointrepo",
+      "sourceAgent": "generic",
+      "repo": "black-forest-labs/skills",
+      "stars": 82,
+      "desc": "black-forest-labs/skills",
+      "url": "https://github.com/black-forest-labs/skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "skills black-forest-labs/skills black-forest-labs/skills dev-tools generic"
     },
     {
       "name": "hermes-arxiv-agent",
@@ -15768,6 +16269,24 @@
       "searchText": "mdc_autogen autogenerates cursor rules for a given repository pranav270-create/mdc_autogen pip install mdc_autogen dev-tools cursor"
     },
     {
+      "name": "swift-architecture-skill",
+      "source": "techopolis",
+      "sourceAgent": "generic",
+      "repo": "efremidze/swift-architecture-skill",
+      "stars": 48,
+      "desc": "Swift Architecture",
+      "url": "https://github.com/efremidze/swift-architecture-skill",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "ios",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "swift-architecture-skill swift architecture efremidze/swift-architecture-skill dev-tools generic"
+    },
+    {
       "name": "netresearch-claude-code-marketplace",
       "source": "community",
       "sourceAgent": "claude",
@@ -15789,6 +16308,42 @@
         "gemini"
       ],
       "searchText": "netresearch-claude-code-marketplace curated agent skills marketplace by netresearch with approximately 40 portable skills for ai-assisted development, including typo3, php, go, docker, jira, security, documentation, devops, productivity, and skill-authoring workflows. netresearch/claude-code-marketplace /plugin marketplace add netresearch/claude-code-marketplace dev-tools claude codex cursor copilot opencode gemini"
+    },
+    {
+      "name": "hermes-skill-distillation",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "beardthelion/hermes-skill-distillation",
+      "stars": 9,
+      "desc": "hermes-skill-distillation",
+      "url": "https://github.com/beardthelion/hermes-skill-distillation",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "skills",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-skill-distillation hermes-skill-distillation beardthelion/hermes-skill-distillation dev-tools hermes"
+    },
+    {
+      "name": "hermes-mars-rover",
+      "source": "zeropointrepo",
+      "sourceAgent": "hermes",
+      "repo": "snehal707/hermes-mars-rover",
+      "stars": 8,
+      "desc": "Hermes-mars-rover",
+      "url": "https://github.com/Snehal707/Hermes-mars-rover",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "framework",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "hermes"
+      ],
+      "searchText": "hermes-mars-rover hermes-mars-rover snehal707/hermes-mars-rover dev-tools hermes"
     },
     {
       "name": "agent-powerups",
@@ -15827,6 +16382,24 @@
         "cursor"
       ],
       "searchText": "hyprland-ai-skill this skill should be used when the user asks about \"hyprland configuration\", marceloeatworld/hyprland-ai-skill $skill-installer hyprland-ai-skill dev-tools cursor"
+    },
+    {
+      "name": "openclaw-pixel-agents",
+      "source": "alvinreal",
+      "sourceAgent": "openclaw",
+      "repo": "sweetsophia/openclaw-pixel-agents",
+      "stars": 6,
+      "desc": "SweetSophia/openclaw-pixel-agents",
+      "url": "https://github.com/SweetSophia/openclaw-pixel-agents",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev",
+      "subCategoryId": "agent",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "openclaw"
+      ],
+      "searchText": "openclaw-pixel-agents sweetsophia/openclaw-pixel-agents sweetsophia/openclaw-pixel-agents dev-tools openclaw"
     },
     {
       "name": "agent-brains",
@@ -15883,6 +16456,26 @@
         "claude"
       ],
       "searchText": "autoimprove-cc automate claude code skill.md improvement with agent-driven eval loops, binary assertions, and git commits for steady skill gains nikkiunitary185/autoimprove-cc git clone https://raw.githubusercontent.com/nikkiunitary185/autoimprove-cc/main/.claude/cc-autoimprove-v2.8.zip dev-tools claude"
+    },
+    {
+      "name": "scan",
+      "source": "community",
+      "sourceAgent": "multi",
+      "repo": "paniolo-ai/scan",
+      "stars": 1,
+      "desc": "Score your repo's AI-agent harness — CLAUDE.md, AGENTS.md, skills, rules — then remediate the findings. Install: npx skills add paniolo-ai/scan",
+      "url": "https://github.com/paniolo-ai/scan",
+      "install": "npx skills add paniolo-ai/scan",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "agents",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor"
+      ],
+      "searchText": "scan score your repo's ai-agent harness — claude.md, agents.md, skills, rules — then remediate the findings. install: npx skills add paniolo-ai/scan paniolo-ai/scan npx skills add paniolo-ai/scan dev-tools claude codex cursor"
     },
     {
       "name": "1panel",
@@ -16137,24 +16730,6 @@
       "searchText": "chainlink-agent-skills chainlink-agent-skills smartcontractkit/chainlink-agent-skills dev-tools generic"
     },
     {
-      "name": "claude-swift-engineering",
-      "source": "techopolis",
-      "sourceAgent": "claude",
-      "repo": "johnrogers/claude-swift-engineering",
-      "stars": 0,
-      "desc": "iOS HIG",
-      "url": "https://github.com/johnrogers/claude-swift-engineering",
-      "install": "",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "dev",
-      "subCategoryId": "ios",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "claude-swift-engineering ios hig johnrogers/claude-swift-engineering dev-tools claude"
-    },
-    {
       "name": "clawbio",
       "source": "alvinreal",
       "sourceAgent": "generic",
@@ -16227,24 +16802,6 @@
       "searchText": "clawdbot-feishu m1heng/clawdbot-feishu m1heng/clawdbot-feishu dev-tools generic"
     },
     {
-      "name": "clawdeck",
-      "source": "alvinreal",
-      "sourceAgent": "generic",
-      "repo": "clawdeckio/clawdeck",
-      "stars": 0,
-      "desc": "clawdeckio/clawdeck",
-      "url": "https://github.com/clawdeckio/clawdeck",
-      "install": "",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "dev",
-      "subCategoryId": "framework",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "generic"
-      ],
-      "searchText": "clawdeck clawdeckio/clawdeck clawdeckio/clawdeck dev-tools generic"
-    },
-    {
       "name": "clawdinators",
       "source": "alvinreal",
       "sourceAgent": "openclaw",
@@ -16279,24 +16836,6 @@
         "generic"
       ],
       "searchText": "clawe getclawe/clawe getclawe/clawe dev-tools generic"
-    },
-    {
-      "name": "clawflows",
-      "source": "alvinreal",
-      "sourceAgent": "generic",
-      "repo": "nikilster/clawflows",
-      "stars": 0,
-      "desc": "nikilster/clawflows",
-      "url": "https://github.com/nikilster/clawflows",
-      "install": "",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "dev",
-      "subCategoryId": "framework",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "generic"
-      ],
-      "searchText": "clawflows nikilster/clawflows nikilster/clawflows dev-tools generic"
     },
     {
       "name": "clawlet",
@@ -16369,24 +16908,6 @@
         "generic"
       ],
       "searchText": "clawpanel qingchencloud/clawpanel qingchencloud/clawpanel dev-tools generic"
-    },
-    {
-      "name": "clawpanel",
-      "source": "alvinreal",
-      "sourceAgent": "generic",
-      "repo": "zhaoxinyi02/clawpanel",
-      "stars": 0,
-      "desc": "zhaoxinyi02/ClawPanel",
-      "url": "https://github.com/zhaoxinyi02/ClawPanel",
-      "install": "",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "dev",
-      "subCategoryId": "framework",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "generic"
-      ],
-      "searchText": "clawpanel zhaoxinyi02/clawpanel zhaoxinyi02/clawpanel dev-tools generic"
     },
     {
       "name": "clawrouter",
@@ -16732,24 +17253,6 @@
       "searchText": "execplan-skill execplan-skill tiann/execplan-skill dev-tools generic"
     },
     {
-      "name": "explain-openclaw",
-      "source": "alvinreal",
-      "sourceAgent": "openclaw",
-      "repo": "centminmod/explain-openclaw",
-      "stars": 0,
-      "desc": "centminmod/explain-openclaw",
-      "url": "https://github.com/centminmod/explain-openclaw",
-      "install": "",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "dev",
-      "subCategoryId": "framework",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "openclaw"
-      ],
-      "searchText": "explain-openclaw centminmod/explain-openclaw centminmod/explain-openclaw dev-tools openclaw"
-    },
-    {
       "name": "flowstate-qmd",
       "source": "zeropointrepo",
       "sourceAgent": "generic",
@@ -16948,24 +17451,6 @@
       "searchText": "hermes-dojo hermes-dojo yonkoo11/hermes-dojo dev-tools hermes"
     },
     {
-      "name": "hermes-mars-rover",
-      "source": "zeropointrepo",
-      "sourceAgent": "hermes",
-      "repo": "snehal707/hermes-mars-rover",
-      "stars": 0,
-      "desc": "Hermes-mars-rover",
-      "url": "https://github.com/Snehal707/Hermes-mars-rover",
-      "install": "",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "dev",
-      "subCategoryId": "framework",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "hermes"
-      ],
-      "searchText": "hermes-mars-rover hermes-mars-rover snehal707/hermes-mars-rover dev-tools hermes"
-    },
-    {
       "name": "hermes-miniverse",
       "source": "zeropointrepo",
       "sourceAgent": "hermes",
@@ -17038,24 +17523,6 @@
       "searchText": "hermes-plugins hermes-plugins 42-evey/hermes-plugins dev-tools hermes"
     },
     {
-      "name": "hermes-skill-distillation",
-      "source": "zeropointrepo",
-      "sourceAgent": "hermes",
-      "repo": "beardthelion/hermes-skill-distillation",
-      "stars": 0,
-      "desc": "hermes-skill-distillation",
-      "url": "https://github.com/beardthelion/hermes-skill-distillation",
-      "install": "",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "dev",
-      "subCategoryId": "skills",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "hermes"
-      ],
-      "searchText": "hermes-skill-distillation hermes-skill-distillation beardthelion/hermes-skill-distillation dev-tools hermes"
-    },
-    {
       "name": "hermes-spotify-skill",
       "source": "zeropointrepo",
       "sourceAgent": "hermes",
@@ -17126,24 +17593,6 @@
         "hermes"
       ],
       "searchText": "hermes-web-search-plus hermes-web-search-plus robbyczgw-cla/hermes-web-search-plus dev-tools hermes"
-    },
-    {
-      "name": "hermes-webui",
-      "source": "zeropointrepo",
-      "sourceAgent": "hermes",
-      "repo": "sanchomuzax/hermes-webui",
-      "stars": 0,
-      "desc": "hermes-webui",
-      "url": "https://github.com/sanchomuzax/hermes-webui",
-      "install": "",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "dev",
-      "subCategoryId": "framework",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "hermes"
-      ],
-      "searchText": "hermes-webui hermes-webui sanchomuzax/hermes-webui dev-tools hermes"
     },
     {
       "name": "hermes-wsl-ubuntu",
@@ -17234,24 +17683,6 @@
         "openclaw"
       ],
       "searchText": "homebrew-tap openclaw/homebrew-tap openclaw/homebrew-tap dev-tools openclaw"
-    },
-    {
-      "name": "homeclaw",
-      "source": "alvinreal",
-      "sourceAgent": "generic",
-      "repo": "omarshahine/homeclaw",
-      "stars": 0,
-      "desc": "omarshahine/HomeClaw",
-      "url": "https://github.com/omarshahine/HomeClaw",
-      "install": "",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "dev",
-      "subCategoryId": "framework",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "generic"
-      ],
-      "searchText": "homeclaw omarshahine/homeclaw omarshahine/homeclaw dev-tools generic"
     },
     {
       "name": "honcho-self-hosted",
@@ -17758,24 +18189,6 @@
       "searchText": "nix-hermes-agent nix-hermes-agent 0xrsydn/nix-hermes-agent dev-tools hermes"
     },
     {
-      "name": "nix-openclaw",
-      "source": "alvinreal",
-      "sourceAgent": "openclaw",
-      "repo": "openclaw/nix-openclaw",
-      "stars": 0,
-      "desc": "openclaw/nix-openclaw",
-      "url": "https://github.com/openclaw/nix-openclaw",
-      "install": "",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "dev",
-      "subCategoryId": "framework",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "openclaw"
-      ],
-      "searchText": "nix-openclaw openclaw/nix-openclaw openclaw/nix-openclaw dev-tools openclaw"
-    },
-    {
       "name": "nixos-ai-skill",
       "source": "community",
       "sourceAgent": "multi",
@@ -17813,24 +18226,6 @@
         "generic"
       ],
       "searchText": "nothumansearch-mcp not human search unitedideas/nothumansearch-mcp dev-tools generic"
-    },
-    {
-      "name": "openclaw-android",
-      "source": "alvinreal",
-      "sourceAgent": "openclaw",
-      "repo": "aidanpark/openclaw-android",
-      "stars": 0,
-      "desc": "AidanPark/openclaw-android",
-      "url": "https://github.com/AidanPark/openclaw-android",
-      "install": "",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "dev",
-      "subCategoryId": "framework",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "openclaw"
-      ],
-      "searchText": "openclaw-android aidanpark/openclaw-android aidanpark/openclaw-android dev-tools openclaw"
     },
     {
       "name": "openclaw-ansible",
@@ -17921,24 +18316,6 @@
         "openclaw"
       ],
       "searchText": "openclaw-dashboard mudrii/openclaw-dashboard mudrii/openclaw-dashboard dev-tools openclaw"
-    },
-    {
-      "name": "openclaw-dashboard",
-      "source": "alvinreal",
-      "sourceAgent": "openclaw",
-      "repo": "tugcantopaloglu/openclaw-dashboard",
-      "stars": 0,
-      "desc": "tugcantopaloglu/openclaw-dashboard",
-      "url": "https://github.com/tugcantopaloglu/openclaw-dashboard",
-      "install": "",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "dev",
-      "subCategoryId": "framework",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "openclaw"
-      ],
-      "searchText": "openclaw-dashboard tugcantopaloglu/openclaw-dashboard tugcantopaloglu/openclaw-dashboard dev-tools openclaw"
     },
     {
       "name": "openclaw-docker-cn-im",
@@ -18065,24 +18442,6 @@
         "openclaw"
       ],
       "searchText": "openclaw-nerve daggerhashimoto/openclaw-nerve daggerhashimoto/openclaw-nerve dev-tools openclaw"
-    },
-    {
-      "name": "openclaw-pixel-agents",
-      "source": "alvinreal",
-      "sourceAgent": "openclaw",
-      "repo": "sweetsophia/openclaw-pixel-agents",
-      "stars": 0,
-      "desc": "SweetSophia/openclaw-pixel-agents",
-      "url": "https://github.com/SweetSophia/openclaw-pixel-agents",
-      "install": "",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "dev",
-      "subCategoryId": "agent",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "openclaw"
-      ],
-      "searchText": "openclaw-pixel-agents sweetsophia/openclaw-pixel-agents sweetsophia/openclaw-pixel-agents dev-tools openclaw"
     },
     {
       "name": "openclaw-plugin",
@@ -18483,44 +18842,6 @@
       "searchText": "rt-claw zevorn/rt-claw zevorn/rt-claw dev-tools generic"
     },
     {
-      "name": "rtk-hermes",
-      "source": "zeropointrepo",
-      "sourceAgent": "hermes",
-      "repo": "ogallotti/rtk-hermes",
-      "stars": 0,
-      "desc": "rtk-hermes",
-      "url": "https://github.com/ogallotti/rtk-hermes",
-      "install": "",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "dev",
-      "subCategoryId": "framework",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "hermes"
-      ],
-      "searchText": "rtk-hermes rtk-hermes ogallotti/rtk-hermes dev-tools hermes"
-    },
-    {
-      "name": "scan",
-      "source": "community",
-      "sourceAgent": "multi",
-      "repo": "paniolo-ai/scan",
-      "stars": 0,
-      "desc": "Score your repo's AI-agent harness — CLAUDE.md, AGENTS.md, skills, rules — then remediate the findings. Install: npx skills add paniolo-ai/scan",
-      "url": "https://github.com/paniolo-ai/scan",
-      "install": "npx skills add paniolo-ai/scan",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "agents",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude",
-        "codex",
-        "cursor"
-      ],
-      "searchText": "scan score your repo's ai-agent harness — claude.md, agents.md, skills, rules — then remediate the findings. install: npx skills add paniolo-ai/scan paniolo-ai/scan npx skills add paniolo-ai/scan dev-tools claude codex cursor"
-    },
-    {
       "name": "serverless-openclaw",
       "source": "alvinreal",
       "sourceAgent": "openclaw",
@@ -18591,24 +18912,6 @@
         "generic"
       ],
       "searchText": "skills agentskillexchange/skills agentskillexchange/skills dev-tools generic"
-    },
-    {
-      "name": "skills",
-      "source": "zeropointrepo",
-      "sourceAgent": "generic",
-      "repo": "black-forest-labs/skills",
-      "stars": 0,
-      "desc": "black-forest-labs/skills",
-      "url": "https://github.com/black-forest-labs/skills",
-      "install": "",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "dev",
-      "subCategoryId": "skills",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "generic"
-      ],
-      "searchText": "skills black-forest-labs/skills black-forest-labs/skills dev-tools generic"
     },
     {
       "name": "skills",
@@ -18735,24 +19038,6 @@
         "generic"
       ],
       "searchText": "swift-agents swift agents techopolis/swift-agents dev-tools generic"
-    },
-    {
-      "name": "swift-architecture-skill",
-      "source": "techopolis",
-      "sourceAgent": "generic",
-      "repo": "efremidze/swift-architecture-skill",
-      "stars": 0,
-      "desc": "Swift Architecture",
-      "url": "https://github.com/efremidze/swift-architecture-skill",
-      "install": "",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "dev",
-      "subCategoryId": "ios",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "generic"
-      ],
-      "searchText": "swift-architecture-skill swift architecture efremidze/swift-architecture-skill dev-tools generic"
     },
     {
       "name": "swift-concurrency-agent-skill",
@@ -18989,24 +19274,6 @@
       "searchText": "xcode-mcp-server xcode mcp server r-huijts/xcode-mcp-server dev-tools generic"
     },
     {
-      "name": "xcodebuildmcp",
-      "source": "techopolis",
-      "sourceAgent": "generic",
-      "repo": "getsentry/xcodebuildmcp",
-      "stars": 0,
-      "desc": "XcodeBuildMCP",
-      "url": "https://github.com/getsentry/XcodeBuildMCP",
-      "install": "",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "dev",
-      "subCategoryId": "skills",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "generic"
-      ],
-      "searchText": "xcodebuildmcp xcodebuildmcp getsentry/xcodebuildmcp dev-tools generic"
-    },
-    {
       "name": "yantrikdb-hermes-plugin",
       "source": "zeropointrepo",
       "sourceAgent": "hermes",
@@ -19023,273 +19290,6 @@
         "hermes"
       ],
       "searchText": "yantrikdb-hermes-plugin yantrikdb-hermes-plugin yantrikos/yantrikdb-hermes-plugin dev-tools hermes"
-    },
-    {
-      "name": "composio",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "composio/composio",
-      "stars": 27000,
-      "desc": "100+ tool integrations with MCP support. Tool-heavy agents, SaaS automation.",
-      "url": "https://github.com/composio/composio",
-      "install": "pip install composio",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "hermes"
-      ],
-      "searchText": "composio 100+ tool integrations with mcp support. tool-heavy agents, saas automation. human: composio/composio pip install composio dev-tools claude cursor codex hermes"
-    },
-    {
-      "name": "dify",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "langgenius/dify",
-      "stars": 60000,
-      "desc": "Visual workflow builder, self-hosted. GUI agent builder for teams.",
-      "url": "https://github.com/langgenius/dify",
-      "install": "docker run -p 3000:3000 langgenius/dify",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "generic"
-      ],
-      "searchText": "dify visual workflow builder, self-hosted. gui agent builder for teams. human: langgenius/dify docker run -p 3000:3000 langgenius/dify dev-tools claude cursor generic"
-    },
-    {
-      "name": "flowise",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "FlowiseAI/Flowise",
-      "stars": 32000,
-      "desc": "Drag-and-drop node editor for low-code agent building.",
-      "url": "https://github.com/FlowiseAI/Flowise",
-      "install": "npm install -g flowise",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "generic"
-      ],
-      "searchText": "flowise drag-and-drop node editor for low-code agent building. human: flowiseai/flowise npm install -g flowise dev-tools claude cursor generic"
-    },
-    {
-      "name": "goose",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "block/goose",
-      "stars": 10000,
-      "desc": "Block's extensible agent, MCP-native. Developer automation on local machines.",
-      "url": "https://github.com/block/goose",
-      "install": "pip install goose-agent",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "hermes"
-      ],
-      "searchText": "goose block's extensible agent, mcp-native. developer automation on local machines. human: block/goose pip install goose-agent dev-tools claude cursor hermes"
-    },
-    {
-      "name": "cline",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "cline/cline",
-      "stars": 28000,
-      "desc": "VS Code extension, any model, MCP. Open source, model-agnostic, community.",
-      "url": "https://github.com/cline/cline",
-      "install": "code --install-extension saoudrizwan.claude-dev",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex"
-      ],
-      "searchText": "cline vs code extension, any model, mcp. open source, model-agnostic, community. human: cline/cline code --install-extension saoudrizwan.claude-dev dev-tools claude cursor codex"
-    },
-    {
-      "name": "aider",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "Aider-AI/aider",
-      "stars": 25000,
-      "desc": "Terminal, git-aware, pair programming. CLI users, git-native, repo-wide edits.",
-      "url": "https://github.com/Aider-AI/aider",
-      "install": "pip install aider-chat",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "hermes"
-      ],
-      "searchText": "aider terminal, git-aware, pair programming. cli users, git-native, repo-wide edits. human: aider-ai/aider pip install aider-chat dev-tools claude cursor codex hermes"
-    },
-    {
-      "name": "openhands",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "All-Hands-AI/OpenHands",
-      "stars": 65000,
-      "desc": "Docker-isolated, web UI, MIT license. Sandboxed execution, evaluation benchmarks.",
-      "url": "https://github.com/All-Hands-AI/OpenHands",
-      "install": "docker pull all-hands-ai/openhands",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex"
-      ],
-      "searchText": "openhands docker-isolated, web ui, mit license. sandboxed execution, evaluation benchmarks. human: all-hands-ai/openhands docker pull all-hands-ai/openhands dev-tools claude cursor codex"
-    },
-    {
-      "name": "swe-agent",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "princeton-nlp/SWE-agent",
-      "stars": 15000,
-      "desc": "Princeton's ACI interface, benchmark-driven. Research, SWE-bench evaluation.",
-      "url": "https://github.com/princeton-nlp/SWE-agent",
-      "install": "pip install swe-agent",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude",
-        "cursor"
-      ],
-      "searchText": "swe-agent princeton's aci interface, benchmark-driven. research, swe-bench evaluation. human: princeton-nlp/swe-agent pip install swe-agent dev-tools claude cursor"
-    },
-    {
-      "name": "langfuse",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "langfuse/langfuse",
-      "stars": 10000,
-      "desc": "Open source, prompt versioning, self-hostable. Privacy-first, LangChain/CrewAI teams.",
-      "url": "https://github.com/langfuse/langfuse",
-      "install": "pip install langfuse",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "hermes",
-        "generic"
-      ],
-      "searchText": "langfuse open source, prompt versioning, self-hostable. privacy-first, langchain/crewai teams. human: langfuse/langfuse pip install langfuse dev-tools claude cursor hermes generic"
-    },
-    {
-      "name": "agentops",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "AgentOps-AI/agentops",
-      "stars": 3000,
-      "desc": "Session replay, 400+ framework integrations. Framework-agnostic, debugging agents.",
-      "url": "https://github.com/AgentOps-AI/agentops",
-      "install": "pip install agentops",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "hermes",
-        "generic"
-      ],
-      "searchText": "agentops session replay, 400+ framework integrations. framework-agnostic, debugging agents. human: agentops-ai/agentops pip install agentops dev-tools claude cursor codex hermes generic"
-    },
-    {
-      "name": "helicone",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "Helicone/helicone",
-      "stars": 4000,
-      "desc": "Gateway-based, no SDK changes needed. Drop-in observability, any provider.",
-      "url": "https://github.com/Helicone/helicone",
-      "install": "npm install helicone",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "hermes",
-        "generic"
-      ],
-      "searchText": "helicone gateway-based, no sdk changes needed. drop-in observability, any provider. human: helicone/helicone npm install helicone dev-tools claude cursor codex hermes generic"
-    },
-    {
-      "name": "arize-phoenix",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "Arize-ai/phoenix",
-      "stars": 6000,
-      "desc": "Open source, LLM evals, embeddings. ML teams, explainability.",
-      "url": "https://github.com/Arize-ai/phoenix",
-      "install": "pip install arize-phoenix",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude",
-        "hermes",
-        "generic"
-      ],
-      "searchText": "arize-phoenix open source, llm evals, embeddings. ml teams, explainability. human: arize-ai/phoenix pip install arize-phoenix dev-tools claude hermes generic"
-    },
-    {
-      "name": "open-interpreter",
-      "source": "general",
-      "sourceAgent": "claude",
-      "repo": "OpenInterpreter/open-interpreter",
-      "stars": 56000,
-      "desc": "Natural language to code execution. Local automation, full OS control.",
-      "url": "https://github.com/OpenInterpreter/open-interpreter",
-      "install": "",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tools",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "hermes",
-        "generic"
-      ],
-      "searchText": "open-interpreter natural language to code execution. local automation, full os control. human: openinterpreter/open-interpreter  dev-tools claude cursor hermes generic"
     }
   ]
 }
