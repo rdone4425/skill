@@ -3190,3 +3190,99 @@ a:hover {
     font-size: 16px;
   }
 }
+
+/* ===== Small phone breakpoint (≤400px) ===== */
+@media (max-width: 400px) {
+  .header-inner {
+    padding: 12px 10px;
+    gap: 10px;
+  }
+
+  .brand-name {
+    font-size: 20px;
+    gap: 8px;
+  }
+
+  .brand-logo {
+    width: 26px;
+    height: 26px;
+  }
+
+  .brand-badge {
+    padding: 3px 6px;
+    font-size: 9px;
+  }
+
+  .container {
+    padding: 14px 10px 48px;
+  }
+
+  .controls {
+    padding: 12px;
+  }
+
+  .search-input {
+    height: 44px;
+    font-size: 13px;
+    padding: 0 40px 0 40px;
+  }
+
+  .category-tabs {
+    gap: 6px;
+  }
+
+  .cat-tab {
+    padding: 10px 12px;
+  }
+
+  .cat-tab-label {
+    font-size: 13px;
+  }
+
+  .results,
+  .card-grid {
+    gap: 10px;
+  }
+
+  .skill-card {
+    padding: 14px;
+    border-radius: 16px;
+  }
+
+  .card-name {
+    font-size: 14px;
+  }
+
+  .card-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .results-toolbar {
+    padding: 10px 12px;
+  }
+
+  .results-heading {
+    font-size: 15px;
+  }
+
+  .results-count {
+    font-size: 15px;
+  }
+
+  .promo-section {
+    padding: 16px 14px;
+  }
+
+  .about {
+    padding: 14px;
+  }
+
+  .site-footer {
+    padding: 24px 14px;
+  }
+
+  .footer-inner {
+    gap: 12px;
+  }
+}

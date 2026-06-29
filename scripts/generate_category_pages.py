@@ -102,10 +102,36 @@ def format_stars(n):
         return f"{n/1000:.1f}k"
     return str(n)
 
-def get_agents_label(supported_agents):
-    if not supported_agents:
-        return ""
-    return ", ".join(supported_agents[:3])
+AGENT_ICON = {
+    "codex": ("C", "#6366f1"),
+    "claude": ("A", "#fb923c"),
+    "hermes": ("H", "#06b6d4"),
+    "opencode": ("O", "#22c55e"),
+    "openclaw": ("🦞", "#f97316"),
+    "cursor": ("C", "#10b981"),
+    "copilot": ("G", "#0ea5e9"),
+    "gemini": ("G", "#8b5cf6"),
+    "general": ("⚙", "#6b7280"),
+}
+AGENT_ZH = {
+    "codex": "Codex", "claude": "Claude Code", "hermes": "Hermes Agent",
+    "opencode": "OpenCode", "openclaw": "OpenClaw", "cursor": "Cursor",
+    "copilot": "GitHub Copilot", "gemini": "Gemini", "general": "通用",
+}
+AGENT_ICON_URL = {
+    "codex": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "claude": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "hermes": "https://www.google.com/s2/favicons?domain=nousresearch.com&sz=64",
+    "opencode": "https://www.google.com/s2/favicons?domain=opencode.ai&sz=64",
+    "cursor": "https://www.google.com/s2/favicons?domain=cursor.com&sz=64",
+    "copilot": "https://www.google.com/s2/favicons?domain=github.com&sz=64",
+    "gemini": "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=64",
+}
+
+def get_agent_icon(agent_id):
+    if agent_id in AGENT_ICON_URL:
+        return AGENT_ICON.get(agent_id, ("?", "#6b7280"))
+    return AGENT_ICON.get(agent_id, AGENT_ICON.get("general", ("⚙", "#6b7280")))
 
 def load_categories():
     with open("categories/index.json", encoding="utf-8") as f:
@@ -125,33 +151,54 @@ def make_card(skill):
     url = skill.get("url", f"https://github.com/{repo}") if repo else "#"
     stars = skill.get("stars", 0)
     desc = truncate(skill.get("desc", ""), 150)
-    agents = get_agents_label(skill.get("supportedAgents", []))
+    supported_agents = skill.get("supportedAgents", [])
     category_path = skill.get("categoryPath", "")
     install = skill.get("install", "")
-    pricing = ""
-    search_text = skill.get("searchText", "")
-
-    agents_html = f'<span class="card-agents">{escape_html(agents)}</span>' if agents else ""
-
     stars_str = format_stars(stars)
-    stars_html = f'<span class="card-stars">★ {stars_str}</span>' if stars else ""
+    stars_html = f'<span class="card-stars" title="{int(stars):,}">★ {stars_str}</span>' if stars else ""
 
     repo_parts = repo.split("/") if repo else []
     owner = repo_parts[0] if repo_parts else ""
-    repo_name = repo_parts[1] if len(repo_parts) > 1 else ""
+    avatar_url = f"https://github.com/{owner}.png?size=96" if owner else ""
+
+    # Primary agent icon
+    primary_agent = supported_agents[0] if supported_agents else "general"
+    icon_char, _ = get_agent_icon(primary_agent)
+    icon_html = (f'<img class="card-avatar" src="{avatar_url}" alt="{escape_html(owner)}" loading="lazy" referrerpolicy="no-referrer">'
+                 if avatar_url else f'<span class="card-emoji">{icon_char}</span>')
+
+    # Agent chips
+    agent_chips = ""
+    if supported_agents:
+        chips = []
+        for a in supported_agents[:3]:
+            char, color = get_agent_icon(a)
+            zh = AGENT_ZH.get(a, a)
+            chips.append(f'<span class="agent-chip" style="--chip-color:{color}"><span class="agent-chip-icon">{char}</span>{escape_html(zh)}</span>')
+        agent_chips = '<div class="agent-chip-list">' + "".join(chips) + "</div>"
+
+    # Install code
+    install_html = ""
+    if install:
+        esc_install = escape_html(install)
+        install_html = f'<div class="card-install" title="{esc_install}"><code>$ {esc_install}</code></div>'
 
     card = f"""<article class="card" data-category="{escape_html(category_path)}">
-  <div class="card-header">
-    <div class="card-identity">
-      <a class="card-name" href="{escape_html(url)}" target="_blank" rel="noopener">{name}</a>
-      {stars_html}
+  <div class="card-head">
+    <div class="card-icon">
+      {icon_html}
     </div>
-    <div class="card-actions">
-      <a class="card-action-btn" href="https://github.com/{escape_html(repo)}" target="_blank" rel="noopener" title="GitHub">&#x1F4BB;</a>
+    <div class="card-title-wrap">
+      <div class="card-name"><a href="{escape_html(url)}" target="_blank" rel="noopener">{name}</a></div>
+      <div class="card-repo">
+        <a href="https://github.com/{escape_html(repo)}" target="_blank" rel="noopener">{escape_html(repo)}</a>
+        {stars_html}
+      </div>
     </div>
   </div>
   <p class="card-desc">{escape_html(desc)}</p>
-  {agents_html}
+  {agent_chips}
+  {install_html}
 </article>"""
     return card
 
@@ -239,8 +286,8 @@ def make_html(category_id, skills, total_count):
   </script>
 
   <!-- Perf: preload -->
-  <link rel="preload" href="/css/style.css?v=27" as="style">
-  <link rel="stylesheet" href="/css/style.css?v=27">
+  <link rel="preload" href="/css/style.css?v=30" as="style">
+  <link rel="stylesheet" href="/css/style.css?v=30">
 </head>
 <body>
   <a class="skip-link" href="#main-content">跳到主要内容</a>
