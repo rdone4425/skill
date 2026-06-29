@@ -4,7 +4,7 @@
     "topCategoryId": "general",
     "subCategoryId": "general",
     "categoryPath": "general",
-    "count": 215,
+    "count": 420,
     "sourceData": "categories"
   },
   "skills": [
@@ -4523,6 +4523,2906 @@
         "hermes"
       ],
       "searchText": "context-engineering Context engineering and multi-Agent architecture. JackyST0/awesome-agent-skills general multi"
+    },
+    {
+      "name": "What Are Claude Skills?",
+      "url": "#what-are-claude-skills",
+      "desc": "[Skills](#skills) - [Document Processing](#document-processing) - [Development & Code Tools](#development--code-tools) - [Data & Analysis](#data--analysis) - [Business & Marketing](#business--marketin",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "What Are Claude Skills? [Skills](#skills) - [Document Processing](#document-processing) - [Development & Code Tools](#development--code-tools) - [Data & Analysis](#data--analysis) - [Business & Marketing](#business--marketin ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Getting Started",
+      "url": "#getting-started",
+      "desc": "[Creating Skills](#creating-skills)",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Getting Started [Creating Skills](#creating-skills) ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "docx",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/docx",
+      "desc": "Create, edit, analyze Word docs with tracked changes, comments, formatting.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "docx Create, edit, analyze Word docs with tracked changes, comments, formatting. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "pdf",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/pdf",
+      "desc": "Extract text, tables, metadata, merge & annotate PDFs.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "pdf Extract text, tables, metadata, merge & annotate PDFs. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "pptx",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/pptx",
+      "desc": "Read, generate, and adjust slides, layouts, templates.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "pptx Read, generate, and adjust slides, layouts, templates. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "xlsx",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
+      "desc": "Spreadsheet manipulation: formulas, charts, data transformations.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "xlsx Spreadsheet manipulation: formulas, charts, data transformations. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Markdown to EPUB Converter",
+      "url": "https://github.com/smerchek/claude-epub-skill",
+      "desc": "Converts markdown documents and chat summaries into professional EPUB ebook files. *By [@smerchek](https://github.com/smerchek)*",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Markdown to EPUB Converter Converts markdown documents and chat summaries into professional EPUB ebook files. *By [@smerchek](https://github.com/smerchek)* ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Master Claude for Legal",
+      "url": "https://github.com/sboghossian/master-claude-for-legal",
+      "desc": "Skill pack for legal teams. NDA triage, multi-party version diff, citation verifier, meeting brief, and the Friday-newsletter status synthesis pattern. Includes 10 reference docs (privilege, verificat",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Master Claude for Legal Skill pack for legal teams. NDA triage, multi-party version diff, citation verifier, meeting brief, and the Friday-newsletter status synthesis pattern. Includes 10 reference docs (privilege, verificat ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "artifacts-builder",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder",
+      "desc": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui).",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "artifacts-builder Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "aws-skills",
+      "url": "https://github.com/zxkane/aws-skills",
+      "desc": "AWS development with CDK best practices, cost optimization MCP servers, and serverless/event-driven architecture patterns.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "aws-skills AWS development with CDK best practices, cost optimization MCP servers, and serverless/event-driven architecture patterns. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "building-blog",
+      "url": "https://github.com/BuildShipGrowRepeat/nextjs-sanity-blog-skill",
+      "desc": "Adds an SEO-first, i18n-ready blog to a Next.js + Sanity site via a 40-question intake, a one-page plan, and a 20-section spec. Includes a generator for AI hero images via Gemini 3 Pro Image (Nano Ban",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "gemini",
+      "supportedAgents": [
+        "gemini"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "building-blog Adds an SEO-first, i18n-ready blog to a Next.js + Sanity site via a 40-question intake, a one-page plan, and a 20-section spec. Includes a generator for AI hero images via Gemini 3 Pro Image (Nano Ban ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Changelog Generator",
+      "url": "./changelog-generator/",
+      "desc": "Automatically creates user-facing changelogs from git commits by analyzing history and transforming technical commits into customer-friendly release notes.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Changelog Generator Automatically creates user-facing changelogs from git commits by analyzing history and transforming technical commits into customer-friendly release notes. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Chrome Relay",
+      "url": "https://chrome-relay.kushalsm.com/",
+      "desc": "Drives the user's already-open Chrome session — cookies, SSO, extensions, localhost — through a local CLI bridge. Real-Chrome counterpart to Playwright Browser Automation; install via `npx skills add ",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Chrome Relay Drives the user's already-open Chrome session — cookies, SSO, extensions, localhost — through a local CLI bridge. Real-Chrome counterpart to Playwright Browser Automation; install via `npx skills add  ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Claude Code Terminal Title",
+      "url": "https://github.com/bluzername/claude-code-terminal-title",
+      "desc": "Gives each Claud-Code terminal window a dynamic title that describes the work being done so you don't lose track of what window is doing what.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Claude Code Terminal Title Gives each Claud-Code terminal window a dynamic title that describes the work being done so you don't lose track of what window is doing what. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Connect",
+      "url": "./connect/",
+      "desc": "Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 1000+ services.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Connect Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 1000+ services. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "D3.js Visualization",
+      "url": "https://github.com/chrisvoncsefalvay/claude-d3js-skill",
+      "desc": "Teaches Claude to produce D3 charts and interactive data visualizations. *By [@chrisvoncsefalvay](https://github.com/chrisvoncsefalvay)*",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "D3.js Visualization Teaches Claude to produce D3 charts and interactive data visualizations. *By [@chrisvoncsefalvay](https://github.com/chrisvoncsefalvay)* ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "FFUF Web Fuzzing",
+      "url": "https://github.com/jthack/ffuf_claude_skill",
+      "desc": "Integrates the ffuf web fuzzer so Claude can run fuzzing tasks and analyze results for vulnerabilities. *By [@jthack](https://github.com/jthack)*",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "FFUF Web Fuzzing Integrates the ffuf web fuzzer so Claude can run fuzzing tasks and analyze results for vulnerabilities. *By [@jthack](https://github.com/jthack)* ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "url": "https://github.com/obra/superpowers/tree/main/skills/finishing-a-development-branch",
+      "desc": "Guides completion of development work by presenting clear options and handling chosen workflow.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "finishing-a-development-branch Guides completion of development work by presenting clear options and handling chosen workflow. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Full-Page Screenshot",
+      "url": "https://github.com/LewisLiu007/full-page-screenshot",
+      "desc": "Captures full-page screenshots of web pages via Chrome DevTools Protocol with zero dependencies. *By [@LewisLiu007](https://github.com/LewisLiu007)*",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Full-Page Screenshot Captures full-page screenshots of web pages via Chrome DevTools Protocol with zero dependencies. *By [@LewisLiu007](https://github.com/LewisLiu007)* ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "great_cto",
+      "url": "https://github.com/avelikiy/great_cto",
+      "desc": "Claude Code plugin: 7 specialised subagents (tech-lead, senior-dev, qa-engineer, security-officer, devops, l3-support, project-auditor) orchestrating a full SDLC pipeline — architecture, TDD, 12-angle",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "great_cto Claude Code plugin: 7 specialised subagents (tech-lead, senior-dev, qa-engineer, security-officer, devops, l3-support, project-auditor) orchestrating a full SDLC pipeline — architecture, TDD, 12-angle ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "jules",
+      "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/jules",
+      "desc": "Delegate coding tasks to Google Jules AI agent for async bug fixes, documentation, tests, and feature implementation on GitHub repos. *By [@sanjay3290](https://github.com/sanjay3290)*",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "jules Delegate coding tasks to Google Jules AI agent for async bug fixes, documentation, tests, and feature implementation on GitHub repos. *By [@sanjay3290](https://github.com/sanjay3290)* ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "LangSmith Fetch",
+      "url": "./langsmith-fetch/",
+      "desc": "Debug LangChain and LangGraph agents by automatically fetching and analyzing execution traces from LangSmith Studio. First AI observability skill for Claude Code. *By [@OthmanAdi](https://github.com/O",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "LangSmith Fetch Debug LangChain and LangGraph agents by automatically fetching and analyzing execution traces from LangSmith Studio. First AI observability skill for Claude Code. *By [@OthmanAdi](https://github.com/O ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "lean-ctx",
+      "url": "https://github.com/yvgude/lean-ctx",
+      "desc": "MCP server and context runtime for AI coding agents: session caching, AST-aware compression, and 90+ shell patterns to reduce token usage. Supports Claude Code, Cursor, Copilot, and other integrations",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "lean-ctx MCP server and context runtime for AI coding agents: session caching, AST-aware compression, and 90+ shell patterns to reduce token usage. Supports Claude Code, Cursor, Copilot, and other integrations ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "MCP Builder",
+      "url": "./mcp-builder/",
+      "desc": "Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs using Python or TypeScript.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "MCP Builder Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs using Python or TypeScript. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "move-code-quality-skill",
+      "url": "https://github.com/1NickPappas/move-code-quality-skill",
+      "desc": "Analyzes Move language packages against the official Move Book Code Quality Checklist for Move 2024 Edition compliance and best practices.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "move-code-quality-skill Analyzes Move language packages against the official Move Book Code Quality Checklist for Move 2024 Edition compliance and best practices. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "OpenWeb",
+      "url": "https://github.com/openweb-org/openweb",
+      "desc": "Agent-native way to access any website. Calls the same APIs the website calls (JSON in, JSON out) with auth (cookies, JWT, CSRF, signing) auto-resolved per request. 90+ sites built in. *By [@openweb-o",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "OpenWeb Agent-native way to access any website. Calls the same APIs the website calls (JSON in, JSON out) with auth (cookies, JWT, CSRF, signing) auto-resolved per request. 90+ sites built in. *By [@openweb-o ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "overkill",
+      "url": "https://github.com/santiago-vargas-de-kruijf/claude-overkill",
+      "desc": "Surfaces advanced, maximalist alternatives to whatever solution is being discussed — advanced data structures, distributed-systems algorithms, niche frameworks, design patterns, and frontier tooling —",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "overkill Surfaces advanced, maximalist alternatives to whatever solution is being discussed — advanced data structures, distributed-systems algorithms, niche frameworks, design patterns, and frontier tooling — ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Playwright Browser Automation",
+      "url": "https://github.com/lackeyjb/playwright-skill",
+      "desc": "Model-invoked Playwright automation for testing and validating web applications. *By [@lackeyjb](https://github.com/lackeyjb)*",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Playwright Browser Automation Model-invoked Playwright automation for testing and validating web applications. *By [@lackeyjb](https://github.com/lackeyjb)* ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "prompt-engineering",
+      "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/customaize-agent/skills/prompt-engineering",
+      "desc": "Teaches well-known prompt engineering techniques and patterns, including Anthropic best practices and agent persuasion principles.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "prompt-engineering Teaches well-known prompt engineering techniques and patterns, including Anthropic best practices and agent persuasion principles. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "pypict-claude-skill",
+      "url": "https://github.com/omkamal/pypict-claude-skill",
+      "desc": "Design comprehensive test cases using PICT (Pairwise Independent Combinatorial Testing) for requirements or code, generating optimized test suites with pairwise coverage.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "pypict-claude-skill Design comprehensive test cases using PICT (Pairwise Independent Combinatorial Testing) for requirements or code, generating optimized test suites with pairwise coverage. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "reddit-fetch",
+      "url": "https://github.com/ykdojo/claude-code-tips/tree/main/skills/reddit-fetch",
+      "desc": "Fetches Reddit content via Gemini CLI when WebFetch is blocked or returns 403 errors.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "gemini",
+      "supportedAgents": [
+        "gemini"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "reddit-fetch Fetches Reddit content via Gemini CLI when WebFetch is blocked or returns 403 errors. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Septim Agents Pack",
+      "url": "https://septimlabs.com/tools/agents?utm_source=awesome-claude-skills&utm_medium=awesome-list&utm_campaign=oss-backlink",
+      "desc": "10 named Claude Code sub-agents (Atlas, Luca, Canon, Ember, Tally, Nova, Ward, Mira, Juno, Pip) covering planning, architecture, brand, marketing, finance, design, legal, customer, research, and coord",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Septim Agents Pack 10 named Claude Code sub-agents (Atlas, Luca, Canon, Ember, Tally, Nova, Ward, Mira, Juno, Pip) covering planning, architecture, brand, marketing, finance, design, legal, customer, research, and coord ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Skill Creator",
+      "url": "./skill-creator/",
+      "desc": "Provides guidance for creating effective Claude Skills that extend capabilities with specialized knowledge, workflows, and tool integrations.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Skill Creator Provides guidance for creating effective Claude Skills that extend capabilities with specialized knowledge, workflows, and tool integrations. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Skill Seekers",
+      "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+      "desc": "Automatically converts any documentation website into a Claude AI skill in minutes. *By [@yusufkaraaslan](https://github.com/yusufkaraaslan)*",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Skill Seekers Automatically converts any documentation website into a Claude AI skill in minutes. *By [@yusufkaraaslan](https://github.com/yusufkaraaslan)* ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "software-architecture",
+      "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/ddd/skills/software-architecture",
+      "desc": "Implements design patterns including Clean Architecture, SOLID principles, and comprehensive software design best practices.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "software-architecture Implements design patterns including Clean Architecture, SOLID principles, and comprehensive software design best practices. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "test-driven-development",
+      "url": "https://github.com/obra/superpowers/tree/main/skills/test-driven-development",
+      "desc": "Use when implementing any feature or bugfix, before writing implementation code.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "test-driven-development Use when implementing any feature or bugfix, before writing implementation code. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "using-git-worktrees",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/using-git-worktrees/",
+      "desc": "Creates isolated git worktrees with smart directory selection and safety verification.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "using-git-worktrees Creates isolated git worktrees with smart directory selection and safety verification. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Webapp Testing",
+      "url": "./webapp-testing/",
+      "desc": "Tests local web applications using Playwright for verifying frontend functionality, debugging UI behavior, and capturing screenshots.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Webapp Testing Tests local web applications using Playwright for verifying frontend functionality, debugging UI behavior, and capturing screenshots. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "CSV Data Summarizer",
+      "url": "https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill",
+      "desc": "Automatically analyzes CSV files and generates comprehensive insights with visualizations without requiring user prompts. *By [@coffeefuelbump](https://github.com/coffeefuelbump)*",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "CSV Data Summarizer Automatically analyzes CSV files and generates comprehensive insights with visualizations without requiring user prompts. *By [@coffeefuelbump](https://github.com/coffeefuelbump)* ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "deep-research",
+      "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research",
+      "desc": "Execute autonomous multi-step research using Gemini Deep Research Agent for market analysis, competitive landscaping, and literature reviews. *By [@sanjay3290](https://github.com/sanjay3290)*",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "gemini",
+      "supportedAgents": [
+        "gemini"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "deep-research Execute autonomous multi-step research using Gemini Deep Research Agent for market analysis, competitive landscaping, and literature reviews. *By [@sanjay3290](https://github.com/sanjay3290)* ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "postgres",
+      "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres",
+      "desc": "Execute safe read-only SQL queries against PostgreSQL databases with multi-connection support and defense-in-depth security. *By [@sanjay3290](https://github.com/sanjay3290)*",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "postgres Execute safe read-only SQL queries against PostgreSQL databases with multi-connection support and defense-in-depth security. *By [@sanjay3290](https://github.com/sanjay3290)* ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "recursive-research",
+      "url": "https://github.com/Anjos2/recursive-research",
+      "desc": "Recursive research up to PhD level across any domain (science, tech, business, arts, humanities) with source tiering, WDM + Munger inversion for autonomous decisions, and disk checkpointing to survive",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "recursive-research Recursive research up to PhD level across any domain (science, tech, business, arts, humanities) with source tiering, WDM + Munger inversion for autonomous decisions, and disk checkpointing to survive ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "root-cause-tracing",
+      "url": "https://github.com/obra/superpowers/tree/main/skills/root-cause-tracing",
+      "desc": "Use when errors occur deep in execution and you need to trace back to find the original trigger.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "root-cause-tracing Use when errors occur deep in execution and you need to trace back to find the original trigger. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Brand Build Skills",
+      "url": "https://github.com/rampstackco/claude-skills",
+      "desc": "59-skill library covering the full website lifecycle: brand, design, content, SEO, dev, ops, growth, and research. Stack-agnostic with an Ahrefs MCP-powered SEO audit suite. Includes a meta-skill for ",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Brand Build Skills 59-skill library covering the full website lifecycle: brand, design, content, SEO, dev, ops, growth, and research. Stack-agnostic with an Ahrefs MCP-powered SEO audit suite. Includes a meta-skill for  ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Brand Guidelines",
+      "url": "./brand-guidelines/",
+      "desc": "Applies Anthropic's official brand colors and typography to artifacts for consistent visual identity and professional design standards.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Brand Guidelines Applies Anthropic's official brand colors and typography to artifacts for consistent visual identity and professional design standards. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Competitive Ads Extractor",
+      "url": "./competitive-ads-extractor/",
+      "desc": "Extracts and analyzes competitors' ads from ad libraries to understand messaging and creative approaches that resonate.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Competitive Ads Extractor Extracts and analyzes competitors' ads from ad libraries to understand messaging and creative approaches that resonate. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Domain Name Brainstormer",
+      "url": "./domain-name-brainstormer/",
+      "desc": "Generates creative domain name ideas and checks availability across multiple TLDs including .com, .io, .dev, and .ai extensions.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Domain Name Brainstormer Generates creative domain name ideas and checks availability across multiple TLDs including .com, .io, .dev, and .ai extensions. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Internal Comms",
+      "url": "./internal-comms/",
+      "desc": "Helps write internal communications including 3P updates, company newsletters, FAQs, status reports, and project updates using company-specific formats.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Internal Comms Helps write internal communications including 3P updates, company newsletters, FAQs, status reports, and project updates using company-specific formats. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Lead Research Assistant",
+      "url": "./lead-research-assistant/",
+      "desc": "Identifies and qualifies high-quality leads by analyzing your product, searching for target companies, and providing actionable outreach strategies.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Lead Research Assistant Identifies and qualifies high-quality leads by analyzing your product, searching for target companies, and providing actionable outreach strategies. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "article-extractor",
+      "url": "https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/article-extractor",
+      "desc": "Extract full article text and metadata from web pages.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "article-extractor Extract full article text and metadata from web pages. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "brainstorming",
+      "url": "https://github.com/obra/superpowers/tree/main/skills/brainstorming",
+      "desc": "Transform rough ideas into fully-formed designs through structured questioning and alternative exploration.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "brainstorming Transform rough ideas into fully-formed designs through structured questioning and alternative exploration. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Content Research Writer",
+      "url": "./content-research-writer/",
+      "desc": "Assists in writing high-quality content by conducting research, adding citations, improving hooks, and providing section-by-section feedback.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Content Research Writer Assists in writing high-quality content by conducting research, adding citations, improving hooks, and providing section-by-section feedback. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "family-history-research",
+      "url": "https://github.com/emaynard/claude-family-history-research-skill",
+      "desc": "Provides assistance with planning family history and genealogy research projects.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "family-history-research Provides assistance with planning family history and genealogy research projects. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Meeting Insights Analyzer",
+      "url": "./meeting-insights-analyzer/",
+      "desc": "Analyzes meeting transcripts to uncover behavioral patterns including conflict avoidance, speaking ratios, filler words, and leadership style.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Meeting Insights Analyzer Analyzes meeting transcripts to uncover behavioral patterns including conflict avoidance, speaking ratios, filler words, and leadership style. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "NotebookLM Integration",
+      "url": "https://github.com/PleasePrompto/notebooklm-skill",
+      "desc": "Lets Claude Code chat directly with NotebookLM for source-grounded answers based exclusively on uploaded documents. *By [@PleasePrompto](https://github.com/PleasePrompto)*",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "NotebookLM Integration Lets Claude Code chat directly with NotebookLM for source-grounded answers based exclusively on uploaded documents. *By [@PleasePrompto](https://github.com/PleasePrompto)* ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Twitter Algorithm Optimizer",
+      "url": "./twitter-algorithm-optimizer/",
+      "desc": "Analyze and optimize tweets for maximum reach using Twitter's open-source algorithm insights. Rewrite and edit tweets to improve engagement and visibility.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Twitter Algorithm Optimizer Analyze and optimize tweets for maximum reach using Twitter's open-source algorithm insights. Rewrite and edit tweets to improve engagement and visibility. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "anydesign",
+      "url": "https://github.com/uxKero/anydesign",
+      "desc": "Analyzes any image, URL, or Figma file and generates a structured `design.md` with the full design system, component inventory, and reconstruction notes — portable to v0, Lovable, Cursor or any AI bui",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "cursor",
+      "supportedAgents": [
+        "cursor"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "anydesign Analyzes any image, URL, or Figma file and generates a structured `design.md` with the full design system, component inventory, and reconstruction notes — portable to v0, Lovable, Cursor or any AI bui ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Canvas Design",
+      "url": "./canvas-design/",
+      "desc": "Creates beautiful visual art in PNG and PDF documents using design philosophy and aesthetic principles for posters, designs, and static pieces.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Canvas Design Creates beautiful visual art in PNG and PDF documents using design philosophy and aesthetic principles for posters, designs, and static pieces. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "imagen",
+      "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen",
+      "desc": "Generate images using Google Gemini's image generation API for UI mockups, icons, illustrations, and visual assets. *By [@sanjay3290](https://github.com/sanjay3290)*",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "gemini",
+      "supportedAgents": [
+        "gemini"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "imagen Generate images using Google Gemini's image generation API for UI mockups, icons, illustrations, and visual assets. *By [@sanjay3290](https://github.com/sanjay3290)* ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Image Enhancer",
+      "url": "./image-enhancer/",
+      "desc": "Improves image and screenshot quality by enhancing resolution, sharpness, and clarity for professional presentations and documentation.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Image Enhancer Improves image and screenshot quality by enhancing resolution, sharpness, and clarity for professional presentations and documentation. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Slack GIF Creator",
+      "url": "./slack-gif-creator/",
+      "desc": "Creates animated GIFs optimized for Slack with validators for size constraints and composable animation primitives.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Slack GIF Creator Creates animated GIFs optimized for Slack with validators for size constraints and composable animation primitives. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Theme Factory",
+      "url": "./theme-factory/",
+      "desc": "Applies professional font and color themes to artifacts including slides, docs, reports, and HTML landing pages with 10 pre-set themes.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Theme Factory Applies professional font and color themes to artifacts including slides, docs, reports, and HTML landing pages with 10 pre-set themes. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Video Downloader",
+      "url": "./video-downloader/",
+      "desc": "Downloads videos from YouTube and other platforms for offline viewing, editing, or archival with support for various formats and quality options.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Video Downloader Downloads videos from YouTube and other platforms for offline viewing, editing, or archival with support for various formats and quality options. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "youtube-transcript",
+      "url": "https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/youtube-transcript",
+      "desc": "Fetch transcripts from YouTube videos and prepare summaries.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "youtube-transcript Fetch transcripts from YouTube videos and prepare summaries. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "swiftui-design-skill",
+      "url": "https://github.com/wholiver/swiftui-design-skill",
+      "desc": "SwiftUI 前端设计 skill — 反 AI Slop 六条铁律、设计方向顾问、品牌资产协议、五维评审。支持 Claude Code / Cursor / Codex / OpenCode 等全部 AI agent 平台。 *By [@wholiver](https://github.com/wholiver)*",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "swiftui-design-skill SwiftUI 前端设计 skill — 反 AI Slop 六条铁律、设计方向顾问、品牌资产协议、五维评审。支持 Claude Code / Cursor / Codex / OpenCode 等全部 AI agent 平台。 *By [@wholiver](https://github.com/wholiver)* ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Pixelbin-Media-Generation",
+      "url": "https://github.com/anandpareek-hub/pixelbin-claude-skill",
+      "desc": "Generate and edit images & videos with 85+ API portfolio and build visually appealing website pages",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Pixelbin-Media-Generation Generate and edit images & videos with 85+ API portfolio and build visually appealing website pages ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "File Organizer",
+      "url": "./file-organizer/",
+      "desc": "Intelligently organizes files and folders by understanding context, finding duplicates, and suggesting better organizational structures.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "File Organizer Intelligently organizes files and folders by understanding context, finding duplicates, and suggesting better organizational structures. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Invoice Organizer",
+      "url": "./invoice-organizer/",
+      "desc": "Automatically organizes invoices and receipts for tax preparation by reading files, extracting information, and renaming consistently.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Invoice Organizer Automatically organizes invoices and receipts for tax preparation by reading files, extracting information, and renaming consistently. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "kaizen",
+      "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/kaizen/skills/kaizen",
+      "desc": "Applies continuous improvement methodology with multiple analytical approaches, based on Japanese Kaizen philosophy and Lean methodology.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "kaizen Applies continuous improvement methodology with multiple analytical approaches, based on Japanese Kaizen philosophy and Lean methodology. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "n8n-skills",
+      "url": "https://github.com/haunchen/n8n-skills",
+      "desc": "Enables AI assistants to directly understand and operate n8n workflows.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "n8n-skills Enables AI assistants to directly understand and operate n8n workflows. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Raffle Winner Picker",
+      "url": "./raffle-winner-picker/",
+      "desc": "Randomly selects winners from lists, spreadsheets, or Google Sheets for giveaways and contests with cryptographically secure randomness.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Raffle Winner Picker Randomly selects winners from lists, spreadsheets, or Google Sheets for giveaways and contests with cryptographically secure randomness. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "solo-skills",
+      "url": "https://github.com/rockscy/solo-skills",
+      "desc": "7 bilingual (EN+中文) skills for solo founders and indie devs: launch tweets, customer emails, decision frameworks, postmortems. Each skill includes an explicit \"When NOT to use\" section.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "solo-skills 7 bilingual (EN+中文) skills for solo founders and indie devs: launch tweets, customer emails, decision frameworks, postmortems. Each skill includes an explicit \"When NOT to use\" section. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Tailored Resume Generator",
+      "url": "./tailored-resume-generator/",
+      "desc": "Analyzes job descriptions and generates tailored resumes that highlight relevant experience, skills, and achievements to maximize interview chances.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Tailored Resume Generator Analyzes job descriptions and generates tailored resumes that highlight relevant experience, skills, and achievements to maximize interview chances. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "ship-learn-next",
+      "url": "https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/ship-learn-next",
+      "desc": "Skill to help iterate on what to build or learn next, based on feedback loops.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "ship-learn-next Skill to help iterate on what to build or learn next, based on feedback loops. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "tapestry",
+      "url": "https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/tapestry",
+      "desc": "Interlink and summarize related documents into knowledge networks.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "tapestry Interlink and summarize related documents into knowledge networks. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "git-pushing",
+      "url": "https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/git-pushing",
+      "desc": "Automate git operations and repository interactions.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "git-pushing Automate git operations and repository interactions. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "google-workspace-skills",
+      "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills",
+      "desc": "Suite of Google Workspace integrations: Gmail, Calendar, Chat, Docs, Sheets, Slides, and Drive with cross-platform OAuth. *By [@sanjay3290](https://github.com/sanjay3290)*",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "google-workspace-skills Suite of Google Workspace integrations: Gmail, Calendar, Chat, Docs, Sheets, Slides, and Drive with cross-platform OAuth. *By [@sanjay3290](https://github.com/sanjay3290)* ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "mercury-mcp",
+      "url": "https://www.teamoffsite.ai/proton/docs/skill",
+      "desc": "Cheatsheet for the Mercury (Proton) MCP tools. Message agent teammates, manage threads, create tasks, and schedule automations across coordinated agent teams. *By [Mercury](https://mercury.build)*",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "mercury-mcp Cheatsheet for the Mercury (Proton) MCP tools. Message agent teammates, manage threads, create tasks, and schedule automations across coordinated agent teams. *By [Mercury](https://mercury.build)* ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "outline",
+      "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/outline",
+      "desc": "Search, read, create, and manage documents in Outline wiki instances (cloud or self-hosted). *By [@sanjay3290](https://github.com/sanjay3290)*",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "outline Search, read, create, and manage documents in Outline wiki instances (cloud or self-hosted). *By [@sanjay3290](https://github.com/sanjay3290)* ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "review-implementing",
+      "url": "https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/review-implementing",
+      "desc": "Evaluate code implementation plans and align with specs.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "review-implementing Evaluate code implementation plans and align with specs. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "test-fixing",
+      "url": "https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/test-fixing",
+      "desc": "Detect failing tests and propose patches or fixes.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "test-fixing Detect failing tests and propose patches or fixes. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "computer-forensics",
+      "url": "https://github.com/mhattingpete/claude-skills-marketplace/tree/main/computer-forensics-skills/skills/computer-forensics",
+      "desc": "Digital forensics analysis and investigation techniques.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "computer-forensics Digital forensics analysis and investigation techniques. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "file-deletion",
+      "url": "https://github.com/mhattingpete/claude-skills-marketplace/tree/main/computer-forensics-skills/skills/file-deletion",
+      "desc": "Secure file deletion and data sanitization methods.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "file-deletion Secure file deletion and data sanitization methods. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "metadata-extraction",
+      "url": "https://github.com/mhattingpete/claude-skills-marketplace/tree/main/computer-forensics-skills/skills/metadata-extraction",
+      "desc": "Extract and analyze file metadata for forensic purposes.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "metadata-extraction Extract and analyze file metadata for forensic purposes. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "ASD-AuDHD-PAI-Skills",
+      "url": "https://github.com/emory/ASD-AuDHD-PAI-Skills",
+      "desc": "New collection, first skill [pda-reframing](https://github.com/emory/ASD-AuDHD-PAI-Skills/blob/main/Skills/pda-reframing/SKILL.md) can reframe requests or decisions to defeat Persistent Demand Avoidan",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "ASD-AuDHD-PAI-Skills New collection, first skill [pda-reframing](https://github.com/emory/ASD-AuDHD-PAI-Skills/blob/main/Skills/pda-reframing/SKILL.md) can reframe requests or decisions to defeat Persistent Demand Avoidan ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Close Automation",
+      "url": "./close-automation/",
+      "desc": "Automate Close CRM: leads, contacts, opportunities, activities, and pipelines.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Close Automation Automate Close CRM: leads, contacts, opportunities, activities, and pipelines. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "HubSpot Automation",
+      "url": "./hubspot-automation/",
+      "desc": "Automate HubSpot CRM: contacts, deals, companies, tickets, and email engagement.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "HubSpot Automation Automate HubSpot CRM: contacts, deals, companies, tickets, and email engagement. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Pipedrive Automation",
+      "url": "./pipedrive-automation/",
+      "desc": "Automate Pipedrive: deals, contacts, organizations, activities, and pipelines.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Pipedrive Automation Automate Pipedrive: deals, contacts, organizations, activities, and pipelines. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Salesforce Automation",
+      "url": "./salesforce-automation/",
+      "desc": "Automate Salesforce: objects, records, SOQL queries, and bulk operations.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Salesforce Automation Automate Salesforce: objects, records, SOQL queries, and bulk operations. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Zoho CRM Automation",
+      "url": "./zoho-crm-automation/",
+      "desc": "Automate Zoho CRM: leads, contacts, deals, accounts, and modules.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Zoho CRM Automation Automate Zoho CRM: leads, contacts, deals, accounts, and modules. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Asana Automation",
+      "url": "./asana-automation/",
+      "desc": "Automate Asana: tasks, projects, sections, assignments, and workspaces.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Asana Automation Automate Asana: tasks, projects, sections, assignments, and workspaces. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Basecamp Automation",
+      "url": "./basecamp-automation/",
+      "desc": "Automate Basecamp: to-do lists, messages, people, groups, and projects.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Basecamp Automation Automate Basecamp: to-do lists, messages, people, groups, and projects. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "ClickUp Automation",
+      "url": "./clickup-automation/",
+      "desc": "Automate ClickUp: tasks, lists, spaces, goals, and time tracking.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "ClickUp Automation Automate ClickUp: tasks, lists, spaces, goals, and time tracking. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Jira Automation",
+      "url": "./jira-automation/",
+      "desc": "Automate Jira: issues, projects, boards, sprints, and JQL queries.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Jira Automation Automate Jira: issues, projects, boards, sprints, and JQL queries. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Linear Automation",
+      "url": "./linear-automation/",
+      "desc": "Automate Linear: issues, projects, cycles, teams, and workflows.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Linear Automation Automate Linear: issues, projects, cycles, teams, and workflows. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Monday Automation",
+      "url": "./monday-automation/",
+      "desc": "Automate Monday.com: boards, items, columns, groups, and workspaces.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Monday Automation Automate Monday.com: boards, items, columns, groups, and workspaces. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Notion Automation",
+      "url": "./notion-automation/",
+      "desc": "Automate Notion: pages, databases, blocks, comments, and search.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Notion Automation Automate Notion: pages, databases, blocks, comments, and search. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Todoist Automation",
+      "url": "./todoist-automation/",
+      "desc": "Automate Todoist: tasks, projects, sections, labels, and filters.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Todoist Automation Automate Todoist: tasks, projects, sections, labels, and filters. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Trello Automation",
+      "url": "./trello-automation/",
+      "desc": "Automate Trello: boards, cards, lists, members, and checklists.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Trello Automation Automate Trello: boards, cards, lists, members, and checklists. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Wrike Automation",
+      "url": "./wrike-automation/",
+      "desc": "Automate Wrike: tasks, folders, projects, comments, and workflows.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Wrike Automation Automate Wrike: tasks, folders, projects, comments, and workflows. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Discord Automation",
+      "url": "./discord-automation/",
+      "desc": "Automate Discord: messages, channels, servers, roles, and reactions.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Discord Automation Automate Discord: messages, channels, servers, roles, and reactions. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Intercom Automation",
+      "url": "./intercom-automation/",
+      "desc": "Automate Intercom: conversations, contacts, companies, tickets, and articles.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Intercom Automation Automate Intercom: conversations, contacts, companies, tickets, and articles. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Microsoft Teams Automation",
+      "url": "./microsoft-teams-automation/",
+      "desc": "Automate Teams: messages, channels, teams, chats, and meetings.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Microsoft Teams Automation Automate Teams: messages, channels, teams, chats, and meetings. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Slack Automation",
+      "url": "./slack-automation/",
+      "desc": "Automate Slack: messages, channels, search, reactions, threads, and scheduling.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Slack Automation Automate Slack: messages, channels, search, reactions, threads, and scheduling. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Telegram Automation",
+      "url": "./telegram-automation/",
+      "desc": "Automate Telegram: messages, chats, media, groups, and bots.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Telegram Automation Automate Telegram: messages, chats, media, groups, and bots. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "WhatsApp Automation",
+      "url": "./whatsapp-automation/",
+      "desc": "Automate WhatsApp: messages, media, templates, groups, and business profiles.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "WhatsApp Automation Automate WhatsApp: messages, media, templates, groups, and business profiles. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Gmail Automation",
+      "url": "./gmail-automation/",
+      "desc": "Automate Gmail: send/reply, search, labels, drafts, and attachments.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Gmail Automation Automate Gmail: send/reply, search, labels, drafts, and attachments. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Outlook Automation",
+      "url": "./outlook-automation/",
+      "desc": "Automate Outlook: emails, folders, contacts, and calendar integration.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Outlook Automation Automate Outlook: emails, folders, contacts, and calendar integration. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Postmark Automation",
+      "url": "./postmark-automation/",
+      "desc": "Automate Postmark: transactional emails, templates, servers, and delivery stats.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Postmark Automation Automate Postmark: transactional emails, templates, servers, and delivery stats. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "SendGrid Automation",
+      "url": "./sendgrid-automation/",
+      "desc": "Automate SendGrid: emails, templates, contacts, lists, and campaign stats.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "SendGrid Automation Automate SendGrid: emails, templates, contacts, lists, and campaign stats. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Bitbucket Automation",
+      "url": "./bitbucket-automation/",
+      "desc": "Automate Bitbucket: repos, PRs, branches, issues, and workspaces.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Bitbucket Automation Automate Bitbucket: repos, PRs, branches, issues, and workspaces. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "CircleCI Automation",
+      "url": "./circleci-automation/",
+      "desc": "Automate CircleCI: pipelines, workflows, jobs, and project configuration.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "CircleCI Automation Automate CircleCI: pipelines, workflows, jobs, and project configuration. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Datadog Automation",
+      "url": "./datadog-automation/",
+      "desc": "Automate Datadog: monitors, dashboards, metrics, incidents, and alerts.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Datadog Automation Automate Datadog: monitors, dashboards, metrics, incidents, and alerts. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "GitHub Automation",
+      "url": "./github-automation/",
+      "desc": "Automate GitHub: issues, PRs, repos, branches, actions, and code search.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "GitHub Automation Automate GitHub: issues, PRs, repos, branches, actions, and code search. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "GitLab Automation",
+      "url": "./gitlab-automation/",
+      "desc": "Automate GitLab: issues, MRs, projects, pipelines, and branches.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "GitLab Automation Automate GitLab: issues, MRs, projects, pipelines, and branches. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "PagerDuty Automation",
+      "url": "./pagerduty-automation/",
+      "desc": "Automate PagerDuty: incidents, services, schedules, escalation policies, and on-call.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "PagerDuty Automation Automate PagerDuty: incidents, services, schedules, escalation policies, and on-call. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Render Automation",
+      "url": "./render-automation/",
+      "desc": "Automate Render: services, deploys, and project management.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Render Automation Automate Render: services, deploys, and project management. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Sentry Automation",
+      "url": "./sentry-automation/",
+      "desc": "Automate Sentry: issues, events, projects, releases, and alerts.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Sentry Automation Automate Sentry: issues, events, projects, releases, and alerts. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Supabase Automation",
+      "url": "./supabase-automation/",
+      "desc": "Automate Supabase: SQL queries, table schemas, edge functions, and storage.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Supabase Automation Automate Supabase: SQL queries, table schemas, edge functions, and storage. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Vercel Automation",
+      "url": "./vercel-automation/",
+      "desc": "Automate Vercel: deployments, projects, domains, environment variables, and logs.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Vercel Automation Automate Vercel: deployments, projects, domains, environment variables, and logs. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Box Automation",
+      "url": "./box-automation/",
+      "desc": "Automate Box: files, folders, search, sharing, collaborations, and sign requests.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Box Automation Automate Box: files, folders, search, sharing, collaborations, and sign requests. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Dropbox Automation",
+      "url": "./dropbox-automation/",
+      "desc": "Automate Dropbox: files, folders, search, sharing, and batch operations.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Dropbox Automation Automate Dropbox: files, folders, search, sharing, and batch operations. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Google Drive Automation",
+      "url": "./google-drive-automation/",
+      "desc": "Automate Google Drive: upload, download, search, share, and organize files.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Google Drive Automation Automate Google Drive: upload, download, search, share, and organize files. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "OneDrive Automation",
+      "url": "./one-drive-automation/",
+      "desc": "Automate OneDrive: files, folders, search, sharing, permissions, and versioning.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "OneDrive Automation Automate OneDrive: files, folders, search, sharing, permissions, and versioning. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Airtable Automation",
+      "url": "./airtable-automation/",
+      "desc": "Automate Airtable: records, tables, bases, views, and field management.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Airtable Automation Automate Airtable: records, tables, bases, views, and field management. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Coda Automation",
+      "url": "./coda-automation/",
+      "desc": "Automate Coda: docs, tables, rows, formulas, and automations.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Coda Automation Automate Coda: docs, tables, rows, formulas, and automations. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Google Sheets Automation",
+      "url": "./googlesheets-automation/",
+      "desc": "Automate Google Sheets: read/write cells, formatting, formulas, and batch operations.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Google Sheets Automation Automate Google Sheets: read/write cells, formatting, formulas, and batch operations. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Cal.com Automation",
+      "url": "./cal-com-automation/",
+      "desc": "Automate Cal.com: event types, bookings, availability, and scheduling.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Cal.com Automation Automate Cal.com: event types, bookings, availability, and scheduling. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Calendly Automation",
+      "url": "./calendly-automation/",
+      "desc": "Automate Calendly: events, invitees, event types, scheduling links, and availability.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Calendly Automation Automate Calendly: events, invitees, event types, scheduling links, and availability. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Google Calendar Automation",
+      "url": "./google-calendar-automation/",
+      "desc": "Automate Google Calendar: events, attendees, free/busy, and recurring schedules.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Google Calendar Automation Automate Google Calendar: events, attendees, free/busy, and recurring schedules. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Outlook Calendar Automation",
+      "url": "./outlook-calendar-automation/",
+      "desc": "Automate Outlook Calendar: events, attendees, reminders, and recurring schedules.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Outlook Calendar Automation Automate Outlook Calendar: events, attendees, reminders, and recurring schedules. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Instagram Automation",
+      "url": "./instagram-automation/",
+      "desc": "Automate Instagram: posts, stories, comments, media, and business insights.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Instagram Automation Automate Instagram: posts, stories, comments, media, and business insights. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "LinkedIn Automation",
+      "url": "./linkedin-automation/",
+      "desc": "Automate LinkedIn: posts, profiles, companies, images, and comments.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "LinkedIn Automation Automate LinkedIn: posts, profiles, companies, images, and comments. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Reddit Automation",
+      "url": "./reddit-automation/",
+      "desc": "Automate Reddit: posts, comments, subreddits, voting, and moderation.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Reddit Automation Automate Reddit: posts, comments, subreddits, voting, and moderation. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "TikTok Automation",
+      "url": "./tiktok-automation/",
+      "desc": "Automate TikTok: video uploads, queries, and creator management.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "TikTok Automation Automate TikTok: video uploads, queries, and creator management. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Twitter Automation",
+      "url": "./twitter-automation/",
+      "desc": "Automate Twitter/X: tweets, search, users, lists, and engagement.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Twitter Automation Automate Twitter/X: tweets, search, users, lists, and engagement. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "YouTube Automation",
+      "url": "./youtube-automation/",
+      "desc": "Automate YouTube: videos, channels, playlists, comments, and subscriptions.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "YouTube Automation Automate YouTube: videos, channels, playlists, comments, and subscriptions. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "ActiveCampaign Automation",
+      "url": "./activecampaign-automation/",
+      "desc": "Automate ActiveCampaign: contacts, deals, campaigns, lists, and automations.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "ActiveCampaign Automation Automate ActiveCampaign: contacts, deals, campaigns, lists, and automations. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Brevo Automation",
+      "url": "./brevo-automation/",
+      "desc": "Automate Brevo: contacts, email campaigns, transactional emails, and lists.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Brevo Automation Automate Brevo: contacts, email campaigns, transactional emails, and lists. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "ConvertKit Automation",
+      "url": "./convertkit-automation/",
+      "desc": "Automate ConvertKit (Kit): subscribers, tags, sequences, broadcasts, and forms.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "ConvertKit Automation Automate ConvertKit (Kit): subscribers, tags, sequences, broadcasts, and forms. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Klaviyo Automation",
+      "url": "./klaviyo-automation/",
+      "desc": "Automate Klaviyo: profiles, lists, segments, campaigns, and events.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Klaviyo Automation Automate Klaviyo: profiles, lists, segments, campaigns, and events. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Mailchimp Automation",
+      "url": "./mailchimp-automation/",
+      "desc": "Automate Mailchimp: audiences, campaigns, templates, segments, and reports.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Mailchimp Automation Automate Mailchimp: audiences, campaigns, templates, segments, and reports. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Freshdesk Automation",
+      "url": "./freshdesk-automation/",
+      "desc": "Automate Freshdesk: tickets, contacts, agents, groups, and canned responses.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Freshdesk Automation Automate Freshdesk: tickets, contacts, agents, groups, and canned responses. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Freshservice Automation",
+      "url": "./freshservice-automation/",
+      "desc": "Automate Freshservice: tickets, assets, changes, problems, and service catalog.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Freshservice Automation Automate Freshservice: tickets, assets, changes, problems, and service catalog. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Help Scout Automation",
+      "url": "./helpdesk-automation/",
+      "desc": "Automate Help Scout: conversations, customers, mailboxes, and tags.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Help Scout Automation Automate Help Scout: conversations, customers, mailboxes, and tags. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Zendesk Automation",
+      "url": "./zendesk-automation/",
+      "desc": "Automate Zendesk: tickets, users, organizations, search, and macros.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Zendesk Automation Automate Zendesk: tickets, users, organizations, search, and macros. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Shopify Automation",
+      "url": "./shopify-automation/",
+      "desc": "Automate Shopify: products, orders, customers, inventory, and GraphQL queries.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Shopify Automation Automate Shopify: products, orders, customers, inventory, and GraphQL queries. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Square Automation",
+      "url": "./square-automation/",
+      "desc": "Automate Square: payments, customers, catalog, orders, and locations.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Square Automation Automate Square: payments, customers, catalog, orders, and locations. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Stripe Automation",
+      "url": "./stripe-automation/",
+      "desc": "Automate Stripe: charges, customers, products, subscriptions, and refunds.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Stripe Automation Automate Stripe: charges, customers, products, subscriptions, and refunds. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Canva Automation",
+      "url": "./canva-automation/",
+      "desc": "Automate Canva: designs, templates, assets, folders, and brand kits.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Canva Automation Automate Canva: designs, templates, assets, folders, and brand kits. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Confluence Automation",
+      "url": "./confluence-automation/",
+      "desc": "Automate Confluence: pages, spaces, search, CQL, labels, and versions.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Confluence Automation Automate Confluence: pages, spaces, search, CQL, labels, and versions. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "DocuSign Automation",
+      "url": "./docusign-automation/",
+      "desc": "Automate DocuSign: envelopes, templates, signing, and document management.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "DocuSign Automation Automate DocuSign: envelopes, templates, signing, and document management. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Figma Automation",
+      "url": "./figma-automation/",
+      "desc": "Automate Figma: files, components, comments, projects, and team management.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Figma Automation Automate Figma: files, components, comments, projects, and team management. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Miro Automation",
+      "url": "./miro-automation/",
+      "desc": "Automate Miro: boards, sticky notes, shapes, connectors, and items.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Miro Automation Automate Miro: boards, sticky notes, shapes, connectors, and items. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Webflow Automation",
+      "url": "./webflow-automation/",
+      "desc": "Automate Webflow: CMS collections, items, sites, publishing, and assets.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Webflow Automation Automate Webflow: CMS collections, items, sites, publishing, and assets. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Amplitude Automation",
+      "url": "./amplitude-automation/",
+      "desc": "Automate Amplitude: events, cohorts, user properties, and analytics queries.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Amplitude Automation Automate Amplitude: events, cohorts, user properties, and analytics queries. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Google Analytics Automation",
+      "url": "./google-analytics-automation/",
+      "desc": "Automate Google Analytics: reports, dimensions, metrics, and property management.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Google Analytics Automation Automate Google Analytics: reports, dimensions, metrics, and property management. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Mixpanel Automation",
+      "url": "./mixpanel-automation/",
+      "desc": "Automate Mixpanel: events, funnels, cohorts, annotations, and JQL queries.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Mixpanel Automation Automate Mixpanel: events, funnels, cohorts, annotations, and JQL queries. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "PostHog Automation",
+      "url": "./posthog-automation/",
+      "desc": "Automate PostHog: events, persons, feature flags, insights, and annotations.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "PostHog Automation Automate PostHog: events, persons, feature flags, insights, and annotations. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Segment Automation",
+      "url": "./segment-automation/",
+      "desc": "Automate Segment: sources, destinations, tracking, and warehouse connections.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Segment Automation Automate Segment: sources, destinations, tracking, and warehouse connections. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "BambooHR Automation",
+      "url": "./bamboohr-automation/",
+      "desc": "Automate BambooHR: employees, time off, reports, and directory management.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "BambooHR Automation Automate BambooHR: employees, time off, reports, and directory management. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Make Automation",
+      "url": "./make-automation/",
+      "desc": "Automate Make (Integromat): scenarios, connections, and execution management.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Make Automation Automate Make (Integromat): scenarios, connections, and execution management. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Zoom Automation",
+      "url": "./zoom-automation/",
+      "desc": "Automate Zoom: meetings, recordings, participants, webinars, and reports.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Zoom Automation Automate Zoom: meetings, recordings, participants, webinars, and reports. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Claude Skills Overview",
+      "url": "https://www.anthropic.com/news/skills",
+      "desc": "Official announcement and features",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Claude Skills Overview Official announcement and features ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Creating Custom Skills",
+      "url": "https://support.claude.com/en/articles/12512198-creating-custom-skills",
+      "desc": "Skill development guide",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Creating Custom Skills Skill development guide ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Skills API Documentation",
+      "url": "https://docs.claude.com/en/api/skills-guide",
+      "desc": "API integration guide",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Skills API Documentation API integration guide ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Agent Skills Blog Post",
+      "url": "https://anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
+      "desc": "Engineering deep dive",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Agent Skills Blog Post Engineering deep dive ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Anthropic Skills Repository",
+      "url": "https://github.com/anthropics/skills",
+      "desc": "Official example skills",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Anthropic Skills Repository Official example skills ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Claude Community",
+      "url": "https://community.anthropic.com",
+      "desc": "Discuss skills with other users",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Claude Community Discuss skills with other users ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Skills Marketplace",
+      "url": "https://claude.ai/marketplace",
+      "desc": "Discover and share skills",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Skills Marketplace Discover and share skills ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Lenny's Newsletter",
+      "url": "https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code",
+      "desc": "50 ways people use Claude Code",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Lenny's Newsletter 50 ways people use Claude Code ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Notion Skills",
+      "url": "https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0",
+      "desc": "Notion integration skills",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Notion Skills Notion integration skills ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Join our Discord",
+      "url": "https://discord.com/invite/composio",
+      "desc": "Chat with other developers building Claude Skills",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Join our Discord Chat with other developers building Claude Skills ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "Follow on Twitter/X",
+      "url": "https://x.com/composio",
+      "desc": "Stay updated on new skills and features",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "Follow on Twitter/X Stay updated on new skills and features ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "AgentsKB",
+      "url": "https://agentskb.com",
+      "desc": "Upgrade your AI with researched answers. We did the research so your AI gets it right the first time.",
+      "source": "ComposioHQ/awesome-claude-skills",
+      "sourceAgent": "claude",
+      "supportedAgents": [
+        "claude"
+      ],
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "stars": 0,
+      "functionCategory": "general",
+      "searchText": "AgentsKB Upgrade your AI with researched answers. We did the research so your AI gets it right the first time. ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "name": "@libukai",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: @libukai",
+      "url": "https://x.com/libukai",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "@libukai Agent skill resource: @libukai libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "@李不凯正在研究",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: @李不凯正在研究",
+      "url": "https://mp.weixin.qq.com/s/uer7HvD2Z9ZbJSPEZWHKRA?scene=0&subscene=90",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "@李不凯正在研究 Agent skill resource: @李不凯正在研究 libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "skillsmp",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: skillsmp",
+      "url": "https://skillsmp.com/zh",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "skillsmp Agent skill resource: skillsmp libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "skills.sh",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: skills.sh",
+      "url": "https://skills.sh/",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "skills.sh Agent skill resource: skills.sh libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "vercel-labs/skills",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: vercel-labs/skills",
+      "url": "https://github.com/vercel-labs/skills",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "vercel-labs/skills Agent skill resource: vercel-labs/skills libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "SkillHub",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: SkillHub",
+      "url": "https://skillhub.tencent.com/",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "SkillHub Agent skill resource: SkillHub libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "Claude Agent Skills First Principles Deep Dive",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: Claude Agent Skills First Principles Deep Dive",
+      "url": "https://skills.deeptoai.com/zh/docs/ai-ml/claude-agent-skills-first-principles-deep-dive",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Claude Agent Skills First Principles Deep Dive Agent skill resource: Claude Agent Skills First Principles Deep Dive libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "Agent Skill: From Usage to Principles, All in One",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: Agent Skill: From Usage to Principles, All in One",
+      "url": "https://www.youtube.com/watch?v=yDc0_8emz7M",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Agent Skill: From Usage to Principles, All in One Agent skill resource: Agent Skill: From Usage to Principles, All in One libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "Stop Building Agents, the Future is Skills",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: Stop Building Agents, the Future is Skills",
+      "url": "https://www.youtube.com/watch?v=xeoWgfkxADI",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Stop Building Agents, the Future is Skills Agent skill resource: Stop Building Agents, the Future is Skills libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "OpenCode + GLM + Agent Skills for High-Quality Dev Environment",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "opencode",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: OpenCode + GLM + Agent Skills for High-Quality Dev Environment",
+      "url": "https://www.youtube.com/watch?v=mGzY2bCoVhU",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "opencode"
+      ],
+      "searchText": "OpenCode + GLM + Agent Skills for High-Quality Dev Environment Agent skill resource: OpenCode + GLM + Agent Skills for High-Quality Dev Environment libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "superpowers",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "superpowers Agent skill resource: superpowers libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "frontend-design",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: frontend-design",
+      "url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/frontend-design",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "frontend-design Agent skill resource: frontend-design libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "ui-ux-pro-max-skill",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "ui-ux-pro-max-skill Agent skill resource: ui-ux-pro-max-skill libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "code-review",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: code-review",
+      "url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-review",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "code-review Agent skill resource: code-review libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "code-simplifier",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: code-simplifier",
+      "url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "code-simplifier Agent skill resource: code-simplifier libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "commit-commands",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: commit-commands",
+      "url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/commit-commands",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "commit-commands Agent skill resource: commit-commands libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "baoyu-skills",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: baoyu-skills",
+      "url": "https://github.com/JimLiu/baoyu-skills",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "baoyu-skills Agent skill resource: baoyu-skills libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "op7418",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: op7418",
+      "url": "https://github.com/op7418",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "op7418 Agent skill resource: op7418 libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "cclank",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: cclank",
+      "url": "https://github.com/cclank/news-aggregator-skill",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "cclank Agent skill resource: cclank libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "huangserva",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: huangserva",
+      "url": "https://github.com/huangserva/skill-prompt-generator",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "huangserva Agent skill resource: huangserva libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "dontbesilent",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: dontbesilent",
+      "url": "https://github.com/dontbesilent2025/dbskill",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "dontbesilent Agent skill resource: dontbesilent libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "seekjourney",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: seekjourney",
+      "url": "https://github.com/geekjourneyx/md2wechat-skill/",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "seekjourney Agent skill resource: seekjourney libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "notebooklm",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: notebooklm",
+      "url": "https://github.com/teng-lin/notebooklm-py",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "notebooklm Agent skill resource: notebooklm libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "threejs",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: threejs",
+      "url": "https://github.com/cloudai-x/threejs-skills",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "threejs Agent skill resource: threejs libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "office-hours",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: office-hours",
+      "url": "https://github.com/garrytan/gstack/tree/main/office-hours",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "office-hours Agent skill resource: office-hours libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "marketingskills",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "marketingskills Agent skill resource: marketingskills libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "scientific-skills",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: scientific-skills",
+      "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "scientific-skills Agent skill resource: scientific-skills libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "slowmist-agent-security skill",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: slowmist-agent-security skill",
+      "url": "https://github.com/slowmist/slowmist-agent-security",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "slowmist-agent-security skill Agent skill resource: slowmist-agent-security skill libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "OpenClaw Minimal Security Practice Guide",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: OpenClaw Minimal Security Practice Guide",
+      "url": "https://github.com/slowmist/openclaw-security-practice-guide",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "OpenClaw Minimal Security Practice Guide Agent skill resource: OpenClaw Minimal Security Practice Guide libukai/awesome-agent-skills general"
+    },
+    {
+      "name": "skill-creator",
+      "source": "libukai/awesome-agent-skills",
+      "sourceAgent": "claude",
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4775,
+      "desc": "Agent skill resource: skill-creator",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
+      "install": "",
+      "functionCategory": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "skill-creator Agent skill resource: skill-creator libukai/awesome-agent-skills general"
     }
   ]
 }

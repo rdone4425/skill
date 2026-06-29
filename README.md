@@ -244,3 +244,25 @@ node .github/scripts/refresh_skill_hub_data.mjs --root . --verbose
 ## License
 
 MIT
+
+
+## Sources
+
+Skills aggregated from these awesome community repositories:
+
+| Source | Stars | Skills |
+|--------|-------|--------|
+| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 26,753★ | 1,049 |
+| [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) | 13,794★ | 21 |
+| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 66,235★ | 175 |
+| [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) | 9,652★ | 159 |
+| [heilcheng/awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills) | 5,905★ | 32 |
+| [libukai/awesome-agent-skills](https://github.com/libukai/awesome-agent-skills) | 4,775★ | 30 |
+| [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) | 4,269★ | 13 |
+| [Prat011/awesome-llm-skills](https://github.com/Prat011/awesome-llm-skills) | 1,347★ | 67 |
+| [bergside/awesome-design-skills](https://github.com/bergside/awesome-design-skills) | 1,440★ | 66 |
+| [RKiding/Awesome-finance-skills](https://github.com/RKiding/Awesome-finance-skills) | 2,616★ | 12 |
+| [JackyST0/awesome-agent-skills](https://github.com/JackyST0/awesome-agent-skills) | 576★ | 44 |
+| [Code-and-Sorts/awesome-copilot-agents](https://github.com/Code-and-Sorts/awesome-copilot-agents) | 541★ | 34 |
+
+**Total source stars: 137,903★**

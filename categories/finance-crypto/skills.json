@@ -4,7 +4,7 @@
     "topCategoryId": "business",
     "subCategoryId": "finance",
     "categoryPath": "finance-crypto",
-    "count": 25,
+    "count": 37,
     "sourceData": "categories"
   },
   "skills": [
@@ -497,6 +497,186 @@
         "hermes"
       ],
       "searchText": "value-prop-statements Generate value prop statements for marketing, sales, and onboarding VoltAgent/awesome-agent-skills finance-crypto multi"
+    },
+    {
+      "name": "alphaear-news",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: alphaear-news",
+      "url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/alphaear-news",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "alphaear-news Finance AI skill: alphaear-news RKiding/Awesome-finance-skills finance-crypto"
+    },
+    {
+      "name": "alphaear-news",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: alphaear-news",
+      "url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/alphaear-news",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "alphaear-news Finance AI skill: alphaear-news RKiding/Awesome-finance-skills finance-crypto"
+    },
+    {
+      "name": "📦 Included Skills",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: 📦 Included Skills",
+      "url": "https://github.com/RKiding/Awesome-finance-skills",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "📦 Included Skills Finance AI skill: 📦 Included Skills RKiding/Awesome-finance-skills finance-crypto"
+    },
+    {
+      "name": "🔧 Integration Guide",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: 🔧 Integration Guide",
+      "url": "https://github.com/RKiding/Awesome-finance-skills",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "🔧 Integration Guide Finance AI skill: 🔧 Integration Guide RKiding/Awesome-finance-skills finance-crypto"
+    },
+    {
+      "name": "🔗 Related Project",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: 🔗 Related Project",
+      "url": "https://github.com/RKiding/Awesome-finance-skills",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "🔗 Related Project Finance AI skill: 🔗 Related Project RKiding/Awesome-finance-skills finance-crypto"
+    },
+    {
+      "name": "✨ 核心亮点",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: ✨ 核心亮点",
+      "url": "https://github.com/RKiding/Awesome-finance-skills",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "✨ 核心亮点 Finance AI skill: ✨ 核心亮点 RKiding/Awesome-finance-skills finance-crypto"
+    },
+    {
+      "name": "🚀 快速开始",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: 🚀 快速开始",
+      "url": "https://github.com/RKiding/Awesome-finance-skills",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "🚀 快速开始 Finance AI skill: 🚀 快速开始 RKiding/Awesome-finance-skills finance-crypto"
+    },
+    {
+      "name": "方式一：一键安装（推荐）",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: 方式一：一键安装（推荐）",
+      "url": "https://github.com/RKiding/Awesome-finance-skills",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "方式一：一键安装（推荐） Finance AI skill: 方式一：一键安装（推荐） RKiding/Awesome-finance-skills finance-crypto"
+    },
+    {
+      "name": "方式二：手动安装",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: 方式二：手动安装",
+      "url": "https://github.com/RKiding/Awesome-finance-skills",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "方式二：手动安装 Finance AI skill: 方式二：手动安装 RKiding/Awesome-finance-skills finance-crypto"
+    },
+    {
+      "name": "📦 技能清单",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: 📦 技能清单",
+      "url": "https://github.com/RKiding/Awesome-finance-skills",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "📦 技能清单 Finance AI skill: 📦 技能清单 RKiding/Awesome-finance-skills finance-crypto"
+    },
+    {
+      "name": "🔧 技能接入指南",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: 🔧 技能接入指南",
+      "url": "https://github.com/RKiding/Awesome-finance-skills",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "🔧 技能接入指南 Finance AI skill: 🔧 技能接入指南 RKiding/Awesome-finance-skills finance-crypto"
+    },
+    {
+      "name": "🔗 完整框架",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: 🔗 完整框架",
+      "url": "https://github.com/RKiding/Awesome-finance-skills",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "🔗 完整框架 Finance AI skill: 🔗 完整框架 RKiding/Awesome-finance-skills finance-crypto"
     }
   ]
 }

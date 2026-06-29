@@ -4,7 +4,7 @@
     "topCategoryId": "design",
     "subCategoryId": "ui",
     "categoryPath": "design-ui",
-    "count": 256,
+    "count": 322,
     "sourceData": "categories"
   },
   "skills": [
@@ -5219,6 +5219,996 @@
         "hermes"
       ],
       "searchText": "d3-visualization D3.js data visualization Skill. JackyST0/awesome-agent-skills design-ui multi"
+    },
+    {
+      "name": "Agentic",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Agentic - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/agentic",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Agentic Design system skill: Agentic - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Ant",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Ant - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/ant",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Ant Design system skill: Ant - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Roku",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Roku - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/roku",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Roku Design system skill: Roku - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Artistic",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Artistic - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/artistic",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Artistic Design system skill: Artistic - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Bento",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Bento - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/bento",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Bento Design system skill: Bento - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Bold",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Bold - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/bold",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Bold Design system skill: Bold - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Brutalism",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Brutalism - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/brutalism",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Brutalism Design system skill: Brutalism - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Cafe",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Cafe - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/cafe",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Cafe Design system skill: Cafe - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Claymorphism",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Claymorphism - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/claymorphism",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Claymorphism Design system skill: Claymorphism - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Claude",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Claude - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/claude",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Claude Design system skill: Claude - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Clean",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Clean - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/clean",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Clean Design system skill: Clean - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Codex",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "codex",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Codex - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/codex",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "Codex Design system skill: Codex - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Colorful",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Colorful - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/colorful",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Colorful Design system skill: Colorful - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Contemporary",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Contemporary - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/contemporary",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Contemporary Design system skill: Contemporary - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Corporate",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Corporate - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/corporate",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Corporate Design system skill: Corporate - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Cosmic",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Cosmic - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/cosmic",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Cosmic Design system skill: Cosmic - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Creative",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Creative - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/creative",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Creative Design system skill: Creative - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Enterprise",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Enterprise - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/enterprise",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Enterprise Design system skill: Enterprise - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Dithered",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Dithered - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/dithered",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Dithered Design system skill: Dithered - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Doodle",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Doodle - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/doodle",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Doodle Design system skill: Doodle - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Dramatic",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Dramatic - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/dramatic",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Dramatic Design system skill: Dramatic - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Editorial",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Editorial - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/editorial",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Editorial Design system skill: Editorial - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Square",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Square - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/square",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Square Design system skill: Square - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Pulse",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Pulse - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/pulse",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Pulse Design system skill: Pulse - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Expressive",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Expressive - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/expressive",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Expressive Design system skill: Expressive - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Fantasy",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Fantasy - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/fantasy",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Fantasy Design system skill: Fantasy - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Fiction",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Fiction - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/fiction",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Fiction Design system skill: Fiction - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Flat",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Flat - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/flat",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Flat Design system skill: Flat - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Friendly",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Friendly - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/friendly",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Friendly Design system skill: Friendly - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Futuristic",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Futuristic - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/futuristic",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Futuristic Design system skill: Futuristic - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Glassmorphism",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Glassmorphism - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/glassmorphism",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Glassmorphism Design system skill: Glassmorphism - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Gradient",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Gradient - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/gradient",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Gradient Design system skill: Gradient - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Immersive",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Immersive - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/immersive",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Immersive Design system skill: Immersive - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Impeccable",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Impeccable - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/impeccable",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Impeccable Design system skill: Impeccable - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Levels",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Levels - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/levels",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Levels Design system skill: Levels - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Lingo",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Lingo - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/lingo",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Lingo Design system skill: Lingo - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Power",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Power - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/power",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Power Design system skill: Power - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Material",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Material - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/material",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Material Design system skill: Material - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Matrix",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Matrix - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/matrix",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Matrix Design system skill: Matrix - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Minimal",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Minimal - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/minimal",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Minimal Design system skill: Minimal - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Modern",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Modern - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/modern",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Modern Design system skill: Modern - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Mono",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Mono - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/mono",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Mono Design system skill: Mono - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Neon",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Neon - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/neon",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Neon Design system skill: Neon - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Neobrutalism",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Neobrutalism - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/neobrutalism",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Neobrutalism Design system skill: Neobrutalism - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Neumorphism",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Neumorphism - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/neumorphism",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Neumorphism Design system skill: Neumorphism - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Pacman",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Pacman - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/pacman",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Pacman Design system skill: Pacman - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Paper",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Paper - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/paper",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Paper Design system skill: Paper - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Perspective",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Perspective - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/perspective",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Perspective Design system skill: Perspective - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Premium",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Premium - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/premium",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Premium Design system skill: Premium - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Professional",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Professional - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/professional",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Professional Design system skill: Professional - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Basic",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Basic - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/basic",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Basic Design system skill: Basic - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Refined",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Refined - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/refined",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Refined Design system skill: Refined - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Retro",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Retro - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/retro",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Retro Design system skill: Retro - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Riso",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Riso - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/riso",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Riso Design system skill: Riso - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Sega",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Sega - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/sega",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Sega Design system skill: Sega - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Shadcn",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Shadcn - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/shadcn",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Shadcn Design system skill: Shadcn - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Geometric",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Geometric - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/geometric",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Geometric Design system skill: Geometric - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Sketch",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Sketch - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/sketch",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Sketch Design system skill: Sketch - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Skeumorphism",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Skeumorphism - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/skeumorphism",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Skeumorphism Design system skill: Skeumorphism - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Sleek",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Sleek - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/sleek",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Sleek Design system skill: Sleek - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Spacious",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Spacious - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/spacious",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Spacious Design system skill: Spacious - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Storytelling",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Storytelling - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/storytelling",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Storytelling Design system skill: Storytelling - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Terracotta",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Terracotta - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/terracotta",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Terracotta Design system skill: Terracotta - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Tetris",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Tetris - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/tetris",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Tetris Design system skill: Tetris - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Vibrant",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Vibrant - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/vibrant",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Vibrant Design system skill: Vibrant - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "Vintage",
+      "source": "bergside/awesome-design-skills",
+      "sourceAgent": "claude",
+      "repo": "bergside/awesome-design-skills",
+      "stars": 1440,
+      "desc": "Design system skill: Vintage - AI-powered design tokens, component rules, accessibility constraints",
+      "url": "https://typeui.sh/design-skills/vintage",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "Vintage Design system skill: Vintage - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
     }
   ]
 }
