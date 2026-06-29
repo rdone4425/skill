@@ -4,7 +4,7 @@
     "topCategoryId": "education",
     "subCategoryId": "education",
     "categoryPath": "education",
-    "count": 5,
+    "count": 9,
     "sourceData": "categories"
   },
   "skills": [
@@ -97,6 +97,94 @@
         "kicknosub"
       ],
       "searchText": "kicknosub extract direct stream urls from kick videos in your preferred quality for educational and research purposes. enmn/kicknosub education kicknosub"
+    },
+    {
+      "name": "gws-classroom",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "Manage Google Classroom classes, rosters, and coursework",
+      "url": "https://officialskills.sh/googleworkspace/skills/gws-classroom",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "general",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "gws-classroom Manage Google Classroom classes, rosters, and coursework VoltAgent/awesome-agent-skills education multi"
+    },
+    {
+      "name": "skill-evolution",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "After solving a non-trivial problem, detect generalizable learnings and propose skill updates so future interactions benefit automatically.",
+      "url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/skill-evolution",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "general",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "skill-evolution After solving a non-trivial problem, detect generalizable learnings and propose skill updates so fut VoltAgent/awesome-agent-skills education multi"
+    },
+    {
+      "name": "Claude Cookbooks - Skills",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "travisvn/awesome-claude-skills",
+      "stars": 13792,
+      "desc": "Example notebooks and tutorials",
+      "url": "https://github.com/anthropics/claude-cookbooks/tree/main/skills",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "general",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "Claude Cookbooks - Skills Example notebooks and tutorials travisvn/awesome-claude-skills education multi"
+    },
+    {
+      "name": "How to Create Your First Claude Skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "travisvn/awesome-claude-skills",
+      "stars": 13792,
+      "desc": "Step-by-step tutorial with examples",
+      "url": "https://skywork.ai/blog/ai-agent/how-to-create-claude-skill-step-by-step-guide/",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "general",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "How to Create Your First Claude Skill Step-by-step tutorial with examples travisvn/awesome-claude-skills education multi"
     }
   ]
 }

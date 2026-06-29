@@ -4,7 +4,7 @@
     "topCategoryId": "finance-crypto",
     "subCategoryId": "finance-crypto",
     "categoryPath": "finance-crypto",
-    "count": 15,
+    "count": 25,
     "sourceData": "categories"
   },
   "skills": [
@@ -277,6 +277,226 @@
         "dash-tools"
       ],
       "searchText": "dash-tools dashtools - plotly dash command line tools - create, run and deploy templated python apps from terminal andrew-hossack/dash-tools finance-crypto dash-tools"
+    },
+    {
+      "name": "venice-x402",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "Wallet credits and x402 payments on Base",
+      "url": "https://github.com/veniceai/skills/tree/main/skills/venice-x402",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "venice-x402 Wallet credits and x402 payments on Base VoltAgent/awesome-agent-skills finance-crypto multi"
+    },
+    {
+      "name": "copy-editing",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "Edit and improve existing marketing copy for clarity and impact",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/copy-editing",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "copy-editing Edit and improve existing marketing copy for clarity and impact VoltAgent/awesome-agent-skills finance-crypto multi"
+    },
+    {
+      "name": "page-cro",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "Improve conversion rates on any marketing page including homepages and landing pages",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/page-cro",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "page-cro Improve conversion rates on any marketing page including homepages and landing pages VoltAgent/awesome-agent-skills finance-crypto multi"
+    },
+    {
+      "name": "query-address-info",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "Retrieve all token holdings and portfolio positions for any wallet address on BSC, Base, or Solana",
+      "url": "https://officialskills.sh/binance/skills/query-address-info",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "query-address-info Retrieve all token holdings and portfolio positions for any wallet address on BSC, Base, or Solana VoltAgent/awesome-agent-skills finance-crypto multi"
+    },
+    {
+      "name": "fund",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "Add USDC to a Coinbase-powered wallet through Coinbase Onramp",
+      "url": "https://officialskills.sh/coinbase/skills/fund",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "fund Add USDC to a Coinbase-powered wallet through Coinbase Onramp VoltAgent/awesome-agent-skills finance-crypto multi"
+    },
+    {
+      "name": "positioning-statement",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "Define target audience, problem solved, and differentiation using Geoffrey Moore's framework",
+      "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/positioning-statement",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "positioning-statement Define target audience, problem solved, and differentiation using Geoffrey Moore's framework VoltAgent/awesome-agent-skills finance-crypto multi"
+    },
+    {
+      "name": "feature-investment-advisor",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "Evaluate features using ROI and strategic value scoring",
+      "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/feature-investment-advisor",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "feature-investment-advisor Evaluate features using ROI and strategic value scoring VoltAgent/awesome-agent-skills finance-crypto multi"
+    },
+    {
+      "name": "market-sizing",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "Estimate TAM, SAM, SOM with top-down and bottom-up approaches",
+      "url": "https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/market-sizing",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "market-sizing Estimate TAM, SAM, SOM with top-down and bottom-up approaches VoltAgent/awesome-agent-skills finance-crypto multi"
+    },
+    {
+      "name": "north-star-metric",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "Define North Star Metric and input metrics constellation",
+      "url": "https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/north-star-metric",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "north-star-metric Define North Star Metric and input metrics constellation VoltAgent/awesome-agent-skills finance-crypto multi"
+    },
+    {
+      "name": "value-prop-statements",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "Generate value prop statements for marketing, sales, and onboarding",
+      "url": "https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/value-prop-statements",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "value-prop-statements Generate value prop statements for marketing, sales, and onboarding VoltAgent/awesome-agent-skills finance-crypto multi"
     }
   ]
 }

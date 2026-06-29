@@ -4,7 +4,7 @@
     "topCategoryId": "social-media",
     "subCategoryId": "social-media",
     "categoryPath": "social-media",
-    "count": 4,
+    "count": 14,
     "sourceData": "categories"
   },
   "skills": [
@@ -79,6 +79,226 @@
         "telegram-instapy-scheduling"
       ],
       "searchText": "telegram-instapy-scheduling a telegram bot for scheduling instapy tkd-alex/telegram-instapy-scheduling social-media telegram-instapy-scheduling"
+    },
+    {
+      "name": "gws-admin-reports",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "Audit logs and usage reports for Workspace",
+      "url": "https://officialskills.sh/googleworkspace/skills/gws-admin-reports",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social",
+      "subCategoryId": "media",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "gws-admin-reports Audit logs and usage reports for Workspace VoltAgent/awesome-agent-skills social-media multi"
+    },
+    {
+      "name": "azure-communication-chat-java",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "Real-time chat with threads and receipts",
+      "url": "https://officialskills.sh/microsoft/skills/azure-communication-chat-java",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social",
+      "subCategoryId": "media",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "azure-communication-chat-java Real-time chat with threads and receipts VoltAgent/awesome-agent-skills social-media multi"
+    },
+    {
+      "name": "headline-matrix",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "Generate high-performing headline variations across different angles",
+      "url": "https://github.com/realkimbarrett/advertising-skills/tree/main/skills/copy-chief/headline-matrix",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social",
+      "subCategoryId": "media",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "headline-matrix Generate high-performing headline variations across different angles VoltAgent/awesome-agent-skills social-media multi"
+    },
+    {
+      "name": "prioritize-assumptions",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "Prioritize assumptions with Impact × Risk matrix and experiments",
+      "url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/prioritize-assumptions",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social",
+      "subCategoryId": "media",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "prioritize-assumptions Prioritize assumptions with Impact × Risk matrix and experiments VoltAgent/awesome-agent-skills social-media multi"
+    },
+    {
+      "name": "nemoclaw-user-manage-policy",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "Adds, removes, or modifies allowed endpoints in the sandbox policy.",
+      "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-manage-policy",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social",
+      "subCategoryId": "media",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "nemoclaw-user-manage-policy Adds, removes, or modifies allowed endpoints in the sandbox policy. VoltAgent/awesome-agent-skills social-media multi"
+    },
+    {
+      "name": "nemoclaw-user-monitor-sandbox",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "Inspects sandbox health, traces agent behavior, and diagnoses problems.",
+      "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-monitor-sandbox",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social",
+      "subCategoryId": "media",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "nemoclaw-user-monitor-sandbox Inspects sandbox health, traces agent behavior, and diagnoses problems. VoltAgent/awesome-agent-skills social-media multi"
+    },
+    {
+      "name": "openaccountants",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "371 tax classification skills across 134 countries",
+      "url": "https://github.com/openaccountants/openaccountants",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social",
+      "subCategoryId": "media",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "openaccountants 371 tax classification skills across 134 countries VoltAgent/awesome-agent-skills social-media multi"
+    },
+    {
+      "name": "n8n-expression-syntax",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "n8n expression syntax with {{}} and $json/$node variables",
+      "url": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-expression-syntax",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social",
+      "subCategoryId": "media",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "n8n-expression-syntax n8n expression syntax with {{}} and $json/$node variables VoltAgent/awesome-agent-skills social-media multi"
+    },
+    {
+      "name": "n8n-validation-expert",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "Fix n8n validation errors with error catalog",
+      "url": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-validation-expert",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social",
+      "subCategoryId": "media",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "n8n-validation-expert Fix n8n validation errors with error catalog VoltAgent/awesome-agent-skills social-media multi"
+    },
+    {
+      "name": "safe-encryption-skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "heilcheng/awesome-agent-skills",
+      "stars": 5901,
+      "desc": "Modern encryption alternative to GPG/PGP with post-quantum support",
+      "url": "https://github.com/grittygrease/safe-encryption-skill",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social",
+      "subCategoryId": "media",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "safe-encryption-skill Modern encryption alternative to GPG/PGP with post-quantum support heilcheng/awesome-agent-skills social-media multi"
     }
   ]
 }

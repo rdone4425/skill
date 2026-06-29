@@ -1,105 +1,112 @@
 {
   "generatedAt": "2026-06-29T00:55:08.960Z",
   "sourceData": "categories",
-  "totalSkills": 914,
+  "totalSkills": 2092,
   "categories": [
     {
       "id": "dev-tools",
       "path": "dev-tools",
       "groupId": "development",
       "subcategoryId": "tools",
-      "count": 269
-    },
-    {
-      "id": "design-ui",
-      "path": "design-ui",
-      "groupId": "design",
-      "subcategoryId": "ui",
-      "count": 116
-    },
-    {
-      "id": "docs-content",
-      "path": "docs-content",
-      "groupId": "docs",
-      "subcategoryId": "content",
-      "count": 89
+      "count": 633
     },
     {
       "id": "data-ai",
       "path": "data-ai",
       "groupId": "data",
       "subcategoryId": "ai",
-      "count": 67
+      "count": 258
+    },
+    {
+      "id": "design-ui",
+      "path": "design-ui",
+      "groupId": "design",
+      "subcategoryId": "ui",
+      "count": 256
     },
     {
       "id": "general",
       "path": "general",
       "groupId": "general",
       "subcategoryId": "general",
-      "count": 67
+      "count": 215
+    },
+    {
+      "id": "docs-content",
+      "path": "docs-content",
+      "groupId": "docs",
+      "subcategoryId": "content",
+      "count": 165
     },
     {
       "id": "automation-productivity",
       "path": "automation-productivity",
       "groupId": "automation",
       "subcategoryId": "productivity",
-      "count": 56
-    },
-    {
-      "id": "testing-qa",
-      "path": "testing-qa",
-      "groupId": "testing",
-      "subcategoryId": "qa",
-      "count": 55
+      "count": 127
     },
     {
       "id": "security",
       "path": "security",
       "groupId": "security",
       "subcategoryId": "general",
-      "count": 52
+      "count": 90
     },
     {
       "id": "devops-deploy",
       "path": "devops-deploy",
       "groupId": "devops",
       "subcategoryId": "deploy",
-      "count": 51
+      "count": 90
     },
     {
       "id": "backend-api",
       "path": "backend-api",
       "groupId": "backend",
       "subcategoryId": "api",
-      "count": 42
+      "count": 88
+    },
+    {
+      "id": "testing-qa",
+      "path": "testing-qa",
+      "groupId": "testing",
+      "subcategoryId": "qa",
+      "count": 86
     },
     {
       "id": "game-dev",
       "path": "game-dev",
       "groupId": "game-dev",
       "subcategoryId": "game-dev",
-      "count": 24
+      "count": 28
     },
     {
       "id": "finance-crypto",
       "path": "finance-crypto",
       "groupId": "finance-crypto",
       "subcategoryId": "finance-crypto",
-      "count": 15
-    },
-    {
-      "id": "education",
-      "path": "education",
-      "groupId": "education",
-      "subcategoryId": "education",
-      "count": 5
+      "count": 25
     },
     {
       "id": "social-media",
       "path": "social-media",
       "groupId": "social-media",
       "subcategoryId": "social-media",
-      "count": 4
+      "count": 14
+    },
+    {
+      "id": "education",
+      "path": "education",
+      "groupId": "education",
+      "subcategoryId": "education",
+      "count": 9
+    },
+    {
+      "id": "video-multimedia",
+      "path": "video-multimedia",
+      "groupId": "video-multimedia",
+      "subcategoryId": "video-multimedia",
+      "count": 7
     },
     {
       "id": "health-medical",
@@ -107,387 +114,72 @@
       "groupId": "health-medical",
       "subcategoryId": "health-medical",
       "count": 1
-    },
-    {
-      "id": "video-multimedia",
-      "path": "video-multimedia",
-      "groupId": "video-multimedia",
-      "subcategoryId": "video-multimedia",
-      "count": 1
     }
   ],
   "groups": [
     {
       "id": "development",
-      "count": 302,
-      "subcategories": [
-        {
-          "id": "development/coding",
-          "path": "development/coding",
-          "subcategoryId": "coding",
-          "count": 104
-        },
-        {
-          "id": "development/plugins",
-          "path": "development/plugins",
-          "subcategoryId": "plugins",
-          "count": 93
-        },
-        {
-          "id": "development/platforms",
-          "path": "development/platforms",
-          "subcategoryId": "platforms",
-          "count": 40
-        },
-        {
-          "id": "development/tooling",
-          "path": "development/tooling",
-          "subcategoryId": "tooling",
-          "count": 36
-        },
-        {
-          "id": "development/agents",
-          "path": "development/agents",
-          "subcategoryId": "agents",
-          "count": 28
-        },
-        {
-          "id": "development/tools",
-          "path": "development/tools",
-          "subcategoryId": "tools",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": "docs",
-      "count": 136,
-      "subcategories": [
-        {
-          "id": "docs/awesome",
-          "path": "docs/awesome",
-          "subcategoryId": "awesome",
-          "count": 66
-        },
-        {
-          "id": "docs/libraries",
-          "path": "docs/libraries",
-          "subcategoryId": "libraries",
-          "count": 22
-        },
-        {
-          "id": "docs/references",
-          "path": "docs/references",
-          "subcategoryId": "references",
-          "count": 21
-        },
-        {
-          "id": "docs/content",
-          "path": "docs/content",
-          "subcategoryId": "content",
-          "count": 17
-        },
-        {
-          "id": "docs/guides",
-          "path": "docs/guides",
-          "subcategoryId": "guides",
-          "count": 10
-        }
-      ]
-    },
-    {
-      "id": "design",
-      "count": 72,
-      "subcategories": [
-        {
-          "id": "design/ui",
-          "path": "design/ui",
-          "subcategoryId": "ui",
-          "count": 52
-        },
-        {
-          "id": "design/figma",
-          "path": "design/figma",
-          "subcategoryId": "figma",
-          "count": 8
-        },
-        {
-          "id": "design/deck",
-          "path": "design/deck",
-          "subcategoryId": "deck",
-          "count": 6
-        },
-        {
-          "id": "design/media",
-          "path": "design/media",
-          "subcategoryId": "media",
-          "count": 4
-        },
-        {
-          "id": "design/visual",
-          "path": "design/visual",
-          "subcategoryId": "visual",
-          "count": 2
-        }
-      ]
+      "count": 633
     },
     {
       "id": "data",
-      "count": 66,
-      "subcategories": [
-        {
-          "id": "data/ai",
-          "path": "data/ai",
-          "subcategoryId": "ai",
-          "count": 26
-        },
-        {
-          "id": "data/models",
-          "path": "data/models",
-          "subcategoryId": "models",
-          "count": 14
-        },
-        {
-          "id": "data/memory",
-          "path": "data/memory",
-          "subcategoryId": "memory",
-          "count": 12
-        },
-        {
-          "id": "data/research",
-          "path": "data/research",
-          "subcategoryId": "research",
-          "count": 10
-        },
-        {
-          "id": "data/analytics",
-          "path": "data/analytics",
-          "subcategoryId": "analytics",
-          "count": 4
-        }
-      ]
+      "count": 258
     },
     {
-      "id": "automation",
-      "count": 60,
-      "subcategories": [
-        {
-          "id": "automation/productivity",
-          "path": "automation/productivity",
-          "subcategoryId": "productivity",
-          "count": 24
-        },
-        {
-          "id": "automation/workflow",
-          "path": "automation/workflow",
-          "subcategoryId": "workflow",
-          "count": 11
-        },
-        {
-          "id": "automation/publishing",
-          "path": "automation/publishing",
-          "subcategoryId": "publishing",
-          "count": 10
-        },
-        {
-          "id": "automation/ops",
-          "path": "automation/ops",
-          "subcategoryId": "ops",
-          "count": 9
-        },
-        {
-          "id": "automation/office",
-          "path": "automation/office",
-          "subcategoryId": "office",
-          "count": 6
-        }
-      ]
-    },
-    {
-      "id": "security",
-      "count": 60,
-      "subcategories": [
-        {
-          "id": "security/tools",
-          "path": "security/tools",
-          "subcategoryId": "tools",
-          "count": 34
-        },
-        {
-          "id": "security/defensive",
-          "path": "security/defensive",
-          "subcategoryId": "defensive",
-          "count": 13
-        },
-        {
-          "id": "security/offensive",
-          "path": "security/offensive",
-          "subcategoryId": "offensive",
-          "count": 10
-        },
-        {
-          "id": "security/governance",
-          "path": "security/governance",
-          "subcategoryId": "governance",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "testing",
-      "count": 59,
-      "subcategories": [
-        {
-          "id": "testing/qa",
-          "path": "testing/qa",
-          "subcategoryId": "qa",
-          "count": 51
-        },
-        {
-          "id": "testing/browser",
-          "path": "testing/browser",
-          "subcategoryId": "browser",
-          "count": 5
-        },
-        {
-          "id": "testing/review",
-          "path": "testing/review",
-          "subcategoryId": "review",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "backend",
-      "count": 43,
-      "subcategories": [
-        {
-          "id": "backend/api",
-          "path": "backend/api",
-          "subcategoryId": "api",
-          "count": 40
-        },
-        {
-          "id": "backend/integration",
-          "path": "backend/integration",
-          "subcategoryId": "integration",
-          "count": 2
-        },
-        {
-          "id": "backend/database",
-          "path": "backend/database",
-          "subcategoryId": "database",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": "devops",
-      "count": 36,
-      "subcategories": [
-        {
-          "id": "devops/deploy",
-          "path": "devops/deploy",
-          "subcategoryId": "deploy",
-          "count": 32
-        },
-        {
-          "id": "devops/infra",
-          "path": "devops/infra",
-          "subcategoryId": "infra",
-          "count": 3
-        },
-        {
-          "id": "devops/ci",
-          "path": "devops/ci",
-          "subcategoryId": "ci",
-          "count": 1
-        }
-      ]
+      "id": "design",
+      "count": 256
     },
     {
       "id": "general",
-      "count": 30,
-      "subcategories": [
-        {
-          "id": "general/tools",
-          "path": "general/tools",
-          "subcategoryId": "tools",
-          "count": 30
-        }
-      ]
+      "count": 215
     },
     {
-      "id": "game",
-      "count": 24,
-      "subcategories": [
-        {
-          "id": "game/dev",
-          "path": "game/dev",
-          "subcategoryId": "dev",
-          "count": 24
-        }
-      ]
+      "id": "docs",
+      "count": 165
     },
     {
-      "id": "finance",
-      "count": 15,
-      "subcategories": [
-        {
-          "id": "finance/crypto",
-          "path": "finance/crypto",
-          "subcategoryId": "crypto",
-          "count": 15
-        }
-      ]
+      "id": "automation",
+      "count": 127
+    },
+    {
+      "id": "security",
+      "count": 90
+    },
+    {
+      "id": "devops",
+      "count": 90
+    },
+    {
+      "id": "backend",
+      "count": 88
+    },
+    {
+      "id": "testing",
+      "count": 86
+    },
+    {
+      "id": "game-dev",
+      "count": 28
+    },
+    {
+      "id": "finance-crypto",
+      "count": 25
+    },
+    {
+      "id": "social-media",
+      "count": 14
     },
     {
       "id": "education",
-      "count": 5,
-      "subcategories": [
-        {
-          "id": "education/tools",
-          "path": "education/tools",
-          "subcategoryId": "tools",
-          "count": 5
-        }
-      ]
+      "count": 9
     },
     {
-      "id": "social",
-      "count": 4,
-      "subcategories": [
-        {
-          "id": "social/media",
-          "path": "social/media",
-          "subcategoryId": "media",
-          "count": 4
-        }
-      ]
+      "id": "video-multimedia",
+      "count": 7
     },
     {
-      "id": "health",
-      "count": 1,
-      "subcategories": [
-        {
-          "id": "health/medical",
-          "path": "health/medical",
-          "subcategoryId": "medical",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": "video",
-      "count": 1,
-      "subcategories": [
-        {
-          "id": "video/multimedia",
-          "path": "video/multimedia",
-          "subcategoryId": "multimedia",
-          "count": 1
-        }
-      ]
+      "id": "health-medical",
+      "count": 1
     }
   ],
   "platforms": [

@@ -4,7 +4,7 @@
     "topCategoryId": "game-dev",
     "subCategoryId": "game-dev",
     "categoryPath": "game-dev",
-    "count": 24,
+    "count": 28,
     "sourceData": "categories"
   },
   "skills": [
@@ -439,6 +439,94 @@
         "unity_resources"
       ],
       "searchText": "unity_resources a list of resources and tutorials for those doing programming in unity. endarren/unity_resources game-dev unity_resources"
+    },
+    {
+      "name": "gsap-scrolltrigger",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "ScrollTrigger for scroll-linked animations, pinning, scrub, and refresh handling",
+      "url": "https://officialskills.sh/greensock/skills/gsap-scrolltrigger",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "gsap-scrolltrigger ScrollTrigger for scroll-linked animations, pinning, scrub, and refresh handling VoltAgent/awesome-agent-skills game-dev multi"
+    },
+    {
+      "name": "threejs-skills",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26750,
+      "desc": "Three.js skills for creating 3D elements and interactive experiences",
+      "url": "https://github.com/CloudAI-X/threejs-skills",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "threejs-skills Three.js skills for creating 3D elements and interactive experiences VoltAgent/awesome-agent-skills game-dev multi"
+    },
+    {
+      "name": "superpowers-skills",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "travisvn/awesome-claude-skills",
+      "stars": 13792,
+      "desc": "Community-editable skills repository",
+      "url": "https://github.com/obra/superpowers-skills",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "superpowers-skills Community-editable skills repository travisvn/awesome-claude-skills game-dev multi"
+    },
+    {
+      "name": "Tencent SkillHub",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "JackyST0/awesome-agent-skills",
+      "stars": 576,
+      "desc": "Tencent's Skills community with 13k+ skills, optimized for Chinese users.",
+      "url": "https://skillhub.tencent.com/",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "gemini",
+        "hermes"
+      ],
+      "searchText": "Tencent SkillHub Tencent's Skills community with 13k+ skills, optimized for Chinese users. JackyST0/awesome-agent-skills game-dev multi"
     }
   ]
 }
