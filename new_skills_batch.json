@@ -1,5 +1,12 @@
 [
   {
+    "name": "agent-security",
+    "description": "Security audit, vulnerability scanning, drift detection, and penetration testing toolkit for Hermes agents. Covers file integrity (SOUL guardian), dependency CVE scanning, permission auditing, and guided pentest workflows.",
+    "url": "https://github.com/prompt-security/clawsec",
+    "category": "security",
+    "platform": "hermes"
+  },
+  {
     "name": "openclaw",
     "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
     "url": "https://github.com/openclaw/openclaw",
