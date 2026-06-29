@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skill Hub - AI Agent Skills 导航站</title>
+    <link>https://skill.442595.xyz/</link>
+    <description>最新收录的 AI Agent Skills 和 MCP Tools，按功能分类整理</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 30 Jun 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://skill.442595.xyz/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://skill.442595.xyz/assets/icons/favicon-32x32.png</url>
+      <title>Skill Hub</title>
+      <link>https://skill.442595.xyz/</link>
+    </image>
+    <item>
+      <title>Skill Hub 现已收录 4190+ AI Agent Skills</title>
+      <link>https://skill.442595.xyz/</link>
+      <guid isPermaLink="true">https://skill.442595.xyz/</guid>
+      <pubDate>Mon, 30 Jun 2026 00:00:00 GMT</pubDate>
+      <description>覆盖 22 个功能分类，支持 Claude Code、Codex、Cursor、OpenCode、Hermes 等平台筛选</description>
+    </item>
+  </channel>
+</rss>

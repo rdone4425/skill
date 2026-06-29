@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { WebSiteSchema } from './jsonld'
 
 export const metadata: Metadata = {
   title: 'Skill Hub - AI Agent Skills 导航站 | Claude / Codex / Hermes / Cursor',
@@ -32,6 +33,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="zh">
+      <head>
+        <WebSiteSchema />
+      </head>
       <body className="bg-gray-50">{children}</body>
     </html>
   )
