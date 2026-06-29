@@ -4,7 +4,7 @@
     "topCategoryId": "general",
     "subCategoryId": "general",
     "categoryPath": "general",
-    "count": 571,
+    "count": 574,
     "sourceData": "categories"
   },
   "skills": [
@@ -10931,6 +10931,60 @@
         "claude"
       ],
       "searchText": "zoom automation automate zoom: meetings, recordings, participants, webinars, and reports. composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "mcp-brasil",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Mcp-Brasil/mcp-brasil",
+      "stars": 0,
+      "desc": "MCP Server para 70 APIs públicas brasileiras",
+      "url": "https://github.com/Mcp-Brasil/mcp-brasil",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mcp-brasil mcp server para 70 apis públicas brasileiras mcp-brasil/mcp-brasil general general"
+    },
+    {
+      "name": "anysearch-mcp-server",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "anysearch-ai/anysearch-mcp-server",
+      "stars": 0,
+      "desc": "Unified real-time search engine skill for AI agents.",
+      "url": "https://github.com/anysearch-ai/anysearch-mcp-server",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "anysearch-mcp-server unified real-time search engine skill for ai agents. anysearch-ai/anysearch-mcp-server general general"
+    },
+    {
+      "name": "awesome-on-policy-distillation",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "chrisliu298/awesome-on-policy-distillation",
+      "stars": 0,
+      "desc": "A curated collection of papers, technical reports, frameworks, and tools for on-policy distillation (OPD) of large language models",
+      "url": "https://github.com/chrisliu298/awesome-on-policy-distillation",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-on-policy-distillation a curated collection of papers, technical reports, frameworks, and tools for on-policy distillation (opd) of large language models chrisliu298/awesome-on-policy-distillation general general"
     }
   ]
 }

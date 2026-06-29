@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 921,
+    "count": 1079,
     "sourceData": "categories"
   },
   "skills": [
@@ -18295,6 +18295,2760 @@
         "claude-code",
         "codex"
       ]
+    },
+    {
+      "name": "prompts.chat",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "f/prompts.chat",
+      "stars": 0,
+      "desc": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "url": "https://github.com/f/prompts.chat",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "prompts.chat f.k.a. awesome chatgpt prompts. share, discover, and collect prompts from the community. free and open source — self-host for your organization with complete privacy. f/prompts.chat dev-tools general"
+    },
+    {
+      "name": "spec-kit",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "github/spec-kit",
+      "stars": 0,
+      "desc": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "url": "https://github.com/github/spec-kit",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "spec-kit 💫 toolkit to help you get started with spec-driven development github/spec-kit dev-tools general"
+    },
+    {
+      "name": "MoneyPrinterTurbo",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "stars": 0,
+      "desc": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "moneyprinterturbo 利用ai大模型，一键生成高清短视频 generate short videos with one click using ai llm. harry0703/moneyprinterturbo dev-tools general"
+    },
+    {
+      "name": "NextChat",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ChatGPTNextWeb/NextChat",
+      "stars": 0,
+      "desc": "✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows",
+      "url": "https://github.com/ChatGPTNextWeb/NextChat",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "nextchat ✨ light and fast ai assistant. support: web | ios | macos | android |  linux | windows chatgptnextweb/nextchat dev-tools general"
+    },
+    {
+      "name": "odysseus",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "pewdiepie-archdaemon/odysseus",
+      "stars": 0,
+      "desc": "Self-hosted AI workspace.",
+      "url": "https://github.com/pewdiepie-archdaemon/odysseus",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "odysseus self-hosted ai workspace. pewdiepie-archdaemon/odysseus dev-tools general"
+    },
+    {
+      "name": "chatbox",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "chatboxai/chatbox",
+      "stars": 0,
+      "desc": "Powerful AI Client",
+      "url": "https://github.com/chatboxai/chatbox",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "chatbox powerful ai client chatboxai/chatbox dev-tools general"
+    },
+    {
+      "name": "new-api",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "QuantumNous/new-api",
+      "stars": 0,
+      "desc": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for pers",
+      "url": "https://github.com/QuantumNous/new-api",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "new-api a unified ai model hub for aggregation & distribution. it supports cross-converting various llms into openai-compatible, claude-compatible, or gemini-compatible formats. a centralized gateway for personal and enterprise model management. 🍥 quantumnous/new-api dev-tools general"
+    },
+    {
+      "name": "Open-Assistant",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "LAION-AI/Open-Assistant",
+      "stars": 0,
+      "desc": "OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.",
+      "url": "https://github.com/LAION-AI/Open-Assistant",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "open-assistant openassistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so. laion-ai/open-assistant dev-tools general"
+    },
+    {
+      "name": "tabby",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "TabbyML/tabby",
+      "stars": 0,
+      "desc": "Self-hosted AI coding assistant",
+      "url": "https://github.com/TabbyML/tabby",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "tabby self-hosted ai coding assistant tabbyml/tabby dev-tools general"
+    },
+    {
+      "name": "project-nomad",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Crosstalk-Solutions/project-nomad",
+      "stars": 0,
+      "desc": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "project-nomad project n.o.m.a.d, is a self-contained, offline survival computer packed with critical tools, knowledge, and ai to keep you informed and empowered—anytime, anywhere. crosstalk-solutions/project-nomad dev-tools general"
+    },
+    {
+      "name": "llmfit",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "AlexsJones/llmfit",
+      "stars": 0,
+      "desc": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "llmfit hundreds of models & providers. one command to find what runs on your hardware. alexsjones/llmfit dev-tools general"
+    },
+    {
+      "name": "onlook",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "onlook-dev/onlook",
+      "stars": 0,
+      "desc": "The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI",
+      "url": "https://github.com/onlook-dev/onlook",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "onlook the cursor for designers • an open-source ai-first design tool • visually build, style, and edit your react app with ai onlook-dev/onlook dev-tools general"
+    },
+    {
+      "name": "heretic",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "p-e-w/heretic",
+      "stars": 0,
+      "desc": "Fully automatic censorship removal for language models",
+      "url": "https://github.com/p-e-w/heretic",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "heretic fully automatic censorship removal for language models p-e-w/heretic dev-tools general"
+    },
+    {
+      "name": "Archon",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "coleam00/Archon",
+      "stars": 0,
+      "desc": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
+      "url": "https://github.com/coleam00/Archon",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "archon the first open-source harness builder for ai coding. make ai coding deterministic and repeatable. coleam00/archon dev-tools general"
+    },
+    {
+      "name": "compound-engineering-plugin",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "EveryInc/compound-engineering-plugin",
+      "stars": 0,
+      "desc": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "compound-engineering-plugin official compound engineering plugin for claude code, codex, cursor, and more everyinc/compound-engineering-plugin dev-tools general"
+    },
+    {
+      "name": "llm-council",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "karpathy/llm-council",
+      "stars": 0,
+      "desc": "LLM Council works together to answer your hardest questions",
+      "url": "https://github.com/karpathy/llm-council",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "llm-council llm council works together to answer your hardest questions karpathy/llm-council dev-tools general"
+    },
+    {
+      "name": "WeClone",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "xming521/WeClone",
+      "stars": 0,
+      "desc": "🚀 One-stop solution for creating your AI twin from chat history 💡 Fine-tune LLMs with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to life.",
+      "url": "https://github.com/xming521/WeClone",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "weclone 🚀 one-stop solution for creating your ai twin from chat history 💡 fine-tune llms with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to life. xming521/weclone dev-tools general"
+    },
+    {
+      "name": "cvat",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "cvat-ai/cvat",
+      "stars": 0,
+      "desc": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling service",
+      "url": "https://github.com/cvat-ai/cvat",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cvat computer vision annotation tool (cvat) is a leading platform for building high-quality visual datasets for vision ai. it offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3d annotation with ai-assisted labeling, quality assurance, team collaboration, analytics, and developer apis. cvat-ai/cvat dev-tools general"
+    },
+    {
+      "name": "VideoCaptioner",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "WEIFENG2333/VideoCaptioner",
+      "stars": 0,
+      "desc": "🎬 卡卡字幕助手 | VideoCaptioner - 基于 LLM 的智能字幕助手 - 视频字幕生成、断句、校正、字幕翻译全流程处理！- A powered tool for easy and efficient video subtitling.",
+      "url": "https://github.com/WEIFENG2333/VideoCaptioner",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "videocaptioner 🎬 卡卡字幕助手 | videocaptioner - 基于 llm 的智能字幕助手 - 视频字幕生成、断句、校正、字幕翻译全流程处理！- a powered tool for easy and efficient video subtitling. weifeng2333/videocaptioner dev-tools general"
+    },
+    {
+      "name": "leaked-system-prompts",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "jujumilk3/leaked-system-prompts",
+      "stars": 0,
+      "desc": "Collection of leaked system prompts",
+      "url": "https://github.com/jujumilk3/leaked-system-prompts",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "leaked-system-prompts collection of leaked system prompts jujumilk3/leaked-system-prompts dev-tools general"
+    },
+    {
+      "name": "context-engineering-intro",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "coleam00/context-engineering-intro",
+      "stars": 0,
+      "desc": "Context engineering is the new vibe coding - it's the way to actually make AI coding assistants work. Claude Code is the best for this so that's what this repo is centered around, but you can apply th",
+      "url": "https://github.com/coleam00/context-engineering-intro",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "context-engineering-intro context engineering is the new vibe coding - it's the way to actually make ai coding assistants work. claude code is the best for this so that's what this repo is centered around, but you can apply this strategy with any ai coding assistant! coleam00/context-engineering-intro dev-tools general"
+    },
+    {
+      "name": "cockpit-tools",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "jlcodes99/cockpit-tools",
+      "stars": 0,
+      "desc": "🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitH",
+      "url": "https://github.com/jlcodes99/cockpit-tools",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cockpit-tools 🚀 通用 ai ide 账号管理工具：支持 antigravity / codex / github copilot / windsurf / kiro / cursor / gemini-cli / codebuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 universal ai ide account manager for antigravity / codex / github copilot / windsurf / kiro / cursor / gemini-cli / codebuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta jlcodes99/cockpit-tools dev-tools general"
+    },
+    {
+      "name": "claudecodeui",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "siteboon/claudecodeui",
+      "stars": 0,
+      "desc": "Use Claude Code, OpenCode, Cursor CLI, and Codex on mobile and web with CloudCLI (aka Claude Code UI). CloudCLI is a free open source webui/GUI that helps you manage your Claude Code session and proje",
+      "url": "https://github.com/siteboon/claudecodeui",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "claudecodeui use claude code, opencode, cursor cli, and codex on mobile and web with cloudcli (aka claude code ui). cloudcli is a free open source webui/gui that helps you manage your claude code session and projects remotely. siteboon/claudecodeui dev-tools general"
+    },
+    {
+      "name": "video-subtitle-remover",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "YaoFANGUK/video-subtitle-remover",
+      "stars": 0,
+      "desc": "基于AI的图片/视频硬字幕去除、文本水印去除，无损分辨率生成去字幕、去水印后的图片/视频文件。无需申请第三方API，本地实现。AI-based tool for removing hard-coded subtitles and text-like watermarks from videos or Pictures.",
+      "url": "https://github.com/YaoFANGUK/video-subtitle-remover",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "video-subtitle-remover 基于ai的图片/视频硬字幕去除、文本水印去除，无损分辨率生成去字幕、去水印后的图片/视频文件。无需申请第三方api，本地实现。ai-based tool for removing hard-coded subtitles and text-like watermarks from videos or pictures. yaofanguk/video-subtitle-remover dev-tools general"
+    },
+    {
+      "name": "Toonflow-app",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "HBAI-Ltd/Toonflow-app",
+      "stars": 0,
+      "desc": "Toonflow 是开源一站式 AI 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。Toonflow is an open-source AI tool that turns stories and scripts into animated short dramas. Features AI sc",
+      "url": "https://github.com/HBAI-Ltd/Toonflow-app",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "toonflow-app toonflow 是开源一站式 ai 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 ai 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。toonflow is an open-source ai tool that turns stories and scripts into animated short dramas. features ai scriptwriting, storyboarding, character and video generation. a cross-platform desktop app for efficient content creation. hbai-ltd/toonflow-app dev-tools general"
+    },
+    {
+      "name": "EverydayWechat",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "sfyc23/EverydayWechat",
+      "stars": 0,
+      "desc": "微信助手：1.每日定时给好友（女友）发送定制消息。2.机器人自动回复好友。3.群助手功能（例如：查询垃圾分类、天气、日历、电影实时票房、快递物流、PM2.5等）",
+      "url": "https://github.com/sfyc23/EverydayWechat",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "everydaywechat 微信助手：1.每日定时给好友（女友）发送定制消息。2.机器人自动回复好友。3.群助手功能（例如：查询垃圾分类、天气、日历、电影实时票房、快递物流、pm2.5等） sfyc23/everydaywechat dev-tools general"
+    },
+    {
+      "name": "awesome-nanobanana-pro",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ZeroLu/awesome-nanobanana-pro",
+      "stars": 0,
+      "desc": "🚀 An awesome list of curated Nano Banana pro prompts and examples. Your go-to resource for mastering prompt engineering and exploring the creative potential of the Nano banana pro(Nano banana 2) AI im",
+      "url": "https://github.com/ZeroLu/awesome-nanobanana-pro",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-nanobanana-pro 🚀 an awesome list of curated nano banana pro prompts and examples. your go-to resource for mastering prompt engineering and exploring the creative potential of the nano banana pro(nano banana 2) ai image model. zerolu/awesome-nanobanana-pro dev-tools general"
+    },
+    {
+      "name": "coai",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "coaidev/coai",
+      "stars": 0,
+      "desc": "🚀 Next Gen Multi-tenant AI One-Stop Solution. Builtin Admin & Billing System. Enterprise-Grade Unified LLM Gateway Support for 200+ Models And 35+ Providers, Load Balacing w/ Priority-base Routing, Co",
+      "url": "https://github.com/coaidev/coai",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "coai 🚀 next gen multi-tenant ai one-stop solution. builtin admin & billing system. enterprise-grade unified llm gateway support for 200+ models and 35+ providers, load balacing w/ priority-base routing, cost management, chat share, cloud sync, credit/subscription billing, all file parsing, web search, built-in model cache. coaidev/coai dev-tools general"
+    },
+    {
+      "name": "Noi",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "lencx/Noi",
+      "stars": 0,
+      "desc": "🚀 Less chaos. More flow.",
+      "url": "https://github.com/lencx/Noi",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "noi 🚀 less chaos. more flow. lencx/noi dev-tools general"
+    },
+    {
+      "name": "baml",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "BoundaryML/baml",
+      "stars": 0,
+      "desc": "The AI framework that adds the engineering to prompt engineering (Python/TS/Ruby/Java/C#/Rust/Go compatible)",
+      "url": "https://github.com/BoundaryML/baml",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "baml the ai framework that adds the engineering to prompt engineering (python/ts/ruby/java/c#/rust/go compatible) boundaryml/baml dev-tools general"
+    },
+    {
+      "name": "imaginAIry",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "brycedrennan/imaginAIry",
+      "stars": 0,
+      "desc": "Pythonic AI generation of images and videos",
+      "url": "https://github.com/brycedrennan/imaginAIry",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "imaginairy pythonic ai generation of images and videos brycedrennan/imaginairy dev-tools general"
+    },
+    {
+      "name": "sweep",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "sweepai/sweep",
+      "stars": 0,
+      "desc": "Sweep: AI coding assistant for JetBrains",
+      "url": "https://github.com/sweepai/sweep",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "sweep sweep: ai coding assistant for jetbrains sweepai/sweep dev-tools general"
+    },
+    {
+      "name": "evidently",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "evidentlyai/evidently",
+      "stars": 0,
+      "desc": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
+      "url": "https://github.com/evidentlyai/evidently",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "evidently evidently is ​​an open-source ml and llm observability framework. evaluate, test, and monitor any ai-powered system or data pipeline. from tabular data to gen ai. 100+ metrics. evidentlyai/evidently dev-tools general"
+    },
+    {
+      "name": "Auto-Photoshop-StableDiffusion-Plugin",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "AbdullahAlfaraj/Auto-Photoshop-StableDiffusion-Plugin",
+      "stars": 0,
+      "desc": "A user-friendly plug-in that makes it easy to generate stable diffusion images inside Photoshop using either Automatic or ComfyUI as a backend.",
+      "url": "https://github.com/AbdullahAlfaraj/Auto-Photoshop-StableDiffusion-Plugin",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "auto-photoshop-stablediffusion-plugin a user-friendly plug-in that makes it easy to generate stable diffusion images inside photoshop using either automatic or comfyui as a backend. abdullahalfaraj/auto-photoshop-stablediffusion-plugin dev-tools general"
+    },
+    {
+      "name": "aidea",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "mylxsw/aidea",
+      "stars": 0,
+      "desc": "An APP that integrates mainstream large language models and image generation models, built with Flutter, with fully open-source code.",
+      "url": "https://github.com/mylxsw/aidea",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aidea an app that integrates mainstream large language models and image generation models, built with flutter, with fully open-source code. mylxsw/aidea dev-tools general"
+    },
+    {
+      "name": "FunClip",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "modelscope/FunClip",
+      "stars": 0,
+      "desc": "Open-source, accurate and easy-to-use video speech recognition & clipping tool. LLM-based AI clipping integrated.",
+      "url": "https://github.com/modelscope/FunClip",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "funclip open-source, accurate and easy-to-use video speech recognition & clipping tool. llm-based ai clipping integrated. modelscope/funclip dev-tools general"
+    },
+    {
+      "name": "Daft",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Eventual-Inc/Daft",
+      "stars": 0,
+      "desc": "High-performance data engine for AI and multimodal workloads. Process images, audio, video, and structured data at any scale",
+      "url": "https://github.com/Eventual-Inc/Daft",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "daft high-performance data engine for ai and multimodal workloads. process images, audio, video, and structured data at any scale eventual-inc/daft dev-tools general"
+    },
+    {
+      "name": "TheBigPromptLibrary",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "0xeb/TheBigPromptLibrary",
+      "stars": 0,
+      "desc": "A collection of prompts, system prompts and LLM instructions",
+      "url": "https://github.com/0xeb/TheBigPromptLibrary",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "thebigpromptlibrary a collection of prompts, system prompts and llm instructions 0xeb/thebigpromptlibrary dev-tools general"
+    },
+    {
+      "name": "LLM-Engineers-Handbook",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "PacktPublishing/LLM-Engineers-Handbook",
+      "stars": 0,
+      "desc": "The LLM's practical guide: From the fundamentals to deploying advanced LLM and RAG apps to AWS using LLMOps best practices",
+      "url": "https://github.com/PacktPublishing/LLM-Engineers-Handbook",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "llm-engineers-handbook the llm's practical guide: from the fundamentals to deploying advanced llm and rag apps to aws using llmops best practices packtpublishing/llm-engineers-handbook dev-tools general"
+    },
+    {
+      "name": "vscode-antigravity-cockpit",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "jlcodes99/vscode-antigravity-cockpit",
+      "stars": 0,
+      "desc": "VS Code extension for monitoring Google Antigravity AI quotas. Features Webview dashboard, QuickPick mode, and quota grouping.",
+      "url": "https://github.com/jlcodes99/vscode-antigravity-cockpit",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vscode-antigravity-cockpit vs code extension for monitoring google antigravity ai quotas. features webview dashboard, quickpick mode, and quota grouping. jlcodes99/vscode-antigravity-cockpit dev-tools general"
+    },
+    {
+      "name": "Learn_Prompting",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "trigaten/Learn_Prompting",
+      "stars": 0,
+      "desc": "Prompt Engineering, Generative AI, and LLM Guide by Learn Prompting | Join our discord for the largest Prompt Engineering learning community",
+      "url": "https://github.com/trigaten/Learn_Prompting",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "learn_prompting prompt engineering, generative ai, and llm guide by learn prompting | join our discord for the largest prompt engineering learning community trigaten/learn_prompting dev-tools general"
+    },
+    {
+      "name": "gemini-watermark-remover",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "GargantuaX/gemini-watermark-remover",
+      "stars": 0,
+      "desc": "A high-performance, 100% client-side tool for removing Gemini AI image & video watermarks. Built with pure JavaScript using mathematically precise Reverse Alpha Blending. / 基于 JavaScript 的纯浏览器端 Gemini",
+      "url": "https://github.com/GargantuaX/gemini-watermark-remover",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gemini-watermark-remover a high-performance, 100% client-side tool for removing gemini ai image & video watermarks. built with pure javascript using mathematically precise reverse alpha blending. / 基于 javascript 的纯浏览器端 gemini ai 图像和视频无损去水印工具，使用数学精确的反向 alpha 混合算法 gargantuax/gemini-watermark-remover dev-tools general"
+    },
+    {
+      "name": "short-video-factory",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "YILS-LIN/short-video-factory",
+      "stars": 0,
+      "desc": "一键生成产品营销与泛内容短视频，AI批量自动剪辑，高颜值跨平台桌面端工具 One click generation of product marketing and general content short videos, AI batch automatic cliping, beautiful cross platform desktop tool",
+      "url": "https://github.com/YILS-LIN/short-video-factory",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "short-video-factory 一键生成产品营销与泛内容短视频，ai批量自动剪辑，高颜值跨平台桌面端工具 one click generation of product marketing and general content short videos, ai batch automatic cliping, beautiful cross platform desktop tool yils-lin/short-video-factory dev-tools general"
+    },
+    {
+      "name": "awesome-ai-devtools",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "jamesmurdza/awesome-ai-devtools",
+      "stars": 0,
+      "desc": "Curated list of AI-powered developer tools.",
+      "url": "https://github.com/jamesmurdza/awesome-ai-devtools",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-ai-devtools curated list of ai-powered developer tools. jamesmurdza/awesome-ai-devtools dev-tools general"
+    },
+    {
+      "name": "hallmark",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Nutlope/hallmark",
+      "stars": 0,
+      "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "url": "https://github.com/Nutlope/hallmark",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "hallmark anti-ai-slop design skill for claude code, cursor, and codex. nutlope/hallmark dev-tools general"
+    },
+    {
+      "name": "lsp-ai",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "SilasMarvin/lsp-ai",
+      "stars": 0,
+      "desc": "LSP-AI is an open-source language server that serves as a backend for AI-powered functionality, designed to assist and empower software engineers, not replace them.",
+      "url": "https://github.com/SilasMarvin/lsp-ai",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "lsp-ai lsp-ai is an open-source language server that serves as a backend for ai-powered functionality, designed to assist and empower software engineers, not replace them. silasmarvin/lsp-ai dev-tools general"
+    },
+    {
+      "name": "cc-gateway",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "motiful/cc-gateway",
+      "stars": 0,
+      "desc": "AI API identity gateway — reverse proxy that normalizes device fingerprints and telemetry for privacy-preserving API proxying",
+      "url": "https://github.com/motiful/cc-gateway",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cc-gateway ai api identity gateway — reverse proxy that normalizes device fingerprints and telemetry for privacy-preserving api proxying motiful/cc-gateway dev-tools general"
+    },
+    {
+      "name": "DeepClaude",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ErlichLiu/DeepClaude",
+      "stars": 0,
+      "desc": "Unleash Next-Level AI! 🚀  💻 Code Generation: DeepSeek r1 + Claude 3.7 Sonnet - Unparalleled Performance! 📝 Content Creation: DeepSeek r1 + Gemini 2.5 Pro - Superior Quality! 🔌 OpenAI-Compatible. 🌊 Str",
+      "url": "https://github.com/ErlichLiu/DeepClaude",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "deepclaude unleash next-level ai! 🚀  💻 code generation: deepseek r1 + claude 3.7 sonnet - unparalleled performance! 📝 content creation: deepseek r1 + gemini 2.5 pro - superior quality! 🔌 openai-compatible. 🌊 streaming & non-streaming support.  ✨ experience the future of ai – today! click to try now! ✨ erlichliu/deepclaude dev-tools general"
+    },
+    {
+      "name": "any-auto-register",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "lxf746/any-auto-register",
+      "stars": 0,
+      "desc": "Auto-register & manage accounts for ChatGPT, Cursor, Kiro, Grok, Windsurf, Trae & 13+ AI platforms · Protocol/browser dual-mode · Plugin-based · One-click Mac/Windows desktop app",
+      "url": "https://github.com/lxf746/any-auto-register",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "any-auto-register auto-register & manage accounts for chatgpt, cursor, kiro, grok, windsurf, trae & 13+ ai platforms · protocol/browser dual-mode · plugin-based · one-click mac/windows desktop app lxf746/any-auto-register dev-tools general"
+    },
+    {
+      "name": "comflowyspace",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "6174/comflowyspace",
+      "stars": 0,
+      "desc": "Comflowyspace is an intuitive, user-friendly, open-source AI tool for generating images and videos, democratizing access to AI technology.",
+      "url": "https://github.com/6174/comflowyspace",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "comflowyspace comflowyspace is an intuitive, user-friendly, open-source ai tool for generating images and videos, democratizing access to ai technology. 6174/comflowyspace dev-tools general"
+    },
+    {
+      "name": "WritingTools",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "theJayTea/WritingTools",
+      "stars": 0,
+      "desc": "The world's smartest system-wide grammar assistant; a better version of the Apple Intelligence Writing Tools. Works on Windows, Linux, & macOS, with the free Gemini API, local LLMs, & more.",
+      "url": "https://github.com/theJayTea/WritingTools",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "writingtools the world's smartest system-wide grammar assistant; a better version of the apple intelligence writing tools. works on windows, linux, & macos, with the free gemini api, local llms, & more. thejaytea/writingtools dev-tools general"
+    },
+    {
+      "name": "JoyAI-Image",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "jd-opensource/JoyAI-Image",
+      "stars": 0,
+      "desc": "JoyAI-Image is the unified multimodal foundation model for image understanding, text-to-image generation, and instruction-guided image editing.",
+      "url": "https://github.com/jd-opensource/JoyAI-Image",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "joyai-image joyai-image is the unified multimodal foundation model for image understanding, text-to-image generation, and instruction-guided image editing. jd-opensource/joyai-image dev-tools general"
+    },
+    {
+      "name": "ai-engineer-toolkit",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "break-into-data/ai-engineer-toolkit",
+      "stars": 0,
+      "desc": "Projects & Resources to help you become a better AI Developer.",
+      "url": "https://github.com/break-into-data/ai-engineer-toolkit",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-engineer-toolkit projects & resources to help you become a better ai developer. break-into-data/ai-engineer-toolkit dev-tools general"
+    },
+    {
+      "name": "zclaw",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "tnm/zclaw",
+      "stars": 0,
+      "desc": "Your personal AI assistant at all-in 888KiB (~35KB in app code). Running on an ESP32. GPIO, cron, custom tools, memory, and more.",
+      "url": "https://github.com/tnm/zclaw",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "zclaw your personal ai assistant at all-in 888kib (~35kb in app code). running on an esp32. gpio, cron, custom tools, memory, and more. tnm/zclaw dev-tools general"
+    },
+    {
+      "name": "kiro-gateway",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "jwadow/kiro-gateway",
+      "stars": 0,
+      "desc": "👻 Proxy API gateway for Kiro IDE & CLI (Amazon Q Developer / AWS CodeWhisperer). Use free Claude models with any client.",
+      "url": "https://github.com/jwadow/kiro-gateway",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "kiro-gateway 👻 proxy api gateway for kiro ide & cli (amazon q developer / aws codewhisperer). use free claude models with any client. jwadow/kiro-gateway dev-tools general"
+    },
+    {
+      "name": "AISuperDomain",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "win4r/AISuperDomain",
+      "stars": 0,
+      "desc": "Aila(AI超元域): The premier AI integration tool for Windows, macOS, and Android. Ask once, get answers from 10+ AIs like ChatGPT, Gemini, Claude3, Copilot, Poe, perplexity and more. Features customizable",
+      "url": "https://github.com/win4r/AISuperDomain",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aisuperdomain aila(ai超元域): the premier ai integration tool for windows, macos, and android. ask once, get answers from 10+ ais like chatgpt, gemini, claude3, copilot, poe, perplexity and more. features customizable ai and prompts. win4r/aisuperdomain dev-tools general"
+    },
+    {
+      "name": "StableDiffusionBook",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "sudoskys/StableDiffusionBook",
+      "stars": 0,
+      "desc": "How do we integrate AI generation tools into actual work? | 关于 Ai 绘画的Wiki | Wiki about Ai painting | Prompts Engineering| 指南 Guide | Seeking Maintainer&Translator🙌",
+      "url": "https://github.com/sudoskys/StableDiffusionBook",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "stablediffusionbook how do we integrate ai generation tools into actual work? | 关于 ai 绘画的wiki | wiki about ai painting | prompts engineering| 指南 guide | seeking maintainer&translator🙌 sudoskys/stablediffusionbook dev-tools general"
+    },
+    {
+      "name": "Artificial-Intelligence",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Niraj-Lunavat/Artificial-Intelligence",
+      "stars": 0,
+      "desc": "Awesome AI Learning with +100 AI Cheat-Sheets, Free online Books, Top Courses, Best Videos and Lectures, Papers, Tutorials, +99 Researchers, Premium Websites, +121 Datasets, Conferences, Frameworks, T",
+      "url": "https://github.com/Niraj-Lunavat/Artificial-Intelligence",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "artificial-intelligence awesome ai learning with +100 ai cheat-sheets, free online books, top courses, best videos and lectures, papers, tutorials, +99 researchers, premium websites, +121 datasets, conferences, frameworks, tools niraj-lunavat/artificial-intelligence dev-tools general"
+    },
+    {
+      "name": "SnapOtter",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "snapotter-hq/SnapOtter",
+      "stars": 0,
+      "desc": "Self-hosted file toolkit. 200+ tools for Image, Video, Audio, PDF, and Files. AI-powered, open source, fully offline. Your files stay yours.",
+      "url": "https://github.com/snapotter-hq/SnapOtter",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "snapotter self-hosted file toolkit. 200+ tools for image, video, audio, pdf, and files. ai-powered, open source, fully offline. your files stay yours. snapotter-hq/snapotter dev-tools general"
+    },
+    {
+      "name": "awesome-ai-art-image-synthesis",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "altryne/awesome-ai-art-image-synthesis",
+      "stars": 0,
+      "desc": "A list of awesome tools, ideas, prompt engineering tools, colabs, models, and helpers for the prompt designer playing with aiArt and image synthesis. Covers Dalle2, MidJourney, StableDiffusion, and op",
+      "url": "https://github.com/altryne/awesome-ai-art-image-synthesis",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-ai-art-image-synthesis a list of awesome tools, ideas, prompt engineering tools, colabs, models, and helpers for the prompt designer playing with aiart and image synthesis. covers dalle2, midjourney, stablediffusion, and open source tools. altryne/awesome-ai-art-image-synthesis dev-tools general"
+    },
+    {
+      "name": "APIPark",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "APIParkLab/APIPark",
+      "stars": 0,
+      "desc": "Cloud native, ultra-high performance AI&API gateway, LLM API management, distribution system, open platform, supporting all AI APIs.🦄云原生、超高性能 AI&API网关，LLM API 管理、分发系统、开放平台，支持所有AI API，不限于OpenAI、Azure、A",
+      "url": "https://github.com/APIParkLab/APIPark",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "apipark cloud native, ultra-high performance ai&api gateway, llm api management, distribution system, open platform, supporting all ai apis.🦄云原生、超高性能 ai&api网关，llm api 管理、分发系统、开放平台，支持所有ai api，不限于openai、azure、anthropic claude、google gemini、deepseek、字节豆包、chatglm、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 api 请求和返回，api申请与审批，调用统计、负载均衡、多模型灾备。一键部署，开箱即用。 apiparklab/apipark dev-tools general"
+    },
+    {
+      "name": "awesome-code-ai",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "sourcegraph/awesome-code-ai",
+      "stars": 0,
+      "desc": "A list of AI coding tools (assistants, completions, refactoring, etc.)",
+      "url": "https://github.com/sourcegraph/awesome-code-ai",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-code-ai a list of ai coding tools (assistants, completions, refactoring, etc.) sourcegraph/awesome-code-ai dev-tools general"
+    },
+    {
+      "name": "clawgod",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "0Chencc/clawgod",
+      "stars": 0,
+      "desc": "This is NOT a third-party Claude Code client. ClawGod is a runtime patch applied on top of the official Claude Code. It works with any version — as Claude Code updates, the patch continues to take eff",
+      "url": "https://github.com/0Chencc/clawgod",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "clawgod this is not a third-party claude code client. clawgod is a runtime patch applied on top of the official claude code. it works with any version — as claude code updates, the patch continues to take effect 0chencc/clawgod dev-tools general"
+    },
+    {
+      "name": "openreview",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "vercel-labs/openreview",
+      "stars": 0,
+      "desc": "An open-source, self-hosted AI code review bot powered by Vercel.",
+      "url": "https://github.com/vercel-labs/openreview",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openreview an open-source, self-hosted ai code review bot powered by vercel. vercel-labs/openreview dev-tools general"
+    },
+    {
+      "name": "hello-ai",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "xxxily/hello-ai",
+      "stars": 0,
+      "desc": "It's not AI that takes away your job, but the people who master the use of AI tools. The most deadly attack is a dimension-reducing strike: destroying you has nothing to do with you - from \"The Three-",
+      "url": "https://github.com/xxxily/hello-ai",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "hello-ai it's not ai that takes away your job, but the people who master the use of ai tools. the most deadly attack is a dimension-reducing strike: destroying you has nothing to do with you - from \"the three-body problem\".         中文说明： 抢走你工作的不是ai，而是掌握使用ai工具的人。 降维打击最为致命：毁灭你，与你何干《三体》 xxxily/hello-ai dev-tools general"
+    },
+    {
+      "name": "QuickApp",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "emonney/QuickApp",
+      "stars": 0,
+      "desc": "AI-ready reference architecture for Angular / ASP.NET Core projects. A hardened foundation with secure authentication, authorization, role and user management, and consistent patterns designed to be s",
+      "url": "https://github.com/emonney/QuickApp",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "quickapp ai-ready reference architecture for angular / asp.net core projects. a hardened foundation with secure authentication, authorization, role and user management, and consistent patterns designed to be safely extended by ai tools. stop letting ai hallucinate your auth and db logic - give it a production-grade foundation to build on. emonney/quickapp dev-tools general"
+    },
+    {
+      "name": "cli-continues",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "yigitkonur/cli-continues",
+      "stars": 0,
+      "desc": "resume any AI coding session in another tool — Claude Code, Copilot, Gemini, Codex, Cursor",
+      "url": "https://github.com/yigitkonur/cli-continues",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cli-continues resume any ai coding session in another tool — claude code, copilot, gemini, codex, cursor yigitkonur/cli-continues dev-tools general"
+    },
+    {
+      "name": "UForm",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "unum-cloud/UForm",
+      "stars": 0,
+      "desc": "Pocket-Sized Multimodal AI for content understanding and generation across multilingual texts, images, and 🔜 video, up to 5x faster than OpenAI CLIP and LLaVA 🖼️ & 🖋️",
+      "url": "https://github.com/unum-cloud/UForm",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "uform pocket-sized multimodal ai for content understanding and generation across multilingual texts, images, and 🔜 video, up to 5x faster than openai clip and llava 🖼️ & 🖋️ unum-cloud/uform dev-tools general"
+    },
+    {
+      "name": "claude-fuer-deutsches-recht",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Klotzkette/claude-fuer-deutsches-recht",
+      "stars": 0,
+      "desc": "⚠️ Experimentelle Skill-Sammlung für deutsches Recht (Arbeits-, Gesellschafts-, Insolvenz-, Datenschutz-, Prozessrecht u.a.) – inzwischen verbessert und im Alltag getestet, aber weiterhin Experiment. ",
+      "url": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "claude-fuer-deutsches-recht ⚠️ experimentelle skill-sammlung für deutsches recht (arbeits-, gesellschafts-, insolvenz-, datenschutz-, prozessrecht u.a.) – inzwischen verbessert und im alltag getestet, aber weiterhin experiment. bitte selber ausprobieren, issues/prs willkommen! keine rechtsberatung. mandatsgeheimnis (§§ 203/204 stgb, § 43e brao), dsgvo, us-transfer, ki-vo & co klotzkette/claude-fuer-deutsches-recht dev-tools general"
+    },
+    {
+      "name": "brooks-lint",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "hyhmrright/brooks-lint",
+      "stars": 0,
+      "desc": "AI code reviews grounded in 12 classic engineering books — decay risk diagnostics with book citations, severity labels, and 6 analysis modes including full-sweep auto-fix",
+      "url": "https://github.com/hyhmrright/brooks-lint",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "brooks-lint ai code reviews grounded in 12 classic engineering books — decay risk diagnostics with book citations, severity labels, and 6 analysis modes including full-sweep auto-fix hyhmrright/brooks-lint dev-tools general"
+    },
+    {
+      "name": "stable.art",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "isekaidev/stable.art",
+      "stars": 0,
+      "desc": "Photoshop plugin for Stable Diffusion with Automatic1111 as backend (locally or with Google Colab)",
+      "url": "https://github.com/isekaidev/stable.art",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "stable.art photoshop plugin for stable diffusion with automatic1111 as backend (locally or with google colab) isekaidev/stable.art dev-tools general"
+    },
+    {
+      "name": "kimuraframework",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "vifreefly/kimuraframework",
+      "stars": 0,
+      "desc": "Write web scrapers in Ruby using a clean, AI-assisted DSL. Kimurai uses AI to figure out where the data lives, then caches the selectors and scrapes with pure Ruby. Get the intelligence of an LLM with",
+      "url": "https://github.com/vifreefly/kimuraframework",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "kimuraframework write web scrapers in ruby using a clean, ai-assisted dsl. kimurai uses ai to figure out where the data lives, then caches the selectors and scrapes with pure ruby. get the intelligence of an llm without the per-request latency or token costs. vifreefly/kimuraframework dev-tools general"
+    },
+    {
+      "name": "gentleman-guardian-angel",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Gentleman-Programming/gentleman-guardian-angel",
+      "stars": 0,
+      "desc": "😇 Gentleman Guardian Angel (gga) - Provider-agnostic code review using AI. Use Claude, Gemini, Codex, Ollama to enforce your coding standards.",
+      "url": "https://github.com/Gentleman-Programming/gentleman-guardian-angel",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gentleman-guardian-angel 😇 gentleman guardian angel (gga) - provider-agnostic code review using ai. use claude, gemini, codex, ollama to enforce your coding standards. gentleman-programming/gentleman-guardian-angel dev-tools general"
+    },
+    {
+      "name": "GoModel",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ENTERPILOT/GoModel",
+      "stars": 0,
+      "desc": "AI gateway written in Go. Lightweight unified OpenAI-compatible API for OpenAI, Anthropic, Gemini, Groq, xAI & Ollama. LiteLLM alternative with observability, guardrails, streaming, costs and usage tr",
+      "url": "https://github.com/ENTERPILOT/GoModel",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gomodel ai gateway written in go. lightweight unified openai-compatible api for openai, anthropic, gemini, groq, xai & ollama. litellm alternative with observability, guardrails, streaming, costs and usage tracking. enterpilot/gomodel dev-tools general"
+    },
+    {
+      "name": "NyaProxy",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Nya-Foundation/NyaProxy",
+      "stars": 0,
+      "desc": "NyaProxy acts like a smart, central manager for accessing various online services (APIs) – think AI tools (like OpenAI, Gemini, Anthropic), image generators, or almost any web service that uses access",
+      "url": "https://github.com/Nya-Foundation/NyaProxy",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "nyaproxy nyaproxy acts like a smart, central manager for accessing various online services (apis) – think ai tools (like openai, gemini, anthropic), image generators, or almost any web service that uses access keys. it helps you use these services more reliably, efficiently, and securely. nya-foundation/nyaproxy dev-tools general"
+    },
+    {
+      "name": "ai-audio-datasets",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Yuan-ManX/ai-audio-datasets",
+      "stars": 0,
+      "desc": "AI Audio Datasets (AI-ADS) 🎵, including Speech, Music, and Sound Effects, which can provide training data for Generative AI, AIGC, AI model training, intelligent audio tool development, and audio appl",
+      "url": "https://github.com/Yuan-ManX/ai-audio-datasets",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-audio-datasets ai audio datasets (ai-ads) 🎵, including speech, music, and sound effects, which can provide training data for generative ai, aigc, ai model training, intelligent audio tool development, and audio applications. yuan-manx/ai-audio-datasets dev-tools general"
+    },
+    {
+      "name": "StoryGen-Atelier",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "0xsline/StoryGen-Atelier",
+      "stars": 0,
+      "desc": "AI-assisted storyboard and video generation tool. Uses Gemini for generating storyboard text and frames, Vertex AI Veo for generating transition clips, and ffmpeg for stitching the final video. Built-",
+      "url": "https://github.com/0xsline/StoryGen-Atelier",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "storygen-atelier ai-assisted storyboard and video generation tool. uses gemini for generating storyboard text and frames, vertex ai veo for generating transition clips, and ffmpeg for stitching the final video. built-in logs and gallery management. 0xsline/storygen-atelier dev-tools general"
+    },
+    {
+      "name": "llms-txt-hub",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "thedaviddias/llms-txt-hub",
+      "stars": 0,
+      "desc": "🤖 The largest directory for AI-ready documentation and tools implementing the proposed llms.txt standard",
+      "url": "https://github.com/thedaviddias/llms-txt-hub",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "llms-txt-hub 🤖 the largest directory for ai-ready documentation and tools implementing the proposed llms.txt standard thedaviddias/llms-txt-hub dev-tools general"
+    },
+    {
+      "name": "clipturbo",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "clipturbo/clipturbo",
+      "stars": 0,
+      "desc": "小视频宝：AI 驱动的视频生成工具，一键生成高质量营销视频 AI-powered video generation tool for creating high-quality marketing videos with one click.",
+      "url": "https://github.com/clipturbo/clipturbo",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "clipturbo 小视频宝：ai 驱动的视频生成工具，一键生成高质量营销视频 ai-powered video generation tool for creating high-quality marketing videos with one click. clipturbo/clipturbo dev-tools general"
+    },
+    {
+      "name": "org-ai",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "rksm/org-ai",
+      "stars": 0,
+      "desc": "Emacs as your personal AI assistant. Use LLMs such as ChatGPT or LLaMA for text generation or DALL-E and Stable Diffusion for image generation. Also supports speech input / output.",
+      "url": "https://github.com/rksm/org-ai",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "org-ai emacs as your personal ai assistant. use llms such as chatgpt or llama for text generation or dall-e and stable diffusion for image generation. also supports speech input / output. rksm/org-ai dev-tools general"
+    },
+    {
+      "name": "ComfyUI-QwenVL",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "1038lab/ComfyUI-QwenVL",
+      "stars": 0,
+      "desc": "ComfyUI-QwenVL custom node: Integrates the Qwen-VL series, including Qwen2.5-VL and the latest Qwen3-VL, with GGUF support for advanced multimodal AI in text generation, image understanding, and video",
+      "url": "https://github.com/1038lab/ComfyUI-QwenVL",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "comfyui-qwenvl comfyui-qwenvl custom node: integrates the qwen-vl series, including qwen2.5-vl and the latest qwen3-vl, with gguf support for advanced multimodal ai in text generation, image understanding, and video analysis. 1038lab/comfyui-qwenvl dev-tools general"
+    },
+    {
+      "name": "banana-claude",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "AgriciDaniel/banana-claude",
+      "stars": 0,
+      "desc": "AI image generation skill for Claude Code -- Creative Director powered by Gemini",
+      "url": "https://github.com/AgriciDaniel/banana-claude",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "banana-claude ai image generation skill for claude code -- creative director powered by gemini agricidaniel/banana-claude dev-tools general"
+    },
+    {
+      "name": "AI-Shorts-Creator",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "NisaarAgharia/AI-Shorts-Creator",
+      "stars": 0,
+      "desc": "AI-Video-Cropper is a Python-based tool that leverages the power of GPT-4 (OpenAI's language model) to automatically analyze videos, extract the most interesting sections, and crop them for improved v",
+      "url": "https://github.com/NisaarAgharia/AI-Shorts-Creator",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-shorts-creator ai-video-cropper is a python-based tool that leverages the power of gpt-4 (openai's language model) to automatically analyze videos, extract the most interesting sections, and crop them for improved viewing experience. this project combines the capabilities of gpt-4, ffmpeg, and opencv to automate the process of identifying highlights in videos nisaaragharia/ai-shorts-creator dev-tools general"
+    },
+    {
+      "name": "free-ai-coding",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "inmve/free-ai-coding",
+      "stars": 0,
+      "desc": "AI coding tools that give free Claude Opus/Sonnet, GPT-5, Gemini Pro, and other pro-grade models",
+      "url": "https://github.com/inmve/free-ai-coding",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "free-ai-coding ai coding tools that give free claude opus/sonnet, gpt-5, gemini pro, and other pro-grade models inmve/free-ai-coding dev-tools general"
+    },
+    {
+      "name": "gen-ai-experiments",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "buildfastwithai/gen-ai-experiments",
+      "stars": 0,
+      "desc": "Collection of Jupyter notebooks is designed to provide you with a comprehensive guide to various AI tools and technologies",
+      "url": "https://github.com/buildfastwithai/gen-ai-experiments",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gen-ai-experiments collection of jupyter notebooks is designed to provide you with a comprehensive guide to various ai tools and technologies buildfastwithai/gen-ai-experiments dev-tools general"
+    },
+    {
+      "name": "diffity",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "nilbuild/diffity",
+      "stars": 0,
+      "desc": "GitHub-style diff viewer for reviewing code changes. Works with Claude Code, Cursor and other AI tools.",
+      "url": "https://github.com/nilbuild/diffity",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "diffity github-style diff viewer for reviewing code changes. works with claude code, cursor and other ai tools. nilbuild/diffity dev-tools general"
+    },
+    {
+      "name": "free-claude-code",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Rishurajgautam24/free-claude-code",
+      "stars": 0,
+      "desc": "Use Claude Code for free in the terminal, VSCode extension, or via Discord",
+      "url": "https://github.com/Rishurajgautam24/free-claude-code",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "free-claude-code use claude code for free in the terminal, vscode extension, or via discord rishurajgautam24/free-claude-code dev-tools general"
+    },
+    {
+      "name": "Awesome-AI-OSINT",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ubikron/Awesome-AI-OSINT",
+      "stars": 0,
+      "desc": "A list of articles, videos, and tools related to the use of AI for OSINT.",
+      "url": "https://github.com/ubikron/Awesome-AI-OSINT",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-ai-osint a list of articles, videos, and tools related to the use of ai for osint. ubikron/awesome-ai-osint dev-tools general"
+    },
+    {
+      "name": "ComfyUI-IF_AI_tools",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "if-ai/ComfyUI-IF_AI_tools",
+      "stars": 0,
+      "desc": "ComfyUI-IF_AI_tools is a set of custom nodes for ComfyUI that allows you to generate prompts using a local Large Language Model (LLM) via Ollama. This tool enables you to enhance your image generation",
+      "url": "https://github.com/if-ai/ComfyUI-IF_AI_tools",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "comfyui-if_ai_tools comfyui-if_ai_tools is a set of custom nodes for comfyui that allows you to generate prompts using a local large language model (llm) via ollama. this tool enables you to enhance your image generation workflow by leveraging the power of language models. if-ai/comfyui-if_ai_tools dev-tools general"
+    },
+    {
+      "name": "loli_profiler",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Tencent/loli_profiler",
+      "stars": 0,
+      "desc": "Memory instrumentation tool with CI and AI support for android app&game developers.",
+      "url": "https://github.com/Tencent/loli_profiler",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "loli_profiler memory instrumentation tool with ci and ai support for android app&game developers. tencent/loli_profiler dev-tools general"
+    },
+    {
+      "name": "awesome-devtools",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "devtoolsd/awesome-devtools",
+      "stars": 0,
+      "desc": "A curated list of awesome developer tools and services — from cloud platforms and IDEs to AI-powered coding assistants and productivity utilities.",
+      "url": "https://github.com/devtoolsd/awesome-devtools",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-devtools a curated list of awesome developer tools and services — from cloud platforms and ides to ai-powered coding assistants and productivity utilities. devtoolsd/awesome-devtools dev-tools general"
+    },
+    {
+      "name": "codmate",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "loocor/codmate",
+      "stars": 0,
+      "desc": "CodMate is a macOS SwiftUI app for managing CLI AI sessions: browse, search, organize, resume, and review work produced by Codex, Claude Code, and Gemini CLI.  It focuses on speed, a compact three-col",
+      "url": "https://github.com/loocor/codmate",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "codmate codmate is a macos swiftui app for managing cli ai sessions: browse, search, organize, resume, and review work produced by codex, claude code, and gemini cli.  it focuses on speed, a compact three-column ui, and “ship it” workflows like project review (git changes) and one-click resume/new. loocor/codmate dev-tools general"
+    },
+    {
+      "name": "Revolt-Script",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "RevoltDevScript/Revolt-Script",
+      "stars": 0,
+      "desc": "Revolt is the #1 Edgenuity automation tool featuring Auto Quiz, Auto Essay, Auto Advance, AI-powered writing with humanization, Auto Vocabulary, Auto Journal, and more. A semi-AFK script that handles ",
+      "url": "https://github.com/RevoltDevScript/Revolt-Script",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "revolt-script revolt is the #1 edgenuity automation tool featuring auto quiz, auto essay, auto advance, ai-powered writing with humanization, auto vocabulary, auto journal, and more. a semi-afk script that handles quizzes, tests, exams, projects, and essays with ease. compatible with desktop and mobile. visit https://revolt.ly to get started. revoltdevscript/revolt-script dev-tools general"
+    },
+    {
+      "name": "assistant",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "gridaco/assistant",
+      "stars": 0,
+      "desc": "🤖  Bring your Figma design & development pipeline to the next level - with design to code, in-design-content-management, component management, tools for faster design",
+      "url": "https://github.com/gridaco/assistant",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "assistant 🤖  bring your figma design & development pipeline to the next level - with design to code, in-design-content-management, component management, tools for faster design gridaco/assistant dev-tools general"
+    },
+    {
+      "name": "codereview.gpt",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "sturdy-dev/codereview.gpt",
+      "stars": 0,
+      "desc": "Reviews your Pull/Merge Requests using ChatGPT",
+      "url": "https://github.com/sturdy-dev/codereview.gpt",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "codereview.gpt reviews your pull/merge requests using chatgpt sturdy-dev/codereview.gpt dev-tools general"
+    },
+    {
+      "name": "grace",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Gabriella439/grace",
+      "stars": 0,
+      "desc": "A prompt engineering functional programming language",
+      "url": "https://github.com/Gabriella439/grace",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "grace a prompt engineering functional programming language gabriella439/grace dev-tools general"
+    },
+    {
+      "name": "vscode-dbt-power-user",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "AltimateAI/vscode-dbt-power-user",
+      "stars": 0,
+      "desc": "This extension makes vscode seamlessly work with dbt™: Auto-complete, preview, column lineage, AI docs generation, health checks, cost estimation etc",
+      "url": "https://github.com/AltimateAI/vscode-dbt-power-user",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vscode-dbt-power-user this extension makes vscode seamlessly work with dbt™: auto-complete, preview, column lineage, ai docs generation, health checks, cost estimation etc altimateai/vscode-dbt-power-user dev-tools general"
+    },
+    {
+      "name": "payload-ai",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ashbuilds/payload-ai",
+      "stars": 0,
+      "desc": "AI Plugin is a powerful extension for the Payload CMS, integrating advanced AI capabilities to enhance content creation and management.",
+      "url": "https://github.com/ashbuilds/payload-ai",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "payload-ai ai plugin is a powerful extension for the payload cms, integrating advanced ai capabilities to enhance content creation and management. ashbuilds/payload-ai dev-tools general"
+    },
+    {
+      "name": "AI-Content-Studio",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "naqashafzal/AI-Content-Studio",
+      "stars": 0,
+      "desc": "A 100% free & open-source AI Content Automation Tool that writes scripts, generates voiceovers, creates videos, and uploads them automatically — hands-free YouTube growth powered by AI.",
+      "url": "https://github.com/naqashafzal/AI-Content-Studio",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-content-studio a 100% free & open-source ai content automation tool that writes scripts, generates voiceovers, creates videos, and uploads them automatically — hands-free youtube growth powered by ai. naqashafzal/ai-content-studio dev-tools general"
+    },
+    {
+      "name": "ai-review",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Nikita-Filonov/ai-review",
+      "stars": 0,
+      "desc": "🚀 AI-powered code review tool for GitHub, GitLab, Bitbucket Cloud, Bitbucket Server, Azure DevOps and Gitea — built with LLMs like OpenAI, Claude, Gemini, Ollama, Bedrock, OpenRouter and Azure OpenAI",
+      "url": "https://github.com/Nikita-Filonov/ai-review",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-review 🚀 ai-powered code review tool for github, gitlab, bitbucket cloud, bitbucket server, azure devops and gitea — built with llms like openai, claude, gemini, ollama, bedrock, openrouter and azure openai nikita-filonov/ai-review dev-tools general"
+    },
+    {
+      "name": "free-ai-video-upscaler",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "sb2702/free-ai-video-upscaler",
+      "stars": 0,
+      "desc": "Source code for free AI video upscaler tool",
+      "url": "https://github.com/sb2702/free-ai-video-upscaler",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "free-ai-video-upscaler source code for free ai video upscaler tool sb2702/free-ai-video-upscaler dev-tools general"
+    },
+    {
+      "name": "aider-composer",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "lee88688/aider-composer",
+      "stars": 0,
+      "desc": "Aider's VSCode extension, seamlessly integrated into VSCode",
+      "url": "https://github.com/lee88688/aider-composer",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aider-composer aider's vscode extension, seamlessly integrated into vscode lee88688/aider-composer dev-tools general"
+    },
+    {
+      "name": "seedance-2.0-watermark-remover",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "SamurAIGPT/seedance-2.0-watermark-remover",
+      "stars": 0,
+      "desc": "Remove Seedance 2.0 watermark (AI生成) from videos automatically. No GPU required. Free open-source tool.",
+      "url": "https://github.com/SamurAIGPT/seedance-2.0-watermark-remover",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "seedance-2.0-watermark-remover remove seedance 2.0 watermark (ai生成) from videos automatically. no gpu required. free open-source tool. samuraigpt/seedance-2.0-watermark-remover dev-tools general"
+    },
+    {
+      "name": "devgpt",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "devgpt-labs/devgpt",
+      "stars": 0,
+      "desc": "An AI developer tool that turns tickets directly into code.",
+      "url": "https://github.com/devgpt-labs/devgpt",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "devgpt an ai developer tool that turns tickets directly into code. devgpt-labs/devgpt dev-tools general"
+    },
+    {
+      "name": "vs-tools-for-ai",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "microsoft/vs-tools-for-ai",
+      "stars": 0,
+      "desc": "Visual Studio Tools for AI is a free Visual Studio extension to build, test, and deploy deep learning / AI solutions. It seamlessly integrates with Azure Machine Learning for robust experimentation ca",
+      "url": "https://github.com/microsoft/vs-tools-for-ai",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vs-tools-for-ai visual studio tools for ai is a free visual studio extension to build, test, and deploy deep learning / ai solutions. it seamlessly integrates with azure machine learning for robust experimentation capabilities, including but not limited to submitting data preparation and model training jobs transparently to different compute targets. additionally, it provides support for custom metrics and run history tracking, enabling data science reproducibility and auditing. enterprise ready collaboration, allow to securely work on project with other people. microsoft/vs-tools-for-ai dev-tools general"
+    },
+    {
+      "name": "Example-Airflow-DAGs",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "airflow-plugins/Example-Airflow-DAGs",
+      "stars": 0,
+      "desc": "Example DAGs using hooks and operators from Airflow Plugins",
+      "url": "https://github.com/airflow-plugins/Example-Airflow-DAGs",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "example-airflow-dags example dags using hooks and operators from airflow plugins airflow-plugins/example-airflow-dags dev-tools general"
+    },
+    {
+      "name": "vscode-tools-for-ai",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "microsoft/vscode-tools-for-ai",
+      "stars": 0,
+      "desc": "Azure Machine Learning for Visual Studio Code, previously called Visual Studio Code Tools for AI, is an extension to easily build, train, and deploy machine learning models to the cloud or the edge wi",
+      "url": "https://github.com/microsoft/vscode-tools-for-ai",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vscode-tools-for-ai azure machine learning for visual studio code, previously called visual studio code tools for ai, is an extension to easily build, train, and deploy machine learning models to the cloud or the edge with azure machine learning service. microsoft/vscode-tools-for-ai dev-tools general"
+    },
+    {
+      "name": "ccLoad",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "caidaoli/ccLoad",
+      "stars": 0,
+      "desc": "AI API gateway that ends manual channel switching with smart routing, auto failover, exponential cooldown, multi-URL scheduling, live request monitoring and soft-error detection.",
+      "url": "https://github.com/caidaoli/ccLoad",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ccload ai api gateway that ends manual channel switching with smart routing, auto failover, exponential cooldown, multi-url scheduling, live request monitoring and soft-error detection. caidaoli/ccload dev-tools general"
+    },
+    {
+      "name": "vibe-log-cli",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "vibe-log/vibe-log-cli",
+      "stars": 0,
+      "desc": "A CLI tool for logging and analyzing Claude Code and Cursor ai-driven coding session.",
+      "url": "https://github.com/vibe-log/vibe-log-cli",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vibe-log-cli a cli tool for logging and analyzing claude code and cursor ai-driven coding session. vibe-log/vibe-log-cli dev-tools general"
+    },
+    {
+      "name": "Comprehensive-Data-Science-AI-Project-Portfolio",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "MelihGulum/Comprehensive-Data-Science-AI-Project-Portfolio",
+      "stars": 0,
+      "desc": "A curated collection of AI, data engineering, and DevOps projects featuring real-world applications, advanced techniques, and tutorials—ideal for learners and practitioners exploring data science and ",
+      "url": "https://github.com/MelihGulum/Comprehensive-Data-Science-AI-Project-Portfolio",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "comprehensive-data-science-ai-project-portfolio a curated collection of ai, data engineering, and devops projects featuring real-world applications, advanced techniques, and tutorials—ideal for learners and practitioners exploring data science and machine learning. melihgulum/comprehensive-data-science-ai-project-portfolio dev-tools general"
+    },
+    {
+      "name": "ShortsGenerator",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "leamsigc/ShortsGenerator",
+      "stars": 0,
+      "desc": "Automate the creation of Shorts content locally with a couple simple steps.",
+      "url": "https://github.com/leamsigc/ShortsGenerator",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "shortsgenerator automate the creation of shorts content locally with a couple simple steps. leamsigc/shortsgenerator dev-tools general"
+    },
+    {
+      "name": "chat-gpt-jupyter-extension",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "TiesdeKok/chat-gpt-jupyter-extension",
+      "stars": 0,
+      "desc": "A browser extension to provide various AI helper functions in Jupyter Notebooks, powered by ChatGPT.",
+      "url": "https://github.com/TiesdeKok/chat-gpt-jupyter-extension",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "chat-gpt-jupyter-extension a browser extension to provide various ai helper functions in jupyter notebooks, powered by chatgpt. tiesdekok/chat-gpt-jupyter-extension dev-tools general"
+    },
+    {
+      "name": "gptree",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "travisvn/gptree",
+      "stars": 0,
+      "desc": "A CLI tool to provide LLM context for coding projects by combining project files into a single text file (or clipboard text) with directory tree structure.",
+      "url": "https://github.com/travisvn/gptree",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gptree a cli tool to provide llm context for coding projects by combining project files into a single text file (or clipboard text) with directory tree structure. travisvn/gptree dev-tools general"
+    },
+    {
+      "name": "ai-hub-gateway-solution-accelerator",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Azure-Samples/ai-hub-gateway-solution-accelerator",
+      "stars": 0,
+      "desc": "Reference architecture that provides a set of guidelines and best practices for implementing a central AI API gateway to empower various line-of-business units in an organization to leverage Azure AI ",
+      "url": "https://github.com/Azure-Samples/ai-hub-gateway-solution-accelerator",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-hub-gateway-solution-accelerator reference architecture that provides a set of guidelines and best practices for implementing a central ai api gateway to empower various line-of-business units in an organization to leverage azure ai services azure-samples/ai-hub-gateway-solution-accelerator dev-tools general"
+    },
+    {
+      "name": "super-dev",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "shangyankeji/super-dev",
+      "stars": 0,
+      "desc": "Engineering workflow layer for AI coding tools with specs, review, quality gates, and traceability.为 AI 编程工具提供工程化流程、质量门禁与可追溯能力。",
+      "url": "https://github.com/shangyankeji/super-dev",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "super-dev engineering workflow layer for ai coding tools with specs, review, quality gates, and traceability.为 ai 编程工具提供工程化流程、质量门禁与可追溯能力。 shangyankeji/super-dev dev-tools general"
+    },
+    {
+      "name": "wingman-ai-vscode-extension",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "RussellCanfield/wingman-ai-vscode-extension",
+      "stars": 0,
+      "desc": "An open-source VSCode extension, the AI coding assistant, integrates with Ollama, HuggingFace, OpenAI, and Anthropic.",
+      "url": "https://github.com/RussellCanfield/wingman-ai-vscode-extension",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "wingman-ai-vscode-extension an open-source vscode extension, the ai coding assistant, integrates with ollama, huggingface, openai, and anthropic. russellcanfield/wingman-ai-vscode-extension dev-tools general"
+    },
+    {
+      "name": "awesome-doubao-prompts",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "langgptai/awesome-doubao-prompts",
+      "stars": 0,
+      "desc": "🚀 最全面的豆包AI提示词库 | DoubaoAI Prompts Collection | 字节跳动豆包提示词 | AI Prompt Engineering",
+      "url": "https://github.com/langgptai/awesome-doubao-prompts",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-doubao-prompts 🚀 最全面的豆包ai提示词库 | doubaoai prompts collection | 字节跳动豆包提示词 | ai prompt engineering langgptai/awesome-doubao-prompts dev-tools general"
+    },
+    {
+      "name": "Awesome-Open-AI-Sora",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Curated-Awesome-Lists/Awesome-Open-AI-Sora",
+      "stars": 0,
+      "desc": "Sora AI Awesome List – Your go-to resource hub for all things Sora AI, OpenAI's groundbreaking model for crafting realistic scenes from text. Explore a curated collection of articles, videos, podcasts",
+      "url": "https://github.com/Curated-Awesome-Lists/Awesome-Open-AI-Sora",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-open-ai-sora sora ai awesome list – your go-to resource hub for all things sora ai, openai's groundbreaking model for crafting realistic scenes from text. explore a curated collection of articles, videos, podcasts, and news about sora's capabilities, advancements, and more. curated-awesome-lists/awesome-open-ai-sora dev-tools general"
+    },
+    {
+      "name": "awesome-prompt-engineering",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "brandonhimpfen/awesome-prompt-engineering",
+      "stars": 0,
+      "desc": "A curated list of resources, tools, papers, and platforms for prompt engineering in large language models (LLMs) and generative AI.",
+      "url": "https://github.com/brandonhimpfen/awesome-prompt-engineering",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-prompt-engineering a curated list of resources, tools, papers, and platforms for prompt engineering in large language models (llms) and generative ai. brandonhimpfen/awesome-prompt-engineering dev-tools general"
+    },
+    {
+      "name": "search-result-scraper-markdown",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "essamamdani/search-result-scraper-markdown",
+      "stars": 0,
+      "desc": "This project provides a powerful web scraping tool that fetches search results and converts them into Markdown format using FastAPI, SearXNG, and Browserless. It includes the capability to use proxies",
+      "url": "https://github.com/essamamdani/search-result-scraper-markdown",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "search-result-scraper-markdown this project provides a powerful web scraping tool that fetches search results and converts them into markdown format using fastapi, searxng, and browserless. it includes the capability to use proxies for web scraping and handles html content conversion to markdown efficiently. essamamdani/search-result-scraper-markdown dev-tools general"
+    },
+    {
+      "name": "companion-vscode",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "quack-ai/companion-vscode",
+      "stars": 0,
+      "desc": "VSCode extension of Quack Companion 💻 Turn your team insights into a portable plug-and-play context for code generation. Alternative to GitHub Copilot powered by OSS LLMs (Mistral, Gemma, etc.), serve",
+      "url": "https://github.com/quack-ai/companion-vscode",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "companion-vscode vscode extension of quack companion 💻 turn your team insights into a portable plug-and-play context for code generation. alternative to github copilot powered by oss llms (mistral, gemma, etc.), served with ollama. quack-ai/companion-vscode dev-tools general"
+    },
+    {
+      "name": "guidance-for-multi-provider-generative-ai-gateway-on-aws",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "aws-solutions-library-samples/guidance-for-multi-provider-generative-ai-gateway-on-aws",
+      "stars": 0,
+      "desc": "This Guidance demonstrates how to streamline access to numerous large language models (LLMs) through a unified, industry-standard API gateway based on OpenAI API standards",
+      "url": "https://github.com/aws-solutions-library-samples/guidance-for-multi-provider-generative-ai-gateway-on-aws",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "guidance-for-multi-provider-generative-ai-gateway-on-aws this guidance demonstrates how to streamline access to numerous large language models (llms) through a unified, industry-standard api gateway based on openai api standards aws-solutions-library-samples/guidance-for-multi-provider-generative-ai-gateway-on-aws dev-tools general"
+    },
+    {
+      "name": "spidercreator",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "carlosplanchon/spidercreator",
+      "stars": 0,
+      "desc": "Automated web scraping spider generation using Browser Use and LLMs. Streamline the creation of Playwright-based spiders with minimal manual coding. Ideal for large enterprises with recurring data ext",
+      "url": "https://github.com/carlosplanchon/spidercreator",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "spidercreator automated web scraping spider generation using browser use and llms. streamline the creation of playwright-based spiders with minimal manual coding. ideal for large enterprises with recurring data extraction needs. carlosplanchon/spidercreator dev-tools general"
+    },
+    {
+      "name": "ChatIDE",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "yagil/ChatIDE",
+      "stars": 0,
+      "desc": "AI Coding Assistant in your IDE - ChatGPT (OpenAI) and Claude (Anthropic) in a VSCode extension.",
+      "url": "https://github.com/yagil/ChatIDE",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "chatide ai coding assistant in your ide - chatgpt (openai) and claude (anthropic) in a vscode extension. yagil/chatide dev-tools general"
+    },
+    {
+      "name": "Recommendation-systems",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "piyushpathak03/Recommendation-systems",
+      "stars": 0,
+      "desc": "Recommendation Systems This is a workshop on using Machine Learning and Deep Learning Techniques to build Recommendation Systesm  Theory: ML & DL Formulation, Prediction vs. Ranking, Similiarity, Bias",
+      "url": "https://github.com/piyushpathak03/Recommendation-systems",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "recommendation-systems recommendation systems this is a workshop on using machine learning and deep learning techniques to build recommendation systesm  theory: ml & dl formulation, prediction vs. ranking, similiarity, biased vs. unbiased paradigms: content-based, collaborative filtering, knowledge-based, hybrid and ensembles data: tabular, images, text (sequences) models: (deep) matrix factorisation, auto-encoders, wide & deep, rank-learning, sequence modelling methods: explicit vs. implicit feedback, user-item matrix, embeddings, convolution, recurrent, domain signals: location, time, context, social, process: setup, encode & embed, design, train & select, serve & scale, measure, test & improve tools: python-data-stack: numpy, pandas, scikit-learn, keras, spacy, implicit, lightfm notes & slides basics: deep learning ai conference 2019: whiteboard notes | in-class notebooks notebooks movies - movielens  01-acquire 02-augment 03-refine 04-transform 05-evaluation 06-model-baseline 07-feature-extractor 08-model-matrix-factorization 09-model-matrix-factorization-with-bias 10-model-mf-nnmf 11-model-deep-matrix-factorization 12-model-neural-collaborative-filtering 13-model-implicit-matrix-factorization 14-features-image 15-features-nlp ecommerce - yoochoose  01-data-preparation 02-models news - hackernews  product - groceries  python libraries deep recommender libraries  tensorrec - built on tensorflow spotlight - built on pytorch tfranking - built on tensorflow (learning to rank) matrix factorisation based libraries  implicit - implicit matrix factorisation qmf - implicit matrix factorisation lightfm - for hybrid recommedations surprise - scikit-learn type api for traditional alogrithms similarity search libraries  annoy - approximate nearest neighbour nmslib - knn methods faiss - similarity search and clustering learning resources reference slides deep learning in recsys by balázs hidasi lessons from industry recsys by xavier amatriain architecting recommendation systems by james kirk recommendation systems overview by raimon and basilico benchmarks movielens benchmarks for traditional setup microsoft tutorial on recommendation system at kdd 2019 algorithms & approaches collaborative filtering for implicit feedback datasets bayesian personalised ranking for implicit data logistic matrix factorisation neural network matrix factorisation neural collaborative filtering variational autoencoders for collaborative filtering evaluations evaluating recommendation systems piyushpathak03/recommendation-systems dev-tools general"
+    },
+    {
+      "name": "Prompt-Engineering-Jumpstart",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "arorarishi/Prompt-Engineering-Jumpstart",
+      "stars": 0,
+      "desc": "Prompt Engineering Jumpstart: The simplest beginner's guide to talking with AI. Learn universal prompt engineering principles with simple analogies & copy-paste examples for ChatGPT & DALL-E. No tech ",
+      "url": "https://github.com/arorarishi/Prompt-Engineering-Jumpstart",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "prompt-engineering-jumpstart prompt engineering jumpstart: the simplest beginner's guide to talking with ai. learn universal prompt engineering principles with simple analogies & copy-paste examples for chatgpt & dall-e. no tech skills needed. free, open-source ebook. arorarishi/prompt-engineering-jumpstart dev-tools general"
+    },
+    {
+      "name": "onnxruntime-server",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "kibae/onnxruntime-server",
+      "stars": 0,
+      "desc": "ONNX Runtime Server: The ONNX Runtime Server is a server that provides TCP and HTTP/HTTPS REST APIs for ONNX inference.",
+      "url": "https://github.com/kibae/onnxruntime-server",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "onnxruntime-server onnx runtime server: the onnx runtime server is a server that provides tcp and http/https rest apis for onnx inference. kibae/onnxruntime-server dev-tools general"
+    },
+    {
+      "name": "AI-short-creator",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "shreesha345/AI-short-creator",
+      "stars": 0,
+      "desc": "AI-short-creator is an AI-powered tool that turns long videos into short clips. It works best for videos with multiple speakers and topics, such as interviews and documentaries. AI-short-creator finds",
+      "url": "https://github.com/shreesha345/AI-short-creator",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-short-creator ai-short-creator is an ai-powered tool that turns long videos into short clips. it works best for videos with multiple speakers and topics, such as interviews and documentaries. ai-short-creator finds the most engaging parts of the video, adds captions and transitions, and makes the clips ready for social media. shreesha345/ai-short-creator dev-tools general"
+    },
+    {
+      "name": "ScribeAI",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ajikan/ScribeAI",
+      "stars": 0,
+      "desc": "ChatGPT extension for VSCode.",
+      "url": "https://github.com/ajikan/ScribeAI",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "scribeai chatgpt extension for vscode. ajikan/scribeai dev-tools general"
+    },
+    {
+      "name": "dish-ai-commit",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "littleCareless/dish-ai-commit",
+      "stars": 0,
+      "desc": "Vibe Coding!!! 🤖 AI-Powered VSCode extension for generating standardized Git/SVN commit messages. ✨ Supports multiple AI services: OpenAI, ChatGPT, Ollama, Zhipu, DashScope, Doubao, Gemini and VS Code",
+      "url": "https://github.com/littleCareless/dish-ai-commit",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "dish-ai-commit vibe coding!!! 🤖 ai-powered vscode extension for generating standardized git/svn commit messages. ✨ supports multiple ai services: openai, chatgpt, ollama, zhipu, dashscope, doubao, gemini and vs code built-in ai. 🌍 multi-language support (en/cn/jp/kr/other). 📊 auto-generate weekly reports. littlecareless/dish-ai-commit dev-tools general"
+    },
+    {
+      "name": "context-forge",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "webdevtodayjason/context-forge",
+      "stars": 0,
+      "desc": "CLI tool that scaffolds context engineering documentation for Claude Code projects. Transforms requirements into staged implementation plans, project structures, and workflow rules. From idea to AI-re",
+      "url": "https://github.com/webdevtodayjason/context-forge",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "context-forge cli tool that scaffolds context engineering documentation for claude code projects. transforms requirements into staged implementation plans, project structures, and workflow rules. from idea to ai-ready project in minutes. webdevtodayjason/context-forge dev-tools general"
+    },
+    {
+      "name": "incubator-liminal",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "apache/incubator-liminal",
+      "stars": 0,
+      "desc": "Apache Liminals goal is to operationalise the machine learning process, allowing data scientists to quickly transition from a successful experiment to an automated pipeline of model training, validati",
+      "url": "https://github.com/apache/incubator-liminal",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "incubator-liminal apache liminals goal is to operationalise the machine learning process, allowing data scientists to quickly transition from a successful experiment to an automated pipeline of model training, validation, deployment and inference in production. liminal provides a domain specific language to build ml workflows on top of apache airflow. apache/incubator-liminal dev-tools general"
+    },
+    {
+      "name": "python-data-engineering-resources",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "vajol/python-data-engineering-resources",
+      "stars": 0,
+      "desc": "A handpicked collection of resources for Python developers in data engineering, machine learning, and AI. Inside, you'll discover a neatly arranged selection of frameworks, libraries, and tools crucia",
+      "url": "https://github.com/vajol/python-data-engineering-resources",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "python-data-engineering-resources a handpicked collection of resources for python developers in data engineering, machine learning, and ai. inside, you'll discover a neatly arranged selection of frameworks, libraries, and tools crucial for machine learning, etl, orm, data/schema validation, database migration, and more, all focused on python. vajol/python-data-engineering-resources dev-tools general"
+    },
+    {
+      "name": "ariana-debugger",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ariana-dot-dev/ariana-debugger",
+      "stars": 0,
+      "desc": "Observability and runtime visualization for JS/TS/Python code with zero code change",
+      "url": "https://github.com/ariana-dot-dev/ariana-debugger",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ariana-debugger observability and runtime visualization for js/ts/python code with zero code change ariana-dot-dev/ariana-debugger dev-tools general"
+    },
+    {
+      "name": "LearnKit",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ctrlaltwill/LearnKit",
+      "stars": 0,
+      "desc": "A native study system for your Obsidian vault. LearnKit turns notes into durable knowledge with flashcards, spaced repetition, reviews, tests, and AI tools.",
+      "url": "https://github.com/ctrlaltwill/LearnKit",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "learnkit a native study system for your obsidian vault. learnkit turns notes into durable knowledge with flashcards, spaced repetition, reviews, tests, and ai tools. ctrlaltwill/learnkit dev-tools general"
+    },
+    {
+      "name": "whisper-assistant-vscode",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "martin-opensky/whisper-assistant-vscode",
+      "stars": 0,
+      "desc": "Whisper Assistant is a powerful VSCode extension that allows developers to use their voice to develop software.  Speech can be transcribed locally using the Whisper model or remotely using an API such",
+      "url": "https://github.com/martin-opensky/whisper-assistant-vscode",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "whisper-assistant-vscode whisper assistant is a powerful vscode extension that allows developers to use their voice to develop software.  speech can be transcribed locally using the whisper model or remotely using an api such as openai's.  by combining this capability with cursor developers can quickly develop software using their voice to prompt ai models. martin-opensky/whisper-assistant-vscode dev-tools general"
+    },
+    {
+      "name": "FreeLLM-API-KeyHub",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "guihuashaoxiang/FreeLLM-API-KeyHub",
+      "stars": 0,
+      "desc": "🇨🇳 持续更新的国内免费大语言模型（LLM）API 资源与接入指南汇总（涵盖阿里百炼、智谱等平台）。助力开发者低成本调用 AI 能力。欢迎提交 Issue 与 PR 共建！ | A curated list of free Large Language Model (LLM) APIs and providers in China.",
+      "url": "https://github.com/guihuashaoxiang/FreeLLM-API-KeyHub",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "freellm-api-keyhub 🇨🇳 持续更新的国内免费大语言模型（llm）api 资源与接入指南汇总（涵盖阿里百炼、智谱等平台）。助力开发者低成本调用 ai 能力。欢迎提交 issue 与 pr 共建！ | a curated list of free large language model (llm) apis and providers in china. guihuashaoxiang/freellm-api-keyhub dev-tools general"
+    },
+    {
+      "name": "godot-cursorrules",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "BlueBirdBack/godot-cursorrules",
+      "stars": 0,
+      "desc": "Godot 4.4 Cursor rules: coding standards, architecture patterns, and performance tips for AI-assisted game dev.",
+      "url": "https://github.com/BlueBirdBack/godot-cursorrules",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "godot-cursorrules godot 4.4 cursor rules: coding standards, architecture patterns, and performance tips for ai-assisted game dev. bluebirdback/godot-cursorrules dev-tools general"
+    },
+    {
+      "name": "ai-helpers",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "openshift-eng/ai-helpers",
+      "stars": 0,
+      "desc": "Developer productivity tools for Claude Code & other AI assistants",
+      "url": "https://github.com/openshift-eng/ai-helpers",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-helpers developer productivity tools for claude code & other ai assistants openshift-eng/ai-helpers dev-tools general"
+    },
+    {
+      "name": "simple-chat-hub-extension",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "jackyr/simple-chat-hub-extension",
+      "stars": 0,
+      "desc": "A browser extension aggregating numerous mainstream AI chat model platforms, supporting synchronous multi-platform chat. 集合各大主流AI模型聊天平台，支持多平台同屏同步聊天的浏览器插件。",
+      "url": "https://github.com/jackyr/simple-chat-hub-extension",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "simple-chat-hub-extension a browser extension aggregating numerous mainstream ai chat model platforms, supporting synchronous multi-platform chat. 集合各大主流ai模型聊天平台，支持多平台同屏同步聊天的浏览器插件。 jackyr/simple-chat-hub-extension dev-tools general"
+    },
+    {
+      "name": "neurons",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Aryia-Behroziuan/neurons",
+      "stars": 0,
+      "desc": "An ANN is a model based on a collection of connected units or nodes called \"artificial neurons\", which loosely model the neurons in a biological brain. Each connection, like the synapses in a biologic",
+      "url": "https://github.com/Aryia-Behroziuan/neurons",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "neurons an ann is a model based on a collection of connected units or nodes called \"artificial neurons\", which loosely model the neurons in a biological brain. each connection, like the synapses in a biological brain, can transmit information, a \"signal\", from one artificial neuron to another. an artificial neuron that receives a signal can process it and then signal additional artificial neurons connected to it. in common ann implementations, the signal at a connection between artificial neurons is a real number, and the output of each artificial neuron is computed by some non-linear function of the sum of its inputs. the connections between artificial neurons are called \"edges\". artificial neurons and edges typically have a weight that adjusts as learning proceeds. the weight increases or decreases the strength of the signal at a connection. artificial neurons may have a threshold such that the signal is only sent if the aggregate signal crosses that threshold. typically, artificial neurons are aggregated into layers. different layers may perform different kinds of transformations on their inputs. signals travel from the first layer (the input layer) to the last layer (the output layer), possibly after traversing the layers multiple times.  the original goal of the ann approach was to solve problems in the same way that a human brain would. however, over time, attention moved to performing specific tasks, leading to deviations from biology. artificial neural networks have been used on a variety of tasks, including computer vision, speech recognition, machine translation, social network filtering, playing board and video games and medical diagnosis.  deep learning consists of multiple hidden layers in an artificial neural network. this approach tries to model the way the human brain processes light and sound into vision and hearing. some successful applications of deep learning are computer vision and speech recognition.[68]  decision trees main article: decision tree learning decision tree learning uses a decision tree as a predictive model to go from observations about an item (represented in the branches) to conclusions about the item's target value (represented in the leaves). it is one of the predictive modeling approaches used in statistics, data mining, and machine learning. tree models where the target variable can take a discrete set of values are called classification trees; in these tree structures, leaves represent class labels and branches represent conjunctions of features that lead to those class labels. decision trees where the target variable can take continuous values (typically real numbers) are called regression trees. in decision analysis, a decision tree can be used to visually and explicitly represent decisions and decision making. in data mining, a decision tree describes data, but the resulting classification tree can be an input for decision making.  support vector machines main article: support vector machines support vector machines (svms), also known as support vector networks, are a set of related supervised learning methods used for classification and regression. given a set of training examples, each marked as belonging to one of two categories, an svm training algorithm builds a model that predicts whether a new example falls into one category or the other.[69] an svm training algorithm is a non-probabilistic, binary, linear classifier, although methods such as platt scaling exist to use svm in a probabilistic classification setting. in addition to performing linear classification, svms can efficiently perform a non-linear classification using what is called the kernel trick, implicitly mapping their inputs into high-dimensional feature spaces.   illustration of linear regression on a data set. regression analysis main article: regression analysis regression analysis encompasses a large variety of statistical methods to estimate the relationship between input variables and their associated features. its most common form is linear regression, where a single line is drawn to best fit the given data according to a mathematical criterion such as ordinary least squares. the latter is often extended by regularization (mathematics) methods to mitigate overfitting and bias, as in ridge regression. when dealing with non-linear problems, go-to models include polynomial regression (for example, used for trendline fitting in microsoft excel[70]), logistic regression (often used in statistical classification) or even kernel regression, which introduces non-linearity by taking advantage of the kernel trick to implicitly map input variables to higher-dimensional space.  bayesian networks main article: bayesian network  a simple bayesian network. rain influences whether the sprinkler is activated, and both rain and the sprinkler influence whether the grass is wet. a bayesian network, belief network, or directed acyclic graphical model is a probabilistic graphical model that represents a set of random variables and their conditional independence with a directed acyclic graph (dag). for example, a bayesian network could represent the probabilistic relationships between diseases and symptoms. given symptoms, the network can be used to compute the probabilities of the presence of various diseases. efficient algorithms exist that perform inference and learning. bayesian networks that model sequences of variables, like speech signals or protein sequences, are called dynamic bayesian networks. generalizations of bayesian networks that can represent and solve decision problems under uncertainty are called influence diagrams.  genetic algorithms main article: genetic algorithm a genetic algorithm (ga) is a search algorithm and heuristic technique that mimics the process of natural selection, using methods such as mutation and crossover to generate new genotypes in the hope of finding good solutions to a given problem. in machine learning, genetic algorithms were used in the 1980s and 1990s.[71][72] conversely, machine learning techniques have been used to improve the performance of genetic and evolutionary algorithms.[73]  training models usually, machine learning models require a lot of data in order for them to perform well. usually, when training a machine learning model, one needs to collect a large, representative sample of data from a training set. data from the training set can be as varied as a corpus of text, a collection of images, and data collected from individual users of a service. overfitting is something to watch out for when training a machine learning model.  federated learning main article: federated learning federated learning is an adapted form of distributed artificial intelligence to training machine learning models that decentralizes the training process, allowing for users' privacy to be maintained by not needing to send their data to a centralized server. this also increases efficiency by decentralizing the training process to many devices. for example, gboard uses federated machine learning to train search query prediction models on users' mobile phones without having to send individual searches back to google.[74]  applications there are many applications for machine learning, including:  agriculture anatomy adaptive websites affective computing banking bioinformatics brain–machine interfaces cheminformatics citizen science computer networks computer vision credit-card fraud detection data quality dna sequence classification economics financial market analysis[75] general game playing handwriting recognition information retrieval insurance internet fraud detection linguistics machine learning control machine perception machine translation marketing medical diagnosis natural language processing natural language understanding online advertising optimization recommender systems robot locomotion search engines sentiment analysis sequence mining software engineering speech recognition structural health monitoring syntactic pattern recognition telecommunication theorem proving time series forecasting user behavior analytics in 2006, the media-services provider netflix held the first \"netflix prize\" competition to find a program to better predict user preferences and improve the accuracy of its existing cinematch movie recommendation algorithm by at least 10%. a joint team made up of researchers from at&t labs-research in collaboration with the teams big chaos and pragmatic theory built an ensemble model to win the grand prize in 2009 for $1 million.[76] shortly after the prize was awarded, netflix realized that viewers' ratings were not the best indicators of their viewing patterns (\"everything is a recommendation\") and they changed their recommendation engine accordingly.[77] in 2010 the wall street journal wrote about the firm rebellion research and their use of machine learning to predict the financial crisis.[78] in 2012, co-founder of sun microsystems, vinod khosla, predicted that 80% of medical doctors' jobs would be lost in the next two decades to automated machine learning medical diagnostic software.[79] in 2014, it was reported that a machine learning algorithm had been applied in the field of art history to study fine art paintings and that it may have revealed previously unrecognized influences among artists.[80] in 2019 springer nature published the first research book created using machine learning.[81]  limitations although machine learning has been transformative in some fields, machine-learning programs often fail to deliver expected results.[82][83][84] reasons for this are numerous: lack of (suitable) data, lack of access to the data, data bias, privacy problems, badly chosen tasks and algorithms, wrong tools and people, lack of resources, and evaluation problems.[85]  in 2018, a self-driving car from uber failed to detect a pedestrian, who was killed after a collision.[86] attempts to use machine learning in healthcare with the ibm watson system failed to deliver even after years of time and billions of dollars invested.[87][88]  bias main article: algorithmic bias machine learning approaches in particular can suffer from different data biases. a machine learning system trained on current customers only may not be able to predict the needs of new customer groups that are not represented in the training data. when trained on man-made data, machine learning is likely to pick up the same constitutional and unconscious biases already present in society.[89] language models learned from data have been shown to contain human-like biases.[90][91] machine learning systems used for criminal risk assessment have been found to be biased against black people.[92][93] in 2015, google photos would often tag black people as gorillas,[94] and in 2018 this still was not well resolved, but google reportedly was still using the workaround to remove all gorillas from the training data, and thus was not able to recognize real gorillas at all.[95] similar issues with recognizing non-white people have been found in many other systems.[96] in 2016, microsoft tested a chatbot that learned from twitter, and it quickly picked up racist and sexist language.[97] because of such challenges, the effective use of machine learning may take longer to be adopted in other domains.[98] concern for fairness in machine learning, that is, reducing bias in machine learning and propelling its use for human good is increasingly expressed by artificial intelligence scientists, including fei-fei li, who reminds engineers that \"there’s nothing artificial about ai...it’s inspired by people, it’s created by people, and—most importantly—it impacts people. it is a powerful tool we are only just beginning to understand, and that is a profound responsibility.”[99]  model assessments classification of machine learning models can be validated by accuracy estimation techniques like the holdout method, which splits the data in a training and test set (conventionally 2/3 training set and 1/3 test set designation) and evaluates the performance of the training model on the test set. in comparison, the k-fold-cross-validation method randomly partitions the data into k subsets and then k experiments are performed each respectively considering 1 subset for evaluation and the remaining k-1 subsets for training the model. in addition to the holdout and cross-validation methods, bootstrap, which samples n instances with replacement from the dataset, can be used to assess model accuracy.[100]  in addition to overall accuracy, investigators frequently report sensitivity and specificity meaning true positive rate (tpr) and true negative rate (tnr) respectively. similarly, investigators sometimes report the false positive rate (fpr) as well as the false negative rate (fnr). however, these rates are ratios that fail to reveal their numerators and denominators. the total operating characteristic (toc) is an effective method to express a model's diagnostic ability. toc shows the numerators and denominators of the previously mentioned rates, thus toc provides more information than the commonly used receiver operating characteristic (roc) and roc's associated area under the curve (auc).[101]  ethics machine learning poses a host of ethical questions. systems which are trained on datasets collected with biases may exhibit these biases upon use (algorithmic bias), thus digitizing cultural prejudices.[102] for example, using job hiring data from a firm with racist hiring policies may lead to a machine learning system duplicating the bias by scoring job applicants against similarity to previous successful applicants.[103][104] responsible collection of data and documentation of algorithmic rules used by a system thus is a critical part of machine learning.  because human languages contain biases, machines trained on language corpora will necessarily also learn these biases.[105][106]  other forms of ethical challenges, not related to personal biases, are more seen in health care. there are concerns among health care professionals that these systems might not be designed in the public's interest but as income-generating machines. this is especially true in the united states where there is a long-standing ethical dilemma of improving health care, but also increasing profits. for example, the algorithms could be designed to provide patients with unnecessary tests or medication in which the algorithm's proprietary owners hold stakes. there is huge potential for machine learning in health care to provide professionals a great tool to diagnose, medicate, and even plan recovery paths for patients, but this will not happen until the personal biases mentioned previously, and these \"greed\" biases are addressed.[107]  hardware since the 2010s, advances in both machine learning algorithms and computer hardware have led to more efficient methods for training deep neural networks (a particular narrow subdomain of machine learning) that contain many layers of non-linear hidden units.[108] by 2019, graphic processing units (gpus), often with ai-specific enhancements, had displaced cpus as the dominant method of training large-scale commercial cloud ai.[109] openai estimated the hardware compute used in the largest deep learning projects from alexnet (2012) to alphazero (2017), and found a 300,000-fold increase in the amount of compute required, with a doubling-time trendline of 3.4 months.[110][111]  software software suites containing a variety of machine learning algorithms include the following:  free and open-source so aryia-behroziuan/neurons dev-tools general"
+    },
+    {
+      "name": "AI-Side-Panel-Extension",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "creosB/AI-Side-Panel-Extension",
+      "stars": 0,
+      "desc": "AI Side Panel Extension: Enhance your productivity with this browser extension that adds a convenient side panel for quick access to popular AI sites like Gemini, ChatGPT, Copilot, Claude, and Deepsee",
+      "url": "https://github.com/creosB/AI-Side-Panel-Extension",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-side-panel-extension ai side panel extension: enhance your productivity with this browser extension that adds a convenient side panel for quick access to popular ai sites like gemini, chatgpt, copilot, claude, and deepseek. easily toggle the panel using the extension icon or alt + q shortcut. perfect for seamless integration of ai tools into your browsing experience. creosb/ai-side-panel-extension dev-tools general"
+    },
+    {
+      "name": "cve-mcp-server",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "mukul975/cve-mcp-server",
+      "stars": 0,
+      "desc": "Production-grade MCP server giving Claude 27 security intelligence tools across 21 APIs — CVE lookup, EPSS scoring, CISA KEV, MITRE ATT&CK, Shodan, VirusTotal, and more.",
+      "url": "https://github.com/mukul975/cve-mcp-server",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cve-mcp-server production-grade mcp server giving claude 27 security intelligence tools across 21 apis — cve lookup, epss scoring, cisa kev, mitre att&ck, shodan, virustotal, and more. mukul975/cve-mcp-server dev-tools general"
+    },
+    {
+      "name": "godot-ai",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "hi-godot/godot-ai",
+      "stars": 0,
+      "desc": "Production-grade MCP server and AI tools for the Godot engine. A Snap to install. Totally free and fun.",
+      "url": "https://github.com/hi-godot/godot-ai",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "godot-ai production-grade mcp server and ai tools for the godot engine. a snap to install. totally free and fun. hi-godot/godot-ai dev-tools general"
+    },
+    {
+      "name": "codebase-pattern-finder",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "softaworks/agent-toolkit",
+      "stars": 0,
+      "desc": "Codebase Pattern Finder - analyzes code patterns at scale",
+      "url": "https://github.com/softaworks/agent-toolkit",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "codebase-pattern-finder codebase pattern finder - analyzes code patterns at scale softaworks/agent-toolkit dev-tools general"
+    },
+    {
+      "name": "agent-md-refactor",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "softaworks/agent-toolkit",
+      "stars": 0,
+      "desc": "Agent MD Refactor - refactors AGENTS.md/SKILL.md files",
+      "url": "https://github.com/softaworks/agent-toolkit",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agent-md-refactor agent md refactor - refactors agents.md/skill.md files softaworks/agent-toolkit dev-tools general"
+    },
+    {
+      "name": "n-skills-dev-browser",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "numman-ali/n-skills",
+      "stars": 0,
+      "desc": "Dev Browser - automated browser testing and dev tools",
+      "url": "https://github.com/numman-ali/n-skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "n-skills-dev-browser dev browser - automated browser testing and dev tools numman-ali/n-skills dev-tools general"
+    },
+    {
+      "name": "n-skills-gastown",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "numman-ali/n-skills",
+      "stars": 0,
+      "desc": "Gastown - tool management for AI agents",
+      "url": "https://github.com/numman-ali/n-skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "n-skills-gastown gastown - tool management for ai agents numman-ali/n-skills dev-tools general"
+    },
+    {
+      "name": "n-skills-zai-cli",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "numman-ali/n-skills",
+      "stars": 0,
+      "desc": "Zai CLI - command-line AI tool",
+      "url": "https://github.com/numman-ali/n-skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "n-skills-zai-cli zai cli - command-line ai tool numman-ali/n-skills dev-tools general"
+    },
+    {
+      "name": "n-skills-open-source-maintainer",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "numman-ali/n-skills",
+      "stars": 0,
+      "desc": "Open Source Maintainer - automated maintainer workflow",
+      "url": "https://github.com/numman-ali/n-skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "n-skills-open-source-maintainer open source maintainer - automated maintainer workflow numman-ali/n-skills dev-tools general"
+    },
+    {
+      "name": "mcp2cli",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "knowsuchagency/mcp2cli",
+      "stars": 0,
+      "desc": "Turn any MCP, OpenAPI, or GraphQL server into a CLI — at runtime, with zero codegen",
+      "url": "https://github.com/knowsuchagency/mcp2cli",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mcp2cli turn any mcp, openapi, or graphql server into a cli — at runtime, with zero codegen knowsuchagency/mcp2cli dev-tools general"
+    },
+    {
+      "name": "contextplus",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "forloopcodes/contextplus",
+      "stars": 0,
+      "desc": "Semantic Intelligence for Large-Scale Engineering. Context+ is an MCP server designed for developers who demand 99% accuracy. By combining RAG, Tree-sitter AST, Spectral Clustering, and Obsidian-style",
+      "url": "https://github.com/forloopcodes/contextplus",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "contextplus semantic intelligence for large-scale engineering. context+ is an mcp server designed for developers who demand 99% accuracy. by combining rag, tree-sitter ast, spectral clustering, and obsidian-style forloopcodes/contextplus dev-tools general"
+    },
+    {
+      "name": "codedb",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "justrach/codedb",
+      "stars": 0,
+      "desc": "Zig code intelligence server and MCP toolset for AI agents. Fast tree, outline, symbol, search, read, edit, deps, snapshot, and remote GitHub repo queries.",
+      "url": "https://github.com/justrach/codedb",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "codedb zig code intelligence server and mcp toolset for ai agents. fast tree, outline, symbol, search, read, edit, deps, snapshot, and remote github repo queries. justrach/codedb dev-tools general"
     }
   ]
 }

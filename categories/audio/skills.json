@@ -4,7 +4,7 @@
     "topCategoryId": "audio",
     "subCategoryId": "audio",
     "categoryPath": "audio",
-    "count": 63,
+    "count": 69,
     "sourceData": "categories"
   },
   "skills": [
@@ -1141,6 +1141,114 @@
         "general"
       ],
       "searchText": "audio_ai_hub the hub for audio ai research: papers, open models, benchmarks & datasets across speech, music, and sound generation. binwang28/audio-ai-hub audio general"
+    },
+    {
+      "name": "TaxHacker",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "vas3k/TaxHacker",
+      "stars": 0,
+      "desc": "Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories",
+      "url": "https://github.com/vas3k/TaxHacker",
+      "install": "",
+      "functionCategory": "audio",
+      "topCategoryId": "audio",
+      "subCategoryId": "general",
+      "categoryPath": "audio",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "taxhacker self-hosted ai accounting app. llm analyzer for receipts, invoices, transactions with custom prompts and categories vas3k/taxhacker audio general"
+    },
+    {
+      "name": "flymd",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "flyhunterl/flymd",
+      "stars": 0,
+      "desc": "高性能Markdown笔记工具！免费AI，智能便签、TODO推送、本地知识库、AI小说引擎。PDF解析、自动语音笔记、录音转文本。毫秒级启动High-performance Markdown note tool! Free AI, smart notes, TODO reminders, local knowledge base, AI novel engine. PDF parsing, aut",
+      "url": "https://github.com/flyhunterl/flymd",
+      "install": "",
+      "functionCategory": "audio",
+      "topCategoryId": "audio",
+      "subCategoryId": "general",
+      "categoryPath": "audio",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "flymd 高性能markdown笔记工具！免费ai，智能便签、todo推送、本地知识库、ai小说引擎。pdf解析、自动语音笔记、录音转文本。毫秒级启动high-performance markdown note tool! free ai, smart notes, todo reminders, local knowledge base, ai novel engine. pdf parsing, auto voice notes, audio-to-text. millisecond startup. flyhunterl/flymd audio general"
+    },
+    {
+      "name": "bark-voice-cloning-HuBERT-quantizer",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "gitmylo/bark-voice-cloning-HuBERT-quantizer",
+      "stars": 0,
+      "desc": "The code for the bark-voicecloning model. Training and inference.",
+      "url": "https://github.com/gitmylo/bark-voice-cloning-HuBERT-quantizer",
+      "install": "",
+      "functionCategory": "audio",
+      "topCategoryId": "audio",
+      "subCategoryId": "general",
+      "categoryPath": "audio",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "bark-voice-cloning-hubert-quantizer the code for the bark-voicecloning model. training and inference. gitmylo/bark-voice-cloning-hubert-quantizer audio general"
+    },
+    {
+      "name": "wavmark",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "wavmark/wavmark",
+      "stars": 0,
+      "desc": "AI-based Audio Watermarking Tool",
+      "url": "https://github.com/wavmark/wavmark",
+      "install": "",
+      "functionCategory": "audio",
+      "topCategoryId": "audio",
+      "subCategoryId": "general",
+      "categoryPath": "audio",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "wavmark ai-based audio watermarking tool wavmark/wavmark audio general"
+    },
+    {
+      "name": "aixplora",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "grumpyp/aixplora",
+      "stars": 0,
+      "desc": "AIxplora is a open-source tool which let's you query all kind of files not limited to any length or format.",
+      "url": "https://github.com/grumpyp/aixplora",
+      "install": "",
+      "functionCategory": "audio",
+      "topCategoryId": "audio",
+      "subCategoryId": "general",
+      "categoryPath": "audio",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aixplora aixplora is a open-source tool which let's you query all kind of files not limited to any length or format. grumpyp/aixplora audio general"
+    },
+    {
+      "name": "friendly-stable-audio-tools",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "yukara-ikemiya/friendly-stable-audio-tools",
+      "stars": 0,
+      "desc": "Refactored / updated version of `stable-audio-tools` which is an open-source code for audio/music generative models originally by Stability AI.",
+      "url": "https://github.com/yukara-ikemiya/friendly-stable-audio-tools",
+      "install": "",
+      "functionCategory": "audio",
+      "topCategoryId": "audio",
+      "subCategoryId": "general",
+      "categoryPath": "audio",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "friendly-stable-audio-tools refactored / updated version of `stable-audio-tools` which is an open-source code for audio/music generative models originally by stability ai. yukara-ikemiya/friendly-stable-audio-tools audio general"
     }
   ]
 }

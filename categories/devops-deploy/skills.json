@@ -4,7 +4,7 @@
     "topCategoryId": "devops",
     "subCategoryId": "deploy",
     "categoryPath": "devops-deploy",
-    "count": 105,
+    "count": 122,
     "sourceData": "categories"
   },
   "skills": [
@@ -2090,6 +2090,294 @@
       "platforms": [
         "hermes"
       ]
+    },
+    {
+      "name": "litgpt",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Lightning-AI/litgpt",
+      "stars": 0,
+      "desc": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale.",
+      "url": "https://github.com/Lightning-AI/litgpt",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "litgpt 20+ high-performance llms with recipes to pretrain, finetune and deploy at scale. lightning-ai/litgpt devops-deploy general"
+    },
+    {
+      "name": "PowerInfer",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Tiiny-AI/PowerInfer",
+      "stars": 0,
+      "desc": "High-speed Large Language Model Serving for Local Deployment",
+      "url": "https://github.com/Tiiny-AI/PowerInfer",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "powerinfer high-speed large language model serving for local deployment tiiny-ai/powerinfer devops-deploy general"
+    },
+    {
+      "name": "oumi",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "oumi-ai/oumi",
+      "stars": 0,
+      "desc": "Easily fine-tune, evaluate and deploy Gemma 4, Qwen3.5, Qwen3.6, gpt-oss, DeepSeek-R1, or any open source LLM / VLM!",
+      "url": "https://github.com/oumi-ai/oumi",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "oumi easily fine-tune, evaluate and deploy gemma 4, qwen3.5, qwen3.6, gpt-oss, deepseek-r1, or any open source llm / vlm! oumi-ai/oumi devops-deploy general"
+    },
+    {
+      "name": "lmdeploy",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "InternLM/lmdeploy",
+      "stars": 0,
+      "desc": "LMDeploy is a toolkit for compressing, deploying, and serving LLMs.",
+      "url": "https://github.com/InternLM/lmdeploy",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "lmdeploy lmdeploy is a toolkit for compressing, deploying, and serving llms. internlm/lmdeploy devops-deploy general"
+    },
+    {
+      "name": "FastDeploy",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "PaddlePaddle/FastDeploy",
+      "stars": 0,
+      "desc": "High-performance Inference and Deployment Toolkit for LLMs and VLMs based on PaddlePaddle",
+      "url": "https://github.com/PaddlePaddle/FastDeploy",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "fastdeploy high-performance inference and deployment toolkit for llms and vlms based on paddlepaddle paddlepaddle/fastdeploy devops-deploy general"
+    },
+    {
+      "name": "llm-compressor",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "vllm-project/llm-compressor",
+      "stars": 0,
+      "desc": "Transformers-compatible library for applying various compression algorithms to LLMs for optimized deployment with vLLM",
+      "url": "https://github.com/vllm-project/llm-compressor",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "llm-compressor transformers-compatible library for applying various compression algorithms to llms for optimized deployment with vllm vllm-project/llm-compressor devops-deploy general"
+    },
+    {
+      "name": "mint",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "google-research/mint",
+      "stars": 0,
+      "desc": "Multi-modal Content Creation Model Training Infrastructure including the FACT model (AI Choreographer) implementation.",
+      "url": "https://github.com/google-research/mint",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mint multi-modal content creation model training infrastructure including the fact model (ai choreographer) implementation. google-research/mint devops-deploy general"
+    },
+    {
+      "name": "azure-advisor",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "MicrosoftDocs/Agent-Skills",
+      "stars": 0,
+      "desc": "Azure Advisor - personalized cloud best practices recommendations",
+      "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "azure-advisor azure advisor - personalized cloud best practices recommendations microsoftdocs/agent-skills devops-deploy general"
+    },
+    {
+      "name": "azure-app-service",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "MicrosoftDocs/Agent-Skills",
+      "stars": 0,
+      "desc": "Azure App Service - web app hosting and deployment",
+      "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "azure-app-service azure app service - web app hosting and deployment microsoftdocs/agent-skills devops-deploy general"
+    },
+    {
+      "name": "azure-architecture",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "MicrosoftDocs/Agent-Skills",
+      "stars": 0,
+      "desc": "Azure Architecture - cloud architecture design patterns",
+      "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "azure-architecture azure architecture - cloud architecture design patterns microsoftdocs/agent-skills devops-deploy general"
+    },
+    {
+      "name": "azure-devops",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "MicrosoftDocs/Agent-Skills",
+      "stars": 0,
+      "desc": "Azure DevOps - CI/CD, testing, and project management",
+      "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "azure-devops azure devops - ci/cd, testing, and project management microsoftdocs/agent-skills devops-deploy general"
+    },
+    {
+      "name": "azure-kubernetes-service",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "MicrosoftDocs/Agent-Skills",
+      "stars": 0,
+      "desc": "Azure Kubernetes Service - managed Kubernetes",
+      "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "azure-kubernetes-service azure kubernetes service - managed kubernetes microsoftdocs/agent-skills devops-deploy general"
+    },
+    {
+      "name": "azure-container-apps",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "MicrosoftDocs/Agent-Skills",
+      "stars": 0,
+      "desc": "Azure Container Apps - serverless containers",
+      "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "azure-container-apps azure container apps - serverless containers microsoftdocs/agent-skills devops-deploy general"
+    },
+    {
+      "name": "azure-static-web-apps",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "MicrosoftDocs/Agent-Skills",
+      "stars": 0,
+      "desc": "Azure Static Web Apps - static site hosting with serverless APIs",
+      "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "azure-static-web-apps azure static web apps - static site hosting with serverless apis microsoftdocs/agent-skills devops-deploy general"
+    },
+    {
+      "name": "azure-monitor",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "MicrosoftDocs/Agent-Skills",
+      "stars": 0,
+      "desc": "Azure Monitor - full-stack monitoring and observability",
+      "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "azure-monitor azure monitor - full-stack monitoring and observability microsoftdocs/agent-skills devops-deploy general"
+    },
+    {
+      "name": "azure-networking",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "MicrosoftDocs/Agent-Skills",
+      "stars": 0,
+      "desc": "Azure Networking - VNet, load balancer, gateway, firewall",
+      "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "azure-networking azure networking - vnet, load balancer, gateway, firewall microsoftdocs/agent-skills devops-deploy general"
     }
   ]
 }

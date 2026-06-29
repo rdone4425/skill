@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "fuse.js": "^7.4.2",
     "next": "^14.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"

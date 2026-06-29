@@ -4,7 +4,7 @@
     "topCategoryId": "backend",
     "subCategoryId": "api",
     "categoryPath": "backend-api",
-    "count": 100,
+    "count": 169,
     "sourceData": "categories"
   },
   "skills": [
@@ -2012,6 +2012,1248 @@
         "general"
       ],
       "searchText": "mcp-db-server 让 ai 直接操刀你的数据库！无状态 mcp 数据库服务，支持 mysql/postgresql/sqlite/sql server/oracle/h2。 perfectxm/mcp-db-server npx mcp-db-server backend-api general"
+    },
+    {
+      "name": "ComfyUI",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Comfy-Org/ComfyUI",
+      "stars": 0,
+      "desc": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "comfyui the most powerful and modular diffusion model gui, api and backend with a graph/nodes interface. comfy-org/comfyui backend-api general"
+    },
+    {
+      "name": "funNLP",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "fighting41love/funNLP",
+      "stars": 0,
+      "desc": "中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器、职业名称词库、同义词库、反义词库、否定词库、汽车品牌词库、汽车零件词库、连续英文切割、各种中文词向量、公司名字大全、古诗词库、IT词库、财经词库、成语词库、地名词库、历史名",
+      "url": "https://github.com/fighting41love/funNLP",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "funnlp 中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器、职业名称词库、同义词库、反义词库、否定词库、汽车品牌词库、汽车零件词库、连续英文切割、各种中文词向量、公司名字大全、古诗词库、it词库、财经词库、成语词库、地名词库、历史名人词库、诗词词库、医学词库、饮食词库、法律词库、汽车词库、动物词库、中文聊天语料、中文谣言数据、百度中文问答数据集、句子相似度匹配算法集合、bert资源、文本生成&摘要相关工具、coconlp信息抽取工具、国内电话号码正则匹配、清华大学xlore:中英文跨语言百科知识图谱、清华大学人工智能技术系列报告、自然语言生成、nlu太难了系列、自动对联数据及机器人、用户名黑名单列表、罪名法务名词及分类模型、微信公众号语料、cs224n深度学习自然语言处理课程、中文手写汉字识别、中文自然语言处理 语料/数据集、变量命名神器、分词语料库+代码、任务型对话英文数据集、asr 语音数据集 + 基于深度学习的中文语音识别系统、笑声检测器、microsoft多语言数字/单位/如日期时间识别包、中华新华字典数据库及api(包括常用歇后语、成语、词语和汉字)、文档图谱自动生成、spacy 中文模型、common voice语音识别数据集新版、神经网络关系抽取、基于bert的命名实体识别、关键词(keyphrase)抽取包pke、基于医疗领域知识图谱的问答系统、基于依存句法与语义角色标注的事件三元组抽取、依存句法分析4万句高质量标注数据、cnocr：用来做中文ocr的python3包、中文人物关系知识图谱项目、中文nlp竞赛项目及代码汇总、中文字符数据、speech-aligner: 从“人声语音”及其“语言文本”产生音素级别时间对齐标注的工具、ampligraph: 知识图谱表示学习(python)库：知识图谱概念链接预测、scattertext 文本可视化(python)、语言/知识表示工具：bert & ernie、中文对比英文自然语言处理nlp的区别综述、synonyms中文近义词工具包、harvesttext领域自适应文本挖掘工具（新词发现-情感分析-实体链接等）、word2word：(python)方便易用的多语言词-词对集：62种语言/3,564个多语言对、语音识别语料生成工具：从具有音频/字幕的在线视频创建自动语音识别(asr)语料库、构建医疗实体识别的模型（包含词典和语料标注）、单文档非监督的关键词抽取、kashgari中使用gpt-2语言模型、开源的金融投资数据提取工具、文本自动摘要库textteaser: 仅支持英文、人民日报语料处理工具集、一些关于自然语言的基本模型、基于14w歌曲知识库的问答尝试--功能包括歌词接龙and已知歌词找歌曲以及歌曲歌手歌词三角关系的问答、基于siamese bilstm模型的相似句子判定模型并提供训练数据集和测试数据集、用transformer编解码模型实现的根据hacker news文章标题自动生成评论、用bert进行序列标记和文本分类的模板代码、litbank：nlp数据集——支持自然语言处理和计算人文学科任务的100部带标记英文小说语料、百度开源的基准信息抽取系统、虚假新闻数据集、facebook: lama语言模型分析，提供transformer-xl/bert/elmo/gpt预训练语言模型的统一访问接口、commonsenseqa：面向常识的英文qa挑战、中文知识图谱资料、数据及工具、各大公司内部里大牛分享的技术文档 pdf 或者 ppt、自然语言生成sql语句（英文）、中文nlp数据增强（eda）工具、英文nlp数据增强工具 、基于医药知识图谱的智能问答系统、京东商品知识图谱、基于mongodb存储的军事领域知识图谱问答项目、基于远监督的中文关系抽取、语音情感分析、中文ulmfit-情感分析-文本分类-语料及模型、一个拍照做题程序、世界各国大规模人名库、一个利用有趣中文语料库 qingyun 训练出来的中文聊天机器人、中文聊天机器人seqgan、省市区镇行政区划数据带拼音标注、教育行业新闻语料库包含自动文摘功能、开放了对话机器人-知识图谱-语义理解-自然语言处理工具及数据、中文知识图谱：基于百度百科中文页面-抽取三元组信息-构建中文知识图谱、masr: 中文语音识别-提供预训练模型-高识别率、python音频数据增广库、中文全词覆盖bert及两份阅读理解数据、convlab：开源多域端到端对话系统平台、中文自然语言处理数据集、基于最新版本rasa搭建的对话系统、基于tensorflow和bert的管道式实体及关系抽取、一个小型的证券知识图谱/知识库、复盘所有nlp比赛的top方案、openclap：多领域开源中文预训练语言模型仓库、uer：基于不同语料+编码器+目标任务的中文预训练模型仓库、中文自然语言处理向量合集、基于金融-司法领域(兼有闲聊性质)的聊天机器人、g2pc：基于上下文的汉语读音自动标记模块、zincbase 知识图谱构建工具包、诗歌质量评价/细粒度情感诗歌语料库、快速转化「中文数字」和「阿拉伯数字」、百度知道问答语料库、基于知识图谱的问答系统、jieba_fast 加速版的jieba、正则表达式教程、中文阅读理解数据集、基于bert等最新语言模型的抽取式摘要提取、python利用深度学习进行文本摘要的综合指南、知识图谱深度学习相关资料整理、维基大规模平行文本语料、stanfordnlp 0.2.0：纯python版自然语言处理包、neuralnlp-neuralclassifier：腾讯开源深度学习文本分类工具、端到端的封闭域对话系统、中文命名实体识别：neuroner vs. bertner、新闻事件线索抽取、2019年百度的三元组抽取比赛：“科学空间队”源码、基于依存句法的开放域文本知识三元组抽取和知识库构建、中文的gpt2训练代码、ml-nlp - 机器学习(machine learning)nlp面试中常考到的知识点和代码实现、nlp4han:中文自然语言处理工具集(断句/分词/词性标注/组块/句法分析/语义分析/ner/n元语法/hmm/代词消解/情感分析/拼写检查、xlm：facebook的跨语言预训练语言模型、用基于bert的微调和特征提取方法来进行知识图谱百度百科人物词条属性抽取、中文自然语言处理相关的开放任务-数据集-当前最佳结果、coupletai - 基于cnn+bi-lstm+attention 的自动对对联系统、抽象知识图谱、miningzhidaoqacorpus - 580万百度知道问答数据挖掘项目、brat rapid annotation tool: 序列标注工具、大规模中文知识图谱数据：1.4亿实体、数据增强在机器翻译及其他nlp任务中的应用及效果、allennlp阅读理解:支持多种数据和模型、pdf表格数据提取工具 、 graphbrain：ai开源软件库和科研工具，目的是促进自动意义提取和文本理解以及知识的探索和推断、简历自动筛选系统、基于命名实体识别的简历自动摘要、中文语言理解测评基准，包括代表性的数据集&基准模型&语料库&排行榜、树洞 ocr 文字识别 、从包含表格的扫描图片中识别表格和文字、语声迁移、python口语自然语言处理工具集(英文)、 similarity：相似度计算工具包，java编写、海量中文预训练albert模型 、transformers 2.0 、基于大规模音频数据集audioset的音频增强 、poplar：网页版自然语言标注工具、图片文字去除，可用于漫画翻译 、186种语言的数字叫法库、amazon发布基于知识的人-人开放领域对话数据集 、中文文本纠错模块代码、繁简体转换 、 python实现的多种文本可读性评价指标、类似于人名/地名/组织机构名的命名体识别数据集 、东南大学《知识图谱》研究生课程(资料)、. 英文拼写检查库 、 wwsearch是企业微信后台自研的全文检索引擎、chameleon：深度学习新闻推荐系统元架构 、 8篇论文梳理bert相关模型进展与反思、docsearch：免费文档搜索引擎、 lida：轻量交互式对话标注工具 、aili - the fastest in-memory index in the east 东半球最快并发索引 、知识图谱车音工作项目、自然语言生成资源大全 、中日韩分词库mecab的python接口库、中文文本摘要/关键词提取、汉字字符特征提取器 (featurizer)，提取汉字的特征（发音特征、字形特征）用做深度学习的特征、中文生成任务基准测评 、中文缩写数据集、中文任务基准测评 - 代表性的数据集-基准(预训练)模型-语料库-baseline-工具包-排行榜、pyss3：面向可解释ai的ss3文本分类器机器可视化工具 、中文nlp数据集列表、cope - 格律诗编辑程序、doccano：基于网页的开源协同多语言文本标注工具 、prenlp：自然语言预处理库、简单的简历解析器，用来从简历中提取关键信息、用于中文闲聊的gpt2模型：gpt2-chitchat、基于检索聊天机器人多轮响应选择相关资源列表(leaderboards、datasets、papers)、(colab)抽象文本摘要实现集锦(教程 、词语拼音数据、高效模糊搜索工具、nlp数据增广资源集、微软对话机器人框架 、 github typo corpus：大规模github多语言拼写错误/语法错误数据集、textcluster：短文本聚类预处理模块 short text cluster、面向语音识别的中文文本规范化、blink：最先进的实体链接库、bertpunc：基于bert的最先进标点修复模型、tokenizer：快速、可定制的文本词条化库、中文语言理解测评基准，包括代表性的数据集、基准(预训练)模型、语料库、排行榜、spacy 医学文本挖掘与信息提取 、 nlp任务示例项目代码集、 python拼写检查库、chatbot-list - 行业内关于智能客服、聊天机器人的应用和架构、算法分享和介绍、语音质量评价指标(mosnet, bsseval, stoi, pesq, srmr)、 用138gb语料训练的法文roberta预训练语言模型 、bert-ner-pytorch：三种不同模式的bert中文ner实验、无道词典 - 有道词典的命令行版本，支持英汉互查和在线查询、2019年nlp亮点回顾、 chinese medical dialogue data 中文医疗对话数据集 、最好的汉字数字(中文数字)-阿拉伯数字转换工具、 基于百科知识库的中文词语多词义/义项获取与特定句子词语语义消歧、awesome-nlp-sentiment-analysis - 情感分析、情绪原因识别、评价对象和评价词抽取、lineflow：面向所有深度学习框架的nlp数据高效加载器、中文医学nlp公开资源整理 、medquad：(英文)医学问答数据集、将自然语言数字串解析转换为整数和浮点数、transfer learning in natural language processing (nlp) 、面向语音识别的中文/英文发音辞典、tokenizers：注重性能与多功能性的最先进分词器、cluener 细粒度命名实体识别 fine grained named entity recognition、 基于bert的中文命名实体识别、中文谣言数据库、nlp数据集/基准任务大列表、nlp相关的一些论文及代码, 包括主题模型、词向量(word embedding)、命名实体识别(ner)、文本分类(text classificatin)、文本生成(text generation)、文本相似性(text similarity)计算等，涉及到各种与nlp相关的算法，基于keras和tensorflow 、python文本挖掘/nlp实战示例、 blackstone：面向非结构化法律文本的spacy pipeline和nlp模型通过同义词替换实现文本“变脸” 、中文 预训练 electrea 模型: 基于对抗学习 pretrain chinese model 、albert-chinese-ner - 用预训练语言模型albert做中文ner 、基于gpt2的特定主题文本生成/文本增广、开源预训练语言模型合集、多语言句向量包、编码、标记和实现：一种可控高效的文本生成方法、 英文脏话大列表 、attnvis：gpt2、bert等transformer语言模型注意力交互可视化、covost：facebook发布的多语种语音-文本翻译语料库，包括11种语言(法语、德语、荷兰语、俄语、西班牙语、意大利语、土耳其语、波斯语、瑞典语、蒙古语和中文)的语音、文字转录及英文译文、jiagu自然语言处理工具 - 以bilstm等模型为基础，提供知识图谱关系抽取 中文分词 词性标注 命名实体识别 情感分析 新词发现 关键词 文本摘要 文本聚类等功能、用unet实现对文档表格的自动检测，表格重建、nlp事件提取文献资源列表 、 金融领域自然语言处理研究资源大列表、cluedatasetsearch - 中英文nlp数据集：搜索所有中文nlp数据集，附常用英文nlp数据集 、medical_ner - 中文医学知识图谱命名实体识别 、(哈佛)讲因果推理的免费书、知识图谱相关学习资料/数据集/工具资源大列表、forte：灵活强大的自然语言处理pipeline工具集 、python字符串相似性算法库、pylaia：面向手写文档分析的深度学习工具包、textfooler：针对文本分类/推理的对抗文本生成模块、haystack：灵活、强大的可扩展问答(qa)框架、中文关键短语抽取工具 fighting41love/funnlp backend-api general"
+    },
+    {
+      "name": "appwrite",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "appwrite/appwrite",
+      "stars": 0,
+      "desc": "Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more",
+      "url": "https://github.com/appwrite/appwrite",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "appwrite appwrite® - complete cloud infrastructure for your web, mobile and ai apps. including auth, databases, storage, functions, messaging, hosting, realtime and more appwrite/appwrite backend-api general"
+    },
+    {
+      "name": "dbeaver",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "dbeaver/dbeaver",
+      "stars": 0,
+      "desc": "Free universal database tool and SQL client",
+      "url": "https://github.com/dbeaver/dbeaver",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "dbeaver free universal database tool and sql client dbeaver/dbeaver backend-api general"
+    },
+    {
+      "name": "Chat2DB",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "OtterMind/Chat2DB",
+      "stars": 0,
+      "desc": "AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
+      "url": "https://github.com/OtterMind/Chat2DB",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "chat2db ai-driven database tool and sql client, the hottest gui client, supporting mysql, oracle, postgresql, db2, sql server, db2, sqlite, h2, clickhouse, and more. ottermind/chat2db backend-api general"
+    },
+    {
+      "name": "AiToEarn",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "yikart/AiToEarn",
+      "stars": 0,
+      "desc": "Let's use AI to Earn!",
+      "url": "https://github.com/yikart/AiToEarn",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aitoearn let's use ai to earn! yikart/aitoearn backend-api general"
+    },
+    {
+      "name": "skyvern",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Skyvern-AI/skyvern",
+      "stars": 0,
+      "desc": "Automate browser based workflows with AI",
+      "url": "https://github.com/Skyvern-AI/skyvern",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "skyvern automate browser based workflows with ai skyvern-ai/skyvern backend-api general"
+    },
+    {
+      "name": "instant",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "instantdb/instant",
+      "stars": 0,
+      "desc": "Instant is the best backend for AI-coded apps.  You get auth, permissions, storage, presence, and streams — everything you need to ship apps your users will love.",
+      "url": "https://github.com/instantdb/instant",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "instant instant is the best backend for ai-coded apps.  you get auth, permissions, storage, presence, and streams — everything you need to ship apps your users will love. instantdb/instant backend-api general"
+    },
+    {
+      "name": "inference",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "xorbitsai/inference",
+      "stars": 0,
+      "desc": "Swap GPT for any LLM by changing a single line of code. Xinference lets you run open-source, speech, and multimodal models on cloud, on-prem, or your laptop — all through one unified, production-ready",
+      "url": "https://github.com/xorbitsai/inference",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "inference swap gpt for any llm by changing a single line of code. xinference lets you run open-source, speech, and multimodal models on cloud, on-prem, or your laptop — all through one unified, production-ready inference api. xorbitsai/inference backend-api general"
+    },
+    {
+      "name": "crawlee-python",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "apify/crawlee-python",
+      "stars": 0,
+      "desc": "Crawlee—A web scraping and browser automation library for Python to build reliable crawlers. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works",
+      "url": "https://github.com/apify/crawlee-python",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "crawlee-python crawlee—a web scraping and browser automation library for python to build reliable crawlers. extract data for ai, llms, rag, or gpts. download html, pdf, jpg, png, and other files from websites. works with parsel, beautifulsoup, playwright, and raw http. both headful and headless mode. with proxy rotation. apify/crawlee-python backend-api general"
+    },
+    {
+      "name": "ChatGPT-Shortcut",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "rockbenben/ChatGPT-Shortcut",
+      "stars": 0,
+      "desc": "🚀💪Maximize your efficiency and productivity. The ultimate hub to manage, customize, and share prompts. (English/中文/Español/العربية). 让生产力加倍的 AI 快捷指令。更高效地管理提示词，在分享社区中发现适用于不同场景的灵感。",
+      "url": "https://github.com/rockbenben/ChatGPT-Shortcut",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "chatgpt-shortcut 🚀💪maximize your efficiency and productivity. the ultimate hub to manage, customize, and share prompts. (english/中文/español/العربية). 让生产力加倍的 ai 快捷指令。更高效地管理提示词，在分享社区中发现适用于不同场景的灵感。 rockbenben/chatgpt-shortcut backend-api general"
+    },
+    {
+      "name": "autoscraper",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "alirezamika/autoscraper",
+      "stars": 0,
+      "desc": "A Smart, Automatic, Fast and Lightweight Web Scraper for Python",
+      "url": "https://github.com/alirezamika/autoscraper",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "autoscraper a smart, automatic, fast and lightweight web scraper for python alirezamika/autoscraper backend-api general"
+    },
+    {
+      "name": "kgateway",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "kgateway-dev/kgateway",
+      "stars": 0,
+      "desc": "The Cloud-Native API Gateway and AI Gateway",
+      "url": "https://github.com/kgateway-dev/kgateway",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "kgateway the cloud-native api gateway and ai gateway kgateway-dev/kgateway backend-api general"
+    },
+    {
+      "name": "Promptify",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "promptslab/Promptify",
+      "stars": 0,
+      "desc": "Prompt Engineering | Prompt Versioning | Use GPT or other prompt based models to get structured output. Join our discord for Prompt-Engineering, LLMs and other latest research",
+      "url": "https://github.com/promptslab/Promptify",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "promptify prompt engineering | prompt versioning | use gpt or other prompt based models to get structured output. join our discord for prompt-engineering, llms and other latest research promptslab/promptify backend-api general"
+    },
+    {
+      "name": "chef",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "get-convex/chef",
+      "stars": 0,
+      "desc": "The only AI app builder that knows backend",
+      "url": "https://github.com/get-convex/chef",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "chef the only ai app builder that knows backend get-convex/chef backend-api general"
+    },
+    {
+      "name": "LitServe",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Lightning-AI/LitServe",
+      "stars": 0,
+      "desc": "A minimal Python framework for building custom AI inference servers with full control over logic, batching, and scaling.",
+      "url": "https://github.com/Lightning-AI/LitServe",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "litserve a minimal python framework for building custom ai inference servers with full control over logic, batching, and scaling. lightning-ai/litserve backend-api general"
+    },
+    {
+      "name": "olivia",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "olivia-ai/olivia",
+      "stars": 0,
+      "desc": "💁‍♀️Your new best friend powered by an artificial neural network",
+      "url": "https://github.com/olivia-ai/olivia",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "olivia 💁‍♀️your new best friend powered by an artificial neural network olivia-ai/olivia backend-api general"
+    },
+    {
+      "name": "behaviac",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Tencent/behaviac",
+      "stars": 0,
+      "desc": "behaviac is a framework of the game AI development, and it also can be used as a rapid game prototype design tool. behaviac supports the behavior tree, finite state machine and hierarchical task netwo",
+      "url": "https://github.com/Tencent/behaviac",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "behaviac behaviac is a framework of the game ai development, and it also can be used as a rapid game prototype design tool. behaviac supports the behavior tree, finite state machine and hierarchical task network(bt, fsm, htn) tencent/behaviac backend-api general"
+    },
+    {
+      "name": "ramalama",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "containers/ramalama",
+      "stars": 0,
+      "desc": "RamaLama is an open-source developer tool that simplifies the local serving of AI models from any source and facilitates their use for inference in production, all through the familiar language of con",
+      "url": "https://github.com/containers/ramalama",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ramalama ramalama is an open-source developer tool that simplifies the local serving of ai models from any source and facilitates their use for inference in production, all through the familiar language of containers. containers/ramalama backend-api general"
+    },
+    {
+      "name": "susi_server",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "fossasia/susi_server",
+      "stars": 0,
+      "desc": "SUSI.AI server backend - the Artificial Intelligence server for personal assistants  https://susi.ai",
+      "url": "https://github.com/fossasia/susi_server",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "susi_server susi.ai server backend - the artificial intelligence server for personal assistants  https://susi.ai fossasia/susi_server backend-api general"
+    },
+    {
+      "name": "1backend",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "1backend/1backend",
+      "stars": 0,
+      "desc": "Build AI (or any) apps with scalable microservices & microfrontends.",
+      "url": "https://github.com/1backend/1backend",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "1backend build ai (or any) apps with scalable microservices & microfrontends. 1backend/1backend backend-api general"
+    },
+    {
+      "name": "YiVal",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "YiVal/YiVal",
+      "stars": 0,
+      "desc": "Your Automatic Prompt Engineering Assistant for GenAI Applications",
+      "url": "https://github.com/YiVal/YiVal",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "yival your automatic prompt engineering assistant for genai applications yival/yival backend-api general"
+    },
+    {
+      "name": "nitric",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "nitrictech/nitric",
+      "stars": 0,
+      "desc": "Nitric is a multi-language framework for cloud applications with infrastructure from code.",
+      "url": "https://github.com/nitrictech/nitric",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "nitric nitric is a multi-language framework for cloud applications with infrastructure from code. nitrictech/nitric backend-api general"
+    },
+    {
+      "name": "GPTDiscord",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Kav-K/GPTDiscord",
+      "stars": 0,
+      "desc": "A robust, all-in-one GPT interface for Discord. ChatGPT-style conversations, image generation, AI-moderation, custom indexes/knowledgebase, youtube summarizer, and more!",
+      "url": "https://github.com/Kav-K/GPTDiscord",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gptdiscord a robust, all-in-one gpt interface for discord. chatgpt-style conversations, image generation, ai-moderation, custom indexes/knowledgebase, youtube summarizer, and more! kav-k/gptdiscord backend-api general"
+    },
+    {
+      "name": "pixeltable",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "pixeltable/pixeltable",
+      "stars": 0,
+      "desc": "Unified multimodal backend for AI data apps",
+      "url": "https://github.com/pixeltable/pixeltable",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "pixeltable unified multimodal backend for ai data apps pixeltable/pixeltable backend-api general"
+    },
+    {
+      "name": "CodeGPT",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "appleboy/CodeGPT",
+      "stars": 0,
+      "desc": "A CLI written in Go language that writes git commit messages or do a code review brief for you using ChatGPT AI (gpt-4.1, gpt-4o model) and automatically installs a git prepare-commit-msg hook.",
+      "url": "https://github.com/appleboy/CodeGPT",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "codegpt a cli written in go language that writes git commit messages or do a code review brief for you using chatgpt ai (gpt-4.1, gpt-4o model) and automatically installs a git prepare-commit-msg hook. appleboy/codegpt backend-api general"
+    },
+    {
+      "name": "transcribe-anything",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "zackees/transcribe-anything",
+      "stars": 0,
+      "desc": "Multi-backend whisper app. Blazing fast. Mac-arm optimized. Easy install. Input a local file or url and this service will transcribe it using Whisper AI. Completely private and Free 🤯🤯🤯",
+      "url": "https://github.com/zackees/transcribe-anything",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "transcribe-anything multi-backend whisper app. blazing fast. mac-arm optimized. easy install. input a local file or url and this service will transcribe it using whisper ai. completely private and free 🤯🤯🤯 zackees/transcribe-anything backend-api general"
+    },
+    {
+      "name": "Chatterbox-TTS-Server",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "devnen/Chatterbox-TTS-Server",
+      "stars": 0,
+      "desc": "Self-host the powerful Chatterbox TTS model. This server offers a user-friendly Web UI, flexible API endpoints (incl. OpenAI compatible), predefined voices, voice cloning, and large audiobook-scale te",
+      "url": "https://github.com/devnen/Chatterbox-TTS-Server",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "chatterbox-tts-server self-host the powerful chatterbox tts model. this server offers a user-friendly web ui, flexible api endpoints (incl. openai compatible), predefined voices, voice cloning, and large audiobook-scale text processing. runs accelerated on nvidia (cuda), amd (rocm), and cpu. devnen/chatterbox-tts-server backend-api general"
+    },
+    {
+      "name": "parsera",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "raznem/parsera",
+      "stars": 0,
+      "desc": "Lightweight library for scraping web-sites with LLMs",
+      "url": "https://github.com/raznem/parsera",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "parsera lightweight library for scraping web-sites with llms raznem/parsera backend-api general"
+    },
+    {
+      "name": "EmbedAnything",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "StarlightSearch/EmbedAnything",
+      "stars": 0,
+      "desc": "Highly Performant, Modular, Memory Safe and Production-ready Inference, Ingestion and Indexing built in Rust 🦀",
+      "url": "https://github.com/StarlightSearch/EmbedAnything",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "embedanything highly performant, modular, memory safe and production-ready inference, ingestion and indexing built in rust 🦀 starlightsearch/embedanything backend-api general"
+    },
+    {
+      "name": "ai-hub-models",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "qualcomm/ai-hub-models",
+      "stars": 0,
+      "desc": "Qualcomm® AI Hub Models is our collection of state-of-the-art machine learning models optimized for performance (latency, memory etc.) and ready to deploy on Qualcomm® devices.",
+      "url": "https://github.com/qualcomm/ai-hub-models",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-hub-models qualcomm® ai hub models is our collection of state-of-the-art machine learning models optimized for performance (latency, memory etc.) and ready to deploy on qualcomm® devices. qualcomm/ai-hub-models backend-api general"
+    },
+    {
+      "name": "csghub-server",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "OpenCSGs/csghub-server",
+      "stars": 0,
+      "desc": "csghub-server is the backend server for CSGHub which helps user to manage datasets, modes, and also run Model Inference, Finetune and Application Spaces.",
+      "url": "https://github.com/OpenCSGs/csghub-server",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "csghub-server csghub-server is the backend server for csghub which helps user to manage datasets, modes, and also run model inference, finetune and application spaces. opencsgs/csghub-server backend-api general"
+    },
+    {
+      "name": "ai-codereviewer",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "villesau/ai-codereviewer",
+      "stars": 0,
+      "desc": "AI Code Reviewer: Enhance your GitHub workflow with AI-powered code review! Get intelligent feedback and suggestions on pull requests using OpenAI's GPT-4 API, improving code quality and saving develo",
+      "url": "https://github.com/villesau/ai-codereviewer",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-codereviewer ai code reviewer: enhance your github workflow with ai-powered code review! get intelligent feedback and suggestions on pull requests using openai's gpt-4 api, improving code quality and saving developers time. villesau/ai-codereviewer backend-api general"
+    },
+    {
+      "name": "multi-model-server",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "awslabs/multi-model-server",
+      "stars": 0,
+      "desc": "Multi Model Server is a tool for serving neural net models for inference",
+      "url": "https://github.com/awslabs/multi-model-server",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "multi-model-server multi model server is a tool for serving neural net models for inference awslabs/multi-model-server backend-api general"
+    },
+    {
+      "name": "Transformers-for-NLP-2nd-Edition",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Denis2054/Transformers-for-NLP-2nd-Edition",
+      "stars": 0,
+      "desc": "Transformer models from BERT to GPT-4, environments from Hugging Face to OpenAI. Fine-tuning, training, and prompt engineering examples. A bonus section with ChatGPT, GPT-3.5-turbo, GPT-4, and DALL-E ",
+      "url": "https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "transformers-for-nlp-2nd-edition transformer models from bert to gpt-4, environments from hugging face to openai. fine-tuning, training, and prompt engineering examples. a bonus section with chatgpt, gpt-3.5-turbo, gpt-4, and dall-e including jump starting gpt-4, speech-to-text, text-to-speech, text to image generation with dall-e, google cloud ai,hugginggpt, and more denis2054/transformers-for-nlp-2nd-edition backend-api general"
+    },
+    {
+      "name": "model_server",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "openvinotoolkit/model_server",
+      "stars": 0,
+      "desc": "A scalable inference server for models optimized with OpenVINO™",
+      "url": "https://github.com/openvinotoolkit/model_server",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "model_server a scalable inference server for models optimized with openvino™ openvinotoolkit/model_server backend-api general"
+    },
+    {
+      "name": "EvoMaster",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "WebFuzzing/EvoMaster",
+      "stars": 0,
+      "desc": "The first open-source AI-driven tool for automatically generating system-level test cases (also known as fuzzing) for web/enterprise applications. Currently targeting whitebox and blackbox testing of ",
+      "url": "https://github.com/WebFuzzing/EvoMaster",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "evomaster the first open-source ai-driven tool for automatically generating system-level test cases (also known as fuzzing) for web/enterprise applications. currently targeting whitebox and blackbox testing of web apis, like rest, graphql and rpc (e.g., grpc and thrift). webfuzzing/evomaster backend-api general"
+    },
+    {
+      "name": "tanuki.py",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Tanuki/tanuki.py",
+      "stars": 0,
+      "desc": "Prompt engineering for developers",
+      "url": "https://github.com/Tanuki/tanuki.py",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "tanuki.py prompt engineering for developers tanuki/tanuki.py backend-api general"
+    },
+    {
+      "name": "NanoBananaEditor",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "markfulton/NanoBananaEditor",
+      "stars": 0,
+      "desc": "The most advanced Nano Banana image generator and editor application. Your central hub for AI image generation and revisions. Intuitive UI features reference images, editing with image masks, version ",
+      "url": "https://github.com/markfulton/NanoBananaEditor",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "nanobananaeditor the most advanced nano banana image generator and editor application. your central hub for ai image generation and revisions. intuitive ui features reference images, editing with image masks, version history, and more. powered by gemini 2.5 flash images api. markfulton/nanobananaeditor backend-api general"
+    },
+    {
+      "name": "PdfGptIndexer",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "raghavan/PdfGptIndexer",
+      "stars": 0,
+      "desc": "RAG based tool for indexing and searching PDF text data using OpenAI API and FAISS (Facebook AI Similarity Search) index, designed for rapid information retrieval and superior search accuracy.",
+      "url": "https://github.com/raghavan/PdfGptIndexer",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "pdfgptindexer rag based tool for indexing and searching pdf text data using openai api and faiss (facebook ai similarity search) index, designed for rapid information retrieval and superior search accuracy. raghavan/pdfgptindexer backend-api general"
+    },
+    {
+      "name": "scrapecraft",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ScrapeGraphAI/scrapecraft",
+      "stars": 0,
+      "desc": "🤖 AI-powered web scraping editor with visual workflow builder. Build, test & deploy web scrapers using natural language. Powered by ScrapeGraphAI & LangGraph.",
+      "url": "https://github.com/ScrapeGraphAI/scrapecraft",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "scrapecraft 🤖 ai-powered web scraping editor with visual workflow builder. build, test & deploy web scrapers using natural language. powered by scrapegraphai & langgraph. scrapegraphai/scrapecraft backend-api general"
+    },
+    {
+      "name": "apiflow",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "trueleaf/apiflow",
+      "stars": 0,
+      "desc": "A modern API workspace that works both online and offline — combining API documentation, testing, mock, and AI-powered automation in one lightweight tool",
+      "url": "https://github.com/trueleaf/apiflow",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "apiflow a modern api workspace that works both online and offline — combining api documentation, testing, mock, and ai-powered automation in one lightweight tool trueleaf/apiflow backend-api general"
+    },
+    {
+      "name": "ilab-gpt-conjure",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "kadevin/ilab-gpt-conjure",
+      "stars": 0,
+      "desc": "面向 GPT-image-2 的 AI 图片生成 WebUI 工作台，支持 Codex Responses 与 OpenAI 兼容 API 接入，内置公用图库、多类型 Chip 快捷引用、提示词模板、多任务并发和本地队列管理。An AI image generation WebUI workbench for GPT-image-2 with Codex Responses and OpenAI-",
+      "url": "https://github.com/kadevin/ilab-gpt-conjure",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ilab-gpt-conjure 面向 gpt-image-2 的 ai 图片生成 webui 工作台，支持 codex responses 与 openai 兼容 api 接入，内置公用图库、多类型 chip 快捷引用、提示词模板、多任务并发和本地队列管理。an ai image generation webui workbench for gpt-image-2 with codex responses and openai-compatible api support, shared gallery references, multi-type quick chips, prompt templates, concurrent tasks, and local queue management. kadevin/ilab-gpt-conjure backend-api general"
+    },
+    {
+      "name": "pinferencia",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "underneathall/pinferencia",
+      "stars": 0,
+      "desc": "Python + Inference - Model Deployment library in Python. Simplest model inference server ever.",
+      "url": "https://github.com/underneathall/pinferencia",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "pinferencia python + inference - model deployment library in python. simplest model inference server ever. underneathall/pinferencia backend-api general"
+    },
+    {
+      "name": "kangaroo",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "dbkangaroo/kangaroo",
+      "stars": 0,
+      "desc": "Kangaroo is an AI-powered SQL client and admin tool for popular databases (MariaDB / MySQL / Oracle / PostgreSQL / Redis / SQLite / SQL Server / ...) on Windows / MacOS / Linux, support table design, ",
+      "url": "https://github.com/dbkangaroo/kangaroo",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "kangaroo kangaroo is an ai-powered sql client and admin tool for popular databases (mariadb / mysql / oracle / postgresql / redis / sqlite / sql server / ...) on windows / macos / linux, support table design, query, model, sync, export/import etc, focus on comfortable, fun and developer friendly. dbkangaroo/kangaroo backend-api general"
+    },
+    {
+      "name": "genai-for-marketing",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "GoogleCloudPlatform/genai-for-marketing",
+      "stars": 0,
+      "desc": "Showcasing Google Cloud's generative AI for marketing scenarios via application frontend, backend, and detailed, step-by-step guidance for setting up and utilizing generative AI tools, including examp",
+      "url": "https://github.com/GoogleCloudPlatform/genai-for-marketing",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "genai-for-marketing showcasing google cloud's generative ai for marketing scenarios via application frontend, backend, and detailed, step-by-step guidance for setting up and utilizing generative ai tools, including examples of their use in crafting marketing materials like blog posts and social media content, nl2sql analysis, and campaign personalization. googlecloudplatform/genai-for-marketing backend-api general"
+    },
+    {
+      "name": "qData",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "qiantongtech/qData",
+      "stars": 0,
+      "desc": "qData is an open-source data governance and data development platform that integrates ETL, data development, metadata management, data quality, data assets, API services, and AI-powered data Q&A.",
+      "url": "https://github.com/qiantongtech/qData",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "qdata qdata is an open-source data governance and data development platform that integrates etl, data development, metadata management, data quality, data assets, api services, and ai-powered data q&a. qiantongtech/qdata backend-api general"
+    },
+    {
+      "name": "ai-hub-apps",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "qualcomm/ai-hub-apps",
+      "stars": 0,
+      "desc": "The Qualcomm® AI Hub apps are a collection of state-of-the-art machine learning models optimized for performance (latency, memory etc.) and ready to deploy on Qualcomm® devices.",
+      "url": "https://github.com/qualcomm/ai-hub-apps",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-hub-apps the qualcomm® ai hub apps are a collection of state-of-the-art machine learning models optimized for performance (latency, memory etc.) and ready to deploy on qualcomm® devices. qualcomm/ai-hub-apps backend-api general"
+    },
+    {
+      "name": "PowerPoint-Generator-Python-Project",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "otahina/PowerPoint-Generator-Python-Project",
+      "stars": 0,
+      "desc": "Discover the power of GPT-3.5 turbo in presentation creation! 💻🤩  This web application can effortlessly generate captivating PowerPoint presentations. Say goodbye to the struggle of starting from scra",
+      "url": "https://github.com/otahina/PowerPoint-Generator-Python-Project",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "powerpoint-generator-python-project discover the power of gpt-3.5 turbo in presentation creation! 💻🤩  this web application can effortlessly generate captivating powerpoint presentations. say goodbye to the struggle of starting from scratch and let ai revolutionize your content creation process. 🎨 otahina/powerpoint-generator-python-project backend-api general"
+    },
+    {
+      "name": "maclocal-api",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "scouzi1966/maclocal-api",
+      "stars": 0,
+      "desc": "'afm' command cli: macOS server and single prompt mode that exposes Apple's Foundation and MLX Models and other APIs running on your Mac through a single aggregated OpenAI-compatible API endpoint. Sup",
+      "url": "https://github.com/scouzi1966/maclocal-api",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "maclocal-api 'afm' command cli: macos server and single prompt mode that exposes apple's foundation and mlx models and other apis running on your mac through a single aggregated openai-compatible api endpoint. supports apple vision and single command (non-server) inference with piping as well . now with web browser and  local ai api aggregator scouzi1966/maclocal-api backend-api general"
+    },
+    {
+      "name": "slurp-ai",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ratacat/slurp-ai",
+      "stars": 0,
+      "desc": "Tool for scraping and consolidating documentation websites into a single MD file.",
+      "url": "https://github.com/ratacat/slurp-ai",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "slurp-ai tool for scraping and consolidating documentation websites into a single md file. ratacat/slurp-ai backend-api general"
+    },
+    {
+      "name": "proxify",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "poixeai/proxify",
+      "stars": 0,
+      "desc": "An open-source, lightweight, and self-hosted reverse proxy gateway for AI APIs",
+      "url": "https://github.com/poixeai/proxify",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "proxify an open-source, lightweight, and self-hosted reverse proxy gateway for ai apis poixeai/proxify backend-api general"
+    },
+    {
+      "name": "n8n-no-code-web-scraper",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ScrapingBee/n8n-no-code-web-scraper",
+      "stars": 0,
+      "desc": "No-code web scraper built with n8n and ScrapingBee for AI-powered data extraction and automated web scraping workflows without writing code.",
+      "url": "https://github.com/ScrapingBee/n8n-no-code-web-scraper",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "n8n-no-code-web-scraper no-code web scraper built with n8n and scrapingbee for ai-powered data extraction and automated web scraping workflows without writing code. scrapingbee/n8n-no-code-web-scraper backend-api general"
+    },
+    {
+      "name": "doorman",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "doorman-dev/doorman",
+      "stars": 0,
+      "desc": "Enterprise AI and API Gateway with Governance",
+      "url": "https://github.com/doorman-dev/doorman",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "doorman enterprise ai and api gateway with governance doorman-dev/doorman backend-api general"
+    },
+    {
+      "name": "mlx-gui",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "RamboRogers/mlx-gui",
+      "stars": 0,
+      "desc": "MLX-GUI MLX Inference Server for Apple Silicone",
+      "url": "https://github.com/RamboRogers/mlx-gui",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mlx-gui mlx-gui mlx inference server for apple silicone ramborogers/mlx-gui backend-api general"
+    },
+    {
+      "name": "airbyte_serverless",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "unytics/airbyte_serverless",
+      "stars": 0,
+      "desc": "Airbyte made simple (no UI, no database, no cluster)",
+      "url": "https://github.com/unytics/airbyte_serverless",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "airbyte_serverless airbyte made simple (no ui, no database, no cluster) unytics/airbyte_serverless backend-api general"
+    },
+    {
+      "name": "ai-growth-stack",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "cporter202/ai-growth-stack",
+      "stars": 0,
+      "desc": "A curated collection of my top AI-powered APIs for website optimization, SEO, conversions, and social media growth. This stack covers everything from data extraction and copywriting to landing page op",
+      "url": "https://github.com/cporter202/ai-growth-stack",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-growth-stack a curated collection of my top ai-powered apis for website optimization, seo, conversions, and social media growth. this stack covers everything from data extraction and copywriting to landing page optimization and automated social content generation. built for developers, marketers, and founders who want real growth tools — not fluff. cporter202/ai-growth-stack backend-api general"
+    },
+    {
+      "name": "Quansloth",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "PacifAIst/Quansloth",
+      "stars": 0,
+      "desc": "Based on the implementation of Google's TurboQuant (ICLR 2026) — Quansloth brings elite KV cache compression to local LLM inference.  Quansloth is a fully private, air-gapped AI server that runs massi",
+      "url": "https://github.com/PacifAIst/Quansloth",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "quansloth based on the implementation of google's turboquant (iclr 2026) — quansloth brings elite kv cache compression to local llm inference.  quansloth is a fully private, air-gapped ai server that runs massive context models natively on consumer hardware with ease pacifaist/quansloth backend-api general"
+    },
+    {
+      "name": "LLMKube",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "defilantech/LLMKube",
+      "stars": 0,
+      "desc": "Kubernetes operator for self-hosted LLM inference across a heterogeneous GPU fleet: NVIDIA CUDA, AMD Vulkan, and Apple Silicon Metal. Runtimes: llama.cpp, vLLM, TGI, mlx-server. Multi-GPU sharding, mo",
+      "url": "https://github.com/defilantech/LLMKube",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "llmkube kubernetes operator for self-hosted llm inference across a heterogeneous gpu fleet: nvidia cuda, amd vulkan, and apple silicon metal. runtimes: llama.cpp, vllm, tgi, mlx-server. multi-gpu sharding, model caching, openai-compatible endpoints. apache-2.0, run across homelab and on-prem fleets, actively developed. defilantech/llmkube backend-api general"
+    },
+    {
+      "name": "nos",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "autonomi-ai/nos",
+      "stars": 0,
+      "desc": "⚡️ A fast and flexible PyTorch inference server that runs locally, on any cloud or AI HW.",
+      "url": "https://github.com/autonomi-ai/nos",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "nos ⚡️ a fast and flexible pytorch inference server that runs locally, on any cloud or ai hw. autonomi-ai/nos backend-api general"
+    },
+    {
+      "name": "startpage",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "caffienerd/startpage",
+      "stars": 0,
+      "desc": "Professional Terminal Start Page is a sleek, customizable browser start page built around an interactive terminal. It combines productivity tools like semantic AI routing, Gemini integration, real-tim",
+      "url": "https://github.com/caffienerd/startpage",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "startpage professional terminal start page is a sleek, customizable browser start page built around an interactive terminal. it combines productivity tools like semantic ai routing, gemini integration, real-time weather, and network utilities with a premium aesthetic and multiple themes. designed for speed and flexibility. caffienerd/startpage backend-api general"
+    },
+    {
+      "name": "VectorETL",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ContextData/VectorETL",
+      "stars": 0,
+      "desc": "Build super simple end-to-end data & ETL pipelines for your vector databases and Generative AI applications",
+      "url": "https://github.com/ContextData/VectorETL",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vectoretl build super simple end-to-end data & etl pipelines for your vector databases and generative ai applications contextdata/vectoretl backend-api general"
+    },
+    {
+      "name": "Professional-Translation",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Traneasy-official/Professional-Translation",
+      "stars": 0,
+      "desc": "Official Traneasy repository providing AI-powered translation solutions, API documentation, and localization tools.",
+      "url": "https://github.com/Traneasy-official/Professional-Translation",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "professional-translation official traneasy repository providing ai-powered translation solutions, api documentation, and localization tools. traneasy-official/professional-translation backend-api general"
+    },
+    {
+      "name": "backend-to-frontend-handoff-docs",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "softaworks/agent-toolkit",
+      "stars": 0,
+      "desc": "Backend to Frontend Handoff Docs generator",
+      "url": "https://github.com/softaworks/agent-toolkit",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "backend-to-frontend-handoff-docs backend to frontend handoff docs generator softaworks/agent-toolkit backend-api general"
+    },
+    {
+      "name": "azure-api-management",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "MicrosoftDocs/Agent-Skills",
+      "stars": 0,
+      "desc": "Azure API Management - publish, secure, and analyze APIs",
+      "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "azure-api-management azure api management - publish, secure, and analyze apis microsoftdocs/agent-skills backend-api general"
+    },
+    {
+      "name": "azure-cosmos-db",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "MicrosoftDocs/Agent-Skills",
+      "stars": 0,
+      "desc": "Azure Cosmos DB - globally distributed NoSQL database",
+      "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "azure-cosmos-db azure cosmos db - globally distributed nosql database microsoftdocs/agent-skills backend-api general"
+    },
+    {
+      "name": "azure-functions",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "MicrosoftDocs/Agent-Skills",
+      "stars": 0,
+      "desc": "Azure Functions - serverless compute platform",
+      "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "azure-functions azure functions - serverless compute platform microsoftdocs/agent-skills backend-api general"
+    },
+    {
+      "name": "azure-sql-database",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "MicrosoftDocs/Agent-Skills",
+      "stars": 0,
+      "desc": "Azure SQL Database - managed cloud database service",
+      "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "azure-sql-database azure sql database - managed cloud database service microsoftdocs/agent-skills backend-api general"
+    },
+    {
+      "name": "azure-storage",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "MicrosoftDocs/Agent-Skills",
+      "stars": 0,
+      "desc": "Azure Storage - blob, file, queue, and table storage",
+      "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "azure-storage azure storage - blob, file, queue, and table storage microsoftdocs/agent-skills backend-api general"
     }
   ]
 }

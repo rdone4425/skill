@@ -4,7 +4,7 @@
     "topCategoryId": "education",
     "subCategoryId": "education",
     "categoryPath": "education",
-    "count": 90,
+    "count": 93,
     "sourceData": "categories"
   },
   "skills": [
@@ -1644,6 +1644,60 @@
         "kicknosub"
       ],
       "searchText": "kicknosub extract direct stream urls from kick videos in your preferred quality for educational and research purposes. enmn/kicknosub education kicknosub"
+    },
+    {
+      "name": "Mr.-Ranedeer-AI-Tutor",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "JushBJJ/Mr.-Ranedeer-AI-Tutor",
+      "stars": 0,
+      "desc": "A GPT-4 AI Tutor Prompt for customizable personalized learning experiences.",
+      "url": "https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "general",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mr.-ranedeer-ai-tutor a gpt-4 ai tutor prompt for customizable personalized learning experiences. jushbjj/mr.-ranedeer-ai-tutor education general"
+    },
+    {
+      "name": "chatgpt-prompt-engineering",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ralphcajipe/chatgpt-prompt-engineering",
+      "stars": 0,
+      "desc": "Jupyter code notebooks of \"ChatGPT Prompt Engineering for Developers\" by DeepLearning.AI and OpenAI.",
+      "url": "https://github.com/ralphcajipe/chatgpt-prompt-engineering",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "general",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "chatgpt-prompt-engineering jupyter code notebooks of \"chatgpt prompt engineering for developers\" by deeplearning.ai and openai. ralphcajipe/chatgpt-prompt-engineering education general"
+    },
+    {
+      "name": "SimplyRetrieve",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "RCGAI/SimplyRetrieve",
+      "stars": 0,
+      "desc": "Lightweight chat AI platform featuring custom knowledge, open-source LLMs, prompt-engineering, retrieval analysis. Highly customizable. For Retrieval-Centric & Retrieval-Augmented Generation.",
+      "url": "https://github.com/RCGAI/SimplyRetrieve",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "general",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "simplyretrieve lightweight chat ai platform featuring custom knowledge, open-source llms, prompt-engineering, retrieval analysis. highly customizable. for retrieval-centric & retrieval-augmented generation. rcgai/simplyretrieve education general"
     }
   ]
 }

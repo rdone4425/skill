@@ -4,7 +4,7 @@
     "topCategoryId": "data",
     "subCategoryId": "ai",
     "categoryPath": "data-ai",
-    "count": 457,
+    "count": 512,
     "sourceData": "categories"
   },
   "skills": [
@@ -9072,6 +9072,978 @@
       "platforms": [
         "hermes"
       ]
+    },
+    {
+      "name": "posthog",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "PostHog/posthog",
+      "stars": 0,
+      "desc": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data",
+      "url": "https://github.com/PostHog/posthog",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "posthog 🦔 posthog is an all-in-one developer platform for building successful products. we offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a cdp, and an ai product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack. posthog/posthog data-ai general"
+    },
+    {
+      "name": "toon",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "toon-format/toon",
+      "stars": 0,
+      "desc": "🎒 Token-Oriented Object Notation (TOON) – Compact, human-readable, schema-aware JSON for LLM prompts. Spec, benchmarks, TypeScript SDK.",
+      "url": "https://github.com/toon-format/toon",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "toon 🎒 token-oriented object notation (toon) – compact, human-readable, schema-aware json for llm prompts. spec, benchmarks, typescript sdk. toon-format/toon data-ai general"
+    },
+    {
+      "name": "IOPaint",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Sanster/IOPaint",
+      "stars": 0,
+      "desc": "Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures.",
+      "url": "https://github.com/Sanster/IOPaint",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "iopaint image inpainting tool powered by sota ai model. remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures. sanster/iopaint data-ai general"
+    },
+    {
+      "name": "mlc-llm",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "mlc-ai/mlc-llm",
+      "stars": 0,
+      "desc": "Universal LLM Deployment Engine with ML Compilation",
+      "url": "https://github.com/mlc-ai/mlc-llm",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mlc-llm universal llm deployment engine with ml compilation mlc-ai/mlc-llm data-ai general"
+    },
+    {
+      "name": "datasets",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "huggingface/datasets",
+      "stars": 0,
+      "desc": "🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools",
+      "url": "https://github.com/huggingface/datasets",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "datasets 🤗 the largest hub of ready-to-use datasets for ai models with fast, easy-to-use and efficient data manipulation tools huggingface/datasets data-ai general"
+    },
+    {
+      "name": "openobserve",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "openobserve/openobserve",
+      "stars": 0,
+      "desc": "Open source observability platform for logs, metrics, traces, frontend monitoring, pipelines and LLM observability. A sophisticated, simple and highly performant alternative to Datadog, Splunk, and El",
+      "url": "https://github.com/openobserve/openobserve",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openobserve open source observability platform for logs, metrics, traces, frontend monitoring, pipelines and llm observability. a sophisticated, simple and highly performant alternative to datadog, splunk, and elasticsearch with 140x lower storage costs and single binary deployment. openobserve/openobserve data-ai general"
+    },
+    {
+      "name": "meetily",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Zackriya-Solutions/meetily",
+      "stars": 0,
+      "desc": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "meetily privacy first, ai meeting assistant with 4x faster parakeet/whisper live transcription, speaker diarization, and ollama summarization built on rust. 100% local processing. no cloud required. meetily (meetly ai - https://meetily.ai) is the #1 self-hosted,  open-source ai meeting note taker for macos & windows. zackriya-solutions/meetily data-ai general"
+    },
+    {
+      "name": "llama-gpt",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "getumbrel/llama-gpt",
+      "stars": 0,
+      "desc": "A self-hosted, offline, ChatGPT-like chatbot. Powered by Llama 2. 100% private, with no data leaving your device. New: Code Llama support!",
+      "url": "https://github.com/getumbrel/llama-gpt",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "llama-gpt a self-hosted, offline, chatgpt-like chatbot. powered by llama 2. 100% private, with no data leaving your device. new: code llama support! getumbrel/llama-gpt data-ai general"
+    },
+    {
+      "name": "LLMLingua",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "microsoft/LLMLingua",
+      "stars": 0,
+      "desc": "[EMNLP'23, ACL'24] To speed up LLMs' inference and enhance LLM's perceive of key information, compress the prompt and KV-Cache, which achieves up to 20x compression with minimal performance loss.",
+      "url": "https://github.com/microsoft/LLMLingua",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "llmlingua [emnlp'23, acl'24] to speed up llms' inference and enhance llm's perceive of key information, compress the prompt and kv-cache, which achieves up to 20x compression with minimal performance loss. microsoft/llmlingua data-ai general"
+    },
+    {
+      "name": "awesome-ai-in-finance",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "georgezouq/awesome-ai-in-finance",
+      "stars": 0,
+      "desc": "🔬 A curated list of awesome LLMs & deep learning strategies & tools in financial market.",
+      "url": "https://github.com/georgezouq/awesome-ai-in-finance",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-ai-in-finance 🔬 a curated list of awesome llms & deep learning strategies & tools in financial market. georgezouq/awesome-ai-in-finance data-ai general"
+    },
+    {
+      "name": "LMOps",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "microsoft/LMOps",
+      "stars": 0,
+      "desc": "General technology for enabling AI capabilities w/ LLMs and MLLMs",
+      "url": "https://github.com/microsoft/LMOps",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "lmops general technology for enabling ai capabilities w/ llms and mllms microsoft/lmops data-ai general"
+    },
+    {
+      "name": "SwanLab",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "SwanHubX/SwanLab",
+      "stars": 0,
+      "desc": "⚡️SwanLab - an open-source, modern-design AI training tracking and visualization tool. Supports Cloud / Self-hosted use. Integrated with PyTorch / Transformers / verl / LLaMA Factory / ms-swift / Ultr",
+      "url": "https://github.com/SwanHubX/SwanLab",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "swanlab ⚡️swanlab - an open-source, modern-design ai training tracking and visualization tool. supports cloud / self-hosted use. integrated with pytorch / transformers / verl / llama factory / ms-swift / ultralytics / mmengine / keras etc. swanhubx/swanlab data-ai general"
+    },
+    {
+      "name": "distilabel",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "argilla-io/distilabel",
+      "stars": 0,
+      "desc": "Distilabel is a framework for synthetic data and AI feedback for engineers who need fast, reliable and scalable pipelines based on verified research papers.",
+      "url": "https://github.com/argilla-io/distilabel",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "distilabel distilabel is a framework for synthetic data and ai feedback for engineers who need fast, reliable and scalable pipelines based on verified research papers. argilla-io/distilabel data-ai general"
+    },
+    {
+      "name": "Model-Optimizer",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "NVIDIA/Model-Optimizer",
+      "stars": 0,
+      "desc": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstre",
+      "url": "https://github.com/NVIDIA/Model-Optimizer",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "model-optimizer a unified library of sota model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. it compresses deep learning models for downstream deployment frameworks like tensorrt-llm, tensorrt, vllm, etc. to optimize inference speed. nvidia/model-optimizer data-ai general"
+    },
+    {
+      "name": "byzer-lang",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "byzer-org/byzer-lang",
+      "stars": 0,
+      "desc": "Byzer (former MLSQL): A low-code open-source programming language for data pipeline, analytics and AI.",
+      "url": "https://github.com/byzer-org/byzer-lang",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "byzer-lang byzer (former mlsql): a low-code open-source programming language for data pipeline, analytics and ai. byzer-org/byzer-lang data-ai general"
+    },
+    {
+      "name": "responsible-ai-toolbox",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "microsoft/responsible-ai-toolbox",
+      "stars": 0,
+      "desc": "Responsible AI Toolbox is a suite of tools providing model and data exploration and assessment user interfaces and libraries that enable a better understanding of AI systems. These interfaces and libr",
+      "url": "https://github.com/microsoft/responsible-ai-toolbox",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "responsible-ai-toolbox responsible ai toolbox is a suite of tools providing model and data exploration and assessment user interfaces and libraries that enable a better understanding of ai systems. these interfaces and libraries empower developers and stakeholders of ai systems to develop and monitor ai more responsibly, and take better data-driven actions. microsoft/responsible-ai-toolbox data-ai general"
+    },
+    {
+      "name": "Nemotron",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "NVIDIA-NeMo/Nemotron",
+      "stars": 0,
+      "desc": "Developer Asset Hub for NVIDIA Nemotron — A one-stop resource for training recipes, usage cookbooks, datasets, and full end-to-end reference examples to build with Nemotron models",
+      "url": "https://github.com/NVIDIA-NeMo/Nemotron",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "nemotron developer asset hub for nvidia nemotron — a one-stop resource for training recipes, usage cookbooks, datasets, and full end-to-end reference examples to build with nemotron models nvidia-nemo/nemotron data-ai general"
+    },
+    {
+      "name": "etl-with-airflow",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "gtoonstra/etl-with-airflow",
+      "stars": 0,
+      "desc": "ETL best practices with airflow, with examples",
+      "url": "https://github.com/gtoonstra/etl-with-airflow",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "etl-with-airflow etl best practices with airflow, with examples gtoonstra/etl-with-airflow data-ai general"
+    },
+    {
+      "name": "lhotse",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "lhotse-speech/lhotse",
+      "stars": 0,
+      "desc": "Tools for handling multimodal data in machine learning projects.",
+      "url": "https://github.com/lhotse-speech/lhotse",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "lhotse tools for handling multimodal data in machine learning projects. lhotse-speech/lhotse data-ai general"
+    },
+    {
+      "name": "Biodiversity",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "microsoft/Biodiversity",
+      "stars": 0,
+      "desc": "Microsoft AI for Good Lab — Biodiversity research hub. Open-source AI models, edge devices, and tools for biodiversity monitoring and conservation. Your source for MegaDetector, SPARROW, PytorchWildli",
+      "url": "https://github.com/microsoft/Biodiversity",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "biodiversity microsoft ai for good lab — biodiversity research hub. open-source ai models, edge devices, and tools for biodiversity monitoring and conservation. your source for megadetector, sparrow, pytorchwildlife, bioacoustics, and more. microsoft/biodiversity data-ai general"
+    },
+    {
+      "name": "audio-ai-hub",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "BinWang28/audio-ai-hub",
+      "stars": 0,
+      "desc": "The hub for audio AI research: papers, open models, benchmarks & datasets across audio LLMs, speech recognition, TTS, music & audio generation.",
+      "url": "https://github.com/BinWang28/audio-ai-hub",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "audio-ai-hub the hub for audio ai research: papers, open models, benchmarks & datasets across audio llms, speech recognition, tts, music & audio generation. binwang28/audio-ai-hub data-ai general"
+    },
+    {
+      "name": "NeumAI",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "NeumTry/NeumAI",
+      "stars": 0,
+      "desc": "Neum AI is a best-in-class framework to manage the creation and synchronization of vector embeddings at large scale.",
+      "url": "https://github.com/NeumTry/NeumAI",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "neumai neum ai is a best-in-class framework to manage the creation and synchronization of vector embeddings at large scale. neumtry/neumai data-ai general"
+    },
+    {
+      "name": "data-pipelines-with-apache-airflow",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "BasPH/data-pipelines-with-apache-airflow",
+      "stars": 0,
+      "desc": "Code for Data Pipelines with Apache Airflow",
+      "url": "https://github.com/BasPH/data-pipelines-with-apache-airflow",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "data-pipelines-with-apache-airflow code for data pipelines with apache airflow basph/data-pipelines-with-apache-airflow data-ai general"
+    },
+    {
+      "name": "ai-research-publications",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "aaryansamanta/ai-research-publications",
+      "stars": 0,
+      "desc": "Collection of my peer-reviewed high-school research: IEEE AIAM 2025 (quantum-inspired GA + GNN for multimodal classification) + IJHSR/UCSB SRA (C. elegans mitochondrial resilience genetics). Code, pap",
+      "url": "https://github.com/aaryansamanta/ai-research-publications",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-research-publications collection of my peer-reviewed high-school research: ieee aiam 2025 (quantum-inspired ga + gnn for multimodal classification) + ijhsr/ucsb sra (c. elegans mitochondrial resilience genetics). code, papers, certs, and pipelines from a 10th grader with dual usaco 2025 perfect scores. aaryansamanta/ai-research-publications data-ai general"
+    },
+    {
+      "name": "REINVENT4",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "MolecularAI/REINVENT4",
+      "stars": 0,
+      "desc": "AI molecular design tool for de novo design, scaffold hopping, R-group replacement, linker design and molecule optimization.",
+      "url": "https://github.com/MolecularAI/REINVENT4",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "reinvent4 ai molecular design tool for de novo design, scaffold hopping, r-group replacement, linker design and molecule optimization. molecularai/reinvent4 data-ai general"
+    },
+    {
+      "name": "vectorflow",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "dgarnitz/vectorflow",
+      "stars": 0,
+      "desc": "VectorFlow is a high volume vector embedding pipeline that ingests raw data, transforms it into vectors and writes it to a vector DB of your choice.",
+      "url": "https://github.com/dgarnitz/vectorflow",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vectorflow vectorflow is a high volume vector embedding pipeline that ingests raw data, transforms it into vectors and writes it to a vector db of your choice. dgarnitz/vectorflow data-ai general"
+    },
+    {
+      "name": "myvision",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "OvidijusParsiunas/myvision",
+      "stars": 0,
+      "desc": "Computer vision based ML training data generation tool :rocket:",
+      "url": "https://github.com/OvidijusParsiunas/myvision",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "myvision computer vision based ml training data generation tool :rocket: ovidijusparsiunas/myvision data-ai general"
+    },
+    {
+      "name": "sycamore",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "aryn-ai/sycamore",
+      "stars": 0,
+      "desc": "🍁 Sycamore is an LLM-powered search and analytics platform for unstructured data.",
+      "url": "https://github.com/aryn-ai/sycamore",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "sycamore 🍁 sycamore is an llm-powered search and analytics platform for unstructured data. aryn-ai/sycamore data-ai general"
+    },
+    {
+      "name": "vlmrun-hub",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "vlm-run/vlmrun-hub",
+      "stars": 0,
+      "desc": "A hub for various industry-specific schemas to be used with VLMs.",
+      "url": "https://github.com/vlm-run/vlmrun-hub",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vlmrun-hub a hub for various industry-specific schemas to be used with vlms. vlm-run/vlmrun-hub data-ai general"
+    },
+    {
+      "name": "ethereum-etl-airflow",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "blockchain-etl/ethereum-etl-airflow",
+      "stars": 0,
+      "desc": "Airflow DAGs for exporting, loading, and parsing the Ethereum blockchain data. How to get any Ethereum smart contract into BigQuery https://towardsdatascience.com/how-to-get-any-ethereum-smart-contrac",
+      "url": "https://github.com/blockchain-etl/ethereum-etl-airflow",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ethereum-etl-airflow airflow dags for exporting, loading, and parsing the ethereum blockchain data. how to get any ethereum smart contract into bigquery https://towardsdatascience.com/how-to-get-any-ethereum-smart-contract-into-bigquery-in-8-mins-bab5db1fdeee blockchain-etl/ethereum-etl-airflow data-ai general"
+    },
+    {
+      "name": "airy",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "airyhq/airy",
+      "stars": 0,
+      "desc": "💬  Open Source App Framework to build streaming apps with real-time data - 💎  Build real-time data pipelines and make real-time data universally accessible - 🤖  Join historical and real-time data in t",
+      "url": "https://github.com/airyhq/airy",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "airy 💬  open source app framework to build streaming apps with real-time data - 💎  build real-time data pipelines and make real-time data universally accessible - 🤖  join historical and real-time data in the stream to create smarter ml and ai applications.  - ⚡ standardize complex data ingestion and stream data to apps with pre-built connectors airyhq/airy data-ai general"
+    },
+    {
+      "name": "5.0-Ai-Engineering-Toolkit",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "evelyyyyynnnnn/5.0-Ai-Engineering-Toolkit",
+      "stars": 0,
+      "desc": "Engineering toolkit for building scalable AI systems, including model training pipelines, LLM optimization utilities, and data engineering tools.",
+      "url": "https://github.com/evelyyyyynnnnn/5.0-Ai-Engineering-Toolkit",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "5.0-ai-engineering-toolkit engineering toolkit for building scalable ai systems, including model training pipelines, llm optimization utilities, and data engineering tools. evelyyyyynnnnn/5.0-ai-engineering-toolkit data-ai general"
+    },
+    {
+      "name": "reductstore",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "reductstore/reductstore",
+      "stars": 0,
+      "desc": "High Performance Data Backbone for Robotics and Industrial IoT",
+      "url": "https://github.com/reductstore/reductstore",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "reductstore high performance data backbone for robotics and industrial iot reductstore/reductstore data-ai general"
+    },
+    {
+      "name": "upgini",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "upgini/upgini",
+      "stars": 0,
+      "desc": "Data search & enrichment library for Machine Learning → Easily find and add relevant features to your ML & AI pipeline from hundreds of public and premium external data sources, including open & comme",
+      "url": "https://github.com/upgini/upgini",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "upgini data search & enrichment library for machine learning → easily find and add relevant features to your ml & ai pipeline from hundreds of public and premium external data sources, including open & commercial llms upgini/upgini data-ai general"
+    },
+    {
+      "name": "cosdata",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "cosdata/cosdata",
+      "stars": 0,
+      "desc": "Cosdata: A cutting-edge AI data platform for next-gen search pipelines. Features semantic search, hybrid capabilities, real-time scalability, and ML integration. Designed for immutability and version ",
+      "url": "https://github.com/cosdata/cosdata",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cosdata cosdata: a cutting-edge ai data platform for next-gen search pipelines. features semantic search, hybrid capabilities, real-time scalability, and ml integration. designed for immutability and version control to enhance ai projects. cosdata/cosdata data-ai general"
+    },
+    {
+      "name": "awesome-healthcare-ai",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "medtorch/awesome-healthcare-ai",
+      "stars": 0,
+      "desc": "A curated list of awesome open source healthcare tools, algorithms, datasets and research papers.",
+      "url": "https://github.com/medtorch/awesome-healthcare-ai",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-healthcare-ai a curated list of awesome open source healthcare tools, algorithms, datasets and research papers. medtorch/awesome-healthcare-ai data-ai general"
+    },
+    {
+      "name": "MOOSE",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ENHANCE-PET/MOOSE",
+      "stars": 0,
+      "desc": "MOOSE (Multi-organ objective segmentation) a data-centric AI solution that generates multilabel organ segmentations to facilitate systemic TB whole-person research.The pipeline is based on nn-UNet and",
+      "url": "https://github.com/ENHANCE-PET/MOOSE",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "moose moose (multi-organ objective segmentation) a data-centric ai solution that generates multilabel organ segmentations to facilitate systemic tb whole-person research.the pipeline is based on nn-unet and has the capability to segment 120 unique tissue classes from a whole-body 18f-fdg pet/ct image. enhance-pet/moose data-ai general"
+    },
+    {
+      "name": "panda-etl",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "sinaptik-ai/panda-etl",
+      "stars": 0,
+      "desc": "No-code ETL and data pipelines with AI and NLP",
+      "url": "https://github.com/sinaptik-ai/panda-etl",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "panda-etl no-code etl and data pipelines with ai and nlp sinaptik-ai/panda-etl data-ai general"
+    },
+    {
+      "name": "ersilia",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ersilia-os/ersilia",
+      "stars": 0,
+      "desc": "The Ersilia Model Hub, an open-source repository and CLI of AI/ML models for infectious and neglected disease research.",
+      "url": "https://github.com/ersilia-os/ersilia",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ersilia the ersilia model hub, an open-source repository and cli of ai/ml models for infectious and neglected disease research. ersilia-os/ersilia data-ai general"
+    },
+    {
+      "name": "streamforge-ai",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "cchenax/streamforge-ai",
+      "stars": 0,
+      "desc": "Open-source real-time AI data pipeline for CDC ingestion, feature generation, and storage-aware prefetching",
+      "url": "https://github.com/cchenax/streamforge-ai",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "streamforge-ai open-source real-time ai data pipeline for cdc ingestion, feature generation, and storage-aware prefetching cchenax/streamforge-ai data-ai general"
+    },
+    {
+      "name": "matrixhub",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "matrixhub-ai/matrixhub",
+      "stars": 0,
+      "desc": "An Open-source, self-hosted AI model hub with Hugging Face compatibility, accelerating vLLM/SGLang performance.",
+      "url": "https://github.com/matrixhub-ai/matrixhub",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "matrixhub an open-source, self-hosted ai model hub with hugging face compatibility, accelerating vllm/sglang performance. matrixhub-ai/matrixhub data-ai general"
+    },
+    {
+      "name": "DataEngineeringPilipinas",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ogbinar/DataEngineeringPilipinas",
+      "stars": 0,
+      "desc": "Data Engineering Pilipinas is a community for data engineers, data analysts, data scientists, developers, AI / ML engineers, and users of closed and open source data tools and methods / techniques in ",
+      "url": "https://github.com/ogbinar/DataEngineeringPilipinas",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "dataengineeringpilipinas data engineering pilipinas is a community for data engineers, data analysts, data scientists, developers, ai / ml engineers, and users of closed and open source data tools and methods / techniques in the philippines. data engineering pilipinas is a pydata group. ogbinar/dataengineeringpilipinas data-ai general"
+    },
+    {
+      "name": "Ond-ESG-Intelligence-Platform",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "OndCo/Ond-ESG-Intelligence-Platform",
+      "stars": 0,
+      "desc": "Ond ESG Intelligence Platform is a cloud-native solution that ingests ESG data, processes it with Azure Data Factory & Databricks, and applies AI/ML models on Azure ML for predictive insights. Power B",
+      "url": "https://github.com/OndCo/Ond-ESG-Intelligence-Platform",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ond-esg-intelligence-platform ond esg intelligence platform is a cloud-native solution that ingests esg data, processes it with azure data factory & databricks, and applies ai/ml models on azure ml for predictive insights. power bi dashboards visualize current and forecasted esg metrics, while github actions ci/cd ensures an automated, scalable pipeline. ondco/ond-esg-intelligence-platform data-ai general"
+    },
+    {
+      "name": "strwythura",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "DerwenAI/strwythura",
+      "stars": 0,
+      "desc": "Strwythura: construct an entity-resolved knowledge graph from structured data sources and unstructured content sources, implementing an ontology pipeline, plus context engineering for optimizing AI ap",
+      "url": "https://github.com/DerwenAI/strwythura",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "strwythura strwythura: construct an entity-resolved knowledge graph from structured data sources and unstructured content sources, implementing an ontology pipeline, plus context engineering for optimizing ai application outcomes within a specific domain. this produces a streamlit app, with mlops instrumentation. derwenai/strwythura data-ai general"
+    },
+    {
+      "name": "aws-ecs-airflow",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "nicor88/aws-ecs-airflow",
+      "stars": 0,
+      "desc": "Run Airflow in AWS ECS(Elastic Container Service) using Fargate tasks",
+      "url": "https://github.com/nicor88/aws-ecs-airflow",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aws-ecs-airflow run airflow in aws ecs(elastic container service) using fargate tasks nicor88/aws-ecs-airflow data-ai general"
+    },
+    {
+      "name": "Multiverse_of_100-_data_science_project_series",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Chando0185/Multiverse_of_100-_data_science_project_series",
+      "stars": 0,
+      "desc": "Welcome to the Multiverse of Data Science — a comprehensive, ever-expanding collection of over 100 real-world projects covering the entire data science pipeline!",
+      "url": "https://github.com/Chando0185/Multiverse_of_100-_data_science_project_series",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "multiverse_of_100-_data_science_project_series welcome to the multiverse of data science — a comprehensive, ever-expanding collection of over 100 real-world projects covering the entire data science pipeline! chando0185/multiverse_of_100-_data_science_project_series data-ai general"
+    },
+    {
+      "name": "multimodal-ai-llm-processing-accelerator",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Azure/multimodal-ai-llm-processing-accelerator",
+      "stars": 0,
+      "desc": "Build multimodal data processing pipelines with Azure AI Services + LLMs",
+      "url": "https://github.com/Azure/multimodal-ai-llm-processing-accelerator",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "multimodal-ai-llm-processing-accelerator build multimodal data processing pipelines with azure ai services + llms azure/multimodal-ai-llm-processing-accelerator data-ai general"
+    },
+    {
+      "name": "Awesome-Datasets-Hub",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ahammadmejbah/Awesome-Datasets-Hub",
+      "stars": 0,
+      "desc": "A curated collection of datasets for Large Language Models (LLMs), covering medical AI, NLP, multimodal learning, instruction tuning, reasoning, code generation, and evaluation benchmarks.",
+      "url": "https://github.com/ahammadmejbah/Awesome-Datasets-Hub",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-datasets-hub a curated collection of datasets for large language models (llms), covering medical ai, nlp, multimodal learning, instruction tuning, reasoning, code generation, and evaluation benchmarks. ahammadmejbah/awesome-datasets-hub data-ai general"
+    },
+    {
+      "name": "ai-audio-fingerprint-remover",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "geeknik/ai-audio-fingerprint-remover",
+      "stars": 0,
+      "desc": "A comprehensive Python tool to remove AI-generated fingerprints, watermarks, and metadata from audio files.",
+      "url": "https://github.com/geeknik/ai-audio-fingerprint-remover",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-audio-fingerprint-remover a comprehensive python tool to remove ai-generated fingerprints, watermarks, and metadata from audio files. geeknik/ai-audio-fingerprint-remover data-ai general"
+    },
+    {
+      "name": "machinelearning4finance",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "manujajay/machinelearning4finance",
+      "stars": 0,
+      "desc": "A repo dedicated to building and making insights on financial data using the powerful tools of Machine Learning and AI.",
+      "url": "https://github.com/manujajay/machinelearning4finance",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "machinelearning4finance a repo dedicated to building and making insights on financial data using the powerful tools of machine learning and ai. manujajay/machinelearning4finance data-ai general"
+    },
+    {
+      "name": "Data-Pipelines-with-Airflow",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ddgope/Data-Pipelines-with-Airflow",
+      "stars": 0,
+      "desc": "This project helps me to understand the core concepts of Apache Airflow. I have created custom operators to perform tasks such as staging the data, filling the data warehouse, and running checks on th",
+      "url": "https://github.com/ddgope/Data-Pipelines-with-Airflow",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "data-pipelines-with-airflow this project helps me to understand the core concepts of apache airflow. i have created custom operators to perform tasks such as staging the data, filling the data warehouse, and running checks on the data quality as the final step. automate the etl pipeline and creation of data warehouse using apache airflow. skills include:  using airflow to automate etl pipelines using airflow, python, amazon redshift. writing custom operators to perform tasks such as staging data, filling the data warehouse, and validation through data quality checks. transforming data from various sources into a star schema optimized for the analytics team’s use cases. technologies used: apache airflow, s3, amazon redshift, python. ddgope/data-pipelines-with-airflow data-ai general"
+    },
+    {
+      "name": "azure-ai-vision",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "MicrosoftDocs/Agent-Skills",
+      "stars": 0,
+      "desc": "Azure AI Vision - computer vision and image analysis",
+      "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "azure-ai-vision azure ai vision - computer vision and image analysis microsoftdocs/agent-skills data-ai general"
+    },
+    {
+      "name": "azure-anomaly-detector",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "MicrosoftDocs/Agent-Skills",
+      "stars": 0,
+      "desc": "Azure Anomaly Detector - detect anomalies in time-series data",
+      "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "azure-anomaly-detector azure anomaly detector - detect anomalies in time-series data microsoftdocs/agent-skills data-ai general"
+    },
+    {
+      "name": "engram",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Gentleman-Programming/engram",
+      "stars": 0,
+      "desc": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
+      "url": "https://github.com/Gentleman-Programming/engram",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "engram persistent memory system for ai coding agents. agent-agnostic go binary with sqlite + fts5, mcp server, http api, cli, and tui. gentleman-programming/engram data-ai general"
     }
   ]
 }

@@ -4,7 +4,7 @@
     "topCategoryId": "game-dev",
     "subCategoryId": "game-dev",
     "categoryPath": "game-dev",
-    "count": 97,
+    "count": 98,
     "sourceData": "categories"
   },
   "skills": [
@@ -1769,6 +1769,24 @@
         "general"
       ],
       "searchText": "claireon mcp server for unreal editor — ai agents can control unreal engine. believer-oss/claireon npx claireon-mcp game-dev general"
+    },
+    {
+      "name": "awesome-ai-tools-for-game-dev",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "simoninithomas/awesome-ai-tools-for-game-dev",
+      "stars": 0,
+      "desc": "A curated list of awesome AI tools for game developers",
+      "url": "https://github.com/simoninithomas/awesome-ai-tools-for-game-dev",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-ai-tools-for-game-dev a curated list of awesome ai tools for game developers simoninithomas/awesome-ai-tools-for-game-dev game-dev general"
     }
   ]
 }

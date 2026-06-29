@@ -1,70 +1,70 @@
 {
   "generatedAt": "2026-06-29T18:31:55.821Z",
   "sourceData": "categories",
-  "totalSkills": 4190,
+  "totalSkills": 5073,
   "categories": [
     {
       "id": "dev-tools",
       "path": "dev-tools",
       "groupId": "development",
       "subcategoryId": "tools",
-      "count": 921
+      "count": 1079
     },
     {
       "id": "general",
       "path": "general",
       "groupId": "general",
       "subcategoryId": "general",
-      "count": 571
+      "count": 574
     },
     {
       "id": "data-ai",
       "path": "data-ai",
       "groupId": "data",
       "subcategoryId": "ai",
-      "count": 457
+      "count": 512
     },
     {
       "id": "design-ui",
       "path": "design-ui",
       "groupId": "design",
       "subcategoryId": "ui",
-      "count": 367
+      "count": 401
     },
     {
       "id": "agent-framework",
       "path": "agent-framework",
       "groupId": "agent-framework",
       "subcategoryId": "agent-framework",
-      "count": 196
+      "count": 650
     },
     {
       "id": "docs-content",
       "path": "docs-content",
       "groupId": "docs",
       "subcategoryId": "content",
-      "count": 182
+      "count": 189
     },
     {
       "id": "automation-productivity",
       "path": "automation-productivity",
       "groupId": "automation",
       "subcategoryId": "productivity",
-      "count": 178
+      "count": 213
     },
     {
       "id": "security",
       "path": "security",
       "groupId": "security",
       "subcategoryId": "general",
-      "count": 166
+      "count": 202
     },
     {
       "id": "social-media",
       "path": "social-media",
       "groupId": "social-media",
       "subcategoryId": "social-media",
-      "count": 138
+      "count": 139
     },
     {
       "id": "finance-crypto",
@@ -78,35 +78,35 @@
       "path": "devops-deploy",
       "groupId": "devops",
       "subcategoryId": "deploy",
-      "count": 105
+      "count": 122
     },
     {
       "id": "backend-api",
       "path": "backend-api",
       "groupId": "backend",
       "subcategoryId": "api",
-      "count": 100
+      "count": 169
     },
     {
       "id": "game-dev",
       "path": "game-dev",
       "groupId": "game-dev",
       "subcategoryId": "game-dev",
-      "count": 97
+      "count": 98
     },
     {
       "id": "testing-qa",
       "path": "testing-qa",
       "groupId": "testing",
       "subcategoryId": "qa",
-      "count": 94
+      "count": 98
     },
     {
       "id": "education",
       "path": "education",
       "groupId": "education",
       "subcategoryId": "education",
-      "count": 90
+      "count": 93
     },
     {
       "id": "health-medical",
@@ -141,7 +141,7 @@
       "path": "audio",
       "groupId": "audio",
       "subcategoryId": "audio",
-      "count": 63
+      "count": 69
     },
     {
       "id": "video-gen",

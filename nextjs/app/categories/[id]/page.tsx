@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getAllCategories, getSkillsByCategory, getCategoryIndex } from '../../../lib/db'
 import type { Metadata } from 'next'
+import { ItemListSchema, BreadcrumbSchema } from '../../jsonld'
 
 interface Props {
   params: Promise<{ id: string }>
@@ -40,6 +41,14 @@ export default async function CategoryPage({ params }: Props) {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <BreadcrumbSchema items={[
+        { name: 'Home', url: 'https://skill.442595.xyz/' },
+        { name: id, url: `https://skill.442595.xyz/categories/${id}` },
+      ]} />
+      <ItemListSchema items={skills.slice(0, 50).map(s => ({
+        name: s.name,
+        url: `https://skill.442595.xyz/skill/${encodeURIComponent(s.name)}`,
+      }))} />
       <header className="bg-slate-900 text-white py-8">
         <div className="max-w-6xl mx-auto px-4">
           <Link href="/" className="text-slate-400 hover:text-white mb-4 block">← Home</Link>

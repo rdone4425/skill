@@ -4,7 +4,7 @@
     "topCategoryId": "testing",
     "subCategoryId": "qa",
     "categoryPath": "testing-qa",
-    "count": 94,
+    "count": 98,
     "sourceData": "categories"
   },
   "skills": [
@@ -1825,6 +1825,78 @@
         "claude"
       ],
       "searchText": "jeffreysprompts.com a curated collection of battle-tested prompts for agentic coding - browse, copy, and install as claude code skills dicklesworthstone/jeffreysprompts.com git clone https://github.com/dicklesworthstone/jeffreysprompts.com.git  # browse the awesome list testing-qa claude"
+    },
+    {
+      "name": "prompt-optimizer",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "linshenkx/prompt-optimizer",
+      "stars": 0,
+      "desc": "An AI prompt optimizer for writing better prompts and getting better AI results.",
+      "url": "https://github.com/linshenkx/prompt-optimizer",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing-qa",
+      "subCategoryId": "general",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "prompt-optimizer an ai prompt optimizer for writing better prompts and getting better ai results. linshenkx/prompt-optimizer testing-qa general"
+    },
+    {
+      "name": "open-infra-index",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "deepseek-ai/open-infra-index",
+      "stars": 0,
+      "desc": "Production-tested AI infrastructure tools for efficient AGI development and community-driven innovation",
+      "url": "https://github.com/deepseek-ai/open-infra-index",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing-qa",
+      "subCategoryId": "general",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "open-infra-index production-tested ai infrastructure tools for efficient agi development and community-driven innovation deepseek-ai/open-infra-index testing-qa general"
+    },
+    {
+      "name": "sourcery",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "sourcery-ai/sourcery",
+      "stars": 0,
+      "desc": "Instant AI code reviews",
+      "url": "https://github.com/sourcery-ai/sourcery",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing-qa",
+      "subCategoryId": "general",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "sourcery instant ai code reviews sourcery-ai/sourcery testing-qa general"
+    },
+    {
+      "name": "prompt-forge",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "insaaniManav/prompt-forge",
+      "stars": 0,
+      "desc": "AI prompt engineering workbench for crafting, testing, and systematically evaluating prompts with powerful analysis tools.",
+      "url": "https://github.com/insaaniManav/prompt-forge",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing-qa",
+      "subCategoryId": "general",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "prompt-forge ai prompt engineering workbench for crafting, testing, and systematically evaluating prompts with powerful analysis tools. insaanimanav/prompt-forge testing-qa general"
     }
   ]
 }

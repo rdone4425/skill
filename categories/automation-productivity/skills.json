@@ -4,7 +4,7 @@
     "topCategoryId": "automation",
     "subCategoryId": "productivity",
     "categoryPath": "automation-productivity",
-    "count": 178,
+    "count": 213,
     "sourceData": "categories"
   },
   "skills": [
@@ -3515,6 +3515,636 @@
         "agent-skills-compatible"
       ],
       "searchText": "openhealth openhealth is a local-first health data runtime for agents. the supported yazanabuashour/openhealth install the openhealth runner per readme automation-productivity agent-skills-compatible"
+    },
+    {
+      "name": "ray",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ray-project/ray",
+      "stars": 0,
+      "desc": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
+      "url": "https://github.com/ray-project/ray",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ray ray is an ai compute engine. ray consists of a core distributed runtime and a set of ai libraries for accelerating ml workloads. ray-project/ray automation-productivity general"
+    },
+    {
+      "name": "better-genshin-impact",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "babalae/better-genshin-impact",
+      "stars": 0,
+      "desc": "📦BetterGI · 更好的原神 - 自动拾取 | 自动剧情 | 全自动钓鱼(AI) | 全自动七圣召唤 | 自动伐木 | 自动刷本 | 自动采集/挖矿/锄地 | 一条龙 | 全连音游 | 自动烹饪 - UI Automation Testing Tools For Genshin Impact",
+      "url": "https://github.com/babalae/better-genshin-impact",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "better-genshin-impact 📦bettergi · 更好的原神 - 自动拾取 | 自动剧情 | 全自动钓鱼(ai) | 全自动七圣召唤 | 自动伐木 | 自动刷本 | 自动采集/挖矿/锄地 | 一条龙 | 全连音游 | 自动烹饪 - ui automation testing tools for genshin impact babalae/better-genshin-impact automation-productivity general"
+    },
+    {
+      "name": "shell_gpt",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "TheR1D/shell_gpt",
+      "stars": 0,
+      "desc": "A command-line productivity tool powered by AI large language models like GPT-5, will help you accomplish your tasks faster and more efficiently.",
+      "url": "https://github.com/TheR1D/shell_gpt",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "shell_gpt a command-line productivity tool powered by ai large language models like gpt-5, will help you accomplish your tasks faster and more efficiently. ther1d/shell_gpt automation-productivity general"
+    },
+    {
+      "name": "inbox-zero",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "elie222/inbox-zero",
+      "stars": 0,
+      "desc": "The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.",
+      "url": "https://github.com/elie222/inbox-zero",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "inbox-zero the world's best ai personal assistant for email. open source app to help you reach inbox zero fast. elie222/inbox-zero automation-productivity general"
+    },
+    {
+      "name": "n8n-free-templates",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "wassupjay/n8n-free-templates",
+      "stars": 0,
+      "desc": "A curated set of 200+ plug-and-play n8n workflows that fuse classic automation with today’s AI stack—vector DBs, embeddings, and LLMs. Import any JSON, add your creds, hit Activate, and you’re live. B",
+      "url": "https://github.com/wassupjay/n8n-free-templates",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "n8n-free-templates a curated set of 200+ plug-and-play n8n workflows that fuse classic automation with today’s ai stack—vector dbs, embeddings, and llms. import any json, add your creds, hit activate, and you’re live. built to demo, prototype, or drop straight into production. wassupjay/n8n-free-templates automation-productivity general"
+    },
+    {
+      "name": "lowdefy",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "lowdefy/lowdefy",
+      "stars": 0,
+      "desc": "Build apps that AI can generate, humans can review, and teams can maintain. Config that works between code and natural language.",
+      "url": "https://github.com/lowdefy/lowdefy",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "lowdefy build apps that ai can generate, humans can review, and teams can maintain. config that works between code and natural language. lowdefy/lowdefy automation-productivity general"
+    },
+    {
+      "name": "one-person-company",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "cyfyifanchen/one-person-company",
+      "stars": 0,
+      "desc": "遇事不决，Vibe 力学! One-Person Company AI Tools Series – continuously updated to help boost productivity and empower your solo business!",
+      "url": "https://github.com/cyfyifanchen/one-person-company",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "one-person-company 遇事不决，vibe 力学! one-person company ai tools series – continuously updated to help boost productivity and empower your solo business! cyfyifanchen/one-person-company automation-productivity general"
+    },
+    {
+      "name": "SecureAI-Tools",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "SecureAI-Tools/SecureAI-Tools",
+      "stars": 0,
+      "desc": "Private and secure AI tools for everyone's productivity.",
+      "url": "https://github.com/SecureAI-Tools/SecureAI-Tools",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "secureai-tools private and secure ai tools for everyone's productivity. secureai-tools/secureai-tools automation-productivity general"
+    },
+    {
+      "name": "openkore",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "OpenKore/openkore",
+      "stars": 0,
+      "desc": "A free/open source client and automation tool for Ragnarok Online",
+      "url": "https://github.com/OpenKore/openkore",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openkore a free/open source client and automation tool for ragnarok online openkore/openkore automation-productivity general"
+    },
+    {
+      "name": "langmanus",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Darwin-lfl/langmanus",
+      "stars": 0,
+      "desc": "A community-driven AI automation framework that builds upon the incredible work of the open source community. Our goal is to combine language models with specialized tools for tasks like web search, c",
+      "url": "https://github.com/Darwin-lfl/langmanus",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "langmanus a community-driven ai automation framework that builds upon the incredible work of the open source community. our goal is to combine language models with specialized tools for tasks like web search, crawling, and python code execution, while giving back to the community that made this possible. darwin-lfl/langmanus automation-productivity general"
+    },
+    {
+      "name": "Botright",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Vinyzu/Botright",
+      "stars": 0,
+      "desc": "Botright, the most advance undetected, fingerprint-changing, captcha-solving, open-source automation framework. Build on Playwright, its as easy to use as it is to extend your code. Solving your Captc",
+      "url": "https://github.com/Vinyzu/Botright",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "botright botright, the most advance undetected, fingerprint-changing, captcha-solving, open-source automation framework. build on playwright, its as easy to use as it is to extend your code. solving your captchas for free with ai. vinyzu/botright automation-productivity general"
+    },
+    {
+      "name": "AI-Product-Development-Toolkit",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "TechNomadCode/AI-Product-Development-Toolkit",
+      "stars": 0,
+      "desc": "User-Centered Product Development Prompt Templates",
+      "url": "https://github.com/TechNomadCode/AI-Product-Development-Toolkit",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-product-development-toolkit user-centered product development prompt templates technomadcode/ai-product-development-toolkit automation-productivity general"
+    },
+    {
+      "name": "onepanel",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "onepanelio/onepanel",
+      "stars": 0,
+      "desc": "The open source, end-to-end computer vision platform. Label, build, train, tune, deploy and automate in a unified platform that runs on any cloud and on-premises.",
+      "url": "https://github.com/onepanelio/onepanel",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "onepanel the open source, end-to-end computer vision platform. label, build, train, tune, deploy and automate in a unified platform that runs on any cloud and on-premises. onepanelio/onepanel automation-productivity general"
+    },
+    {
+      "name": "ezdata",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "xuwei95/ezdata",
+      "stars": 0,
+      "desc": "ezdata 是一个 AI 原生的数据平台:统一接入异构数据源,做 ETL 集成与任务编排,沉淀数据源专属知识库(RAG),并把知识喂给 AI 取数/分析",
+      "url": "https://github.com/xuwei95/ezdata",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ezdata ezdata 是一个 ai 原生的数据平台:统一接入异构数据源,做 etl 集成与任务编排,沉淀数据源专属知识库(rag),并把知识喂给 ai 取数/分析 xuwei95/ezdata automation-productivity general"
+    },
+    {
+      "name": "awesome-copilots",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ifokeev/awesome-copilots",
+      "stars": 0,
+      "desc": "A curated list of AI copilots and assistants that enhance productivity across various domains, with a focus on coding and software development tools.",
+      "url": "https://github.com/ifokeev/awesome-copilots",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-copilots a curated list of ai copilots and assistants that enhance productivity across various domains, with a focus on coding and software development tools. ifokeev/awesome-copilots automation-productivity general"
+    },
+    {
+      "name": "write-the",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Wytamma/write-the",
+      "stars": 0,
+      "desc": "AI-powered Documentation and Test Generation Tool",
+      "url": "https://github.com/Wytamma/write-the",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "write-the ai-powered documentation and test generation tool wytamma/write-the automation-productivity general"
+    },
+    {
+      "name": "nuppets",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "HugoRCD/nuppets",
+      "stars": 0,
+      "desc": "A productivity hub for Nuxt and Vue.js development - Snippets, AI commands, and more tools to enhance your workflow",
+      "url": "https://github.com/HugoRCD/nuppets",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "nuppets a productivity hub for nuxt and vue.js development - snippets, ai commands, and more tools to enhance your workflow hugorcd/nuppets automation-productivity general"
+    },
+    {
+      "name": "chat-key",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "overflowy/chat-key",
+      "stars": 0,
+      "desc": "Supercharge your productivity with ChatGPT and AutoHotkey 🚀",
+      "url": "https://github.com/overflowy/chat-key",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "chat-key supercharge your productivity with chatgpt and autohotkey 🚀 overflowy/chat-key automation-productivity general"
+    },
+    {
+      "name": "autorename-pdf",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ptmrio/autorename-pdf",
+      "stars": 0,
+      "desc": "autorename-pdf is a highly efficient tool designed to automatically rename and archive PDF documents based on their content.",
+      "url": "https://github.com/ptmrio/autorename-pdf",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "autorename-pdf autorename-pdf is a highly efficient tool designed to automatically rename and archive pdf documents based on their content. ptmrio/autorename-pdf automation-productivity general"
+    },
+    {
+      "name": "AI-PM-Designer-Pro",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "mkhsu2002/AI-PM-Designer-Pro",
+      "stars": 0,
+      "desc": "AI 電商商品圖文生成工具，從產品圖自動生成完整行銷素材包，同時生成三條行銷策略路線，一批次產出產品海報、商品主圖及介紹長條圖 。AI-powered product marketing design tool that automatically generates complete social media marketing asset packages (8 images) from pr",
+      "url": "https://github.com/mkhsu2002/AI-PM-Designer-Pro",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-pm-designer-pro ai 電商商品圖文生成工具，從產品圖自動生成完整行銷素材包，同時生成三條行銷策略路線，一批次產出產品海報、商品主圖及介紹長條圖 。ai-powered product marketing design tool that automatically generates complete social media marketing asset packages (8 images) from product photos, including ad visuals and sales story graphics. mkhsu2002/ai-pm-designer-pro automation-productivity general"
+    },
+    {
+      "name": "azure-automation",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "MicrosoftDocs/Agent-Skills",
+      "stars": 0,
+      "desc": "Azure Automation - cloud automation and configuration management",
+      "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "azure-automation azure automation - cloud automation and configuration management microsoftdocs/agent-skills automation-productivity general"
+    },
+    {
+      "name": "spacebot",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "spacedriveapp/spacebot",
+      "stars": 0,
+      "desc": "An AI agent for teams, communities, and multi-user environments.",
+      "url": "https://github.com/spacedriveapp/spacebot",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "spacebot an ai agent for teams, communities, and multi-user environments. spacedriveapp/spacebot automation-productivity general"
+    },
+    {
+      "name": "libretto",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "saffron-health/libretto",
+      "stars": 0,
+      "desc": "The AI toolkit for building reliable browser automations",
+      "url": "https://github.com/saffron-health/libretto",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "libretto the ai toolkit for building reliable browser automations saffron-health/libretto automation-productivity general"
+    },
+    {
+      "name": "mobilegym",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "Purewhiter/mobilegym",
+      "stars": 0,
+      "desc": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research · 浏览器里运行的安卓模拟器 · Browser-hosted Android Simulator · Verifiable Evaluation · Scalable Online RL Training",
+      "url": "https://github.com/Purewhiter/mobilegym",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mobilegym mobilegym: a verifiable and highly parallel simulation platform for mobile gui agent research · 浏览器里运行的安卓模拟器 · browser-hosted android simulator · verifiable evaluation · scalable online rl training purewhiter/mobilegym automation-productivity general"
+    },
+    {
+      "name": "kuri",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "justrach/kuri",
+      "stars": 0,
+      "desc": "Browser automation, web crawling, and iOS + Android device control for AI agents. Zig-native, token-efficient CDP snapshots, HAR recording, native adb wire-protocol client, and a standalone fetcher.",
+      "url": "https://github.com/justrach/kuri",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "kuri browser automation, web crawling, and ios + android device control for ai agents. zig-native, token-efficient cdp snapshots, har recording, native adb wire-protocol client, and a standalone fetcher. justrach/kuri automation-productivity general"
+    },
+    {
+      "name": "clay",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "chadbyte/clay",
+      "stars": 0,
+      "desc": "Multiplayer Claude Code and Codex. Self-hosted team workspace for Claude Code and Codex. Multi-user, browser-based, AI mates with memory.",
+      "url": "https://github.com/chadbyte/clay",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "clay multiplayer claude code and codex. self-hosted team workspace for claude code and codex. multi-user, browser-based, ai mates with memory. chadbyte/clay automation-productivity general"
+    },
+    {
+      "name": "dream-to-video-skill",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "mediastormDev/dream-to-video-skill",
+      "stars": 0,
+      "desc": "AI agent skill that transforms dream descriptions into cinematic videos — auto-generates prompts, submits to Jimeng via browser automation, and downloads finished videos with post-processing effects.",
+      "url": "https://github.com/mediastormDev/dream-to-video-skill",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "dream-to-video-skill ai agent skill that transforms dream descriptions into cinematic videos — auto-generates prompts, submits to jimeng via browser automation, and downloads finished videos with post-processing effects. mediastormdev/dream-to-video-skill automation-productivity general"
+    },
+    {
+      "name": "on-device-browser-agent",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "RunanywhereAI/on-device-browser-agent",
+      "stars": 0,
+      "desc": "On-device AI browser automation using WebLLM. No cloud, no API keys, fully private.",
+      "url": "https://github.com/RunanywhereAI/on-device-browser-agent",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "on-device-browser-agent on-device ai browser automation using webllm. no cloud, no api keys, fully private. runanywhereai/on-device-browser-agent automation-productivity general"
+    },
+    {
+      "name": "site-memory",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "LittleYier/site-memory",
+      "stars": 0,
+      "desc": "Persistent memory for browser automation AI Agents. Learns site knowledge automatically, updates after every visit, and gets better over time.",
+      "url": "https://github.com/LittleYier/site-memory",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "site-memory persistent memory for browser automation ai agents. learns site knowledge automatically, updates after every visit, and gets better over time. littleyier/site-memory automation-productivity general"
+    },
+    {
+      "name": "gsd-browser",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "gsd-build/gsd-browser",
+      "stars": 0,
+      "desc": "A fast, native browser automation CLI built from the ground up for AI agents, powered by Chrome DevTools Protocol. 63 commands covering navigation, interaction, screenshots, accessibility, network moc",
+      "url": "https://github.com/gsd-build/gsd-browser",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gsd-browser a fast, native browser automation cli built from the ground up for ai agents, powered by chrome devtools protocol. 63 commands covering navigation, interaction, screenshots, accessibility, network moc gsd-build/gsd-browser automation-productivity general"
+    },
+    {
+      "name": "openchrome",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "shaun0927/openchrome",
+      "stars": 0,
+      "desc": "Open-source browser automation MCP server. Control your real Chrome from any AI agent.",
+      "url": "https://github.com/shaun0927/openchrome",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openchrome open-source browser automation mcp server. control your real chrome from any ai agent. shaun0927/openchrome automation-productivity general"
+    },
+    {
+      "name": "OpenFlux",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "EDEAI/OpenFlux",
+      "stars": 0,
+      "desc": "⚡ Open-source AI Agent desktop client — multi-LLM, long-term memory, browser automation & tool orchestration | Tauri v2",
+      "url": "https://github.com/EDEAI/OpenFlux",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openflux ⚡ open-source ai agent desktop client — multi-llm, long-term memory, browser automation & tool orchestration | tauri v2 edeai/openflux automation-productivity general"
+    },
+    {
+      "name": "higgsfield-claude-skills",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "AKCodez/higgsfield-claude-skills",
+      "stars": 0,
+      "desc": "19 Claude Code skills for Higgsfield AI — automate image generation, Seedance 2.0 video creation, and full UGC ad pipelines with Playwright browser automation",
+      "url": "https://github.com/AKCodez/higgsfield-claude-skills",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "higgsfield-claude-skills 19 claude code skills for higgsfield ai — automate image generation, seedance 2.0 video creation, and full ugc ad pipelines with playwright browser automation akcodez/higgsfield-claude-skills automation-productivity general"
+    },
+    {
+      "name": "android-agent",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "ghost-in-the-droid/android-agent",
+      "stars": 0,
+      "desc": "Open-source Android device automation framework — control real phones via ADB with Python skills, a Vue dashboard, and LLM-powered tooling",
+      "url": "https://github.com/ghost-in-the-droid/android-agent",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "android-agent open-source android device automation framework — control real phones via adb with python skills, a vue dashboard, and llm-powered tooling ghost-in-the-droid/android-agent automation-productivity general"
+    },
+    {
+      "name": "unplugin-devpilot",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "zcf0508/unplugin-devpilot",
+      "stars": 0,
+      "desc": "A universal plugin framework for development tools that enables seamless browser-server communication and MCP (Model Context Protocol) integration with AI/LLM systems.",
+      "url": "https://github.com/zcf0508/unplugin-devpilot",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "unplugin-devpilot a universal plugin framework for development tools that enables seamless browser-server communication and mcp (model context protocol) integration with ai/llm systems. zcf0508/unplugin-devpilot automation-productivity general"
     }
   ]
 }

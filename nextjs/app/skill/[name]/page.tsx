@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getAllSkills } from '../../../lib/db'
 import type { Metadata } from 'next'
+import { SoftwareApplicationSchema, BreadcrumbSchema } from '../../jsonld'
 
 interface Props {
   params: Promise<{ name: string }>
@@ -34,6 +35,12 @@ export default async function SkillPage({ params }: Props) {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SoftwareApplicationSchema skill={skill} />
+      <BreadcrumbSchema items={[
+        { name: 'Home', url: 'https://skill.442595.xyz/' },
+        { name: skill.functionCategory, url: `https://skill.442595.xyz/categories/${skill.functionCategory}` },
+        { name: skill.name, url: `https://skill.442595.xyz/skill/${encodeURIComponent(skill.name)}` },
+      ]} />
       <header className="bg-slate-900 text-white py-8">
         <div className="max-w-6xl mx-auto px-4">
           <Link href={`/categories/${skill.functionCategory}`} className="text-slate-400 hover:text-white mb-4 block">← Back</Link>

@@ -64,13 +64,39 @@ export function getAllSkills(): Skill[] {
   return skills
 }
 
+let _fuseModule: any = null
+function getFuse() {
+  if (!_fuseModule) {
+    // Dynamic import not available in sync context, use require
+    _fuseModule = require('fuse.js')
+  }
+  return _fuseModule.default || _fuseModule
+}
+
+let _allSkills: Skill[] | null = null
+
 export function searchSkills(query: string): Skill[] {
-  const q = query.toLowerCase()
-  return getAllSkills().filter(s => 
-    s.name.toLowerCase().includes(q) ||
-    s.desc.toLowerCase().includes(q) ||
-    (s.repo && s.repo.toLowerCase().includes(q))
-  )
+  const q = query.toLowerCase().trim()
+  if (q.length < 2) {
+    return getAllSkills().filter(s =>
+      s.name.toLowerCase().includes(q) ||
+      s.desc.toLowerCase().includes(q) ||
+      (s.repo && s.repo.toLowerCase().includes(q))
+    )
+  }
+
+  // Fuse.js fuzzy search
+  if (!_allSkills) _allSkills = getAllSkills()
+  const Fuse = getFuse()
+  const fuse = new Fuse(_allSkills, {
+    keys: ['name', 'desc', 'repo'],
+    threshold: 0.4,
+    distance: 100,
+    minMatchCharLength: 1,
+    ignoreLocation: true,
+  })
+
+  return fuse.search(q).map(r => r.item)
 }
 
 export function getSkillByName(name: string): Skill | null {

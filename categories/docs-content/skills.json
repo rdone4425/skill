@@ -4,7 +4,7 @@
     "topCategoryId": "docs",
     "subCategoryId": "content",
     "categoryPath": "docs-content",
-    "count": 182,
+    "count": 189,
     "sourceData": "categories"
   },
   "skills": [
@@ -3631,6 +3631,96 @@
         "codex",
         "cursor"
       ]
+    },
+    {
+      "name": "Automated-AI-Web-Researcher-Ollama",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "TheBlewish/Automated-AI-Web-Researcher-Ollama",
+      "stars": 0,
+      "desc": "A python program that turns an LLM, running on Ollama, into an automated researcher, which will with a single query determine focus areas to investigate, do websearches and scrape content from various",
+      "url": "https://github.com/TheBlewish/Automated-AI-Web-Researcher-Ollama",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs-content",
+      "subCategoryId": "general",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "automated-ai-web-researcher-ollama a python program that turns an llm, running on ollama, into an automated researcher, which will with a single query determine focus areas to investigate, do websearches and scrape content from various relevant websites and do research for you all on its own! and more, not limited to but including saving the findings for you! theblewish/automated-ai-web-researcher-ollama docs-content general"
+    },
+    {
+      "name": "awesome-ai-tools",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "0voice/awesome-ai-tools",
+      "stars": 0,
+      "desc": "Curated list of awesome AI tools for developers, content creators and office workers. Free, practical and easy to use.",
+      "url": "https://github.com/0voice/awesome-ai-tools",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs-content",
+      "subCategoryId": "general",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-ai-tools curated list of awesome ai tools for developers, content creators and office workers. free, practical and easy to use. 0voice/awesome-ai-tools docs-content general"
+    },
+    {
+      "name": "webscraper",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "zzzgydi/webscraper",
+      "stars": 0,
+      "desc": "Scrape the webpage convert it into Markdown, and enhance AI search applications.",
+      "url": "https://github.com/zzzgydi/webscraper",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs-content",
+      "subCategoryId": "general",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "webscraper scrape the webpage convert it into markdown, and enhance ai search applications. zzzgydi/webscraper docs-content general"
+    },
+    {
+      "name": "auto-codebase-documenter",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "abryant710/auto-codebase-documenter",
+      "stars": 0,
+      "desc": "A tool that will use generative AI to automatically create documentation for every file in your codebase",
+      "url": "https://github.com/abryant710/auto-codebase-documenter",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs-content",
+      "subCategoryId": "general",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "auto-codebase-documenter a tool that will use generative ai to automatically create documentation for every file in your codebase abryant710/auto-codebase-documenter docs-content general"
+    },
+    {
+      "name": "communication-excellence-coach",
+      "source": "github",
+      "sourceAgent": "general",
+      "repo": "softaworks/agent-toolkit",
+      "stars": 0,
+      "desc": "Communication Excellence Coach - agent for improving communication",
+      "url": "https://github.com/softaworks/agent-toolkit",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs-content",
+      "subCategoryId": "general",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "communication-excellence-coach communication excellence coach - agent for improving communication softaworks/agent-toolkit docs-content general"
     }
   ]
 }
