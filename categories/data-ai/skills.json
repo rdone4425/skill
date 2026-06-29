@@ -4,7 +4,7 @@
     "topCategoryId": "data",
     "subCategoryId": "ai",
     "categoryPath": "data-ai",
-    "count": 391,
+    "count": 396,
     "sourceData": "categories"
   },
   "skills": [
@@ -7862,6 +7862,110 @@
         "openclaw"
       ],
       "searchText": "obsidian-openclaw-memory openclaw skill: use obsidian + openclaw as an ai memory system with knowledge graph samin12/obsidian-openclaw-memory git clone https://github.com/samin12/obsidian-openclaw-memory.git data-ai openclaw"
+    },
+    {
+      "name": "agno",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "agno-agi/agno",
+      "stars": 35000,
+      "desc": "Multimodal agents with runtime + control plane. Multimodal tasks, agent observability.",
+      "url": "https://github.com/agno-agi/agno",
+      "install": "pip install agno",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "agno multimodal agents with runtime + control plane. multimodal tasks, agent observability. human: agno-agi/agno pip install agno data-ai claude cursor hermes generic"
+    },
+    {
+      "name": "zep-memory",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "getzep/zep",
+      "stars": 7000,
+      "desc": "Temporal knowledge graph, entity tracking. CRM-like memory, relationship tracking.",
+      "url": "https://github.com/getzep/zep",
+      "install": "pip install zep-python",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "zep-memory temporal knowledge graph, entity tracking. crm-like memory, relationship tracking. human: getzep/zep pip install zep-python data-ai claude hermes generic"
+    },
+    {
+      "name": "llamaindex",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "run-llama/llama_index",
+      "stars": 37000,
+      "desc": "Advanced RAG, structured queries, agents. Complex document understanding.",
+      "url": "https://github.com/run-llama/llama_index",
+      "install": "pip install llama-index",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "llamaindex advanced rag, structured queries, agents. complex document understanding. human: run-llama/llama_index pip install llama-index data-ai claude cursor hermes generic"
+    },
+    {
+      "name": "haystack",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "deepset-ai/haystack",
+      "stars": 18000,
+      "desc": "Production NLP pipelines, modular. Enterprise search, QA systems.",
+      "url": "https://github.com/deepset-ai/haystack",
+      "install": "pip install haystack-ai",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "haystack production nlp pipelines, modular. enterprise search, qa systems. human: deepset-ai/haystack pip install haystack-ai data-ai claude cursor hermes generic"
+    },
+    {
+      "name": "dspy",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "stanfordnlp/dspy",
+      "stars": 21000,
+      "desc": "Programmatic LM optimization, signatures. Prompt optimization, research.",
+      "url": "https://github.com/stanfordnlp/dspy",
+      "install": "pip install dspy-ai",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data",
+      "subCategoryId": "ai",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "dspy programmatic lm optimization, signatures. prompt optimization, research. human: stanfordnlp/dspy pip install dspy-ai data-ai claude cursor hermes generic"
     }
   ]
 }

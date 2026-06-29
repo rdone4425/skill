@@ -4,7 +4,7 @@
     "topCategoryId": "backend",
     "subCategoryId": "api",
     "categoryPath": "backend-api",
-    "count": 89,
+    "count": 93,
     "sourceData": "categories"
   },
   "skills": [
@@ -1797,6 +1797,90 @@
         "igniter-js"
       ],
       "searchText": "igniter-js igniter is a modern, type-safe http framework designed to streamline the development of scalable typescript applications. felipebarcelospro/igniter-js backend-api igniter-js"
+    },
+    {
+      "name": "qdrant",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "qdrant/qdrant",
+      "stars": 22000,
+      "desc": "Rust vector DB with payload filtering, sparse+dense vectors. Production, fast filtered search.",
+      "url": "https://github.com/qdrant/qdrant",
+      "install": "pip install qdrant-client",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "qdrant rust vector db with payload filtering, sparse+dense vectors. production, fast filtered search. human: qdrant/qdrant pip install qdrant-client backend-api claude cursor hermes generic"
+    },
+    {
+      "name": "chroma",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "chroma-core/chroma",
+      "stars": 17000,
+      "desc": "Embedded, developer-friendly vector database. Prototyping, local development.",
+      "url": "https://github.com/chroma-core/chroma",
+      "install": "pip install chromadb",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "chroma embedded, developer-friendly vector database. prototyping, local development. human: chroma-core/chroma pip install chromadb backend-api claude cursor hermes generic"
+    },
+    {
+      "name": "weaviate",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "weaviate/weaviate",
+      "stars": 12000,
+      "desc": "GraphQL, multi-tenancy, hybrid search. Enterprise, multi-tenant SaaS.",
+      "url": "https://github.com/weaviate/weaviate",
+      "install": "pip install weaviate-client",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "weaviate graphql, multi-tenancy, hybrid search. enterprise, multi-tenant saas. human: weaviate/weaviate pip install weaviate-client backend-api claude cursor hermes generic"
+    },
+    {
+      "name": "milvus",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "milvus-io/milvus",
+      "stars": 32000,
+      "desc": "Cloud-native vector database, billion-scale. High-scale production.",
+      "url": "https://github.com/milvus-io/milvus",
+      "install": "pip install pymilvus",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend",
+      "subCategoryId": "api",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "milvus cloud-native vector database, billion-scale. high-scale production. human: milvus-io/milvus pip install pymilvus backend-api claude cursor hermes generic"
     }
   ]
 }

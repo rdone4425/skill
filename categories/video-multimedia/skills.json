@@ -4,7 +4,7 @@
     "topCategoryId": "video-multimedia",
     "subCategoryId": "video-multimedia",
     "categoryPath": "video-multimedia",
-    "count": 12,
+    "count": 13,
     "sourceData": "categories"
   },
   "skills": [
@@ -247,6 +247,27 @@
         "astri"
       ],
       "searchText": "astri astri is a multitool written in python, it contains tools with different applications and is an excellent resource to find reliable sites of different types. astros3x/astri video-multimedia astri"
+    },
+    {
+      "name": "livekit-agents",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "livekit/agents",
+      "stars": 8000,
+      "desc": "Real-time audio/video agents, STT+LLM+TTS pipeline. Self-hosted, custom voice agents.",
+      "url": "https://github.com/livekit/agents",
+      "install": "pip install livekit-agents",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "video-multimedia",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "livekit-agents real-time audio/video agents, stt+llm+tts pipeline. self-hosted, custom voice agents. human: livekit/agents pip install livekit-agents video-multimedia claude cursor hermes generic"
     }
   ]
 }

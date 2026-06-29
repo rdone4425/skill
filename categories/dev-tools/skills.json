@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 965,
+    "count": 978,
     "sourceData": "categories"
   },
   "skills": [
@@ -19023,6 +19023,273 @@
         "hermes"
       ],
       "searchText": "yantrikdb-hermes-plugin yantrikdb-hermes-plugin yantrikos/yantrikdb-hermes-plugin dev-tools hermes"
+    },
+    {
+      "name": "composio",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "composio/composio",
+      "stars": 27000,
+      "desc": "100+ tool integrations with MCP support. Tool-heavy agents, SaaS automation.",
+      "url": "https://github.com/composio/composio",
+      "install": "pip install composio",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "hermes"
+      ],
+      "searchText": "composio 100+ tool integrations with mcp support. tool-heavy agents, saas automation. human: composio/composio pip install composio dev-tools claude cursor codex hermes"
+    },
+    {
+      "name": "dify",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "langgenius/dify",
+      "stars": 60000,
+      "desc": "Visual workflow builder, self-hosted. GUI agent builder for teams.",
+      "url": "https://github.com/langgenius/dify",
+      "install": "docker run -p 3000:3000 langgenius/dify",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "generic"
+      ],
+      "searchText": "dify visual workflow builder, self-hosted. gui agent builder for teams. human: langgenius/dify docker run -p 3000:3000 langgenius/dify dev-tools claude cursor generic"
+    },
+    {
+      "name": "flowise",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "FlowiseAI/Flowise",
+      "stars": 32000,
+      "desc": "Drag-and-drop node editor for low-code agent building.",
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "install": "npm install -g flowise",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "generic"
+      ],
+      "searchText": "flowise drag-and-drop node editor for low-code agent building. human: flowiseai/flowise npm install -g flowise dev-tools claude cursor generic"
+    },
+    {
+      "name": "goose",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "block/goose",
+      "stars": 10000,
+      "desc": "Block's extensible agent, MCP-native. Developer automation on local machines.",
+      "url": "https://github.com/block/goose",
+      "install": "pip install goose-agent",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes"
+      ],
+      "searchText": "goose block's extensible agent, mcp-native. developer automation on local machines. human: block/goose pip install goose-agent dev-tools claude cursor hermes"
+    },
+    {
+      "name": "cline",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "cline/cline",
+      "stars": 28000,
+      "desc": "VS Code extension, any model, MCP. Open source, model-agnostic, community.",
+      "url": "https://github.com/cline/cline",
+      "install": "code --install-extension saoudrizwan.claude-dev",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex"
+      ],
+      "searchText": "cline vs code extension, any model, mcp. open source, model-agnostic, community. human: cline/cline code --install-extension saoudrizwan.claude-dev dev-tools claude cursor codex"
+    },
+    {
+      "name": "aider",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "Aider-AI/aider",
+      "stars": 25000,
+      "desc": "Terminal, git-aware, pair programming. CLI users, git-native, repo-wide edits.",
+      "url": "https://github.com/Aider-AI/aider",
+      "install": "pip install aider-chat",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "hermes"
+      ],
+      "searchText": "aider terminal, git-aware, pair programming. cli users, git-native, repo-wide edits. human: aider-ai/aider pip install aider-chat dev-tools claude cursor codex hermes"
+    },
+    {
+      "name": "openhands",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "All-Hands-AI/OpenHands",
+      "stars": 65000,
+      "desc": "Docker-isolated, web UI, MIT license. Sandboxed execution, evaluation benchmarks.",
+      "url": "https://github.com/All-Hands-AI/OpenHands",
+      "install": "docker pull all-hands-ai/openhands",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex"
+      ],
+      "searchText": "openhands docker-isolated, web ui, mit license. sandboxed execution, evaluation benchmarks. human: all-hands-ai/openhands docker pull all-hands-ai/openhands dev-tools claude cursor codex"
+    },
+    {
+      "name": "swe-agent",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "princeton-nlp/SWE-agent",
+      "stars": 15000,
+      "desc": "Princeton's ACI interface, benchmark-driven. Research, SWE-bench evaluation.",
+      "url": "https://github.com/princeton-nlp/SWE-agent",
+      "install": "pip install swe-agent",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "cursor"
+      ],
+      "searchText": "swe-agent princeton's aci interface, benchmark-driven. research, swe-bench evaluation. human: princeton-nlp/swe-agent pip install swe-agent dev-tools claude cursor"
+    },
+    {
+      "name": "langfuse",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "langfuse/langfuse",
+      "stars": 10000,
+      "desc": "Open source, prompt versioning, self-hostable. Privacy-first, LangChain/CrewAI teams.",
+      "url": "https://github.com/langfuse/langfuse",
+      "install": "pip install langfuse",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "langfuse open source, prompt versioning, self-hostable. privacy-first, langchain/crewai teams. human: langfuse/langfuse pip install langfuse dev-tools claude cursor hermes generic"
+    },
+    {
+      "name": "agentops",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "AgentOps-AI/agentops",
+      "stars": 3000,
+      "desc": "Session replay, 400+ framework integrations. Framework-agnostic, debugging agents.",
+      "url": "https://github.com/AgentOps-AI/agentops",
+      "install": "pip install agentops",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "agentops session replay, 400+ framework integrations. framework-agnostic, debugging agents. human: agentops-ai/agentops pip install agentops dev-tools claude cursor codex hermes generic"
+    },
+    {
+      "name": "helicone",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "Helicone/helicone",
+      "stars": 4000,
+      "desc": "Gateway-based, no SDK changes needed. Drop-in observability, any provider.",
+      "url": "https://github.com/Helicone/helicone",
+      "install": "npm install helicone",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "helicone gateway-based, no sdk changes needed. drop-in observability, any provider. human: helicone/helicone npm install helicone dev-tools claude cursor codex hermes generic"
+    },
+    {
+      "name": "arize-phoenix",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "Arize-ai/phoenix",
+      "stars": 6000,
+      "desc": "Open source, LLM evals, embeddings. ML teams, explainability.",
+      "url": "https://github.com/Arize-ai/phoenix",
+      "install": "pip install arize-phoenix",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "arize-phoenix open source, llm evals, embeddings. ml teams, explainability. human: arize-ai/phoenix pip install arize-phoenix dev-tools claude hermes generic"
+    },
+    {
+      "name": "open-interpreter",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "OpenInterpreter/open-interpreter",
+      "stars": 56000,
+      "desc": "Natural language to code execution. Local automation, full OS control.",
+      "url": "https://github.com/OpenInterpreter/open-interpreter",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "open-interpreter natural language to code execution. local automation, full os control. human: openinterpreter/open-interpreter  dev-tools claude cursor hermes generic"
     }
   ]
 }

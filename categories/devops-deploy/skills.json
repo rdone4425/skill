@@ -4,7 +4,7 @@
     "topCategoryId": "devops",
     "subCategoryId": "deploy",
     "categoryPath": "devops-deploy",
-    "count": 98,
+    "count": 101,
     "sourceData": "categories"
   },
   "skills": [
@@ -1945,6 +1945,71 @@
         "copilot"
       ],
       "searchText": "qaskills qa skills directory qa skills is a curated directory of testing-specific skills for ai coding agents (claude code, cursor, copilot, etc.). pramoddutta/qaskills git clone https://github.com/pramoddutta/qaskills.git  # browse the awesome list devops-deploy claude cursor copilot"
+    },
+    {
+      "name": "e2b-sandbox",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "e2b-dev/e2b",
+      "stars": 10000,
+      "desc": "Sandboxed code execution, 150ms boot. Safe code execution inside agents.",
+      "url": "https://github.com/e2b-dev/e2b",
+      "install": "pip install e2b",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "e2b-sandbox sandboxed code execution, 150ms boot. safe code execution inside agents. human: e2b-dev/e2b pip install e2b devops-deploy claude cursor codex hermes generic"
+    },
+    {
+      "name": "ollama",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "ollama/ollama",
+      "stars": 100000,
+      "desc": "100+ models, simple CLI, GPU support. Local development, privacy-first.",
+      "url": "https://github.com/ollama/ollama",
+      "install": "curl -fsSL https://ollama.com/install.sh | sh",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "codex",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "ollama 100+ models, simple cli, gpu support. local development, privacy-first. human: ollama/ollama curl -fssl https://ollama.com/install.sh | sh devops-deploy claude cursor codex hermes generic"
+    },
+    {
+      "name": "vllm",
+      "source": "general",
+      "sourceAgent": "claude",
+      "repo": "vllm-project/vllm",
+      "stars": 40000,
+      "desc": "High-throughput serving with PagedAttention. Production local inference at scale.",
+      "url": "https://github.com/vllm-project/vllm",
+      "install": "pip install vllm",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops",
+      "subCategoryId": "deploy",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "hermes",
+        "generic"
+      ],
+      "searchText": "vllm high-throughput serving with pagedattention. production local inference at scale. human: vllm-project/vllm pip install vllm devops-deploy claude cursor hermes generic"
     }
   ]
 }
