@@ -44,6 +44,31 @@ CATEGORY_ZH = {
     "audio-speech": "音频语音",
 }
 
+CATEGORY_EN = {
+    "dev-tools": "Dev Tools",
+    "general": "General Tools",
+    "data-ai": "Data & AI",
+    "design-ui": "Design & UI",
+    "docs-content": "Docs & Content",
+    "automation-productivity": "Automation",
+    "security": "Security",
+    "finance-crypto": "Finance & Crypto",
+    "devops-deploy": "DevOps",
+    "backend-api": "Backend & API",
+    "game-dev": "Game Dev",
+    "testing-qa": "Testing & QA",
+    "education": "Education",
+    "social-media": "Social Media",
+    "health-medical": "Health & Medical",
+    "video-multimedia": "Video & Multimedia",
+    "3d": "3D Graphics",
+    "ecommerce": "E-commerce",
+    "audio": "Audio",
+    "agent-framework": "Agent Framework",
+    "video-gen": "Video Generation",
+    "audio-speech": "Audio & Speech",
+}
+
 CATEGORY_DESC = {
     "dev-tools": "开发工具 Skills：编码、IDE、插件、平台工具。收录 Claude Code、Codex、Cursor、OpenCode、Hermes Agent 等平台的开发辅助工具。",
     "general": "通用工具 Skills：涵盖日常开发各类辅助工具，包括命令行工具、实用脚本、跨平台工具等。",
@@ -67,6 +92,32 @@ CATEGORY_DESC = {
     "agent-framework": "Agent框架 Skills：AI Agent开发框架、Agent Protocol、Multi-Agent系统。",
     "video-gen": "视频生成 Skills：AI视频生成、Sora、Kling、PixVerse等视频AI工具。",
     "audio-speech": "音频语音 Skills：语音识别、语音合成、TTS/STT技术。",
+}
+
+# English descriptions for international SEO and readers
+CATEGORY_DESC_EN = {
+    "dev-tools": "Dev Tools Skills: coding, IDE, plugins, and platform tools for Claude Code, Codex, Cursor, OpenCode, Hermes Agent. Covers developer productivity, code generation, testing, and tooling.",
+    "general": "General Tools Skills: everyday development utilities, CLI tools, scripts, and cross-platform helpers.",
+    "data-ai": "Data & AI Skills: data analysis, machine learning, LLM inference, RAG retrieval, multimodal models, and AI-related tools.",
+    "design-ui": "Design & UI Skills: UI design, Figma integration, presentations, data visualization, and visual design tools.",
+    "docs-content": "Docs & Content Skills: documentation, content creation, technical writing, Awesome lists, and reference materials.",
+    "automation-productivity": "Automation Skills: workflow automation, productivity tools, release tooling, ops automation, and office automation.",
+    "security": "Security Skills: security auditing, vulnerability detection, defense tools, penetration testing, and compliance.",
+    "finance-crypto": "Finance & Crypto Skills: cryptocurrencies, DeFi, quantitative trading, financial analysis, and blockchain development.",
+    "devops-deploy": "DevOps Skills: CI/CD, infrastructure as code, containerization, cloud-native deployments.",
+    "backend-api": "Backend & API Skills: REST/GraphQL API design, database integration, and backend services.",
+    "game-dev": "Game Dev Skills: game engines, Unity/Unreal integration, 2D/3D game development tools.",
+    "testing-qa": "Testing & QA Skills: automated testing, browser testing, code review, and quality assurance tools.",
+    "education": "Education Skills: online education, learning tools, course creation, and EdTech.",
+    "social-media": "Social Media Skills: social media management, content publishing, community operations, and analytics.",
+    "health-medical": "Health & Medical Skills: health tracking, medical data, telemedicine, and health analytics.",
+    "video-multimedia": "Video & Multimedia Skills: video processing, multimedia editing, and content creation tools.",
+    "3d": "3D Graphics Skills: 3D modeling, rendering, Three.js, WebGL, and graphics tools.",
+    "ecommerce": "E-commerce Skills: e-commerce platform integrations, order management, recommendations, and price monitoring.",
+    "audio": "Audio Skills: audio processing, speech synthesis, music generation, and podcast production tools.",
+    "agent-framework": "Agent Framework Skills: AI agent development frameworks, Agent Protocol, and multi-agent systems.",
+    "video-gen": "Video Generation Skills: AI video generation tools like Sora, Kling, PixVerse, and more.",
+    "audio-speech": "Audio & Speech Skills: speech recognition, text-to-speech, and voice AI technologies.",
 }
 
 def escape_xml(s):
@@ -236,9 +287,11 @@ def make_jsonld(category_id, skills, count):
 
 def make_html(category_id, skills, total_count):
     name_zh = CATEGORY_ZH.get(category_id, category_id)
-    name_en = category_id.replace("-", " ").title()
-    title = f"Skill Hub {name_zh} Skills ({total_count}个) | AI Agent技能分类导航"
-    desc = CATEGORY_DESC.get(category_id, f"{name_zh}分类收录 {total_count} 个AI Agent Skills，支持Claude Code、Codex、Cursor、OpenCode、Hermes Agent平台。")
+    name_en = CATEGORY_EN.get(category_id, category_id.replace("-", " ").title())
+    desc_zh = CATEGORY_DESC.get(category_id, f"{name_zh}分类收录 {total_count} 个AI Agent Skills，支持Claude Code、Codex、Cursor、OpenCode、Hermes Agent平台。")
+    desc_en = CATEGORY_DESC_EN.get(category_id, f"Browse {total_count} {name_en} AI Agent Skills. Filter by Claude Code, Codex, Cursor, OpenCode, Hermes Agent compatibility.")
+    title_zh = f"Skill Hub {name_zh} Skills ({total_count}个) | AI Agent技能分类导航"
+    title_en = f"Skill Hub {name_en} Skills ({total_count}) | AI Agent Skills Directory"
     canonical = f"{SITE_URL}/categories/{category_id}/"
     og_image = f"{SITE_URL}/og-image.png"
     category_url = f"{SITE_URL}/categories/{category_id}/"
@@ -254,100 +307,102 @@ def make_html(category_id, skills, total_count):
     show_more_note = f'<p class="category-show-more">还有 {other_count} 个技能，<a href="{SITE_URL}/?category={category_id}">在主站搜索查看全部 →</a></p>' if other_count > 0 else ""
 
     html = f"""<!DOCTYPE html>
-<html lang="zh">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{escape_html(title)}</title>
-  <meta name="description" content="{escape_html(desc)}">
-  <meta name="keywords" content="{name_zh} Skills, AI Agent, Claude Code, Codex, Cursor, OpenCode, Hermes Agent, {name_en}">
-  <meta name="robots" content="index, follow">
-  <meta name="author" content="rdone4425">
+    <html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>{escape_html(title_zh)}</title>
+      <meta name="description" content="{escape_html(desc_en)}">
+      <meta name="keywords" content="{name_en} Skills, {name_zh} Skills, AI Agent, Claude Code, Codex, Cursor, OpenCode, Hermes Agent">
+      <meta name="robots" content="index, follow">
+      <meta name="author" content="rdone4425">
 
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="{escape_html(title)}">
-  <meta property="og:description" content="{escape_html(desc)}">
-  <meta property="og:url" content="{canonical}">
-  <meta property="og:image" content="{og_image}">
-  <meta property="og:site_name" content="Skill Hub">
+      <meta property="og:type" content="website">
+      <meta property="og:title" content="{escape_html(title_en)}">
+      <meta property="og:description" content="{escape_html(desc_en)}">
+      <meta property="og:url" content="{canonical}">
+      <meta property="og:image" content="{og_image}">
+      <meta property="og:site_name" content="Skill Hub">
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{escape_html(title)}">
-  <meta name="twitter:description" content="{escape_html(desc)}">
-  <meta name="twitter:image" content="{og_image}">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="{escape_html(title_en)}">
+      <meta name="twitter:description" content="{escape_html(desc_en)}">
+      <meta name="twitter:image" content="{og_image}">
 
-  <link rel="canonical" href="{canonical}">
-  <link rel="icon" type="image/x-icon" href="/assets/icons/favicon.ico?v=13">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png?v=13">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png?v=13">
+      <link rel="canonical" href="{canonical}">
+      <link rel="alternate" hreflang="zh" href="{canonical}">
+      <link rel="alternate" hreflang="en" href="{canonical}?lang=en">
+      <link rel="alternate" hreflang="x-default" href="{canonical}">
+      <link rel="icon" type="image/x-icon" href="/assets/icons/favicon.ico?v=13">
+      <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png?v=13">
+      <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png?v=13">
 
-  <script type="application/ld+json">
-{jsonld_str}
-  </script>
+      <script type="application/ld+json">
+    {jsonld_str}
+      </script>
 
-  <!-- Perf: preload -->
-  <link rel="preload" href="/css/style.css?v=30" as="style">
-  <link rel="stylesheet" href="/css/style.css?v=30">
-</head>
-<body>
-  <a class="skip-link" href="#main-content">跳到主要内容</a>
+      <link rel="preload" href="/css/style.css?v=31" as="style">
+      <link rel="stylesheet" href="/css/style.css?v=31">
+    </head>
+    <body>
+      <a class="skip-link" href="#main-content">跳到主要内容</a>
 
-  <header class="site-header">
-    <div class="header-inner">
-      <div class="brand">
-        <a href="{SITE_URL}/" class="brand-name brand-lockup">
-          <img class="brand-logo" src="/assets/icons/favicon-32x32.png?v=13" alt="Skill Hub logo" loading="lazy">
-          <span class="brand-copy">
-            <span>Skill Hub</span>
-            <span class="brand-subtitle">功能分类导航</span>
-          </span>
-        </a>
-        <span class="brand-badge">BETA</span>
-      </div>
-      <div class="header-right">
-        <nav class="main-nav">
-          <a href="{SITE_URL}/stats.html" class="github-link">统计页</a>
-          <a href="{REPO_URL}" class="github-link" target="_blank" rel="noopener">仓库</a>
-        </nav>
-      </div>
-    </div>
-  </header>
+      <header class="site-header">
+        <div class="header-inner">
+          <div class="brand">
+            <a href="{SITE_URL}/" class="brand-name brand-lockup">
+              <img class="brand-logo" src="/assets/icons/favicon-32x32.png?v=13" alt="Skill Hub logo" loading="lazy">
+              <span class="brand-copy">
+                <span>Skill Hub</span>
+                <span class="brand-subtitle">功能分类导航</span>
+              </span>
+            </a>
+            <span class="brand-badge">BETA</span>
+          </div>
+          <div class="header-right">
+            <nav class="main-nav">
+              <a href="{SITE_URL}/stats.html" class="github-link">统计页</a>
+              <a href="{REPO_URL}" class="github-link" target="_blank" rel="noopener">仓库</a>
+            </nav>
+          </div>
+        </div>
+      </header>
 
-  <main id="main-content">
-    <div class="category-page-hero">
-      <div class="category-breadcrumb">
-        <a href="{SITE_URL}/">首页</a> &gt; <span>{name_zh}</span>
-      </div>
-      <h1 class="category-page-title">{name_zh} <span class="category-page-count">({total_count} Skills)</span></h1>
-      <p class="category-page-desc">{escape_html(desc)}</p>
+      <main id="main-content">
+        <div class="category-page-hero">
+          <div class="category-breadcrumb">
+            <a href="{SITE_URL}/">首页</a> &gt; <span>{name_zh}</span>
+          </div>
+          <h1 class="category-page-title">{name_en} <span class="category-page-count">({total_count} Skills)</span></h1>
+          <p class="category-page-desc">{escape_html(desc_en)}</p>
 
-      <form class="category-search-form" action="{SITE_URL}/" method="get">
-        <input type="hidden" name="category" value="{category_id}">
-        <input type="search" name="search" class="search-input" placeholder="在{name_zh}分类下搜索…" aria-label="搜索{name_zh}分类">
-        <button type="submit" class="search-btn">搜索</button>
-      </form>
-    </div>
+          <form class="category-search-form" action="{SITE_URL}/" method="get">
+            <input type="hidden" name="category" value="{category_id}">
+            <input type="search" name="search" class="search-input" placeholder="Search {name_en} skills…" aria-label="Search {name_en} category">
+            <button type="submit" class="search-btn">Search</button>
+          </form>
+        </div>
 
-    <section class="category-page-content">
-      <div class="results grid-view">
-        {cards_html}
-      </div>
-      {show_more_note}
-    </section>
+        <section class="category-page-content">
+          <div class="results grid-view">
+            {cards_html}
+          </div>
+          {show_more_note}
+        </section>
 
-    <section class="about">
-      <h2>关于 {name_zh} 分类</h2>
-      <p>Skill Hub 收录了 {total_count} 个{name_zh}相关AI Agent Skills。所有技能按功能分类，支持按名称、描述、API关键词搜索，并可通过平台筛选。数据每日更新。</p>
-    </section>
-  </main>
+        <section class="about">
+          <h2>About {name_en} Category</h2>
+          <p>Skill Hub curates {total_count} AI Agent Skills in the {name_en} category. Browse by name, description, or API keyword, and filter by platform compatibility. Data refreshed daily.</p>
+        </section>
+      </main>
 
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <p>© {datetime.now().year} Skill Hub · <a href="{SITE_URL}/">返回首页</a> · <a href="{REPO_URL}" target="_blank" rel="noopener">GitHub</a></p>
-    </div>
-  </footer>
-</body>
-</html>"""
+      <footer class="site-footer">
+        <div class="footer-inner">
+          <p>&copy; {datetime.now().year} Skill Hub &middot; <a href="{SITE_URL}/">Home</a> &middot; <a href="{REPO_URL}" target="_blank" rel="noopener">GitHub</a></p>
+        </div>
+      </footer>
+    </body>
+    </html>"""
     return html
 
 def main():
@@ -387,15 +442,29 @@ def main():
     # Generate sitemap
     sitemap_lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-        f'  <url><loc>{SITE_URL}/</loc><lastmod>{TODAY}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>',
-        f'  <url><loc>{SITE_URL}/stats.html</loc><lastmod>{TODAY}</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">',
+        f'  <url><loc>{SITE_URL}/</loc><lastmod>{TODAY}</lastmod><changefreq>daily</changefreq><priority>1.0</priority>',
+        f'    <xhtml:link rel="alternate" hreflang="zh" href="{SITE_URL}/"/>',
+        f'    <xhtml:link rel="alternate" hreflang="en" href="{SITE_URL}/?lang=en"/>',
+        f'    <xhtml:link rel="alternate" hreflang="x-default" href="{SITE_URL}/"/>',
+        f'  </url>',
+        f'  <url><loc>{SITE_URL}/stats.html</loc><lastmod>{TODAY}</lastmod><changefreq>weekly</changefreq><priority>0.7</priority>',
+        f'    <xhtml:link rel="alternate" hreflang="zh" href="{SITE_URL}/stats.html"/>',
+        f'    <xhtml:link rel="alternate" hreflang="en" href="{SITE_URL}/stats.html?lang=en"/>',
+        f'    <xhtml:link rel="alternate" hreflang="x-default" href="{SITE_URL}/stats.html"/>',
+        f'  </url>',
     ]
     for cat_id, count, _ in results:
         sitemap_lines.append(
             f'  <url><loc>{SITE_URL}/categories/{cat_id}/</loc>'
-            f'<lastmod>{TODAY}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>'
-        )
+            f'<lastmod>{TODAY}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>')
+        sitemap_lines.append(
+            f'    <xhtml:link rel="alternate" hreflang="zh" href="{SITE_URL}/categories/{cat_id}/"/>')
+        sitemap_lines.append(
+            f'    <xhtml:link rel="alternate" hreflang="en" href="{SITE_URL}/categories/{cat_id}/?lang=en"/>')
+        sitemap_lines.append(
+            f'    <xhtml:link rel="alternate" hreflang="x-default" href="{SITE_URL}/categories/{cat_id}/"/>')
+        sitemap_lines.append(f'  </url>')
     sitemap_lines.append("</urlset>")
 
     sitemap_path = "sitemap.xml"
