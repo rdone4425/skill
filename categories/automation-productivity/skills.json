@@ -4,7 +4,7 @@
     "topCategoryId": "automation",
     "subCategoryId": "productivity",
     "categoryPath": "automation-productivity",
-    "count": 222,
+    "count": 223,
     "sourceData": "categories"
   },
   "skills": [
@@ -4313,6 +4313,24 @@
         "general"
       ],
       "searchText": "browser2api Turn browser UIs into programmatic image and video generation APIs. Automates image generation tools Rabornkraken/browser2api automation-productivity"
+    },
+    {
+      "name": "claude-code-tips",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "ykdojo/claude-code-tips",
+      "stars": 8972,
+      "desc": "40+ tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script and Claude Code running itself in a container. Also includes the dx plugin: skills for ",
+      "url": "https://github.com/ykdojo/claude-code-tips",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "claude-code-tips 40+ tips for getting the most out of Claude Code, from basic ykdojo/claude-code-tips automation-productivity"
     }
   ]
 }

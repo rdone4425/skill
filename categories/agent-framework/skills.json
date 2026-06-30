@@ -4,7 +4,7 @@
     "topCategoryId": "agent-framework",
     "subCategoryId": "agent-framework",
     "categoryPath": "agent-framework",
-    "count": 754,
+    "count": 761,
     "sourceData": "categories"
   },
   "skills": [
@@ -13586,6 +13586,132 @@
         "general"
       ],
       "searchText": "agent-inspect Local execution trees for TypeScript AI agents.  agent-inspect helps you understand what happened in rajudandigam/agent-inspect agent-framework"
+    },
+    {
+      "name": "opengap",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "open-gitagent/opengap",
+      "stars": 2884,
+      "desc": "A framework-agnostic, git-native standard for defining AI agents",
+      "url": "https://github.com/open-gitagent/opengap",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "opengap A framework-agnostic, git-native standard for defining AI ag open-gitagent/opengap agent-framework"
+    },
+    {
+      "name": "novelclaw",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "iLearn-Lab/NovelClaw",
+      "stars": 341,
+      "desc": "Dynamic-memory-first collaborative AI framework for long-form story generation, chapter planning, and coherent narrative writing",
+      "url": "https://github.com/iLearn-Lab/NovelClaw",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "novelclaw Dynamic-memory-first collaborative AI framework for long-for iLearn-Lab/NovelClaw agent-framework"
+    },
+    {
+      "name": "veritasgraph",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "bibinprathap/VeritasGraph",
+      "stars": 295,
+      "desc": "VeritasGraph — open-source Knowledge Graph & GraphRAG framework on GitHub. Build multi-hop reasoning, ontology-aware retrieval, and verifiable attribution over your own data. Nodes, edges, RDF, linked",
+      "url": "https://github.com/bibinprathap/VeritasGraph",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "veritasgraph VeritasGraph — open-source Knowledge Graph & GraphRAG framew bibinprathap/VeritasGraph agent-framework"
+    },
+    {
+      "name": "go-agent",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "Protocol-Lattice/go-agent",
+      "stars": 241,
+      "desc": "An agent framework for Go with graph-aware memory, UTCP-native tools, and multi-agent orchestration. Built for production.",
+      "url": "https://github.com/Protocol-Lattice/go-agent",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "go-agent An agent framework for Go with graph-aware memory, UTCP-nati Protocol-Lattice/go-agent agent-framework"
+    },
+    {
+      "name": "lime",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "limecloud/lime",
+      "stars": 1455,
+      "desc": "AI content workspace for Chinese creators: desktop writing, research, prompt   library, knowledge base, and multi-model workflows.",
+      "url": "https://github.com/limecloud/lime",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "lime AI content workspace for Chinese creators: desktop writing,  limecloud/lime agent-framework"
+    },
+    {
+      "name": "octocode",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "bgauryy/octocode",
+      "stars": 873,
+      "desc": "MCP server for semantic code research and context generation on real-time using LLM patterns | Search naturally across public & private repos based on your permissions | Transform any accessible codeb",
+      "url": "https://github.com/bgauryy/octocode",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "octocode MCP server for semantic code research and context generation bgauryy/octocode agent-framework"
+    },
+    {
+      "name": "statespace",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "statespace-tech/statespace",
+      "stars": 877,
+      "desc": "Search for the agentic web.",
+      "url": "https://github.com/statespace-tech/statespace",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "statespace Search for the agentic web. statespace-tech/statespace agent-framework"
     }
   ]
 }

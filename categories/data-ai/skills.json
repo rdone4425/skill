@@ -4,7 +4,7 @@
     "topCategoryId": "data",
     "subCategoryId": "ai",
     "categoryPath": "data-ai",
-    "count": 540,
+    "count": 546,
     "sourceData": "categories"
   },
   "skills": [
@@ -10579,6 +10579,114 @@
         "automation",
         "evaluation"
       ]
+    },
+    {
+      "name": "qwen3-omni",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "QwenLM/Qwen3-Omni",
+      "stars": 3857,
+      "desc": "Qwen3-omni is a natively end-to-end, omni-modal LLM developed by the Qwen team at Alibaba Cloud, capable of understanding text, audio, images, and video, as well as generating speech in real time.",
+      "url": "https://github.com/QwenLM/Qwen3-Omni",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "qwen3-omni Qwen3-omni is a natively end-to-end, omni-modal LLM develope QwenLM/Qwen3-Omni data-ai"
+    },
+    {
+      "name": "cairn",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "oritera/Cairn",
+      "stars": 1846,
+      "desc": "A AI general-purpose state-space search engine, validated first on autonomous penetration testing.",
+      "url": "https://github.com/oritera/Cairn",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cairn A AI general-purpose state-space search engine, validated fi oritera/Cairn data-ai"
+    },
+    {
+      "name": "surogate",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "invergent-ai/surogate",
+      "stars": 802,
+      "desc": "Training/Fine-tuning at the speed of light",
+      "url": "https://github.com/invergent-ai/surogate",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "surogate Training/Fine-tuning at the speed of light invergent-ai/surogate data-ai"
+    },
+    {
+      "name": "lightrft",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "opendilab/LightRFT",
+      "stars": 389,
+      "desc": "LightRFT: Light, Efficient, Omni-modal & Reward-model Driven Reinforcement Fine-Tuning Framework",
+      "url": "https://github.com/opendilab/LightRFT",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "lightrft LightRFT: Light, Efficient, Omni-modal & Reward-model Driven opendilab/LightRFT data-ai"
+    },
+    {
+      "name": "pmetal",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "Epistates/pmetal",
+      "stars": 300,
+      "desc": "PMetal: high-performance Apple Silicon framework for local LLM inference, LoRA/QLoRA fine-tuning, serving, quantization, and MLX/Metal acceleration.",
+      "url": "https://github.com/Epistates/pmetal",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "pmetal PMetal: high-performance Apple Silicon framework for local L Epistates/pmetal data-ai"
+    },
+    {
+      "name": "mex",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "mex-memory/mex",
+      "stars": 1143,
+      "desc": "Persistent project memory for AI coding agents. Structured scaffold + drift detection CLI.",
+      "url": "https://github.com/mex-memory/mex",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mex Persistent project memory for AI coding agents. Structured s mex-memory/mex data-ai"
     }
   ]
 }

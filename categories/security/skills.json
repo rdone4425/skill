@@ -4,7 +4,7 @@
     "topCategoryId": "security",
     "subCategoryId": "general",
     "categoryPath": "security",
-    "count": 231,
+    "count": 234,
     "sourceData": "categories"
   },
   "skills": [
@@ -4336,6 +4336,60 @@
         "general"
       ],
       "searchText": "PassLLM World's most accurate password guessing AI tool. A PyTorch implementation of PassLLM (USENIX 2025) t Tzohar/PassLLM security"
+    },
+    {
+      "name": "tirith",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "sheeki03/tirith",
+      "stars": 2533,
+      "desc": "Terminal security for developers and AI agents. Intercepts homograph URLs, pipe-to-shell, ANSI injection, obfuscated payloads, data exfiltration, and malicious AI skills/configs before they execute.",
+      "url": "https://github.com/sheeki03/tirith",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "tirith Terminal security for developers and AI agents. Intercepts h sheeki03/tirith security"
+    },
+    {
+      "name": "metatron",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "sooryathejas/METATRON",
+      "stars": 3220,
+      "desc": "AI-powered penetration testing assistant using local LLM on linux (Parrot OS)",
+      "url": "https://github.com/sooryathejas/METATRON",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "metatron AI-powered penetration testing assistant using local LLM on  sooryathejas/METATRON security"
+    },
+    {
+      "name": "ai-development-patterns",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "PaulDuvall/ai-development-patterns",
+      "stars": 586,
+      "desc": "A comprehensive collection of AI development patterns for building software with AI assistance, organized by implementation maturity and development lifecycle phases. Includes Foundation, Development,",
+      "url": "https://github.com/PaulDuvall/ai-development-patterns",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-development-patterns A comprehensive collection of AI development patterns for bu PaulDuvall/ai-development-patterns security"
     }
   ]
 }

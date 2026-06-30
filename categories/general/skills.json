@@ -4,7 +4,7 @@
     "topCategoryId": "general",
     "subCategoryId": "general",
     "categoryPath": "general",
-    "count": 577,
+    "count": 628,
     "sourceData": "categories"
   },
   "skills": [
@@ -11042,6 +11042,924 @@
       ],
       "searchText": "mistralai-llm mistralai/llm general",
       "pricing": "free"
+    },
+    {
+      "name": "aaron-marketing-skills",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "aaron-he-zhu/aaron-marketing-skills",
+      "stars": 2290,
+      "desc": "38 marketing skills + 5 commands for Claude Code & 35+ AI agents: SEO/GEO + influencer marketing (IMPACT). Frameworks: CORE-EEAT, CITE, C3.",
+      "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aaron-marketing-skills 38 marketing skills + 5 commands for Claude Code & 35+ AI ag aaron-he-zhu/aaron-marketing-skills general"
+    },
+    {
+      "name": "redamon",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "samugit83/redamon",
+      "stars": 2076,
+      "desc": "An AI-powered agentic red team framework that automates offensive security operations, from reconnaissance to exploitation to post-exploitation, with zero human intervention.",
+      "url": "https://github.com/samugit83/redamon",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "redamon An AI-powered agentic red team framework that automates offe samugit83/redamon general"
+    },
+    {
+      "name": "waver",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "FoundationVision/Waver",
+      "stars": 943,
+      "desc": "Industry-level video foundation model for unified Text-to-Video (T2V) and Image-to-Video (I2V) generation.",
+      "url": "https://github.com/FoundationVision/Waver",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "waver Industry-level video foundation model for unified Text-to-Vi FoundationVision/Waver general"
+    },
+    {
+      "name": "gausian_native_editor",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "gausian-AI/Gausian_native_editor",
+      "stars": 1000,
+      "desc": "Gausian - Rust-based local video editor for AI video production",
+      "url": "https://github.com/gausian-AI/Gausian_native_editor",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gausian_native_editor Gausian - Rust-based local video editor for AI video product gausian-AI/Gausian_native_editor general"
+    },
+    {
+      "name": "agentic-video-editor",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "poseljacob/agentic-video-editor",
+      "stars": 457,
+      "desc": "AI-powered video editor that turns raw footage and a creative brief into a polished ad using an ensemble of AI agents (Google Gemini + FFmpeg)",
+      "url": "https://github.com/poseljacob/agentic-video-editor",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agentic-video-editor AI-powered video editor that turns raw footage and a creativ poseljacob/agentic-video-editor general"
+    },
+    {
+      "name": "openvideo",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "openvideodev/openvideo",
+      "stars": 285,
+      "desc": "Open-source AI Video Editor with client-side rendering. Opencut clone and capcut clone. Bye adobe.",
+      "url": "https://github.com/openvideodev/openvideo",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openvideo Open-source AI Video Editor with client-side rendering. Open openvideodev/openvideo general"
+    },
+    {
+      "name": "heartmula_comfyui",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "benjiyaya/HeartMuLa_ComfyUI",
+      "stars": 428,
+      "desc": "ComfyUI Custom Node for HeartMuLa AI Music Generation and Transcript Text",
+      "url": "https://github.com/benjiyaya/HeartMuLa_ComfyUI",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "heartmula_comfyui ComfyUI Custom Node for HeartMuLa AI Music Generation and Tr benjiyaya/HeartMuLa_ComfyUI general"
+    },
+    {
+      "name": "awesome-ai-voice",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "wildminder/awesome-ai-voice",
+      "stars": 357,
+      "desc": "List of open-source TTS, voice cloning, and music generation models",
+      "url": "https://github.com/wildminder/awesome-ai-voice",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-ai-voice List of open-source TTS, voice cloning, and music generation wildminder/awesome-ai-voice general"
+    },
+    {
+      "name": "mochord",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Mocha-Yuan/MoChord",
+      "stars": 229,
+      "desc": "MoChord: An AI-powered guitar workspace for smart chord voicings, real-time tuner pitch detection, tabs, staff notation, playback, metronome practice, and progression generation. 吉他和弦智能工作台，集 AI 编曲、智能把",
+      "url": "https://github.com/Mocha-Yuan/MoChord",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mochord MoChord: An AI-powered guitar workspace for smart chord voic Mocha-Yuan/MoChord general"
+    },
+    {
+      "name": "cti-rag",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Ais1on/CTI-RAG",
+      "stars": 306,
+      "desc": "CTI-RAG is a Retrieval-Augmented Generation (RAG) framework for Cyber Threat Intelligence (CTI), integrating knowledge graph and causal reasoning capabilities to provide security analysts with an inte",
+      "url": "https://github.com/Ais1on/CTI-RAG",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cti-rag CTI-RAG is a Retrieval-Augmented Generation (RAG) framework  Ais1on/CTI-RAG general"
+    },
+    {
+      "name": "neurosploit",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "JoasASantos/NeuroSploit",
+      "stars": 1186,
+      "desc": "NeuroSploit is an advanced, AI-powered penetration testing framework designed to automate and augment various aspects of offensive security operations. Leveraging the capabilities of large language mo",
+      "url": "https://github.com/JoasASantos/NeuroSploit",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "neurosploit NeuroSploit is an advanced, AI-powered penetration testing f JoasASantos/NeuroSploit general"
+    },
+    {
+      "name": "awesome-ai-image-prompts",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "devanshug2307/Awesome-AI-Image-Prompts",
+      "stars": 210,
+      "desc": "1000+ curated AI image generation prompts for DALL-E, Midjourney, Google Nano Banana (Imagen), Flux, ChatGPT Image, and Stable Diffusion. Copy-ready JSON prompts for 3D miniatures, product photography",
+      "url": "https://github.com/devanshug2307/Awesome-AI-Image-Prompts",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-ai-image-prompts 1000+ curated AI image generation prompts for DALL-E, Midjou devanshug2307/Awesome-AI-Image-Prompts general"
+    },
+    {
+      "name": "memento",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Memento-Teams/Memento",
+      "stars": 2472,
+      "desc": "Official Code of Memento: Fine-tuning LLM Agents without Fine-tuning LLMs",
+      "url": "https://github.com/Memento-Teams/Memento",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "memento Official Code of Memento: Fine-tuning LLM Agents without Fin Memento-Teams/Memento general"
+    },
+    {
+      "name": "mlx-tune",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "ARahim3/mlx-tune",
+      "stars": 1332,
+      "desc": "Fine-tune LLMs on your Mac with Apple Silicon. SFT, DPO, GRPO, Vision, TTS, STT, Embedding, and OCR fine-tuning — natively on MLX. Unsloth-compatible API.",
+      "url": "https://github.com/ARahim3/mlx-tune",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mlx-tune Fine-tune LLMs on your Mac with Apple Silicon. SFT, DPO, GRP ARahim3/mlx-tune general"
+    },
+    {
+      "name": "can-i-finetune-this",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "DaoyuanLi2816/can-i-finetune-this",
+      "stars": 745,
+      "desc": "Estimate whether a Hugging Face model fits and fine-tunes on your local GPU.",
+      "url": "https://github.com/DaoyuanLi2816/can-i-finetune-this",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "can-i-finetune-this Estimate whether a Hugging Face model fits and fine-tunes on DaoyuanLi2816/can-i-finetune-this general"
+    },
+    {
+      "name": "evoopt_oppangu_optimization_model",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "WillowHe/EvoOpt_oppangu_optimization_model",
+      "stars": 400,
+      "desc": "A set of solutions is provided, leveraging Openpangu - 7B as the base model for fine - tuning and application of large language models (LLMs) in operations research optimization tasks.",
+      "url": "https://github.com/WillowHe/EvoOpt_oppangu_optimization_model",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "evoopt_oppangu_optimization_model A set of solutions is provided, leveraging Openpangu - 7B as WillowHe/EvoOpt_oppangu_optimization_model general"
+    },
+    {
+      "name": "es-at-scale",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "VsonicV/es-at-scale",
+      "stars": 365,
+      "desc": "This repo contains the source code for the paper \"Evolution Strategies at Scale: LLM Fine-Tuning Beyond Reinforcement Learning\"",
+      "url": "https://github.com/VsonicV/es-at-scale",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "es-at-scale This repo contains the source code for the paper \"Evolution  VsonicV/es-at-scale general"
+    },
+    {
+      "name": "silicon-studio",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "rileycleavenger/Silicon-Studio",
+      "stars": 277,
+      "desc": "Fine-tune and run LLMs locally on your M-series Mac. A powerful desktop interface built on Apple's MLX framework for zero-setup AI.",
+      "url": "https://github.com/rileycleavenger/Silicon-Studio",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "silicon-studio Fine-tune and run LLMs locally on your M-series Mac. A power rileycleavenger/Silicon-Studio general"
+    },
+    {
+      "name": "unsloth-buddy",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "TYH-labs/unsloth-buddy",
+      "stars": 256,
+      "desc": "Zero-friction LLM fine-tuning skill for Claude Code, Gemini CLI & any ACP agent. Unsloth on NVIDIA · TRL+MPS/MLX on Apple Silicon. Automates env setup, LoRA training (SFT, DPO, GRPO, vision), post-hoc",
+      "url": "https://github.com/TYH-labs/unsloth-buddy",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "unsloth-buddy Zero-friction LLM fine-tuning skill for Claude Code, Gemini  TYH-labs/unsloth-buddy general"
+    },
+    {
+      "name": "mlx-lora-studio",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Goekdeniz-Guelmez/MLX-LoRA-Studio",
+      "stars": 229,
+      "desc": "A native Mac App for LLM fine-tuning on Apple Silicon — fully on-device, fully open source.",
+      "url": "https://github.com/Goekdeniz-Guelmez/MLX-LoRA-Studio",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mlx-lora-studio A native Mac App for LLM fine-tuning on Apple Silicon — full Goekdeniz-Guelmez/MLX-LoRA-Studio general"
+    },
+    {
+      "name": "system-design-visualizer",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "mallahyari/system-design-visualizer",
+      "stars": 590,
+      "desc": "An interactive tool that transforms static system design diagrams into explorable, interactive visualizations using AI.",
+      "url": "https://github.com/mallahyari/system-design-visualizer",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "system-design-visualizer An interactive tool that transforms static system design dia mallahyari/system-design-visualizer general"
+    },
+    {
+      "name": "cabinet",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "hilash/cabinet",
+      "stars": 2376,
+      "desc": "AI-first knowledge base and startup OS",
+      "url": "https://github.com/hilash/cabinet",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cabinet AI-first knowledge base and startup OS hilash/cabinet general"
+    },
+    {
+      "name": "taiwan-md",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "frank890417/taiwan-md",
+      "stars": 1089,
+      "desc": "🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan",
+      "url": "https://github.com/frank890417/taiwan-md",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "taiwan-md 🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base a frank890417/taiwan-md general"
+    },
+    {
+      "name": "knownote",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "MrSibe/KnowNote",
+      "stars": 1012,
+      "desc": "A local-first AI knowledge base & NotebookLM alternative built with Electron. More convenient, more lightweight, and understands you better!",
+      "url": "https://github.com/MrSibe/KnowNote",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "knownote A local-first AI knowledge base & NotebookLM alternative bui MrSibe/KnowNote general"
+    },
+    {
+      "name": "knowledge-agent-template",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "vercel-labs/knowledge-agent-template",
+      "stars": 837,
+      "desc": "Open source file-system and knowledge based agent template. Build AI agents that stay up to date with your knowledge base",
+      "url": "https://github.com/vercel-labs/knowledge-agent-template",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "knowledge-agent-template Open source file-system and knowledge based agent template.  vercel-labs/knowledge-agent-template general"
+    },
+    {
+      "name": "algebrica",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "antoniolupetti/algebrica",
+      "stars": 831,
+      "desc": "Algebrica is free and open a mathematical knowledge base dedicated to clarity, structure, and conceptual coherence.",
+      "url": "https://github.com/antoniolupetti/algebrica",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "algebrica Algebrica is free and open a mathematical knowledge base ded antoniolupetti/algebrica general"
+    },
+    {
+      "name": "innovation-lab-examples",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "fetchai/innovation-lab-examples",
+      "stars": 1125,
+      "desc": "A curated collection of comprehensive Fetch.ai Innovation Lab examples, showcasing advanced use cases and detailed implementations beyond the main documentation.",
+      "url": "https://github.com/fetchai/innovation-lab-examples",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "innovation-lab-examples A curated collection of comprehensive Fetch.ai Innovation La fetchai/innovation-lab-examples general"
+    },
+    {
+      "name": "dox",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "agent0ai/dox",
+      "stars": 1066,
+      "desc": "Self-documenting AGENTS.md",
+      "url": "https://github.com/agent0ai/dox",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "dox Self-documenting AGENTS.md agent0ai/dox general"
+    },
+    {
+      "name": "swapper-toolkit",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "swapperfinance/swapper-toolkit",
+      "stars": 817,
+      "desc": "DeFi toolkit for AI agents and coding assistants — deposit funds, execute trades, and manage crypto wallets. Works with Claude Code, Cursor,   Windsurf, OpenClaw, CrewAI, AutoGPT, and other AI agent f",
+      "url": "https://github.com/swapperfinance/swapper-toolkit",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "swapper-toolkit DeFi toolkit for AI agents and coding assistants — deposit f swapperfinance/swapper-toolkit general"
+    },
+    {
+      "name": "powertrader_ai",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "garagesteve1155/PowerTrader_AI",
+      "stars": 771,
+      "desc": "Fully automated crypto trading powered by a custom price prediction AI and a structured/tiered DCA system. Website at PowerTrader.net",
+      "url": "https://github.com/garagesteve1155/PowerTrader_AI",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "powertrader_ai Fully automated crypto trading powered by a custom price pre garagesteve1155/PowerTrader_AI general"
+    },
+    {
+      "name": "kraken-cli",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "krakenfx/kraken-cli",
+      "stars": 648,
+      "desc": "The first AI-native CLI for trading crypto, stocks, forex, and derivatives.",
+      "url": "https://github.com/krakenfx/kraken-cli",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "kraken-cli The first AI-native CLI for trading crypto, stocks, forex, a krakenfx/kraken-cli general"
+    },
+    {
+      "name": "gmgn-skills",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "GMGNAI/gmgn-skills",
+      "stars": 353,
+      "desc": "GMGN OpenAPI skills for AI Agent — query tokens, wallets, and market data, and execute on-chain trades across Solana, BSC, and Base.",
+      "url": "https://github.com/GMGNAI/gmgn-skills",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gmgn-skills GMGN OpenAPI skills for AI Agent — query tokens, wallets, an GMGNAI/gmgn-skills general"
+    },
+    {
+      "name": "vibe-investing",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "gameworkerkim/vibe-investing",
+      "stars": 232,
+      "desc": "AI-powered Vibe Investing for NASDAQ, S&P500 & crypto: LLM quant trading tools, multi-agent backtesting, and data-driven market columns (mNAV arbitrage, BTC-Nasdaq coupling, Alpha Arena). 미국 주식·가상화폐 A",
+      "url": "https://github.com/gameworkerkim/vibe-investing",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vibe-investing AI-powered Vibe Investing for NASDAQ, S&P500 & crypto: LLM q gameworkerkim/vibe-investing general"
+    },
+    {
+      "name": "ai-infra-engineer-learning",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "ai-infra-curriculum/ai-infra-engineer-learning",
+      "stars": 1391,
+      "desc": "AI Infrastructure Engineer Learning Track - Production ML infrastructure curriculum (2-4 years experience)",
+      "url": "https://github.com/ai-infra-curriculum/ai-infra-engineer-learning",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-infra-engineer-learning AI Infrastructure Engineer Learning Track - Production ML in ai-infra-curriculum/ai-infra-engineer-learning general"
+    },
+    {
+      "name": "aipath",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "buynao/aipath",
+      "stars": 459,
+      "desc": "Interactive AI General Education Course — 30 Lessons, Zero Math",
+      "url": "https://github.com/buynao/aipath",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aipath Interactive AI General Education Course — 30 Lessons, Zero M buynao/aipath general"
+    },
+    {
+      "name": "final-year-project-ideas-2025",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "DharminJoshi/Final-Year-Project-Ideas-2025",
+      "stars": 340,
+      "desc": "A curated list of 100 innovative and impactful project ideas for final-year students, covering AI, sustainability, health, education, and more—designed to inspire creativity and real-world problem-sol",
+      "url": "https://github.com/DharminJoshi/Final-Year-Project-Ideas-2025",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "final-year-project-ideas-2025 A curated list of 100 innovative and impactful project ideas DharminJoshi/Final-Year-Project-Ideas-2025 general"
+    },
+    {
+      "name": "medkit-app",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "bedriyan/medkit-app",
+      "stars": 316,
+      "desc": "A voice-first AI patient simulator bringing the future of medical education to your browser, built with Claude Opus 4.7.",
+      "url": "https://github.com/bedriyan/medkit-app",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "medkit-app A voice-first AI patient simulator bringing the future of me bedriyan/medkit-app general"
+    },
+    {
+      "name": "kaobuddy-pwa",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "jin-zi-xuan/kaobuddy-pwa",
+      "stars": 204,
+      "desc": "一个帮你临时抱佛脚的项目",
+      "url": "https://github.com/jin-zi-xuan/kaobuddy-pwa",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "kaobuddy-pwa 一个帮你临时抱佛脚的项目 jin-zi-xuan/kaobuddy-pwa general"
+    },
+    {
+      "name": "alumnet",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "jungang/alumnet",
+      "stars": 200,
+      "desc": "AlumNet - AI-powered intelligent school history exhibition & alumni management system | AI 智能校史展示系统 — 校友星图",
+      "url": "https://github.com/jungang/alumnet",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "alumnet AlumNet - AI-powered intelligent school history exhibition & jungang/alumnet general"
+    },
+    {
+      "name": "devops-ai-guidelines",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "VersusControl/devops-ai-guidelines",
+      "stars": 1309,
+      "desc": "First AI Journey for DevOps - with comprehensive learning paths, practical tips, and enterprise guidelines",
+      "url": "https://github.com/VersusControl/devops-ai-guidelines",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "devops-ai-guidelines First AI Journey for DevOps - with comprehensive learning pa VersusControl/devops-ai-guidelines general"
+    },
+    {
+      "name": "valqore",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "valqore/valqore",
+      "stars": 1126,
+      "desc": "Safety-first guardrails for AI-driven cloud and Kubernetes operations",
+      "url": "https://github.com/valqore/valqore",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "valqore Safety-first guardrails for AI-driven cloud and Kubernetes o valqore/valqore general"
+    },
+    {
+      "name": "veritas-kanban",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "BradGroux/veritas-kanban",
+      "stars": 748,
+      "desc": "Lightweight orchestration platform built for your AI agents. The unfiltered truth about where your project stands.",
+      "url": "https://github.com/BradGroux/veritas-kanban",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "veritas-kanban Lightweight orchestration platform built for your AI agents. BradGroux/veritas-kanban general"
+    },
+    {
+      "name": "better-fullstack",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Marve10s/Better-Fullstack",
+      "stars": 676,
+      "desc": "Scaffold production-ready full-stack apps in TypeScript, Rust, Python, Go, and Java with a visual builder and CLI. Choose your frontend, backend, database, auth, AI, payments, and DevOps integrations,",
+      "url": "https://github.com/Marve10s/Better-Fullstack",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "better-fullstack Scaffold production-ready full-stack apps in TypeScript, Rus Marve10s/Better-Fullstack general"
+    },
+    {
+      "name": "incidentfox",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "incidentfox/incidentfox",
+      "stars": 637,
+      "desc": "AI-powered SRE platform for automated incident investigation",
+      "url": "https://github.com/incidentfox/incidentfox",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "incidentfox AI-powered SRE platform for automated incident investigation incidentfox/incidentfox general"
+    },
+    {
+      "name": "pixeldit",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "NVlabs/PixelDiT",
+      "stars": 851,
+      "desc": "[CVPR 2026 Best Paper Finalist] Pixel Diffusion Transformers for Image Generation",
+      "url": "https://github.com/NVlabs/PixelDiT",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "pixeldit [CVPR 2026 Best Paper Finalist] Pixel Diffusion Transformers NVlabs/PixelDiT general"
+    },
+    {
+      "name": "hunyuanimage-2.1",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Tencent-Hunyuan/HunyuanImage-2.1",
+      "stars": 674,
+      "desc": "HunyuanImage-2.1: An Efficient Diffusion Model for High-Resolution (2K) Text-to-Image Generation​",
+      "url": "https://github.com/Tencent-Hunyuan/HunyuanImage-2.1",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "hunyuanimage-2.1 HunyuanImage-2.1: An Efficient Diffusion Model for High-Reso Tencent-Hunyuan/HunyuanImage-2.1 general"
+    },
+    {
+      "name": "ernie-image",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "baidu/ERNIE-Image",
+      "stars": 482,
+      "desc": "ERNIE-Image is an open text-to-image generation model developed by the ERNIE-Image team at Baidu. It is built on a single-stream Diffusion Transformer (DiT), with only 8B DiT parameters, it reaches st",
+      "url": "https://github.com/baidu/ERNIE-Image",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ernie-image ERNIE-Image is an open text-to-image generation model develo baidu/ERNIE-Image general"
+    },
+    {
+      "name": "deco",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Zehong-Ma/DeCo",
+      "stars": 229,
+      "desc": "[CVPR2026 Highlight] Official repository for “DeCo: Frequency-Decoupled Pixel Diffusion for End-to-End Image Generation”",
+      "url": "https://github.com/Zehong-Ma/DeCo",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "deco [CVPR2026 Highlight] Official repository for “DeCo: Frequenc Zehong-Ma/DeCo general"
+    },
+    {
+      "name": "merge",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "H-EmbodVis/MERGE",
+      "stars": 217,
+      "desc": "[NeurIPS 2025] More Than Generation: Unifying Generation and Depth Estimation via Text-to-Image Diffusion Models",
+      "url": "https://github.com/H-EmbodVis/MERGE",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "merge [NeurIPS 2025] More Than Generation: Unifying Generation and H-EmbodVis/MERGE general"
+    },
+    {
+      "name": "posteromni",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "MeiGen-AI/PosterOmni",
+      "stars": 203,
+      "desc": "[CVPR2026] PosterOmni: One model for poster creation—unifying local edits and global design for generalized multi-task image/poster-to-poster generation.",
+      "url": "https://github.com/MeiGen-AI/PosterOmni",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "posteromni [CVPR2026] PosterOmni: One model for poster creation—unifyin MeiGen-AI/PosterOmni general"
+    },
+    {
+      "name": "bc250",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "akandr/bc250",
+      "stars": 200,
+      "desc": "AMD BC-250 (PS5 APU) setup guide — Ollama + Vulkan inference, poor man's AI assistant via Signal, stable-diffusion.cpp image generation",
+      "url": "https://github.com/akandr/bc250",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "bc250 AMD BC-250 (PS5 APU) setup guide — Ollama + Vulkan inference akandr/bc250 general"
     }
   ]
 }

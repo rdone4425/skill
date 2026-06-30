@@ -4,7 +4,7 @@
     "topCategoryId": "3d",
     "subCategoryId": "3d",
     "categoryPath": "3d",
-    "count": 80,
+    "count": 81,
     "sourceData": "categories"
   },
   "skills": [
@@ -1450,6 +1450,24 @@
       ],
       "searchText": "Zero-123 Zero-1-to-3: Zero-shot One Image to 3D Object generation using diffusion models cvlab-columbia/zero123 3d",
       "pricing": "free"
+    },
+    {
+      "name": "falcraft",
+      "source": "3d",
+      "sourceAgent": "3d",
+      "repo": "blendi-remade/falcraft",
+      "stars": 476,
+      "desc": "3D structure generation in Minecraft, powered by fal.ai",
+      "url": "https://github.com/blendi-remade/falcraft",
+      "install": "",
+      "functionCategory": "3d",
+      "topCategoryId": "3d",
+      "subCategoryId": "general",
+      "categoryPath": "3d",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "falcraft 3D structure generation in Minecraft, powered by fal.ai blendi-remade/falcraft 3d"
     }
   ]
 }

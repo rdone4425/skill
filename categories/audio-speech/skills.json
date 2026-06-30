@@ -4,7 +4,7 @@
     "topCategoryId": "audio-speech",
     "subCategoryId": "audio-speech",
     "categoryPath": "audio-speech",
-    "count": 42,
+    "count": 55,
     "sourceData": "categories"
   },
   "skills": [
@@ -781,6 +781,240 @@
       ],
       "searchText": "fish-speech Brand new TTS solution with streaming support, multi-language, and fine-tuning c fishaudio/fish-speech audio-speech",
       "pricing": "free"
+    },
+    {
+      "name": "supertonic",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "supertone-inc/supertonic",
+      "stars": 12815,
+      "desc": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "url": "https://github.com/supertone-inc/supertonic",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "supertonic Lightning-Fast, On-Device, Multilingual TTS — running native supertone-inc/supertonic audio-speech"
+    },
+    {
+      "name": "misotts",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "MisoLabsAI/MisoTTS",
+      "stars": 3037,
+      "desc": "Miso TTS is an 8 billion, highly emotive text-to-speech model",
+      "url": "https://github.com/MisoLabsAI/MisoTTS",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "misotts Miso TTS is an 8 billion, highly emotive text-to-speech mode MisoLabsAI/MisoTTS audio-speech"
+    },
+    {
+      "name": "delayed-streams-modeling",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "kyutai-labs/delayed-streams-modeling",
+      "stars": 2957,
+      "desc": "Kyutai's Speech-To-Text and Text-To-Speech models based on the Delayed Streams Modeling framework.",
+      "url": "https://github.com/kyutai-labs/delayed-streams-modeling",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "delayed-streams-modeling Kyutai's Speech-To-Text and Text-To-Speech models based on t kyutai-labs/delayed-streams-modeling audio-speech"
+    },
+    {
+      "name": "ghost-pepper",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "matthartman/ghost-pepper",
+      "stars": 2819,
+      "desc": "100% private on-device voice models for speech-to-text and meeting transcription on macOS",
+      "url": "https://github.com/matthartman/ghost-pepper",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ghost-pepper 100% private on-device voice models for speech-to-text and m matthartman/ghost-pepper audio-speech"
+    },
+    {
+      "name": "vieneu-tts",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "pnnbao97/VieNeu-TTS",
+      "stars": 1981,
+      "desc": "Vietnamese TTS with instant voice cloning • On-device • Real-time CPU inference • 24kHz audio quality • Chuyển văn bản thành giọng nói tiếng Việt • Text to speech tiếng Việt • TTS tiếng Việt",
+      "url": "https://github.com/pnnbao97/VieNeu-TTS",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vieneu-tts Vietnamese TTS with instant voice cloning • On-device • Real pnnbao97/VieNeu-TTS audio-speech"
+    },
+    {
+      "name": "parlor",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "fikrikarim/parlor",
+      "stars": 1861,
+      "desc": "On-device, real-time multimodal AI. Have natural voice and vision conversations with an AI that runs entirely on your machine. Powered by Gemma 4 E2B and Kokoro.",
+      "url": "https://github.com/fikrikarim/parlor",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "parlor On-device, real-time multimodal AI. Have natural voice and v fikrikarim/parlor audio-speech"
+    },
+    {
+      "name": "voxtral.c",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "antirez/voxtral.c",
+      "stars": 1701,
+      "desc": "Pure C inference of Mistral Voxtral Realtime 4B speech to text model",
+      "url": "https://github.com/antirez/voxtral.c",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "voxtral.c Pure C inference of Mistral Voxtral Realtime 4B speech to te antirez/voxtral.c audio-speech"
+    },
+    {
+      "name": "luxtts",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "ysharma3501/LuxTTS",
+      "stars": 4346,
+      "desc": "A high-quality rapid TTS voice cloning model that reaches speeds of 150x realtime.",
+      "url": "https://github.com/ysharma3501/LuxTTS",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "luxtts A high-quality rapid TTS voice cloning model that reaches sp ysharma3501/LuxTTS audio-speech"
+    },
+    {
+      "name": "sopro",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "samuel-vitorino/sopro",
+      "stars": 831,
+      "desc": "A lightweight text-to-speech model with zero-shot voice cloning",
+      "url": "https://github.com/samuel-vitorino/sopro",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "sopro A lightweight text-to-speech model with zero-shot voice clon samuel-vitorino/sopro audio-speech"
+    },
+    {
+      "name": "clonetts",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "sipeter/CloneTTS",
+      "stars": 721,
+      "desc": "A lightweight, offline Android Text-to-Speech (TTS) engine enabling seamless system-wide voice cloning and high-fidelity text reading. / 运行在安卓本地的轻量级文字转语音 (TTS) 引擎，支持离线发音人提取、零门槛音色克隆与双擎系统级全局听书。",
+      "url": "https://github.com/sipeter/CloneTTS",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "clonetts A lightweight, offline Android Text-to-Speech (TTS) engine e sipeter/CloneTTS audio-speech"
+    },
+    {
+      "name": "vui",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "fluxions-ai/vui",
+      "stars": 710,
+      "desc": "Real-time voice assistant — WebRTC streaming, faster-whisper ASR, local LLM, Vui Nano (300M) TTS. OpenAI Realtime API compatible. Voice cloning, barge-in, ~9× realtime on a 4090. Apache 2.0.",
+      "url": "https://github.com/fluxions-ai/vui",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vui Real-time voice assistant — WebRTC streaming, faster-whisper fluxions-ai/vui audio-speech"
+    },
+    {
+      "name": "flashlabs-chroma",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "FlashLabs-AI-Corp/FlashLabs-Chroma",
+      "stars": 546,
+      "desc": "Worlds first open-source real-time end-to-end spoken dialogue model with personalized voice cloning.",
+      "url": "https://github.com/FlashLabs-AI-Corp/FlashLabs-Chroma",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "flashlabs-chroma Worlds first open-source real-time end-to-end spoken dialogu FlashLabs-AI-Corp/FlashLabs-Chroma audio-speech"
+    },
+    {
+      "name": "scenema-audio",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "ScenemaAI/scenema-audio",
+      "stars": 528,
+      "desc": "Zero-shot expressive voice cloning and speech generation. Generate anything from short clips to full-length audiobooks with realistic emotional delivery, pacing, and breath   control. Clone any voice ",
+      "url": "https://github.com/ScenemaAI/scenema-audio",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "scenema-audio Zero-shot expressive voice cloning and speech generation. Ge ScenemaAI/scenema-audio audio-speech"
     }
   ]
 }

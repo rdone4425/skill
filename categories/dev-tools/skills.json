@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 1133,
+    "count": 1143,
     "sourceData": "categories"
   },
   "skills": [
@@ -22095,6 +22095,186 @@
         "general"
       ],
       "searchText": "DGX-Spark-Asus-Ascent-Nvidia-GB10-SFT-Finetuner It is an SFT Fine-tuning tool that performs no-code LLM fine-tuning for Nvidia DGX Spark and Asus As alicankiraz1/DGX-Spark-Asus-Ascent-Nvidia-GB10-SFT-Finetuner dev-tools"
+    },
+    {
+      "name": "vllm-mlx",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "waybarrios/vllm-mlx",
+      "stars": 1383,
+      "desc": "OpenAI and Anthropic compatible server for Apple Silicon. Run LLMs and vision-language models (Llama, Qwen-VL, LLaVA) with continuous batching, MCP tool calling, and multimodal support. Native MLX bac",
+      "url": "https://github.com/waybarrios/vllm-mlx",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vllm-mlx OpenAI and Anthropic compatible server for Apple Silicon. Ru waybarrios/vllm-mlx dev-tools"
+    },
+    {
+      "name": "keeper.sh",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "ridafkih/keeper.sh",
+      "stars": 1173,
+      "desc": "Calendar sync tool & universal calendar MCP server. Aggregate, sync and control calendars on Google, Outlook, Office 365, iCloud, CalDAV or ICS.",
+      "url": "https://github.com/ridafkih/keeper.sh",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "keeper.sh Calendar sync tool & universal calendar MCP server. Aggregat ridafkih/keeper.sh dev-tools"
+    },
+    {
+      "name": "live-coding-music-mcp",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "williamzujkowski/live-coding-music-mcp",
+      "stars": 217,
+      "desc": "A Model Context Protocol (MCP) server that gives Claude direct control over Strudel.cc for AI-assisted music generation and live coding.",
+      "url": "https://github.com/williamzujkowski/live-coding-music-mcp",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "live-coding-music-mcp A Model Context Protocol (MCP) server that gives Claude dire williamzujkowski/live-coding-music-mcp dev-tools"
+    },
+    {
+      "name": "corpusos",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "Corpus-OS/corpusos",
+      "stars": 223,
+      "desc": "Open-source protocol suite standardizing LLM, Vector, Graph, and Embedding infrastructure across LangChain, LlamaIndex, AutoGen, CrewAI, Semantic Kernel, and MCP. 3,330+ conformance tests. One protoco",
+      "url": "https://github.com/Corpus-OS/corpusos",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "corpusos Open-source protocol suite standardizing LLM, Vector, Graph, Corpus-OS/corpusos dev-tools"
+    },
+    {
+      "name": "onecli",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "onecli/onecli",
+      "stars": 2431,
+      "desc": "Open-source credential gateway with a built-in vault. give your AI agents access to services without exposing keys.",
+      "url": "https://github.com/onecli/onecli",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "onecli Open-source credential gateway with a built-in vault. give y onecli/onecli dev-tools"
+    },
+    {
+      "name": "repowise",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "repowise-dev/repowise",
+      "stars": 2631,
+      "desc": "Codebase intelligence for AI and humans: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
+      "url": "https://github.com/repowise-dev/repowise",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "repowise Codebase intelligence for AI and humans: code health scores, repowise-dev/repowise dev-tools"
+    },
+    {
+      "name": "oh-my-mermaid",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "oh-my-mermaid/oh-my-mermaid",
+      "stars": 1433,
+      "desc": "Turn complex codebases into clear, navigable architecture diagrams with Claude Code.",
+      "url": "https://github.com/oh-my-mermaid/oh-my-mermaid",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "oh-my-mermaid Turn complex codebases into clear, navigable architecture di oh-my-mermaid/oh-my-mermaid dev-tools"
+    },
+    {
+      "name": "unrealclaude",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "Natfii/UnrealClaude",
+      "stars": 822,
+      "desc": "Claude Code CLI integration for Unreal Engine 5.7 - Get AI coding assistance with built-in UE5.7 documentation context directly in the editor.",
+      "url": "https://github.com/Natfii/UnrealClaude",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "unrealclaude Claude Code CLI integration for Unreal Engine 5.7 - Get AI c Natfii/UnrealClaude dev-tools"
+    },
+    {
+      "name": "tradememory-protocol",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "mnemox-ai/tradememory-protocol",
+      "stars": 1378,
+      "desc": "Decision audit trail + persistent memory for AI trading agents. Outcome-weighted recall, SHA-256 tamper detection, 17 MCP tools.",
+      "url": "https://github.com/mnemox-ai/tradememory-protocol",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "tradememory-protocol Decision audit trail + persistent memory for AI trading agen mnemox-ai/tradememory-protocol dev-tools"
+    },
+    {
+      "name": "nwave",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "nWave-ai/nWave",
+      "stars": 566,
+      "desc": "AI agents that guide you from idea to working code, with you in control at every step.",
+      "url": "https://github.com/nWave-ai/nWave",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "nwave AI agents that guide you from idea to working code, with you nWave-ai/nWave dev-tools"
     }
   ]
 }

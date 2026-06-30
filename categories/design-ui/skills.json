@@ -4,7 +4,7 @@
     "topCategoryId": "design",
     "subCategoryId": "ui",
     "categoryPath": "design-ui",
-    "count": 419,
+    "count": 420,
     "sourceData": "categories"
   },
   "skills": [
@@ -8131,6 +8131,24 @@
         "general"
       ],
       "searchText": "sync-video-label A web-based annotation tool for synchronized multi-video timeline labeling and AI-assisted question  wangyz1999/sync-video-label design-ui"
+    },
+    {
+      "name": "fireworks-tech-graph",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "yizhiyanhua-ai/fireworks-tech-graph",
+      "stars": 8235,
+      "desc": "Generate production-quality SVG+PNG technical diagrams from natural language. 7 styles, UML support, and AI/Agent workflow patterns.",
+      "url": "https://github.com/yizhiyanhua-ai/fireworks-tech-graph",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "fireworks-tech-graph Generate production-quality SVG+PNG technical diagrams from  yizhiyanhua-ai/fireworks-tech-graph design-ui"
     }
   ]
 }

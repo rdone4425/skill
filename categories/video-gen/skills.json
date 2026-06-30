@@ -4,7 +4,7 @@
     "topCategoryId": "video-gen",
     "subCategoryId": "video-gen",
     "categoryPath": "video-gen",
-    "count": 45,
+    "count": 53,
     "sourceData": "categories"
   },
   "skills": [
@@ -833,6 +833,150 @@
         "general"
       ],
       "searchText": "Google-VEO-AI-3.1-Free Veo Ai Free is a free AI video creation tool offering unlimited Google Veo AI 3.1 video generation w Zeshanabdullah/Google-VEO-AI-3.1-Free video-gen"
+    },
+    {
+      "name": "hunyuanvideo-1.5",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "Tencent-Hunyuan/HunyuanVideo-1.5",
+      "stars": 4502,
+      "desc": "HunyuanVideo-1.5: A leading lightweight video generation model",
+      "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "hunyuanvideo-1.5 HunyuanVideo-1.5: A leading lightweight video generation mod Tencent-Hunyuan/HunyuanVideo-1.5 video-gen"
+    },
+    {
+      "name": "helios",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "PKU-YuanGroup/Helios",
+      "stars": 1938,
+      "desc": "Helios: Real Real-Time Long Video Generation Model",
+      "url": "https://github.com/PKU-YuanGroup/Helios",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "helios Helios: Real Real-Time Long Video Generation Model PKU-YuanGroup/Helios video-gen"
+    },
+    {
+      "name": "aicomicbuilder",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "LingyiChen-AI/AIComicBuilder",
+      "stars": 1601,
+      "desc": "AI-powered animated comic generator — transform scripts into fully animated videos with AI-driven character design,    storyboarding, and video synthesis.",
+      "url": "https://github.com/LingyiChen-AI/AIComicBuilder",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aicomicbuilder AI-powered animated comic generator — transform scripts into LingyiChen-AI/AIComicBuilder video-gen"
+    },
+    {
+      "name": "hunyuanvideo-foley",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "Tencent-Hunyuan/HunyuanVideo-Foley",
+      "stars": 1049,
+      "desc": "HunyuanVideo-Foley: Multimodal Diffusion with Representation Alignment for High-Fidelity Foley Audio Generation.",
+      "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-Foley",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "hunyuanvideo-foley HunyuanVideo-Foley: Multimodal Diffusion with Representation Tencent-Hunyuan/HunyuanVideo-Foley video-gen"
+    },
+    {
+      "name": "causal-forcing",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "thu-ml/Causal-Forcing",
+      "stars": 812,
+      "desc": "[ICML 2026] Official codebase for \"Causal Forcing: Autoregressive Diffusion Distillation Done Right for High-Quality Real-Time Interactive Video Generation\" & Causal Forcing++",
+      "url": "https://github.com/thu-ml/Causal-Forcing",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "causal-forcing [ICML 2026] Official codebase for \"Causal Forcing: Autoregre thu-ml/Causal-Forcing video-gen"
+    },
+    {
+      "name": "matrix-3d",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "SkyworkAI/Matrix-3D",
+      "stars": 745,
+      "desc": "Generate large-scale explorable 3D scenes with high-quality panorama videos from a single image or text prompt.",
+      "url": "https://github.com/SkyworkAI/Matrix-3D",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "matrix-3d Generate large-scale explorable 3D scenes with high-quality  SkyworkAI/Matrix-3D video-gen"
+    },
+    {
+      "name": "yume",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "stdstu12/YUME",
+      "stars": 675,
+      "desc": "The official code of Yume",
+      "url": "https://github.com/stdstu12/YUME",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "yume The official code of Yume stdstu12/YUME video-gen"
+    },
+    {
+      "name": "forge-film",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "F-R-L/forge-film",
+      "stars": 643,
+      "desc": "Multi-model DAG-driven parallel AI film generation — parallel speedup scales with scene independence; Generate film scenes simultaneously instead of one by one;  \"把影视生成的执行图从拓扑序变成关键路径最优调度\" ; 唯一把场景叙事依赖建",
+      "url": "https://github.com/F-R-L/forge-film",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "forge-film Multi-model DAG-driven parallel AI film generation — paralle F-R-L/forge-film video-gen"
     }
   ]
 }

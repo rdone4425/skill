@@ -4,7 +4,7 @@
     "topCategoryId": "docs",
     "subCategoryId": "content",
     "categoryPath": "docs-content",
-    "count": 197,
+    "count": 199,
     "sourceData": "categories"
   },
   "skills": [
@@ -3870,6 +3870,42 @@
       ],
       "searchText": "agent-skills-generator Generate agent skills from website documentation automatically agent-skills-generator docs-content",
       "pricing": "free"
+    },
+    {
+      "name": "obsidian-wiki",
+      "source": "docs-content",
+      "sourceAgent": "docs-content",
+      "repo": "Ar9av/obsidian-wiki",
+      "stars": 2534,
+      "desc": "Framework for AI agents to build and maintain a digital brain through Obsidian wiki using Karpathy's LLM Wiki pattern",
+      "url": "https://github.com/Ar9av/obsidian-wiki",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs-content",
+      "subCategoryId": "general",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "obsidian-wiki Framework for AI agents to build and maintain a digital brai Ar9av/obsidian-wiki docs-content"
+    },
+    {
+      "name": "claude-obsidian",
+      "source": "docs-content",
+      "sourceAgent": "docs-content",
+      "repo": "AgriciDaniel/claude-obsidian",
+      "stars": 8303,
+      "desc": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal",
+      "url": "https://github.com/AgriciDaniel/claude-obsidian",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs-content",
+      "subCategoryId": "general",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "claude-obsidian Self-organizing AI second brain for Obsidian + Claude Code.  AgriciDaniel/claude-obsidian docs-content"
     }
   ]
 }

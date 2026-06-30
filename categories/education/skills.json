@@ -4,7 +4,7 @@
     "topCategoryId": "education",
     "subCategoryId": "education",
     "categoryPath": "education",
-    "count": 99,
+    "count": 100,
     "sourceData": "categories"
   },
   "skills": [
@@ -1812,6 +1812,24 @@
         "general"
       ],
       "searchText": "agentic-kaggle-skill 🤖 AI Agent-driven Kaggle competition workflow. Battle-tested patterns for score stabilization, submi FrankS-IntelLab/agentic-kaggle-skill education"
+    },
+    {
+      "name": "human-skill-tree",
+      "source": "education",
+      "sourceAgent": "education",
+      "repo": "24kchengYe/human-skill-tree",
+      "stars": 568,
+      "desc": "🌳 AI-Powered Skill Tree for Lifelong Human Learning. 30+ skills from K-12 to career & social intelligence, built on cognitive science. | 人类养成记：AI 驱动的终身学习技能树",
+      "url": "https://github.com/24kchengYe/human-skill-tree",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "general",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "human-skill-tree 🌳 AI-Powered Skill Tree for Lifelong Human Learning. 30+ ski 24kchengYe/human-skill-tree education"
     }
   ]
 }

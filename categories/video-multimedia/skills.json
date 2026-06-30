@@ -4,7 +4,7 @@
     "topCategoryId": "video-multimedia",
     "subCategoryId": "video-multimedia",
     "categoryPath": "video-multimedia",
-    "count": 94,
+    "count": 96,
     "sourceData": "categories"
   },
   "skills": [
@@ -1736,6 +1736,42 @@
       ],
       "searchText": "comfyUI-LongLook A ComfyUI node pack that implements FreeLong (NeurIPS 2024) spectral blending for Wan 2.2 video generation shootthesound/comfyUI-LongLook video-multimedia",
       "pricing": "free"
+    },
+    {
+      "name": "notchprompter",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "jpomykala/NotchPrompter",
+      "stars": 584,
+      "desc": "Super simple-to-use, always-on-top floating text prompter for macOS. Perfect for quick videos or keeping important text visible while you work.",
+      "url": "https://github.com/jpomykala/NotchPrompter",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "notchprompter Super simple-to-use, always-on-top floating text prompter fo jpomykala/NotchPrompter video-multimedia"
+    },
+    {
+      "name": "edit-mind",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "IliasHad/edit-mind",
+      "stars": 1719,
+      "desc": "Local-first Video Knowledge Base. Index your video library with multi-modal analysis (YOLO, DeepFace, Whisper), search semantically via natural language, Docker-ready.",
+      "url": "https://github.com/IliasHad/edit-mind",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "edit-mind Local-first Video Knowledge Base. Index your video library w IliasHad/edit-mind video-multimedia"
     }
   ]
 }

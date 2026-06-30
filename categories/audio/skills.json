@@ -4,7 +4,7 @@
     "topCategoryId": "audio",
     "subCategoryId": "audio",
     "categoryPath": "audio",
-    "count": 71,
+    "count": 73,
     "sourceData": "categories"
   },
   "skills": [
@@ -1287,6 +1287,42 @@
       ],
       "searchText": "Bark Bark by Suno: Text-Prompted Generative Audio Model capable of music, background  suno-ai/bark audio",
       "pricing": "free"
+    },
+    {
+      "name": "fluidaudio",
+      "source": "audio",
+      "sourceAgent": "audio",
+      "repo": "FluidInference/FluidAudio",
+      "stars": 2354,
+      "desc": "Frontier CoreML audio models in your apps — text-to-speech, speech-to-text, voice activity detection, and speaker diarization. In Swift, powered by SOTA open source.",
+      "url": "https://github.com/FluidInference/FluidAudio",
+      "install": "",
+      "functionCategory": "audio",
+      "topCategoryId": "audio",
+      "subCategoryId": "general",
+      "categoryPath": "audio",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "fluidaudio Frontier CoreML audio models in your apps — text-to-speech,  FluidInference/FluidAudio audio"
+    },
+    {
+      "name": "ace-step-ui",
+      "source": "audio",
+      "sourceAgent": "audio",
+      "repo": "fspecii/ace-step-ui",
+      "stars": 4258,
+      "desc": "🎵 The Ultimate Open Source Suno Alternative - Professional UI for ACE-Step 1.5 AI Music Generation. Free, local, unlimited. Stop paying for Suno!",
+      "url": "https://github.com/fspecii/ace-step-ui",
+      "install": "",
+      "functionCategory": "audio",
+      "topCategoryId": "audio",
+      "subCategoryId": "general",
+      "categoryPath": "audio",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ace-step-ui 🎵 The Ultimate Open Source Suno Alternative - Professional U fspecii/ace-step-ui audio"
     }
   ]
 }

@@ -4,7 +4,7 @@
     "topCategoryId": "backend",
     "subCategoryId": "api",
     "categoryPath": "backend-api",
-    "count": 172,
+    "count": 173,
     "sourceData": "categories"
   },
   "skills": [
@@ -3308,6 +3308,24 @@
         "general"
       ],
       "searchText": "ebay-mcp Open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs.  YosefHayim/ebay-mcp backend-api"
+    },
+    {
+      "name": "plexus",
+      "source": "backend-api",
+      "sourceAgent": "backend-api",
+      "repo": "mcowger/plexus",
+      "stars": 204,
+      "desc": "Unified API gateway for multiple AI providers (OpenAI, Anthropic, Gemini, etc.). Switch models and providers without changing client code. Features OAuth authentication, quota tracking, embeddings, tr",
+      "url": "https://github.com/mcowger/plexus",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "plexus Unified API gateway for multiple AI providers (OpenAI, Anthr mcowger/plexus backend-api"
     }
   ]
 }

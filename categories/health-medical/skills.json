@@ -4,7 +4,7 @@
     "topCategoryId": "health-medical",
     "subCategoryId": "health-medical",
     "categoryPath": "health-medical",
-    "count": 86,
+    "count": 87,
     "sourceData": "categories"
   },
   "skills": [
@@ -1558,6 +1558,24 @@
       ],
       "searchText": "PathML PathML: Open-source Python library for computational pathology and whole-slide i pathml/pathml health-medical",
       "pricing": "free"
+    },
+    {
+      "name": "wellally-health",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "huifer/WellAlly-health",
+      "stars": 886,
+      "desc": "Ally-Health is an intelligent healthcare assistant that combines Claude AI technology with medical expertise. Through natural language interaction, it helps users record symptoms, manage medications, ",
+      "url": "https://github.com/huifer/WellAlly-health",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "wellally-health Ally-Health is an intelligent healthcare assistant that comb huifer/WellAlly-health health-medical"
     }
   ]
 }

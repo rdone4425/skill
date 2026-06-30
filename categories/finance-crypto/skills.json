@@ -4,7 +4,7 @@
     "topCategoryId": "finance-crypto",
     "subCategoryId": "finance-crypto",
     "categoryPath": "finance-crypto",
-    "count": 136,
+    "count": 139,
     "sourceData": "categories"
   },
   "skills": [
@@ -2498,6 +2498,60 @@
         "general"
       ],
       "searchText": "nlcli-wizard Natural language control for Python CLI tools using locally-trained SLMs (CPU inference) pranavkumaarofficial/nlcli-wizard finance-crypto"
+    },
+    {
+      "name": "openalice",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "TraderAlice/OpenAlice",
+      "stars": 5727,
+      "desc": "Your one-person Wall Street. An AI trading agent covering equities, crypto, commodities, forex, and macro — from research through position entry, ongoing management, to exit.",
+      "url": "https://github.com/TraderAlice/OpenAlice",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openalice Your one-person Wall Street. An AI trading agent covering eq TraderAlice/OpenAlice finance-crypto"
+    },
+    {
+      "name": "nof0",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "wquguru/nof0",
+      "stars": 2752,
+      "desc": "NOF0 - 开源的 AI 交易竞技场",
+      "url": "https://github.com/wquguru/nof0",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "nof0 NOF0 - 开源的 AI 交易竞技场 wquguru/nof0 finance-crypto"
+    },
+    {
+      "name": "cryptotradingagents",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "Tomortec/CryptoTradingAgents",
+      "stars": 271,
+      "desc": "Multi-Agents AI LLM Crypto Financial Trading Framework. 开源多代理加密货币交易决策框架。",
+      "url": "https://github.com/Tomortec/CryptoTradingAgents",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cryptotradingagents Multi-Agents AI LLM Crypto Financial Trading Framework. 开源多代 Tomortec/CryptoTradingAgents finance-crypto"
     }
   ]
 }

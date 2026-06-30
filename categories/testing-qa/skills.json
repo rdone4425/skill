@@ -4,7 +4,7 @@
     "topCategoryId": "testing",
     "subCategoryId": "qa",
     "categoryPath": "testing-qa",
-    "count": 102,
+    "count": 103,
     "sourceData": "categories"
   },
   "skills": [
@@ -1974,6 +1974,24 @@
         "testing",
         "red-green-refactor"
       ]
+    },
+    {
+      "name": "testsprite-cli",
+      "source": "testing-qa",
+      "sourceAgent": "testing-qa",
+      "repo": "TestSprite/testsprite-cli",
+      "stars": 1379,
+      "desc": "Official TestSprite CLI — AI-powered automated testing from your terminal",
+      "url": "https://github.com/TestSprite/testsprite-cli",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing-qa",
+      "subCategoryId": "general",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "testsprite-cli Official TestSprite CLI — AI-powered automated testing from  TestSprite/testsprite-cli testing-qa"
     }
   ]
 }
