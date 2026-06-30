@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import { SoftwareApplicationSchema, BreadcrumbSchema } from '../../jsonld'
 import MobileNav from '../../mobilenav'
 import { TrackPageView } from '../../analytics'
+import RelatedSkills from '../../related-skills'
 
 interface Props {
   params: Promise<{ name: string }>
@@ -97,6 +98,11 @@ export default async function SkillPage({ params }: Props) {
             {skill.install && <p>Install: <code className="bg-gray-100 px-2 py-1 rounded text-sm">{skill.install}</code></p>}
           </div>
         </div>
+        <RelatedSkills
+          skills={skills.filter(s => s.functionCategory === skill.functionCategory)}
+          excludeName={skill.name}
+          categoryName={skill.functionCategory}
+        />
       </main>
     </div>
   )

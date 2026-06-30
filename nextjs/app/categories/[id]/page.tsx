@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import { ItemListSchema, BreadcrumbSchema } from '../../jsonld'
 import SkillList from '../../skill-list'
 import MobileNav from '../../mobilenav'
+import RelatedSkills from '../../related-skills'
 
 interface Props {
   params: Promise<{ id: string }>
@@ -124,6 +125,7 @@ export default async function CategoryPage({ params }: Props) {
       </header>
       <main className="max-w-6xl mx-auto px-4 py-8">
         <SkillList skills={skills} />
+        <RelatedSkills skills={skills} categoryName={name.en} />
       </main>
     </div>
   )

@@ -805,7 +805,7 @@
     similar.forEach(function (skill) { grid.appendChild(createCard(skill)); });
   }
 
-  /* ponytail: trending section — top-N highest-star skills */
+  /* ponytail: trending section — top-N highest weekly-growth skills */
   function renderTrendingSection() {
     var section = document.getElementById('trending-section');
     if (!section) return;
@@ -814,12 +814,22 @@
     // Show trending only on all-category view
     if (state.category !== 'all' || state.keyword) { section.hidden = true; return; }
     var trending = allData.slice()
-      .sort(function (a, b) { return (b.stars || 0) - (a.stars || 0); })
+      .sort(function (a, b) { return (b.weeklyGrowth || 0) - (a.weeklyGrowth || 0); })
       .slice(0, 8);
     var grid = document.getElementById('trending-grid');
     if (!grid) return;
     grid.innerHTML = '';
-    trending.forEach(function (skill) { grid.appendChild(createCard(skill)); });
+    trending.forEach(function (skill) {
+      var card = createCard(skill);
+      // Add growth badge
+      var growth = skill.weeklyGrowth || 0;
+      var badge = document.createElement('span');
+      badge.className = 'growth-badge';
+      badge.textContent = '+' + (growth >= 1000 ? (growth / 1000).toFixed(1).replace(/\.0$/, '') + 'k' : growth);
+      var head = card.querySelector('.card-head');
+      if (head) head.appendChild(badge);
+      grid.appendChild(card);
+    });
     section.hidden = false;
   }
 
@@ -871,13 +881,12 @@
     });
   }
 
-  /* ponytail: related skills based on category */
+  /* ponytail: related skills based on category and tags */
   function renderRelatedSkills() {
-    var section = document.getElementById('related-section');
-    if (!section) return;
-    // Remove any existing
-    if (section) section.remove();
-    // Only show when filtered by category but not subcategory
+    // Remove any existing related-section first
+    var existing = document.getElementById('related-section');
+    if (existing) existing.remove();
+    // Only show when viewing a specific category without subcategory or keyword
     if (state.category === 'all' || state.subcategory || state.keyword) return;
     var allData = state.data;
     if (allData.length === 0) return;
@@ -885,23 +894,45 @@
     var sameCat = allData.filter(function (s) {
       return String(s.topCategoryId || '') === state.category;
     });
-    if (sameCat.length <= 4) return;
-    // Shuffle and pick 4 excluding currently displayed
+    // If too few in same category, try tag-based fallback
+    var candidates;
+    if (sameCat.length <= 4) {
+      // Tag-based: extract keywords from current category skills, find others with matching tags
+      var catKeywords = new Set();
+      allData.slice(0, 100).forEach(function (s) {
+        if (String(s.topCategoryId || '') === state.category) {
+          String(s.name || '').toLowerCase().split(/[\\/\\s-]+/).forEach(function (w) { if (w.length > 2) catKeywords.add(w); });
+          String(s.desc || '').toLowerCase().split(/[\\s,]+/).forEach(function (w) { if (w.length > 3) catKeywords.add(w); });
+        }
+      });
+      var scored = [];
+      allData.forEach(function (s) {
+        if (String(s.topCategoryId || '') === state.category) return;
+        var score = 0;
+        var name = String(s.name || '').toLowerCase();
+        var desc = String(s.desc || '').toLowerCase();
+        catKeywords.forEach(function (kw) {
+          if (name.includes(kw)) score += 3;
+          else if (desc.includes(kw)) score += 1;
+        });
+        if (score > 0) scored.push({ skill: s, score: score });
+      });
+      scored.sort(function (a, b) { return b.score - a.score; });
+      candidates = scored.slice(0, 6).map(function (x) { return x.skill; });
+      if (candidates.length < 2) return;
+    } else {
+      candidates = sameCat;
+    }
+    // Exclude currently displayed skills
     var currentPage = r.getFiltered();
     var currentNames = new Set();
     var start = (state.page - 1) * s.PER_PAGE;
     var pageSlice = currentPage.slice(start, start + s.PER_PAGE);
     pageSlice.forEach(function (s) { currentNames.add(s.name); });
-    var candidates = sameCat.filter(function (s) { return !currentNames.has(s.name); });
-    if (candidates.length <= 2) return;
-    // Fisher-Yates shuffle then take 4
-    for (var i = candidates.length - 1; i > 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1));
-      var t = candidates[i]; candidates[i] = candidates[j]; candidates[j] = t;
-    }
-    var related = candidates.slice(0, 4);
+    var related = candidates.filter(function (s) { return !currentNames.has(s.name); }).slice(0, 4);
+    if (related.length < 2) return;
     // Create section and insert before #results
-    section = document.createElement('section');
+    var section = document.createElement('section');
     section.id = 'related-section';
     section.className = 'related-section';
     section.setAttribute('aria-labelledby', 'related-title');

@@ -1,7 +1,9 @@
 import Link from 'next/link'
-import { getAllCategories, getSkillCount } from '../lib/db'
+import { getAllCategories, getAllSkills, getSkillCount } from '../lib/db'
 import SearchBox from './searchbox'
 import MobileNav from './mobilenav'
+import TrendingSection from './trending-section'
+import TrendingTags from './trending-tags'
 
 const CATEGORY_CONFIG: Record<string, { icon: string; gradient: string }> = {
   'dev-tools': { icon: '🔧', gradient: 'from-blue-500 to-cyan-500' },
@@ -74,6 +76,12 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Trending Section */}
+      <TrendingSection skills={getAllSkills()} />
+
+      {/* Trending Tags */}
+      <TrendingTags skills={getAllSkills()} />
 
       {/* Categories Grid */}
       <section className="py-16 md:py-20">
