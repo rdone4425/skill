@@ -255,6 +255,11 @@
   function renderSuggestions(results, container) {
     container.innerHTML = '';
 
+    function label(key, zh, en) {
+      var t = hub.i18n.t(key);
+      return (t && t !== key) ? t : (hub.i18n.getLang() === 'zh' ? zh : en);
+    }
+
     // ponytail: show recent searches when input is empty (shown separately)
     results.forEach((item, index) => {
       const el = document.createElement('button');
@@ -265,7 +270,7 @@
 
       if (item.type === 'typo') {
         el.className += ' search-suggest-typo';
-        el.innerHTML = '<span class="suggest-typo-label">' + getLabelWithFallback('didYouMean', '你是不是要找', 'Did you mean') + '</span><span class="suggest-typo-value">' + escapeHtml(item.value) + '</span>';
+        el.innerHTML = '<span class="suggest-typo-label">' + label('didYouMean', '你是不是要找', 'Did you mean') + '</span><span class="suggest-typo-value">' + escapeHtml(item.value) + '</span>';
         el.addEventListener('click', () => {
           if (dom.search) {
             dom.search.value = item.value;
@@ -284,16 +289,16 @@
       let typeLabel = '';
       if (item.type === 'name') {
         display = highlightText(item.value, state.keyword || '');
-        typeLabel = getLabelWithFallback('suggestTypeName', '名称', 'Name');
+        typeLabel = label('suggestTypeName', '名称', 'Name');
       } else if (item.type === 'desc') {
         display = highlightText(item.value, state.keyword || '');
-        typeLabel = getLabelWithFallback('suggestTypeDesc', '描述', 'Desc');
+        typeLabel = label('suggestTypeDesc', '描述', 'Desc');
       } else if (item.type === 'repo') {
         display = highlightText(item.value, state.keyword || '');
-        typeLabel = getLabelWithFallback('suggestTypeRepo', '仓库', 'Repo');
+        typeLabel = label('suggestTypeRepo', '仓库', 'Repo');
       } else if (item.type === 'category') {
         display = highlightText(item.value, state.keyword || '');
-        typeLabel = getLabelWithFallback('suggestTypeCategory', '分类', 'Category');
+        typeLabel = label('suggestTypeCategory', '分类', 'Category');
       }
 
       el.innerHTML = '<span>' + display + '</span><span class="suggest-type">' + typeLabel + '</span>';
@@ -323,7 +328,7 @@
     if (recents.length > 0) {
       var sep = document.createElement('div');
       sep.className = 'search-suggest-separator';
-      sep.textContent = getLabelWithFallback('recentSearches', '最近搜索', 'Recent');
+      sep.textContent = label('recentSearches', '最近搜索', 'Recent');
       container.appendChild(sep);
       recents.forEach(function (kw) {
         var rel = document.createElement('button');
@@ -350,7 +355,29 @@
     if (!suggestEl) return;
 
     if (!keyword || keyword.length < 1) {
-      suggestEl.hidden = true;
+      // ponytail: show recent searches on empty input
+      var recents = getRecentSearches();
+      if (recents.length > 0) {
+        suggestEl.innerHTML = '';
+        recents.forEach(function (kw) {
+          var rel = document.createElement('button');
+          rel.type = 'button';
+          rel.className = 'search-suggest-item search-suggest-recent';
+          rel.setAttribute('role', 'option');
+          rel.innerHTML = '<span class="suggest-recent-icon" aria-hidden="true">⏱</span><span>' + escapeHtml(kw) + '</span>';
+          rel.addEventListener('click', function () {
+            if (dom.search) dom.search.value = kw;
+            s.setKeyword(kw);
+            addRecentSearch(kw);
+            r.renderListOnly();
+            hideSearchSuggest();
+          });
+          suggestEl.appendChild(rel);
+        });
+        suggestEl.hidden = false;
+      } else {
+        suggestEl.hidden = true;
+      }
       return;
     }
 
@@ -499,6 +526,7 @@
         hub.track.tagClick(tag);
         if (dom.search) dom.search.value = tag;
         s.setKeyword(tag);
+        addRecentSearch(tag);
         hideSearchSuggest();
         r.renderListOnly();
         if (dom.search) dom.search.scrollIntoView({ behavior: 'smooth', block: 'center' });

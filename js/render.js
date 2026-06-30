@@ -651,7 +651,86 @@
       }
     }
 
-    function renderPlatformFilters() {
+    function renderSceneFilter() {
+    var sceneRow = document.getElementById('scene-filter-row');
+    var purposeRow = document.getElementById('purpose-filter-row');
+    if (!sceneRow || !purposeRow) return;
+
+    /* --- Role / Scene chips --- */
+    var lang = hub.i18n ? hub.i18n.getLang() : 'zh';
+    var sceneOrder = hub.SCENE_ORDER || [];
+    sceneRow.innerHTML = '<span class="scene-filter-label">' + (lang === 'zh' ? '我是谁' : 'I am') + '</span>' +
+      sceneOrder.map(function (id) {
+        var info = hub.SCENE_MAP && hub.SCENE_MAP[id];
+        if (!info) return '';
+        var label = lang === 'zh' ? info.zh : info.en;
+        var active = state.scene === id;
+        return '<button type="button" class="scene-chip' + (active ? ' active' : '') + '" data-scene-id="' + id + '">' + label + '</button>';
+      }).join('') +
+      (state.scene ? '<button type="button" class="scene-chip scene-chip-clear" data-scene-clear="1">' + (lang === 'zh' ? '✕ 清除' : '✕ Clear') + '</button>' : '');
+
+    /* --- Scene sub-category chips (quick access) --- */
+    var sceneSub = document.getElementById('scene-sub-row');
+    if (sceneSub) {
+      var sceneCats = state.scene ? s.getSceneCategories(state.scene) : [];
+      var activeSceneCats = [];
+      if (sceneCats.length > 0) {
+        activeSceneCats = sceneCats.filter(function (catId) {
+          return state.categories.some(function (c) { return c.id === catId; });
+        });
+      }
+      if (activeSceneCats.length > 1) {
+        sceneSub.hidden = false;
+        sceneSub.innerHTML = '<span class="scene-sub-label">' + (lang === 'zh' ? '相关分类' : 'Related') + '</span>' +
+          activeSceneCats.map(function (catId) {
+            var active = state.category === catId;
+            var cat = state.categories.find(function (c) { return c.id === catId; });
+            return '<button type="button" class="scene-sub-chip' + (active ? ' active' : '') + '" data-scene-cat="' + catId + '">' +
+              s.getCategoryLabel(catId) + '<span class="scene-sub-count">' + (cat ? cat.count : 0) + '</span></button>';
+          }).join('');
+      } else {
+        sceneSub.hidden = true;
+      }
+    }
+
+    /* --- Purpose chips --- */
+    var purposeOrder = hub.PURPOSE_ORDER || [];
+    purposeRow.innerHTML = '<span class="scene-filter-label">' + (lang === 'zh' ? '我要干' : 'I want to') + '</span>' +
+      purposeOrder.map(function (id) {
+        var info = hub.PURPOSE_MAP && hub.PURPOSE_MAP[id];
+        if (!info) return '';
+        var label = lang === 'zh' ? info.zh : info.en;
+        var active = state.purpose === id;
+        return '<button type="button" class="scene-chip' + (active ? ' active' : '') + '" data-purpose-id="' + id + '">' + label + '</button>';
+      }).join('') +
+      (state.purpose ? '<button type="button" class="scene-chip scene-chip-clear" data-purpose-clear="1">' + (lang === 'zh' ? '✕ 清除' : '✕ Clear') + '</button>' : '');
+
+    /* --- Purpose sub-category chips --- */
+    var purposeSub = document.getElementById('purpose-sub-row');
+    if (purposeSub) {
+      var purposeCats = state.purpose ? s.getPurposeCategories(state.purpose) : [];
+      var activePurposeCats = [];
+      if (purposeCats.length > 0) {
+        activePurposeCats = purposeCats.filter(function (catId) {
+          return state.categories.some(function (c) { return c.id === catId; });
+        });
+      }
+      if (activePurposeCats.length > 1) {
+        purposeSub.hidden = false;
+        purposeSub.innerHTML = '<span class="scene-sub-label">' + (lang === 'zh' ? '相关分类' : 'Related') + '</span>' +
+          activePurposeCats.map(function (catId) {
+            var active = state.category === catId;
+            var cat = state.categories.find(function (c) { return c.id === catId; });
+            return '<button type="button" class="scene-sub-chip' + (active ? ' active' : '') + '" data-scene-cat="' + catId + '">' +
+              s.getCategoryLabel(catId) + '<span class="scene-sub-count">' + (cat ? cat.count : 0) + '</span></button>';
+          }).join('');
+      } else {
+        purposeSub.hidden = true;
+      }
+    }
+  }
+
+  function renderPlatformFilters() {
       var row = dom['platform-filter-row'];
       if (!row) return;
       var agents = Object.keys(s.AGENT_META).filter(function(id) { return id !== 'other'; });
@@ -687,6 +766,7 @@
       });
     }
   function renderFilters() {
+    renderSceneFilter();
     renderCategoryTabs();
     renderSubgroupTabs();
     renderCategoryDesc();
@@ -696,6 +776,7 @@
 
   function renderFilterChrome() {
     s.syncControls();
+    renderSceneFilter();
     renderCategoryTabs();
     renderSubgroupTabs();
     renderCategoryDesc();

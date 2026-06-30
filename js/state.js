@@ -209,6 +209,8 @@
     if (typeof persisted.sort === 'string') state.sort = persisted.sort || 'stars-desc';
     if (typeof persisted.viewMode === 'string') state.viewMode = persisted.viewMode === 'grouped' ? 'grouped' : 'flat';
     if (persisted.page) state.page = parsePositiveInt(persisted.page, 1);
+    if (typeof persisted.scene === 'string') state.scene = persisted.scene || null;
+    if (typeof persisted.purpose === 'string') state.purpose = persisted.purpose || null;
     if (!state.expandedCategory && state.category && state.category !== 'all') state.expandedCategory = state.category;
   }
 
@@ -300,6 +302,16 @@
     resetPage();
   }
 
+  function setScene(sceneId) {
+    state.scene = sceneId || null;
+    resetPage();
+  }
+
+  function setPurpose(purposeId) {
+    state.purpose = purposeId || null;
+    resetPage();
+  }
+
   function setKeyword(keyword) {
     state.keyword = keyword.trim();
     resetPage();
@@ -327,6 +339,8 @@
       expandedCategory: state.expandedCategory,
       agent: state.agent,
       keyword: state.keyword,
+      scene: state.scene,
+      purpose: state.purpose,
       sort: state.sort,
       viewMode: state.viewMode,
       page: state.page,
@@ -343,6 +357,8 @@
     if (state.category && state.category !== 'all' && state.subcategory) params.set('sub', state.subcategory);
     if (state.agent) params.set('agent', state.agent);
     if (state.keyword) params.set('q', state.keyword);
+    if (state.scene) params.set('scene', state.scene);
+    if (state.purpose) params.set('purpose', state.purpose);
     if (state.sort && state.sort !== 'stars-desc') params.set('sort', state.sort);
     if (state.viewMode && state.viewMode !== 'flat') params.set('view', state.viewMode);
     if (state.page > 1) params.set('page', String(state.page));
@@ -466,6 +482,11 @@
     STATE_STORAGE_KEY,
     state,
     dom,
+    getSceneLabel,
+    getPurposeLabel,
+    getSceneCategories,
+    getPurposeCategories,
+    getFilteredCategoryIds,
     parsePositiveInt,
     readUrlState,
     readStoredState,
@@ -486,6 +507,8 @@
     selectSubcategory,
     toggleExpandedCategory,
     setAgentFilter,
+    setScene,
+    setPurpose,
     setKeyword,
     setSort,
     setViewMode,

@@ -2953,6 +2953,44 @@ a:hover {
   margin-top: 4px;
 }
 
+/* ponytail: typo correction hint */
+.search-suggest-typo {
+  background: rgba(59, 130, 246, 0.06);
+  border-bottom: 1px solid var(--border);
+  gap: 4px;
+}
+.search-suggest-typo:hover,
+.search-suggest-typo:focus {
+  background: rgba(59, 130, 246, 0.12);
+}
+.suggest-typo-label {
+  font-size: 11px;
+  color: var(--text-3);
+  white-space: nowrap;
+}
+.suggest-typo-value {
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ponytail: recent searches separator */
+.search-suggest-separator {
+  padding: 6px 14px 4px;
+  font-size: 10px;
+  color: var(--text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-top: 1px solid var(--border);
+  margin-top: 4px;
+}
+.search-suggest-recent {
+  gap: 6px;
+}
+.suggest-recent-icon {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
 /* ===== Category Quick Entry (分类快捷入口) ===== */
 .category-quick-entry {
   grid-column: 1 / -1;
