@@ -1,0 +1,497 @@
+[
+  {
+    "name": "MiMo-Code",
+    "repo": "XiaomiMiMo/MiMo-Code",
+    "stars": 11102,
+    "desc": "MiMo Code: Where Models and Agents Co-Evolve",
+    "url": "https://github.com/XiaomiMiMo/MiMo-Code",
+    "category": "dev-tools",
+    "language": "TypeScript"
+  },
+  {
+    "name": "google_workspace_mcp",
+    "repo": "taylorwilsdon/google_workspace_mcp",
+    "stars": 2763,
+    "desc": "Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace / G Suite MCP Server & CLI Tool",
+    "url": "https://github.com/taylorwilsdon/google_workspace_mcp",
+    "category": "design-ui",
+    "language": "Python"
+  },
+  {
+    "name": "ghidra-mcp",
+    "repo": "bethington/ghidra-mcp",
+    "stars": 2642,
+    "desc": "Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.",
+    "url": "https://github.com/bethington/ghidra-mcp",
+    "category": "devops-deploy",
+    "language": "Java"
+  },
+  {
+    "name": "WHartTest",
+    "repo": "MGdaasLab/WHartTest",
+    "stars": 938,
+    "desc": "WHartTest 是一款AI驱动的测试自动化平台，实现从需求到可执行测试用例的自动化生成与管理，帮助测试团队提升效率与覆盖率。 (WHartTest is an AI-driven test automation platform that automates the generation and management of executable test cases from requirements, helping testing teams improve efficiency and coverage.)",
+    "url": "https://github.com/MGdaasLab/WHartTest",
+    "category": "design-ui",
+    "language": "Python"
+  },
+  {
+    "name": "LLM-Agents-Ecosystem-Handbook",
+    "repo": "oxbshw/LLM-Agents-Ecosystem-Handbook",
+    "stars": 530,
+    "desc": "One-stop handbook for building, deploying, and understanding LLM agents with 60+ skeletons, tutorials, ecosystem guides, and evaluation tools.",
+    "url": "https://github.com/oxbshw/LLM-Agents-Ecosystem-Handbook",
+    "category": "education",
+    "language": "Python"
+  },
+  {
+    "name": "Adrian",
+    "repo": "secureagentics/Adrian",
+    "stars": 344,
+    "desc": "Runtime security monitoring and control for AI agents. Catches malicious tool use, prompt injection, and policy drift in real time, before the agent acts.",
+    "url": "https://github.com/secureagentics/Adrian",
+    "category": "security",
+    "language": "Python"
+  },
+  {
+    "name": "crypto-trading-ai-bot-basic",
+    "repo": "gdemos01/crypto-trading-ai-bot-basic",
+    "stars": 304,
+    "desc": "",
+    "url": "https://github.com/gdemos01/crypto-trading-ai-bot-basic",
+    "category": "dev-tools",
+    "language": "Python"
+  },
+  {
+    "name": "quickbooks-online-mcp-server",
+    "repo": "intuit/quickbooks-online-mcp-server",
+    "stars": 297,
+    "desc": "The QuickBooks MCP Server lets AI assistants access QuickBooks data via a standard interface. It uses the Model Context Protocol to expose QBO features as callable tools, enabling developers to build AI apps that fetch real-time QBO data through MCP.",
+    "url": "https://github.com/intuit/quickbooks-online-mcp-server",
+    "category": "design-ui",
+    "language": "TypeScript"
+  },
+  {
+    "name": "RepoLens",
+    "repo": "TheMorpheus407/RepoLens",
+    "stars": 276,
+    "desc": "Multi-lens code audit tool — 280 expert AI agents for code review, security testing, and infrastructure auditing",
+    "url": "https://github.com/TheMorpheus407/RepoLens",
+    "category": "security",
+    "language": "Shell"
+  },
+  {
+    "name": "mobilewright",
+    "repo": "mobile-next/mobilewright",
+    "stars": 269,
+    "desc": "Mobilewright is a dev framework for Mobile App Testing and Automation. It allows testing iOS/Android app on real devices, emulators and simulators with a single API.",
+    "url": "https://github.com/mobile-next/mobilewright",
+    "category": "automation-productivity",
+    "language": "TypeScript"
+  },
+  {
+    "name": "AI-penetration-testing",
+    "repo": "Mr-Infect/AI-penetration-testing",
+    "stars": 254,
+    "desc": "AI/ML/LLM Penetration Testing Toolkit by Mr-Infect — the #1 GitHub resource for AI security, red teaming, and adversarial ML techniques. This repository is dedicated to offensive and defensive security for cutting-edge AI, Machine Learning (ML), and Large Language Models (LLMs) like ChatGPT, Claude, and LLaMA.",
+    "url": "https://github.com/Mr-Infect/AI-penetration-testing",
+    "category": "security",
+    "language": null
+  },
+  {
+    "name": "AutoRedTeam-Orchestrator",
+    "repo": "Coff0xc/AutoRedTeam-Orchestrator",
+    "stars": 253,
+    "desc": "Enterprise AI Red Team Platform | 企业级AI红队平台 | 132 MCP Tools | Pure Python Engines | SDK+CLI+MCP | Auto-Download sqlmap/nuclei/ffuf | Production C2 | LLM Enhanced | Docker Sandbox | SARIF CI/CD | 1980 Tests",
+    "url": "https://github.com/Coff0xc/AutoRedTeam-Orchestrator",
+    "category": "security",
+    "language": "Python"
+  },
+  {
+    "name": "my-best-resources",
+    "repo": "Shatlyk1011/my-best-resources",
+    "stars": 213,
+    "desc": "A curated set of design resources, component libraries, stock images, and tools to simplify workflows for frontend developers and designers.",
+    "url": "https://github.com/Shatlyk1011/my-best-resources",
+    "category": "design-ui",
+    "language": null
+  },
+  {
+    "name": "velocitai",
+    "repo": "DanielSuo117/velocitai",
+    "stars": 185,
+    "desc": "Next-generation UI automation harness powered by Python & Playwright. Chat with AI Agents to seamlessly generate, architect, and execute enterprise-grade UI test code.",
+    "url": "https://github.com/DanielSuo117/velocitai",
+    "category": "automation-productivity",
+    "language": "HTML"
+  },
+  {
+    "name": "Awesome-Prediction-Market-Trading-Tools",
+    "repo": "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "stars": 184,
+    "desc": "AI-powered Polymarket arbitrage bot and prediction market trading toolkit featuring real-time analytics, automated trading signals, spread monitoring, liquidity tracking, AI optimization, Telegram integration, and high-frequency execution tools for prediction market traders and crypto automation developers.",
+    "url": "https://github.com/hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "category": "finance-crypto",
+    "language": null
+  },
+  {
+    "name": "AISquare-Studio-QA",
+    "repo": "AISquare-Studio/AISquare-Studio-QA",
+    "stars": 167,
+    "desc": "Setting up QA testing agents using playwright and crewAI",
+    "url": "https://github.com/AISquare-Studio/AISquare-Studio-QA",
+    "category": "agent-framework",
+    "language": "Python"
+  },
+  {
+    "name": "glance",
+    "repo": "DebugBase/glance",
+    "stars": 152,
+    "desc": "AI-powered browser automation MCP server for Claude Code. Navigate, click, screenshot, test — all from your terminal.",
+    "url": "https://github.com/DebugBase/glance",
+    "category": "automation-productivity",
+    "language": "TypeScript"
+  },
+  {
+    "name": "watchtower",
+    "repo": "fzn0x/watchtower",
+    "stars": 147,
+    "desc": "Watchtower is a simple AI-powered penetration testing automation CLI tool that leverages LLMs and LangGraph to orchestrate agentic workflows that you can use to test your websites locally. Generate useful pentest reports for your websites.",
+    "url": "https://github.com/fzn0x/watchtower",
+    "category": "security",
+    "language": "Python"
+  },
+  {
+    "name": "ai-trading-prototype",
+    "repo": "binance/ai-trading-prototype",
+    "stars": 145,
+    "desc": "Free open source crypto AI trading bot prototype.",
+    "url": "https://github.com/binance/ai-trading-prototype",
+    "category": "finance-crypto",
+    "language": "Python"
+  },
+  {
+    "name": "miro-ai",
+    "repo": "miroapp/miro-ai",
+    "stars": 128,
+    "desc": "Official Miro AI developer tools and integrations. Includes MCP server configuration, Claude Code skills, and resources for building AI-powered experiences with Miro boards.",
+    "url": "https://github.com/miroapp/miro-ai",
+    "category": "design-ui",
+    "language": "TypeScript"
+  },
+  {
+    "name": "awesome-ai-pulse-georgia",
+    "repo": "tornikebolokadze1-cyber/awesome-ai-pulse-georgia",
+    "stars": 125,
+    "desc": "A curated collection of cutting-edge AI agent frameworks, developer tools, and automation resources — by AI Pulse Georgia",
+    "url": "https://github.com/tornikebolokadze1-cyber/awesome-ai-pulse-georgia",
+    "category": "agent-framework",
+    "language": "TypeScript"
+  },
+  {
+    "name": "agentic-kaggle-skill",
+    "repo": "FrankS-IntelLab/agentic-kaggle-skill",
+    "stars": 122,
+    "desc": "🤖 AI Agent-driven Kaggle competition workflow. Battle-tested patterns for score stabilization, submission troubleshooting, kernel workflows, and spec-driven development.",
+    "url": "https://github.com/FrankS-IntelLab/agentic-kaggle-skill",
+    "category": "education",
+    "language": "Python"
+  },
+  {
+    "name": "LLMSecurityGuide",
+    "repo": "requie/LLMSecurityGuide",
+    "stars": 122,
+    "desc": "A comprehensive reference for securing Large Language Models (LLMs). Covers OWASP GenAI Top-10 risks, prompt injection, adversarial attacks, real-world incidents, and practical defenses. Includes catalogs of red-teaming tools, guardrails, and mitigation strategies to help developers, researchers, and security teams deploy AI responsibly.",
+    "url": "https://github.com/requie/LLMSecurityGuide",
+    "category": "security",
+    "language": null
+  },
+  {
+    "name": "guaardvark",
+    "repo": "guaardvark/guaardvark",
+    "stars": 117,
+    "desc": "The self-hosted AI workstation. Autonomous screen agents, 3-tier neural routing, parallel agent swarms, video generation, 4K/8K upscaling, RAG, voice interface, 70+ tool execution engine — all running locally on your hardware.",
+    "url": "https://github.com/guaardvark/guaardvark",
+    "category": "agent-framework",
+    "language": "Python"
+  },
+  {
+    "name": "crypto-ai-trading-bot",
+    "repo": "bigmacman1129/crypto-ai-trading-bot",
+    "stars": 114,
+    "desc": "Crypto liquidity detection & algorithmic trading bot. Order book analysis, stop-loss clusters, liquidity sweeps. Multi-exchange (Binance, Bybit, Kraken, OKX). Trading signals, quant research, market microstructure.",
+    "url": "https://github.com/bigmacman1129/crypto-ai-trading-bot",
+    "category": "finance-crypto",
+    "language": "JavaScript"
+  },
+  {
+    "name": "nvalchemi-toolkit",
+    "repo": "NVIDIA/nvalchemi-toolkit",
+    "stars": 105,
+    "desc": "ALCHEMI Toolkit is a developer toolkit for accelerating training and inference for AI in chemistry and material science.",
+    "url": "https://github.com/NVIDIA/nvalchemi-toolkit",
+    "category": "dev-tools",
+    "language": "Python"
+  },
+  {
+    "name": "PassLLM",
+    "repo": "Tzohar/PassLLM",
+    "stars": 104,
+    "desc": "World's most accurate password guessing AI tool. A PyTorch implementation of PassLLM (USENIX 2025) that leverages PII and LoRA fine-tuning to outperform existing tools by over 45% on consumer hardware.",
+    "url": "https://github.com/Tzohar/PassLLM",
+    "category": "security",
+    "language": "Python"
+  },
+  {
+    "name": "AI-CryptoTrader",
+    "repo": "N00Bception/AI-CryptoTrader",
+    "stars": 104,
+    "desc": "AI-CryptoTrader is a state-of-the-art cryptocurrency trading bot that uses ensemble methods to make trading decisions based on multiple sophisticated algorithms. Built with the latest machine learning and data science techniques, AI-CryptoTrader provides a powerful toolset and advanced trading stratgies for maximizing your cryptocurrency profits.",
+    "url": "https://github.com/N00Bception/AI-CryptoTrader",
+    "category": "finance-crypto",
+    "language": "Python"
+  },
+  {
+    "name": "okx-agent-trade-kit",
+    "repo": "dex-original/okx-agent-trade-kit",
+    "stars": 101,
+    "desc": "okx trading bot okx agent mcp cli cryptocurrency okx api automated trading typescript okx trading bot model context protocol cursor ai trading crypto spot futures okx trading bot npm pnpm okx mcp open source quant defi cex okx trading bot algorithmic trading crypto bot okx trading bot okx api mcp okx trading bot crypto mcp",
+    "url": "https://github.com/dex-original/okx-agent-trade-kit",
+    "category": "finance-crypto",
+    "language": "TypeScript"
+  },
+  {
+    "name": "ollama-mcp-bridge",
+    "repo": "jonigl/ollama-mcp-bridge",
+    "stars": 96,
+    "desc": "Extend the Ollama API with dynamic AI tool integration from multiple MCP (Model Context Protocol) servers. Fully compatible, transparent, and developer-friendly, ideal for building powerful local LLM applications, AI agents, and custom chatbots",
+    "url": "https://github.com/jonigl/ollama-mcp-bridge",
+    "category": "backend-api",
+    "language": "Python"
+  },
+  {
+    "name": "agent-inspect",
+    "repo": "rajudandigam/agent-inspect",
+    "stars": 95,
+    "desc": "Local execution trees for TypeScript AI agents.  agent-inspect helps you understand what happened inside an AI agent run — locally. It turns manual steps, tool calls, LLM calls, structured logs, failures, durations, and run metadata into readable execution trees you can inspect from the terminal.  It is built for TypeScript/Node.js developers..",
+    "url": "https://github.com/rajudandigam/agent-inspect",
+    "category": "agent-framework",
+    "language": "TypeScript"
+  },
+  {
+    "name": "ebay-mcp",
+    "repo": "YosefHayim/ebay-mcp",
+    "stars": 92,
+    "desc": "Open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs. Includes 325 tools for inventory management, order fulfillment, marketing campaigns, analytics, developer tools, and more.",
+    "url": "https://github.com/YosefHayim/ebay-mcp",
+    "category": "backend-api",
+    "language": "TypeScript"
+  },
+  {
+    "name": "crypto-liquidity-ai-trading-bot",
+    "repo": "python-telegramBot/crypto-liquidity-ai-trading-bot",
+    "stars": 92,
+    "desc": "crypto trading bot liquidity order book market microstructure algorithmic trading quant Python Node.js websocket Binance crypto signals HFT order flow sweep detection depth analysis",
+    "url": "https://github.com/python-telegramBot/crypto-liquidity-ai-trading-bot",
+    "category": "finance-crypto",
+    "language": "JavaScript"
+  },
+  {
+    "name": "ai-auto-trading",
+    "repo": "python-telegramBot/ai-auto-trading",
+    "stars": 84,
+    "desc": "AI trading bot crypto LLM agent quantitative trading automated trading algorithmic trading Binance Gate.io TypeScript Node.js VoltAgent crypto bot risk management multi-strategy",
+    "url": "https://github.com/python-telegramBot/ai-auto-trading",
+    "category": "finance-crypto",
+    "language": "TypeScript"
+  },
+  {
+    "name": "awesome-local-ai",
+    "repo": "ethicals7s/awesome-local-ai",
+    "stars": 82,
+    "desc": "152 open-source tools to run LLMs 100% locally – no cloud, no API keys, no censorship",
+    "url": "https://github.com/ethicals7s/awesome-local-ai",
+    "category": "finance-crypto",
+    "language": null
+  },
+  {
+    "name": "AI-Trader",
+    "repo": "TheDoctorAI/AI-Trader",
+    "stars": 78,
+    "desc": "Bitcoin / Crypto AI Trading Bot",
+    "url": "https://github.com/TheDoctorAI/AI-Trader",
+    "category": "finance-crypto",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "ai-creator",
+    "repo": "gongxings/ai-creator",
+    "stars": 77,
+    "desc": "A powerful AI content creation platform with AI writing, image generation, video generation, PPT generation tools, and one-click multi-platform publishing.AI创作者平台，一个功能强大的AI创作平台，提供AI写作、图片生成、视频生成、PPT生成等创作工具，并支持一键发布到多个平台。",
+    "url": "https://github.com/gongxings/ai-creator",
+    "category": "video-gen",
+    "language": "Python"
+  },
+  {
+    "name": "agenti",
+    "repo": "nirholas/agenti",
+    "stars": 70,
+    "desc": "Give any AI agent a crypto wallet. Agents deserve access to money.  Pay x402 APIs, receive USDC, check balances — autonomously. Works with Claude, LangChain, AutoGen, CrewAI, and any MCP client. EVM + Solana.",
+    "url": "https://github.com/nirholas/agenti",
+    "category": "finance-crypto",
+    "language": "TypeScript"
+  },
+  {
+    "name": "crypto-liquidity-ai-trading-bot",
+    "repo": "aitradingbotspro/crypto-liquidity-ai-trading-bot",
+    "stars": 67,
+    "desc": "Crypto liquidity detection & algorithmic trading bot. Order book analysis, stop-loss clusters, liquidity sweeps. Multi-exchange (Binance, Bybit, Kraken, OKX). Trading signals, quant research, market microstructure.",
+    "url": "https://github.com/aitradingbotspro/crypto-liquidity-ai-trading-bot",
+    "category": "finance-crypto",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Allora_HyperLiquid_AutoTradeBot",
+    "repo": "HarbhagwanDhaliwal/Allora_HyperLiquid_AutoTradeBot",
+    "stars": 66,
+    "desc": "This repository provides an AI-powered trading bot leveraging AlloraNetwork for automatic trading on HyperLiquid decentralized exchange. The bot integrates predictive insights and customizable strategies for seamless trading. 🌟",
+    "url": "https://github.com/HarbhagwanDhaliwal/Allora_HyperLiquid_AutoTradeBot",
+    "category": "finance-crypto",
+    "language": "Python"
+  },
+  {
+    "name": "amd-strix-halo-fine-tuning-toolboxes",
+    "repo": "shantur/amd-strix-halo-fine-tuning-toolboxes",
+    "stars": 62,
+    "desc": "LLM Fine Tuning Toolbox images for Ryzen AI 395+ Strix Halo",
+    "url": "https://github.com/shantur/amd-strix-halo-fine-tuning-toolboxes",
+    "category": "dev-tools",
+    "language": "Shell"
+  },
+  {
+    "name": "crypto-ai-trading-tool",
+    "repo": "blackarbs/crypto-ai-trading-tool",
+    "stars": 60,
+    "desc": "AI trading bot for liquidity detection and algorithmic trading in crypto markets crypto liquidity ai trading bot to detect order book ai trading bot ai trading bot",
+    "url": "https://github.com/blackarbs/crypto-ai-trading-tool",
+    "category": "finance-crypto",
+    "language": "TypeScript"
+  },
+  {
+    "name": "crypto-arbitrage-bot-automated-trading",
+    "repo": "Cortex-AI-Network/crypto-arbitrage-bot-automated-trading",
+    "stars": 54,
+    "desc": "🤖 Cortex AI: #1 AI Trading Bot for Crypto, Forex & Stocks. Automated Arbitrage Engine v3.4. Works on Solana, TON, Binance & Bybit. Best Free Crypto Trading Bot 2026.",
+    "url": "https://github.com/Cortex-AI-Network/crypto-arbitrage-bot-automated-trading",
+    "category": "finance-crypto",
+    "language": "Python"
+  },
+  {
+    "name": "llm-tool-use-ft",
+    "repo": "ShawhinT/llm-tool-use-ft",
+    "stars": 50,
+    "desc": "Example code for fine-tuning gemma-3-1b-it to use tools.",
+    "url": "https://github.com/ShawhinT/llm-tool-use-ft",
+    "category": "dev-tools",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "coinos-skills",
+    "repo": "aicoincom/coinos-skills",
+    "stars": 46,
+    "desc": "AiCoin crypto toolkit for AI agents — 40+ tools for real-time prices, K-lines, AI analysis, funding rates, whale tracking, Hyperliquid on-chain analytics, exchange trading (CCXT),   and Freqtrade bot automation.",
+    "url": "https://github.com/aicoincom/coinos-skills",
+    "category": "finance-crypto",
+    "language": "JavaScript"
+  },
+  {
+    "name": "crypto-arbitrage-bot-automated-trading",
+    "repo": "Cortex-AI-Quant/crypto-arbitrage-bot-automated-trading",
+    "stars": 45,
+    "desc": "🤖 Cortex AI: #1 智能量化交易系统 — 全自动加密货币套利引擎 v3.4。支持 Solana、TON、Binance (币安) 和 Bybit。2026年最佳高频量化交易机器人。",
+    "url": "https://github.com/Cortex-AI-Quant/crypto-arbitrage-bot-automated-trading",
+    "category": "finance-crypto",
+    "language": "Python"
+  },
+  {
+    "name": "DGX-Spark-Asus-Ascent-Nvidia-GB10-SFT-Finetuner",
+    "repo": "alicankiraz1/DGX-Spark-Asus-Ascent-Nvidia-GB10-SFT-Finetuner",
+    "stars": 43,
+    "desc": "It is an SFT Fine-tuning tool that performs no-code LLM fine-tuning for Nvidia DGX Spark and Asus Ascent GX10.",
+    "url": "https://github.com/alicankiraz1/DGX-Spark-Asus-Ascent-Nvidia-GB10-SFT-Finetuner",
+    "category": "dev-tools",
+    "language": "Python"
+  },
+  {
+    "name": "openclaw-ai-polymarket-trading-bot",
+    "repo": "BizShibe/openclaw-ai-polymarket-trading-bot",
+    "stars": 43,
+    "desc": "Openclaw AI Polymarket Trading Bot — TypeScript bot built with 🦞 Openclaw AI agent. Predicts crypto price on Polymarket 5m BTC Up/Down markets and tracks results (paper or live) and automatically executes trading according to the prediction result.",
+    "url": "https://github.com/BizShibe/openclaw-ai-polymarket-trading-bot",
+    "category": "finance-crypto",
+    "language": "TypeScript"
+  },
+  {
+    "name": "nlcli-wizard",
+    "repo": "pranavkumaarofficial/nlcli-wizard",
+    "stars": 31,
+    "desc": "Natural language control for Python CLI tools using locally-trained SLMs (CPU inference)",
+    "url": "https://github.com/pranavkumaarofficial/nlcli-wizard",
+    "category": "finance-crypto",
+    "language": "Python"
+  },
+  {
+    "name": "AI-Metadata-Inspector",
+    "repo": "Gaurox/AI-Metadata-Inspector",
+    "stars": 23,
+    "desc": "Portable Windows tool to extract AI generation metadata and quickly copy prompts from image and video files via right-click.",
+    "url": "https://github.com/Gaurox/AI-Metadata-Inspector",
+    "category": "design-ui",
+    "language": "Perl"
+  },
+  {
+    "name": "video-research-mcp",
+    "repo": "Galbaz1/video-research-mcp",
+    "stars": 22,
+    "desc": "Give Claude Code 51 research, analysis & media production tools with one command. Video analysis, deep research, academic papers, TTS voice-over, AI video generation, and Weaviate knowledge store — powered by Gemini 3.5 Flash.",
+    "url": "https://github.com/Galbaz1/video-research-mcp",
+    "category": "video-gen",
+    "language": "Python"
+  },
+  {
+    "name": "veo3tool",
+    "repo": "Hafointosher/veo3tool",
+    "stars": 21,
+    "desc": "Auto Flow Pro - Automation extension for Google VEO AI video generation",
+    "url": "https://github.com/Hafointosher/veo3tool",
+    "category": "video-gen",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Google-VEO-AI-3.1-Free",
+    "repo": "Zeshanabdullah/Google-VEO-AI-3.1-Free",
+    "stars": 21,
+    "desc": "Veo Ai Free is a free AI video creation tool offering unlimited Google Veo AI 3.1 video generation with Nano Banana support. Create and edit high-quality videos from text prompts  fast, easy, and 100% free. Perfect for content creators.",
+    "url": "https://github.com/Zeshanabdullah/Google-VEO-AI-3.1-Free",
+    "category": "video-gen",
+    "language": null
+  },
+  {
+    "name": "sync-video-label",
+    "repo": "wangyz1999/sync-video-label",
+    "stars": 20,
+    "desc": "A web-based annotation tool for synchronized multi-video timeline labeling and AI-assisted question generation, built for the GameplayQA benchmark.",
+    "url": "https://github.com/wangyz1999/sync-video-label",
+    "category": "design-ui",
+    "language": "TypeScript"
+  },
+  {
+    "name": "browser2api",
+    "repo": "Rabornkraken/browser2api",
+    "stars": 20,
+    "desc": "Turn browser UIs into programmatic image and video generation APIs. Automates image generation tools such as Jimeng (即梦AI) and Google Flow via Playwright + Chrome CDP — no API keys or reverse engineering needed.",
+    "url": "https://github.com/Rabornkraken/browser2api",
+    "category": "automation-productivity",
+    "language": "Python"
+  }
+]

@@ -4,6 +4,7 @@ import { getAllSkills, getAllCategories } from '../../../lib/db'
 import type { Metadata } from 'next'
 import { SoftwareApplicationSchema, BreadcrumbSchema } from '../../jsonld'
 import MobileNav from '../../mobilenav'
+import { TrackPageView } from '../../analytics'
 
 interface Props {
   params: Promise<{ name: string }>
@@ -56,6 +57,7 @@ export default async function SkillPage({ params }: Props) {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <TrackPageView skill={skill.name} category={skill.functionCategory} />
       <SoftwareApplicationSchema skill={skill} />
       <BreadcrumbSchema items={[
         { name: 'Home', url: 'https://skill.442595.xyz/' },

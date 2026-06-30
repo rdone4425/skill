@@ -22,7 +22,7 @@ function highlight(text: string, query: string): React.ReactNode {
   )
 }
 
-export default function SearchBox() {
+export default function SearchBox({ autoFocus }: { autoFocus?: boolean }) {
   const [query, setQuery] = useState('')
   const [results, setResults] = useState<SearchResult[]>([])
   const [loading, setLoading] = useState(false)
@@ -30,7 +30,22 @@ export default function SearchBox() {
   const [selected, setSelected] = useState(-1)
   const [sort, setSort] = useState('relevance')
   const inputRef = useRef<HTMLInputElement>(null)
-  const debounceRef = useRef<ReturnType<typeof setTimeout>>()
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | undefined>(undefined)
+  const initDone = useRef(false)
+
+  // Read ?q= from URL on mount + autoFocus
+  useEffect(() => {
+    if (initDone.current) return
+    initDone.current = true
+    const params = new URLSearchParams(window.location.search)
+    const q = params.get('q')
+    if (q) {
+      setQuery(q)
+      doSearch(q, 'relevance')
+    }
+    if (autoFocus) inputRef.current?.focus()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [autoFocus])
 
   const doSearch = useCallback(async (q: string, s: string) => {
     if (q.length < 2) { setResults([]); setOpen(false); return }

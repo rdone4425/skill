@@ -7,6 +7,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const entries: MetadataRoute.Sitemap = [
     { url: siteUrl, lastModified: today, changeFrequency: 'daily', priority: 1 },
+    { url: `${siteUrl}/trending`, lastModified: today, changeFrequency: 'daily', priority: 0.9 },
+    { url: `${siteUrl}/search`, lastModified: today, changeFrequency: 'weekly', priority: 0.8 },
   ]
 
   // Category pages
@@ -20,7 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   }
 
-  // Skill pages (limit to avoid huge sitemap)
+  // Skill pages
   const skills = getAllSkills()
   for (const skill of skills) {
     entries.push({

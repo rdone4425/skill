@@ -79,6 +79,17 @@ export default async function CategoryPage({ params }: Props) {
   const skills = getSkillsByCategory(id)
   const name = CATEGORY_NAMES[id] || { zh: id, en: id, icon: '📂' }
 
+  // ponytail: related category cross-links for SEO + UX
+  const RELATED: Record<string, { id: string; label: string }[]> = {
+    'agent-framework': [{ id: 'automation-productivity', label: '⚡ Automation' }],
+    'automation-productivity': [{ id: 'agent-framework', label: '🧠 Agent Framework' }],
+    'dev-tools': [{ id: 'backend-api', label: '⚙️ Backend & API' }],
+    'backend-api': [{ id: 'dev-tools', label: '🔧 Developer Tools' }],
+    'data-ai': [{ id: 'general', label: '🌐 General Tools' }],
+    'design-ui': [{ id: 'video-multimedia', label: '🎬 Video & Multimedia' }],
+  }
+  const related = RELATED[id] || []
+
   return (
     <div className="min-h-screen bg-gray-50">
       <BreadcrumbSchema items={[
@@ -98,6 +109,17 @@ export default async function CategoryPage({ params }: Props) {
             <h1 className="text-3xl font-bold">{name.en}</h1>
           </div>
           <p className="text-slate-400 text-sm">{name.zh} · {skills.length} skills</p>
+          {related.length > 0 && (
+            <div className="flex flex-wrap gap-2 mt-3">
+              <span className="text-xs text-slate-500">Related:</span>
+              {related.map(r => (
+                <Link key={r.id} href={`/categories/${r.id}`}
+                  className="text-xs px-2.5 py-1 rounded-full bg-white/10 text-slate-300 hover:bg-white/20 hover:text-white transition-colors">
+                  {r.label}
+                </Link>
+              ))}
+            </div>
+          )}
         </div>
       </header>
       <main className="max-w-6xl mx-auto px-4 py-8">
