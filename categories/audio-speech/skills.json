@@ -4,7 +4,7 @@
     "topCategoryId": "audio-speech",
     "subCategoryId": "audio-speech",
     "categoryPath": "audio-speech",
-    "count": 36,
+    "count": 42,
     "sourceData": "categories"
   },
   "skills": [
@@ -667,6 +667,114 @@
         "general"
       ],
       "searchText": "voice-chat-bot Real-time AI ChatBot and voice-enabled AI VoiceBot using Deepgram STT/TTS Sharan-Kumar-R/Voice-Chat-Bot audio-speech general"
+    },
+    {
+      "name": "MOSS-TTSD",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "bytedance/MOSS-TTSD",
+      "stars": 1355,
+      "desc": "MOSS-TTSD is a spoken dialogue generation model designed for generating high-quality spoken dialogue with natural conversational patterns",
+      "url": "https://github.com/bytedance/MOSS-TTSD",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "MOSS-TTSD MOSS-TTSD is a spoken dialogue generation model designed for generating high-qua bytedance/MOSS-TTSD audio-speech"
+    },
+    {
+      "name": "Qwen3-Audiobook-Converter",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Qwen-Qwen3-Audiobook-Converter",
+      "stars": 572,
+      "desc": "Convert PDFs, EPUBs, DOCX, DOC, and TXT files into high-quality audiobooks using Qwen3-TTS for natural narration",
+      "url": "https://github.com/Qwen-Qwen3-Audiobook-Converter",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Qwen3-Audiobook-Converter Convert PDFs, EPUBs, DOCX, DOC, and TXT files into high-quality audiobooks using Qwen-Qwen3-Audiobook-Converter audio-speech"
+    },
+    {
+      "name": "f5-tts",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "SWivid/F5-TTS",
+      "stars": 9867,
+      "desc": "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Text-to-Speech with Flow Matching — high-quality neural TTS",
+      "url": "https://github.com/SWivid/F5-TTS",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "f5-tts F5-TTS: A Fairytaler that Fakes Fluent and Faithful Text-to-Speech with Flow Mat SWivid/F5-TTS audio-speech"
+    },
+    {
+      "name": "CosyVoice2",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "FunAudioLLM/CosyVoice",
+      "stars": 8233,
+      "desc": "CosyVoice: A scalable multilingual zero-shot text-to-speech synthesizer with voice cloning and emotion control",
+      "url": "https://github.com/FunAudioLLM/CosyVoice",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "CosyVoice2 CosyVoice: A scalable multilingual zero-shot text-to-speech synthesizer with voi FunAudioLLM/CosyVoice audio-speech"
+    },
+    {
+      "name": "Spark-TTS",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "SparkAudio/Spark-TTS",
+      "stars": 2856,
+      "desc": "Spark-TTS: An LLM-Based Text-to-Speech Model with Single-Stream Decoupled Design for efficient speech synthesis",
+      "url": "https://github.com/SparkAudio/Spark-TTS",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Spark-TTS Spark-TTS: An LLM-Based Text-to-Speech Model with Single-Stream Decoupled Design SparkAudio/Spark-TTS audio-speech"
+    },
+    {
+      "name": "fish-speech",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "fishaudio/fish-speech",
+      "stars": 20750,
+      "desc": "Brand new TTS solution with streaming support, multi-language, and fine-tuning capabilities",
+      "url": "https://github.com/fishaudio/fish-speech",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "fish-speech Brand new TTS solution with streaming support, multi-language, and fine-tuning c fishaudio/fish-speech audio-speech"
     }
   ]
 }

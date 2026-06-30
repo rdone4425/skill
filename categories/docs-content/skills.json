@@ -4,7 +4,7 @@
     "topCategoryId": "docs",
     "subCategoryId": "content",
     "categoryPath": "docs-content",
-    "count": 192,
+    "count": 197,
     "sourceData": "categories"
   },
   "skills": [
@@ -3775,6 +3775,96 @@
         "general"
       ],
       "searchText": "awesome-genomic-skills Curated list of genomics and bioinformatics agentic skills GoekeLab/awesome-genomic-skills docs-content general"
+    },
+    {
+      "name": "readme-ai",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "readme-ai/readme-ai",
+      "stars": 2933,
+      "desc": "README file generator, powered by AI — create beautiful documentation for your projects",
+      "url": "https://github.com/readme-ai/readme-ai",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs-content",
+      "subCategoryId": "general",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "readme-ai README file generator, powered by AI — create beautiful documentation for your p readme-ai/readme-ai docs-content"
+    },
+    {
+      "name": "readmeX",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "readmex/readmeX",
+      "stars": 412,
+      "desc": "An AI Powered README and Interactive Wiki Generator for GitHub projects",
+      "url": "https://github.com/readmex/readmeX",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs-content",
+      "subCategoryId": "general",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "readmeX An AI Powered README and Interactive Wiki Generator for GitHub projects readmex/readmeX docs-content"
+    },
+    {
+      "name": "codex-readme",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "codex-readme/codex-readme",
+      "stars": 401,
+      "desc": "Revolutionize your project documentation with the Codex README generator",
+      "url": "https://github.com/codex-readme/codex-readme",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs-content",
+      "subCategoryId": "general",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "codex-readme Revolutionize your project documentation with the Codex README generator codex-readme/codex-readme docs-content"
+    },
+    {
+      "name": "DeepV-Ki",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "deepv-ki/DeepV-Ki",
+      "stars": 298,
+      "desc": "Instantly turn your code repository into a beautiful, interactive knowledge base with AI",
+      "url": "https://github.com/deepv-ki/DeepV-Ki",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs-content",
+      "subCategoryId": "general",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "DeepV-Ki Instantly turn your code repository into a beautiful, interactive knowledge base deepv-ki/DeepV-Ki docs-content"
+    },
+    {
+      "name": "agent-skills-generator",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "agent-skills-generator",
+      "stars": 131,
+      "desc": "Generate agent skills from website documentation automatically",
+      "url": "https://github.com/agent-skills-generator",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs-content",
+      "subCategoryId": "general",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agent-skills-generator Generate agent skills from website documentation automatically agent-skills-generator docs-content"
     }
   ]
 }

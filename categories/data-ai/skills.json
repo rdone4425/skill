@@ -4,7 +4,7 @@
     "topCategoryId": "data",
     "subCategoryId": "ai",
     "categoryPath": "data-ai",
-    "count": 537,
+    "count": 539,
     "sourceData": "categories"
   },
   "skills": [
@@ -10518,6 +10518,42 @@
         "general"
       ],
       "searchText": "oxylabs-ai-studio Structured data gathering from any website using AI-powered scraper oxylabs/oxylabs-ai-studio-py data-ai general"
+    },
+    {
+      "name": "DataFrame-CPP",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "hosseinmoein/DataFrame",
+      "stars": 2965,
+      "desc": "C++ DataFrame for statistical, financial, and ML analysis — modern C++ data manipulation library",
+      "url": "https://github.com/hosseinmoein/DataFrame",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "DataFrame-CPP C++ DataFrame for statistical, financial, and ML analysis — modern C++ data mani hosseinmoein/DataFrame data-ai"
+    },
+    {
+      "name": "Notate",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "notate-app/notate",
+      "stars": 258,
+      "desc": "Notate: Desktop chat app that structures AI conversations into production-ready data",
+      "url": "https://github.com/notate-app/notate",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Notate Notate: Desktop chat app that structures AI conversations into production-ready  notate-app/notate data-ai"
     }
   ]
 }

@@ -4,7 +4,7 @@
     "topCategoryId": "video-gen",
     "subCategoryId": "video-gen",
     "categoryPath": "video-gen",
-    "count": 26,
+    "count": 41,
     "sourceData": "categories"
   },
   "skills": [
@@ -475,6 +475,276 @@
         "general"
       ],
       "searchText": "sage-3d Scalable Agentic 3D Scene Generation from NVIDIA Labs NVlabs/sage video-gen general"
+    },
+    {
+      "name": "CogVideo",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "THUDM/CogVideo",
+      "stars": 13159,
+      "desc": "CogVideoX: Text-to-video generation with diffusion models by Tsinghua University and Zhipu AI",
+      "url": "https://github.com/THUDM/CogVideo",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "CogVideo CogVideoX: Text-to-video generation with diffusion models by Tsinghua University THUDM/CogVideo video-gen"
+    },
+    {
+      "name": "Open-Sora",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "hpcaitech/Open-Sora",
+      "stars": 23330,
+      "desc": "Open-Sora: Democratizing Efficient Video Production for All — open-source text-to-video generation",
+      "url": "https://github.com/hpcaitech/Open-Sora",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Open-Sora Open-Sora: Democratizing Efficient Video Production for All — open-source text-t hpcaitech/Open-Sora video-gen"
+    },
+    {
+      "name": "MimicMotion",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Tencent/MimicMotion",
+      "stars": 1477,
+      "desc": "MimicMotion: High-Quality Human Motion Video Generation with Confidence-aware Pose Guidance by Tencent",
+      "url": "https://github.com/Tencent/MimicMotion",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "MimicMotion MimicMotion: High-Quality Human Motion Video Generation with Confidence-aware Po Tencent/MimicMotion video-gen"
+    },
+    {
+      "name": "Vchitect",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Vchitect/Vchitect",
+      "stars": 332,
+      "desc": "Vchitect: Large-scale video generation model with high-quality text-to-video capabilities",
+      "url": "https://github.com/Vchitect/Vchitect",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Vchitect Vchitect: Large-scale video generation model with high-quality text-to-video cap Vchitect/Vchitect video-gen"
+    },
+    {
+      "name": "Pyramid-Flow",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "jyshou/Pyramid-Flow",
+      "stars": 1865,
+      "desc": "Pyramid Flow: High-Resolution Video Generation and Editing with cascaded diffusion models",
+      "url": "https://github.com/jyshou/Pyramid-Flow",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Pyramid-Flow Pyramid Flow: High-Resolution Video Generation and Editing with cascaded diffusi jyshou/Pyramid-Flow video-gen"
+    },
+    {
+      "name": "diffusers",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "huggingface/diffusers",
+      "stars": 33958,
+      "desc": "🤗 Diffusers: State-of-the-art diffusion models for image and video generation in PyTorch and FLAX",
+      "url": "https://github.com/huggingface/diffusers",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "diffusers 🤗 Diffusers: State-of-the-art diffusion models for image and video generation in huggingface/diffusers video-gen"
+    },
+    {
+      "name": "Tune-A-Video",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "showlab/Tune-A-Video",
+      "stars": 4364,
+      "desc": "[ICCV 2023] Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation",
+      "url": "https://github.com/showlab/Tune-A-Video",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Tune-A-Video [ICCV 2023] Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to- showlab/Tune-A-Video video-gen"
+    },
+    {
+      "name": "VGen",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "shirui-wang/VGen",
+      "stars": 3157,
+      "desc": "Official repo for VGen: a holistic video generation ecosystem",
+      "url": "https://github.com/shirui-wang/VGen",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "VGen Official repo for VGen: a holistic video generation ecosystem shirui-wang/VGen video-gen"
+    },
+    {
+      "name": "Show-1",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "showlab/Show-1",
+      "stars": 1150,
+      "desc": "Show-1: Marrying Pixel and Latent Diffusion Models for Text-to-Video Generation",
+      "url": "https://github.com/showlab/Show-1",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Show-1 Show-1: Marrying Pixel and Latent Diffusion Models for Text-to-Video Generation showlab/Show-1 video-gen"
+    },
+    {
+      "name": "LaVie",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Vchitect/LaVie",
+      "stars": 953,
+      "desc": "LaVie: High-Quality Video Generation with Cascaded Latent Diffusion Models",
+      "url": "https://github.com/Vchitect/LaVie",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "LaVie LaVie: High-Quality Video Generation with Cascaded Latent Diffusion Models Vchitect/LaVie video-gen"
+    },
+    {
+      "name": "kandinsky-5",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "ai-forever/Kandinsky-5",
+      "stars": 562,
+      "desc": "Kandinsky 5.0: Family of diffusion models for Video and Image generation",
+      "url": "https://github.com/ai-forever/Kandinsky-5",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "kandinsky-5 Kandinsky 5.0: Family of diffusion models for Video and Image generation ai-forever/Kandinsky-5 video-gen"
+    },
+    {
+      "name": "LVDM",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "YingqingHe/LVDM",
+      "stars": 504,
+      "desc": "LVDM: Latent Video Diffusion Models for High-Fidelity Long Video Generation",
+      "url": "https://github.com/YingqingHe/LVDM",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "LVDM LVDM: Latent Video Diffusion Models for High-Fidelity Long Video Generation YingqingHe/LVDM video-gen"
+    },
+    {
+      "name": "LongVA",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Vchitect/LongVA",
+      "stars": 298,
+      "desc": "LongVA: Long Video Generation with diffusion models for extended content",
+      "url": "https://github.com/Vchitect/LongVA",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "LongVA LongVA: Long Video Generation with diffusion models for extended content Vchitect/LongVA video-gen"
+    },
+    {
+      "name": "Steerable-Motion",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Steerable-Motion/Steerable-Motion",
+      "stars": 275,
+      "desc": "Steerable Motion: Controllable video generation with motion guidance",
+      "url": "https://github.com/Steerable-Motion/Steerable-Motion",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Steerable-Motion Steerable Motion: Controllable video generation with motion guidance Steerable-Motion/Steerable-Motion video-gen"
+    },
+    {
+      "name": "Video-P2P",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Video-P2P/Video-P2P",
+      "stars": 198,
+      "desc": "Video-P2P: Real-time video-to-video editing with cross-attention control",
+      "url": "https://github.com/Video-P2P/Video-P2P",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Video-P2P Video-P2P: Real-time video-to-video editing with cross-attention control Video-P2P/Video-P2P video-gen"
     }
   ]
 }

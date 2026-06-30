@@ -4,7 +4,7 @@
     "topCategoryId": "general",
     "subCategoryId": "general",
     "categoryPath": "general",
-    "count": 575,
+    "count": 577,
     "sourceData": "categories"
   },
   "skills": [
@@ -11004,6 +11004,42 @@
       ],
       "searchText": "Prompt-Engineering-Techniques-Hub This repo contains implementation of 25+ prompt engineering techniques.  KalyanKS-NLP/Prompt-Engineering-Techniques-Hub general",
       "pricing": "free"
+    },
+    {
+      "name": "global-agent-hackathon",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "global-agent-hackathon-may-2025",
+      "stars": 248,
+      "desc": "A month-long, open-source AI Agent Hackathon — building the next generation of AI agents",
+      "url": "https://github.com/global-agent-hackathon-may-2025",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "global-agent-hackathon A month-long, open-source AI Agent Hackathon — building the next generation of A global-agent-hackathon-may-2025 general"
+    },
+    {
+      "name": "mistralai-llm",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "mistralai/llm",
+      "stars": 356,
+      "desc": "A powerful Rust library and CLI tool to unify and orchestrate multiple large language models",
+      "url": "https://github.com/mistralai/llm",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mistralai-llm mistralai/llm general"
     }
   ]
 }

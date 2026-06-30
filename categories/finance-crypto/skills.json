@@ -4,7 +4,7 @@
     "topCategoryId": "finance-crypto",
     "subCategoryId": "finance-crypto",
     "categoryPath": "finance-crypto",
-    "count": 118,
+    "count": 120,
     "sourceData": "categories"
   },
   "skills": [
@@ -2172,6 +2172,42 @@
         "general"
       ],
       "searchText": "iota-agent-mcp MCP server for IOTA blockchain — 20 tools for AI agent integration Scottcjn/iota-agent-mcp finance-crypto general"
+    },
+    {
+      "name": "CloddsBot",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "clodds/CloddsBot",
+      "stars": 451,
+      "desc": "Open Source AI trading agent that operates autonomously for crypto markets",
+      "url": "https://github.com/clodds/CloddsBot",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "CloddsBot Open Source AI trading agent that operates autonomously for crypto markets clodds/CloddsBot finance-crypto"
+    },
+    {
+      "name": "AI-Scalpel-Trading-Bot",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "ybushev/AI-Scalpel-Trading-Bot",
+      "stars": 447,
+      "desc": "Python bot for trading in most crypto exchanges with AI-driven strategies",
+      "url": "https://github.com/ybushev/AI-Scalpel-Trading-Bot",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AI-Scalpel-Trading-Bot Python bot for trading in most crypto exchanges with AI-driven strategies ybushev/AI-Scalpel-Trading-Bot finance-crypto"
     }
   ]
 }

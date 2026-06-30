@@ -13225,5 +13225,537 @@
     "url": "https://github.com/zcf0508/unplugin-devpilot",
     "category": "automation-productivity",
     "platform": "general"
+  },
+  {
+    "name": "headroom",
+    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+    "url": "https://github.com/headroomlabs-ai/headroom",
+    "category": "dev-tools",
+    "platform": "general"
+  },
+  {
+    "name": "Agent-Reach",
+    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+    "url": "https://github.com/Panniantong/Agent-Reach",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "agent-browser",
+    "description": "Browser automation CLI for AI agents",
+    "url": "https://github.com/vercel-labs/agent-browser",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "cli",
+    "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+    "url": "https://github.com/googleworkspace/cli",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "ai-website-cloner-template",
+    "description": "Clone any website with one command using AI coding agents",
+    "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "codebase-memory-mcp",
+    "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary",
+    "url": "https://github.com/DeusData/codebase-memory-mcp",
+    "category": "dev-tools",
+    "platform": "general"
+  },
+  {
+    "name": "waoowaoo",
+    "description": "首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. From shorts to live-action with Hollywood-standard workflows.",
+    "url": "https://github.com/waooAI/waoowaoo",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "hive",
+    "description": "Multi-Agent Harness for Production AI",
+    "url": "https://github.com/aden-hive/hive",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "camofox-browser",
+    "description": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
+    "url": "https://github.com/jo-inc/camofox-browser",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "stitch-skills",
+    "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude C",
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "category": "dev-tools",
+    "platform": "general"
+  },
+  {
+    "name": "bb-browser",
+    "description": "Your browser is the API. CLI + MCP server for AI agents to control Chrome with your login state.",
+    "url": "https://github.com/epiral/bb-browser",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "LobsterAI",
+    "description": "Open-source, desktop-grade AI agent that gets real work done — data analysis, slides, docs, video & web research. Built on OpenClaw; runs tools on your real desktop and takes commands from your phone ",
+    "url": "https://github.com/netease-youdao/LobsterAI",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "claude-code-ultimate-guide",
+    "description": "The most comprehensive Claude Code guide: agentic workflows, hooks, skills, MCP servers, quizzes, and production-ready templates. 430K+ lines.",
+    "url": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
+    "category": "dev-tools",
+    "platform": "general"
+  },
+  {
+    "name": "engram",
+    "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
+    "url": "https://github.com/Gentleman-Programming/engram",
+    "category": "data-ai",
+    "platform": "general"
+  },
+  {
+    "name": "rocketride-server",
+    "description": "High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Build, debug, and scale LLM workflows with 13+ model providers, 8+ vector databases, and agent orchestration, all f",
+    "url": "https://github.com/rocketride-org/rocketride-server",
+    "category": "dev-tools",
+    "platform": "general"
+  },
+  {
+    "name": "loop-engineering",
+    "description": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, ",
+    "url": "https://github.com/cobusgreyling/loop-engineering",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "openclaw-mission-control",
+    "description": "AI Agent Orchestration Dashboard - Manage AI agents, assign tasks, and coordinate multi-agent collaboration via OpenClaw Gateway.",
+    "url": "https://github.com/abhi1693/openclaw-mission-control",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "awesome-openclaw-agents",
+    "description": "162 production-ready AI agent templates for OpenClaw. SOUL.md configs across 19 categories. Submit yours!",
+    "url": "https://github.com/mergisi/awesome-openclaw-agents",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "golutra",
+    "description": "Multi-agent AI orchestration platform for automation, workflows, and developer tools. Golutra transforms Codex, Claude Code, and OpenClaw into a unified agent system with parallel execution, task orch",
+    "url": "https://github.com/golutra/golutra",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "tabularis",
+    "description": "Open-source desktop SQL workspace for PostgreSQL, MySQL/MariaDB, SQLite and 12+ more databases like DuckDB, ClickHouse, Redis and Firestore. Built-in MCP server for Claude, Cursor and Devin, SQL noteb",
+    "url": "https://github.com/TabularisDB/tabularis",
+    "category": "dev-tools",
+    "platform": "general"
+  },
+  {
+    "name": "skills",
+    "description": "Browser automation CLI built for AI agents. Break through anti-bot walls, hand off to humans across platforms when stuck. Parallel multi-task execution, independent multi-session operation, isolated m",
+    "url": "https://github.com/browser-act/skills",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "anything-analyzer",
+    "description": "全能协议分析工具：浏览器抓包 + MITM 代理 + 指纹伪装 + AI 分析 + MCP Server 无缝对接 AI Agent/IDE   |  All-in-one protocol analysis toolkit — built-in browser capture, MITM proxy, JS hooks, fingerprint spoofing, AI analysis & M",
+    "url": "https://github.com/Mouseww/anything-analyzer",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "agent-device",
+    "description": "CLI to control iOS and Android devices for AI agents",
+    "url": "https://github.com/callstack/agent-device",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "any-auto-register",
+    "description": "Auto-register & manage accounts for ChatGPT, Cursor, Kiro, Grok, Windsurf, Trae & 13+ AI platforms · Protocol/browser dual-mode · Plugin-based · One-click Mac/Windows desktop app",
+    "url": "https://github.com/lxf746/any-auto-register",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "moltis",
+    "description": "A secure persistent personal agent server in Rust. One binary, sandboxed execution, multi-provider LLMs, voice, memory, Telegram, WhatsApp, Discord, Teams, and MCP tools. Secure by design, runs on you",
+    "url": "https://github.com/moltis-org/moltis",
+    "category": "security",
+    "platform": "general"
+  },
+  {
+    "name": "skills",
+    "description": "Skills, MCP servers, Custom Agents, Agents.md for SDKs to ground Coding Agents",
+    "url": "https://github.com/microsoft/skills",
+    "category": "general",
+    "platform": "general"
+  },
+  {
+    "name": "Vibe-Skills",
+    "description": "Vibe-Skills is an all-in-one AI skills package. It seamlessly integrates expert-level capabilities and context management into a general-purpose skills package， enabling any AI agent to instantly upgr",
+    "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "spacebot",
+    "description": "An AI agent for teams, communities, and multi-user environments.",
+    "url": "https://github.com/spacedriveapp/spacebot",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "mcp2cli",
+    "description": "Turn any MCP, OpenAPI, or GraphQL server into a CLI — at runtime, with zero codegen",
+    "url": "https://github.com/knowsuchagency/mcp2cli",
+    "category": "dev-tools",
+    "platform": "general"
+  },
+  {
+    "name": "loopy",
+    "description": "A library of practical AI-agent loops and an installable skill for finding, adapting, and designing repeatable agent workflows.",
+    "url": "https://github.com/Forward-Future/loopy",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "forge",
+    "description": "A Python framework for self-hosted LLM tool-calling and multi-step agentic workflows",
+    "url": "https://github.com/antoinezambelli/forge",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "agent-toolkit",
+    "description": "A curated collection of skills for AI coding agents. Skills are packaged instructions and scripts that extend agent capabilities across development, documentation, planning, and professional workflows",
+    "url": "https://github.com/softaworks/agent-toolkit",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "mission-control",
+    "description": "The world's first Autonomous Product Engine (APE): AI agents research your market, generate features, and ship code as PRs. Convoy mode, crash recovery, cost tracking, 80+ API endpoints. Self-hosted v",
+    "url": "https://github.com/crshdn/mission-control",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "jcodemunch-mcp",
+    "description": "Cut AI token costs 95%+ on code exploration. The leading MCP server for precise, symbol-level GitHub code retrieval via tree-sitter AST. Works with Claude Code, Cursor & any MCP client. 313B+ tokens s",
+    "url": "https://github.com/jgravelle/jcodemunch-mcp",
+    "category": "dev-tools",
+    "platform": "general"
+  },
+  {
+    "name": "contextplus",
+    "description": "Semantic Intelligence for Large-Scale Engineering. Context+ is an MCP server designed for developers who demand 99% accuracy. By combining RAG, Tree-sitter AST, Spectral Clustering, and Obsidian-style",
+    "url": "https://github.com/forloopcodes/contextplus",
+    "category": "dev-tools",
+    "platform": "general"
+  },
+  {
+    "name": "OpenOmniBot",
+    "description": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and performing a wide range of tasks in the Android world || 你的手机 AI 代理，她可以操作终端，也可以完成 Android 世界的广泛任务 ",
+    "url": "https://github.com/omnimind-ai/OpenOmniBot",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "mcp-brasil",
+    "description": "MCP Server para 70 APIs públicas brasileiras",
+    "url": "https://github.com/Mcp-Brasil/mcp-brasil",
+    "category": "general",
+    "platform": "general"
+  },
+  {
+    "name": "agent-toolkit-for-aws",
+    "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+    "url": "https://github.com/aws/agent-toolkit-for-aws",
+    "category": "design-ui",
+    "platform": "general"
+  },
+  {
+    "name": "webclaw",
+    "description": "Fast, local-first web content extraction for LLMs. Scrape, crawl, extract structured data — all from Rust. CLI, REST API, and MCP server.",
+    "url": "https://github.com/0xMassi/webclaw",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "phantom",
+    "description": "An AI co-worker with its own computer. Self-evolving, persistent memory, MCP server, secure credential collection, email identity. Built on the Claude Agent SDK.",
+    "url": "https://github.com/ghostwright/phantom",
+    "category": "design-ui",
+    "platform": "general"
+  },
+  {
+    "name": "anysearch-mcp-server",
+    "description": "Unified real-time search engine skill for AI agents.",
+    "url": "https://github.com/anysearch-ai/anysearch-mcp-server",
+    "category": "general",
+    "platform": "general"
+  },
+  {
+    "name": "awesome-ai-agents-2026",
+    "description": "🤖 The most comprehensive list of AI agents, frameworks & tools in 2026. 300+ resources · 20+ categories · Updated monthly.",
+    "url": "https://github.com/caramaschiHG/awesome-ai-agents-2026",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "codedb",
+    "description": "Zig code intelligence server and MCP toolset for AI agents. Fast tree, outline, symbol, search, read, edit, deps, snapshot, and remote GitHub repo queries.",
+    "url": "https://github.com/justrach/codedb",
+    "category": "dev-tools",
+    "platform": "general"
+  },
+  {
+    "name": "row-bot",
+    "description": "Row-Bot - Personal AI Sovereignty. A local-first AI assistant with integrated tools, a personal knowledge graph, voice, vision, shell, browser automation, scheduled tasks, health tracking, and messagi",
+    "url": "https://github.com/siddsachar/row-bot",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "skales",
+    "description": "Your personal AI desktop agent for Windows, macOS, Linux & Android. Set a goal, it works on its own. Teams (pair two desktops, agents + humans), Agent2Agent, Workflows, Codework, multi-agent orgs, des",
+    "url": "https://github.com/skalesapp/skales",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "deepseek-pp",
+    "description": "DeepSeek Web browser extension: AI agent workspace with MCP tools, memory, Skills, automation, web search, and conversation export.",
+    "url": "https://github.com/zhu1090093659/deepseek-pp",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "locoagent",
+    "description": "AI-powered social media agent with real browser automation",
+    "url": "https://github.com/LocoreMind/locoagent",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "libretto",
+    "description": "The AI toolkit for building reliable browser automations",
+    "url": "https://github.com/saffron-health/libretto",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "mobilegym",
+    "description": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research · 浏览器里运行的安卓模拟器 · Browser-hosted Android Simulator · Verifiable Evaluation · Scalable Online RL Training",
+    "url": "https://github.com/Purewhiter/mobilegym",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "swarmclaw",
+    "description": "Open-source self-hosted AI agent runtime and multi-agent framework for autonomous agent swarms. Agent memory, MCP tools, schedules, delegation, and 23+ LLM providers (Claude, GPT, Gemini, OpenRouter, ",
+    "url": "https://github.com/swarmclawai/swarmclaw",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "gitagent",
+    "description": "A universal git-native AI agent framework. Your agent lives inside a git repo — identity, rules, memory, tools, and skills are all version-controlled files.",
+    "url": "https://github.com/open-gitagent/gitagent",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "awesome-on-policy-distillation",
+    "description": "A curated collection of papers, technical reports, frameworks, and tools for on-policy distillation (OPD) of large language models",
+    "url": "https://github.com/chrisliu298/awesome-on-policy-distillation",
+    "category": "general",
+    "platform": "general"
+  },
+  {
+    "name": "KohakuTerrarium",
+    "description": "KohakuTerrarium is a general-purpose AI agent framework and batteries-included app for building, running, and composing self-contained agents and multi-agent teams, with built-in tools, sub-agents, pe",
+    "url": "https://github.com/Kohaku-Lab/KohakuTerrarium",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "kuri",
+    "description": "Browser automation, web crawling, and iOS + Android device control for AI agents. Zig-native, token-efficient CDP snapshots, HAR recording, native adb wire-protocol client, and a standalone fetcher.",
+    "url": "https://github.com/justrach/kuri",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "clay",
+    "description": "Multiplayer Claude Code and Codex. Self-hosted team workspace for Claude Code and Codex. Multi-user, browser-based, AI mates with memory.",
+    "url": "https://github.com/chadbyte/clay",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "dream-to-video-skill",
+    "description": "AI agent skill that transforms dream descriptions into cinematic videos — auto-generates prompts, submits to Jimeng via browser automation, and downloads finished videos with post-processing effects.",
+    "url": "https://github.com/mediastormDev/dream-to-video-skill",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "arag",
+    "description": "A-RAG: Agentic Retrieval-Augmented Generation via Hierarchical Retrieval Interfaces. State-of-the-art RAG framework with keyword, semantic, and chunk read tools for multi-hop QA.",
+    "url": "https://github.com/Ayanami0730/arag",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "on-device-browser-agent",
+    "description": "On-device AI browser automation using WebLLM. No cloud, no API keys, fully private.",
+    "url": "https://github.com/RunanywhereAI/on-device-browser-agent",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "camofox-browser",
+    "description": "Anti-detection browser server for AI agents — REST API wrapping Camoufox engine with OpenClaw plugin support",
+    "url": "https://github.com/redf0x1/camofox-browser",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "site-memory",
+    "description": "Persistent memory for browser automation AI Agents. Learns site knowledge automatically, updates after every visit, and gets better over time.",
+    "url": "https://github.com/LittleYier/site-memory",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "gsd-browser",
+    "description": "A fast, native browser automation CLI built from the ground up for AI agents, powered by Chrome DevTools Protocol. 63 commands covering navigation, interaction, screenshots, accessibility, network moc",
+    "url": "https://github.com/gsd-build/gsd-browser",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "higgsfield-claude-skills",
+    "description": "19 Claude Code skills for Higgsfield AI — automate image generation, Seedance 2.0 video creation, and full UGC ad pipelines with Playwright browser automation",
+    "url": "https://github.com/AKCodez/higgsfield-claude-skills",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "openchrome",
+    "description": "Open-source browser automation MCP server. Control your real Chrome from any AI agent.",
+    "url": "https://github.com/shaun0927/openchrome",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "OpenFlux",
+    "description": "⚡ Open-source AI Agent desktop client — multi-LLM, long-term memory, browser automation & tool orchestration | Tauri v2",
+    "url": "https://github.com/EDEAI/OpenFlux",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "android-agent",
+    "description": "Open-source Android device automation framework — control real phones via ADB with Python skills, a Vue dashboard, and LLM-powered tooling",
+    "url": "https://github.com/ghost-in-the-droid/android-agent",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "gbase",
+    "description": "GBase — Recursive Self-Improvement Agent Framework. Memory, evolution, quality gates, identity system, and 40+ auto-registered tools.",
+    "url": "https://github.com/garyqlin/gbase",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "awesome-ai-agents-2026",
+    "description": "🤖 A curated list of AI Agent frameworks, tools, platforms, and resources for 2026 — the year agents went mainstream",
+    "url": "https://github.com/Zijian-Ni/awesome-ai-agents-2026",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "OpenMantis",
+    "description": "Lightweight multi-platform AI agent chat framework. Connect multiple LLMs to Feishu/WeCom/QQ with composable tools, long-term memory, scheduling & browser automation. | 轻量级多平台 AI  Agent 聊天框架，连接多个 LLM ",
+    "url": "https://github.com/LiangNiang/OpenMantis",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "Doberman-Core",
+    "description": "Doberman is an AI agent security framework for guardrails, prompt injection defense, runtime policy enforcement, tool-use permissions, agent monitoring, audit logs, LLM safety, autonomous workflow pro",
+    "url": "https://github.com/fu351/Doberman-Core",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "adam",
+    "description": "An embeddable cross-platform AI agent library written in C. Cloud and local LLMs, tool calling, long-term memory, voice, sessions, research mode, self-evolving loops. The SQLite of agent frameworks: s",
+    "url": "https://github.com/sqliteai/adam",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "awesome-agents",
+    "description": "A curated list of AI agent platforms, frameworks, protocols, tools, and resources",
+    "url": "https://github.com/Scottcjn/awesome-agents",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "Spiderbrain-V3",
+    "description": "SpiderBrain v3 is a multi-platform skill/framework to reduce token usage and AI hallucinations across Claude, Cursor, and other AI tools.",
+    "url": "https://github.com/SaroirCommunity/Spiderbrain-V3",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "ruby_llm-tribunal",
+    "description": "LLM evaluation framework for Ruby, powered by RubyLLM. Tribunal provides tools for evaluating and testing LLM outputs, detecting hallucinations, measuring response quality, and ensuring safety. Perfec",
+    "url": "https://github.com/Alqemist-labs/ruby_llm-tribunal",
+    "category": "security",
+    "platform": "general"
+  },
+  {
+    "name": "gauntlet",
+    "description": "AI-powered QA testing framework that uses LLMs (Claude or GPT) to test web apps, CLI tools, and TUI programs from markdown story cards, returning structured pass/fail verdicts with evidence.",
+    "url": "https://github.com/prime-radiant-inc/gauntlet",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "BackdoorAgent",
+    "description": "BackdoorAgent is a stage-aware framework and benchmark that instruments LLM-agent workflows (planning, memory, tools) to systematically inject, track, and evaluate backdoor triggers across multi-step ",
+    "url": "https://github.com/Yunhao-Feng/BackdoorAgent",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "unplugin-devpilot",
+    "description": "A universal plugin framework for development tools that enables seamless browser-server communication and MCP (Model Context Protocol) integration with AI/LLM systems.",
+    "url": "https://github.com/zcf0508/unplugin-devpilot",
+    "category": "automation-productivity",
+    "platform": "general"
   }
 ]

@@ -4,7 +4,7 @@
     "topCategoryId": "design",
     "subCategoryId": "ui",
     "categoryPath": "design-ui",
-    "count": 409,
+    "count": 411,
     "sourceData": "categories"
   },
   "skills": [
@@ -7945,6 +7945,42 @@
         "general"
       ],
       "searchText": "ui-craft Design engineering system for AI coding agents educlopez/ui-craft design-ui general"
+    },
+    {
+      "name": "TostUI",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "TostAI/TostUI",
+      "stars": 469,
+      "desc": "TostUI: Docker-based web user interface components — a collection of reusable UIs for AI tools",
+      "url": "https://github.com/TostAI/TostUI",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "TostUI TostUI: Docker-based web user interface components — a collection of reusable UI TostAI/TostUI design-ui"
+    },
+    {
+      "name": "screenshot-to-prompt",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "kylebuildsstuff/ui-screenshot-to-prompt",
+      "stars": 221,
+      "desc": "UI Screenshot to Prompt: AI-powered tool that analyzes UI screenshots and generates code prompts",
+      "url": "https://github.com/kylebuildsstuff/ui-screenshot-to-prompt",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "screenshot-to-prompt UI Screenshot to Prompt: AI-powered tool that analyzes UI screenshots and genera kylebuildsstuff/ui-screenshot-to-prompt design-ui"
     }
   ]
 }

@@ -4,7 +4,7 @@
     "topCategoryId": "health-medical",
     "subCategoryId": "health-medical",
     "categoryPath": "health-medical",
-    "count": 83,
+    "count": 86,
     "sourceData": "categories"
   },
   "skills": [
@@ -1501,6 +1501,60 @@
         "general"
       ],
       "searchText": "mirrorbuddy AI-powered educational platform for stroke rehabilitation FightTheStroke/MirrorBuddy health-medical general"
+    },
+    {
+      "name": "OpenMED",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "AI4MED/OpenMED",
+      "stars": 478,
+      "desc": "OpenMED: Open-source Medical AI toolkit for diagnosis assistance and clinical decision support",
+      "url": "https://github.com/AI4MED/OpenMED",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "OpenMED OpenMED: Open-source Medical AI toolkit for diagnosis assistance and clinical de AI4MED/OpenMED health-medical"
+    },
+    {
+      "name": "BioMedLM",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "stanford-crfm/BioMedLM",
+      "stars": 1256,
+      "desc": "BioMedLM: A domain-specific large language model for biomedicine by Stanford CRFM",
+      "url": "https://github.com/stanford-crfm/BioMedLM",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "BioMedLM BioMedLM: A domain-specific large language model for biomedicine by Stanford CRF stanford-crfm/BioMedLM health-medical"
+    },
+    {
+      "name": "PathML",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "pathml/pathml",
+      "stars": 983,
+      "desc": "PathML: Open-source Python library for computational pathology and whole-slide image analysis",
+      "url": "https://github.com/pathml/pathml",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "PathML PathML: Open-source Python library for computational pathology and whole-slide i pathml/pathml health-medical"
     }
   ]
 }

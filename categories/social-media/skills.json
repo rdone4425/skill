@@ -4,7 +4,7 @@
     "topCategoryId": "social-media",
     "subCategoryId": "social-media",
     "categoryPath": "social-media",
-    "count": 141,
+    "count": 142,
     "sourceData": "categories"
   },
   "skills": [
@@ -2621,6 +2621,24 @@
         "general"
       ],
       "searchText": "demandbird Social media management tool for teams and agencies with AI automation DemandBird/demandbird social-media general"
+    },
+    {
+      "name": "Free-AI-Social-Media-Scheduler",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Free-AI-Social-Media-Scheduler",
+      "stars": 432,
+      "desc": "Free open-source AI social media scheduler — self-hosted content automation across platforms",
+      "url": "https://github.com/Free-AI-Social-Media-Scheduler",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social-media",
+      "subCategoryId": "general",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Free-AI-Social-Media-Scheduler Free open-source AI social media scheduler — self-hosted content automation acro Free-AI-Social-Media-Scheduler social-media"
     }
   ]
 }

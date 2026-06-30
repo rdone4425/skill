@@ -4,7 +4,7 @@
     "topCategoryId": "devops",
     "subCategoryId": "deploy",
     "categoryPath": "devops-deploy",
-    "count": 125,
+    "count": 127,
     "sourceData": "categories"
   },
   "skills": [
@@ -2432,6 +2432,42 @@
         "general"
       ],
       "searchText": "xero-agent-toolkit Collection of examples for building AI agents that integrate with Xero API XeroAPI/xero-agent-toolkit devops-deploy general"
+    },
+    {
+      "name": "burr",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "burr/burr",
+      "stars": 2451,
+      "desc": "Build applications that make decisions — chatbots, agents, workflows with state management and telemetry",
+      "url": "https://github.com/burr/burr",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "burr Build applications that make decisions — chatbots, agents, workflows with state  burr/burr devops-deploy"
+    },
+    {
+      "name": "ongrid",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "ongrid/ongrid",
+      "stars": 337,
+      "desc": "An ops AI Agent that understands your infrastructure, for automated operations",
+      "url": "https://github.com/ongrid/ongrid",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ongrid An ops AI Agent that understands your infrastructure, for automated operations ongrid/ongrid devops-deploy"
     }
   ]
 }

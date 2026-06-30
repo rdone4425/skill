@@ -4,7 +4,7 @@
     "topCategoryId": "3d",
     "subCategoryId": "3d",
     "categoryPath": "3d",
-    "count": 77,
+    "count": 80,
     "sourceData": "categories"
   },
   "skills": [
@@ -1393,6 +1393,60 @@
         "general"
       ],
       "searchText": "agentshire OpenClaw plugin that visualizes AI agents as 3D NPCs in a game world Agentshire/Agentshire 3d general"
+    },
+    {
+      "name": "RodinHD",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "thu-ml/RodinHD",
+      "stars": 212,
+      "desc": "RodinHD: High-Fidelity 3D Avatar Generation with Diffusion Models — ECCV 2024",
+      "url": "https://github.com/thu-ml/RodinHD",
+      "install": "",
+      "functionCategory": "3d",
+      "topCategoryId": "3d",
+      "subCategoryId": "general",
+      "categoryPath": "3d",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "RodinHD RodinHD: High-Fidelity 3D Avatar Generation with Diffusion Models — ECCV 2024 thu-ml/RodinHD 3d"
+    },
+    {
+      "name": "3DTopia",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "3DTopia/3DTopia",
+      "stars": 1873,
+      "desc": "3DTopia: A generative model for high-quality 3D content creation from text and images",
+      "url": "https://github.com/3DTopia/3DTopia",
+      "install": "",
+      "functionCategory": "3d",
+      "topCategoryId": "3d",
+      "subCategoryId": "general",
+      "categoryPath": "3d",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "3DTopia 3DTopia: A generative model for high-quality 3D content creation from text and i 3DTopia/3DTopia 3d"
+    },
+    {
+      "name": "Zero-123",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "cvlab-columbia/zero123",
+      "stars": 3998,
+      "desc": "Zero-1-to-3: Zero-shot One Image to 3D Object generation using diffusion models",
+      "url": "https://github.com/cvlab-columbia/zero123",
+      "install": "",
+      "functionCategory": "3d",
+      "topCategoryId": "3d",
+      "subCategoryId": "general",
+      "categoryPath": "3d",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Zero-123 Zero-1-to-3: Zero-shot One Image to 3D Object generation using diffusion models cvlab-columbia/zero123 3d"
     }
   ]
 }

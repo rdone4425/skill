@@ -4,7 +4,7 @@
     "topCategoryId": "security",
     "subCategoryId": "general",
     "categoryPath": "security",
-    "count": 219,
+    "count": 224,
     "sourceData": "categories"
   },
   "skills": [
@@ -4115,6 +4115,96 @@
         "general"
       ],
       "searchText": "aiscan AI-driven pentesting agent — single binary for penetration testing chainreactors/aiscan security general"
+    },
+    {
+      "name": "Gito",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "gito-ai/Gito",
+      "stars": 376,
+      "desc": "An AI-powered GitHub code review tool that uses LLMs to review pull requests",
+      "url": "https://github.com/gito-ai/Gito",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Gito An AI-powered GitHub code review tool that uses LLMs to review pull requests gito-ai/Gito security"
+    },
+    {
+      "name": "AutoAR",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "autoar/AutoAR",
+      "stars": 224,
+      "desc": "AutoAR is an automated security reconnaissance tool for penetration testing",
+      "url": "https://github.com/autoar/AutoAR",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AutoAR AutoAR is an automated security reconnaissance tool for penetration testing autoar/AutoAR security"
+    },
+    {
+      "name": "watchtower-ai",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "AIShield/watchtower",
+      "stars": 203,
+      "desc": "AIShield Watchtower: Open-source AI security scanner — dive deep into AI secrets",
+      "url": "https://github.com/AIShield/watchtower",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "watchtower-ai AIShield Watchtower: Open-source AI security scanner — dive deep into AI secrets AIShield/watchtower security"
+    },
+    {
+      "name": "PromptInjector",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "prompt-injector/PromptInjector",
+      "stars": 101,
+      "desc": "A comprehensive defensive security testing tool for AI prompt injection detection",
+      "url": "https://github.com/prompt-injector/PromptInjector",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "PromptInjector A comprehensive defensive security testing tool for AI prompt injection detectio prompt-injector/PromptInjector security"
+    },
+    {
+      "name": "Androidmeda",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "androidmeda/Androidmeda",
+      "stars": 363,
+      "desc": "AI Security tool to deobfuscate and find potential vulnerabilities in Android apps",
+      "url": "https://github.com/androidmeda/Androidmeda",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Androidmeda AI Security tool to deobfuscate and find potential vulnerabilities in Android ap androidmeda/Androidmeda security"
     }
   ]
 }

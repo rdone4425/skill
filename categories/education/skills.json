@@ -4,7 +4,7 @@
     "topCategoryId": "education",
     "subCategoryId": "education",
     "categoryPath": "education",
-    "count": 94,
+    "count": 96,
     "sourceData": "categories"
   },
   "skills": [
@@ -1716,6 +1716,42 @@
         "general"
       ],
       "searchText": "flameeducation AI LLM-powered education system with TTS/ASR for online closed-loop learning FlameEducation/FlameEducation education general"
+    },
+    {
+      "name": "learnhouse",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "learnhouse/learnhouse",
+      "stars": 1799,
+      "desc": "LearnHouse: The Next-gen Open Source learning platform for everyone with AI-powered features",
+      "url": "https://github.com/learnhouse/learnhouse",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "general",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "learnhouse LearnHouse: The Next-gen Open Source learning platform for everyone with AI-powe learnhouse/learnhouse education"
+    },
+    {
+      "name": "seai",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "CMU-ai-infra/seai",
+      "stars": 452,
+      "desc": "CMU SEAI: Machine Learning In Production / AI Engineering — comprehensive learning track",
+      "url": "https://github.com/CMU-ai-infra/seai",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "general",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "seai CMU SEAI: Machine Learning In Production / AI Engineering — comprehensive learni CMU-ai-infra/seai education"
     }
   ]
 }

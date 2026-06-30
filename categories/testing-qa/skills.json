@@ -4,7 +4,7 @@
     "topCategoryId": "testing",
     "subCategoryId": "qa",
     "categoryPath": "testing-qa",
-    "count": 99,
+    "count": 101,
     "sourceData": "categories"
   },
   "skills": [
@@ -1915,6 +1915,42 @@
         "general"
       ],
       "searchText": "matrix-qa AI-powered testing platform with automated UI and API testing signerless/matrix-qa testing-qa general"
+    },
+    {
+      "name": "sigma-pytest",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "wetest-dev/sigma-pytest",
+      "stars": 345,
+      "desc": "Sigma-pytest: AI-powered testing framework with visual regression, interactive debugging and auto-healing",
+      "url": "https://github.com/wetest-dev/sigma-pytest",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing-qa",
+      "subCategoryId": "general",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "sigma-pytest Sigma-pytest: AI-powered testing framework with visual regression, interactive d wetest-dev/sigma-pytest testing-qa"
+    },
+    {
+      "name": "AIRecon",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "cybersofthub/airecon",
+      "stars": 777,
+      "desc": "AIRecon: Autonomous cybersecurity agent combining AI with reconnaissance and penetration testing",
+      "url": "https://github.com/cybersofthub/airecon",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing-qa",
+      "subCategoryId": "general",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AIRecon AIRecon: Autonomous cybersecurity agent combining AI with reconnaissance and pen cybersofthub/airecon testing-qa"
     }
   ]
 }
