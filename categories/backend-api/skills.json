@@ -4,7 +4,7 @@
     "topCategoryId": "backend",
     "subCategoryId": "api",
     "categoryPath": "backend-api",
-    "count": 170,
+    "count": 172,
     "sourceData": "categories"
   },
   "skills": [
@@ -3272,6 +3272,42 @@
         "general"
       ],
       "searchText": "matechat-react React version of MateChat, a frontend AI scenario solution UI library DevCloudFE/matechat-react backend-api general"
+    },
+    {
+      "name": "ollama-mcp-bridge",
+      "source": "backend-api",
+      "sourceAgent": "backend-api",
+      "repo": "jonigl/ollama-mcp-bridge",
+      "stars": 96,
+      "desc": "Extend the Ollama API with dynamic AI tool integration from multiple MCP (Model Context Protocol) servers. Fully compatible, transparent, and developer-friendly, ideal for building powerful local LLM ",
+      "url": "https://github.com/jonigl/ollama-mcp-bridge",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ollama-mcp-bridge Extend the Ollama API with dynamic AI tool integration from multiple MCP (Model Context Protocol) se jonigl/ollama-mcp-bridge backend-api"
+    },
+    {
+      "name": "ebay-mcp",
+      "source": "backend-api",
+      "sourceAgent": "backend-api",
+      "repo": "YosefHayim/ebay-mcp",
+      "stars": 92,
+      "desc": "Open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs. Includes 325 tools for inventory management, order fulfillment, marketing campaigns, analytics, deve",
+      "url": "https://github.com/YosefHayim/ebay-mcp",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ebay-mcp Open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs.  YosefHayim/ebay-mcp backend-api"
     }
   ]
 }

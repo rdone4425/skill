@@ -4,7 +4,7 @@
     "topCategoryId": "devops",
     "subCategoryId": "deploy",
     "categoryPath": "devops-deploy",
-    "count": 127,
+    "count": 128,
     "sourceData": "categories"
   },
   "skills": [
@@ -2470,6 +2470,24 @@
       ],
       "searchText": "ongrid An ops AI Agent that understands your infrastructure, for automated operations ongrid/ongrid devops-deploy",
       "pricing": "free"
+    },
+    {
+      "name": "ghidra-mcp",
+      "source": "devops-deploy",
+      "sourceAgent": "devops-deploy",
+      "repo": "bethington/ghidra-mcp",
+      "stars": 2642,
+      "desc": "Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker ",
+      "url": "https://github.com/bethington/ghidra-mcp",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ghidra-mcp Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, bethington/ghidra-mcp devops-deploy"
     }
   ]
 }

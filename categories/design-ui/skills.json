@@ -4,7 +4,7 @@
     "topCategoryId": "design",
     "subCategoryId": "ui",
     "categoryPath": "design-ui",
-    "count": 412,
+    "count": 419,
     "sourceData": "categories"
   },
   "skills": [
@@ -8005,6 +8005,132 @@
         "components",
         "ui"
       ]
+    },
+    {
+      "name": "google_workspace_mcp",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "taylorwilsdon/google_workspace_mcp",
+      "stars": 2763,
+      "desc": "Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace / G Suite MCP Server & CLI Tool",
+      "url": "https://github.com/taylorwilsdon/google_workspace_mcp",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "google_workspace_mcp Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - C taylorwilsdon/google_workspace_mcp design-ui"
+    },
+    {
+      "name": "WHartTest",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "MGdaasLab/WHartTest",
+      "stars": 938,
+      "desc": "WHartTest 是一款AI驱动的测试自动化平台，实现从需求到可执行测试用例的自动化生成与管理，帮助测试团队提升效率与覆盖率。 (WHartTest is an AI-driven test automation platform that automates the generation and management of executable test cases from requirem",
+      "url": "https://github.com/MGdaasLab/WHartTest",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "WHartTest WHartTest 是一款AI驱动的测试自动化平台，实现从需求到可执行测试用例的自动化生成与管理，帮助测试团队提升效率与覆盖率。 (WHartTest is an AI-driven test aut MGdaasLab/WHartTest design-ui"
+    },
+    {
+      "name": "quickbooks-online-mcp-server",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "intuit/quickbooks-online-mcp-server",
+      "stars": 297,
+      "desc": "The QuickBooks MCP Server lets AI assistants access QuickBooks data via a standard interface. It uses the Model Context Protocol to expose QBO features as callable tools, enabling developers to build ",
+      "url": "https://github.com/intuit/quickbooks-online-mcp-server",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "quickbooks-online-mcp-server The QuickBooks MCP Server lets AI assistants access QuickBooks data via a standard interface. It use intuit/quickbooks-online-mcp-server design-ui"
+    },
+    {
+      "name": "my-best-resources",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "Shatlyk1011/my-best-resources",
+      "stars": 213,
+      "desc": "A curated set of design resources, component libraries, stock images, and tools to simplify workflows for frontend developers and designers.",
+      "url": "https://github.com/Shatlyk1011/my-best-resources",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "my-best-resources A curated set of design resources, component libraries, stock images, and tools to simplify workflow Shatlyk1011/my-best-resources design-ui"
+    },
+    {
+      "name": "miro-ai",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "miroapp/miro-ai",
+      "stars": 128,
+      "desc": "Official Miro AI developer tools and integrations. Includes MCP server configuration, Claude Code skills, and resources for building AI-powered experiences with Miro boards.",
+      "url": "https://github.com/miroapp/miro-ai",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "miro-ai Official Miro AI developer tools and integrations. Includes MCP server configuration, Claude Code sk miroapp/miro-ai design-ui"
+    },
+    {
+      "name": "AI-Metadata-Inspector",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "Gaurox/AI-Metadata-Inspector",
+      "stars": 23,
+      "desc": "Portable Windows tool to extract AI generation metadata and quickly copy prompts from image and video files via right-click.",
+      "url": "https://github.com/Gaurox/AI-Metadata-Inspector",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AI-Metadata-Inspector Portable Windows tool to extract AI generation metadata and quickly copy prompts from image and vide Gaurox/AI-Metadata-Inspector design-ui"
+    },
+    {
+      "name": "sync-video-label",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "wangyz1999/sync-video-label",
+      "stars": 20,
+      "desc": "A web-based annotation tool for synchronized multi-video timeline labeling and AI-assisted question generation, built for the GameplayQA benchmark.",
+      "url": "https://github.com/wangyz1999/sync-video-label",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "sync-video-label A web-based annotation tool for synchronized multi-video timeline labeling and AI-assisted question  wangyz1999/sync-video-label design-ui"
     }
   ]
 }

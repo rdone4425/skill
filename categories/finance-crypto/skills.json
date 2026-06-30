@@ -4,7 +4,7 @@
     "topCategoryId": "finance-crypto",
     "subCategoryId": "finance-crypto",
     "categoryPath": "finance-crypto",
-    "count": 120,
+    "count": 136,
     "sourceData": "categories"
   },
   "skills": [
@@ -2210,6 +2210,294 @@
       ],
       "searchText": "AI-Scalpel-Trading-Bot Python bot for trading in most crypto exchanges with AI-driven strategies ybushev/AI-Scalpel-Trading-Bot finance-crypto",
       "pricing": "free"
+    },
+    {
+      "name": "Awesome-Prediction-Market-Trading-Tools",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+      "stars": 184,
+      "desc": "AI-powered Polymarket arbitrage bot and prediction market trading toolkit featuring real-time analytics, automated trading signals, spread monitoring, liquidity tracking, AI optimization, Telegram int",
+      "url": "https://github.com/hanshaze/Awesome-Prediction-Market-Trading-Tools",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Awesome-Prediction-Market-Trading-Tools AI-powered Polymarket arbitrage bot and prediction market trading toolkit featuring real-time analyt hanshaze/Awesome-Prediction-Market-Trading-Tools finance-crypto"
+    },
+    {
+      "name": "ai-trading-prototype",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "binance/ai-trading-prototype",
+      "stars": 145,
+      "desc": "Free open source crypto AI trading bot prototype.",
+      "url": "https://github.com/binance/ai-trading-prototype",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-trading-prototype Free open source crypto AI trading bot prototype. binance/ai-trading-prototype finance-crypto"
+    },
+    {
+      "name": "crypto-ai-trading-bot",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "bigmacman1129/crypto-ai-trading-bot",
+      "stars": 114,
+      "desc": "Crypto liquidity detection & algorithmic trading bot. Order book analysis, stop-loss clusters, liquidity sweeps. Multi-exchange (Binance, Bybit, Kraken, OKX). Trading signals, quant research, market m",
+      "url": "https://github.com/bigmacman1129/crypto-ai-trading-bot",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "crypto-ai-trading-bot Crypto liquidity detection & algorithmic trading bot. Order book analysis, stop-loss clusters, liqui bigmacman1129/crypto-ai-trading-bot finance-crypto"
+    },
+    {
+      "name": "AI-CryptoTrader",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "N00Bception/AI-CryptoTrader",
+      "stars": 104,
+      "desc": "AI-CryptoTrader is a state-of-the-art cryptocurrency trading bot that uses ensemble methods to make trading decisions based on multiple sophisticated algorithms. Built with the latest machine learning",
+      "url": "https://github.com/N00Bception/AI-CryptoTrader",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AI-CryptoTrader AI-CryptoTrader is a state-of-the-art cryptocurrency trading bot that uses ensemble methods to make  N00Bception/AI-CryptoTrader finance-crypto"
+    },
+    {
+      "name": "okx-agent-trade-kit",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "dex-original/okx-agent-trade-kit",
+      "stars": 101,
+      "desc": "okx trading bot okx agent mcp cli cryptocurrency okx api automated trading typescript okx trading bot model context protocol cursor ai trading crypto spot futures okx trading bot npm pnpm okx mcp open",
+      "url": "https://github.com/dex-original/okx-agent-trade-kit",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "okx-agent-trade-kit okx trading bot okx agent mcp cli cryptocurrency okx api automated trading typescript okx trading bo dex-original/okx-agent-trade-kit finance-crypto"
+    },
+    {
+      "name": "crypto-liquidity-ai-trading-bot",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "python-telegramBot/crypto-liquidity-ai-trading-bot",
+      "stars": 92,
+      "desc": "crypto trading bot liquidity order book market microstructure algorithmic trading quant Python Node.js websocket Binance crypto signals HFT order flow sweep detection depth analysis",
+      "url": "https://github.com/python-telegramBot/crypto-liquidity-ai-trading-bot",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "crypto-liquidity-ai-trading-bot crypto trading bot liquidity order book market microstructure algorithmic trading quant Python Node. python-telegramBot/crypto-liquidity-ai-trading-bot finance-crypto"
+    },
+    {
+      "name": "ai-auto-trading",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "python-telegramBot/ai-auto-trading",
+      "stars": 84,
+      "desc": "AI trading bot crypto LLM agent quantitative trading automated trading algorithmic trading Binance Gate.io TypeScript Node.js VoltAgent crypto bot risk management multi-strategy",
+      "url": "https://github.com/python-telegramBot/ai-auto-trading",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-auto-trading AI trading bot crypto LLM agent quantitative trading automated trading algorithmic trading Binance G python-telegramBot/ai-auto-trading finance-crypto"
+    },
+    {
+      "name": "awesome-local-ai",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "ethicals7s/awesome-local-ai",
+      "stars": 82,
+      "desc": "152 open-source tools to run LLMs 100% locally – no cloud, no API keys, no censorship",
+      "url": "https://github.com/ethicals7s/awesome-local-ai",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-local-ai 152 open-source tools to run LLMs 100% locally – no cloud, no API keys, no censorship ethicals7s/awesome-local-ai finance-crypto"
+    },
+    {
+      "name": "AI-Trader",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "TheDoctorAI/AI-Trader",
+      "stars": 78,
+      "desc": "Bitcoin / Crypto AI Trading Bot",
+      "url": "https://github.com/TheDoctorAI/AI-Trader",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AI-Trader Bitcoin / Crypto AI Trading Bot TheDoctorAI/AI-Trader finance-crypto"
+    },
+    {
+      "name": "agenti",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "nirholas/agenti",
+      "stars": 70,
+      "desc": "Give any AI agent a crypto wallet. Agents deserve access to money.  Pay x402 APIs, receive USDC, check balances — autonomously. Works with Claude, LangChain, AutoGen, CrewAI, and any MCP client. EVM +",
+      "url": "https://github.com/nirholas/agenti",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agenti Give any AI agent a crypto wallet. Agents deserve access to money.  Pay x402 APIs, receive USDC, che nirholas/agenti finance-crypto"
+    },
+    {
+      "name": "Allora_HyperLiquid_AutoTradeBot",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "HarbhagwanDhaliwal/Allora_HyperLiquid_AutoTradeBot",
+      "stars": 66,
+      "desc": "This repository provides an AI-powered trading bot leveraging AlloraNetwork for automatic trading on HyperLiquid decentralized exchange. The bot integrates predictive insights and customizable strateg",
+      "url": "https://github.com/HarbhagwanDhaliwal/Allora_HyperLiquid_AutoTradeBot",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Allora_HyperLiquid_AutoTradeBot This repository provides an AI-powered trading bot leveraging AlloraNetwork for automatic trading on HarbhagwanDhaliwal/Allora_HyperLiquid_AutoTradeBot finance-crypto"
+    },
+    {
+      "name": "crypto-ai-trading-tool",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "blackarbs/crypto-ai-trading-tool",
+      "stars": 60,
+      "desc": "AI trading bot for liquidity detection and algorithmic trading in crypto markets crypto liquidity ai trading bot to detect order book ai trading bot ai trading bot",
+      "url": "https://github.com/blackarbs/crypto-ai-trading-tool",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "crypto-ai-trading-tool AI trading bot for liquidity detection and algorithmic trading in crypto markets crypto liquidity ai blackarbs/crypto-ai-trading-tool finance-crypto"
+    },
+    {
+      "name": "crypto-arbitrage-bot-automated-trading",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "Cortex-AI-Network/crypto-arbitrage-bot-automated-trading",
+      "stars": 54,
+      "desc": "🤖 Cortex AI: #1 AI Trading Bot for Crypto, Forex & Stocks. Automated Arbitrage Engine v3.4. Works on Solana, TON, Binance & Bybit. Best Free Crypto Trading Bot 2026.",
+      "url": "https://github.com/Cortex-AI-Network/crypto-arbitrage-bot-automated-trading",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "crypto-arbitrage-bot-automated-trading 🤖 Cortex AI: #1 AI Trading Bot for Crypto, Forex & Stocks. Automated Arbitrage Engine v3.4. Works on Cortex-AI-Network/crypto-arbitrage-bot-automated-trading finance-crypto"
+    },
+    {
+      "name": "coinos-skills",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "aicoincom/coinos-skills",
+      "stars": 46,
+      "desc": "AiCoin crypto toolkit for AI agents — 40+ tools for real-time prices, K-lines, AI analysis, funding rates, whale tracking, Hyperliquid on-chain analytics, exchange trading (CCXT),   and Freqtrade bot ",
+      "url": "https://github.com/aicoincom/coinos-skills",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "coinos-skills AiCoin crypto toolkit for AI agents — 40+ tools for real-time prices, K-lines, AI analysis, funding  aicoincom/coinos-skills finance-crypto"
+    },
+    {
+      "name": "openclaw-ai-polymarket-trading-bot",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "BizShibe/openclaw-ai-polymarket-trading-bot",
+      "stars": 43,
+      "desc": "Openclaw AI Polymarket Trading Bot — TypeScript bot built with 🦞 Openclaw AI agent. Predicts crypto price on Polymarket 5m BTC Up/Down markets and tracks results (paper or live) and automatically exec",
+      "url": "https://github.com/BizShibe/openclaw-ai-polymarket-trading-bot",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openclaw-ai-polymarket-trading-bot Openclaw AI Polymarket Trading Bot — TypeScript bot built with 🦞 Openclaw AI agent. Predicts crypto  BizShibe/openclaw-ai-polymarket-trading-bot finance-crypto"
+    },
+    {
+      "name": "nlcli-wizard",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "pranavkumaarofficial/nlcli-wizard",
+      "stars": 31,
+      "desc": "Natural language control for Python CLI tools using locally-trained SLMs (CPU inference)",
+      "url": "https://github.com/pranavkumaarofficial/nlcli-wizard",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "nlcli-wizard Natural language control for Python CLI tools using locally-trained SLMs (CPU inference) pranavkumaarofficial/nlcli-wizard finance-crypto"
     }
   ]
 }

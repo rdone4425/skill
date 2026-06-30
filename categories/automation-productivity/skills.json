@@ -4,7 +4,7 @@
     "topCategoryId": "automation",
     "subCategoryId": "productivity",
     "categoryPath": "automation-productivity",
-    "count": 218,
+    "count": 222,
     "sourceData": "categories"
   },
   "skills": [
@@ -4241,6 +4241,78 @@
       ],
       "searchText": "moss The retrieval layer for production AI systems. Lightning-fast (<10ms) search without vector databases. Built for browser, edge, on-device, and cloud. usemoss/moss automation-productivity",
       "pricing": "free"
+    },
+    {
+      "name": "mobilewright",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "mobile-next/mobilewright",
+      "stars": 269,
+      "desc": "Mobilewright is a dev framework for Mobile App Testing and Automation. It allows testing iOS/Android app on real devices, emulators and simulators with a single API.",
+      "url": "https://github.com/mobile-next/mobilewright",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mobilewright Mobilewright is a dev framework for Mobile App Testing and Automation. It allows testing iOS/Android mobile-next/mobilewright automation-productivity"
+    },
+    {
+      "name": "velocitai",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "DanielSuo117/velocitai",
+      "stars": 185,
+      "desc": "Next-generation UI automation harness powered by Python & Playwright. Chat with AI Agents to seamlessly generate, architect, and execute enterprise-grade UI test code.",
+      "url": "https://github.com/DanielSuo117/velocitai",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "velocitai Next-generation UI automation harness powered by Python & Playwright. Chat with AI Agents to seamles DanielSuo117/velocitai automation-productivity"
+    },
+    {
+      "name": "glance",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "DebugBase/glance",
+      "stars": 152,
+      "desc": "AI-powered browser automation MCP server for Claude Code. Navigate, click, screenshot, test — all from your terminal.",
+      "url": "https://github.com/DebugBase/glance",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "glance AI-powered browser automation MCP server for Claude Code. Navigate, click, screenshot, test — all fr DebugBase/glance automation-productivity"
+    },
+    {
+      "name": "browser2api",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "Rabornkraken/browser2api",
+      "stars": 20,
+      "desc": "Turn browser UIs into programmatic image and video generation APIs. Automates image generation tools such as Jimeng (即梦AI) and Google Flow via Playwright + Chrome CDP — no API keys or reverse engineer",
+      "url": "https://github.com/Rabornkraken/browser2api",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "browser2api Turn browser UIs into programmatic image and video generation APIs. Automates image generation tools Rabornkraken/browser2api automation-productivity"
     }
   ]
 }

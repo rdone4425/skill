@@ -4,7 +4,7 @@
     "topCategoryId": "security",
     "subCategoryId": "general",
     "categoryPath": "security",
-    "count": 224,
+    "count": 231,
     "sourceData": "categories"
   },
   "skills": [
@@ -4210,6 +4210,132 @@
       ],
       "searchText": "Androidmeda AI Security tool to deobfuscate and find potential vulnerabilities in Android ap androidmeda/Androidmeda security",
       "pricing": "free"
+    },
+    {
+      "name": "Adrian",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "secureagentics/Adrian",
+      "stars": 344,
+      "desc": "Runtime security monitoring and control for AI agents. Catches malicious tool use, prompt injection, and policy drift in real time, before the agent acts.",
+      "url": "https://github.com/secureagentics/Adrian",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Adrian Runtime security monitoring and control for AI agents. Catches malicious tool use, prompt injection, secureagentics/Adrian security"
+    },
+    {
+      "name": "RepoLens",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "TheMorpheus407/RepoLens",
+      "stars": 276,
+      "desc": "Multi-lens code audit tool — 280 expert AI agents for code review, security testing, and infrastructure auditing",
+      "url": "https://github.com/TheMorpheus407/RepoLens",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "RepoLens Multi-lens code audit tool — 280 expert AI agents for code review, security testing, and infrastruct TheMorpheus407/RepoLens security"
+    },
+    {
+      "name": "AI-penetration-testing",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "Mr-Infect/AI-penetration-testing",
+      "stars": 254,
+      "desc": "AI/ML/LLM Penetration Testing Toolkit by Mr-Infect — the #1 GitHub resource for AI security, red teaming, and adversarial ML techniques. This repository is dedicated to offensive and defensive securit",
+      "url": "https://github.com/Mr-Infect/AI-penetration-testing",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AI-penetration-testing AI/ML/LLM Penetration Testing Toolkit by Mr-Infect — the #1 GitHub resource for AI security, red tea Mr-Infect/AI-penetration-testing security"
+    },
+    {
+      "name": "AutoRedTeam-Orchestrator",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "Coff0xc/AutoRedTeam-Orchestrator",
+      "stars": 253,
+      "desc": "Enterprise AI Red Team Platform | 企业级AI红队平台 | 132 MCP Tools | Pure Python Engines | SDK+CLI+MCP | Auto-Download sqlmap/nuclei/ffuf | Production C2 | LLM Enhanced | Docker Sandbox | SARIF CI/CD | 1980 ",
+      "url": "https://github.com/Coff0xc/AutoRedTeam-Orchestrator",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AutoRedTeam-Orchestrator Enterprise AI Red Team Platform | 企业级AI红队平台 | 132 MCP Tools | Pure Python Engines | SDK+CLI+MCP | Au Coff0xc/AutoRedTeam-Orchestrator security"
+    },
+    {
+      "name": "watchtower",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "fzn0x/watchtower",
+      "stars": 147,
+      "desc": "Watchtower is a simple AI-powered penetration testing automation CLI tool that leverages LLMs and LangGraph to orchestrate agentic workflows that you can use to test your websites locally. Generate us",
+      "url": "https://github.com/fzn0x/watchtower",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "watchtower Watchtower is a simple AI-powered penetration testing automation CLI tool that leverages LLMs and La fzn0x/watchtower security"
+    },
+    {
+      "name": "LLMSecurityGuide",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "requie/LLMSecurityGuide",
+      "stars": 122,
+      "desc": "A comprehensive reference for securing Large Language Models (LLMs). Covers OWASP GenAI Top-10 risks, prompt injection, adversarial attacks, real-world incidents, and practical defenses. Includes cata",
+      "url": "https://github.com/requie/LLMSecurityGuide",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "LLMSecurityGuide A comprehensive reference for securing Large Language Models (LLMs). Covers OWASP GenAI Top-10 risks requie/LLMSecurityGuide security"
+    },
+    {
+      "name": "PassLLM",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "Tzohar/PassLLM",
+      "stars": 104,
+      "desc": "World's most accurate password guessing AI tool. A PyTorch implementation of PassLLM (USENIX 2025) that leverages PII and LoRA fine-tuning to outperform existing tools by over 45% on consumer hardware",
+      "url": "https://github.com/Tzohar/PassLLM",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "PassLLM World's most accurate password guessing AI tool. A PyTorch implementation of PassLLM (USENIX 2025) t Tzohar/PassLLM security"
     }
   ]
 }

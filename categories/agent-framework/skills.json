@@ -4,7 +4,7 @@
     "topCategoryId": "agent-framework",
     "subCategoryId": "agent-framework",
     "categoryPath": "agent-framework",
-    "count": 750,
+    "count": 754,
     "sourceData": "categories"
   },
   "skills": [
@@ -13514,6 +13514,78 @@
         "general"
       ],
       "searchText": "agentshield AI agent security scanner — detect vulnerabilities in agent configurations affaan-m/agentshield agent-framework general"
+    },
+    {
+      "name": "AISquare-Studio-QA",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "AISquare-Studio/AISquare-Studio-QA",
+      "stars": 167,
+      "desc": "Setting up QA testing agents using playwright and crewAI",
+      "url": "https://github.com/AISquare-Studio/AISquare-Studio-QA",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AISquare-Studio-QA Setting up QA testing agents using playwright and crewAI AISquare-Studio/AISquare-Studio-QA agent-framework"
+    },
+    {
+      "name": "awesome-ai-pulse-georgia",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "tornikebolokadze1-cyber/awesome-ai-pulse-georgia",
+      "stars": 125,
+      "desc": "A curated collection of cutting-edge AI agent frameworks, developer tools, and automation resources — by AI Pulse Georgia",
+      "url": "https://github.com/tornikebolokadze1-cyber/awesome-ai-pulse-georgia",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-ai-pulse-georgia A curated collection of cutting-edge AI agent frameworks, developer tools, and automation resources  tornikebolokadze1-cyber/awesome-ai-pulse-georgia agent-framework"
+    },
+    {
+      "name": "guaardvark",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "guaardvark/guaardvark",
+      "stars": 117,
+      "desc": "The self-hosted AI workstation. Autonomous screen agents, 3-tier neural routing, parallel agent swarms, video generation, 4K/8K upscaling, RAG, voice interface, 70+ tool execution engine — all running",
+      "url": "https://github.com/guaardvark/guaardvark",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "guaardvark The self-hosted AI workstation. Autonomous screen agents, 3-tier neural routing, parallel agent swar guaardvark/guaardvark agent-framework"
+    },
+    {
+      "name": "agent-inspect",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "rajudandigam/agent-inspect",
+      "stars": 95,
+      "desc": "Local execution trees for TypeScript AI agents.  agent-inspect helps you understand what happened inside an AI agent run — locally. It turns manual steps, tool calls, LLM calls, structured logs, failu",
+      "url": "https://github.com/rajudandigam/agent-inspect",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agent-inspect Local execution trees for TypeScript AI agents.  agent-inspect helps you understand what happened in rajudandigam/agent-inspect agent-framework"
     }
   ]
 }

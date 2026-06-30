@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 1127,
+    "count": 1133,
     "sourceData": "categories"
   },
   "skills": [
@@ -21987,6 +21987,114 @@
         "refactoring",
         "code-review"
       ]
+    },
+    {
+      "name": "MiMo-Code",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "XiaomiMiMo/MiMo-Code",
+      "stars": 11102,
+      "desc": "MiMo Code: Where Models and Agents Co-Evolve",
+      "url": "https://github.com/XiaomiMiMo/MiMo-Code",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "MiMo-Code MiMo Code: Where Models and Agents Co-Evolve XiaomiMiMo/MiMo-Code dev-tools"
+    },
+    {
+      "name": "crypto-trading-ai-bot-basic",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "gdemos01/crypto-trading-ai-bot-basic",
+      "stars": 304,
+      "desc": "",
+      "url": "https://github.com/gdemos01/crypto-trading-ai-bot-basic",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "crypto-trading-ai-bot-basic  gdemos01/crypto-trading-ai-bot-basic dev-tools"
+    },
+    {
+      "name": "nvalchemi-toolkit",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "NVIDIA/nvalchemi-toolkit",
+      "stars": 105,
+      "desc": "ALCHEMI Toolkit is a developer toolkit for accelerating training and inference for AI in chemistry and material science.",
+      "url": "https://github.com/NVIDIA/nvalchemi-toolkit",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "nvalchemi-toolkit ALCHEMI Toolkit is a developer toolkit for accelerating training and inference for AI in chemistry a NVIDIA/nvalchemi-toolkit dev-tools"
+    },
+    {
+      "name": "amd-strix-halo-fine-tuning-toolboxes",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "shantur/amd-strix-halo-fine-tuning-toolboxes",
+      "stars": 62,
+      "desc": "LLM Fine Tuning Toolbox images for Ryzen AI 395+ Strix Halo",
+      "url": "https://github.com/shantur/amd-strix-halo-fine-tuning-toolboxes",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "amd-strix-halo-fine-tuning-toolboxes LLM Fine Tuning Toolbox images for Ryzen AI 395+ Strix Halo shantur/amd-strix-halo-fine-tuning-toolboxes dev-tools"
+    },
+    {
+      "name": "llm-tool-use-ft",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "ShawhinT/llm-tool-use-ft",
+      "stars": 50,
+      "desc": "Example code for fine-tuning gemma-3-1b-it to use tools.",
+      "url": "https://github.com/ShawhinT/llm-tool-use-ft",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "llm-tool-use-ft Example code for fine-tuning gemma-3-1b-it to use tools. ShawhinT/llm-tool-use-ft dev-tools"
+    },
+    {
+      "name": "DGX-Spark-Asus-Ascent-Nvidia-GB10-SFT-Finetuner",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "alicankiraz1/DGX-Spark-Asus-Ascent-Nvidia-GB10-SFT-Finetuner",
+      "stars": 43,
+      "desc": "It is an SFT Fine-tuning tool that performs no-code LLM fine-tuning for Nvidia DGX Spark and Asus Ascent GX10.",
+      "url": "https://github.com/alicankiraz1/DGX-Spark-Asus-Ascent-Nvidia-GB10-SFT-Finetuner",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "DGX-Spark-Asus-Ascent-Nvidia-GB10-SFT-Finetuner It is an SFT Fine-tuning tool that performs no-code LLM fine-tuning for Nvidia DGX Spark and Asus As alicankiraz1/DGX-Spark-Asus-Ascent-Nvidia-GB10-SFT-Finetuner dev-tools"
     }
   ]
 }

@@ -4,7 +4,7 @@
     "topCategoryId": "video-gen",
     "subCategoryId": "video-gen",
     "categoryPath": "video-gen",
-    "count": 41,
+    "count": 45,
     "sourceData": "categories"
   },
   "skills": [
@@ -761,6 +761,78 @@
       ],
       "searchText": "Video-P2P Video-P2P: Real-time video-to-video editing with cross-attention control Video-P2P/Video-P2P video-gen",
       "pricing": "free"
+    },
+    {
+      "name": "ai-creator",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "gongxings/ai-creator",
+      "stars": 77,
+      "desc": "A powerful AI content creation platform with AI writing, image generation, video generation, PPT generation tools, and one-click multi-platform publishing.AI创作者平台，一个功能强大的AI创作平台，提供AI写作、图片生成、视频生成、PPT生成等",
+      "url": "https://github.com/gongxings/ai-creator",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-creator A powerful AI content creation platform with AI writing, image generation, video generation, PPT gen gongxings/ai-creator video-gen"
+    },
+    {
+      "name": "video-research-mcp",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "Galbaz1/video-research-mcp",
+      "stars": 22,
+      "desc": "Give Claude Code 51 research, analysis & media production tools with one command. Video analysis, deep research, academic papers, TTS voice-over, AI video generation, and Weaviate knowledge store — po",
+      "url": "https://github.com/Galbaz1/video-research-mcp",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "video-research-mcp Give Claude Code 51 research, analysis & media production tools with one command. Video analysis, de Galbaz1/video-research-mcp video-gen"
+    },
+    {
+      "name": "veo3tool",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "Hafointosher/veo3tool",
+      "stars": 21,
+      "desc": "Auto Flow Pro - Automation extension for Google VEO AI video generation",
+      "url": "https://github.com/Hafointosher/veo3tool",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "veo3tool Auto Flow Pro - Automation extension for Google VEO AI video generation Hafointosher/veo3tool video-gen"
+    },
+    {
+      "name": "Google-VEO-AI-3.1-Free",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "Zeshanabdullah/Google-VEO-AI-3.1-Free",
+      "stars": 21,
+      "desc": "Veo Ai Free is a free AI video creation tool offering unlimited Google Veo AI 3.1 video generation with Nano Banana support. Create and edit high-quality videos from text prompts  fast, easy, and 100%",
+      "url": "https://github.com/Zeshanabdullah/Google-VEO-AI-3.1-Free",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Google-VEO-AI-3.1-Free Veo Ai Free is a free AI video creation tool offering unlimited Google Veo AI 3.1 video generation w Zeshanabdullah/Google-VEO-AI-3.1-Free video-gen"
     }
   ]
 }
