@@ -651,6 +651,14 @@
         html += '<span class="active-filter-chip">"' + state.keyword.replace(/"/g, '&quot;') + '"' +
           '<button data-clear="keyword" title="清除" aria-label="清除搜索">&times;</button></span>';
       }
+      if (state.scene) {
+        html += '<span class="active-filter-chip">' + s.getSceneLabel(state.scene) +
+          '<button data-clear="scene" title="清除" aria-label="清除角色">&times;</button></span>';
+      }
+      if (state.purpose) {
+        html += '<span class="active-filter-chip">' + s.getPurposeLabel(state.purpose) +
+          '<button data-clear="purpose" title="清除" aria-label="清除目的">&times;</button></span>';
+      }
       chips.innerHTML = html;
     }
 
@@ -664,6 +672,8 @@
         else if (target === 'subcategory') { s.selectSubcategory(null); }
         else if (target === 'agent') { s.setAgentFilter(null); }
         else if (target === 'keyword') { s.setKeyword(''); if (dom.search) dom.search.value = ''; }
+        else if (target === 'scene') { s.setScene(null); }
+        else if (target === 'purpose') { s.setPurpose(null); }
         s.ensureDataForCurrentState().then(function() { renderAll(); });
       });
       if (dom['active-filters-clear']) {
@@ -672,6 +682,8 @@
           s.selectSubcategory(null);
           s.setAgentFilter(null);
           s.setKeyword('');
+          s.setScene(null);
+          s.setPurpose(null);
           if (dom.search) dom.search.value = '';
           s.ensureDataForCurrentState().then(function() { renderAll(); });
         });

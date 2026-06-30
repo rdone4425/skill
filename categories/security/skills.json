@@ -4,7 +4,7 @@
     "topCategoryId": "security",
     "subCategoryId": "general",
     "categoryPath": "security",
-    "count": 240,
+    "count": 241,
     "sourceData": "categories"
   },
   "skills": [
@@ -4506,6 +4506,24 @@
         "general"
       ],
       "searchText": "RedteamAgent An AI red-team agent for authorized labs and web app pentesting workflows. Turns Claude Code / OpenCode / Codex into a structured recon → test → exploit → report workflow, with containerized tools and resumable state. NeoTheCapt/RedteamAgent security"
+    },
+    {
+      "name": "agent-security",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "prompt-security/clawsec",
+      "stars": 0,
+      "desc": "Security audit, vulnerability scanning, drift detection, and penetration testing toolkit for Hermes agents. Covers file integrity (SOUL guardian), dependency CVE scanning, permission auditing, and guided pentest workflows.",
+      "url": "https://github.com/prompt-security/clawsec",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agent-security Security audit, vulnerability scanning, drift detection, and penetration testing toolkit for Hermes agents. Covers file integrity (SOUL guardian), dependency CVE scanning, permission auditing, and guided pentest workflows. prompt-security/clawsec security"
     }
   ]
 }

@@ -4,7 +4,7 @@
     "topCategoryId": "agent-framework",
     "subCategoryId": "agent-framework",
     "categoryPath": "agent-framework",
-    "count": 798,
+    "count": 801,
     "sourceData": "categories"
   },
   "skills": [
@@ -14413,6 +14413,60 @@
         "general"
       ],
       "searchText": "Photo-agents Autonomous self-evolving agents. Vision-grounded layered memory and self-written skills for LLM agents that operate your computer. jmerelnyc/Photo-agents agent-framework"
+    },
+    {
+      "name": "agent-pilot",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "Brenonunesx/agent-pilot",
+      "stars": 0,
+      "desc": "AI Agent Toolkit 2026: Smart Device Control for iOS & Android",
+      "url": "https://github.com/Brenonunesx/agent-pilot",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agent-pilot AI Agent Toolkit 2026: Smart Device Control for iOS & Android Brenonunesx/agent-pilot agent-framework"
+    },
+    {
+      "name": "foxl-orchestrator",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "ninouanis84-sudo/foxl-orchestrator",
+      "stars": 0,
+      "desc": "Personal AI Agent Hub 2026 — Build Your 24/7 Autonomous Assistant",
+      "url": "https://github.com/ninouanis84-sudo/foxl-orchestrator",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "foxl-orchestrator Personal AI Agent Hub 2026 — Build Your 24/7 Autonomous Assistant ninouanis84-sudo/foxl-orchestrator agent-framework"
+    },
+    {
+      "name": "openakita",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "openakita/openakita",
+      "stars": 0,
+      "desc": "An open-source AI assistant framework with skills and agent architecture",
+      "url": "https://github.com/openakita/openakita",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openakita An open-source AI assistant framework with skills and agent architecture openakita/openakita agent-framework"
     }
   ]
 }

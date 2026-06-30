@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-07-01T00:00:00.000Z",
   "sourceData": "categories",
-  "totalSkills": 5820,
+  "totalSkills": 5824,
   "categories": [
     {
       "id": "dev-tools",
@@ -223,7 +223,7 @@
       "path": "agent-framework",
       "groupId": "agent-framework",
       "subcategoryId": "agent-framework",
-      "count": 798,
+      "count": 801,
       "name_en": "AI Agent Frameworks",
       "name_cn": "Agent 框架",
       "hfTasks": [],
@@ -352,7 +352,7 @@
       "path": "security",
       "groupId": "security",
       "subcategoryId": "general",
-      "count": 240,
+      "count": 241,
       "name_en": "Security & Cybersecurity",
       "name_cn": "安全工具",
       "hfTasks": [],
