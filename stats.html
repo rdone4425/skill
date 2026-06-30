@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Skill Hub - Stats</title>
-  <meta name="description" content="Skill Hub stats: category distribution, platform coverage, and top repos. Data auto-generated from the categories directory.">
+  <meta name="description" content="Skill Hub stats: category distribution, platform coverage, and top repos. Data auto-generated.">
   <link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/stats.html">
   <link rel="alternate" hreflang="en" href="https://skill.442595.xyz/stats.html?lang=en">
   <link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/stats.html">
@@ -12,34 +12,34 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png?v=12">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png?v=12">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png?v=12">
-  <link rel="stylesheet" href="css/style.css?v=32">
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "Skill Hub - Stats",
-      "description": "Skill Hub stats: category distribution, platform coverage, and top repos.",
-      "url": "https://skill.442595.xyz/stats.html",
-      "inLanguage": ["zh", "en"],
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Skill Hub",
-        "url": "https://skill.442595.xyz/"
+  <link rel="stylesheet" href="css/style.css?v=35">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Skill Hub - Stats",
+        "description": "Skill Hub stats: category distribution, platform coverage, and top repos.",
+        "url": "https://skill.442595.xyz/stats.html",
+        "inLanguage": ["zh", "en"],
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Skill Hub",
+          "url": "https://skill.442595.xyz/"
+        }
       }
-    }
-  </script>
-</head>
-<body>
-  <a class="skip-link" href="#main-content" data-i18n="skipToMain">跳到主要内容</a>
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content" data-i18n="skipToMain">跳到主要内容</a>
 
-  <header class="site-header">
-    <div class="header-inner">
-      <div class="brand">
-        <a href="index.html" class="brand-name brand-lockup">
-          <img class="brand-logo" src="assets/icons/favicon-32x32.png?v=12" alt="Skill Hub logo">
-          <span>Skill Hub</span>
-        </a>
-        <span class="brand-badge">STATS</span>
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="brand">
+          <a href="index.html" class="brand-name brand-lockup">
+            <img class="brand-logo" src="assets/icons/favicon-32x32.png?v=12" alt="Skill Hub logo">
+            <span>Skill Hub</span>
+          </a>
+          <span class="brand-badge">STATS</span>
       </div>
       <div class="header-right">
         <button
@@ -48,6 +48,7 @@
           id="lang-btn"
           aria-label="Toggle language"
           title="Toggle language"
+          data-i18n-title="toggleLanguage"
         >
           <span id="lang-current">中文</span>
         </button>
@@ -70,26 +71,26 @@
     </section>
 
     <section class="stats-section" aria-labelledby="stats-summary-title">
-      <h2 id="stats-summary-title" data-i18n="statsOverview">总览</h2>
+      <h2 id="stats-summary-title" data-i18n="statsSummaryLabel">总览</h2>
       <div class="stats-summary-grid" id="stats-summary"></div>
     </section>
 
     <section class="stats-section" id="stats-section" aria-labelledby="stats-distribution-title">
-      <h2 id="stats-distribution-title" data-i18n="statsDistribution">分类分布</h2>
+      <h2 id="stats-distribution-title" data-i18n="statsDistributionLabel">分类分布</h2>
       <div class="stats-grid">
         <div class="stats-chart-wrap">
-          <h3 data-i18n="statsByCategory">按功能分类</h3>
+          <h3 data-i18n="statsByCategoryLabel">按功能分类</h3>
           <canvas id="stats-chart" width="400" height="300"></canvas>
         </div>
         <div class="stats-bars-wrap">
-          <h3 data-i18n="statsTopRepos">热门仓库 Top 10</h3>
+          <h3 data-i18n="statsTopReposLabel">热门仓库 Top 10</h3>
           <div id="stats-bars"></div>
         </div>
       </div>
     </section>
 
     <section class="stats-section" aria-labelledby="stats-agent-title">
-      <h2 id="stats-agent-title" data-i18n="statsPlatformCoverage">平台覆盖</h2>
+      <h2 id="stats-agent-title" data-i18n="statsPlatformCoverageLabel">平台覆盖</h2>
       <div class="stats-agent-grid" id="stats-agent-grid"></div>
     </section>
   </main>
@@ -107,14 +108,14 @@
       <div class="footer-links">
         <a href="https://github.com/rdone4425/skill" target="_blank" rel="noopener">GitHub</a>
         <span class="footer-sep">·</span>
-        <span>© 2025 Skill Hub</span>
+        <span>© 2026 Skill Hub</span>
       </div>
     </div>
   </footer>
 
-  <script src="js/data.js?v=25" defer></script>
-  <script src="js/i18n.js?v=31" defer></script>
-  <script src="js/state.js?v=25" defer></script>
-  <script src="js/stats-page.js?v=26" defer></script>
+  <script src="js/data.js?v=30" defer></script>
+  <script src="js/i18n.js?v=33" defer></script>
+  <script src="js/state.js?v=31" defer></script>
+  <script src="js/stats-page.js?v=27" defer></script>
 </body>
 </html>

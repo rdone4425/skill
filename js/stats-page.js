@@ -6,62 +6,12 @@
 
   const hub = window.SkillHub = window.SkillHub || {};
 
-  const statsDictionary = {
-    zh: {
-      title: 'Skill Hub - 统计页',
-      summary: '总览',
-      distribution: '分类分布',
-      distributionByCategory: '按功能分类',
-      topRepos: '热门仓库 Top 10',
-      details: '平台覆盖',
-      heroSub: '功能分类与平台兼容统计',
-      heroDesc: '数据来自 categories 目录自动生成的索引和技能集合。',
-      home: '返回首页',
-      categories: '分类数',
-      platforms: '平台数',
-      totalStars: '总 Stars',
-      skills: 'Skills',
-    },
-    en: {
-      title: 'Skill Hub - Stats',
-      summary: 'Overview',
-      distribution: 'Category distribution',
-      distributionByCategory: 'By function category',
-      topRepos: 'Top 10 repos',
-      details: 'Platform coverage',
-      heroSub: 'Function categories and platform compatibility',
-      heroDesc: 'Data is generated from the categories directory index and skill buckets.',
-      home: 'Back to home',
-      categories: 'Categories',
-      platforms: 'Platforms',
-      totalStars: 'Total stars',
-      skills: 'Skills',
-    },
-  };
-
   function applyPageI18n() {
-    const lang = hub.i18n.getLang();
-    const dict = statsDictionary[lang] || statsDictionary.zh;
-
-    document.title = dict.title;
-
-    const heroSub = document.querySelector('.hero-sub');
-    const heroDesc = document.querySelector('.hero-desc');
-    const summaryTitle = document.getElementById('stats-summary-title');
-    const distributionTitle = document.getElementById('stats-distribution-title');
-    const agentTitle = document.getElementById('stats-agent-title');
-    const distributionByCategory = document.querySelector('.stats-chart-wrap h3');
-    const topRepos = document.querySelector('.stats-bars-wrap h3');
-    const homeLink = document.querySelector('.main-nav a[href="index.html"]');
-
-    if (heroSub) heroSub.textContent = dict.heroSub;
-    if (heroDesc) heroDesc.textContent = dict.heroDesc;
-    if (summaryTitle) summaryTitle.textContent = dict.summary;
-    if (distributionTitle) distributionTitle.textContent = dict.distribution;
-    if (agentTitle) agentTitle.textContent = dict.details;
-    if (distributionByCategory) distributionByCategory.textContent = dict.distributionByCategory;
-    if (topRepos) topRepos.textContent = dict.topRepos;
-    if (homeLink) homeLink.textContent = dict.home;
+    // title handled by data-i18n flow via i18n.js, but we override with stats-specific
+    document.title = hub.i18n.t('statsTitle');
+    // meta description
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.content = hub.i18n.t('statsMetaDesc');
   }
 
   function getStatsCategoryId(skill) {
@@ -82,7 +32,7 @@
       [hub.i18n.t('reposLabel'), repos.size],
       [hub.i18n.t('categoriesLabel'), categories.size],
       [hub.i18n.t('platformsLabel'), platforms.size],
-      ['Stars', hub.state.STAR_FMT(totalStars)],
+      [hub.i18n.t('starsLabel'), hub.state.STAR_FMT(totalStars)],
     ];
 
     wrap.innerHTML = cards.map(([label, value]) => `
@@ -132,7 +82,7 @@
             </div>
             <div class="stats-agent-meta">
               <div class="stats-agent-line"><span>${hub.i18n.t('categoriesLabel')}</span><span>${item.categories.size}</span></div>
-              <div class="stats-agent-line"><span>Stars</span><span>${hub.state.STAR_FMT(item.stars)}</span></div>
+              <div class="stats-agent-line"><span>${hub.i18n.t('starsLabel')}</span><span>${hub.state.STAR_FMT(item.stars)}</span></div>
             </div>
           </article>
         `;
