@@ -2449,7 +2449,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "burr Build applications that make decisions — chatbots, agents, workflows with state  burr/burr devops-deploy"
+      "searchText": "burr Build applications that make decisions — chatbots, agents, workflows with state  burr/burr devops-deploy",
+      "pricing": "free"
     },
     {
       "name": "ongrid",
@@ -2467,7 +2468,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "ongrid An ops AI Agent that understands your infrastructure, for automated operations ongrid/ongrid devops-deploy"
+      "searchText": "ongrid An ops AI Agent that understands your infrastructure, for automated operations ongrid/ongrid devops-deploy",
+      "pricing": "free"
     }
   ]
 }

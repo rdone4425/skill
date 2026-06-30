@@ -2189,7 +2189,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "CloddsBot Open Source AI trading agent that operates autonomously for crypto markets clodds/CloddsBot finance-crypto"
+      "searchText": "CloddsBot Open Source AI trading agent that operates autonomously for crypto markets clodds/CloddsBot finance-crypto",
+      "pricing": "free"
     },
     {
       "name": "AI-Scalpel-Trading-Bot",
@@ -2207,7 +2208,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "AI-Scalpel-Trading-Bot Python bot for trading in most crypto exchanges with AI-driven strategies ybushev/AI-Scalpel-Trading-Bot finance-crypto"
+      "searchText": "AI-Scalpel-Trading-Bot Python bot for trading in most crypto exchanges with AI-driven strategies ybushev/AI-Scalpel-Trading-Bot finance-crypto",
+      "pricing": "free"
     }
   ]
 }

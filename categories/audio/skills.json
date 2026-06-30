@@ -1266,7 +1266,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "MusicGen Audiocraft by Meta: MusicGen and AudioGen — state-of-the-art audio and music gen facebookresearch/audiocraft audio"
+      "searchText": "MusicGen Audiocraft by Meta: MusicGen and AudioGen — state-of-the-art audio and music gen facebookresearch/audiocraft audio",
+      "pricing": "free"
     },
     {
       "name": "Bark",
@@ -1284,7 +1285,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "Bark Bark by Suno: Text-Prompted Generative Audio Model capable of music, background  suno-ai/bark audio"
+      "searchText": "Bark Bark by Suno: Text-Prompted Generative Audio Model capable of music, background  suno-ai/bark audio",
+      "pricing": "free"
     }
   ]
 }

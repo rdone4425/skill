@@ -1518,7 +1518,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "OpenMED OpenMED: Open-source Medical AI toolkit for diagnosis assistance and clinical de AI4MED/OpenMED health-medical"
+      "searchText": "OpenMED OpenMED: Open-source Medical AI toolkit for diagnosis assistance and clinical de AI4MED/OpenMED health-medical",
+      "pricing": "free"
     },
     {
       "name": "BioMedLM",
@@ -1536,7 +1537,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "BioMedLM BioMedLM: A domain-specific large language model for biomedicine by Stanford CRF stanford-crfm/BioMedLM health-medical"
+      "searchText": "BioMedLM BioMedLM: A domain-specific large language model for biomedicine by Stanford CRF stanford-crfm/BioMedLM health-medical",
+      "pricing": "free"
     },
     {
       "name": "PathML",
@@ -1554,7 +1556,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "PathML PathML: Open-source Python library for computational pathology and whole-slide i pathml/pathml health-medical"
+      "searchText": "PathML PathML: Open-source Python library for computational pathology and whole-slide i pathml/pathml health-medical",
+      "pricing": "free"
     }
   ]
 }

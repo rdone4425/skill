@@ -10535,7 +10535,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "DataFrame-CPP C++ DataFrame for statistical, financial, and ML analysis — modern C++ data mani hosseinmoein/DataFrame data-ai"
+      "searchText": "DataFrame-CPP C++ DataFrame for statistical, financial, and ML analysis — modern C++ data mani hosseinmoein/DataFrame data-ai",
+      "pricing": "free"
     },
     {
       "name": "Notate",
@@ -10553,7 +10554,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "Notate Notate: Desktop chat app that structures AI conversations into production-ready  notate-app/notate data-ai"
+      "searchText": "Notate Notate: Desktop chat app that structures AI conversations into production-ready  notate-app/notate data-ai",
+      "pricing": "free"
     }
   ]
 }

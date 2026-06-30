@@ -7962,7 +7962,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "TostUI TostUI: Docker-based web user interface components — a collection of reusable UI TostAI/TostUI design-ui"
+      "searchText": "TostUI TostUI: Docker-based web user interface components — a collection of reusable UI TostAI/TostUI design-ui",
+      "pricing": "free"
     },
     {
       "name": "screenshot-to-prompt",
@@ -7980,7 +7981,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "screenshot-to-prompt UI Screenshot to Prompt: AI-powered tool that analyzes UI screenshots and genera kylebuildsstuff/ui-screenshot-to-prompt design-ui"
+      "searchText": "screenshot-to-prompt UI Screenshot to Prompt: AI-powered tool that analyzes UI screenshots and genera kylebuildsstuff/ui-screenshot-to-prompt design-ui",
+      "pricing": "free"
     }
   ]
 }

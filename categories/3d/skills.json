@@ -1410,7 +1410,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "RodinHD RodinHD: High-Fidelity 3D Avatar Generation with Diffusion Models — ECCV 2024 thu-ml/RodinHD 3d"
+      "searchText": "RodinHD RodinHD: High-Fidelity 3D Avatar Generation with Diffusion Models — ECCV 2024 thu-ml/RodinHD 3d",
+      "pricing": "free"
     },
     {
       "name": "3DTopia",
@@ -1428,7 +1429,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "3DTopia 3DTopia: A generative model for high-quality 3D content creation from text and i 3DTopia/3DTopia 3d"
+      "searchText": "3DTopia 3DTopia: A generative model for high-quality 3D content creation from text and i 3DTopia/3DTopia 3d",
+      "pricing": "free"
     },
     {
       "name": "Zero-123",
@@ -1446,7 +1448,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "Zero-123 Zero-1-to-3: Zero-shot One Image to 3D Object generation using diffusion models cvlab-columbia/zero123 3d"
+      "searchText": "Zero-123 Zero-1-to-3: Zero-shot One Image to 3D Object generation using diffusion models cvlab-columbia/zero123 3d",
+      "pricing": "free"
     }
   ]
 }

@@ -684,7 +684,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "MOSS-TTSD MOSS-TTSD is a spoken dialogue generation model designed for generating high-qua bytedance/MOSS-TTSD audio-speech"
+      "searchText": "MOSS-TTSD MOSS-TTSD is a spoken dialogue generation model designed for generating high-qua bytedance/MOSS-TTSD audio-speech",
+      "pricing": "free"
     },
     {
       "name": "Qwen3-Audiobook-Converter",
@@ -702,7 +703,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "Qwen3-Audiobook-Converter Convert PDFs, EPUBs, DOCX, DOC, and TXT files into high-quality audiobooks using Qwen-Qwen3-Audiobook-Converter audio-speech"
+      "searchText": "Qwen3-Audiobook-Converter Convert PDFs, EPUBs, DOCX, DOC, and TXT files into high-quality audiobooks using Qwen-Qwen3-Audiobook-Converter audio-speech",
+      "pricing": "free"
     },
     {
       "name": "f5-tts",
@@ -720,7 +722,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "f5-tts F5-TTS: A Fairytaler that Fakes Fluent and Faithful Text-to-Speech with Flow Mat SWivid/F5-TTS audio-speech"
+      "searchText": "f5-tts F5-TTS: A Fairytaler that Fakes Fluent and Faithful Text-to-Speech with Flow Mat SWivid/F5-TTS audio-speech",
+      "pricing": "free"
     },
     {
       "name": "CosyVoice2",
@@ -738,7 +741,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "CosyVoice2 CosyVoice: A scalable multilingual zero-shot text-to-speech synthesizer with voi FunAudioLLM/CosyVoice audio-speech"
+      "searchText": "CosyVoice2 CosyVoice: A scalable multilingual zero-shot text-to-speech synthesizer with voi FunAudioLLM/CosyVoice audio-speech",
+      "pricing": "free"
     },
     {
       "name": "Spark-TTS",
@@ -756,7 +760,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "Spark-TTS Spark-TTS: An LLM-Based Text-to-Speech Model with Single-Stream Decoupled Design SparkAudio/Spark-TTS audio-speech"
+      "searchText": "Spark-TTS Spark-TTS: An LLM-Based Text-to-Speech Model with Single-Stream Decoupled Design SparkAudio/Spark-TTS audio-speech",
+      "pricing": "free"
     },
     {
       "name": "fish-speech",
@@ -774,7 +779,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "fish-speech Brand new TTS solution with streaming support, multi-language, and fine-tuning c fishaudio/fish-speech audio-speech"
+      "searchText": "fish-speech Brand new TTS solution with streaming support, multi-language, and fine-tuning c fishaudio/fish-speech audio-speech",
+      "pricing": "free"
     }
   ]
 }

@@ -1932,7 +1932,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "sigma-pytest Sigma-pytest: AI-powered testing framework with visual regression, interactive d wetest-dev/sigma-pytest testing-qa"
+      "searchText": "sigma-pytest Sigma-pytest: AI-powered testing framework with visual regression, interactive d wetest-dev/sigma-pytest testing-qa",
+      "pricing": "free"
     },
     {
       "name": "AIRecon",
@@ -1950,7 +1951,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "AIRecon AIRecon: Autonomous cybersecurity agent combining AI with reconnaissance and pen cybersofthub/airecon testing-qa"
+      "searchText": "AIRecon AIRecon: Autonomous cybersecurity agent combining AI with reconnaissance and pen cybersofthub/airecon testing-qa",
+      "pricing": "free"
     }
   ]
 }

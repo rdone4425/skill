@@ -3792,7 +3792,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "readme-ai README file generator, powered by AI — create beautiful documentation for your p readme-ai/readme-ai docs-content"
+      "searchText": "readme-ai README file generator, powered by AI — create beautiful documentation for your p readme-ai/readme-ai docs-content",
+      "pricing": "free"
     },
     {
       "name": "readmeX",
@@ -3810,7 +3811,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "readmeX An AI Powered README and Interactive Wiki Generator for GitHub projects readmex/readmeX docs-content"
+      "searchText": "readmeX An AI Powered README and Interactive Wiki Generator for GitHub projects readmex/readmeX docs-content",
+      "pricing": "free"
     },
     {
       "name": "codex-readme",
@@ -3828,7 +3830,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "codex-readme Revolutionize your project documentation with the Codex README generator codex-readme/codex-readme docs-content"
+      "searchText": "codex-readme Revolutionize your project documentation with the Codex README generator codex-readme/codex-readme docs-content",
+      "pricing": "free"
     },
     {
       "name": "DeepV-Ki",
@@ -3846,7 +3849,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "DeepV-Ki Instantly turn your code repository into a beautiful, interactive knowledge base deepv-ki/DeepV-Ki docs-content"
+      "searchText": "DeepV-Ki Instantly turn your code repository into a beautiful, interactive knowledge base deepv-ki/DeepV-Ki docs-content",
+      "pricing": "free"
     },
     {
       "name": "agent-skills-generator",
@@ -3864,7 +3868,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "agent-skills-generator Generate agent skills from website documentation automatically agent-skills-generator docs-content"
+      "searchText": "agent-skills-generator Generate agent skills from website documentation automatically agent-skills-generator docs-content",
+      "pricing": "free"
     }
   ]
 }

@@ -11021,7 +11021,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "global-agent-hackathon A month-long, open-source AI Agent Hackathon — building the next generation of A global-agent-hackathon-may-2025 general"
+      "searchText": "global-agent-hackathon A month-long, open-source AI Agent Hackathon — building the next generation of A global-agent-hackathon-may-2025 general",
+      "pricing": "free"
     },
     {
       "name": "mistralai-llm",
@@ -11039,7 +11040,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "mistralai-llm mistralai/llm general"
+      "searchText": "mistralai-llm mistralai/llm general",
+      "pricing": "free"
     }
   ]
 }

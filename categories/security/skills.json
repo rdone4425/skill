@@ -4132,7 +4132,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "Gito An AI-powered GitHub code review tool that uses LLMs to review pull requests gito-ai/Gito security"
+      "searchText": "Gito An AI-powered GitHub code review tool that uses LLMs to review pull requests gito-ai/Gito security",
+      "pricing": "free"
     },
     {
       "name": "AutoAR",
@@ -4150,7 +4151,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "AutoAR AutoAR is an automated security reconnaissance tool for penetration testing autoar/AutoAR security"
+      "searchText": "AutoAR AutoAR is an automated security reconnaissance tool for penetration testing autoar/AutoAR security",
+      "pricing": "free"
     },
     {
       "name": "watchtower-ai",
@@ -4168,7 +4170,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "watchtower-ai AIShield Watchtower: Open-source AI security scanner — dive deep into AI secrets AIShield/watchtower security"
+      "searchText": "watchtower-ai AIShield Watchtower: Open-source AI security scanner — dive deep into AI secrets AIShield/watchtower security",
+      "pricing": "free"
     },
     {
       "name": "PromptInjector",
@@ -4186,7 +4189,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "PromptInjector A comprehensive defensive security testing tool for AI prompt injection detectio prompt-injector/PromptInjector security"
+      "searchText": "PromptInjector A comprehensive defensive security testing tool for AI prompt injection detectio prompt-injector/PromptInjector security",
+      "pricing": "free"
     },
     {
       "name": "Androidmeda",
@@ -4204,7 +4208,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "Androidmeda AI Security tool to deobfuscate and find potential vulnerabilities in Android ap androidmeda/Androidmeda security"
+      "searchText": "Androidmeda AI Security tool to deobfuscate and find potential vulnerabilities in Android ap androidmeda/Androidmeda security",
+      "pricing": "free"
     }
   ]
 }

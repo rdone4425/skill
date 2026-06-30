@@ -1733,7 +1733,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "learnhouse LearnHouse: The Next-gen Open Source learning platform for everyone with AI-powe learnhouse/learnhouse education"
+      "searchText": "learnhouse LearnHouse: The Next-gen Open Source learning platform for everyone with AI-powe learnhouse/learnhouse education",
+      "pricing": "free"
     },
     {
       "name": "seai",
@@ -1751,7 +1752,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "seai CMU SEAI: Machine Learning In Production / AI Engineering — comprehensive learni CMU-ai-infra/seai education"
+      "searchText": "seai CMU SEAI: Machine Learning In Production / AI Engineering — comprehensive learni CMU-ai-infra/seai education",
+      "pricing": "free"
     }
   ]
 }

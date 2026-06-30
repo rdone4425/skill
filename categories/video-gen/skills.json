@@ -492,7 +492,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "CogVideo CogVideoX: Text-to-video generation with diffusion models by Tsinghua University THUDM/CogVideo video-gen"
+      "searchText": "CogVideo CogVideoX: Text-to-video generation with diffusion models by Tsinghua University THUDM/CogVideo video-gen",
+      "pricing": "free"
     },
     {
       "name": "Open-Sora",
@@ -510,7 +511,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "Open-Sora Open-Sora: Democratizing Efficient Video Production for All — open-source text-t hpcaitech/Open-Sora video-gen"
+      "searchText": "Open-Sora Open-Sora: Democratizing Efficient Video Production for All — open-source text-t hpcaitech/Open-Sora video-gen",
+      "pricing": "free"
     },
     {
       "name": "MimicMotion",
@@ -528,7 +530,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "MimicMotion MimicMotion: High-Quality Human Motion Video Generation with Confidence-aware Po Tencent/MimicMotion video-gen"
+      "searchText": "MimicMotion MimicMotion: High-Quality Human Motion Video Generation with Confidence-aware Po Tencent/MimicMotion video-gen",
+      "pricing": "free"
     },
     {
       "name": "Vchitect",
@@ -546,7 +549,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "Vchitect Vchitect: Large-scale video generation model with high-quality text-to-video cap Vchitect/Vchitect video-gen"
+      "searchText": "Vchitect Vchitect: Large-scale video generation model with high-quality text-to-video cap Vchitect/Vchitect video-gen",
+      "pricing": "free"
     },
     {
       "name": "Pyramid-Flow",
@@ -564,7 +568,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "Pyramid-Flow Pyramid Flow: High-Resolution Video Generation and Editing with cascaded diffusi jyshou/Pyramid-Flow video-gen"
+      "searchText": "Pyramid-Flow Pyramid Flow: High-Resolution Video Generation and Editing with cascaded diffusi jyshou/Pyramid-Flow video-gen",
+      "pricing": "free"
     },
     {
       "name": "diffusers",
@@ -582,7 +587,9 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "diffusers 🤗 Diffusers: State-of-the-art diffusion models for image and video generation in huggingface/diffusers video-gen"
+      "searchText": "diffusers 🤗 Diffusers: State-of-the-art diffusion models for image and video generation in huggingface/diffusers video-gen",
+      "pricing": "free",
+      "affiliate_url": "https://huggingface.co/pricing"
     },
     {
       "name": "Tune-A-Video",
@@ -600,7 +607,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "Tune-A-Video [ICCV 2023] Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to- showlab/Tune-A-Video video-gen"
+      "searchText": "Tune-A-Video [ICCV 2023] Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to- showlab/Tune-A-Video video-gen",
+      "pricing": "free"
     },
     {
       "name": "VGen",
@@ -618,7 +626,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "VGen Official repo for VGen: a holistic video generation ecosystem shirui-wang/VGen video-gen"
+      "searchText": "VGen Official repo for VGen: a holistic video generation ecosystem shirui-wang/VGen video-gen",
+      "pricing": "free"
     },
     {
       "name": "Show-1",
@@ -636,7 +645,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "Show-1 Show-1: Marrying Pixel and Latent Diffusion Models for Text-to-Video Generation showlab/Show-1 video-gen"
+      "searchText": "Show-1 Show-1: Marrying Pixel and Latent Diffusion Models for Text-to-Video Generation showlab/Show-1 video-gen",
+      "pricing": "free"
     },
     {
       "name": "LaVie",
@@ -654,7 +664,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "LaVie LaVie: High-Quality Video Generation with Cascaded Latent Diffusion Models Vchitect/LaVie video-gen"
+      "searchText": "LaVie LaVie: High-Quality Video Generation with Cascaded Latent Diffusion Models Vchitect/LaVie video-gen",
+      "pricing": "free"
     },
     {
       "name": "kandinsky-5",
@@ -672,7 +683,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "kandinsky-5 Kandinsky 5.0: Family of diffusion models for Video and Image generation ai-forever/Kandinsky-5 video-gen"
+      "searchText": "kandinsky-5 Kandinsky 5.0: Family of diffusion models for Video and Image generation ai-forever/Kandinsky-5 video-gen",
+      "pricing": "free"
     },
     {
       "name": "LVDM",
@@ -690,7 +702,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "LVDM LVDM: Latent Video Diffusion Models for High-Fidelity Long Video Generation YingqingHe/LVDM video-gen"
+      "searchText": "LVDM LVDM: Latent Video Diffusion Models for High-Fidelity Long Video Generation YingqingHe/LVDM video-gen",
+      "pricing": "free"
     },
     {
       "name": "LongVA",
@@ -708,7 +721,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "LongVA LongVA: Long Video Generation with diffusion models for extended content Vchitect/LongVA video-gen"
+      "searchText": "LongVA LongVA: Long Video Generation with diffusion models for extended content Vchitect/LongVA video-gen",
+      "pricing": "free"
     },
     {
       "name": "Steerable-Motion",
@@ -726,7 +740,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "Steerable-Motion Steerable Motion: Controllable video generation with motion guidance Steerable-Motion/Steerable-Motion video-gen"
+      "searchText": "Steerable-Motion Steerable Motion: Controllable video generation with motion guidance Steerable-Motion/Steerable-Motion video-gen",
+      "pricing": "free"
     },
     {
       "name": "Video-P2P",
@@ -744,7 +759,8 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "Video-P2P Video-P2P: Real-time video-to-video editing with cross-attention control Video-P2P/Video-P2P video-gen"
+      "searchText": "Video-P2P Video-P2P: Real-time video-to-video editing with cross-attention control Video-P2P/Video-P2P video-gen",
+      "pricing": "free"
     }
   ]
 }
