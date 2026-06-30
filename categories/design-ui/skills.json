@@ -4,7 +4,7 @@
     "topCategoryId": "design",
     "subCategoryId": "ui",
     "categoryPath": "design-ui",
-    "count": 411,
+    "count": 412,
     "sourceData": "categories"
   },
   "skills": [
@@ -7983,6 +7983,28 @@
       ],
       "searchText": "screenshot-to-prompt UI Screenshot to Prompt: AI-powered tool that analyzes UI screenshots and genera kylebuildsstuff/ui-screenshot-to-prompt design-ui",
       "pricing": "free"
+    },
+    {
+      "source": "ok-skills(mxyhi)",
+      "sourceAgent": "general",
+      "repo": "mxyhi/ok-skills",
+      "stars": 442,
+      "platforms": [
+        "codex",
+        "claude-code",
+        "cursor",
+        "openclaw"
+      ],
+      "category": "design-ui",
+      "categoryZh": "设计与UI",
+      "name": "ai-elements",
+      "desc": "Build AI chat interfaces using ai-elements components — conversation, messages, tool displays.",
+      "url": "https://github.com/mxyhi/ok-skills/tree/main/ai-elements",
+      "keywords": [
+        "ai-chat",
+        "components",
+        "ui"
+      ]
     }
   ]
 }

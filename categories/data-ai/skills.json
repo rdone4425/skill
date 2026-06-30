@@ -4,7 +4,7 @@
     "topCategoryId": "data",
     "subCategoryId": "ai",
     "categoryPath": "data-ai",
-    "count": 539,
+    "count": 540,
     "sourceData": "categories"
   },
   "skills": [
@@ -10556,6 +10556,29 @@
       ],
       "searchText": "Notate Notate: Desktop chat app that structures AI conversations into production-ready  notate-app/notate data-ai",
       "pricing": "free"
+    },
+    {
+      "source": "ok-skills(mxyhi)",
+      "sourceAgent": "general",
+      "repo": "mxyhi/ok-skills",
+      "stars": 442,
+      "platforms": [
+        "codex",
+        "claude-code",
+        "cursor",
+        "openclaw"
+      ],
+      "category": "data-ai",
+      "categoryZh": "数据与AI",
+      "name": "autoresearch",
+      "desc": "Autonomous iteration loop: modify, verify, keep/discard against any metric for research tasks.",
+      "url": "https://github.com/mxyhi/ok-skills/tree/main/autoresearch",
+      "keywords": [
+        "research",
+        "iteration",
+        "automation",
+        "evaluation"
+      ]
     }
   ]
 }

@@ -4,7 +4,7 @@
     "topCategoryId": "testing",
     "subCategoryId": "qa",
     "categoryPath": "testing-qa",
-    "count": 101,
+    "count": 102,
     "sourceData": "categories"
   },
   "skills": [
@@ -1953,6 +1953,27 @@
       ],
       "searchText": "AIRecon AIRecon: Autonomous cybersecurity agent combining AI with reconnaissance and pen cybersofthub/airecon testing-qa",
       "pricing": "free"
+    },
+    {
+      "source": "ok-skills(mxyhi)",
+      "sourceAgent": "general",
+      "repo": "mxyhi/ok-skills",
+      "stars": 442,
+      "platforms": [
+        "codex",
+        "claude-code",
+        "cursor"
+      ],
+      "category": "testing-qa",
+      "categoryZh": "测试与QA",
+      "name": "tdd",
+      "desc": "Test-driven development: build features or fix bugs test-first, red-green-refactor.",
+      "url": "https://github.com/mxyhi/ok-skills/tree/main/tdd",
+      "keywords": [
+        "tdd",
+        "testing",
+        "red-green-refactor"
+      ]
     }
   ]
 }

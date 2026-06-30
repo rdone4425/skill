@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 1115,
+    "count": 1127,
     "sourceData": "categories"
   },
   "skills": [
@@ -21714,6 +21714,279 @@
         "general"
       ],
       "searchText": "ultraship Claude Code plugin with 39 skills, 33 tools, 11 agents for enterprise shipping Houseofmvps/ultraship dev-tools general"
+    },
+    {
+      "source": "ok-skills(mxyhi)",
+      "sourceAgent": "general",
+      "repo": "mxyhi/ok-skills",
+      "stars": 442,
+      "platforms": [
+        "codex",
+        "claude-code",
+        "cursor",
+        "openclaw"
+      ],
+      "category": "dev-tools",
+      "categoryZh": "开发工具",
+      "name": "planning-with-files",
+      "desc": "Manus-style persistent file-based planning for AI coding agents. Keeps task_plan.md, findings.md, progress.md on disk.",
+      "url": "https://github.com/mxyhi/ok-skills/tree/main/planning-with-files",
+      "keywords": [
+        "planning",
+        "workflow",
+        "project-management",
+        "file-based"
+      ]
+    },
+    {
+      "source": "ok-skills(mxyhi)",
+      "sourceAgent": "general",
+      "repo": "mxyhi/ok-skills",
+      "stars": 442,
+      "platforms": [
+        "codex",
+        "claude-code",
+        "cursor",
+        "openclaw"
+      ],
+      "category": "dev-tools",
+      "categoryZh": "开发工具",
+      "name": "find-docs",
+      "desc": "Fetch current library docs, API references, and Context7-backed examples for any framework.",
+      "url": "https://github.com/mxyhi/ok-skills/tree/main/find-docs",
+      "keywords": [
+        "documentation",
+        "api",
+        "reference"
+      ]
+    },
+    {
+      "source": "ok-skills(mxyhi)",
+      "sourceAgent": "general",
+      "repo": "mxyhi/ok-skills",
+      "stars": 442,
+      "platforms": [
+        "codex",
+        "claude-code",
+        "cursor",
+        "openclaw"
+      ],
+      "category": "dev-tools",
+      "categoryZh": "开发工具",
+      "name": "agent-browser",
+      "desc": "Browser automation for screenshots, forms, scraping, and web QA using Playwright.",
+      "url": "https://github.com/mxyhi/ok-skills/tree/main/agent-browser",
+      "keywords": [
+        "browser",
+        "playwright",
+        "automation",
+        "scraping"
+      ]
+    },
+    {
+      "source": "ok-skills(mxyhi)",
+      "sourceAgent": "general",
+      "repo": "mxyhi/ok-skills",
+      "stars": 442,
+      "platforms": [
+        "codex",
+        "claude-code",
+        "cursor",
+        "openclaw"
+      ],
+      "category": "dev-tools",
+      "categoryZh": "开发工具",
+      "name": "better-icons",
+      "desc": "CLI for searching 200+ icon libraries (Iconify) and retrieving SVGs. MCP server available.",
+      "url": "https://github.com/mxyhi/ok-skills/tree/main/better-icons",
+      "keywords": [
+        "icons",
+        "svg",
+        "iconify",
+        "design"
+      ]
+    },
+    {
+      "source": "ok-skills(mxyhi)",
+      "sourceAgent": "general",
+      "repo": "mxyhi/ok-skills",
+      "stars": 442,
+      "platforms": [
+        "codex",
+        "claude-code",
+        "cursor",
+        "openclaw"
+      ],
+      "category": "dev-tools",
+      "categoryZh": "开发工具",
+      "name": "handoff",
+      "desc": "Compact current conversation into a handoff document for another agent to resume seamlessly.",
+      "url": "https://github.com/mxyhi/ok-skills/tree/main/handoff",
+      "keywords": [
+        "handoff",
+        "agent-transfer",
+        "context",
+        "session"
+      ]
+    },
+    {
+      "source": "ok-skills(mxyhi)",
+      "sourceAgent": "general",
+      "repo": "mxyhi/ok-skills",
+      "stars": 442,
+      "platforms": [
+        "codex",
+        "claude-code",
+        "cursor",
+        "openclaw"
+      ],
+      "category": "dev-tools",
+      "categoryZh": "开发工具",
+      "name": "prototype",
+      "desc": "Build throwaway prototypes to flesh out designs — runnable terminal apps or UI variations.",
+      "url": "https://github.com/mxyhi/ok-skills/tree/main/prototype",
+      "keywords": [
+        "prototype",
+        "throwaway",
+        "design",
+        "exploration"
+      ]
+    },
+    {
+      "source": "ok-skills(mxyhi)",
+      "sourceAgent": "general",
+      "repo": "mxyhi/ok-skills",
+      "stars": 442,
+      "platforms": [
+        "codex",
+        "claude-code",
+        "cursor",
+        "openclaw"
+      ],
+      "category": "dev-tools",
+      "categoryZh": "开发工具",
+      "name": "grilling",
+      "desc": "Interview the user relentlessly about a plan or design to stress-test before building.",
+      "url": "https://github.com/mxyhi/ok-skills/tree/main/grilling",
+      "keywords": [
+        "planning",
+        "review",
+        "stress-test"
+      ]
+    },
+    {
+      "source": "ok-skills(mxyhi)",
+      "sourceAgent": "general",
+      "repo": "mxyhi/ok-skills",
+      "stars": 442,
+      "platforms": [
+        "codex",
+        "claude-code",
+        "cursor",
+        "openclaw"
+      ],
+      "category": "dev-tools",
+      "categoryZh": "开发工具",
+      "name": "karpathy-guidelines",
+      "desc": "Behavioral guidelines to reduce common LLM coding mistakes: avoid overcomplication, surgical changes.",
+      "url": "https://github.com/mxyhi/ok-skills/tree/main/karpathy-guidelines",
+      "keywords": [
+        "guidelines",
+        "karpathy",
+        "llm",
+        "best-practices"
+      ]
+    },
+    {
+      "source": "ok-skills(mxyhi)",
+      "sourceAgent": "general",
+      "repo": "mxyhi/ok-skills",
+      "stars": 442,
+      "platforms": [
+        "codex",
+        "claude-code",
+        "cursor",
+        "openclaw"
+      ],
+      "category": "dev-tools",
+      "categoryZh": "开发工具",
+      "name": "codebase-design",
+      "desc": "Shared vocabulary for designing deep modules. Improve interfaces and testability.",
+      "url": "https://github.com/mxyhi/ok-skills/tree/main/codebase-design",
+      "keywords": [
+        "design",
+        "module",
+        "architecture",
+        "deep-modules"
+      ]
+    },
+    {
+      "source": "ok-skills(mxyhi)",
+      "sourceAgent": "general",
+      "repo": "mxyhi/ok-skills",
+      "stars": 442,
+      "platforms": [
+        "codex",
+        "claude-code",
+        "cursor",
+        "openclaw"
+      ],
+      "category": "dev-tools",
+      "categoryZh": "开发工具",
+      "name": "domain-modeling",
+      "desc": "Build and sharpen project domain models. Pin down terminology and ubiquitous language.",
+      "url": "https://github.com/mxyhi/ok-skills/tree/main/domain-modeling",
+      "keywords": [
+        "domain",
+        "modeling",
+        "ddd",
+        "ubiquitous-language"
+      ]
+    },
+    {
+      "source": "ok-skills(mxyhi)",
+      "sourceAgent": "general",
+      "repo": "mxyhi/ok-skills",
+      "stars": 442,
+      "platforms": [
+        "codex",
+        "claude-code",
+        "cursor",
+        "openclaw"
+      ],
+      "category": "dev-tools",
+      "categoryZh": "开发工具",
+      "name": "diagnosing-bugs",
+      "desc": "Diagnosis loop for hard bugs and performance regressions.",
+      "url": "https://github.com/mxyhi/ok-skills/tree/main/diagnosing-bugs",
+      "keywords": [
+        "debug",
+        "diagnosis",
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "source": "ok-skills(mxyhi)",
+      "sourceAgent": "general",
+      "repo": "mxyhi/ok-skills",
+      "stars": 442,
+      "platforms": [
+        "codex",
+        "claude-code",
+        "cursor",
+        "openclaw"
+      ],
+      "category": "dev-tools",
+      "categoryZh": "开发工具",
+      "name": "improve-codebase-architecture",
+      "desc": "Scan codebase for deepening opportunities, present visual HTML report.",
+      "url": "https://github.com/mxyhi/ok-skills/tree/main/improve-codebase-architecture",
+      "keywords": [
+        "architecture",
+        "refactoring",
+        "code-review"
+      ]
     }
   ]
 }

@@ -4,7 +4,7 @@
     "topCategoryId": "education",
     "subCategoryId": "education",
     "categoryPath": "education",
-    "count": 96,
+    "count": 97,
     "sourceData": "categories"
   },
   "skills": [
@@ -1754,6 +1754,28 @@
       ],
       "searchText": "seai CMU SEAI: Machine Learning In Production / AI Engineering — comprehensive learni CMU-ai-infra/seai education",
       "pricing": "free"
+    },
+    {
+      "source": "ok-skills(mxyhi)",
+      "sourceAgent": "general",
+      "repo": "mxyhi/ok-skills",
+      "stars": 442,
+      "platforms": [
+        "codex",
+        "claude-code",
+        "cursor",
+        "openclaw"
+      ],
+      "category": "education",
+      "categoryZh": "教育",
+      "name": "teach",
+      "desc": "Teach the user a new skill or concept within the current workspace context.",
+      "url": "https://github.com/mxyhi/ok-skills/tree/main/teach",
+      "keywords": [
+        "teaching",
+        "learning",
+        "education"
+      ]
     }
   ]
 }
