@@ -3209,6 +3209,80 @@ a:hover {
   min-width: 0;
 }
 
+/* ===== Trending Section ===== */
+.trending-section {
+  margin-bottom: 24px;
+  padding: 20px;
+  background: linear-gradient(135deg, rgba(217, 108, 61, 0.06), rgba(226, 167, 42, 0.06));
+  border-radius: 14px;
+  border: 1px solid var(--accent-glow, rgba(217, 108, 61, 0.2));
+}
+
+.trending-header { margin-bottom: 16px; }
+
+.trending-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--heading, #0f172a);
+  margin: 0 0 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.trending-icon { font-size: 20px; }
+
+.trending-desc {
+  font-size: 13px;
+  color: var(--text-2, #64748b);
+  margin: 0;
+}
+
+.trending-grid {
+  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.trending-grid .skill-card {
+  border-color: var(--accent-glow, rgba(217, 108, 61, 0.2));
+  min-width: 0;
+}
+
+/* ===== Related Skills Section ===== */
+.related-section {
+  margin-top: 12px;
+  margin-bottom: 24px;
+  padding: 18px;
+  background: rgba(255, 252, 246, 0.7);
+  border-radius: 12px;
+  border: 1px solid var(--border, rgba(57, 35, 10, 0.11));
+}
+
+.related-header { margin-bottom: 12px; }
+
+.related-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--heading, #0f172a);
+  margin: 0 0 3px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.related-desc {
+  font-size: 12px;
+  color: var(--text-2, #64748b);
+  margin: 0;
+}
+
+.related-grid {
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+.related-grid .skill-card { min-width: 0; }
+
 /* ponytail: dark mode — just override :root vars + a few hardcoded rules. 
    Upgrade path: replace all hardcoded colors with var() refs, then this block shrinks to :root only. */
 @media (prefers-color-scheme: dark) {

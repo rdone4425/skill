@@ -12,6 +12,117 @@
   /* ===== Search Suggestions ===== */
   let suggestDebounce = null;
 
+  // ponytail: semantic alias map — Chinese keywords → search terms
+  const SEMANTIC_ALIASES = {
+    '图片生成': ['image-gen', 'image generation', 'stable diffusion', 'comfyui', 'dalle', 'midjourney', 'flux'],
+    '图像生成': ['image-gen', 'image generation', 'stable diffusion', 'comfyui'],
+    '视频生成': ['video-gen', 'video generation', 'audiocraft', 'sora', 'runway'],
+    '音频': ['audio-speech', 'tts', 'speech', 'whisper', 'stt', 'text to speech'],
+    '语音': ['audio-speech', 'tts', 'speech', 'whisper', 'stt'],
+    '搜索': ['search', 'rag', 'retrieval', 'web-search', 'tavily'],
+    '浏览器': ['browser-automation', 'browser', 'playwright', 'puppeteer', 'selenium'],
+    '自动化': ['automation', 'workflow', 'n8n', 'browser-automation', 'automation-productivity'],
+    '部署': ['devops-deploy', 'deploy', 'docker', 'kubernetes', 'ci'],
+    '文档': ['docs-content', 'documentation', 'docs', 'readme'],
+    '安全': ['security', 'pentest', 'offensive', 'vulnerability'],
+    '测试': ['testing-qa', 'testing', 'test', 'qa', 'unit test'],
+    '设计': ['design-ui', 'design', 'figma', 'ui', 'ux'],
+    '金融': ['finance-crypto', 'finance', 'crypto', 'trading', 'binance'],
+    '多模态': ['multi-modal', 'multimodal', 'vision', 'clip'],
+    'llm': ['llm', 'large language model', 'inference', 'gpt', 'tokenizer'],
+    'agent': ['agent-framework', 'agent', 'autonomous', 'multi-agent'],
+    'mcp': ['mcp-server', 'mcp', 'model context protocol'],
+    'cursor': ['cursor', 'cursor ide'],
+    'claude': ['claude-code', 'claude', 'anthropic'],
+    'codex': ['codex', 'openai codex'],
+    'hermes': ['hermes-agent', 'hermes', 'nous'],
+    'opencode': ['opencode'],
+    'copilot': ['copilot', 'github copilot'],
+    'gemini': ['gemini', 'google gemini'],
+    '游戏': ['game-dev', 'game development', 'unity', 'godot', 'unreal'],
+    '健康': ['health-medical', 'health', 'medical'],
+    '教育': ['education', 'learning', 'tutorial'],
+    '社交': ['social-media', 'social', 'twitter', 'discord'],
+    'rag': ['rag', 'retrieval', 'vector', 'embedding'],
+  };
+
+  // ponytail: common typo corrections
+  const COMMON_TYPOS = {
+    'clode': 'claude', 'claode': 'claude', 'calude': 'claude', 'cluade': 'claude',
+    'curser': 'cursor', 'curssor': 'cursor', 'cruser': 'cursor',
+    'code': 'codex', 'codx': 'codex', 'coedx': 'codex',
+    'herms': 'hermes', 'herme': 'hermes', 'hermas': 'hermes',
+    'opencode': 'opencode', 'open code': 'opencode',
+    'gemin': 'gemini', 'gemni': 'gemini', 'gemeni': 'gemini',
+    'playwrite': 'playwright', 'playright': 'playwright',
+    'puppeteer': 'puppeteer', 'pupeteer': 'puppeteer',
+    'docker': 'docker', 'doker': 'docker',
+    'git': 'github', 'gitub': 'github', 'gitbub': 'github',
+  };
+
+  // ponytail: simple Levenshtein for typo tolerance
+  function levDistance(a, b) {
+    if (a.length > b.length) { var t = a; a = b; b = t; }
+    var m = a.length, n = b.length;
+    var prev = new Array(m + 1);
+    var curr = new Array(m + 1);
+    for (var i = 0; i <= m; i++) prev[i] = i;
+    for (var j = 1; j <= n; j++) {
+      curr[0] = j;
+      for (var i = 1; i <= m; i++) {
+        curr[i] = a[i - 1] === b[j - 1] ? prev[i - 1] : 1 + Math.min(prev[i], curr[i - 1], prev[i - 1]);
+      }
+      var tmp = prev; prev = curr; curr = tmp;
+    }
+    return prev[m];
+  }
+
+  function findClosestWord(keyword, candidates, maxDist) {
+    var best = null, bestDist = maxDist + 1;
+    for (var i = 0; i < candidates.length; i++) {
+      var d = levDistance(keyword, candidates[i]);
+      if (d < bestDist) { bestDist = d; best = candidates[i]; }
+    }
+    return bestDist <= maxDist ? best : null;
+  }
+
+  function getSemanticKeywords(keyword) {
+    var lower = keyword.toLowerCase();
+    var results = [lower];
+    // Chinese alias lookup
+    for (var key in SEMANTIC_ALIASES) {
+      if (lower.includes(key.toLowerCase())) {
+        results = results.concat(SEMANTIC_ALIASES[key]);
+      }
+    }
+    // Common typo correction
+    var corrected = COMMON_TYPOS[lower];
+    if (corrected) results.push(corrected);
+    return results;
+  }
+
+  // ponytail: get recent searches from localStorage
+  var RECENT_KEY = 'skill-hub.recent-searches.v1';
+  var MAX_RECENT = 5;
+
+  function getRecentSearches() {
+    try {
+      var raw = localStorage.getItem(RECENT_KEY);
+      return raw ? JSON.parse(raw) : [];
+    } catch (e) { return []; }
+  }
+
+  function addRecentSearch(keyword) {
+    if (!keyword) return;
+    try {
+      var recents = getRecentSearches();
+      recents = recents.filter(function (k) { return k !== keyword; });
+      recents.unshift(keyword);
+      if (recents.length > MAX_RECENT) recents = recents.slice(0, MAX_RECENT);
+      localStorage.setItem(RECENT_KEY, JSON.stringify(recents));
+    } catch (e) {}
+  }
+
   function hideSearchSuggest() {
     const suggestEl = document.getElementById('search-suggest');
     if (suggestEl) {
@@ -24,37 +135,48 @@
     const lower = keyword.toLowerCase().trim();
     if (!lower) return [];
 
+    var semKeywords = getSemanticKeywords(keyword);
+    var typoCorrection = COMMON_TYPOS[lower] || null;
+
     const data = state.data || [];
     const matches = [];
     const seen = new Set();
 
-    // Exact name match
-    for (const skill of data) {
+    // Multi-keyword search
+    for (var ki = 0; ki < semKeywords.length; ki++) {
+      var kw = semKeywords[ki];
       if (matches.length >= limit * 2) break;
-      const name = String(skill.name || '').toLowerCase();
-      if (name.includes(lower) && !seen.has(skill.name)) {
-        seen.add(skill.name);
-        matches.push({
-          type: 'name',
-          value: skill.name,
-          skill: skill,
-          priority: name.startsWith(lower) ? 0 : 1,
-        });
-      }
-    }
 
-    // Description match
-    for (const skill of data) {
-      if (matches.length >= limit * 2) break;
-      const desc = String(skill.desc || '').toLowerCase();
-      if (desc.includes(lower) && !seen.has('desc:' + skill.name)) {
-        seen.add('desc:' + skill.name);
-        matches.push({
-          type: 'desc',
-          value: skill.desc,
-          skill: skill,
-          priority: 2,
-        });
+      // Exact name match
+      for (const skill of data) {
+        if (matches.length >= limit * 2) break;
+        const name = String(skill.name || '').toLowerCase();
+        if (name.includes(kw) && !seen.has(skill.name)) {
+          seen.add(skill.name);
+          matches.push({
+            type: 'name',
+            value: skill.name,
+            skill: skill,
+            priority: kw === lower ? (name.startsWith(kw) ? 0 : 1) : 2,
+          });
+        }
+      }
+
+      // Description match (ponytail: only if < 3 name matches from any keyword)
+      if (matches.length < limit) {
+        for (const skill of data) {
+          if (matches.length >= limit * 2) break;
+          const desc = String(skill.desc || '').toLowerCase();
+          if (desc.includes(kw) && !seen.has('desc:' + skill.name)) {
+            seen.add('desc:' + skill.name);
+            matches.push({
+              type: 'desc',
+              value: skill.desc,
+              skill: skill,
+              priority: 5,
+            });
+          }
+        }
       }
     }
 
@@ -68,29 +190,53 @@
           type: 'repo',
           value: skill.repo,
           skill: skill,
-          priority: 3,
+          priority: 6,
         });
       }
     }
 
-    // Category match
+    // Category match (uses semantic keywords)
     const catLabels = s.CATEGORY_LABELS || {};
     for (const [catId, labels] of Object.entries(catLabels)) {
       if (matches.length >= limit * 2) break;
       const label = (hub.i18n.getLang() === 'zh' ? labels.zh : labels.en) || catId;
-      if (label.toLowerCase().includes(lower) && !seen.has('cat:' + catId)) {
-        seen.add('cat:' + catId);
-        matches.push({
-          type: 'category',
-          value: label,
-          catId: catId,
-          priority: 4,
-        });
+      var labelLow = label.toLowerCase();
+      for (var ki = 0; ki < semKeywords.length; ki++) {
+        if (labelLow.includes(semKeywords[ki]) && !seen.has('cat:' + catId)) {
+          seen.add('cat:' + catId);
+          matches.push({
+            type: 'category',
+            value: label,
+            catId: catId,
+            priority: 7,
+          });
+          break;
+        }
+      }
+    }
+
+    // ponytail: typo correction hint — if no results found, try fuzzy
+    var typoHint = null;
+    if (matches.length === 0 && lower.length >= 2) {
+      // Try common typos first
+      if (typoCorrection) {
+        typoHint = typoCorrection;
+      } else {
+        // Try Levenshtein against popular skill names (sample first 200)
+        var sampleNames = data.slice(0, 200).map(function (s) { return String(s.name || '').toLowerCase(); });
+        var maxDist = Math.max(1, Math.floor(lower.length * 0.4));
+        typoHint = findClosestWord(lower, sampleNames, maxDist);
       }
     }
 
     matches.sort((a, b) => a.priority - b.priority);
-    return matches.slice(0, limit);
+
+    // ponytail: insert typo correction at top if exists
+    var result = matches.slice(0, limit);
+    if (typoHint) {
+      result.unshift({ type: 'typo', value: typoHint, priority: -1 });
+    }
+    return result;
   }
 
   function escapeHtml(str) {
@@ -108,6 +254,8 @@
 
   function renderSuggestions(results, container) {
     container.innerHTML = '';
+
+    // ponytail: show recent searches when input is empty (shown separately)
     results.forEach((item, index) => {
       const el = document.createElement('button');
       el.type = 'button';
@@ -115,20 +263,37 @@
       el.setAttribute('role', 'option');
       el.dataset.index = index;
 
+      if (item.type === 'typo') {
+        el.className += ' search-suggest-typo';
+        el.innerHTML = '<span class="suggest-typo-label">' + getLabelWithFallback('didYouMean', '你是不是要找', 'Did you mean') + '</span><span class="suggest-typo-value">' + escapeHtml(item.value) + '</span>';
+        el.addEventListener('click', () => {
+          if (dom.search) {
+            dom.search.value = item.value;
+            dom.search.focus();
+          }
+          s.setKeyword(item.value);
+          addRecentSearch(item.value);
+          if (dom.search) r.renderListOnly();
+          hideSearchSuggest();
+        });
+        container.appendChild(el);
+        return;
+      }
+
       let display = '';
       let typeLabel = '';
       if (item.type === 'name') {
         display = highlightText(item.value, state.keyword || '');
-        typeLabel = '名称';
+        typeLabel = getLabelWithFallback('suggestTypeName', '名称', 'Name');
       } else if (item.type === 'desc') {
         display = highlightText(item.value, state.keyword || '');
-        typeLabel = '描述';
+        typeLabel = getLabelWithFallback('suggestTypeDesc', '描述', 'Desc');
       } else if (item.type === 'repo') {
         display = highlightText(item.value, state.keyword || '');
-        typeLabel = '仓库';
+        typeLabel = getLabelWithFallback('suggestTypeRepo', '仓库', 'Repo');
       } else if (item.type === 'category') {
         display = highlightText(item.value, state.keyword || '');
-        typeLabel = '分类';
+        typeLabel = getLabelWithFallback('suggestTypeCategory', '分类', 'Category');
       }
 
       el.innerHTML = '<span>' + display + '</span><span class="suggest-type">' + typeLabel + '</span>';
@@ -136,13 +301,15 @@
       el.addEventListener('click', () => {
         if (item.type === 'category' && item.catId) {
           s.selectCategory(item.catId);
+          addRecentSearch(item.value);
           s.ensureDataForCurrentState().then(() => {
             r.renderAll();
           });
         } else if (item.skill) {
           const keyword = item.skill.name || item.value;
-          s.setKeyword(keyword);
           if (dom.search) dom.search.value = keyword;
+          s.setKeyword(keyword);
+          addRecentSearch(keyword);
           r.renderListOnly();
         }
         hideSearchSuggest();
@@ -150,6 +317,31 @@
 
       container.appendChild(el);
     });
+
+    // ponytail: show recent searches at the bottom
+    var recents = getRecentSearches();
+    if (recents.length > 0) {
+      var sep = document.createElement('div');
+      sep.className = 'search-suggest-separator';
+      sep.textContent = getLabelWithFallback('recentSearches', '最近搜索', 'Recent');
+      container.appendChild(sep);
+      recents.forEach(function (kw) {
+        var rel = document.createElement('button');
+        rel.type = 'button';
+        rel.className = 'search-suggest-item search-suggest-recent';
+        rel.setAttribute('role', 'option');
+        rel.innerHTML = '<span class="suggest-recent-icon" aria-hidden="true">⏱</span><span>' + escapeHtml(kw) + '</span>';
+        rel.addEventListener('click', function () {
+          if (dom.search) dom.search.value = kw;
+          s.setKeyword(kw);
+          addRecentSearch(kw);
+          r.renderListOnly();
+          hideSearchSuggest();
+        });
+        container.appendChild(rel);
+      });
+    }
+
     container.hidden = false;
   }
 
@@ -271,6 +463,7 @@
         updateSearchSuggest(raw);
         timer = setTimeout(() => {
           s.setKeyword(raw);
+          addRecentSearch(raw);
           hub.track.search(raw, (state.data || []).filter(function(item) {
             var kw = raw.toLowerCase();
             return (item.searchText || '').includes(kw) || (item.name || '').toLowerCase().includes(kw);

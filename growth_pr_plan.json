@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "title": "Skill Hub增长计划与PR提交策略",
+    "created_date": "2025-06-30",
+    "current_skills_count": 5562,
+    "objective": "通过Awesome List PR提交和竞品策略借鉴实现用户增长"
+  },
+  "task1_awesome_lists": [
+    {
+      "name": "awesome-ai-agents",
+      "repo_url": "https://github.com/e2b-dev/awesome-ai-agents",
+      "stars": 28552,
+      "maintainer": "e2b-dev",
+      "maintainer_type": "Organization",
+      "category": "AI Agents",
+      "relevance": "高 - 专注AI Agent资源整理，与Skill Hub技能中心定位高度契合",
+      "pr_difficulty": "中 - 组织维护，有明确贡献指南",
+      "priority": 1
+    },
+    {
+      "name": "Awesome-LLM",
+      "repo_url": "https://github.com/Hannibal046/Awesome-LLM",
+      "stars": 27059,
+      "maintainer": "Hannibal046",
+      "maintainer_type": "User",
+      "category": "LLM Resources",
+      "relevance": "高 - 涵盖AI Agent框架和工具，与Skill Hub直接相关",
+      "pr_difficulty": "低 - 个人维护，合并较快",
+      "priority": 2
+    },
+    {
+      "name": "awesome-llm-apps",
+      "repo_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "stars": 116113,
+      "maintainer": "Shubhamsaboo",
+      "maintainer_type": "User",
+      "category": "LLM Applications",
+      "relevance": "高 - 应用导向，Skill Hub可作为开发者工具平台被收录",
+      "pr_difficulty": "中 - 高星项目，审核较严",
+      "priority": 3
+    },
+    {
+      "name": "awesome-langchain",
+      "repo_url": "https://github.com/kyrolabs/awesome-langchain",
+      "stars": 9432,
+      "maintainer": "kyrolabs",
+      "maintainer_type": "Organization",
+      "category": "LangChain Ecosystem",
+      "relevance": "高 - LangChain生态工具，Skill Hub支持多种AI框架",
+      "pr_difficulty": "中 - 组织维护",
+      "priority": 4
+    },
+    {
+      "name": "awesome-ai-developer-tools",
+      "repo_url": "https://github.com/ColinEberhardt/awesome-ai-developer-tools",
+      "stars": 37,
+      "maintainer": "ColinEberhardt",
+      "maintainer_type": "User",
+      "category": "AI Developer Tools",
+      "relevance": "中 - 开发者工具定位匹配，但规模较小",
+      "pr_difficulty": "低 - 规模小，合并快",
+      "priority": 5
+    }
+  ],
+  "task2_pr_templates": {
+    "unified_pr_description": "### Add Skill Hub to Awesome List\n\n**Skill Hub** is an open platform for discovering, sharing, and using AI skills (MCP tools, integrations, and reusable prompts).\n\n- **Website:** https://skillhub.ai\n- **GitHub:** https://github.com/skillhub/skillhub  (if applicable)\n- **Current Scale:** 5,562+ curated skills and integrations\n- **Key Features:**\n  - 5,562+ curated AI skills covering coding, data, productivity, and more\n  - Community-driven contributions with skill validation and rating system\n  - Searchable by framework (LangChain, LlamaIndex, AutoGPT, etc.)\n  - Open API for developers to integrate skills into their agents\n- **Why it fits this list:** [Customize per list - e.g., it is the largest curated directory of AI agent skills]\n\nThis PR adds Skill Hub under the [appropriate_section] section, following the list's contribution guidelines.\n\n---\n\n**Checklist** (Customize per list):\n- [x] I have read and understand the [Contribution Guidelines]\n- [x] The entry follows the existing format (title, description, link)\n- [x] Skill Hub is a mature and notable resource\n- [x] Placeholder comment if needed: This is part of my 1 contribution per day\n",
+    "title_suggestions": [
+      "Add Skill Hub - AI Skill Discovery Platform (5,562+ skills)",
+      "Add Skill Hub - curated AI skills directory for agents"
+    ],
+    "customization_notes": {
+      "e2b-dev/awesome-ai-agents": "Highlight agent orchestration and MCP integration. Mention 5562 skills.",
+      "Hannibal046/Awesome-LLM": "Focus on LLM application layer and integration ecosystem.",
+      "Shubhamsaboo/awesome-llm-apps": "Emphasize practical, ready-to-use skills and community contributions.",
+      "kyrolabs/awesome-langchain": "Highlight LangChain-compatible skills and framework support.",
+      "ColinEberhardt/awesome-ai-developer-tools": "Position as developer productivity tool for AI agents."
+    }
+  },
+  "task3_competitor_analysis": {
+    "competitors": [
+      {
+        "name": "awesome-selfhosted",
+        "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+        "stars": 302001,
+        "glowup_strategies": [
+          {
+            "strategy": "自动化数据治理",
+            "description": "使用 awesome-selfhosted-data + 自动化脚本维护收录条目，实现去中心化的社区贡献流程。Skill Hub可借鉴其自动化审核和标准化数据格式。"
+          },
+          {
+            "strategy": "双仓库架构",
+            "description": "分离展示层(awesome-selfhosted)和数据层(awesome-selfhosted-data)，降低维护成本，方便第三方集成。Skill Hub可考虑将收录数据API化。"
+          },
+          {
+            "strategy": "高星引流效应",
+            "description": "通过30万+Stars的品牌效应建立行业标杆。Skill Hub应在GitHub上提升项目可见度，争取进入Awesome官方列表。"
+          }
+        ],
+        "actionable_insights": [
+          "建立自动化收录流程，减少对人工审核的依赖",
+          "提供机器可读的数据格式(JSON/YAML)供第三方集成",
+          "创建独立的'awesome-skillhub-skills'展示仓库提升GitHub曝光"
+        ]
+      },
+      {
+        "name": "toolify.ai",
+        "url": "https://toolify.ai",
+        "category": "AI Tools Directory",
+        "glowup_strategies": [
+          {
+            "strategy": "SEO/Product-Led流量",
+            "description": "toolify.ai通过海量工具收录和自动生成的SEO页面获取自然搜索流量。每个工具都有独立页面，覆盖大量长尾关键词。Skill Hub应为每个skill生成独立SEO页面。"
+          },
+          {
+            "strategy": "每日排行榜/趋势榜",
+            "description": "通过'今天最热门的AI工具''本周新增'等榜单制造内容更新和社交传播点。Skill Hub可推出'本周最热技能''新增技能榜单'等。"
+          },
+          {
+            "strategy": "分类矩阵优化",
+            "description": "精细的行业分类(700+分类)和多维度筛选(免费/付费/API支持等)提升用户留存。Skill Hub应扩展分类维度和筛选能力。"
+          }
+        ],
+        "actionable_insights": [
+          "为每个skill创建独立SEO落地页，覆盖长尾搜索词",
+          "推出'每日/每周新增'和'趋势榜'板块，持续更新内容",
+          "增加多维度分类和筛选(价格/框架/使用场景)"
+        ]
+      },
+      {
+        "name": "VoltAgent/awesome-agent-skills",
+        "url": "https://github.com/VoltAgent/awesome-agent-skills",
+        "stars": 26899,
+        "category": "Agent Skills Curation (直接竞争)",
+        "glowup_strategies": [
+          {
+            "strategy": "GitHub社区驱动增长",
+            "description": "通过GitHub Stars和Forks建立社群共识，利用PR机制让社区自主贡献。高Stars本身就是最佳信任背书。"
+          },
+          {
+            "strategy": "品牌命名空间占领",
+            "description": "'awesome-agent-skills'直接对应搜索关键词，SEO优势显著。Skill Hub应考虑创建同名或高度相关的GitHub仓库。"
+          },
+          {
+            "strategy": "与生态深度绑定",
+            "description": "与特定Agent框架(如VoltAgent)绑定推广，利用框架的用户基础实现冷启动。"
+          }
+        ],
+        "actionable_insights": [
+          "创建官方的'awesome-skillhub'或'awesome-agent-skills'仓库争夺关键词",
+          "激励用户Star/Fork，利用GitHub算法提升推荐权重",
+          "与主流Agent框架建立官方合作关系，获得背书和互相引流"
+        ]
+      }
+    ]
+  },
+  "execution_timeline": [
+    {
+      "week": 1,
+      "actions": [
+        "准备5个Awesome List的PR文案和具体修改",
+        "向e2b-dev/awesome-ai-agents和Hannibal046/Awesome-LLM提交首批PR",
+        "监控PR反馈并及时调整文案"
+      ]
+    },
+    {
+      "week": 2,
+      "actions": [
+        "向剩余3个列表提交PR",
+        "启动'awesome-skillhub'官方GitHub仓库建设",
+        "上线SEO技能独立页面和趋势榜功能"
+      ]
+    },
+    {
+      "week": 3,
+      "actions": [
+        "分析PR合并率和流量增长数据",
+        "根据竞品分析优化网站分类和筛选功能",
+        "开展与Agent框架(如LangChain/AutoGPT)的合作推广"
+      ]
+    },
+    {
+      "week": 4,
+      "actions": [
+        "评估4周增长效果",
+        "扩展至更多垂直领域Awesome List(如awesome-maker, awesome-coding-tools)",
+        "制定下阶段增长目标(KPI: GitHub Stars > 1000, 日均UV增长30%)"
+      ]
+    }
+  ],
+  "kpi_tracking": {
+    "pr_submitted": 5,
+    "pr_merged_target": 3,
+    "github_stars_target": 1000,
+    "traffic_growth_target": "30% MoM",
+    "skills_count": 5562,
+    "community_members_target": 500
+  }
+}

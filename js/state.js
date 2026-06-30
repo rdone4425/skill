@@ -10,6 +10,40 @@
   const STATE_STORAGE_KEY = 'skill-hub.view-state';
   const STAR_FMT = (value) => value >= 1000 ? `${(value / 1000).toFixed(1).replace(/\.0$/, '')}k` : value.toLocaleString();
 
+  function getSceneLabel(sceneId) {
+    var scene = hub.SCENE_MAP && hub.SCENE_MAP[sceneId];
+    if (!scene) return sceneId || '';
+    var lang = hub.i18n ? hub.i18n.getLang() : 'zh';
+    return lang === 'zh' ? scene.zh : scene.en;
+  }
+
+  function getPurposeLabel(purposeId) {
+    var purpose = hub.PURPOSE_MAP && hub.PURPOSE_MAP[purposeId];
+    if (!purpose) return purposeId || '';
+    var lang = hub.i18n ? hub.i18n.getLang() : 'zh';
+    return lang === 'zh' ? purpose.zh : purpose.en;
+  }
+
+  function getSceneCategories(sceneId) {
+    var scene = hub.SCENE_MAP && hub.SCENE_MAP[sceneId];
+    return scene ? (scene.categories || []) : [];
+  }
+
+  function getPurposeCategories(purposeId) {
+    var purpose = hub.PURPOSE_MAP && hub.PURPOSE_MAP[purposeId];
+    return purpose ? (purpose.categories || []) : [];
+  }
+
+  function getFilteredCategoryIds() {
+    var sceneCats = state.scene ? getSceneCategories(state.scene) : null;
+    var purposeCats = state.purpose ? getPurposeCategories(state.purpose) : null;
+    if (!sceneCats && !purposeCats) return null;
+    if (sceneCats && !purposeCats) return sceneCats;
+    if (!sceneCats && purposeCats) return purposeCats;
+    // Both — intersect
+    return sceneCats.filter(function (c) { return purposeCats.indexOf(c) > -1; });
+  }
+
   const CATEGORY_LABELS = {
     automation: { zh: '\u81ea\u52a8\u5316', en: 'Automation' },
     'automation-productivity': { zh: '\u81ea\u52a8\u5316\u6548\u7387', en: 'Automation Productivity' },
@@ -128,6 +162,8 @@
     page: 1,
     requestSeq: 0,
     dataVersion: 0,
+    scene: null,
+    purpose: null,
   };
 
   const dom = {};
@@ -147,6 +183,8 @@
     if (params.has('sort')) nextState.sort = params.get('sort') || 'stars-desc';
     if (params.has('view')) nextState.viewMode = params.get('view') || 'flat';
     if (params.has('page')) nextState.page = parsePositiveInt(params.get('page'), 1);
+    if (params.has('scene')) nextState.scene = params.get('scene') || null;
+    if (params.has('purpose')) nextState.purpose = params.get('purpose') || null;
     return nextState;
   }
 

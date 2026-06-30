@@ -724,13 +724,134 @@
     similar.forEach(function (skill) { grid.appendChild(createCard(skill)); });
   }
 
+  /* ponytail: trending section — top-N highest-star skills */
+  function renderTrendingSection() {
+    var section = document.getElementById('trending-section');
+    if (!section) return;
+    var allData = state.data;
+    if (!allData || allData.length === 0) { section.hidden = true; return; }
+    // Show trending only on all-category view
+    if (state.category !== 'all' || state.keyword) { section.hidden = true; return; }
+    var trending = allData.slice()
+      .sort(function (a, b) { return (b.stars || 0) - (a.stars || 0); })
+      .slice(0, 8);
+    var grid = document.getElementById('trending-grid');
+    if (!grid) return;
+    grid.innerHTML = '';
+    trending.forEach(function (skill) { grid.appendChild(createCard(skill)); });
+    section.hidden = false;
+  }
+
+  /* ponytail: dynamic tag cloud from skill metadata */
+  function renderDynamicTags() {
+    var wrap = document.getElementById('trending-tags');
+    if (!wrap) return;
+    var allData = state.data;
+    if (!allData || allData.length === 0) return;
+    // Count tag frequency from name, desc, category, agents
+    var tagCounts = {};
+    function inc(t) { var k = t.toLowerCase(); tagCounts[k] = (tagCounts[k] || 0) + 1; }
+    allData.forEach(function (s) {
+      String(s.name || '').split(/[\\/\\s-]+/).forEach(inc);
+      (s.supportedAgents || []).forEach(function (a) { inc(s.getAgentLabel ? s.getAgentLabel(a) : a); });
+      inc(s.agentType || '');
+    });
+    // Merge with category labels
+    (state.categories || []).forEach(function (c) { inc(hub.state.getCategoryLabel(c.id)); });
+    // Remove stopwords + short
+    var stop = ['the','a','an','of','in','for','to','and','or','on','with','is','it','at','by','as','be','no','de','la','en','el','da','di','et','le','per','con','su','un','se','al','del','lo','&','api','cli','ui','sdk','tool','tools','lib','library','use','your','you','from','using','that','this','not','are','has','its','all','one','can','new','more','code','data','app','web','js','ts','py','go','rs','http','https','git','hub'];
+    var stopSet = new Set(stop);
+    var entries = Object.entries(tagCounts)
+      .map(function (e) { return { key: e[0], count: e[1] }; })
+      .filter(function (e) { return e.count >= 2 && !stopSet.has(e.key) && e.key.length >= 2; })
+      .sort(function (a, b) { return b.count - a.count; })
+      .slice(0, 15);
+    // Render after the 🔥 label
+    var label = wrap.querySelector('.trending-label');
+    // Remove old pills but keep label
+    wrap.querySelectorAll('.tag-pill').forEach(function (p) { p.remove(); });
+    entries.forEach(function (e) {
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'tag-pill';
+      btn.dataset.tag = e.key;
+      btn.textContent = e.key;
+      btn.addEventListener('click', function () {
+        var kw = this.dataset.tag;
+        hub.track.tagClick(kw);
+        var searchEl = document.getElementById('search');
+        if (searchEl) searchEl.value = kw;
+        s.setKeyword(kw);
+        hub._searchSuggest.hideSearchSuggest();
+        r.render();
+        if (searchEl) searchEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+      wrap.appendChild(btn);
+    });
+  }
+
+  /* ponytail: related skills based on category */
+  function renderRelatedSkills() {
+    var section = document.getElementById('related-section');
+    if (!section) return;
+    // Remove any existing
+    if (section) section.remove();
+    // Only show when filtered by category but not subcategory
+    if (state.category === 'all' || state.subcategory || state.keyword) return;
+    var allData = state.data;
+    if (allData.length === 0) return;
+    // Find skills from same top category
+    var sameCat = allData.filter(function (s) {
+      return String(s.topCategoryId || '') === state.category;
+    });
+    if (sameCat.length <= 4) return;
+    // Shuffle and pick 4 excluding currently displayed
+    var currentPage = r.getFiltered();
+    var currentNames = new Set();
+    var start = (state.page - 1) * s.PER_PAGE;
+    var pageSlice = currentPage.slice(start, start + s.PER_PAGE);
+    pageSlice.forEach(function (s) { currentNames.add(s.name); });
+    var candidates = sameCat.filter(function (s) { return !currentNames.has(s.name); });
+    if (candidates.length <= 2) return;
+    // Fisher-Yates shuffle then take 4
+    for (var i = candidates.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = candidates[i]; candidates[i] = candidates[j]; candidates[j] = t;
+    }
+    var related = candidates.slice(0, 4);
+    // Create section and insert before #results
+    section = document.createElement('section');
+    section.id = 'related-section';
+    section.className = 'related-section';
+    section.setAttribute('aria-labelledby', 'related-title');
+    section.innerHTML = [
+      '<div class="related-header">',
+      '  <h3 class="related-title" id="related-title">',
+      '    <span>🔗</span>',
+      '    <span>' + hub.i18n.t('relatedTitle') + '</span>',
+      '  </h3>',
+      '  <p class="related-desc">' + hub.i18n.t('relatedDesc') + '</p>',
+      '</div>',
+      '<div class="related-grid card-grid"></div>',
+    ].join('');
+    var grid = section.querySelector('.related-grid');
+    related.forEach(function (skill) { grid.appendChild(createCard(skill)); });
+    var resultsEl = document.getElementById('results');
+    if (resultsEl && resultsEl.parentNode) {
+      resultsEl.parentNode.insertBefore(section, resultsEl);
+    }
+  }
+
   function renderAll() {
     s.syncControls();
     renderHeaderStats();
     renderFilters();
+    renderDynamicTags();
     renderStats();
     render();
+    renderTrendingSection();
     renderRecommendations();
+    renderRelatedSkills();
     s.persistState();
   }
 
@@ -752,5 +873,8 @@
     renderActiveFilters,
     setupActiveFiltersEvents,
     renderPlatformFilters,
+    renderTrendingSection,
+    renderDynamicTags,
+    renderRelatedSkills,
   };
 })();

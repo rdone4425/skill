@@ -9,6 +9,62 @@
   const CATEGORIES_INDEX_URL = 'categories/index.json';
   const SESSION_BUCKET_PREFIX = 'skill-hub.bucket.v2.';
 
+  /* ===== 场景筛选映射 ===== */
+  const SCENE_MAP = {
+    developer: {
+      zh: '开发者', en: 'Developer',
+      categories: ['dev-tools', 'agent-framework', 'backend-api', 'devops-deploy', 'testing-qa'],
+    },
+    designer: {
+      zh: '设计师', en: 'Designer',
+      categories: ['design-ui', '3d', 'image-gen', 'video-gen', 'video-multimedia'],
+    },
+    pm: {
+      zh: '产品经理', en: 'PM',
+      categories: ['automation-productivity', 'docs-content', 'data-ai', 'finance-crypto', 'ecommerce'],
+    },
+    marketer: {
+      zh: '运营', en: 'Marketer',
+      categories: ['social-media', 'docs-content', 'ecommerce', 'data-ai', 'audio-speech'],
+    },
+    student: {
+      zh: '学生', en: 'Student',
+      categories: ['education', 'data-ai', 'general', 'game-dev'],
+    },
+    researcher: {
+      zh: '研究者', en: 'Researcher',
+      categories: ['data-ai', 'agent-framework', 'security', 'health-medical', 'finance-crypto'],
+    },
+  };
+
+  const SCENE_ORDER = ['developer', 'designer', 'pm', 'marketer', 'student', 'researcher'];
+
+  /** 使用目的 → 关联分类 */
+  const PURPOSE_MAP = {
+    automation: {
+      zh: '自动化', en: 'Automation',
+      categories: ['automation-productivity', 'agent-framework', 'browser-automation', 'devops-deploy'],
+    },
+    contentCreation: {
+      zh: '内容创作', en: 'Content Creation',
+      categories: ['docs-content', 'video-gen', 'audio-speech', 'image-gen', 'design-ui', 'social-media'],
+    },
+    dataAnalysis: {
+      zh: '数据分析', en: 'Data Analysis',
+      categories: ['data-ai', 'finance-crypto', 'general'],
+    },
+    learning: {
+      zh: '学习', en: 'Learning',
+      categories: ['education', 'data-ai', 'general', 'game-dev'],
+    },
+    entertainment: {
+      zh: '娱乐', en: 'Entertainment',
+      categories: ['video-multimedia', 'social-media', 'game-dev', 'audio-speech', 'general'],
+    },
+  };
+
+  const PURPOSE_ORDER = ['automation', 'contentCreation', 'dataAnalysis', 'learning', 'entertainment'];
+
   const LEGACY_CATEGORY_HIERARCHY = {
     'automation-productivity': { groupId: 'automation', subcategoryId: 'productivity' },
     'backend-api': { groupId: 'backend', subcategoryId: 'api' },
@@ -78,304 +134,133 @@
 
   function resolveHierarchy(meta) {
     const id = String(meta?.id || '').trim();
-    const pathValue = normalizePath(meta?.path || id);
+    /* ponytail: legacy leaf nodes (no groupId) use LEGACY_CATEGORY_HIERARCHY */
+    if (meta?.groupId && meta?.subcategoryId) {
+      return { groupId: meta.groupId, subcategoryId: meta.subcategoryId };
+    }
     const legacy = LEGACY_CATEGORY_HIERARCHY[id];
-    if (legacy) {
-      return {
-        id,
-        path: pathValue || id,
-        groupId: legacy.groupId,
-        subcategoryId: legacy.subcategoryId,
-      };
-    }
-
-    const parts = pathValue.split('/').filter(Boolean);
-    if (parts.length >= 2) {
-      return {
-        id: id || pathValue,
-        path: pathValue,
-        groupId: String(meta?.groupId || parts[0]).trim() || parts[0],
-        subcategoryId: String(meta?.subcategoryId || parts[1]).trim() || parts[1],
-      };
-    }
-
-    const normalizedId = id || pathValue || 'general';
-    return {
-      id: normalizedId,
-      path: pathValue || normalizedId,
-      groupId: String(meta?.groupId || normalizedId).trim() || normalizedId,
-      subcategoryId: String(meta?.subcategoryId || normalizedId).trim() || normalizedId,
-    };
-  }
-
-  function normalizeLeafCategory(category) {
-    const hierarchy = resolveHierarchy(category);
-    return {
-      id: hierarchy.id,
-      path: hierarchy.path,
-      groupId: hierarchy.groupId,
-      subcategoryId: hierarchy.subcategoryId,
-      count: Number(category?.count || 0),
-    };
+    if (legacy) return { groupId: legacy.groupId, subcategoryId: legacy.subcategoryId };
+    return { groupId: id || 'general', subcategoryId: id || 'general' };
   }
 
   function sortLeafCategories(categories) {
-    return (categories || []).slice().sort((left, right) => {
+    return (categories || []).slice().sort(function (left, right) {
       if ((right.count || 0) !== (left.count || 0)) return (right.count || 0) - (left.count || 0);
       return String(left.subcategoryId || left.id || '').localeCompare(String(right.subcategoryId || right.id || ''));
     });
   }
 
-  function sortGroups(groups) {
-    return (groups || []).slice().sort((left, right) => {
-      if ((right.count || 0) !== (left.count || 0)) return (right.count || 0) - (left.count || 0);
-      return String(left.id || '').localeCompare(String(right.id || ''));
-    });
-  }
-
-  function buildGroupsFromLeaves(leafCategories) {
-    const grouped = new Map();
-
-    leafCategories.forEach((leaf) => {
-      if (!grouped.has(leaf.groupId)) {
-        grouped.set(leaf.groupId, {
-          id: leaf.groupId,
-          count: 0,
-          subcategories: [],
-        });
-      }
-      const entry = grouped.get(leaf.groupId);
-      entry.count += leaf.count || 0;
-      entry.subcategories.push({
-        id: leaf.id,
-        path: leaf.path,
-        count: leaf.count || 0,
-        groupId: leaf.groupId,
-        subcategoryId: leaf.subcategoryId,
-      });
-    });
-
-    return sortGroups(
-      [...grouped.values()].map((group) => ({
-        ...group,
-        subcategories: sortLeafCategories(group.subcategories),
-      })),
-    );
-  }
-
-  function normalizeGroups(index) {
-    const bucketLeaves = sortLeafCategories((index.categories || []).map(normalizeLeafCategory));
-
-    if (Array.isArray(index.groups) && index.groups.length > 0) {
-      const groups = index.groups.map((group) => ({
-        id: String(group.id || '').trim(),
-        count: Number(group.count || 0),
-        subcategories: sortLeafCategories(
-          (group.subcategories || []).map((subcategory) => normalizeLeafCategory({
-            id: subcategory.id,
-            path: subcategory.path || subcategory.id,
-            groupId: group.id,
-            subcategoryId: subcategory.subcategoryId,
-            count: subcategory.count,
-          })),
-        ),
-      }));
-
-      return {
-        groups: sortGroups(groups),
-        leafCategories: bucketLeaves,
-      };
-    }
-
-    const leafCategories = bucketLeaves;
-    return {
-      groups: buildGroupsFromLeaves(leafCategories),
-      leafCategories,
-    };
-  }
-
-  function normalizeSkill(skill, bucket) {
-    const install = String(skill.install || '').trim();
-    const supportedAgents = Array.isArray(skill.supportedAgents)
-      ? [...new Set(skill.supportedAgents.map((agentId) => String(agentId || '').trim()).filter(Boolean))]
-      : [];
-
-    const normalized = {
-      ...skill,
-      functionCategory: String(skill.functionCategory || bucket.id || 'general').trim() || 'general',
-      topCategoryId: String(skill.topCategoryId || bucket.groupId || 'general').trim() || 'general',
-      subCategoryId: String(skill.subCategoryId || bucket.subcategoryId || bucket.id || 'general').trim() || 'general',
-      categoryPath: normalizePath(skill.categoryPath || bucket.path || bucket.id || 'general'),
-      supportedAgents,
-      install,
-    };
-
-    normalized.searchText = [
-      normalized.name,
-      normalized.desc,
-      normalized.repo,
-      normalized.install,
-      normalized.functionCategory,
-      normalized.topCategoryId,
-      normalized.subCategoryId,
-      ...supportedAgents,
-    ].filter(Boolean).join(' ').toLowerCase();
-
-    return normalized;
-  }
-
-  function createMeta(index, groups, overrides) {
-    const next = overrides || {};
-    return {
-      title: 'Skill Hub',
-      description: 'AI agent skill directory',
-      lastUpdated: index.generatedAt || '',
-      totalCount: Number(next.totalCount ?? index.totalSkills ?? 0),
-      sources: next.sources || 0,
-      categoryCount: Array.isArray(groups) ? groups.length : 0,
-      platformCount: Array.isArray(index.platforms) ? index.platforms.length : 0,
-    };
-  }
-
-  function prepareBuckets(leafCategories) {
-    return leafCategories.map((category) => ({
-      id: category.id,
-      groupId: category.groupId,
-      subcategoryId: category.subcategoryId,
-      count: category.count || 0,
-      cacheKey: String(category.path || category.id || 'general'),
-      url: `categories/${normalizePath(category.path || category.id)}/skills.json`,
-      path: normalizePath(category.path || category.id),
-    }));
-  }
-
-  function loadBucket(bucket) {
-    if (bucketCache.has(bucket.cacheKey)) {
-      return bucketCache.get(bucket.cacheKey);
-    }
-
-    const cached = readBucketSessionCache(bucket.cacheKey);
-    if (cached) {
-      const cachedPromise = Promise.resolve(cached);
-      bucketCache.set(bucket.cacheKey, cachedPromise);
-      return cachedPromise;
-    }
-
-    const promise = fetchJson(bucket.url).then((payload) => {
-      const skills = (payload.skills || []).map((skill) => normalizeSkill(skill, bucket));
-      writeBucketSessionCache(bucket.cacheKey, skills);
-      return skills;
-    });
-
-    bucketCache.set(bucket.cacheKey, promise);
-    return promise;
-  }
-
-  async function loadBuckets(buckets) {
-    const groups = await Promise.all((buckets || []).map(loadBucket));
-    return groups.flat();
-  }
-
-  function buildGroupsFromSkills(skills) {
-    const grouped = new Map();
-
-    (skills || []).forEach((skill) => {
-      const groupId = String(skill.topCategoryId || skill.functionCategory || 'general');
-      const subcategoryId = String(skill.subCategoryId || skill.functionCategory || 'general');
-      if (!grouped.has(groupId)) {
-        grouped.set(groupId, {
-          id: groupId,
-          count: 0,
-          subcategories: new Map(),
-        });
-      }
-
-      const group = grouped.get(groupId);
-      group.count += 1;
-      group.subcategories.set(subcategoryId, (group.subcategories.get(subcategoryId) || 0) + 1);
-    });
-
-    return sortGroups([...grouped.values()].map((group) => ({
-      id: group.id,
-      count: group.count,
-      subcategories: sortLeafCategories([...group.subcategories.entries()].map(([subcategoryId, count]) => ({
-        id: group.id + '/' + subcategoryId,
-        path: group.id + '/' + subcategoryId,
-        groupId: group.id,
-        subcategoryId,
-        count,
-      }))),
-    })));
-  }
-
-  function createSummaryFromSkills(index, groups, skills) {
-    const computedGroups = buildGroupsFromSkills(skills);
-    const repoCount = new Set((skills || []).map((skill) => skill.repo).filter(Boolean)).size;
-    return {
-      meta: createMeta(index, computedGroups, {
-        totalCount: (skills || []).length,
-        sources: repoCount,
-      }),
-      categories: computedGroups,
-      skills,
-      sources: repoCount,
-    };
-  }
-
-  function loadIndex() {
+  async function loadIndex() {
     if (indexPromise) return indexPromise;
-
-    indexPromise = fetchJson(CATEGORIES_INDEX_URL).then((index) => {
-      const normalized = normalizeGroups(index);
-      return {
-        raw: index,
-        meta: createMeta(index, normalized.groups),
-        categories: normalized.groups,
-        leafCategories: normalized.leafCategories,
-        buckets: prepareBuckets(normalized.leafCategories),
-        platforms: index.platforms || [],
-      };
+    indexPromise = fetchJson(CATEGORIES_INDEX_URL).then(function (data) {
+      if (!data || !Array.isArray(data.categories)) return data;
+      var totals = { meta: data.meta || {} };
+      totals.categories = data.categories.map(function (category) {
+        var h = resolveHierarchy(category);
+        return {
+          id: category.id,
+          path: category.path || category.id,
+          groupId: h.groupId,
+          subcategoryId: h.subcategoryId,
+          count: category.count || 0,
+          name_en: category.name_en || category.id,
+          name_cn: category.name_cn || category.id,
+          seo: category.seo,
+          schemaOrg: category.schemaOrg,
+        };
+      });
+      totals.leafCategories = totals.categories.slice();
+      var groups = new Map();
+      totals.categories.forEach(function (category) {
+        var groupId = category.groupId;
+        if (!groups.has(groupId)) {
+          groups.set(groupId, { id: groupId, count: 0, subcategories: [] });
+        }
+        var group = groups.get(groupId);
+        group.count += category.count || 0;
+        group.subcategories.push({
+          subcategoryId: category.subcategoryId,
+          id: category.id,
+          path: category.path || category.id,
+          count: category.count || 0,
+          groupId: groupId,
+        });
+      });
+      totals.meta.totalCount = totals.categories.reduce(function (sum, category) { return sum + (category.count || 0); }, 0);
+      totals.meta.categoryCount = totals.categories.length;
+      totals.categories = sortLeafCategories([...groups.values()]);
+      return totals;
     });
-
     return indexPromise;
   }
 
-  function prefetchAllData() {
+  async function prefetchAllData() {
     if (allDataPromise) return allDataPromise;
-
-    allDataPromise = loadIndex().then(async (indexData) => {
-      const skills = await loadBuckets(indexData.buckets);
-      return createSummaryFromSkills(indexData.raw, indexData.categories, skills);
+    allDataPromise = loadIndex().then(async function (indexData) {
+      var allSkills = [];
+      var categoryMetaMap = {};
+      (indexData.leafCategories || []).forEach(function (category) {
+        categoryMetaMap[category.id] = category;
+      });
+      var fetches = (indexData.leafCategories || []).map(async function (category) {
+        var url = 'categories/' + encodeURIComponent(category.path || category.id) + '/skills.json';
+        var cached = bucketCache.get(url);
+        if (cached) return cached;
+        try {
+          var data = await fetchJson(url);
+          bucketCache.set(url, data);
+          return data;
+        } catch {
+          return { skills: [] };
+        }
+      });
+      var results = await Promise.allSettled(fetches);
+      results.forEach(function (result) {
+        if (result.status === 'fulfilled' && Array.isArray(result.value.skills)) {
+          allSkills.push.apply(allSkills, result.value.skills);
+        }
+      });
+      return {
+        meta: {
+          totalCount: allSkills.length,
+          categoryCount: indexData.categories.length,
+          sources: new Set(allSkills.map(function (s) { return s.repo; })).size,
+          platformCount: 0,
+        },
+        categories: indexData.categories,
+        skills: allSkills,
+      };
     });
-
     return allDataPromise;
-  }
-
-  function findGroup(indexData, groupId) {
-    return (indexData.categories || []).find((group) => group.id === groupId) || null;
   }
 
   function resolveLegacySelection(indexData, selection) {
     if (!selection || !selection.category || selection.category === 'all') {
+      return { category: 'all', subcategory: null };
+    }
+
+    var categoryId = String(selection.category);
+
+    // Check if category is a direct top-level group
+    if (indexData.categories && indexData.categories.some(function (c) { return c.id === categoryId; })) {
+      return { category: categoryId, subcategory: selection.subcategory || null };
+    }
+
+    // Check if it's a legacy leaf node
+    var legacy = LEGACY_CATEGORY_HIERARCHY[categoryId];
+    if (legacy) {
       return {
-        category: 'all',
-        subcategory: null,
+        category: legacy.groupId,
+        subcategory: legacy.subcategoryId,
       };
     }
 
-    const directGroup = findGroup(indexData, selection.category);
-    if (directGroup) {
+    // Check leaf categories in index
+    var leaf = (indexData.leafCategories || []).find(function (c) { return c.id === categoryId || c.path === categoryId; });
+    if (leaf) {
       return {
-        category: selection.category,
-        subcategory: selection.subcategory || null,
-      };
-    }
-
-    const directLeaf = (indexData.leafCategories || []).find((leaf) => leaf.id === selection.category || leaf.path === selection.category);
-    if (directLeaf) {
-      return {
-        category: directLeaf.groupId,
-        subcategory: directLeaf.subcategoryId,
+        category: leaf.groupId,
+        subcategory: leaf.subcategoryId,
       };
     }
 
@@ -433,4 +318,9 @@
     loadForSelection,
     resolveHierarchy,
   };
+
+  hub.SCENE_MAP = SCENE_MAP;
+  hub.SCENE_ORDER = SCENE_ORDER;
+  hub.PURPOSE_MAP = PURPOSE_MAP;
+  hub.PURPOSE_ORDER = PURPOSE_ORDER;
 })();
