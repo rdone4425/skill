@@ -289,7 +289,8 @@
       let typeLabel = '';
       if (item.type === 'name') {
         display = highlightText(item.value, state.keyword || '');
-        typeLabel = label('suggestTypeName', '名称', 'Name');
+        var catId = s.getSkillCategory(item.skill);
+        typeLabel = s.getCategoryLabel(catId);
       } else if (item.type === 'desc') {
         display = highlightText(item.value, state.keyword || '');
         typeLabel = label('suggestTypeDesc', '描述', 'Desc');
@@ -301,7 +302,8 @@
         typeLabel = label('suggestTypeCategory', '分类', 'Category');
       }
 
-      el.innerHTML = '<span>' + display + '</span><span class="suggest-type">' + typeLabel + '</span>';
+      var typeClass = item.type === 'name' ? 'suggest-category' : 'suggest-type';
+      el.innerHTML = '<span>' + display + '</span><span class="' + typeClass + '">' + typeLabel + '</span>';
 
       el.addEventListener('click', () => {
         if (item.type === 'category' && item.catId) {
@@ -354,30 +356,8 @@
     const suggestEl = document.getElementById('search-suggest');
     if (!suggestEl) return;
 
-    if (!keyword || keyword.length < 1) {
-      // ponytail: show recent searches on empty input
-      var recents = getRecentSearches();
-      if (recents.length > 0) {
-        suggestEl.innerHTML = '';
-        recents.forEach(function (kw) {
-          var rel = document.createElement('button');
-          rel.type = 'button';
-          rel.className = 'search-suggest-item search-suggest-recent';
-          rel.setAttribute('role', 'option');
-          rel.innerHTML = '<span class="suggest-recent-icon" aria-hidden="true">⏱</span><span>' + escapeHtml(kw) + '</span>';
-          rel.addEventListener('click', function () {
-            if (dom.search) dom.search.value = kw;
-            s.setKeyword(kw);
-            addRecentSearch(kw);
-            r.renderListOnly();
-            hideSearchSuggest();
-          });
-          suggestEl.appendChild(rel);
-        });
-        suggestEl.hidden = false;
-      } else {
-        suggestEl.hidden = true;
-      }
+    if (!keyword || keyword.length < 2) {
+      suggestEl.hidden = true;
       return;
     }
 
@@ -503,7 +483,7 @@
         setTimeout(() => hideSearchSuggest(), 180);
       });
       search.addEventListener('focus', () => {
-        if (search.value.length >= 1) {
+        if (search.value.length >= 2) {
           updateSearchSuggest(search.value);
         }
       });
@@ -628,6 +608,40 @@
       dom['page-next'].addEventListener('click', () => {
         state.page += 1;
         r.renderListOnly();
+      });
+    }
+
+    /* ===== Scene / Purpose chip clicks (delegated — chips are dynamic) ===== */
+    var controlsEl = dom['controls'] || document.querySelector('.controls');
+    if (controlsEl) {
+      controlsEl.addEventListener('click', async function (ev) {
+        var sceneBtn = ev.target.closest('[data-scene-id]');
+        var sceneClear = ev.target.closest('[data-scene-clear]');
+        var purposeBtn = ev.target.closest('[data-purpose-id]');
+        var purposeClear = ev.target.closest('[data-purpose-clear]');
+        var sceneCat = ev.target.closest('[data-scene-cat]');
+
+        if (sceneBtn) {
+          s.setScene(sceneBtn.dataset.sceneId || null);
+          await s.ensureDataForCurrentState();
+          r.renderAll();
+        } else if (sceneClear) {
+          s.setScene(null);
+          await s.ensureDataForCurrentState();
+          r.renderAll();
+        } else if (purposeBtn) {
+          s.setPurpose(purposeBtn.dataset.purposeId || null);
+          await s.ensureDataForCurrentState();
+          r.renderAll();
+        } else if (purposeClear) {
+          s.setPurpose(null);
+          await s.ensureDataForCurrentState();
+          r.renderAll();
+        } else if (sceneCat) {
+          s.selectCategory(sceneCat.dataset.sceneCat || null);
+          await s.ensureDataForCurrentState();
+          r.renderAll();
+        }
       });
     }
   }

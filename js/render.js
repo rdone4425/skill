@@ -38,6 +38,19 @@
     return dp[m][n];
   }
 
+  /* highlightKeywords: wrap matched words in <span class="highlight">.
+     Only applies when state.keyword is set. Case-insensitive, multi-word. */
+  function highlightKeywords(text) {
+    if (!text || !state.keyword) return text || '';
+    const words = state.keyword.trim().split(/\s+/).filter(Boolean);
+    if (words.length === 0) return text;
+    const escaped = words.map(function(w) { return w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); });
+    return String(text).replace(
+      new RegExp(escaped.join('|'), 'gi'),
+      function(match) { return '<span class="highlight">' + match + '</span>'; }
+    );
+  }
+
   function renderAgentMark(agentId, className) {
     const meta = s.getAgentMeta(agentId);
     const label = s.getAgentLabel(agentId);
@@ -83,6 +96,8 @@
       state.agent || '',
       state.keyword,
       state.sort,
+      state.scene || '',
+      state.purpose || '',
     ].join('::');
 
     if (cacheKey === filteredCacheKey) {
@@ -90,6 +105,18 @@
     }
 
     let list = state.data;
+
+    /* Scene/purpose filtering: compute intersection of applicable category ids */
+    const filteredCatIds = s.getFilteredCategoryIds();
+    if (filteredCatIds) {
+      const catSet = new Set(filteredCatIds);
+      list = list.filter((item) => {
+        const topCat = String(item.topCategoryId || '');
+        const subCat = String(item.subCategoryId || '');
+        const fnCat = String(item.functionCategory || '');
+        return catSet.has(topCat) || catSet.has(subCat) || catSet.has(fnCat);
+      });
+    }
 
     if (state.agent) {
       list = list.filter((item) => s.getSkillAgents(item).includes(state.agent));
@@ -352,14 +379,14 @@
             : `<span class="card-emoji">${primaryMeta.icon || '?'}</span>`}
         </div>
         <div class="card-title-wrap">
-          <div class="card-name">${skill.name}</div>
+          <div class="card-name">${highlightKeywords(skill.name)}</div>
           <div class="card-repo">
             <a href="https://github.com/${skill.repo}" target="_blank" rel="noopener">${skill.repo}</a>
             <span class="card-stars" title="${Number(skill.stars || 0).toLocaleString()}">★ ${s.STAR_FMT(Number(skill.stars || 0))}</span>
           </div>
         </div>
       </div>
-      <p class="card-desc">${skill.desc || ''}</p>
+      <p class="card-desc">${highlightKeywords(skill.desc || '')}</p>
       <div class="card-meta">
         <span class="card-group">${getSkillCategoryDisplay(skill)}</span>
         ${pricingLabel ? `<span class="card-pricing pricing-${String(skill.pricing || 'free').toLowerCase()}">${pricingLabel}</span>` : ''}
@@ -668,6 +695,22 @@
         return '<button type="button" class="scene-chip' + (active ? ' active' : '') + '" data-scene-id="' + id + '">' + label + '</button>';
       }).join('') +
       (state.scene ? '<button type="button" class="scene-chip scene-chip-clear" data-scene-clear="1">' + (lang === 'zh' ? '✕ 清除' : '✕ Clear') + '</button>' : '');
+    /* Wire scene chip clicks */
+    sceneRow.querySelectorAll('[data-scene-id]').forEach(function (btn) {
+      btn.addEventListener('click', async function () {
+        var id = this.dataset.sceneId;
+        s.setScene(state.scene === id ? null : id);
+        await s.ensureDataForCurrentState();
+        r.renderAll();
+      });
+    });
+    sceneRow.querySelectorAll('[data-scene-clear]').forEach(function (btn) {
+      btn.addEventListener('click', async function () {
+        s.setScene(null);
+        await s.ensureDataForCurrentState();
+        r.renderAll();
+      });
+    });
 
     /* --- Scene sub-category chips (quick access) --- */
     var sceneSub = document.getElementById('scene-sub-row');
@@ -688,6 +731,15 @@
             return '<button type="button" class="scene-sub-chip' + (active ? ' active' : '') + '" data-scene-cat="' + catId + '">' +
               s.getCategoryLabel(catId) + '<span class="scene-sub-count">' + (cat ? cat.count : 0) + '</span></button>';
           }).join('');
+        /* Wire scene-sub chip clicks */
+        sceneSub.querySelectorAll('[data-scene-cat]').forEach(function (btn) {
+          btn.addEventListener('click', async function () {
+            var catId = this.dataset.sceneCat;
+            s.selectCategory(catId);
+            await s.ensureDataForCurrentState();
+            r.renderAll();
+          });
+        });
       } else {
         sceneSub.hidden = true;
       }
@@ -952,6 +1004,13 @@
     if (resultsEl && resultsEl.parentNode) {
       resultsEl.parentNode.insertBefore(section, resultsEl);
     }
+  }
+
+  /* ponytail: light re-render — filters + results only, skip heavy sections */
+  function renderListOnly() {
+    renderFilters();
+    render();
+    s.persistState();
   }
 
   function renderAll() {
