@@ -14,7 +14,7 @@
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
       "stars": 156452,
-      "desc": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with varia",
+      "desc": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a sk...",
       "url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
       "install": "$skill-installer skill-creator",
       "functionCategory": "testing-qa",
@@ -50,7 +50,7 @@
       "sourceAgent": "hoppscotch",
       "repo": "hoppscotch/hoppscotch",
       "stars": 79664,
-      "desc": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
+      "desc": "Open-Source API Development Ecosystem \u2022 https://hoppscotch.io \u2022 Offline, On-Prem & Cloud \u2022 Web, Desktop & CLI \u2022 Open-Source Alternative to Postman, Insomnia",
       "url": "https://github.com/hoppscotch/hoppscotch",
       "install": "",
       "functionCategory": "testing-qa",
@@ -60,7 +60,7 @@
       "supportedAgents": [
         "hoppscotch"
       ],
-      "searchText": "hoppscotch open-source api development ecosystem • https://hoppscotch.io • offline, on-prem & cloud • web, desktop & cli • open-source alternative to postman, insomnia hoppscotch/hoppscotch testing-qa hoppscotch"
+      "searchText": "hoppscotch open-source api development ecosystem \u2022 https://hoppscotch.io \u2022 offline, on-prem & cloud \u2022 web, desktop & cli \u2022 open-source alternative to postman, insomnia hoppscotch/hoppscotch testing-qa hoppscotch"
     },
     {
       "name": "bruno",
@@ -104,7 +104,7 @@
       "sourceAgent": "locust",
       "repo": "locustio/locust",
       "stars": 27947,
-      "desc": "Write scalable load tests in plain Python 🚗💨",
+      "desc": "Write scalable load tests in plain Python \ud83d\ude97\ud83d\udca8",
       "url": "https://github.com/locustio/locust",
       "install": "",
       "functionCategory": "testing-qa",
@@ -114,7 +114,7 @@
       "supportedAgents": [
         "locust"
       ],
-      "searchText": "locust write scalable load tests in plain python 🚗💨 locustio/locust testing-qa locust"
+      "searchText": "locust write scalable load tests in plain python \ud83d\ude97\ud83d\udca8 locustio/locust testing-qa locust"
     },
     {
       "name": "behat-skill",
@@ -926,7 +926,7 @@
       "sourceAgent": "metersphere",
       "repo": "metersphere/metersphere",
       "stars": 13308,
-      "desc": "MeterSphere 是新一代的开源持续测试工具，内置 AI 助手，让软件测试工作更简单、更高效，不再成为持续交付的瓶颈。",
+      "desc": "MeterSphere \u662f\u65b0\u4e00\u4ee3\u7684\u5f00\u6e90\u6301\u7eed\u6d4b\u8bd5\u5de5\u5177\uff0c\u5185\u7f6e AI \u52a9\u624b\uff0c\u8ba9\u8f6f\u4ef6\u6d4b\u8bd5\u5de5\u4f5c\u66f4\u7b80\u5355\u3001\u66f4\u9ad8\u6548\uff0c\u4e0d\u518d\u6210\u4e3a\u6301\u7eed\u4ea4\u4ed8\u7684\u74f6\u9888\u3002",
       "url": "https://github.com/metersphere/metersphere",
       "install": "",
       "functionCategory": "testing-qa",
@@ -936,7 +936,7 @@
       "supportedAgents": [
         "metersphere"
       ],
-      "searchText": "metersphere metersphere 是新一代的开源持续测试工具，内置 ai 助手，让软件测试工作更简单、更高效，不再成为持续交付的瓶颈。 metersphere/metersphere testing-qa metersphere"
+      "searchText": "metersphere metersphere \u662f\u65b0\u4e00\u4ee3\u7684\u5f00\u6e90\u6301\u7eed\u6d4b\u8bd5\u5de5\u5177\uff0c\u5185\u7f6e ai \u52a9\u624b\uff0c\u8ba9\u8f6f\u4ef6\u6d4b\u8bd5\u5de5\u4f5c\u66f4\u7b80\u5355\u3001\u66f4\u9ad8\u6548\uff0c\u4e0d\u518d\u6210\u4e3a\u6301\u7eed\u4ea4\u4ed8\u7684\u74f6\u9888\u3002 metersphere/metersphere testing-qa metersphere"
     },
     {
       "name": "seleniumbase",
@@ -980,7 +980,7 @@
       "sourceAgent": "oha",
       "repo": "hatoo/oha",
       "stars": 10339,
-      "desc": "Ohayou(おはよう), HTTP load generator, inspired by rakyll/hey with tui animation.",
+      "desc": "Ohayou(\u304a\u306f\u3088\u3046), HTTP load generator, inspired by rakyll/hey with tui animation.",
       "url": "https://github.com/hatoo/oha",
       "install": "",
       "functionCategory": "testing-qa",
@@ -990,7 +990,7 @@
       "supportedAgents": [
         "oha"
       ],
-      "searchText": "oha ohayou(おはよう), http load generator, inspired by rakyll/hey with tui animation. hatoo/oha testing-qa oha"
+      "searchText": "oha ohayou(\u304a\u306f\u3088\u3046), http load generator, inspired by rakyll/hey with tui animation. hatoo/oha testing-qa oha"
     },
     {
       "name": "testcafe",
@@ -1359,7 +1359,7 @@
       "sourceAgent": "general",
       "repo": "qawolf/cli",
       "stars": 3435,
-      "desc": "QA Wolf from anywhere — your terminal, your CI, your AI agent. Create browser tests with no code.",
+      "desc": "QA Wolf from anywhere \u2014 your terminal, your CI, your AI agent. Create browser tests with no code.",
       "url": "https://github.com/qawolf/cli",
       "install": "",
       "functionCategory": "testing-qa",
@@ -1369,7 +1369,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "cli qa wolf from anywhere — your terminal, your ci, your ai agent. create browser tests with no code. qawolf/cli testing-qa general"
+      "searchText": "cli qa wolf from anywhere \u2014 your terminal, your ci, your ai agent. create browser tests with no code. qawolf/cli testing-qa general"
     },
     {
       "name": "pester",
@@ -1539,7 +1539,7 @@
       "sourceAgent": "gock",
       "repo": "h2non/gock",
       "stars": 2216,
-      "desc": "HTTP traffic mocking and testing made easy in Go ༼ʘ̚ل͜ʘ̚༽",
+      "desc": "HTTP traffic mocking and testing made easy in Go \u0f3c\u0298\u031a\u0644\u035c\u0298\u031a\u0f3d",
       "url": "https://github.com/h2non/gock",
       "install": "",
       "functionCategory": "testing-qa",
@@ -1549,7 +1549,7 @@
       "supportedAgents": [
         "gock"
       ],
-      "searchText": "gock http traffic mocking and testing made easy in go ༼ʘ̚ل͜ʘ̚༽ h2non/gock testing-qa gock"
+      "searchText": "gock http traffic mocking and testing made easy in go \u0f3c\u0298\u031a\u0644\u035c\u0298\u031a\u0f3d h2non/gock testing-qa gock"
     },
     {
       "name": "moq",
@@ -1593,7 +1593,7 @@
       "sourceAgent": "loki",
       "repo": "oblador/loki",
       "stars": 1909,
-      "desc": "👁 Visual Regression Testing for Storybook",
+      "desc": "\ud83d\udc41 Visual Regression Testing for Storybook",
       "url": "https://github.com/oblador/loki",
       "install": "",
       "functionCategory": "testing-qa",
@@ -1603,7 +1603,7 @@
       "supportedAgents": [
         "loki"
       ],
-      "searchText": "loki 👁 visual regression testing for storybook oblador/loki testing-qa loki"
+      "searchText": "loki \ud83d\udc41 visual regression testing for storybook oblador/loki testing-qa loki"
     },
     {
       "name": "codex-autoresearch",
@@ -1611,7 +1611,7 @@
       "sourceAgent": "codex",
       "repo": "leo-lilinxiao/codex-autoresearch",
       "stars": 1847,
-      "desc": "Codex Autoresearch Skill — A self-directed iterative system for Codex that continuously cycles through: modify, verify, retain or discard, and repeat indefinitely. Inspired by Karpathy’s autoresearch concept.",
+      "desc": "Codex Autoresearch Skill \u2014 A self-directed iterative system for Codex that continuously cycles through: modify, verify, retain or discard, and repeat indefinitely. Inspired by Karpathy\u2019s autoresear...",
       "url": "https://github.com/leo-lilinxiao/codex-autoresearch",
       "install": "git clone https://github.com/leo-lilinxiao/codex-autoresearch.git",
       "functionCategory": "testing-qa",
@@ -1621,7 +1621,7 @@
       "supportedAgents": [
         "codex"
       ],
-      "searchText": "codex-autoresearch codex autoresearch skill — a self-directed iterative system for codex that continuously cycles through: modify, verify, retain or discard, and repeat indefinitely. inspired by karpathy’s autoresearch concept. leo-lilinxiao/codex-autoresearch git clone https://github.com/leo-lilinxiao/codex-autoresearch.git testing-qa codex"
+      "searchText": "codex-autoresearch codex autoresearch skill \u2014 a self-directed iterative system for codex that continuously cycles through: modify, verify, retain or discard, and repeat indefinitely. inspired by karpathy\u2019s autoresearch concept. leo-lilinxiao/codex-autoresearch git clone https://github.com/leo-lilinxiao/codex-autoresearch.git testing-qa codex"
     },
     {
       "name": "evalplus",
@@ -1665,7 +1665,7 @@
       "sourceAgent": "general",
       "repo": "test-zeus-ai/testzeus-hercules",
       "stars": 1056,
-      "desc": "World's first open-source testing agent — UI, API, Security, Accessibility, and Visual testing.",
+      "desc": "World's first open-source testing agent \u2014 UI, API, Security, Accessibility, and Visual testing.",
       "url": "https://github.com/test-zeus-ai/testzeus-hercules",
       "install": "",
       "functionCategory": "testing-qa",
@@ -1675,7 +1675,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "testzeus-hercules world's first open-source testing agent — ui, api, security, accessibility, and visual testing. test-zeus-ai/testzeus-hercules testing-qa general"
+      "searchText": "testzeus-hercules world's first open-source testing agent \u2014 ui, api, security, accessibility, and visual testing. test-zeus-ai/testzeus-hercules testing-qa general"
     },
     {
       "name": "storycap",
@@ -1831,7 +1831,7 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "linshenkx/prompt-optimizer",
-      "stars": 0,
+      "stars": 31610,
       "desc": "An AI prompt optimizer for writing better prompts and getting better AI results.",
       "url": "https://github.com/linshenkx/prompt-optimizer",
       "install": "",
@@ -1849,7 +1849,7 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "deepseek-ai/open-infra-index",
-      "stars": 0,
+      "stars": 8010,
       "desc": "Production-tested AI infrastructure tools for efficient AGI development and community-driven innovation",
       "url": "https://github.com/deepseek-ai/open-infra-index",
       "install": "",
@@ -1867,7 +1867,7 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "sourcery-ai/sourcery",
-      "stars": 0,
+      "stars": 1834,
       "desc": "Instant AI code reviews",
       "url": "https://github.com/sourcery-ai/sourcery",
       "install": "",
@@ -1885,7 +1885,7 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "insaaniManav/prompt-forge",
-      "stars": 0,
+      "stars": 776,
       "desc": "AI prompt engineering workbench for crafting, testing, and systematically evaluating prompts with powerful analysis tools.",
       "url": "https://github.com/insaaniManav/prompt-forge",
       "install": "",
@@ -1965,7 +1965,7 @@
         "cursor"
       ],
       "category": "testing-qa",
-      "categoryZh": "测试与QA",
+      "categoryZh": "\u6d4b\u8bd5\u4e0eQA",
       "name": "tdd",
       "desc": "Test-driven development: build features or fix bugs test-first, red-green-refactor.",
       "url": "https://github.com/mxyhi/ok-skills/tree/main/tdd",
@@ -1973,7 +1973,11 @@
         "tdd",
         "testing",
         "red-green-refactor"
-      ]
+      ],
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing",
+      "categoryPath": "testing-qa",
+      "subCategoryId": "qa"
     },
     {
       "name": "testsprite-cli",
@@ -1981,7 +1985,7 @@
       "sourceAgent": "testing-qa",
       "repo": "TestSprite/testsprite-cli",
       "stars": 1379,
-      "desc": "Official TestSprite CLI — AI-powered automated testing from your terminal",
+      "desc": "Official TestSprite CLI \u2014 AI-powered automated testing from your terminal",
       "url": "https://github.com/TestSprite/testsprite-cli",
       "install": "",
       "functionCategory": "testing-qa",
@@ -1991,7 +1995,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "testsprite-cli Official TestSprite CLI — AI-powered automated testing from  TestSprite/testsprite-cli testing-qa"
+      "searchText": "testsprite-cli Official TestSprite CLI \u2014 AI-powered automated testing from  TestSprite/testsprite-cli testing-qa"
     }
   ]
 }

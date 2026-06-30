@@ -34,7 +34,7 @@
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
       "stars": 156452,
-      "desc": "\"Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, format",
+      "desc": "\"Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g.,...",
       "url": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
       "install": "$skill-installer xlsx",
       "functionCategory": "automation-productivity",
@@ -70,7 +70,7 @@
       "sourceAgent": "general",
       "repo": "D4Vinci/Scrapling",
       "stars": 66973,
-      "desc": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "desc": "\ud83d\udd77\ufe0f An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
       "url": "https://github.com/D4Vinci/Scrapling",
       "install": "pip install Scrapling",
       "functionCategory": "automation-productivity",
@@ -80,7 +80,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "scrapling--automation 🕷️ an adaptive web scraping framework that handles everything from a single request to a full-scale crawl! d4vinci/scrapling pip install scrapling automation-productivity general"
+      "searchText": "scrapling--automation \ud83d\udd77\ufe0f an adaptive web scraping framework that handles everything from a single request to a full-scale crawl! d4vinci/scrapling pip install scrapling automation-productivity general"
     },
     {
       "name": "huginn--automation",
@@ -106,7 +106,7 @@
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
       "stars": 47560,
-      "desc": "Autonomous multi-agent coding framework for Claude Code (Claude Agent SDK) that integrates the full SDLC - \"plans, builds, and validates software for you\". Features a slick kanban-style UI and a well-designed but not over-engineered agent orchestration system.",
+      "desc": "Autonomous multi-agent coding framework for Claude Code (Claude Agent SDK) that integrates the full SDLC - \"plans, builds, and validates software for you\". Features a slick kanban-style UI and a we...",
       "url": "https://github.com/AndyMik90/Auto-Claude",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -178,7 +178,7 @@
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
       "stars": 47560,
-      "desc": "A specialized tool to manage context isolation and focused task execution with Claude Code, solving the critical challenge of context length limitations and task focus when working with Claude on complex, multi-step projects.",
+      "desc": "A specialized tool to manage context isolation and focused task execution with Claude Code, solving the critical challenge of context length limitations and task focus when working with Claude on c...",
       "url": "https://github.com/grahama1970/claude-task-runner",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -196,7 +196,7 @@
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
       "stars": 47560,
-      "desc": "An orchestration platform for deploying and coordinating multi-agent swarms. If I tried to go into detail it would probably crash my browser. An impressive feat of engineering that tries to cover everything and actually does a good job. Self-learning, autonomous multi-agent swarms, vector-based multi-layered memory, systematic planning, security guardrails, and so on. It's a growing project, and YMMV, but even just studying the patterns is immensely valuable, and it's clearly well-engineered.",
+      "desc": "An orchestration platform for deploying and coordinating multi-agent swarms. If I tried to go into detail it would probably crash my browser. An impressive feat of engineering that tries to cover e...",
       "url": "https://github.com/ruvnet/ruflo",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -214,7 +214,7 @@
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
       "stars": 47560,
-      "desc": "Yet Another Claude Orchestrator - a collection of agents, commands, etc., for shipping production code - but I like this because it's comprehensive, well-written, and one of the few resources that actually uses Output Styles! +10 points!",
+      "desc": "Yet Another Claude Orchestrator - a collection of agents, commands, etc., for shipping production code - but I like this because it's comprehensive, well-written, and one of the few resources that ...",
       "url": "https://github.com/rsmdt/the-startup",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -250,7 +250,7 @@
       "sourceAgent": "general",
       "repo": "fastlane/fastlane",
       "stars": 41722,
-      "desc": "🚀 The easiest way to automate building and releasing your iOS and Android apps",
+      "desc": "\ud83d\ude80 The easiest way to automate building and releasing your iOS and Android apps",
       "url": "https://github.com/fastlane/fastlane",
       "install": "git clone https://github.com/fastlane/fastlane.git",
       "functionCategory": "automation-productivity",
@@ -260,7 +260,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "fastlane--automation 🚀 the easiest way to automate building and releasing your ios and android apps fastlane/fastlane git clone https://github.com/fastlane/fastlane.git automation-productivity general"
+      "searchText": "fastlane--automation \ud83d\ude80 the easiest way to automate building and releasing your ios and android apps fastlane/fastlane git clone https://github.com/fastlane/fastlane.git automation-productivity general"
     },
     {
       "name": "appsmith--automation",
@@ -362,7 +362,7 @@
       "sourceAgent": "general",
       "repo": "googleworkspace/cli",
       "stars": 29113,
-      "desc": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more.",
+      "desc": "Google Workspace CLI \u2014 one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more.",
       "url": "https://github.com/googleworkspace/cli",
       "install": "npm i -g @googleworkspace/cli",
       "functionCategory": "automation-productivity",
@@ -372,7 +372,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "google-workspace-cli google workspace cli — one command-line tool for drive, gmail, calendar, sheets, docs, chat, admin, and more. googleworkspace/cli npm i -g @googleworkspace/cli automation-productivity general"
+      "searchText": "google-workspace-cli google workspace cli \u2014 one command-line tool for drive, gmail, calendar, sheets, docs, chat, admin, and more. googleworkspace/cli npm i -g @googleworkspace/cli automation-productivity general"
     },
     {
       "name": "kestra--workflow",
@@ -596,7 +596,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "CI/CD reference for Megatron Bridge — pipeline structure, commit and PR workflow, CI failure investigation, and common failure patterns.",
+      "desc": "CI/CD reference for Megatron Bridge \u2014 pipeline structure, commit and PR workflow, CI failure investigation, and common failure patterns.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/cicd",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -610,7 +610,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "cicd ci/cd reference for megatron bridge — pipeline structure, commit and pr workflow, ci failure investigation, and common failure patterns. voltagent/awesome-agent-skills automation-productivity claude codex cursor hermes gemini"
+      "searchText": "cicd ci/cd reference for megatron bridge \u2014 pipeline structure, commit and pr workflow, ci failure investigation, and common failure patterns. voltagent/awesome-agent-skills automation-productivity claude codex cursor hermes gemini"
     },
     {
       "name": "claude-ai-music-skills",
@@ -750,7 +750,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Understand CVEs, check product lifecycle status, gather diagnostics, and file support cases at the right severity — essential Red Hat skills for everyday operations.",
+      "desc": "Understand CVEs, check product lifecycle status, gather diagnostics, and file support cases at the right severity \u2014 essential Red Hat skills for everyday operations.",
       "url": "https://catalog.redhat.com/en/ai/skills/detail/agentic-skill-pack-for-red-hat-customers#agent-and-skills",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -764,7 +764,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "cve-skillpack understand cves, check product lifecycle status, gather diagnostics, and file support cases at the right severity — essential red hat skills for everyday operations. voltagent/awesome-agent-skills automation-productivity claude codex cursor hermes gemini"
+      "searchText": "cve-skillpack understand cves, check product lifecycle status, gather diagnostics, and file support cases at the right severity \u2014 essential red hat skills for everyday operations. voltagent/awesome-agent-skills automation-productivity claude codex cursor hermes gemini"
     },
     {
       "name": "dd-llmo-eval-bootstrap",
@@ -1278,7 +1278,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Provision, inventory, and report on OpenShift clusters — spanning Assisted Installer, OCM, ROSA, ARO, and kubeconfig fleets — through a single conversational workflow.",
+      "desc": "Provision, inventory, and report on OpenShift clusters \u2014 spanning Assisted Installer, OCM, ROSA, ARO, and kubeconfig fleets \u2014 through a single conversational workflow.",
       "url": "https://catalog.redhat.com/en/ai/skills/detail/agentic-skill-pack-for-red-hat-openshift",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -1292,7 +1292,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "openshift-skillpack provision, inventory, and report on openshift clusters — spanning assisted installer, ocm, rosa, aro, and kubeconfig fleets — through a single conversational workflow. voltagent/awesome-agent-skills automation-productivity claude codex cursor hermes gemini"
+      "searchText": "openshift-skillpack provision, inventory, and report on openshift clusters \u2014 spanning assisted installer, ocm, rosa, aro, and kubeconfig fleets \u2014 through a single conversational workflow. voltagent/awesome-agent-skills automation-productivity claude codex cursor hermes gemini"
     },
     {
       "name": "openshift-virtualization",
@@ -1300,7 +1300,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Manage the full VM lifecycle on OpenShift Virtualization — create, clone, snapshot, restore, rebalance, and report — through a single conversational workflow.",
+      "desc": "Manage the full VM lifecycle on OpenShift Virtualization \u2014 create, clone, snapshot, restore, rebalance, and report \u2014 through a single conversational workflow.",
       "url": "https://catalog.redhat.com/en/ai/skills/detail/agentic-skill-pack-for-red-hat-openshift-virtualization",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -1314,7 +1314,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "openshift-virtualization manage the full vm lifecycle on openshift virtualization — create, clone, snapshot, restore, rebalance, and report — through a single conversational workflow. voltagent/awesome-agent-skills automation-productivity claude codex cursor hermes gemini"
+      "searchText": "openshift-virtualization manage the full vm lifecycle on openshift virtualization \u2014 create, clone, snapshot, restore, rebalance, and report \u2014 through a single conversational workflow. voltagent/awesome-agent-skills automation-productivity claude codex cursor hermes gemini"
     },
     {
       "name": "outcome-roadmap",
@@ -1454,7 +1454,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Structured PRD process: problem → personas → solution → metrics → stories (2-4 days)",
+      "desc": "Structured PRD process: problem \u2192 personas \u2192 solution \u2192 metrics \u2192 stories (2-4 days)",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/prd-development",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -1468,7 +1468,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "prd-development structured prd process: problem → personas → solution → metrics → stories (2-4 days) voltagent/awesome-agent-skills automation-productivity claude codex cursor hermes gemini"
+      "searchText": "prd-development structured prd process: problem \u2192 personas \u2192 solution \u2192 metrics \u2192 stories (2-4 days) voltagent/awesome-agent-skills automation-productivity claude codex cursor hermes gemini"
     },
     {
       "name": "pre-mortem",
@@ -1564,7 +1564,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Full strategy session: positioning → framing → exploration → roadmap (2-4 weeks)",
+      "desc": "Full strategy session: positioning \u2192 framing \u2192 exploration \u2192 roadmap (2-4 weeks)",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/product-strategy-session",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -1578,7 +1578,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "product-strategy-session full strategy session: positioning → framing → exploration → roadmap (2-4 weeks) voltagent/awesome-agent-skills automation-productivity claude codex cursor hermes gemini"
+      "searchText": "product-strategy-session full strategy session: positioning \u2192 framing \u2192 exploration \u2192 roadmap (2-4 weeks) voltagent/awesome-agent-skills automation-productivity claude codex cursor hermes gemini"
     },
     {
       "name": "product-vision",
@@ -1630,7 +1630,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Strategic roadmap process: inputs → epics → prioritize → sequence → communicate (1-2 weeks)",
+      "desc": "Strategic roadmap process: inputs \u2192 epics \u2192 prioritize \u2192 sequence \u2192 communicate (1-2 weeks)",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/roadmap-planning",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -1644,7 +1644,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "roadmap-planning strategic roadmap process: inputs → epics → prioritize → sequence → communicate (1-2 weeks) voltagent/awesome-agent-skills automation-productivity claude codex cursor hermes gemini"
+      "searchText": "roadmap-planning strategic roadmap process: inputs \u2192 epics \u2192 prioritize \u2192 sequence \u2192 communicate (1-2 weeks) voltagent/awesome-agent-skills automation-productivity claude codex cursor hermes gemini"
     },
     {
       "name": "sentry-cloudflare-sdk",
@@ -1718,7 +1718,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Discover, remediate, and verify CVEs across your RHEL fleet — orchestrating Red Hat Lightspeed and Ansible Automation Platform through a single workflow.",
+      "desc": "Discover, remediate, and verify CVEs across your RHEL fleet \u2014 orchestrating Red Hat Lightspeed and Ansible Automation Platform through a single workflow.",
       "url": "https://catalog.redhat.com/en/ai/skills/detail/agentic-skill-pack-for-site-reliability-engineers",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -1732,7 +1732,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "sre-skillpack discover, remediate, and verify cves across your rhel fleet — orchestrating red hat lightspeed and ansible automation platform through a single workflow. voltagent/awesome-agent-skills automation-productivity claude codex cursor hermes gemini"
+      "searchText": "sre-skillpack discover, remediate, and verify cves across your rhel fleet \u2014 orchestrating red hat lightspeed and ansible automation platform through a single workflow. voltagent/awesome-agent-skills automation-productivity claude codex cursor hermes gemini"
     },
     {
       "name": "testcafe-skill",
@@ -1872,7 +1872,7 @@
       "sourceAgent": "general",
       "repo": "enescingoz/awesome-n8n-templates",
       "stars": 23548,
-      "desc": "280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, and more.",
+      "desc": "280+ free n8n automation templates \u2014 ready-to-use workflows for Gmail, Telegram, and more.",
       "url": "https://github.com/enescingoz/awesome-n8n-templates",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -1882,7 +1882,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "awesome_n8n_templates 280+ free n8n automation templates — ready-to-use workflows for gmail, telegram, and more. enescingoz/awesome-n8n-templates automation-productivity general"
+      "searchText": "awesome_n8n_templates 280+ free n8n automation templates \u2014 ready-to-use workflows for gmail, telegram, and more. enescingoz/awesome-n8n-templates automation-productivity general"
     },
     {
       "name": "activepieces",
@@ -2016,7 +2016,7 @@
       "sourceAgent": "instapy",
       "repo": "InstaPy/InstaPy",
       "stars": 17991,
-      "desc": "📷 Instagram Bot - Tool for automated Instagram interactions",
+      "desc": "\ud83d\udcf7 Instagram Bot - Tool for automated Instagram interactions",
       "url": "https://github.com/InstaPy/InstaPy",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -2026,7 +2026,7 @@
       "supportedAgents": [
         "instapy"
       ],
-      "searchText": "instapy 📷 instagram bot - tool for automated instagram interactions instapy/instapy automation-productivity instapy"
+      "searchText": "instapy \ud83d\udcf7 instagram bot - tool for automated instagram interactions instapy/instapy automation-productivity instapy"
     },
     {
       "name": "leon",
@@ -2034,7 +2034,7 @@
       "sourceAgent": "leon",
       "repo": "leon-ai/leon",
       "stars": 17344,
-      "desc": "🧠 Leon is your open-source personal assistant.",
+      "desc": "\ud83e\udde0 Leon is your open-source personal assistant.",
       "url": "https://github.com/leon-ai/leon",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -2044,7 +2044,7 @@
       "supportedAgents": [
         "leon"
       ],
-      "searchText": "leon 🧠 leon is your open-source personal assistant. leon-ai/leon automation-productivity leon"
+      "searchText": "leon \ud83e\udde0 leon is your open-source personal assistant. leon-ai/leon automation-productivity leon"
     },
     {
       "name": "trigger.dev",
@@ -2052,7 +2052,7 @@
       "sourceAgent": "general",
       "repo": "triggerdotdev/trigger.dev",
       "stars": 15500,
-      "desc": "Trigger.dev — build and deploy fully-managed AI agents and workflows with a developer-first platform.",
+      "desc": "Trigger.dev \u2014 build and deploy fully-managed AI agents and workflows with a developer-first platform.",
       "url": "https://github.com/triggerdotdev/trigger.dev",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -2062,7 +2062,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "trigger.dev trigger.dev — build and deploy fully-managed ai agents and workflows with a developer-first platform. triggerdotdev/trigger.dev automation-productivity general"
+      "searchText": "trigger.dev trigger.dev \u2014 build and deploy fully-managed ai agents and workflows with a developer-first platform. triggerdotdev/trigger.dev automation-productivity general"
     },
     {
       "name": "hermes-desktop",
@@ -2088,7 +2088,7 @@
       "sourceAgent": "claude",
       "repo": "Usagi-org/ai-goofish-monitor",
       "stars": 12695,
-      "desc": "基于Playwright和AI实现的闲鱼多任务实时/定时监控与智能分析系统",
+      "desc": "\u57fa\u4e8ePlaywright\u548cAI\u5b9e\u73b0\u7684\u95f2\u9c7c\u591a\u4efb\u52a1\u5b9e\u65f6/\u5b9a\u65f6\u76d1\u63a7\u4e0e\u667a\u80fd\u5206\u6790\u7cfb\u7edf",
       "url": "https://github.com/Usagi-org/ai-goofish-monitor",
       "install": "$skill-installer ai-goofish-monitor",
       "functionCategory": "automation-productivity",
@@ -2098,7 +2098,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "ai-goofish-monitor 基于playwright和ai实现的闲鱼多任务实时/定时监控与智能分析系统 usagi-org/ai-goofish-monitor $skill-installer ai-goofish-monitor automation-productivity claude"
+      "searchText": "ai-goofish-monitor \u57fa\u4e8eplaywright\u548cai\u5b9e\u73b0\u7684\u95f2\u9c7c\u591a\u4efb\u52a1\u5b9e\u65f6/\u5b9a\u65f6\u76d1\u63a7\u4e0e\u667a\u80fd\u5206\u6790\u7cfb\u7edf usagi-org/ai-goofish-monitor $skill-installer ai-goofish-monitor automation-productivity claude"
     },
     {
       "name": "hermes-studio",
@@ -2106,7 +2106,7 @@
       "sourceAgent": "hermes",
       "repo": "EKKOLearnAI/hermes-studio",
       "stars": 8621,
-      "desc": "Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics.",
+      "desc": "Web dashboard for Hermes Agent \u2014 multi-platform AI chat, session management, scheduled jobs, usage analytics.",
       "url": "https://github.com/EKKOLearnAI/hermes-studio",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -2116,7 +2116,7 @@
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "hermes-studio web dashboard for hermes agent — multi-platform ai chat, session management, scheduled jobs, usage analytics. ekkolearnai/hermes-studio automation-productivity hermes"
+      "searchText": "hermes-studio web dashboard for hermes agent \u2014 multi-platform ai chat, session management, scheduled jobs, usage analytics. ekkolearnai/hermes-studio automation-productivity hermes"
     },
     {
       "name": "OfficeCLI",
@@ -2246,7 +2246,7 @@
       "sourceAgent": "general",
       "repo": "netease-youdao/LobsterAI",
       "stars": 5387,
-      "desc": "Open-source, desktop-grade AI agent that gets real work done — data analysis, slides, docs, video & more.",
+      "desc": "Open-source, desktop-grade AI agent that gets real work done \u2014 data analysis, slides, docs, video & more.",
       "url": "https://github.com/netease-youdao/LobsterAI",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -2256,7 +2256,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "lobsterai open-source, desktop-grade ai agent that gets real work done — data analysis, slides, docs, video & more. netease-youdao/lobsterai automation-productivity general"
+      "searchText": "lobsterai open-source, desktop-grade ai agent that gets real work done \u2014 data analysis, slides, docs, video & more. netease-youdao/lobsterai automation-productivity general"
     },
     {
       "name": "comfyui_copilot",
@@ -2282,7 +2282,7 @@
       "sourceAgent": "claude",
       "repo": "baserow/baserow",
       "stars": 5192,
-      "desc": "Build databases, automations, apps & agents with AI — no code. Open source.",
+      "desc": "Build databases, automations, apps & agents with AI \u2014 no code. Open source.",
       "url": "https://github.com/baserow/baserow",
       "install": "$skill-installer baserow",
       "functionCategory": "automation-productivity",
@@ -2292,7 +2292,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "baserow build databases, automations, apps & agents with ai — no code. open source. baserow/baserow $skill-installer baserow automation-productivity claude"
+      "searchText": "baserow build databases, automations, apps & agents with ai \u2014 no code. open source. baserow/baserow $skill-installer baserow automation-productivity claude"
     },
     {
       "name": "browser-fingerprinting",
@@ -2300,7 +2300,7 @@
       "sourceAgent": "browser-fingerprinting",
       "repo": "niespodd/browser-fingerprinting",
       "stars": 5046,
-      "desc": "Analysis of Bot Protection systems with available countermeasures 🚿. How to defeat anti-bot system 👻 and get around browser fingerprinting scripts 🕵️‍♂️ when scraping the web?",
+      "desc": "Analysis of Bot Protection systems with available countermeasures \ud83d\udebf. How to defeat anti-bot system \ud83d\udc7b and get around browser fingerprinting scripts \ud83d\udd75\ufe0f\u200d\u2642\ufe0f when scraping the web?",
       "url": "https://github.com/niespodd/browser-fingerprinting",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -2310,7 +2310,7 @@
       "supportedAgents": [
         "browser-fingerprinting"
       ],
-      "searchText": "browser-fingerprinting analysis of bot protection systems with available countermeasures 🚿. how to defeat anti-bot system 👻 and get around browser fingerprinting scripts 🕵️‍♂️ when scraping the web? niespodd/browser-fingerprinting automation-productivity browser-fingerprinting"
+      "searchText": "browser-fingerprinting analysis of bot protection systems with available countermeasures \ud83d\udebf. how to defeat anti-bot system \ud83d\udc7b and get around browser fingerprinting scripts \ud83d\udd75\ufe0f\u200d\u2642\ufe0f when scraping the web? niespodd/browser-fingerprinting automation-productivity browser-fingerprinting"
     },
     {
       "name": "Integuru",
@@ -2336,7 +2336,7 @@
       "sourceAgent": "chatgpt-on-cs",
       "repo": "cs-lazy-tools/ChatGPT-On-CS",
       "stars": 4137,
-      "desc": "基于大模型的智能对话客服工具，支持微信、拼多多、千牛、哔哩哔哩、抖音企业号、抖音、抖店、微博聊天、小红书专业号运营、小红书、知乎等平台接入，可选择 GPT3.5/GPT4.0/ 懒人百宝箱 （后续会支持更多平台），能处理文本、语音和图片，通过插件访问操作系统和互联网等外部资源，支持基于自有知识库定制企业 AI 应用。",
+      "desc": "\u57fa\u4e8e\u5927\u6a21\u578b\u7684\u667a\u80fd\u5bf9\u8bdd\u5ba2\u670d\u5de5\u5177\uff0c\u652f\u6301\u5fae\u4fe1\u3001\u62fc\u591a\u591a\u3001\u5343\u725b\u3001\u54d4\u54e9\u54d4\u54e9\u3001\u6296\u97f3\u4f01\u4e1a\u53f7\u3001\u6296\u97f3\u3001\u6296\u5e97\u3001\u5fae\u535a\u804a\u5929\u3001\u5c0f\u7ea2\u4e66\u4e13\u4e1a\u53f7\u8fd0\u8425\u3001\u5c0f\u7ea2\u4e66\u3001\u77e5\u4e4e\u7b49\u5e73\u53f0\u63a5\u5165\uff0c\u53ef\u9009\u62e9 GPT3.5/GPT4.0/ \u61d2\u4eba\u767e\u5b9d\u7bb1 \uff08\u540e\u7eed\u4f1a\u652f\u6301\u66f4\u591a\u5e73\u53f0\uff09\uff0c\u80fd\u5904\u7406\u6587\u672c\u3001\u8bed\u97f3\u548c\u56fe\u7247\uff0c\u901a\u8fc7\u63d2\u4ef6\u8bbf\u95ee\u64cd\u4f5c\u7cfb\u7edf\u548c\u4e92\u8054\u7f51\u7b49\u5916\u90e8\u8d44\u6e90\uff0c\u652f\u6301\u57fa\u4e8e\u81ea\u6709\u77e5\u8bc6\u5e93\u5b9a\u5236\u4f01\u4e1a AI \u5e94\u7528\u3002",
       "url": "https://github.com/cs-lazy-tools/ChatGPT-On-CS",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -2346,7 +2346,7 @@
       "supportedAgents": [
         "chatgpt-on-cs"
       ],
-      "searchText": "chatgpt-on-cs 基于大模型的智能对话客服工具，支持微信、拼多多、千牛、哔哩哔哩、抖音企业号、抖音、抖店、微博聊天、小红书专业号运营、小红书、知乎等平台接入，可选择 gpt3.5/gpt4.0/ 懒人百宝箱 （后续会支持更多平台），能处理文本、语音和图片，通过插件访问操作系统和互联网等外部资源，支持基于自有知识库定制企业 ai 应用。 cs-lazy-tools/chatgpt-on-cs automation-productivity chatgpt-on-cs"
+      "searchText": "chatgpt-on-cs \u57fa\u4e8e\u5927\u6a21\u578b\u7684\u667a\u80fd\u5bf9\u8bdd\u5ba2\u670d\u5de5\u5177\uff0c\u652f\u6301\u5fae\u4fe1\u3001\u62fc\u591a\u591a\u3001\u5343\u725b\u3001\u54d4\u54e9\u54d4\u54e9\u3001\u6296\u97f3\u4f01\u4e1a\u53f7\u3001\u6296\u97f3\u3001\u6296\u5e97\u3001\u5fae\u535a\u804a\u5929\u3001\u5c0f\u7ea2\u4e66\u4e13\u4e1a\u53f7\u8fd0\u8425\u3001\u5c0f\u7ea2\u4e66\u3001\u77e5\u4e4e\u7b49\u5e73\u53f0\u63a5\u5165\uff0c\u53ef\u9009\u62e9 gpt3.5/gpt4.0/ \u61d2\u4eba\u767e\u5b9d\u7bb1 \uff08\u540e\u7eed\u4f1a\u652f\u6301\u66f4\u591a\u5e73\u53f0\uff09\uff0c\u80fd\u5904\u7406\u6587\u672c\u3001\u8bed\u97f3\u548c\u56fe\u7247\uff0c\u901a\u8fc7\u63d2\u4ef6\u8bbf\u95ee\u64cd\u4f5c\u7cfb\u7edf\u548c\u4e92\u8054\u7f51\u7b49\u5916\u90e8\u8d44\u6e90\uff0c\u652f\u6301\u57fa\u4e8e\u81ea\u6709\u77e5\u8bc6\u5e93\u5b9a\u5236\u4f01\u4e1a ai \u5e94\u7528\u3002 cs-lazy-tools/chatgpt-on-cs automation-productivity chatgpt-on-cs"
     },
     {
       "name": "pokemongo-bot",
@@ -2481,7 +2481,7 @@
       "sourceAgent": "claude",
       "repo": "Ceeon/videocut-skills",
       "stars": 2407,
-      "desc": "用 Claude Code Skills 做的视频剪辑 Agent",
+      "desc": "\u7528 Claude Code Skills \u505a\u7684\u89c6\u9891\u526a\u8f91 Agent",
       "url": "https://github.com/Ceeon/videocut-skills",
       "install": "npm i -g videocut-skills",
       "functionCategory": "automation-productivity",
@@ -2491,7 +2491,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "videocut-skills 用 claude code skills 做的视频剪辑 agent ceeon/videocut-skills npm i -g videocut-skills automation-productivity claude"
+      "searchText": "videocut-skills \u7528 claude code skills \u505a\u7684\u89c6\u9891\u526a\u8f91 agent ceeon/videocut-skills npm i -g videocut-skills automation-productivity claude"
     },
     {
       "name": "openclaw-lark",
@@ -2499,7 +2499,7 @@
       "sourceAgent": "openclaw",
       "repo": "larksuite/openclaw-lark",
       "stars": 2296,
-      "desc": "飞书官方出品的 OpenClaw 飞书/Lark Channel 插件",
+      "desc": "\u98de\u4e66\u5b98\u65b9\u51fa\u54c1\u7684 OpenClaw \u98de\u4e66/Lark Channel \u63d2\u4ef6",
       "url": "https://github.com/larksuite/openclaw-lark",
       "install": "npm i -g openclaw-lark",
       "functionCategory": "automation-productivity",
@@ -2509,7 +2509,7 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "openclaw-lark 飞书官方出品的 openclaw 飞书/lark channel 插件 larksuite/openclaw-lark npm i -g openclaw-lark automation-productivity openclaw"
+      "searchText": "openclaw-lark \u98de\u4e66\u5b98\u65b9\u51fa\u54c1\u7684 openclaw \u98de\u4e66/lark channel \u63d2\u4ef6 larksuite/openclaw-lark npm i -g openclaw-lark automation-productivity openclaw"
     },
     {
       "name": "openoutreach",
@@ -2571,7 +2571,7 @@
       "sourceAgent": "openclaw",
       "repo": "DingTalk-Real-AI/dingtalk-openclaw-connector",
       "stars": 2096,
-      "desc": "Official OpenClaw DingTalk channel plugin | 钉钉官方 OpenClaw 插件",
+      "desc": "Official OpenClaw DingTalk channel plugin | \u9489\u9489\u5b98\u65b9 OpenClaw \u63d2\u4ef6",
       "url": "https://github.com/DingTalk-Real-AI/dingtalk-openclaw-connector",
       "install": "npm i -g dingtalk-openclaw-connector",
       "functionCategory": "automation-productivity",
@@ -2581,7 +2581,7 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "dingtalk-openclaw-connector official openclaw dingtalk channel plugin | 钉钉官方 openclaw 插件 dingtalk-real-ai/dingtalk-openclaw-connector npm i -g dingtalk-openclaw-connector automation-productivity openclaw"
+      "searchText": "dingtalk-openclaw-connector official openclaw dingtalk channel plugin | \u9489\u9489\u5b98\u65b9 openclaw \u63d2\u4ef6 dingtalk-real-ai/dingtalk-openclaw-connector npm i -g dingtalk-openclaw-connector automation-productivity openclaw"
     },
     {
       "name": "claude-trading-skills",
@@ -2589,7 +2589,7 @@
       "sourceAgent": "claude",
       "repo": "tradermonty/claude-trading-skills",
       "stars": 2087,
-      "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "desc": "Claude Code skills for equity investors and traders \u2014 market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "url": "https://github.com/tradermonty/claude-trading-skills",
       "install": "pip install claude-trading-skills",
       "functionCategory": "automation-productivity",
@@ -2599,7 +2599,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-trading-skills claude code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development. tradermonty/claude-trading-skills pip install claude-trading-skills automation-productivity claude"
+      "searchText": "claude-trading-skills claude code skills for equity investors and traders \u2014 market analysis, technical charting, economic calendars, screeners, and trading strategy development. tradermonty/claude-trading-skills pip install claude-trading-skills automation-productivity claude"
     },
     {
       "name": "hiring-agent",
@@ -2643,7 +2643,7 @@
       "sourceAgent": "openomnibot",
       "repo": "omnimind-ai/OpenOmniBot",
       "stars": 1838,
-      "desc": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and performing a wide range of tasks in the Android world || 你的手机 AI 代理，她可以操作终端，也可以完成 Android 世界的广泛任务",
+      "desc": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and performing a wide range of tasks in the Android world || \u4f60\u7684\u624b\u673a AI \u4ee3\u7406\uff0c\u5979\u53ef\u4ee5\u64cd\u4f5c\u7ec8\u7aef\uff0c\u4e5f\u53ef\u4ee5\u5b8c\u6210 Android \u4e16\u754c\u7684\u5e7f\u6cdb\u4efb\u52a1",
       "url": "https://github.com/omnimind-ai/OpenOmniBot",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -2653,7 +2653,7 @@
       "supportedAgents": [
         "openomnibot"
       ],
-      "searchText": "openomnibot your on-phone / mobile ai agent / claw, capable of operating terminals and performing a wide range of tasks in the android world || 你的手机 ai 代理，她可以操作终端，也可以完成 android 世界的广泛任务 omnimind-ai/openomnibot automation-productivity openomnibot"
+      "searchText": "openomnibot your on-phone / mobile ai agent / claw, capable of operating terminals and performing a wide range of tasks in the android world || \u4f60\u7684\u624b\u673a ai \u4ee3\u7406\uff0c\u5979\u53ef\u4ee5\u64cd\u4f5c\u7ec8\u7aef\uff0c\u4e5f\u53ef\u4ee5\u5b8c\u6210 android \u4e16\u754c\u7684\u5e7f\u6cdb\u4efb\u52a1 omnimind-ai/openomnibot automation-productivity openomnibot"
     },
     {
       "name": "natively-cluely-ai-assistant",
@@ -2715,7 +2715,7 @@
       "sourceAgent": "multi",
       "repo": "browserwing/browserwing",
       "stars": 1303,
-      "desc": "BrowserWing turns your browser actions into MCP commands Or Claude Skill, allowing AI agents to control browsers efficiently and reliably. Say goodbye to slow, token-heavy LLM interactions — let agents call commands directly for faster automation. Perfect for AI-driven tasks, browser automation, and boosting productivity.",
+      "desc": "BrowserWing turns your browser actions into MCP commands Or Claude Skill, allowing AI agents to control browsers efficiently and reliably. Say goodbye to slow, token-heavy LLM interactions \u2014 let ag...",
       "url": "https://github.com/browserwing/browserwing",
       "install": "go install github.com/browserwing/browserwing@latest",
       "functionCategory": "automation-productivity",
@@ -2725,7 +2725,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "browserwing browserwing turns your browser actions into mcp commands or claude skill, allowing ai agents to control browsers efficiently and reliably. say goodbye to slow, token-heavy llm interactions — let agents call commands directly for faster automation. perfect for ai-driven tasks, browser automation, and boosting productivity. browserwing/browserwing go install github.com/browserwing/browserwing@latest automation-productivity claude"
+      "searchText": "browserwing browserwing turns your browser actions into mcp commands or claude skill, allowing ai agents to control browsers efficiently and reliably. say goodbye to slow, token-heavy llm interactions \u2014 let agents call commands directly for faster automation. perfect for ai-driven tasks, browser automation, and boosting productivity. browserwing/browserwing go install github.com/browserwing/browserwing@latest automation-productivity claude"
     },
     {
       "name": "gtm-engineer-skills",
@@ -2733,7 +2733,7 @@
       "sourceAgent": "claude",
       "repo": "onvoyage-ai/gtm-engineer-skills",
       "stars": 1247,
-      "desc": "Claude Code skill for improving website AEO (AI Engine Optimization) and GEO (Generative Engine Optimization) scores — 16 foundational checks, 6 intelligence dimensions, framework-specific fixes",
+      "desc": "Claude Code skill for improving website AEO (AI Engine Optimization) and GEO (Generative Engine Optimization) scores \u2014 16 foundational checks, 6 intelligence dimensions, framework-specific fixes",
       "url": "https://github.com/onvoyage-ai/gtm-engineer-skills",
       "install": "git clone https://github.com/onvoyage-ai/gtm-engineer-skills.git",
       "functionCategory": "automation-productivity",
@@ -2743,7 +2743,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "gtm-engineer-skills claude code skill for improving website aeo (ai engine optimization) and geo (generative engine optimization) scores — 16 foundational checks, 6 intelligence dimensions, framework-specific fixes onvoyage-ai/gtm-engineer-skills git clone https://github.com/onvoyage-ai/gtm-engineer-skills.git automation-productivity claude"
+      "searchText": "gtm-engineer-skills claude code skill for improving website aeo (ai engine optimization) and geo (generative engine optimization) scores \u2014 16 foundational checks, 6 intelligence dimensions, framework-specific fixes onvoyage-ai/gtm-engineer-skills git clone https://github.com/onvoyage-ai/gtm-engineer-skills.git automation-productivity claude"
     },
     {
       "name": "plane",
@@ -2787,7 +2787,7 @@
       "sourceAgent": "claude",
       "repo": "adamlyttleapps/claude-skill-app-onboarding-questionnaire",
       "stars": 1084,
-      "desc": "A Claude Code skill that designs and builds high-converting questionnaire-style app onboarding flows — modelled    on proven conversion patterns from top subscription apps like Mob, Headspace and Noom",
+      "desc": "A Claude Code skill that designs and builds high-converting questionnaire-style app onboarding flows \u2014 modelled    on proven conversion patterns from top subscription apps like Mob, Headspace and Noom",
       "url": "https://github.com/adamlyttleapps/claude-skill-app-onboarding-questionnaire",
       "install": "git clone https://github.com/adamlyttleapps/claude-skill-app-onboarding-questionnaire.git",
       "functionCategory": "automation-productivity",
@@ -2797,7 +2797,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-skill-app-onboarding-questionnaire a claude code skill that designs and builds high-converting questionnaire-style app onboarding flows — modelled    on proven conversion patterns from top subscription apps like mob, headspace and noom adamlyttleapps/claude-skill-app-onboarding-questionnaire git clone https://github.com/adamlyttleapps/claude-skill-app-onboarding-questionnaire.git automation-productivity claude"
+      "searchText": "claude-skill-app-onboarding-questionnaire a claude code skill that designs and builds high-converting questionnaire-style app onboarding flows \u2014 modelled    on proven conversion patterns from top subscription apps like mob, headspace and noom adamlyttleapps/claude-skill-app-onboarding-questionnaire git clone https://github.com/adamlyttleapps/claude-skill-app-onboarding-questionnaire.git automation-productivity claude"
     },
     {
       "name": "pm-claude-skills",
@@ -2805,7 +2805,7 @@
       "sourceAgent": "claude",
       "repo": "mohitagw15856/pm-claude-skills",
       "stars": 1061,
-      "desc": "Professional skills for Claude AI — 167 skills across 17 professions. Save 8-10 hours per week. PM stands for Professional.",
+      "desc": "Professional skills for Claude AI \u2014 167 skills across 17 professions. Save 8-10 hours per week. PM stands for Professional.",
       "url": "https://github.com/mohitagw15856/pm-claude-skills",
       "install": "git clone https://github.com/mohitagw15856/pm-claude-skills.git",
       "functionCategory": "automation-productivity",
@@ -2815,7 +2815,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "pm-claude-skills professional skills for claude ai — 167 skills across 17 professions. save 8-10 hours per week. pm stands for professional. mohitagw15856/pm-claude-skills git clone https://github.com/mohitagw15856/pm-claude-skills.git automation-productivity claude"
+      "searchText": "pm-claude-skills professional skills for claude ai \u2014 167 skills across 17 professions. save 8-10 hours per week. pm stands for professional. mohitagw15856/pm-claude-skills git clone https://github.com/mohitagw15856/pm-claude-skills.git automation-productivity claude"
     },
     {
       "name": "agentsys",
@@ -2862,7 +2862,7 @@
       "sourceAgent": "claude",
       "repo": "aiwithremy/claude-skills-llm-council",
       "stars": 853,
-      "desc": "LLM Council — a Claude Code skill that runs your decisions through 5 AI advisors with peer review",
+      "desc": "LLM Council \u2014 a Claude Code skill that runs your decisions through 5 AI advisors with peer review",
       "url": "https://github.com/aiwithremy/claude-skills-llm-council",
       "install": "git clone https://github.com/aiwithremy/claude-skills-llm-council.git",
       "functionCategory": "automation-productivity",
@@ -2872,7 +2872,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-skills-llm-council llm council — a claude code skill that runs your decisions through 5 ai advisors with peer review aiwithremy/claude-skills-llm-council git clone https://github.com/aiwithremy/claude-skills-llm-council.git automation-productivity claude"
+      "searchText": "claude-skills-llm-council llm council \u2014 a claude code skill that runs your decisions through 5 ai advisors with peer review aiwithremy/claude-skills-llm-council git clone https://github.com/aiwithremy/claude-skills-llm-council.git automation-productivity claude"
     },
     {
       "name": "x-article-publisher-skill",
@@ -2934,7 +2934,7 @@
       "sourceAgent": "openclaw",
       "repo": "countbot-ai/CountBot",
       "stars": 730,
-      "desc": "更适配中文用户的轻量开源AI Agent | 国产大模型Coding plan支持 | 兼容OpenClaw Skills生态| 已接入微信ClawBot/微博龙虾/飞书/钉钉/QQ/小智AI/Telegram/deepseek-v4。",
+      "desc": "\u66f4\u9002\u914d\u4e2d\u6587\u7528\u6237\u7684\u8f7b\u91cf\u5f00\u6e90AI Agent | \u56fd\u4ea7\u5927\u6a21\u578bCoding plan\u652f\u6301 | \u517c\u5bb9OpenClaw Skills\u751f\u6001| \u5df2\u63a5\u5165\u5fae\u4fe1ClawBot/\u5fae\u535a\u9f99\u867e/\u98de\u4e66/\u9489\u9489/QQ/\u5c0f\u667aAI/Telegram/deepseek-v4\u3002",
       "url": "https://github.com/countbot-ai/CountBot",
       "install": "git clone https://github.com/countbot-ai/CountBot.git",
       "functionCategory": "automation-productivity",
@@ -2944,7 +2944,7 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "countbot 更适配中文用户的轻量开源ai agent | 国产大模型coding plan支持 | 兼容openclaw skills生态| 已接入微信clawbot/微博龙虾/飞书/钉钉/qq/小智ai/telegram/deepseek-v4。 countbot-ai/countbot git clone https://github.com/countbot-ai/countbot.git automation-productivity openclaw"
+      "searchText": "countbot \u66f4\u9002\u914d\u4e2d\u6587\u7528\u6237\u7684\u8f7b\u91cf\u5f00\u6e90ai agent | \u56fd\u4ea7\u5927\u6a21\u578bcoding plan\u652f\u6301 | \u517c\u5bb9openclaw skills\u751f\u6001| \u5df2\u63a5\u5165\u5fae\u4fe1clawbot/\u5fae\u535a\u9f99\u867e/\u98de\u4e66/\u9489\u9489/qq/\u5c0f\u667aai/telegram/deepseek-v4\u3002 countbot-ai/countbot git clone https://github.com/countbot-ai/countbot.git automation-productivity openclaw"
     },
     {
       "name": "claude-skill-homeassistant",
@@ -2970,7 +2970,7 @@
       "sourceAgent": "claude",
       "repo": "quant-sentiment-ai/claude-equity-research",
       "stars": 606,
-      "desc": "🔌 Claude Code Plugin for institutional-grade equity research.   Install with /plugin marketplace add. Generates professional   buy/sell recommendations with comprehensive fundamental   analysis, technical indicators, and risk assessment. Educational    use only - not financial advice.",
+      "desc": "\ud83d\udd0c Claude Code Plugin for institutional-grade equity research.   Install with /plugin marketplace add. Generates professional   buy/sell recommendations with comprehensive fundamental   analysis, te...",
       "url": "https://github.com/quant-sentiment-ai/claude-equity-research",
       "install": "git clone https://github.com/quant-sentiment-ai/claude-equity-research.git",
       "functionCategory": "automation-productivity",
@@ -2980,7 +2980,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-equity-research 🔌 claude code plugin for institutional-grade equity research.   install with /plugin marketplace add. generates professional   buy/sell recommendations with comprehensive fundamental   analysis, technical indicators, and risk assessment. educational    use only - not financial advice. quant-sentiment-ai/claude-equity-research git clone https://github.com/quant-sentiment-ai/claude-equity-research.git automation-productivity claude"
+      "searchText": "claude-equity-research \ud83d\udd0c claude code plugin for institutional-grade equity research.   install with /plugin marketplace add. generates professional   buy/sell recommendations with comprehensive fundamental   analysis, technical indicators, and risk assessment. educational    use only - not financial advice. quant-sentiment-ai/claude-equity-research git clone https://github.com/quant-sentiment-ai/claude-equity-research.git automation-productivity claude"
     },
     {
       "name": "home-assistant-vibecode-agent",
@@ -2988,7 +2988,7 @@
       "sourceAgent": "multi",
       "repo": "Coolver/home-assistant-vibecode-agent",
       "stars": 588,
-      "desc": "Home Assistant MCP server agent. Enable Claude Code, Cursor, VS Code or any MCP-enabled IDE to help you vibe-code and manage Home Assistant: create and debug automations, design dashboards, tweak themes, modify configs, and deploy changes using natural language",
+      "desc": "Home Assistant MCP server agent. Enable Claude Code, Cursor, VS Code or any MCP-enabled IDE to help you vibe-code and manage Home Assistant: create and debug automations, design dashboards, tweak t...",
       "url": "https://github.com/Coolver/home-assistant-vibecode-agent",
       "install": "pip install home-assistant-vibecode-agent",
       "functionCategory": "automation-productivity",
@@ -3162,7 +3162,7 @@
       "sourceAgent": "general",
       "repo": "MaxKmet/idea-validation-agents",
       "stars": 346,
-      "desc": "AI agents that act as your personal venture analyst — from startup idea brainstorming to full validation.",
+      "desc": "AI agents that act as your personal venture analyst \u2014 from startup idea brainstorming to full validation.",
       "url": "https://github.com/MaxKmet/idea-validation-agents",
       "install": "$skill-installer idea-validation-agents",
       "functionCategory": "automation-productivity",
@@ -3172,7 +3172,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "idea-validation-agents ai agents that act as your personal venture analyst — from startup idea brainstorming to full validation. maxkmet/idea-validation-agents $skill-installer idea-validation-agents automation-productivity general"
+      "searchText": "idea-validation-agents ai agents that act as your personal venture analyst \u2014 from startup idea brainstorming to full validation. maxkmet/idea-validation-agents $skill-installer idea-validation-agents automation-productivity general"
     },
     {
       "name": "ai-marketing-claude-code-skills",
@@ -3253,7 +3253,7 @@
       "sourceAgent": "openclaw",
       "repo": "vigorX777/content-collector-skill",
       "stars": 236,
-      "desc": "OpenClaw skill: 自动收集社交媒体内容并整理成结构化笔记存入飞书文档",
+      "desc": "OpenClaw skill: \u81ea\u52a8\u6536\u96c6\u793e\u4ea4\u5a92\u4f53\u5185\u5bb9\u5e76\u6574\u7406\u6210\u7ed3\u6784\u5316\u7b14\u8bb0\u5b58\u5165\u98de\u4e66\u6587\u6863",
       "url": "https://github.com/vigorX777/content-collector-skill",
       "install": "git clone https://github.com/vigorX777/content-collector-skill.git",
       "functionCategory": "automation-productivity",
@@ -3263,7 +3263,7 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "content-collector-skill openclaw skill: 自动收集社交媒体内容并整理成结构化笔记存入飞书文档 vigorx777/content-collector-skill git clone https://github.com/vigorx777/content-collector-skill.git automation-productivity openclaw"
+      "searchText": "content-collector-skill openclaw skill: \u81ea\u52a8\u6536\u96c6\u793e\u4ea4\u5a92\u4f53\u5185\u5bb9\u5e76\u6574\u7406\u6210\u7ed3\u6784\u5316\u7b14\u8bb0\u5b58\u5165\u98de\u4e66\u6587\u6863 vigorx777/content-collector-skill git clone https://github.com/vigorx777/content-collector-skill.git automation-productivity openclaw"
     },
     {
       "name": "hermes-agent-idea-workflow",
@@ -3307,7 +3307,7 @@
       "sourceAgent": "general",
       "repo": "moshuying/pitchcraft",
       "stars": 167,
-      "desc": "汇报.skill · pitchcraft — Structured persuasion for tech leads, PMs, and founders: kickoff, status, writeups.",
+      "desc": "\u6c47\u62a5.skill \u00b7 pitchcraft \u2014 Structured persuasion for tech leads, PMs, and founders: kickoff, status, writeups.",
       "url": "https://github.com/moshuying/pitchcraft",
       "install": "$skill-installer pitchcraft",
       "functionCategory": "automation-productivity",
@@ -3317,7 +3317,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "pitchcraft 汇报.skill · pitchcraft — structured persuasion for tech leads, pms, and founders: kickoff, status, writeups. moshuying/pitchcraft $skill-installer pitchcraft automation-productivity general"
+      "searchText": "pitchcraft \u6c47\u62a5.skill \u00b7 pitchcraft \u2014 structured persuasion for tech leads, pms, and founders: kickoff, status, writeups. moshuying/pitchcraft $skill-installer pitchcraft automation-productivity general"
     },
     {
       "name": "reddit-growth-skill",
@@ -3325,7 +3325,7 @@
       "sourceAgent": "openclaw",
       "repo": "oh-ashen-one/reddit-growth-skill",
       "stars": 143,
-      "desc": "OpenClaw skill for Reddit community growth — human-style engagement, intent harvesting, warm-up protocol",
+      "desc": "OpenClaw skill for Reddit community growth \u2014 human-style engagement, intent harvesting, warm-up protocol",
       "url": "https://github.com/oh-ashen-one/reddit-growth-skill",
       "install": "git clone https://github.com/oh-ashen-one/reddit-growth-skill.git",
       "functionCategory": "automation-productivity",
@@ -3335,7 +3335,7 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "reddit-growth-skill openclaw skill for reddit community growth — human-style engagement, intent harvesting, warm-up protocol oh-ashen-one/reddit-growth-skill git clone https://github.com/oh-ashen-one/reddit-growth-skill.git automation-productivity openclaw"
+      "searchText": "reddit-growth-skill openclaw skill for reddit community growth \u2014 human-style engagement, intent harvesting, warm-up protocol oh-ashen-one/reddit-growth-skill git clone https://github.com/oh-ashen-one/reddit-growth-skill.git automation-productivity openclaw"
     },
     {
       "name": "hermes-geopolitical-market-sim",
@@ -3361,7 +3361,7 @@
       "sourceAgent": "openclaw",
       "repo": "aliramw/dingtalk-ai-table",
       "stars": 104,
-      "desc": "钉钉 AI 表格（多维表）操作技能 - OpenClaw Skill",
+      "desc": "\u9489\u9489 AI \u8868\u683c\uff08\u591a\u7ef4\u8868\uff09\u64cd\u4f5c\u6280\u80fd - OpenClaw Skill",
       "url": "https://github.com/aliramw/dingtalk-ai-table",
       "install": "git clone https://github.com/aliramw/dingtalk-ai-table.git",
       "functionCategory": "automation-productivity",
@@ -3371,7 +3371,7 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "dingtalk-ai-table 钉钉 ai 表格（多维表）操作技能 - openclaw skill aliramw/dingtalk-ai-table git clone https://github.com/aliramw/dingtalk-ai-table.git automation-productivity openclaw"
+      "searchText": "dingtalk-ai-table \u9489\u9489 ai \u8868\u683c\uff08\u591a\u7ef4\u8868\uff09\u64cd\u4f5c\u6280\u80fd - openclaw skill aliramw/dingtalk-ai-table git clone https://github.com/aliramw/dingtalk-ai-table.git automation-productivity openclaw"
     },
     {
       "name": "dotskills",
@@ -3379,7 +3379,7 @@
       "sourceAgent": "openclaw",
       "repo": "vincentkoc/dotskills",
       "stars": 92,
-      "desc": "🐙 A curated set of Codex and OpenClaw skills for workflow automation, technical debugging, and agent-assisted development patterns.",
+      "desc": "\ud83d\udc19 A curated set of Codex and OpenClaw skills for workflow automation, technical debugging, and agent-assisted development patterns.",
       "url": "https://github.com/vincentkoc/dotskills",
       "install": "pip install dotskills",
       "functionCategory": "automation-productivity",
@@ -3390,7 +3390,7 @@
         "codex",
         "openclaw"
       ],
-      "searchText": "dotskills 🐙 a curated set of codex and openclaw skills for workflow automation, technical debugging, and agent-assisted development patterns. vincentkoc/dotskills pip install dotskills automation-productivity codex openclaw"
+      "searchText": "dotskills \ud83d\udc19 a curated set of codex and openclaw skills for workflow automation, technical debugging, and agent-assisted development patterns. vincentkoc/dotskills pip install dotskills automation-productivity codex openclaw"
     },
     {
       "name": "honey-for-devs",
@@ -3523,7 +3523,7 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "ray-project/ray",
-      "stars": 0,
+      "stars": 43064,
       "desc": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
       "url": "https://github.com/ray-project/ray",
       "install": "",
@@ -3541,8 +3541,8 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "babalae/better-genshin-impact",
-      "stars": 0,
-      "desc": "📦BetterGI · 更好的原神 - 自动拾取 | 自动剧情 | 全自动钓鱼(AI) | 全自动七圣召唤 | 自动伐木 | 自动刷本 | 自动采集/挖矿/锄地 | 一条龙 | 全连音游 | 自动烹饪 - UI Automation Testing Tools For Genshin Impact",
+      "stars": 14012,
+      "desc": "\ud83d\udce6BetterGI \u00b7 \u66f4\u597d\u7684\u539f\u795e - \u81ea\u52a8\u62fe\u53d6 | \u81ea\u52a8\u5267\u60c5 | \u5168\u81ea\u52a8\u9493\u9c7c(AI) | \u5168\u81ea\u52a8\u4e03\u5723\u53ec\u5524 | \u81ea\u52a8\u4f10\u6728 | \u81ea\u52a8\u5237\u672c | \u81ea\u52a8\u91c7\u96c6/\u6316\u77ff/\u9504\u5730 | \u4e00\u6761\u9f99 | \u5168\u8fde\u97f3\u6e38 | \u81ea\u52a8\u70f9\u996a - UI Automation Testing Tools For Genshin Impact",
       "url": "https://github.com/babalae/better-genshin-impact",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -3552,14 +3552,14 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "better-genshin-impact 📦bettergi · 更好的原神 - 自动拾取 | 自动剧情 | 全自动钓鱼(ai) | 全自动七圣召唤 | 自动伐木 | 自动刷本 | 自动采集/挖矿/锄地 | 一条龙 | 全连音游 | 自动烹饪 - ui automation testing tools for genshin impact babalae/better-genshin-impact automation-productivity general"
+      "searchText": "better-genshin-impact \ud83d\udce6bettergi \u00b7 \u66f4\u597d\u7684\u539f\u795e - \u81ea\u52a8\u62fe\u53d6 | \u81ea\u52a8\u5267\u60c5 | \u5168\u81ea\u52a8\u9493\u9c7c(ai) | \u5168\u81ea\u52a8\u4e03\u5723\u53ec\u5524 | \u81ea\u52a8\u4f10\u6728 | \u81ea\u52a8\u5237\u672c | \u81ea\u52a8\u91c7\u96c6/\u6316\u77ff/\u9504\u5730 | \u4e00\u6761\u9f99 | \u5168\u8fde\u97f3\u6e38 | \u81ea\u52a8\u70f9\u996a - ui automation testing tools for genshin impact babalae/better-genshin-impact automation-productivity general"
     },
     {
       "name": "shell_gpt",
       "source": "github",
       "sourceAgent": "general",
       "repo": "TheR1D/shell_gpt",
-      "stars": 0,
+      "stars": 12143,
       "desc": "A command-line productivity tool powered by AI large language models like GPT-5, will help you accomplish your tasks faster and more efficiently.",
       "url": "https://github.com/TheR1D/shell_gpt",
       "install": "",
@@ -3577,7 +3577,7 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "elie222/inbox-zero",
-      "stars": 0,
+      "stars": 11475,
       "desc": "The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.",
       "url": "https://github.com/elie222/inbox-zero",
       "install": "",
@@ -3595,8 +3595,8 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "wassupjay/n8n-free-templates",
-      "stars": 0,
-      "desc": "A curated set of 200+ plug-and-play n8n workflows that fuse classic automation with today’s AI stack—vector DBs, embeddings, and LLMs. Import any JSON, add your creds, hit Activate, and you’re live. B",
+      "stars": 5916,
+      "desc": "A curated set of 200+ plug-and-play n8n workflows that fuse classic automation with today\u2019s AI stack\u2014vector DBs, embeddings, and LLMs. Import any JSON, add your creds, hit Activate, and you\u2019re live. B",
       "url": "https://github.com/wassupjay/n8n-free-templates",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -3606,14 +3606,14 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "n8n-free-templates a curated set of 200+ plug-and-play n8n workflows that fuse classic automation with today’s ai stack—vector dbs, embeddings, and llms. import any json, add your creds, hit activate, and you’re live. built to demo, prototype, or drop straight into production. wassupjay/n8n-free-templates automation-productivity general"
+      "searchText": "n8n-free-templates a curated set of 200+ plug-and-play n8n workflows that fuse classic automation with today\u2019s ai stack\u2014vector dbs, embeddings, and llms. import any json, add your creds, hit activate, and you\u2019re live. built to demo, prototype, or drop straight into production. wassupjay/n8n-free-templates automation-productivity general"
     },
     {
       "name": "lowdefy",
       "source": "github",
       "sourceAgent": "general",
       "repo": "lowdefy/lowdefy",
-      "stars": 0,
+      "stars": 2986,
       "desc": "Build apps that AI can generate, humans can review, and teams can maintain. Config that works between code and natural language.",
       "url": "https://github.com/lowdefy/lowdefy",
       "install": "",
@@ -3631,8 +3631,8 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "cyfyifanchen/one-person-company",
-      "stars": 0,
-      "desc": "遇事不决，Vibe 力学! One-Person Company AI Tools Series – continuously updated to help boost productivity and empower your solo business!",
+      "stars": 2720,
+      "desc": "\u9047\u4e8b\u4e0d\u51b3\uff0cVibe \u529b\u5b66! One-Person Company AI Tools Series \u2013 continuously updated to help boost productivity and empower your solo business!",
       "url": "https://github.com/cyfyifanchen/one-person-company",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -3642,14 +3642,14 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "one-person-company 遇事不决，vibe 力学! one-person company ai tools series – continuously updated to help boost productivity and empower your solo business! cyfyifanchen/one-person-company automation-productivity general"
+      "searchText": "one-person-company \u9047\u4e8b\u4e0d\u51b3\uff0cvibe \u529b\u5b66! one-person company ai tools series \u2013 continuously updated to help boost productivity and empower your solo business! cyfyifanchen/one-person-company automation-productivity general"
     },
     {
       "name": "SecureAI-Tools",
       "source": "github",
       "sourceAgent": "general",
       "repo": "SecureAI-Tools/SecureAI-Tools",
-      "stars": 0,
+      "stars": 1731,
       "desc": "Private and secure AI tools for everyone's productivity.",
       "url": "https://github.com/SecureAI-Tools/SecureAI-Tools",
       "install": "",
@@ -3667,7 +3667,7 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "OpenKore/openkore",
-      "stars": 0,
+      "stars": 1487,
       "desc": "A free/open source client and automation tool for Ragnarok Online",
       "url": "https://github.com/OpenKore/openkore",
       "install": "",
@@ -3685,7 +3685,7 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "Darwin-lfl/langmanus",
-      "stars": 0,
+      "stars": 1317,
       "desc": "A community-driven AI automation framework that builds upon the incredible work of the open source community. Our goal is to combine language models with specialized tools for tasks like web search, c",
       "url": "https://github.com/Darwin-lfl/langmanus",
       "install": "",
@@ -3703,7 +3703,7 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "Vinyzu/Botright",
-      "stars": 0,
+      "stars": 995,
       "desc": "Botright, the most advance undetected, fingerprint-changing, captcha-solving, open-source automation framework. Build on Playwright, its as easy to use as it is to extend your code. Solving your Captc",
       "url": "https://github.com/Vinyzu/Botright",
       "install": "",
@@ -3721,7 +3721,7 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "TechNomadCode/AI-Product-Development-Toolkit",
-      "stars": 0,
+      "stars": 875,
       "desc": "User-Centered Product Development Prompt Templates",
       "url": "https://github.com/TechNomadCode/AI-Product-Development-Toolkit",
       "install": "",
@@ -3739,7 +3739,7 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "onepanelio/onepanel",
-      "stars": 0,
+      "stars": 730,
       "desc": "The open source, end-to-end computer vision platform. Label, build, train, tune, deploy and automate in a unified platform that runs on any cloud and on-premises.",
       "url": "https://github.com/onepanelio/onepanel",
       "install": "",
@@ -3757,8 +3757,8 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "xuwei95/ezdata",
-      "stars": 0,
-      "desc": "ezdata 是一个 AI 原生的数据平台:统一接入异构数据源,做 ETL 集成与任务编排,沉淀数据源专属知识库(RAG),并把知识喂给 AI 取数/分析",
+      "stars": 285,
+      "desc": "ezdata \u662f\u4e00\u4e2a AI \u539f\u751f\u7684\u6570\u636e\u5e73\u53f0:\u7edf\u4e00\u63a5\u5165\u5f02\u6784\u6570\u636e\u6e90,\u505a ETL \u96c6\u6210\u4e0e\u4efb\u52a1\u7f16\u6392,\u6c89\u6dc0\u6570\u636e\u6e90\u4e13\u5c5e\u77e5\u8bc6\u5e93(RAG),\u5e76\u628a\u77e5\u8bc6\u5582\u7ed9 AI \u53d6\u6570/\u5206\u6790",
       "url": "https://github.com/xuwei95/ezdata",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -3768,14 +3768,14 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "ezdata ezdata 是一个 ai 原生的数据平台:统一接入异构数据源,做 etl 集成与任务编排,沉淀数据源专属知识库(rag),并把知识喂给 ai 取数/分析 xuwei95/ezdata automation-productivity general"
+      "searchText": "ezdata ezdata \u662f\u4e00\u4e2a ai \u539f\u751f\u7684\u6570\u636e\u5e73\u53f0:\u7edf\u4e00\u63a5\u5165\u5f02\u6784\u6570\u636e\u6e90,\u505a etl \u96c6\u6210\u4e0e\u4efb\u52a1\u7f16\u6392,\u6c89\u6dc0\u6570\u636e\u6e90\u4e13\u5c5e\u77e5\u8bc6\u5e93(rag),\u5e76\u628a\u77e5\u8bc6\u5582\u7ed9 ai \u53d6\u6570/\u5206\u6790 xuwei95/ezdata automation-productivity general"
     },
     {
       "name": "awesome-copilots",
       "source": "github",
       "sourceAgent": "general",
       "repo": "ifokeev/awesome-copilots",
-      "stars": 0,
+      "stars": 212,
       "desc": "A curated list of AI copilots and assistants that enhance productivity across various domains, with a focus on coding and software development tools.",
       "url": "https://github.com/ifokeev/awesome-copilots",
       "install": "",
@@ -3793,7 +3793,7 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "Wytamma/write-the",
-      "stars": 0,
+      "stars": 121,
       "desc": "AI-powered Documentation and Test Generation Tool",
       "url": "https://github.com/Wytamma/write-the",
       "install": "",
@@ -3811,7 +3811,7 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "HugoRCD/nuppets",
-      "stars": 0,
+      "stars": 108,
       "desc": "A productivity hub for Nuxt and Vue.js development - Snippets, AI commands, and more tools to enhance your workflow",
       "url": "https://github.com/HugoRCD/nuppets",
       "install": "",
@@ -3829,8 +3829,8 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "overflowy/chat-key",
-      "stars": 0,
-      "desc": "Supercharge your productivity with ChatGPT and AutoHotkey 🚀",
+      "stars": 106,
+      "desc": "Supercharge your productivity with ChatGPT and AutoHotkey \ud83d\ude80",
       "url": "https://github.com/overflowy/chat-key",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -3840,14 +3840,14 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "chat-key supercharge your productivity with chatgpt and autohotkey 🚀 overflowy/chat-key automation-productivity general"
+      "searchText": "chat-key supercharge your productivity with chatgpt and autohotkey \ud83d\ude80 overflowy/chat-key automation-productivity general"
     },
     {
       "name": "autorename-pdf",
       "source": "github",
       "sourceAgent": "general",
       "repo": "ptmrio/autorename-pdf",
-      "stars": 0,
+      "stars": 102,
       "desc": "autorename-pdf is a highly efficient tool designed to automatically rename and archive PDF documents based on their content.",
       "url": "https://github.com/ptmrio/autorename-pdf",
       "install": "",
@@ -3865,8 +3865,8 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "mkhsu2002/AI-PM-Designer-Pro",
-      "stars": 0,
-      "desc": "AI 電商商品圖文生成工具，從產品圖自動生成完整行銷素材包，同時生成三條行銷策略路線，一批次產出產品海報、商品主圖及介紹長條圖 。AI-powered product marketing design tool that automatically generates complete social media marketing asset packages (8 images) from pr",
+      "stars": 54,
+      "desc": "AI \u96fb\u5546\u5546\u54c1\u5716\u6587\u751f\u6210\u5de5\u5177\uff0c\u5f9e\u7522\u54c1\u5716\u81ea\u52d5\u751f\u6210\u5b8c\u6574\u884c\u92b7\u7d20\u6750\u5305\uff0c\u540c\u6642\u751f\u6210\u4e09\u689d\u884c\u92b7\u7b56\u7565\u8def\u7dda\uff0c\u4e00\u6279\u6b21\u7522\u51fa\u7522\u54c1\u6d77\u5831\u3001\u5546\u54c1\u4e3b\u5716\u53ca\u4ecb\u7d39\u9577\u689d\u5716 \u3002AI-powered product marketing design tool that automatically generates complete social media marketing asset packages (8 images) from pr",
       "url": "https://github.com/mkhsu2002/AI-PM-Designer-Pro",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -3876,14 +3876,14 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "ai-pm-designer-pro ai 電商商品圖文生成工具，從產品圖自動生成完整行銷素材包，同時生成三條行銷策略路線，一批次產出產品海報、商品主圖及介紹長條圖 。ai-powered product marketing design tool that automatically generates complete social media marketing asset packages (8 images) from product photos, including ad visuals and sales story graphics. mkhsu2002/ai-pm-designer-pro automation-productivity general"
+      "searchText": "ai-pm-designer-pro ai \u96fb\u5546\u5546\u54c1\u5716\u6587\u751f\u6210\u5de5\u5177\uff0c\u5f9e\u7522\u54c1\u5716\u81ea\u52d5\u751f\u6210\u5b8c\u6574\u884c\u92b7\u7d20\u6750\u5305\uff0c\u540c\u6642\u751f\u6210\u4e09\u689d\u884c\u92b7\u7b56\u7565\u8def\u7dda\uff0c\u4e00\u6279\u6b21\u7522\u51fa\u7522\u54c1\u6d77\u5831\u3001\u5546\u54c1\u4e3b\u5716\u53ca\u4ecb\u7d39\u9577\u689d\u5716 \u3002ai-powered product marketing design tool that automatically generates complete social media marketing asset packages (8 images) from product photos, including ad visuals and sales story graphics. mkhsu2002/ai-pm-designer-pro automation-productivity general"
     },
     {
       "name": "azure-automation",
       "source": "github",
       "sourceAgent": "general",
       "repo": "MicrosoftDocs/Agent-Skills",
-      "stars": 0,
+      "stars": 625,
       "desc": "Azure Automation - cloud automation and configuration management",
       "url": "https://github.com/MicrosoftDocs/Agent-Skills",
       "install": "",
@@ -3901,7 +3901,7 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "spacedriveapp/spacebot",
-      "stars": 0,
+      "stars": 2308,
       "desc": "An AI agent for teams, communities, and multi-user environments.",
       "url": "https://github.com/spacedriveapp/spacebot",
       "install": "",
@@ -3919,7 +3919,7 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "saffron-health/libretto",
-      "stars": 0,
+      "stars": 752,
       "desc": "The AI toolkit for building reliable browser automations",
       "url": "https://github.com/saffron-health/libretto",
       "install": "",
@@ -3937,8 +3937,8 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "Purewhiter/mobilegym",
-      "stars": 0,
-      "desc": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research · 浏览器里运行的安卓模拟器 · Browser-hosted Android Simulator · Verifiable Evaluation · Scalable Online RL Training",
+      "stars": 687,
+      "desc": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research \u00b7 \u6d4f\u89c8\u5668\u91cc\u8fd0\u884c\u7684\u5b89\u5353\u6a21\u62df\u5668 \u00b7 Browser-hosted Android Simulator \u00b7 Verifiable Evaluation \u00b7 Scalable Online RL Training",
       "url": "https://github.com/Purewhiter/mobilegym",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -3948,14 +3948,14 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "mobilegym mobilegym: a verifiable and highly parallel simulation platform for mobile gui agent research · 浏览器里运行的安卓模拟器 · browser-hosted android simulator · verifiable evaluation · scalable online rl training purewhiter/mobilegym automation-productivity general"
+      "searchText": "mobilegym mobilegym: a verifiable and highly parallel simulation platform for mobile gui agent research \u00b7 \u6d4f\u89c8\u5668\u91cc\u8fd0\u884c\u7684\u5b89\u5353\u6a21\u62df\u5668 \u00b7 browser-hosted android simulator \u00b7 verifiable evaluation \u00b7 scalable online rl training purewhiter/mobilegym automation-productivity general"
     },
     {
       "name": "kuri",
       "source": "github",
       "sourceAgent": "general",
       "repo": "justrach/kuri",
-      "stars": 0,
+      "stars": 338,
       "desc": "Browser automation, web crawling, and iOS + Android device control for AI agents. Zig-native, token-efficient CDP snapshots, HAR recording, native adb wire-protocol client, and a standalone fetcher.",
       "url": "https://github.com/justrach/kuri",
       "install": "",
@@ -3973,7 +3973,7 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "chadbyte/clay",
-      "stars": 0,
+      "stars": 319,
       "desc": "Multiplayer Claude Code and Codex. Self-hosted team workspace for Claude Code and Codex. Multi-user, browser-based, AI mates with memory.",
       "url": "https://github.com/chadbyte/clay",
       "install": "",
@@ -3991,8 +3991,8 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "mediastormDev/dream-to-video-skill",
-      "stars": 0,
-      "desc": "AI agent skill that transforms dream descriptions into cinematic videos — auto-generates prompts, submits to Jimeng via browser automation, and downloads finished videos with post-processing effects.",
+      "stars": 317,
+      "desc": "AI agent skill that transforms dream descriptions into cinematic videos \u2014 auto-generates prompts, submits to Jimeng via browser automation, and downloads finished videos with post-processing effects.",
       "url": "https://github.com/mediastormDev/dream-to-video-skill",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -4002,14 +4002,14 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "dream-to-video-skill ai agent skill that transforms dream descriptions into cinematic videos — auto-generates prompts, submits to jimeng via browser automation, and downloads finished videos with post-processing effects. mediastormdev/dream-to-video-skill automation-productivity general"
+      "searchText": "dream-to-video-skill ai agent skill that transforms dream descriptions into cinematic videos \u2014 auto-generates prompts, submits to jimeng via browser automation, and downloads finished videos with post-processing effects. mediastormdev/dream-to-video-skill automation-productivity general"
     },
     {
       "name": "on-device-browser-agent",
       "source": "github",
       "sourceAgent": "general",
       "repo": "RunanywhereAI/on-device-browser-agent",
-      "stars": 0,
+      "stars": 296,
       "desc": "On-device AI browser automation using WebLLM. No cloud, no API keys, fully private.",
       "url": "https://github.com/RunanywhereAI/on-device-browser-agent",
       "install": "",
@@ -4027,7 +4027,7 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "LittleYier/site-memory",
-      "stars": 0,
+      "stars": 254,
       "desc": "Persistent memory for browser automation AI Agents. Learns site knowledge automatically, updates after every visit, and gets better over time.",
       "url": "https://github.com/LittleYier/site-memory",
       "install": "",
@@ -4045,7 +4045,7 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "gsd-build/gsd-browser",
-      "stars": 0,
+      "stars": 244,
       "desc": "A fast, native browser automation CLI built from the ground up for AI agents, powered by Chrome DevTools Protocol. 63 commands covering navigation, interaction, screenshots, accessibility, network moc",
       "url": "https://github.com/gsd-build/gsd-browser",
       "install": "",
@@ -4063,7 +4063,7 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "shaun0927/openchrome",
-      "stars": 0,
+      "stars": 221,
       "desc": "Open-source browser automation MCP server. Control your real Chrome from any AI agent.",
       "url": "https://github.com/shaun0927/openchrome",
       "install": "",
@@ -4081,8 +4081,8 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "EDEAI/OpenFlux",
-      "stars": 0,
-      "desc": "⚡ Open-source AI Agent desktop client — multi-LLM, long-term memory, browser automation & tool orchestration | Tauri v2",
+      "stars": 221,
+      "desc": "\u26a1 Open-source AI Agent desktop client \u2014 multi-LLM, long-term memory, browser automation & tool orchestration | Tauri v2",
       "url": "https://github.com/EDEAI/OpenFlux",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -4092,15 +4092,15 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "openflux ⚡ open-source ai agent desktop client — multi-llm, long-term memory, browser automation & tool orchestration | tauri v2 edeai/openflux automation-productivity general"
+      "searchText": "openflux \u26a1 open-source ai agent desktop client \u2014 multi-llm, long-term memory, browser automation & tool orchestration | tauri v2 edeai/openflux automation-productivity general"
     },
     {
       "name": "higgsfield-claude-skills",
       "source": "github",
       "sourceAgent": "general",
       "repo": "AKCodez/higgsfield-claude-skills",
-      "stars": 0,
-      "desc": "19 Claude Code skills for Higgsfield AI — automate image generation, Seedance 2.0 video creation, and full UGC ad pipelines with Playwright browser automation",
+      "stars": 222,
+      "desc": "19 Claude Code skills for Higgsfield AI \u2014 automate image generation, Seedance 2.0 video creation, and full UGC ad pipelines with Playwright browser automation",
       "url": "https://github.com/AKCodez/higgsfield-claude-skills",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -4110,15 +4110,15 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "higgsfield-claude-skills 19 claude code skills for higgsfield ai — automate image generation, seedance 2.0 video creation, and full ugc ad pipelines with playwright browser automation akcodez/higgsfield-claude-skills automation-productivity general"
+      "searchText": "higgsfield-claude-skills 19 claude code skills for higgsfield ai \u2014 automate image generation, seedance 2.0 video creation, and full ugc ad pipelines with playwright browser automation akcodez/higgsfield-claude-skills automation-productivity general"
     },
     {
       "name": "android-agent",
       "source": "github",
       "sourceAgent": "general",
       "repo": "ghost-in-the-droid/android-agent",
-      "stars": 0,
-      "desc": "Open-source Android device automation framework — control real phones via ADB with Python skills, a Vue dashboard, and LLM-powered tooling",
+      "stars": 223,
+      "desc": "Open-source Android device automation framework \u2014 control real phones via ADB with Python skills, a Vue dashboard, and LLM-powered tooling",
       "url": "https://github.com/ghost-in-the-droid/android-agent",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -4128,14 +4128,14 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "android-agent open-source android device automation framework — control real phones via adb with python skills, a vue dashboard, and llm-powered tooling ghost-in-the-droid/android-agent automation-productivity general"
+      "searchText": "android-agent open-source android device automation framework \u2014 control real phones via adb with python skills, a vue dashboard, and llm-powered tooling ghost-in-the-droid/android-agent automation-productivity general"
     },
     {
       "name": "unplugin-devpilot",
       "source": "github",
       "sourceAgent": "general",
       "repo": "zcf0508/unplugin-devpilot",
-      "stars": 0,
+      "stars": 33,
       "desc": "A universal plugin framework for development tools that enables seamless browser-server communication and MCP (Model Context Protocol) integration with AI/LLM systems.",
       "url": "https://github.com/zcf0508/unplugin-devpilot",
       "install": "",
@@ -4154,7 +4154,7 @@
       "sourceAgent": "automation-productivity",
       "repo": "AI-XiaoDao/ai-browser-mcp",
       "stars": 28,
-      "desc": "AI浏览器 MCP Server — Windows 本地浏览器自动化 | 243 工具 | Cursor/Claude/Cline | Web Scraping · JS逆向 · CDP断点 · 指纹伪装 · 填表RPA | FBrowser CEF 内核 | MIT 开源",
+      "desc": "AI\u6d4f\u89c8\u5668 MCP Server \u2014 Windows \u672c\u5730\u6d4f\u89c8\u5668\u81ea\u52a8\u5316 | 243 \u5de5\u5177 | Cursor/Claude/Cline | Web Scraping \u00b7 JS\u9006\u5411 \u00b7 CDP\u65ad\u70b9 \u00b7 \u6307\u7eb9\u4f2a\u88c5 \u00b7 \u586b\u8868RPA | FBrowser CEF \u5185\u6838 | MIT \u5f00\u6e90",
       "url": "https://github.com/AI-XiaoDao/ai-browser-mcp",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -4164,7 +4164,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "ai-browser-mcp AI浏览器 MCP Server — Windows 本地浏览器自动化 | 243 工具 | Cursor/Claude/Cline | Web Scraping · JS逆向 · CDP断点 · 指纹伪装 · 填表RPA | FBrowser CEF 内核 | MIT 开源 AI-XiaoDao/ai-browser-mcp automation-productivity"
+      "searchText": "ai-browser-mcp AI\u6d4f\u89c8\u5668 MCP Server \u2014 Windows \u672c\u5730\u6d4f\u89c8\u5668\u81ea\u52a8\u5316 | 243 \u5de5\u5177 | Cursor/Claude/Cline | Web Scraping \u00b7 JS\u9006\u5411 \u00b7 CDP\u65ad\u70b9 \u00b7 \u6307\u7eb9\u4f2a\u88c5 \u00b7 \u586b\u8868RPA | FBrowser CEF \u5185\u6838 | MIT \u5f00\u6e90 AI-XiaoDao/ai-browser-mcp automation-productivity"
     },
     {
       "name": "stealth-browser-mcp",
@@ -4284,7 +4284,7 @@
       "sourceAgent": "automation-productivity",
       "repo": "DebugBase/glance",
       "stars": 152,
-      "desc": "AI-powered browser automation MCP server for Claude Code. Navigate, click, screenshot, test — all from your terminal.",
+      "desc": "AI-powered browser automation MCP server for Claude Code. Navigate, click, screenshot, test \u2014 all from your terminal.",
       "url": "https://github.com/DebugBase/glance",
       "install": "",
       "functionCategory": "automation-productivity",
@@ -4294,7 +4294,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "glance AI-powered browser automation MCP server for Claude Code. Navigate, click, screenshot, test — all fr DebugBase/glance automation-productivity"
+      "searchText": "glance AI-powered browser automation MCP server for Claude Code. Navigate, click, screenshot, test \u2014 all fr DebugBase/glance automation-productivity"
     },
     {
       "name": "browser2api",
@@ -4302,7 +4302,7 @@
       "sourceAgent": "automation-productivity",
       "repo": "Rabornkraken/browser2api",
       "stars": 20,
-      "desc": "Turn browser UIs into programmatic image and video generation APIs. Automates image generation tools such as Jimeng (即梦AI) and Google Flow via Playwright + Chrome CDP — no API keys or reverse engineer",
+      "desc": "Turn browser UIs into programmatic image and video generation APIs. Automates image generation tools such as Jimeng (\u5373\u68a6AI) and Google Flow via Playwright + Chrome CDP \u2014 no API keys or reverse engineer",
       "url": "https://github.com/Rabornkraken/browser2api",
       "install": "",
       "functionCategory": "automation-productivity",

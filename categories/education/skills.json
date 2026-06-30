@@ -68,7 +68,7 @@
       "sourceAgent": "education",
       "repo": "ocw.mit.edu",
       "stars": 150000,
-      "desc": "Free MIT course materials — video lectures and assignments",
+      "desc": "Free MIT course materials \u2014 video lectures and assignments",
       "url": "https://ocw.mit.edu",
       "install": "web https://ocw.mit.edu",
       "functionCategory": "education",
@@ -78,7 +78,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "mit-opencourseware free mit course materials — video lectures and assignments ocw.mit.edu web https://ocw.mit.edu education general"
+      "searchText": "mit-opencourseware free mit course materials \u2014 video lectures and assignments ocw.mit.edu web https://ocw.mit.edu education general"
     },
     {
       "name": "coursera",
@@ -230,7 +230,7 @@
       "sourceAgent": "education",
       "repo": "photomath.com",
       "stars": 80000,
-      "desc": "AI math solver — scan and solve equations instantly",
+      "desc": "AI math solver \u2014 scan and solve equations instantly",
       "url": "https://photomath.com",
       "install": "web https://photomath.com",
       "functionCategory": "education",
@@ -240,7 +240,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "photomath ai math solver — scan and solve equations instantly photomath.com web https://photomath.com education general"
+      "searchText": "photomath ai math solver \u2014 scan and solve equations instantly photomath.com web https://photomath.com education general"
     },
     {
       "name": "quizlet",
@@ -320,7 +320,7 @@
       "sourceAgent": "general",
       "repo": "datawhalechina/hello-agents",
       "stars": 62470,
-      "desc": "从零开始构建智能体 — principles and practice of building AI agents from scratch.",
+      "desc": "\u4ece\u96f6\u5f00\u59cb\u6784\u5efa\u667a\u80fd\u4f53 \u2014 principles and practice of building AI agents from scratch.",
       "url": "https://github.com/datawhalechina/hello-agents",
       "install": "",
       "functionCategory": "education",
@@ -331,7 +331,7 @@
         "claude",
         "codex"
       ],
-      "searchText": "hello-agents 从零开始构建智能体 — principles and practice of building ai agents from scratch. datawhalechina/hello-agents education claude codex"
+      "searchText": "hello-agents \u4ece\u96f6\u5f00\u59cb\u6784\u5efa\u667a\u80fd\u4f53 \u2014 principles and practice of building ai agents from scratch. datawhalechina/hello-agents education claude codex"
     },
     {
       "name": "anki",
@@ -1013,7 +1013,7 @@
       "sourceAgent": "education",
       "repo": "elicit.org",
       "stars": 25000,
-      "desc": "AI research assistant — summarize papers, extract key findings",
+      "desc": "AI research assistant \u2014 summarize papers, extract key findings",
       "url": "https://elicit.org",
       "install": "web https://elicit.org",
       "functionCategory": "education",
@@ -1023,7 +1023,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "elicit ai research assistant — summarize papers, extract key findings elicit.org web https://elicit.org education general"
+      "searchText": "elicit ai research assistant \u2014 summarize papers, extract key findings elicit.org web https://elicit.org education general"
     },
     {
       "name": "great-learning",
@@ -1247,7 +1247,7 @@
       "sourceAgent": "general",
       "repo": "datawhalechina/easy-vibe",
       "stars": 17424,
-      "desc": "Vibe Coding 2026 — Your First Modern Coding course: from beginners to master step by step.",
+      "desc": "Vibe Coding 2026 \u2014 Your First Modern Coding course: from beginners to master step by step.",
       "url": "https://github.com/datawhalechina/easy-vibe",
       "install": "",
       "functionCategory": "education",
@@ -1257,7 +1257,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "easy-vibe vibe coding 2026 — your first modern coding course: from beginners to master step by step. datawhalechina/easy-vibe education general"
+      "searchText": "easy-vibe vibe coding 2026 \u2014 your first modern coding course: from beginners to master step by step. datawhalechina/easy-vibe education general"
     },
     {
       "name": "bartleby",
@@ -1399,7 +1399,7 @@
       "sourceAgent": "classisland",
       "repo": "ClassIsland/ClassIsland",
       "stars": 2596,
-      "desc": "一款功能强、可定制、跨平台，适用于班级多媒体屏幕的课表信息显示工具，可以一目了然地显示各种信息。",
+      "desc": "\u4e00\u6b3e\u529f\u80fd\u5f3a\u3001\u53ef\u5b9a\u5236\u3001\u8de8\u5e73\u53f0\uff0c\u9002\u7528\u4e8e\u73ed\u7ea7\u591a\u5a92\u4f53\u5c4f\u5e55\u7684\u8bfe\u8868\u4fe1\u606f\u663e\u793a\u5de5\u5177\uff0c\u53ef\u4ee5\u4e00\u76ee\u4e86\u7136\u5730\u663e\u793a\u5404\u79cd\u4fe1\u606f\u3002",
       "url": "https://github.com/ClassIsland/ClassIsland",
       "install": "",
       "functionCategory": "education",
@@ -1409,7 +1409,7 @@
       "supportedAgents": [
         "classisland"
       ],
-      "searchText": "classisland 一款功能强、可定制、跨平台，适用于班级多媒体屏幕的课表信息显示工具，可以一目了然地显示各种信息。 classisland/classisland education classisland"
+      "searchText": "classisland \u4e00\u6b3e\u529f\u80fd\u5f3a\u3001\u53ef\u5b9a\u5236\u3001\u8de8\u5e73\u53f0\uff0c\u9002\u7528\u4e8e\u73ed\u7ea7\u591a\u5a92\u4f53\u5c4f\u5e55\u7684\u8bfe\u8868\u4fe1\u606f\u663e\u793a\u5de5\u5177\uff0c\u53ef\u4ee5\u4e00\u76ee\u4e86\u7136\u5730\u663e\u793a\u5404\u79cd\u4fe1\u606f\u3002 classisland/classisland education classisland"
     },
     {
       "name": "osint-cheat-sheet",
@@ -1489,7 +1489,7 @@
       "sourceAgent": "class-widgets",
       "repo": "Class-Widgets/Class-Widgets",
       "stars": 774,
-      "desc": "请转用 Class Widgets 2，谢谢。",
+      "desc": "\u8bf7\u8f6c\u7528 Class Widgets 2\uff0c\u8c22\u8c22\u3002",
       "url": "https://github.com/Class-Widgets/Class-Widgets",
       "install": "",
       "functionCategory": "education",
@@ -1499,7 +1499,7 @@
       "supportedAgents": [
         "class-widgets"
       ],
-      "searchText": "class-widgets 请转用 class widgets 2，谢谢。 class-widgets/class-widgets education class-widgets"
+      "searchText": "class-widgets \u8bf7\u8f6c\u7528 class widgets 2\uff0c\u8c22\u8c22\u3002 class-widgets/class-widgets education class-widgets"
     },
     {
       "name": "hypatia",
@@ -1543,7 +1543,7 @@
       "sourceAgent": "general",
       "repo": "liyupi/yupi-skill",
       "stars": 355,
-      "desc": "🐟 程序员鱼皮 Agent Skill｜把自己蒸馏成 AI 技能包，用我的思维方式和表达风格回答编程学习、求职面试等问题。",
+      "desc": "\ud83d\udc1f \u7a0b\u5e8f\u5458\u9c7c\u76ae Agent Skill\uff5c\u628a\u81ea\u5df1\u84b8\u998f\u6210 AI \u6280\u80fd\u5305\uff0c\u7528\u6211\u7684\u601d\u7ef4\u65b9\u5f0f\u548c\u8868\u8fbe\u98ce\u683c\u56de\u7b54\u7f16\u7a0b\u5b66\u4e60\u3001\u6c42\u804c\u9762\u8bd5\u7b49\u95ee\u9898\u3002",
       "url": "https://github.com/liyupi/yupi-skill",
       "install": "$skill-installer yupi-skill",
       "functionCategory": "education",
@@ -1553,7 +1553,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "yupi-skill 🐟 程序员鱼皮 agent skill｜把自己蒸馏成 ai 技能包，用我的思维方式和表达风格回答编程学习、求职面试等问题。 liyupi/yupi-skill $skill-installer yupi-skill education general"
+      "searchText": "yupi-skill \ud83d\udc1f \u7a0b\u5e8f\u5458\u9c7c\u76ae agent skill\uff5c\u628a\u81ea\u5df1\u84b8\u998f\u6210 ai \u6280\u80fd\u5305\uff0c\u7528\u6211\u7684\u601d\u7ef4\u65b9\u5f0f\u548c\u8868\u8fbe\u98ce\u683c\u56de\u7b54\u7f16\u7a0b\u5b66\u4e60\u3001\u6c42\u804c\u9762\u8bd5\u7b49\u95ee\u9898\u3002 liyupi/yupi-skill $skill-installer yupi-skill education general"
     },
     {
       "name": "ai-agent-camp",
@@ -1561,7 +1561,7 @@
       "sourceAgent": "general",
       "repo": "minicoohei/ai-agent-camp",
       "stars": 344,
-      "desc": "AI Agent Camp — non-engineer-friendly AI agent training curriculum. Lessons, skills, commands, hooks for Claude Code.",
+      "desc": "AI Agent Camp \u2014 non-engineer-friendly AI agent training curriculum. Lessons, skills, commands, hooks for Claude Code.",
       "url": "https://github.com/minicoohei/ai-agent-camp",
       "install": "git clone https://github.com/minicoohei/ai-agent-camp",
       "functionCategory": "education",
@@ -1571,7 +1571,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "ai-agent-camp ai agent camp — non-engineer-friendly ai agent training curriculum. lessons, skills, commands, hooks for claude code. minicoohei/ai-agent-camp git clone https://github.com/minicoohei/ai-agent-camp education general"
+      "searchText": "ai-agent-camp ai agent camp \u2014 non-engineer-friendly ai agent training curriculum. lessons, skills, commands, hooks for claude code. minicoohei/ai-agent-camp git clone https://github.com/minicoohei/ai-agent-camp education general"
     },
     {
       "name": "doubtdesk",
@@ -1650,7 +1650,7 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "JushBJJ/Mr.-Ranedeer-AI-Tutor",
-      "stars": 0,
+      "stars": 29608,
       "desc": "A GPT-4 AI Tutor Prompt for customizable personalized learning experiences.",
       "url": "https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor",
       "install": "",
@@ -1668,7 +1668,7 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "ralphcajipe/chatgpt-prompt-engineering",
-      "stars": 0,
+      "stars": 401,
       "desc": "Jupyter code notebooks of \"ChatGPT Prompt Engineering for Developers\" by DeepLearning.AI and OpenAI.",
       "url": "https://github.com/ralphcajipe/chatgpt-prompt-engineering",
       "install": "",
@@ -1686,7 +1686,7 @@
       "source": "github",
       "sourceAgent": "general",
       "repo": "RCGAI/SimplyRetrieve",
-      "stars": 0,
+      "stars": 217,
       "desc": "Lightweight chat AI platform featuring custom knowledge, open-source LLMs, prompt-engineering, retrieval analysis. Highly customizable. For Retrieval-Centric & Retrieval-Augmented Generation.",
       "url": "https://github.com/RCGAI/SimplyRetrieve",
       "install": "",
@@ -1742,7 +1742,7 @@
       "sourceAgent": "general",
       "repo": "CMU-ai-infra/seai",
       "stars": 452,
-      "desc": "CMU SEAI: Machine Learning In Production / AI Engineering — comprehensive learning track",
+      "desc": "CMU SEAI: Machine Learning In Production / AI Engineering \u2014 comprehensive learning track",
       "url": "https://github.com/CMU-ai-infra/seai",
       "install": "",
       "functionCategory": "education",
@@ -1752,7 +1752,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "seai CMU SEAI: Machine Learning In Production / AI Engineering — comprehensive learni CMU-ai-infra/seai education",
+      "searchText": "seai CMU SEAI: Machine Learning In Production / AI Engineering \u2014 comprehensive learni CMU-ai-infra/seai education",
       "pricing": "free"
     },
     {
@@ -1767,7 +1767,7 @@
         "openclaw"
       ],
       "category": "education",
-      "categoryZh": "教育",
+      "categoryZh": "\u6559\u80b2",
       "name": "teach",
       "desc": "Teach the user a new skill or concept within the current workspace context.",
       "url": "https://github.com/mxyhi/ok-skills/tree/main/teach",
@@ -1775,7 +1775,11 @@
         "teaching",
         "learning",
         "education"
-      ]
+      ],
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "categoryPath": "education",
+      "subCategoryId": "education"
     },
     {
       "name": "LLM-Agents-Ecosystem-Handbook",
@@ -1801,7 +1805,7 @@
       "sourceAgent": "education",
       "repo": "FrankS-IntelLab/agentic-kaggle-skill",
       "stars": 122,
-      "desc": "🤖 AI Agent-driven Kaggle competition workflow. Battle-tested patterns for score stabilization, submission troubleshooting, kernel workflows, and spec-driven development.",
+      "desc": "\ud83e\udd16 AI Agent-driven Kaggle competition workflow. Battle-tested patterns for score stabilization, submission troubleshooting, kernel workflows, and spec-driven development.",
       "url": "https://github.com/FrankS-IntelLab/agentic-kaggle-skill",
       "install": "",
       "functionCategory": "education",
@@ -1811,7 +1815,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "agentic-kaggle-skill 🤖 AI Agent-driven Kaggle competition workflow. Battle-tested patterns for score stabilization, submi FrankS-IntelLab/agentic-kaggle-skill education"
+      "searchText": "agentic-kaggle-skill \ud83e\udd16 AI Agent-driven Kaggle competition workflow. Battle-tested patterns for score stabilization, submi FrankS-IntelLab/agentic-kaggle-skill education"
     },
     {
       "name": "human-skill-tree",
@@ -1819,7 +1823,7 @@
       "sourceAgent": "education",
       "repo": "24kchengYe/human-skill-tree",
       "stars": 568,
-      "desc": "🌳 AI-Powered Skill Tree for Lifelong Human Learning. 30+ skills from K-12 to career & social intelligence, built on cognitive science. | 人类养成记：AI 驱动的终身学习技能树",
+      "desc": "\ud83c\udf33 AI-Powered Skill Tree for Lifelong Human Learning. 30+ skills from K-12 to career & social intelligence, built on cognitive science. | \u4eba\u7c7b\u517b\u6210\u8bb0\uff1aAI \u9a71\u52a8\u7684\u7ec8\u8eab\u5b66\u4e60\u6280\u80fd\u6811",
       "url": "https://github.com/24kchengYe/human-skill-tree",
       "install": "",
       "functionCategory": "education",
@@ -1829,7 +1833,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "human-skill-tree 🌳 AI-Powered Skill Tree for Lifelong Human Learning. 30+ ski 24kchengYe/human-skill-tree education"
+      "searchText": "human-skill-tree \ud83c\udf33 AI-Powered Skill Tree for Lifelong Human Learning. 30+ ski 24kchengYe/human-skill-tree education"
     }
   ]
 }

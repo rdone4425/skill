@@ -10,7 +10,7 @@
       "subcategoryId": "tools",
       "count": 1143,
       "name_en": "Developer Tools",
-      "name_cn": "开发工具",
+      "name_cn": "\u5f00\u53d1\u5de5\u5177",
       "hfTasks": [],
       "ghTopics": [
         "developer-tools",
@@ -26,11 +26,11 @@
       "seo": {
         "metaDescription": {
           "en": "Discover top developer tools, code editors, debuggers, and productivity utilities. Browse 1,100+ open-source dev tools for JavaScript, Python, Rust, and more.",
-          "cn": "发现顶级开发工具、代码编辑器、调试器和生产力工具。浏览 1100+ 个面向 JavaScript、Python、Rust 等的开源开发工具。"
+          "cn": "\u53d1\u73b0\u9876\u7ea7\u5f00\u53d1\u5de5\u5177\u3001\u4ee3\u7801\u7f16\u8f91\u5668\u3001\u8c03\u8bd5\u5668\u548c\u751f\u4ea7\u529b\u5de5\u5177\u3002\u6d4f\u89c8 1100+ \u4e2a\u9762\u5411 JavaScript\u3001Python\u3001Rust \u7b49\u7684\u5f00\u6e90\u5f00\u53d1\u5de5\u5177\u3002"
         },
         "keywords": {
           "en": "developer tools, code editor, debugger, npm, JavaScript tools, Python tools, Rust, VS Code extensions, CLI tools, open source devtools",
-          "cn": "开发工具, 代码编辑器, 调试器, npm, JavaScript 工具, Python 工具, Rust, VS Code 扩展, CLI 工具, 开源开发工具"
+          "cn": "\u5f00\u53d1\u5de5\u5177, \u4ee3\u7801\u7f16\u8f91\u5668, \u8c03\u8bd5\u5668, npm, JavaScript \u5de5\u5177, Python \u5de5\u5177, Rust, VS Code \u6269\u5c55, CLI \u5de5\u5177, \u5f00\u6e90\u5f00\u53d1\u5de5\u5177"
         }
       },
       "schemaOrg": {
@@ -57,7 +57,7 @@
       "subcategoryId": "general",
       "count": 628,
       "name_en": "General Tools",
-      "name_cn": "通用工具",
+      "name_cn": "\u901a\u7528\u5de5\u5177",
       "hfTasks": [],
       "ghTopics": [
         "open-source",
@@ -66,11 +66,11 @@
       "seo": {
         "metaDescription": {
           "en": "Explore general-purpose tools and utilities. Find 600+ awesome open-source projects, productivity software, and must-have general tools for any workflow.",
-          "cn": "探索通用工具和实用程序。发现 600+ 个精选开源项目、生产力软件和任何工作流都必不可少的通用工具。"
+          "cn": "\u63a2\u7d22\u901a\u7528\u5de5\u5177\u548c\u5b9e\u7528\u7a0b\u5e8f\u3002\u53d1\u73b0 600+ \u4e2a\u7cbe\u9009\u5f00\u6e90\u9879\u76ee\u3001\u751f\u4ea7\u529b\u8f6f\u4ef6\u548c\u4efb\u4f55\u5de5\u4f5c\u6d41\u90fd\u5fc5\u4e0d\u53ef\u5c11\u7684\u901a\u7528\u5de5\u5177\u3002"
         },
         "keywords": {
           "en": "general tools, open source, productivity software, awesome lists, utility tools, general purpose software, must-have tools",
-          "cn": "通用工具, 开源, 生产力软件, 精选列表, 实用工具, 通用软件, 必备工具"
+          "cn": "\u901a\u7528\u5de5\u5177, \u5f00\u6e90, \u751f\u4ea7\u529b\u8f6f\u4ef6, \u7cbe\u9009\u5217\u8868, \u5b9e\u7528\u5de5\u5177, \u901a\u7528\u8f6f\u4ef6, \u5fc5\u5907\u5de5\u5177"
         }
       },
       "schemaOrg": {
@@ -97,7 +97,7 @@
       "subcategoryId": "ai",
       "count": 546,
       "name_en": "Data & AI / ML",
-      "name_cn": "数据与 AI",
+      "name_cn": "\u6570\u636e\u4e0e AI",
       "hfTasks": [
         "text-generation",
         "text-to-image",
@@ -151,11 +151,11 @@
       "seo": {
         "metaDescription": {
           "en": "Browse 500+ AI/ML tools, LLM frameworks, and data science utilities. Discover text-to-image, NLP, computer vision, and generative AI models and libraries.",
-          "cn": "浏览 500+ 款 AI/ML 工具、大语言模型框架和数据科学实用程序。发现文本生成、自然语言处理、计算机视觉和生成式 AI 模型与库。"
+          "cn": "\u6d4f\u89c8 500+ \u6b3e AI/ML \u5de5\u5177\u3001\u5927\u8bed\u8a00\u6a21\u578b\u6846\u67b6\u548c\u6570\u636e\u79d1\u5b66\u5b9e\u7528\u7a0b\u5e8f\u3002\u53d1\u73b0\u6587\u672c\u751f\u6210\u3001\u81ea\u7136\u8bed\u8a00\u5904\u7406\u3001\u8ba1\u7b97\u673a\u89c6\u89c9\u548c\u751f\u6210\u5f0f AI \u6a21\u578b\u4e0e\u5e93\u3002"
         },
         "keywords": {
           "en": "AI tools, machine learning, LLM, NLP, computer vision, generative AI, text-to-image, deep learning, open source AI, data science, Hugging Face models, RAG",
-          "cn": "AI 工具, 机器学习, 大语言模型, 自然语言处理, 计算机视觉, 生成式 AI, 文本生成图像, 深度学习, 开源 AI, 数据科学, RAG"
+          "cn": "AI \u5de5\u5177, \u673a\u5668\u5b66\u4e60, \u5927\u8bed\u8a00\u6a21\u578b, \u81ea\u7136\u8bed\u8a00\u5904\u7406, \u8ba1\u7b97\u673a\u89c6\u89c9, \u751f\u6210\u5f0f AI, \u6587\u672c\u751f\u6210\u56fe\u50cf, \u6df1\u5ea6\u5b66\u4e60, \u5f00\u6e90 AI, \u6570\u636e\u79d1\u5b66, RAG"
         }
       },
       "schemaOrg": {
@@ -182,7 +182,7 @@
       "subcategoryId": "ui",
       "count": 420,
       "name_en": "Design & UI",
-      "name_cn": "设计与 UI",
+      "name_cn": "\u8bbe\u8ba1\u4e0e UI",
       "hfTasks": [],
       "ghTopics": [
         "frontend",
@@ -194,11 +194,11 @@
       "seo": {
         "metaDescription": {
           "en": "Find 400+ design systems, UI components, CSS frameworks, and front-end design tools. Best resources for React, Vue, and modern web UI design.",
-          "cn": "发现 400+ 个设计系统、UI 组件、CSS 框架和前端设计工具。React、Vue 和现代网页 UI 设计的最佳资源。"
+          "cn": "\u53d1\u73b0 400+ \u4e2a\u8bbe\u8ba1\u7cfb\u7edf\u3001UI \u7ec4\u4ef6\u3001CSS \u6846\u67b6\u548c\u524d\u7aef\u8bbe\u8ba1\u5de5\u5177\u3002React\u3001Vue \u548c\u73b0\u4ee3\u7f51\u9875 UI \u8bbe\u8ba1\u7684\u6700\u4f73\u8d44\u6e90\u3002"
         },
         "keywords": {
           "en": "UI design, design systems, CSS frameworks, React components, Vue components, front-end design, web design, UI kits, visual design tools",
-          "cn": "UI 设计, 设计系统, CSS 框架, React 组件, Vue 组件, 前端设计, 网页设计, UI 套件, 视觉设计工具"
+          "cn": "UI \u8bbe\u8ba1, \u8bbe\u8ba1\u7cfb\u7edf, CSS \u6846\u67b6, React \u7ec4\u4ef6, Vue \u7ec4\u4ef6, \u524d\u7aef\u8bbe\u8ba1, \u7f51\u9875\u8bbe\u8ba1, UI \u5957\u4ef6, \u89c6\u89c9\u8bbe\u8ba1\u5de5\u5177"
         }
       },
       "schemaOrg": {
@@ -225,7 +225,7 @@
       "subcategoryId": "agent-framework",
       "count": 761,
       "name_en": "AI Agent Frameworks",
-      "name_cn": "Agent 框架",
+      "name_cn": "Agent \u6846\u67b6",
       "hfTasks": [],
       "ghTopics": [
         "agent",
@@ -237,11 +237,11 @@
       "seo": {
         "metaDescription": {
           "en": "Explore 760+ AI agent frameworks and autonomous agent platforms. Build, deploy, and manage intelligent agents with the latest agentic AI frameworks.",
-          "cn": "探索 760+ 个 AI Agent 框架和自主智能体平台。使用最新的 Agentic AI 框架构建、部署和管理智能代理。"
+          "cn": "\u63a2\u7d22 760+ \u4e2a AI Agent \u6846\u67b6\u548c\u81ea\u4e3b\u667a\u80fd\u4f53\u5e73\u53f0\u3002\u4f7f\u7528\u6700\u65b0\u7684 Agentic AI \u6846\u67b6\u6784\u5efa\u3001\u90e8\u7f72\u548c\u7ba1\u7406\u667a\u80fd\u4ee3\u7406\u3002"
         },
         "keywords": {
           "en": "AI agent framework, autonomous agent, agentic AI, AI agents, multi-agent systems, LLM agents, AI automation, virtual agents, agent platforms",
-          "cn": "AI Agent 框架, 自主代理, 智能体 AI, AI 代理, 多智能体系统, 大语言模型代理, AI 自动化, 代理平台"
+          "cn": "AI Agent \u6846\u67b6, \u81ea\u4e3b\u4ee3\u7406, \u667a\u80fd\u4f53 AI, AI \u4ee3\u7406, \u591a\u667a\u80fd\u4f53\u7cfb\u7edf, \u5927\u8bed\u8a00\u6a21\u578b\u4ee3\u7406, AI \u81ea\u52a8\u5316, \u4ee3\u7406\u5e73\u53f0"
         }
       },
       "schemaOrg": {
@@ -268,7 +268,7 @@
       "subcategoryId": "content",
       "count": 199,
       "name_en": "Documentation & Content",
-      "name_cn": "文档与内容",
+      "name_cn": "\u6587\u6863\u4e0e\u5185\u5bb9",
       "hfTasks": [
         "document-question-answering"
       ],
@@ -280,11 +280,11 @@
       "seo": {
         "metaDescription": {
           "en": "Browse 200+ documentation tools, content management systems, and writing utilities. Best markdown editors, doc generators, and knowledge base tools.",
-          "cn": "浏览 200+ 个文档工具、内容管理系统和写作实用程序。最佳 Markdown 编辑器、文档生成器和知识库工具。"
+          "cn": "\u6d4f\u89c8 200+ \u4e2a\u6587\u6863\u5de5\u5177\u3001\u5185\u5bb9\u7ba1\u7406\u7cfb\u7edf\u548c\u5199\u4f5c\u5b9e\u7528\u7a0b\u5e8f\u3002\u6700\u4f73 Markdown \u7f16\u8f91\u5668\u3001\u6587\u6863\u751f\u6210\u5668\u548c\u77e5\u8bc6\u5e93\u5de5\u5177\u3002"
         },
         "keywords": {
           "en": "documentation tools, markdown editor, doc generator, knowledge base, content management, technical writing, API documentation, static site generator",
-          "cn": "文档工具, Markdown 编辑器, 文档生成器, 知识库, 内容管理, 技术写作, API 文档, 静态站点生成器"
+          "cn": "\u6587\u6863\u5de5\u5177, Markdown \u7f16\u8f91\u5668, \u6587\u6863\u751f\u6210\u5668, \u77e5\u8bc6\u5e93, \u5185\u5bb9\u7ba1\u7406, \u6280\u672f\u5199\u4f5c, API \u6587\u6863, \u9759\u6001\u7ad9\u70b9\u751f\u6210\u5668"
         }
       },
       "schemaOrg": {
@@ -311,7 +311,7 @@
       "subcategoryId": "productivity",
       "count": 223,
       "name_en": "Automation & Productivity",
-      "name_cn": "自动化与效率",
+      "name_cn": "\u81ea\u52a8\u5316\u4e0e\u6548\u7387",
       "hfTasks": [],
       "ghTopics": [
         "automation",
@@ -323,11 +323,11 @@
       "seo": {
         "metaDescription": {
           "en": "Discover 220+ automation and productivity tools. Workflow automation, task management, and efficiency boosters for developers and teams.",
-          "cn": "发现 220+ 个自动化和效率工具。面向开发者和团队的工作流自动化、任务管理和效率提升利器。"
+          "cn": "\u53d1\u73b0 220+ \u4e2a\u81ea\u52a8\u5316\u548c\u6548\u7387\u5de5\u5177\u3002\u9762\u5411\u5f00\u53d1\u8005\u548c\u56e2\u961f\u7684\u5de5\u4f5c\u6d41\u81ea\u52a8\u5316\u3001\u4efb\u52a1\u7ba1\u7406\u548c\u6548\u7387\u63d0\u5347\u5229\u5668\u3002"
         },
         "keywords": {
           "en": "automation tools, productivity software, workflow automation, task management, efficiency tools, browser automation, project management, time tracking",
-          "cn": "自动化工具, 生产力软件, 工作流自动化, 任务管理, 效率工具, 浏览器自动化, 项目管理, 时间追踪"
+          "cn": "\u81ea\u52a8\u5316\u5de5\u5177, \u751f\u4ea7\u529b\u8f6f\u4ef6, \u5de5\u4f5c\u6d41\u81ea\u52a8\u5316, \u4efb\u52a1\u7ba1\u7406, \u6548\u7387\u5de5\u5177, \u6d4f\u89c8\u5668\u81ea\u52a8\u5316, \u9879\u76ee\u7ba1\u7406, \u65f6\u95f4\u8ffd\u8e2a"
         }
       },
       "schemaOrg": {
@@ -354,7 +354,7 @@
       "subcategoryId": "general",
       "count": 234,
       "name_en": "Security & Cybersecurity",
-      "name_cn": "安全工具",
+      "name_cn": "\u5b89\u5168\u5de5\u5177",
       "hfTasks": [],
       "ghTopics": [
         "security"
@@ -362,11 +362,11 @@
       "seo": {
         "metaDescription": {
           "en": "Browse 230+ cybersecurity and security tools. Find penetration testing, vulnerability scanning, and defensive security utilities.",
-          "cn": "浏览 230+ 个网络安全和安全工具。渗透测试、漏洞扫描和防御性安全工具。"
+          "cn": "\u6d4f\u89c8 230+ \u4e2a\u7f51\u7edc\u5b89\u5168\u548c\u5b89\u5168\u5de5\u5177\u3002\u6e17\u900f\u6d4b\u8bd5\u3001\u6f0f\u6d1e\u626b\u63cf\u548c\u9632\u5fa1\u6027\u5b89\u5168\u5de5\u5177\u3002"
         },
         "keywords": {
           "en": "cybersecurity, security tools, penetration testing, vulnerability scanning, defensive security, offensive security, audit tools, security scanner, infosec",
-          "cn": "网络安全, 安全工具, 渗透测试, 漏洞扫描, 防御性安全, 攻击性安全, 审计工具, 安全扫描, 信息安全"
+          "cn": "\u7f51\u7edc\u5b89\u5168, \u5b89\u5168\u5de5\u5177, \u6e17\u900f\u6d4b\u8bd5, \u6f0f\u6d1e\u626b\u63cf, \u9632\u5fa1\u6027\u5b89\u5168, \u653b\u51fb\u6027\u5b89\u5168, \u5ba1\u8ba1\u5de5\u5177, \u5b89\u5168\u626b\u63cf, \u4fe1\u606f\u5b89\u5168"
         }
       },
       "schemaOrg": {
@@ -393,7 +393,7 @@
       "subcategoryId": "social-media",
       "count": 142,
       "name_en": "Social Media",
-      "name_cn": "社交媒体",
+      "name_cn": "\u793e\u4ea4\u5a92\u4f53",
       "hfTasks": [],
       "ghTopics": [
         "social-media"
@@ -401,11 +401,11 @@
       "seo": {
         "metaDescription": {
           "en": "Explore 140+ social media tools, analytics, and marketing utilities. Manage social presence and grow your audience with top open-source tools.",
-          "cn": "探索 140+ 个社交媒体工具、分析工具和营销实用程序。使用顶级开源工具管理社交影响力并扩大受众。"
+          "cn": "\u63a2\u7d22 140+ \u4e2a\u793e\u4ea4\u5a92\u4f53\u5de5\u5177\u3001\u5206\u6790\u5de5\u5177\u548c\u8425\u9500\u5b9e\u7528\u7a0b\u5e8f\u3002\u4f7f\u7528\u9876\u7ea7\u5f00\u6e90\u5de5\u5177\u7ba1\u7406\u793e\u4ea4\u5f71\u54cd\u529b\u5e76\u6269\u5927\u53d7\u4f17\u3002"
         },
         "keywords": {
           "en": "social media tools, social marketing, social analytics, content scheduler, audience growth, social media management, open source social tools",
-          "cn": "社交媒体工具, 社交营销, 社交分析, 内容排期, 受众增长, 社交媒体管理, 开源社交工具"
+          "cn": "\u793e\u4ea4\u5a92\u4f53\u5de5\u5177, \u793e\u4ea4\u8425\u9500, \u793e\u4ea4\u5206\u6790, \u5185\u5bb9\u6392\u671f, \u53d7\u4f17\u589e\u957f, \u793e\u4ea4\u5a92\u4f53\u7ba1\u7406, \u5f00\u6e90\u793e\u4ea4\u5de5\u5177"
         }
       },
       "schemaOrg": {
@@ -432,7 +432,7 @@
       "subcategoryId": "finance-crypto",
       "count": 139,
       "name_en": "Finance & Crypto",
-      "name_cn": "金融与加密",
+      "name_cn": "\u91d1\u878d\u4e0e\u52a0\u5bc6",
       "hfTasks": [],
       "ghTopics": [
         "finance",
@@ -442,11 +442,11 @@
       "seo": {
         "metaDescription": {
           "en": "Find 130+ finance, crypto, and trading tools. Open-source fintech utilities, blockchain tools, and algorithmic trading libraries.",
-          "cn": "发现 130+ 个金融、加密和交易工具。开源金融科技实用程序、区块链工具和算法交易库。"
+          "cn": "\u53d1\u73b0 130+ \u4e2a\u91d1\u878d\u3001\u52a0\u5bc6\u548c\u4ea4\u6613\u5de5\u5177\u3002\u5f00\u6e90\u91d1\u878d\u79d1\u6280\u5b9e\u7528\u7a0b\u5e8f\u3001\u533a\u5757\u94fe\u5de5\u5177\u548c\u7b97\u6cd5\u4ea4\u6613\u5e93\u3002"
         },
         "keywords": {
           "en": "finance tools, crypto, trading, fintech, blockchain, algorithmic trading, DeFi, investment tools, open source finance, crypto trading",
-          "cn": "金融工具, 加密货币, 交易, 金融科技, 区块链, 算法交易, 去中心化金融, 投资工具, 开源金融, 加密货币交易"
+          "cn": "\u91d1\u878d\u5de5\u5177, \u52a0\u5bc6\u8d27\u5e01, \u4ea4\u6613, \u91d1\u878d\u79d1\u6280, \u533a\u5757\u94fe, \u7b97\u6cd5\u4ea4\u6613, \u53bb\u4e2d\u5fc3\u5316\u91d1\u878d, \u6295\u8d44\u5de5\u5177, \u5f00\u6e90\u91d1\u878d, \u52a0\u5bc6\u8d27\u5e01\u4ea4\u6613"
         }
       },
       "schemaOrg": {
@@ -473,7 +473,7 @@
       "subcategoryId": "deploy",
       "count": 128,
       "name_en": "DevOps & Deployment",
-      "name_cn": "DevOps 与部署",
+      "name_cn": "DevOps \u4e0e\u90e8\u7f72",
       "hfTasks": [],
       "ghTopics": [
         "devops",
@@ -484,11 +484,11 @@
       "seo": {
         "metaDescription": {
           "en": "Discover 120+ DevOps and deployment tools. Docker, Kubernetes, CI/CD, cloud deployment, and infrastructure automation resources.",
-          "cn": "发现 120+ 个 DevOps 和部署工具。Docker、Kubernetes、CI/CD、云部署和基础设施自动化资源。"
+          "cn": "\u53d1\u73b0 120+ \u4e2a DevOps \u548c\u90e8\u7f72\u5de5\u5177\u3002Docker\u3001Kubernetes\u3001CI/CD\u3001\u4e91\u90e8\u7f72\u548c\u57fa\u7840\u8bbe\u65bd\u81ea\u52a8\u5316\u8d44\u6e90\u3002"
         },
         "keywords": {
           "en": "DevOps, deployment tools, Docker, Kubernetes, CI/CD, cloud deployment, infrastructure automation, containerization, serverless",
-          "cn": "DevOps, 部署工具, Docker, Kubernetes, 持续集成/持续部署, 云部署, 基础设施自动化, 容器化, 无服务器"
+          "cn": "DevOps, \u90e8\u7f72\u5de5\u5177, Docker, Kubernetes, \u6301\u7eed\u96c6\u6210/\u6301\u7eed\u90e8\u7f72, \u4e91\u90e8\u7f72, \u57fa\u7840\u8bbe\u65bd\u81ea\u52a8\u5316, \u5bb9\u5668\u5316, \u65e0\u670d\u52a1\u5668"
         }
       },
       "schemaOrg": {
@@ -515,7 +515,7 @@
       "subcategoryId": "api",
       "count": 173,
       "name_en": "Backend & API",
-      "name_cn": "后端与 API",
+      "name_cn": "\u540e\u7aef\u4e0e API",
       "hfTasks": [],
       "ghTopics": [
         "api",
@@ -526,11 +526,11 @@
       "seo": {
         "metaDescription": {
           "en": "Browse 170+ backend and API tools. REST API frameworks, database tools, server-side libraries, and backend development utilities.",
-          "cn": "浏览 170+ 个后端和 API 工具。REST API 框架、数据库工具、服务端库和 backend 开发实用程序。"
+          "cn": "\u6d4f\u89c8 170+ \u4e2a\u540e\u7aef\u548c API \u5de5\u5177\u3002REST API \u6846\u67b6\u3001\u6570\u636e\u5e93\u5de5\u5177\u3001\u670d\u52a1\u7aef\u5e93\u548c backend \u5f00\u53d1\u5b9e\u7528\u7a0b\u5e8f\u3002"
         },
         "keywords": {
           "en": "backend tools, API framework, REST API, database tools, server-side, backend development, API design, backend library, server framework",
-          "cn": "后端工具, API 框架, REST API, 数据库工具, 服务端, 后端开发, API 设计, 后端库, 服务器框架"
+          "cn": "\u540e\u7aef\u5de5\u5177, API \u6846\u67b6, REST API, \u6570\u636e\u5e93\u5de5\u5177, \u670d\u52a1\u7aef, \u540e\u7aef\u5f00\u53d1, API \u8bbe\u8ba1, \u540e\u7aef\u5e93, \u670d\u52a1\u5668\u6846\u67b6"
         }
       },
       "schemaOrg": {
@@ -557,7 +557,7 @@
       "subcategoryId": "game-dev",
       "count": 101,
       "name_en": "Game Development",
-      "name_cn": "游戏开发",
+      "name_cn": "\u6e38\u620f\u5f00\u53d1",
       "hfTasks": [],
       "ghTopics": [
         "game",
@@ -567,11 +567,11 @@
       "seo": {
         "metaDescription": {
           "en": "Explore 100+ game development tools, engines, and libraries. Godot, Unity alternatives, and open-source game dev resources.",
-          "cn": "探索 100+ 个游戏开发工具、引擎和库。Godot、Unity 替代方案和开源游戏开发资源。"
+          "cn": "\u63a2\u7d22 100+ \u4e2a\u6e38\u620f\u5f00\u53d1\u5de5\u5177\u3001\u5f15\u64ce\u548c\u5e93\u3002Godot\u3001Unity \u66ff\u4ee3\u65b9\u6848\u548c\u5f00\u6e90\u6e38\u620f\u5f00\u53d1\u8d44\u6e90\u3002"
         },
         "keywords": {
           "en": "game development, game engine, Godot, Unity, game dev tools, game library, game framework, indie game, open source game engine",
-          "cn": "游戏开发, 游戏引擎, Godot, Unity, 游戏开发工具, 游戏库, 游戏框架, 独立游戏, 开源游戏引擎"
+          "cn": "\u6e38\u620f\u5f00\u53d1, \u6e38\u620f\u5f15\u64ce, Godot, Unity, \u6e38\u620f\u5f00\u53d1\u5de5\u5177, \u6e38\u620f\u5e93, \u6e38\u620f\u6846\u67b6, \u72ec\u7acb\u6e38\u620f, \u5f00\u6e90\u6e38\u620f\u5f15\u64ce"
         }
       },
       "schemaOrg": {
@@ -598,7 +598,7 @@
       "subcategoryId": "qa",
       "count": 103,
       "name_en": "Testing & QA",
-      "name_cn": "测试与 QA",
+      "name_cn": "\u6d4b\u8bd5\u4e0e QA",
       "hfTasks": [],
       "ghTopics": [
         "testing",
@@ -607,11 +607,11 @@
       "seo": {
         "metaDescription": {
           "en": "Find 100+ testing and QA tools. Test automation, quality assurance, unit testing, and performance testing utilities.",
-          "cn": "发现 100+ 个测试和 QA 工具。测试自动化、质量保证、单元测试和性能测试实用程序。"
+          "cn": "\u53d1\u73b0 100+ \u4e2a\u6d4b\u8bd5\u548c QA \u5de5\u5177\u3002\u6d4b\u8bd5\u81ea\u52a8\u5316\u3001\u8d28\u91cf\u4fdd\u8bc1\u3001\u5355\u5143\u6d4b\u8bd5\u548c\u6027\u80fd\u6d4b\u8bd5\u5b9e\u7528\u7a0b\u5e8f\u3002"
         },
         "keywords": {
           "en": "testing tools, QA, quality assurance, test automation, unit testing, performance testing, test framework, regression testing, QA automation",
-          "cn": "测试工具, 质量保证, 测试自动化, 单元测试, 性能测试, 测试框架, 回归测试, 自动化测试"
+          "cn": "\u6d4b\u8bd5\u5de5\u5177, \u8d28\u91cf\u4fdd\u8bc1, \u6d4b\u8bd5\u81ea\u52a8\u5316, \u5355\u5143\u6d4b\u8bd5, \u6027\u80fd\u6d4b\u8bd5, \u6d4b\u8bd5\u6846\u67b6, \u56de\u5f52\u6d4b\u8bd5, \u81ea\u52a8\u5316\u6d4b\u8bd5"
         }
       },
       "schemaOrg": {
@@ -638,7 +638,7 @@
       "subcategoryId": "education",
       "count": 100,
       "name_en": "Education & Learning",
-      "name_cn": "教育",
+      "name_cn": "\u6559\u80b2",
       "hfTasks": [],
       "ghTopics": [
         "education",
@@ -647,11 +647,11 @@
       "seo": {
         "metaDescription": {
           "en": "Browse 100+ education and e-learning tools. Online learning platforms, course creators, and educational open-source projects.",
-          "cn": "浏览 100+ 个教育和电子学习工具。在线学习平台、课程创建器和开源教育项目。"
+          "cn": "\u6d4f\u89c8 100+ \u4e2a\u6559\u80b2\u548c\u7535\u5b50\u5b66\u4e60\u5de5\u5177\u3002\u5728\u7ebf\u5b66\u4e60\u5e73\u53f0\u3001\u8bfe\u7a0b\u521b\u5efa\u5668\u548c\u5f00\u6e90\u6559\u80b2\u9879\u76ee\u3002"
         },
         "keywords": {
           "en": "education tools, e-learning, online learning, course platform, educational software, learning management, open source education, teaching tools",
-          "cn": "教育工具, 电子学习, 在线学习, 课程平台, 教育软件, 学习管理, 开源教育, 教学工具"
+          "cn": "\u6559\u80b2\u5de5\u5177, \u7535\u5b50\u5b66\u4e60, \u5728\u7ebf\u5b66\u4e60, \u8bfe\u7a0b\u5e73\u53f0, \u6559\u80b2\u8f6f\u4ef6, \u5b66\u4e60\u7ba1\u7406, \u5f00\u6e90\u6559\u80b2, \u6559\u5b66\u5de5\u5177"
         }
       },
       "schemaOrg": {
@@ -678,7 +678,7 @@
       "subcategoryId": "health-medical",
       "count": 87,
       "name_en": "Health & Medical",
-      "name_cn": "健康与医疗",
+      "name_cn": "\u5065\u5eb7\u4e0e\u533b\u7597",
       "hfTasks": [],
       "ghTopics": [
         "healthcare",
@@ -687,11 +687,11 @@
       "seo": {
         "metaDescription": {
           "en": "Discover 80+ health and medical tools. Healthcare software, medical data utilities, and open-source health tech projects.",
-          "cn": "发现 80+ 个健康和医疗工具。医疗软件、医疗数据实用程序和开源健康科技项目。"
+          "cn": "\u53d1\u73b0 80+ \u4e2a\u5065\u5eb7\u548c\u533b\u7597\u5de5\u5177\u3002\u533b\u7597\u8f6f\u4ef6\u3001\u533b\u7597\u6570\u636e\u5b9e\u7528\u7a0b\u5e8f\u548c\u5f00\u6e90\u5065\u5eb7\u79d1\u6280\u9879\u76ee\u3002"
         },
         "keywords": {
           "en": "health tools, medical software, healthcare, medical data, health tech, open source healthcare, medical utilities",
-          "cn": "健康工具, 医疗软件, 医疗保健, 医疗数据, 健康科技, 开源医疗, 医疗实用程序"
+          "cn": "\u5065\u5eb7\u5de5\u5177, \u533b\u7597\u8f6f\u4ef6, \u533b\u7597\u4fdd\u5065, \u533b\u7597\u6570\u636e, \u5065\u5eb7\u79d1\u6280, \u5f00\u6e90\u533b\u7597, \u533b\u7597\u5b9e\u7528\u7a0b\u5e8f"
         }
       },
       "schemaOrg": {
@@ -733,11 +733,11 @@
       "seo": {
         "metaDescription": {
           "en": "Explore 80+ 3D modeling, rendering, and WebGL tools. Three.js, Babylon.js, and open-source 3D graphics libraries.",
-          "cn": "探索 80+ 个 3D 建模、渲染和 WebGL 工具。Three.js、Babylon.js 和开源 3D 图形库。"
+          "cn": "\u63a2\u7d22 80+ \u4e2a 3D \u5efa\u6a21\u3001\u6e32\u67d3\u548c WebGL \u5de5\u5177\u3002Three.js\u3001Babylon.js \u548c\u5f00\u6e90 3D \u56fe\u5f62\u5e93\u3002"
         },
         "keywords": {
           "en": "3D modeling, 3D rendering, WebGL, Three.js, Babylon.js, 3D graphics, 3D engine, open source 3D, 3D library",
-          "cn": "3D 建模, 3D 渲染, WebGL, Three.js, Babylon.js, 3D 图形, 3D 引擎, 开源 3D, 3D 库"
+          "cn": "3D \u5efa\u6a21, 3D \u6e32\u67d3, WebGL, Three.js, Babylon.js, 3D \u56fe\u5f62, 3D \u5f15\u64ce, \u5f00\u6e90 3D, 3D \u5e93"
         }
       },
       "schemaOrg": {
@@ -764,7 +764,7 @@
       "subcategoryId": "ecommerce",
       "count": 77,
       "name_en": "E-Commerce",
-      "name_cn": "电商",
+      "name_cn": "\u7535\u5546",
       "hfTasks": [],
       "ghTopics": [
         "ecommerce",
@@ -773,11 +773,11 @@
       "seo": {
         "metaDescription": {
           "en": "Find 70+ e-commerce tools and platforms. Shopify alternatives, shopping cart solutions, and open-source e-commerce software.",
-          "cn": "发现 70+ 个电商工具和平台。Shopify 替代方案、购物车解决方案和开源电商软件。"
+          "cn": "\u53d1\u73b0 70+ \u4e2a\u7535\u5546\u5de5\u5177\u548c\u5e73\u53f0\u3002Shopify \u66ff\u4ee3\u65b9\u6848\u3001\u8d2d\u7269\u8f66\u89e3\u51b3\u65b9\u6848\u548c\u5f00\u6e90\u7535\u5546\u8f6f\u4ef6\u3002"
         },
         "keywords": {
           "en": "e-commerce tools, ecommerce platform, Shopify alternative, shopping cart, online store, open source ecommerce, retail software",
-          "cn": "电商工具, 电商平台, Shopify 替代, 购物车, 在线商店, 开源电商, 零售软件"
+          "cn": "\u7535\u5546\u5de5\u5177, \u7535\u5546\u5e73\u53f0, Shopify \u66ff\u4ee3, \u8d2d\u7269\u8f66, \u5728\u7ebf\u5546\u5e97, \u5f00\u6e90\u7535\u5546, \u96f6\u552e\u8f6f\u4ef6"
         }
       },
       "schemaOrg": {
@@ -804,7 +804,7 @@
       "subcategoryId": "video-multimedia",
       "count": 96,
       "name_en": "Video & Multimedia",
-      "name_cn": "视频与多媒体",
+      "name_cn": "\u89c6\u9891\u4e0e\u591a\u5a92\u4f53",
       "hfTasks": [
         "video-classification"
       ],
@@ -817,11 +817,11 @@
       "seo": {
         "metaDescription": {
           "en": "Browse 90+ video and multimedia tools. Video processing, streaming, editing, and multimedia development utilities.",
-          "cn": "浏览 90+ 个视频和多媒体工具。视频处理、流媒体、编辑和多媒体开发实用程序。"
+          "cn": "\u6d4f\u89c8 90+ \u4e2a\u89c6\u9891\u548c\u591a\u5a92\u4f53\u5de5\u5177\u3002\u89c6\u9891\u5904\u7406\u3001\u6d41\u5a92\u4f53\u3001\u7f16\u8f91\u548c\u591a\u5a92\u4f53\u5f00\u53d1\u5b9e\u7528\u7a0b\u5e8f\u3002"
         },
         "keywords": {
           "en": "video tools, multimedia, video processing, streaming, video editing, FFmpeg, video library, media tools",
-          "cn": "视频工具, 多媒体, 视频处理, 流媒体, 视频编辑, FFmpeg, 视频库, 媒体工具"
+          "cn": "\u89c6\u9891\u5de5\u5177, \u591a\u5a92\u4f53, \u89c6\u9891\u5904\u7406, \u6d41\u5a92\u4f53, \u89c6\u9891\u7f16\u8f91, FFmpeg, \u89c6\u9891\u5e93, \u5a92\u4f53\u5de5\u5177"
         }
       },
       "schemaOrg": {
@@ -848,7 +848,7 @@
       "subcategoryId": "audio",
       "count": 73,
       "name_en": "Audio Processing",
-      "name_cn": "音频处理",
+      "name_cn": "\u97f3\u9891\u5904\u7406",
       "hfTasks": [
         "audio-classification",
         "audio-to-audio"
@@ -860,11 +860,11 @@
       "seo": {
         "metaDescription": {
           "en": "Discover 70+ audio processing tools. Audio analysis, music production, and digital signal processing libraries.",
-          "cn": "发现 70+ 个音频处理工具。音频分析、音乐制作和数字信号处理库。"
+          "cn": "\u53d1\u73b0 70+ \u4e2a\u97f3\u9891\u5904\u7406\u5de5\u5177\u3002\u97f3\u9891\u5206\u6790\u3001\u97f3\u4e50\u5236\u4f5c\u548c\u6570\u5b57\u4fe1\u53f7\u5904\u7406\u5e93\u3002"
         },
         "keywords": {
           "en": "audio processing, audio analysis, music production, DSP, sound tools, audio library, open source audio, music software",
-          "cn": "音频处理, 音频分析, 音乐制作, 数字信号处理, 声音工具, 音频库, 开源音频, 音乐软件"
+          "cn": "\u97f3\u9891\u5904\u7406, \u97f3\u9891\u5206\u6790, \u97f3\u4e50\u5236\u4f5c, \u6570\u5b57\u4fe1\u53f7\u5904\u7406, \u58f0\u97f3\u5de5\u5177, \u97f3\u9891\u5e93, \u5f00\u6e90\u97f3\u9891, \u97f3\u4e50\u8f6f\u4ef6"
         }
       },
       "schemaOrg": {
@@ -891,7 +891,7 @@
       "subcategoryId": "video-gen",
       "count": 53,
       "name_en": "AI Video Generation",
-      "name_cn": "AI 视频生成",
+      "name_cn": "AI \u89c6\u9891\u751f\u6210",
       "hfTasks": [
         "text-to-video",
         "image-to-video",
@@ -905,11 +905,11 @@
       "seo": {
         "metaDescription": {
           "en": "Explore 50+ AI video generation tools. Text-to-video, image-to-video, and AI-powered video creation platforms.",
-          "cn": "探索 50+ 个 AI 视频生成工具。文本生成视频、图像生成视频和 AI 驱动的视频创作平台。"
+          "cn": "\u63a2\u7d22 50+ \u4e2a AI \u89c6\u9891\u751f\u6210\u5de5\u5177\u3002\u6587\u672c\u751f\u6210\u89c6\u9891\u3001\u56fe\u50cf\u751f\u6210\u89c6\u9891\u548c AI \u9a71\u52a8\u7684\u89c6\u9891\u521b\u4f5c\u5e73\u53f0\u3002"
         },
         "keywords": {
           "en": "AI video generation, text-to-video, image-to-video, AI video, video generation, generative video, synthetic video, open source video AI",
-          "cn": "AI 视频生成, 文本生成视频, 图像生成视频, AI 视频, 视频生成, 生成式视频, 合成视频, 开源视频 AI"
+          "cn": "AI \u89c6\u9891\u751f\u6210, \u6587\u672c\u751f\u6210\u89c6\u9891, \u56fe\u50cf\u751f\u6210\u89c6\u9891, AI \u89c6\u9891, \u89c6\u9891\u751f\u6210, \u751f\u6210\u5f0f\u89c6\u9891, \u5408\u6210\u89c6\u9891, \u5f00\u6e90\u89c6\u9891 AI"
         }
       },
       "schemaOrg": {
@@ -936,7 +936,7 @@
       "subcategoryId": "audio-speech",
       "count": 55,
       "name_en": "Speech & Text-to-Speech",
-      "name_cn": "语音与 TTS",
+      "name_cn": "\u8bed\u97f3\u4e0e TTS",
       "hfTasks": [
         "text-to-speech",
         "automatic-speech-recognition",
@@ -950,11 +950,11 @@
       "seo": {
         "metaDescription": {
           "en": "Find 50+ speech recognition and text-to-speech tools. TTS engines, ASR, voice synthesis, and speech processing libraries.",
-          "cn": "发现 50+ 个语音识别和文本转语音工具。TTS 引擎、ASR、语音合成和语音处理库。"
+          "cn": "\u53d1\u73b0 50+ \u4e2a\u8bed\u97f3\u8bc6\u522b\u548c\u6587\u672c\u8f6c\u8bed\u97f3\u5de5\u5177\u3002TTS \u5f15\u64ce\u3001ASR\u3001\u8bed\u97f3\u5408\u6210\u548c\u8bed\u97f3\u5904\u7406\u5e93\u3002"
         },
         "keywords": {
           "en": "text-to-speech, TTS, speech recognition, ASR, voice synthesis, speech processing, voice AI, open source TTS, speech-to-text",
-          "cn": "文本转语音, TTS, 语音识别, ASR, 语音合成, 语音处理, 语音 AI, 开源 TTS, 语音转文本"
+          "cn": "\u6587\u672c\u8f6c\u8bed\u97f3, TTS, \u8bed\u97f3\u8bc6\u522b, ASR, \u8bed\u97f3\u5408\u6210, \u8bed\u97f3\u5904\u7406, \u8bed\u97f3 AI, \u5f00\u6e90 TTS, \u8bed\u97f3\u8f6c\u6587\u672c"
         }
       },
       "schemaOrg": {
