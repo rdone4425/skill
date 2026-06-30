@@ -24,7 +24,8 @@
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "hermes-agent the agent that grows with you nousresearch/hermes-agent pip install hermes-agent dev-tools hermes"
+      "searchText": "hermes-agent the agent that grows with you nousresearch/hermes-agent pip install hermes-agent dev-tools hermes",
+      "pricing": "free"
     },
     {
       "name": "ohmyzsh--productivity",
@@ -114,7 +115,9 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "cursor cursor - the ai code editor. built for pair-programming with ai. getcursor/cursor https://cursor.com dev-tools general"
+      "searchText": "cursor cursor - the ai code editor. built for pair-programming with ai. getcursor/cursor https://cursor.com dev-tools general",
+      "pricing": "freemium",
+      "affiliateUrl": "https://cursor.com"
     },
     {
       "name": "electron",
@@ -209,7 +212,8 @@
       "supportedAgents": [
         "codex"
       ],
-      "searchText": "codex-cli lightweight coding agent that runs in your terminal openai/codex npm i -g @openai/codex dev-tools codex"
+      "searchText": "codex-cli lightweight coding agent that runs in your terminal openai/codex npm i -g @openai/codex dev-tools codex",
+      "pricing": "free"
     },
     {
       "name": "neovim",
@@ -2597,7 +2601,9 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "windsurf windsurf - the ai ide that works with you, not for you. windsurfai/windsurf https://windsurf.com dev-tools general"
+      "searchText": "windsurf windsurf - the ai ide that works with you, not for you. windsurfai/windsurf https://windsurf.com dev-tools general",
+      "pricing": "freemium",
+      "affiliateUrl": "https://codeium.com/windsurf"
     },
     {
       "name": "claude-plugins-official",

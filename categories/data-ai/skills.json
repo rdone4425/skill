@@ -24,7 +24,8 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "openclaw your own personal ai assistant. any os. any platform. the lobster way. 🦞 openclaw/openclaw docker pull openclaw/openclaw data-ai openclaw"
+      "searchText": "openclaw your own personal ai assistant. any os. any platform. the lobster way. 🦞 openclaw/openclaw docker pull openclaw/openclaw data-ai openclaw",
+      "pricing": "free"
     },
     {
       "name": "hermes-agent",
@@ -42,7 +43,8 @@
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "hermes-agent the agent that grows with you nousresearch/hermes-agent npm i -g @nousresearch/hermes-agent data-ai hermes"
+      "searchText": "hermes-agent the agent that grows with you nousresearch/hermes-agent npm i -g @nousresearch/hermes-agent data-ai hermes",
+      "pricing": "free"
     },
     {
       "name": "tensorflow--machine-learning",
@@ -1238,7 +1240,9 @@
       "supportedAgents": [
         "copilotkit"
       ],
-      "searchText": "copilotkit the frontend stack for agents & generative ui. react, angular, mobile, slack, and more.  makers of the ag-ui protocol copilotkit/copilotkit data-ai copilotkit"
+      "searchText": "copilotkit the frontend stack for agents & generative ui. react, angular, mobile, slack, and more.  makers of the ag-ui protocol copilotkit/copilotkit data-ai copilotkit",
+      "pricing": "freemium",
+      "affiliateUrl": "https://copilotkit.ai"
     },
     {
       "name": "AstrBot",

@@ -24,7 +24,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "n8n free and source-available fair-code licensed workflow automation tool n8n-io/n8n $skill-installer n8n automation-productivity claude"
+      "searchText": "n8n free and source-available fair-code licensed workflow automation tool n8n-io/n8n $skill-installer n8n automation-productivity claude",
+      "pricing": "freemium",
+      "affiliateUrl": "https://n8n.io"
     },
     {
       "name": "xlsx",

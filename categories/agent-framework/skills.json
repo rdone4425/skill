@@ -8060,7 +8060,9 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "claude-code 🚀 open source claude code cli source code. advanced ai agent for developers. includes typescript codebase for llm tool-calling, agentic workflows, and terminal ui. remember this is just the skeleton not the brain itself. found by chaofan shou. yasasbanukaofficial/claude-code agent-framework general"
+      "searchText": "claude-code 🚀 open source claude code cli source code. advanced ai agent for developers. includes typescript codebase for llm tool-calling, agentic workflows, and terminal ui. remember this is just the skeleton not the brain itself. found by chaofan shou. yasasbanukaofficial/claude-code agent-framework general",
+      "pricing": "freemium",
+      "affiliateUrl": "https://claude.ai"
     },
     {
       "name": "free-programming-resources",

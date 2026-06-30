@@ -1,48 +1,42 @@
-# Growth Targets - Awesome List PR Pipeline
+# Social Media Post Plan — Skill Hub Growth P9
 
-## 当前进度 (Updated: 2026-06-29)
-- [x] heilcheng/awesome-agent-skills (5909 stars) [PR #310]
-- [x] punkpeye/awesome-mcp-clients (6500 stars) [PR #233]
-- [x] suncloudsmoon/awesome-open-source-ai (305 stars) [PR #12]
-- [x] libukai/awesome-agent-skills (4782 stars) [PR #88]
-- [x] yzfly/Awesome-MCP-ZH (7365 stars) [PR]
-- [x] MobinX/awesome-mcp-list (881 stars) [PR #333]
-- [x] helloianneo/awesome-claude-code-skills (317 stars) [PR #50]
-- [x] ccplugins/awesome-claude-code-plugins (861 stars) [PR #289]
-- [x] ai4s-research/awesome-ai-for-science (1692 stars) [PR #74]
+## Reddit
 
-## 所有已提交PR清单
-| # | 仓库 | Stars | 状态 |
-|---|------|-------|------|
-| 1 | e2b-dev/awesome-ai-agents #1173 | 28K | open |
-| 2 | punkpeye/awesome-mcp-servers #8926 | 89K | open |
-| 3 | sanjeed5/awesome-cursor-rules-mdc #54 | 3.5K | open |
-| 4 | langgptai/awesome-claude-prompts #49 | 5.3K | open |
-| 5 | agamm/awesome-developer-first #422 | 1.7K | open |
-| 6 | ai-for-developers/awesome-ai-coding-tools #479 | 1.9K | open |
-| 7 | mahseema/awesome-ai-tools #1684 | 5.5K | open |
-| 8 | simoninithomas/awesome-ai-tools-for-game-dev #49 | 1K | open |
-| 9 | Shubhamsaboo/awesome-llm-apps #912 | 116K | open |
-| 10 | alvinreal/awesome-opensource-ai #552 | 3.9K | open |
-| 11 | heilcheng/awesome-agent-skills #310 | 5.9K | new |
-| 12 | punkpeye/awesome-mcp-clients #233 | 6.5K | new |
-| 13 | suncloudsmoon/awesome-open-source-ai #12 | 305 | new |
-| 14 | libukai/awesome-agent-skills #88 | 4.8K | new |
-| 15 | yzfly/Awesome-MCP-ZH | 7.4K | new |
-| 16 | MobinX/awesome-mcp-list #333 | 881 | new |
-| 17 | helloianneo/awesome-claude-code-skills #50 | 317 | new |
-| 18 | ccplugins/awesome-claude-code-plugins #289 | 861 | new |
-| 19 | ai4s-research/awesome-ai-for-science #74 | 1.7K | new |
-## 2026-06-30 新增目标 (v4)
+### r/programming (or r/webdev)
+Title: Skill Hub — AI Agent Skills Navigator with 4,100+ Skills Across 22 Categories
 
-| # | 仓库 | Stars | 状态 |
-|---|------|-------|------|
-| 20 | awesome-opencode/awesome-opencode | 8.4K | pending — 需重新fork |
-| 21 | kyrolabs/awesome-agents | 2.6K | pending |
-| 22 | ruvnet/ruflo | 62K | pending — 大盘受众，需克制 |
-| 23 | davepoon/buildwithclaude | 3.1K | pending — Claude Code生态 |
-| 24 | ai-boost/awesome-harness-engineering | 2.1K | pending — 工程师向 |
+I built a curated navigation site for AI Agent Skills after getting tired of searching through dozens of repos.
 
-### 本轮新增策略
-- Growth Agent无GitHub CLI认证，PR提交需手动完成
-- v4计划制定完毕，留存清单待下次执行
+**Skill Hub**: https://skill.442595.xyz/
+**GitHub**: https://github.com/rdone4425/skill
+
+What it does:
+- 4,100+ skills across 22 functional categories
+- Multi-platform: OpenAI Codex, Claude, Hermes, OpenCode, OpenClaw
+- Community-curated + official skills from major sources
+- Pure static site with search, filter, and sort
+- Open source (MIT)
+
+Would love feedback and contributions!
+
+### r/ArtificialIntelligence
+Same content, slightly adjusted for AI-focused audience.
+
+## Hacker News
+Show HN: Skill Hub — AI Agent Skills Navigator (4,100+ skills)
+https://skill.442595.xyz/
+
+## Twitter/X
+🎯 Skill Hub — AI Agent Skills 导航站
+4,100+ skills | 22 categories | 5+ platforms
+
+Search, filter, discover agent skills for Codex, Claude, Hermes, OpenCode & more.
+→ https://skill.442595.xyz/
+
+#AIAgents #DevTools #OpenSource
+
+---
+
+## Manual Action Required
+
+No Reddit/HN/Twitter credentials configured. Please post manually or provide credentials.

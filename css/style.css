@@ -863,16 +863,16 @@ a:hover { color: #a5b4fc; }
   border-color: rgba(5, 150, 105, 0.25);
 }
 
-.pricing-paid {
-  color: #d97706;
-  background: rgba(217, 119, 6, 0.1);
-  border-color: rgba(217, 119, 6, 0.25);
+.pricing-freemium {
+  color: #b45309;
+  background: rgba(245, 158, 11, 0.1);
+  border-color: rgba(245, 158, 11, 0.25);
 }
 
-.pricing-freemium {
-  color: #2563eb;
-  background: rgba(37, 99, 235, 0.1);
-  border-color: rgba(37, 99, 235, 0.25);
+.pricing-paid {
+  color: #dc2626;
+  background: rgba(239, 68, 68, 0.1);
+  border-color: rgba(239, 68, 68, 0.25);
 }
 
 /* ===== Affiliate / Sponsored ===== */
