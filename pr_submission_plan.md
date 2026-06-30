@@ -47,7 +47,32 @@ Generated: 2026-06-30
 
 ---
 
-## P9 成果 (2026-06-30)
+## P11 成果 (2026-06-30)
+
+### 新增 PR (4个)
+| # | 仓库 | 星星 | PR 链接 |
+|---|------|------|---------|
+| 1 | SamurAIGPT/awesome-openclaw | 965⭐ | #170 |
+| 2 | bradAGI/awesome-cli-coding-agents | 676⭐ | #171 |
+| 3 | Code-and-Sorts/awesome-copilot-agents | 541⭐ | #67 |
+| 4 | littleben/awesomeAgentskills | 182⭐ | #19 |
+
+新增 4 个 PR，覆盖 **2,364** 颗星星。
+
+### 竞品内容合并
+从 **mxyhi/ok-skills** (442⭐) 合并 16 个高质量 skills：
+- **dev-tools (12)**：planning-with-files, find-docs, agent-browser, better-icons, handoff, prototype, systematic-debugging, grilling, karpathy-guidelines, codebase-design, domain-modeling, diagnosing-bugs, improve-codebase-architecture
+- **design-ui (1)**：ai-elements
+- **testing-qa (1)**：tdd
+- **education (1)**：teach
+- **data-ai (1)**：autoresearch
+
+### 累计
+- 活跃 PR: 26+ (之前 22 + 新 4)
+- 总覆盖星星: ~509K (之前 ~507K + 新 2.4K)
+- Skills: 5,340+ (之前 5,073, +267)
+- Categories: 22
+- GitHub Stars: 3 (仍低，需更多 PR 合并后自然增长)
 
 ### 新增 PR
 | # | 仓库 | 星星 | PR |
