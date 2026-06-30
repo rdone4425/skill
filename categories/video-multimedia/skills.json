@@ -4,7 +4,7 @@
     "topCategoryId": "video-multimedia",
     "subCategoryId": "video-multimedia",
     "categoryPath": "video-multimedia",
-    "count": 72,
+    "count": 84,
     "sourceData": "categories"
   },
   "skills": [
@@ -1041,6 +1041,24 @@
       "searchText": "ltx-studio ai video storytelling platform for creators ltx.studio web https://ltx.studio video-multimedia general"
     },
     {
+      "name": "duix-avatar",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "duixcom/Duix-Avatar",
+      "stars": 13780,
+      "desc": "🚀 Truly open-source AI avatar(digital human) toolkit for offline video generation and digital human cloning.",
+      "url": "https://github.com/duixcom/Duix-Avatar",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "duix-avatar 🚀 Truly open-source AI avatar(digital human) toolkit for offline video generation and digital human cloning. video-multimedia"
+    },
+    {
       "name": "genmo",
       "source": "video-multimedia",
       "sourceAgent": "video-multimedia",
@@ -1314,6 +1332,42 @@
       "searchText": "bjornulf_custom_nodes comfyui: 163 nodes for display, manipulate, and edit text, images, and videos. justumen/bjornulf_custom_nodes video-multimedia general"
     },
     {
+      "name": "openjourney",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "ammaarreshi/openjourney",
+      "stars": 254,
+      "desc": "Open-source clone of the MidJourney web interface featuring real AI image and video generation powered by Google's Gemini SDK. Use Imagen 4 to generate images and Veo 2 and 3 for image and text to video with audio.",
+      "url": "https://github.com/ammaarreshi/openjourney",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openjourney Open-source clone of the MidJourney web interface featuring real AI image and video generation powered by Google's Gemini SDK. Use Imagen 4 to generate images and Veo 2 and 3 for image and text to video with audio. video-multimedia"
+    },
+    {
+      "name": "ai-media-assistant",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "alexchan197611/ai_media_assistant",
+      "stars": 173,
+      "desc": "AI-Powered Automate Self-Media Video Generation Tools‌",
+      "url": "https://github.com/alexchan197611/ai_media_assistant",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-media-assistant AI-Powered Automate Self-Media Video Generation Tools‌ alexchan197611/ai_media_assistant video-multimedia"
+    },
+    {
       "name": "astri",
       "source": "astri",
       "sourceAgent": "astri",
@@ -1330,6 +1384,168 @@
         "astri"
       ],
       "searchText": "astri astri is a multitool written in python, it contains tools with different applications and is an excellent resource to find reliable sites of different types. astros3x/astri video-multimedia astri"
+    },
+    {
+      "name": "sora-fullstack",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "TornadoInsight/Sora-FullStack",
+      "stars": 109,
+      "desc": " OpenAi-Sora (SoraFlows) is an open-source, cross-platform web application for AI-powered video creation and editing using the latest OpenAI Sora model. Effortlessly generate, edit, and share videos from text or images, with integrated support for voice-to-text, text-to-speech, voice cloning, and multi-language interfaces . ",
+      "url": "https://github.com/TornadoInsight/Sora-FullStack",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "sora-fullstack  OpenAi-Sora (SoraFlows) is an open-source, cross-platform web application for AI-powered video creation and editing using the latest OpenAI Sora model. Effortlessly generate, edit, and share videos from text or images, with integrated support for voice-to-text, text-to-speech, voice cloning, and multi-language interfaces .  video-multimedia"
+    },
+    {
+      "name": "datamagic",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "HKUSTDial/DataMagic",
+      "stars": 73,
+      "desc": "AI-powered data-to-video generation. Upload a table, get a narrated animated data story.",
+      "url": "https://github.com/HKUSTDial/DataMagic",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "datamagic AI-powered data-to-video generation. Upload a table, get a narrated animated data story. HKUSTDial/DataMagic video-multimedia"
+    },
+    {
+      "name": "storyblocks",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "adithya-s-k/Storyblocks",
+      "stars": 69,
+      "desc": "✨ Experience the enchantment of Story Blocks: an open-source project merging AI text generation and image synthesis to create captivating video narratives. 📚🎥 Watch as your text prompts come to life with stunning visuals, exploring new frontiers in storytelling!",
+      "url": "https://github.com/adithya-s-k/Storyblocks",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "storyblocks ✨ Experience the enchantment of Story Blocks: an open-source project merging AI text generation and image synthesis to create captivating video narratives. 📚🎥 Watch as your text prompts come to life with stunning visuals, exploring new frontiers in storytelling! video-multimedia"
+    },
+    {
+      "name": "video-creator",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "prakashdk/video-creator",
+      "stars": 60,
+      "desc": "Fully offline pipeline to auto-generate videos with AI — includes script generation, TTS voiceover, image generation, subtitles, and final video assembly with background music. Perfect for Shorts & storytelling, no internet needed.",
+      "url": "https://github.com/prakashdk/video-creator",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "video-creator Fully offline pipeline to auto-generate videos with AI — includes script generation, TTS voiceover, image generation, subtitles, and final video assembly with background music. Perfect for Shorts & storytelling, no internet needed. video-multimedia"
+    },
+    {
+      "name": "ai-script-generation-skill",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "FeiFei-AIDev/ai-script-generation-skill",
+      "stars": 15,
+      "desc": "Codex/Claude skill for generating bilingual-ready AI short-video scripts with frameworks, hooks, and examples.",
+      "url": "https://github.com/FeiFei-AIDev/ai-script-generation-skill",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-script-generation-skill Codex/Claude skill for generating bilingual-ready AI short-video scripts with frameworks, hooks, and examples. FeiFei-AIDev/ai-script-generation-skill video-multimedia"
+    },
+    {
+      "name": "agnes-ai-cli",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "FrancoFang667788/agnes-ai-cli",
+      "stars": 9,
+      "desc": "CLI tools for Agnes AI - text-to-image, image-to-image, image recognition, and video generation",
+      "url": "https://github.com/FrancoFang667788/agnes-ai-cli",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agnes-ai-cli CLI tools for Agnes AI - text-to-image, image-to-image, image recognition, and video generation FrancoFang667788/agnes-ai-cli video-multimedia"
+    },
+    {
+      "name": "bony-agent",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "phuhao00/bony-agent",
+      "stars": 9,
+      "desc": "🤖 Bony Agent — Full-stack AI content production & distribution platform. One person can run an entire team: AI chat · image/video/music generation · smart editing · scheduled multi-platform publishing · 27+ specialized Agents. FastAPI + Next.js + LangGraph",
+      "url": "https://github.com/phuhao00/bony-agent",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "bony-agent 🤖 Bony Agent — Full-stack AI content production & distribution platform. One person can run an entire team: AI chat · image/video/music generation · smart editing · scheduled multi-platform publishing · 27+ specialized Agents. FastAPI + Next.js + LangGraph phuhao00/bony-agent video-multimedia"
+    },
+    {
+      "name": "megick-studio",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "zeeklog/Megick-Studio",
+      "stars": 8,
+      "desc": "Megick Studio is a creative image and video generation studio that supports various image models such as gpt-image-2, seedream, and Qwen, as well as various models like seedance and wan-2.7. It's an out-of-the-box AI image and video generation application that supports web, Mac OS, and Windows clients.",
+      "url": "https://github.com/zeeklog/Megick-Studio",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "megick-studio Megick Studio is a creative image and video generation studio that supports various image models such as gpt-image-2, seedream, and Qwen, as well as various models like seedance and wan-2.7. It's an out-of-the-box AI image and video generation application that supports web, Mac OS, and Windows clients. zeeklog/Megick-Studio video-multimedia"
+    },
+    {
+      "name": "agnes-mcp",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "KingingWang/agnes-mcp",
+      "stars": 3,
+      "desc": "Agnes AI MCP Server — Rust-based Model Context Protocol server exposing Agnes AI capabilities (chat, image generation/recognition, video generation) to MCP clients.",
+      "url": "https://github.com/KingingWang/agnes-mcp",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agnes-mcp Agnes AI MCP Server — Rust-based Model Context Protocol server exposing Agnes AI capabilities (chat, image generation/recognition, video generation) to MCP clients. KingingWang/agnes-mcp video-multimedia"
     }
   ]
 }

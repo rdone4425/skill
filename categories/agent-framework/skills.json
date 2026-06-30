@@ -4,7 +4,7 @@
     "topCategoryId": "agent-framework",
     "subCategoryId": "agent-framework",
     "categoryPath": "agent-framework",
-    "count": 650,
+    "count": 706,
     "sourceData": "categories"
   },
   "skills": [
@@ -79,6 +79,24 @@
         "general"
       ],
       "searchText": "metagpt the multi-agent framework: first ai software company, towards natural language programming foundationagents/metagpt agent-framework general"
+    },
+    {
+      "name": "pathway",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "pathwaycom/pathway",
+      "stars": 62806,
+      "desc": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
+      "url": "https://github.com/pathwaycom/pathway",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "pathway Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG. agent-framework"
     },
     {
       "name": "mem0",
@@ -169,6 +187,24 @@
         "general"
       ],
       "searchText": "phidata build ai agents with memory, knowledge, tools and reasoning. chat with your data using gpt, claude, llama. phidatahq/phidata pip install phidata agent-framework general"
+    },
+    {
+      "name": "ui-tars-desktop",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "bytedance/UI-TARS-desktop",
+      "stars": 37391,
+      "desc": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ui-tars-desktop The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra agent-framework"
     },
     {
       "name": "langgraph",
@@ -315,6 +351,24 @@
       "searchText": "page-agent javascript in-page gui agent. control web interfaces with natural language. alibaba/page-agent npm install page-agent agent-framework general"
     },
     {
+      "name": "llmware",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "llmware-ai/llmware",
+      "stars": 14818,
+      "desc": "Unified framework for building enterprise RAG pipelines with small, specialized models",
+      "url": "https://github.com/llmware-ai/llmware",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "llmware Unified framework for building enterprise RAG pipelines with small, specialized models agent-framework"
+    },
+    {
       "name": "memu",
       "source": "alvinreal",
       "sourceAgent": "generic",
@@ -331,6 +385,24 @@
         "generic"
       ],
       "searchText": "memu nevamind-ai/memu nevamind-ai/memu agent-framework generic"
+    },
+    {
+      "name": "deeplake",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "activeloopai/deeplake",
+      "stars": 9192,
+      "desc": "Deeplake is AI Data Runtime for Agents. It provides serverless postgres with a multimodal datalake, enabling scalable retrieval and training.",
+      "url": "https://github.com/activeloopai/deeplake",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "deeplake Deeplake is AI Data Runtime for Agents. It provides serverless postgres with a multimodal datalake, enabling scalable retrieval and training. agent-framework"
     },
     {
       "name": "orca",
@@ -441,6 +513,24 @@
       "searchText": "hermes-workspace native web workspace for hermes agent - chat, terminal, memory, skills, inspector. outsourc-e/hermes-workspace git clone https://github.com/outsourc-e/hermes-workspace.git agent-framework hermes"
     },
     {
+      "name": "ultrarag",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "OpenBMB/UltraRAG",
+      "stars": 5621,
+      "desc": "A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines",
+      "url": "https://github.com/OpenBMB/UltraRAG",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ultrarag A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines agent-framework"
+    },
+    {
       "name": "omnigent",
       "source": "github",
       "sourceAgent": "general",
@@ -457,6 +547,24 @@
         "general"
       ],
       "searchText": "omnigent open-source ai agent framework and meta-harness: orchestrate claude code, codex, cursor, and more. omnigent-ai/omnigent npm install -g omnigent agent-framework general"
+    },
+    {
+      "name": "comfyui-copilot",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "AIDC-AI/ComfyUI-Copilot",
+      "stars": 5327,
+      "desc": "An AI-powered custom node for ComfyUI designed to enhance workflow automation and provide intelligent assistance",
+      "url": "https://github.com/AIDC-AI/ComfyUI-Copilot",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "comfyui-copilot An AI-powered custom node for ComfyUI designed to enhance workflow automation and provide intelligent assistance agent-framework"
     },
     {
       "name": "ogulcancelik",
@@ -585,6 +693,24 @@
       "searchText": "openagentscontrol ai agent framework for plan-first development workflows with approval-based execution. multi-language support (typescript, python, go, rust) with automatic t... darrenhinde/openagentscontrol agent-framework general"
     },
     {
+      "name": "ruby_llm",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "crmne/ruby_llm",
+      "stars": 4208,
+      "desc": "One delightful Ruby framework for every major AI provider. Build AI agents, chatbots, RAG apps, and multimodal workflows in beautiful, expressive code.",
+      "url": "https://github.com/crmne/ruby_llm",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ruby_llm One delightful Ruby framework for every major AI provider. Build AI agents, chatbots, RAG apps, and multimodal workflows in beautiful, expressive code. agent-framework"
+    },
+    {
       "name": "openclaw-mission-control",
       "source": "openclaw",
       "sourceAgent": "openclaw",
@@ -637,6 +763,42 @@
         "general"
       ],
       "searchText": "raptor raptor turns claude code into a general-purpose ai offensive/defensive security agent. gadievron/raptor pip install raptor-agent agent-framework general"
+    },
+    {
+      "name": "agixt",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "Josh-XT/AGiXT",
+      "stars": 3199,
+      "desc": "AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, and a versatile plugin system, AGiXT delivers efficient and comprehensive AI solutions.",
+      "url": "https://github.com/Josh-XT/AGiXT",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agixt AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, and a versatile plugin system, AGiXT delivers efficient and comprehensive AI solutions. agent-framework"
+    },
+    {
+      "name": "memmachine",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "MemMachine/MemMachine",
+      "stars": 3136,
+      "desc": "Universal memory layer for AI Agents. It provides scalable, extensible, and interoperable memory storage and retrieval to streamline AI agent state management for next-generation autonomous systems.",
+      "url": "https://github.com/MemMachine/MemMachine",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "memmachine Universal memory layer for AI Agents. It provides scalable, extensible, and interoperable memory storage and retrieval to streamline AI agent state management for next-generation autonomous systems. agent-framework"
     },
     {
       "name": "EvoAgentX",
@@ -709,6 +871,24 @@
         "other"
       ],
       "searchText": "firered-openstoryline firered-openstoryline is an ai video editing agent that transforms manual editing into intention-driven directing through natural language interaction, llm-powered planning, and precise tool orchestration. it facilitates transparent, human- fireredteam/firered-openstoryline git clone https://github.com/fireredteam/firered-openstoryline.git agent-framework other"
+    },
+    {
+      "name": "pipeshub-ai",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "pipeshub-ai/pipeshub-ai",
+      "stars": 3006,
+      "desc": "PipesHub is a fully extensible and explainable workplace AI platform for enterprise search and workflow automation",
+      "url": "https://github.com/pipeshub-ai/pipeshub-ai",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "pipeshub-ai PipesHub is a fully extensible and explainable workplace AI platform for enterprise search and workflow automation agent-framework"
     },
     {
       "name": "clawpanel",
@@ -801,6 +981,24 @@
       "searchText": "assetopsbench assetopsbench - industry 4.0: a unified benchmark and framework for building autonomous ops agents. ibm/assetopsbench agent-framework general"
     },
     {
+      "name": "magma",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "microsoft/Magma",
+      "stars": 1935,
+      "desc": "[CVPR 2025] Magma: A Foundation Model for Multimodal AI Agents",
+      "url": "https://github.com/microsoft/Magma",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "magma [CVPR 2025] Magma: A Foundation Model for Multimodal AI Agents agent-framework"
+    },
+    {
       "name": "hermes-desktop",
       "source": "zeropointrepo",
       "sourceAgent": "hermes",
@@ -817,6 +1015,24 @@
         "hermes"
       ],
       "searchText": "hermes-desktop hermes-desktop dodo-reach/hermes-desktop agent-framework hermes"
+    },
+    {
+      "name": "datagen",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "starpig1129/DATAGEN",
+      "stars": 1762,
+      "desc": "DATAGEN: AI-driven multi-agent research assistant automating hypothesis generation, data analysis, and report writing. ",
+      "url": "https://github.com/starpig1129/DATAGEN",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "datagen DATAGEN: AI-driven multi-agent research assistant automating hypothesis generation, data analysis, and report writing.  agent-framework"
     },
     {
       "name": "clawflows",
@@ -999,6 +1215,42 @@
       "searchText": "proxima multi-ai mcp server - connect chatgpt, claude, gemini & perplexity to your coding tools without any api keys. zen4-bit/proxima npx proxima-mcp agent-framework general"
     },
     {
+      "name": "vectordb-recipes",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "lancedb/vectordb-recipes",
+      "stars": 965,
+      "desc": "Resource, examples & tutorials for multimodal AI, RAG and agents using vector search and LLMs",
+      "url": "https://github.com/lancedb/vectordb-recipes",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vectordb-recipes Resource, examples & tutorials for multimodal AI, RAG and agents using vector search and LLMs agent-framework"
+    },
+    {
+      "name": "agents-js",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "livekit/agents-js",
+      "stars": 874,
+      "desc": "Build realtime multimodal AI agents with Node.js",
+      "url": "https://github.com/livekit/agents-js",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agents-js Build realtime multimodal AI agents with Node.js agent-framework"
+    },
+    {
       "name": "hermes-agent-control-room",
       "source": "hermes",
       "sourceAgent": "hermes",
@@ -1033,6 +1285,24 @@
         "generic"
       ],
       "searchText": "clawpanel zhaoxinyi02/clawpanel zhaoxinyi02/clawpanel agent-framework generic"
+    },
+    {
+      "name": "blades",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "go-kratos/blades",
+      "stars": 791,
+      "desc": "Blades is a Go-based multimodal AI Agent framework.",
+      "url": "https://github.com/go-kratos/blades",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "blades Blades is a Go-based multimodal AI Agent framework. agent-framework"
     },
     {
       "name": "metis",
@@ -1179,6 +1449,42 @@
       "searchText": "opencode-workspace bundled multi-agent orchestration harness for opencode. one install, complete control. kdcokenny/opencode-workspace npm i -g opencode-workspace agent-framework opencode"
     },
     {
+      "name": "streamline-analyst",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "Wilson-ZheLin/Streamline-Analyst",
+      "stars": 482,
+      "desc": "An AI agent powered by LLMs that streamlines the entire process of data analysis. 🚀",
+      "url": "https://github.com/Wilson-ZheLin/Streamline-Analyst",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "streamline-analyst An AI agent powered by LLMs that streamlines the entire process of data analysis. 🚀 agent-framework"
+    },
+    {
+      "name": "skylos",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "duriantaco/skylos",
+      "stars": 462,
+      "desc": "Open source local-first PR scanner that finds dead code, security bugs, secrets, quality regressions, and AI-code mistakes before merge. For first timers refer to https://duriantaco.github.io/skylos/repo-map/",
+      "url": "https://github.com/duriantaco/skylos",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "skylos Open source local-first PR scanner that finds dead code, security bugs, secrets, quality regressions, and AI-code mistakes before merge. For first timers refer to https://duriantaco.github.io/skylos/repo-map/ agent-framework"
+    },
+    {
       "name": "openclaw-dashboard",
       "source": "alvinreal",
       "sourceAgent": "openclaw",
@@ -1215,6 +1521,96 @@
       "searchText": "web-asset-generator claude skill to generate favicons, app icons, and social media images from logos, text, or emojis. supports emoji suggestions, validation, and framework auto-integration. alonw0/web-asset-generator pip install web-asset-generator agent-framework claude"
     },
     {
+      "name": "dbrheo-cli",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "Din829/DbRheo-CLI",
+      "stars": 431,
+      "desc": "A database operations and data analysis AI agent",
+      "url": "https://github.com/Din829/DbRheo-CLI",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "dbrheo-cli A database operations and data analysis AI agent agent-framework"
+    },
+    {
+      "name": "claude-data-analysis",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "liangdabiao/claude-data-analysis",
+      "stars": 417,
+      "desc": "Create a data analysis AI agent with Claude Code. Make data analysis as simple as having a chat!​​ 别忘了！claude code也是agent框架，类似langgraph,crewAI，autogen等等agent框架。我改造claude code搞一个数据分析智能体AI。 让数据分析变得像聊天一样简单！",
+      "url": "https://github.com/liangdabiao/claude-data-analysis",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "claude-data-analysis Create a data analysis AI agent with Claude Code. Make data analysis as simple as having a chat!​​ 别忘了！claude code也是agent框架，类似langgraph,crewAI，autogen等等agent框架。我改造claude code搞一个数据分析智能体AI。 让数据分析变得像聊天一样简单！ agent-framework"
+    },
+    {
+      "name": "xpert",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "xpert-ai/xpert",
+      "stars": 415,
+      "desc": "Xpert AI is an AI agents and data analysis platform for enterprises to make business decisions.",
+      "url": "https://github.com/xpert-ai/xpert",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "xpert Xpert AI is an AI agents and data analysis platform for enterprises to make business decisions. agent-framework"
+    },
+    {
+      "name": "geoagent",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "opengeos/GeoAgent",
+      "stars": 394,
+      "desc": "A multimodal AI agent for geospatial data analysis and interactive visualization",
+      "url": "https://github.com/opengeos/GeoAgent",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "geoagent A multimodal AI agent for geospatial data analysis and interactive visualization agent-framework"
+    },
+    {
+      "name": "latex-arxiv-skill",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "appautomaton/latex-arxiv-SKILL",
+      "stars": 367,
+      "desc": "A highly customizable agentic harness for arXiv-ready ML/AI review papers (and beyond). It drives agentic AI like Codex CLI and Claude Code through a gated LaTeX workflow with verified BibTeX citations.",
+      "url": "https://github.com/appautomaton/latex-arxiv-SKILL",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "latex-arxiv-skill A highly customizable agentic harness for arXiv-ready ML/AI review papers (and beyond). It drives agentic AI like Codex CLI and Claude Code through a gated LaTeX workflow with verified BibTeX citations. agent-framework"
+    },
+    {
       "name": "clawdeck",
       "source": "alvinreal",
       "sourceAgent": "generic",
@@ -1231,6 +1627,60 @@
         "generic"
       ],
       "searchText": "clawdeck clawdeckio/clawdeck clawdeckio/clawdeck agent-framework generic"
+    },
+    {
+      "name": "gemini-kit",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "nth5693/gemini-kit",
+      "stars": 357,
+      "desc": "🚀 19 AI Agents + 44 Commands for Gemini CLI - Code 10x faster with auto planning, testing, review & security",
+      "url": "https://github.com/nth5693/gemini-kit",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gemini-kit 🚀 19 AI Agents + 44 Commands for Gemini CLI - Code 10x faster with auto planning, testing, review & security agent-framework"
+    },
+    {
+      "name": "xactions",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "nirholas/XActions",
+      "stars": 347,
+      "desc": "⚡ The Complete X/Twitter Automation Toolkit — Scrapers, MCP server for AI agents (Claude/GPT), CLI, browser scripts. No API fees. Open source. Unfollow people who don't follow back. Monitor real-time analytics. Auto follow, like, comment, scrape, without API. Follow Bot. Like bot. Grow your account automatically. ",
+      "url": "https://github.com/nirholas/XActions",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "xactions ⚡ The Complete X/Twitter Automation Toolkit — Scrapers, MCP server for AI agents (Claude/GPT), CLI, browser scripts. No API fees. Open source. Unfollow people who don't follow back. Monitor real-time analytics. Auto follow, like, comment, scrape, without API. Follow Bot. Like bot. Grow your account automatically.  agent-framework"
+    },
+    {
+      "name": "accessibility-agents",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "Community-Access/accessibility-agents",
+      "stars": 345,
+      "desc": "Accessibility review agents for Claude Code, GitHub Copilot, and Claude Desktop. Eleven specialists that enforce WCAG 2.2 AA compliance so AI coding tools stop generating inaccessible code.",
+      "url": "https://github.com/Community-Access/accessibility-agents",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "accessibility-agents Accessibility review agents for Claude Code, GitHub Copilot, and Claude Desktop. Eleven specialists that enforce WCAG 2.2 AA compliance so AI coding tools stop generating inaccessible code. agent-framework"
     },
     {
       "name": "AdStrike",
@@ -1287,6 +1737,24 @@
         "gemini"
       ],
       "searchText": "metaswarm a self-improving multi-agent orchestration framework for claude code, gemini cli, and codex cli — 18 agents, 13 skills, 15 commands, tdd enforcement, quality gates, spec-driven development dsifry/metaswarm git clone https://github.com/dsifry/metaswarm.git agent-framework claude codex gemini"
+    },
+    {
+      "name": "ai-avatar-system",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "PunithVT/ai-avatar-system",
+      "stars": 288,
+      "desc": "🎭 AI Avatar / digital human platform — upload a photo, clone a voice, talk to any face in real time with lip-sync video. Open-source, self-hosted. Claude · Whisper · Chatterbox · MuseTalk.",
+      "url": "https://github.com/PunithVT/ai-avatar-system",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-avatar-system 🎭 AI Avatar / digital human platform — upload a photo, clone a voice, talk to any face in real time with lip-sync video. Open-source, self-hosted. Claude · Whisper · Chatterbox · MuseTalk. agent-framework"
     },
     {
       "name": "agentic-harness-patterns-skill",
@@ -1363,6 +1831,42 @@
       "searchText": "rtk-hermes rtk-hermes ogallotti/rtk-hermes agent-framework hermes"
     },
     {
+      "name": "building-intelligent-apps-with-anaconda",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "Anaconda-Labs/building-intelligent-apps-with-anaconda",
+      "stars": 229,
+      "desc": "10-part module to build AI-native apps. From data analysis to multi-agent model harness. For curious learners and serious AI builders.",
+      "url": "https://github.com/Anaconda-Labs/building-intelligent-apps-with-anaconda",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "building-intelligent-apps-with-anaconda 10-part module to build AI-native apps. From data analysis to multi-agent model harness. For curious learners and serious AI builders. agent-framework"
+    },
+    {
+      "name": "google-analytics-mcp",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "surendranb/google-analytics-mcp",
+      "stars": 222,
+      "desc": "Google Analytics 4 data to AI agents, agentic workflows, and MCP clients. Give agents analysis-ready access to website traffic, user behavior, and performance data with schema discovery, server-side aggregation, and safe defaults that reduce data wrangling.",
+      "url": "https://github.com/surendranb/google-analytics-mcp",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "google-analytics-mcp Google Analytics 4 data to AI agents, agentic workflows, and MCP clients. Give agents analysis-ready access to website traffic, user behavior, and performance data with schema discovery, server-side aggregation, and safe defaults that reduce data wrangling. agent-framework"
+    },
+    {
       "name": "maestro",
       "source": "zeropointrepo",
       "sourceAgent": "generic",
@@ -1397,6 +1901,24 @@
         "general"
       ],
       "searchText": "agentbro a macos dynamic island for ai coding agents: claude code, codex, gemini cli, cursor, hooks, skills, local agent manager. shirenchuang/agentbro brew install agentbro agent-framework general"
+    },
+    {
+      "name": "open-data-scientist",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "togethercomputer/open-data-scientist",
+      "stars": 187,
+      "desc": "Open AI data scientist agent that automates complex data analysis tasks using the ReAct framework. Execute Python code locally or in the cloud, upload datasets, and generate detailed analytical reports with minimal setup.",
+      "url": "https://github.com/togethercomputer/open-data-scientist",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "open-data-scientist Open AI data scientist agent that automates complex data analysis tasks using the ReAct framework. Execute Python code locally or in the cloud, upload datasets, and generate detailed analytical reports with minimal setup. agent-framework"
     },
     {
       "name": "portable-hermes-agent",
@@ -1471,6 +1993,24 @@
       "searchText": "homeclaw omarshahine/homeclaw omarshahine/homeclaw agent-framework generic"
     },
     {
+      "name": "bugtraceai-cli",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "BugTraceAI/BugTraceAI-CLI",
+      "stars": 148,
+      "desc": "Autonomous AI-powered security scanner — multi-agent vulnerability detection, exploitation, and validation engine",
+      "url": "https://github.com/BugTraceAI/BugTraceAI-CLI",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "bugtraceai-cli Autonomous AI-powered security scanner — multi-agent vulnerability detection, exploitation, and validation engine agent-framework"
+    },
+    {
       "name": "agent-sphere",
       "source": "github",
       "sourceAgent": "general",
@@ -1506,6 +2046,24 @@
         "cursor"
       ],
       "searchText": "skills 240+ claude code skills converted from cursor rules. expert coding guidelines for every major framework and language. mindrally/skills git clone https://github.com/mindrally/skills.git agent-framework claude cursor"
+    },
+    {
+      "name": "botsman",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "alzaxnsk-del/botsman",
+      "stars": 126,
+      "desc": "Telegram-native AI DevOps agent that turns prompts into deployed web services on your own VPS.",
+      "url": "https://github.com/alzaxnsk-del/botsman",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "botsman Telegram-native AI DevOps agent that turns prompts into deployed web services on your own VPS. agent-framework"
     },
     {
       "name": "advance-minimax-m3-cursor-rules",
@@ -1544,6 +2102,24 @@
       "searchText": "lexa fast local code intelligence for humans and ai agents. turns a codebase into a portable, queryable knowledge graph. anvia-hq/lexa npm install -g lexa agent-framework general"
     },
     {
+      "name": "dspy-skills",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "OmidZamani/dspy-skills",
+      "stars": 108,
+      "desc": "Collection of Claude Skills for DSPy framework - program language models, optimize prompts, and build RAG pipelines systematically",
+      "url": "https://github.com/OmidZamani/dspy-skills",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "dspy-skills Collection of Claude Skills for DSPy framework - program language models, optimize prompts, and build RAG pipelines systematically agent-framework"
+    },
+    {
       "name": "agent-design-patterns",
       "source": "github",
       "sourceAgent": "general",
@@ -1580,6 +2156,24 @@
       "searchText": "hermes-webui hermes-webui sanchomuzax/hermes-webui agent-framework hermes"
     },
     {
+      "name": "loomic",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "fancyboi999/Loomic",
+      "stars": 106,
+      "desc": "Open-source AI canvas design agent — alternative to Lovart / CapCut Video Studio / Canva AI. Chat-driven image & video generation on an infinite canvas.",
+      "url": "https://github.com/fancyboi999/Loomic",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "loomic Open-source AI canvas design agent — alternative to Lovart / CapCut Video Studio / Canva AI. Chat-driven image & video generation on an infinite canvas. agent-framework"
+    },
+    {
       "name": "gliding_horse",
       "source": "github",
       "sourceAgent": "general",
@@ -1596,6 +2190,60 @@
         "general"
       ],
       "searchText": "gliding_horse multi-agent orchestration framework in rust supporting pdca scheduling and parallel execution. doiito/gliding_horse cargo install gliding-horse agent-framework general"
+    },
+    {
+      "name": "contextcheck",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "Addepto/contextcheck",
+      "stars": 95,
+      "desc": " MIT-licensed Framework for LLMs, RAGs, Chatbots testing. Configurable via YAML and integrable into CI pipelines for automated testing.",
+      "url": "https://github.com/Addepto/contextcheck",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "contextcheck  MIT-licensed Framework for LLMs, RAGs, Chatbots testing. Configurable via YAML and integrable into CI pipelines for automated testing. agent-framework"
+    },
+    {
+      "name": "acte",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "j66n/acte",
+      "stars": 93,
+      "desc": "A framework to build GUI-like Agent Tools, enhancement to Function Calling of LLM AI.",
+      "url": "https://github.com/j66n/acte",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "acte A framework to build GUI-like Agent Tools, enhancement to Function Calling of LLM AI. agent-framework"
+    },
+    {
+      "name": "ai-novelflow",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "qzw881130/AI-NovelFlow",
+      "stars": 85,
+      "desc": "NovelFlow 是一个将小说自动转换为视频的 AI 平台。文生图、图生图、图生视频都是基于开源模型及B站大佬分享的工作流。（NovelFlow is an AI platform that automatically converts novels into videos. Text-to-image, image-to-image, and image-to-video generation are all powered by open-source models and workflow templates shared by creators on Bilibili.）",
+      "url": "https://github.com/qzw881130/AI-NovelFlow",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-novelflow NovelFlow 是一个将小说自动转换为视频的 AI 平台。文生图、图生图、图生视频都是基于开源模型及B站大佬分享的工作流。（NovelFlow is an AI platform that automatically converts novels into videos. Text-to-image, image-to-image, and image-to-video generation are all powered by open-source models and workflow templates shared by creators on Bilibili.） agent-framework"
     },
     {
       "name": "langship.sh",
@@ -1616,6 +2264,24 @@
       "searchText": "langship.sh platform for shipping and governing ai agents — framework-agnostic, multi-runtime, gitops-native. open-gitagent/langship.sh curl -sl https://langship.sh/install | bash agent-framework general"
     },
     {
+      "name": "vectorsmuggle",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "jaschadub/VectorSmuggle",
+      "stars": 74,
+      "desc": "Research framework that quantifies how steganographic obfuscation of embeddings defeats off-the-shelf statistical detection in RAG pipelines, paired with the VectorPin cryptographic-provenance defense",
+      "url": "https://github.com/jaschadub/VectorSmuggle",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vectorsmuggle Research framework that quantifies how steganographic obfuscation of embeddings defeats off-the-shelf statistical detection in RAG pipelines, paired with the VectorPin cryptographic-provenance defense agent-framework"
+    },
+    {
       "name": "rampart",
       "source": "alvinreal",
       "sourceAgent": "generic",
@@ -1632,6 +2298,42 @@
         "generic"
       ],
       "searchText": "rampart peg/rampart peg/rampart agent-framework generic"
+    },
+    {
+      "name": "the-vibe-coding-handbook",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "hacrex/the-vibe-coding-handbook",
+      "stars": 73,
+      "desc": "Complete Zero-to-Hero Guide for Vibe Coding, AI-Assisted Development, Local LLMs, Frontend, Backend, DevOps, Cloud, Hosting, Debugging, Deployment, and AI-Native Software Engineering.",
+      "url": "https://github.com/hacrex/the-vibe-coding-handbook",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "the-vibe-coding-handbook Complete Zero-to-Hero Guide for Vibe Coding, AI-Assisted Development, Local LLMs, Frontend, Backend, DevOps, Cloud, Hosting, Debugging, Deployment, and AI-Native Software Engineering. agent-framework"
+    },
+    {
+      "name": "openloaf",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "OpenLoaf/OpenLoaf",
+      "stars": 71,
+      "desc": "🍞Open-source, local-first AI workspace with Agents, multi-model chat (GPT/Claude/Gemini/DeepSeek), Notion-like docs, AI image & video generation, email, calendar & terminal. Your data never leaves your device. AI 工作台：智能代理 + 多模型对话 + 文档管理 + AI 生图/视频 + 邮件/日历/终端",
+      "url": "https://github.com/OpenLoaf/OpenLoaf",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openloaf 🍞Open-source, local-first AI workspace with Agents, multi-model chat (GPT/Claude/Gemini/DeepSeek), Notion-like docs, AI image & video generation, email, calendar & terminal. Your data never leaves your device. AI 工作台：智能代理 + 多模型对话 + 文档管理 + AI 生图/视频 + 邮件/日历/终端 agent-framework"
     },
     {
       "name": "Terminal Skills",
@@ -1671,6 +2373,60 @@
       "searchText": "finchbot finchbot is an ai agent framework that empowers agents with true autonomy, built on langchain v1.2 and langgraph v1.0. xt765/finchbot pip install finchbot agent-framework general"
     },
     {
+      "name": "openvoiceui",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "MCERQUA/OpenVoiceUI",
+      "stars": 53,
+      "desc": "Voice-powered AI assistant platform — connect any LLM, any TTS, with a live web canvas, music generation, and agent orchestration using openclaw. Install: npx openvoiceui setup",
+      "url": "https://github.com/MCERQUA/OpenVoiceUI",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openvoiceui Voice-powered AI assistant platform — connect any LLM, any TTS, with a live web canvas, music generation, and agent orchestration using openclaw. Install: npx openvoiceui setup agent-framework"
+    },
+    {
+      "name": "hermesagent-multimodel",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "InfiniteWhispers/HermesAgent-MultiModel",
+      "stars": 33,
+      "desc": "A fully-local, multi-model AI agent framework with Mixture-of-Agents (MoA) orchestration. Run a high-performance agentic stack on consumer GPUs (RTX 4080/5080) using Hermes + Ollama, with zero cloud dependencies.",
+      "url": "https://github.com/InfiniteWhispers/HermesAgent-MultiModel",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "hermesagent-multimodel A fully-local, multi-model AI agent framework with Mixture-of-Agents (MoA) orchestration. Run a high-performance agentic stack on consumer GPUs (RTX 4080/5080) using Hermes + Ollama, with zero cloud dependencies. InfiniteWhispers/HermesAgent-MultiModel agent-framework"
+    },
+    {
+      "name": "harness-all",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "LuckyOneTwoThree/harness-all",
+      "stars": 13,
+      "desc": "🪢 Multi-Agent framework family for AI-powered product development — PM · Design · Engineering · Growth · Ops | 面向 AI 原生产品开发的多智能体（Multi-Agent）框架家族 — 覆盖产品 · 设计 · 研发 · 增长 · 运维",
+      "url": "https://github.com/LuckyOneTwoThree/harness-all",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "harness-all 🪢 Multi-Agent framework family for AI-powered product development — PM · Design · Engineering · Growth · Ops | 面向 AI 原生产品开发的多智能体（Multi-Agent）框架家族 — 覆盖产品 · 设计 · 研发 · 增长 · 运维 LuckyOneTwoThree/harness-all agent-framework"
+    },
+    {
       "name": "hermes-payguard",
       "source": "zeropointrepo",
       "sourceAgent": "hermes",
@@ -1687,6 +2443,24 @@
         "hermes"
       ],
       "searchText": "hermes-payguard hermes-payguard nativ3ai/hermes-payguard agent-framework hermes"
+    },
+    {
+      "name": "mithai",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "last9/mithai",
+      "stars": 11,
+      "desc": "AI agent framework for infrastructure operations.",
+      "url": "https://github.com/last9/mithai",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mithai AI agent framework for infrastructure operations. last9/mithai agent-framework"
     },
     {
       "name": "memorycrystal",
@@ -1743,6 +2517,24 @@
       "searchText": "nemohermes nemohermes hmbown/nemohermes agent-framework hermes"
     },
     {
+      "name": "ai-memory-context-management",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "neuronaline/ai-memory-context-management",
+      "stars": 7,
+      "desc": "Cache-optimised architecture and Shadow VFS framework for token-efficient LLM agents.",
+      "url": "https://github.com/neuronaline/ai-memory-context-management",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-memory-context-management Cache-optimised architecture and Shadow VFS framework for token-efficient LLM agents. neuronaline/ai-memory-context-management agent-framework"
+    },
+    {
       "name": "openclaw-pixel-agents",
       "source": "alvinreal",
       "sourceAgent": "openclaw",
@@ -1779,6 +2571,60 @@
       "searchText": "portainer-stack-hermes portainer-stack-hermes ellickjohnson/portainer-stack-hermes agent-framework hermes"
     },
     {
+      "name": "verumtrade",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "muye1202/VerumTrade",
+      "stars": 6,
+      "desc": "VerumTrade -- An open-source multi-agent AI trading framework, with visible reasoning and decision traces from evidence to final trade proposal.",
+      "url": "https://github.com/muye1202/VerumTrade",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "verumtrade VerumTrade -- An open-source multi-agent AI trading framework, with visible reasoning and decision traces from evidence to final trade proposal. muye1202/VerumTrade agent-framework"
+    },
+    {
+      "name": "octopus-and-ai",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "MyBotandAI/octopus-and-ai",
+      "stars": 5,
+      "desc": "A methodology framework for orchestrating specialist AI agent sessions across solo-founder projects.",
+      "url": "https://github.com/MyBotandAI/octopus-and-ai",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "octopus-and-ai A methodology framework for orchestrating specialist AI agent sessions across solo-founder projects. MyBotandAI/octopus-and-ai agent-framework"
+    },
+    {
+      "name": "skincare-products-skill",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "mochenxin2025-png/skincare-products-skill",
+      "stars": 5,
+      "desc": "A dermatology-oriented AI agent framework for cosmetic formulation analysis. Evaluates skincare, body care, and hair care products by mechanism, formula logic, and scientific evidence — never by brand, marketing, or price.",
+      "url": "https://github.com/mochenxin2025-png/skincare-products-skill",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "skincare-products-skill A dermatology-oriented AI agent framework for cosmetic formulation analysis. Evaluates skincare, body care, and hair care products by mechanism, formula logic, and scientific evidence — never by brand, marketing, or price. mochenxin2025-png/skincare-products-skill agent-framework"
+    },
+    {
       "name": "restaurant-cli",
       "source": "alvinreal",
       "sourceAgent": "generic",
@@ -1795,6 +2641,96 @@
         "generic"
       ],
       "searchText": "restaurant-cli omarshahine/restaurant-cli omarshahine/restaurant-cli agent-framework generic"
+    },
+    {
+      "name": "ai-agent",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "zetryn-ai/ai-agent",
+      "stars": 4,
+      "desc": "Open-source AI agent framework for autonomous Memecoin trading, LLM orchestration, and blockchain intelligence.",
+      "url": "https://github.com/zetryn-ai/ai-agent",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-agent Open-source AI agent framework for autonomous Memecoin trading, LLM orchestration, and blockchain intelligence. zetryn-ai/ai-agent agent-framework"
+    },
+    {
+      "name": "nanoclaw-webchat",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "Artificer-Innovations/nanoclaw-webchat",
+      "stars": 4,
+      "desc": "Web chat interface for NanoClaw AI agent framework",
+      "url": "https://github.com/Artificer-Innovations/nanoclaw-webchat",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "nanoclaw-webchat Web chat interface for NanoClaw AI agent framework Artificer-Innovations/nanoclaw-webchat agent-framework"
+    },
+    {
+      "name": "kiro-multi-agents",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "vankhangfet/kiro-multi-agents",
+      "stars": 4,
+      "desc": "Production-ready multi-agent framework for Kiro CLI that automates the end-to-end software development lifecycle through autonomous AI agent collaboration.",
+      "url": "https://github.com/vankhangfet/kiro-multi-agents",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "kiro-multi-agents Production-ready multi-agent framework for Kiro CLI that automates the end-to-end software development lifecycle through autonomous AI agent collaboration. vankhangfet/kiro-multi-agents agent-framework"
+    },
+    {
+      "name": "labline",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "orangmood22-lgtm/Labline",
+      "stars": 4,
+      "desc": "AI research workflow framework for project setup, GPU experiments, agent collaboration, Feishu remote control, and reproducible paper pipelines.",
+      "url": "https://github.com/orangmood22-lgtm/Labline",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "labline AI research workflow framework for project setup, GPU experiments, agent collaboration, Feishu remote control, and reproducible paper pipelines. orangmood22-lgtm/Labline agent-framework"
+    },
+    {
+      "name": "investagent",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "tohnee/investagent",
+      "stars": 4,
+      "desc": "全栈AI投研Agent · Your AI research co-pilot for smarter investment decisions. Five integrated research frameworks: Serenity industry-chain analysis, Buffett value-investing filter, UZI-Skill 22-dim deep analysis, TradingAgents multi-agent decision, QuantDinger quant backtest.",
+      "url": "https://github.com/tohnee/investagent",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "investagent 全栈AI投研Agent · Your AI research co-pilot for smarter investment decisions. Five integrated research frameworks: Serenity industry-chain analysis, Buffett value-investing filter, UZI-Skill 22-dim deep analysis, TradingAgents multi-agent decision, QuantDinger quant backtest. tohnee/investagent agent-framework"
     },
     {
       "name": "agent-brains",
@@ -1815,6 +2751,78 @@
         "cursor"
       ],
       "searchText": "agent-brains personal agent brain catalog for coding agents: agents.md, soul.md, memory.md, skills, workflows, and a bundled loader. samzong/agent-brains git clone https://github.com/samzong/agent-brains.git agent-framework claude codex cursor"
+    },
+    {
+      "name": "witnex",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "WitnexCorp/witnex",
+      "stars": 3,
+      "desc": "Verifiable AI agent framework — cryptographic commitments + ZK proofs for agent execution traces.",
+      "url": "https://github.com/WitnexCorp/witnex",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "witnex Verifiable AI agent framework — cryptographic commitments + ZK proofs for agent execution traces. WitnexCorp/witnex agent-framework"
+    },
+    {
+      "name": "agent-harness",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "myloveit191/agent-harness",
+      "stars": 3,
+      "desc": "Universal AI Agent Engineering Framework installer for any repository.",
+      "url": "https://github.com/myloveit191/agent-harness",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agent-harness Universal AI Agent Engineering Framework installer for any repository. myloveit191/agent-harness agent-framework"
+    },
+    {
+      "name": "rangka-framework",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "rangka-dev/rangka-framework",
+      "stars": 3,
+      "desc": "The fastest way to build business applications. TypeScript framework with native AI app builder.",
+      "url": "https://github.com/rangka-dev/rangka-framework",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "rangka-framework The fastest way to build business applications. TypeScript framework with native AI app builder. rangka-dev/rangka-framework agent-framework"
+    },
+    {
+      "name": "stocksaigents",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "mdfaizali390/stocksaigents",
+      "stars": 3,
+      "desc": "AI-powered multi-agent framework for stock research, risk analysis, and investment recommendations",
+      "url": "https://github.com/mdfaizali390/stocksaigents",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "stocksaigents AI-powered multi-agent framework for stock research, risk analysis, and investment recommendations mdfaizali390/stocksaigents agent-framework"
     },
     {
       "name": "🧠 cc-harness-skills - Portable skills for smarter agent work",
@@ -3556,7 +4564,8 @@
       "description": "Paperclip adapter for Hermes Agent — run as managed employee in Paperclip",
       "platforms": [
         "hermes"
-      ]
+      ],
+      "url": "https://github.com/nousresearch/hermes-paperclip-adapter"
     },
     {
       "name": "Hermes LCM",
@@ -3564,7 +4573,8 @@
       "description": "Lossless Context Management plugin for Hermes Agent — DAG-based context engine",
       "platforms": [
         "hermes"
-      ]
+      ],
+      "url": "https://github.com/stephenschoettler/hermes-lcm"
     },
     {
       "name": "FableCodex",
@@ -3572,7 +4582,8 @@
       "description": "Codex-style coding agent workflow that plans like Fable",
       "platforms": [
         "codex"
-      ]
+      ],
+      "url": "https://github.com/baskduf/fablecodex"
     },
     {
       "name": "AutoContext",
@@ -3581,7 +4592,8 @@
       "platforms": [
         "claude-code",
         "hermes"
-      ]
+      ],
+      "url": "https://github.com/greyhaven-ai/autocontext"
     },
     {
       "name": "Maestro Orchestrate",
@@ -3591,7 +4603,8 @@
         "claude-code",
         "codex",
         "cursor"
-      ]
+      ],
+      "url": "https://github.com/josstei/maestro-orchestrate"
     },
     {
       "name": "claw-code",

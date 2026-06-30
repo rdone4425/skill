@@ -1,161 +1,407 @@
 {
-  "generatedAt": "2026-06-29T18:31:55.821Z",
+  "generatedAt": "2026-06-30T00:00:00.000Z",
   "sourceData": "categories",
-  "totalSkills": 5073,
+  "totalSkills": 5177,
   "categories": [
     {
       "id": "dev-tools",
       "path": "dev-tools",
       "groupId": "development",
       "subcategoryId": "tools",
-      "count": 1079
+      "count": 1099,
+      "name_en": "Developer Tools",
+      "name_cn": "开发工具",
+      "hfTasks": [],
+      "ghTopics": [
+        "developer-tools",
+        "code-quality",
+        "compiler",
+        "javascript",
+        "typescript",
+        "python",
+        "rust",
+        "nodejs",
+        "npm"
+      ]
     },
     {
       "id": "general",
       "path": "general",
       "groupId": "general",
       "subcategoryId": "general",
-      "count": 574
+      "count": 574,
+      "name_en": "General Tools",
+      "name_cn": "通用工具",
+      "hfTasks": [],
+      "ghTopics": [
+        "open-source",
+        "awesome"
+      ]
     },
     {
       "id": "data-ai",
       "path": "data-ai",
       "groupId": "data",
       "subcategoryId": "ai",
-      "count": 512
+      "count": 516,
+      "name_en": "Data & AI / ML",
+      "name_cn": "数据与 AI",
+      "hfTasks": [
+        "text-generation",
+        "text-to-image",
+        "text-to-video",
+        "text-to-speech",
+        "text-classification",
+        "image-classification",
+        "object-detection",
+        "image-segmentation",
+        "translation",
+        "summarization",
+        "question-answering",
+        "document-question-answering",
+        "sentence-similarity",
+        "token-classification",
+        "fill-mask",
+        "feature-extraction",
+        "table-question-answering",
+        "image-to-text",
+        "image-text-to-text",
+        "image-text-to-image",
+        "image-text-to-video",
+        "automatic-speech-recognition",
+        "depth-estimation",
+        "keypoint-detection",
+        "mask-generation",
+        "reinforcement-learning",
+        "tabular-classification",
+        "tabular-regression",
+        "unconditional-image-generation",
+        "image-feature-extraction",
+        "sentence-similarity",
+        "image-generation",
+        "image-to-image",
+        "image-to-3d",
+        "text-to-3d",
+        "any-to-any"
+      ],
+      "ghTopics": [
+        "ai",
+        "machine-learning",
+        "deep-learning",
+        "nlp",
+        "computer-vision",
+        "llm",
+        "generative-ai",
+        "rag",
+        "chatbot",
+        "text-to-image",
+        "open-source-ai"
+      ]
     },
     {
       "id": "design-ui",
       "path": "design-ui",
       "groupId": "design",
       "subcategoryId": "ui",
-      "count": 401
+      "count": 403,
+      "name_en": "Design & UI",
+      "name_cn": "设计与 UI",
+      "hfTasks": [],
+      "ghTopics": [
+        "frontend",
+        "css",
+        "react",
+        "ui-design",
+        "visualization"
+      ]
     },
     {
       "id": "agent-framework",
       "path": "agent-framework",
       "groupId": "agent-framework",
       "subcategoryId": "agent-framework",
-      "count": 650
+      "count": 706,
+      "name_en": "AI Agent Frameworks",
+      "name_cn": "Agent 框架",
+      "hfTasks": [],
+      "ghTopics": [
+        "agent",
+        "agentic-ai",
+        "autonomous-agents",
+        "ai-agent",
+        "claude-code"
+      ]
     },
     {
       "id": "docs-content",
       "path": "docs-content",
       "groupId": "docs",
       "subcategoryId": "content",
-      "count": 189
+      "count": 189,
+      "name_en": "Documentation & Content",
+      "name_cn": "文档与内容",
+      "hfTasks": [
+        "document-question-answering"
+      ],
+      "ghTopics": [
+        "documentation",
+        "markdown",
+        "blog"
+      ]
     },
     {
       "id": "automation-productivity",
       "path": "automation-productivity",
       "groupId": "automation",
       "subcategoryId": "productivity",
-      "count": 213
+      "count": 214,
+      "name_en": "Automation & Productivity",
+      "name_cn": "自动化与效率",
+      "hfTasks": [],
+      "ghTopics": [
+        "automation",
+        "chrome",
+        "productivity",
+        "project-management",
+        "hacktoberfest"
+      ]
     },
     {
       "id": "security",
       "path": "security",
       "groupId": "security",
       "subcategoryId": "general",
-      "count": 202
+      "count": 208,
+      "name_en": "Security & Cybersecurity",
+      "name_cn": "安全工具",
+      "hfTasks": [],
+      "ghTopics": [
+        "security"
+      ]
     },
     {
       "id": "social-media",
       "path": "social-media",
       "groupId": "social-media",
       "subcategoryId": "social-media",
-      "count": 139
+      "count": 139,
+      "name_en": "Social Media",
+      "name_cn": "社交媒体",
+      "hfTasks": [],
+      "ghTopics": [
+        "social-media"
+      ]
     },
     {
       "id": "finance-crypto",
       "path": "finance-crypto",
       "groupId": "finance-crypto",
       "subcategoryId": "finance-crypto",
-      "count": 117
+      "count": 117,
+      "name_en": "Finance & Crypto",
+      "name_cn": "金融与加密",
+      "hfTasks": [],
+      "ghTopics": [
+        "finance",
+        "crypto",
+        "trading"
+      ]
     },
     {
       "id": "devops-deploy",
       "path": "devops-deploy",
       "groupId": "devops",
       "subcategoryId": "deploy",
-      "count": 122
+      "count": 122,
+      "name_en": "DevOps & Deployment",
+      "name_cn": "DevOps 与部署",
+      "hfTasks": [],
+      "ghTopics": [
+        "devops",
+        "docker",
+        "kubernetes",
+        "cloud"
+      ]
     },
     {
       "id": "backend-api",
       "path": "backend-api",
       "groupId": "backend",
       "subcategoryId": "api",
-      "count": 169
+      "count": 169,
+      "name_en": "Backend & API",
+      "name_cn": "后端与 API",
+      "hfTasks": [],
+      "ghTopics": [
+        "api",
+        "backend",
+        "database",
+        "rest-api"
+      ]
     },
     {
       "id": "game-dev",
       "path": "game-dev",
       "groupId": "game-dev",
       "subcategoryId": "game-dev",
-      "count": 98
+      "count": 100,
+      "name_en": "Game Development",
+      "name_cn": "游戏开发",
+      "hfTasks": [],
+      "ghTopics": [
+        "game",
+        "game-development",
+        "godot"
+      ]
     },
     {
       "id": "testing-qa",
       "path": "testing-qa",
       "groupId": "testing",
       "subcategoryId": "qa",
-      "count": 98
+      "count": 98,
+      "name_en": "Testing & QA",
+      "name_cn": "测试与 QA",
+      "hfTasks": [],
+      "ghTopics": [
+        "testing",
+        "testing-framework"
+      ]
     },
     {
       "id": "education",
       "path": "education",
       "groupId": "education",
       "subcategoryId": "education",
-      "count": 93
+      "count": 93,
+      "name_en": "Education & Learning",
+      "name_cn": "教育",
+      "hfTasks": [],
+      "ghTopics": [
+        "education",
+        "elearning"
+      ]
     },
     {
       "id": "health-medical",
       "path": "health-medical",
       "groupId": "health-medical",
       "subcategoryId": "health-medical",
-      "count": 82
+      "count": 82,
+      "name_en": "Health & Medical",
+      "name_cn": "健康与医疗",
+      "hfTasks": [],
+      "ghTopics": [
+        "healthcare",
+        "medical"
+      ]
     },
     {
       "id": "3d",
       "path": "3d",
       "groupId": "3d",
       "subcategoryId": "3d",
-      "count": 76
+      "count": 76,
+      "name_en": "3D Modeling & Rendering",
+      "name_cn": "3D",
+      "hfTasks": [
+        "image-to-3d",
+        "text-to-3d",
+        "depth-estimation"
+      ],
+      "ghTopics": [
+        "3d",
+        "3d-graphics",
+        "webgl",
+        "threejs"
+      ]
     },
     {
       "id": "ecommerce",
       "path": "ecommerce",
       "groupId": "ecommerce",
       "subcategoryId": "ecommerce",
-      "count": 73
+      "count": 73,
+      "name_en": "E-Commerce",
+      "name_cn": "电商",
+      "hfTasks": [],
+      "ghTopics": [
+        "ecommerce",
+        "shopify"
+      ]
     },
     {
       "id": "video-multimedia",
       "path": "video-multimedia",
       "groupId": "video-multimedia",
       "subcategoryId": "video-multimedia",
-      "count": 72
+      "count": 84,
+      "name_en": "Video & Multimedia",
+      "name_cn": "视频与多媒体",
+      "hfTasks": [
+        "video-classification"
+      ],
+      "ghTopics": [
+        "video",
+        "multimedia",
+        "ffmpeg",
+        "streaming"
+      ]
     },
     {
       "id": "audio",
       "path": "audio",
       "groupId": "audio",
       "subcategoryId": "audio",
-      "count": 69
+      "count": 69,
+      "name_en": "Audio Processing",
+      "name_cn": "音频处理",
+      "hfTasks": [
+        "audio-classification",
+        "audio-to-audio"
+      ],
+      "ghTopics": [
+        "audio",
+        "music"
+      ]
     },
     {
       "id": "video-gen",
       "path": "video-gen",
       "groupId": "video-gen",
       "subcategoryId": "video-gen",
-      "count": 24
+      "count": 24,
+      "name_en": "AI Video Generation",
+      "name_cn": "AI 视频生成",
+      "hfTasks": [
+        "text-to-video",
+        "image-to-video",
+        "image-text-to-video"
+      ],
+      "ghTopics": [
+        "text-to-video",
+        "video-generation",
+        "ai-video"
+      ]
     },
     {
       "id": "audio-speech",
       "path": "audio-speech",
       "groupId": "audio-speech",
       "subcategoryId": "audio-speech",
-      "count": 21
+      "count": 22,
+      "name_en": "Speech & Text-to-Speech",
+      "name_cn": "语音与 TTS",
+      "hfTasks": [
+        "text-to-speech",
+        "automatic-speech-recognition",
+        "audio-text-to-text"
+      ],
+      "ghTopics": [
+        "speech-recognition",
+        "tts",
+        "voice"
+      ]
     }
   ],
   "groups": [

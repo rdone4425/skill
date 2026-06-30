@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 1079,
+    "count": 1099,
     "sourceData": "categories"
   },
   "skills": [
@@ -16094,6 +16094,24 @@
       "searchText": "codeguide-starter-fullstack boilerplate built for ai coding agents, tools, cli codeguide-dev/codeguide-starter-fullstack git clone https://github.com/codeguide-dev/codeguide-starter-fullstack.git dev-tools claude codex cursor copilot hermes opencode openclaw"
     },
     {
+      "name": "drogonsec",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "filipi86/drogonsec",
+      "stars": 146,
+      "desc": "High-performance open-source security scanner combining SAST, SCA, Secret Detection, and IaC analysis, built for developers and CI/CD pipelines, using AI for recommendation!",
+      "url": "https://github.com/filipi86/drogonsec",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "drogonsec High-performance open-source security scanner combining SAST, SCA, Secret Detection, and IaC analysis, built for developers and CI/CD pipelines, using AI for recommendation! dev-tools"
+    },
+    {
       "name": "oc-codex-multi-auth",
       "source": "opencode",
       "sourceAgent": "opencode",
@@ -16331,6 +16349,24 @@
         "general"
       ],
       "searchText": "comfyui-animatool ai tool use api for anima anime/illustration image generation. supports mcp server, http api, and cli. moeblack/comfyui-animatool dev-tools general"
+    },
+    {
+      "name": "aso-tracker",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "dsm5e/aso-tracker",
+      "stars": 118,
+      "desc": "Self-hosted open-source App Store toolkit for indie iOS devs — keyword tracking, AI screenshot generation, PPO experiments, and UGC video pipeline.",
+      "url": "https://github.com/dsm5e/aso-tracker",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aso-tracker Self-hosted open-source App Store toolkit for indie iOS devs — keyword tracking, AI screenshot generation, PPO experiments, and UGC video pipeline. dev-tools"
     },
     {
       "name": "llm-api-gateway",
@@ -17175,6 +17211,24 @@
       "searchText": "opencode-plugin-langfuse opencode plugin for automatic llm observability using langfuse via opentelemetry. omercnet/opencode-plugin-langfuse npm i -g opencode-plugin-langfuse dev-tools opencode"
     },
     {
+      "name": "remotion-superpowers",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "DojoCodingLabs/remotion-superpowers",
+      "stars": 62,
+      "desc": "🎬 Claude Code plugin — full video production studio for Remotion. AI voiceovers, music, stock footage, image/video generation, TikTok captions, 3D, transitions & AI review loop. 5 MCP servers, 13 commands. Free & open source by Dojo Coding.",
+      "url": "https://github.com/DojoCodingLabs/remotion-superpowers",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "remotion-superpowers 🎬 Claude Code plugin — full video production studio for Remotion. AI voiceovers, music, stock footage, image/video generation, TikTok captions, 3D, transitions & AI review loop. 5 MCP servers, 13 commands. Free & open source by Dojo Coding. dev-tools"
+    },
+    {
       "name": ".claude",
       "source": "claude",
       "sourceAgent": "claude",
@@ -17307,6 +17361,24 @@
       "searchText": "opencodeplugins 🤖 opencode 插件 - 三省六部多智能体协作系统：将中国古代治理智慧融入 ai 编程助手，自动完成复杂编程任务的规划、审核与执行 sjzsdu/opencodeplugins npm i -g opencodeplugins dev-tools opencode"
     },
     {
+      "name": "eget-crawler-for-ai",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "vishwajeetdabholkar/eGet-Crawler-for-ai",
+      "stars": 57,
+      "desc": "Web scraping framework built for AI applications. Extract clean, structured content from any website with dynamic content handling, markdown conversion, and intelligent crawling capabilities. Perfect for RAG applications and AI training data pipelines. Features async processing, browser management, and Prometheus monitoring.",
+      "url": "https://github.com/vishwajeetdabholkar/eGet-Crawler-for-ai",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "eget-crawler-for-ai Web scraping framework built for AI applications. Extract clean, structured content from any website with dynamic content handling, markdown conversion, and intelligent crawling capabilities. Perfect for RAG applications and AI training data pipelines. Features async processing, browser management, and Prometheus monitoring. dev-tools"
+    },
+    {
       "name": "mdc_autogen",
       "source": "community",
       "sourceAgent": "cursor",
@@ -17397,6 +17469,24 @@
       "searchText": "swift-architecture-skill swift architecture efremidze/swift-architecture-skill dev-tools generic"
     },
     {
+      "name": "conduit",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "tsouth89/conduit",
+      "stars": 45,
+      "desc": "One local gateway for all your MCP servers, set up once and shared by every AI client (Claude, Cursor, VS Code, Codex). Lazy discovery collapses them to 3 meta-tools the agent searches on demand, ~90% fewer tokens. Keys in your OS keychain, no cloud.",
+      "url": "https://github.com/tsouth89/conduit",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "conduit One local gateway for all your MCP servers, set up once and shared by every AI client (Claude, Cursor, VS Code, Codex). Lazy discovery collapses them to 3 meta-tools the agent searches on demand, ~90% fewer tokens. Keys in your OS keychain, no cloud. tsouth89/conduit dev-tools"
+    },
+    {
       "name": "netresearch-claude-code-marketplace",
       "source": "community",
       "sourceAgent": "claude",
@@ -17436,6 +17526,60 @@
         "general"
       ],
       "searchText": "bhived-mcp bhived is an mcp server that gives ai agents shared memory, skills, and tool discovery. works in claude desktop, cursor. artkeyai/bhived-mcp npx bhived-mcp dev-tools general"
+    },
+    {
+      "name": "mcp-osascript",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "m0rvayne/mcp-osascript",
+      "stars": 10,
+      "desc": "Let Claude control your Mac — windows, menus, keyboard, clipboard. 12 typed tools, security-first MCP server.",
+      "url": "https://github.com/m0rvayne/mcp-osascript",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mcp-osascript Let Claude control your Mac — windows, menus, keyboard, clipboard. 12 typed tools, security-first MCP server. m0rvayne/mcp-osascript dev-tools"
+    },
+    {
+      "name": "ai-omni-skills",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "moatazhamada/ai-omni-skills",
+      "stars": 10,
+      "desc": "For AI enthusiasts who try every new tool and watch their skills fragment. One source of truth for AI agent skills (SKILL.md) + cross-tool sync toolkit: MCP server, shared instructions, and one-command wiring for Claude Code, Codex, Gemini, Kimi, Cursor, Kilocode, OpenCode.",
+      "url": "https://github.com/moatazhamada/ai-omni-skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-omni-skills For AI enthusiasts who try every new tool and watch their skills fragment. One source of truth for AI agent skills (SKILL.md) + cross-tool sync toolkit: MCP server, shared instructions, and one-command wiring for Claude Code, Codex, Gemini, Kimi, Cursor, Kilocode, OpenCode. moatazhamada/ai-omni-skills dev-tools"
+    },
+    {
+      "name": "ganddivaai",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "h-a-r-s-h-s-r-a-h/GanddivaAI",
+      "stars": 10,
+      "desc": "GanddivaAI is an open-source AI desktop assistant that provides real-time, personalized support for behavioral, technical, coding, and system design interviews using speech recognition, computer vision, and LLMs.",
+      "url": "https://github.com/h-a-r-s-h-s-r-a-h/GanddivaAI",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ganddivaai GanddivaAI is an open-source AI desktop assistant that provides real-time, personalized support for behavioral, technical, coding, and system design interviews using speech recognition, computer vision, and LLMs. h-a-r-s-h-s-r-a-h/GanddivaAI dev-tools"
     },
     {
       "name": "hermes-skill-distillation",
@@ -17492,6 +17636,222 @@
         "cursor"
       ],
       "searchText": "hyprland-ai-skill this skill should be used when the user asks about \"hyprland configuration\", marceloeatworld/hyprland-ai-skill $skill-installer hyprland-ai-skill dev-tools cursor"
+    },
+    {
+      "name": "mcpsnoop",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "kerlenton/mcpsnoop",
+      "stars": 6,
+      "desc": "Wireshark for MCP. A transparent proxy that shows every real tool call between your AI client and your MCP servers, live in your terminal.",
+      "url": "https://github.com/kerlenton/mcpsnoop",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mcpsnoop Wireshark for MCP. A transparent proxy that shows every real tool call between your AI client and your MCP servers, live in your terminal. kerlenton/mcpsnoop dev-tools"
+    },
+    {
+      "name": "gramps-web-mcp",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "Scormave/gramps-web-mcp",
+      "stars": 6,
+      "desc": "MCP server for Gramps Web. Gives AI agents structured, tool-based access to family trees through the Model Context Protocol. Built with .NET 8.",
+      "url": "https://github.com/Scormave/gramps-web-mcp",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gramps-web-mcp MCP server for Gramps Web. Gives AI agents structured, tool-based access to family trees through the Model Context Protocol. Built with .NET 8. Scormave/gramps-web-mcp dev-tools"
+    },
+    {
+      "name": "mealie-mcp-server",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "timo-reymann/mealie-mcp-server",
+      "stars": 5,
+      "desc": "A Model Context Protocol (MCP) server for Mealie recipe management. Exposes a lot of tools and prompts for AI assistants to search, create, and manage recipes, meal plans, shopping lists, categories, and tags.",
+      "url": "https://github.com/timo-reymann/mealie-mcp-server",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mealie-mcp-server A Model Context Protocol (MCP) server for Mealie recipe management. Exposes a lot of tools and prompts for AI assistants to search, create, and manage recipes, meal plans, shopping lists, categories, and tags. timo-reymann/mealie-mcp-server dev-tools"
+    },
+    {
+      "name": "mikrotik-mcp",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "ali-master/mikrotik-mcp",
+      "stars": 5,
+      "desc": "A Bun-native MCP server that turns one or more MikroTik routers into 706 tools your AI can drive. Firewall · routing · DHCP/DNS · wireless · QoS · and a complete VPN suite — over SSH, with transactional Safe Mode.",
+      "url": "https://github.com/ali-master/mikrotik-mcp",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mikrotik-mcp A Bun-native MCP server that turns one or more MikroTik routers into 706 tools your AI can drive. Firewall · routing · DHCP/DNS · wireless · QoS · and a complete VPN suite — over SSH, with transactional Safe Mode. ali-master/mikrotik-mcp dev-tools"
+    },
+    {
+      "name": "aiseos",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "arslanmanzoorr/AISEOS",
+      "stars": 5,
+      "desc": "Engineering OS — a suite of Model Context Protocol (MCP) servers that bring engineering discipline to AI coding assistants: dependency & version governance, hallucination detection, security/architecture/QA/performance review, multi-agent code review, self-healing, and compliance.",
+      "url": "https://github.com/arslanmanzoorr/AISEOS",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aiseos Engineering OS — a suite of Model Context Protocol (MCP) servers that bring engineering discipline to AI coding assistants: dependency & version governance, hallucination detection, security/architecture/QA/performance review, multi-agent code review, self-healing, and compliance. arslanmanzoorr/AISEOS dev-tools"
+    },
+    {
+      "name": "sonarqube-mcp",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "metalralf/sonarqube-mcp",
+      "stars": 4,
+      "desc": "An MCP server that exposes SonarQube data as AI agent tools.",
+      "url": "https://github.com/metalralf/sonarqube-mcp",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "sonarqube-mcp An MCP server that exposes SonarQube data as AI agent tools. metalralf/sonarqube-mcp dev-tools"
+    },
+    {
+      "name": "quickbooks-online-mcp-server-integration",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "HairdresserKnife/quickbooks-online-mcp-server-integration",
+      "stars": 4,
+      "desc": "A Model Context Protocol server for QuickBooks Online that exposes QBO entities, reports, and CRUD operations as callable tools for MCP-compatible AI assistants. It supports OAuth 2.0 authentication, TypeScript validation, configurable write/update/delete tool registration, and access to QuickBooks Online data through a local stdio server.",
+      "url": "https://github.com/HairdresserKnife/quickbooks-online-mcp-server-integration",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "quickbooks-online-mcp-server-integration A Model Context Protocol server for QuickBooks Online that exposes QBO entities, reports, and CRUD operations as callable tools for MCP-compatible AI assistants. It supports OAuth 2.0 authentication, TypeScript validation, configurable write/update/delete tool registration, and access to QuickBooks Online data through a local stdio server. HairdresserKnife/quickbooks-online-mcp-server-integration dev-tools"
+    },
+    {
+      "name": "iris-project",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "jordanaftermidnight/IRIS_project",
+      "stars": 4,
+      "desc": "IRIS — Integrated Runtime Intelligence Service. Multi-provider AI router with MCP server (13 tools), 16 providers (5 native + 11 OpenAI-compatible registry), council fan-out, batch APIs, circuit breakers, mTLS, mDNS, audit log, Prometheus metrics, 'iris provider add' CLI for any custom API.",
+      "url": "https://github.com/jordanaftermidnight/IRIS_project",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "iris-project IRIS — Integrated Runtime Intelligence Service. Multi-provider AI router with MCP server (13 tools), 16 providers (5 native + 11 OpenAI-compatible registry), council fan-out, batch APIs, circuit breakers, mTLS, mDNS, audit log, Prometheus metrics, 'iris provider add' CLI for any custom API. jordanaftermidnight/IRIS_project dev-tools"
+    },
+    {
+      "name": "trendchaser-mcp",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "TaewoooPark/Trendchaser-mcp",
+      "stars": 3,
+      "desc": "MCP server exposing the Trendchaser AI/Dev trend feed (taewoopark.com/trendchaser) to LLM agents — read-only list / get / search / resolve tools.",
+      "url": "https://github.com/TaewoooPark/Trendchaser-mcp",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "trendchaser-mcp MCP server exposing the Trendchaser AI/Dev trend feed (taewoopark.com/trendchaser) to LLM agents — read-only list / get / search / resolve tools. TaewoooPark/Trendchaser-mcp dev-tools"
+    },
+    {
+      "name": "agentgate",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "RaiVaibhav/agentgate",
+      "stars": 3,
+      "desc": "Permission gateway for AI agents — enforce per-tool access control on any MCP server (GitHub, Stripe, Slack). Audit every decision. Revoke instantly.",
+      "url": "https://github.com/RaiVaibhav/agentgate",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agentgate Permission gateway for AI agents — enforce per-tool access control on any MCP server (GitHub, Stripe, Slack). Audit every decision. Revoke instantly. RaiVaibhav/agentgate dev-tools"
+    },
+    {
+      "name": "securevibe",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "ShieldNet-360/securevibe",
+      "stars": 3,
+      "desc": "SecureVibe — prevention-first security for AI-written code. Signed SKILL.md knowledge that makes AI coding assistants write secure code at generation time, plus a deterministic CI gate. Offline · keyless · Ed25519-signed. By ShieldNet360.",
+      "url": "https://github.com/ShieldNet-360/securevibe",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "securevibe SecureVibe — prevention-first security for AI-written code. Signed SKILL.md knowledge that makes AI coding assistants write secure code at generation time, plus a deterministic CI gate. Offline · keyless · Ed25519-signed. By ShieldNet360. ShieldNet-360/securevibe dev-tools"
+    },
+    {
+      "name": "trap",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "bikr/TRAP",
+      "stars": 3,
+      "desc": "TRAP - True Readiness Audit Prompt: an adversarial, evidence-first production-readiness audit you run on your own codebase with any AI coding assistant.",
+      "url": "https://github.com/bikr/TRAP",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "trap TRAP - True Readiness Audit Prompt: an adversarial, evidence-first production-readiness audit you run on your own codebase with any AI coding assistant. bikr/TRAP dev-tools"
     },
     {
       "name": "agent-analytics-hermes-plugin",
@@ -18258,7 +18618,8 @@
       "platforms": [
         "claude-code",
         "codex"
-      ]
+      ],
+      "url": "https://github.com/aklofas/kicad-happy"
     },
     {
       "name": "Firecrawl CLI",
@@ -18267,7 +18628,8 @@
       "platforms": [
         "claude-code",
         "codex"
-      ]
+      ],
+      "url": "https://github.com/firecrawl/cli"
     },
     {
       "name": "Understand Anything",
@@ -18275,7 +18637,8 @@
       "description": "Turn any code into an interactive knowledge graph — graphs that teach",
       "platforms": [
         "claude-code"
-      ]
+      ],
+      "url": "https://github.com/lum1104/understand-anything"
     },
     {
       "name": "Agent Browser",
@@ -18285,7 +18648,8 @@
         "claude-code",
         "codex",
         "cursor"
-      ]
+      ],
+      "url": "https://github.com/vercel-labs/agent-browser"
     },
     {
       "name": "Sanity Agent Toolkit",
@@ -18294,7 +18658,8 @@
       "platforms": [
         "claude-code",
         "codex"
-      ]
+      ],
+      "url": "https://github.com/sanity-io/agent-toolkit"
     },
     {
       "name": "prompts.chat",

@@ -4,7 +4,7 @@
     "topCategoryId": "audio-speech",
     "subCategoryId": "audio-speech",
     "categoryPath": "audio-speech",
-    "count": 21,
+    "count": 22,
     "sourceData": "categories"
   },
   "skills": [
@@ -385,6 +385,24 @@
         "general"
       ],
       "searchText": "comfyui-maya1_tts a comfyui node for maya1, a 3b-parameter speech model built for expressive voice generation with rich human emotion and precise voice design. saganaki22/comfyui-maya1_tts audio-speech general"
+    },
+    {
+      "name": "la-studio",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "dduongtrandai/LA-Studio",
+      "stars": 27,
+      "desc": "Privacy-first desktop app for local AI audio: speech-to-text, text-to-speech, voice cloning, voice design, model downloads, and runtime management.",
+      "url": "https://github.com/dduongtrandai/LA-Studio",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "la-studio Privacy-first desktop app for local AI audio: speech-to-text, text-to-speech, voice cloning, voice design, model downloads, and runtime management. dduongtrandai/LA-Studio audio-speech"
     }
   ]
 }

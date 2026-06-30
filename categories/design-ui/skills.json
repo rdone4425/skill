@@ -4,7 +4,7 @@
     "topCategoryId": "design",
     "subCategoryId": "ui",
     "categoryPath": "design-ui",
-    "count": 401,
+    "count": 403,
     "sourceData": "categories"
   },
   "skills": [
@@ -7800,6 +7800,42 @@
         "general"
       ],
       "searchText": "ui-ux-designer ui/ux designer agent - design and frontend skills softaworks/agent-toolkit design-ui general"
+    },
+    {
+      "name": "design-continuity-guard",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "demiurg92/design-continuity-guard",
+      "stars": 20,
+      "desc": "Codex skill that preserves website design continuity during AI-assisted UI changes",
+      "url": "https://github.com/demiurg92/design-continuity-guard",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "design-continuity-guard Codex skill that preserves website design continuity during AI-assisted UI changes demiurg92/design-continuity-guard design-ui"
+    },
+    {
+      "name": "figma-ai-bridge",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "Kacep91/figma-ai-bridge",
+      "stars": 15,
+      "desc": "Local Figma Desktop plugin and localhost bridge for AI-ready design handoff bundles, without Figma API, Dev Mode MCP, or access tokens.",
+      "url": "https://github.com/Kacep91/figma-ai-bridge",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "figma-ai-bridge Local Figma Desktop plugin and localhost bridge for AI-ready design handoff bundles, without Figma API, Dev Mode MCP, or access tokens. Kacep91/figma-ai-bridge design-ui"
     }
   ]
 }

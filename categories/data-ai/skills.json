@@ -4,7 +4,7 @@
     "topCategoryId": "data",
     "subCategoryId": "ai",
     "categoryPath": "data-ai",
-    "count": 512,
+    "count": 516,
     "sourceData": "categories"
   },
   "skills": [
@@ -8928,6 +8928,42 @@
       "searchText": "kk-knowledge-agent 轻量级知识库系统，支持知识库管理、文本上传、语义检索、流式返回，封装为mcp server kanna12580/kk-knowledge-agent git clone https://github.com/kanna12580/kk-knowledge-agent data-ai general"
     },
     {
+      "name": "lrage",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "hoorangyee/LRAGE",
+      "stars": 77,
+      "desc": "A framework for evaluating RAG pipelines, specifically adapted for the legal domain.",
+      "url": "https://github.com/hoorangyee/LRAGE",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "lrage A framework for evaluating RAG pipelines, specifically adapted for the legal domain. data-ai"
+    },
+    {
+      "name": "vanta",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "itsjwill/vanta",
+      "stars": 69,
+      "desc": "Open source AI video engine built on Remotion. Voice cloning, AI avatars, animated captions, video editor, timeline, 100+ transitions, motion graphics, image editing, vector graphics — replaces $190+/mo in Adobe CC + Remotion Pro + SaaS. Free Synthesia/Runway/Photoshop alternative.",
+      "url": "https://github.com/itsjwill/vanta",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vanta Open source AI video engine built on Remotion. Voice cloning, AI avatars, animated captions, video editor, timeline, 100+ transitions, motion graphics, image editing, vector graphics — replaces $190+/mo in Adobe CC + Remotion Pro + SaaS. Free Synthesia/Runway/Photoshop alternative. data-ai"
+    },
+    {
       "name": "hermes-concurrent-agents",
       "source": "hermes",
       "sourceAgent": "hermes",
@@ -9066,12 +9102,49 @@
       "searchText": "obsidian-openclaw-memory openclaw skill: use obsidian + openclaw as an ai memory system with knowledge graph samin12/obsidian-openclaw-memory git clone https://github.com/samin12/obsidian-openclaw-memory.git data-ai openclaw"
     },
     {
+      "name": "streamlit-airline-sentiment",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "AbdulRehman393/streamlit-airline-sentiment",
+      "stars": 3,
+      "desc": "Interactive Streamlit dashboard for analyzing customer sentiment from US Airlines  Twitter data with real-time visualizations and geographic analytics.",
+      "url": "https://github.com/AbdulRehman393/streamlit-airline-sentiment",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "streamlit-airline-sentiment Interactive Streamlit dashboard for analyzing customer sentiment from US Airlines  Twitter data with real-time visualizations and geographic analytics. AbdulRehman393/streamlit-airline-sentiment data-ai"
+    },
+    {
+      "name": "analyticogpt--ai-agent",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "ASHHADgit87/AnalyticoGPT--AI-AGENT",
+      "stars": 3,
+      "desc": "AnalyticoGPT-Agent is an enterprise AI data analytics agent built with Python, Streamlit, Google ADK & Gemini AI. It uses a multi-agent workflow to automate CSV ingestion, cleaning, analysis, visualization, forecasting, AI insights, and PDF report generation end-to-end.",
+      "url": "https://github.com/ASHHADgit87/AnalyticoGPT--AI-AGENT",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "analyticogpt--ai-agent AnalyticoGPT-Agent is an enterprise AI data analytics agent built with Python, Streamlit, Google ADK & Gemini AI. It uses a multi-agent workflow to automate CSV ingestion, cleaning, analysis, visualization, forecasting, AI insights, and PDF report generation end-to-end. ASHHADgit87/AnalyticoGPT--AI-AGENT data-ai"
+    },
+    {
       "name": "Mnemosyne",
       "repo": "axdsan/mnemosyne",
       "description": "Zero-dependency, sub-millisecond AI Memory System for Hermes Agents",
       "platforms": [
         "hermes"
-      ]
+      ],
+      "url": "https://github.com/axdsan/mnemosyne"
     },
     {
       "name": "posthog",

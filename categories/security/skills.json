@@ -4,7 +4,7 @@
     "topCategoryId": "security",
     "subCategoryId": "general",
     "categoryPath": "security",
-    "count": 202,
+    "count": 208,
     "sourceData": "categories"
   },
   "skills": [
@@ -3802,6 +3802,114 @@
         "general"
       ],
       "searchText": "ruby_llm-tribunal llm evaluation framework for ruby, powered by rubyllm. tribunal provides tools for evaluating and testing llm outputs, detecting hallucinations, measuring response quality, and ensuring safety. perfec alqemist-labs/ruby_llm-tribunal security general"
+    },
+    {
+      "name": "argo",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "gigioneggiando/argo",
+      "stars": 8,
+      "desc": "👁️ LLM-native static vulnerability detection. An LLM reads your source like a human auditor, point it at any local folder or repo and get a reviewable vuln report. Auto-enriched prompts, adversarial validation, opt-in fix-verify. Runs on Claude Code / Codex / local OSS. Bug-bounty triage is one mode. Detection-only, read-only.",
+      "url": "https://github.com/gigioneggiando/argo",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "argo 👁️ LLM-native static vulnerability detection. An LLM reads your source like a human auditor, point it at any local folder or repo and get a reviewable vuln report. Auto-enriched prompts, adversarial validation, opt-in fix-verify. Runs on Claude Code / Codex / local OSS. Bug-bounty triage is one mode. Detection-only, read-only. gigioneggiando/argo security"
+    },
+    {
+      "name": "sentinel-secure-skills",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "jaydip1212/sentinel-secure-skills",
+      "stars": 8,
+      "desc": "A provider agnostic AI agent skill set that helps you build secure websites and audit existing code for vulnerabilities. Includes a ready to use system prompt, a full web security threat catalog, and copy paste prompts for Claude, GPT, and Gemini, built around OWASP standards for secure coding.",
+      "url": "https://github.com/jaydip1212/sentinel-secure-skills",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "sentinel-secure-skills A provider agnostic AI agent skill set that helps you build secure websites and audit existing code for vulnerabilities. Includes a ready to use system prompt, a full web security threat catalog, and copy paste prompts for Claude, GPT, and Gemini, built around OWASP standards for secure coding. jaydip1212/sentinel-secure-skills security"
+    },
+    {
+      "name": "docker-hub-bot",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "credkellar-boop/Docker-Hub-Bot",
+      "stars": 5,
+      "desc": "Docker-Hub-Bot is an AI Triad (Asset, Security, Brain) unifying official Docker Library repositories. Powered by Gemini, it autonomously searches Docker Hub, executes Scout vulnerability audits, and dynamically generates optimized, layer-cached container environments for high-throughput smart contract execution and robust CI/CD automation pipelines",
+      "url": "https://github.com/credkellar-boop/Docker-Hub-Bot",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "docker-hub-bot Docker-Hub-Bot is an AI Triad (Asset, Security, Brain) unifying official Docker Library repositories. Powered by Gemini, it autonomously searches Docker Hub, executes Scout vulnerability audits, and dynamically generates optimized, layer-cached container environments for high-throughput smart contract execution and robust CI/CD automation pipelines credkellar-boop/Docker-Hub-Bot security"
+    },
+    {
+      "name": "voltmart-pentest-lab",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "Baymax-armed/voltmart-pentest-lab",
+      "stars": 5,
+      "desc": "Self-hosted Dockerized pentest lab: five intentionally-vulnerable apps (store, bank, finance, SaaS + a dedicated AI/LLM lab) â€” 280+ vulns across OWASP Top 10 & the full LLM Top 10. The AI is a built-in deterministic offline engine: NO model, NO API key. A modern DVWA / Juice Shop alternative.",
+      "url": "https://github.com/Baymax-armed/voltmart-pentest-lab",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "voltmart-pentest-lab Self-hosted Dockerized pentest lab: five intentionally-vulnerable apps (store, bank, finance, SaaS + a dedicated AI/LLM lab) â€” 280+ vulns across OWASP Top 10 & the full LLM Top 10. The AI is a built-in deterministic offline engine: NO model, NO API key. A modern DVWA / Juice Shop alternative. Baymax-armed/voltmart-pentest-lab security"
+    },
+    {
+      "name": "dada-grimoire",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "alexpaden/dada-grimoire",
+      "stars": 3,
+      "desc": "GRIMOIRE — deliberately-vulnerable Next.js + Django CTF for AI-security training",
+      "url": "https://github.com/alexpaden/dada-grimoire",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "dada-grimoire GRIMOIRE — deliberately-vulnerable Next.js + Django CTF for AI-security training alexpaden/dada-grimoire security"
+    },
+    {
+      "name": "breachproof",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "Mikaru0Mystic/breachproof",
+      "stars": 3,
+      "desc": "Autonomous AI security agent that audits, pentests, and hardens your whole codebase: SAST, secrets, SCA, IaC, containers, CI/CD, OWASP, and AI/LLM red-teaming. Auto-fixes vulnerabilities and maps findings to compliance frameworks like SOC 2. Works with Claude Code, Cursor, Codex, and opencode.",
+      "url": "https://github.com/Mikaru0Mystic/breachproof",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "breachproof Autonomous AI security agent that audits, pentests, and hardens your whole codebase: SAST, secrets, SCA, IaC, containers, CI/CD, OWASP, and AI/LLM red-teaming. Auto-fixes vulnerabilities and maps findings to compliance frameworks like SOC 2. Works with Claude Code, Cursor, Codex, and opencode. Mikaru0Mystic/breachproof security"
     }
   ]
 }

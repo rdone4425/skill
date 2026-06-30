@@ -4,7 +4,7 @@
     "topCategoryId": "game-dev",
     "subCategoryId": "game-dev",
     "categoryPath": "game-dev",
-    "count": 98,
+    "count": 100,
     "sourceData": "categories"
   },
   "skills": [
@@ -1787,6 +1787,42 @@
         "general"
       ],
       "searchText": "awesome-ai-tools-for-game-dev a curated list of awesome ai tools for game developers simoninithomas/awesome-ai-tools-for-game-dev game-dev general"
+    },
+    {
+      "name": "ghostli-skills",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "GhostliAI/Ghostli-Skills",
+      "stars": 5,
+      "desc": "Ready-to-use Ghostli AI skills for debugging, code review, web development, game server development and other developer workflows.",
+      "url": "https://github.com/GhostliAI/Ghostli-Skills",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ghostli-skills Ready-to-use Ghostli AI skills for debugging, code review, web development, game server development and other developer workflows. GhostliAI/Ghostli-Skills game-dev"
+    },
+    {
+      "name": "gamestack",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "rondorkerin/gamestack",
+      "stars": 4,
+      "desc": "The game-design process for Claude — knowledge + workflow skills for designing games, tuned for headless, procedural, AI-authored development (engine-agnostic; Godot).",
+      "url": "https://github.com/rondorkerin/gamestack",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gamestack The game-design process for Claude — knowledge + workflow skills for designing games, tuned for headless, procedural, AI-authored development (engine-agnostic; Godot). rondorkerin/gamestack game-dev"
     }
   ]
 }

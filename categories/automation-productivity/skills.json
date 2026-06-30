@@ -4,7 +4,7 @@
     "topCategoryId": "automation",
     "subCategoryId": "productivity",
     "categoryPath": "automation-productivity",
-    "count": 213,
+    "count": 214,
     "sourceData": "categories"
   },
   "skills": [
@@ -4145,6 +4145,24 @@
         "general"
       ],
       "searchText": "unplugin-devpilot a universal plugin framework for development tools that enables seamless browser-server communication and mcp (model context protocol) integration with ai/llm systems. zcf0508/unplugin-devpilot automation-productivity general"
+    },
+    {
+      "name": "ai-browser-mcp",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "AI-XiaoDao/ai-browser-mcp",
+      "stars": 28,
+      "desc": "AI浏览器 MCP Server — Windows 本地浏览器自动化 | 243 工具 | Cursor/Claude/Cline | Web Scraping · JS逆向 · CDP断点 · 指纹伪装 · 填表RPA | FBrowser CEF 内核 | MIT 开源",
+      "url": "https://github.com/AI-XiaoDao/ai-browser-mcp",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-browser-mcp AI浏览器 MCP Server — Windows 本地浏览器自动化 | 243 工具 | Cursor/Claude/Cline | Web Scraping · JS逆向 · CDP断点 · 指纹伪装 · 填表RPA | FBrowser CEF 内核 | MIT 开源 AI-XiaoDao/ai-browser-mcp automation-productivity"
     }
   ]
 }
