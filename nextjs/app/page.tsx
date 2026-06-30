@@ -47,6 +47,7 @@ export default function HomePage() {
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm text-slate-300 mb-8">
               <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
               <span>Live · {total.toLocaleString()} AI Skills Indexed</span>
+              <a href="/trending" className="ml-2 px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 text-xs hover:bg-amber-500/30 transition-colors">🔥 Trending</a>
             </div>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-white mb-4 tracking-tight">Skill Hub</h1>
             <p className="text-xl md:text-2xl text-slate-300 mb-2">AI Agent Skills Directory</p>
