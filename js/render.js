@@ -595,21 +595,110 @@
     }
   }
 
+  function renderActiveFilters() {
+      var bar = dom['active-filters'];
+      var chips = dom['active-filters-chips'];
+      var clearBtn = dom['active-filters-clear'];
+      if (!bar || !chips) return;
+
+      var hasFilters = state.keyword || state.agent || state.category !== 'all' || state.subcategory;
+      bar.hidden = !hasFilters;
+      if (clearBtn) clearBtn.hidden = !hasFilters;
+
+      if (!hasFilters) { chips.innerHTML = ''; return; }
+
+      var html = '';
+      if (state.category !== 'all') {
+        html += '<span class="active-filter-chip">' + s.getCategoryLabel(state.category) +
+          '<button data-clear="category" title="清除" aria-label="清除分类">&times;</button></span>';
+      }
+      if (state.subcategory) {
+        html += '<span class="active-filter-chip">' + s.getCategoryLabel(state.subcategory) +
+          '<button data-clear="subcategory" title="清除" aria-label="清除子分类">&times;</button></span>';
+      }
+      if (state.agent) {
+        html += '<span class="active-filter-chip">' + s.getAgentLabel(state.agent) +
+          '<button data-clear="agent" title="清除" aria-label="清除平台">&times;</button></span>';
+      }
+      if (state.keyword) {
+        html += '<span class="active-filter-chip">"' + state.keyword.replace(/"/g, '&quot;') + '"' +
+          '<button data-clear="keyword" title="清除" aria-label="清除搜索">&times;</button></span>';
+      }
+      chips.innerHTML = html;
+    }
+
+    function setupActiveFiltersEvents() {
+      if (!dom['active-filters-chips']) return;
+      dom['active-filters-chips'].addEventListener('click', function(e) {
+        var btn = e.target.closest('[data-clear]');
+        if (!btn) return;
+        var target = btn.dataset.clear;
+        if (target === 'category') { s.selectCategory('all'); }
+        else if (target === 'subcategory') { s.selectSubcategory(null); }
+        else if (target === 'agent') { s.setAgentFilter(null); }
+        else if (target === 'keyword') { s.setKeyword(''); if (dom.search) dom.search.value = ''; }
+        s.ensureDataForCurrentState().then(function() { renderAll(); });
+      });
+      if (dom['active-filters-clear']) {
+        dom['active-filters-clear'].addEventListener('click', function() {
+          s.selectCategory('all');
+          s.selectSubcategory(null);
+          s.setAgentFilter(null);
+          s.setKeyword('');
+          if (dom.search) dom.search.value = '';
+          s.ensureDataForCurrentState().then(function() { renderAll(); });
+        });
+      }
+    }
+
+    function renderPlatformFilters() {
+      var row = dom['platform-filter-row'];
+      if (!row) return;
+      var agents = Object.keys(s.AGENT_META).filter(function(id) { return id !== 'other'; });
+      var countByAgent = {};
+      agents.forEach(function(a) { countByAgent[a] = 0; });
+      (state.data || []).forEach(function(skill) {
+        var skillAgents = s.getSkillAgents(skill);
+        skillAgents.forEach(function(a) {
+          if (countByAgent[a] !== undefined) countByAgent[a]++;
+        });
+      });
+      row.innerHTML = agents.map(function(agentId) {
+        var meta = s.getAgentMeta(agentId);
+        var active = state.agent === agentId;
+        var icon = meta.iconUrl
+          ? '<img class="agent-mark agent-mark-inline" src="' + meta.iconUrl + '" alt="" loading="lazy" referrerpolicy="no-referrer">'
+          : '<span class="agent-mark-inline agent-mark-agent-emoji">' + (meta.icon || '?') + '</span>';
+        return '<button type="button" class="agent-filter-chip' + (active ? ' active' : '') +
+          '" data-agent-id="' + agentId + '" style="--agent-chip:' + (meta.color || '#6b7280') + '" title="' + s.getAgentLabel(agentId) + '">' +
+          icon + '<span>' + s.getAgentLabel(agentId) + '</span>' +
+          '<span class="agent-filter-count">' + (countByAgent[agentId] || 0) + '</span></button>';
+      }).join('');
+      row.hidden = false;
+
+      /* ponytail: reuse the existing agent-filter-chip click handler in events.js results listener,
+         plus add direct handler here for the platform row */
+      row.querySelectorAll('[data-agent-id]').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var agentId = this.dataset.agentId;
+          s.setAgentFilter(state.agent === agentId ? null : agentId);
+          renderAll();
+        });
+      });
+    }
   function renderFilters() {
     renderCategoryTabs();
     renderSubgroupTabs();
     renderCategoryDesc();
-  }
-
-  function renderListOnly() {
-    s.syncControls();
-    render();
-    s.persistState();
+    renderPlatformFilters();
+    renderActiveFilters();
   }
 
   function renderFilterChrome() {
     s.syncControls();
-    renderFilters();
+    renderCategoryTabs();
+    renderSubgroupTabs();
+    renderCategoryDesc();
     render();
     s.persistState();
   }
@@ -660,5 +749,8 @@
     renderListOnly,
     renderFilterChrome,
     renderAll,
+    renderActiveFilters,
+    setupActiveFiltersEvents,
+    renderPlatformFilters,
   };
 })();

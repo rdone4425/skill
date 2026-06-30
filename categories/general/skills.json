@@ -4,7 +4,7 @@
     "topCategoryId": "general",
     "subCategoryId": "general",
     "categoryPath": "general",
-    "count": 574,
+    "count": 575,
     "sourceData": "categories"
   },
   "skills": [
@@ -10985,6 +10985,25 @@
         "general"
       ],
       "searchText": "awesome-on-policy-distillation a curated collection of papers, technical reports, frameworks, and tools for on-policy distillation (opd) of large language models chrisliu298/awesome-on-policy-distillation general general"
+    },
+    {
+      "name": "Prompt-Engineering-Techniques-Hub",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "KalyanKS-NLP/Prompt-Engineering-Techniques-Hub",
+      "stars": 467,
+      "desc": "This repo contains implementation of 25+ prompt engineering techniques. ",
+      "url": "https://github.com/KalyanKS-NLP/Prompt-Engineering-Techniques-Hub",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Prompt-Engineering-Techniques-Hub This repo contains implementation of 25+ prompt engineering techniques.  KalyanKS-NLP/Prompt-Engineering-Techniques-Hub general",
+      "pricing": "free"
     }
   ]
 }

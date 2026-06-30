@@ -180,6 +180,8 @@
       'category-tabs', 'subgroup-tabs', 'category-desc',
       'pagination', 'page-info', 'page-prev', 'page-next',
       'sort-select', 'view-toggle',
+      'active-filters', 'active-filters-chips', 'active-filters-clear',
+      'platform-filter-row',
     ].forEach((id) => {
       dom[id] = document.getElementById(id);
     });

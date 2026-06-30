@@ -4,7 +4,7 @@
     "topCategoryId": "data",
     "subCategoryId": "ai",
     "categoryPath": "data-ai",
-    "count": 516,
+    "count": 535,
     "sourceData": "categories"
   },
   "skills": [
@@ -10117,6 +10117,367 @@
         "general"
       ],
       "searchText": "engram persistent memory system for ai coding agents. agent-agnostic go binary with sqlite + fts5, mcp server, http api, cli, and tui. gentleman-programming/engram data-ai general"
+    },
+    {
+      "name": "RAG-Anything",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "HKUDS/RAG-Anything",
+      "stars": 21668,
+      "desc": "\"RAG-Anything: All-in-One RAG Framework\"",
+      "url": "https://github.com/HKUDS/RAG-Anything",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "RAG-Anything \"RAG-Anything: All-in-One RAG Framework\" HKUDS/RAG-Anything data-ai",
+      "pricing": "free"
+    },
+    {
+      "name": "easy-dataset",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "ConardLi/easy-dataset",
+      "stars": 14550,
+      "desc": "A powerful tool for creating datasets for LLM fine-tuning 、RAG and Eval",
+      "url": "https://github.com/ConardLi/easy-dataset",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "easy-dataset A powerful tool for creating datasets for LLM fine-tuning 、RAG and Eval ConardLi/easy-dataset data-ai",
+      "pricing": "free"
+    },
+    {
+      "name": "llm-engineer-toolkit",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "KalyanKS-NLP/llm-engineer-toolkit",
+      "stars": 10553,
+      "desc": "A curated list of  120+ LLM libraries category wise. ",
+      "url": "https://github.com/KalyanKS-NLP/llm-engineer-toolkit",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "llm-engineer-toolkit A curated list of  120+ LLM libraries category wise.  KalyanKS-NLP/llm-engineer-toolkit data-ai",
+      "pricing": "free"
+    },
+    {
+      "name": "cactus",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "cactus-compute/cactus",
+      "stars": 5369,
+      "desc": "Low-latency AI engine for mobile devices & wearables",
+      "url": "https://github.com/cactus-compute/cactus",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cactus Low-latency AI engine for mobile devices & wearables cactus-compute/cactus data-ai",
+      "pricing": "free"
+    },
+    {
+      "name": "endee",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "endee-io/endee",
+      "stars": 1306,
+      "desc": "Endee.io – A high-performance vector database, designed to handle up to 1B vectors on a single node, delivering significant performance gains through ",
+      "url": "https://github.com/endee-io/endee",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "endee Endee.io – A high-performance vector database, designed to handle up to 1B vectors on a single node, delivering significant performance gains through  endee-io/endee data-ai",
+      "pricing": "free"
+    },
+    {
+      "name": "Foundation-Models-Framework-Lab",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "rudrankriyam/Foundation-Models-Framework-Lab",
+      "stars": 1136,
+      "desc": "A practical lab for building, testing, and evaluating apps with Apple's Foundation Models framework.",
+      "url": "https://github.com/rudrankriyam/Foundation-Models-Framework-Lab",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Foundation-Models-Framework-Lab A practical lab for building, testing, and evaluating apps with Apple's Foundation Models framework. rudrankriyam/Foundation-Models-Framework-Lab data-ai",
+      "pricing": "free"
+    },
+    {
+      "name": "sqlite-vector",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "sqliteai/sqlite-vector",
+      "stars": 989,
+      "desc": "SQLite-Vector is a cross-platform, ultra-efficient SQLite extension that brings vector search capabilities to your embedded database.",
+      "url": "https://github.com/sqliteai/sqlite-vector",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "sqlite-vector SQLite-Vector is a cross-platform, ultra-efficient SQLite extension that brings vector search capabilities to your embedded database. sqliteai/sqlite-vector data-ai",
+      "pricing": "free"
+    },
+    {
+      "name": "VexDB-Lite",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "VexDB-THU/VexDB-Lite",
+      "stars": 961,
+      "desc": "A cross-platform vector database, which can be integrated into existing databases as a plugin.",
+      "url": "https://github.com/VexDB-THU/VexDB-Lite",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "VexDB-Lite A cross-platform vector database, which can be integrated into existing databases as a plugin. VexDB-THU/VexDB-Lite data-ai",
+      "pricing": "free"
+    },
+    {
+      "name": "AutoSchemaKG",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "HKUST-KnowComp/AutoSchemaKG",
+      "stars": 768,
+      "desc": "This repository contains the implementation of AutoSchemaKG, a novel framework for automatic knowledge graph construction that combines schema generat",
+      "url": "https://github.com/HKUST-KnowComp/AutoSchemaKG",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AutoSchemaKG This repository contains the implementation of AutoSchemaKG, a novel framework for automatic knowledge graph construction that combines schema generat HKUST-KnowComp/AutoSchemaKG data-ai",
+      "pricing": "free"
+    },
+    {
+      "name": "insights-lm-public",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "theaiautomators/insights-lm-public",
+      "stars": 611,
+      "desc": "Open-source, self-hosted alternative to NotebookLM. Chat with your documents, generate audio summaries, and ground AI in your own sources—built with S",
+      "url": "https://github.com/theaiautomators/insights-lm-public",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "insights-lm-public Open-source, self-hosted alternative to NotebookLM. Chat with your documents, generate audio summaries, and ground AI in your own sources—built with S theaiautomators/insights-lm-public data-ai",
+      "pricing": "free"
+    },
+    {
+      "name": "LettuceDetect",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "KRLabsOrg/LettuceDetect",
+      "stars": 580,
+      "desc": "Lightweight hallucination detection framework for RAG applications",
+      "url": "https://github.com/KRLabsOrg/LettuceDetect",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "LettuceDetect Lightweight hallucination detection framework for RAG applications KRLabsOrg/LettuceDetect data-ai",
+      "pricing": "free"
+    },
+    {
+      "name": "vectorvfs",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "perone/vectorvfs",
+      "stars": 510,
+      "desc": "Your filesystem as a vector database",
+      "url": "https://github.com/perone/vectorvfs",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vectorvfs Your filesystem as a vector database perone/vectorvfs data-ai",
+      "pricing": "free"
+    },
+    {
+      "name": "VecturaKit",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "rryam/VecturaKit",
+      "stars": 308,
+      "desc": "Swift-based vector database for on-device RAG using MLTensor and MLX Embedders",
+      "url": "https://github.com/rryam/VecturaKit",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "VecturaKit Swift-based vector database for on-device RAG using MLTensor and MLX Embedders rryam/VecturaKit data-ai",
+      "pricing": "free"
+    },
+    {
+      "name": "lux",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "lux-db/lux",
+      "stars": 271,
+      "desc": "A Redis-compatable key-value store. Up to 10x faster. Native vector support.",
+      "url": "https://github.com/lux-db/lux",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "lux A Redis-compatable key-value store. Up to 10x faster. Native vector support. lux-db/lux data-ai",
+      "pricing": "free"
+    },
+    {
+      "name": "vectordbz",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "vectordbz/vectordbz",
+      "stars": 246,
+      "desc": "A modern desktop application for exploring, managing, and analyzing vector databases",
+      "url": "https://github.com/vectordbz/vectordbz",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vectordbz A modern desktop application for exploring, managing, and analyzing vector databases vectordbz/vectordbz data-ai",
+      "pricing": "free"
+    },
+    {
+      "name": "satoriDB",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "nubskr/satoriDB",
+      "stars": 242,
+      "desc": "High performance embedded vector database",
+      "url": "https://github.com/nubskr/satoriDB",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "satoriDB High performance embedded vector database nubskr/satoriDB data-ai",
+      "pricing": "free"
+    },
+    {
+      "name": "python",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "antarys-ai/python",
+      "stars": 234,
+      "desc": "Python client for Antarys vector database, optimized for large-scale vector operations with built-in caching, parallel processing, and dimension valid",
+      "url": "https://github.com/antarys-ai/python",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "python Python client for Antarys vector database, optimized for large-scale vector operations with built-in caching, parallel processing, and dimension valid antarys-ai/python data-ai",
+      "pricing": "free"
+    },
+    {
+      "name": "TreeSearch",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "shibing624/TreeSearch",
+      "stars": 210,
+      "desc": "TreeSearch: Search your codebase like a human — not like a vector database. No embeddings. No chunking. Just millisecond search over structured docume",
+      "url": "https://github.com/shibing624/TreeSearch",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "TreeSearch TreeSearch: Search your codebase like a human — not like a vector database. No embeddings. No chunking. Just millisecond search over structured docume shibing624/TreeSearch data-ai",
+      "pricing": "free"
+    },
+    {
+      "name": "AlayaLite",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "AlayaDB-AI/AlayaLite",
+      "stars": 208,
+      "desc": "AlayaLite – A Fast, Flexible Vector Database for Everyone.",
+      "url": "https://github.com/AlayaDB-AI/AlayaLite",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AlayaLite AlayaLite – A Fast, Flexible Vector Database for Everyone. AlayaDB-AI/AlayaLite data-ai",
+      "pricing": "free"
     }
   ]
 }

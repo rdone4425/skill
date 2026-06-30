@@ -4,7 +4,7 @@
     "topCategoryId": "video-multimedia",
     "subCategoryId": "video-multimedia",
     "categoryPath": "video-multimedia",
-    "count": 84,
+    "count": 94,
     "sourceData": "categories"
   },
   "skills": [
@@ -1546,6 +1546,196 @@
         "general"
       ],
       "searchText": "agnes-mcp Agnes AI MCP Server — Rust-based Model Context Protocol server exposing Agnes AI capabilities (chat, image generation/recognition, video generation) to MCP clients. KingingWang/agnes-mcp video-multimedia"
+    },
+    {
+      "name": "Jellyfish",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "Forget-C/Jellyfish",
+      "stars": 4663,
+      "desc": "An end-to-end production workspace for AI-generated short dramas. From script input to structured storyboarding, consistency management, shot preparat",
+      "url": "https://github.com/Forget-C/Jellyfish",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Jellyfish An end-to-end production workspace for AI-generated short dramas. From script input to structured storyboarding, consistency management, shot preparat Forget-C/Jellyfish video-multimedia",
+      "pricing": "free"
+    },
+    {
+      "name": "printfilm",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "yuanzhongqiao/printfilm",
+      "stars": 2643,
+      "desc": "短剧平台 AI Short Film  Motion Comic Generation Platform Industrial AI Motion Comic & Video Workbench",
+      "url": "https://github.com/yuanzhongqiao/printfilm",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "printfilm 短剧平台 AI Short Film  Motion Comic Generation Platform Industrial AI Motion Comic & Video Workbench yuanzhongqiao/printfilm video-multimedia",
+      "pricing": "free"
+    },
+    {
+      "name": "awesome-seedance",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "ZeroLu/awesome-seedance",
+      "stars": 2022,
+      "desc": "The ultimate collection of high-fidelity Seedance 2.0 prompts and Seedance AI resources. Discover Seedance 2.0 how to use for cinematic film, anime, U",
+      "url": "https://github.com/ZeroLu/awesome-seedance",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-seedance The ultimate collection of high-fidelity Seedance 2.0 prompts and Seedance AI resources. Discover Seedance 2.0 how to use for cinematic film, anime, U ZeroLu/awesome-seedance video-multimedia",
+      "pricing": "free"
+    },
+    {
+      "name": "autoclip_mvp",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "zhouxiaoka/autoclip_mvp",
+      "stars": 972,
+      "desc": "AutoClip: AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
+      "url": "https://github.com/zhouxiaoka/autoclip_mvp",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "autoclip_mvp AutoClip: AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具 zhouxiaoka/autoclip_mvp video-multimedia",
+      "pricing": "free"
+    },
+    {
+      "name": "higgsfield-seedance2-jineng",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "beshuaxian/higgsfield-seedance2-jineng",
+      "stars": 640,
+      "desc": "Seedance 2.0 × Higgsfield 技能集 | 15 Claude prompt skills for AI video generation — cinematic, 3D CGI, anime, e-commerce ads, music videos & more. Each ",
+      "url": "https://github.com/beshuaxian/higgsfield-seedance2-jineng",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "higgsfield-seedance2-jineng Seedance 2.0 × Higgsfield 技能集 | 15 Claude prompt skills for AI video generation — cinematic, 3D CGI, anime, e-commerce ads, music videos & more. Each  beshuaxian/higgsfield-seedance2-jineng video-multimedia",
+      "pricing": "free"
+    },
+    {
+      "name": "AIO-Video-Downloader",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "shibaFoss/AIO-Video-Downloader",
+      "stars": 416,
+      "desc": "📥 Powerful Video/Audio Downloader for Android — Open Source, Ad-Free, and Built on yt-dlp for a Seamless, User-Centric Experience",
+      "url": "https://github.com/shibaFoss/AIO-Video-Downloader",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AIO-Video-Downloader 📥 Powerful Video/Audio Downloader for Android — Open Source, Ad-Free, and Built on yt-dlp for a Seamless, User-Centric Experience shibaFoss/AIO-Video-Downloader video-multimedia",
+      "pricing": "free"
+    },
+    {
+      "name": "ltx-video-mac",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "james-see/ltx-video-mac",
+      "stars": 332,
+      "desc": "Native macOS app for AI video generation using LTX-Video model, optimized for Apple Silicon",
+      "url": "https://github.com/james-see/ltx-video-mac",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ltx-video-mac Native macOS app for AI video generation using LTX-Video model, optimized for Apple Silicon james-see/ltx-video-mac video-multimedia",
+      "pricing": "free"
+    },
+    {
+      "name": "sdk",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "vargHQ/sdk",
+      "stars": 325,
+      "desc": "AI video generation SDK — JSX for videos. One API for Kling, Flux, ElevenLabs, Veed. Built on Vercel AI SDK.",
+      "url": "https://github.com/vargHQ/sdk",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "sdk AI video generation SDK — JSX for videos. One API for Kling, Flux, ElevenLabs, Veed. Built on Vercel AI SDK. vargHQ/sdk video-multimedia",
+      "pricing": "free"
+    },
+    {
+      "name": "MoneyPrinterAICreate",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "q1uki/MoneyPrinterAICreate",
+      "stars": 303,
+      "desc": "基于MoneyPrinterTurbo，AI生成分镜大纲与视频（动态，不是念ppt），接入万相通义wan2.1 ai文生视频、图生视频功能，灵活把控视频生成。Based on MoneyPrinterTurbo, AI generates image outline and video (dynam",
+      "url": "https://github.com/q1uki/MoneyPrinterAICreate",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "MoneyPrinterAICreate 基于MoneyPrinterTurbo，AI生成分镜大纲与视频（动态，不是念ppt），接入万相通义wan2.1 ai文生视频、图生视频功能，灵活把控视频生成。Based on MoneyPrinterTurbo, AI generates image outline and video (dynam q1uki/MoneyPrinterAICreate video-multimedia",
+      "pricing": "free"
+    },
+    {
+      "name": "comfyUI-LongLook",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "shootthesound/comfyUI-LongLook",
+      "stars": 164,
+      "desc": "A ComfyUI node pack that implements FreeLong (NeurIPS 2024) spectral blending for Wan 2.2 video generation",
+      "url": "https://github.com/shootthesound/comfyUI-LongLook",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "comfyUI-LongLook A ComfyUI node pack that implements FreeLong (NeurIPS 2024) spectral blending for Wan 2.2 video generation shootthesound/comfyUI-LongLook video-multimedia",
+      "pricing": "free"
     }
   ]
 }

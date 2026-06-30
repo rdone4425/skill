@@ -64,18 +64,18 @@ export function getAllSkills(): Skill[] {
   return skills
 }
 
+// ponytail: lazy-load fuse.js only when searching, saves ~173KB from homepage
 let _fuseModule: any = null
-function getFuse() {
+async function getFuse() {
   if (!_fuseModule) {
-    // Dynamic import not available in sync context, use require
-    _fuseModule = require('fuse.js')
+    _fuseModule = await import('fuse.js')
   }
   return _fuseModule.default || _fuseModule
 }
 
 let _allSkills: Skill[] | null = null
 
-export function searchSkills(query: string): Skill[] {
+export async function searchSkills(query: string): Promise<Skill[]> {
   const q = query.toLowerCase().trim()
   if (q.length < 2) {
     return getAllSkills().filter(s =>
@@ -85,9 +85,9 @@ export function searchSkills(query: string): Skill[] {
     )
   }
 
-  // Fuse.js fuzzy search
+  // Fuse.js fuzzy search (lazy loaded)
   if (!_allSkills) _allSkills = getAllSkills()
-  const Fuse = getFuse()
+  const Fuse = await getFuse()
   const fuse = new Fuse(_allSkills, {
     keys: ['name', 'desc', 'repo'],
     threshold: 0.4,

@@ -8,6 +8,7 @@
 
   function finishInit() {
     hub.events.bindEvents();
+    hub.render.setupActiveFiltersEvents();
     hub.render.renderAll();
     hub.events.setupI18nListener();
     hub.events.setupHistoryListener();

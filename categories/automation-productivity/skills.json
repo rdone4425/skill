@@ -4,7 +4,7 @@
     "topCategoryId": "automation",
     "subCategoryId": "productivity",
     "categoryPath": "automation-productivity",
-    "count": 214,
+    "count": 218,
     "sourceData": "categories"
   },
   "skills": [
@@ -4163,6 +4163,82 @@
         "general"
       ],
       "searchText": "ai-browser-mcp AI浏览器 MCP Server — Windows 本地浏览器自动化 | 243 工具 | Cursor/Claude/Cline | Web Scraping · JS逆向 · CDP断点 · 指纹伪装 · 填表RPA | FBrowser CEF 内核 | MIT 开源 AI-XiaoDao/ai-browser-mcp automation-productivity"
+    },
+    {
+      "name": "stealth-browser-mcp",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "vibheksoni/stealth-browser-mcp",
+      "stars": 927,
+      "desc": "The only browser automation that bypasses anti-bot systems. AI writes network hooks, clones UIs pixel-perfect via simple chat.",
+      "url": "https://github.com/vibheksoni/stealth-browser-mcp",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "stealth-browser-mcp The only browser automation that bypasses anti-bot systems. AI writes network hooks, clones UIs pixel-perfect via simple chat. vibheksoni/stealth-browser-mcp automation-productivity",
+      "pricing": "free"
+    },
+    {
+      "name": "threejs-game-skills",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "majidmanzarpour/threejs-game-skills",
+      "stars": 585,
+      "desc": "Agent skills for building playable, polished Three.js browser games with gameplay, AAA-style graphics, UI, QA, and optional AI-generated 3D, image, an",
+      "url": "https://github.com/majidmanzarpour/threejs-game-skills",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "threejs-game-skills Agent skills for building playable, polished Three.js browser games with gameplay, AAA-style graphics, UI, QA, and optional AI-generated 3D, image, an majidmanzarpour/threejs-game-skills automation-productivity",
+      "pricing": "free"
+    },
+    {
+      "name": "stagehand-python",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "browserbase/stagehand-python",
+      "stars": 494,
+      "desc": "The AI Browser Automation Framework",
+      "url": "https://github.com/browserbase/stagehand-python",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "stagehand-python The AI Browser Automation Framework browserbase/stagehand-python automation-productivity",
+      "pricing": "free"
+    },
+    {
+      "name": "moss",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "usemoss/moss",
+      "stars": 431,
+      "desc": "The retrieval layer for production AI systems. Lightning-fast (<10ms) search without vector databases. Built for browser, edge, on-device, and cloud.",
+      "url": "https://github.com/usemoss/moss",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "moss The retrieval layer for production AI systems. Lightning-fast (<10ms) search without vector databases. Built for browser, edge, on-device, and cloud. usemoss/moss automation-productivity",
+      "pricing": "free"
     }
   ]
 }

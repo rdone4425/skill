@@ -9,6 +9,6 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ results: [], total: 0 })
   }
 
-  const results = searchSkills(q).slice(0, limit)
+  const results = (await searchSkills(q)).slice(0, limit)
   return NextResponse.json({ results, total: results.length })
 }

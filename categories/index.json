@@ -2567,5 +2567,27 @@
       "id": "zitadel",
       "count": 1
     }
-  ]
+  ],
+  "design-ui": 404,
+  "education": 93,
+  "testing-qa": 98,
+  "video-gen": 24,
+  "general": 575,
+  "backend-api": 169,
+  "ecommerce": 73,
+  "agent-framework": 739,
+  "dev-tools": 1105,
+  "security": 215,
+  "data-ai": 535,
+  "devops-deploy": 122,
+  "3d": 76,
+  "health-medical": 82,
+  "automation-productivity": 218,
+  "audio": 69,
+  "docs-content": 189,
+  "finance-crypto": 117,
+  "game-dev": 100,
+  "video-multimedia": 94,
+  "social-media": 138,
+  "audio-speech": 34
 }

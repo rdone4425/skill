@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 1099,
+    "count": 1105,
     "sourceData": "categories"
   },
   "skills": [
@@ -21414,6 +21414,120 @@
         "general"
       ],
       "searchText": "codedb zig code intelligence server and mcp toolset for ai agents. fast tree, outline, symbol, search, read, edit, deps, snapshot, and remote github repo queries. justrach/codedb dev-tools general"
+    },
+    {
+      "name": "Claude-Code-Everything-You-Need-to-Know",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+      "stars": 2202,
+      "desc": "The ultimate all-in-one guide to mastering Claude Code. From setup, prompt engineering, commands, hooks, workflows, automation, and integrations, to M",
+      "url": "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Claude-Code-Everything-You-Need-to-Know The ultimate all-in-one guide to mastering Claude Code. From setup, prompt engineering, commands, hooks, workflows, automation, and integrations, to M wesammustafa/Claude-Code-Everything-You-Need-to-Know dev-tools",
+      "pricing": "free"
+    },
+    {
+      "name": "NornicDB",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "orneryd/NornicDB",
+      "stars": 816,
+      "desc": "Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and writes. Using Neo4j Bolt/Cypher a",
+      "url": "https://github.com/orneryd/NornicDB",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "NornicDB Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and writes. Using Neo4j Bolt/Cypher a orneryd/NornicDB dev-tools",
+      "pricing": "free"
+    },
+    {
+      "name": "nanobanana-mcp-server",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "zhongweili/nanobanana-mcp-server",
+      "stars": 369,
+      "desc": "AI image generation MCP server powered by Google Gemini, with smart model selection and 4K output",
+      "url": "https://github.com/zhongweili/nanobanana-mcp-server",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "nanobanana-mcp-server AI image generation MCP server powered by Google Gemini, with smart model selection and 4K output zhongweili/nanobanana-mcp-server dev-tools",
+      "pricing": "free"
+    },
+    {
+      "name": "langconnect-client",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "braincrew-lab/langconnect-client",
+      "stars": 327,
+      "desc": "A Modern GUI Interface for Vector Database Management(Supports MCP integration)",
+      "url": "https://github.com/braincrew-lab/langconnect-client",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "langconnect-client A Modern GUI Interface for Vector Database Management(Supports MCP integration) braincrew-lab/langconnect-client dev-tools",
+      "pricing": "free"
+    },
+    {
+      "name": "muninndb",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "scrypster/muninndb",
+      "stars": 303,
+      "desc": "The cognitive database. A new class of data storage. Not a vector store, not a graph DB, not a RAG wrapper. Ebbinghaus decay, Hebbian   learning, and ",
+      "url": "https://github.com/scrypster/muninndb",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "muninndb The cognitive database. A new class of data storage. Not a vector store, not a graph DB, not a RAG wrapper. Ebbinghaus decay, Hebbian   learning, and  scrypster/muninndb dev-tools",
+      "pricing": "free"
+    },
+    {
+      "name": "atlassian-rovo-source-code-z80-dump",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "ghuntley/atlassian-rovo-source-code-z80-dump",
+      "stars": 215,
+      "desc": "Complete reverse engineering of Atlassian ACLI Rovo Dev binary - extracted source code, system prompts, and technical analysis",
+      "url": "https://github.com/ghuntley/atlassian-rovo-source-code-z80-dump",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "atlassian-rovo-source-code-z80-dump Complete reverse engineering of Atlassian ACLI Rovo Dev binary - extracted source code, system prompts, and technical analysis ghuntley/atlassian-rovo-source-code-z80-dump dev-tools",
+      "pricing": "free"
     }
   ]
 }

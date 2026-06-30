@@ -2793,6 +2793,85 @@ a:hover {
   transform: scale(0.96);
 }
 
+/* ===== Active Filters Bar ===== */
+.active-filters {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: 6px 0 8px;
+  margin-bottom: 4px;
+}
+.active-filters-label {
+  font-size: 11px;
+  color: var(--text-3);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.active-filters-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.active-filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 10px;
+  border-radius: 20px;
+  border: 1px solid var(--accent);
+  background: var(--accent-glow);
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 600;
+  cursor: default;
+}
+.active-filter-chip button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  padding: 0 0 0 2px;
+  opacity: 0.7;
+}
+.active-filter-chip button:hover { opacity: 1; }
+.active-filters-clear {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  color: var(--text-2);
+  border-radius: 20px;
+  padding: 2px 10px;
+  font-size: 11px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.active-filters-clear:hover { border-color: var(--red); color: var(--red); }
+
+/* ===== Platform Filter Row ===== */
+.platform-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 0 10px;
+}
+.platform-filter-row .agent-filter-chip {
+  font-size: 11px;
+  padding: 3px 10px;
+}
+.agent-filter-count {
+  font-size: 10px;
+  color: inherit;
+  opacity: 0.7;
+  margin-left: 2px;
+}
+.agent-filter-chip.active .agent-filter-count {
+  opacity: 0.8;
+}
+
 /* ===== Search Suggestions (搜索联想) ===== */
 .search-wrap {
   position: relative;

@@ -4,7 +4,7 @@
     "topCategoryId": "audio-speech",
     "subCategoryId": "audio-speech",
     "categoryPath": "audio-speech",
-    "count": 22,
+    "count": 34,
     "sourceData": "categories"
   },
   "skills": [
@@ -403,6 +403,234 @@
         "general"
       ],
       "searchText": "la-studio Privacy-first desktop app for local AI audio: speech-to-text, text-to-speech, voice cloning, voice design, model downloads, and runtime management. dduongtrandai/LA-Studio audio-speech"
+    },
+    {
+      "name": "higgs-audio",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "boson-ai/higgs-audio",
+      "stars": 8249,
+      "desc": "Text-audio foundation model from Boson AI",
+      "url": "https://github.com/boson-ai/higgs-audio",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "higgs-audio Text-audio foundation model from Boson AI boson-ai/higgs-audio audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "MOSS-TTS",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "OpenMOSS/MOSS-TTS",
+      "stars": 3676,
+      "desc": "MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the OpenMOSS team. It is designed for high‑fidelity, high‑",
+      "url": "https://github.com/OpenMOSS/MOSS-TTS",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "MOSS-TTS MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the OpenMOSS team. It is designed for high‑fidelity, high‑ OpenMOSS/MOSS-TTS audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "AudioMuse-AI",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "NeptuneHub/AudioMuse-AI",
+      "stars": 2018,
+      "desc": "AudioMuse-AI uses sonic analysis to rediscover forgotten songs, uncover hidden connections in your music library, and generate intelligent playlists f",
+      "url": "https://github.com/NeptuneHub/AudioMuse-AI",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AudioMuse-AI AudioMuse-AI uses sonic analysis to rediscover forgotten songs, uncover hidden connections in your music library, and generate intelligent playlists f NeptuneHub/AudioMuse-AI audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "JoyAI-Echo",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "jd-opensource/JoyAI-Echo",
+      "stars": 1723,
+      "desc": "JoyAI-Echo: Pushing the Frontier of Long Audio-Visual Generation",
+      "url": "https://github.com/jd-opensource/JoyAI-Echo",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "JoyAI-Echo JoyAI-Echo: Pushing the Frontier of Long Audio-Visual Generation jd-opensource/JoyAI-Echo audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "alexandria-audiobook",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "Finrandojin/alexandria-audiobook",
+      "stars": 702,
+      "desc": "AI-powered multi-voice audiobook generator — LLM script annotation, voice cloning, voice design, LoRA training, per-line style control, and export to ",
+      "url": "https://github.com/Finrandojin/alexandria-audiobook",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "alexandria-audiobook AI-powered multi-voice audiobook generator — LLM script annotation, voice cloning, voice design, LoRA training, per-line style control, and export to  Finrandojin/alexandria-audiobook audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "HeartMuLa-Studio",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "fspecii/HeartMuLa-Studio",
+      "stars": 608,
+      "desc": "Suno-like music generation studio for HeartMuLa/heartlib - AI-powered music creation with reference audio style transfer",
+      "url": "https://github.com/fspecii/HeartMuLa-Studio",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "HeartMuLa-Studio Suno-like music generation studio for HeartMuLa/heartlib - AI-powered music creation with reference audio style transfer fspecii/HeartMuLa-Studio audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "liquid-audio",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "Liquid4All/liquid-audio",
+      "stars": 541,
+      "desc": "Liquid Audio - Speech-to-Speech audio models by Liquid AI",
+      "url": "https://github.com/Liquid4All/liquid-audio",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "liquid-audio Liquid Audio - Speech-to-Speech audio models by Liquid AI Liquid4All/liquid-audio audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "whisplay-ai-chatbot",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "PiSugar/whisplay-ai-chatbot",
+      "stars": 478,
+      "desc": "Pocket-sized AI chatbot built using a RPI Zero 2w / 5",
+      "url": "https://github.com/PiSugar/whisplay-ai-chatbot",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "whisplay-ai-chatbot Pocket-sized AI chatbot built using a RPI Zero 2w / 5 PiSugar/whisplay-ai-chatbot audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "smol-audio",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "Deep-unlearning/smol-audio",
+      "stars": 418,
+      "desc": "Practical, Colab-friendly notebooks for fine-tuning and running audio AI models",
+      "url": "https://github.com/Deep-unlearning/smol-audio",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "smol-audio Practical, Colab-friendly notebooks for fine-tuning and running audio AI models Deep-unlearning/smol-audio audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "project-raven",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "Laxcorp-Research/project-raven",
+      "stars": 408,
+      "desc": "Open-source AI meeting copilot - real-time transcription, echo cancellation, and AI assistance. Captures system audio + mic, cancels echo via WebRTC A",
+      "url": "https://github.com/Laxcorp-Research/project-raven",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "project-raven Open-source AI meeting copilot - real-time transcription, echo cancellation, and AI assistance. Captures system audio + mic, cancels echo via WebRTC A Laxcorp-Research/project-raven audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "audioghost-ai",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "0x0funky/audioghost-ai",
+      "stars": 397,
+      "desc": "Extract any sound with text prompts. Memory-optimized SAM-Audio with modern UI.",
+      "url": "https://github.com/0x0funky/audioghost-ai",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "audioghost-ai Extract any sound with text prompts. Memory-optimized SAM-Audio with modern UI. 0x0funky/audioghost-ai audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "AudioMuse-AI-NV-plugin",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "NeptuneHub/AudioMuse-AI-NV-plugin",
+      "stars": 367,
+      "desc": "AudioMuse-AI Navidrome Plugin enhances music discovery by using sonic analysis to queue similar songs in real time.",
+      "url": "https://github.com/NeptuneHub/AudioMuse-AI-NV-plugin",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AudioMuse-AI-NV-plugin AudioMuse-AI Navidrome Plugin enhances music discovery by using sonic analysis to queue similar songs in real time. NeptuneHub/AudioMuse-AI-NV-plugin audio-speech",
+      "pricing": "free"
     }
   ]
 }

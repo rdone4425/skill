@@ -4,7 +4,7 @@
     "topCategoryId": "agent-framework",
     "subCategoryId": "agent-framework",
     "categoryPath": "agent-framework",
-    "count": 706,
+    "count": 739,
     "sourceData": "categories"
   },
   "skills": [
@@ -12687,6 +12687,633 @@
         "general"
       ],
       "searchText": "backdooragent backdooragent is a stage-aware framework and benchmark that instruments llm-agent workflows (planning, memory, tools) to systematically inject, track, and evaluate backdoor triggers across multi-step  yunhao-feng/backdooragent agent-framework general"
+    },
+    {
+      "name": "oh-my-claudecode",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "Yeachan-Heo/oh-my-claudecode",
+      "stars": 37168,
+      "desc": "Teams-first Multi-agent orchestration for Claude Code",
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "oh-my-claudecode Teams-first Multi-agent orchestration for Claude Code Yeachan-Heo/oh-my-claudecode agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "qwen-code",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "QwenLM/qwen-code",
+      "stars": 25651,
+      "desc": "An open-source AI coding agent that lives in your terminal.",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "qwen-code An open-source AI coding agent that lives in your terminal. QwenLM/qwen-code agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "cmux",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "manaflow-ai/cmux",
+      "stars": 23155,
+      "desc": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programm",
+      "url": "https://github.com/manaflow-ai/cmux",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cmux Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programm manaflow-ai/cmux agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "owl",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "camel-ai/owl",
+      "stars": 19905,
+      "desc": "🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation",
+      "url": "https://github.com/camel-ai/owl",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "owl 🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation camel-ai/owl agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "cua",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "trycua/cua",
+      "stars": 19205,
+      "desc": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (ma",
+      "url": "https://github.com/trycua/cua",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cua Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (ma trycua/cua agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "OpenMAIC",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "THU-MAIC/OpenMAIC",
+      "stars": 19079,
+      "desc": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "OpenMAIC Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click THU-MAIC/OpenMAIC agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "gastown",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "gastownhall/gastown",
+      "stars": 16114,
+      "desc": "Gas Town - multi-agent workspace manager",
+      "url": "https://github.com/gastownhall/gastown",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gastown Gas Town - multi-agent workspace manager gastownhall/gastown agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "zvec",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "alibaba/zvec",
+      "stars": 12598,
+      "desc": "A lightweight, lightning-fast, in-process vector database",
+      "url": "https://github.com/alibaba/zvec",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "zvec A lightweight, lightning-fast, in-process vector database alibaba/zvec agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "ART",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "OpenPipe/ART",
+      "stars": 10210,
+      "desc": "Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for",
+      "url": "https://github.com/OpenPipe/ART",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ART Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for OpenPipe/ART agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "open-swe",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "langchain-ai/open-swe",
+      "stars": 10064,
+      "desc": "An Open-Source Asynchronous Coding Agent",
+      "url": "https://github.com/langchain-ai/open-swe",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "open-swe An Open-Source Asynchronous Coding Agent langchain-ai/open-swe agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "open-code-review",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "alibaba/open-code-review",
+      "stars": 9597,
+      "desc": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level c",
+      "url": "https://github.com/alibaba/open-code-review",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "open-code-review Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level c alibaba/open-code-review agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "Shadowbroker",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "BigBodyCobain/Shadowbroker",
+      "stars": 9474,
+      "desc": "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic event",
+      "url": "https://github.com/BigBodyCobain/Shadowbroker",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Shadowbroker Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic event BigBodyCobain/Shadowbroker agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "embabel-agent",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "embabel/embabel-agent",
+      "stars": 3719,
+      "desc": "Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/",
+      "url": "https://github.com/embabel/embabel-agent",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "embabel-agent Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/ embabel/embabel-agent agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "seekdb",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "oceanbase/seekdb",
+      "stars": 2766,
+      "desc": "The AI-Native Search Database. Best for agent storage, it unifies vector, text, structured, and semi-structured data into a single engine. This all-in",
+      "url": "https://github.com/oceanbase/seekdb",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "seekdb The AI-Native Search Database. Best for agent storage, it unifies vector, text, structured, and semi-structured data into a single engine. This all-in oceanbase/seekdb agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "graph-rag-agent",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "1517005260/graph-rag-agent",
+      "stars": 2252,
+      "desc": "拼好RAG：手搓并融合了GraphRAG、LightRAG、Neo4j-llm-graph-builder进行知识图谱构建以及搜索；整合DeepSearch技术实现私域RAG的推理；自制针对GraphRAG的评估框架| Integrate GraphRAG, LightRAG, and Neo4j-",
+      "url": "https://github.com/1517005260/graph-rag-agent",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "graph-rag-agent 拼好RAG：手搓并融合了GraphRAG、LightRAG、Neo4j-llm-graph-builder进行知识图谱构建以及搜索；整合DeepSearch技术实现私域RAG的推理；自制针对GraphRAG的评估框架| Integrate GraphRAG, LightRAG, and Neo4j- 1517005260/graph-rag-agent agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "PRPs-agentic-eng",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "Wirasm/PRPs-agentic-eng",
+      "stars": 2199,
+      "desc": "Prompts, workflows and more for agentic engineering ",
+      "url": "https://github.com/Wirasm/PRPs-agentic-eng",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "PRPs-agentic-eng Prompts, workflows and more for agentic engineering  Wirasm/PRPs-agentic-eng agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "ghost-os",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "ghostwright/ghost-os",
+      "stars": 1549,
+      "desc": "Full computer-use for AI agents. Self-learning workflows. Native macOS. No screenshots required.",
+      "url": "https://github.com/ghostwright/ghost-os",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ghost-os Full computer-use for AI agents. Self-learning workflows. Native macOS. No screenshots required. ghostwright/ghost-os agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "n8n-ai-automations",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "lucaswalter/n8n-ai-automations",
+      "stars": 1536,
+      "desc": "Collection of n8n workflows, n8n templates, AI automations, and AI agents created for The Recap AI YouTube channel and the AI Automation Mastery free ",
+      "url": "https://github.com/lucaswalter/n8n-ai-automations",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "n8n-ai-automations Collection of n8n workflows, n8n templates, AI automations, and AI agents created for The Recap AI YouTube channel and the AI Automation Mastery free  lucaswalter/n8n-ai-automations agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "workflow-builder-template",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "vercel-labs/workflow-builder-template",
+      "stars": 1158,
+      "desc": "Visual AI workflow automation platform",
+      "url": "https://github.com/vercel-labs/workflow-builder-template",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "workflow-builder-template Visual AI workflow automation platform vercel-labs/workflow-builder-template agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "better-chatbot",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "keinsaasforever/better-chatbot",
+      "stars": 1137,
+      "desc": "Formerly Better Chatbot. Navigator is an open-source AI workspace for agents, MCP and workflow automation.",
+      "url": "https://github.com/keinsaasforever/better-chatbot",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "better-chatbot Formerly Better Chatbot. Navigator is an open-source AI workspace for agents, MCP and workflow automation. keinsaasforever/better-chatbot agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "agentica",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "wrtnlabs/agentica",
+      "stars": 1031,
+      "desc": "TypeScript AI AI Function Calling Framework enhanced by compiler skills.",
+      "url": "https://github.com/wrtnlabs/agentica",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agentica TypeScript AI AI Function Calling Framework enhanced by compiler skills. wrtnlabs/agentica agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "Friday",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "thesongzhu/Friday",
+      "stars": 917,
+      "desc": "Private control plane for AI agents ",
+      "url": "https://github.com/thesongzhu/Friday",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Friday Private control plane for AI agents  thesongzhu/Friday agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "locally-uncensored",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "PurpleDoubleD/locally-uncensored",
+      "stars": 828,
+      "desc": "Uncensored local AI desktop app: chat, agent mode, image & video generation. Run abliterated/uncensored LLMs + ComfyUI fully offline with your own pro",
+      "url": "https://github.com/PurpleDoubleD/locally-uncensored",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "locally-uncensored Uncensored local AI desktop app: chat, agent mode, image & video generation. Run abliterated/uncensored LLMs + ComfyUI fully offline with your own pro PurpleDoubleD/locally-uncensored agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "gsd-pi",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "open-gsd/gsd-pi",
+      "stars": 782,
+      "desc": "A powerful meta-prompting, context engineering and spec-driven development system that enables agents to work for long periods of time autonomously wi",
+      "url": "https://github.com/open-gsd/gsd-pi",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gsd-pi A powerful meta-prompting, context engineering and spec-driven development system that enables agents to work for long periods of time autonomously wi open-gsd/gsd-pi agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "agentos",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "framerslab/agentos",
+      "stars": 586,
+      "desc": "TypeScript AI agent framework: cognitive memory, runtime tool forging, multi-agent orchestration, 11 LLM providers.",
+      "url": "https://github.com/framerslab/agentos",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agentos TypeScript AI agent framework: cognitive memory, runtime tool forging, multi-agent orchestration, 11 LLM providers. framerslab/agentos agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "second-brain",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "henrydaum/second-brain",
+      "stars": 563,
+      "desc": "Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation, and LLMs to complete tasks ",
+      "url": "https://github.com/henrydaum/second-brain",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "second-brain Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation, and LLMs to complete tasks  henrydaum/second-brain agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "n8n-claw",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "freddy-schuetz/n8n-claw",
+      "stars": 536,
+      "desc": "OpenClaw-inspired autonomous AI agent built entirely in n8n. Adaptive RAG-powered memory, Skills via MCP templates, Expert Agents with delegated sub-a",
+      "url": "https://github.com/freddy-schuetz/n8n-claw",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "n8n-claw OpenClaw-inspired autonomous AI agent built entirely in n8n. Adaptive RAG-powered memory, Skills via MCP templates, Expert Agents with delegated sub-a freddy-schuetz/n8n-claw agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "Athena-Public",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "winstonkoh87/Athena-Public",
+      "stars": 512,
+      "desc": "The Linux OS for AI Agents — Persistent memory, autonomy, and time-awareness for any LLM. Own the state. Rent the intelligence.",
+      "url": "https://github.com/winstonkoh87/Athena-Public",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Athena-Public The Linux OS for AI Agents — Persistent memory, autonomy, and time-awareness for any LLM. Own the state. Rent the intelligence. winstonkoh87/Athena-Public agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "next-plaid",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "lightonai/next-plaid",
+      "stars": 504,
+      "desc": "NextPlaid, ColGREP: Multi-vector search, from database to coding agents.",
+      "url": "https://github.com/lightonai/next-plaid",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "next-plaid NextPlaid, ColGREP: Multi-vector search, from database to coding agents. lightonai/next-plaid agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "Agentic-RAG-R1",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "jiangxinke/Agentic-RAG-R1",
+      "stars": 420,
+      "desc": "Agentic RAG R1 Framework via Reinforcement Learning",
+      "url": "https://github.com/jiangxinke/Agentic-RAG-R1",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Agentic-RAG-R1 Agentic RAG R1 Framework via Reinforcement Learning jiangxinke/Agentic-RAG-R1 agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "FIBO",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "Bria-AI/FIBO",
+      "stars": 323,
+      "desc": "FIBO is a SOTA, first open-source, JSON-native text-to-image model built for controllable, predictable, and legally safe image generation.",
+      "url": "https://github.com/Bria-AI/FIBO",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "FIBO FIBO is a SOTA, first open-source, JSON-native text-to-image model built for controllable, predictable, and legally safe image generation. Bria-AI/FIBO agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "agnes-ai-generation-skill",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "Yacey/agnes-ai-generation-skill",
+      "stars": 284,
+      "desc": "Agent Skill for Agnes AI text, image, and video generation APIs.",
+      "url": "https://github.com/Yacey/agnes-ai-generation-skill",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agnes-ai-generation-skill Agent Skill for Agnes AI text, image, and video generation APIs. Yacey/agnes-ai-generation-skill agent-framework",
+      "pricing": "free"
+    },
+    {
+      "name": "TwitCanva-Video-Workflow",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "SankaiAI/TwitCanva-Video-Workflow",
+      "stars": 189,
+      "desc": "A next-generation AI-powered infinite canvas workspace built for creators and developers. Experience the future of Generative AI with a drag-and-drop ",
+      "url": "https://github.com/SankaiAI/TwitCanva-Video-Workflow",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "TwitCanva-Video-Workflow A next-generation AI-powered infinite canvas workspace built for creators and developers. Experience the future of Generative AI with a drag-and-drop  SankaiAI/TwitCanva-Video-Workflow agent-framework",
+      "pricing": "free"
     }
   ]
 }
