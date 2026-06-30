@@ -4,7 +4,7 @@
     "topCategoryId": "social-media",
     "subCategoryId": "social-media",
     "categoryPath": "social-media",
-    "count": 142,
+    "count": 145,
     "sourceData": "categories"
   },
   "skills": [
@@ -303,7 +303,7 @@
       "sourceAgent": "other",
       "repo": "coreyhaines31/marketingskills",
       "stars": 35383,
-      "desc": "When the user wants to generate, iterate, or scale ad creative \u2014 headlines, descriptions, primary text, or full ad variations \u2014 for any paid advertising platform. Also use when the user mentions",
+      "desc": "When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform. Also use when the user mentions",
       "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ad-creative",
       "install": "",
       "functionCategory": "social-media",
@@ -314,7 +314,7 @@
         "codex",
         "claude-code"
       ],
-      "searchText": "marketing-ad-creative when the user wants to generate, iterate, or scale ad creative \u2014 headlines, descriptions, primary text, or full ad variations \u2014 for any paid advertising platform. also use when the user mentions coreyhaines31/marketingskills social-media codex claude-code"
+      "searchText": "marketing-ad-creative when the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform. also use when the user mentions coreyhaines31/marketingskills social-media codex claude-code"
     },
     {
       "name": "marketing-ads",
@@ -550,7 +550,7 @@
       "sourceAgent": "other",
       "repo": "coreyhaines31/marketingskills",
       "stars": 35383,
-      "desc": "When the user wants to write, rewrite, or improve marketing copy for any page \u2014 including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user s",
+      "desc": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user s",
       "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/copywriting",
       "install": "",
       "functionCategory": "social-media",
@@ -561,7 +561,7 @@
         "codex",
         "claude-code"
       ],
-      "searchText": "marketing-copywriting when the user wants to write, rewrite, or improve marketing copy for any page \u2014 including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. also use when the user s coreyhaines31/marketingskills social-media codex claude-code"
+      "searchText": "marketing-copywriting when the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. also use when the user s coreyhaines31/marketingskills social-media codex claude-code"
     },
     {
       "name": "marketing-cro",
@@ -569,7 +569,7 @@
       "sourceAgent": "other",
       "repo": "coreyhaines31/marketingskills",
       "stars": 35383,
-      "desc": "When the user wants to optimize, improve, or increase conversions on any marketing page or form \u2014 including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms.",
+      "desc": "When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms.",
       "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/cro",
       "install": "",
       "functionCategory": "social-media",
@@ -580,7 +580,7 @@
         "codex",
         "claude-code"
       ],
-      "searchText": "marketing-cro when the user wants to optimize, improve, or increase conversions on any marketing page or form \u2014 including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms. coreyhaines31/marketingskills social-media codex claude-code"
+      "searchText": "marketing-cro when the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms. coreyhaines31/marketingskills social-media codex claude-code"
     },
     {
       "name": "marketing-customer-research",
@@ -645,7 +645,7 @@
       "sourceAgent": "other",
       "repo": "coreyhaines31/marketingskills",
       "stars": 35383,
-      "desc": "When the user wants to plan, evaluate, or build a free tool for marketing purposes \u2014 lead generation, SEO value, or brand awareness. Also use when the user mentions",
+      "desc": "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions",
       "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/free-tools",
       "install": "",
       "functionCategory": "social-media",
@@ -656,7 +656,7 @@
         "codex",
         "claude-code"
       ],
-      "searchText": "marketing-free-tools when the user wants to plan, evaluate, or build a free tool for marketing purposes \u2014 lead generation, seo value, or brand awareness. also use when the user mentions coreyhaines31/marketingskills social-media codex claude-code"
+      "searchText": "marketing-free-tools when the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, seo value, or brand awareness. also use when the user mentions coreyhaines31/marketingskills social-media codex claude-code"
     },
     {
       "name": "marketing-image",
@@ -664,7 +664,7 @@
       "sourceAgent": "other",
       "repo": "coreyhaines31/marketingskills",
       "stars": 35383,
-      "desc": "When the user wants to create, generate, edit, or optimize images for marketing \u2014 blog heroes, social graphics, product mockups, profile banners, listing visuals, or brand assets. Also use when the us",
+      "desc": "When the user wants to create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product mockups, profile banners, listing visuals, or brand assets. Also use when the us",
       "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/image",
       "install": "",
       "functionCategory": "social-media",
@@ -675,7 +675,7 @@
         "codex",
         "claude-code"
       ],
-      "searchText": "marketing-image when the user wants to create, generate, edit, or optimize images for marketing \u2014 blog heroes, social graphics, product mockups, profile banners, listing visuals, or brand assets. also use when the us coreyhaines31/marketingskills social-media codex claude-code"
+      "searchText": "marketing-image when the user wants to create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product mockups, profile banners, listing visuals, or brand assets. also use when the us coreyhaines31/marketingskills social-media codex claude-code"
     },
     {
       "name": "marketing-launch",
@@ -778,7 +778,7 @@
       "sourceAgent": "other",
       "repo": "coreyhaines31/marketingskills",
       "stars": 35383,
-      "desc": "When the user wants to design, construct, or improve an offer \u2014 the thing they actually sell \u2014 including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structur",
+      "desc": "When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structur",
       "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/offers",
       "install": "",
       "functionCategory": "social-media",
@@ -789,7 +789,7 @@
         "codex",
         "claude-code"
       ],
-      "searchText": "marketing-offers when the user wants to design, construct, or improve an offer \u2014 the thing they actually sell \u2014 including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structur coreyhaines31/marketingskills social-media codex claude-code"
+      "searchText": "marketing-offers when the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structur coreyhaines31/marketingskills social-media codex claude-code"
     },
     {
       "name": "marketing-onboarding",
@@ -911,7 +911,7 @@
       "sourceAgent": "other",
       "repo": "coreyhaines31/marketingskills",
       "stars": 35383,
-      "desc": "When the user wants to find, qualify, and build a list of prospects to reach out to \u2014 across B2B SaaS, general B2B, or local small businesses. Also use when the user mentions",
+      "desc": "When the user wants to find, qualify, and build a list of prospects to reach out to — across B2B SaaS, general B2B, or local small businesses. Also use when the user mentions",
       "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/prospecting",
       "install": "",
       "functionCategory": "social-media",
@@ -922,7 +922,7 @@
         "codex",
         "claude-code"
       ],
-      "searchText": "marketing-prospecting when the user wants to find, qualify, and build a list of prospects to reach out to \u2014 across b2b saas, general b2b, or local small businesses. also use when the user mentions coreyhaines31/marketingskills social-media codex claude-code"
+      "searchText": "marketing-prospecting when the user wants to find, qualify, and build a list of prospects to reach out to — across b2b saas, general b2b, or local small businesses. also use when the user mentions coreyhaines31/marketingskills social-media codex claude-code"
     },
     {
       "name": "marketing-public-relations",
@@ -1082,7 +1082,7 @@
       "sourceAgent": "other",
       "repo": "coreyhaines31/marketingskills",
       "stars": 35383,
-      "desc": "When the user wants to plan, build, or optimize SMS or MMS marketing \u2014 including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth SMS. Also use wh",
+      "desc": "When the user wants to plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth SMS. Also use wh",
       "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/sms",
       "install": "",
       "functionCategory": "social-media",
@@ -1093,7 +1093,7 @@
         "codex",
         "claude-code"
       ],
-      "searchText": "marketing-sms when the user wants to plan, build, or optimize sms or mms marketing \u2014 including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth sms. also use wh coreyhaines31/marketingskills social-media codex claude-code"
+      "searchText": "marketing-sms when the user wants to plan, build, or optimize sms or mms marketing — including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth sms. also use wh coreyhaines31/marketingskills social-media codex claude-code"
     },
     {
       "name": "marketing-social",
@@ -1513,7 +1513,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Prioritize assumptions with Impact \u00d7 Risk matrix and experiments",
+      "desc": "Prioritize assumptions with Impact × Risk matrix and experiments",
       "url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/prioritize-assumptions",
       "install": "",
       "functionCategory": "social-media",
@@ -1527,7 +1527,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "prioritize-assumptions prioritize assumptions with impact \u00d7 risk matrix and experiments voltagent/awesome-agent-skills social-media claude codex cursor hermes gemini"
+      "searchText": "prioritize-assumptions prioritize assumptions with impact × risk matrix and experiments voltagent/awesome-agent-skills social-media claude codex cursor hermes gemini"
     },
     {
       "name": "animoto",
@@ -2223,7 +2223,7 @@
       "sourceAgent": "general",
       "repo": "HisMax/RedInk",
       "stars": 5381,
-      "desc": "Red Ink \u2014 A one-stop Xiaohongshu (\u5c0f\u7ea2\u4e66) image-and-text generator based on Nano Banana Pro for AI content creation.",
+      "desc": "Red Ink — A one-stop Xiaohongshu (小红书) image-and-text generator based on Nano Banana Pro for AI content creation.",
       "url": "https://github.com/HisMax/RedInk",
       "install": "",
       "functionCategory": "social-media",
@@ -2233,7 +2233,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "redink red ink \u2014 a one-stop xiaohongshu (\u5c0f\u7ea2\u4e66) image-and-text generator based on nano banana pro for ai content creation. hismax/redink social-media general"
+      "searchText": "redink red ink — a one-stop xiaohongshu (小红书) image-and-text generator based on nano banana pro for ai content creation. hismax/redink social-media general"
     },
     {
       "name": "clo-verbal",
@@ -2295,7 +2295,7 @@
       "sourceAgent": "general",
       "repo": "sponsors/NanmiCoder",
       "stars": 2472,
-      "desc": "\u5c0f\u7ea2\u4e66/\u6296\u97f3/B\u7ad9/\u5fae\u535a/\u77e5\u4e4e/\u767e\u5ea6\u8d34\u5427 \u5168\u5e73\u53f0\u722c\u866b\uff0c\u652f\u6301\u7b14\u8bb0\u3001\u8bc4\u8bba\u3001\u89c6\u9891\u6570\u636e\u91c7\u96c6\u3002",
+      "desc": "小红书/抖音/B站/微博/知乎/百度贴吧 全平台爬虫，支持笔记、评论、视频数据采集。",
       "url": "https://github.com/sponsors/NanmiCoder",
       "install": "pip install MediaCrawler",
       "functionCategory": "social-media",
@@ -2305,7 +2305,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "nanmicoder \u5c0f\u7ea2\u4e66/\u6296\u97f3/b\u7ad9/\u5fae\u535a/\u77e5\u4e4e/\u767e\u5ea6\u8d34\u5427 \u5168\u5e73\u53f0\u722c\u866b\uff0c\u652f\u6301\u7b14\u8bb0\u3001\u8bc4\u8bba\u3001\u89c6\u9891\u6570\u636e\u91c7\u96c6\u3002 sponsors/nanmicoder pip install mediacrawler social-media general"
+      "searchText": "nanmicoder 小红书/抖音/b站/微博/知乎/百度贴吧 全平台爬虫，支持笔记、评论、视频数据采集。 sponsors/nanmicoder pip install mediacrawler social-media general"
     },
     {
       "name": "xhs_ai_publisher",
@@ -2457,7 +2457,7 @@
       "sourceAgent": "general",
       "repo": "jihe520/social-push",
       "stars": 477,
-      "desc": "\ud83e\udd16 AI social-media automation skill | Self-evolution workflows | AI \u793e\u4ea4\u5a92\u4f53\u81ea\u52a8\u5316 skill | \u81ea\u6211\u8fdb\u5316\u5de5\u4f5c\u6d41",
+      "desc": "🤖 AI social-media automation skill | Self-evolution workflows | AI 社交媒体自动化 skill | 自我进化工作流",
       "url": "https://github.com/jihe520/social-push",
       "install": "",
       "functionCategory": "social-media",
@@ -2467,7 +2467,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "social-push \ud83e\udd16 ai social-media automation skill | self-evolution workflows | ai \u793e\u4ea4\u5a92\u4f53\u81ea\u52a8\u5316 skill | \u81ea\u6211\u8fdb\u5316\u5de5\u4f5c\u6d41 jihe520/social-push social-media general"
+      "searchText": "social-push 🤖 ai social-media automation skill | self-evolution workflows | ai 社交媒体自动化 skill | 自我进化工作流 jihe520/social-push social-media general"
     },
     {
       "name": "free_ai_social_media_scheduler",
@@ -2475,7 +2475,7 @@
       "sourceAgent": "general",
       "repo": "Anil-matcha/Free-AI-Social-Media-Scheduler",
       "stars": 432,
-      "desc": "Free open-source AI social media scheduler \u2014 self-hostable alternative to Postiz.",
+      "desc": "Free open-source AI social media scheduler — self-hostable alternative to Postiz.",
       "url": "https://github.com/Anil-matcha/Free-AI-Social-Media-Scheduler",
       "install": "",
       "functionCategory": "social-media",
@@ -2485,7 +2485,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "free_ai_social_media_scheduler free open-source ai social media scheduler \u2014 self-hostable alternative to postiz. anil-matcha/free-ai-social-media-scheduler social-media general"
+      "searchText": "free_ai_social_media_scheduler free open-source ai social media scheduler — self-hostable alternative to postiz. anil-matcha/free-ai-social-media-scheduler social-media general"
     },
     {
       "name": "secretary",
@@ -2636,7 +2636,7 @@
       "sourceAgent": "general",
       "repo": "Free-AI-Social-Media-Scheduler",
       "stars": 432,
-      "desc": "Free open-source AI social media scheduler \u2014 self-hosted content automation across platforms",
+      "desc": "Free open-source AI social media scheduler — self-hosted content automation across platforms",
       "url": "https://github.com/Free-AI-Social-Media-Scheduler",
       "install": "",
       "functionCategory": "social-media",
@@ -2646,8 +2646,62 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "Free-AI-Social-Media-Scheduler Free open-source AI social media scheduler \u2014 self-hosted content automation acro Free-AI-Social-Media-Scheduler social-media",
+      "searchText": "Free-AI-Social-Media-Scheduler Free open-source AI social media scheduler — self-hosted content automation acro Free-AI-Social-Media-Scheduler social-media",
       "pricing": "free"
+    },
+    {
+      "name": "Canva-Resource",
+      "source": "social-media",
+      "sourceAgent": "social-media",
+      "repo": "Jpusrzinhoo091234/Canva-Resource",
+      "stars": 96,
+      "desc": "Resource is a professional suite for advanced graphic design and branding. It features AI-driven tools, premium asset libraries, and automated workflow management. Designed for creators, it ensures high-performance design execution for social media and corporate marketing in 2026.",
+      "url": "https://github.com/Jpusrzinhoo091234/Canva-Resource",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social-media",
+      "subCategoryId": "general",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Canva-Resource Resource is a professional suite for advanced graphic design and branding. It features AI-driven tools, premium asset libraries, and automated workflow management. Designed for creators, it ensures high-performance design execution for social media and corporate marketing in 2026. Jpusrzinhoo091234/Canva-Resource social-media"
+    },
+    {
+      "name": "ai-instagram-organizer",
+      "source": "social-media",
+      "sourceAgent": "social-media",
+      "repo": "summitsingh/ai-instagram-organizer",
+      "stars": 76,
+      "desc": "AI-powered tool to organize photos into Instagram-ready posts with smart captions and hashtags. Supports both Ollama (local) and Gemini (cloud) AI providers.",
+      "url": "https://github.com/summitsingh/ai-instagram-organizer",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social-media",
+      "subCategoryId": "general",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-instagram-organizer AI-powered tool to organize photos into Instagram-ready posts with smart captions and hashtags. Supports both Ollama (local) and Gemini (cloud) AI providers. summitsingh/ai-instagram-organizer social-media"
+    },
+    {
+      "name": "reddit_karma_farmer_auto_commentator_with_AI",
+      "source": "social-media",
+      "sourceAgent": "social-media",
+      "repo": "feder-cr/reddit_karma_farmer_auto_commentator_with_AI",
+      "stars": 66,
+      "desc": "Reddit_Commentator_AIHawk is a Python project showcasing the power of artificial intelligence in social media interaction. This tool demonstrates AI's capability to generate contextually relevant Reddit comments using GPT models and LangChain. It automates the process of analyzing trending posts and creating engaging responses.",
+      "url": "https://github.com/feder-cr/reddit_karma_farmer_auto_commentator_with_AI",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social-media",
+      "subCategoryId": "general",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "reddit_karma_farmer_auto_commentator_with_AI Reddit_Commentator_AIHawk is a Python project showcasing the power of artificial intelligence in social media interaction. This tool demonstrates AI's capability to generate contextually relevant Reddit comments using GPT models and LangChain. It automates the process of analyzing trending posts and creating engaging responses. feder-cr/reddit_karma_farmer_auto_commentator_with_AI social-media"
     }
   ]
 }

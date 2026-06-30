@@ -4,7 +4,7 @@
     "topCategoryId": "audio-speech",
     "subCategoryId": "audio-speech",
     "categoryPath": "audio-speech",
-    "count": 55,
+    "count": 70,
     "sourceData": "categories"
   },
   "skills": [
@@ -1015,6 +1015,276 @@
         "general"
       ],
       "searchText": "scenema-audio Zero-shot expressive voice cloning and speech generation. Ge ScenemaAI/scenema-audio audio-speech"
+    },
+    {
+      "name": "ai-powered-video-analyzer",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "arashsajjadi/ai-powered-video-analyzer",
+      "stars": 89,
+      "desc": "An offline AI-powered video analysis tool with object detection (YOLO), image captioning (BLIP), speech transcription (Whisper), audio event detection (PANNs), and AI-generated summaries (LLMs via Ollama). It ensures privacy and offline use with a user-friendly GUI.",
+      "url": "https://github.com/arashsajjadi/ai-powered-video-analyzer",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-powered-video-analyzer An offline AI-powered video analysis tool with object detection (YOLO), image captioning (BLIP), speech transcription (Whisper), audio event detection (PANNs), and AI-generated summaries (LLMs via Ollama). It ensures privacy and offline use with a user-friendly GUI. arashsajjadi/ai-powered-video-analyzer audio-speech"
+    },
+    {
+      "name": "gemini-2-tts",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "agituts/gemini-2-tts",
+      "stars": 56,
+      "desc": "AI-Powered Podcast Generator: A Python-based tool that converts text scripts into realistic audio podcasts using Google's Generative AI API. This project leverages advanced text-to-speech technology to create dynamic, multi-speaker conversations with customizable voices.",
+      "url": "https://github.com/agituts/gemini-2-tts",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gemini-2-tts AI-Powered Podcast Generator: A Python-based tool that converts text scripts into realistic audio podcasts using Google's Generative AI API. This project leverages advanced text-to-speech technology to create dynamic, multi-speaker conversations with customizable voices. agituts/gemini-2-tts audio-speech"
+    },
+    {
+      "name": "Image-to-Speech-GenAI-Tool-Using-LLM",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "GURPREETKAURJETHRA/Image-to-Speech-GenAI-Tool-Using-LLM",
+      "stars": 54,
+      "desc": "AI tool that generates an Audio short story based on the context of an uploaded image by prompting a GenAI LLM model, Hugging Face AI models together with OpenAI & LangChain",
+      "url": "https://github.com/GURPREETKAURJETHRA/Image-to-Speech-GenAI-Tool-Using-LLM",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Image-to-Speech-GenAI-Tool-Using-LLM AI tool that generates an Audio short story based on the context of an uploaded image by prompting a GenAI LLM model, Hugging Face AI models together with OpenAI & LangChain GURPREETKAURJETHRA/Image-to-Speech-GenAI-Tool-Using-LLM audio-speech"
+    },
+    {
+      "name": "MOSS-TTS-Nano",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "OpenMOSS/MOSS-TTS-Nano",
+      "stars": 3802,
+      "desc": "MOSS-TTS-Nano is an open-source multilingual tiny speech generation model from MOSI.AI and the OpenMOSS team. With only 0.1B parameters, it is designed for realtime speech generation, can run directly on CPU without a GPU, and keeps the deployment stack simple enough for local demos, web serving, and lightweight product integration.",
+      "url": "https://github.com/OpenMOSS/MOSS-TTS-Nano",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "MOSS-TTS-Nano MOSS-TTS-Nano is an open-source multilingual tiny speech generation model from MOSI.AI and the OpenMOSS team. With only 0.1B parameters, it is designed for realtime speech generation, can run directly on CPU without a GPU, and keeps the deployment stack simple enough for local demos, web serving, and lightweight product integration. OpenMOSS/MOSS-TTS-Nano audio-speech"
+    },
+    {
+      "name": "py-xiaozhi",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "huangjunsen0406/py-xiaozhi",
+      "stars": 3382,
+      "desc": "Open-source AI assistant ecosystem with MCP integrations, multimodal workflows, IoT support, and cross-platform voice interaction.",
+      "url": "https://github.com/huangjunsen0406/py-xiaozhi",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "py-xiaozhi Open-source AI assistant ecosystem with MCP integrations, multimodal workflows, IoT support, and cross-platform voice interaction. huangjunsen0406/py-xiaozhi audio-speech"
+    },
+    {
+      "name": "VisionClaw",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "Intent-Lab/VisionClaw",
+      "stars": 2426,
+      "desc": "Real-time AI assistant for Meta Ray-Ban smart glasses -- voice + vision + agentic actions via Gemini Live and OpenClaw",
+      "url": "https://github.com/Intent-Lab/VisionClaw",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "VisionClaw Real-time AI assistant for Meta Ray-Ban smart glasses -- voice + vision + agentic actions via Gemini Live and OpenClaw Intent-Lab/VisionClaw audio-speech"
+    },
+    {
+      "name": "UnrealGenAISupport",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "prajwalshettydev/UnrealGenAISupport",
+      "stars": 616,
+      "desc": "Unreal Engine plugin for LLM/GenAI models & MCP UE5 server. OpenAI GPT-5, Deepseek R1, Claude Opus/Sonnet, Gemini 3, Grok 4, Alibaba Qwen, Kimi, ElevenLabs TTS, Inworld, OpenRouter, Groq, GLM, Ollama, Local, Meshy, Tripo, Hunyuan3D, Rodin, fal, Dashscope, Seedream. NPC AI, agentic, chat, 3D gen, TTS, multimodal, image gen. UnrealMCP/UnrealClaude",
+      "url": "https://github.com/prajwalshettydev/UnrealGenAISupport",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "UnrealGenAISupport Unreal Engine plugin for LLM/GenAI models & MCP UE5 server. OpenAI GPT-5, Deepseek R1, Claude Opus/Sonnet, Gemini 3, Grok 4, Alibaba Qwen, Kimi, ElevenLabs TTS, Inworld, OpenRouter, Groq, GLM, Ollama, Local, Meshy, Tripo, Hunyuan3D, Rodin, fal, Dashscope, Seedream. NPC AI, agentic, chat, 3D gen, TTS, multimodal, image gen. UnrealMCP/UnrealClaude prajwalshettydev/UnrealGenAISupport audio-speech"
+    },
+    {
+      "name": "fast-voice-assistant",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "dsa/fast-voice-assistant",
+      "stars": 591,
+      "desc": "⚡ Insanely fast AI voice assistant with <500ms response times",
+      "url": "https://github.com/dsa/fast-voice-assistant",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "fast-voice-assistant ⚡ Insanely fast AI voice assistant with <500ms response times dsa/fast-voice-assistant audio-speech"
+    },
+    {
+      "name": "jarvis-ai-assistant",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "akshayaggarwal99/jarvis-ai-assistant",
+      "stars": 571,
+      "desc": "Jarvis AI Assistant - Voice-powered AI assistant for Mac",
+      "url": "https://github.com/akshayaggarwal99/jarvis-ai-assistant",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "jarvis-ai-assistant Jarvis AI Assistant - Voice-powered AI assistant for Mac akshayaggarwal99/jarvis-ai-assistant audio-speech"
+    },
+    {
+      "name": "openclaw-assistant-mvp",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "andyhuo520/openclaw-assistant-mvp",
+      "stars": 412,
+      "desc": "OpenClaw Desktop Assistant MVP - Electron-based AI voice assistant with Live2D character animations, real-time speech recognition, and text-to-speech",
+      "url": "https://github.com/andyhuo520/openclaw-assistant-mvp",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openclaw-assistant-mvp OpenClaw Desktop Assistant MVP - Electron-based AI voice assistant with Live2D character animations, real-time speech recognition, and text-to-speech andyhuo520/openclaw-assistant-mvp audio-speech"
+    },
+    {
+      "name": "Alice",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "pmbstyle/Alice",
+      "stars": 284,
+      "desc": "Alice is a voice-first desktop AI assistant application built with Vue.js, Vite, and Electron. Advanced memory system, function calling, MCP support, optional fully local use, and more.",
+      "url": "https://github.com/pmbstyle/Alice",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Alice Alice is a voice-first desktop AI assistant application built with Vue.js, Vite, and Electron. Advanced memory system, function calling, MCP support, optional fully local use, and more. pmbstyle/Alice audio-speech"
+    },
+    {
+      "name": "sapphire",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "ddxfish/sapphire",
+      "stars": 267,
+      "desc": "She's the AI agent you come home to.",
+      "url": "https://github.com/ddxfish/sapphire",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "sapphire She's the AI agent you come home to. ddxfish/sapphire audio-speech"
+    },
+    {
+      "name": "jarvis-ai-assistant",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "AnubhavChaturvedi-GitHub/jarvis-ai-assistant",
+      "stars": 253,
+      "desc": "Voice-activated AI assistant with speech recognition and NLP. Automate tasks effortlessly with this Jarvis-like personal assistant.",
+      "url": "https://github.com/AnubhavChaturvedi-GitHub/jarvis-ai-assistant",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "jarvis-ai-assistant Voice-activated AI assistant with speech recognition and NLP. Automate tasks effortlessly with this Jarvis-like personal assistant. AnubhavChaturvedi-GitHub/jarvis-ai-assistant audio-speech"
+    },
+    {
+      "name": "RC-Home-Assistant-Low-VRAM",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "RoyalCities/RC-Home-Assistant-Low-VRAM",
+      "stars": 241,
+      "desc": "Local AI voice assistant stack for Home Assistant (GPU-accelerated) with persistent memory, follow-up conversation, and Ollama model recommendations - settings designed for low VRAM systems.",
+      "url": "https://github.com/RoyalCities/RC-Home-Assistant-Low-VRAM",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "RC-Home-Assistant-Low-VRAM Local AI voice assistant stack for Home Assistant (GPU-accelerated) with persistent memory, follow-up conversation, and Ollama model recommendations - settings designed for low VRAM systems. RoyalCities/RC-Home-Assistant-Low-VRAM audio-speech"
+    },
+    {
+      "name": "Chanakya-Local-Friend",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "Rishabh-Bajpai/Chanakya-Local-Friend",
+      "stars": 214,
+      "desc": "Chanakya is an advanced, open-source, and self-hostable voice assistant designed for privacy, power, and flexibility. It leverages local AI/ML models to ensure your data stays with you. It Integrates with 1000+ third-party MCP servers including Home Assistant. ",
+      "url": "https://github.com/Rishabh-Bajpai/Chanakya-Local-Friend",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Chanakya-Local-Friend Chanakya is an advanced, open-source, and self-hostable voice assistant designed for privacy, power, and flexibility. It leverages local AI/ML models to ensure your data stays with you. It Integrates with 1000+ third-party MCP servers including Home Assistant.  Rishabh-Bajpai/Chanakya-Local-Friend audio-speech"
     }
   ]
 }

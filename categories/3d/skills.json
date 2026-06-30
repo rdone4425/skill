@@ -4,7 +4,7 @@
     "topCategoryId": "3d",
     "subCategoryId": "3d",
     "categoryPath": "3d",
-    "count": 81,
+    "count": 82,
     "sourceData": "categories"
   },
   "skills": [
@@ -1468,6 +1468,24 @@
         "general"
       ],
       "searchText": "falcraft 3D structure generation in Minecraft, powered by fal.ai blendi-remade/falcraft 3d"
+    },
+    {
+      "name": "Awesome-3D-Generation",
+      "source": "3d",
+      "sourceAgent": "3d",
+      "repo": "BunnySoCrazy/Awesome-3D-Generation",
+      "stars": 77,
+      "desc": "A curated list of awesome 3D generation resources, papers, and tools for AI-powered 3D content creation.",
+      "url": "https://github.com/BunnySoCrazy/Awesome-3D-Generation",
+      "install": "",
+      "functionCategory": "3d",
+      "topCategoryId": "3d",
+      "subCategoryId": "general",
+      "categoryPath": "3d",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Awesome-3D-Generation A curated list of awesome 3D generation resources, papers, and tools for AI-powered 3D content creation. BunnySoCrazy/Awesome-3D-Generation 3d"
     }
   ]
 }

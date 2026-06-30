@@ -1,0 +1,613 @@
+{
+  "generatedAt": "2026-06-30T22:28:46.411311",
+  "totalRecords": 5731,
+  "indexJsonTotal": 5731,
+  "categories": 22,
+  "qualityScore": 0,
+  "grade": "D 严重",
+  "fieldMatrix": [
+    {
+      "field": "name",
+      "missing": 0,
+      "missingRate": 0.0,
+      "emptyStr": 0,
+      "emptyRate": 0.0,
+      "malformed": 0,
+      "highRisk": false
+    },
+    {
+      "field": "repo",
+      "missing": 0,
+      "missingRate": 0.0,
+      "emptyStr": 0,
+      "emptyRate": 0.0,
+      "malformed": 0,
+      "highRisk": false
+    },
+    {
+      "field": "stars",
+      "missing": 0,
+      "missingRate": 0.0,
+      "emptyStr": 0,
+      "emptyRate": 0.0,
+      "malformed": 0,
+      "highRisk": false
+    },
+    {
+      "field": "desc",
+      "missing": 0,
+      "missingRate": 0.0,
+      "emptyStr": 0,
+      "emptyRate": 0.0,
+      "malformed": 0,
+      "highRisk": false
+    },
+    {
+      "field": "url",
+      "missing": 0,
+      "missingRate": 0.0,
+      "emptyStr": 0,
+      "emptyRate": 0.0,
+      "malformed": 103,
+      "highRisk": false
+    },
+    {
+      "field": "install",
+      "missing": 35,
+      "missingRate": 0.61,
+      "emptyStr": 8112,
+      "emptyRate": 141.55,
+      "malformed": 0,
+      "highRisk": false
+    },
+    {
+      "field": "functionCategory",
+      "missing": 0,
+      "missingRate": 0.0,
+      "emptyStr": 0,
+      "emptyRate": 0.0,
+      "malformed": 0,
+      "highRisk": false
+    },
+    {
+      "field": "topCategoryId",
+      "missing": 0,
+      "missingRate": 0.0,
+      "emptyStr": 0,
+      "emptyRate": 0.0,
+      "malformed": 0,
+      "highRisk": false
+    },
+    {
+      "field": "subCategoryId",
+      "missing": 0,
+      "missingRate": 0.0,
+      "emptyStr": 0,
+      "emptyRate": 0.0,
+      "malformed": 0,
+      "highRisk": false
+    },
+    {
+      "field": "categoryPath",
+      "missing": 0,
+      "missingRate": 0.0,
+      "emptyStr": 0,
+      "emptyRate": 0.0,
+      "malformed": 0,
+      "highRisk": false
+    },
+    {
+      "field": "source",
+      "missing": 19,
+      "missingRate": 0.33,
+      "emptyStr": 0,
+      "emptyRate": 0.0,
+      "malformed": 0,
+      "highRisk": false
+    },
+    {
+      "field": "sourceAgent",
+      "missing": 19,
+      "missingRate": 0.33,
+      "emptyStr": 0,
+      "emptyRate": 0.0,
+      "malformed": 0,
+      "highRisk": false
+    },
+    {
+      "field": "supportedAgents",
+      "missing": 35,
+      "missingRate": 0.61,
+      "emptyStr": 0,
+      "emptyRate": 0.0,
+      "malformed": 0,
+      "highRisk": false
+    },
+    {
+      "field": "searchText",
+      "missing": 16,
+      "missingRate": 0.28,
+      "emptyStr": 0,
+      "emptyRate": 0.0,
+      "malformed": 0,
+      "highRisk": false
+    }
+  ],
+  "starsZero": 18,
+  "categoryStats": {
+    "3d": {
+      "total": 82,
+      "missingUrl": 0,
+      "missingDesc": 0,
+      "missingStars": 0,
+      "missingRepo": 0
+    },
+    "agent-framework": {
+      "total": 787,
+      "missingUrl": 0,
+      "missingDesc": 0,
+      "missingStars": 0,
+      "missingRepo": 0
+    },
+    "audio": {
+      "total": 73,
+      "missingUrl": 0,
+      "missingDesc": 0,
+      "missingStars": 0,
+      "missingRepo": 0
+    },
+    "audio-speech": {
+      "total": 70,
+      "missingUrl": 0,
+      "missingDesc": 0,
+      "missingStars": 0,
+      "missingRepo": 0
+    },
+    "automation-productivity": {
+      "total": 231,
+      "missingUrl": 0,
+      "missingDesc": 0,
+      "missingStars": 0,
+      "missingRepo": 0
+    },
+    "backend-api": {
+      "total": 174,
+      "missingUrl": 0,
+      "missingDesc": 0,
+      "missingStars": 0,
+      "missingRepo": 0
+    },
+    "data-ai": {
+      "total": 601,
+      "missingUrl": 0,
+      "missingDesc": 0,
+      "missingStars": 0,
+      "missingRepo": 0
+    },
+    "design-ui": {
+      "total": 423,
+      "missingUrl": 0,
+      "missingDesc": 0,
+      "missingStars": 0,
+      "missingRepo": 0
+    },
+    "dev-tools": {
+      "total": 1166,
+      "missingUrl": 0,
+      "missingDesc": 0,
+      "missingStars": 0,
+      "missingRepo": 0
+    },
+    "devops-deploy": {
+      "total": 134,
+      "missingUrl": 0,
+      "missingDesc": 0,
+      "missingStars": 0,
+      "missingRepo": 0
+    },
+    "docs-content": {
+      "total": 199,
+      "missingUrl": 0,
+      "missingDesc": 0,
+      "missingStars": 0,
+      "missingRepo": 0
+    },
+    "ecommerce": {
+      "total": 78,
+      "missingUrl": 0,
+      "missingDesc": 0,
+      "missingStars": 0,
+      "missingRepo": 0
+    },
+    "education": {
+      "total": 107,
+      "missingUrl": 0,
+      "missingDesc": 0,
+      "missingStars": 0,
+      "missingRepo": 0
+    },
+    "finance-crypto": {
+      "total": 140,
+      "missingUrl": 0,
+      "missingDesc": 0,
+      "missingStars": 0,
+      "missingRepo": 0
+    },
+    "game-dev": {
+      "total": 103,
+      "missingUrl": 0,
+      "missingDesc": 0,
+      "missingStars": 0,
+      "missingRepo": 0
+    },
+    "general": {
+      "total": 628,
+      "missingUrl": 0,
+      "missingDesc": 0,
+      "missingStars": 0,
+      "missingRepo": 0
+    },
+    "health-medical": {
+      "total": 91,
+      "missingUrl": 0,
+      "missingDesc": 0,
+      "missingStars": 0,
+      "missingRepo": 0
+    },
+    "security": {
+      "total": 237,
+      "missingUrl": 0,
+      "missingDesc": 0,
+      "missingStars": 0,
+      "missingRepo": 0
+    },
+    "social-media": {
+      "total": 145,
+      "missingUrl": 0,
+      "missingDesc": 0,
+      "missingStars": 0,
+      "missingRepo": 0
+    },
+    "testing-qa": {
+      "total": 112,
+      "missingUrl": 0,
+      "missingDesc": 0,
+      "missingStars": 0,
+      "missingRepo": 0
+    },
+    "video-gen": {
+      "total": 54,
+      "missingUrl": 0,
+      "missingDesc": 0,
+      "missingStars": 0,
+      "missingRepo": 0
+    },
+    "video-multimedia": {
+      "total": 96,
+      "missingUrl": 0,
+      "missingDesc": 0,
+      "missingStars": 0,
+      "missingRepo": 0
+    }
+  },
+  "worstRecords": [
+    {
+      "name": "Hermes Web UI",
+      "repo": "ekkolearnai/hermes-web-ui",
+      "category": "design-ui",
+      "missingCount": 2,
+      "missingFields": [
+        "stars",
+        "source"
+      ]
+    },
+    {
+      "name": "Blueprint",
+      "repo": "juliusbrussee/blueprint",
+      "category": "design-ui",
+      "missingCount": 2,
+      "missingFields": [
+        "stars",
+        "source"
+      ]
+    },
+    {
+      "name": "AI Agent Skills",
+      "repo": "jpoindexter/ai-agent-skills",
+      "category": "agent-framework",
+      "missingCount": 1,
+      "missingFields": [
+        "stars"
+      ]
+    },
+    {
+      "name": "codex-profile",
+      "repo": "mofan212/codex-profile",
+      "category": "agent-framework",
+      "missingCount": 1,
+      "missingFields": [
+        "stars"
+      ]
+    },
+    {
+      "name": "Design & AI Engineering Skills",
+      "repo": "jpoindexter/design-and-ai-skills",
+      "category": "agent-framework",
+      "missingCount": 1,
+      "missingFields": [
+        "stars"
+      ]
+    },
+    {
+      "name": "Paperclip Adapter",
+      "repo": "nousresearch/hermes-paperclip-adapter",
+      "category": "agent-framework",
+      "missingCount": 1,
+      "missingFields": [
+        "source"
+      ]
+    },
+    {
+      "name": "Hermes LCM",
+      "repo": "stephenschoettler/hermes-lcm",
+      "category": "agent-framework",
+      "missingCount": 1,
+      "missingFields": [
+        "source"
+      ]
+    },
+    {
+      "name": "FableCodex",
+      "repo": "baskduf/fablecodex",
+      "category": "agent-framework",
+      "missingCount": 1,
+      "missingFields": [
+        "source"
+      ]
+    },
+    {
+      "name": "AutoContext",
+      "repo": "greyhaven-ai/autocontext",
+      "category": "agent-framework",
+      "missingCount": 1,
+      "missingFields": [
+        "source"
+      ]
+    },
+    {
+      "name": "Maestro Orchestrate",
+      "repo": "josstei/maestro-orchestrate",
+      "category": "agent-framework",
+      "missingCount": 1,
+      "missingFields": [
+        "source"
+      ]
+    },
+    {
+      "name": "claude-ai-free-desktop-app",
+      "repo": "Sorathiya123/claude-ai-free-desktop-app",
+      "category": "agent-framework",
+      "missingCount": 1,
+      "missingFields": [
+        "stars"
+      ]
+    },
+    {
+      "name": "openhealth",
+      "repo": "yazanabuashour/openhealth",
+      "category": "automation-productivity",
+      "missingCount": 1,
+      "missingFields": [
+        "stars"
+      ]
+    },
+    {
+      "name": "Mnemosyne",
+      "repo": "axdsan/mnemosyne",
+      "category": "data-ai",
+      "missingCount": 1,
+      "missingFields": [
+        "source"
+      ]
+    },
+    {
+      "name": "AnyDesign",
+      "repo": "uxkero/anydesign",
+      "category": "design-ui",
+      "missingCount": 1,
+      "missingFields": [
+        "source"
+      ]
+    },
+    {
+      "name": "openclaw-plugin",
+      "repo": "secr-dev/openclaw-plugin",
+      "category": "dev-tools",
+      "missingCount": 1,
+      "missingFields": [
+        "stars"
+      ]
+    },
+    {
+      "name": "php-opcua-ai-skills",
+      "repo": "php-opcua/ai-skills",
+      "category": "dev-tools",
+      "missingCount": 1,
+      "missingFields": [
+        "stars"
+      ]
+    },
+    {
+      "name": "powershell-windows-skill",
+      "repo": "jsrgjcy/powershell-windows-skill",
+      "category": "dev-tools",
+      "missingCount": 1,
+      "missingFields": [
+        "stars"
+      ]
+    },
+    {
+      "name": "skills",
+      "repo": "openclaw/skills",
+      "category": "dev-tools",
+      "missingCount": 1,
+      "missingFields": [
+        "stars"
+      ]
+    },
+    {
+      "name": "wzrdxOS",
+      "repo": "WizardingCode-io/wzrdxos",
+      "category": "dev-tools",
+      "missingCount": 1,
+      "missingFields": [
+        "stars"
+      ]
+    },
+    {
+      "name": "kicad-happy",
+      "repo": "aklofas/kicad-happy",
+      "category": "dev-tools",
+      "missingCount": 1,
+      "missingFields": [
+        "source"
+      ]
+    },
+    {
+      "name": "Firecrawl CLI",
+      "repo": "firecrawl/cli",
+      "category": "dev-tools",
+      "missingCount": 1,
+      "missingFields": [
+        "source"
+      ]
+    },
+    {
+      "name": "Understand Anything",
+      "repo": "lum1104/understand-anything",
+      "category": "dev-tools",
+      "missingCount": 1,
+      "missingFields": [
+        "source"
+      ]
+    },
+    {
+      "name": "Agent Browser",
+      "repo": "vercel-labs/agent-browser",
+      "category": "dev-tools",
+      "missingCount": 1,
+      "missingFields": [
+        "source"
+      ]
+    },
+    {
+      "name": "Sanity Agent Toolkit",
+      "repo": "sanity-io/agent-toolkit",
+      "category": "dev-tools",
+      "missingCount": 1,
+      "missingFields": [
+        "source"
+      ]
+    },
+    {
+      "name": "Hermes Alpha",
+      "repo": "kaminocorp/hermes-alpha",
+      "category": "devops-deploy",
+      "missingCount": 1,
+      "missingFields": [
+        "source"
+      ]
+    },
+    {
+      "name": "Claude SEO",
+      "repo": "agricidaniel/claude-seo",
+      "category": "docs-content",
+      "missingCount": 1,
+      "missingFields": [
+        "source"
+      ]
+    },
+    {
+      "name": "Notion Cookbook",
+      "repo": "makenotion/notion-cookbook",
+      "category": "docs-content",
+      "missingCount": 1,
+      "missingFields": [
+        "source"
+      ]
+    },
+    {
+      "name": "aiweizhou-skill",
+      "repo": "terrytian-tech/aiweizhou-skill",
+      "category": "general",
+      "missingCount": 1,
+      "missingFields": [
+        "stars"
+      ]
+    },
+    {
+      "name": "justin-bieber-skill",
+      "repo": "fisher-yu-like/justin-bieber-skill",
+      "category": "general",
+      "missingCount": 1,
+      "missingFields": [
+        "stars"
+      ]
+    },
+    {
+      "name": "agent-diff-guard",
+      "repo": "cubxxw/agent-diff-guard",
+      "category": "security",
+      "missingCount": 1,
+      "missingFields": [
+        "stars"
+      ]
+    },
+    {
+      "name": "agent-sentinel",
+      "repo": "junlinwk/agent-sentinel",
+      "category": "security",
+      "missingCount": 1,
+      "missingFields": [
+        "stars"
+      ]
+    },
+    {
+      "name": "bounty-sieve",
+      "repo": "junbuilds96/bounty-sieve",
+      "category": "security",
+      "missingCount": 1,
+      "missingFields": [
+        "stars"
+      ]
+    },
+    {
+      "name": "skillid",
+      "repo": "dkoly/skillid",
+      "category": "security",
+      "missingCount": 1,
+      "missingFields": [
+        "stars"
+      ]
+    },
+    {
+      "name": "SlowMist Agent Security",
+      "repo": "slowmist/slowmist-agent-security",
+      "category": "security",
+      "missingCount": 1,
+      "missingFields": [
+        "source"
+      ]
+    },
+    {
+      "name": "Postiz Agent",
+      "repo": "gitroomhq/postiz-agent",
+      "category": "social-media",
+      "missingCount": 1,
+      "missingFields": [
+        "source"
+      ]
+    }
+  ],
+  "highRiskFields": []
+}

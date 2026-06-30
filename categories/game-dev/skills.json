@@ -4,7 +4,7 @@
     "topCategoryId": "game-dev",
     "subCategoryId": "game-dev",
     "categoryPath": "game-dev",
-    "count": 101,
+    "count": 103,
     "sourceData": "categories"
   },
   "skills": [
@@ -1841,6 +1841,42 @@
         "general"
       ],
       "searchText": "ultragamestudio AI coding agent for game development with engine workflows and 3D support wellingfeng/UltraGameStudio game-dev general"
+    },
+    {
+      "name": "LiveDevAgents",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "SleeeepyZhou/LiveDevAgents",
+      "stars": 89,
+      "desc": "Multi-Agent danmaku game engine. 2024.12 CAMEL-AI Hackathon 一等奖项目.",
+      "url": "https://github.com/SleeeepyZhou/LiveDevAgents",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "LiveDevAgents Multi-Agent danmaku game engine. 2024.12 CAMEL-AI Hackathon 一等奖项目. SleeeepyZhou/LiveDevAgents game-dev"
+    },
+    {
+      "name": "everything-game-dev-code",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "MRCalderon3D/everything-game-dev-code",
+      "stars": 57,
+      "desc": "A universal scaffold for AI-assisted game development. 42 agents, 51 commands, 86 skills. Multi-engine (Unity, Unreal, Godot, HTML). Multi-harness (Claude Code, Codex, Cursor, OpenCode, Kiro).",
+      "url": "https://github.com/MRCalderon3D/everything-game-dev-code",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "everything-game-dev-code A universal scaffold for AI-assisted game development. 42 agents, 51 commands, 86 skills. Multi-engine (Unity, Unreal, Godot, HTML). Multi-harness (Claude Code, Codex, Cursor, OpenCode, Kiro). MRCalderon3D/everything-game-dev-code game-dev"
     }
   ]
 }

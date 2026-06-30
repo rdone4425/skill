@@ -4,7 +4,7 @@
     "topCategoryId": "backend",
     "subCategoryId": "api",
     "categoryPath": "backend-api",
-    "count": 173,
+    "count": 174,
     "sourceData": "categories"
   },
   "skills": [
@@ -3326,6 +3326,24 @@
         "general"
       ],
       "searchText": "plexus Unified API gateway for multiple AI providers (OpenAI, Anthr mcowger/plexus backend-api"
+    },
+    {
+      "name": "RustAPI",
+      "source": "backend-api",
+      "sourceAgent": "backend-api",
+      "repo": "Tuntii/RustAPI",
+      "stars": 55,
+      "desc": "A high-performance, ergonomic web framework for Rust with native AI/LLM support.",
+      "url": "https://github.com/Tuntii/RustAPI",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "RustAPI A high-performance, ergonomic web framework for Rust with native AI/LLM support. Tuntii/RustAPI backend-api"
     }
   ]
 }

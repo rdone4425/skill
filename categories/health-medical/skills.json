@@ -4,7 +4,7 @@
     "topCategoryId": "health-medical",
     "subCategoryId": "health-medical",
     "categoryPath": "health-medical",
-    "count": 87,
+    "count": 91,
     "sourceData": "categories"
   },
   "skills": [
@@ -1576,6 +1576,78 @@
         "general"
       ],
       "searchText": "wellally-health Ally-Health is an intelligent healthcare assistant that comb huifer/WellAlly-health health-medical"
+    },
+    {
+      "name": "doctor-dok",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "Doctor-One/doctor-dok",
+      "stars": 111,
+      "desc": "Doctor Dok is an AI based medical data framework and patient's med vault. Parse any health related PDF/Image to JSON and then use Chat GPT / LLama to discuss it! WARNING: Don't decide on your health based on AI Chat - it's just for Research purposes.",
+      "url": "https://github.com/Doctor-One/doctor-dok",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "doctor-dok Doctor Dok is an AI based medical data framework and patient's med vault. Parse any health related PDF/Image to JSON and then use Chat GPT / LLama to discuss it! WARNING: Don't decide on your health based on AI Chat - it's just for Research purposes. Doctor-One/doctor-dok health-medical"
+    },
+    {
+      "name": "m3",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "rafiattrach/m3",
+      "stars": 72,
+      "desc": "🏥🤖 Query MIMIC-IV medical data using natural language through Model Context Protocol (MCP). Transform healthcare research with AI-powered database interactions - supports both local MIMIC-IV SQLite demo dataset and full BigQuery datasets.",
+      "url": "https://github.com/rafiattrach/m3",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "m3 🏥🤖 Query MIMIC-IV medical data using natural language through Model Context Protocol (MCP). Transform healthcare research with AI-powered database interactions - supports both local MIMIC-IV SQLite demo dataset and full BigQuery datasets. rafiattrach/m3 health-medical"
+    },
+    {
+      "name": "HealthWallet.me",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "LifeValue/HealthWallet.me",
+      "stars": 65,
+      "desc": "Open-source, patient-controlled health record app with on-device AI. Aggregates medical data from 52K+ providers via FHIR R4. Offline-first. Flutter.",
+      "url": "https://github.com/LifeValue/HealthWallet.me",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "HealthWallet.me Open-source, patient-controlled health record app with on-device AI. Aggregates medical data from 52K+ providers via FHIR R4. Offline-first. Flutter. LifeValue/HealthWallet.me health-medical"
+    },
+    {
+      "name": "MedicalModelLibrary",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "ExpertOpsAI/MedicalModelLibrary",
+      "stars": 58,
+      "desc": "A collection of AI models tailored for healthcare applications.",
+      "url": "https://github.com/ExpertOpsAI/MedicalModelLibrary",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "MedicalModelLibrary A collection of AI models tailored for healthcare applications. ExpertOpsAI/MedicalModelLibrary health-medical"
     }
   ]
 }

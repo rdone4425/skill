@@ -4,7 +4,7 @@
     "topCategoryId": "ecommerce",
     "subCategoryId": "ecommerce",
     "categoryPath": "ecommerce",
-    "count": 77,
+    "count": 78,
     "sourceData": "categories"
   },
   "skills": [
@@ -1393,6 +1393,24 @@
         "general"
       ],
       "searchText": "ai-ethos 501(c)(3) nonprofit advancing ethical AI education worldwide aaryansamanta/ai-ethos ecommerce"
+    },
+    {
+      "name": "EC-Designer",
+      "source": "ecommerce",
+      "sourceAgent": "ecommerce",
+      "repo": "mkhsu2002/EC-Designer",
+      "stars": 54,
+      "desc": "AI 電商商品圖文生成工具，從產品圖自動生成完整行銷素材包，同時生成三條行銷策略路線，一批次產出產品海報、商品主圖及介紹長條圖 。AI-powered product marketing design tool that automatically generates complete social media marketing asset packages (8 images) from product photos, including ad visuals and sales story graphics.",
+      "url": "https://github.com/mkhsu2002/EC-Designer",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "EC-Designer AI 電商商品圖文生成工具，從產品圖自動生成完整行銷素材包，同時生成三條行銷策略路線，一批次產出產品海報、商品主圖及介紹長條圖 。AI-powered product marketing design tool that automatically generates complete social media marketing asset packages (8 images) from product photos, including ad visuals and sales story graphics. mkhsu2002/EC-Designer ecommerce"
     }
   ]
 }

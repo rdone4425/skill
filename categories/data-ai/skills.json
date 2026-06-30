@@ -4,7 +4,7 @@
     "topCategoryId": "data",
     "subCategoryId": "ai",
     "categoryPath": "data-ai",
-    "count": 546,
+    "count": 601,
     "sourceData": "categories"
   },
   "skills": [
@@ -14,7 +14,7 @@
       "sourceAgent": "openclaw",
       "repo": "openclaw/openclaw",
       "stars": 380894,
-      "desc": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
+      "desc": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
       "url": "https://github.com/openclaw/openclaw",
       "install": "docker pull openclaw/openclaw",
       "functionCategory": "data-ai",
@@ -24,7 +24,7 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "openclaw your own personal ai assistant. any os. any platform. the lobster way. \ud83e\udd9e openclaw/openclaw docker pull openclaw/openclaw data-ai openclaw",
+      "searchText": "openclaw your own personal ai assistant. any os. any platform. the lobster way. 🦞 openclaw/openclaw docker pull openclaw/openclaw data-ai openclaw",
       "pricing": "free"
     },
     {
@@ -106,7 +106,7 @@
       "sourceAgent": "general",
       "repo": "f/prompts.chat",
       "stars": 164509,
-      "desc": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source \u2014 self-host for your organization with c",
+      "desc": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with c",
       "url": "https://github.com/f/prompts.chat",
       "install": "git clone https://github.com/f/prompts.chat.git",
       "functionCategory": "data-ai",
@@ -116,7 +116,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "prompts.chat--llm f.k.a. awesome chatgpt prompts. share, discover, and collect prompts from the community. free and open source \u2014 self-host for your organization with c f/prompts.chat git clone https://github.com/f/prompts.chat.git data-ai general"
+      "searchText": "prompts.chat--llm f.k.a. awesome chatgpt prompts. share, discover, and collect prompts from the community. free and open source — self-host for your organization with c f/prompts.chat git clone https://github.com/f/prompts.chat.git data-ai general"
     },
     {
       "name": "transformers--llm",
@@ -124,7 +124,7 @@
       "sourceAgent": "general",
       "repo": "huggingface/transformers",
       "stars": 162008,
-      "desc": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both in",
+      "desc": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both in",
       "url": "https://github.com/huggingface/transformers",
       "install": "pip install transformers",
       "functionCategory": "data-ai",
@@ -134,7 +134,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "transformers--llm \ud83e\udd17 transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both in huggingface/transformers pip install transformers data-ai general"
+      "searchText": "transformers--llm 🤗 transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both in huggingface/transformers pip install transformers data-ai general"
     },
     {
       "name": "JavaGuide--mcp",
@@ -142,7 +142,7 @@
       "sourceAgent": "general",
       "repo": "Snailclimb/JavaGuide",
       "stars": 156678,
-      "desc": "Java \u9762\u8bd5 & \u540e\u7aef\u901a\u7528\u9762\u8bd5\u6307\u5357\uff0c\u8986\u76d6\u8ba1\u7b97\u673a\u57fa\u7840\u3001\u6570\u636e\u5e93\u3001\u5206\u5e03\u5f0f\u3001\u9ad8\u5e76\u53d1\u3001\u7cfb\u7edf\u8bbe\u8ba1\u4e0e AI \u5e94\u7528\u5f00\u53d1",
+      "desc": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
       "url": "https://github.com/Snailclimb/JavaGuide",
       "install": "npm i JavaGuide",
       "functionCategory": "data-ai",
@@ -152,7 +152,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "javaguide--mcp java \u9762\u8bd5 & \u540e\u7aef\u901a\u7528\u9762\u8bd5\u6307\u5357\uff0c\u8986\u76d6\u8ba1\u7b97\u673a\u57fa\u7840\u3001\u6570\u636e\u5e93\u3001\u5206\u5e03\u5f0f\u3001\u9ad8\u5e76\u53d1\u3001\u7cfb\u7edf\u8bbe\u8ba1\u4e0e ai \u5e94\u7528\u5f00\u53d1 snailclimb/javaguide npm i javaguide data-ai general"
+      "searchText": "javaguide--mcp java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 ai 应用开发 snailclimb/javaguide npm i javaguide data-ai general"
     },
     {
       "name": "dify",
@@ -196,7 +196,7 @@
       "sourceAgent": "general",
       "repo": "firecrawl/firecrawl",
       "stars": 141076,
-      "desc": "The API to search, scrape, and interact with the web at scale. \ud83d\udd25",
+      "desc": "The API to search, scrape, and interact with the web at scale. 🔥",
       "url": "https://github.com/firecrawl/firecrawl",
       "install": "npm i firecrawl",
       "functionCategory": "data-ai",
@@ -206,7 +206,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "firecrawl--llm the api to search, scrape, and interact with the web at scale. \ud83d\udd25 firecrawl/firecrawl npm i firecrawl data-ai general"
+      "searchText": "firecrawl--llm the api to search, scrape, and interact with the web at scale. 🔥 firecrawl/firecrawl npm i firecrawl data-ai general"
     },
     {
       "name": "langchain",
@@ -232,7 +232,7 @@
       "sourceAgent": "general",
       "repo": "Shubhamsaboo/awesome-llm-apps",
       "stars": 116008,
-      "desc": "100+ AI Agent & RAG apps you can actually run \u2014 clone, customize, ship.",
+      "desc": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "install": "pip install awesome-llm-apps",
       "functionCategory": "data-ai",
@@ -242,7 +242,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "awesome-llm-apps--rag 100+ ai agent & rag apps you can actually run \u2014 clone, customize, ship. shubhamsaboo/awesome-llm-apps pip install awesome-llm-apps data-ai general"
+      "searchText": "awesome-llm-apps--rag 100+ ai agent & rag apps you can actually run — clone, customize, ship. shubhamsaboo/awesome-llm-apps pip install awesome-llm-apps data-ai general"
     },
     {
       "name": "browser-use--llm",
@@ -250,7 +250,7 @@
       "sourceAgent": "general",
       "repo": "browser-use/browser-use",
       "stars": 101296,
-      "desc": "\ud83c\udf10 Make websites accessible for AI agents. Automate tasks online with ease.",
+      "desc": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
       "url": "https://github.com/browser-use/browser-use",
       "install": "pip install browser-use",
       "functionCategory": "data-ai",
@@ -260,7 +260,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "browser-use--llm \ud83c\udf10 make websites accessible for ai agents. automate tasks online with ease. browser-use/browser-use pip install browser-use data-ai general"
+      "searchText": "browser-use--llm 🌐 make websites accessible for ai agents. automate tasks online with ease. browser-use/browser-use pip install browser-use data-ai general"
     },
     {
       "name": "pytorch--machine-learning",
@@ -304,7 +304,7 @@
       "sourceAgent": "general",
       "repo": "harry0703/MoneyPrinterTurbo",
       "stars": 94055,
-      "desc": "\u5229\u7528AI\u5927\u6a21\u578b\uff0c\u4e00\u952e\u751f\u6210\u9ad8\u6e05\u77ed\u89c6\u9891 Generate short videos with one click using AI LLM.",
+      "desc": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
       "url": "https://github.com/harry0703/MoneyPrinterTurbo",
       "install": "pip install MoneyPrinterTurbo",
       "functionCategory": "data-ai",
@@ -314,7 +314,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "moneyprinterturbo--automation \u5229\u7528ai\u5927\u6a21\u578b\uff0c\u4e00\u952e\u751f\u6210\u9ad8\u6e05\u77ed\u89c6\u9891 generate short videos with one click using ai llm. harry0703/moneyprinterturbo pip install moneyprinterturbo data-ai general"
+      "searchText": "moneyprinterturbo--automation 利用ai大模型，一键生成高清短视频 generate short videos with one click using ai llm. harry0703/moneyprinterturbo pip install moneyprinterturbo data-ai general"
     },
     {
       "name": "claude-mem",
@@ -322,7 +322,7 @@
       "sourceAgent": "claude",
       "repo": "thedotmack/claude-mem",
       "stars": 84936,
-      "desc": "Persistent Context Across Sessions for Every Agent \u2014 Captures everything your agent does during sessions.",
+      "desc": "Persistent Context Across Sessions for Every Agent — Captures everything your agent does during sessions.",
       "url": "https://github.com/thedotmack/claude-mem",
       "install": "",
       "functionCategory": "data-ai",
@@ -332,7 +332,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-mem persistent context across sessions for every agent \u2014 captures everything your agent does during sessions. thedotmack/claude-mem data-ai claude"
+      "searchText": "claude-mem persistent context across sessions for every agent — captures everything your agent does during sessions. thedotmack/claude-mem data-ai claude"
     },
     {
       "name": "vllm--llm",
@@ -430,7 +430,7 @@
       "sourceAgent": "general",
       "repo": "lobehub/lobehub",
       "stars": 79216,
-      "desc": "\ud83e\udd2f LobeHub is your Chief Agent Operator, organizing your agents into 7\u00d724 operations by hiring, scheduling, and reporting on your entire AI team.",
+      "desc": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
       "url": "https://github.com/lobehub/lobehub",
       "install": "npm i lobehub",
       "functionCategory": "data-ai",
@@ -440,7 +440,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "lobehub--mcp \ud83e\udd2f lobehub is your chief agent operator, organizing your agents into 7\u00d724 operations by hiring, scheduling, and reporting on your entire ai team. lobehub/lobehub npm i lobehub data-ai general"
+      "searchText": "lobehub--mcp 🤯 lobehub is your chief agent operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire ai team. lobehub/lobehub npm i lobehub data-ai general"
     },
     {
       "name": "d2l-zh--machine-learning",
@@ -448,7 +448,7 @@
       "sourceAgent": "general",
       "repo": "d2l-ai/d2l-zh",
       "stars": 78566,
-      "desc": "\u300a\u52a8\u624b\u5b66\u6df1\u5ea6\u5b66\u4e60\u300b\uff1a\u9762\u5411\u4e2d\u6587\u8bfb\u8005\u3001\u80fd\u8fd0\u884c\u3001\u53ef\u8ba8\u8bba\u3002\u4e2d\u82f1\u6587\u7248\u88ab70\u591a\u4e2a\u56fd\u5bb6\u7684500\u591a\u6240\u5927\u5b66\u7528\u4e8e\u6559\u5b66\u3002",
+      "desc": "《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。",
       "url": "https://github.com/d2l-ai/d2l-zh",
       "install": "pip install d2l-zh",
       "functionCategory": "data-ai",
@@ -458,7 +458,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "d2l-zh--machine-learning \u300a\u52a8\u624b\u5b66\u6df1\u5ea6\u5b66\u4e60\u300b\uff1a\u9762\u5411\u4e2d\u6587\u8bfb\u8005\u3001\u80fd\u8fd0\u884c\u3001\u53ef\u8ba8\u8bba\u3002\u4e2d\u82f1\u6587\u7248\u88ab70\u591a\u4e2a\u56fd\u5bb6\u7684500\u591a\u6240\u5927\u5b66\u7528\u4e8e\u6559\u5b66\u3002 d2l-ai/d2l-zh pip install d2l-zh data-ai general"
+      "searchText": "d2l-zh--machine-learning 《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。 d2l-ai/d2l-zh pip install d2l-zh data-ai general"
     },
     {
       "name": "Prompt-Engineering-Guide--rag",
@@ -466,7 +466,7 @@
       "sourceAgent": "general",
       "repo": "dair-ai/Prompt-Engineering-Guide",
       "stars": 76062,
-      "desc": "\ud83d\udc19 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
+      "desc": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
       "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
       "install": "git clone https://github.com/dair-ai/Prompt-Engineering-Guide.git",
       "functionCategory": "data-ai",
@@ -476,7 +476,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "prompt-engineering-guide--rag \ud83d\udc19 guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, rag, and ai agents. dair-ai/prompt-engineering-guide git clone https://github.com/dair-ai/prompt-engineering-guide.git data-ai general"
+      "searchText": "prompt-engineering-guide--rag 🐙 guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, rag, and ai agents. dair-ai/prompt-engineering-guide git clone https://github.com/dair-ai/prompt-engineering-guide.git data-ai general"
     },
     {
       "name": "tesseract--machine-learning",
@@ -502,7 +502,7 @@
       "sourceAgent": "front-end-checklist",
       "repo": "thedaviddias/Front-End-Checklist",
       "stars": 73065,
-      "desc": "\ud83d\uddc2 The essential checklist for modern web development, for humans and AI agents",
+      "desc": "🗂 The essential checklist for modern web development, for humans and AI agents",
       "url": "https://github.com/thedaviddias/Front-End-Checklist",
       "install": "",
       "functionCategory": "data-ai",
@@ -512,7 +512,7 @@
       "supportedAgents": [
         "front-end-checklist"
       ],
-      "searchText": "front-end-checklist \ud83d\uddc2 the essential checklist for modern web development, for humans and ai agents thedaviddias/front-end-checklist data-ai front-end-checklist"
+      "searchText": "front-end-checklist 🗂 the essential checklist for modern web development, for humans and ai agents thedaviddias/front-end-checklist data-ai front-end-checklist"
     },
     {
       "name": "awesome-scalability--machine-learning",
@@ -556,7 +556,7 @@
       "sourceAgent": "learn-claude-code",
       "repo": "shareAI-lab/learn-claude-code",
       "stars": 68941,
-      "desc": "Bash is all you need -  A nano claude code\u2013like \u300cagent harness\u300d, built from 0 to 1",
+      "desc": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
       "url": "https://github.com/shareAI-lab/learn-claude-code",
       "install": "",
       "functionCategory": "data-ai",
@@ -567,7 +567,7 @@
         "claude",
         "learn-claude-code"
       ],
-      "searchText": "learn-claude-code bash is all you need -  a nano claude code\u2013like \u300cagent harness\u300d, built from 0 to 1 shareai-lab/learn-claude-code data-ai claude learn-claude-code"
+      "searchText": "learn-claude-code bash is all you need -  a nano claude code–like 「agent harness」, built from 0 to 1 shareai-lab/learn-claude-code data-ai claude learn-claude-code"
     },
     {
       "name": "agent-skills",
@@ -593,7 +593,7 @@
       "sourceAgent": "general",
       "repo": "labmlai/annotated_deep_learning_paper_implementations",
       "stars": 67007,
-      "desc": "\ud83e\uddd1\u200d\ud83c\udfeb 60+ Implementations/tutorials of deep learning papers with side-by-side notes \ud83d\udcdd; including transformers (original, xl, switch, feedback, vit, ...)",
+      "desc": "🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...)",
       "url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
       "install": "pip install annotated_deep_learning_paper_implementations",
       "functionCategory": "data-ai",
@@ -603,7 +603,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "annotated_deep_learning_paper_implementations--machine-learning \ud83e\uddd1\u200d\ud83c\udfeb 60+ implementations/tutorials of deep learning papers with side-by-side notes \ud83d\udcdd; including transformers (original, xl, switch, feedback, vit, ...) labmlai/annotated_deep_learning_paper_implementations pip install annotated_deep_learning_paper_implementations data-ai general"
+      "searchText": "annotated_deep_learning_paper_implementations--machine-learning 🧑‍🏫 60+ implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...) labmlai/annotated_deep_learning_paper_implementations pip install annotated_deep_learning_paper_implementations data-ai general"
     },
     {
       "name": "scikit-learn--machine-learning",
@@ -647,7 +647,7 @@
       "sourceAgent": "general",
       "repo": "PlexPt/awesome-chatgpt-prompts-zh",
       "stars": 60800,
-      "desc": "ChatGPT \u4e2d\u6587\u8c03\u6559\u6307\u5357\u3002\u5404\u79cd\u573a\u666f\u4f7f\u7528\u6307\u5357\u3002\u5b66\u4e60\u600e\u4e48\u8ba9\u5b83\u542c\u4f60\u7684\u8bdd\u3002",
+      "desc": "ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。",
       "url": "https://github.com/PlexPt/awesome-chatgpt-prompts-zh",
       "install": "git clone https://github.com/PlexPt/awesome-chatgpt-prompts-zh.git",
       "functionCategory": "data-ai",
@@ -657,7 +657,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "awesome-chatgpt-prompts-zh--chatgpt chatgpt \u4e2d\u6587\u8c03\u6559\u6307\u5357\u3002\u5404\u79cd\u573a\u666f\u4f7f\u7528\u6307\u5357\u3002\u5b66\u4e60\u600e\u4e48\u8ba9\u5b83\u542c\u4f60\u7684\u8bdd\u3002 plexpt/awesome-chatgpt-prompts-zh git clone https://github.com/plexpt/awesome-chatgpt-prompts-zh.git data-ai general"
+      "searchText": "awesome-chatgpt-prompts-zh--chatgpt chatgpt 中文调教指南。各种场景使用指南。学习怎么让它听你的话。 plexpt/awesome-chatgpt-prompts-zh git clone https://github.com/plexpt/awesome-chatgpt-prompts-zh.git data-ai general"
     },
     {
       "name": "TrendRadar--mcp",
@@ -665,7 +665,7 @@
       "sourceAgent": "general",
       "repo": "sansan0/TrendRadar",
       "stars": 60020,
-      "desc": "\u2b50AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.\ud83c\udfaf \u544a\u522b\u4fe1\u606f\u8fc7\u8f7d\uff0c\u4f60\u7684 AI \u8206\u60c5\u76d1\u63a7\u52a9\u624b\u4e0e\u70ed\u70b9\u7b5b\u9009\u5de5\u5177\uff01\u805a\u5408\u591a\u5e73\u53f0\u70ed\u70b9 +  RSS \u8ba2\u9605\uff0c\u652f\u6301\u5173\u952e\u8bcd\u7cbe",
+      "desc": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精",
       "url": "https://github.com/sansan0/TrendRadar",
       "install": "pip install TrendRadar",
       "functionCategory": "data-ai",
@@ -675,7 +675,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "trendradar--mcp \u2b50ai-driven public opinion & trend monitor with multi-platform aggregation, rss, and smart alerts.\ud83c\udfaf \u544a\u522b\u4fe1\u606f\u8fc7\u8f7d\uff0c\u4f60\u7684 ai \u8206\u60c5\u76d1\u63a7\u52a9\u624b\u4e0e\u70ed\u70b9\u7b5b\u9009\u5de5\u5177\uff01\u805a\u5408\u591a\u5e73\u53f0\u70ed\u70b9 +  rss \u8ba2\u9605\uff0c\u652f\u6301\u5173\u952e\u8bcd\u7cbe sansan0/trendradar pip install trendradar data-ai general"
+      "searchText": "trendradar--mcp ⭐ai-driven public opinion & trend monitor with multi-platform aggregation, rss, and smart alerts.🎯 告别信息过载，你的 ai 舆情监控助手与热点筛选工具！聚合多平台热点 +  rss 订阅，支持关键词精 sansan0/trendradar pip install trendradar data-ai general"
     },
     {
       "name": "mem0--rag",
@@ -701,7 +701,7 @@
       "sourceAgent": "general",
       "repo": "pathwaycom/llm-app",
       "stars": 59190,
-      "desc": "Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. \ud83d\udc33Docker-friendly.\u26a1Always in sync with Sharepoint, Google Dri",
+      "desc": "Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Dri",
       "url": "https://github.com/pathwaycom/llm-app",
       "install": "pip install llm-app",
       "functionCategory": "data-ai",
@@ -711,7 +711,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "llm-app--rag ready-to-run cloud templates for rag, ai pipelines, and enterprise search with live data. \ud83d\udc33docker-friendly.\u26a1always in sync with sharepoint, google dri pathwaycom/llm-app pip install llm-app data-ai general"
+      "searchText": "llm-app--rag ready-to-run cloud templates for rag, ai pipelines, and enterprise search with live data. 🐳docker-friendly.⚡always in sync with sharepoint, google dri pathwaycom/llm-app pip install llm-app data-ai general"
     },
     {
       "name": "context7--mcp",
@@ -757,7 +757,7 @@
       "sourceAgent": "general",
       "repo": "lencx/ChatGPT",
       "stars": 54386,
-      "desc": "\ud83d\udd2e ChatGPT Desktop Application (Mac, Windows and Linux)",
+      "desc": "🔮 ChatGPT Desktop Application (Mac, Windows and Linux)",
       "url": "https://github.com/lencx/ChatGPT",
       "install": "cargo install ChatGPT",
       "functionCategory": "data-ai",
@@ -767,7 +767,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "chatgpt--chatgpt \ud83d\udd2e chatgpt desktop application (mac, windows and linux) lencx/chatgpt cargo install chatgpt data-ai general"
+      "searchText": "chatgpt--chatgpt 🔮 chatgpt desktop application (mac, windows and linux) lencx/chatgpt cargo install chatgpt data-ai general"
     },
     {
       "name": "Flowise--rag",
@@ -813,7 +813,7 @@
       "sourceAgent": "daily_stock_analysis",
       "repo": "ZhuLinsen/daily_stock_analysis",
       "stars": 51764,
-      "desc": "LLM \u9a71\u52a8\u7684\u591a\u5e02\u573a\u80a1\u7968\u667a\u80fd\u5206\u6790\u7cfb\u7edf\uff1a\u591a\u6e90\u884c\u60c5\u3001\u5b9e\u65f6\u65b0\u95fb\u3001\u51b3\u7b56\u770b\u677f\u4e0e\u81ea\u52a8\u63a8\u9001\uff0c\u652f\u6301\u96f6\u6210\u672c\u5b9a\u65f6\u8fd0\u884c\u3002  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-f",
+      "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-f",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "install": "",
       "functionCategory": "data-ai",
@@ -823,7 +823,7 @@
       "supportedAgents": [
         "daily_stock_analysis"
       ],
-      "searchText": "daily_stock_analysis llm \u9a71\u52a8\u7684\u591a\u5e02\u573a\u80a1\u7968\u667a\u80fd\u5206\u6790\u7cfb\u7edf\uff1a\u591a\u6e90\u884c\u60c5\u3001\u5b9e\u65f6\u65b0\u95fb\u3001\u51b3\u7b56\u770b\u677f\u4e0e\u81ea\u52a8\u63a8\u9001\uff0c\u652f\u6301\u96f6\u6210\u672c\u5b9a\u65f6\u8fd0\u884c\u3002  llm-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-f zhulinsen/daily_stock_analysis data-ai daily_stock_analysis"
+      "searchText": "daily_stock_analysis llm 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  llm-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-f zhulinsen/daily_stock_analysis data-ai daily_stock_analysis"
     },
     {
       "name": "cherry-studio",
@@ -1119,7 +1119,7 @@
       "sourceAgent": "agent-reach",
       "repo": "Panniantong/Agent-Reach",
       "stars": 44468,
-      "desc": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees.",
+      "desc": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "url": "https://github.com/Panniantong/Agent-Reach",
       "install": "",
       "functionCategory": "data-ai",
@@ -1129,7 +1129,7 @@
       "supportedAgents": [
         "agent-reach"
       ],
-      "searchText": "agent-reach give your ai agent eyes to see the entire internet. read & search twitter, reddit, youtube, github, bilibili, xiaohongshu \u2014 one cli, zero api fees. panniantong/agent-reach data-ai agent-reach"
+      "searchText": "agent-reach give your ai agent eyes to see the entire internet. read & search twitter, reddit, youtube, github, bilibili, xiaohongshu — one cli, zero api fees. panniantong/agent-reach data-ai agent-reach"
     },
     {
       "name": "gradio",
@@ -1286,7 +1286,7 @@
       "sourceAgent": "claude",
       "repo": "Imbad0202/academic-research-skills",
       "stars": 35049,
-      "desc": "Academic Research Skills for Claude Code: research \u2192 write \u2192 review \u2192 revise \u2192 finalize",
+      "desc": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
       "url": "https://github.com/Imbad0202/academic-research-skills",
       "install": "git clone https://github.com/Imbad0202/academic-research-skills.git",
       "functionCategory": "data-ai",
@@ -1296,7 +1296,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "academic-research-skills academic research skills for claude code: research \u2192 write \u2192 review \u2192 revise \u2192 finalize imbad0202/academic-research-skills git clone https://github.com/imbad0202/academic-research-skills.git data-ai claude"
+      "searchText": "academic-research-skills academic research skills for claude code: research → write → review → revise → finalize imbad0202/academic-research-skills git clone https://github.com/imbad0202/academic-research-skills.git data-ai claude"
     },
     {
       "name": "agno",
@@ -1325,7 +1325,7 @@
       "sourceAgent": "ppt-master",
       "repo": "hugohe3/ppt-master",
       "stars": 33725,
-      "desc": "AI generates a real, editable PowerPoint from any document \u2014 native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images \u00b7 b",
+      "desc": "AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · b",
       "url": "https://github.com/hugohe3/ppt-master",
       "install": "",
       "functionCategory": "data-ai",
@@ -1335,7 +1335,7 @@
       "supportedAgents": [
         "ppt-master"
       ],
-      "searchText": "ppt-master ai generates a real, editable powerpoint from any document \u2014 native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images \u00b7 b hugohe3/ppt-master data-ai ppt-master"
+      "searchText": "ppt-master ai generates a real, editable powerpoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · b hugohe3/ppt-master data-ai ppt-master"
     },
     {
       "name": "pageindex",
@@ -1361,7 +1361,7 @@
       "sourceAgent": "general",
       "repo": "Chanzhaoyu/chatgpt-web",
       "stars": 31584,
-      "desc": "\u7528 Express \u548c  Vue3 \u642d\u5efa\u7684 ChatGPT \u6f14\u793a\u7f51\u9875",
+      "desc": "用 Express 和  Vue3 搭建的 ChatGPT 演示网页",
       "url": "https://github.com/Chanzhaoyu/chatgpt-web",
       "install": "npm i chatgpt-web",
       "functionCategory": "data-ai",
@@ -1371,7 +1371,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "chatgpt-web--chatgpt \u7528 express \u548c  vue3 \u642d\u5efa\u7684 chatgpt \u6f14\u793a\u7f51\u9875 chanzhaoyu/chatgpt-web npm i chatgpt-web data-ai general"
+      "searchText": "chatgpt-web--chatgpt 用 express 和  vue3 搭建的 chatgpt 演示网页 chanzhaoyu/chatgpt-web npm i chatgpt-web data-ai general"
     },
     {
       "name": "crewAI",
@@ -1623,7 +1623,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Foundry Agents SDK \u2014 container-based agents with custom images",
+      "desc": "Foundry Agents SDK — container-based agents with custom images",
       "url": "https://officialskills.sh/microsoft/skills/agents-v2-py",
       "install": "",
       "functionCategory": "data-ai",
@@ -1637,7 +1637,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "agents-v2-py foundry agents sdk \u2014 container-based agents with custom images voltagent/awesome-agent-skills data-ai claude codex cursor hermes gemini"
+      "searchText": "agents-v2-py foundry agents sdk — container-based agents with custom images voltagent/awesome-agent-skills data-ai claude codex cursor hermes gemini"
     },
     {
       "name": "altitude-horizon-framework",
@@ -1645,7 +1645,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Navigate the PM\u2192Director mindset shift covering scope, time horizons, and failure modes",
+      "desc": "Navigate the PM→Director mindset shift covering scope, time horizons, and failure modes",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/altitude-horizon-framework",
       "install": "",
       "functionCategory": "data-ai",
@@ -1659,7 +1659,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "altitude-horizon-framework navigate the pm\u2192director mindset shift covering scope, time horizons, and failure modes voltagent/awesome-agent-skills data-ai claude codex cursor hermes gemini"
+      "searchText": "altitude-horizon-framework navigate the pm→director mindset shift covering scope, time horizons, and failure modes voltagent/awesome-agent-skills data-ai claude codex cursor hermes gemini"
     },
     {
       "name": "analytics-tracking",
@@ -2833,7 +2833,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Graph-based long-term memory skill for AI (LLM) coding agents \u2014 faster context, fewer tokens, safer refactors",
+      "desc": "Graph-based long-term memory skill for AI (LLM) coding agents — faster context, fewer tokens, safer refactors",
       "url": "https://github.com/k-kolomeitsev/data-structure-protocol",
       "install": "",
       "functionCategory": "data-ai",
@@ -2847,7 +2847,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "data-structure-protocol graph-based long-term memory skill for ai (llm) coding agents \u2014 faster context, fewer tokens, safer refactors voltagent/awesome-agent-skills data-ai claude codex cursor hermes gemini"
+      "searchText": "data-structure-protocol graph-based long-term memory skill for ai (llm) coding agents — faster context, fewer tokens, safer refactors voltagent/awesome-agent-skills data-ai claude codex cursor hermes gemini"
     },
     {
       "name": "dd-apm",
@@ -2987,7 +2987,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Full discovery cycle: frame problem \u2192 research \u2192 synthesize \u2192 validate (3-4 weeks)",
+      "desc": "Full discovery cycle: frame problem → research → synthesize → validate (3-4 weeks)",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/discovery-process",
       "install": "",
       "functionCategory": "data-ai",
@@ -3001,7 +3001,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "discovery-process full discovery cycle: frame problem \u2192 research \u2192 synthesize \u2192 validate (3-4 weeks) voltagent/awesome-agent-skills data-ai claude codex cursor hermes gemini"
+      "searchText": "discovery-process full discovery cycle: frame problem → research → synthesize → validate (3-4 weeks) voltagent/awesome-agent-skills data-ai claude codex cursor hermes gemini"
     },
     {
       "name": "dummy-dataset",
@@ -3669,7 +3669,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Persistent LLM-managed personal wiki \u2014 the model writes, cross-references, and maintains the knowledge base while you curate sources. Implements Karpathy's LLM Wiki pattern with 8 operating modes.",
+      "desc": "Persistent LLM-managed personal wiki — the model writes, cross-references, and maintains the knowledge base while you curate sources. Implements Karpathy's LLM Wiki pattern with 8 operating modes.",
       "url": "https://github.com/sametbrr/llm-wiki-manager",
       "install": "",
       "functionCategory": "data-ai",
@@ -3683,7 +3683,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "llm-wiki-manager persistent llm-managed personal wiki \u2014 the model writes, cross-references, and maintains the knowledge base while you curate sources. implements karpathy's llm wiki pattern with 8 operating modes. voltagent/awesome-agent-skills data-ai claude codex cursor hermes gemini"
+      "searchText": "llm-wiki-manager persistent llm-managed personal wiki — the model writes, cross-references, and maintains the knowledge base while you curate sources. implements karpathy's llm wiki pattern with 8 operating modes. voltagent/awesome-agent-skills data-ai claude codex cursor hermes gemini"
     },
     {
       "name": "local-descriptions",
@@ -3889,7 +3889,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Cut a new semver release \u2014 bump all version strings via bump-version.ts, open a release PR, and after merge tag main and push.",
+      "desc": "Cut a new semver release — bump all version strings via bump-version.ts, open a release PR, and after merge tag main and push.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-cut-release-tag",
       "install": "",
       "functionCategory": "data-ai",
@@ -3903,7 +3903,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "nemoclaw-maintainer-cut-release-tag cut a new semver release \u2014 bump all version strings via bump-version.ts, open a release pr, and after merge tag main and push. voltagent/awesome-agent-skills data-ai claude codex cursor hermes gemini"
+      "searchText": "nemoclaw-maintainer-cut-release-tag cut a new semver release — bump all version strings via bump-version.ts, open a release pr, and after merge tag main and push. voltagent/awesome-agent-skills data-ai claude codex cursor hermes gemini"
     },
     {
       "name": "nemoclaw-maintainer-day",
@@ -4351,7 +4351,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Techniques for reducing peak GPU memory in Megatron Bridge \u2014 expandable segments, parallelism resizing, activation recompute, CPU offloading constraints, and common OOM fixes.",
+      "desc": "Techniques for reducing peak GPU memory in Megatron Bridge — expandable segments, parallelism resizing, activation recompute, CPU offloading constraints, and common OOM fixes.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-memory-tuning",
       "install": "",
       "functionCategory": "data-ai",
@@ -4365,7 +4365,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "perf-memory-tuning techniques for reducing peak gpu memory in megatron bridge \u2014 expandable segments, parallelism resizing, activation recompute, cpu offloading constraints, and common oom fixes. voltagent/awesome-agent-skills data-ai claude codex cursor hermes gemini"
+      "searchText": "perf-memory-tuning techniques for reducing peak gpu memory in megatron bridge — expandable segments, parallelism resizing, activation recompute, cpu offloading constraints, and common oom fixes. voltagent/awesome-agent-skills data-ai claude codex cursor hermes gemini"
     },
     {
       "name": "perf-moe-hardware-configs",
@@ -4395,7 +4395,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Diagnose why campaigns are underperforming \u2014 low conversion, high CPL, bad ads",
+      "desc": "Diagnose why campaigns are underperforming — low conversion, high CPL, bad ads",
       "url": "https://github.com/realkimbarrett/advertising-skills/tree/main/skills/operator-os/performance-diagnosis",
       "install": "",
       "functionCategory": "data-ai",
@@ -4409,7 +4409,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "performance-diagnosis diagnose why campaigns are underperforming \u2014 low conversion, high cpl, bad ads voltagent/awesome-agent-skills data-ai claude codex cursor hermes gemini"
+      "searchText": "performance-diagnosis diagnose why campaigns are underperforming — low conversion, high cpl, bad ads voltagent/awesome-agent-skills data-ai claude codex cursor hermes gemini"
     },
     {
       "name": "plan-eng-review",
@@ -4615,7 +4615,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "\"NVIDIA RAG Blueprint \u2014 deploy, configure, troubleshoot, and manage.",
+      "desc": "\"NVIDIA RAG Blueprint — deploy, configure, troubleshoot, and manage.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/rag/rag-blueprint",
       "install": "",
       "functionCategory": "data-ai",
@@ -4629,7 +4629,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "rag-blueprint \"nvidia rag blueprint \u2014 deploy, configure, troubleshoot, and manage. voltagent/awesome-agent-skills data-ai claude codex cursor hermes gemini"
+      "searchText": "rag-blueprint \"nvidia rag blueprint — deploy, configure, troubleshoot, and manage. voltagent/awesome-agent-skills data-ai claude codex cursor hermes gemini"
     },
     {
       "name": "read-file",
@@ -4703,7 +4703,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Redis development best practices \u2014 data structures, query engine, vector search, caching, and performance optimization.",
+      "desc": "Redis development best practices — data structures, query engine, vector search, caching, and performance optimization.",
       "url": "https://github.com/redis/agent-skills/tree/main/skills/redis-development",
       "install": "",
       "functionCategory": "data-ai",
@@ -4717,7 +4717,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "redis-development redis development best practices \u2014 data structures, query engine, vector search, caching, and performance optimization. voltagent/awesome-agent-skills data-ai claude codex cursor hermes gemini"
+      "searchText": "redis-development redis development best practices — data structures, query engine, vector search, caching, and performance optimization. voltagent/awesome-agent-skills data-ai claude codex cursor hermes gemini"
     },
     {
       "name": "reflexion",
@@ -5621,7 +5621,7 @@
       "sourceAgent": "general",
       "repo": "jina-ai/jina",
       "stars": 22000,
-      "desc": "Build multimodal AI apps with cloud-native stack \u2014 Embeddings, Reranker, Reader, Segmenter.",
+      "desc": "Build multimodal AI apps with cloud-native stack — Embeddings, Reranker, Reader, Segmenter.",
       "url": "https://github.com/jina-ai/jina",
       "install": "pip install jina",
       "functionCategory": "data-ai",
@@ -5631,7 +5631,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "jina build multimodal ai apps with cloud-native stack \u2014 embeddings, reranker, reader, segmenter. jina-ai/jina pip install jina data-ai general"
+      "searchText": "jina build multimodal ai apps with cloud-native stack — embeddings, reranker, reader, segmenter. jina-ai/jina pip install jina data-ai general"
     },
     {
       "name": "chatgpt-retrieval-plugin--chatgpt",
@@ -5657,7 +5657,7 @@
       "sourceAgent": "general",
       "repo": "LiLittleCat/awesome-free-chatgpt",
       "stars": 21173,
-      "desc": "\ud83c\udd93\u514d\u8d39\u7684 ChatGPT \u955c\u50cf\u7f51\u7ad9\u5217\u8868\uff0c\u6301\u7eed\u66f4\u65b0\u3002List of free ChatGPT mirror sites, continuously updated.",
+      "desc": "🆓免费的 ChatGPT 镜像网站列表，持续更新。List of free ChatGPT mirror sites, continuously updated.",
       "url": "https://github.com/LiLittleCat/awesome-free-chatgpt",
       "install": "pip install awesome-free-chatgpt",
       "functionCategory": "data-ai",
@@ -5667,7 +5667,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "awesome-free-chatgpt--chatgpt \ud83c\udd93\u514d\u8d39\u7684 chatgpt \u955c\u50cf\u7f51\u7ad9\u5217\u8868\uff0c\u6301\u7eed\u66f4\u65b0\u3002list of free chatgpt mirror sites, continuously updated. lilittlecat/awesome-free-chatgpt pip install awesome-free-chatgpt data-ai general"
+      "searchText": "awesome-free-chatgpt--chatgpt 🆓免费的 chatgpt 镜像网站列表，持续更新。list of free chatgpt mirror sites, continuously updated. lilittlecat/awesome-free-chatgpt pip install awesome-free-chatgpt data-ai general"
     },
     {
       "name": "dspy",
@@ -5885,7 +5885,7 @@
       "sourceAgent": "general",
       "repo": "anthropics/anthropic-sdk-python",
       "stars": 15000,
-      "desc": "Python SDK for Anthropic's Claude API \u2014 build AI apps with Claude models.",
+      "desc": "Python SDK for Anthropic's Claude API — build AI apps with Claude models.",
       "url": "https://github.com/anthropics/anthropic-sdk-python",
       "install": "pip install anthropic",
       "functionCategory": "data-ai",
@@ -5895,7 +5895,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "anthropic-sdk-python python sdk for anthropic's claude api \u2014 build ai apps with claude models. anthropics/anthropic-sdk-python pip install anthropic data-ai general"
+      "searchText": "anthropic-sdk-python python sdk for anthropic's claude api — build ai apps with claude models. anthropics/anthropic-sdk-python pip install anthropic data-ai general"
     },
     {
       "name": "botpress",
@@ -6047,7 +6047,7 @@
       "sourceAgent": "general",
       "repo": "google-gemini/generative-ai-python",
       "stars": 12000,
-      "desc": "Google AI Python SDK for the Gemini API \u2014 build multimodal AI apps.",
+      "desc": "Google AI Python SDK for the Gemini API — build multimodal AI apps.",
       "url": "https://github.com/google-gemini/generative-ai-python",
       "install": "pip install google-genai",
       "functionCategory": "data-ai",
@@ -6057,7 +6057,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "generative-ai-python google ai python sdk for the gemini api \u2014 build multimodal ai apps. google-gemini/generative-ai-python pip install google-genai data-ai general"
+      "searchText": "generative-ai-python google ai python sdk for the gemini api — build multimodal ai apps. google-gemini/generative-ai-python pip install google-genai data-ai general"
     },
     {
       "name": "pr-agent--devtools",
@@ -6065,7 +6065,7 @@
       "sourceAgent": "general",
       "repo": "The-PR-Agent/pr-agent",
       "stars": 11882,
-      "desc": "\ud83d\ude80 PR Agent: The Original Open-Source PR Reviewer.  This project It is not the Qodo free tier.",
+      "desc": "🚀 PR Agent: The Original Open-Source PR Reviewer.  This project It is not the Qodo free tier.",
       "url": "https://github.com/The-PR-Agent/pr-agent",
       "install": "pip install pr-agent",
       "functionCategory": "data-ai",
@@ -6075,7 +6075,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "pr-agent--devtools \ud83d\ude80 pr agent: the original open-source pr reviewer.  this project it is not the qodo free tier. the-pr-agent/pr-agent pip install pr-agent data-ai general"
+      "searchText": "pr-agent--devtools 🚀 pr agent: the original open-source pr reviewer.  this project it is not the qodo free tier. the-pr-agent/pr-agent pip install pr-agent data-ai general"
     },
     {
       "name": "agent-framework--agent-framework",
@@ -6101,7 +6101,7 @@
       "sourceAgent": "general",
       "repo": "EmbraceAGI/awesome-chatgpt-zh",
       "stars": 11575,
-      "desc": "ChatGPT \u4e2d\u6587\u6307\u5357\ud83d\udd25\uff0cChatGPT \u4e2d\u6587\u8c03\u6559\u6307\u5357\uff0c\u6307\u4ee4\u6307\u5357\uff0c\u5e94\u7528\u5f00\u53d1\u6307\u5357\uff0c\u7cbe\u9009\u8d44\u6e90\u6e05\u5355\uff0c\u66f4\u597d\u7684\u4f7f\u7528 chatGPT \u8ba9\u4f60\u7684\u751f\u4ea7\u529b up up up! \ud83d\ude80",
+      "desc": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
       "url": "https://github.com/EmbraceAGI/awesome-chatgpt-zh",
       "install": "pip install awesome-chatgpt-zh",
       "functionCategory": "data-ai",
@@ -6111,7 +6111,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "awesome-chatgpt-zh--chatgpt chatgpt \u4e2d\u6587\u6307\u5357\ud83d\udd25\uff0cchatgpt \u4e2d\u6587\u8c03\u6559\u6307\u5357\uff0c\u6307\u4ee4\u6307\u5357\uff0c\u5e94\u7528\u5f00\u53d1\u6307\u5357\uff0c\u7cbe\u9009\u8d44\u6e90\u6e05\u5355\uff0c\u66f4\u597d\u7684\u4f7f\u7528 chatgpt \u8ba9\u4f60\u7684\u751f\u4ea7\u529b up up up! \ud83d\ude80 embraceagi/awesome-chatgpt-zh pip install awesome-chatgpt-zh data-ai general"
+      "searchText": "awesome-chatgpt-zh--chatgpt chatgpt 中文指南🔥，chatgpt 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatgpt 让你的生产力 up up up! 🚀 embraceagi/awesome-chatgpt-zh pip install awesome-chatgpt-zh data-ai general"
     },
     {
       "name": "bisheng",
@@ -6319,7 +6319,7 @@
       "sourceAgent": "general",
       "repo": "rockbenben/ChatGPT-Shortcut",
       "stars": 8577,
-      "desc": "\ud83d\ude80\ud83d\udcaaMaximize your efficiency and productivity. The ultimate hub to manage, customize, and share prompts. (English/\u4e2d\u6587/Espa\u00f1ol/\u0627\u0644\u0639\u0631\u0628\u064a\u0629). \u8ba9\u751f\u4ea7\u529b\u52a0\u500d\u7684 AI \u5feb\u6377\u6307\u4ee4\u3002\u66f4",
+      "desc": "🚀💪Maximize your efficiency and productivity. The ultimate hub to manage, customize, and share prompts. (English/中文/Español/العربية). 让生产力加倍的 AI 快捷指令。更",
       "url": "https://github.com/rockbenben/ChatGPT-Shortcut",
       "install": "npm i ChatGPT-Shortcut",
       "functionCategory": "data-ai",
@@ -6329,7 +6329,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "chatgpt-shortcut--chatgpt \ud83d\ude80\ud83d\udcaamaximize your efficiency and productivity. the ultimate hub to manage, customize, and share prompts. (english/\u4e2d\u6587/espa\u00f1ol/\u0627\u0644\u0639\u0631\u0628\u064a\u0629). \u8ba9\u751f\u4ea7\u529b\u52a0\u500d\u7684 ai \u5feb\u6377\u6307\u4ee4\u3002\u66f4 rockbenben/chatgpt-shortcut npm i chatgpt-shortcut data-ai general"
+      "searchText": "chatgpt-shortcut--chatgpt 🚀💪maximize your efficiency and productivity. the ultimate hub to manage, customize, and share prompts. (english/中文/español/العربية). 让生产力加倍的 ai 快捷指令。更 rockbenben/chatgpt-shortcut npm i chatgpt-shortcut data-ai general"
     },
     {
       "name": "awesome-chatgpt--chatgpt",
@@ -6427,7 +6427,7 @@
       "sourceAgent": "general",
       "repo": "sponsors/topoteretes",
       "stars": 6064,
-      "desc": "Cognee \u2014 open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions.",
+      "desc": "Cognee — open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions.",
       "url": "https://github.com/sponsors/topoteretes",
       "install": "pip install cognee",
       "functionCategory": "data-ai",
@@ -6437,7 +6437,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "topoteretes cognee \u2014 open-source ai memory platform for agents. give your ai agents persistent long-term memory across sessions. sponsors/topoteretes pip install cognee data-ai general"
+      "searchText": "topoteretes cognee — open-source ai memory platform for agents. give your ai agents persistent long-term memory across sessions. sponsors/topoteretes pip install cognee data-ai general"
     },
     {
       "name": "awesome-aitools",
@@ -6445,7 +6445,7 @@
       "sourceAgent": "awesome-aitools",
       "repo": "ikaijua/Awesome-AITools",
       "stars": 6049,
-      "desc": "Collection of AI-related utilities. Welcome to submit pull requests /\u6536\u85cfAI\u76f8\u5173\u7684\u5b9e\u7528\u5de5\u5177\uff0c\u6b22\u8fce\u63d0\u4ea4pull requests",
+      "desc": "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests",
       "url": "https://github.com/ikaijua/Awesome-AITools",
       "install": "",
       "functionCategory": "data-ai",
@@ -6455,7 +6455,7 @@
       "supportedAgents": [
         "awesome-aitools"
       ],
-      "searchText": "awesome-aitools collection of ai-related utilities. welcome to submit pull requests /\u6536\u85cfai\u76f8\u5173\u7684\u5b9e\u7528\u5de5\u5177\uff0c\u6b22\u8fce\u63d0\u4ea4pull requests ikaijua/awesome-aitools data-ai awesome-aitools"
+      "searchText": "awesome-aitools collection of ai-related utilities. welcome to submit pull requests /收藏ai相关的实用工具，欢迎提交pull requests ikaijua/awesome-aitools data-ai awesome-aitools"
     },
     {
       "name": "feast",
@@ -6619,7 +6619,7 @@
       "sourceAgent": "general",
       "repo": "KimYx0207/AI-Coding-Guide-Zh",
       "stars": 5018,
-      "desc": "Claude Code + OpenClaw + Codex \u4e2d\u6587\u6559\u7a0b | 39\u7bc7\u5b8c\u6574\u6559\u7a0b + 1\u5f20\u901f\u67e5\u5361 | 80\u4e07+\u5185\u5bb9\u91cf | 1500+\u5b9e\u64cd\u793a\u4f8b | AI Coding / Agent \u4e09\u7ebf\u5b66\u4e60\u8def\u5f84",
+      "desc": "Claude Code + OpenClaw + Codex 中文教程 | 39篇完整教程 + 1张速查卡 | 80万+内容量 | 1500+实操示例 | AI Coding / Agent 三线学习路径",
       "url": "https://github.com/KimYx0207/AI-Coding-Guide-Zh",
       "install": "git clone https://github.com/KimYx0207/AI-Coding-Guide-Zh.git",
       "functionCategory": "data-ai",
@@ -6632,7 +6632,7 @@
         "openclaw",
         "general"
       ],
-      "searchText": "ai-coding-guide-zh--ai-coding claude code + openclaw + codex \u4e2d\u6587\u6559\u7a0b | 39\u7bc7\u5b8c\u6574\u6559\u7a0b + 1\u5f20\u901f\u67e5\u5361 | 80\u4e07+\u5185\u5bb9\u91cf | 1500+\u5b9e\u64cd\u793a\u4f8b | ai coding / agent \u4e09\u7ebf\u5b66\u4e60\u8def\u5f84 kimyx0207/ai-coding-guide-zh git clone https://github.com/kimyx0207/ai-coding-guide-zh.git data-ai claude codex openclaw general"
+      "searchText": "ai-coding-guide-zh--ai-coding claude code + openclaw + codex 中文教程 | 39篇完整教程 + 1张速查卡 | 80万+内容量 | 1500+实操示例 | ai coding / agent 三线学习路径 kimyx0207/ai-coding-guide-zh git clone https://github.com/kimyx0207/ai-coding-guide-zh.git data-ai claude codex openclaw general"
     },
     {
       "name": "pinecone-python-client",
@@ -6822,7 +6822,7 @@
       "sourceAgent": "openclaw",
       "repo": "FreedomIntelligence/OpenClaw-Medical-Skills",
       "stars": 2777,
-      "desc": "The largest open-source medical AI skills library for OpenClaw\ud83e\udd9e.",
+      "desc": "The largest open-source medical AI skills library for OpenClaw🦞.",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills",
       "install": "pip install OpenClaw-Medical-Skills",
       "functionCategory": "data-ai",
@@ -6832,7 +6832,7 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "openclaw-medical-skills the largest open-source medical ai skills library for openclaw\ud83e\udd9e. freedomintelligence/openclaw-medical-skills pip install openclaw-medical-skills data-ai openclaw"
+      "searchText": "openclaw-medical-skills the largest open-source medical ai skills library for openclaw🦞. freedomintelligence/openclaw-medical-skills pip install openclaw-medical-skills data-ai openclaw"
     },
     {
       "name": "openkb",
@@ -6894,7 +6894,7 @@
       "sourceAgent": "general",
       "repo": "liyupi/yu-ai-agent",
       "stars": 2443,
-      "desc": "\u7f16\u7a0b\u5bfc\u822a AI \u5f00\u53d1\u5b9e\u6218\u65b0\u9879\u76ee\uff0c\u57fa\u4e8e Spring Boot 3 + Java 21 + Spring AI \u6784\u5efa AI \u604b\u7231\u5927\u5e08\u5e94\u7528\u548c ReAct \u6a21\u5f0f\u81ea\u4e3b\u89c4\u5212\u667a\u80fd\u4f53YuManus\uff0c\u8986\u76d6 AI \u5927\u6a21\u578b\u63a5\u5165\u3001Spring AI \u6838\u5fc3\u7279\u6027\u3001Prompt \u5de5\u7a0b\u548c\u4f18\u5316\u3001RAG \u68c0\u7d22\u589e\u5f3a\u3001\u5411\u91cf\u6570\u636e\u5e93\u3001Too",
+      "desc": "编程导航 AI 开发实战新项目，基于 Spring Boot 3 + Java 21 + Spring AI 构建 AI 恋爱大师应用和 ReAct 模式自主规划智能体YuManus，覆盖 AI 大模型接入、Spring AI 核心特性、Prompt 工程和优化、RAG 检索增强、向量数据库、Too",
       "url": "https://github.com/liyupi/yu-ai-agent",
       "install": "git clone https://github.com/liyupi/yu-ai-agent.git",
       "functionCategory": "data-ai",
@@ -6904,7 +6904,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "yu-ai-agent--ai-model \u7f16\u7a0b\u5bfc\u822a ai \u5f00\u53d1\u5b9e\u6218\u65b0\u9879\u76ee\uff0c\u57fa\u4e8e spring boot 3 + java 21 + spring ai \u6784\u5efa ai \u604b\u7231\u5927\u5e08\u5e94\u7528\u548c react \u6a21\u5f0f\u81ea\u4e3b\u89c4\u5212\u667a\u80fd\u4f53yumanus\uff0c\u8986\u76d6 ai \u5927\u6a21\u578b\u63a5\u5165\u3001spring ai \u6838\u5fc3\u7279\u6027\u3001prompt \u5de5\u7a0b\u548c\u4f18\u5316\u3001rag \u68c0\u7d22\u589e\u5f3a\u3001\u5411\u91cf\u6570\u636e\u5e93\u3001too liyupi/yu-ai-agent git clone https://github.com/liyupi/yu-ai-agent.git data-ai general"
+      "searchText": "yu-ai-agent--ai-model 编程导航 ai 开发实战新项目，基于 spring boot 3 + java 21 + spring ai 构建 ai 恋爱大师应用和 react 模式自主规划智能体yumanus，覆盖 ai 大模型接入、spring ai 核心特性、prompt 工程和优化、rag 检索增强、向量数据库、too liyupi/yu-ai-agent git clone https://github.com/liyupi/yu-ai-agent.git data-ai general"
     },
     {
       "name": "dictionary-of-ai-coding--ai-coding",
@@ -6966,7 +6966,7 @@
       "sourceAgent": "other",
       "repo": "foryourhealth111-pixel/Vibe-Skills",
       "stars": 2350,
-      "desc": "Vibe-Skills is an all-in-one AI skills package. It seamlessly integrates expert-level capabilities and context management into a general-purpose skills package\uff0c enabling any AI agent to instantly u...",
+      "desc": "Vibe-Skills is an all-in-one AI skills package. It seamlessly integrates expert-level capabilities and context management into a general-purpose skills package， enabling any AI agent to instantly u...",
       "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
       "install": "git clone https://github.com/foryourhealth111-pixel/Vibe-Skills.git",
       "functionCategory": "data-ai",
@@ -6976,7 +6976,7 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "vibe-skills vibe-skills is an all-in-one ai skills package. it seamlessly integrates expert-level capabilities and context management into a general-purpose skills package\uff0c enabling any ai agent to instantly upgrade its functionality\u2014eliminating the fr foryourhealth111-pixel/vibe-skills git clone https://github.com/foryourhealth111-pixel/vibe-skills.git data-ai other"
+      "searchText": "vibe-skills vibe-skills is an all-in-one ai skills package. it seamlessly integrates expert-level capabilities and context management into a general-purpose skills package， enabling any ai agent to instantly upgrade its functionality—eliminating the fr foryourhealth111-pixel/vibe-skills git clone https://github.com/foryourhealth111-pixel/vibe-skills.git data-ai other"
     },
     {
       "name": "cc-skills-golang",
@@ -6984,7 +6984,7 @@
       "sourceAgent": "other",
       "repo": "samber/cc-skills-golang",
       "stars": 2325,
-      "desc": "\ud83e\uddd1\u200d\ud83c\udfa8 A collection of Golang agentic skills that works",
+      "desc": "🧑‍🎨 A collection of Golang agentic skills that works",
       "url": "https://github.com/samber/cc-skills-golang",
       "install": "go install github.com/samber/cc-skills-golang@latest",
       "functionCategory": "data-ai",
@@ -6994,7 +6994,7 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "cc-skills-golang \ud83e\uddd1\u200d\ud83c\udfa8 a collection of golang agentic skills that works samber/cc-skills-golang go install github.com/samber/cc-skills-golang@latest data-ai other"
+      "searchText": "cc-skills-golang 🧑‍🎨 a collection of golang agentic skills that works samber/cc-skills-golang go install github.com/samber/cc-skills-golang@latest data-ai other"
     },
     {
       "name": "gemini-mcp-tool",
@@ -7038,7 +7038,7 @@
       "sourceAgent": "multi",
       "repo": "codejunkie99/agentic-stack",
       "stars": 2141,
-      "desc": "One brain, many harnesses. Portable .agent/ folder (memory + skills + protocols) that plugs into Claude Code, Cursor, Windsurf, OpenCode, OpenClaw, Hermes, or DIY Python \u2014 and keeps its knowledge w...",
+      "desc": "One brain, many harnesses. Portable .agent/ folder (memory + skills + protocols) that plugs into Claude Code, Cursor, Windsurf, OpenCode, OpenClaw, Hermes, or DIY Python — and keeps its knowledge w...",
       "url": "https://github.com/codejunkie99/agentic-stack",
       "install": "git clone https://github.com/codejunkie99/agentic-stack.git",
       "functionCategory": "data-ai",
@@ -7052,7 +7052,7 @@
         "opencode",
         "openclaw"
       ],
-      "searchText": "agentic-stack one brain, many harnesses. portable .agent/ folder (memory + skills + protocols) that plugs into claude code, cursor, windsurf, opencode, openclaw, hermes, or diy python \u2014 and keeps its knowledge when you switch. codejunkie99/agentic-stack git clone https://github.com/codejunkie99/agentic-stack.git data-ai claude cursor hermes opencode openclaw"
+      "searchText": "agentic-stack one brain, many harnesses. portable .agent/ folder (memory + skills + protocols) that plugs into claude code, cursor, windsurf, opencode, openclaw, hermes, or diy python — and keeps its knowledge when you switch. codejunkie99/agentic-stack git clone https://github.com/codejunkie99/agentic-stack.git data-ai claude cursor hermes opencode openclaw"
     },
     {
       "name": "forge",
@@ -7150,7 +7150,7 @@
       "sourceAgent": "fissure",
       "repo": "ainfosec/FISSURE",
       "stars": 1975,
-      "desc": "The RF and reverse engineering framework for everyone. Follow and \u2605 to show your support!",
+      "desc": "The RF and reverse engineering framework for everyone. Follow and ★ to show your support!",
       "url": "https://github.com/ainfosec/FISSURE",
       "install": "",
       "functionCategory": "data-ai",
@@ -7160,7 +7160,7 @@
       "supportedAgents": [
         "fissure"
       ],
-      "searchText": "fissure the rf and reverse engineering framework for everyone. follow and \u2605 to show your support! ainfosec/fissure data-ai fissure"
+      "searchText": "fissure the rf and reverse engineering framework for everyone. follow and ★ to show your support! ainfosec/fissure data-ai fissure"
     },
     {
       "name": "DemoGPT",
@@ -7222,7 +7222,7 @@
       "sourceAgent": "general",
       "repo": "liyupi/yu-ai-code-mother",
       "stars": 1796,
-      "desc": "\u7f16\u7a0b\u5bfc\u822a AI + \u5fae\u670d\u52a1\u5168\u6808\u65b0\u9879\u76ee\uff0c\u57fa\u4e8e Spring Boot 3 + LangChain4j \u7684\u5927\u5382 AI \u5e94\u7528\u751f\u6210\u5e73\u53f0\u3002",
+      "desc": "编程导航 AI + 微服务全栈新项目，基于 Spring Boot 3 + LangChain4j 的大厂 AI 应用生成平台。",
       "url": "https://github.com/liyupi/yu-ai-code-mother",
       "install": "git clone https://github.com/liyupi/yu-ai-code-mother",
       "functionCategory": "data-ai",
@@ -7232,7 +7232,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "yu-ai-code-mother \u7f16\u7a0b\u5bfc\u822a ai + \u5fae\u670d\u52a1\u5168\u6808\u65b0\u9879\u76ee\uff0c\u57fa\u4e8e spring boot 3 + langchain4j \u7684\u5927\u5382 ai \u5e94\u7528\u751f\u6210\u5e73\u53f0\u3002 liyupi/yu-ai-code-mother git clone https://github.com/liyupi/yu-ai-code-mother data-ai general"
+      "searchText": "yu-ai-code-mother 编程导航 ai + 微服务全栈新项目，基于 spring boot 3 + langchain4j 的大厂 ai 应用生成平台。 liyupi/yu-ai-code-mother git clone https://github.com/liyupi/yu-ai-code-mother data-ai general"
     },
     {
       "name": "kraken",
@@ -7312,7 +7312,7 @@
       "sourceAgent": "general",
       "repo": "PavelGrigoryevDS/awesome-data-analysis",
       "stars": 1496,
-      "desc": "\ud83d\ude80 500+ curated resources for Data Analysis & Data Science: Python, SQL, Statistics, ML, AI, Visualization, Cheatsheets, Roadmaps, Interview Prep. For beginne...",
+      "desc": "🚀 500+ curated resources for Data Analysis & Data Science: Python, SQL, Statistics, ML, AI, Visualization, Cheatsheets, Roadmaps, Interview Prep. For beginne...",
       "url": "https://github.com/PavelGrigoryevDS/awesome-data-analysis",
       "install": "",
       "functionCategory": "data-ai",
@@ -7322,7 +7322,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "awesome-data-analysis \ud83d\ude80 500+ curated resources for data analysis & data science: python, sql, statistics, ml, ai, visualization, cheatsheets, roadmaps, interview prep. for beginne... pavelgrigoryevds/awesome-data-analysis data-ai general"
+      "searchText": "awesome-data-analysis 🚀 500+ curated resources for data analysis & data science: python, sql, statistics, ml, ai, visualization, cheatsheets, roadmaps, interview prep. for beginne... pavelgrigoryevds/awesome-data-analysis data-ai general"
     },
     {
       "name": "docstrange",
@@ -7421,7 +7421,7 @@
       "sourceAgent": "general",
       "repo": "stormzhang/ai-coding-guide",
       "stars": 1368,
-      "desc": "\u300c\u53ef\u80fd\u662f\u5168\u7f51\u6700\u5168\u7684\u300d\ud83d\udcd8 \u9762\u5411\u5c0f\u767d\u7684 AI \u7f16\u7a0b CLI \u4e2d\u6587\u6559\u7a0b\uff1aClaude Code + Codex 92 \u7bc7\u7cbe\u4fee",
+      "desc": "「可能是全网最全的」📘 面向小白的 AI 编程 CLI 中文教程：Claude Code + Codex 92 篇精修",
       "url": "https://github.com/stormzhang/ai-coding-guide",
       "install": "git clone https://github.com/stormzhang/ai-coding-guide.git",
       "functionCategory": "data-ai",
@@ -7433,7 +7433,7 @@
         "codex",
         "general"
       ],
-      "searchText": "ai-coding-guide--ai-coding \u300c\u53ef\u80fd\u662f\u5168\u7f51\u6700\u5168\u7684\u300d\ud83d\udcd8 \u9762\u5411\u5c0f\u767d\u7684 ai \u7f16\u7a0b cli \u4e2d\u6587\u6559\u7a0b\uff1aclaude code + codex 92 \u7bc7\u7cbe\u4fee stormzhang/ai-coding-guide git clone https://github.com/stormzhang/ai-coding-guide.git data-ai claude codex general"
+      "searchText": "ai-coding-guide--ai-coding 「可能是全网最全的」📘 面向小白的 ai 编程 cli 中文教程：claude code + codex 92 篇精修 stormzhang/ai-coding-guide git clone https://github.com/stormzhang/ai-coding-guide.git data-ai claude codex general"
     },
     {
       "name": "opencode-supermemory",
@@ -7588,7 +7588,7 @@
       "sourceAgent": "general",
       "repo": "easychen/ai-self-coding-book",
       "stars": 905,
-      "desc": "\u300a\u65b9\u7cd6AI\u81ea\u7f16\u7a0b\u5165\u95e8\u300b\u7528\u81ea\u7136\u8bed\u8a00\u548c AI \u5199\u51fa\u590d\u6742\u7684\u5546\u4e1a\u5e94\u7528\u3002Here\u2019s how.",
+      "desc": "《方糖AI自编程入门》用自然语言和 AI 写出复杂的商业应用。Here’s how.",
       "url": "https://github.com/easychen/ai-self-coding-book",
       "install": "git clone https://github.com/easychen/ai-self-coding-book.git",
       "functionCategory": "data-ai",
@@ -7598,7 +7598,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "ai-self-coding-book--ai-coding \u300a\u65b9\u7cd6ai\u81ea\u7f16\u7a0b\u5165\u95e8\u300b\u7528\u81ea\u7136\u8bed\u8a00\u548c ai \u5199\u51fa\u590d\u6742\u7684\u5546\u4e1a\u5e94\u7528\u3002here\u2019s how. easychen/ai-self-coding-book git clone https://github.com/easychen/ai-self-coding-book.git data-ai general"
+      "searchText": "ai-self-coding-book--ai-coding 《方糖ai自编程入门》用自然语言和 ai 写出复杂的商业应用。here’s how. easychen/ai-self-coding-book git clone https://github.com/easychen/ai-self-coding-book.git data-ai general"
     },
     {
       "name": "awesome-android-agent-skills",
@@ -7737,7 +7737,7 @@
       "sourceAgent": "general",
       "repo": "unit-mesh/build-your-ai-coding-assistant",
       "stars": 718,
-      "desc": "\u300aAI \u7814\u53d1\u63d0\u6548\uff1a\u6784\u5efa AI \u8f85\u52a9\u7f16\u7801\u52a9\u624b\u300b \u2014\u2014 \u4ecb\u7ecd\u5982\u4f55 DIY \u4e00\u4e2a\u7aef\u5230\u7aef\uff08\u4ece IDE  \u63d2\u4ef6\u3001\u6a21\u578b\u9009\u578b\u3001\u6570\u636e\u96c6\u6784\u5efa\u5230\u6a21\u578b\u5fae\u8c03\uff09\u7684 AI \u8f85\u52a9\u7f16\u7a0b\u5de5\u5177\uff0c\u7c7b\u4f3c\u4e8e GitHub Copilot\u3001JetBrains AI Assistant\u3001AutoDev \u7b49\u3002",
+      "desc": "《AI 研发提效：构建 AI 辅助编码助手》 —— 介绍如何 DIY 一个端到端（从 IDE  插件、模型选型、数据集构建到模型微调）的 AI 辅助编程工具，类似于 GitHub Copilot、JetBrains AI Assistant、AutoDev 等。",
       "url": "https://github.com/unit-mesh/build-your-ai-coding-assistant",
       "install": "git clone https://github.com/unit-mesh/build-your-ai-coding-assistant.git",
       "functionCategory": "data-ai",
@@ -7748,7 +7748,7 @@
         "copilot",
         "general"
       ],
-      "searchText": "build-your-ai-coding-assistant--ai-coding \u300aai \u7814\u53d1\u63d0\u6548\uff1a\u6784\u5efa ai \u8f85\u52a9\u7f16\u7801\u52a9\u624b\u300b \u2014\u2014 \u4ecb\u7ecd\u5982\u4f55 diy \u4e00\u4e2a\u7aef\u5230\u7aef\uff08\u4ece ide  \u63d2\u4ef6\u3001\u6a21\u578b\u9009\u578b\u3001\u6570\u636e\u96c6\u6784\u5efa\u5230\u6a21\u578b\u5fae\u8c03\uff09\u7684 ai \u8f85\u52a9\u7f16\u7a0b\u5de5\u5177\uff0c\u7c7b\u4f3c\u4e8e github copilot\u3001jetbrains ai assistant\u3001autodev \u7b49\u3002 unit-mesh/build-your-ai-coding-assistant git clone https://github.com/unit-mesh/build-your-ai-coding-assistant.git data-ai copilot general"
+      "searchText": "build-your-ai-coding-assistant--ai-coding 《ai 研发提效：构建 ai 辅助编码助手》 —— 介绍如何 diy 一个端到端（从 ide  插件、模型选型、数据集构建到模型微调）的 ai 辅助编程工具，类似于 github copilot、jetbrains ai assistant、autodev 等。 unit-mesh/build-your-ai-coding-assistant git clone https://github.com/unit-mesh/build-your-ai-coding-assistant.git data-ai copilot general"
     },
     {
       "name": "ai-code-helper--ai-model",
@@ -7756,7 +7756,7 @@
       "sourceAgent": "general",
       "repo": "liyupi/ai-code-helper",
       "stars": 702,
-      "desc": "2025 \u5e74 AI \u7f16\u7a0b\u52a9\u624b\u5b9e\u6218\u9879\u76ee\uff08\u4f5c\u8005\uff1a\u7a0b\u5e8f\u5458\u9c7c\u76ae\uff09\uff0c\u57fa\u4e8e Spring Boot 3.5 + Java 21 + LangChain4j + AI \u6784\u5efa\u667a\u80fd\u7f16\u7a0b\u5b66\u4e60\u4e0e\u6c42\u804c\u8f85\u5bfc\u673a\u5668\u4eba\uff0c\u8986\u76d6 AI \u5927\u6a21\u578b\u63a5\u5165\u3001LangChain4j \u6838\u5fc3\u7279\u6027\u3001\u6d41\u5f0f\u5bf9\u8bdd\u3001Prompt \u5de5\u7a0b\u3001RAG \u68c0\u7d22\u589e\u5f3a\u3001\u5411\u91cf\u6570",
+      "desc": "2025 年 AI 编程助手实战项目（作者：程序员鱼皮），基于 Spring Boot 3.5 + Java 21 + LangChain4j + AI 构建智能编程学习与求职辅导机器人，覆盖 AI 大模型接入、LangChain4j 核心特性、流式对话、Prompt 工程、RAG 检索增强、向量数",
       "url": "https://github.com/liyupi/ai-code-helper",
       "install": "npm i ai-code-helper",
       "functionCategory": "data-ai",
@@ -7766,7 +7766,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "ai-code-helper--ai-model 2025 \u5e74 ai \u7f16\u7a0b\u52a9\u624b\u5b9e\u6218\u9879\u76ee\uff08\u4f5c\u8005\uff1a\u7a0b\u5e8f\u5458\u9c7c\u76ae\uff09\uff0c\u57fa\u4e8e spring boot 3.5 + java 21 + langchain4j + ai \u6784\u5efa\u667a\u80fd\u7f16\u7a0b\u5b66\u4e60\u4e0e\u6c42\u804c\u8f85\u5bfc\u673a\u5668\u4eba\uff0c\u8986\u76d6 ai \u5927\u6a21\u578b\u63a5\u5165\u3001langchain4j \u6838\u5fc3\u7279\u6027\u3001\u6d41\u5f0f\u5bf9\u8bdd\u3001prompt \u5de5\u7a0b\u3001rag \u68c0\u7d22\u589e\u5f3a\u3001\u5411\u91cf\u6570 liyupi/ai-code-helper npm i ai-code-helper data-ai general"
+      "searchText": "ai-code-helper--ai-model 2025 年 ai 编程助手实战项目（作者：程序员鱼皮），基于 spring boot 3.5 + java 21 + langchain4j + ai 构建智能编程学习与求职辅导机器人，覆盖 ai 大模型接入、langchain4j 核心特性、流式对话、prompt 工程、rag 检索增强、向量数 liyupi/ai-code-helper npm i ai-code-helper data-ai general"
     },
     {
       "name": "vibe-coding--ai-coding",
@@ -7774,7 +7774,7 @@
       "sourceAgent": "general",
       "repo": "LingyiChen-AI/vibe-coding",
       "stars": 669,
-      "desc": "AI \u65f6\u4ee3\u7684 Vibe Coding \u5b9e\u8df5\uff1a\u4f7f\u7528 Claude Code \u4ece\u96f6\u5f00\u53d1 AI \u6f2b\u5267\u751f\u6210\u5e73\u53f0\u7684\u5b8c\u6574\u8bb0\u5f55\uff0c\u6db5\u76d6\u6280\u672f\u9009\u578b\u3001AI \u9a71\u52a8\u5f00\u53d1\u3001UI \u4f18\u5316\u4e0e\u529f\u80fd\u8fed\u4ee3\u5168\u6d41\u7a0b\u3002",
+      "desc": "AI 时代的 Vibe Coding 实践：使用 Claude Code 从零开发 AI 漫剧生成平台的完整记录，涵盖技术选型、AI 驱动开发、UI 优化与功能迭代全流程。",
       "url": "https://github.com/LingyiChen-AI/vibe-coding",
       "install": "git clone https://github.com/LingyiChen-AI/vibe-coding.git",
       "functionCategory": "data-ai",
@@ -7785,7 +7785,7 @@
         "claude",
         "general"
       ],
-      "searchText": "vibe-coding--ai-coding ai \u65f6\u4ee3\u7684 vibe coding \u5b9e\u8df5\uff1a\u4f7f\u7528 claude code \u4ece\u96f6\u5f00\u53d1 ai \u6f2b\u5267\u751f\u6210\u5e73\u53f0\u7684\u5b8c\u6574\u8bb0\u5f55\uff0c\u6db5\u76d6\u6280\u672f\u9009\u578b\u3001ai \u9a71\u52a8\u5f00\u53d1\u3001ui \u4f18\u5316\u4e0e\u529f\u80fd\u8fed\u4ee3\u5168\u6d41\u7a0b\u3002 lingyichen-ai/vibe-coding git clone https://github.com/lingyichen-ai/vibe-coding.git data-ai claude general"
+      "searchText": "vibe-coding--ai-coding ai 时代的 vibe coding 实践：使用 claude code 从零开发 ai 漫剧生成平台的完整记录，涵盖技术选型、ai 驱动开发、ui 优化与功能迭代全流程。 lingyichen-ai/vibe-coding git clone https://github.com/lingyichen-ai/vibe-coding.git data-ai claude general"
     },
     {
       "name": "lift",
@@ -7829,7 +7829,7 @@
       "sourceAgent": "general",
       "repo": "Ar9av/PaperOrchestra",
       "stars": 597,
-      "desc": "An automated AI research-paper writer based on Google's PaperOrchestra \u2014 a skills-based benchmark.",
+      "desc": "An automated AI research-paper writer based on Google's PaperOrchestra — a skills-based benchmark.",
       "url": "https://github.com/Ar9av/PaperOrchestra",
       "install": "$skill-installer paperorchestra",
       "functionCategory": "data-ai",
@@ -7839,7 +7839,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "paperorchestra an automated ai research-paper writer based on google's paperorchestra \u2014 a skills-based benchmark. ar9av/paperorchestra $skill-installer paperorchestra data-ai general"
+      "searchText": "paperorchestra an automated ai research-paper writer based on google's paperorchestra — a skills-based benchmark. ar9av/paperorchestra $skill-installer paperorchestra data-ai general"
     },
     {
       "name": "aio-coding-hub--ai-coding",
@@ -7847,7 +7847,7 @@
       "sourceAgent": "general",
       "repo": "dyndynjyxa/aio-coding-hub",
       "stars": 593,
-      "desc": "\u4e00\u4e2aAll In One\u7684\u672c\u5730AI\u5de5\u5177, \u652f\u6301Win/Mac/Linux",
+      "desc": "一个All In One的本地AI工具, 支持Win/Mac/Linux",
       "url": "https://github.com/dyndynjyxa/aio-coding-hub",
       "install": "cargo install aio-coding-hub",
       "functionCategory": "data-ai",
@@ -7857,7 +7857,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "aio-coding-hub--ai-coding \u4e00\u4e2aall in one\u7684\u672c\u5730ai\u5de5\u5177, \u652f\u6301win/mac/linux dyndynjyxa/aio-coding-hub cargo install aio-coding-hub data-ai general"
+      "searchText": "aio-coding-hub--ai-coding 一个all in one的本地ai工具, 支持win/mac/linux dyndynjyxa/aio-coding-hub cargo install aio-coding-hub data-ai general"
     },
     {
       "name": "ai-agents-frameworks--agent-framework",
@@ -7865,7 +7865,7 @@
       "sourceAgent": "general",
       "repo": "martimfasantos/ai-agents-frameworks",
       "stars": 590,
-      "desc": "The ultimate playground to learn, experiment with, and compare modern open-source AI agent frameworks \u2014 from basics to production-ready setups.",
+      "desc": "The ultimate playground to learn, experiment with, and compare modern open-source AI agent frameworks — from basics to production-ready setups.",
       "url": "https://github.com/martimfasantos/ai-agents-frameworks",
       "install": "pip install ai-agents-frameworks",
       "functionCategory": "data-ai",
@@ -7875,7 +7875,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "ai-agents-frameworks--agent-framework the ultimate playground to learn, experiment with, and compare modern open-source ai agent frameworks \u2014 from basics to production-ready setups. martimfasantos/ai-agents-frameworks pip install ai-agents-frameworks data-ai general"
+      "searchText": "ai-agents-frameworks--agent-framework the ultimate playground to learn, experiment with, and compare modern open-source ai agent frameworks — from basics to production-ready setups. martimfasantos/ai-agents-frameworks pip install ai-agents-frameworks data-ai general"
     },
     {
       "name": "swarmvault",
@@ -7985,7 +7985,7 @@
       "sourceAgent": "multi",
       "repo": "JackyST0/awesome-agent-skills",
       "stars": 576,
-      "desc": "\ud83e\udd16 \u7cbe\u9009\u7684 AI Agent Skills \u5217\u8868\uff0c\u9002\u7528\u4e8e Cursor\u3001Claude Code\u3001GitHub Copilot \u7b49 AI \u7f16\u7a0b\u5de5\u5177",
+      "desc": "🤖 精选的 AI Agent Skills 列表，适用于 Cursor、Claude Code、GitHub Copilot 等 AI 编程工具",
       "url": "https://github.com/JackyST0/awesome-agent-skills",
       "install": "git clone https://github.com/JackyST0/awesome-agent-skills.git  # browse the awesome list",
       "functionCategory": "data-ai",
@@ -7997,7 +7997,7 @@
         "cursor",
         "copilot"
       ],
-      "searchText": "awesome-agent-skills \ud83e\udd16 \u7cbe\u9009\u7684 ai agent skills \u5217\u8868\uff0c\u9002\u7528\u4e8e cursor\u3001claude code\u3001github copilot \u7b49 ai \u7f16\u7a0b\u5de5\u5177 jackyst0/awesome-agent-skills git clone https://github.com/jackyst0/awesome-agent-skills.git  # browse the awesome list data-ai claude cursor copilot"
+      "searchText": "awesome-agent-skills 🤖 精选的 ai agent skills 列表，适用于 cursor、claude code、github copilot 等 ai 编程工具 jackyst0/awesome-agent-skills git clone https://github.com/jackyst0/awesome-agent-skills.git  # browse the awesome list data-ai claude cursor copilot"
     },
     {
       "name": "kasetto",
@@ -8068,7 +8068,7 @@
       "sourceAgent": "general",
       "repo": "Decade-qiu/CookHero",
       "stars": 566,
-      "desc": "CookHero\u662f\u4e00\u4e2a\u57fa\u4e8eLLM+RAG+Agent+\u591a\u6a21\u6001\u7684\u667a\u80fd\u996e\u98df\u4e0e\u70f9\u996a\u7ba1\u7406\u5e73\u53f0",
+      "desc": "CookHero是一个基于LLM+RAG+Agent+多模态的智能饮食与烹饪管理平台",
       "url": "https://github.com/Decade-qiu/CookHero",
       "install": "git clone https://github.com/Decade-qiu/CookHero",
       "functionCategory": "data-ai",
@@ -8078,7 +8078,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "cookhero cookhero\u662f\u4e00\u4e2a\u57fa\u4e8ellm+rag+agent+\u591a\u6a21\u6001\u7684\u667a\u80fd\u996e\u98df\u4e0e\u70f9\u996a\u7ba1\u7406\u5e73\u53f0 decade-qiu/cookhero git clone https://github.com/decade-qiu/cookhero data-ai general"
+      "searchText": "cookhero cookhero是一个基于llm+rag+agent+多模态的智能饮食与烹饪管理平台 decade-qiu/cookhero git clone https://github.com/decade-qiu/cookhero data-ai general"
     },
     {
       "name": "agentkits-marketing",
@@ -8142,7 +8142,7 @@
       "sourceAgent": "general",
       "repo": "chubbyguan/chubbyskills",
       "stars": 484,
-      "desc": "\u628a\u4e2d\u6587\u5168\u6e20\u9053\u5185\u5bb9\uff08\u6296\u97f3/B\u7ad9/\u5c0f\u7ea2\u4e66/\u516c\u4f17\u53f7/X/\u64ad\u5ba2\uff09\u91c7\u96c6\u8fdb\u4e2a\u4eba\u77e5\u8bc6\u5e93\u768413\u4e2aAI Skill\uff0c\u9644\u5e26\u77e5\u8bc6\u5e93MCP server\u3002",
+      "desc": "把中文全渠道内容（抖音/B站/小红书/公众号/X/播客）采集进个人知识库的13个AI Skill，附带知识库MCP server。",
       "url": "https://github.com/chubbyguan/chubbyskills",
       "install": "$skill-installer chubbyskills",
       "functionCategory": "data-ai",
@@ -8152,7 +8152,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "chubbyskills \u628a\u4e2d\u6587\u5168\u6e20\u9053\u5185\u5bb9\uff08\u6296\u97f3/b\u7ad9/\u5c0f\u7ea2\u4e66/\u516c\u4f17\u53f7/x/\u64ad\u5ba2\uff09\u91c7\u96c6\u8fdb\u4e2a\u4eba\u77e5\u8bc6\u5e93\u768413\u4e2aai skill\uff0c\u9644\u5e26\u77e5\u8bc6\u5e93mcp server\u3002 chubbyguan/chubbyskills $skill-installer chubbyskills data-ai general"
+      "searchText": "chubbyskills 把中文全渠道内容（抖音/b站/小红书/公众号/x/播客）采集进个人知识库的13个ai skill，附带知识库mcp server。 chubbyguan/chubbyskills $skill-installer chubbyskills data-ai general"
     },
     {
       "name": "robloxstudio-mcp--ai-tool",
@@ -8214,7 +8214,7 @@
       "sourceAgent": "general",
       "repo": "heider-x/vela",
       "stars": 434,
-      "desc": "AI-powered IDE for novel writing \u2014 local LLM + RAG, privacy-first, BYOK. For web fiction authors and creative writers.",
+      "desc": "AI-powered IDE for novel writing — local LLM + RAG, privacy-first, BYOK. For web fiction authors and creative writers.",
       "url": "https://github.com/heider-x/vela",
       "install": "npm i vela",
       "functionCategory": "data-ai",
@@ -8224,7 +8224,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "vela--ai-tool ai-powered ide for novel writing \u2014 local llm + rag, privacy-first, byok. for web fiction authors and creative writers. heider-x/vela npm i vela data-ai general"
+      "searchText": "vela--ai-tool ai-powered ide for novel writing — local llm + rag, privacy-first, byok. for web fiction authors and creative writers. heider-x/vela npm i vela data-ai general"
     },
     {
       "name": "agentregistry",
@@ -8304,7 +8304,7 @@
       "sourceAgent": "awesome-data-centric-ai",
       "repo": "Data-Centric-AI-Community/awesome-data-centric-ai",
       "stars": 352,
-      "desc": "Open-Source Software, Tutorials, and Research on Data-Centric AI \ud83e\udd16",
+      "desc": "Open-Source Software, Tutorials, and Research on Data-Centric AI 🤖",
       "url": "https://github.com/Data-Centric-AI-Community/awesome-data-centric-ai",
       "install": "",
       "functionCategory": "data-ai",
@@ -8314,7 +8314,7 @@
       "supportedAgents": [
         "awesome-data-centric-ai"
       ],
-      "searchText": "awesome-data-centric-ai open-source software, tutorials, and research on data-centric ai \ud83e\udd16 data-centric-ai-community/awesome-data-centric-ai data-ai awesome-data-centric-ai"
+      "searchText": "awesome-data-centric-ai open-source software, tutorials, and research on data-centric ai 🤖 data-centric-ai-community/awesome-data-centric-ai data-ai awesome-data-centric-ai"
     },
     {
       "name": "databricks_bootcamp_2026",
@@ -8358,7 +8358,7 @@
       "sourceAgent": "mlnotify",
       "repo": "aporia-ai/mlnotify",
       "stars": 343,
-      "desc": "\ud83d\udd14 No need to keep checking your training - just one import line and you'll know the second it's done.",
+      "desc": "🔔 No need to keep checking your training - just one import line and you'll know the second it's done.",
       "url": "https://github.com/aporia-ai/mlnotify",
       "install": "",
       "functionCategory": "data-ai",
@@ -8368,7 +8368,7 @@
       "supportedAgents": [
         "mlnotify"
       ],
-      "searchText": "mlnotify \ud83d\udd14 no need to keep checking your training - just one import line and you'll know the second it's done. aporia-ai/mlnotify data-ai mlnotify"
+      "searchText": "mlnotify 🔔 no need to keep checking your training - just one import line and you'll know the second it's done. aporia-ai/mlnotify data-ai mlnotify"
     },
     {
       "name": "awesome-llm4security",
@@ -8412,7 +8412,7 @@
       "sourceAgent": "awesome-ai-persona-skills",
       "repo": "momozi1996/awesome-ai-persona-skills",
       "stars": 331,
-      "desc": "\u5168\u7f51\u6700\u5168\u7684\u3001\u6301\u7eed\u66f4\u65b0\u7684\u3001\u6700\u706b\u7206\u7684 100+ \u4eba\u683c \u84b8\u998fskills \u5408\u96c6\uff5c \u591aagent\u7cfb\u7edf \uff5c\u540d\u4eba/\u5bfc\u6f14/\u5929\u6daf\u5927\u795e/\u53e4\u7c4d/\u4e8c\u6b21\u5143/\u804c\u573a/\u60c5\u611f\u5168\u54c1\u7c7b",
+      "desc": "全网最全的、持续更新的、最火爆的 100+ 人格 蒸馏skills 合集｜ 多agent系统 ｜名人/导演/天涯大神/古籍/二次元/职场/情感全品类",
       "url": "https://github.com/momozi1996/awesome-ai-persona-skills",
       "install": "",
       "functionCategory": "data-ai",
@@ -8422,7 +8422,7 @@
       "supportedAgents": [
         "awesome-ai-persona-skills"
       ],
-      "searchText": "awesome-ai-persona-skills \u5168\u7f51\u6700\u5168\u7684\u3001\u6301\u7eed\u66f4\u65b0\u7684\u3001\u6700\u706b\u7206\u7684 100+ \u4eba\u683c \u84b8\u998fskills \u5408\u96c6\uff5c \u591aagent\u7cfb\u7edf \uff5c\u540d\u4eba/\u5bfc\u6f14/\u5929\u6daf\u5927\u795e/\u53e4\u7c4d/\u4e8c\u6b21\u5143/\u804c\u573a/\u60c5\u611f\u5168\u54c1\u7c7b momozi1996/awesome-ai-persona-skills data-ai awesome-ai-persona-skills"
+      "searchText": "awesome-ai-persona-skills 全网最全的、持续更新的、最火爆的 100+ 人格 蒸馏skills 合集｜ 多agent系统 ｜名人/导演/天涯大神/古籍/二次元/职场/情感全品类 momozi1996/awesome-ai-persona-skills data-ai awesome-ai-persona-skills"
     },
     {
       "name": "NBLM2PPTX--ai-tool",
@@ -8539,7 +8539,7 @@
       "sourceAgent": "general",
       "repo": "modelscope/Awesome-Vibe-Research",
       "stars": 260,
-      "desc": "An open, collaboratively-built repository for AI-assisted scientific research \u2014 collecting and curating tools and resources.",
+      "desc": "An open, collaboratively-built repository for AI-assisted scientific research — collecting and curating tools and resources.",
       "url": "https://github.com/modelscope/Awesome-Vibe-Research",
       "install": "git clone https://github.com/modelscope/Awesome-Vibe-Research",
       "functionCategory": "data-ai",
@@ -8549,7 +8549,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "awesome-vibe-research an open, collaboratively-built repository for ai-assisted scientific research \u2014 collecting and curating tools and resources. modelscope/awesome-vibe-research git clone https://github.com/modelscope/awesome-vibe-research data-ai general"
+      "searchText": "awesome-vibe-research an open, collaboratively-built repository for ai-assisted scientific research — collecting and curating tools and resources. modelscope/awesome-vibe-research git clone https://github.com/modelscope/awesome-vibe-research data-ai general"
     },
     {
       "name": "sample-agentic-frameworks-on-aws--agent-framework",
@@ -8630,7 +8630,7 @@
       "sourceAgent": "computer-use-linux",
       "repo": "agent-sh/computer-use-linux",
       "stars": 222,
-      "desc": "Linux desktop control over MCP \u2014 AT-SPI, GNOME Shell, Wayland portals, ydotool",
+      "desc": "Linux desktop control over MCP — AT-SPI, GNOME Shell, Wayland portals, ydotool",
       "url": "https://github.com/agent-sh/computer-use-linux",
       "install": "",
       "functionCategory": "data-ai",
@@ -8640,7 +8640,7 @@
       "supportedAgents": [
         "computer-use-linux"
       ],
-      "searchText": "computer-use-linux linux desktop control over mcp \u2014 at-spi, gnome shell, wayland portals, ydotool agent-sh/computer-use-linux data-ai computer-use-linux"
+      "searchText": "computer-use-linux linux desktop control over mcp — at-spi, gnome shell, wayland portals, ydotool agent-sh/computer-use-linux data-ai computer-use-linux"
     },
     {
       "name": "repo-to-text",
@@ -8666,7 +8666,7 @@
       "sourceAgent": "general",
       "repo": "AIScientists-Dev/Caliper",
       "stars": 192,
-      "desc": "An AI research analyst that knows when to trust itself \u2014 a calibrated, risk-controlled, tool-using AI.",
+      "desc": "An AI research analyst that knows when to trust itself — a calibrated, risk-controlled, tool-using AI.",
       "url": "https://github.com/AIScientists-Dev/Caliper",
       "install": "pip install caliper-ai",
       "functionCategory": "data-ai",
@@ -8676,7 +8676,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "caliper an ai research analyst that knows when to trust itself \u2014 a calibrated, risk-controlled, tool-using ai. aiscientists-dev/caliper pip install caliper-ai data-ai general"
+      "searchText": "caliper an ai research analyst that knows when to trust itself — a calibrated, risk-controlled, tool-using ai. aiscientists-dev/caliper pip install caliper-ai data-ai general"
     },
     {
       "name": "awesomeAgentskills",
@@ -8684,7 +8684,7 @@
       "sourceAgent": "claude",
       "repo": "littleben/awesomeAgentskills",
       "stars": 182,
-      "desc": "A curated collection of skills for Claude Code and other AI agents | \u7cbe\u9009\u7684 Claude Code \u548c\u5176\u4ed6 AI \u667a\u80fd\u4f53\u6280\u80fd\u96c6\u5408",
+      "desc": "A curated collection of skills for Claude Code and other AI agents | 精选的 Claude Code 和其他 AI 智能体技能集合",
       "url": "https://github.com/littleben/awesomeAgentskills",
       "install": "git clone https://github.com/littleben/awesomeAgentskills.git  # browse the awesome list",
       "functionCategory": "data-ai",
@@ -8694,7 +8694,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "awesomeagentskills a curated collection of skills for claude code and other ai agents | \u7cbe\u9009\u7684 claude code \u548c\u5176\u4ed6 ai \u667a\u80fd\u4f53\u6280\u80fd\u96c6\u5408 littleben/awesomeagentskills git clone https://github.com/littleben/awesomeagentskills.git  # browse the awesome list data-ai claude"
+      "searchText": "awesomeagentskills a curated collection of skills for claude code and other ai agents | 精选的 claude code 和其他 ai 智能体技能集合 littleben/awesomeagentskills git clone https://github.com/littleben/awesomeagentskills.git  # browse the awesome list data-ai claude"
     },
     {
       "name": "atomicmemory",
@@ -8720,7 +8720,7 @@
       "sourceAgent": "general",
       "repo": "webmaxru/awesome-microsoft-agent-framework",
       "stars": 156,
-      "desc": "\ud83d\ude0e Awesome list of Microsoft Agent Framework resources",
+      "desc": "😎 Awesome list of Microsoft Agent Framework resources",
       "url": "https://github.com/webmaxru/awesome-microsoft-agent-framework",
       "install": "git clone https://github.com/webmaxru/awesome-microsoft-agent-framework.git",
       "functionCategory": "data-ai",
@@ -8730,7 +8730,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "awesome-microsoft-agent-framework--agent-framework \ud83d\ude0e awesome list of microsoft agent framework resources webmaxru/awesome-microsoft-agent-framework git clone https://github.com/webmaxru/awesome-microsoft-agent-framework.git data-ai general"
+      "searchText": "awesome-microsoft-agent-framework--agent-framework 😎 awesome list of microsoft agent framework resources webmaxru/awesome-microsoft-agent-framework git clone https://github.com/webmaxru/awesome-microsoft-agent-framework.git data-ai general"
     },
     {
       "name": "agentic-engineering-framework--agent-framework",
@@ -8738,7 +8738,7 @@
       "sourceAgent": "general",
       "repo": "davidYichengWei/agentic-engineering-framework",
       "stars": 148,
-      "desc": "\u5f00\u7bb1\u5373\u7528\u3001\u53ef\u6309\u9879\u76ee\u5b9a\u5236\u7684 AI Coding Agent Skills \u6846\u67b6\uff1a\u63d0\u4f9b\u901a\u7528 Workflow\u3001\u53ef\u6269\u5c55\u7684\u9879\u76ee\u79c1\u6709\u77e5\u8bc6\u3001\u81ea\u6211\u5b66\u4e60\u95ed\u73af\u548c\u95ee\u9898\u6392\u67e5\u80fd\u529b\uff0c\u9002\u914d\u4efb\u610f\u6280\u672f\u6808\u548c\u5de5\u7a0b\u573a\u666f\u3002\u517c\u5bb9\u4e3b\u6d41 Coding Agent\u3002",
+      "desc": "开箱即用、可按项目定制的 AI Coding Agent Skills 框架：提供通用 Workflow、可扩展的项目私有知识、自我学习闭环和问题排查能力，适配任意技术栈和工程场景。兼容主流 Coding Agent。",
       "url": "https://github.com/davidYichengWei/agentic-engineering-framework",
       "install": "git clone https://github.com/davidYichengWei/agentic-engineering-framework.git",
       "functionCategory": "data-ai",
@@ -8748,7 +8748,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "agentic-engineering-framework--agent-framework \u5f00\u7bb1\u5373\u7528\u3001\u53ef\u6309\u9879\u76ee\u5b9a\u5236\u7684 ai coding agent skills \u6846\u67b6\uff1a\u63d0\u4f9b\u901a\u7528 workflow\u3001\u53ef\u6269\u5c55\u7684\u9879\u76ee\u79c1\u6709\u77e5\u8bc6\u3001\u81ea\u6211\u5b66\u4e60\u95ed\u73af\u548c\u95ee\u9898\u6392\u67e5\u80fd\u529b\uff0c\u9002\u914d\u4efb\u610f\u6280\u672f\u6808\u548c\u5de5\u7a0b\u573a\u666f\u3002\u517c\u5bb9\u4e3b\u6d41 coding agent\u3002 davidyichengwei/agentic-engineering-framework git clone https://github.com/davidyichengwei/agentic-engineering-framework.git data-ai general"
+      "searchText": "agentic-engineering-framework--agent-framework 开箱即用、可按项目定制的 ai coding agent skills 框架：提供通用 workflow、可扩展的项目私有知识、自我学习闭环和问题排查能力，适配任意技术栈和工程场景。兼容主流 coding agent。 davidyichengwei/agentic-engineering-framework git clone https://github.com/davidyichengwei/agentic-engineering-framework.git data-ai general"
     },
     {
       "name": "awesome-agent-evolution",
@@ -8828,7 +8828,7 @@
       "sourceAgent": "general",
       "repo": "gaasher/Agent-Loop-Skills",
       "stars": 114,
-      "desc": "Loop until it's better \u2014 drop-in agentic loops (autoresearch, scientific writing, data analysis, code/SQL/prompt optimization).",
+      "desc": "Loop until it's better — drop-in agentic loops (autoresearch, scientific writing, data analysis, code/SQL/prompt optimization).",
       "url": "https://github.com/gaasher/Agent-Loop-Skills",
       "install": "$skill-installer agent-loop-skills",
       "functionCategory": "data-ai",
@@ -8838,7 +8838,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "agent-loop-skills loop until it's better \u2014 drop-in agentic loops (autoresearch, scientific writing, data analysis, code/sql/prompt optimization). gaasher/agent-loop-skills $skill-installer agent-loop-skills data-ai general"
+      "searchText": "agent-loop-skills loop until it's better — drop-in agentic loops (autoresearch, scientific writing, data analysis, code/sql/prompt optimization). gaasher/agent-loop-skills $skill-installer agent-loop-skills data-ai general"
     },
     {
       "name": "ocpp-rag",
@@ -8919,7 +8919,7 @@
       "sourceAgent": "general",
       "repo": "kanna12580/kk-knowledge-agent",
       "stars": 79,
-      "desc": "\u8f7b\u91cf\u7ea7\u77e5\u8bc6\u5e93\u7cfb\u7edf\uff0c\u652f\u6301\u77e5\u8bc6\u5e93\u7ba1\u7406\u3001\u6587\u672c\u4e0a\u4f20\u3001\u8bed\u4e49\u68c0\u7d22\u3001\u6d41\u5f0f\u8fd4\u56de\uff0c\u5c01\u88c5\u4e3aMCP Server",
+      "desc": "轻量级知识库系统，支持知识库管理、文本上传、语义检索、流式返回，封装为MCP Server",
       "url": "https://github.com/kanna12580/kk-knowledge-agent",
       "install": "git clone https://github.com/kanna12580/kk-knowledge-agent",
       "functionCategory": "data-ai",
@@ -8929,7 +8929,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "kk-knowledge-agent \u8f7b\u91cf\u7ea7\u77e5\u8bc6\u5e93\u7cfb\u7edf\uff0c\u652f\u6301\u77e5\u8bc6\u5e93\u7ba1\u7406\u3001\u6587\u672c\u4e0a\u4f20\u3001\u8bed\u4e49\u68c0\u7d22\u3001\u6d41\u5f0f\u8fd4\u56de\uff0c\u5c01\u88c5\u4e3amcp server kanna12580/kk-knowledge-agent git clone https://github.com/kanna12580/kk-knowledge-agent data-ai general"
+      "searchText": "kk-knowledge-agent 轻量级知识库系统，支持知识库管理、文本上传、语义检索、流式返回，封装为mcp server kanna12580/kk-knowledge-agent git clone https://github.com/kanna12580/kk-knowledge-agent data-ai general"
     },
     {
       "name": "lrage",
@@ -8955,7 +8955,7 @@
       "sourceAgent": "data-ai",
       "repo": "itsjwill/vanta",
       "stars": 69,
-      "desc": "Open source AI video engine built on Remotion. Voice cloning, AI avatars, animated captions, video editor, timeline, 100+ transitions, motion graphics, image editing, vector graphics \u2014 replaces $19...",
+      "desc": "Open source AI video engine built on Remotion. Voice cloning, AI avatars, animated captions, video editor, timeline, 100+ transitions, motion graphics, image editing, vector graphics — replaces $19...",
       "url": "https://github.com/itsjwill/vanta",
       "install": "",
       "functionCategory": "data-ai",
@@ -8965,7 +8965,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "vanta Open source AI video engine built on Remotion. Voice cloning, AI avatars, animated captions, video editor, timeline, 100+ transitions, motion graphics, image editing, vector graphics \u2014 replaces $190+/mo in Adobe CC + Remotion Pro + SaaS. Free Synthesia/Runway/Photoshop alternative. data-ai"
+      "searchText": "vanta Open source AI video engine built on Remotion. Voice cloning, AI avatars, animated captions, video editor, timeline, 100+ transitions, motion graphics, image editing, vector graphics — replaces $190+/mo in Adobe CC + Remotion Pro + SaaS. Free Synthesia/Runway/Photoshop alternative. data-ai"
     },
     {
       "name": "hermes-concurrent-agents",
@@ -9009,7 +9009,7 @@
       "sourceAgent": "multi",
       "repo": "xunhe730/ZotPilot",
       "stars": 64,
-      "desc": "AI-powered Zotero research assistant \u2014 MCP server + agent skill",
+      "desc": "AI-powered Zotero research assistant — MCP server + agent skill",
       "url": "https://github.com/xunhe730/ZotPilot",
       "install": "pip install ZotPilot",
       "functionCategory": "data-ai",
@@ -9025,7 +9025,7 @@
         "opencode",
         "openclaw"
       ],
-      "searchText": "zotpilot ai-powered zotero research assistant \u2014 mcp server + agent skill xunhe730/zotpilot pip install zotpilot data-ai claude codex cursor copilot hermes opencode openclaw"
+      "searchText": "zotpilot ai-powered zotero research assistant — mcp server + agent skill xunhe730/zotpilot pip install zotpilot data-ai claude codex cursor copilot hermes opencode openclaw"
     },
     {
       "name": "bazi-mcp",
@@ -9051,7 +9051,7 @@
       "sourceAgent": "multi",
       "repo": "yzfly/Mind-Cloning-Engineering",
       "stars": 55,
-      "desc": "MCE: Clone Human Souls with LLM Native Agent Skills | \u57fa\u4e8e LLM Agent Skills \u7684\u5fc3\u667a\u514b\u9686\u5de5\u7a0b | Agent Skills | Mind Skills | Mind Clone",
+      "desc": "MCE: Clone Human Souls with LLM Native Agent Skills | 基于 LLM Agent Skills 的心智克隆工程 | Agent Skills | Mind Skills | Mind Clone",
       "url": "https://github.com/yzfly/Mind-Cloning-Engineering",
       "install": "git clone https://github.com/yzfly/Mind-Cloning-Engineering.git",
       "functionCategory": "data-ai",
@@ -9067,7 +9067,7 @@
         "opencode",
         "openclaw"
       ],
-      "searchText": "mind-cloning-engineering mce: clone human souls with llm native agent skills | \u57fa\u4e8e llm agent skills \u7684\u5fc3\u667a\u514b\u9686\u5de5\u7a0b | agent skills | mind skills | mind clone yzfly/mind-cloning-engineering git clone https://github.com/yzfly/mind-cloning-engineering.git data-ai claude codex cursor copilot hermes opencode openclaw"
+      "searchText": "mind-cloning-engineering mce: clone human souls with llm native agent skills | 基于 llm agent skills 的心智克隆工程 | agent skills | mind skills | mind clone yzfly/mind-cloning-engineering git clone https://github.com/yzfly/mind-cloning-engineering.git data-ai claude codex cursor copilot hermes opencode openclaw"
     },
     {
       "name": "claude-fable-5-prompt",
@@ -9163,7 +9163,7 @@
       "sourceAgent": "general",
       "repo": "PostHog/posthog",
       "stars": 35240,
-      "desc": "\ud83e\udd94 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data",
+      "desc": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data",
       "url": "https://github.com/PostHog/posthog",
       "install": "",
       "functionCategory": "data-ai",
@@ -9173,7 +9173,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "posthog \ud83e\udd94 posthog is an all-in-one developer platform for building successful products. we offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a cdp, and an ai product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack. posthog/posthog data-ai general"
+      "searchText": "posthog 🦔 posthog is an all-in-one developer platform for building successful products. we offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a cdp, and an ai product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack. posthog/posthog data-ai general"
     },
     {
       "name": "toon",
@@ -9181,7 +9181,7 @@
       "sourceAgent": "general",
       "repo": "toon-format/toon",
       "stars": 24727,
-      "desc": "\ud83c\udf92 Token-Oriented Object Notation (TOON) \u2013 Compact, human-readable, schema-aware JSON for LLM prompts. Spec, benchmarks, TypeScript SDK.",
+      "desc": "🎒 Token-Oriented Object Notation (TOON) – Compact, human-readable, schema-aware JSON for LLM prompts. Spec, benchmarks, TypeScript SDK.",
       "url": "https://github.com/toon-format/toon",
       "install": "",
       "functionCategory": "data-ai",
@@ -9191,7 +9191,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "toon \ud83c\udf92 token-oriented object notation (toon) \u2013 compact, human-readable, schema-aware json for llm prompts. spec, benchmarks, typescript sdk. toon-format/toon data-ai general"
+      "searchText": "toon 🎒 token-oriented object notation (toon) – compact, human-readable, schema-aware json for llm prompts. spec, benchmarks, typescript sdk. toon-format/toon data-ai general"
     },
     {
       "name": "IOPaint",
@@ -9235,7 +9235,7 @@
       "sourceAgent": "general",
       "repo": "huggingface/datasets",
       "stars": 21668,
-      "desc": "\ud83e\udd17 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools",
+      "desc": "🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools",
       "url": "https://github.com/huggingface/datasets",
       "install": "",
       "functionCategory": "data-ai",
@@ -9245,7 +9245,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "datasets \ud83e\udd17 the largest hub of ready-to-use datasets for ai models with fast, easy-to-use and efficient data manipulation tools huggingface/datasets data-ai general"
+      "searchText": "datasets 🤗 the largest hub of ready-to-use datasets for ai models with fast, easy-to-use and efficient data manipulation tools huggingface/datasets data-ai general"
     },
     {
       "name": "openobserve",
@@ -9325,7 +9325,7 @@
       "sourceAgent": "general",
       "repo": "georgezouq/awesome-ai-in-finance",
       "stars": 6197,
-      "desc": "\ud83d\udd2c A curated list of awesome LLMs & deep learning strategies & tools in financial market.",
+      "desc": "🔬 A curated list of awesome LLMs & deep learning strategies & tools in financial market.",
       "url": "https://github.com/georgezouq/awesome-ai-in-finance",
       "install": "",
       "functionCategory": "data-ai",
@@ -9335,7 +9335,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "awesome-ai-in-finance \ud83d\udd2c a curated list of awesome llms & deep learning strategies & tools in financial market. georgezouq/awesome-ai-in-finance data-ai general"
+      "searchText": "awesome-ai-in-finance 🔬 a curated list of awesome llms & deep learning strategies & tools in financial market. georgezouq/awesome-ai-in-finance data-ai general"
     },
     {
       "name": "LMOps",
@@ -9361,7 +9361,7 @@
       "sourceAgent": "general",
       "repo": "SwanHubX/SwanLab",
       "stars": 4025,
-      "desc": "\u26a1\ufe0fSwanLab - an open-source, modern-design AI training tracking and visualization tool. Supports Cloud / Self-hosted use. Integrated with PyTorch / Transformers / verl / LLaMA Factory / ms-swift / Ultr",
+      "desc": "⚡️SwanLab - an open-source, modern-design AI training tracking and visualization tool. Supports Cloud / Self-hosted use. Integrated with PyTorch / Transformers / verl / LLaMA Factory / ms-swift / Ultr",
       "url": "https://github.com/SwanHubX/SwanLab",
       "install": "",
       "functionCategory": "data-ai",
@@ -9371,7 +9371,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "swanlab \u26a1\ufe0fswanlab - an open-source, modern-design ai training tracking and visualization tool. supports cloud / self-hosted use. integrated with pytorch / transformers / verl / llama factory / ms-swift / ultralytics / mmengine / keras etc. swanhubx/swanlab data-ai general"
+      "searchText": "swanlab ⚡️swanlab - an open-source, modern-design ai training tracking and visualization tool. supports cloud / self-hosted use. integrated with pytorch / transformers / verl / llama factory / ms-swift / ultralytics / mmengine / keras etc. swanhubx/swanlab data-ai general"
     },
     {
       "name": "distilabel",
@@ -9451,7 +9451,7 @@
       "sourceAgent": "general",
       "repo": "NVIDIA-NeMo/Nemotron",
       "stars": 1574,
-      "desc": "Developer Asset Hub for NVIDIA Nemotron \u2014 A one-stop resource for training recipes, usage cookbooks, datasets, and full end-to-end reference examples to build with Nemotron models",
+      "desc": "Developer Asset Hub for NVIDIA Nemotron — A one-stop resource for training recipes, usage cookbooks, datasets, and full end-to-end reference examples to build with Nemotron models",
       "url": "https://github.com/NVIDIA-NeMo/Nemotron",
       "install": "",
       "functionCategory": "data-ai",
@@ -9461,7 +9461,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "nemotron developer asset hub for nvidia nemotron \u2014 a one-stop resource for training recipes, usage cookbooks, datasets, and full end-to-end reference examples to build with nemotron models nvidia-nemo/nemotron data-ai general"
+      "searchText": "nemotron developer asset hub for nvidia nemotron — a one-stop resource for training recipes, usage cookbooks, datasets, and full end-to-end reference examples to build with nemotron models nvidia-nemo/nemotron data-ai general"
     },
     {
       "name": "etl-with-airflow",
@@ -9505,7 +9505,7 @@
       "sourceAgent": "general",
       "repo": "microsoft/Biodiversity",
       "stars": 1021,
-      "desc": "Microsoft AI for Good Lab \u2014 Biodiversity research hub. Open-source AI models, edge devices, and tools for biodiversity monitoring and conservation. Your source for MegaDetector, SPARROW, PytorchWildli",
+      "desc": "Microsoft AI for Good Lab — Biodiversity research hub. Open-source AI models, edge devices, and tools for biodiversity monitoring and conservation. Your source for MegaDetector, SPARROW, PytorchWildli",
       "url": "https://github.com/microsoft/Biodiversity",
       "install": "",
       "functionCategory": "data-ai",
@@ -9515,7 +9515,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "biodiversity microsoft ai for good lab \u2014 biodiversity research hub. open-source ai models, edge devices, and tools for biodiversity monitoring and conservation. your source for megadetector, sparrow, pytorchwildlife, bioacoustics, and more. microsoft/biodiversity data-ai general"
+      "searchText": "biodiversity microsoft ai for good lab — biodiversity research hub. open-source ai models, edge devices, and tools for biodiversity monitoring and conservation. your source for megadetector, sparrow, pytorchwildlife, bioacoustics, and more. microsoft/biodiversity data-ai general"
     },
     {
       "name": "audio-ai-hub",
@@ -9649,7 +9649,7 @@
       "sourceAgent": "general",
       "repo": "aryn-ai/sycamore",
       "stars": 602,
-      "desc": "\ud83c\udf41 Sycamore is an LLM-powered search and analytics platform for unstructured data.",
+      "desc": "🍁 Sycamore is an LLM-powered search and analytics platform for unstructured data.",
       "url": "https://github.com/aryn-ai/sycamore",
       "install": "",
       "functionCategory": "data-ai",
@@ -9659,7 +9659,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "sycamore \ud83c\udf41 sycamore is an llm-powered search and analytics platform for unstructured data. aryn-ai/sycamore data-ai general"
+      "searchText": "sycamore 🍁 sycamore is an llm-powered search and analytics platform for unstructured data. aryn-ai/sycamore data-ai general"
     },
     {
       "name": "vlmrun-hub",
@@ -9703,7 +9703,7 @@
       "sourceAgent": "general",
       "repo": "airyhq/airy",
       "stars": 402,
-      "desc": "\ud83d\udcac  Open Source App Framework to build streaming apps with real-time data - \ud83d\udc8e  Build real-time data pipelines and make real-time data universally accessible - \ud83e\udd16  Join historical and real-time data in t",
+      "desc": "💬  Open Source App Framework to build streaming apps with real-time data - 💎  Build real-time data pipelines and make real-time data universally accessible - 🤖  Join historical and real-time data in t",
       "url": "https://github.com/airyhq/airy",
       "install": "",
       "functionCategory": "data-ai",
@@ -9713,7 +9713,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "airy \ud83d\udcac  open source app framework to build streaming apps with real-time data - \ud83d\udc8e  build real-time data pipelines and make real-time data universally accessible - \ud83e\udd16  join historical and real-time data in the stream to create smarter ml and ai applications.  - \u26a1 standardize complex data ingestion and stream data to apps with pre-built connectors airyhq/airy data-ai general"
+      "searchText": "airy 💬  open source app framework to build streaming apps with real-time data - 💎  build real-time data pipelines and make real-time data universally accessible - 🤖  join historical and real-time data in the stream to create smarter ml and ai applications.  - ⚡ standardize complex data ingestion and stream data to apps with pre-built connectors airyhq/airy data-ai general"
     },
     {
       "name": "5.0-Ai-Engineering-Toolkit",
@@ -9757,7 +9757,7 @@
       "sourceAgent": "general",
       "repo": "upgini/upgini",
       "stars": 352,
-      "desc": "Data search & enrichment library for Machine Learning \u2192 Easily find and add relevant features to your ML & AI pipeline from hundreds of public and premium external data sources, including open & comme",
+      "desc": "Data search & enrichment library for Machine Learning → Easily find and add relevant features to your ML & AI pipeline from hundreds of public and premium external data sources, including open & comme",
       "url": "https://github.com/upgini/upgini",
       "install": "",
       "functionCategory": "data-ai",
@@ -9767,7 +9767,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "upgini data search & enrichment library for machine learning \u2192 easily find and add relevant features to your ml & ai pipeline from hundreds of public and premium external data sources, including open & commercial llms upgini/upgini data-ai general"
+      "searchText": "upgini data search & enrichment library for machine learning → easily find and add relevant features to your ml & ai pipeline from hundreds of public and premium external data sources, including open & commercial llms upgini/upgini data-ai general"
     },
     {
       "name": "cosdata",
@@ -9973,7 +9973,7 @@
       "sourceAgent": "general",
       "repo": "Chando0185/Multiverse_of_100-_data_science_project_series",
       "stars": 147,
-      "desc": "Welcome to the Multiverse of Data Science \u2014 a comprehensive, ever-expanding collection of over 100 real-world projects covering the entire data science pipeline!",
+      "desc": "Welcome to the Multiverse of Data Science — a comprehensive, ever-expanding collection of over 100 real-world projects covering the entire data science pipeline!",
       "url": "https://github.com/Chando0185/Multiverse_of_100-_data_science_project_series",
       "install": "",
       "functionCategory": "data-ai",
@@ -9983,7 +9983,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "multiverse_of_100-_data_science_project_series welcome to the multiverse of data science \u2014 a comprehensive, ever-expanding collection of over 100 real-world projects covering the entire data science pipeline! chando0185/multiverse_of_100-_data_science_project_series data-ai general"
+      "searchText": "multiverse_of_100-_data_science_project_series welcome to the multiverse of data science — a comprehensive, ever-expanding collection of over 100 real-world projects covering the entire data science pipeline! chando0185/multiverse_of_100-_data_science_project_series data-ai general"
     },
     {
       "name": "multimodal-ai-llm-processing-accelerator",
@@ -10073,7 +10073,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "data-pipelines-with-airflow this project helps me to understand the core concepts of apache airflow. i have created custom operators to perform tasks such as staging the data, filling the data warehouse, and running checks on the data quality as the final step. automate the etl pipeline and creation of data warehouse using apache airflow. skills include:  using airflow to automate etl pipelines using airflow, python, amazon redshift. writing custom operators to perform tasks such as staging data, filling the data warehouse, and validation through data quality checks. transforming data from various sources into a star schema optimized for the analytics team\u2019s use cases. technologies used: apache airflow, s3, amazon redshift, python. ddgope/data-pipelines-with-airflow data-ai general"
+      "searchText": "data-pipelines-with-airflow this project helps me to understand the core concepts of apache airflow. i have created custom operators to perform tasks such as staging the data, filling the data warehouse, and running checks on the data quality as the final step. automate the etl pipeline and creation of data warehouse using apache airflow. skills include:  using airflow to automate etl pipelines using airflow, python, amazon redshift. writing custom operators to perform tasks such as staging data, filling the data warehouse, and validation through data quality checks. transforming data from various sources into a star schema optimized for the analytics team’s use cases. technologies used: apache airflow, s3, amazon redshift, python. ddgope/data-pipelines-with-airflow data-ai general"
     },
     {
       "name": "azure-ai-vision",
@@ -10154,7 +10154,7 @@
       "sourceAgent": "data-ai",
       "repo": "ConardLi/easy-dataset",
       "stars": 14550,
-      "desc": "A powerful tool for creating datasets for LLM fine-tuning \u3001RAG and Eval",
+      "desc": "A powerful tool for creating datasets for LLM fine-tuning 、RAG and Eval",
       "url": "https://github.com/ConardLi/easy-dataset",
       "install": "",
       "functionCategory": "data-ai",
@@ -10164,7 +10164,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "easy-dataset A powerful tool for creating datasets for LLM fine-tuning \u3001RAG and Eval ConardLi/easy-dataset data-ai",
+      "searchText": "easy-dataset A powerful tool for creating datasets for LLM fine-tuning 、RAG and Eval ConardLi/easy-dataset data-ai",
       "pricing": "free"
     },
     {
@@ -10211,7 +10211,7 @@
       "sourceAgent": "data-ai",
       "repo": "endee-io/endee",
       "stars": 1306,
-      "desc": "Endee.io \u2013 A high-performance vector database, designed to handle up to 1B vectors on a single node, delivering significant performance gains through ",
+      "desc": "Endee.io – A high-performance vector database, designed to handle up to 1B vectors on a single node, delivering significant performance gains through ",
       "url": "https://github.com/endee-io/endee",
       "install": "",
       "functionCategory": "data-ai",
@@ -10221,7 +10221,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "endee Endee.io \u2013 A high-performance vector database, designed to handle up to 1B vectors on a single node, delivering significant performance gains through  endee-io/endee data-ai",
+      "searchText": "endee Endee.io – A high-performance vector database, designed to handle up to 1B vectors on a single node, delivering significant performance gains through  endee-io/endee data-ai",
       "pricing": "free"
     },
     {
@@ -10306,7 +10306,7 @@
       "sourceAgent": "data-ai",
       "repo": "theaiautomators/insights-lm-public",
       "stars": 611,
-      "desc": "Open-source, self-hosted alternative to NotebookLM. Chat with your documents, generate audio summaries, and ground AI in your own sources\u2014built with S",
+      "desc": "Open-source, self-hosted alternative to NotebookLM. Chat with your documents, generate audio summaries, and ground AI in your own sources—built with S",
       "url": "https://github.com/theaiautomators/insights-lm-public",
       "install": "",
       "functionCategory": "data-ai",
@@ -10316,7 +10316,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "insights-lm-public Open-source, self-hosted alternative to NotebookLM. Chat with your documents, generate audio summaries, and ground AI in your own sources\u2014built with S theaiautomators/insights-lm-public data-ai",
+      "searchText": "insights-lm-public Open-source, self-hosted alternative to NotebookLM. Chat with your documents, generate audio summaries, and ground AI in your own sources—built with S theaiautomators/insights-lm-public data-ai",
       "pricing": "free"
     },
     {
@@ -10458,7 +10458,7 @@
       "sourceAgent": "data-ai",
       "repo": "shibing624/TreeSearch",
       "stars": 210,
-      "desc": "TreeSearch: Search your codebase like a human \u2014 not like a vector database. No embeddings. No chunking. Just millisecond search over structured docume",
+      "desc": "TreeSearch: Search your codebase like a human — not like a vector database. No embeddings. No chunking. Just millisecond search over structured docume",
       "url": "https://github.com/shibing624/TreeSearch",
       "install": "",
       "functionCategory": "data-ai",
@@ -10468,7 +10468,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "TreeSearch TreeSearch: Search your codebase like a human \u2014 not like a vector database. No embeddings. No chunking. Just millisecond search over structured docume shibing624/TreeSearch data-ai",
+      "searchText": "TreeSearch TreeSearch: Search your codebase like a human — not like a vector database. No embeddings. No chunking. Just millisecond search over structured docume shibing624/TreeSearch data-ai",
       "pricing": "free"
     },
     {
@@ -10477,7 +10477,7 @@
       "sourceAgent": "data-ai",
       "repo": "AlayaDB-AI/AlayaLite",
       "stars": 208,
-      "desc": "AlayaLite \u2013 A Fast, Flexible Vector Database for Everyone.",
+      "desc": "AlayaLite – A Fast, Flexible Vector Database for Everyone.",
       "url": "https://github.com/AlayaDB-AI/AlayaLite",
       "install": "",
       "functionCategory": "data-ai",
@@ -10487,7 +10487,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "AlayaLite AlayaLite \u2013 A Fast, Flexible Vector Database for Everyone. AlayaDB-AI/AlayaLite data-ai",
+      "searchText": "AlayaLite AlayaLite – A Fast, Flexible Vector Database for Everyone. AlayaDB-AI/AlayaLite data-ai",
       "pricing": "free"
     },
     {
@@ -10532,7 +10532,7 @@
       "sourceAgent": "general",
       "repo": "hosseinmoein/DataFrame",
       "stars": 2965,
-      "desc": "C++ DataFrame for statistical, financial, and ML analysis \u2014 modern C++ data manipulation library",
+      "desc": "C++ DataFrame for statistical, financial, and ML analysis — modern C++ data manipulation library",
       "url": "https://github.com/hosseinmoein/DataFrame",
       "install": "",
       "functionCategory": "data-ai",
@@ -10542,7 +10542,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "DataFrame-CPP C++ DataFrame for statistical, financial, and ML analysis \u2014 modern C++ data mani hosseinmoein/DataFrame data-ai",
+      "searchText": "DataFrame-CPP C++ DataFrame for statistical, financial, and ML analysis — modern C++ data mani hosseinmoein/DataFrame data-ai",
       "pricing": "free"
     },
     {
@@ -10576,7 +10576,7 @@
         "openclaw"
       ],
       "category": "data-ai",
-      "categoryZh": "\u6570\u636e\u4e0eAI",
+      "categoryZh": "数据与AI",
       "name": "autoresearch",
       "desc": "Autonomous iteration loop: modify, verify, keep/discard against any metric for research tasks.",
       "url": "https://github.com/mxyhi/ok-skills/tree/main/autoresearch",
@@ -10698,6 +10698,996 @@
         "general"
       ],
       "searchText": "mex Persistent project memory for AI coding agents. Structured s mex-memory/mex data-ai"
+    },
+    {
+      "name": "guidellm",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "vllm-project/guidellm",
+      "stars": 1324,
+      "desc": "Evaluate and Enhance Your LLM Deployments for Real-World Inference Needs",
+      "url": "https://github.com/vllm-project/guidellm",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "guidellm Evaluate and Enhance Your LLM Deployments for Real-World Inference Needs vllm-project/guidellm data-ai"
+    },
+    {
+      "name": "aikit",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "kaito-project/aikit",
+      "stars": 529,
+      "desc": "🏗️ Fine-tune, build, and deploy open-source LLMs easily!",
+      "url": "https://github.com/kaito-project/aikit",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aikit 🏗️ Fine-tune, build, and deploy open-source LLMs easily! kaito-project/aikit data-ai"
+    },
+    {
+      "name": "rbg",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "sgl-project/rbg",
+      "stars": 253,
+      "desc": "A workload for deploying LLM inference services on Kubernetes",
+      "url": "https://github.com/sgl-project/rbg",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "rbg A workload for deploying LLM inference services on Kubernetes sgl-project/rbg data-ai"
+    },
+    {
+      "name": "ai-inference-resources",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "aerlabsAI/ai-inference-resources",
+      "stars": 198,
+      "desc": "Curated collection of AI inference engineering resources — LLM serving, GPU kernels, quantization, distributed inference, and production deployment. Compiled from the AER Labs community.",
+      "url": "https://github.com/aerlabsAI/ai-inference-resources",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-inference-resources Curated collection of AI inference engineering resources — LLM serving, GPU kernels, quantization, distributed inference, and production deployment. Compiled from the AER Labs community. aerlabsAI/ai-inference-resources data-ai"
+    },
+    {
+      "name": "llm-inference",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "OpenCSGs/llm-inference",
+      "stars": 95,
+      "desc": "llm-inference is a platform for publishing and managing llm inference, providing a wide range of out-of-the-box features for model deployment, such as UI, RESTful API, auto-scaling, computing resource management, monitoring, and more.",
+      "url": "https://github.com/OpenCSGs/llm-inference",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "llm-inference llm-inference is a platform for publishing and managing llm inference, providing a wide range of out-of-the-box features for model deployment, such as UI, RESTful API, auto-scaling, computing resource management, monitoring, and more. OpenCSGs/llm-inference data-ai"
+    },
+    {
+      "name": "xllm-service",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "jd-opensource/xllm-service",
+      "stars": 94,
+      "desc": "A flexible serving framework that delivers efficient and fault-tolerant LLM inference for clustered deployments.",
+      "url": "https://github.com/jd-opensource/xllm-service",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "xllm-service A flexible serving framework that delivers efficient and fault-tolerant LLM inference for clustered deployments. jd-opensource/xllm-service data-ai"
+    },
+    {
+      "name": "airunway",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "kaito-project/airunway",
+      "stars": 91,
+      "desc": "✈️ Kubernetes-native platform for deploying and managing AI inference across multiple providers",
+      "url": "https://github.com/kaito-project/airunway",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "airunway ✈️ Kubernetes-native platform for deploying and managing AI inference across multiple providers kaito-project/airunway data-ai"
+    },
+    {
+      "name": "AI-Kline",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "QuantMLResearch/AI-Kline",
+      "stars": 333,
+      "desc": "Python-based stock analysis tool that combines traditional technical analysis with AI prediction capabilities.  Providing comprehensive stock analysis and forecasting using K-line charts, technical indicators, financial data, and news data. With CMD/WEB/MCP supported.",
+      "url": "https://github.com/QuantMLResearch/AI-Kline",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AI-Kline Python-based stock analysis tool that combines traditional technical analysis with AI prediction capabilities.  Providing comprehensive stock analysis and forecasting using K-line charts, technical indicators, financial data, and news data. With CMD/WEB/MCP supported. QuantMLResearch/AI-Kline data-ai"
+    },
+    {
+      "name": "dsensei",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "empower-ai/dsensei",
+      "stars": 262,
+      "desc": "AI-powered key driver analysis tool that pinpoints root cause behind metrics fluctuation in one minute.",
+      "url": "https://github.com/empower-ai/dsensei",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "dsensei AI-powered key driver analysis tool that pinpoints root cause behind metrics fluctuation in one minute. empower-ai/dsensei data-ai"
+    },
+    {
+      "name": "erag",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "EduardTalianu/erag",
+      "stars": 212,
+      "desc": "an AI interaction tool with RAG hybrid search, conversation context, web content processing and structured data analysis with LLM / GPT",
+      "url": "https://github.com/EduardTalianu/erag",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "erag an AI interaction tool with RAG hybrid search, conversation context, web content processing and structured data analysis with LLM / GPT EduardTalianu/erag data-ai"
+    },
+    {
+      "name": "dataseo-mcp",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "egebese/dataseo-mcp",
+      "stars": 184,
+      "desc": "A free SEO research tool using Model Context Protocol (MCP) powered by Ahrefs data. Get backlink analysis, keyword research, traffic estimation, and more — directly in your AI-powered IDE.",
+      "url": "https://github.com/egebese/dataseo-mcp",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "dataseo-mcp A free SEO research tool using Model Context Protocol (MCP) powered by Ahrefs data. Get backlink analysis, keyword research, traffic estimation, and more — directly in your AI-powered IDE. egebese/dataseo-mcp data-ai"
+    },
+    {
+      "name": "guardrail",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "ruvnet/guardrail",
+      "stars": 152,
+      "desc": "GuardRail: Advanced tool for data analysis and AI content generation using OpenAI GPT models. Features sentiment analysis, content classification, trend analysis, and tailored GPT model usage. Ideal for content moderation, customer support, and market research.",
+      "url": "https://github.com/ruvnet/guardrail",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "guardrail GuardRail: Advanced tool for data analysis and AI content generation using OpenAI GPT models. Features sentiment analysis, content classification, trend analysis, and tailored GPT model usage. Ideal for content moderation, customer support, and market research. ruvnet/guardrail data-ai"
+    },
+    {
+      "name": "trendsGPT",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "theailifestyle/trendsGPT",
+      "stars": 107,
+      "desc": "📈 TrendsGPT: An AI-powered tool harnessing OpenAI's GPT-4 to automate market research and data analysis. Fetches trending topics from Reddit, analyzes sentiment, extracts insights, fact checks on google trends and recommends creative content.",
+      "url": "https://github.com/theailifestyle/trendsGPT",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "trendsGPT 📈 TrendsGPT: An AI-powered tool harnessing OpenAI's GPT-4 to automate market research and data analysis. Fetches trending topics from Reddit, analyzes sentiment, extracts insights, fact checks on google trends and recommends creative content. theailifestyle/trendsGPT data-ai"
+    },
+    {
+      "name": "pdo-database-class",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "tommyknocker/pdo-database-class",
+      "stars": 82,
+      "desc": "Framework-agnostic PHP database library with unified API for MySQL, MariaDB, PostgreSQL, SQLite, MSSQL, and Oracle. Query Builder, caching, sharding, window functions, CTEs, JSON, migrations, ActiveRecord, CLI tools, AI-powered analysis. Zero external dependencies.",
+      "url": "https://github.com/tommyknocker/pdo-database-class",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "pdo-database-class Framework-agnostic PHP database library with unified API for MySQL, MariaDB, PostgreSQL, SQLite, MSSQL, and Oracle. Query Builder, caching, sharding, window functions, CTEs, JSON, migrations, ActiveRecord, CLI tools, AI-powered analysis. Zero external dependencies. tommyknocker/pdo-database-class data-ai"
+    },
+    {
+      "name": "Veritensor",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "arsbr/Veritensor",
+      "stars": 80,
+      "desc": "The Anti-Virus for AI Artifacts & RAG Firewall. A static analysis tool scanning Models and Notebooks for RCE, Datasets and RAG docs for Data Poisoning, PII, and Prompt Injections. Secure your AI Supply Chain.",
+      "url": "https://github.com/arsbr/Veritensor",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Veritensor The Anti-Virus for AI Artifacts & RAG Firewall. A static analysis tool scanning Models and Notebooks for RCE, Datasets and RAG docs for Data Poisoning, PII, and Prompt Injections. Secure your AI Supply Chain. arsbr/Veritensor data-ai"
+    },
+    {
+      "name": "Apple-Health-Pro",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "leecdiang/Apple-Health-Pro",
+      "stars": 68,
+      "desc": "A studio-grade tool to extract Apple Health XML / ZIP data into organized CSV files for AI analysis.",
+      "url": "https://github.com/leecdiang/Apple-Health-Pro",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Apple-Health-Pro A studio-grade tool to extract Apple Health XML / ZIP data into organized CSV files for AI analysis. leecdiang/Apple-Health-Pro data-ai"
+    },
+    {
+      "name": "autoflow",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "pingcap/autoflow",
+      "stars": 2797,
+      "desc": "pingcap/autoflow is a Graph RAG based and conversational knowledge base tool built with TiDB Serverless Vector Storage. Demo: https://tidb.ai",
+      "url": "https://github.com/pingcap/autoflow",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "autoflow pingcap/autoflow is a Graph RAG based and conversational knowledge base tool built with TiDB Serverless Vector Storage. Demo: https://tidb.ai pingcap/autoflow data-ai"
+    },
+    {
+      "name": "AntSK",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "shuyu-labs/AntSK",
+      "stars": 1321,
+      "desc": "An AI knowledge base/agent built with .Net 9, AntBlazor, Semantic Kernel, and Kernel Memory, supporting local offline AI large models. It can run offline without an internet connection. Supports Aspire for monitoring application data.",
+      "url": "https://github.com/shuyu-labs/AntSK",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AntSK An AI knowledge base/agent built with .Net 9, AntBlazor, Semantic Kernel, and Kernel Memory, supporting local offline AI large models. It can run offline without an internet connection. Supports Aspire for monitoring application data. shuyu-labs/AntSK data-ai"
+    },
+    {
+      "name": "tgo",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "tgoai/tgo",
+      "stars": 511,
+      "desc": "Open-source AI Agent Customer Service Platform. Build AI agent teams with LLM orchestration, RAG knowledge base, multi-channel support, and human collaboration.",
+      "url": "https://github.com/tgoai/tgo",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "tgo Open-source AI Agent Customer Service Platform. Build AI agent teams with LLM orchestration, RAG knowledge base, multi-channel support, and human collaboration. tgoai/tgo data-ai"
+    },
+    {
+      "name": "bedrock-engineer",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "aws-samples/bedrock-engineer",
+      "stars": 485,
+      "desc": "Universal AI Agent using Amazon Bedrock, capable of customize to create/edit files, execute commands, search the web, use knowledge base, use multi-agents, generative images and more.",
+      "url": "https://github.com/aws-samples/bedrock-engineer",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "bedrock-engineer Universal AI Agent using Amazon Bedrock, capable of customize to create/edit files, execute commands, search the web, use knowledge base, use multi-agents, generative images and more. aws-samples/bedrock-engineer data-ai"
+    },
+    {
+      "name": "cyber-doctor",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "Warma10032/cyber-doctor",
+      "stars": 443,
+      "desc": "赛博医生项目——”赛博华佗“，基于多模态大模型的多功能智能体，一键搭建本地多模态大模型。接入医疗健康相关的知识图谱和知识库后可以进行疾病初诊，病历分析，专业知识问答等功能，成为你的私人医生。赛博华佗项目能帮助实现医疗资源的跨地域传播，让更多人借助大模型改善健康水平。\"Cyber ​​Huatuo\" - Easy to build a personal doctor agent based on LLM and Knowledge Graph/Knowledge Database.",
+      "url": "https://github.com/Warma10032/cyber-doctor",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cyber-doctor 赛博医生项目——”赛博华佗“，基于多模态大模型的多功能智能体，一键搭建本地多模态大模型。接入医疗健康相关的知识图谱和知识库后可以进行疾病初诊，病历分析，专业知识问答等功能，成为你的私人医生。赛博华佗项目能帮助实现医疗资源的跨地域传播，让更多人借助大模型改善健康水平。\"Cyber ​​Huatuo\" - Easy to build a personal doctor agent based on LLM and Knowledge Graph/Knowledge Database. Warma10032/cyber-doctor data-ai"
+    },
+    {
+      "name": "BiliSum",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "lycohana/BiliSum",
+      "stars": 383,
+      "desc": "为 Bilibili、YouTube 及本地视频提供 AI 视频摘要和知识库.AI video summarizer and knowledge base for Bilibili, YouTube and local videos.",
+      "url": "https://github.com/lycohana/BiliSum",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "BiliSum 为 Bilibili、YouTube 及本地视频提供 AI 视频摘要和知识库.AI video summarizer and knowledge base for Bilibili, YouTube and local videos. lycohana/BiliSum data-ai"
+    },
+    {
+      "name": "mnemon",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "mnemon-dev/mnemon",
+      "stars": 370,
+      "desc": "LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowledge, single binary. Works with Claude Code, OpenClaw, and any CLI agent.",
+      "url": "https://github.com/mnemon-dev/mnemon",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mnemon LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowledge, single binary. Works with Claude Code, OpenClaw, and any CLI agent. mnemon-dev/mnemon data-ai"
+    },
+    {
+      "name": "ChatClaw",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "zhimaAi/ChatClaw",
+      "stars": 297,
+      "desc": "ChatClaw: Get OpenClaw-like knowledge base personal AI agent in 5 mins. Sandbox-secured, ultra-small 30MB installer for macOS & Windows (install in 1 min). Connects to WhatsApp, Telegram, Slack, Discord, Gmail, DingTalk, WeChat Work, QQ, Feishu. Built-in Skill Market, Knowledge Base, Memory, MCP, Scheduled Tasks. Developed in Go ,run",
+      "url": "https://github.com/zhimaAi/ChatClaw",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ChatClaw ChatClaw: Get OpenClaw-like knowledge base personal AI agent in 5 mins. Sandbox-secured, ultra-small 30MB installer for macOS & Windows (install in 1 min). Connects to WhatsApp, Telegram, Slack, Discord, Gmail, DingTalk, WeChat Work, QQ, Feishu. Built-in Skill Market, Knowledge Base, Memory, MCP, Scheduled Tasks. Developed in Go ,run zhimaAi/ChatClaw data-ai"
+    },
+    {
+      "name": "JRVS",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "Xthebuilder/JRVS",
+      "stars": 239,
+      "desc": "JRVS Local AI Assitant RAG knowledge base Powered by whatever local AI you choose.",
+      "url": "https://github.com/Xthebuilder/JRVS",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "JRVS JRVS Local AI Assitant RAG knowledge base Powered by whatever local AI you choose. Xthebuilder/JRVS data-ai"
+    },
+    {
+      "name": "agentic-qe",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "proffesor-for-testing/agentic-qe",
+      "stars": 405,
+      "desc": "Agentic QE Fleet is an open-source AI-powered QA/QE platform designed for use with Coding Agents (works best with Claude Code) featuring specialized agents and skills to support testing activities for a product at any stage of the SDLC. Free to use, fork, build, and contribute. Based on the Agentic QE Framework created by Dragan Spiridonov.",
+      "url": "https://github.com/proffesor-for-testing/agentic-qe",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agentic-qe Agentic QE Fleet is an open-source AI-powered QA/QE platform designed for use with Coding Agents (works best with Claude Code) featuring specialized agents and skills to support testing activities for a product at any stage of the SDLC. Free to use, fork, build, and contribute. Based on the Agentic QE Framework created by Dragan Spiridonov. proffesor-for-testing/agentic-qe data-ai"
+    },
+    {
+      "name": "medical-chatbot",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "AIwithhassan/medical-chatbot",
+      "stars": 70,
+      "desc": "In this tutorial, learn to build a smart Medical Chatbot using open-source tools. We'll use HuggingFace for embeddings, Faiss CPU for vector storage, and Mistral with Streamlit for a conversational interface. Follow step-by-step guidance to create an efficient chatbot with no prior experience needed. Dive into conversational AI and healthcare!",
+      "url": "https://github.com/AIwithhassan/medical-chatbot",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "medical-chatbot In this tutorial, learn to build a smart Medical Chatbot using open-source tools. We'll use HuggingFace for embeddings, Faiss CPU for vector storage, and Mistral with Streamlit for a conversational interface. Follow step-by-step guidance to create an efficient chatbot with no prior experience needed. Dive into conversational AI and healthcare! AIwithhassan/medical-chatbot data-ai"
+    },
+    {
+      "name": "medgraph-ai",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "asanmateu/medgraph-ai",
+      "stars": 59,
+      "desc": "Healthcare RAG agent with Neo4j knowledge graphs - Query medical data using LangChain, FastAPI & Streamlit",
+      "url": "https://github.com/asanmateu/medgraph-ai",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "medgraph-ai Healthcare RAG agent with Neo4j knowledge graphs - Query medical data using LangChain, FastAPI & Streamlit asanmateu/medgraph-ai data-ai"
+    },
+    {
+      "name": "LangCommand",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "guoriyue/LangCommand",
+      "stars": 118,
+      "desc": "LangCommand is a local inference command-line tool that transforms natural language descriptions into shell commands.",
+      "url": "https://github.com/guoriyue/LangCommand",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "LangCommand LangCommand is a local inference command-line tool that transforms natural language descriptions into shell commands. guoriyue/LangCommand data-ai"
+    },
+    {
+      "name": "llm_speedtest",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "gengchaogit/llm_speedtest",
+      "stars": 94,
+      "desc": "Local LLM Inference Speed Test Tool",
+      "url": "https://github.com/gengchaogit/llm_speedtest",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "llm_speedtest Local LLM Inference Speed Test Tool gengchaogit/llm_speedtest data-ai"
+    },
+    {
+      "name": "Eloquent",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "boneylizard/Eloquent",
+      "stars": 62,
+      "desc": "The most feature-complete local AI workstation. Multi-GPU inference, integrated Stable Diffusion + ADetailer, voice cloning, research-grade ELO testing, and tool-calling code editor. 100% local. Zero subscriptions. Your GPUs deserve better.",
+      "url": "https://github.com/boneylizard/Eloquent",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Eloquent The most feature-complete local AI workstation. Multi-GPU inference, integrated Stable Diffusion + ADetailer, voice cloning, research-grade ELO testing, and tool-calling code editor. 100% local. Zero subscriptions. Your GPUs deserve better. boneylizard/Eloquent data-ai"
+    },
+    {
+      "name": "LightRAG",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "HKUDS/LightRAG",
+      "stars": 37189,
+      "desc": "[EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\"",
+      "url": "https://github.com/HKUDS/LightRAG",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "LightRAG [EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\" HKUDS/LightRAG data-ai"
+    },
+    {
+      "name": "RAG_Techniques",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "NirDiamant/RAG_Techniques",
+      "stars": 28276,
+      "desc": "This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial.",
+      "url": "https://github.com/NirDiamant/RAG_Techniques",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "RAG_Techniques This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial. NirDiamant/RAG_Techniques data-ai"
+    },
+    {
+      "name": "PixelRAG",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "StarTrail-org/PixelRAG",
+      "stars": 5712,
+      "desc": "The end of web parsing. The beginning of scalable pixel-native search. link: https://pixelrag.ai/",
+      "url": "https://github.com/StarTrail-org/PixelRAG",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "PixelRAG The end of web parsing. The beginning of scalable pixel-native search. link: https://pixelrag.ai/ StarTrail-org/PixelRAG data-ai"
+    },
+    {
+      "name": "awesome-opensource-ai",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "alvinreal/awesome-opensource-ai",
+      "stars": 3981,
+      "desc": "Curated list of the best truly open-source AI projects, models, tools, and infrastructure. Daily updated.",
+      "url": "https://github.com/alvinreal/awesome-opensource-ai",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-opensource-ai Curated list of the best truly open-source AI projects, models, tools, and infrastructure. Daily updated. alvinreal/awesome-opensource-ai data-ai"
+    },
+    {
+      "name": "agentic-rag-for-dummies",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "GiovanniPasq/agentic-rag-for-dummies",
+      "stars": 3574,
+      "desc": "A modular Agentic RAG built with LangGraph — learn Retrieval-Augmented Generation Agents in minutes.",
+      "url": "https://github.com/GiovanniPasq/agentic-rag-for-dummies",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agentic-rag-for-dummies A modular Agentic RAG built with LangGraph — learn Retrieval-Augmented Generation Agents in minutes. GiovanniPasq/agentic-rag-for-dummies data-ai"
+    },
+    {
+      "name": "rag-web-ui",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "rag-web-ui/rag-web-ui",
+      "stars": 3054,
+      "desc": "RAG Web UI is an intelligent dialogue system based on RAG (Retrieval-Augmented Generation) technology.",
+      "url": "https://github.com/rag-web-ui/rag-web-ui",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "rag-web-ui RAG Web UI is an intelligent dialogue system based on RAG (Retrieval-Augmented Generation) technology. rag-web-ui/rag-web-ui data-ai"
+    },
+    {
+      "name": "rag-cookbooks",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "athina-ai/rag-cookbooks",
+      "stars": 2541,
+      "desc": "This repository contains various advanced techniques for Retrieval-Augmented Generation (RAG) systems.",
+      "url": "https://github.com/athina-ai/rag-cookbooks",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "rag-cookbooks This repository contains various advanced techniques for Retrieval-Augmented Generation (RAG) systems. athina-ai/rag-cookbooks data-ai"
+    },
+    {
+      "name": "Awesome-GraphRAG",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "DEEP-PolyU/Awesome-GraphRAG",
+      "stars": 2502,
+      "desc": "Awesome-GraphRAG: A curated list of resources (surveys, papers, benchmarks, and opensource projects) on graph-based retrieval-augmented generation. ",
+      "url": "https://github.com/DEEP-PolyU/Awesome-GraphRAG",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Awesome-GraphRAG Awesome-GraphRAG: A curated list of resources (surveys, papers, benchmarks, and opensource projects) on graph-based retrieval-augmented generation.  DEEP-PolyU/Awesome-GraphRAG data-ai"
+    },
+    {
+      "name": "RAGHub",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "Andrew-Jang/RAGHub",
+      "stars": 1941,
+      "desc": "A community-driven collection of RAG (Retrieval-Augmented Generation) frameworks, projects, and resources. Contribute and explore the evolving RAG ecosystem.",
+      "url": "https://github.com/Andrew-Jang/RAGHub",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "RAGHub A community-driven collection of RAG (Retrieval-Augmented Generation) frameworks, projects, and resources. Contribute and explore the evolving RAG ecosystem. Andrew-Jang/RAGHub data-ai"
+    },
+    {
+      "name": "AgenticRAG-Survey",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "asinghcsu/AgenticRAG-Survey",
+      "stars": 1681,
+      "desc": "Agentic-RAG explores advanced Retrieval-Augmented Generation systems enhanced with AI LLM agents. ",
+      "url": "https://github.com/asinghcsu/AgenticRAG-Survey",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AgenticRAG-Survey Agentic-RAG explores advanced Retrieval-Augmented Generation systems enhanced with AI LLM agents.  asinghcsu/AgenticRAG-Survey data-ai"
+    },
+    {
+      "name": "rag-from-scratch",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "pguso/rag-from-scratch",
+      "stars": 1469,
+      "desc": "Demystify RAG by building it from scratch. Local LLMs, no black boxes - real understanding of embeddings, vector search, retrieval, and context-augmented generation.",
+      "url": "https://github.com/pguso/rag-from-scratch",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "rag-from-scratch Demystify RAG by building it from scratch. Local LLMs, no black boxes - real understanding of embeddings, vector search, retrieval, and context-augmented generation. pguso/rag-from-scratch data-ai"
+    },
+    {
+      "name": "npcpy",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "NPC-Worldwide/npcpy",
+      "stars": 1411,
+      "desc": "The python library for research and development in NLP, multimodal LLMs, Agents, ML, Knowledge Graphs, and more.",
+      "url": "https://github.com/NPC-Worldwide/npcpy",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "npcpy The python library for research and development in NLP, multimodal LLMs, Agents, ML, Knowledge Graphs, and more. NPC-Worldwide/npcpy data-ai"
+    },
+    {
+      "name": "youtu-graphrag",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "TencentCloudADP/youtu-graphrag",
+      "stars": 1211,
+      "desc": "[ICLR 2026] Youtu-GraphRAG: Vertically Unified Agents for Graph Retrieval-Augmented Complex Reasoning",
+      "url": "https://github.com/TencentCloudADP/youtu-graphrag",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "youtu-graphrag [ICLR 2026] Youtu-GraphRAG: Vertically Unified Agents for Graph Retrieval-Augmented Complex Reasoning TencentCloudADP/youtu-graphrag data-ai"
+    },
+    {
+      "name": "raglite",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "superlinear-ai/raglite",
+      "stars": 1191,
+      "desc": "🥤 RAGLite is a Python toolkit for Retrieval-Augmented Generation (RAG) with DuckDB or PostgreSQL",
+      "url": "https://github.com/superlinear-ai/raglite",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "raglite 🥤 RAGLite is a Python toolkit for Retrieval-Augmented Generation (RAG) with DuckDB or PostgreSQL superlinear-ai/raglite data-ai"
+    },
+    {
+      "name": "deepmlab",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "yuanzhongqiao/deepmlab",
+      "stars": 1043,
+      "desc": "An Open-Source Alternative to MATLAB: LLM-Driven & Scilab-Based AI Mathematical Modeling Tool with Natural Language Interface",
+      "url": "https://github.com/yuanzhongqiao/deepmlab",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "deepmlab An Open-Source Alternative to MATLAB: LLM-Driven & Scilab-Based AI Mathematical Modeling Tool with Natural Language Interface yuanzhongqiao/deepmlab data-ai"
+    },
+    {
+      "name": "MODULAR-RAG-MCP-SERVER",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "jerry-ai-dev/MODULAR-RAG-MCP-SERVER",
+      "stars": 1010,
+      "desc": "A modular RAG (Retrieval-Augmented Generation) system with MCP Server architecture. Using Skill to make AI follow each step of the spec and complete the code 100% by AI.",
+      "url": "https://github.com/jerry-ai-dev/MODULAR-RAG-MCP-SERVER",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "MODULAR-RAG-MCP-SERVER A modular RAG (Retrieval-Augmented Generation) system with MCP Server architecture. Using Skill to make AI follow each step of the spec and complete the code 100% by AI. jerry-ai-dev/MODULAR-RAG-MCP-SERVER data-ai"
+    },
+    {
+      "name": "compose-for-agents",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "docker/compose-for-agents",
+      "stars": 987,
+      "desc": "Build and run AI agents using Docker Compose. A collection of ready-to-use examples for orchestrating open-source LLMs, tools, and agent runtimes.",
+      "url": "https://github.com/docker/compose-for-agents",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "compose-for-agents Build and run AI agents using Docker Compose. A collection of ready-to-use examples for orchestrating open-source LLMs, tools, and agent runtimes. docker/compose-for-agents data-ai"
+    },
+    {
+      "name": "context-portal",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "GreatScottyMac/context-portal",
+      "stars": 763,
+      "desc": "Context Portal (ConPort): A memory bank MCP server building a project-specific knowledge graph to supercharge AI assistants. Enables powerful Retrieval Augmented Generation (RAG) for context-aware development in your IDE.",
+      "url": "https://github.com/GreatScottyMac/context-portal",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "context-portal Context Portal (ConPort): A memory bank MCP server building a project-specific knowledge graph to supercharge AI assistants. Enables powerful Retrieval Augmented Generation (RAG) for context-aware development in your IDE. GreatScottyMac/context-portal data-ai"
+    },
+    {
+      "name": "rag",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "NVIDIA-AI-Blueprints/rag",
+      "stars": 683,
+      "desc": "This NVIDIA RAG blueprint serves as a reference solution for a foundational Retrieval Augmented Generation (RAG) pipeline.",
+      "url": "https://github.com/NVIDIA-AI-Blueprints/rag",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "rag This NVIDIA RAG blueprint serves as a reference solution for a foundational Retrieval Augmented Generation (RAG) pipeline. NVIDIA-AI-Blueprints/rag data-ai"
+    },
+    {
+      "name": "Rankify",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "DataScienceUIBK/Rankify",
+      "stars": 678,
+      "desc": "🔥 Rankify: A Comprehensive Python Toolkit for Retrieval, Re-Ranking, and Retrieval-Augmented Generation 🔥. Our toolkit integrates 40 pre-retrieved benchmark datasets and supports 7+ retrieval techniques, 24+ state-of-the-art Reranking models, and multiple RAG methods.",
+      "url": "https://github.com/DataScienceUIBK/Rankify",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Rankify 🔥 Rankify: A Comprehensive Python Toolkit for Retrieval, Re-Ranking, and Retrieval-Augmented Generation 🔥. Our toolkit integrates 40 pre-retrieved benchmark datasets and supports 7+ retrieval techniques, 24+ state-of-the-art Reranking models, and multiple RAG methods. DataScienceUIBK/Rankify data-ai"
+    },
+    {
+      "name": "agentic-ai-engineering",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "agenticloops-ai/agentic-ai-engineering",
+      "stars": 142,
+      "desc": "Hands-on tutorials for building AI agents from scratch. Learn LLM APIs, prompt engineering, tool calling, and the agent loop through practical examples.",
+      "url": "https://github.com/agenticloops-ai/agentic-ai-engineering",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agentic-ai-engineering Hands-on tutorials for building AI agents from scratch. Learn LLM APIs, prompt engineering, tool calling, and the agent loop through practical examples. agenticloops-ai/agentic-ai-engineering data-ai"
+    },
+    {
+      "name": "sample-genai-on-eks-starter-kit",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "aws-samples/sample-genai-on-eks-starter-kit",
+      "stars": 73,
+      "desc": "A comprehensive toolkit for deploying production-ready Generative AI infrastructure on Amazon EKS. Includes pre-configured components for:  🚀 AI Gateway (LiteLLM) 🤖 LLM Serving (vLLM, SGLang, Ollama) 📊 Vector Databases, 🔍 Embedding Models (TEI) 📈 Observability (Langfuse, Phoenix) etc. Fast-track your GenAI deployment with Kubernetes",
+      "url": "https://github.com/aws-samples/sample-genai-on-eks-starter-kit",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "sample-genai-on-eks-starter-kit A comprehensive toolkit for deploying production-ready Generative AI infrastructure on Amazon EKS. Includes pre-configured components for:  🚀 AI Gateway (LiteLLM) 🤖 LLM Serving (vLLM, SGLang, Ollama) 📊 Vector Databases, 🔍 Embedding Models (TEI) 📈 Observability (Langfuse, Phoenix) etc. Fast-track your GenAI deployment with Kubernetes aws-samples/sample-genai-on-eks-starter-kit data-ai"
+    },
+    {
+      "name": "ai-engineering-bootcamp",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "harsh-aranga/ai-engineering-bootcamp",
+      "stars": 66,
+      "desc": "A self-paced bootcamp for engineers building AI into production systems. Starts from fundamentals (tokenization, embeddings, prompting) and builds to RAG, Agents (LangGraph, tool design, memory, multi-agent), and LLMOps. Depth over breadth.",
+      "url": "https://github.com/harsh-aranga/ai-engineering-bootcamp",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-engineering-bootcamp A self-paced bootcamp for engineers building AI into production systems. Starts from fundamentals (tokenization, embeddings, prompting) and builds to RAG, Agents (LangGraph, tool design, memory, multi-agent), and LLMOps. Depth over breadth. harsh-aranga/ai-engineering-bootcamp data-ai"
+    },
+    {
+      "name": "awesome-ai-infrastructure",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "brandonhimpfen/awesome-ai-infrastructure",
+      "stars": 62,
+      "desc": "A curated list of awesome tools, frameworks, platforms, and resources for building scalable and efficient AI infrastructure, including distributed training, model serving, MLOps, and deployment.",
+      "url": "https://github.com/brandonhimpfen/awesome-ai-infrastructure",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-ai-infrastructure A curated list of awesome tools, frameworks, platforms, and resources for building scalable and efficient AI infrastructure, including distributed training, model serving, MLOps, and deployment. brandonhimpfen/awesome-ai-infrastructure data-ai"
     }
   ]
 }

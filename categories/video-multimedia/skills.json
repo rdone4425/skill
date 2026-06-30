@@ -4,7 +4,7 @@
     "topCategoryId": "video-multimedia",
     "subCategoryId": "video-multimedia",
     "categoryPath": "video-multimedia",
-    "count": 96,
+    "count": 97,
     "sourceData": "categories"
   },
   "skills": [
@@ -1772,6 +1772,24 @@
         "general"
       ],
       "searchText": "edit-mind Local-first Video Knowledge Base. Index your video library w IliasHad/edit-mind video-multimedia"
+    },
+    {
+      "name": "agnes-video-generator",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "lcy362/agnes-video-generator",
+      "stars": 105,
+      "desc": "Open-source, self-hosted AI video generator — completely free. Text to multi-scene video with narration, subtitles, and digital anchor via Web UI, powered by Agnes AI.",
+      "url": "https://github.com/lcy362/agnes-video-generator",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agnes-video-generator Open-source, self-hosted AI video generator — completely free. Text to multi-scene video with narration, subtitles, and digital anchor via Web UI, powered by Agnes AI. lcy362/agnes-video-generator video-multimedia"
     }
   ]
 }

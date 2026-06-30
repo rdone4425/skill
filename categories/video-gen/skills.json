@@ -4,7 +4,7 @@
     "topCategoryId": "video-gen",
     "subCategoryId": "video-gen",
     "categoryPath": "video-gen",
-    "count": 53,
+    "count": 54,
     "sourceData": "categories"
   },
   "skills": [
@@ -977,6 +977,24 @@
         "general"
       ],
       "searchText": "forge-film Multi-model DAG-driven parallel AI film generation — paralle F-R-L/forge-film video-gen"
+    },
+    {
+      "name": "zhihui_nodes_comfyui",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "ZhiHui6/zhihui_nodes_comfyui",
+      "stars": 159,
+      "desc": "55+ ComfyUI自定义节点合集，涵盖提示词生成/扩写、多平台翻译、AI视觉理解、图像处理、视频提示词生成等功能。界面支持中、英文语言。  55+ ComfyUI custom nodes featuring prompt generation/expansion, multi-platform translation, AI vision understanding, image processing, and video prompt tools. Interface supports Chinese and English languages.",
+      "url": "https://github.com/ZhiHui6/zhihui_nodes_comfyui",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "zhihui_nodes_comfyui 55+ ComfyUI自定义节点合集，涵盖提示词生成/扩写、多平台翻译、AI视觉理解、图像处理、视频提示词生成等功能。界面支持中、英文语言。  55+ ComfyUI custom nodes featuring prompt generation/expansion, multi-platform translation, AI vision understanding, image processing, and video prompt tools. Interface supports Chinese and English languages. ZhiHui6/zhihui_nodes_comfyui video-gen"
     }
   ]
 }
