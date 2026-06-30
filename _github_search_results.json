@@ -1,0 +1,410 @@
+[
+  {
+    "name": "acte",
+    "description": "A framework to build GUI-like Agent Tools, enhancement to Function Calling of LLM AI.",
+    "url": "https://github.com/j66n/acte",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 93
+  },
+  {
+    "name": "duix-avatar",
+    "description": "🚀 Truly open-source AI avatar(digital human) toolkit for offline video generation and digital human cloning.",
+    "url": "https://github.com/duixcom/Duix-Avatar",
+    "category": "video-multimedia",
+    "platform": "general",
+    "stars": 13780
+  },
+  {
+    "name": "openjourney",
+    "description": "Open-source clone of the MidJourney web interface featuring real AI image and video generation powered by Google's Gemini SDK. Use Imagen 4 to generate images and Veo 2 and 3 for image and text to video with audio.",
+    "url": "https://github.com/ammaarreshi/openjourney",
+    "category": "video-multimedia",
+    "platform": "general",
+    "stars": 254
+  },
+  {
+    "name": "aso-tracker",
+    "description": "Self-hosted open-source App Store toolkit for indie iOS devs — keyword tracking, AI screenshot generation, PPO experiments, and UGC video pipeline.",
+    "url": "https://github.com/dsm5e/aso-tracker",
+    "category": "dev-tools",
+    "platform": "general",
+    "stars": 118
+  },
+  {
+    "name": "loomic",
+    "description": "Open-source AI canvas design agent — alternative to Lovart / CapCut Video Studio / Canva AI. Chat-driven image & video generation on an infinite canvas.",
+    "url": "https://github.com/fancyboi999/Loomic",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 106
+  },
+  {
+    "name": "ai-novelflow",
+    "description": "NovelFlow 是一个将小说自动转换为视频的 AI 平台。文生图、图生图、图生视频都是基于开源模型及B站大佬分享的工作流。（NovelFlow is an AI platform that automatically converts novels into videos. Text-to-image, image-to-image, and image-to-video generation are all powered by open-source models and workflow templates shared by creators on Bilibili.）",
+    "url": "https://github.com/qzw881130/AI-NovelFlow",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 85
+  },
+  {
+    "name": "openloaf",
+    "description": "🍞Open-source, local-first AI workspace with Agents, multi-model chat (GPT/Claude/Gemini/DeepSeek), Notion-like docs, AI image & video generation, email, calendar & terminal. Your data never leaves your device. AI 工作台：智能代理 + 多模型对话 + 文档管理 + AI 生图/视频 + 邮件/日历/终端",
+    "url": "https://github.com/OpenLoaf/OpenLoaf",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 71
+  },
+  {
+    "name": "storyblocks",
+    "description": "✨ Experience the enchantment of Story Blocks: an open-source project merging AI text generation and image synthesis to create captivating video narratives. 📚🎥 Watch as your text prompts come to life with stunning visuals, exploring new frontiers in storytelling!",
+    "url": "https://github.com/adithya-s-k/Storyblocks",
+    "category": "video-multimedia",
+    "platform": "general",
+    "stars": 69
+  },
+  {
+    "name": "remotion-superpowers",
+    "description": "🎬 Claude Code plugin — full video production studio for Remotion. AI voiceovers, music, stock footage, image/video generation, TikTok captions, 3D, transitions & AI review loop. 5 MCP servers, 13 commands. Free & open source by Dojo Coding.",
+    "url": "https://github.com/DojoCodingLabs/remotion-superpowers",
+    "category": "dev-tools",
+    "platform": "general",
+    "stars": 62
+  },
+  {
+    "name": "video-creator",
+    "description": "Fully offline pipeline to auto-generate videos with AI — includes script generation, TTS voiceover, image generation, subtitles, and final video assembly with background music. Perfect for Shorts & storytelling, no internet needed.",
+    "url": "https://github.com/prakashdk/video-creator",
+    "category": "video-multimedia",
+    "platform": "general",
+    "stars": 60
+  },
+  {
+    "name": "openvoiceui",
+    "description": "Voice-powered AI assistant platform — connect any LLM, any TTS, with a live web canvas, music generation, and agent orchestration using openclaw. Install: npx openvoiceui setup",
+    "url": "https://github.com/MCERQUA/OpenVoiceUI",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 53
+  },
+  {
+    "name": "latex-arxiv-skill",
+    "description": "A highly customizable agentic harness for arXiv-ready ML/AI review papers (and beyond). It drives agentic AI like Codex CLI and Claude Code through a gated LaTeX workflow with verified BibTeX citations.",
+    "url": "https://github.com/appautomaton/latex-arxiv-SKILL",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 367
+  },
+  {
+    "name": "gemini-kit",
+    "description": "🚀 19 AI Agents + 44 Commands for Gemini CLI - Code 10x faster with auto planning, testing, review & security",
+    "url": "https://github.com/nth5693/gemini-kit",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 357
+  },
+  {
+    "name": "accessibility-agents",
+    "description": "Accessibility review agents for Claude Code, GitHub Copilot, and Claude Desktop. Eleven specialists that enforce WCAG 2.2 AA compliance so AI coding tools stop generating inaccessible code.",
+    "url": "https://github.com/Community-Access/accessibility-agents",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 345
+  },
+  {
+    "name": "xactions",
+    "description": "⚡ The Complete X/Twitter Automation Toolkit — Scrapers, MCP server for AI agents (Claude/GPT), CLI, browser scripts. No API fees. Open source. Unfollow people who don't follow back. Monitor real-time analytics. Auto follow, like, comment, scrape, without API. Follow Bot. Like bot. Grow your account automatically. ",
+    "url": "https://github.com/nirholas/XActions",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 347
+  },
+  {
+    "name": "datagen",
+    "description": "DATAGEN: AI-driven multi-agent research assistant automating hypothesis generation, data analysis, and report writing. ",
+    "url": "https://github.com/starpig1129/DATAGEN",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 1762
+  },
+  {
+    "name": "streamline-analyst",
+    "description": "An AI agent powered by LLMs that streamlines the entire process of data analysis. 🚀",
+    "url": "https://github.com/Wilson-ZheLin/Streamline-Analyst",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 482
+  },
+  {
+    "name": "dbrheo-cli",
+    "description": "A database operations and data analysis AI agent",
+    "url": "https://github.com/Din829/DbRheo-CLI",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 431
+  },
+  {
+    "name": "claude-data-analysis",
+    "description": "Create a data analysis AI agent with Claude Code. Make data analysis as simple as having a chat!​​ 别忘了！claude code也是agent框架，类似langgraph,crewAI，autogen等等agent框架。我改造claude code搞一个数据分析智能体AI。 让数据分析变得像聊天一样简单！",
+    "url": "https://github.com/liangdabiao/claude-data-analysis",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 417
+  },
+  {
+    "name": "xpert",
+    "description": "Xpert AI is an AI agents and data analysis platform for enterprises to make business decisions.",
+    "url": "https://github.com/xpert-ai/xpert",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 415
+  },
+  {
+    "name": "geoagent",
+    "description": "A multimodal AI agent for geospatial data analysis and interactive visualization",
+    "url": "https://github.com/opengeos/GeoAgent",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 394
+  },
+  {
+    "name": "building-intelligent-apps-with-anaconda",
+    "description": "10-part module to build AI-native apps. From data analysis to multi-agent model harness. For curious learners and serious AI builders.",
+    "url": "https://github.com/Anaconda-Labs/building-intelligent-apps-with-anaconda",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 229
+  },
+  {
+    "name": "google-analytics-mcp",
+    "description": "Google Analytics 4 data to AI agents, agentic workflows, and MCP clients. Give agents analysis-ready access to website traffic, user behavior, and performance data with schema discovery, server-side aggregation, and safe defaults that reduce data wrangling.",
+    "url": "https://github.com/surendranb/google-analytics-mcp",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 222
+  },
+  {
+    "name": "open-data-scientist",
+    "description": "Open AI data scientist agent that automates complex data analysis tasks using the ReAct framework. Execute Python code locally or in the cloud, upload datasets, and generate detailed analytical reports with minimal setup.",
+    "url": "https://github.com/togethercomputer/open-data-scientist",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 187
+  },
+  {
+    "name": "pathway",
+    "description": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
+    "url": "https://github.com/pathwaycom/pathway",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 62806
+  },
+  {
+    "name": "llmware",
+    "description": "Unified framework for building enterprise RAG pipelines with small, specialized models",
+    "url": "https://github.com/llmware-ai/llmware",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 14818
+  },
+  {
+    "name": "ultrarag",
+    "description": "A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines",
+    "url": "https://github.com/OpenBMB/UltraRAG",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 5621
+  },
+  {
+    "name": "dspy-skills",
+    "description": "Collection of Claude Skills for DSPy framework - program language models, optimize prompts, and build RAG pipelines systematically",
+    "url": "https://github.com/OmidZamani/dspy-skills",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 108
+  },
+  {
+    "name": "contextcheck",
+    "description": " MIT-licensed Framework for LLMs, RAGs, Chatbots testing. Configurable via YAML and integrable into CI pipelines for automated testing.",
+    "url": "https://github.com/Addepto/contextcheck",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 95
+  },
+  {
+    "name": "lrage",
+    "description": "A framework for evaluating RAG pipelines, specifically adapted for the legal domain.",
+    "url": "https://github.com/hoorangyee/LRAGE",
+    "category": "data-ai",
+    "platform": "general",
+    "stars": 77
+  },
+  {
+    "name": "vectorsmuggle",
+    "description": "Research framework that quantifies how steganographic obfuscation of embeddings defeats off-the-shelf statistical detection in RAG pipelines, paired with the VectorPin cryptographic-provenance defense",
+    "url": "https://github.com/jaschadub/VectorSmuggle",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 74
+  },
+  {
+    "name": "eget-crawler-for-ai",
+    "description": "Web scraping framework built for AI applications. Extract clean, structured content from any website with dynamic content handling, markdown conversion, and intelligent crawling capabilities. Perfect for RAG applications and AI training data pipelines. Features async processing, browser management, and Prometheus monitoring.",
+    "url": "https://github.com/vishwajeetdabholkar/eGet-Crawler-for-ai",
+    "category": "dev-tools",
+    "platform": "general",
+    "stars": 57
+  },
+  {
+    "name": "ai-avatar-system",
+    "description": "🎭 AI Avatar / digital human platform — upload a photo, clone a voice, talk to any face in real time with lip-sync video. Open-source, self-hosted. Claude · Whisper · Chatterbox · MuseTalk.",
+    "url": "https://github.com/PunithVT/ai-avatar-system",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 288
+  },
+  {
+    "name": "sora-fullstack",
+    "description": " OpenAi-Sora (SoraFlows) is an open-source, cross-platform web application for AI-powered video creation and editing using the latest OpenAI Sora model. Effortlessly generate, edit, and share videos from text or images, with integrated support for voice-to-text, text-to-speech, voice cloning, and multi-language interfaces . ",
+    "url": "https://github.com/TornadoInsight/Sora-FullStack",
+    "category": "video-multimedia",
+    "platform": "general",
+    "stars": 109
+  },
+  {
+    "name": "vanta",
+    "description": "Open source AI video engine built on Remotion. Voice cloning, AI avatars, animated captions, video editor, timeline, 100+ transitions, motion graphics, image editing, vector graphics — replaces $190+/mo in Adobe CC + Remotion Pro + SaaS. Free Synthesia/Runway/Photoshop alternative.",
+    "url": "https://github.com/itsjwill/vanta",
+    "category": "data-ai",
+    "platform": "general",
+    "stars": 69
+  },
+  {
+    "name": "agixt",
+    "description": "AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, and a versatile plugin system, AGiXT delivers efficient and comprehensive AI solutions.",
+    "url": "https://github.com/Josh-XT/AGiXT",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 3199
+  },
+  {
+    "name": "memmachine",
+    "description": "Universal memory layer for AI Agents. It provides scalable, extensible, and interoperable memory storage and retrieval to streamline AI agent state management for next-generation autonomous systems.",
+    "url": "https://github.com/MemMachine/MemMachine",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 3136
+  },
+  {
+    "name": "comfyui-copilot",
+    "description": "An AI-powered custom node for ComfyUI designed to enhance workflow automation and provide intelligent assistance",
+    "url": "https://github.com/AIDC-AI/ComfyUI-Copilot",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 5327
+  },
+  {
+    "name": "pipeshub-ai",
+    "description": "PipesHub is a fully extensible and explainable workplace AI platform for enterprise search and workflow automation",
+    "url": "https://github.com/pipeshub-ai/pipeshub-ai",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 3006
+  },
+  {
+    "name": "ui-tars-desktop",
+    "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+    "url": "https://github.com/bytedance/UI-TARS-desktop",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 37391
+  },
+  {
+    "name": "deeplake",
+    "description": "Deeplake is AI Data Runtime for Agents. It provides serverless postgres with a multimodal datalake, enabling scalable retrieval and training.",
+    "url": "https://github.com/activeloopai/deeplake",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 9192
+  },
+  {
+    "name": "ruby_llm",
+    "description": "One delightful Ruby framework for every major AI provider. Build AI agents, chatbots, RAG apps, and multimodal workflows in beautiful, expressive code.",
+    "url": "https://github.com/crmne/ruby_llm",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 4208
+  },
+  {
+    "name": "magma",
+    "description": "[CVPR 2025] Magma: A Foundation Model for Multimodal AI Agents",
+    "url": "https://github.com/microsoft/Magma",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 1935
+  },
+  {
+    "name": "vectordb-recipes",
+    "description": "Resource, examples & tutorials for multimodal AI, RAG and agents using vector search and LLMs",
+    "url": "https://github.com/lancedb/vectordb-recipes",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 965
+  },
+  {
+    "name": "agents-js",
+    "description": "Build realtime multimodal AI agents with Node.js",
+    "url": "https://github.com/livekit/agents-js",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 874
+  },
+  {
+    "name": "blades",
+    "description": "Blades is a Go-based multimodal AI Agent framework.",
+    "url": "https://github.com/go-kratos/blades",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 791
+  },
+  {
+    "name": "skylos",
+    "description": "Open source local-first PR scanner that finds dead code, security bugs, secrets, quality regressions, and AI-code mistakes before merge. For first timers refer to https://duriantaco.github.io/skylos/repo-map/",
+    "url": "https://github.com/duriantaco/skylos",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 462
+  },
+  {
+    "name": "bugtraceai-cli",
+    "description": "Autonomous AI-powered security scanner — multi-agent vulnerability detection, exploitation, and validation engine",
+    "url": "https://github.com/BugTraceAI/BugTraceAI-CLI",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 148
+  },
+  {
+    "name": "drogonsec",
+    "description": "High-performance open-source security scanner combining SAST, SCA, Secret Detection, and IaC analysis, built for developers and CI/CD pipelines, using AI for recommendation!",
+    "url": "https://github.com/filipi86/drogonsec",
+    "category": "dev-tools",
+    "platform": "general",
+    "stars": 146
+  },
+  {
+    "name": "botsman",
+    "description": "Telegram-native AI DevOps agent that turns prompts into deployed web services on your own VPS.",
+    "url": "https://github.com/alzaxnsk-del/botsman",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 126
+  },
+  {
+    "name": "the-vibe-coding-handbook",
+    "description": "Complete Zero-to-Hero Guide for Vibe Coding, AI-Assisted Development, Local LLMs, Frontend, Backend, DevOps, Cloud, Hosting, Debugging, Deployment, and AI-Native Software Engineering.",
+    "url": "https://github.com/hacrex/the-vibe-coding-handbook",
+    "category": "agent-framework",
+    "platform": "general",
+    "stars": 73
+  }
+]
