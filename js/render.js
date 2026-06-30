@@ -628,7 +628,7 @@
       var clearBtn = dom['active-filters-clear'];
       if (!bar || !chips) return;
 
-      var hasFilters = state.keyword || state.agent || state.category !== 'all' || state.subcategory;
+      var hasFilters = state.keyword || state.agent || state.category !== 'all' || state.subcategory || state.scene || state.purpose;
       bar.hidden = !hasFilters;
       if (clearBtn) clearBtn.hidden = !hasFilters;
 
@@ -756,6 +756,22 @@
         return '<button type="button" class="scene-chip' + (active ? ' active' : '') + '" data-purpose-id="' + id + '">' + label + '</button>';
       }).join('') +
       (state.purpose ? '<button type="button" class="scene-chip scene-chip-clear" data-purpose-clear="1">' + (lang === 'zh' ? '✕ 清除' : '✕ Clear') + '</button>' : '');
+    /* Wire purpose chip clicks */
+    purposeRow.querySelectorAll('[data-purpose-id]').forEach(function (btn) {
+      btn.addEventListener('click', async function () {
+        var id = this.dataset.purposeId;
+        s.setPurpose(state.purpose === id ? null : id);
+        await s.ensureDataForCurrentState();
+        r.renderAll();
+      });
+    });
+    purposeRow.querySelectorAll('[data-purpose-clear]').forEach(function (btn) {
+      btn.addEventListener('click', async function () {
+        s.setPurpose(null);
+        await s.ensureDataForCurrentState();
+        r.renderAll();
+      });
+    });
 
     /* --- Purpose sub-category chips --- */
     var purposeSub = document.getElementById('purpose-sub-row');
@@ -776,6 +792,15 @@
             return '<button type="button" class="scene-sub-chip' + (active ? ' active' : '') + '" data-scene-cat="' + catId + '">' +
               s.getCategoryLabel(catId) + '<span class="scene-sub-count">' + (cat ? cat.count : 0) + '</span></button>';
           }).join('');
+        /* Wire purpose-sub chip clicks */
+        purposeSub.querySelectorAll('[data-scene-cat]').forEach(function (btn) {
+          btn.addEventListener('click', async function () {
+            var catId = this.dataset.sceneCat;
+            s.selectCategory(catId);
+            await s.ensureDataForCurrentState();
+            r.renderAll();
+          });
+        });
       } else {
         purposeSub.hidden = true;
       }
