@@ -4,7 +4,7 @@
     "topCategoryId": "education",
     "subCategoryId": "education",
     "categoryPath": "education",
-    "count": 93,
+    "count": 94,
     "sourceData": "categories"
   },
   "skills": [
@@ -1698,6 +1698,24 @@
         "general"
       ],
       "searchText": "simplyretrieve lightweight chat ai platform featuring custom knowledge, open-source llms, prompt-engineering, retrieval analysis. highly customizable. for retrieval-centric & retrieval-augmented generation. rcgai/simplyretrieve education general"
+    },
+    {
+      "name": "flameeducation",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "FlameEducation/FlameEducation",
+      "stars": 3,
+      "desc": "AI LLM-powered education system with TTS/ASR for online closed-loop learning",
+      "url": "https://github.com/FlameEducation/FlameEducation",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "general",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "flameeducation AI LLM-powered education system with TTS/ASR for online closed-loop learning FlameEducation/FlameEducation education general"
     }
   ]
 }

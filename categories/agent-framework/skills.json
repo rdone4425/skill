@@ -4,7 +4,7 @@
     "topCategoryId": "agent-framework",
     "subCategoryId": "agent-framework",
     "categoryPath": "agent-framework",
-    "count": 739,
+    "count": 750,
     "sourceData": "categories"
   },
   "skills": [
@@ -13314,6 +13314,204 @@
       ],
       "searchText": "TwitCanva-Video-Workflow A next-generation AI-powered infinite canvas workspace built for creators and developers. Experience the future of Generative AI with a drag-and-drop  SankaiAI/TwitCanva-Video-Workflow agent-framework",
       "pricing": "free"
+    },
+    {
+      "name": "bytebot",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "bytebot-ai/bytebot",
+      "stars": 11062,
+      "desc": "Self-hosted AI desktop agent that automates computer tasks",
+      "url": "https://github.com/bytebot-ai/bytebot",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "bytebot Self-hosted AI desktop agent that automates computer tasks bytebot-ai/bytebot agent-framework general"
+    },
+    {
+      "name": "lobsterai",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "netease-youdao/LobsterAI",
+      "stars": 5391,
+      "desc": "Open-source, desktop-grade AI agent that gets real work done",
+      "url": "https://github.com/netease-youdao/LobsterAI",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "lobsterai Open-source, desktop-grade AI agent that gets real work done netease-youdao/LobsterAI agent-framework general"
+    },
+    {
+      "name": "thclaws",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "thClaws/thClaws",
+      "stars": 1132,
+      "desc": "Open-source AI agent harness in native Rust with GUI, CLI, and headless modes",
+      "url": "https://github.com/thClaws/thClaws",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "thclaws Open-source AI agent harness in native Rust with GUI, CLI, and headless modes thClaws/thClaws agent-framework general"
+    },
+    {
+      "name": "nuwax",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "nuwax-ai/nuwax",
+      "stars": 823,
+      "desc": "Enterprise-grade AI Agent Development and Operations platform",
+      "url": "https://github.com/nuwax-ai/nuwax",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "nuwax Enterprise-grade AI Agent Development and Operations platform nuwax-ai/nuwax agent-framework general"
+    },
+    {
+      "name": "hexstrike-ai",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "0x4m4/hexstrike-ai",
+      "stars": 10033,
+      "desc": "Advanced MCP server that lets AI agents perform offensive security operations",
+      "url": "https://github.com/0x4m4/hexstrike-ai",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "hexstrike-ai Advanced MCP server that lets AI agents perform offensive security operations 0x4m4/hexstrike-ai agent-framework general"
+    },
+    {
+      "name": "loop-engineering",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "cobusgreyling/loop-engineering",
+      "stars": 4093,
+      "desc": "Practical patterns, starters and CLI tools for loop engineering with AI agents",
+      "url": "https://github.com/cobusgreyling/loop-engineering",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "loop-engineering Practical patterns, starters and CLI tools for loop engineering with AI agents cobusgreyling/loop-engineering agent-framework general"
+    },
+    {
+      "name": "agent-sandbox",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "ruilong1999/agent-sandbox",
+      "stars": 105,
+      "desc": "Next-generation sandbox for AI code agents with environment management",
+      "url": "https://github.com/ruilong1999/agent-sandbox",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agent-sandbox Next-generation sandbox for AI code agents with environment management ruilong1999/agent-sandbox agent-framework general"
+    },
+    {
+      "name": "mult-agent-shogun",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "yohey-w/multi-agent-shogun",
+      "stars": 1367,
+      "desc": "Samurai-inspired multi-agent system for Claude Code with parallel orchestration",
+      "url": "https://github.com/yohey-w/multi-agent-shogun",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mult-agent-shogun Samurai-inspired multi-agent system for Claude Code with parallel orchestration yohey-w/multi-agent-shogun agent-framework general"
+    },
+    {
+      "name": "agent-toolkit-for-aws",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "aws/agent-toolkit-for-aws",
+      "stars": 1610,
+      "desc": "Official AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agent-toolkit-for-aws Official AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS aws/agent-toolkit-for-aws agent-framework general"
+    },
+    {
+      "name": "awesome-openclaw-agents",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "mergisi/awesome-openclaw-agents",
+      "stars": 3750,
+      "desc": "162 production-ready AI agent templates for OpenClaw with SOUL.md configs",
+      "url": "https://github.com/mergisi/awesome-openclaw-agents",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-openclaw-agents 162 production-ready AI agent templates for OpenClaw with SOUL.md configs mergisi/awesome-openclaw-agents agent-framework general"
+    },
+    {
+      "name": "agentshield",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "affaan-m/agentshield",
+      "stars": 933,
+      "desc": "AI agent security scanner — detect vulnerabilities in agent configurations",
+      "url": "https://github.com/affaan-m/agentshield",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agentshield AI agent security scanner — detect vulnerabilities in agent configurations affaan-m/agentshield agent-framework general"
     }
   ]
 }

@@ -4,7 +4,7 @@
     "topCategoryId": "devops",
     "subCategoryId": "deploy",
     "categoryPath": "devops-deploy",
-    "count": 122,
+    "count": 125,
     "sourceData": "categories"
   },
   "skills": [
@@ -2378,6 +2378,60 @@
         "general"
       ],
       "searchText": "azure-networking azure networking - vnet, load balancer, gateway, firewall microsoftdocs/agent-skills devops-deploy general"
+    },
+    {
+      "name": "zabbix-mcp-server",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "mpeirone/zabbix-mcp-server",
+      "stars": 234,
+      "desc": "Complete MCP server for Zabbix — connect AI assistants to monitoring infrastructure",
+      "url": "https://github.com/mpeirone/zabbix-mcp-server",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "zabbix-mcp-server Complete MCP server for Zabbix — connect AI assistants to monitoring infrastructure mpeirone/zabbix-mcp-server devops-deploy general"
+    },
+    {
+      "name": "aura",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "mezmo/aura",
+      "stars": 152,
+      "desc": "Agentic harness that turns an LLM model into a reliable, autonomous operator",
+      "url": "https://github.com/mezmo/aura",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aura Agentic harness that turns an LLM model into a reliable, autonomous operator mezmo/aura devops-deploy general"
+    },
+    {
+      "name": "xero-agent-toolkit",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "XeroAPI/xero-agent-toolkit",
+      "stars": 44,
+      "desc": "Collection of examples for building AI agents that integrate with Xero API",
+      "url": "https://github.com/XeroAPI/xero-agent-toolkit",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "xero-agent-toolkit Collection of examples for building AI agents that integrate with Xero API XeroAPI/xero-agent-toolkit devops-deploy general"
     }
   ]
 }

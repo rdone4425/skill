@@ -4,7 +4,7 @@
     "topCategoryId": "ecommerce",
     "subCategoryId": "ecommerce",
     "categoryPath": "ecommerce",
-    "count": 73,
+    "count": 76,
     "sourceData": "categories"
   },
   "skills": [
@@ -1321,6 +1321,60 @@
         "general"
       ],
       "searchText": "clipforge clipforge（原『带货剪手』/ daihuo-jianshou）：开源 ai 带货短视频神器——上传一张商品图，ai 自动提炼卖点 + 写种草脚本 + 锁定商品原图不变形 + 配画面/配音/字幕，一键产出抖音小店 / 快手 / 小红书 / tiktok shop 卖货短视频。0 成本批量出片、开源无水印、本... xixihhhh/clipforge ecommerce general"
+    },
+    {
+      "name": "ecommerce-skills-nexscope",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "stars": 301,
+      "desc": "E-commerce skills for AI agents — product research and marketing automation",
+      "url": "https://github.com/nexscope-ai/eCommerce-Skills",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ecommerce-skills-nexscope E-commerce skills for AI agents — product research and marketing automation nexscope-ai/eCommerce-Skills ecommerce general"
+    },
+    {
+      "name": "shopclaw-mcp",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "h3nri-dev/shopclaw-mcp",
+      "stars": 1,
+      "desc": "Search 364M+ Shopify products via MCP, REST API, or Agent SDK",
+      "url": "https://github.com/h3nri-dev/shopclaw-mcp",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "shopclaw-mcp Search 364M+ Shopify products via MCP, REST API, or Agent SDK h3nri-dev/shopclaw-mcp ecommerce general"
+    },
+    {
+      "name": "trends-agent-ecommerce",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "trendsmcp/trends-agent-ecommerce",
+      "stars": 1,
+      "desc": "Live demand and product trend data for AI ecommerce agents",
+      "url": "https://github.com/trendsmcp/trends-agent-ecommerce",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "trends-agent-ecommerce Live demand and product trend data for AI ecommerce agents trendsmcp/trends-agent-ecommerce ecommerce general"
     }
   ]
 }

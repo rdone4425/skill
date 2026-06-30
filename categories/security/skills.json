@@ -4,7 +4,7 @@
     "topCategoryId": "security",
     "subCategoryId": "general",
     "categoryPath": "security",
-    "count": 215,
+    "count": 219,
     "sourceData": "categories"
   },
   "skills": [
@@ -4043,6 +4043,78 @@
       ],
       "searchText": "nono Sandbox any AI agent in seconds - zero setup, zero latency. nolabs-ai/nono security",
       "pricing": "free"
+    },
+    {
+      "name": "hol-guard",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "hashgraph-online/hol-guard",
+      "stars": 378,
+      "desc": "AI antivirus for developer agents — protect Codex, Claude Code, Cursor",
+      "url": "https://github.com/hashgraph-online/hol-guard",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "hol-guard AI antivirus for developer agents — protect Codex, Claude Code, Cursor hashgraph-online/hol-guard security general"
+    },
+    {
+      "name": "repo-forensics",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "alexgreensh/repo-forensics",
+      "stars": 112,
+      "desc": "Offline security scanner for AI-agent repos, skills, plugins, and MCP servers",
+      "url": "https://github.com/alexgreensh/repo-forensics",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "repo-forensics Offline security scanner for AI-agent repos, skills, plugins, and MCP servers alexgreensh/repo-forensics security general"
+    },
+    {
+      "name": "cybersec-toolkit",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "26zl/cybersec-toolkit",
+      "stars": 20,
+      "desc": "One command installs 580+ security tools on Linux and Termux",
+      "url": "https://github.com/26zl/cybersec-toolkit",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cybersec-toolkit One command installs 580+ security tools on Linux and Termux 26zl/cybersec-toolkit security general"
+    },
+    {
+      "name": "aiscan",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "chainreactors/aiscan",
+      "stars": 151,
+      "desc": "AI-driven pentesting agent — single binary for penetration testing",
+      "url": "https://github.com/chainreactors/aiscan",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aiscan AI-driven pentesting agent — single binary for penetration testing chainreactors/aiscan security general"
     }
   ]
 }

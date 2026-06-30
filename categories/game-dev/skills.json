@@ -4,7 +4,7 @@
     "topCategoryId": "game-dev",
     "subCategoryId": "game-dev",
     "categoryPath": "game-dev",
-    "count": 100,
+    "count": 101,
     "sourceData": "categories"
   },
   "skills": [
@@ -1823,6 +1823,24 @@
         "general"
       ],
       "searchText": "gamestack The game-design process for Claude — knowledge + workflow skills for designing games, tuned for headless, procedural, AI-authored development (engine-agnostic; Godot). rondorkerin/gamestack game-dev"
+    },
+    {
+      "name": "ultragamestudio",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "wellingfeng/UltraGameStudio",
+      "stars": 228,
+      "desc": "AI coding agent for game development with engine workflows and 3D support",
+      "url": "https://github.com/wellingfeng/UltraGameStudio",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ultragamestudio AI coding agent for game development with engine workflows and 3D support wellingfeng/UltraGameStudio game-dev general"
     }
   ]
 }

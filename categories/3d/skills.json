@@ -4,7 +4,7 @@
     "topCategoryId": "3d",
     "subCategoryId": "3d",
     "categoryPath": "3d",
-    "count": 76,
+    "count": 77,
     "sourceData": "categories"
   },
   "skills": [
@@ -1375,6 +1375,24 @@
         "general"
       ],
       "searchText": "content-agents ai-powered agents for automating 3d content workflows using vision-language models (vlms). content agents analyze 3d assets and automate material assignment,... nvidia-omniverse/content-agents 3d general"
+    },
+    {
+      "name": "agentshire",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Agentshire/Agentshire",
+      "stars": 1245,
+      "desc": "OpenClaw plugin that visualizes AI agents as 3D NPCs in a game world",
+      "url": "https://github.com/Agentshire/Agentshire",
+      "install": "",
+      "functionCategory": "3d",
+      "topCategoryId": "3d",
+      "subCategoryId": "general",
+      "categoryPath": "3d",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agentshire OpenClaw plugin that visualizes AI agents as 3D NPCs in a game world Agentshire/Agentshire 3d general"
     }
   ]
 }

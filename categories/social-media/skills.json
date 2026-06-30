@@ -4,7 +4,7 @@
     "topCategoryId": "social-media",
     "subCategoryId": "social-media",
     "categoryPath": "social-media",
-    "count": 138,
+    "count": 141,
     "sourceData": "categories"
   },
   "skills": [
@@ -2585,6 +2585,42 @@
         "claude-code",
         "hermes"
       ]
+    },
+    {
+      "name": "social-media-skills-nexscope",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "blacktwist/social-media-skills",
+      "stars": 285,
+      "desc": "AI agent skills for social media content strategy, creation, and analysis",
+      "url": "https://github.com/blacktwist/social-media-skills",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social-media",
+      "subCategoryId": "general",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "social-media-skills-nexscope AI agent skills for social media content strategy, creation, and analysis blacktwist/social-media-skills social-media general"
+    },
+    {
+      "name": "demandbird",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "DemandBird/demandbird",
+      "stars": 6,
+      "desc": "Social media management tool for teams and agencies with AI automation",
+      "url": "https://github.com/DemandBird/demandbird",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social-media",
+      "subCategoryId": "general",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "demandbird Social media management tool for teams and agencies with AI automation DemandBird/demandbird social-media general"
     }
   ]
 }

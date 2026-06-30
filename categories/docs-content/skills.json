@@ -4,7 +4,7 @@
     "topCategoryId": "docs",
     "subCategoryId": "content",
     "categoryPath": "docs-content",
-    "count": 189,
+    "count": 192,
     "sourceData": "categories"
   },
   "skills": [
@@ -3721,6 +3721,60 @@
         "general"
       ],
       "searchText": "communication-excellence-coach communication excellence coach - agent for improving communication softaworks/agent-toolkit docs-content general"
+    },
+    {
+      "name": "mineru2ppt",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "JuniverseCoder/MinerU2PPT",
+      "stars": 190,
+      "desc": "High-fidelity tool to convert PDF files and images into fully editable PPT",
+      "url": "https://github.com/JuniverseCoder/MinerU2PPT",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs-content",
+      "subCategoryId": "general",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mineru2ppt High-fidelity tool to convert PDF files and images into fully editable PPT JuniverseCoder/MinerU2PPT docs-content general"
+    },
+    {
+      "name": "doc-smith",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "AIGNE-io/aigne-doc-smith",
+      "stars": 160,
+      "desc": "AI-driven documentation generation tool for code projects",
+      "url": "https://github.com/AIGNE-io/aigne-doc-smith",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs-content",
+      "subCategoryId": "general",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "doc-smith AI-driven documentation generation tool for code projects AIGNE-io/aigne-doc-smith docs-content general"
+    },
+    {
+      "name": "awesome-genomic-skills",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "GoekeLab/awesome-genomic-skills",
+      "stars": 58,
+      "desc": "Curated list of genomics and bioinformatics agentic skills",
+      "url": "https://github.com/GoekeLab/awesome-genomic-skills",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs-content",
+      "subCategoryId": "general",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-genomic-skills Curated list of genomics and bioinformatics agentic skills GoekeLab/awesome-genomic-skills docs-content general"
     }
   ]
 }

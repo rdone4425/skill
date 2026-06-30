@@ -4,7 +4,7 @@
     "topCategoryId": "data",
     "subCategoryId": "ai",
     "categoryPath": "data-ai",
-    "count": 535,
+    "count": 537,
     "sourceData": "categories"
   },
   "skills": [
@@ -10478,6 +10478,42 @@
       ],
       "searchText": "AlayaLite AlayaLite – A Fast, Flexible Vector Database for Everyone. AlayaDB-AI/AlayaLite data-ai",
       "pricing": "free"
+    },
+    {
+      "name": "fundation-models-framework-lab",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "rudrankriyam/Foundation-Models-Framework-Lab",
+      "stars": 1136,
+      "desc": "Practical lab for building, testing, and evaluating apps with Apple Intelligence",
+      "url": "https://github.com/rudrankriyam/Foundation-Models-Framework-Lab",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "fundation-models-framework-lab Practical lab for building, testing, and evaluating apps with Apple Intelligence rudrankriyam/Foundation-Models-Framework-Lab data-ai general"
+    },
+    {
+      "name": "oxylabs-ai-studio",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "oxylabs/oxylabs-ai-studio-py",
+      "stars": 3097,
+      "desc": "Structured data gathering from any website using AI-powered scraper",
+      "url": "https://github.com/oxylabs/oxylabs-ai-studio-py",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "oxylabs-ai-studio Structured data gathering from any website using AI-powered scraper oxylabs/oxylabs-ai-studio-py data-ai general"
     }
   ]
 }

@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 1105,
+    "count": 1115,
     "sourceData": "categories"
   },
   "skills": [
@@ -21528,6 +21528,186 @@
       ],
       "searchText": "atlassian-rovo-source-code-z80-dump Complete reverse engineering of Atlassian ACLI Rovo Dev binary - extracted source code, system prompts, and technical analysis ghuntley/atlassian-rovo-source-code-z80-dump dev-tools",
       "pricing": "free"
+    },
+    {
+      "name": "talktofigma-mcp",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "grab/cursor-talk-to-figma-mcp",
+      "stars": 6868,
+      "desc": "MCP integration between AI agents and Figma for design-to-code workflows",
+      "url": "https://github.com/grab/cursor-talk-to-figma-mcp",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "talktofigma-mcp MCP integration between AI agents and Figma for design-to-code workflows grab/cursor-talk-to-figma-mcp dev-tools general"
+    },
+    {
+      "name": "autobe",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "wrtnlabs/autobe",
+      "stars": 1349,
+      "desc": "AI Vibe Coding Agent for TypeScript backend server, enhanced by compiler skills",
+      "url": "https://github.com/wrtnlabs/autobe",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "autobe AI Vibe Coding Agent for TypeScript backend server, enhanced by compiler skills wrtnlabs/autobe dev-tools general"
+    },
+    {
+      "name": "browserwing",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "browserwing/browserwing",
+      "stars": 1304,
+      "desc": "BrowserWing turns browser actions into MCP commands and Claude Skills",
+      "url": "https://github.com/browserwing/browserwing",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "browserwing BrowserWing turns browser actions into MCP commands and Claude Skills browserwing/browserwing dev-tools general"
+    },
+    {
+      "name": "webclaw",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "0xMassi/webclaw",
+      "stars": 1624,
+      "desc": "Fast, local-first web content extraction for LLMs. Scrape, crawl, extract",
+      "url": "https://github.com/0xMassi/webclaw",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "webclaw Fast, local-first web content extraction for LLMs. Scrape, crawl, extract 0xMassi/webclaw dev-tools general"
+    },
+    {
+      "name": "harnesskit",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "RealZST/HarnessKit",
+      "stars": 344,
+      "desc": "More than a skill manager — manage skills, MCP servers, plugins, hooks",
+      "url": "https://github.com/RealZST/HarnessKit",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "harnesskit More than a skill manager — manage skills, MCP servers, plugins, hooks RealZST/HarnessKit dev-tools general"
+    },
+    {
+      "name": "capa",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "infragate/capa",
+      "stars": 283,
+      "desc": "One capabilities.yaml wires skills, tools, rules, sub-agents, MCP servers",
+      "url": "https://github.com/infragate/capa",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "capa One capabilities.yaml wires skills, tools, rules, sub-agents, MCP servers infragate/capa dev-tools general"
+    },
+    {
+      "name": "tokensave",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "aovestdipaperino/tokensave",
+      "stars": 315,
+      "desc": "The most comprehensive code intelligence MCP server for AI coding agents",
+      "url": "https://github.com/aovestdipaperino/tokensave",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "tokensave The most comprehensive code intelligence MCP server for AI coding agents aovestdipaperino/tokensave dev-tools general"
+    },
+    {
+      "name": "vault-operator",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "pssah4/vault-operator",
+      "stars": 196,
+      "desc": "Real AI agent for your vault — coworker, copilot and thinking partner",
+      "url": "https://github.com/pssah4/vault-operator",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vault-operator Real AI agent for your vault — coworker, copilot and thinking partner pssah4/vault-operator dev-tools general"
+    },
+    {
+      "name": "skillz-macos",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "robzilla1738/skillz-macos",
+      "stars": 125,
+      "desc": "Browse and manage local AI skills, MCP configs, plugins, and agent activations",
+      "url": "https://github.com/robzilla1738/skillz-macos",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "skillz-macos Browse and manage local AI skills, MCP configs, plugins, and agent activations robzilla1738/skillz-macos dev-tools general"
+    },
+    {
+      "name": "ultraship",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Houseofmvps/ultraship",
+      "stars": 109,
+      "desc": "Claude Code plugin with 39 skills, 33 tools, 11 agents for enterprise shipping",
+      "url": "https://github.com/Houseofmvps/ultraship",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ultraship Claude Code plugin with 39 skills, 33 tools, 11 agents for enterprise shipping Houseofmvps/ultraship dev-tools general"
     }
   ]
 }

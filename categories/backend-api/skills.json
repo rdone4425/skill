@@ -4,7 +4,7 @@
     "topCategoryId": "backend",
     "subCategoryId": "api",
     "categoryPath": "backend-api",
-    "count": 169,
+    "count": 170,
     "sourceData": "categories"
   },
   "skills": [
@@ -3254,6 +3254,24 @@
         "general"
       ],
       "searchText": "azure-storage azure storage - blob, file, queue, and table storage microsoftdocs/agent-skills backend-api general"
+    },
+    {
+      "name": "matechat-react",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "DevCloudFE/matechat-react",
+      "stars": 29,
+      "desc": "React version of MateChat, a frontend AI scenario solution UI library",
+      "url": "https://github.com/DevCloudFE/matechat-react",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "matechat-react React version of MateChat, a frontend AI scenario solution UI library DevCloudFE/matechat-react backend-api general"
     }
   ]
 }

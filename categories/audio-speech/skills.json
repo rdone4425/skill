@@ -4,7 +4,7 @@
     "topCategoryId": "audio-speech",
     "subCategoryId": "audio-speech",
     "categoryPath": "audio-speech",
-    "count": 34,
+    "count": 36,
     "sourceData": "categories"
   },
   "skills": [
@@ -631,6 +631,42 @@
       ],
       "searchText": "AudioMuse-AI-NV-plugin AudioMuse-AI Navidrome Plugin enhances music discovery by using sonic analysis to queue similar songs in real time. NeptuneHub/AudioMuse-AI-NV-plugin audio-speech",
       "pricing": "free"
+    },
+    {
+      "name": "voiceforge",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "oelbourki/VoiceForge",
+      "stars": 5,
+      "desc": "Open-source, on-device voice cloning and text-to-speech toolkit",
+      "url": "https://github.com/oelbourki/VoiceForge",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "voiceforge Open-source, on-device voice cloning and text-to-speech toolkit oelbourki/VoiceForge audio-speech general"
+    },
+    {
+      "name": "voice-chat-bot",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Sharan-Kumar-R/Voice-Chat-Bot",
+      "stars": 77,
+      "desc": "Real-time AI ChatBot and voice-enabled AI VoiceBot using Deepgram STT/TTS",
+      "url": "https://github.com/Sharan-Kumar-R/Voice-Chat-Bot",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "voice-chat-bot Real-time AI ChatBot and voice-enabled AI VoiceBot using Deepgram STT/TTS Sharan-Kumar-R/Voice-Chat-Bot audio-speech general"
     }
   ]
 }

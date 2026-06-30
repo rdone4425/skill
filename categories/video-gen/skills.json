@@ -4,7 +4,7 @@
     "topCategoryId": "video-gen",
     "subCategoryId": "video-gen",
     "categoryPath": "video-gen",
-    "count": 24,
+    "count": 26,
     "sourceData": "categories"
   },
   "skills": [
@@ -439,6 +439,42 @@
         "general"
       ],
       "searchText": "whatdreamscost-comfyui ltx director and a variety of custom comfyui nodes and workflows. whatdreamscost/whatdreamscost-comfyui git clone https://github.com/whatdreamscost/whatdreamscost-comfyui video-gen general"
+    },
+    {
+      "name": "moneymakerturbo",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "stars": 94209,
+      "desc": "One-click to generate HD short videos using AI LLM",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "moneymakerturbo One-click to generate HD short videos using AI LLM harry0703/MoneyPrinterTurbo video-gen general"
+    },
+    {
+      "name": "sage-3d",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "NVlabs/sage",
+      "stars": 341,
+      "desc": "Scalable Agentic 3D Scene Generation from NVIDIA Labs",
+      "url": "https://github.com/NVlabs/sage",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "sage-3d Scalable Agentic 3D Scene Generation from NVIDIA Labs NVlabs/sage video-gen general"
     }
   ]
 }

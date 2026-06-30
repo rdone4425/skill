@@ -4,7 +4,7 @@
     "topCategoryId": "finance-crypto",
     "subCategoryId": "finance-crypto",
     "categoryPath": "finance-crypto",
-    "count": 117,
+    "count": 118,
     "sourceData": "categories"
   },
   "skills": [
@@ -2154,6 +2154,24 @@
         "dash-tools"
       ],
       "searchText": "dash-tools dashtools - plotly dash command line tools - create, run and deploy templated python apps from terminal andrew-hossack/dash-tools finance-crypto dash-tools"
+    },
+    {
+      "name": "iota-agent-mcp",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Scottcjn/iota-agent-mcp",
+      "stars": 61,
+      "desc": "MCP server for IOTA blockchain — 20 tools for AI agent integration",
+      "url": "https://github.com/Scottcjn/iota-agent-mcp",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "iota-agent-mcp MCP server for IOTA blockchain — 20 tools for AI agent integration Scottcjn/iota-agent-mcp finance-crypto general"
     }
   ]
 }
