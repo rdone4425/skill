@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-01T00:00:00.000Z",
+  "generatedAt": "2026-07-01T03:30:00Z",
   "sourceData": "categories",
-  "totalSkills": 5824,
+  "totalSkills": 12405,
   "categories": [
     {
       "id": "dev-tools",
       "path": "dev-tools",
       "groupId": "development",
       "subcategoryId": "tools",
-      "count": 1213,
+      "count": 563,
       "name_en": "Developer Tools",
       "name_cn": "开发工具",
       "hfTasks": [],
@@ -25,8 +25,8 @@
       ],
       "seo": {
         "metaDescription": {
-          "en": "Discover top developer tools, code editors, debuggers, and productivity utilities. Browse 1,100+ open-source dev tools for JavaScript, Python, Rust, and more.",
-          "cn": "发现顶级开发工具、代码编辑器、调试器和生产力工具。浏览 1100+ 个面向 JavaScript、Python、Rust 等的开源开发工具。"
+          "en": "Discover top developer tools, code editors, debuggers, and productivity utilities. Browse 1,213+ open-source dev tools for JavaScript, Python, Rust, and more.",
+          "cn": "发现顶级开发工具、代码编辑器、调试器和生产力工具。浏览 1,213+ 个面向 JavaScript、Python、Rust 等的开源开发工具。"
         },
         "keywords": {
           "en": "developer tools, code editor, debugger, npm, JavaScript tools, Python tools, Rust, VS Code extensions, CLI tools, open source devtools",
@@ -44,7 +44,7 @@
             "item": {
               "@type": "Thing",
               "name": "Developer Tools",
-              "description": "Discover top developer tools, code editors, debuggers, and productivity utilities. Browse 1,100+ open-source dev tools for JavaScript, Python, Rust, and more."
+              "description": "Discover top developer tools, code editors, debuggers, and productivity utilities. Browse 1,213+ open-source dev tools for JavaScript, Python, Rust, and more."
             }
           }
         ]
@@ -55,7 +55,7 @@
       "path": "general",
       "groupId": "general",
       "subcategoryId": "general",
-      "count": 628,
+      "count": 542,
       "name_en": "General Tools",
       "name_cn": "通用工具",
       "hfTasks": [],
@@ -65,8 +65,8 @@
       ],
       "seo": {
         "metaDescription": {
-          "en": "Explore general-purpose tools and utilities. Find 600+ awesome open-source projects, productivity software, and must-have general tools for any workflow.",
-          "cn": "探索通用工具和实用程序。发现 600+ 个精选开源项目、生产力软件和任何工作流都必不可少的通用工具。"
+          "en": "Explore general-purpose tools and utilities. Find 628+ awesome open-source projects, productivity software, and must-have general tools for any workflow.",
+          "cn": "探索通用工具和实用程序。发现 628+ 个精选开源项目、生产力软件和任何工作流都必不可少的通用工具。"
         },
         "keywords": {
           "en": "general tools, open source, productivity software, awesome lists, utility tools, general purpose software, must-have tools",
@@ -84,7 +84,7 @@
             "item": {
               "@type": "Thing",
               "name": "General Tools",
-              "description": "Explore general-purpose tools and utilities. Find 600+ awesome open-source projects, productivity software, and must-have general tools for any workflow."
+              "description": "Explore general-purpose tools and utilities. Find 628+ awesome open-source projects, productivity software, and must-have general tools for any workflow."
             }
           }
         ]
@@ -95,7 +95,7 @@
       "path": "data-ai",
       "groupId": "data",
       "subcategoryId": "ai",
-      "count": 601,
+      "count": 582,
       "name_en": "Data & AI / ML",
       "name_cn": "数据与 AI",
       "hfTasks": [
@@ -150,8 +150,8 @@
       ],
       "seo": {
         "metaDescription": {
-          "en": "Browse 500+ AI/ML tools, LLM frameworks, and data science utilities. Discover text-to-image, NLP, computer vision, and generative AI models and libraries.",
-          "cn": "浏览 500+ 款 AI/ML 工具、大语言模型框架和数据科学实用程序。发现文本生成、自然语言处理、计算机视觉和生成式 AI 模型与库。"
+          "en": "Browse 643+ AI/ML tools, LLM frameworks, and data science utilities. Discover text-to-image, NLP, computer vision, and generative AI models and libraries.",
+          "cn": "浏览 643+ 款 AI/ML 工具、大语言模型框架和数据科学实用程序。发现文本生成、自然语言处理、计算机视觉和生成式 AI 模型与库。"
         },
         "keywords": {
           "en": "AI tools, machine learning, LLM, NLP, computer vision, generative AI, text-to-image, deep learning, open source AI, data science, Hugging Face models, RAG",
@@ -169,7 +169,7 @@
             "item": {
               "@type": "Thing",
               "name": "Data & AI / ML",
-              "description": "Browse 500+ AI/ML tools, LLM frameworks, and data science utilities. Discover text-to-image, NLP, computer vision, and generative AI models and libraries."
+              "description": "Browse 643+ AI/ML tools, LLM frameworks, and data science utilities. Discover text-to-image, NLP, computer vision, and generative AI models and libraries."
             }
           }
         ]
@@ -180,7 +180,7 @@
       "path": "design-ui",
       "groupId": "design",
       "subcategoryId": "ui",
-      "count": 440,
+      "count": 561,
       "name_en": "Design & UI",
       "name_cn": "设计与 UI",
       "hfTasks": [],
@@ -193,8 +193,8 @@
       ],
       "seo": {
         "metaDescription": {
-          "en": "Find 400+ design systems, UI components, CSS frameworks, and front-end design tools. Best resources for React, Vue, and modern web UI design.",
-          "cn": "发现 400+ 个设计系统、UI 组件、CSS 框架和前端设计工具。React、Vue 和现代网页 UI 设计的最佳资源。"
+          "en": "Find 440+ design systems, UI components, CSS frameworks, and front-end design tools. Best resources for React, Vue, and modern web UI design.",
+          "cn": "发现 440+ 个设计系统、UI 组件、CSS 框架和前端设计工具。React、Vue 和现代网页 UI 设计的最佳资源。"
         },
         "keywords": {
           "en": "UI design, design systems, CSS frameworks, React components, Vue components, front-end design, web design, UI kits, visual design tools",
@@ -212,7 +212,7 @@
             "item": {
               "@type": "Thing",
               "name": "Design & UI",
-              "description": "Find 400+ design systems, UI components, CSS frameworks, and front-end design tools. Best resources for React, Vue, and modern web UI design."
+              "description": "Find 440+ design systems, UI components, CSS frameworks, and front-end design tools. Best resources for React, Vue, and modern web UI design."
             }
           }
         ]
@@ -223,7 +223,7 @@
       "path": "agent-framework",
       "groupId": "agent-framework",
       "subcategoryId": "agent-framework",
-      "count": 801,
+      "count": 545,
       "name_en": "AI Agent Frameworks",
       "name_cn": "Agent 框架",
       "hfTasks": [],
@@ -236,8 +236,8 @@
       ],
       "seo": {
         "metaDescription": {
-          "en": "Explore 760+ AI agent frameworks and autonomous agent platforms. Build, deploy, and manage intelligent agents with the latest agentic AI frameworks.",
-          "cn": "探索 760+ 个 AI Agent 框架和自主智能体平台。使用最新的 Agentic AI 框架构建、部署和管理智能代理。"
+          "en": "Explore 811+ AI agent frameworks and autonomous agent platforms. Build, deploy, and manage intelligent agents with the latest agentic AI frameworks.",
+          "cn": "探索 811+ 个 AI Agent 框架和自主智能体平台。使用最新的 Agentic AI 框架构建、部署和管理智能代理。"
         },
         "keywords": {
           "en": "AI agent framework, autonomous agent, agentic AI, AI agents, multi-agent systems, LLM agents, AI automation, virtual agents, agent platforms",
@@ -255,7 +255,7 @@
             "item": {
               "@type": "Thing",
               "name": "AI Agent Frameworks",
-              "description": "Explore 760+ AI agent frameworks and autonomous agent platforms. Build, deploy, and manage intelligent agents with the latest agentic AI frameworks."
+              "description": "Explore 811+ AI agent frameworks and autonomous agent platforms. Build, deploy, and manage intelligent agents with the latest agentic AI frameworks."
             }
           }
         ]
@@ -266,7 +266,7 @@
       "path": "docs-content",
       "groupId": "docs",
       "subcategoryId": "content",
-      "count": 199,
+      "count": 548,
       "name_en": "Documentation & Content",
       "name_cn": "文档与内容",
       "hfTasks": [
@@ -279,8 +279,8 @@
       ],
       "seo": {
         "metaDescription": {
-          "en": "Browse 200+ documentation tools, content management systems, and writing utilities. Best markdown editors, doc generators, and knowledge base tools.",
-          "cn": "浏览 200+ 个文档工具、内容管理系统和写作实用程序。最佳 Markdown 编辑器、文档生成器和知识库工具。"
+          "en": "Browse 199+ documentation tools, content management systems, and writing utilities. Best markdown editors, doc generators, and knowledge base tools.",
+          "cn": "浏览 199+ 个文档工具、内容管理系统和写作实用程序。最佳 Markdown 编辑器、文档生成器和知识库工具。"
         },
         "keywords": {
           "en": "documentation tools, markdown editor, doc generator, knowledge base, content management, technical writing, API documentation, static site generator",
@@ -298,7 +298,7 @@
             "item": {
               "@type": "Thing",
               "name": "Documentation & Content",
-              "description": "Browse 200+ documentation tools, content management systems, and writing utilities. Best markdown editors, doc generators, and knowledge base tools."
+              "description": "Browse 199+ documentation tools, content management systems, and writing utilities. Best markdown editors, doc generators, and knowledge base tools."
             }
           }
         ]
@@ -309,7 +309,7 @@
       "path": "automation-productivity",
       "groupId": "automation",
       "subcategoryId": "productivity",
-      "count": 239,
+      "count": 553,
       "name_en": "Automation & Productivity",
       "name_cn": "自动化与效率",
       "hfTasks": [],
@@ -322,8 +322,8 @@
       ],
       "seo": {
         "metaDescription": {
-          "en": "Discover 220+ automation and productivity tools. Workflow automation, task management, and efficiency boosters for developers and teams.",
-          "cn": "发现 220+ 个自动化和效率工具。面向开发者和团队的工作流自动化、任务管理和效率提升利器。"
+          "en": "Discover 247+ automation and productivity tools. Workflow automation, task management, and efficiency boosters for developers and teams.",
+          "cn": "发现 247+ 个自动化和效率工具。面向开发者和团队的工作流自动化、任务管理和效率提升利器。"
         },
         "keywords": {
           "en": "automation tools, productivity software, workflow automation, task management, efficiency tools, browser automation, project management, time tracking",
@@ -341,7 +341,7 @@
             "item": {
               "@type": "Thing",
               "name": "Automation & Productivity",
-              "description": "Discover 220+ automation and productivity tools. Workflow automation, task management, and efficiency boosters for developers and teams."
+              "description": "Discover 247+ automation and productivity tools. Workflow automation, task management, and efficiency boosters for developers and teams."
             }
           }
         ]
@@ -352,7 +352,7 @@
       "path": "security",
       "groupId": "security",
       "subcategoryId": "general",
-      "count": 241,
+      "count": 542,
       "name_en": "Security & Cybersecurity",
       "name_cn": "安全工具",
       "hfTasks": [],
@@ -361,8 +361,8 @@
       ],
       "seo": {
         "metaDescription": {
-          "en": "Browse 230+ cybersecurity and security tools. Find penetration testing, vulnerability scanning, and defensive security utilities.",
-          "cn": "浏览 230+ 个网络安全和安全工具。渗透测试、漏洞扫描和防御性安全工具。"
+          "en": "Browse 241+ cybersecurity and security tools. Find penetration testing, vulnerability scanning, and defensive security utilities.",
+          "cn": "浏览 241+ 个网络安全和安全工具。渗透测试、漏洞扫描和防御性安全工具。"
         },
         "keywords": {
           "en": "cybersecurity, security tools, penetration testing, vulnerability scanning, defensive security, offensive security, audit tools, security scanner, infosec",
@@ -380,7 +380,7 @@
             "item": {
               "@type": "Thing",
               "name": "Security & Cybersecurity",
-              "description": "Browse 230+ cybersecurity and security tools. Find penetration testing, vulnerability scanning, and defensive security utilities."
+              "description": "Browse 241+ cybersecurity and security tools. Find penetration testing, vulnerability scanning, and defensive security utilities."
             }
           }
         ]
@@ -391,7 +391,7 @@
       "path": "social-media",
       "groupId": "social-media",
       "subcategoryId": "social-media",
-      "count": 145,
+      "count": 553,
       "name_en": "Social Media",
       "name_cn": "社交媒体",
       "hfTasks": [],
@@ -400,8 +400,8 @@
       ],
       "seo": {
         "metaDescription": {
-          "en": "Explore 140+ social media tools, analytics, and marketing utilities. Manage social presence and grow your audience with top open-source tools.",
-          "cn": "探索 140+ 个社交媒体工具、分析工具和营销实用程序。使用顶级开源工具管理社交影响力并扩大受众。"
+          "en": "Explore 145+ social media tools, analytics, and marketing utilities. Manage social presence and grow your audience with top open-source tools.",
+          "cn": "探索 145+ 个社交媒体工具、分析工具和营销实用程序。使用顶级开源工具管理社交影响力并扩大受众。"
         },
         "keywords": {
           "en": "social media tools, social marketing, social analytics, content scheduler, audience growth, social media management, open source social tools",
@@ -419,7 +419,7 @@
             "item": {
               "@type": "Thing",
               "name": "Social Media",
-              "description": "Explore 140+ social media tools, analytics, and marketing utilities. Manage social presence and grow your audience with top open-source tools."
+              "description": "Explore 145+ social media tools, analytics, and marketing utilities. Manage social presence and grow your audience with top open-source tools."
             }
           }
         ]
@@ -430,7 +430,7 @@
       "path": "finance-crypto",
       "groupId": "finance-crypto",
       "subcategoryId": "finance-crypto",
-      "count": 142,
+      "count": 587,
       "name_en": "Finance & Crypto",
       "name_cn": "金融与加密",
       "hfTasks": [],
@@ -441,8 +441,8 @@
       ],
       "seo": {
         "metaDescription": {
-          "en": "Find 130+ finance, crypto, and trading tools. Open-source fintech utilities, blockchain tools, and algorithmic trading libraries.",
-          "cn": "发现 130+ 个金融、加密和交易工具。开源金融科技实用程序、区块链工具和算法交易库。"
+          "en": "Find 142+ finance, crypto, and trading tools. Open-source fintech utilities, blockchain tools, and algorithmic trading libraries.",
+          "cn": "发现 142+ 个金融、加密和交易工具。开源金融科技实用程序、区块链工具和算法交易库。"
         },
         "keywords": {
           "en": "finance tools, crypto, trading, fintech, blockchain, algorithmic trading, DeFi, investment tools, open source finance, crypto trading",
@@ -460,7 +460,7 @@
             "item": {
               "@type": "Thing",
               "name": "Finance & Crypto",
-              "description": "Find 130+ finance, crypto, and trading tools. Open-source fintech utilities, blockchain tools, and algorithmic trading libraries."
+              "description": "Find 142+ finance, crypto, and trading tools. Open-source fintech utilities, blockchain tools, and algorithmic trading libraries."
             }
           }
         ]
@@ -471,7 +471,7 @@
       "path": "devops-deploy",
       "groupId": "devops",
       "subcategoryId": "deploy",
-      "count": 134,
+      "count": 551,
       "name_en": "DevOps & Deployment",
       "name_cn": "DevOps 与部署",
       "hfTasks": [],
@@ -483,8 +483,8 @@
       ],
       "seo": {
         "metaDescription": {
-          "en": "Discover 120+ DevOps and deployment tools. Docker, Kubernetes, CI/CD, cloud deployment, and infrastructure automation resources.",
-          "cn": "发现 120+ 个 DevOps 和部署工具。Docker、Kubernetes、CI/CD、云部署和基础设施自动化资源。"
+          "en": "Discover 134+ DevOps and deployment tools. Docker, Kubernetes, CI/CD, cloud deployment, and infrastructure automation resources.",
+          "cn": "发现 134+ 个 DevOps 和部署工具。Docker、Kubernetes、CI/CD、云部署和基础设施自动化资源。"
         },
         "keywords": {
           "en": "DevOps, deployment tools, Docker, Kubernetes, CI/CD, cloud deployment, infrastructure automation, containerization, serverless",
@@ -502,7 +502,7 @@
             "item": {
               "@type": "Thing",
               "name": "DevOps & Deployment",
-              "description": "Discover 120+ DevOps and deployment tools. Docker, Kubernetes, CI/CD, cloud deployment, and infrastructure automation resources."
+              "description": "Discover 134+ DevOps and deployment tools. Docker, Kubernetes, CI/CD, cloud deployment, and infrastructure automation resources."
             }
           }
         ]
@@ -513,7 +513,7 @@
       "path": "backend-api",
       "groupId": "backend",
       "subcategoryId": "api",
-      "count": 174,
+      "count": 543,
       "name_en": "Backend & API",
       "name_cn": "后端与 API",
       "hfTasks": [],
@@ -525,8 +525,8 @@
       ],
       "seo": {
         "metaDescription": {
-          "en": "Browse 170+ backend and API tools. REST API frameworks, database tools, server-side libraries, and backend development utilities.",
-          "cn": "浏览 170+ 个后端和 API 工具。REST API 框架、数据库工具、服务端库和 backend 开发实用程序。"
+          "en": "Browse 174+ backend and API tools. REST API frameworks, database tools, server-side libraries, and backend development utilities.",
+          "cn": "浏览 174+ 个后端和 API 工具。REST API 框架、数据库工具、服务端库和 backend 开发实用程序。"
         },
         "keywords": {
           "en": "backend tools, API framework, REST API, database tools, server-side, backend development, API design, backend library, server framework",
@@ -544,7 +544,7 @@
             "item": {
               "@type": "Thing",
               "name": "Backend & API",
-              "description": "Browse 170+ backend and API tools. REST API frameworks, database tools, server-side libraries, and backend development utilities."
+              "description": "Browse 174+ backend and API tools. REST API frameworks, database tools, server-side libraries, and backend development utilities."
             }
           }
         ]
@@ -555,7 +555,7 @@
       "path": "game-dev",
       "groupId": "game-dev",
       "subcategoryId": "game-dev",
-      "count": 103,
+      "count": 587,
       "name_en": "Game Development",
       "name_cn": "游戏开发",
       "hfTasks": [],
@@ -566,8 +566,8 @@
       ],
       "seo": {
         "metaDescription": {
-          "en": "Explore 100+ game development tools, engines, and libraries. Godot, Unity alternatives, and open-source game dev resources.",
-          "cn": "探索 100+ 个游戏开发工具、引擎和库。Godot、Unity 替代方案和开源游戏开发资源。"
+          "en": "Explore 103+ game development tools, engines, and libraries. Godot, Unity alternatives, and open-source game dev resources.",
+          "cn": "探索 103+ 个游戏开发工具、引擎和库。Godot、Unity 替代方案和开源游戏开发资源。"
         },
         "keywords": {
           "en": "game development, game engine, Godot, Unity, game dev tools, game library, game framework, indie game, open source game engine",
@@ -585,7 +585,7 @@
             "item": {
               "@type": "Thing",
               "name": "Game Development",
-              "description": "Explore 100+ game development tools, engines, and libraries. Godot, Unity alternatives, and open-source game dev resources."
+              "description": "Explore 103+ game development tools, engines, and libraries. Godot, Unity alternatives, and open-source game dev resources."
             }
           }
         ]
@@ -596,7 +596,7 @@
       "path": "testing-qa",
       "groupId": "testing",
       "subcategoryId": "qa",
-      "count": 112,
+      "count": 543,
       "name_en": "Testing & QA",
       "name_cn": "测试与 QA",
       "hfTasks": [],
@@ -606,8 +606,8 @@
       ],
       "seo": {
         "metaDescription": {
-          "en": "Find 100+ testing and QA tools. Test automation, quality assurance, unit testing, and performance testing utilities.",
-          "cn": "发现 100+ 个测试和 QA 工具。测试自动化、质量保证、单元测试和性能测试实用程序。"
+          "en": "Find 112+ testing and QA tools. Test automation, quality assurance, unit testing, and performance testing utilities.",
+          "cn": "发现 112+ 个测试和 QA 工具。测试自动化、质量保证、单元测试和性能测试实用程序。"
         },
         "keywords": {
           "en": "testing tools, QA, quality assurance, test automation, unit testing, performance testing, test framework, regression testing, QA automation",
@@ -625,7 +625,7 @@
             "item": {
               "@type": "Thing",
               "name": "Testing & QA",
-              "description": "Find 100+ testing and QA tools. Test automation, quality assurance, unit testing, and performance testing utilities."
+              "description": "Find 112+ testing and QA tools. Test automation, quality assurance, unit testing, and performance testing utilities."
             }
           }
         ]
@@ -636,7 +636,7 @@
       "path": "education",
       "groupId": "education",
       "subcategoryId": "education",
-      "count": 107,
+      "count": 594,
       "name_en": "Education & Learning",
       "name_cn": "教育",
       "hfTasks": [],
@@ -646,8 +646,8 @@
       ],
       "seo": {
         "metaDescription": {
-          "en": "Browse 100+ education and e-learning tools. Online learning platforms, course creators, and educational open-source projects.",
-          "cn": "浏览 100+ 个教育和电子学习工具。在线学习平台、课程创建器和开源教育项目。"
+          "en": "Browse 107+ education and e-learning tools. Online learning platforms, course creators, and educational open-source projects.",
+          "cn": "浏览 107+ 个教育和电子学习工具。在线学习平台、课程创建器和开源教育项目。"
         },
         "keywords": {
           "en": "education tools, e-learning, online learning, course platform, educational software, learning management, open source education, teaching tools",
@@ -665,7 +665,7 @@
             "item": {
               "@type": "Thing",
               "name": "Education & Learning",
-              "description": "Browse 100+ education and e-learning tools. Online learning platforms, course creators, and educational open-source projects."
+              "description": "Browse 107+ education and e-learning tools. Online learning platforms, course creators, and educational open-source projects."
             }
           }
         ]
@@ -676,7 +676,7 @@
       "path": "health-medical",
       "groupId": "health-medical",
       "subcategoryId": "health-medical",
-      "count": 91,
+      "count": 600,
       "name_en": "Health & Medical",
       "name_cn": "健康与医疗",
       "hfTasks": [],
@@ -686,8 +686,8 @@
       ],
       "seo": {
         "metaDescription": {
-          "en": "Discover 80+ health and medical tools. Healthcare software, medical data utilities, and open-source health tech projects.",
-          "cn": "发现 80+ 个健康和医疗工具。医疗软件、医疗数据实用程序和开源健康科技项目。"
+          "en": "Discover 91+ health and medical tools. Healthcare software, medical data utilities, and open-source health tech projects.",
+          "cn": "发现 91+ 个健康和医疗工具。医疗软件、医疗数据实用程序和开源健康科技项目。"
         },
         "keywords": {
           "en": "health tools, medical software, healthcare, medical data, health tech, open source healthcare, medical utilities",
@@ -705,7 +705,7 @@
             "item": {
               "@type": "Thing",
               "name": "Health & Medical",
-              "description": "Discover 80+ health and medical tools. Healthcare software, medical data utilities, and open-source health tech projects."
+              "description": "Discover 91+ health and medical tools. Healthcare software, medical data utilities, and open-source health tech projects."
             }
           }
         ]
@@ -716,7 +716,7 @@
       "path": "3d",
       "groupId": "3d",
       "subcategoryId": "3d",
-      "count": 82,
+      "count": 596,
       "name_en": "3D Modeling & Rendering",
       "name_cn": "3D",
       "hfTasks": [
@@ -732,8 +732,8 @@
       ],
       "seo": {
         "metaDescription": {
-          "en": "Explore 80+ 3D modeling, rendering, and WebGL tools. Three.js, Babylon.js, and open-source 3D graphics libraries.",
-          "cn": "探索 80+ 个 3D 建模、渲染和 WebGL 工具。Three.js、Babylon.js 和开源 3D 图形库。"
+          "en": "Explore 82+ 3D modeling, rendering, and WebGL tools. Three.js, Babylon.js, and open-source 3D graphics libraries.",
+          "cn": "探索 82+ 个 3D 建模、渲染和 WebGL 工具。Three.js、Babylon.js 和开源 3D 图形库。"
         },
         "keywords": {
           "en": "3D modeling, 3D rendering, WebGL, Three.js, Babylon.js, 3D graphics, 3D engine, open source 3D, 3D library",
@@ -751,7 +751,7 @@
             "item": {
               "@type": "Thing",
               "name": "3D Modeling & Rendering",
-              "description": "Explore 80+ 3D modeling, rendering, and WebGL tools. Three.js, Babylon.js, and open-source 3D graphics libraries."
+              "description": "Explore 82+ 3D modeling, rendering, and WebGL tools. Three.js, Babylon.js, and open-source 3D graphics libraries."
             }
           }
         ]
@@ -762,7 +762,7 @@
       "path": "ecommerce",
       "groupId": "ecommerce",
       "subcategoryId": "ecommerce",
-      "count": 78,
+      "count": 597,
       "name_en": "E-Commerce",
       "name_cn": "电商",
       "hfTasks": [],
@@ -772,8 +772,8 @@
       ],
       "seo": {
         "metaDescription": {
-          "en": "Find 70+ e-commerce tools and platforms. Shopify alternatives, shopping cart solutions, and open-source e-commerce software.",
-          "cn": "发现 70+ 个电商工具和平台。Shopify 替代方案、购物车解决方案和开源电商软件。"
+          "en": "Find 78+ e-commerce tools and platforms. Shopify alternatives, shopping cart solutions, and open-source e-commerce software.",
+          "cn": "发现 78+ 个电商工具和平台。Shopify 替代方案、购物车解决方案和开源电商软件。"
         },
         "keywords": {
           "en": "e-commerce tools, ecommerce platform, Shopify alternative, shopping cart, online store, open source ecommerce, retail software",
@@ -791,7 +791,7 @@
             "item": {
               "@type": "Thing",
               "name": "E-Commerce",
-              "description": "Find 70+ e-commerce tools and platforms. Shopify alternatives, shopping cart solutions, and open-source e-commerce software."
+              "description": "Find 78+ e-commerce tools and platforms. Shopify alternatives, shopping cart solutions, and open-source e-commerce software."
             }
           }
         ]
@@ -802,7 +802,7 @@
       "path": "video-multimedia",
       "groupId": "video-multimedia",
       "subcategoryId": "video-multimedia",
-      "count": 97,
+      "count": 593,
       "name_en": "Video & Multimedia",
       "name_cn": "视频与多媒体",
       "hfTasks": [
@@ -816,8 +816,8 @@
       ],
       "seo": {
         "metaDescription": {
-          "en": "Browse 90+ video and multimedia tools. Video processing, streaming, editing, and multimedia development utilities.",
-          "cn": "浏览 90+ 个视频和多媒体工具。视频处理、流媒体、编辑和多媒体开发实用程序。"
+          "en": "Browse 97+ video and multimedia tools. Video processing, streaming, editing, and multimedia development utilities.",
+          "cn": "浏览 97+ 个视频和多媒体工具。视频处理、流媒体、编辑和多媒体开发实用程序。"
         },
         "keywords": {
           "en": "video tools, multimedia, video processing, streaming, video editing, FFmpeg, video library, media tools",
@@ -835,7 +835,7 @@
             "item": {
               "@type": "Thing",
               "name": "Video & Multimedia",
-              "description": "Browse 90+ video and multimedia tools. Video processing, streaming, editing, and multimedia development utilities."
+              "description": "Browse 97+ video and multimedia tools. Video processing, streaming, editing, and multimedia development utilities."
             }
           }
         ]
@@ -846,7 +846,7 @@
       "path": "audio",
       "groupId": "audio",
       "subcategoryId": "audio",
-      "count": 73,
+      "count": 595,
       "name_en": "Audio Processing",
       "name_cn": "音频处理",
       "hfTasks": [
@@ -859,8 +859,8 @@
       ],
       "seo": {
         "metaDescription": {
-          "en": "Discover 70+ audio processing tools. Audio analysis, music production, and digital signal processing libraries.",
-          "cn": "发现 70+ 个音频处理工具。音频分析、音乐制作和数字信号处理库。"
+          "en": "Discover 73+ audio processing tools. Audio analysis, music production, and digital signal processing libraries.",
+          "cn": "发现 73+ 个音频处理工具。音频分析、音乐制作和数字信号处理库。"
         },
         "keywords": {
           "en": "audio processing, audio analysis, music production, DSP, sound tools, audio library, open source audio, music software",
@@ -878,7 +878,7 @@
             "item": {
               "@type": "Thing",
               "name": "Audio Processing",
-              "description": "Discover 70+ audio processing tools. Audio analysis, music production, and digital signal processing libraries."
+              "description": "Discover 73+ audio processing tools. Audio analysis, music production, and digital signal processing libraries."
             }
           }
         ]
@@ -889,7 +889,7 @@
       "path": "video-gen",
       "groupId": "video-gen",
       "subcategoryId": "video-gen",
-      "count": 54,
+      "count": 490,
       "name_en": "AI Video Generation",
       "name_cn": "AI 视频生成",
       "hfTasks": [
@@ -904,8 +904,8 @@
       ],
       "seo": {
         "metaDescription": {
-          "en": "Explore 50+ AI video generation tools. Text-to-video, image-to-video, and AI-powered video creation platforms.",
-          "cn": "探索 50+ 个 AI 视频生成工具。文本生成视频、图像生成视频和 AI 驱动的视频创作平台。"
+          "en": "Explore 54+ AI video generation tools. Text-to-video, image-to-video, and AI-powered video creation platforms.",
+          "cn": "探索 54+ 个 AI 视频生成工具。文本生成视频、图像生成视频和 AI 驱动的视频创作平台。"
         },
         "keywords": {
           "en": "AI video generation, text-to-video, image-to-video, AI video, video generation, generative video, synthetic video, open source video AI",
@@ -923,7 +923,7 @@
             "item": {
               "@type": "Thing",
               "name": "AI Video Generation",
-              "description": "Explore 50+ AI video generation tools. Text-to-video, image-to-video, and AI-powered video creation platforms."
+              "description": "Explore 54+ AI video generation tools. Text-to-video, image-to-video, and AI-powered video creation platforms."
             }
           }
         ]
@@ -934,7 +934,7 @@
       "path": "audio-speech",
       "groupId": "audio-speech",
       "subcategoryId": "audio-speech",
-      "count": 70,
+      "count": 540,
       "name_en": "Speech & Text-to-Speech",
       "name_cn": "语音与 TTS",
       "hfTasks": [
@@ -949,8 +949,8 @@
       ],
       "seo": {
         "metaDescription": {
-          "en": "Find 50+ speech recognition and text-to-speech tools. TTS engines, ASR, voice synthesis, and speech processing libraries.",
-          "cn": "发现 50+ 个语音识别和文本转语音工具。TTS 引擎、ASR、语音合成和语音处理库。"
+          "en": "Find 70+ speech recognition and text-to-speech tools. TTS engines, ASR, voice synthesis, and speech processing libraries.",
+          "cn": "发现 70+ 个语音识别和文本转语音工具。TTS 引擎、ASR、语音合成和语音处理库。"
         },
         "keywords": {
           "en": "text-to-speech, TTS, speech recognition, ASR, voice synthesis, speech processing, voice AI, open source TTS, speech-to-text",
@@ -968,7 +968,7 @@
             "item": {
               "@type": "Thing",
               "name": "Speech & Text-to-Speech",
-              "description": "Find 50+ speech recognition and text-to-speech tools. TTS engines, ASR, voice synthesis, and speech processing libraries."
+              "description": "Find 70+ speech recognition and text-to-speech tools. TTS engines, ASR, voice synthesis, and speech processing libraries."
             }
           }
         ]
@@ -1014,7 +1014,7 @@
     },
     {
       "id": "data",
-      "count": 446,
+      "count": 432,
       "subcategories": [
         {
           "id": "data/ai",
@@ -1062,13 +1062,13 @@
     },
     {
       "id": "agent",
-      "count": 200,
+      "count": 891,
       "subcategories": [
         {
           "id": "agent/framework",
           "path": "agent/framework",
           "subcategoryId": "framework",
-          "count": 120
+          "count": 811
         },
         {
           "id": "agent/tools",
@@ -1078,5 +1078,8 @@
         }
       ]
     }
-  ]
+  ],
+  "updatedAt": "2026-07-01T02:30:00.000Z",
+  "seoOptimized": true,
+  "version": "2.1"
 }

@@ -1,196 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://skill.442595.xyz/</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://skill.442595.xyz/</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/"/>
   </url>
-  <url>
-    <loc>https://skill.442595.xyz/stats.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+  <url><loc>https://skill.442595.xyz/stats.html</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/stats.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/stats.html?lang=en"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/stats.html"/>
   </url>
-  <url>
-    <loc>https://skill.442595.xyz/categories/3d/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/3d/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/3d/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/3d/"/>
-  </url>
-  <url>
-    <loc>https://skill.442595.xyz/categories/agent-framework/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/agent-framework/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/agent-framework/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/agent-framework/"/>
-  </url>
-  <url>
-    <loc>https://skill.442595.xyz/categories/audio/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/audio/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/audio/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/audio/"/>
-  </url>
-  <url>
-    <loc>https://skill.442595.xyz/categories/audio-speech/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/audio-speech/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/audio-speech/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/audio-speech/"/>
-  </url>
-  <url>
-    <loc>https://skill.442595.xyz/categories/automation-productivity/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/automation-productivity/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/automation-productivity/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/automation-productivity/"/>
-  </url>
-  <url>
-    <loc>https://skill.442595.xyz/categories/backend-api/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/backend-api/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/backend-api/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/backend-api/"/>
-  </url>
-  <url>
-    <loc>https://skill.442595.xyz/categories/data-ai/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/data-ai/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/data-ai/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/data-ai/"/>
-  </url>
-  <url>
-    <loc>https://skill.442595.xyz/categories/design-ui/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/design-ui/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/design-ui/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/design-ui/"/>
-  </url>
-  <url>
-    <loc>https://skill.442595.xyz/categories/devops-deploy/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/devops-deploy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/devops-deploy/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/devops-deploy/"/>
-  </url>
-  <url>
-    <loc>https://skill.442595.xyz/categories/dev-tools/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+  <url><loc>https://skill.442595.xyz/categories/dev-tools/</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/dev-tools/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/dev-tools/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/dev-tools/"/>
   </url>
-  <url>
-    <loc>https://skill.442595.xyz/categories/docs-content/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/docs-content/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/docs-content/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/docs-content/"/>
-  </url>
-  <url>
-    <loc>https://skill.442595.xyz/categories/ecommerce/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/ecommerce/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/ecommerce/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/ecommerce/"/>
-  </url>
-  <url>
-    <loc>https://skill.442595.xyz/categories/education/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/education/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/education/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/education/"/>
-  </url>
-  <url>
-    <loc>https://skill.442595.xyz/categories/finance-crypto/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/finance-crypto/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/finance-crypto/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/finance-crypto/"/>
-  </url>
-  <url>
-    <loc>https://skill.442595.xyz/categories/game-dev/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/game-dev/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/game-dev/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/game-dev/"/>
-  </url>
-  <url>
-    <loc>https://skill.442595.xyz/categories/general/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+  <url><loc>https://skill.442595.xyz/categories/general/</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/general/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/general/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/general/"/>
   </url>
-  <url>
-    <loc>https://skill.442595.xyz/categories/health-medical/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/health-medical/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/health-medical/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/health-medical/"/>
+  <url><loc>https://skill.442595.xyz/categories/data-ai/</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/data-ai/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/data-ai/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/data-ai/"/>
   </url>
-  <url>
-    <loc>https://skill.442595.xyz/categories/security/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+  <url><loc>https://skill.442595.xyz/categories/design-ui/</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/design-ui/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/design-ui/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/design-ui/"/>
+  </url>
+  <url><loc>https://skill.442595.xyz/categories/agent-framework/</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/agent-framework/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/agent-framework/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/agent-framework/"/>
+  </url>
+  <url><loc>https://skill.442595.xyz/categories/docs-content/</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/docs-content/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/docs-content/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/docs-content/"/>
+  </url>
+  <url><loc>https://skill.442595.xyz/categories/automation-productivity/</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/automation-productivity/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/automation-productivity/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/automation-productivity/"/>
+  </url>
+  <url><loc>https://skill.442595.xyz/categories/security/</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/security/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/security/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/security/"/>
   </url>
-  <url>
-    <loc>https://skill.442595.xyz/categories/social-media/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+  <url><loc>https://skill.442595.xyz/categories/social-media/</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/social-media/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/social-media/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/social-media/"/>
   </url>
-  <url>
-    <loc>https://skill.442595.xyz/categories/testing-qa/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+  <url><loc>https://skill.442595.xyz/categories/finance-crypto/</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/finance-crypto/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/finance-crypto/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/finance-crypto/"/>
+  </url>
+  <url><loc>https://skill.442595.xyz/categories/devops-deploy/</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/devops-deploy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/devops-deploy/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/devops-deploy/"/>
+  </url>
+  <url><loc>https://skill.442595.xyz/categories/backend-api/</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/backend-api/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/backend-api/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/backend-api/"/>
+  </url>
+  <url><loc>https://skill.442595.xyz/categories/game-dev/</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/game-dev/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/game-dev/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/game-dev/"/>
+  </url>
+  <url><loc>https://skill.442595.xyz/categories/testing-qa/</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/testing-qa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/testing-qa/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/testing-qa/"/>
   </url>
-  <url>
-    <loc>https://skill.442595.xyz/categories/video-gen/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+  <url><loc>https://skill.442595.xyz/categories/education/</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/education/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/education/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/education/"/>
+  </url>
+  <url><loc>https://skill.442595.xyz/categories/health-medical/</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/health-medical/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/health-medical/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/health-medical/"/>
+  </url>
+  <url><loc>https://skill.442595.xyz/categories/3d/</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/3d/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/3d/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/3d/"/>
+  </url>
+  <url><loc>https://skill.442595.xyz/categories/ecommerce/</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/ecommerce/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/ecommerce/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/ecommerce/"/>
+  </url>
+  <url><loc>https://skill.442595.xyz/categories/video-multimedia/</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/video-multimedia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/video-multimedia/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/video-multimedia/"/>
+  </url>
+  <url><loc>https://skill.442595.xyz/categories/audio/</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/audio/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/audio/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/audio/"/>
+  </url>
+  <url><loc>https://skill.442595.xyz/categories/video-gen/</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/video-gen/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/video-gen/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/video-gen/"/>
   </url>
-  <url>
-    <loc>https://skill.442595.xyz/categories/video-multimedia/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/video-multimedia/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/video-multimedia/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/video-multimedia/"/>
+  <url><loc>https://skill.442595.xyz/categories/audio-speech/</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://skill.442595.xyz/categories/audio-speech/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://skill.442595.xyz/categories/audio-speech/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://skill.442595.xyz/categories/audio-speech/"/>
   </url>
 </urlset>
