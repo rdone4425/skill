@@ -2182,6 +2182,16 @@
       "description": "AI prompt engineering workbench for crafting, testing, and systematically evaluating prompts with powerful analysis tools.",
       "url": "https://github.com/insaaniManav/prompt-forge",
       "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "OpenJudge",
+      "description": "Unified Framework for Holistic Evaluation and Quality Rewards",
+      "url": "https://github.com/agentscope-ai/OpenJudge",
+      "category": "testing-qa",
+      "platform": "general",
+      "stars": 0,
+      "language": "",
+      "topics": []
     }
   ]
 }

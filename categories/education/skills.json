@@ -1978,6 +1978,16 @@
       "description": "Lightweight chat AI platform featuring custom knowledge, open-source LLMs, prompt-engineering, retrieval analysis. Highly customizable. For Retrieval-Centric & Retrieval-Augmented Generation.",
       "url": "https://github.com/RCGAI/SimplyRetrieve",
       "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "awesome-openclaw-zh",
+      "description": "OpenClaw Chinese practical guide — 192 reproducible use cases",
+      "url": "https://github.com/cogine-ai/awesome-openclaw-zh",
+      "category": "education",
+      "platform": "openclaw",
+      "stars": 0,
+      "language": "",
+      "topics": []
     }
   ]
 }

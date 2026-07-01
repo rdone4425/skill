@@ -3946,6 +3946,26 @@
       "description": "A tool that will use generative AI to automatically create documentation for every file in your codebase",
       "url": "https://github.com/abryant710/auto-codebase-documenter",
       "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "yao-geo-skills",
+      "description": "Open-source Skill collection for GEO content and workflows",
+      "url": "https://github.com/yaojingang/yao-geo-skills",
+      "category": "docs-content",
+      "platform": "general",
+      "stars": 0,
+      "language": "",
+      "topics": []
+    },
+    {
+      "name": "shanyin-screenwriting-master",
+      "description": "Full-format screenplay writing Skill covering concept shorts to 90-min films",
+      "url": "https://github.com/Shanyin-ai/shanyin-screenwriting-master",
+      "category": "docs-content",
+      "platform": "claude",
+      "stars": 0,
+      "language": "",
+      "topics": []
     }
   ]
 }

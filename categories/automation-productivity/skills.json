@@ -5183,6 +5183,16 @@
       "supportedAgents": [
         "github"
       ]
+    },
+    {
+      "name": "ego-lite",
+      "description": "Best browser for both you and your AI agents working in parallel",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "category": "automation-productivity",
+      "platform": "general",
+      "stars": 0,
+      "language": "",
+      "topics": []
     }
   ]
 }

@@ -23988,6 +23988,56 @@
       "supportedAgents": [
         "github"
       ]
+    },
+    {
+      "name": "spec_driven_develop",
+      "description": "Spec-driven development workflow for AI coding agents",
+      "url": "https://github.com/zhu1090093659/spec_driven_develop",
+      "category": "dev-tools",
+      "platform": "general",
+      "stars": 0,
+      "language": "",
+      "topics": []
+    },
+    {
+      "name": "claude-code-skills-zh",
+      "description": "Practical Claude Code Skills collection — 100+ curated, 18 installable originals",
+      "url": "https://github.com/laolaoshiren/claude-code-skills-zh",
+      "category": "dev-tools",
+      "platform": "claude",
+      "stars": 0,
+      "language": "",
+      "topics": []
+    },
+    {
+      "name": "jina-cli",
+      "description": "Lightweight CLI tool wrapping Jina AI Reader API for AI Agents",
+      "url": "https://github.com/geekjourneyx/jina-cli",
+      "category": "dev-tools",
+      "platform": "general",
+      "stars": 0,
+      "language": "",
+      "topics": []
+    },
+    {
+      "name": "modelstudio-cli",
+      "description": "Official Model Studio CLI for AI Agent frameworks (Alibaba Cloud Bailian)",
+      "url": "https://github.com/modelstudioai/cli",
+      "category": "dev-tools",
+      "platform": "general",
+      "stars": 0,
+      "language": "",
+      "topics": []
+    },
+    {
+      "name": "code-abyss",
+      "description": "Give your AI coding agent a personality — composable persona + style + skills",
+      "url": "https://github.com/telagod/code-abyss",
+      "category": "dev-tools",
+      "platform": "general",
+      "stars": 0,
+      "language": "",
+      "topics": []
     }
   ]
 }

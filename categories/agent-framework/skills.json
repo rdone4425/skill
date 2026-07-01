@@ -15505,6 +15505,76 @@
       "supportedAgents": [
         "github"
       ]
+    },
+    {
+      "name": "skillhub",
+      "description": "Self-hosted, open-source agent skill registry for enterprises",
+      "url": "https://github.com/iflytek/skillhub",
+      "category": "agent-framework",
+      "platform": "general",
+      "stars": 0,
+      "language": "",
+      "topics": []
+    },
+    {
+      "name": "nopua",
+      "description": "AI Skill that liberates AI potential through respect and care",
+      "url": "https://github.com/wuji-labs/nopua",
+      "category": "agent-framework",
+      "platform": "claude",
+      "stars": 0,
+      "language": "",
+      "topics": []
+    },
+    {
+      "name": "mateclaw",
+      "description": "Second brain with Multi-Agent Orchestration, MCP Protocol, Skills",
+      "url": "https://github.com/mateaix/mateclaw",
+      "category": "agent-framework",
+      "platform": "openclaw",
+      "stars": 0,
+      "language": "",
+      "topics": []
+    },
+    {
+      "name": "openvort",
+      "description": "Open-source AI Employee Platform — AI employees that collaborate with you",
+      "url": "https://github.com/openvort/openvort",
+      "category": "agent-framework",
+      "platform": "general",
+      "stars": 0,
+      "language": "",
+      "topics": []
+    },
+    {
+      "name": "EvoSkills",
+      "description": "Extend EvoScientist with Installable Skill & Knowledge Packs",
+      "url": "https://github.com/EvoScientist/EvoSkills",
+      "category": "agent-framework",
+      "platform": "general",
+      "stars": 0,
+      "language": "",
+      "topics": []
+    },
+    {
+      "name": "skillport",
+      "description": "Bring Agent Skills to Any AI Agent and Coding Agent via CLI or MCP",
+      "url": "https://github.com/gotalab/skillport",
+      "category": "agent-framework",
+      "platform": "general",
+      "stars": 0,
+      "language": "",
+      "topics": []
+    },
+    {
+      "name": "MineEcho",
+      "description": "Local-first Memory OS for personal AI assistants with L0-L3 memory",
+      "url": "https://github.com/Health-Yang/MineEcho",
+      "category": "agent-framework",
+      "platform": "general",
+      "stars": 0,
+      "language": "",
+      "topics": []
     }
   ]
 }

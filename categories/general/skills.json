@@ -12570,6 +12570,16 @@
       "supportedAgents": [
         "github"
       ]
+    },
+    {
+      "name": "tactus",
+      "description": "First browser AI Agent extension to support Agent Skills",
+      "url": "https://github.com/Castor6/tactus",
+      "category": "general",
+      "platform": "general",
+      "stars": 0,
+      "language": "",
+      "topics": []
     }
   ]
 }

@@ -2658,6 +2658,16 @@
       "description": "Azure Advisor - personalized cloud best practices recommendations",
       "url": "https://github.com/MicrosoftDocs/Agent-Skills",
       "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "openclaw-cloud",
+      "description": "Give your AI Agent a cloud-native life — deploy once, converse everywhere",
+      "url": "https://github.com/openperf/openclaw-cloud",
+      "category": "devops-deploy",
+      "platform": "openclaw",
+      "stars": 0,
+      "language": "",
+      "topics": []
     }
   ]
 }
