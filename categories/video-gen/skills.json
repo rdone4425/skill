@@ -4,7 +4,7 @@
     "topCategoryId": "video-gen",
     "subCategoryId": "video-gen",
     "categoryPath": "video-gen",
-    "count": 66,
+    "count": 95,
     "sourceData": "categories"
   },
   "skills": [
@@ -1211,6 +1211,557 @@
         "general"
       ],
       "searchText": "cinematic-video-prompt-engineer-skill A Codex skill for turning plot summaries into cinematic AI video prompts. It diagnoses story, emotion, structure, shot design, micro-expressions, sound, reference image prompts, and continuation logic CyberJ0605/cinematic-video-prompt-engineer-skill video-gen"
+    },
+    {
+      "name": "FramePack",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "lllyasviel/FramePack",
+      "stars": 17085,
+      "desc": "Lets make video diffusion practical!",
+      "url": "https://github.com/lllyasviel/FramePack",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "FramePack Lets make video diffusion practical! lllyasviel/FramePack video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "AI4Animation",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "sebastianstarke/AI4Animation",
+      "stars": 8778,
+      "desc": "Bringing Characters to Life with Computer Brains in Unity",
+      "url": "https://github.com/sebastianstarke/AI4Animation",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AI4Animation Bringing Characters to Life with Computer Brains in Unity sebastianstarke/AI4Animation video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "ASCII-generator",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "vietnh1009/ASCII-generator",
+      "stars": 8275,
+      "desc": "ASCII generator (image to text, image to image, video to video)",
+      "url": "https://github.com/vietnh1009/ASCII-generator",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ASCII-generator ASCII generator (image to text, image to image, video to video) vietnh1009/ASCII-generator video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "EMO",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "HumanAIGC/EMO",
+      "stars": 7613,
+      "desc": "Emote Portrait Alive: Generating Expressive Portrait Videos with Audio2Video Diffusion Model under Weak Conditions",
+      "url": "https://github.com/HumanAIGC/EMO",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "EMO Emote Portrait Alive: Generating Expressive Portrait Videos with Audio2Video Diffusion Model under Weak Conditions HumanAIGC/EMO video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "MoneyPrinterPlus",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "ddean2009/MoneyPrinterPlus",
+      "stars": 6627,
+      "desc": "AI一键批量生成各类短视频,自动批量混剪短视频,自动把视频发布到抖音,快手,小红书,视频号上,赚钱从来没有这么容易过! 支持本地语音模型chatTTS,fasterwhisper,GPTSoVITS,支持云语音：Azure,阿里云,腾讯云。支持Stable diffusion,comfyUI直接AI生图。Generate short videos with one click using AI L",
+      "url": "https://github.com/ddean2009/MoneyPrinterPlus",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "MoneyPrinterPlus AI一键批量生成各类短视频,自动批量混剪短视频,自动把视频发布到抖音,快手,小红书,视频号上,赚钱从来没有这么容易过! 支持本地语音模型chatTTS,fasterwhisper,GPTSoVITS,支持云语音：Azure,阿里云,腾讯云。支持Stable diffusion,comfyUI直接AI生图。Generate short videos with one click using AI L ddean2009/MoneyPrinterPlus video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "Awesome-Video-Diffusion",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "showlab/Awesome-Video-Diffusion",
+      "stars": 5710,
+      "desc": "A curated list of recent diffusion models for video generation, editing, and various other applications.",
+      "url": "https://github.com/showlab/Awesome-Video-Diffusion",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Awesome-Video-Diffusion A curated list of recent diffusion models for video generation, editing, and various other applications. showlab/Awesome-Video-Diffusion video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "VideoCrafter",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "AILab-CVC/VideoCrafter",
+      "stars": 5066,
+      "desc": "VideoCrafter2: Overcoming Data Limitations for High-Quality Video Diffusion Models",
+      "url": "https://github.com/AILab-CVC/VideoCrafter",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "VideoCrafter VideoCrafter2: Overcoming Data Limitations for High-Quality Video Diffusion Models AILab-CVC/VideoCrafter video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "stable-diffusion-videos",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "nateraw/stable-diffusion-videos",
+      "stars": 4699,
+      "desc": "Create 🔥 videos with Stable Diffusion by exploring the latent space and morphing between text prompts",
+      "url": "https://github.com/nateraw/stable-diffusion-videos",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "stable-diffusion-videos Create 🔥 videos with Stable Diffusion by exploring the latent space and morphing between text prompts nateraw/stable-diffusion-videos video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "Text2Video-Zero",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "Picsart-AI-Research/Text2Video-Zero",
+      "stars": 4245,
+      "desc": "[ICCV 2023 Oral] Text-to-Image Diffusion Models are Zero-Shot Video Generators",
+      "url": "https://github.com/Picsart-AI-Research/Text2Video-Zero",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Text2Video-Zero [ICCV 2023 Oral] Text-to-Image Diffusion Models are Zero-Shot Video Generators Picsart-AI-Research/Text2Video-Zero video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "MessageDisplayKit",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "xhzengAIB/MessageDisplayKit",
+      "stars": 4218,
+      "desc": "An IM App like WeChat App has to send text, pictures, audio, video, location messaging, managing local address book, share a circle of friends, drifting friends, shake a fun and more interesting featu",
+      "url": "https://github.com/xhzengAIB/MessageDisplayKit",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "MessageDisplayKit An IM App like WeChat App has to send text, pictures, audio, video, location messaging, managing local address book, share a circle of friends, drifting friends, shake a fun and more interesting featu xhzengAIB/MessageDisplayKit video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "Qwen2.5-Omni",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "QwenLM/Qwen2.5-Omni",
+      "stars": 4033,
+      "desc": "Qwen2.5-Omni is an end-to-end multimodal model by Qwen team at Alibaba Cloud, capable of understanding text, audio, vision, video, and performing real-time speech generation.",
+      "url": "https://github.com/QwenLM/Qwen2.5-Omni",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Qwen2.5-Omni Qwen2.5-Omni is an end-to-end multimodal model by Qwen team at Alibaba Cloud, capable of understanding text, audio, vision, video, and performing real-time speech generation. QwenLM/Qwen2.5-Omni video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "Self-Forcing",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "guandeh17/Self-Forcing",
+      "stars": 3431,
+      "desc": "Official codebase for \"Self Forcing: Bridging Training and Inference in Autoregressive Video Diffusion\" (NeurIPS 2025 Spotlight)",
+      "url": "https://github.com/guandeh17/Self-Forcing",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Self-Forcing Official codebase for \"Self Forcing: Bridging Training and Inference in Autoregressive Video Diffusion\" (NeurIPS 2025 Spotlight) guandeh17/Self-Forcing video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "AndroidCamera",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "aserbao/AndroidCamera",
+      "stars": 3289,
+      "desc": "🔥🔥🔥自定义Android相机(仿抖音 TikTok)，其中功能包括视频人脸识别贴纸，美颜，分段录制，视频裁剪，视频帧处理，获取视频关键帧，视频旋转，添加滤镜，添加水印，合成Gif到视频，文字转视频，图片转视频，音视频合成，音频变声处理，SoundTouch，Fmod音频处理。 Android camera(imitation Tik Tok), which includes video edit",
+      "url": "https://github.com/aserbao/AndroidCamera",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AndroidCamera 🔥🔥🔥自定义Android相机(仿抖音 TikTok)，其中功能包括视频人脸识别贴纸，美颜，分段录制，视频裁剪，视频帧处理，获取视频关键帧，视频旋转，添加滤镜，添加水印，合成Gif到视频，文字转视频，图片转视频，音视频合成，音频变声处理，SoundTouch，Fmod音频处理。 Android camera(imitation Tik Tok), which includes video edit aserbao/AndroidCamera video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "DynamiCrafter",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "Doubiiu/DynamiCrafter",
+      "stars": 3005,
+      "desc": "[ECCV 2024, Oral] DynamiCrafter: Animating Open-domain Images with Video Diffusion Priors",
+      "url": "https://github.com/Doubiiu/DynamiCrafter",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "DynamiCrafter [ECCV 2024, Oral] DynamiCrafter: Animating Open-domain Images with Video Diffusion Priors Doubiiu/DynamiCrafter video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "Rerender_A_Video",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "williamyang1991/Rerender_A_Video",
+      "stars": 3002,
+      "desc": "[SIGGRAPH Asia 2023] Rerender A Video: Zero-Shot Text-Guided Video-to-Video Translation",
+      "url": "https://github.com/williamyang1991/Rerender_A_Video",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Rerender_A_Video [SIGGRAPH Asia 2023] Rerender A Video: Zero-Shot Text-Guided Video-to-Video Translation williamyang1991/Rerender_A_Video video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "phoenix",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "phcode-dev/phoenix",
+      "stars": 2939,
+      "desc": "The text editor designed to make coding as simple and fun as playing a video game",
+      "url": "https://github.com/phcode-dev/phoenix",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "phoenix The text editor designed to make coding as simple and fun as playing a video game phcode-dev/phoenix video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "Stable-Diffusion",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "FurkanGozukara/Stable-Diffusion",
+      "stars": 2728,
+      "desc": "FLUX, Stable Diffusion, SDXL, SD3, LoRA, Fine Tuning, DreamBooth, Training, Automatic1111, Forge WebUI, SwarmUI, DeepFake, TTS, Animation, Text To Video, Tutorials, Guides, Lectures, Courses, ComfyUI,",
+      "url": "https://github.com/FurkanGozukara/Stable-Diffusion",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Stable-Diffusion FLUX, Stable Diffusion, SDXL, SD3, LoRA, Fine Tuning, DreamBooth, Training, Automatic1111, Forge WebUI, SwarmUI, DeepFake, TTS, Animation, Text To Video, Tutorials, Guides, Lectures, Courses, ComfyUI, FurkanGozukara/Stable-Diffusion video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "fogsight",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "fogsightai/fogsight",
+      "stars": 2505,
+      "desc": "Fogsight is an AI agent and animation engine powered by Large Language Models.",
+      "url": "https://github.com/fogsightai/fogsight",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "fogsight Fogsight is an AI agent and animation engine powered by Large Language Models. fogsightai/fogsight video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "SoraWebui",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "SoraWebui/SoraWebui",
+      "stars": 2402,
+      "desc": "SoraWebui is an open-source Sora web client, enabling users to easily create videos from text with OpenAI's Sora model.",
+      "url": "https://github.com/SoraWebui/SoraWebui",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "SoraWebui SoraWebui is an open-source Sora web client, enabling users to easily create videos from text with OpenAI's Sora model. SoraWebui/SoraWebui video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "ShipSwift",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "signerlabs/ShipSwift",
+      "stars": 2322,
+      "desc": "AI-native SwiftUI component library with full-stack recipes — connect via MCP for instant access.",
+      "url": "https://github.com/signerlabs/ShipSwift",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ShipSwift AI-native SwiftUI component library with full-stack recipes — connect via MCP for instant access. signerlabs/ShipSwift video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "ai4animationpy",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "facebookresearch/ai4animationpy",
+      "stars": 2013,
+      "desc": "A Python framework for AI-driven character animation using neural networks.",
+      "url": "https://github.com/facebookresearch/ai4animationpy",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai4animationpy A Python framework for AI-driven character animation using neural networks. facebookresearch/ai4animationpy video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "make-a-video-pytorch",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "lucidrains/make-a-video-pytorch",
+      "stars": 1987,
+      "desc": "Implementation of Make-A-Video, new SOTA text to video generator from Meta AI, in Pytorch",
+      "url": "https://github.com/lucidrains/make-a-video-pytorch",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "make-a-video-pytorch Implementation of Make-A-Video, new SOTA text to video generator from Meta AI, in Pytorch lucidrains/make-a-video-pytorch video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "AiPPT",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "veasion/AiPPT",
+      "stars": 1895,
+      "desc": "AI 智能生成 PPT，通过主题/文件/网址等方式生成PPT，支持原生图表、动画、3D特效等复杂PPT的解析和渲染，支持用户自定义模板，支持智能添加动画，可在线体验。AI generates PowerPoint Presentation, Supports parsing and rendering of complex PPT features such as native charts, a",
+      "url": "https://github.com/veasion/AiPPT",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AiPPT AI 智能生成 PPT，通过主题/文件/网址等方式生成PPT，支持原生图表、动画、3D特效等复杂PPT的解析和渲染，支持用户自定义模板，支持智能添加动画，可在线体验。AI generates PowerPoint Presentation, Supports parsing and rendering of complex PPT features such as native charts, a veasion/AiPPT video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "Awesome-World-Models",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "leofan90/Awesome-World-Models",
+      "stars": 1853,
+      "desc": "A comprehensive list of papers for the definition of World Models and using World Models for General Video Generation, Embodied AI, and Autonomous Driving, including papers, codes, and related website",
+      "url": "https://github.com/leofan90/Awesome-World-Models",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Awesome-World-Models A comprehensive list of papers for the definition of World Models and using World Models for General Video Generation, Embodied AI, and Autonomous Driving, including papers, codes, and related website leofan90/Awesome-World-Models video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "pixel2motion",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "nolangz/pixel2motion",
+      "stars": 1314,
+      "desc": "AI logo animation skill: turn raster logos into smooth SVG animation, animated HTML demos, GIF/video previews, and motion QA evidence.",
+      "url": "https://github.com/nolangz/pixel2motion",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "pixel2motion AI logo animation skill: turn raster logos into smooth SVG animation, animated HTML demos, GIF/video previews, and motion QA evidence. nolangz/pixel2motion video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "AiyaEffectsAndroid",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "aiyaapp/AiyaEffectsAndroid",
+      "stars": 1073,
+      "desc": "宝宝特效Demo通过短视频SDK、直播SDK轻松实现特效与视频剪辑，为用户提供特效相机，拍摄辅助，自动美颜相机，抖音滤镜、直播礼物、直播贴纸等，超低占用空间，十秒大型场景仅100KB+， 精准人脸识别、人脸跟踪，支持3D特效，3D动画特效，2D特效、动画渲染、特效渲染等,  visual effects IOS demo, support 3D effect, 3D Animation, 2D e",
+      "url": "https://github.com/aiyaapp/AiyaEffectsAndroid",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AiyaEffectsAndroid 宝宝特效Demo通过短视频SDK、直播SDK轻松实现特效与视频剪辑，为用户提供特效相机，拍摄辅助，自动美颜相机，抖音滤镜、直播礼物、直播贴纸等，超低占用空间，十秒大型场景仅100KB+， 精准人脸识别、人脸跟踪，支持3D特效，3D动画特效，2D特效、动画渲染、特效渲染等,  visual effects IOS demo, support 3D effect, 3D Animation, 2D e aiyaapp/AiyaEffectsAndroid video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "AImage",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "wangjwchn/AImage",
+      "stars": 977,
+      "desc": "An animated gif & apng engine for iOS in Swift. Have a great performance on memory and cpu usage.",
+      "url": "https://github.com/wangjwchn/AImage",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AImage An animated gif & apng engine for iOS in Swift. Have a great performance on memory and cpu usage. wangjwchn/AImage video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "AIFlatSwitch",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "cocoatoucher/AIFlatSwitch",
+      "stars": 966,
+      "desc": "Nicely animated flat design switch alternative to UISwitch",
+      "url": "https://github.com/cocoatoucher/AIFlatSwitch",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AIFlatSwitch Nicely animated flat design switch alternative to UISwitch cocoatoucher/AIFlatSwitch video-gen",
+      "pricing": "free"
+    },
+    {
+      "name": "AI_Animation",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "Unclecheng-li/AI_Animation",
+      "stars": 838,
+      "desc": "本项目整理了用于生成[炫酷 HTML 动画网页]的 AI Prompts，涵盖动画效果、3D 可视化、PPT 风格演示、UI 美化等多个类别。",
+      "url": "https://github.com/Unclecheng-li/AI_Animation",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AI_Animation 本项目整理了用于生成[炫酷 HTML 动画网页]的 AI Prompts，涵盖动画效果、3D 可视化、PPT 风格演示、UI 美化等多个类别。 Unclecheng-li/AI_Animation video-gen",
+      "pricing": "free"
     }
   ]
 }

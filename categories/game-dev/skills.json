@@ -4,7 +4,7 @@
     "topCategoryId": "game-dev",
     "subCategoryId": "game-dev",
     "categoryPath": "game-dev",
-    "count": 105,
+    "count": 133,
     "sourceData": "categories"
   },
   "skills": [
@@ -1901,6 +1901,538 @@
         "general"
       ],
       "searchText": "berryscode Native IDE for the Bevy game engine, built in Bevy + Rust. Scene editor, ECS inspector, AI agent, mobile build, Godot project read-only viewer. KyosukeIshizu1008/berryscode game-dev"
+    },
+    {
+      "name": "snake-ai",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "linyiLYi/snake-ai",
+      "stars": 1782,
+      "desc": "An AI agent that beats the classic game \"Snake\".",
+      "url": "https://github.com/linyiLYi/snake-ai",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "snake-ai An AI agent that beats the classic game \"Snake\". linyiLYi/snake-ai game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "LLMUnity",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "undreamai/LLMUnity",
+      "stars": 1653,
+      "desc": "Create characters in Unity with LLMs!",
+      "url": "https://github.com/undreamai/LLMUnity",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "LLMUnity Create characters in Unity with LLMs! undreamai/LLMUnity game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "ChatArena",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "Farama-Foundation/ChatArena",
+      "stars": 1550,
+      "desc": "ChatArena (or Chat Arena) is a Multi-Agent Language Game Environments for LLMs. The goal is to develop communication and collaboration capabilities of AIs.",
+      "url": "https://github.com/Farama-Foundation/ChatArena",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ChatArena ChatArena (or Chat Arena) is a Multi-Agent Language Game Environments for LLMs. The goal is to develop communication and collaboration capabilities of AIs. Farama-Foundation/ChatArena game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "godot_rl_agents",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "edbeeching/godot_rl_agents",
+      "stars": 1518,
+      "desc": "An Open Source package that allows video game creators, AI researchers and hobbyists the opportunity to learn complex behaviors for their Non Player Characters or agents",
+      "url": "https://github.com/edbeeching/godot_rl_agents",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "godot_rl_agents An Open Source package that allows video game creators, AI researchers and hobbyists the opportunity to learn complex behaviors for their Non Player Characters or agents edbeeching/godot_rl_agents game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "diplomacy_cicero",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "facebookresearch/diplomacy_cicero",
+      "stars": 1426,
+      "desc": "Code for Cicero, an AI agent that plays the game of Diplomacy with open-domain natural language negotiation.",
+      "url": "https://github.com/facebookresearch/diplomacy_cicero",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "diplomacy_cicero Code for Cicero, an AI agent that plays the game of Diplomacy with open-domain natural language negotiation. facebookresearch/diplomacy_cicero game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "PyGame-Learning-Environment",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "ntasfi/PyGame-Learning-Environment",
+      "stars": 1061,
+      "desc": "PyGame Learning Environment (PLE) -- Reinforcement Learning Environment in Python.",
+      "url": "https://github.com/ntasfi/PyGame-Learning-Environment",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "PyGame-Learning-Environment PyGame Learning Environment (PLE) -- Reinforcement Learning Environment in Python. ntasfi/PyGame-Learning-Environment game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "xianxia-AI-town-AI-",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "zblcving9-gif/xianxia-AI-town-AI-",
+      "stars": 1006,
+      "desc": "大模型驱动的npc决策，npc和玩家平权",
+      "url": "https://github.com/zblcving9-gif/xianxia-AI-town-AI-",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "xianxia-AI-town-AI- 大模型驱动的npc决策，npc和玩家平权 zblcving9-gif/xianxia-AI-town-AI- game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "awesome-game-ai",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "datamllab/awesome-game-ai",
+      "stars": 970,
+      "desc": "Awesome Game AI materials of Multi-Agent Reinforcement Learning",
+      "url": "https://github.com/datamllab/awesome-game-ai",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-game-ai Awesome Game AI materials of Multi-Agent Reinforcement Learning datamllab/awesome-game-ai game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "Legends-Of-Heroes",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "FlameskyDexive/Legends-Of-Heroes",
+      "stars": 903,
+      "desc": "A battle of balls game, lol style, AI Agents base, support agent skills & unityMCP. 基于ET 10的双端C#游戏框架(.net10 + Unity2022.3.62, EUI+Luban+YooAsset)，包含战斗系统（技能/buff/行为树），内置LOL风格球球大战demo",
+      "url": "https://github.com/FlameskyDexive/Legends-Of-Heroes",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Legends-Of-Heroes A battle of balls game, lol style, AI Agents base, support agent skills & unityMCP. 基于ET 10的双端C#游戏框架(.net10 + Unity2022.3.62, EUI+Luban+YooAsset)，包含战斗系统（技能/buff/行为树），内置LOL风格球球大战demo FlameskyDexive/Legends-Of-Heroes game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "HTFramework",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "SaiTingHu/HTFramework",
+      "stars": 823,
+      "desc": "Unity HTFramework, a rapid development framework of client based on Unity.",
+      "url": "https://github.com/SaiTingHu/HTFramework",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "HTFramework Unity HTFramework, a rapid development framework of client based on Unity. SaiTingHu/HTFramework game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "Interactive-LLM-Powered-NPCs",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "AkshitIreddy/Interactive-LLM-Powered-NPCs",
+      "stars": 716,
+      "desc": "Interactive LLM Powered NPCs, is an open-source project that completely transforms your interaction with non-player characters (NPCs) in any game! 🎮🤖🚀 ",
+      "url": "https://github.com/AkshitIreddy/Interactive-LLM-Powered-NPCs",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Interactive-LLM-Powered-NPCs Interactive LLM Powered NPCs, is an open-source project that completely transforms your interaction with non-player characters (NPCs) in any game! 🎮🤖🚀  AkshitIreddy/Interactive-LLM-Powered-NPCs game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "chatdev",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "10cl/chatdev",
+      "stars": 585,
+      "desc": "ChatDev IDE is an tools for building your ai agent, Whether it's NPCs in games or powerful agent tools, you can design what you want for this platform.",
+      "url": "https://github.com/10cl/chatdev",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "chatdev ChatDev IDE is an tools for building your ai agent, Whether it's NPCs in games or powerful agent tools, you can design what you want for this platform. 10cl/chatdev game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "aitoolkit",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "linkdd/aitoolkit",
+      "stars": 524,
+      "desc": "Give a brain to your game's NPCs",
+      "url": "https://github.com/linkdd/aitoolkit",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aitoolkit Give a brain to your game's NPCs linkdd/aitoolkit game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "incognide",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "NPC-Worldwide/incognide",
+      "stars": 451,
+      "desc": "Explore the unknown, build the future, own your data.",
+      "url": "https://github.com/NPC-Worldwide/incognide",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "incognide Explore the unknown, build the future, own your data. NPC-Worldwide/incognide game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "MineStudio",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "CraftJarvis/MineStudio",
+      "stars": 391,
+      "desc": "MineStudio: A Streamlined Package for Minecraft AI Agent Development",
+      "url": "https://github.com/CraftJarvis/MineStudio",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "MineStudio MineStudio: A Streamlined Package for Minecraft AI Agent Development CraftJarvis/MineStudio game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "unity-mcp-server",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "AnkleBreaker-Studio/unity-mcp-server",
+      "stars": 304,
+      "desc": "Unity MCP Server — 268 tools for AI-assisted game development. Connect Claude, Cursor, or any MCP client to Unity Editor & Unity Hub. Scene management, GameObjects, components, builds, profiling, Shad",
+      "url": "https://github.com/AnkleBreaker-Studio/unity-mcp-server",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "unity-mcp-server Unity MCP Server — 268 tools for AI-assisted game development. Connect Claude, Cursor, or any MCP client to Unity Editor & Unity Hub. Scene management, GameObjects, components, builds, profiling, Shad AnkleBreaker-Studio/unity-mcp-server game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "gamestudio-subagents",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "pamirtuna/gamestudio-subagents",
+      "stars": 227,
+      "desc": "AI-Powered Game Development Team in Your Terminal",
+      "url": "https://github.com/pamirtuna/gamestudio-subagents",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gamestudio-subagents AI-Powered Game Development Team in Your Terminal pamirtuna/gamestudio-subagents game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "mc_aiplayer",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "zoyluoblue/mc_aiplayer",
+      "stars": 212,
+      "desc": "Autonomous AI agent that plays Minecraft on its own — a server-side Fabric mod (MC 1.21.3) where a DeepSeek / OpenAI-compatible LLM drives a real player to mine, build, farm, fight and survive from na",
+      "url": "https://github.com/zoyluoblue/mc_aiplayer",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mc_aiplayer Autonomous AI agent that plays Minecraft on its own — a server-side Fabric mod (MC 1.21.3) where a DeepSeek / OpenAI-compatible LLM drives a real player to mine, build, farm, fight and survive from na zoyluoblue/mc_aiplayer game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "dogoap",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "victorb/dogoap",
+      "stars": 193,
+      "desc": "Goal-oriented Action Planning (GOAP) with Bevy integration",
+      "url": "https://github.com/victorb/dogoap",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "dogoap Goal-oriented Action Planning (GOAP) with Bevy integration victorb/dogoap game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "OpenPixel-RPG",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "tensor2023/OpenPixel-RPG",
+      "stars": 173,
+      "desc": "AI-powered UGC pixel-art JRPG: input any address or photo, describe a style, and get a complete interactive world with AI-generated local NPCs.",
+      "url": "https://github.com/tensor2023/OpenPixel-RPG",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "OpenPixel-RPG AI-powered UGC pixel-art JRPG: input any address or photo, describe a style, and get a complete interactive world with AI-generated local NPCs. tensor2023/OpenPixel-RPG game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "unity-mcp-plugin",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "AnkleBreaker-Studio/unity-mcp-plugin",
+      "stars": 162,
+      "desc": "Unity MCP Plugin (UPM) — Editor bridge for AI-assisted game development. Enables Claude, Cursor & MCP-compatible AI to control Unity Editor with 268 tools: scenes, GameObjects, components, builds, pro",
+      "url": "https://github.com/AnkleBreaker-Studio/unity-mcp-plugin",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "unity-mcp-plugin Unity MCP Plugin (UPM) — Editor bridge for AI-assisted game development. Enables Claude, Cursor & MCP-compatible AI to control Unity Editor with 268 tools: scenes, GameObjects, components, builds, pro AnkleBreaker-Studio/unity-mcp-plugin game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "terminatorplus",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "horsenuggets/terminatorplus",
+      "stars": 154,
+      "desc": "A Minecraft plugin for Server-sided fighter NPCs.",
+      "url": "https://github.com/horsenuggets/terminatorplus",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "terminatorplus A Minecraft plugin for Server-sided fighter NPCs. horsenuggets/terminatorplus game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "Cobweb",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "shixiangxi0/Cobweb",
+      "stars": 127,
+      "desc": "Cobweb: An AI-native game development framework based on Dual-World Theory. View = f(State) for complex game logic.",
+      "url": "https://github.com/shixiangxi0/Cobweb",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Cobweb Cobweb: An AI-native game development framework based on Dual-World Theory. View = f(State) for complex game logic. shixiangxi0/Cobweb game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "Unity3D-AI-and-Procedural-Generation-Framework",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "Donut-Studios/Unity3D-AI-and-Procedural-Generation-Framework",
+      "stars": 111,
+      "desc": "Unity3D AI and Procedural Generation Framework.",
+      "url": "https://github.com/Donut-Studios/Unity3D-AI-and-Procedural-Generation-Framework",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Unity3D-AI-and-Procedural-Generation-Framework Unity3D AI and Procedural Generation Framework. Donut-Studios/Unity3D-AI-and-Procedural-Generation-Framework game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "Pathfinding-Algorithms",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "kbrizov/Pathfinding-Algorithms",
+      "stars": 99,
+      "desc": "A visualizer for the core search algorithms used in AI and game development. Special thanks to Amit Patel and his cool tutorials for providing me with the inspiration. #MadeWithUnity",
+      "url": "https://github.com/kbrizov/Pathfinding-Algorithms",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Pathfinding-Algorithms A visualizer for the core search algorithms used in AI and game development. Special thanks to Amit Patel and his cool tutorials for providing me with the inspiration. #MadeWithUnity kbrizov/Pathfinding-Algorithms game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "ainneve",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "evennia/ainneve",
+      "stars": 85,
+      "desc": "A full example game created in Evennia (under development, anyone can help!)",
+      "url": "https://github.com/evennia/ainneve",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ainneve A full example game created in Evennia (under development, anyone can help!) evennia/ainneve game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "mcp-unreal",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "remiphilippe/mcp-unreal",
+      "stars": 55,
+      "desc": "MCP server that gives AI coding agents (Claude Code, Cursor, etc.) full control over Unreal Engine 5.7 projects — headless builds & tests, Blueprint editing, actor manipulation, procedural mesh genera",
+      "url": "https://github.com/remiphilippe/mcp-unreal",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mcp-unreal MCP server that gives AI coding agents (Claude Code, Cursor, etc.) full control over Unreal Engine 5.7 projects — headless builds & tests, Blueprint editing, actor manipulation, procedural mesh genera remiphilippe/mcp-unreal game-dev",
+      "pricing": "free"
+    },
+    {
+      "name": "go_gens",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "Flokey82/go_gens",
+      "stars": 31,
+      "desc": "Various small attempts at procedural generation, AI, simulation and whatnot.",
+      "url": "https://github.com/Flokey82/go_gens",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "go_gens Various small attempts at procedural generation, AI, simulation and whatnot. Flokey82/go_gens game-dev",
+      "pricing": "free"
     }
   ]
 }

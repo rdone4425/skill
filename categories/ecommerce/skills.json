@@ -4,7 +4,7 @@
     "topCategoryId": "ecommerce",
     "subCategoryId": "ecommerce",
     "categoryPath": "ecommerce",
-    "count": 83,
+    "count": 99,
     "sourceData": "categories"
   },
   "skills": [
@@ -1501,6 +1501,310 @@
         "general"
       ],
       "searchText": "1688-cli 1688 CLI is an AI-agent-friendly command-line tool for 1688 sourcing, product research, supplier evaluation, procurement Inquire, and order management.helping dropshippers and Amazon sellers automate  superjack2050/1688-cli ecommerce"
+    },
+    {
+      "name": "aimeos-laravel",
+      "source": "ecommerce",
+      "sourceAgent": "ecommerce",
+      "repo": "aimeos/aimeos-laravel",
+      "stars": 8657,
+      "desc": "Laravel ecommerce package for ultra fast online shops, scalable marketplaces, complex B2B applications and #gigacommerce",
+      "url": "https://github.com/aimeos/aimeos-laravel",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aimeos-laravel Laravel ecommerce package for ultra fast online shops, scalable marketplaces, complex B2B applications and #gigacommerce aimeos/aimeos-laravel ecommerce",
+      "pricing": "free"
+    },
+    {
+      "name": "marqo",
+      "source": "ecommerce",
+      "sourceAgent": "ecommerce",
+      "repo": "marqo-ai/marqo",
+      "stars": 5017,
+      "desc": "Ecommerce Search and Discovery - marqo.ai",
+      "url": "https://github.com/marqo-ai/marqo",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "marqo Ecommerce Search and Discovery - marqo.ai marqo-ai/marqo ecommerce",
+      "pricing": "free"
+    },
+    {
+      "name": "aimeos-core",
+      "source": "ecommerce",
+      "sourceAgent": "ecommerce",
+      "repo": "aimeos/aimeos-core",
+      "stars": 4510,
+      "desc": "Aimeos PHP e-commerce framework for ultra fast online shops, scalable marketplaces, complex B2B applications and #gigacommerce",
+      "url": "https://github.com/aimeos/aimeos-core",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aimeos-core Aimeos PHP e-commerce framework for ultra fast online shops, scalable marketplaces, complex B2B applications and #gigacommerce aimeos/aimeos-core ecommerce",
+      "pricing": "free"
+    },
+    {
+      "name": "aimeos-headless",
+      "source": "ecommerce",
+      "sourceAgent": "ecommerce",
+      "repo": "aimeos/aimeos-headless",
+      "stars": 2546,
+      "desc": "Aimeos cloud-native, API-first ecommerce headless distribution based on Laravel for ultra fast online shops, scalable marketplaces, complex B2B applications and #gigacommerce",
+      "url": "https://github.com/aimeos/aimeos-headless",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aimeos-headless Aimeos cloud-native, API-first ecommerce headless distribution based on Laravel for ultra fast online shops, scalable marketplaces, complex B2B applications and #gigacommerce aimeos/aimeos-headless ecommerce",
+      "pricing": "free"
+    },
+    {
+      "name": "beikeshop",
+      "source": "ecommerce",
+      "sourceAgent": "ecommerce",
+      "repo": "beikeshop/beikeshop",
+      "stars": 1924,
+      "desc": "Free and Open-Source, Easy-to-Use Laravel eCommerce Platform, Base on the Laravel . It supports multiple languages and currencies, Integrates AI agents. The platform features customizable visual desig",
+      "url": "https://github.com/beikeshop/beikeshop",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "beikeshop Free and Open-Source, Easy-to-Use Laravel eCommerce Platform, Base on the Laravel . It supports multiple languages and currencies, Integrates AI agents. The platform features customizable visual desig beikeshop/beikeshop ecommerce",
+      "pricing": "free"
+    },
+    {
+      "name": "aimeos-typo3",
+      "source": "ecommerce",
+      "sourceAgent": "ecommerce",
+      "repo": "aimeos/aimeos-typo3",
+      "stars": 1541,
+      "desc": "TYPO3 e-commerce extension for ultra fast online shops, scalable marketplaces, complex B2B applications and #gigacommerce",
+      "url": "https://github.com/aimeos/aimeos-typo3",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aimeos-typo3 TYPO3 e-commerce extension for ultra fast online shops, scalable marketplaces, complex B2B applications and #gigacommerce aimeos/aimeos-typo3 ecommerce",
+      "pricing": "free"
+    },
+    {
+      "name": "aimeos-symfony",
+      "source": "ecommerce",
+      "sourceAgent": "ecommerce",
+      "repo": "aimeos/aimeos-symfony",
+      "stars": 1525,
+      "desc": "Symfony e-commerce bundle for professional, ultra fast online shops, complex B2B applications and #gigacommerce",
+      "url": "https://github.com/aimeos/aimeos-symfony",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aimeos-symfony Symfony e-commerce bundle for professional, ultra fast online shops, complex B2B applications and #gigacommerce aimeos/aimeos-symfony ecommerce",
+      "pricing": "free"
+    },
+    {
+      "name": "aimeos-typo3-dist",
+      "source": "ecommerce",
+      "sourceAgent": "ecommerce",
+      "repo": "aimeos/aimeos-typo3-dist",
+      "stars": 1287,
+      "desc": "TYPO3 e-commerce distribution for high performance web shops",
+      "url": "https://github.com/aimeos/aimeos-typo3-dist",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aimeos-typo3-dist TYPO3 e-commerce distribution for high performance web shops aimeos/aimeos-typo3-dist ecommerce",
+      "pricing": "free"
+    },
+    {
+      "name": "deep-learning-containers",
+      "source": "ecommerce",
+      "sourceAgent": "ecommerce",
+      "repo": "aws/deep-learning-containers",
+      "stars": 1179,
+      "desc": " One stop shop for running AI/ML on AWS.",
+      "url": "https://github.com/aws/deep-learning-containers",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "deep-learning-containers  One stop shop for running AI/ML on AWS. aws/deep-learning-containers ecommerce",
+      "pricing": "free"
+    },
+    {
+      "name": "ai-laravel",
+      "source": "ecommerce",
+      "sourceAgent": "ecommerce",
+      "repo": "aimeos/ai-laravel",
+      "stars": 1034,
+      "desc": "Laravel adapter for Aimeos web shops and e-commerce solutions",
+      "url": "https://github.com/aimeos/ai-laravel",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-laravel Laravel adapter for Aimeos web shops and e-commerce solutions aimeos/ai-laravel ecommerce",
+      "pricing": "free"
+    },
+    {
+      "name": "aimeos-docs",
+      "source": "ecommerce",
+      "sourceAgent": "ecommerce",
+      "repo": "aimeos/aimeos-docs",
+      "stars": 1021,
+      "desc": "Aimeos documentation",
+      "url": "https://github.com/aimeos/aimeos-docs",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aimeos-docs Aimeos documentation aimeos/aimeos-docs ecommerce",
+      "pricing": "free"
+    },
+    {
+      "name": "ai-typo3",
+      "source": "ecommerce",
+      "sourceAgent": "ecommerce",
+      "repo": "aimeos/ai-typo3",
+      "stars": 1016,
+      "desc": "TYPO3 adapter for Aimeos web shops and e-commerce solutions",
+      "url": "https://github.com/aimeos/ai-typo3",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-typo3 TYPO3 adapter for Aimeos web shops and e-commerce solutions aimeos/ai-typo3 ecommerce",
+      "pricing": "free"
+    },
+    {
+      "name": "Complete-Ecommerce-in-laravel-10",
+      "source": "ecommerce",
+      "sourceAgent": "ecommerce",
+      "repo": "Prajwal100/Complete-Ecommerce-in-laravel-10",
+      "stars": 1014,
+      "desc": "Complete E-commerce Website in Laravel 10 - Full-featured eCommerce solution with modern UI, admin panel, PayPal integration, and powered by NepVox AI (TTS, STT, TTI)",
+      "url": "https://github.com/Prajwal100/Complete-Ecommerce-in-laravel-10",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Complete-Ecommerce-in-laravel-10 Complete E-commerce Website in Laravel 10 - Full-featured eCommerce solution with modern UI, admin panel, PayPal integration, and powered by NepVox AI (TTS, STT, TTI) Prajwal100/Complete-Ecommerce-in-laravel-10 ecommerce",
+      "pricing": "free"
+    },
+    {
+      "name": "storecraft",
+      "source": "ecommerce",
+      "sourceAgent": "ecommerce",
+      "repo": "store-craft/storecraft",
+      "stars": 819,
+      "desc": "⭐ Rapidly build AI-powered, Headless e-commerce backends with TypeScript",
+      "url": "https://github.com/store-craft/storecraft",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "storecraft ⭐ Rapidly build AI-powered, Headless e-commerce backends with TypeScript store-craft/storecraft ecommerce",
+      "pricing": "free"
+    },
+    {
+      "name": "enterprise-commerce",
+      "source": "ecommerce",
+      "sourceAgent": "ecommerce",
+      "repo": "Blazity/enterprise-commerce",
+      "stars": 689,
+      "desc": "⚡ Next.js enterprise-grade storefront for high-performance e-commerce with Shopify backend and Algolia middle layer with excellent browsing journey",
+      "url": "https://github.com/Blazity/enterprise-commerce",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "enterprise-commerce ⚡ Next.js enterprise-grade storefront for high-performance e-commerce with Shopify backend and Algolia middle layer with excellent browsing journey Blazity/enterprise-commerce ecommerce",
+      "pricing": "free"
+    },
+    {
+      "name": "innoshop",
+      "source": "ecommerce",
+      "sourceAgent": "ecommerce",
+      "repo": "innocommerce/innoshop",
+      "stars": 645,
+      "desc": "InnoShop is an AI-powered open source e-commerce system built on Laravel 12, designed for global commerce. It supports multiple AI models for intelligent automation, with native multi-language and mul",
+      "url": "https://github.com/innocommerce/innoshop",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "innoshop InnoShop is an AI-powered open source e-commerce system built on Laravel 12, designed for global commerce. It supports multiple AI models for intelligent automation, with native multi-language and mul innocommerce/innoshop ecommerce",
+      "pricing": "free"
     }
   ]
 }

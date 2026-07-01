@@ -4,7 +4,7 @@
     "topCategoryId": "health-medical",
     "subCategoryId": "health-medical",
     "categoryPath": "health-medical",
-    "count": 91,
+    "count": 131,
     "sourceData": "categories"
   },
   "skills": [
@@ -1648,6 +1648,766 @@
         "general"
       ],
       "searchText": "MedicalModelLibrary A collection of AI models tailored for healthcare applications. ExpertOpsAI/MedicalModelLibrary health-medical"
+    },
+    {
+      "name": "Awesome-AI4Med",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "FreedomIntelligence/Awesome-AI4Med",
+      "stars": 2826,
+      "desc": "A curated list of medical LLMs, multimodal systems, datasets, benchmarks, and more. 🏥",
+      "url": "https://github.com/FreedomIntelligence/Awesome-AI4Med",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Awesome-AI4Med A curated list of medical LLMs, multimodal systems, datasets, benchmarks, and more. 🏥 FreedomIntelligence/Awesome-AI4Med health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "torchio",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "TorchIO-project/torchio",
+      "stars": 2418,
+      "desc": "Medical imaging processing for AI applications.",
+      "url": "https://github.com/TorchIO-project/torchio",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "torchio Medical imaging processing for AI applications. TorchIO-project/torchio health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "nitrain",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "nitrain/nitrain",
+      "stars": 1878,
+      "desc": "Train AI models efficiently on medical images using any framework",
+      "url": "https://github.com/nitrain/nitrain",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "nitrain Train AI models efficiently on medical images using any framework nitrain/nitrain health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "paperai",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "neuml/paperai",
+      "stars": 1763,
+      "desc": "📄 🤖 AI for medical and scientific papers",
+      "url": "https://github.com/neuml/paperai",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "paperai 📄 🤖 AI for medical and scientific papers neuml/paperai health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "Telegram-MedicalBot",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "KEV0143/Telegram-MedicalBot",
+      "stars": 1712,
+      "desc": "Система поддержки пользователей в Telegram: обработка пользовательских вопросов через тикет-систему и генерация ответов оператору как на основе базы знаний, так и с помощью AI.",
+      "url": "https://github.com/KEV0143/Telegram-MedicalBot",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Telegram-MedicalBot Система поддержки пользователей в Telegram: обработка пользовательских вопросов через тикет-систему и генерация ответов оператору как на основе базы знаний, так и с помощью AI. KEV0143/Telegram-MedicalBot health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "medical-research-skills",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "aipoch/medical-research-skills",
+      "stars": 1278,
+      "desc": "Hundreds of agent skills for medical research, including protocol design, data analysis, evidence insights, and academic writing.",
+      "url": "https://github.com/aipoch/medical-research-skills",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "medical-research-skills Hundreds of agent skills for medical research, including protocol design, data analysis, evidence insights, and academic writing. aipoch/medical-research-skills health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "AnkiAIUtils",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "thiswillbeyourgithub/AnkiAIUtils",
+      "stars": 866,
+      "desc": "AI-powered tools to enhance Anki flashcards with explanations, mnemonics, illustrations, and adaptive learning for medical school and beyond",
+      "url": "https://github.com/thiswillbeyourgithub/AnkiAIUtils",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AnkiAIUtils AI-powered tools to enhance Anki flashcards with explanations, mnemonics, illustrations, and adaptive learning for medical school and beyond thiswillbeyourgithub/AnkiAIUtils health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "bionemo-recipes",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "NVIDIA-BioNeMo/bionemo-recipes",
+      "stars": 811,
+      "desc": "BioNeMo Recipes: For building and adapting AI models in drug discovery at scale",
+      "url": "https://github.com/NVIDIA-BioNeMo/bionemo-recipes",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "bionemo-recipes BioNeMo Recipes: For building and adapting AI models in drug discovery at scale NVIDIA-BioNeMo/bionemo-recipes health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "MedgeClaw",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "xjtulyc/MedgeClaw",
+      "stars": 663,
+      "desc": "Open-source AI research assistant for biomedicine — chat to run RNA-seq, drug discovery, clinical analysis, and more. Built on Claude Code with 140 K-Dense scientific skills, real-time dashboard, and ",
+      "url": "https://github.com/xjtulyc/MedgeClaw",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "MedgeClaw Open-source AI research assistant for biomedicine — chat to run RNA-seq, drug discovery, clinical analysis, and more. Built on Claude Code with 140 K-Dense scientific skills, real-time dashboard, and  xjtulyc/MedgeClaw health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "RETFound",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "rmaphoh/RETFound",
+      "stars": 652,
+      "desc": "Vision Foundation Models for Medical AI, including RETFound, DINOv2, DINOv3",
+      "url": "https://github.com/rmaphoh/RETFound",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "RETFound Vision Foundation Models for Medical AI, including RETFound, DINOv2, DINOv3 rmaphoh/RETFound health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "biomcp",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "genomoncology/biomcp",
+      "stars": 535,
+      "desc": "BioMCP: Biomedical Model Context Protocol",
+      "url": "https://github.com/genomoncology/biomcp",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "biomcp BioMCP: Biomedical Model Context Protocol genomoncology/biomcp health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "Tianchi-Medical-LungTumorDetect",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "wikke/Tianchi-Medical-LungTumorDetect",
+      "stars": 444,
+      "desc": "天池医疗AI大赛[第一季]：肺部结节智能诊断 UNet/VGG/Inception/ResNet/DenseNet",
+      "url": "https://github.com/wikke/Tianchi-Medical-LungTumorDetect",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Tianchi-Medical-LungTumorDetect 天池医疗AI大赛[第一季]：肺部结节智能诊断 UNet/VGG/Inception/ResNet/DenseNet wikke/Tianchi-Medical-LungTumorDetect health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "annotateai",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "neuml/annotateai",
+      "stars": 417,
+      "desc": "📝 Automatically annotate papers using LLMs ",
+      "url": "https://github.com/neuml/annotateai",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "annotateai 📝 Automatically annotate papers using LLMs  neuml/annotateai health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "kaapana",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "kaapana/kaapana",
+      "stars": 266,
+      "desc": "Kaapana is an open source toolkit for state of the art platform provisioning in the field of medical data analysis. The applications comprise AI-based workflows and federated learning scenarios with a",
+      "url": "https://github.com/kaapana/kaapana",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "kaapana Kaapana is an open source toolkit for state of the art platform provisioning in the field of medical data analysis. The applications comprise AI-based workflows and federated learning scenarios with a kaapana/kaapana health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "SciAgent-Skills",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "jaechang-hits/SciAgent-Skills",
+      "stars": 218,
+      "desc": "197 bioinformatics & life science skills for Claude Code and AI agents — BixBench 92.0% accuracy. RNA-seq, single-cell, drug discovery, proteomics, and more. Powers OmicsHorizon.",
+      "url": "https://github.com/jaechang-hits/SciAgent-Skills",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "SciAgent-Skills 197 bioinformatics & life science skills for Claude Code and AI agents — BixBench 92.0% accuracy. RNA-seq, single-cell, drug discovery, proteomics, and more. Powers OmicsHorizon. jaechang-hits/SciAgent-Skills health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "Awesome_BigData_AI_DrugDiscovery",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "Bin-Chen-Lab/Awesome_BigData_AI_DrugDiscovery",
+      "stars": 209,
+      "desc": "A collection of resources useful for leveraging big data and AI for drug discovery. It mainly serves as an orientation for new lab folks. It may be biased towards my lab interest.",
+      "url": "https://github.com/Bin-Chen-Lab/Awesome_BigData_AI_DrugDiscovery",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Awesome_BigData_AI_DrugDiscovery A collection of resources useful for leveraging big data and AI for drug discovery. It mainly serves as an orientation for new lab folks. It may be biased towards my lab interest. Bin-Chen-Lab/Awesome_BigData_AI_DrugDiscovery health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "chester-xray",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "mlmed/chester-xray",
+      "stars": 178,
+      "desc": "Chester the AI Radiology Assistant",
+      "url": "https://github.com/mlmed/chester-xray",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "chester-xray Chester the AI Radiology Assistant mlmed/chester-xray health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "DrugOOD",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "tencent-ailab/DrugOOD",
+      "stars": 174,
+      "desc": "OOD Dataset Curator and Benchmark for AI-aided Drug Discovery",
+      "url": "https://github.com/tencent-ailab/DrugOOD",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "DrugOOD OOD Dataset Curator and Benchmark for AI-aided Drug Discovery tencent-ailab/DrugOOD health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "AI-HealthCare-Assistant",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "ahlem-phantom/AI-HealthCare-Assistant",
+      "stars": 144,
+      "desc": "🏥 AI-powered healthcare web app | Symptom detection · Nearest doctor search · Blockchain medical records · X-Ray diagnosis · Face ID auth | Built with React, Node.js, Python, Flask, MongoDB & Ethereum",
+      "url": "https://github.com/ahlem-phantom/AI-HealthCare-Assistant",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AI-HealthCare-Assistant 🏥 AI-powered healthcare web app | Symptom detection · Nearest doctor search · Blockchain medical records · X-Ray diagnosis · Face ID auth | Built with React, Node.js, Python, Flask, MongoDB & Ethereum ahlem-phantom/AI-HealthCare-Assistant health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "polaris",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "polaris-hub/polaris",
+      "stars": 142,
+      "desc": "Foster the development of impactful AI models in drug discovery.",
+      "url": "https://github.com/polaris-hub/polaris",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "polaris Foster the development of impactful AI models in drug discovery. polaris-hub/polaris health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "Awesome-AI4X-NSCLR-Papers",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "Xiaoqi-Zhao-DLUT/Awesome-AI4X-NSCLR-Papers",
+      "stars": 137,
+      "desc": "A curated collection of AI+X papers published in   Nature / Science / Cell / Lancet / Radiology and their flagship sub-journals  ",
+      "url": "https://github.com/Xiaoqi-Zhao-DLUT/Awesome-AI4X-NSCLR-Papers",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Awesome-AI4X-NSCLR-Papers A curated collection of AI+X papers published in   Nature / Science / Cell / Lancet / Radiology and their flagship sub-journals   Xiaoqi-Zhao-DLUT/Awesome-AI4X-NSCLR-Papers health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "HealthChatbot",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "shreyasharma04/HealthChatbot",
+      "stars": 127,
+      "desc": "🤖 HealthCare ChatBot Major -1 (4th year - 7th semester)  Health Care Chat-Bot is a Healthcare Domain Chatbot to simulate the predictions of a General Physician.  ChatBot can be described as software t",
+      "url": "https://github.com/shreyasharma04/HealthChatbot",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "HealthChatbot 🤖 HealthCare ChatBot Major -1 (4th year - 7th semester)  Health Care Chat-Bot is a Healthcare Domain Chatbot to simulate the predictions of a General Physician.  ChatBot can be described as software t shreyasharma04/HealthChatbot health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "DrugClaw",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "DrugClaw/DrugClaw",
+      "stars": 126,
+      "desc": "💊 AI Research Assistant for Accelerated Drug Discovery. 🦞",
+      "url": "https://github.com/DrugClaw/DrugClaw",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "DrugClaw 💊 AI Research Assistant for Accelerated Drug Discovery. 🦞 DrugClaw/DrugClaw health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "monai-deploy",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "Project-MONAI/monai-deploy",
+      "stars": 118,
+      "desc": "MONAI Deploy aims to become the de-facto standard for developing, packaging, testing, deploying and running medical AI applications in clinical production.",
+      "url": "https://github.com/Project-MONAI/monai-deploy",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "monai-deploy MONAI Deploy aims to become the de-facto standard for developing, packaging, testing, deploying and running medical AI applications in clinical production. Project-MONAI/monai-deploy health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "ChemGAN-challenge",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "benstaf/ChemGAN-challenge",
+      "stars": 115,
+      "desc": "Code for the paper: ChemGAN challenge for drug discovery: can AI reproduce natural chemical diversity? arXiv preprint arXiv:1708.08227.",
+      "url": "https://github.com/benstaf/ChemGAN-challenge",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ChemGAN-challenge Code for the paper: ChemGAN challenge for drug discovery: can AI reproduce natural chemical diversity? arXiv preprint arXiv:1708.08227. benstaf/ChemGAN-challenge health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "ProjectAiAi",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "AiAiHealthcare/ProjectAiAi",
+      "stars": 114,
+      "desc": "AiAi.care project is teaching computers to \"see\" chest X-rays and interpret them how a human Radiologist would. We are using 700,000 Chest X-Rays + Deep Learning to build an FDA 💊 approved, open-sourc",
+      "url": "https://github.com/AiAiHealthcare/ProjectAiAi",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ProjectAiAi AiAi.care project is teaching computers to \"see\" chest X-rays and interpret them how a human Radiologist would. We are using 700,000 Chest X-Rays + Deep Learning to build an FDA 💊 approved, open-sourc AiAiHealthcare/ProjectAiAi health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "AI-Healthcare-chatbot",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "vsharathchandra/AI-Healthcare-chatbot",
+      "stars": 91,
+      "desc": "Through a series of questions about symptoms it diagnosis the health condition of patient. ",
+      "url": "https://github.com/vsharathchandra/AI-Healthcare-chatbot",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AI-Healthcare-chatbot Through a series of questions about symptoms it diagnosis the health condition of patient.  vsharathchandra/AI-Healthcare-chatbot health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "MindCrafter",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "Shivam1337/MindCrafter",
+      "stars": 90,
+      "desc": "AI & ML Based Mental Health Diagnosis & Consulting App. ",
+      "url": "https://github.com/Shivam1337/MindCrafter",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "MindCrafter AI & ML Based Mental Health Diagnosis & Consulting App.  Shivam1337/MindCrafter health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "AIAgents4Pharma",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "VirtualPatientEngine/AIAgents4Pharma",
+      "stars": 90,
+      "desc": "AI Agents for drug discovery, drug development, and other pharmaceutical R&D",
+      "url": "https://github.com/VirtualPatientEngine/AIAgents4Pharma",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AIAgents4Pharma AI Agents for drug discovery, drug development, and other pharmaceutical R&D VirtualPatientEngine/AIAgents4Pharma health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "ml-drug-discovery",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "nrflynn2/ml-drug-discovery",
+      "stars": 87,
+      "desc": "The official repository for the book \"Machine Learning for Drug Discovery\" (Manning Publications)",
+      "url": "https://github.com/nrflynn2/ml-drug-discovery",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ml-drug-discovery The official repository for the book \"Machine Learning for Drug Discovery\" (Manning Publications) nrflynn2/ml-drug-discovery health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "AI-Physics-DrugDiscovery",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "OdinZhang/AI-Physics-DrugDiscovery",
+      "stars": 65,
+      "desc": "my own studied materials and scripts",
+      "url": "https://github.com/OdinZhang/AI-Physics-DrugDiscovery",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AI-Physics-DrugDiscovery my own studied materials and scripts OdinZhang/AI-Physics-DrugDiscovery health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "AI-for-Healthcare-Nanodegree",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "amanjeetsahu/AI-for-Healthcare-Nanodegree",
+      "stars": 56,
+      "desc": "Learn to build, evaluate, and integrate predictive models that have the power to transform patient outcomes. Begin by classifying and segmenting 2D and 3D medical images to augment diagnosis and then ",
+      "url": "https://github.com/amanjeetsahu/AI-for-Healthcare-Nanodegree",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AI-for-Healthcare-Nanodegree Learn to build, evaluate, and integrate predictive models that have the power to transform patient outcomes. Begin by classifying and segmenting 2D and 3D medical images to augment diagnosis and then  amanjeetsahu/AI-for-Healthcare-Nanodegree health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "Voice-Analysis-to-Detect-Emotional-Disorder",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "Okes2024/Voice-Analysis-to-Detect-Emotional-Disorder",
+      "stars": 55,
+      "desc": "This project leverages machine learning and deep learning to analyze synthetic voice features for detecting potential emotional disorders, showcasing how AI-driven voice biomarkers can support early d",
+      "url": "https://github.com/Okes2024/Voice-Analysis-to-Detect-Emotional-Disorder",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Voice-Analysis-to-Detect-Emotional-Disorder This project leverages machine learning and deep learning to analyze synthetic voice features for detecting potential emotional disorders, showcasing how AI-driven voice biomarkers can support early d Okes2024/Voice-Analysis-to-Detect-Emotional-Disorder health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "ai_quantum_drug_discovery",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "0rlych1kk4/ai_quantum_drug_discovery",
+      "stars": 52,
+      "desc": "AI-driven drug discovery powered by Rust and quantum computing—accelerating molecular simulations for faster, cost-effective pharmaceutical breakthroughs",
+      "url": "https://github.com/0rlych1kk4/ai_quantum_drug_discovery",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai_quantum_drug_discovery AI-driven drug discovery powered by Rust and quantum computing—accelerating molecular simulations for faster, cost-effective pharmaceutical breakthroughs 0rlych1kk4/ai_quantum_drug_discovery health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "AI-Drug-Discovery-Design",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "itWangCode/AI-Drug-Discovery-Design",
+      "stars": 52,
+      "desc": "AI drug design",
+      "url": "https://github.com/itWangCode/AI-Drug-Discovery-Design",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AI-Drug-Discovery-Design AI drug design itWangCode/AI-Drug-Discovery-Design health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "Awesome-AI-LLMs-in-Radiology",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "openlifescience-ai/Awesome-AI-LLMs-in-Radiology",
+      "stars": 49,
+      "desc": "A curated list of awesome resources, papers, datasets, and tools related to AI in radiology. This repository aims to provide a comprehensive collection of materials to facilitate research, learning, a",
+      "url": "https://github.com/openlifescience-ai/Awesome-AI-LLMs-in-Radiology",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Awesome-AI-LLMs-in-Radiology A curated list of awesome resources, papers, datasets, and tools related to AI in radiology. This repository aims to provide a comprehensive collection of materials to facilitate research, learning, a openlifescience-ai/Awesome-AI-LLMs-in-Radiology health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "Healthcare-AI-WebApp",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "kaymen99/Healthcare-AI-WebApp",
+      "stars": 45,
+      "desc": "AltairCare is a machine learning/deep learning web app for disease diagnosis and prediction",
+      "url": "https://github.com/kaymen99/Healthcare-AI-WebApp",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Healthcare-AI-WebApp AltairCare is a machine learning/deep learning web app for disease diagnosis and prediction kaymen99/Healthcare-AI-WebApp health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "chexprompt",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "microsoft/chexprompt",
+      "stars": 37,
+      "desc": "Expert-level AI radiology report evaluator",
+      "url": "https://github.com/microsoft/chexprompt",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "chexprompt Expert-level AI radiology report evaluator microsoft/chexprompt health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "SpineAI-Detect-Classify-LumbarMRI-Stenosis",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "NUHS-NUS-SpineAI/SpineAI-Detect-Classify-LumbarMRI-Stenosis",
+      "stars": 36,
+      "desc": "Code for 2020 November Radiology Submission \"Deep Learning Model for Automated Detection and Classification of Central Canal, Lateral Recess, and Neural Foraminal Stenosis at Lumbar Spine MRI\"",
+      "url": "https://github.com/NUHS-NUS-SpineAI/SpineAI-Detect-Classify-LumbarMRI-Stenosis",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "SpineAI-Detect-Classify-LumbarMRI-Stenosis Code for 2020 November Radiology Submission \"Deep Learning Model for Automated Detection and Classification of Central Canal, Lateral Recess, and Neural Foraminal Stenosis at Lumbar Spine MRI\" NUHS-NUS-SpineAI/SpineAI-Detect-Classify-LumbarMRI-Stenosis health-medical",
+      "pricing": "free"
+    },
+    {
+      "name": "MagiciansCorner",
+      "source": "health-medical",
+      "sourceAgent": "health-medical",
+      "repo": "RSNA/MagiciansCorner",
+      "stars": 34,
+      "desc": "Notebooks, datasets, other content for the Radiology:AI series known as Magicians Corner by Brad Erickson",
+      "url": "https://github.com/RSNA/MagiciansCorner",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health-medical",
+      "subCategoryId": "general",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "MagiciansCorner Notebooks, datasets, other content for the Radiology:AI series known as Magicians Corner by Brad Erickson RSNA/MagiciansCorner health-medical",
+      "pricing": "free"
     }
   ]
 }

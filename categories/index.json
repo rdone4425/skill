@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-01T19:16:29Z",
+  "generatedAt": "2026-07-01T19:30:00Z",
   "sourceData": "categories",
-  "totalSkills": 6912,
+  "totalSkills": 7118,
   "categories": [
     {
       "id": "dev-tools",
@@ -555,7 +555,7 @@
       "path": "game-dev",
       "groupId": "game-dev",
       "subcategoryId": "game-dev",
-      "count": 105,
+      "count": 133,
       "name_en": "Game Development",
       "name_cn": "游戏开发",
       "hfTasks": [],
@@ -596,7 +596,7 @@
       "path": "testing-qa",
       "groupId": "testing",
       "subcategoryId": "qa",
-      "count": 123,
+      "count": 132,
       "name_en": "Testing & QA",
       "name_cn": "测试与 QA",
       "hfTasks": [],
@@ -676,7 +676,7 @@
       "path": "health-medical",
       "groupId": "health-medical",
       "subcategoryId": "health-medical",
-      "count": 91,
+      "count": 131,
       "name_en": "Health & Medical",
       "name_cn": "健康与医疗",
       "hfTasks": [],
@@ -716,7 +716,7 @@
       "path": "3d",
       "groupId": "3d",
       "subcategoryId": "3d",
-      "count": 83,
+      "count": 120,
       "name_en": "3D Modeling & Rendering",
       "name_cn": "3D",
       "hfTasks": [
@@ -762,7 +762,7 @@
       "path": "ecommerce",
       "groupId": "ecommerce",
       "subcategoryId": "ecommerce",
-      "count": 83,
+      "count": 99,
       "name_en": "E-Commerce",
       "name_cn": "电商",
       "hfTasks": [],
@@ -889,7 +889,7 @@
       "path": "video-gen",
       "groupId": "video-gen",
       "subcategoryId": "video-gen",
-      "count": 66,
+      "count": 95,
       "name_en": "AI Video Generation",
       "name_cn": "AI 视频生成",
       "hfTasks": [
@@ -934,7 +934,7 @@
       "path": "audio-speech",
       "groupId": "audio-speech",
       "subcategoryId": "audio-speech",
-      "count": 90,
+      "count": 137,
       "name_en": "Speech & Text-to-Speech",
       "name_cn": "语音与 TTS",
       "hfTasks": [

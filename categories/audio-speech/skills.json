@@ -4,7 +4,7 @@
     "topCategoryId": "audio-speech",
     "subCategoryId": "audio-speech",
     "categoryPath": "audio-speech",
-    "count": 90,
+    "count": 137,
     "sourceData": "categories"
   },
   "skills": [
@@ -1645,6 +1645,899 @@
         "general"
       ],
       "searchText": "docker-whisper Docker image for a self-hosted Whisper speech-to-text server with speaker diarization and OpenAI-compatible transcription and translation APIs. Powered by faster-whisper. Supports all Whisper models,  hwdsl2/docker-whisper audio-speech"
+    },
+    {
+      "name": "Real-Time-Voice-Cloning",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "CorentinJ/Real-Time-Voice-Cloning",
+      "stars": 59974,
+      "desc": "Clone a voice in 5 seconds to generate arbitrary speech in real-time",
+      "url": "https://github.com/CorentinJ/Real-Time-Voice-Cloning",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Real-Time-Voice-Cloning Clone a voice in 5 seconds to generate arbitrary speech in real-time CorentinJ/Real-Time-Voice-Cloning audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "GPT-SoVITS",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "RVC-Boss/GPT-SoVITS",
+      "stars": 59259,
+      "desc": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
+      "url": "https://github.com/RVC-Boss/GPT-SoVITS",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "GPT-SoVITS 1 min voice data can also be used to train a good TTS model! (few shot voice cloning) RVC-Boss/GPT-SoVITS audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "LocalAI",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "mudler/LocalAI",
+      "stars": 47254,
+      "desc": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "url": "https://github.com/mudler/LocalAI",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "LocalAI LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required. mudler/LocalAI audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "MockingBird",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "babysor/MockingBird",
+      "stars": 36906,
+      "desc": "🚀Clone a voice in 5 seconds to generate arbitrary speech in real-time",
+      "url": "https://github.com/babysor/MockingBird",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "MockingBird 🚀Clone a voice in 5 seconds to generate arbitrary speech in real-time babysor/MockingBird audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "OpenVoice",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "myshell-ai/OpenVoice",
+      "stars": 36837,
+      "desc": "Instant voice cloning by MIT and MyShell. Audio foundation model.",
+      "url": "https://github.com/myshell-ai/OpenVoice",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "OpenVoice Instant voice cloning by MIT and MyShell. Audio foundation model. myshell-ai/OpenVoice audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "Pixelle-Video",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "ATH-MaaS/Pixelle-Video",
+      "stars": 23968,
+      "desc": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+      "url": "https://github.com/ATH-MaaS/Pixelle-Video",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Pixelle-Video 🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine ATH-MaaS/Pixelle-Video audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "ebook2audiobook",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "DrewThomasson/ebook2audiobook",
+      "stars": 19389,
+      "desc": "Generate audiobooks from e-books, voice cloning & 1158+ languages!",
+      "url": "https://github.com/DrewThomasson/ebook2audiobook",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ebook2audiobook Generate audiobooks from e-books, voice cloning & 1158+ languages! DrewThomasson/ebook2audiobook audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "voice-pro",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "abus-aikorea/voice-pro",
+      "stars": 11094,
+      "desc": "Gradio WebUI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, CosyVoice), with Whisper audio processing, YouTube download, Demucs vocal isola",
+      "url": "https://github.com/abus-aikorea/voice-pro",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "voice-pro Gradio WebUI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, CosyVoice), with Whisper audio processing, YouTube download, Demucs vocal isola abus-aikorea/voice-pro audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "clone-voice",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "jianchang512/clone-voice",
+      "stars": 8963,
+      "desc": "A sound cloning tool with a web interface, using your voice or any sound to record audio / 一个带web界面的声音克隆工具，使用你的音色或任意声音来录制音频",
+      "url": "https://github.com/jianchang512/clone-voice",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "clone-voice A sound cloning tool with a web interface, using your voice or any sound to record audio / 一个带web界面的声音克隆工具，使用你的音色或任意声音来录制音频 jianchang512/clone-voice audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "EmotiVoice",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "netease-youdao/EmotiVoice",
+      "stars": 8484,
+      "desc": "EmotiVoice 😊: a Multi-Voice and Prompt-Controlled TTS Engine",
+      "url": "https://github.com/netease-youdao/EmotiVoice",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "EmotiVoice EmotiVoice 😊: a Multi-Voice and Prompt-Controlled TTS Engine netease-youdao/EmotiVoice audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "MeloTTS",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "myshell-ai/MeloTTS",
+      "stars": 7521,
+      "desc": "High-quality multi-lingual text-to-speech library by MyShell.ai. Support English, Spanish, French, Chinese, Japanese and Korean.",
+      "url": "https://github.com/myshell-ai/MeloTTS",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "MeloTTS High-quality multi-lingual text-to-speech library by MyShell.ai. Support English, Spanish, French, Chinese, Japanese and Korean. myshell-ai/MeloTTS audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "TensorFlowTTS",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "TensorSpeech/TensorFlowTTS",
+      "stars": 3993,
+      "desc": ":stuck_out_tongue_closed_eyes: TensorFlowTTS: Real-Time State-of-the-art Speech Synthesis for Tensorflow 2 (supported including English, French, Korean, Chinese, German and Easy to adapt for other lan",
+      "url": "https://github.com/TensorSpeech/TensorFlowTTS",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "TensorFlowTTS :stuck_out_tongue_closed_eyes: TensorFlowTTS: Real-Time State-of-the-art Speech Synthesis for Tensorflow 2 (supported including English, French, Korean, Chinese, German and Easy to adapt for other lan TensorSpeech/TensorFlowTTS audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "awesome-speech-recognition-speech-synthesis-papers",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "zzw922cn/awesome-speech-recognition-speech-synthesis-papers",
+      "stars": 3126,
+      "desc": "Automatic Speech Recognition (ASR), Speaker Verification, Speech Synthesis, Text-to-Speech (TTS), Language Modelling, Singing Voice Synthesis (SVS), Voice Conversion (VC)",
+      "url": "https://github.com/zzw922cn/awesome-speech-recognition-speech-synthesis-papers",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-speech-recognition-speech-synthesis-papers Automatic Speech Recognition (ASR), Speaker Verification, Speech Synthesis, Text-to-Speech (TTS), Language Modelling, Singing Voice Synthesis (SVS), Voice Conversion (VC) zzw922cn/awesome-speech-recognition-speech-synthesis-papers audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "tacotron",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "keithito/tacotron",
+      "stars": 2991,
+      "desc": "A TensorFlow implementation of Google's Tacotron speech synthesis with pre-trained model (unofficial)",
+      "url": "https://github.com/keithito/tacotron",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "tacotron A TensorFlow implementation of Google's Tacotron speech synthesis with pre-trained model (unofficial) keithito/tacotron audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "Bark-Voice-Cloning",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "KevinWang676/Bark-Voice-Cloning",
+      "stars": 2954,
+      "desc": "Bark Voice Cloning and Voice Cloning for Chinese Speech",
+      "url": "https://github.com/KevinWang676/Bark-Voice-Cloning",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Bark-Voice-Cloning Bark Voice Cloning and Voice Cloning for Chinese Speech KevinWang676/Bark-Voice-Cloning audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "whisper-vits-svc",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "PlayVoice/whisper-vits-svc",
+      "stars": 2859,
+      "desc": "Core Engine of Singing Voice Conversion & Singing Voice Clone",
+      "url": "https://github.com/PlayVoice/whisper-vits-svc",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "whisper-vits-svc Core Engine of Singing Voice Conversion & Singing Voice Clone PlayVoice/whisper-vits-svc audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "marytts",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "marytts/marytts",
+      "stars": 2579,
+      "desc": "MARY TTS -- an open-source, multilingual text-to-speech synthesis system written in pure java",
+      "url": "https://github.com/marytts/marytts",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "marytts MARY TTS -- an open-source, multilingual text-to-speech synthesis system written in pure java marytts/marytts audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "pyttsx3",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "nateshmbhat/pyttsx3",
+      "stars": 2520,
+      "desc": "Offline Text To Speech synthesis for python",
+      "url": "https://github.com/nateshmbhat/pyttsx3",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "pyttsx3 Offline Text To Speech synthesis for python nateshmbhat/pyttsx3 audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "alltalk_tts",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "erew123/alltalk_tts",
+      "stars": 2398,
+      "desc": "AllTalk is based on the Coqui TTS engine, similar to the Coqui_tts extension for Text generation webUI, however supports a variety of advanced features, such as a settings page, low VRAM support, Deep",
+      "url": "https://github.com/erew123/alltalk_tts",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "alltalk_tts AllTalk is based on the Coqui TTS engine, similar to the Coqui_tts extension for Text generation webUI, however supports a variety of advanced features, such as a settings page, low VRAM support, Deep erew123/alltalk_tts audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "hifi-gan",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "jik876/hifi-gan",
+      "stars": 2352,
+      "desc": "HiFi-GAN: Generative Adversarial Networks for Efficient and High Fidelity Speech Synthesis",
+      "url": "https://github.com/jik876/hifi-gan",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "hifi-gan HiFi-GAN: Generative Adversarial Networks for Efficient and High Fidelity Speech Synthesis jik876/hifi-gan audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "waveglow",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "NVIDIA/waveglow",
+      "stars": 2337,
+      "desc": "A Flow-based Generative Network for Speech Synthesis",
+      "url": "https://github.com/NVIDIA/waveglow",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "waveglow A Flow-based Generative Network for Speech Synthesis NVIDIA/waveglow audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "deepvoice3_pytorch",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "r9y9/deepvoice3_pytorch",
+      "stars": 1978,
+      "desc": "PyTorch implementation of convolutional neural networks-based text-to-speech synthesis models",
+      "url": "https://github.com/r9y9/deepvoice3_pytorch",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "deepvoice3_pytorch PyTorch implementation of convolutional neural networks-based text-to-speech synthesis models r9y9/deepvoice3_pytorch audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "openai-edge-tts",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "travisvn/openai-edge-tts",
+      "stars": 1962,
+      "desc": "Free, high-quality text-to-speech API endpoint to replace OpenAI, Azure, or ElevenLabs",
+      "url": "https://github.com/travisvn/openai-edge-tts",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openai-edge-tts Free, high-quality text-to-speech API endpoint to replace OpenAI, Azure, or ElevenLabs travisvn/openai-edge-tts audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "Auto-Synced-Translated-Dubs",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "ThioJoe/Auto-Synced-Translated-Dubs",
+      "stars": 1731,
+      "desc": "Automatically translates the text of a video based on a subtitle file, and then uses AI voice services to create a new dubbed & translated audio track where the speech is synced using the subtitle's t",
+      "url": "https://github.com/ThioJoe/Auto-Synced-Translated-Dubs",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Auto-Synced-Translated-Dubs Automatically translates the text of a video based on a subtitle file, and then uses AI voice services to create a new dubbed & translated audio track where the speech is synced using the subtitle's t ThioJoe/Auto-Synced-Translated-Dubs audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "uzu",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "trymirai/uzu",
+      "stars": 1642,
+      "desc": "A high-performance inference engine for AI models",
+      "url": "https://github.com/trymirai/uzu",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "uzu A high-performance inference engine for AI models trymirai/uzu audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "Genie-TTS",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "High-Logic/Genie-TTS",
+      "stars": 1620,
+      "desc": "GPT-SoVITS ONNX Inference Engine & Model Converter",
+      "url": "https://github.com/High-Logic/Genie-TTS",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Genie-TTS GPT-SoVITS ONNX Inference Engine & Model Converter High-Logic/Genie-TTS audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "amica",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "semperai/amica",
+      "stars": 1558,
+      "desc": "Amica is an open source interface for interactive communication with 3D characters with voice synthesis and speech recognition.",
+      "url": "https://github.com/semperai/amica",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "amica Amica is an open source interface for interactive communication with 3D characters with voice synthesis and speech recognition. semperai/amica audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "typewhisper-mac",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "TypeWhisper/typewhisper-mac",
+      "stars": 1548,
+      "desc": "Local speech-to-text for macOS  on-device AI, fully private, optional cloud",
+      "url": "https://github.com/TypeWhisper/typewhisper-mac",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "typewhisper-mac Local speech-to-text for macOS  on-device AI, fully private, optional cloud TypeWhisper/typewhisper-mac audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "VibeVoice-ComfyUI",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "Enemyx-net/VibeVoice-ComfyUI",
+      "stars": 1506,
+      "desc": "A comprehensive ComfyUI integration for Microsoft's VibeVoice text-to-speech model, enabling high-quality single and multi-speaker voice synthesis directly within your ComfyUI workflows.",
+      "url": "https://github.com/Enemyx-net/VibeVoice-ComfyUI",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "VibeVoice-ComfyUI A comprehensive ComfyUI integration for Microsoft's VibeVoice text-to-speech model, enabling high-quality single and multi-speaker voice synthesis directly within your ComfyUI workflows. Enemyx-net/VibeVoice-ComfyUI audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "voice-elements",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "zenorocha/voice-elements",
+      "stars": 1348,
+      "desc": ":speaker: Web Component wrapper to the Web Speech API, that allows you to do voice recognition and speech synthesis using Polymer",
+      "url": "https://github.com/zenorocha/voice-elements",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "voice-elements :speaker: Web Component wrapper to the Web Speech API, that allows you to do voice recognition and speech synthesis using Polymer zenorocha/voice-elements audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "World",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "mmorise/World",
+      "stars": 1321,
+      "desc": "A high-quality speech analysis, manipulation and synthesis system",
+      "url": "https://github.com/mmorise/World",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "World A high-quality speech analysis, manipulation and synthesis system mmorise/World audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "gp.nvim",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "Robitx/gp.nvim",
+      "stars": 1316,
+      "desc": "Gp.nvim (GPT prompt) Neovim AI plugin: ChatGPT sessions & Instructable text/code operations & Speech to text [OpenAI, Ollama, Anthropic, ..]",
+      "url": "https://github.com/Robitx/gp.nvim",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gp.nvim Gp.nvim (GPT prompt) Neovim AI plugin: ChatGPT sessions & Instructable text/code operations & Speech to text [OpenAI, Ollama, Anthropic, ..] Robitx/gp.nvim audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "handcrafted-persona-engine",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "elevenyellow/handcrafted-persona-engine",
+      "stars": 1308,
+      "desc": "An AI-powered interactive avatar engine using Live2D, LLM, ASR, TTS, and RVC. Ideal for VTubing, streaming, and virtual assistant applications.",
+      "url": "https://github.com/elevenyellow/handcrafted-persona-engine",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "handcrafted-persona-engine An AI-powered interactive avatar engine using Live2D, LLM, ASR, TTS, and RVC. Ideal for VTubing, streaming, and virtual assistant applications. elevenyellow/handcrafted-persona-engine audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "StreamSpeech",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "ictnlp/StreamSpeech",
+      "stars": 1275,
+      "desc": "StreamSpeech is an “All in One” seamless model for offline and simultaneous speech recognition, speech translation and speech synthesis.",
+      "url": "https://github.com/ictnlp/StreamSpeech",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "StreamSpeech StreamSpeech is an “All in One” seamless model for offline and simultaneous speech recognition, speech translation and speech synthesis. ictnlp/StreamSpeech audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "kubeai",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "kubeai-project/kubeai",
+      "stars": 1213,
+      "desc": "AI Inference Operator for Kubernetes. The easiest way to serve ML models in production. Supports VLMs, LLMs, embeddings, and speech-to-text.",
+      "url": "https://github.com/kubeai-project/kubeai",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "kubeai AI Inference Operator for Kubernetes. The easiest way to serve ML models in production. Supports VLMs, LLMs, embeddings, and speech-to-text. kubeai-project/kubeai audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "ekho",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "hgneng/ekho",
+      "stars": 1208,
+      "desc": "Chinese text-to-speech engine",
+      "url": "https://github.com/hgneng/ekho",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ekho Chinese text-to-speech engine hgneng/ekho audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "TTS-Audio-Suite",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "diodiogod/TTS-Audio-Suite",
+      "stars": 1075,
+      "desc": "A ComfyUI custom node integration for local multi-engine multi-language Text-to-Speech and Voice Conversion. Supports: RVC, Echo-TTS, Qwen3-TTS, Cozy Voice 3, Step Audio EditX, IndexTTS-2, Chatterbox ",
+      "url": "https://github.com/diodiogod/TTS-Audio-Suite",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "TTS-Audio-Suite A ComfyUI custom node integration for local multi-engine multi-language Text-to-Speech and Voice Conversion. Supports: RVC, Echo-TTS, Qwen3-TTS, Cozy Voice 3, Step Audio EditX, IndexTTS-2, Chatterbox  diodiogod/TTS-Audio-Suite audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "hyprwhspr",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "goodroot/hyprwhspr",
+      "stars": 1074,
+      "desc": " Native speech-to-text for Linux - Fast, accurate and private system-wide dictation",
+      "url": "https://github.com/goodroot/hyprwhspr",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "hyprwhspr  Native speech-to-text for Linux - Fast, accurate and private system-wide dictation goodroot/hyprwhspr audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "athena",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "athena-team/athena",
+      "stars": 969,
+      "desc": "an open-source implementation of sequence-to-sequence based speech processing engine",
+      "url": "https://github.com/athena-team/athena",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "athena an open-source implementation of sequence-to-sequence based speech processing engine athena-team/athena audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "bark.cpp",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "PABannier/bark.cpp",
+      "stars": 866,
+      "desc": "Suno AI's Bark model in C/C++ for fast text-to-speech generation",
+      "url": "https://github.com/PABannier/bark.cpp",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "bark.cpp Suno AI's Bark model in C/C++ for fast text-to-speech generation PABannier/bark.cpp audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "openedai-speech",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "matatonic/openedai-speech",
+      "stars": 859,
+      "desc": "An OpenAI API compatible text to speech server using Coqui AI's xtts_v2 and/or piper tts as the backend.",
+      "url": "https://github.com/matatonic/openedai-speech",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openedai-speech An OpenAI API compatible text to speech server using Coqui AI's xtts_v2 and/or piper tts as the backend. matatonic/openedai-speech audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "mimic1",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "MycroftAI/mimic1",
+      "stars": 858,
+      "desc": "Mycroft's TTS engine, based on CMU's Flite (Festival Lite)",
+      "url": "https://github.com/MycroftAI/mimic1",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mimic1 Mycroft's TTS engine, based on CMU's Flite (Festival Lite) MycroftAI/mimic1 audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "NotelyVoice",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "Notely-Voice/NotelyVoice",
+      "stars": 736,
+      "desc": "A 100% private AI voice transcription app that converts speech to text in 100+ languages. Built with Compose Multiplatform for Android & iOS using Whisper AI - no cloud uploads, all processing happens",
+      "url": "https://github.com/Notely-Voice/NotelyVoice",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "NotelyVoice A 100% private AI voice transcription app that converts speech to text in 100+ languages. Built with Compose Multiplatform for Android & iOS using Whisper AI - no cloud uploads, all processing happens Notely-Voice/NotelyVoice audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "ttsfm",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "dbccccccc/ttsfm",
+      "stars": 728,
+      "desc": "TTSFM mirrors OpenAI's TTS service, providing a compatible interface for text-to-speech conversion with multiple voice options for free.",
+      "url": "https://github.com/dbccccccc/ttsfm",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ttsfm TTSFM mirrors OpenAI's TTS service, providing a compatible interface for text-to-speech conversion with multiple voice options for free. dbccccccc/ttsfm audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "kokoro-web",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "eduardolat/kokoro-web",
+      "stars": 650,
+      "desc": "🔊 Kokoro Web: Free AI text-to-speech, online or self-hosted, OpenAI compatible!",
+      "url": "https://github.com/eduardolat/kokoro-web",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "kokoro-web 🔊 Kokoro Web: Free AI text-to-speech, online or self-hosted, OpenAI compatible! eduardolat/kokoro-web audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "Auralis",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "astramind-ai/Auralis",
+      "stars": 624,
+      "desc": "A Fast TTS Engine",
+      "url": "https://github.com/astramind-ai/Auralis",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Auralis A Fast TTS Engine astramind-ai/Auralis audio-speech",
+      "pricing": "free"
+    },
+    {
+      "name": "chatterbox-tts-api",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "travisvn/chatterbox-tts-api",
+      "stars": 622,
+      "desc": "Local, OpenAI-compatible text-to-speech (TTS) API using Chatterbox, enabling users to generate voice cloned speech anywhere the OpenAI API is used (e.g. Open WebUI, AnythingLLM, etc.)",
+      "url": "https://github.com/travisvn/chatterbox-tts-api",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "chatterbox-tts-api Local, OpenAI-compatible text-to-speech (TTS) API using Chatterbox, enabling users to generate voice cloned speech anywhere the OpenAI API is used (e.g. Open WebUI, AnythingLLM, etc.) travisvn/chatterbox-tts-api audio-speech",
+      "pricing": "free"
     }
   ]
 }
