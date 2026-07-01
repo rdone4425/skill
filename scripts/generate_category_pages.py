@@ -343,6 +343,8 @@ def make_html(category_id, skills, total_count):
 
       <link rel="preload" href="/css/style.css?v=31" as="style">
       <link rel="stylesheet" href="/css/style.css?v=31">
+      <script>// dynamic canonical: strip ?search= & ?page= params
+(function(){{var l=document.querySelector('link[rel="canonical"]');if(!l)return;var u=l.href;var q=u.indexOf('?');if(q===-1)return;var s=u.substring(q+1).split('&').filter(function(p){{return p.indexOf('search=')!==0&&p.indexOf('page=')!==0}}).join('&');if(s)l.href=u.substring(0,q)+'?'+s;else l.href=u.substring(0,q);}})();</script>
     </head>
     <body>
       <a class="skip-link" href="#main-content">跳到主要内容</a>
