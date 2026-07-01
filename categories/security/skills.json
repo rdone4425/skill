@@ -4,7 +4,7 @@
     "topCategoryId": "security",
     "subCategoryId": "general",
     "categoryPath": "security",
-    "count": 241,
+    "count": 279,
     "sourceData": "categories"
   },
   "skills": [
@@ -4746,6 +4746,27 @@
       "description": "LLM evaluation framework for Ruby, powered by RubyLLM. Tribunal provides tools for evaluating and testing LLM outputs, detecting hallucinations, measuring response quality, and ensuring safety. Perfec",
       "url": "https://github.com/Alqemist-labs/ruby_llm-tribunal",
       "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "moltis",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "moltis-org/moltis",
+      "stars": 0,
+      "desc": "A secure persistent personal agent server in Rust. One binary, sandboxed execution, multi-provider LLMs, voice, memory, Telegram, WhatsApp, Discord, Teams, and MCP tools. Secure by design, runs on you",
+      "url": "https://github.com/moltis-org/moltis",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "moltis A secure persistent personal agent server in Rust. One binary, sandboxed execution, multi-provider LLMs, voice, memory, Telegram, WhatsApp, Discord, Teams, and MCP tools. Secure by design, runs on you https://github.com/moltis-org/moltis security"
     }
   ]
 }

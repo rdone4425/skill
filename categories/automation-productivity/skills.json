@@ -4,7 +4,7 @@
     "topCategoryId": "automation",
     "subCategoryId": "productivity",
     "categoryPath": "automation-productivity",
-    "count": 301,
+    "count": 322,
     "sourceData": "categories"
   },
   "skills": [
@@ -5193,6 +5193,426 @@
       "stars": 0,
       "language": "",
       "topics": []
+    },
+    {
+      "name": "Agent-Reach",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "Panniantong/Agent-Reach",
+      "stars": 0,
+      "desc": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "Agent-Reach Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. https://github.com/Panniantong/Agent-Reach automation-productivity"
+    },
+    {
+      "name": "agent-browser",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "vercel-labs/agent-browser",
+      "stars": 0,
+      "desc": "Browser automation CLI for AI agents",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "agent-browser Browser automation CLI for AI agents https://github.com/vercel-labs/agent-browser automation-productivity"
+    },
+    {
+      "name": "cli",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "googleworkspace/cli",
+      "stars": 0,
+      "desc": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "url": "https://github.com/googleworkspace/cli",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "cli Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills. https://github.com/googleworkspace/cli automation-productivity"
+    },
+    {
+      "name": "ai-website-cloner-template",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "JCodesMore/ai-website-cloner-template",
+      "stars": 0,
+      "desc": "Clone any website with one command using AI coding agents",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "ai-website-cloner-template Clone any website with one command using AI coding agents https://github.com/JCodesMore/ai-website-cloner-template automation-productivity"
+    },
+    {
+      "name": "waoowaoo",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "waooAI/waoowaoo",
+      "stars": 0,
+      "desc": "首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. From shorts to live-action with Hollywood-standard workflows.",
+      "url": "https://github.com/waooAI/waoowaoo",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "waoowaoo 首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. From shorts to live-action with Hollywood-standard workflows. https://github.com/waooAI/waoowaoo automation-productivity"
+    },
+    {
+      "name": "bb-browser",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "epiral/bb-browser",
+      "stars": 0,
+      "desc": "Your browser is the API. CLI + MCP server for AI agents to control Chrome with your login state.",
+      "url": "https://github.com/epiral/bb-browser",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "bb-browser Your browser is the API. CLI + MCP server for AI agents to control Chrome with your login state. https://github.com/epiral/bb-browser automation-productivity"
+    },
+    {
+      "name": "LobsterAI",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "netease-youdao/LobsterAI",
+      "stars": 0,
+      "desc": "Open-source, desktop-grade AI agent that gets real work done — data analysis, slides, docs, video & web research. Built on OpenClaw; runs tools on your real desktop and takes commands from your phone ",
+      "url": "https://github.com/netease-youdao/LobsterAI",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "LobsterAI Open-source, desktop-grade AI agent that gets real work done — data analysis, slides, docs, video & web research. Built on OpenClaw; runs tools on your real desktop and takes commands from your phone  https://github.com/netease-youdao/LobsterAI automation-productivity"
+    },
+    {
+      "name": "loop-engineering",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "cobusgreyling/loop-engineering",
+      "stars": 0,
+      "desc": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, ",
+      "url": "https://github.com/cobusgreyling/loop-engineering",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "loop-engineering Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit,  https://github.com/cobusgreyling/loop-engineering automation-productivity"
+    },
+    {
+      "name": "golutra",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "golutra/golutra",
+      "stars": 0,
+      "desc": "Multi-agent AI orchestration platform for automation, workflows, and developer tools. Golutra transforms Codex, Claude Code, and OpenClaw into a unified agent system with parallel execution, task orch",
+      "url": "https://github.com/golutra/golutra",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "golutra Multi-agent AI orchestration platform for automation, workflows, and developer tools. Golutra transforms Codex, Claude Code, and OpenClaw into a unified agent system with parallel execution, task orch https://github.com/golutra/golutra automation-productivity"
+    },
+    {
+      "name": "skills",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "browser-act/skills",
+      "stars": 0,
+      "desc": "Browser automation CLI built for AI agents. Break through anti-bot walls, hand off to humans across platforms when stuck. Parallel multi-task execution, independent multi-session operation, isolated m",
+      "url": "https://github.com/browser-act/skills",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "skills Browser automation CLI built for AI agents. Break through anti-bot walls, hand off to humans across platforms when stuck. Parallel multi-task execution, independent multi-session operation, isolated m https://github.com/browser-act/skills automation-productivity"
+    },
+    {
+      "name": "any-auto-register",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "lxf746/any-auto-register",
+      "stars": 0,
+      "desc": "Auto-register & manage accounts for ChatGPT, Cursor, Kiro, Grok, Windsurf, Trae & 13+ AI platforms · Protocol/browser dual-mode · Plugin-based · One-click Mac/Windows desktop app",
+      "url": "https://github.com/lxf746/any-auto-register",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "any-auto-register Auto-register & manage accounts for ChatGPT, Cursor, Kiro, Grok, Windsurf, Trae & 13+ AI platforms · Protocol/browser dual-mode · Plugin-based · One-click Mac/Windows desktop app https://github.com/lxf746/any-auto-register automation-productivity"
+    },
+    {
+      "name": "agent-toolkit",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "softaworks/agent-toolkit",
+      "stars": 0,
+      "desc": "A curated collection of skills for AI coding agents. Skills are packaged instructions and scripts that extend agent capabilities across development, documentation, planning, and professional workflows",
+      "url": "https://github.com/softaworks/agent-toolkit",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "agent-toolkit A curated collection of skills for AI coding agents. Skills are packaged instructions and scripts that extend agent capabilities across development, documentation, planning, and professional workflows https://github.com/softaworks/agent-toolkit automation-productivity"
+    },
+    {
+      "name": "mission-control",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "crshdn/mission-control",
+      "stars": 0,
+      "desc": "The world's first Autonomous Product Engine (APE): AI agents research your market, generate features, and ship code as PRs. Convoy mode, crash recovery, cost tracking, 80+ API endpoints. Self-hosted v",
+      "url": "https://github.com/crshdn/mission-control",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "mission-control The world's first Autonomous Product Engine (APE): AI agents research your market, generate features, and ship code as PRs. Convoy mode, crash recovery, cost tracking, 80+ API endpoints. Self-hosted v https://github.com/crshdn/mission-control automation-productivity"
+    },
+    {
+      "name": "webclaw",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "0xMassi/webclaw",
+      "stars": 0,
+      "desc": "Fast, local-first web content extraction for LLMs. Scrape, crawl, extract structured data — all from Rust. CLI, REST API, and MCP server.",
+      "url": "https://github.com/0xMassi/webclaw",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "webclaw Fast, local-first web content extraction for LLMs. Scrape, crawl, extract structured data — all from Rust. CLI, REST API, and MCP server. https://github.com/0xMassi/webclaw automation-productivity"
+    },
+    {
+      "name": "row-bot",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "siddsachar/row-bot",
+      "stars": 0,
+      "desc": "Row-Bot - Personal AI Sovereignty. A local-first AI assistant with integrated tools, a personal knowledge graph, voice, vision, shell, browser automation, scheduled tasks, health tracking, and messagi",
+      "url": "https://github.com/siddsachar/row-bot",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "row-bot Row-Bot - Personal AI Sovereignty. A local-first AI assistant with integrated tools, a personal knowledge graph, voice, vision, shell, browser automation, scheduled tasks, health tracking, and messagi https://github.com/siddsachar/row-bot automation-productivity"
+    },
+    {
+      "name": "skales",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "skalesapp/skales",
+      "stars": 0,
+      "desc": "Your personal AI desktop agent for Windows, macOS, Linux & Android. Set a goal, it works on its own. Teams (pair two desktops, agents + humans), Agent2Agent, Workflows, Codework, multi-agent orgs, des",
+      "url": "https://github.com/skalesapp/skales",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "skales Your personal AI desktop agent for Windows, macOS, Linux & Android. Set a goal, it works on its own. Teams (pair two desktops, agents + humans), Agent2Agent, Workflows, Codework, multi-agent orgs, des https://github.com/skalesapp/skales automation-productivity"
+    },
+    {
+      "name": "deepseek-pp",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "zhu1090093659/deepseek-pp",
+      "stars": 0,
+      "desc": "DeepSeek Web browser extension: AI agent workspace with MCP tools, memory, Skills, automation, web search, and conversation export.",
+      "url": "https://github.com/zhu1090093659/deepseek-pp",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "deepseek-pp DeepSeek Web browser extension: AI agent workspace with MCP tools, memory, Skills, automation, web search, and conversation export. https://github.com/zhu1090093659/deepseek-pp automation-productivity"
+    },
+    {
+      "name": "locoagent",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "LocoreMind/locoagent",
+      "stars": 0,
+      "desc": "AI-powered social media agent with real browser automation",
+      "url": "https://github.com/LocoreMind/locoagent",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "locoagent AI-powered social media agent with real browser automation https://github.com/LocoreMind/locoagent automation-productivity"
+    },
+    {
+      "name": "petals",
+      "source": "github",
+      "sourceAgent": "multi",
+      "repo": "bigscience-workshop/petals",
+      "stars": 0,
+      "desc": "🌸 Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading",
+      "url": "https://github.com/bigscience-workshop/petals",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "petals 🌸 Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading https://github.com/bigscience-workshop/petals automation-productivity"
+    },
+    {
+      "name": "user-research-skill",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "cookiy-ai/user-research-skill",
+      "stars": 0,
+      "desc": "Cookiy AI Skill for AI agents — end-to-end user research",
+      "url": "https://github.com/cookiy-ai/user-research-skill",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "user-research-skill Cookiy AI Skill for AI agents — end-to-end user research https://github.com/cookiy-ai/user-research-skill automation-productivity"
     }
   ]
 }

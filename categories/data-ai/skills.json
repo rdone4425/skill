@@ -4,7 +4,7 @@
     "topCategoryId": "data",
     "subCategoryId": "ai",
     "categoryPath": "data-ai",
-    "count": 643,
+    "count": 694,
     "sourceData": "categories"
   },
   "skills": [
@@ -13080,6 +13080,27 @@
       "description": "A comprehensive Python tool to remove AI-generated fingerprints, watermarks, and metadata from audio files.",
       "url": "https://github.com/geeknik/ai-audio-fingerprint-remover",
       "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "ktx",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "Kaelio/ktx",
+      "stars": 0,
+      "desc": "Executable context layer for data and analytics agents",
+      "url": "https://github.com/Kaelio/ktx",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "ktx Executable context layer for data and analytics agents https://github.com/Kaelio/ktx data-ai"
     }
   ]
 }

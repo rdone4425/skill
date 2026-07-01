@@ -4,7 +4,7 @@
     "topCategoryId": "design",
     "subCategoryId": "ui",
     "categoryPath": "design-ui",
-    "count": 440,
+    "count": 471,
     "sourceData": "categories"
   },
   "skills": [
@@ -8717,6 +8717,27 @@
       "description": "An AI co-worker with its own computer. Self-evolving, persistent memory, MCP server, secure credential collection, email identity. Built on the Claude Agent SDK.",
       "url": "https://github.com/ghostwright/phantom",
       "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "agent-toolkit-for-aws",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "aws/agent-toolkit-for-aws",
+      "stars": 0,
+      "desc": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "agent-toolkit-for-aws Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS https://github.com/aws/agent-toolkit-for-aws design-ui"
     }
   ]
 }

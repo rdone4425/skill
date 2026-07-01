@@ -4,7 +4,7 @@
     "topCategoryId": "docs",
     "subCategoryId": "content",
     "categoryPath": "docs-content",
-    "count": 199,
+    "count": 206,
     "sourceData": "categories"
   },
   "skills": [
@@ -3966,6 +3966,27 @@
       "stars": 0,
       "language": "",
       "topics": []
+    },
+    {
+      "name": "guizang-ppt-skill",
+      "source": "claude",
+      "sourceAgent": "multi",
+      "repo": "op7418/guizang-ppt-skill",
+      "stars": 0,
+      "desc": "AI-agent Skill for generating polished HTML slide decks",
+      "url": "https://github.com/op7418/guizang-ppt-skill",
+      "install": "",
+      "functionCategory": "docs-content",
+      "topCategoryId": "docs-content",
+      "subCategoryId": "general",
+      "categoryPath": "docs-content",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "guizang-ppt-skill AI-agent Skill for generating polished HTML slide decks https://github.com/op7418/guizang-ppt-skill docs-content"
     }
   ]
 }

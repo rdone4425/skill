@@ -1,0 +1,22 @@
+{
+  "added": 221,
+  "skipped": 2133,
+  "categories": {
+    "security": 279,
+    "dev-tools": 1289,
+    "agent-framework": 1101,
+    "backend-api": 224,
+    "devops-deploy": 144,
+    "audio": 82,
+    "automation-productivity": 322,
+    "data-ai": 694,
+    "design-ui": 471,
+    "testing-qa": 117,
+    "education": 111,
+    "docs-content": 206,
+    "game-dev": 104,
+    "video-multimedia": 99,
+    "general": 710
+  },
+  "total_skills": 5953
+}

@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 1270,
+    "count": 1289,
     "sourceData": "categories"
   },
   "skills": [
@@ -24038,6 +24038,300 @@
       "stars": 0,
       "language": "",
       "topics": []
+    },
+    {
+      "name": "quotio",
+      "source": "claude",
+      "sourceAgent": "multi",
+      "repo": "nguyenphutrong/quotio",
+      "stars": 0,
+      "desc": "Stop juggling AI accounts. Quotio is a beautiful native macOS menu bar app that unifies your Claude, Gemini, OpenAI, Qwen, and Antigravity subscriptions – with real-time quota tracking and smart auto-failover for AI coding tools like Claude Code, OpenCode, and Droid.",
+      "url": "https://github.com/nguyenphutrong/quotio",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "quotio Stop juggling AI accounts. Quotio is a beautiful native macOS menu bar app that unifies your Claude, Gemini, OpenAI, Qwen, and Antigravity subscriptions – with real-time quota tracking and smart auto-failover for AI coding tools like Claude Code, OpenCode, and Droid. https://github.com/nguyenphutrong/quotio dev-tools"
+    },
+    {
+      "name": "awesome-generative-ai-apps",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "Anil-matcha/awesome-generative-ai-apps",
+      "stars": 0,
+      "desc": "50+ open-source generative AI apps you can clone, deploy, and monetize — image generators, video tools, virtual try-ons, AI SaaS templates, and platform integrations. One-click Vercel deploy on every template.",
+      "url": "https://github.com/Anil-matcha/awesome-generative-ai-apps",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "awesome-generative-ai-apps 50+ open-source generative AI apps you can clone, deploy, and monetize — image generators, video tools, virtual try-ons, AI SaaS templates, and platform integrations. One-click Vercel deploy on every template. https://github.com/Anil-matcha/awesome-generative-ai-apps dev-tools"
+    },
+    {
+      "name": "natively-cluely-ai-assistant",
+      "source": "claude",
+      "sourceAgent": "multi",
+      "repo": "Natively-AI-assistant/natively-cluely-ai-assistant",
+      "stars": 0,
+      "desc": "Natively — Free open-source AI meeting assistant, interview copilot, and note taker. The best alternative to Cluely, Otter, Granola, Final Round AI, Fireflies, and Interview Coder. Real-time transcription, AI meeting notes, lecture recording, local RAG, BYOK, and stealth mode. Runs locally. No subscriptions. No data breaches.",
+      "url": "https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "natively-cluely-ai-assistant Natively — Free open-source AI meeting assistant, interview copilot, and note taker. The best alternative to Cluely, Otter, Granola, Final Round AI, Fireflies, and Interview Coder. Real-time transcription, AI meeting notes, lecture recording, local RAG, BYOK, and stealth mode. Runs locally. No subscriptions. No data breaches. https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant dev-tools"
+    },
+    {
+      "name": "proxypal",
+      "source": "claude",
+      "sourceAgent": "multi",
+      "repo": "heyhuynhgiabuu/proxypal",
+      "stars": 0,
+      "desc": "A desktop app that lets you use your AI subscriptions (Claude, ChatGPT, Gemini, GitHub Copilot) with any coding tool. Wraps CLIProxyAPI with a clean UI for managing connections and tracking usage.",
+      "url": "https://github.com/heyhuynhgiabuu/proxypal",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "proxypal A desktop app that lets you use your AI subscriptions (Claude, ChatGPT, Gemini, GitHub Copilot) with any coding tool. Wraps CLIProxyAPI with a clean UI for managing connections and tracking usage. https://github.com/heyhuynhgiabuu/proxypal dev-tools"
+    },
+    {
+      "name": "AI-Account-Toolkit",
+      "source": "cursor",
+      "sourceAgent": "multi",
+      "repo": "adminlove520/AI-Account-Toolkit",
+      "stars": 0,
+      "desc": "AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, Codex, Cursor, Grok 批量注册、Token 管理、临时邮箱服务",
+      "url": "https://github.com/adminlove520/AI-Account-Toolkit",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "AI-Account-Toolkit AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, Codex, Cursor, Grok 批量注册、Token 管理、临时邮箱服务 https://github.com/adminlove520/AI-Account-Toolkit dev-tools"
+    },
+    {
+      "name": "claude-skills-llm-council",
+      "source": "claude",
+      "sourceAgent": "multi",
+      "repo": "aiwithremy/claude-skills-llm-council",
+      "stars": 0,
+      "desc": "LLM Council — a Claude Code skill that runs your decisions through 5 AI advisors with peer review",
+      "url": "https://github.com/aiwithremy/claude-skills-llm-council",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "claude-skills-llm-council LLM Council — a Claude Code skill that runs your decisions through 5 AI advisors with peer review https://github.com/aiwithremy/claude-skills-llm-council dev-tools"
+    },
+    {
+      "name": "travel-hacking-toolkit",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "borski/travel-hacking-toolkit",
+      "stars": 0,
+      "desc": "AI-powered travel hacking and search with cash, points, miles, and award flights. Drop-in skills and MCP servers for Claude, Codex, and OpenCode.",
+      "url": "https://github.com/borski/travel-hacking-toolkit",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "travel-hacking-toolkit AI-powered travel hacking and search with cash, points, miles, and award flights. Drop-in skills and MCP servers for Claude, Codex, and OpenCode. https://github.com/borski/travel-hacking-toolkit dev-tools"
+    },
+    {
+      "name": "headroom",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "headroomlabs-ai/headroom",
+      "stars": 0,
+      "desc": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "headroom Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server. https://github.com/headroomlabs-ai/headroom dev-tools"
+    },
+    {
+      "name": "stitch-skills",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "google-labs-code/stitch-skills",
+      "stars": 0,
+      "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude C",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "stitch-skills A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude C https://github.com/google-labs-code/stitch-skills dev-tools"
+    },
+    {
+      "name": "claude-code-ultimate-guide",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "stars": 0,
+      "desc": "The most comprehensive Claude Code guide: agentic workflows, hooks, skills, MCP servers, quizzes, and production-ready templates. 430K+ lines.",
+      "url": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "claude-code-ultimate-guide The most comprehensive Claude Code guide: agentic workflows, hooks, skills, MCP servers, quizzes, and production-ready templates. 430K+ lines. https://github.com/FlorianBruniaux/claude-code-ultimate-guide dev-tools"
+    },
+    {
+      "name": "jcodemunch-mcp",
+      "source": "general",
+      "sourceAgent": "multi",
+      "repo": "jgravelle/jcodemunch-mcp",
+      "stars": 0,
+      "desc": "Cut AI token costs 95%+ on code exploration. The leading MCP server for precise, symbol-level GitHub code retrieval via tree-sitter AST. Works with Claude Code, Cursor & any MCP client. 313B+ tokens s",
+      "url": "https://github.com/jgravelle/jcodemunch-mcp",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "jcodemunch-mcp Cut AI token costs 95%+ on code exploration. The leading MCP server for precise, symbol-level GitHub code retrieval via tree-sitter AST. Works with Claude Code, Cursor & any MCP client. 313B+ tokens s https://github.com/jgravelle/jcodemunch-mcp dev-tools"
+    },
+    {
+      "name": "Rapid-MLX",
+      "source": "github",
+      "sourceAgent": "multi",
+      "repo": "raullenchai/Rapid-MLX",
+      "stars": 0,
+      "desc": "The fastest local AI engine for Apple Silicon. 4.2x faster than Ollama, 0.08s cached TTFT, 100% tool calling. 17 tool parsers, prompt cache, reasoning separation, cloud routing. Drop-in OpenAI replace",
+      "url": "https://github.com/raullenchai/Rapid-MLX",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "Rapid-MLX The fastest local AI engine for Apple Silicon. 4.2x faster than Ollama, 0.08s cached TTFT, 100% tool calling. 17 tool parsers, prompt cache, reasoning separation, cloud routing. Drop-in OpenAI replace https://github.com/raullenchai/Rapid-MLX dev-tools"
+    },
+    {
+      "name": "vibeproxy",
+      "source": "github",
+      "sourceAgent": "multi",
+      "repo": "automazeio/vibeproxy",
+      "stars": 0,
+      "desc": "Native macOS menu bar app to use your Claude Code & ChatGPT subscriptions with AI coding tools - no API keys needed",
+      "url": "https://github.com/automazeio/vibeproxy",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "vibeproxy Native macOS menu bar app to use your Claude Code & ChatGPT subscriptions with AI coding tools - no API keys needed https://github.com/automazeio/vibeproxy dev-tools"
+    },
+    {
+      "name": "eca",
+      "source": "github",
+      "sourceAgent": "multi",
+      "repo": "editor-code-assistant/eca",
+      "stars": 0,
+      "desc": "Editor Code Assistant (ECA) - AI pair programming capabilities agnostic of editor",
+      "url": "https://github.com/editor-code-assistant/eca",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw"
+      ],
+      "searchText": "eca Editor Code Assistant (ECA) - AI pair programming capabilities agnostic of editor https://github.com/editor-code-assistant/eca dev-tools"
     }
   ]
 }
