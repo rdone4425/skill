@@ -28,6 +28,11 @@
       hub.state.applyIndexData(indexData);
     }
 
+    // ponytail: update dynamic SEO meta ASAP
+    if (hub.data && typeof hub.data.updateSeoMeta === 'function') {
+      hub.data.updateSeoMeta().catch(() => {});
+    }
+
     await hub.state.ensureDataForCurrentState();
     finishInit();
 

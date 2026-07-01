@@ -4,7 +4,7 @@
     "topCategoryId": "agent-framework",
     "subCategoryId": "agent-framework",
     "categoryPath": "agent-framework",
-    "count": 811,
+    "count": 911,
     "sourceData": "categories"
   },
   "skills": [
@@ -15005,6 +15005,506 @@
       "description": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience",
       "url": "https://github.com/Mintplex-Labs/anything-llm",
       "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "Flowise",
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "desc": "Build AI Agents, Visually",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "desc": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "desc": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "functionCategory": "agent-framework",
+      "source": "cursor",
+      "supportedAgents": [
+        "cursor"
+      ]
+    },
+    {
+      "name": "shannon",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "desc": "Shannon is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "1Panel",
+      "url": "https://github.com/1Panel-dev/1Panel",
+      "desc": "🔥 1Panel is a modern, open-source VPS control panel — and the only one with native AI agent support. Run Ollama models, deploy OpenClaw agents, and manage your entire server stack from one clean web interface.",
+      "functionCategory": "agent-framework",
+      "source": "hermes",
+      "supportedAgents": [
+        "hermes"
+      ]
+    },
+    {
+      "name": "CopilotKit",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "desc": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
+      "functionCategory": "agent-framework",
+      "source": "copilot",
+      "supportedAgents": [
+        "copilot"
+      ]
+    },
+    {
+      "name": "Jobs_Applier_AI_Agent_AIHawk",
+      "url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+      "desc": "AIHawk aims to easy job hunt process by automating the job application process. Utilizing artificial intelligence, it enables users to apply for multiple jobs in a tailored way.",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "cli",
+      "url": "https://github.com/googleworkspace/cli",
+      "desc": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "functionCategory": "agent-framework",
+      "source": "gemini",
+      "supportedAgents": [
+        "gemini"
+      ]
+    },
+    {
+      "name": "DeepSeek-Reasonix",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "desc": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "deep-research",
+      "url": "https://github.com/dzhng/deep-research",
+      "desc": "An AI-powered research assistant that performs iterative, deep research on any topic by combining search engines, web scraping, and large language models.  The goal of this repo is to provide the simplest implementation of a deep research agent - e.g. an agent that can refine its research direction overtime and deep dive into a topic.",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "agentic",
+      "url": "https://github.com/transitive-bullshit/agentic",
+      "desc": "Your API ⇒ Paid MCP. Instantly.",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "desc": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "memU",
+      "url": "https://github.com/NevaMind-AI/memU",
+      "desc": "Personal memory for agents - fast memory retrieval, self-evolving skills, and lower cost.",
+      "functionCategory": "agent-framework",
+      "source": "claude",
+      "supportedAgents": [
+        "claude"
+      ]
+    },
+    {
+      "name": "agents",
+      "url": "https://github.com/livekit/agents",
+      "desc": "A framework for building realtime voice AI agents 🤖🎙️📹",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "mcp",
+      "url": "https://github.com/awslabs/mcp",
+      "desc": "Open source MCP Servers for AWS",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "ClawX",
+      "url": "https://github.com/ValueCell-ai/ClawX",
+      "desc": "ClawX is a desktop app that provides a graphical interface for OpenClaw AI agents. It turns CLI-based AI orchestration into a desktop experience without using the terminal. China website is https://clawx.com.cn.",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "XcodeBuildMCP",
+      "url": "https://github.com/getsentry/XcodeBuildMCP",
+      "desc": "A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "awesome-mcp-servers",
+      "url": "https://github.com/appcypher/awesome-mcp-servers",
+      "desc": "Awesome MCP Servers - A curated list of Model Context Protocol servers",
+      "functionCategory": "agent-framework",
+      "source": "claude",
+      "supportedAgents": [
+        "claude"
+      ]
+    },
+    {
+      "name": "LobsterAI",
+      "url": "https://github.com/netease-youdao/LobsterAI",
+      "desc": "Open-source, desktop-grade AI agent that gets real work done — data analysis, slides, docs, video & web research. Built on OpenClaw; runs tools on your real desktop and takes commands from your phone via WeChat, Feishu, DingTalk & Telegram.",
+      "functionCategory": "agent-framework",
+      "source": "copilot",
+      "supportedAgents": [
+        "copilot"
+      ]
+    },
+    {
+      "name": "OpenAgentsControl",
+      "url": "https://github.com/darrenhinde/OpenAgentsControl",
+      "desc": "AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "awesome-mcp-servers",
+      "url": "https://github.com/wong2/awesome-mcp-servers",
+      "desc": "A curated list of Model Context Protocol (MCP) servers",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "core",
+      "url": "https://github.com/opensumi/core",
+      "desc": "A framework helps you quickly build AI Native IDE products. MCP Client, supports Model Context Protocol (MCP) tools via MCP server.",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "mcp",
+      "url": "https://github.com/microsoft/mcp",
+      "desc": "Catalog of official Microsoft MCP (Model Context Protocol) server implementations for AI-powered data access and tool integration",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "tradingview-mcp",
+      "url": "https://github.com/atilaahmettaner/tradingview-mcp",
+      "desc": "TradingView MCP server — real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT, Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host.",
+      "functionCategory": "agent-framework",
+      "source": "cursor",
+      "supportedAgents": [
+        "cursor"
+      ]
+    },
+    {
+      "name": "ai",
+      "url": "https://github.com/TanStack/ai",
+      "desc": "🤖 Type-safe, provider-agnostic TypeScript AI SDK for streaming chat, tool calling, agents, and multimodal apps across OpenAI, Anthropic, Gemini, React, Vue, Svelte, and Solid.",
+      "functionCategory": "agent-framework",
+      "source": "gemini",
+      "supportedAgents": [
+        "gemini"
+      ]
+    },
+    {
+      "name": "Microverse",
+      "url": "https://github.com/KsanaDock/Microverse",
+      "desc": "A god-simulation sandbox game built on Godot 4 as a multi-agent AI social simulation system. In this virtual world, AI characters possess independent thinking and memory, capable of autonomous social interactions, task completion, and developing complex social relationships through continuous communication.",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "OpenOutreach",
+      "url": "https://github.com/eracle/OpenOutreach",
+      "desc": "Linkedin Automation Tool: Describe your product. Define your target market. The AI finds the leads for you.",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "mission-control",
+      "url": "https://github.com/crshdn/mission-control",
+      "desc": "The world's first Autonomous Product Engine (APE): AI agents research your market, generate features, and ship code as PRs. Convoy mode, crash recovery, cost tracking, 80+ API endpoints. Self-hosted via OpenClaw Gateway.",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "agent-skills",
+      "url": "https://github.com/WordPress/agent-skills",
+      "desc": "Expert-level WordPress knowledge for AI coding assistants - blocks, themes, plugins, and best practices",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "agent-skills",
+      "url": "https://github.com/callstackincubator/agent-skills",
+      "desc": "A collection of agent-optimized React Native skills for AI coding assistants.",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "helix",
+      "url": "https://github.com/helixml/helix",
+      "desc": "♾️ Private Agent Fleet with Spec Coding. Each agent gets their own GPU-accelerated desktop. Run Claude, Codex, Gemini and open models on a full private AI Stack ♾️",
+      "functionCategory": "agent-framework",
+      "source": "claude",
+      "supportedAgents": [
+        "claude"
+      ]
+    },
+    {
+      "name": "openswarm",
+      "url": "https://github.com/openswarm-ai/openswarm",
+      "desc": "Your mission control center for a swarm of Ai agents.",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "gateway",
+      "url": "https://github.com/centralmind/gateway",
+      "desc": "Universal MCP-Server for your Databases optimized for LLMs and AI-Agents.",
+      "functionCategory": "agent-framework",
+      "source": "claude",
+      "supportedAgents": [
+        "claude"
+      ]
+    },
+    {
+      "name": "Swarm",
+      "url": "https://github.com/christopherkarani/Swarm",
+      "desc": "🐦‍🔥  Agent Runtime, MacOS/iOS/Linux Pure Swift 6.3",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "Swift-Testing-Agent-Skill",
+      "url": "https://github.com/twostraws/Swift-Testing-Agent-Skill",
+      "desc": "Swift Testing agent skill for Claude Code, Codex, and other AI tools.",
+      "functionCategory": "agent-framework",
+      "source": "claude",
+      "supportedAgents": [
+        "claude"
+      ]
+    },
+    {
+      "name": "Multi-AI-Agent-Systems-with-crewAI",
+      "url": "https://github.com/ksm26/Multi-AI-Agent-Systems-with-crewAI",
+      "desc": "Master the art of designing and organizing AI agents. Learn to automate complex, multi-step business processes by creating specialized AI agent teams using the open-source library crewAI.",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "mcp",
+      "url": "https://github.com/taskade/mcp",
+      "desc": "🤖 Taskade MCP · Official MCP server and OpenAPI to MCP codegen. Build AI agent tools from any OpenAPI API and connect to Claude, Cursor, and more.",
+      "functionCategory": "agent-framework",
+      "source": "cursor",
+      "supportedAgents": [
+        "cursor"
+      ]
+    },
+    {
+      "name": "awesome-ai-agents-2026",
+      "url": "https://github.com/Zijian-Ni/awesome-ai-agents-2026",
+      "desc": "🤖 A curated list of AI Agent frameworks, tools, platforms, and resources for 2026 — the year agents went mainstream",
+      "functionCategory": "agent-framework",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "PageIndex",
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "desc": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "functionCategory": "agent-framework",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "E2B",
+      "url": "https://github.com/e2b-dev/E2B",
+      "desc": "Open-source, secure environment with real-world tools for enterprise-grade agents.",
+      "functionCategory": "agent-framework",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "SwiftUI-Agent-Skill",
+      "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill",
+      "desc": "Add expert SwiftUI Best Practices guidance to your AI coding tool (Agent Skills open format).",
+      "functionCategory": "agent-framework",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "Android-MVVM-Architecture-Android-Voice-AI-SDK",
+      "url": "https://github.com/ahmedeltaher/Android-MVVM-Architecture-Android-Voice-AI-SDK",
+      "desc": "Voice AI SDK is a reusable Android library that gives any app a full voice-driven AI conversation pipeline in minutes. Voice Assistant + Android Voide AI + SDK + MVVM + Kotlin",
+      "functionCategory": "agent-framework",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "CGraph",
+      "url": "https://github.com/ChunelFeng/CGraph",
+      "desc": "【A common used C++ & Python DAG framework】 一个通用的、无三方依赖的、跨平台的、收录于awesome-cpp的、基于流图的并行计算框架。欢迎star & fork & 交流",
+      "functionCategory": "agent-framework",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "pasa",
+      "url": "https://github.com/bytedance/pasa",
+      "desc": "PaSa -- an advanced paper search agent powered by large language models. It can autonomously make a series of decisions, including invoking search tools, reading papers, and selecting relevant referen",
+      "functionCategory": "agent-framework",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "llama-cpp-agent",
+      "url": "https://github.com/Maximilian-Winter/llama-cpp-agent",
+      "desc": "The llama-cpp-agent framework is a tool designed for easy interaction with Large Language Models (LLMs). Allowing users to chat with LLM models, execute structured function calls and get structured ou",
+      "functionCategory": "agent-framework",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "duet-gpt",
+      "url": "https://github.com/kristoferlund/duet-gpt",
+      "desc": "A conversational semi-autonomous developer assistant. AI pair programming without the copypasta.",
+      "functionCategory": "agent-framework",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "rosclaw",
+      "url": "https://github.com/ros-claw/rosclaw",
+      "desc": "Self-evolving runtime infrastructure for Physical AI and embodied agents. Ground AI agents into robot bodies with e-URDF, sandbox safety, capability routing, praxis capture, physical memory, runtime i",
+      "functionCategory": "agent-framework",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "Metis-agent",
+      "url": "https://github.com/l3gi0nXXXX/Metis-agent",
+      "desc": "Metis-agent is a high performance and personal AI assistant which is build with Cangjie program language. And this project is based on magic-cli and CangjeMagic.",
+      "functionCategory": "agent-framework",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "References",
+      "url": "https://github.com/Aryia-Behroziuan/References",
+      "desc": " Poole, Mackworth & Goebel 1998, p. 1.  Russell & Norvig 2003, p. 55.  Definition of AI as the study of intelligent agents: Poole, Mackworth & Goebel (1998), which provides the version that is used in",
+      "functionCategory": "agent-framework",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "calva-backseat-driver",
+      "url": "https://github.com/BetterThanTomorrow/calva-backseat-driver",
+      "desc": "VS Code AI Agent Interactive Programming. Tools for CoPIlot and other assistants. Can also be used as an MCP server.",
+      "functionCategory": "agent-framework",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
     }
   ]
 }

@@ -4,7 +4,7 @@
     "topCategoryId": "general",
     "subCategoryId": "general",
     "categoryPath": "general",
-    "count": 628,
+    "count": 709,
     "sourceData": "categories"
   },
   "skills": [
@@ -12260,6 +12260,316 @@
       "description": "DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed datafl",
       "url": "https://github.com/dora-rs/dora",
       "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "Open-Claude-Cowork",
+      "url": "https://github.com/DevAgentForge/Open-Claude-Cowork",
+      "desc": "OpenSource Claude Cowork. A desktop AI assistant that helps you with programming, file management, and any task you can describe.",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "ai-marketing-skills",
+      "url": "https://github.com/ericosiu/ai-marketing-skills",
+      "desc": "Open-source AI marketing skills — growth experiments, sales pipeline, content ops, outbound, SEO, and finance automation",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "cube-studio",
+      "url": "https://github.com/data-infra/cube-studio",
+      "desc": "cubestudio开源云原生一站式机器学习/深度学习/大模型AI平台/MaaS/mlops/人工智能平台/训推平台，算法全链路流程，多租户，算力租赁平台，token中转，拖拉拽任务流pipeline编排，多机多卡分布式训练，超参搜索，推理服务，VGPU虚拟化，云边端协同，边缘计算，自动化标注平台，deepseek等大模型sft微调/奖励模型/强化学习训练，vllm/ollama/mindie大模",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "markpdfdown",
+      "url": "https://github.com/MarkPDFdown/markpdfdown",
+      "desc": "A high-quality PDF to Markdown tool based on large language model visual recognition. 一款基于大模型视觉识别的高质量PDF转Markdown工具",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "mcphost",
+      "url": "https://github.com/mark3labs/mcphost",
+      "desc": "A CLI host application that enables Large Language Models (LLMs) to interact with external tools through the Model Context Protocol (MCP).",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "attackgen",
+      "url": "https://github.com/mrwadams/attackgen",
+      "desc": "AttackGen is a cybersecurity incident response testing tool that leverages the power of large language models and the comprehensive MITRE ATT&CK framework. The tool generates tailored incident respons",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "chameleon-llm",
+      "url": "https://github.com/lupantech/chameleon-llm",
+      "desc": "Codes for \"Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models\".",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "ThoughtSource",
+      "url": "https://github.com/OpenBioLink/ThoughtSource",
+      "desc": "A central, open resource for data and tools related to chain-of-thought reasoning in large language models. Developed @ Samwald research group: https://samwald.info/",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "langkit",
+      "url": "https://github.com/whylabs/langkit",
+      "desc": "🔍 LangKit: An open-source toolkit for monitoring Large Language Models (LLMs). 📚 Extracts signals from prompts & responses, ensuring safety & security. 🛡️ Features include text quality, relevance metr",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "Machine-Learning-Guide",
+      "url": "https://github.com/mikeroyal/Machine-Learning-Guide",
+      "desc": "Machine learning Guide. Learn all about Machine Learning Tools, Libraries, Frameworks, Large Language Models (LLMs), and Training Models.",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "codeassist",
+      "url": "https://github.com/gensyn-ai/codeassist",
+      "desc": "A completely private and local AI coding assistant, developed by Gensyn. It helps you practice programming problems and train a novel assistant to help you code.",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "awesome-llms-fine-tuning",
+      "url": "https://github.com/Curated-Awesome-Lists/awesome-llms-fine-tuning",
+      "desc": "Explore a comprehensive collection of resources, tutorials, papers, tools, and best practices for fine-tuning Large Language Models (LLMs). Perfect for ML practitioners and researchers!",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "biomedical",
+      "url": "https://github.com/bigscience-workshop/biomedical",
+      "desc": "Tools for curating biomedical training data for large-scale language modeling ",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "awesome-llm-cybersecurity-tools",
+      "url": "https://github.com/tenable/awesome-llm-cybersecurity-tools",
+      "desc": "A curated list of large language model tools for cybersecurity research.",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "mlx-llm",
+      "url": "https://github.com/riccardomusmeci/mlx-llm",
+      "desc": "Large Language Models (LLMs) applications and tools running on Apple Silicon in real-time with Apple MLX.",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "clippinator",
+      "url": "https://github.com/ennucore/clippinator",
+      "desc": "AI programming assistant",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "aix",
+      "url": "https://github.com/projectdiscovery/aix",
+      "desc": "AIx is a cli tool to interact with Large Language Models (LLM) APIs.",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "T-Eval",
+      "url": "https://github.com/open-compass/T-Eval",
+      "desc": "[ACL2024] T-Eval: Evaluating Tool Utilization Capability of Large Language Models Step by Step",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "genai-bench",
+      "url": "https://github.com/sgl-project/genai-bench",
+      "desc": "Genai-bench is a powerful benchmark tool designed for comprehensive token-level performance evaluation of large language model (LLM) serving systems.",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "LLM-Ops-Cohort-1",
+      "url": "https://github.com/AI-Maker-Space/LLM-Ops-Cohort-1",
+      "desc": "Following emerging Large Language Model Operations (LLM Ops) best practices in the industry, you’ll learn all about the key technologies that enable Generative AI practitioners like you to leverage to",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "FileScopeMCP",
+      "url": "https://github.com/admica/FileScopeMCP",
+      "desc": "Analyzes your codebase identifying important files based on dependency relationships. Generates diagrams and importance scores per file, helping AI assistants understand the codebase. Automatically pa",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "FastDatasets",
+      "url": "https://github.com/ZhuLinsen/FastDatasets",
+      "desc": "A powerful tool for creating high-quality training datasets for Large Language Models (LLMs)（一个快速生成高质量LLM微调训练数据集的工具）",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "tool-retrieval-benchmark",
+      "url": "https://github.com/mangopy/tool-retrieval-benchmark",
+      "desc": "Official code for ACL2025 \"🔍 Retrieval Models Aren’t Tool-Savvy: Benchmarking Tool Retrieval for Large Language Models\"",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "gentleman-book-mcp",
+      "url": "https://github.com/Alan-TheGentleman/gentleman-book-mcp",
+      "desc": "MCP Server for Gentleman Programming Book - Give AI assistants direct access to 18 chapters of software architecture knowledge",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "papers-ux-ai-programming",
+      "url": "https://github.com/AZHenley/papers-ux-ai-programming",
+      "desc": "List of research papers of research papers investigating the user experience of AI-powered programming assistants (e.g., Copilot).",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "fittencode.vim",
+      "url": "https://github.com/FittenTech/fittencode.vim",
+      "desc": "Fitten Code AI Programming Assistant for Vim",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "RPA",
+      "url": "https://github.com/AmitXShukla/RPA",
+      "desc": "AI Bots - Robotic Processing automation Python and Julia lang scripts to support automating repetitive tasks",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "m3p2i-aip",
+      "url": "https://github.com/tud-amr/m3p2i-aip",
+      "desc": "Code for the IEEE Robotics and Automation Letters paper titled \"Multi-Modal MPPI and Active Inference for Reactive Task and Motion Planning\"",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "BlenderRL",
+      "url": "https://github.com/BlenderAI/BlenderRL",
+      "desc": "An open-source project for Blender 3D connects all the controls within Blender to an AI, allowing the AI to learn how to use the program through trial-and-error. This results in an efficient AI assist",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "negative_review_helper",
+      "url": "https://github.com/YUHAO-corn/negative_review_helper",
+      "desc": "AI-powered assistant helping business owners professionally handle negative reviews. Features web & WeChat mini-program versions.",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "RootAI",
+      "url": "https://github.com/valentin00013/RootAI",
+      "desc": "Root AI, the company – A robotics and AI company that specialized in agricultural automation. They developed autonomous harvesting robots like “Virgo” before being acquired by AppHarvest.",
+      "functionCategory": "general",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
     }
   ]
 }

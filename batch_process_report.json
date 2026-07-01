@@ -1,0 +1,13 @@
+{
+  "processed": 2327,
+  "duplicates": 2235,
+  "unique_new": 92,
+  "actually_added": 92,
+  "per_category": {
+    "agent-framework": 50,
+    "dev-tools": 7,
+    "general": 31,
+    "automation-productivity": 4
+  },
+  "new_total": 6375
+}

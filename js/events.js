@@ -356,14 +356,14 @@
     const suggestEl = document.getElementById('search-suggest');
     if (!suggestEl) return;
 
-    if (!keyword || keyword.length < 2) {
+    if (!keyword || keyword.length < 3) {
       suggestEl.hidden = true;
       return;
     }
 
     clearTimeout(suggestDebounce);
     suggestDebounce = setTimeout(() => {
-      const results = getSearchSuggestions(keyword, 5);
+      const results = getSearchSuggestions(keyword, 10);
       if (results.length === 0) {
         suggestEl.innerHTML = '<div class="search-suggest-empty"><span>无匹配结果</span></div>';
         suggestEl.hidden = false;
@@ -483,7 +483,7 @@
         setTimeout(() => hideSearchSuggest(), 180);
       });
       search.addEventListener('focus', () => {
-        if (search.value.length >= 2) {
+        if (search.value.length >= 3) {
           updateSearchSuggest(search.value);
         }
       });

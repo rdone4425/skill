@@ -18087,5 +18087,194 @@
       "vscode",
       "vscode-extension"
     ]
+  },
+  {
+    "name": "guizang-ppt-skill",
+    "description": "AI-agent Skill for generating polished HTML slide decks",
+    "url": "https://github.com/op7418/guizang-ppt-skill",
+    "category": "docs-content",
+    "platform": "claude"
+  },
+  {
+    "name": "evolver",
+    "description": "GEP-powered self-evolving engine for AI agents with auditable evolution",
+    "url": "https://github.com/EvoMap/evolver",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "skillhub",
+    "description": "Self-hosted, open-source agent skill registry for enterprises",
+    "url": "https://github.com/iflytek/skillhub",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "nexu",
+    "description": "Simplest desktop client for OpenClaw — bridge Agent to WeChat, Feishu",
+    "url": "https://github.com/nexu-io/nexu",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "openclaw-master-skills",
+    "description": "Curated collection of 1209+ best OpenClaw skills — weekly updated",
+    "url": "https://github.com/LeoYeAI/openclaw-master-skills",
+    "category": "agent-framework",
+    "platform": "openclaw"
+  },
+  {
+    "name": "SkillClaw",
+    "description": "Let Skills Evolve Collectively with Agentic Evolver",
+    "url": "https://github.com/AMAP-ML/SkillClaw",
+    "category": "agent-framework",
+    "platform": "openclaw"
+  },
+  {
+    "name": "ktx",
+    "description": "Executable context layer for data and analytics agents",
+    "url": "https://github.com/Kaelio/ktx",
+    "category": "data-ai",
+    "platform": "general"
+  },
+  {
+    "name": "nopua",
+    "description": "AI Skill that liberates AI potential through respect and care",
+    "url": "https://github.com/wuji-labs/nopua",
+    "category": "agent-framework",
+    "platform": "claude"
+  },
+  {
+    "name": "spec_driven_develop",
+    "description": "Spec-driven development workflow for AI coding agents",
+    "url": "https://github.com/zhu1090093659/spec_driven_develop",
+    "category": "dev-tools",
+    "platform": "general"
+  },
+  {
+    "name": "user-research-skill",
+    "description": "Cookiy AI Skill for AI agents — end-to-end user research",
+    "url": "https://github.com/cookiy-ai/user-research-skill",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "OpenJudge",
+    "description": "Unified Framework for Holistic Evaluation and Quality Rewards",
+    "url": "https://github.com/agentscope-ai/OpenJudge",
+    "category": "testing-qa",
+    "platform": "general"
+  },
+  {
+    "name": "mateclaw",
+    "description": "Second brain with Multi-Agent Orchestration, MCP Protocol, Skills",
+    "url": "https://github.com/mateaix/mateclaw",
+    "category": "agent-framework",
+    "platform": "openclaw"
+  },
+  {
+    "name": "yao-geo-skills",
+    "description": "Open-source Skill collection for GEO content and workflows",
+    "url": "https://github.com/yaojingang/yao-geo-skills",
+    "category": "docs-content",
+    "platform": "general"
+  },
+  {
+    "name": "n8n-claw",
+    "description": "OpenClaw-inspired autonomous AI agent built entirely in n8n",
+    "url": "https://github.com/freddy-schuetz/n8n-claw",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "shanyin-screenwriting-master",
+    "description": "Full-format screenplay writing Skill covering concept shorts to 90-min films",
+    "url": "https://github.com/Shanyin-ai/shanyin-screenwriting-master",
+    "category": "docs-content",
+    "platform": "claude"
+  },
+  {
+    "name": "claude-code-skills-zh",
+    "description": "Practical Claude Code Skills collection — 100+ curated, 18 installable originals",
+    "url": "https://github.com/laolaoshiren/claude-code-skills-zh",
+    "category": "dev-tools",
+    "platform": "claude"
+  },
+  {
+    "name": "openvort",
+    "description": "Open-source AI Employee Platform — AI employees that collaborate with you",
+    "url": "https://github.com/openvort/openvort",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "EvoSkills",
+    "description": "Extend EvoScientist with Installable Skill & Knowledge Packs",
+    "url": "https://github.com/EvoScientist/EvoSkills",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "skillport",
+    "description": "Bring Agent Skills to Any AI Agent and Coding Agent via CLI or MCP",
+    "url": "https://github.com/gotalab/skillport",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "tactus",
+    "description": "First browser AI Agent extension to support Agent Skills",
+    "url": "https://github.com/Castor6/tactus",
+    "category": "general",
+    "platform": "general"
+  },
+  {
+    "name": "jina-cli",
+    "description": "Lightweight CLI tool wrapping Jina AI Reader API for AI Agents",
+    "url": "https://github.com/geekjourneyx/jina-cli",
+    "category": "dev-tools",
+    "platform": "general"
+  },
+  {
+    "name": "openclaw-cloud",
+    "description": "Give your AI Agent a cloud-native life — deploy once, converse everywhere",
+    "url": "https://github.com/openperf/openclaw-cloud",
+    "category": "devops-deploy",
+    "platform": "openclaw"
+  },
+  {
+    "name": "ego-lite",
+    "description": "Best browser for both you and your AI agents working in parallel",
+    "url": "https://github.com/citrolabs/ego-lite",
+    "category": "automation-productivity",
+    "platform": "general"
+  },
+  {
+    "name": "modelstudio-cli",
+    "description": "Official Model Studio CLI for AI Agent frameworks (Alibaba Cloud Bailian)",
+    "url": "https://github.com/modelstudioai/cli",
+    "category": "dev-tools",
+    "platform": "general"
+  },
+  {
+    "name": "MineEcho",
+    "description": "Local-first Memory OS for personal AI assistants with L0-L3 memory",
+    "url": "https://github.com/Health-Yang/MineEcho",
+    "category": "agent-framework",
+    "platform": "general"
+  },
+  {
+    "name": "awesome-openclaw-zh",
+    "description": "OpenClaw Chinese practical guide — 192 reproducible use cases",
+    "url": "https://github.com/cogine-ai/awesome-openclaw-zh",
+    "category": "education",
+    "platform": "openclaw"
+  },
+  {
+    "name": "code-abyss",
+    "description": "Give your AI coding agent a personality — composable persona + style + skills",
+    "url": "https://github.com/telagod/code-abyss",
+    "category": "dev-tools",
+    "platform": "general"
   }
 ]

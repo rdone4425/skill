@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 1213,
+    "count": 1270,
     "sourceData": "categories"
   },
   "skills": [
@@ -23918,6 +23918,76 @@
       "description": "OpenMMLab Multimodal Advanced, Generative, and Intelligent Creation Toolbox. Unlock the magic 🪄: Generative-AI (AIGC), easy-to-use APIs, awsome model zoo, diffusion models, for text-to-image generation, image/video restoration/enhancement, etc.",
       "url": "https://github.com/open-mmlab/mmagic",
       "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "Bjornulf_custom_nodes",
+      "url": "https://github.com/justUmen/Bjornulf_custom_nodes",
+      "desc": "ComfyUI : 163 nodes : Display, manipulate, and edit text, images, videos, loras and more. Manage looping operations, generate randomized content, use logical conditions and work with external AI tools, like Ollama or Text To Speech.",
+      "functionCategory": "dev-tools",
+      "source": "general",
+      "supportedAgents": [
+        "general"
+      ]
+    },
+    {
+      "name": "FTC-Skystone-Dark-Angels-Romania-2020",
+      "url": "https://github.com/chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020",
+      "desc": "NOTICE This repository contains the public FTC SDK for the SKYSTONE (2019-2020) competition season. If you are looking for the current season's FTC SDK software, please visit the new and permanent hom",
+      "functionCategory": "dev-tools",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "deepseek-cli",
+      "url": "https://github.com/holasoymalva/deepseek-cli",
+      "desc": "DeepSeek CLI, a command-line AI coding assistant that leverages the powerful DeepSeek Coder models ",
+      "functionCategory": "dev-tools",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "fittencode.nvim",
+      "url": "https://github.com/luozhiya/fittencode.nvim",
+      "desc": "Fitten Code AI Programming Assistant for Neovim",
+      "functionCategory": "dev-tools",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "AI-virtual-assistant-python",
+      "url": "https://github.com/Saurav-Paul/AI-virtual-assistant-python",
+      "desc": "Command line virtual assistant for competitive programming",
+      "functionCategory": "dev-tools",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "evedel",
+      "url": "https://github.com/daedsidog/evedel",
+      "desc": "Instructed LLM programmer/assistant for Emacs",
+      "functionCategory": "dev-tools",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "free_cursor_pro",
+      "url": "https://github.com/maticarmy/free_cursor_pro",
+      "desc": "🚀 Free Cursor Pro Daily Access Tool | 每日Cursor专业版免费助手 cursor cursor-pro free-tools ai-coding-assistant developer-tools programming-helper",
+      "functionCategory": "dev-tools",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
     }
   ]
 }

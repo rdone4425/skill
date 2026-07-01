@@ -4,7 +4,7 @@
     "topCategoryId": "automation",
     "subCategoryId": "productivity",
     "categoryPath": "automation-productivity",
-    "count": 247,
+    "count": 301,
     "sourceData": "categories"
   },
   "skills": [
@@ -5143,6 +5143,46 @@
       "description": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
       "url": "https://github.com/pathwaycom/pathway",
       "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "automagica",
+      "url": "https://github.com/automagica/automagica",
+      "desc": "AI-powered Smart Robotic Process Automation 🤖",
+      "functionCategory": "automation-productivity",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "youtube-shorts-pipeline",
+      "url": "https://github.com/rushindrasinha/youtube-shorts-pipeline",
+      "desc": "Automated YouTube Shorts pipeline: news → script → AI visuals → voiceover → captions → upload",
+      "functionCategory": "automation-productivity",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "roro",
+      "url": "https://github.com/arviedelgado/roro",
+      "desc": "roro is a free, open-source robotic process automation software",
+      "functionCategory": "automation-productivity",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
+    },
+    {
+      "name": "rf-mcp",
+      "url": "https://github.com/manykarim/rf-mcp",
+      "desc": "A Robot Framework MCP Server ",
+      "functionCategory": "automation-productivity",
+      "source": "github",
+      "supportedAgents": [
+        "github"
+      ]
     }
   ]
 }

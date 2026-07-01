@@ -212,9 +212,36 @@
       totals.meta.totalCount = totals.categories.reduce(function (sum, category) { return sum + (category.count || 0); }, 0);
       totals.meta.categoryCount = totals.categories.length;
       totals.categories = sortLeafCategories([...groups.values()]);
+      // ponytail: preserve totalSkills from raw index.json for SEO
+      totals.totalSkills = data.totalSkills || totals.meta.totalCount;
       return totals;
     });
     return indexPromise;
+  }
+
+  // ponytail: update SEO meta tags from index.json totalSkills
+  var _seoUpdated = false;
+  async function updateSeoMeta() {
+    if (_seoUpdated) return;
+    try {
+      var idx = await loadIndex();
+      var total = idx.totalSkills || idx.meta ? idx.totalSkills : 0;
+      if (!total) return;
+      _seoUpdated = true;
+      document.querySelectorAll('meta[name="description"], meta[property="og:description"], meta[name="twitter:description"]').forEach(function(m) {
+        var cur = m.getAttribute('content') || '';
+        m.setAttribute('content', cur.replace(/\d+\+/, total + '+'));
+      });
+      // Update JSON-LD description too
+      var jsonld = document.querySelector('script[type="application/ld+json"]');
+      if (jsonld) {
+        try {
+          var data = JSON.parse(jsonld.textContent);
+          if (data.description) data.description = data.description.replace(/\d+\+/, total + '+');
+          jsonld.textContent = JSON.stringify(data);
+        } catch(e) {}
+      }
+    } catch(e) {}
   }
 
   async function prefetchAllData() {
@@ -342,7 +369,8 @@
     prefetchAllData,
     loadForSelection,
     resolveHierarchy,
-  };
+    updateSeoMeta,
+    };
 
   hub.SCENE_MAP = SCENE_MAP;
   hub.SCENE_ORDER = SCENE_ORDER;
