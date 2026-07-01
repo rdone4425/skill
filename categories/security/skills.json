@@ -4,7 +4,7 @@
     "topCategoryId": "security",
     "subCategoryId": "general",
     "categoryPath": "security",
-    "count": 279,
+    "count": 291,
     "sourceData": "categories"
   },
   "skills": [
@@ -4767,6 +4767,222 @@
         "openclaw"
       ],
       "searchText": "moltis A secure persistent personal agent server in Rust. One binary, sandboxed execution, multi-provider LLMs, voice, memory, Telegram, WhatsApp, Discord, Teams, and MCP tools. Secure by design, runs on you https://github.com/moltis-org/moltis security"
+    },
+    {
+      "name": "iam-policy-autopilot",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "awslabs/iam-policy-autopilot",
+      "stars": 376,
+      "desc": "IAM Policy Autopilot is an open source static code analysis tool that helps you quickly create baseline AWS IAM policies that you can refine as your application evolves. This tool is available as a command-line utility and MCP server for use within AI coding assistants for quickly building IAM policies.",
+      "url": "https://github.com/awslabs/iam-policy-autopilot",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "iam-policy-autopilot IAM Policy Autopilot is an open source static code analysis tool that helps you quickly create baseline AWS IAM policies that you can refine as your application evolves. This tool is available as a command-line utility and MCP server for use within AI coding assistants for quickly building IAM policies. awslabs/iam-policy-autopilot security"
+    },
+    {
+      "name": "OpenHack",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "openhackai/OpenHack",
+      "stars": 169,
+      "desc": "Open Source Agentic Security Scanner",
+      "url": "https://github.com/openhackai/OpenHack",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "OpenHack Open Source Agentic Security Scanner openhackai/OpenHack security"
+    },
+    {
+      "name": "BurpMCP-Ultra",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "Cy-S3c/BurpMCP-Ultra",
+      "stars": 117,
+      "desc": "AI-powered MCP server for Burp Suite Professional — 149 tools across proxy, scanner, inline fuzzer, race conditions, guided injection, JWT/IDOR attacks, recon & OOB, with a real-time dashboard and hardened localhost security. Drive Burp from Claude Code or any MCP client.",
+      "url": "https://github.com/Cy-S3c/BurpMCP-Ultra",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "BurpMCP-Ultra AI-powered MCP server for Burp Suite Professional — 149 tools across proxy, scanner, inline fuzzer, race conditions, guided injection, JWT/IDOR attacks, recon & OOB, with a real-time dashboard and har Cy-S3c/BurpMCP-Ultra security"
+    },
+    {
+      "name": "aurscan",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "manticore-projects/aurscan",
+      "stars": 105,
+      "desc": "Automatically scan AUR packages for malware before installing (using LLM/AI)",
+      "url": "https://github.com/manticore-projects/aurscan",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aurscan Automatically scan AUR packages for malware before installing (using LLM/AI) manticore-projects/aurscan security"
+    },
+    {
+      "name": "vulnhawk",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "momenbasel/vulnhawk",
+      "stars": 73,
+      "desc": "AI-powered SAST scanner that finds auth bypass, IDOR, and logic bugs Semgrep/CodeQL miss. Free GitHub Action. Supports Python, JS/TS, Go, PHP, Ruby.",
+      "url": "https://github.com/momenbasel/vulnhawk",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vulnhawk AI-powered SAST scanner that finds auth bypass, IDOR, and logic bugs Semgrep/CodeQL miss. Free GitHub Action. Supports Python, JS/TS, Go, PHP, Ruby. momenbasel/vulnhawk security"
+    },
+    {
+      "name": "remotepower",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "tyxak/remotepower",
+      "stars": 52,
+      "desc": "Server management dashboard, CVE-scanner, patch-mangement, SNMP-polling, monitoring, MCP-server, drift-detection, Proxmox. Basically a swiss-knife! AIO.",
+      "url": "https://github.com/tyxak/remotepower",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "remotepower Server management dashboard, CVE-scanner, patch-mangement, SNMP-polling, monitoring, MCP-server, drift-detection, Proxmox. Basically a swiss-knife! AIO. tyxak/remotepower security"
+    },
+    {
+      "name": "mythos-agent",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "mythos-agent/mythos-agent",
+      "stars": 37,
+      "desc": "The AI security agent guards your code.",
+      "url": "https://github.com/mythos-agent/mythos-agent",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mythos-agent The AI security agent guards your code. mythos-agent/mythos-agent security"
+    },
+    {
+      "name": "whitney",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "transilienceai/whitney",
+      "stars": 32,
+      "desc": "Open-source static AI security scanner — prompt injection across 15 source types, broken LLM-as-judge detection, AI dependency SBOM. Beats Semgrep AI ruleset 2x on a labelled corpus.",
+      "url": "https://github.com/transilienceai/whitney",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "whitney Open-source static AI security scanner — prompt injection across 15 source types, broken LLM-as-judge detection, AI dependency SBOM. Beats Semgrep AI ruleset 2x on a labelled corpus. transilienceai/whitney security"
+    },
+    {
+      "name": "saber-ai",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "zakirkun/saber-ai",
+      "stars": 61,
+      "desc": "A production-grade, autonomous, AI-powered penetration testing and security automation platform.",
+      "url": "https://github.com/zakirkun/saber-ai",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "saber-ai A production-grade, autonomous, AI-powered penetration testing and security automation platform. zakirkun/saber-ai security"
+    },
+    {
+      "name": "Talon",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "CarbeneAI/Talon",
+      "stars": 57,
+      "desc": "Penetration Testing MCP for Claude Code. AI-assisted security testing with automated recon, service enumeration, and reporting.",
+      "url": "https://github.com/CarbeneAI/Talon",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Talon Penetration Testing MCP for Claude Code. AI-assisted security testing with automated recon, service enumeration, and reporting. CarbeneAI/Talon security"
+    },
+    {
+      "name": "kali-pentest",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "x-glacier/kali-pentest",
+      "stars": 56,
+      "desc": "Kali Linux penetration testing skill for AI agents (Claude Code, OpenClaw, Hermes Agent). 200+ CLI tools, 15 scenario playbooks. Autonomously plans attack paths, selects tools, and integrates results across phases to adapt the penetration strategy — with human approval gates for high-risk actions.",
+      "url": "https://github.com/x-glacier/kali-pentest",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "kali-pentest Kali Linux penetration testing skill for AI agents (Claude Code, OpenClaw, Hermes Agent). 200+ CLI tools, 15 scenario playbooks. Autonomously plans attack paths, selects tools, and integrates results  x-glacier/kali-pentest security"
+    },
+    {
+      "name": "Fennec",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "Fennec-AI/Fennec",
+      "stars": 51,
+      "desc": "Open-source, AI-driven penetration testing framework.",
+      "url": "https://github.com/Fennec-AI/Fennec",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Fennec Open-source, AI-driven penetration testing framework. Fennec-AI/Fennec security"
     }
   ]
 }

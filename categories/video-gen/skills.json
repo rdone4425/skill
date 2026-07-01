@@ -4,7 +4,7 @@
     "topCategoryId": "video-gen",
     "subCategoryId": "video-gen",
     "categoryPath": "video-gen",
-    "count": 54,
+    "count": 66,
     "sourceData": "categories"
   },
   "skills": [
@@ -995,6 +995,222 @@
         "general"
       ],
       "searchText": "zhihui_nodes_comfyui 55+ ComfyUI自定义节点合集，涵盖提示词生成/扩写、多平台翻译、AI视觉理解、图像处理、视频提示词生成等功能。界面支持中、英文语言。  55+ ComfyUI custom nodes featuring prompt generation/expansion, multi-platform translation, AI vision understanding, image processing, and video prompt tools. Interface supports Chinese and English languages. ZhiHui6/zhihui_nodes_comfyui video-gen"
+    },
+    {
+      "name": "Nexior",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "AceDataCloud/Nexior",
+      "stars": 375,
+      "desc": "Consumer AI app for chat, image generation, video generation, and music creation powered by Ace Data Cloud APIs.",
+      "url": "https://github.com/AceDataCloud/Nexior",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Nexior Consumer AI app for chat, image generation, video generation, and music creation powered by Ace Data Cloud APIs. AceDataCloud/Nexior video-gen"
+    },
+    {
+      "name": "agnes-ai-video-suite",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "NicholasCone/agnes-ai-video-suite",
+      "stars": 152,
+      "desc": "Best Open Source AI Video Generator 2026: Text to Multi-Scene Movies with Narration & Subtitles",
+      "url": "https://github.com/NicholasCone/agnes-ai-video-suite",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agnes-ai-video-suite Best Open Source AI Video Generator 2026: Text to Multi-Scene Movies with Narration & Subtitles NicholasCone/agnes-ai-video-suite video-gen"
+    },
+    {
+      "name": "ComfyUI-Woosh",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "Saganaki22/ComfyUI-Woosh",
+      "stars": 113,
+      "desc": "Text-to-audio and video-to-audio using Sony AI's Woosh foundation model.",
+      "url": "https://github.com/Saganaki22/ComfyUI-Woosh",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ComfyUI-Woosh Text-to-audio and video-to-audio using Sony AI's Woosh foundation model. Saganaki22/ComfyUI-Woosh video-gen"
+    },
+    {
+      "name": "vibe-creating-skill",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "Alisa0808/vibe-creating-skill",
+      "stars": 92,
+      "desc": "Open-source, bilingual AI video-prompt skill — rewrite ideas into model-ready text-to-video prompts. A portable Agent Skill (Claude Code, Codex, OpenClaw, Hermes); generate via Atlas Cloud — Seedance 2.0, Kling, Veo, Hailuo, Wan, Vidu, Gemini Omni, Grok Imagine.",
+      "url": "https://github.com/Alisa0808/vibe-creating-skill",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vibe-creating-skill Open-source, bilingual AI video-prompt skill — rewrite ideas into model-ready text-to-video prompts. A portable Agent Skill (Claude Code, Codex, OpenClaw, Hermes); generate via Atlas Cloud — Seedance  Alisa0808/vibe-creating-skill video-gen"
+    },
+    {
+      "name": "awesome-happy-horse",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "ZeroLu/awesome-happy-horse",
+      "stars": 63,
+      "desc": "Happy Horse 1.0 - Community-curated prompts, news, benchmarks, prompts and sample outputs for the Happy Horse model. Happy Horse AI resource hub with text-to-video and image-to-video examples.",
+      "url": "https://github.com/ZeroLu/awesome-happy-horse",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-happy-horse Happy Horse 1.0 - Community-curated prompts, news, benchmarks, prompts and sample outputs for the Happy Horse model. Happy Horse AI resource hub with text-to-video and image-to-video examples. ZeroLu/awesome-happy-horse video-gen"
+    },
+    {
+      "name": "leronx",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "Leron-X/leronx",
+      "stars": 189,
+      "desc": "LeronX — AI Image & Video Generation Platform",
+      "url": "https://github.com/Leron-X/leronx",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "leronx LeronX — AI Image & Video Generation Platform Leron-X/leronx video-gen"
+    },
+    {
+      "name": "agnes-ai-storyboard-studio",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "wordghost1234/agnes-ai-storyboard-studio",
+      "stars": 152,
+      "desc": "2026 Guide to Self-Hosted Open Source AI Video Generation",
+      "url": "https://github.com/wordghost1234/agnes-ai-storyboard-studio",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agnes-ai-storyboard-studio 2026 Guide to Self-Hosted Open Source AI Video Generation wordghost1234/agnes-ai-storyboard-studio video-gen"
+    },
+    {
+      "name": "shortdrama-pipeline",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "drasstry/shortdrama-pipeline",
+      "stars": 108,
+      "desc": "Backend-first AI pipeline for Chinese short-drama script, character, and video generation",
+      "url": "https://github.com/drasstry/shortdrama-pipeline",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "shortdrama-pipeline Backend-first AI pipeline for Chinese short-drama script, character, and video generation drasstry/shortdrama-pipeline video-gen"
+    },
+    {
+      "name": "claude-video-kit",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "runesleo/claude-video-kit",
+      "stars": 105,
+      "desc": "Claude Code-powered AI short video generation pipeline",
+      "url": "https://github.com/runesleo/claude-video-kit",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "claude-video-kit Claude Code-powered AI short video generation pipeline runesleo/claude-video-kit video-gen"
+    },
+    {
+      "name": "hyperframes-ai-video-generation",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "coleam00/hyperframes-ai-video-generation",
+      "stars": 102,
+      "desc": "Archon workflow that turns any URL into a polished AI-voiced and generated HyperFrames Short.",
+      "url": "https://github.com/coleam00/hyperframes-ai-video-generation",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "hyperframes-ai-video-generation Archon workflow that turns any URL into a polished AI-voiced and generated HyperFrames Short. coleam00/hyperframes-ai-video-generation video-gen"
+    },
+    {
+      "name": "remotion-ad-video-skill",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "leosssvip-dot/remotion-ad-video-skill",
+      "stars": 97,
+      "desc": "Create Remotion ad video projects from a URL with an AI coding agent, no video-generation AI required.",
+      "url": "https://github.com/leosssvip-dot/remotion-ad-video-skill",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "remotion-ad-video-skill Create Remotion ad video projects from a URL with an AI coding agent, no video-generation AI required. leosssvip-dot/remotion-ad-video-skill video-gen"
+    },
+    {
+      "name": "cinematic-video-prompt-engineer-skill",
+      "source": "video-gen",
+      "sourceAgent": "video-gen",
+      "repo": "CyberJ0605/cinematic-video-prompt-engineer-skill",
+      "stars": 49,
+      "desc": "A Codex skill for turning plot summaries into cinematic AI video prompts. It diagnoses story, emotion, structure, shot design, micro-expressions, sound, reference image prompts, and continuation logic, then outputs copy-ready prompts for short-form AI video generation.",
+      "url": "https://github.com/CyberJ0605/cinematic-video-prompt-engineer-skill",
+      "install": "",
+      "functionCategory": "video-gen",
+      "topCategoryId": "video-gen",
+      "subCategoryId": "general",
+      "categoryPath": "video-gen",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cinematic-video-prompt-engineer-skill A Codex skill for turning plot summaries into cinematic AI video prompts. It diagnoses story, emotion, structure, shot design, micro-expressions, sound, reference image prompts, and continuation logic CyberJ0605/cinematic-video-prompt-engineer-skill video-gen"
     }
   ]
 }

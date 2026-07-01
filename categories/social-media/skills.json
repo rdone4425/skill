@@ -4,7 +4,7 @@
     "topCategoryId": "social-media",
     "subCategoryId": "social-media",
     "categoryPath": "social-media",
-    "count": 145,
+    "count": 149,
     "sourceData": "categories"
   },
   "skills": [
@@ -2702,6 +2702,78 @@
         "general"
       ],
       "searchText": "reddit_karma_farmer_auto_commentator_with_AI Reddit_Commentator_AIHawk is a Python project showcasing the power of artificial intelligence in social media interaction. This tool demonstrates AI's capability to generate contextually relevant Reddit comments using GPT models and LangChain. It automates the process of analyzing trending posts and creating engaging responses. feder-cr/reddit_karma_farmer_auto_commentator_with_AI social-media"
+    },
+    {
+      "name": "Agentkey",
+      "source": "social-media",
+      "sourceAgent": "social-media",
+      "repo": "chainbase-labs/Agentkey",
+      "stars": 175,
+      "desc": "Connect your AI agent to the world — Web search, Social media, Crypto & On-chain data. One plugin, zero extra config.",
+      "url": "https://github.com/chainbase-labs/Agentkey",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social-media",
+      "subCategoryId": "general",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Agentkey Connect your AI agent to the world — Web search, Social media, Crypto & On-chain data. One plugin, zero extra config. chainbase-labs/Agentkey social-media"
+    },
+    {
+      "name": "sm-vid-repost-pipeline",
+      "source": "social-media",
+      "sourceAgent": "social-media",
+      "repo": "abubakar-ethara/sm-vid-repost-pipeline",
+      "stars": 51,
+      "desc": "Automated Social Media Video Reposter Bot 2026 | Smart Content Scheduler & AI Rotator",
+      "url": "https://github.com/abubakar-ethara/sm-vid-repost-pipeline",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social-media",
+      "subCategoryId": "general",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "sm-vid-repost-pipeline Automated Social Media Video Reposter Bot 2026 | Smart Content Scheduler & AI Rotator abubakar-ethara/sm-vid-repost-pipeline social-media"
+    },
+    {
+      "name": "marketing-skills",
+      "source": "social-media",
+      "sourceAgent": "social-media",
+      "repo": "hyperfx-ai/marketing-skills",
+      "stars": 45,
+      "desc": "Marketing skills for AI agents — paid ads, social media, SEO, competitor research, creative generation, email, analytics, and more. Powered by Hyper MCP.",
+      "url": "https://github.com/hyperfx-ai/marketing-skills",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social-media",
+      "subCategoryId": "general",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "marketing-skills Marketing skills for AI agents — paid ads, social media, SEO, competitor research, creative generation, email, analytics, and more. Powered by Hyper MCP. hyperfx-ai/marketing-skills social-media"
+    },
+    {
+      "name": "kaven",
+      "source": "social-media",
+      "sourceAgent": "social-media",
+      "repo": "avlp12/kaven",
+      "stars": 42,
+      "desc": "KAVEN = Korean AI-based Vigilance for Event Navigation.  KAVEN (Kaven) is an AI-based early warning system that collects geopolitical events from various sources (AIS/ADS-B/News/Social Media), analyzes and deduplicates the data, and delivers alerts via Telegram.",
+      "url": "https://github.com/avlp12/kaven",
+      "install": "",
+      "functionCategory": "social-media",
+      "topCategoryId": "social-media",
+      "subCategoryId": "general",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "kaven KAVEN = Korean AI-based Vigilance for Event Navigation.  KAVEN (Kaven) is an AI-based early warning system that collects geopolitical events from various sources (AIS/ADS-B/News/Social Media), analyze avlp12/kaven social-media"
     }
   ]
 }

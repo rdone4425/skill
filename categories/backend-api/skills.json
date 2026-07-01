@@ -4,7 +4,7 @@
     "topCategoryId": "backend",
     "subCategoryId": "api",
     "categoryPath": "backend-api",
-    "count": 224,
+    "count": 230,
     "sourceData": "categories"
   },
   "skills": [
@@ -3644,6 +3644,114 @@
       "description": "A modern API workspace that works both online and offline — combining API documentation, testing, mock, and AI-powered automation in one lightweight tool",
       "url": "https://github.com/trueleaf/apiflow",
       "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "octo-server",
+      "source": "backend-api",
+      "sourceAgent": "backend-api",
+      "repo": "Mininglamp-OSS/octo-server",
+      "stars": 137,
+      "desc": "🐙 The Go backend powering OCTO — an open workplace built for humans × AI agents. REST & WebSocket APIs, Lobster (AI agent) orchestration, and WuKongIM real-time messaging control plane.",
+      "url": "https://github.com/Mininglamp-OSS/octo-server",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "octo-server 🐙 The Go backend powering OCTO — an open workplace built for humans × AI agents. REST & WebSocket APIs, Lobster (AI agent) orchestration, and WuKongIM real-time messaging control plane. Mininglamp-OSS/octo-server backend-api"
+    },
+    {
+      "name": "wailschat",
+      "source": "backend-api",
+      "sourceAgent": "backend-api",
+      "repo": "jacksalad/wailschat",
+      "stars": 113,
+      "desc": "A desktop AI chat application built with Wails v2 (Go backend + Vue 3 frontend) that connects to OpenAI-compatible LLM APIs with MCP tool calling support.",
+      "url": "https://github.com/jacksalad/wailschat",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "wailschat A desktop AI chat application built with Wails v2 (Go backend + Vue 3 frontend) that connects to OpenAI-compatible LLM APIs with MCP tool calling support. jacksalad/wailschat backend-api"
+    },
+    {
+      "name": "myapi",
+      "source": "backend-api",
+      "sourceAgent": "backend-api",
+      "repo": "myapihq/myapi",
+      "stars": 107,
+      "desc": "The unified API for autonomous companies. Ship a real business — website, backend, payments — from one terminal.",
+      "url": "https://github.com/myapihq/myapi",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "myapi The unified API for autonomous companies. Ship a real business — website, backend, payments — from one terminal. myapihq/myapi backend-api"
+    },
+    {
+      "name": "MetaSearchMCP",
+      "source": "backend-api",
+      "sourceAgent": "backend-api",
+      "repo": "gefsikatsinelou/MetaSearchMCP",
+      "stars": 50,
+      "desc": "Open-source metasearch backend, MCP server, and AI search API for LLM agents. Python FastAPI search gateway with Google search via SerpBase and Serper, multi-engine search aggregation, structured JSON output, provider fallback, deduplication, and SearXNG alternative architecture for agent workflows.",
+      "url": "https://github.com/gefsikatsinelou/MetaSearchMCP",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "MetaSearchMCP Open-source metasearch backend, MCP server, and AI search API for LLM agents. Python FastAPI search gateway with Google search via SerpBase and Serper, multi-engine search aggregation, structured JSON gefsikatsinelou/MetaSearchMCP backend-api"
+    },
+    {
+      "name": "Agent-Span",
+      "source": "backend-api",
+      "sourceAgent": "backend-api",
+      "repo": "oxbshw/Agent-Span",
+      "stars": 36,
+      "desc": "The Web Access Gateway for AI Agents — 52 channels, 92 MCP tools, 9 SDKs, self-healing backends, async Rust",
+      "url": "https://github.com/oxbshw/Agent-Span",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Agent-Span The Web Access Gateway for AI Agents — 52 channels, 92 MCP tools, 9 SDKs, self-healing backends, async Rust oxbshw/Agent-Span backend-api"
+    },
+    {
+      "name": "local-ai-stack",
+      "source": "backend-api",
+      "sourceAgent": "backend-api",
+      "repo": "faanogueira/local-ai-stack",
+      "stars": 35,
+      "desc": "Stack completa para chat com LLMs locais via Ollama — sem cloud, sem custos de API, sem envio de dados externos. Backend em FastAPI · Frontend em Streamlit · Modelo padrão: Qwen3.5:4b",
+      "url": "https://github.com/faanogueira/local-ai-stack",
+      "install": "",
+      "functionCategory": "backend-api",
+      "topCategoryId": "backend-api",
+      "subCategoryId": "general",
+      "categoryPath": "backend-api",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "local-ai-stack Stack completa para chat com LLMs locais via Ollama — sem cloud, sem custos de API, sem envio de dados externos. Backend em FastAPI · Frontend em Streamlit · Modelo padrão: Qwen3.5:4b faanogueira/local-ai-stack backend-api"
     }
   ]
 }

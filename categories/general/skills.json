@@ -4,7 +4,7 @@
     "topCategoryId": "general",
     "subCategoryId": "general",
     "categoryPath": "general",
-    "count": 710,
+    "count": 712,
     "sourceData": "categories"
   },
   "skills": [
@@ -12580,6 +12580,42 @@
       "stars": 0,
       "language": "",
       "topics": []
+    },
+    {
+      "name": "mcp",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "microsoft/mcp",
+      "stars": 3393,
+      "desc": "Catalog of official Microsoft MCP (Model Context Protocol) server implementations for AI-powered data access and tool integration",
+      "url": "https://github.com/microsoft/mcp",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mcp Catalog of official Microsoft MCP (Model Context Protocol) server implementations for AI-powered data access and tool integration microsoft/mcp general"
+    },
+    {
+      "name": "relaticle",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "relaticle/relaticle",
+      "stars": 1390,
+      "desc": "Open-source CRM with native AI agent support. 30 MCP tools, REST API, self-hosted. Built with Laravel & Filament",
+      "url": "https://github.com/relaticle/relaticle",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "relaticle Open-source CRM with native AI agent support. 30 MCP tools, REST API, self-hosted. Built with Laravel & Filament relaticle/relaticle general"
     }
   ]
 }

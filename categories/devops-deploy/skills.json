@@ -4,7 +4,7 @@
     "topCategoryId": "devops",
     "subCategoryId": "deploy",
     "categoryPath": "devops-deploy",
-    "count": 144,
+    "count": 146,
     "sourceData": "categories"
   },
   "skills": [
@@ -2668,6 +2668,42 @@
       "stars": 0,
       "language": "",
       "topics": []
+    },
+    {
+      "name": "blamebot",
+      "source": "devops-deploy",
+      "sourceAgent": "devops-deploy",
+      "repo": "huseynovvusal/blamebot",
+      "stars": 42,
+      "desc": "AI on-call agent that detects deploy failures explains what broke pages the responsible team and rolls back automatically.",
+      "url": "https://github.com/huseynovvusal/blamebot",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "blamebot AI on-call agent that detects deploy failures explains what broke pages the responsible team and rolls back automatically. huseynovvusal/blamebot devops-deploy"
+    },
+    {
+      "name": "AzureSupportAgent",
+      "source": "devops-deploy",
+      "sourceAgent": "devops-deploy",
+      "repo": "zmustafa/AzureSupportAgent",
+      "stars": 39,
+      "desc": "AI-driven Azure operations workbench. Chat with your tenant, investigate incidents with a team of specialist AI agents, and assess, monitor & remediate your cloud — runs in your own subscription. One-click deploy.",
+      "url": "https://github.com/zmustafa/AzureSupportAgent",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "topCategoryId": "devops-deploy",
+      "subCategoryId": "general",
+      "categoryPath": "devops-deploy",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AzureSupportAgent AI-driven Azure operations workbench. Chat with your tenant, investigate incidents with a team of specialist AI agents, and assess, monitor & remediate your cloud — runs in your own subscription. One- zmustafa/AzureSupportAgent devops-deploy"
     }
   ]
 }

@@ -4,7 +4,7 @@
     "topCategoryId": "video-multimedia",
     "subCategoryId": "video-multimedia",
     "categoryPath": "video-multimedia",
-    "count": 99,
+    "count": 102,
     "sourceData": "categories"
   },
   "skills": [
@@ -1802,6 +1802,60 @@
       "description": "OSSDC Vision AI - a platform for live testing and developing of computer vision and artificial intelligence algorithms targeting robotics, home automation and autonomous vechicles",
       "url": "https://github.com/OSSDC/OSSDC-VisionAI-Core",
       "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "ai_media_assistant",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "alexchan197611/ai_media_assistant",
+      "stars": 199,
+      "desc": "AI-Powered Automate Self-Media Video Generation Tools‌",
+      "url": "https://github.com/alexchan197611/ai_media_assistant",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai_media_assistant AI-Powered Automate Self-Media Video Generation Tools‌ alexchan197611/ai_media_assistant video-multimedia"
+    },
+    {
+      "name": "Prism-platform",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "NovaCode37/Prism-platform",
+      "stars": 111,
+      "desc": "All-in-one OSINT platform — 22+ modules, AI analysis, real-time dashboard, OPSEC scoring. Scan domains, IPs, emails, phones, usernames. ",
+      "url": "https://github.com/NovaCode37/Prism-platform",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Prism-platform All-in-one OSINT platform — 22+ modules, AI analysis, real-time dashboard, OPSEC scoring. Scan domains, IPs, emails, phones, usernames.  NovaCode37/Prism-platform video-multimedia"
+    },
+    {
+      "name": "doubao2api",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "wangchuxiaoji-oss/doubao2api",
+      "stars": 76,
+      "desc": "Reverse-engineered Doubao (豆包) API → OpenAI-compatible REST service. Free multimodal chat, image/video/music generation, and file hosting for AI agents.",
+      "url": "https://github.com/wangchuxiaoji-oss/doubao2api",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "doubao2api Reverse-engineered Doubao (豆包) API → OpenAI-compatible REST service. Free multimodal chat, image/video/music generation, and file hosting for AI agents. wangchuxiaoji-oss/doubao2api video-multimedia"
     }
   ]
 }

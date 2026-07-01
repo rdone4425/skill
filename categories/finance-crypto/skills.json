@@ -4,7 +4,7 @@
     "topCategoryId": "finance-crypto",
     "subCategoryId": "finance-crypto",
     "categoryPath": "finance-crypto",
-    "count": 142,
+    "count": 149,
     "sourceData": "categories"
   },
   "skills": [
@@ -2606,6 +2606,132 @@
         "general"
       ],
       "searchText": "priced-in 💰 Autonomous AI stock trading agent running on GitHub Actions AnandChowdhary/priced-in finance-crypto"
+    },
+    {
+      "name": "polymarket-arbitrage-trading-bot",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "PolyMaxi-Labs/polymarket-arbitrage-trading-bot",
+      "stars": 415,
+      "desc": "polymarket trading bot polymarket bot polymarket bot polymarket bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket bot polymarket bot polymarket bot polymarket trading bot polymarket bot polymarket bot polymarket trading bot",
+      "url": "https://github.com/PolyMaxi-Labs/polymarket-arbitrage-trading-bot",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "polymarket-arbitrage-trading-bot polymarket trading bot polymarket bot polymarket bot polymarket bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket tradin PolyMaxi-Labs/polymarket-arbitrage-trading-bot finance-crypto"
+    },
+    {
+      "name": "moss-trade-bot-skills",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "moss-site/moss-trade-bot-skills",
+      "stars": 311,
+      "desc": "LLM-powered trading agents that turn plain natural language into a five-pillar strategy: Trend, Mean-Reversion, Momentum, Volume, and Risk. Each strategy is hosted, self-evolving, configurable through 30+ tunable parameters, and bit-exact between backtest and live execution. Built for simulated Hyperliquid perpetuals.",
+      "url": "https://github.com/moss-site/moss-trade-bot-skills",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "moss-trade-bot-skills LLM-powered trading agents that turn plain natural language into a five-pillar strategy: Trend, Mean-Reversion, Momentum, Volume, and Risk. Each strategy is hosted, self-evolving, configurable through moss-site/moss-trade-bot-skills finance-crypto"
+    },
+    {
+      "name": "openclaw-polymarket-trading-bot",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "Golrypavium/openclaw-polymarket-trading-bot",
+      "stars": 204,
+      "desc": "Openclaw Polymarket Trading AI Bot",
+      "url": "https://github.com/Golrypavium/openclaw-polymarket-trading-bot",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openclaw-polymarket-trading-bot Openclaw Polymarket Trading AI Bot Golrypavium/openclaw-polymarket-trading-bot finance-crypto"
+    },
+    {
+      "name": "TradingView-Pipe-Executor",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "AbdulWasay13/TradingView-Pipe-Executor",
+      "stars": 152,
+      "desc": "Automated MT5 Trading Bot with AI Alerts & Webhook Bridge 2026",
+      "url": "https://github.com/AbdulWasay13/TradingView-Pipe-Executor",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "TradingView-Pipe-Executor Automated MT5 Trading Bot with AI Alerts & Webhook Bridge 2026 AbdulWasay13/TradingView-Pipe-Executor finance-crypto"
+    },
+    {
+      "name": "binance-ai-future-trading-bot",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "jbird-trading-org/binance-ai-future-trading-bot",
+      "stars": 97,
+      "desc": "binance ai future trading bot using multi-timeframe EMA analysis and relaxes or tightens filters",
+      "url": "https://github.com/jbird-trading-org/binance-ai-future-trading-bot",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "binance-ai-future-trading-bot binance ai future trading bot using multi-timeframe EMA analysis and relaxes or tightens filters jbird-trading-org/binance-ai-future-trading-bot finance-crypto"
+    },
+    {
+      "name": "polymarket-copy-trading-bot-automated-mirror-trading-engine",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "Cortex-AI-Network/polymarket-copy-trading-bot-automated-mirror-trading-engine",
+      "stars": 42,
+      "desc": "High-frequency polymarket bot for automated mirror trading & leaderboard replication. Powered by Claude & GPT AI analytics to track polymarket api key endpoints, monitor world cup vodds, and optimize arbitrage on brasil, france, and india event contracts with zero fees.",
+      "url": "https://github.com/Cortex-AI-Network/polymarket-copy-trading-bot-automated-mirror-trading-engine",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "polymarket-copy-trading-bot-automated-mirror-trading-engine High-frequency polymarket bot for automated mirror trading & leaderboard replication. Powered by Claude & GPT AI analytics to track polymarket api key endpoints, monitor world cup vodds, and optimize  Cortex-AI-Network/polymarket-copy-trading-bot-automated-mirror-trading-engine finance-crypto"
+    },
+    {
+      "name": "deepalpha",
+      "source": "finance-crypto",
+      "sourceAgent": "finance-crypto",
+      "repo": "stefanoviana/deepalpha",
+      "stars": 32,
+      "desc": "AI crypto trading bot with deep neural network (84.9% accuracy, 25 coins). BiLSTM + Attention trained on GPU. Bybit, Binance, OKX, Gate.io. Free cloud or self-hosted.",
+      "url": "https://github.com/stefanoviana/deepalpha",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "general",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "deepalpha AI crypto trading bot with deep neural network (84.9% accuracy, 25 coins). BiLSTM + Attention trained on GPU. Bybit, Binance, OKX, Gate.io. Free cloud or self-hosted. stefanoviana/deepalpha finance-crypto"
     }
   ]
 }

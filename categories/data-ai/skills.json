@@ -4,7 +4,7 @@
     "topCategoryId": "data",
     "subCategoryId": "ai",
     "categoryPath": "data-ai",
-    "count": 694,
+    "count": 761,
     "sourceData": "categories"
   },
   "skills": [
@@ -13101,6 +13101,1212 @@
         "openclaw"
       ],
       "searchText": "ktx Executable context layer for data and analytics agents https://github.com/Kaelio/ktx data-ai"
+    },
+    {
+      "name": "doccano",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "doccano/doccano",
+      "stars": 10690,
+      "desc": "Open source annotation tool for machine learning practitioners.",
+      "url": "https://github.com/doccano/doccano",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "doccano Open source annotation tool for machine learning practitioners. doccano/doccano data-ai"
+    },
+    {
+      "name": "guess",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "guess-js/guess",
+      "stars": 7117,
+      "desc": "🔮 Libraries & tools for enabling Machine Learning driven user-experiences on the web",
+      "url": "https://github.com/guess-js/guess",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "guess 🔮 Libraries & tools for enabling Machine Learning driven user-experiences on the web guess-js/guess data-ai"
+    },
+    {
+      "name": "53AIHub",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "53AI/53AIHub",
+      "stars": 4927,
+      "desc": "53AI Hub is an open-source AI portal, which enables you to quickly build a operational-level AI portal to launch and operate AI agents, prompts, and AI tools. It supports seamless integration with development platforms like Coze, Dify, FastGPT, RAGFlow.",
+      "url": "https://github.com/53AI/53AIHub",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "53AIHub 53AI Hub is an open-source AI portal, which enables you to quickly build a operational-level AI portal to launch and operate AI agents, prompts, and AI tools. It supports seamless integration with development platforms like Coze, Dify, FastGPT, RAGFlow. 53AI/53AIHub data-ai"
+    },
+    {
+      "name": "cognita",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "truefoundry/cognita",
+      "stars": 4409,
+      "desc": "RAG (Retrieval Augmented Generation) Framework for building modular, open source applications for production by TrueFoundry",
+      "url": "https://github.com/truefoundry/cognita",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cognita RAG (Retrieval Augmented Generation) Framework for building modular, open source applications for production by TrueFoundry truefoundry/cognita data-ai"
+    },
+    {
+      "name": "LlamaIndexTS",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "run-llama/LlamaIndexTS",
+      "stars": 3078,
+      "desc": "Data framework for your LLM applications. Focus on server side solution",
+      "url": "https://github.com/run-llama/LlamaIndexTS",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "LlamaIndexTS Data framework for your LLM applications. Focus on server side solution run-llama/LlamaIndexTS data-ai"
+    },
+    {
+      "name": "langgraphjs",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "langchain-ai/langgraphjs",
+      "stars": 3069,
+      "desc": "Framework to build resilient language agents as graphs.",
+      "url": "https://github.com/langchain-ai/langgraphjs",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "langgraphjs Framework to build resilient language agents as graphs. langchain-ai/langgraphjs data-ai"
+    },
+    {
+      "name": "core",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "cheshire-cat-ai/core",
+      "stars": 3064,
+      "desc": "AI agent microservice",
+      "url": "https://github.com/cheshire-cat-ai/core",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "core AI agent microservice cheshire-cat-ai/core data-ai"
+    },
+    {
+      "name": "synthetic-data-generator",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "hitsz-ids/synthetic-data-generator",
+      "stars": 2423,
+      "desc": "SDG is a specialized framework designed to generate high-quality structured tabular data.",
+      "url": "https://github.com/hitsz-ids/synthetic-data-generator",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "synthetic-data-generator SDG is a specialized framework designed to generate high-quality structured tabular data. hitsz-ids/synthetic-data-generator data-ai"
+    },
+    {
+      "name": "deepteam",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "confident-ai/deepteam",
+      "stars": 1934,
+      "desc": "DeepTeam is a framework to red team LLMs and AI agents.",
+      "url": "https://github.com/confident-ai/deepteam",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "deepteam DeepTeam is a framework to red team LLMs and AI agents. confident-ai/deepteam data-ai"
+    },
+    {
+      "name": "awesome-machine-learning-in-compilers",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "zwang4/awesome-machine-learning-in-compilers",
+      "stars": 1678,
+      "desc": "Must read research papers and links to tools and datasets that are related to using machine learning for compilers and systems optimisation",
+      "url": "https://github.com/zwang4/awesome-machine-learning-in-compilers",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-machine-learning-in-compilers Must read research papers and links to tools and datasets that are related to using machine learning for compilers and systems optimisation zwang4/awesome-machine-learning-in-compilers data-ai"
+    },
+    {
+      "name": "Machine-Learning-Projects",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "shsarv/Machine-Learning-Projects",
+      "stars": 1646,
+      "desc": "This repository showcases a selection of machine learning projects undertaken to understand and master various ML concepts. Each project reflects commitment to applying theoretical knowledge to practical scenarios, demonstrating proficiency in machine learning techniques and tools.",
+      "url": "https://github.com/shsarv/Machine-Learning-Projects",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Machine-Learning-Projects This repository showcases a selection of machine learning projects undertaken to understand and master various ML concepts. Each project reflects commitment to applying theoretical knowledge to practical scenarios, demonstrating proficiency in machine learning techniques and tools. shsarv/Machine-Learning-Projects data-ai"
+    },
+    {
+      "name": "ModelingToolkit.jl",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "SciML/ModelingToolkit.jl",
+      "stars": 1644,
+      "desc": "An acausal modeling framework for automatically parallelized scientific machine learning (SciML) in Julia. A computer algebra system for integrated symbolics for physics-informed machine learning and automated transformations of differential equations",
+      "url": "https://github.com/SciML/ModelingToolkit.jl",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ModelingToolkit.jl An acausal modeling framework for automatically parallelized scientific machine learning (SciML) in Julia. A computer algebra system for integrated symbolics for physics-informed machine learning and automated transformations of differential equations SciML/ModelingToolkit.jl data-ai"
+    },
+    {
+      "name": "TuyaOpen",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "tuya/TuyaOpen",
+      "stars": 1620,
+      "desc": "Next-gen AI+IoT framework for T2/T3/T5AI/ESP32/and more – Fast IoT and AI Agent hardware integration",
+      "url": "https://github.com/tuya/TuyaOpen",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "TuyaOpen Next-gen AI+IoT framework for T2/T3/T5AI/ESP32/and more – Fast IoT and AI Agent hardware integration tuya/TuyaOpen data-ai"
+    },
+    {
+      "name": "tau2-bench",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "sierra-research/tau2-bench",
+      "stars": 1489,
+      "desc": "τ-Bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+      "url": "https://github.com/sierra-research/tau2-bench",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "tau2-bench τ-Bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains sierra-research/tau2-bench data-ai"
+    },
+    {
+      "name": "stock-indicators-dotnet",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "facioquo/stock-indicators-dotnet",
+      "stars": 1221,
+      "desc": "Stock Indicators for .NET is a C# NuGet package that transforms raw equity, commodity, forex, or cryptocurrency financial market price quotes into technical indicators and trading insights. You'll need this essential data in the investment tools that you're building for algorithmic trading, technical analysis, machine learning, or visual charting.",
+      "url": "https://github.com/facioquo/stock-indicators-dotnet",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "stock-indicators-dotnet Stock Indicators for .NET is a C# NuGet package that transforms raw equity, commodity, forex, or cryptocurrency financial market price quotes into technical indicators and trading insights. You'll need this essential data in the investment tools that you're building for algorithmic trading, technical analysis, machine learning, or visual charting. facioquo/stock-indicators-dotnet data-ai"
+    },
+    {
+      "name": "aTrain",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "aTrainTranscription/aTrain",
+      "stars": 1166,
+      "desc": "A GUI tool for offline transcription of speech recordings, including speaker diarization, utilizing state-of-the-art machine learning models.",
+      "url": "https://github.com/aTrainTranscription/aTrain",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aTrain A GUI tool for offline transcription of speech recordings, including speaker diarization, utilizing state-of-the-art machine learning models. aTrainTranscription/aTrain data-ai"
+    },
+    {
+      "name": "Hexabot",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "hexabot-ai/Hexabot",
+      "stars": 980,
+      "desc": "Hexabot v3 is an AI workflow automation platform, combining workflows, actions, agents, and conversational channels in one runtime.",
+      "url": "https://github.com/hexabot-ai/Hexabot",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Hexabot Hexabot v3 is an AI workflow automation platform, combining workflows, actions, agents, and conversational channels in one runtime. hexabot-ai/Hexabot data-ai"
+    },
+    {
+      "name": "covalent",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "AgnostiqHQ/covalent",
+      "stars": 863,
+      "desc": "Pythonic tool for orchestrating machine-learning/high performance/quantum-computing workflows in heterogeneous compute environments.",
+      "url": "https://github.com/AgnostiqHQ/covalent",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "covalent Pythonic tool for orchestrating machine-learning/high performance/quantum-computing workflows in heterogeneous compute environments. AgnostiqHQ/covalent data-ai"
+    },
+    {
+      "name": "cerebellum",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "theredsix/cerebellum",
+      "stars": 863,
+      "desc": "Browser automation system that uses AI-driven planning to navigate web pages and perform goals.",
+      "url": "https://github.com/theredsix/cerebellum",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cerebellum Browser automation system that uses AI-driven planning to navigate web pages and perform goals. theredsix/cerebellum data-ai"
+    },
+    {
+      "name": "medusa",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "Pantheon-Security/medusa",
+      "stars": 832,
+      "desc": "AI-first security scanner. NEW in v2026.7: Claude Code compromise detection — vet .claude/ hooks, permissions & skills before you clone — plus an always-on AI attack-signature scanner and native Rust & PHP rules. Also: medusa scan --git to vet any repo, medusa secrets scan for leaked API keys. 40,000+ patterns, zero setup.",
+      "url": "https://github.com/Pantheon-Security/medusa",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "medusa AI-first security scanner. NEW in v2026.7: Claude Code compromise detection — vet .claude/ hooks, permissions & skills before you clone — plus an always-on AI attack-signature scanner and native Rust & PHP rules. Also: medusa scan --git to vet any repo, medusa secrets scan for leaked API keys. 40,000+ patterns, zero setup. Pantheon-Security/medusa data-ai"
+    },
+    {
+      "name": "openserp",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "karust/openserp",
+      "stars": 816,
+      "desc": "Open-source, self-hosted SERP API for AI, SEO & automation. Browser-rendered Google, Bing, Yandex, Baidu, DuckDuckGo and Ecosia search with page extraction 🎉",
+      "url": "https://github.com/karust/openserp",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openserp Open-source, self-hosted SERP API for AI, SEO & automation. Browser-rendered Google, Bing, Yandex, Baidu, DuckDuckGo and Ecosia search with page extraction 🎉 karust/openserp data-ai"
+    },
+    {
+      "name": "awesome-ai-apps",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "rohitg00/awesome-ai-apps",
+      "stars": 793,
+      "desc": "A curated collection of awesome AI Agents and LLM Apps built with multiple tech stacks, showcasing real-world implementations using OpenAI, Gemini, local models, and various AI frameworks.",
+      "url": "https://github.com/rohitg00/awesome-ai-apps",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-ai-apps A curated collection of awesome AI Agents and LLM Apps built with multiple tech stacks, showcasing real-world implementations using OpenAI, Gemini, local models, and various AI frameworks. rohitg00/awesome-ai-apps data-ai"
+    },
+    {
+      "name": "stringsifter",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "mandiant/stringsifter",
+      "stars": 756,
+      "desc": "A machine learning tool that ranks strings based on their relevance for malware analysis.",
+      "url": "https://github.com/mandiant/stringsifter",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "stringsifter A machine learning tool that ranks strings based on their relevance for malware analysis. mandiant/stringsifter data-ai"
+    },
+    {
+      "name": "Trinity-RFT",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "agentscope-ai/Trinity-RFT",
+      "stars": 660,
+      "desc": "Trinity-RFT is a general-purpose, flexible and scalable framework designed for reinforcement fine-tuning (RFT) of large language models (LLM).",
+      "url": "https://github.com/agentscope-ai/Trinity-RFT",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Trinity-RFT Trinity-RFT is a general-purpose, flexible and scalable framework designed for reinforcement fine-tuning (RFT) of large language models (LLM). agentscope-ai/Trinity-RFT data-ai"
+    },
+    {
+      "name": "Maze",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "maze-agent/Maze",
+      "stars": 603,
+      "desc": "A distributed framework for LLM agents",
+      "url": "https://github.com/maze-agent/Maze",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Maze A distributed framework for LLM agents maze-agent/Maze data-ai"
+    },
+    {
+      "name": "Flame-Code-VLM",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "Flame-Code-VLM/Flame-Code-VLM",
+      "stars": 560,
+      "desc": "Flame is an open-source multimodal AI system designed to translate UI design mockups into high-quality React code. It leverages vision-language modeling, automated data synthesis, and structured training workflows to bridge the gap between design and front-end development.",
+      "url": "https://github.com/Flame-Code-VLM/Flame-Code-VLM",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Flame-Code-VLM Flame is an open-source multimodal AI system designed to translate UI design mockups into high-quality React code. It leverages vision-language modeling, automated data synthesis, and structured training workflows to bridge the gap between design and front-end development. Flame-Code-VLM/Flame-Code-VLM data-ai"
+    },
+    {
+      "name": "xprof",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "openxla/xprof",
+      "stars": 546,
+      "desc": "A profiling and performance analysis tool for machine learning",
+      "url": "https://github.com/openxla/xprof",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "xprof A profiling and performance analysis tool for machine learning openxla/xprof data-ai"
+    },
+    {
+      "name": "sagemaker-training-toolkit",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "aws/sagemaker-training-toolkit",
+      "stars": 530,
+      "desc": "Train machine learning models within a 🐳 Docker container using 🧠 Amazon SageMaker.",
+      "url": "https://github.com/aws/sagemaker-training-toolkit",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "sagemaker-training-toolkit Train machine learning models within a 🐳 Docker container using 🧠 Amazon SageMaker. aws/sagemaker-training-toolkit data-ai"
+    },
+    {
+      "name": "promptulate",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "Undertone0809/promptulate",
+      "stars": 512,
+      "desc": "🚀Lightweight Large language model automation and Autonomous Language Agents development framework. Build your LLM Agent Application in a pythonic way!",
+      "url": "https://github.com/Undertone0809/promptulate",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "promptulate 🚀Lightweight Large language model automation and Autonomous Language Agents development framework. Build your LLM Agent Application in a pythonic way! Undertone0809/promptulate data-ai"
+    },
+    {
+      "name": "awesome-MLSecOps",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "RiccardoBiosas/awesome-MLSecOps",
+      "stars": 440,
+      "desc": "A curated list of MLSecOps tools, articles and other resources on security applied to Machine Learning and MLOps systems.",
+      "url": "https://github.com/RiccardoBiosas/awesome-MLSecOps",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-MLSecOps A curated list of MLSecOps tools, articles and other resources on security applied to Machine Learning and MLOps systems. RiccardoBiosas/awesome-MLSecOps data-ai"
+    },
+    {
+      "name": "LLMFeeder",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "jatinkrmalik/LLMFeeder",
+      "stars": 430,
+      "desc": "Brower extension to convert web pages to clean Markdown and copy to clipboard so you can feed it to your favorite LLM model as context with just 1 click!",
+      "url": "https://github.com/jatinkrmalik/LLMFeeder",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "LLMFeeder Brower extension to convert web pages to clean Markdown and copy to clipboard so you can feed it to your favorite LLM model as context with just 1 click! jatinkrmalik/LLMFeeder data-ai"
+    },
+    {
+      "name": "mcp",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "IBM/mcp",
+      "stars": 389,
+      "desc": "A collection of Model Context Protocol (MCP) servers, clients and developer tools by IBM.",
+      "url": "https://github.com/IBM/mcp",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mcp A collection of Model Context Protocol (MCP) servers, clients and developer tools by IBM. IBM/mcp data-ai"
+    },
+    {
+      "name": "Gito",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "Nayjest/Gito",
+      "stars": 378,
+      "desc": "An AI-powered GitHub code review tool that uses LLMs to detect high-confidence, high-impact issues—such as security vulnerabilities, bugs, and maintainability concerns.",
+      "url": "https://github.com/Nayjest/Gito",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Gito An AI-powered GitHub code review tool that uses LLMs to detect high-confidence, high-impact issues—such as security vulnerabilities, bugs, and maintainability concerns. Nayjest/Gito data-ai"
+    },
+    {
+      "name": "opensync",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "waynesutton/opensync",
+      "stars": 400,
+      "desc": "Cloud-synced dashboards for OpenCode and Claude Code. Track sessions, search with semantic lookup, export eval datasets.",
+      "url": "https://github.com/waynesutton/opensync",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "opensync Cloud-synced dashboards for OpenCode and Claude Code. Track sessions, search with semantic lookup, export eval datasets. waynesutton/opensync data-ai"
+    },
+    {
+      "name": "aacr-bench",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "alibaba/aacr-bench",
+      "stars": 181,
+      "desc": "An Alibaba open-source multi-language benchmark for evaluating LLMs in repository-level automatic code review, featuring an AI-assisted and expert-verified dataset.",
+      "url": "https://github.com/alibaba/aacr-bench",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aacr-bench An Alibaba open-source multi-language benchmark for evaluating LLMs in repository-level automatic code review, featuring an AI-assisted and expert-verified dataset. alibaba/aacr-bench data-ai"
+    },
+    {
+      "name": "chek-ego-miner",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "chekdata/chek-ego-miner",
+      "stars": 155,
+      "desc": "CHEK EGO Miner by Qingkong Technology: use CHEK mobile and Qingkong Miker desktop to collect first-person EGO data for embodied AI.",
+      "url": "https://github.com/chekdata/chek-ego-miner",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "chek-ego-miner CHEK EGO Miner by Qingkong Technology: use CHEK mobile and Qingkong Miker desktop to collect first-person EGO data for embodied AI. chekdata/chek-ego-miner data-ai"
+    },
+    {
+      "name": "awesome-legaltech",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "Vaquill-AI/awesome-legaltech",
+      "stars": 146,
+      "desc": "A curated list of awesome LegalTech resources - open source platforms, AI models, MCP servers, companies, datasets, and tools for the global legal ecosystem.",
+      "url": "https://github.com/Vaquill-AI/awesome-legaltech",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-legaltech A curated list of awesome LegalTech resources - open source platforms, AI models, MCP servers, companies, datasets, and tools for the global legal ecosystem. Vaquill-AI/awesome-legaltech data-ai"
+    },
+    {
+      "name": "SocratiCode",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "giancarloerra/SocratiCode",
+      "stars": 3066,
+      "desc": "Enterprise-grade (40m+ LOC) codebase intelligence, zero-setup, local & private Plugin/Skill/Extension or MCP: hybrid semantic search, polyglot dependency graphs, symbol-level impact analysis & call-flow, interactive HTML viewer, cross-project & branch-aware search, DB/API/infra knowledge. 61% less tokens, 84% fewer calls, 37x faster. Cloud in beta.",
+      "url": "https://github.com/giancarloerra/SocratiCode",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "SocratiCode Enterprise-grade (40m+ LOC) codebase intelligence, zero-setup, local & private Plugin/Skill/Extension or MCP: hybrid semantic search, polyglot dependency graphs, symbol-level impact analysis & call-flow, interactive HTML viewer, cross-project & branch-aware search, DB/API/infra knowledge. 61% less tokens, 84% fewer calls, 37x faster. Cloud in beta. giancarloerra/SocratiCode data-ai"
+    },
+    {
+      "name": "lucebox-hub",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "Luce-Org/lucebox-hub",
+      "stars": 2624,
+      "desc": "Fast LLM speculative inference server for consumer hardware.",
+      "url": "https://github.com/Luce-Org/lucebox-hub",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "lucebox-hub Fast LLM speculative inference server for consumer hardware. Luce-Org/lucebox-hub data-ai"
+    },
+    {
+      "name": "openlake",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "openlake-project/openlake",
+      "stars": 1678,
+      "desc": "OpenLake is a high performance storage engine for efficient LLM inference and GPU Training",
+      "url": "https://github.com/openlake-project/openlake",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openlake OpenLake is a high performance storage engine for efficient LLM inference and GPU Training openlake-project/openlake data-ai"
+    },
+    {
+      "name": "tokenspeed",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "lightseekorg/tokenspeed",
+      "stars": 1535,
+      "desc": "TokenSpeed is a speed-of-light LLM inference engine.",
+      "url": "https://github.com/lightseekorg/tokenspeed",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "tokenspeed TokenSpeed is a speed-of-light LLM inference engine. lightseekorg/tokenspeed data-ai"
+    },
+    {
+      "name": "llm-internals",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "amitshekhariitbhu/llm-internals",
+      "stars": 1294,
+      "desc": "Learn LLM internals step by step - from tokenization to attention to inference optimization.",
+      "url": "https://github.com/amitshekhariitbhu/llm-internals",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "llm-internals Learn LLM internals step by step - from tokenization to attention to inference optimization. amitshekhariitbhu/llm-internals data-ai"
+    },
+    {
+      "name": "orthrus",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "chiennv2000/orthrus",
+      "stars": 452,
+      "desc": "Fast, lossless LLM inference via dual-view diffusion decoding.",
+      "url": "https://github.com/chiennv2000/orthrus",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "orthrus Fast, lossless LLM inference via dual-view diffusion decoding. chiennv2000/orthrus data-ai"
+    },
+    {
+      "name": "shard",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "leyten/shard",
+      "stars": 390,
+      "desc": "Pipeline-parallel LLM inference across GPUs on separate machines.",
+      "url": "https://github.com/leyten/shard",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "shard Pipeline-parallel LLM inference across GPUs on separate machines. leyten/shard data-ai"
+    },
+    {
+      "name": "FlashRT",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "flashrt-project/FlashRT",
+      "stars": 387,
+      "desc": "FlashRT is a high-performance realtime inference engine for small-batch, latency-sensitive AI workloads. The flagship integration is production VLA control for Pi0, Pi0.5, GROOT N1.6, and Pi0-FAST. Also support llm e.g, qwen3.6-27B",
+      "url": "https://github.com/flashrt-project/FlashRT",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "FlashRT FlashRT is a high-performance realtime inference engine for small-batch, latency-sensitive AI workloads. The flagship integration is production VLA control for Pi0, Pi0.5, GROOT N1.6, and Pi0-FAST. Al flashrt-project/FlashRT data-ai"
+    },
+    {
+      "name": "inferoa",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "agentic-in/inferoa",
+      "stars": 334,
+      "desc": "Inference-native Tokenmaxxing Agent Harness for Loop Engineering",
+      "url": "https://github.com/agentic-in/inferoa",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "inferoa Inference-native Tokenmaxxing Agent Harness for Loop Engineering agentic-in/inferoa data-ai"
+    },
+    {
+      "name": "cider",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "Mininglamp-AI/cider",
+      "stars": 331,
+      "desc": "W8A8/W4A8 inference + optimized SDPA on Apple Silicon — unlocking unused INT8 TensorOps in M5 for 1.2–1.9× faster LLM prefill, plus FlashInfer-inspired GQA decode attention for up to 1.6× SDPA speedup, built as MLX custom primitives.",
+      "url": "https://github.com/Mininglamp-AI/cider",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cider W8A8/W4A8 inference + optimized SDPA on Apple Silicon — unlocking unused INT8 TensorOps in M5 for 1.2–1.9× faster LLM prefill, plus FlashInfer-inspired GQA decode attention for up to 1.6× SDPA speedup Mininglamp-AI/cider data-ai"
+    },
+    {
+      "name": "vLLM-2080Ti-Definitive",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "weicj/vLLM-2080Ti-Definitive",
+      "stars": 303,
+      "desc": "The definitive vLLM runtime for dual RTX 2080 Ti 22GB + NVLink, delivering Qwen 27B local inference with 100+ tok/s single-request decode with support of FP8 weight ",
+      "url": "https://github.com/weicj/vLLM-2080Ti-Definitive",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vLLM-2080Ti-Definitive The definitive vLLM runtime for dual RTX 2080 Ti 22GB + NVLink, delivering Qwen 27B local inference with 100+ tok/s single-request decode with support of FP8 weight  weicj/vLLM-2080Ti-Definitive data-ai"
+    },
+    {
+      "name": "vllm-swift",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "TheTom/vllm-swift",
+      "stars": 270,
+      "desc": "vLLM Metal plugin powered by mlx-swift — high-performance LLM inference on Apple Silicon",
+      "url": "https://github.com/TheTom/vllm-swift",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vllm-swift vLLM Metal plugin powered by mlx-swift — high-performance LLM inference on Apple Silicon TheTom/vllm-swift data-ai"
+    },
+    {
+      "name": "Project_Chronos",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "FonaTech/Project_Chronos",
+      "stars": 203,
+      "desc": "⚡ Zero-Stall MoE Inference via Lookahead Prediction & Async DMA Prefetching. Optimized for SSD I/O with Hybrid MLA+Sliding Window Attention.",
+      "url": "https://github.com/FonaTech/Project_Chronos",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Project_Chronos ⚡ Zero-Stall MoE Inference via Lookahead Prediction & Async DMA Prefetching. Optimized for SSD I/O with Hybrid MLA+Sliding Window Attention. FonaTech/Project_Chronos data-ai"
+    },
+    {
+      "name": "QuantumFlow",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "zimingttkx/QuantumFlow",
+      "stars": 192,
+      "desc": "QuantumFlow - Distributed LLM inference scheduling framework with multi-backend support (vLLM, TGI, SGLang), adaptive scheduling strategies, and cluster management.",
+      "url": "https://github.com/zimingttkx/QuantumFlow",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "QuantumFlow QuantumFlow - Distributed LLM inference scheduling framework with multi-backend support (vLLM, TGI, SGLang), adaptive scheduling strategies, and cluster management. zimingttkx/QuantumFlow data-ai"
+    },
+    {
+      "name": "llm-systems-engineering-roadmap",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "h9-tec/llm-systems-engineering-roadmap",
+      "stars": 165,
+      "desc": "A practical roadmap for mastering LLM internals, training, inference, RAG, agents, evaluation, and production architecture.",
+      "url": "https://github.com/h9-tec/llm-systems-engineering-roadmap",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "llm-systems-engineering-roadmap A practical roadmap for mastering LLM internals, training, inference, RAG, agents, evaluation, and production architecture. h9-tec/llm-systems-engineering-roadmap data-ai"
+    },
+    {
+      "name": "deepseek-v4-pro-flash-desktop-app",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "HiyuCat/deepseek-v4-pro-flash-desktop-app",
+      "stars": 165,
+      "desc": "deepseek-v4-pro-flash deepseek ai large language model llm mixture of experts moe 1m context window hybrid attention architecture compressed sparse attention csa heavily compressed attention hca manifold constrained hyper deepseek-v4-pro deepseek-v4-flash open source hugging face github repository api access local llm inference vllm ollama",
+      "url": "https://github.com/HiyuCat/deepseek-v4-pro-flash-desktop-app",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "deepseek-v4-pro-flash-desktop-app deepseek-v4-pro-flash deepseek ai large language model llm mixture of experts moe 1m context window hybrid attention architecture compressed sparse attention csa heavily compressed attention hca manif HiyuCat/deepseek-v4-pro-flash-desktop-app data-ai"
+    },
+    {
+      "name": "garden-skills",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "ConardLi/garden-skills",
+      "stars": 9014,
+      "desc": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+      "url": "https://github.com/ConardLi/garden-skills",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "garden-skills ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more. ConardLi/garden-skills data-ai"
+    },
+    {
+      "name": "SearchCLI",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "volcengine/SearchCLI",
+      "stars": 881,
+      "desc": "Open CLI for integrating AI search, recommendation, and conversational retrieval into agent systems and business systems",
+      "url": "https://github.com/volcengine/SearchCLI",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "SearchCLI Open CLI for integrating AI search, recommendation, and conversational retrieval into agent systems and business systems volcengine/SearchCLI data-ai"
+    },
+    {
+      "name": "flowcraft",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "GizClaw/flowcraft",
+      "stars": 490,
+      "desc": "Production-grade Go SDK for building AI agents with long-term memory, knowledge retrieval, and voice — runnable as a library, a daemon, or a real-time pipeline.",
+      "url": "https://github.com/GizClaw/flowcraft",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "flowcraft Production-grade Go SDK for building AI agents with long-term memory, knowledge retrieval, and voice — runnable as a library, a daemon, or a real-time pipeline. GizClaw/flowcraft data-ai"
+    },
+    {
+      "name": "smfs",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "supermemoryai/smfs",
+      "stars": 462,
+      "desc": "A filesystem designed for agents, with SOTA retrieval, automatic memory profiles, sync engine. Drop any file type (pdf, images, videos), and grep through them.",
+      "url": "https://github.com/supermemoryai/smfs",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "smfs A filesystem designed for agents, with SOTA retrieval, automatic memory profiles, sync engine. Drop any file type (pdf, images, videos), and grep through them. supermemoryai/smfs data-ai"
+    },
+    {
+      "name": "statewave",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "smaramwbc/statewave",
+      "stars": 237,
+      "desc": "Open-source memory runtime for AI agents — reproducible, provenance-tagged context bundles instead of query-time retrieval. Apache-2.0, self-hosted on Postgres + pgvector, Python + TypeScript SDKs.",
+      "url": "https://github.com/smaramwbc/statewave",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "statewave Open-source memory runtime for AI agents — reproducible, provenance-tagged context bundles instead of query-time retrieval. Apache-2.0, self-hosted on Postgres + pgvector, Python + TypeScript SDKs. smaramwbc/statewave data-ai"
+    },
+    {
+      "name": "caura-memclaw",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "caura-ai/caura-memclaw",
+      "stars": 212,
+      "desc": "Governed shared memory for AI agent fleets — multi-agent, multi-tenant, MCP-native. Trust tiers, keystone policies, audit trails, knowledge graph, self-improving retrieval. Apache 2.0.",
+      "url": "https://github.com/caura-ai/caura-memclaw",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "caura-memclaw Governed shared memory for AI agent fleets — multi-agent, multi-tenant, MCP-native. Trust tiers, keystone policies, audit trails, knowledge graph, self-improving retrieval. Apache 2.0. caura-ai/caura-memclaw data-ai"
+    },
+    {
+      "name": "context-engine",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "Emmimal/context-engine",
+      "stars": 192,
+      "desc": "A pure-Python context management layer for LLM systems — retrieval, re-ranking, memory decay, and token-budget enforcement in one pipeline.",
+      "url": "https://github.com/Emmimal/context-engine",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "context-engine A pure-Python context management layer for LLM systems — retrieval, re-ranking, memory decay, and token-budget enforcement in one pipeline. Emmimal/context-engine data-ai"
+    },
+    {
+      "name": "tw-legal-rag",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "aa0101181514/tw-legal-rag",
+      "stars": 181,
+      "desc": "Open-source CLI for semantic Taiwan legal judgment retrieval. Search judgments, package them for your own AI (Claude/ChatGPT), and run a bundle-level citation check. Bring your own LLM; retrieval-only.",
+      "url": "https://github.com/aa0101181514/tw-legal-rag",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "tw-legal-rag Open-source CLI for semantic Taiwan legal judgment retrieval. Search judgments, package them for your own AI (Claude/ChatGPT), and run a bundle-level citation check. Bring your own LLM; retrieval-only aa0101181514/tw-legal-rag data-ai"
+    },
+    {
+      "name": "hermes-memory-installer",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "mage0535/hermes-memory-installer",
+      "stars": 166,
+      "desc": "🧠 Production-grade memory sidecar for AI agents — gbrain + Hindsight + 3-tier recall. Agent-agnostic, battle-tested. | 生产级外挂记忆系统，兼容Hermes/Claude/Cursor等任意AI智能体",
+      "url": "https://github.com/mage0535/hermes-memory-installer",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "hermes-memory-installer 🧠 Production-grade memory sidecar for AI agents — gbrain + Hindsight + 3-tier recall. Agent-agnostic, battle-tested. | 生产级外挂记忆系统，兼容Hermes/Claude/Cursor等任意AI智能体 mage0535/hermes-memory-installer data-ai"
+    },
+    {
+      "name": "moshi-rag",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "kyutai-labs/moshi-rag",
+      "stars": 115,
+      "desc": "MoshiRAG is a compact full-duplex speech language model augmented with asynchronous knowledge retrieval to improve factuality without sacrificing real-time interactivity.",
+      "url": "https://github.com/kyutai-labs/moshi-rag",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "moshi-rag MoshiRAG is a compact full-duplex speech language model augmented with asynchronous knowledge retrieval to improve factuality without sacrificing real-time interactivity. kyutai-labs/moshi-rag data-ai"
+    },
+    {
+      "name": "SR-Agents",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "oneal2000/SR-Agents",
+      "stars": 86,
+      "desc": "SRA-Bench and SR-Agents: a benchmark and toolkit for skill-retrieval-augmented LLM agents.",
+      "url": "https://github.com/oneal2000/SR-Agents",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "SR-Agents SRA-Bench and SR-Agents: a benchmark and toolkit for skill-retrieval-augmented LLM agents. oneal2000/SR-Agents data-ai"
+    },
+    {
+      "name": "LongLive-RAG",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "qixinhu11/LongLive-RAG",
+      "stars": 79,
+      "desc": "Official Implementation of LongLive-RAG: A general retrieval-augmented framework for long video generation.",
+      "url": "https://github.com/qixinhu11/LongLive-RAG",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "LongLive-RAG Official Implementation of LongLive-RAG: A general retrieval-augmented framework for long video generation. qixinhu11/LongLive-RAG data-ai"
+    },
+    {
+      "name": "taosmd",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "jaylfc/taosmd",
+      "stars": 63,
+      "desc": "Local-first AI memory — runs offline on any machine with 8 GB+ RAM (SBC, mini PC, laptop, workstation). Zero-loss verbatim archive, knowledge graph, hybrid retrieval. Framework-agnostic, no cloud.",
+      "url": "https://github.com/jaylfc/taosmd",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "taosmd Local-first AI memory — runs offline on any machine with 8 GB+ RAM (SBC, mini PC, laptop, workstation). Zero-loss verbatim archive, knowledge graph, hybrid retrieval. Framework-agnostic, no cloud. jaylfc/taosmd data-ai"
+    },
+    {
+      "name": "oogaboogalm",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "Mintzs/oogaboogalm",
+      "stars": 50,
+      "desc": "We have caveman system prompts and skills for AI models to reduce token use, why not try bake it into the model itself with fine-tuning?",
+      "url": "https://github.com/Mintzs/oogaboogalm",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "oogaboogalm We have caveman system prompts and skills for AI models to reduce token use, why not try bake it into the model itself with fine-tuning? Mintzs/oogaboogalm data-ai"
     }
   ]
 }

@@ -4,7 +4,7 @@
     "topCategoryId": "design",
     "subCategoryId": "ui",
     "categoryPath": "design-ui",
-    "count": 471,
+    "count": 483,
     "sourceData": "categories"
   },
   "skills": [
@@ -8738,6 +8738,222 @@
         "openclaw"
       ],
       "searchText": "agent-toolkit-for-aws Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS https://github.com/aws/agent-toolkit-for-aws design-ui"
+    },
+    {
+      "name": "styleseed",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "bitjaru/styleseed",
+      "stars": 632,
+      "desc": "Design engine for Claude Code, Codex & Cursor — teaches design judgment, not just data. 74 rules, 48 components, 7 brand skins (Toss/Stripe/Linear/Notion/Raycast/Arc/Vercel), a named motion system (5 seeds + 20+ moves), 15 /ss-* skills. Stop shipping AI UI that looks generated. MIT.",
+      "url": "https://github.com/bitjaru/styleseed",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "styleseed Design engine for Claude Code, Codex & Cursor — teaches design judgment, not just data. 74 rules, 48 components, 7 brand skins (Toss/Stripe/Linear/Notion/Raycast/Arc/Vercel), a named motion system (5 seeds + 20+ moves), 15 /ss-* skills. Stop shipping AI UI that looks generated. MIT. bitjaru/styleseed design-ui"
+    },
+    {
+      "name": "KuiklyUI-AI",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "Tencent-TDS/KuiklyUI-AI",
+      "stars": 106,
+      "desc": "AI-powered development tools and rules for KuiklyUI — boost your Kuikly cross-platform development productivity.",
+      "url": "https://github.com/Tencent-TDS/KuiklyUI-AI",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "KuiklyUI-AI AI-powered development tools and rules for KuiklyUI — boost your Kuikly cross-platform development productivity. Tencent-TDS/KuiklyUI-AI design-ui"
+    },
+    {
+      "name": "ComfyUI_FL-HeartMuLa",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "filliptm/ComfyUI_FL-HeartMuLa",
+      "stars": 128,
+      "desc": "FL HeartMuLa - Multilingual AI music generation nodes for ComfyUI. Generate full songs with lyrics using HeartMuLa.",
+      "url": "https://github.com/filliptm/ComfyUI_FL-HeartMuLa",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ComfyUI_FL-HeartMuLa FL HeartMuLa - Multilingual AI music generation nodes for ComfyUI. Generate full songs with lyrics using HeartMuLa. filliptm/ComfyUI_FL-HeartMuLa design-ui"
+    },
+    {
+      "name": "MinerU-Skill",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "Nebutra/MinerU-Skill",
+      "stars": 74,
+      "desc": "AI-Native document parser: PDF, Office & images → clean Markdown with LaTeX, tables & OCR. Zero-dependency CLI & skill for Claude Code, Cursor & AI agents.",
+      "url": "https://github.com/Nebutra/MinerU-Skill",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "MinerU-Skill AI-Native document parser: PDF, Office & images → clean Markdown with LaTeX, tables & OCR. Zero-dependency CLI & skill for Claude Code, Cursor & AI agents. Nebutra/MinerU-Skill design-ui"
+    },
+    {
+      "name": "zelda-hyrule-ui",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "chaos-xxl/zelda-hyrule-ui",
+      "stars": 308,
+      "desc": "🗡️ Zelda BOTW style React UI component library — 84 components with Sheikah glow effects, dark theme, and AI-consumable design specs (Cursor/v0 ready)",
+      "url": "https://github.com/chaos-xxl/zelda-hyrule-ui",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "zelda-hyrule-ui 🗡️ Zelda BOTW style React UI component library — 84 components with Sheikah glow effects, dark theme, and AI-consumable design specs (Cursor/v0 ready) chaos-xxl/zelda-hyrule-ui design-ui"
+    },
+    {
+      "name": "better-design",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "marvkr/better-design",
+      "stars": 158,
+      "desc": "🎨 Open-source design MCP server + shadcn/ui registry — AI design systems for Claude Code, Cursor, Codex, GitHub Copilot & any MCP client. 31 brand-grade themes (Linear, Stripe, Vercel, Notion, Apple, Supabase, Figma…) + design tokens, UI principles & WCAG rules. Install any component with one command.",
+      "url": "https://github.com/marvkr/better-design",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "better-design 🎨 Open-source design MCP server + shadcn/ui registry — AI design systems for Claude Code, Cursor, Codex, GitHub Copilot & any MCP client. 31 brand-grade themes (Linear, Stripe, Vercel, Notion, Apple,  marvkr/better-design design-ui"
+    },
+    {
+      "name": "awesome-design-md-cn",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "fchangjun/awesome-design-md-cn",
+      "stars": 126,
+      "desc": "Stitch 提出的设计系统文档格式 —— 用纯文本 Markdown 记录设计系统，让 AI 编码 Agent 能够生成风格一致的 UI。",
+      "url": "https://github.com/fchangjun/awesome-design-md-cn",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-design-md-cn Stitch 提出的设计系统文档格式 —— 用纯文本 Markdown 记录设计系统，让 AI 编码 Agent 能够生成风格一致的 UI。 fchangjun/awesome-design-md-cn design-ui"
+    },
+    {
+      "name": "opsintech-platform",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "OpsinTech/opsintech-platform",
+      "stars": 89,
+      "desc": "OpsinTech Platform — An enterprise-grade AI agent platform built on LangGraph, featuring multi-tenant architecture, role-based access control, sandboxed tool execution, and an admin UI for managing models, MCP servers, skills, and tools. Designed for production deployment with Docker, PostgreSQL support, and comprehensive governance capabilities.",
+      "url": "https://github.com/OpsinTech/opsintech-platform",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "opsintech-platform OpsinTech Platform — An enterprise-grade AI agent platform built on LangGraph, featuring multi-tenant architecture, role-based access control, sandboxed tool execution, and an admin UI for managing mo OpsinTech/opsintech-platform design-ui"
+    },
+    {
+      "name": "awesome-ios-design-md",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "Meliwat/awesome-ios-design-md",
+      "stars": 82,
+      "desc": "200 production-grade DESIGN.md design systems for the world's best apps. Framework-neutral plus SwiftUI, Jetpack Compose, and Expo. Hand one to your AI agent, ship pixel-matched UI.",
+      "url": "https://github.com/Meliwat/awesome-ios-design-md",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-ios-design-md 200 production-grade DESIGN.md design systems for the world's best apps. Framework-neutral plus SwiftUI, Jetpack Compose, and Expo. Hand one to your AI agent, ship pixel-matched UI. Meliwat/awesome-ios-design-md design-ui"
+    },
+    {
+      "name": "layr",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "layr-hq/layr",
+      "stars": 69,
+      "desc": "A modular UX, design, and product optimisation system for turning AI-built interfaces into production-grade apps, turning proven principles into enforceable constraints that reduce friction, build trust, and drive action. Works with Claude, Codex, Cursor + all other agentic AI models.",
+      "url": "https://github.com/layr-hq/layr",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "layr A modular UX, design, and product optimisation system for turning AI-built interfaces into production-grade apps, turning proven principles into enforceable constraints that reduce friction, build tru layr-hq/layr design-ui"
+    },
+    {
+      "name": "jp-ui-contracts",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "hirokaji/jp-ui-contracts",
+      "stars": 66,
+      "desc": "Japanese UI design contracts for AI builders. DESIGN.md templates, CSS recipes, and validation rules for Japanese interfaces.",
+      "url": "https://github.com/hirokaji/jp-ui-contracts",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "jp-ui-contracts Japanese UI design contracts for AI builders. DESIGN.md templates, CSS recipes, and validation rules for Japanese interfaces. hirokaji/jp-ui-contracts design-ui"
+    },
+    {
+      "name": "tokui",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "jboltai/tokui",
+      "stars": 47,
+      "desc": "TokUI-From Token to UI. The world's first For AI & zero-dependency streaming UI framework. Describe components with a minimal DSL on the backend, push over SSE or WebSocket, and render incrementally on the frontend — the first token starts painting the DOM, letting AI produce more flexible, expressive UI with minimal tokens.",
+      "url": "https://github.com/jboltai/tokui",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "tokui TokUI-From Token to UI. The world's first For AI & zero-dependency streaming UI framework. Describe components with a minimal DSL on the backend, push over SSE or WebSocket, and render incrementally o jboltai/tokui design-ui"
     }
   ]
 }

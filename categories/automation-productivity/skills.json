@@ -4,7 +4,7 @@
     "topCategoryId": "automation",
     "subCategoryId": "productivity",
     "categoryPath": "automation-productivity",
-    "count": 322,
+    "count": 339,
     "sourceData": "categories"
   },
   "skills": [
@@ -5613,6 +5613,312 @@
         "openclaw"
       ],
       "searchText": "user-research-skill Cookiy AI Skill for AI agents — end-to-end user research https://github.com/cookiy-ai/user-research-skill automation-productivity"
+    },
+    {
+      "name": "open-browser-use",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "iFurySt/open-browser-use",
+      "stars": 176,
+      "desc": "🔮 Platform-neutral Browser Use for AI agents: real Chrome automation with a CLI + SDKs, no lock-in, dead simple.",
+      "url": "https://github.com/iFurySt/open-browser-use",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "open-browser-use 🔮 Platform-neutral Browser Use for AI agents: real Chrome automation with a CLI + SDKs, no lock-in, dead simple. iFurySt/open-browser-use automation-productivity"
+    },
+    {
+      "name": "browsing-skills",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "browsing-skills/browsing-skills",
+      "stars": 105,
+      "desc": "Open-source registry of browser-automation skills for AI agents",
+      "url": "https://github.com/browsing-skills/browsing-skills",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "browsing-skills Open-source registry of browser-automation skills for AI agents browsing-skills/browsing-skills automation-productivity"
+    },
+    {
+      "name": "Uni-CLI",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "olo-dot-io/Uni-CLI",
+      "stars": 88,
+      "desc": "Operations substrate for AI agents that use real software: 311 sites/tools, logged-in browsers, desktop apps, local tools, MCP, policy, evidence, AgentEnvelope v2, and self-repair.",
+      "url": "https://github.com/olo-dot-io/Uni-CLI",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Uni-CLI Operations substrate for AI agents that use real software: 311 sites/tools, logged-in browsers, desktop apps, local tools, MCP, policy, evidence, AgentEnvelope v2, and self-repair. olo-dot-io/Uni-CLI automation-productivity"
+    },
+    {
+      "name": "jarvis-voice-assistant",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "Julian-Ivanov/jarvis-voice-assistant",
+      "stars": 73,
+      "desc": "Personal AI assistant with voice control, browser automation, and screen capture. Double-clap to launch. Built with Claude Code.",
+      "url": "https://github.com/Julian-Ivanov/jarvis-voice-assistant",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "jarvis-voice-assistant Personal AI assistant with voice control, browser automation, and screen capture. Double-clap to launch. Built with Claude Code. Julian-Ivanov/jarvis-voice-assistant automation-productivity"
+    },
+    {
+      "name": "BrowserSkill",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "Tencent/BrowserSkill",
+      "stars": 66,
+      "desc": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+      "url": "https://github.com/Tencent/BrowserSkill",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "BrowserSkill Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent. Tencent/BrowserSkill automation-productivity"
+    },
+    {
+      "name": "parallel-browser-mcp",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "etairl/parallel-browser-mcp",
+      "stars": 43,
+      "desc": "An MCP server for parallel browser automation by AI agents with multiple cloud providers",
+      "url": "https://github.com/etairl/parallel-browser-mcp",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "parallel-browser-mcp An MCP server for parallel browser automation by AI agents with multiple cloud providers etairl/parallel-browser-mcp automation-productivity"
+    },
+    {
+      "name": "Brahma-AI",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "titechprabhasolutions/Brahma-AI",
+      "stars": 31,
+      "desc": "Brahma AI is a Windows‑first personal AI assistant with voice control, local task automation, and an Electron UI. It supports multi‑step commands, browser automation, routines, and a modular backend.",
+      "url": "https://github.com/titechprabhasolutions/Brahma-AI",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Brahma-AI Brahma AI is a Windows‑first personal AI assistant with voice control, local task automation, and an Electron UI. It supports multi‑step commands, browser automation, routines, and a modular backend. titechprabhasolutions/Brahma-AI automation-productivity"
+    },
+    {
+      "name": "OpenCometAI",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "princechouhan19/OpenCometAI",
+      "stars": 30,
+      "desc": "Open Comet is an autonomous AI agent integrated into your Chrome browser. It enables safe, transparent, and multi-modal web automation—allowing AI models to browse, research, and interact with the web just like a human.",
+      "url": "https://github.com/princechouhan19/OpenCometAI",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "OpenCometAI Open Comet is an autonomous AI agent integrated into your Chrome browser. It enables safe, transparent, and multi-modal web automation—allowing AI models to browse, research, and interact with the web princechouhan19/OpenCometAI automation-productivity"
+    },
+    {
+      "name": "denova",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "alfredxw/denova",
+      "stars": 412,
+      "desc": "An AI creative platform for novel writing and story-driven games, powered by AI agents, Skills, Subagent Workflows, Automations, and versioned project workspaces.",
+      "url": "https://github.com/alfredxw/denova",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "denova An AI creative platform for novel writing and story-driven games, powered by AI agents, Skills, Subagent Workflows, Automations, and versioned project workspaces. alfredxw/denova automation-productivity"
+    },
+    {
+      "name": "mobileClaw",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "eggbrid2/mobileClaw",
+      "stars": 396,
+      "desc": "Open Android AI agent runtime for phone control, app automation, VLM screen reading, skill routing, mini apps, and Mihomo VPN workflows.",
+      "url": "https://github.com/eggbrid2/mobileClaw",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mobileClaw Open Android AI agent runtime for phone control, app automation, VLM screen reading, skill routing, mini apps, and Mihomo VPN workflows. eggbrid2/mobileClaw automation-productivity"
+    },
+    {
+      "name": "ghostwork",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "hvardhan878/ghostwork",
+      "stars": 149,
+      "desc": "Your personal AI worker. Watches your screen, learns your workflows, automates the repetitive parts. Built on Screenpipe. All local, no cloud, no setup. It gets better every day without you doing anything differently.",
+      "url": "https://github.com/hvardhan878/ghostwork",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ghostwork Your personal AI worker. Watches your screen, learns your workflows, automates the repetitive parts. Built on Screenpipe. All local, no cloud, no setup. It gets better every day without you doing anyt hvardhan878/ghostwork automation-productivity"
+    },
+    {
+      "name": "bagidea-office",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "bagidea/bagidea-office",
+      "stars": 130,
+      "desc": "A living AI-agent office on your desktop wallpaper — Claude Code agents that walk, work, delegate, learn & hold meetings. Per-agent swappable models (Claude/GLM/DeepSeek/Qwen/Kimi/OpenAI/Gemini/Groq/Ollama…), workflows, plugins, voice & Telegram/Discord/LINE. Open source.",
+      "url": "https://github.com/bagidea/bagidea-office",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "bagidea-office A living AI-agent office on your desktop wallpaper — Claude Code agents that walk, work, delegate, learn & hold meetings. Per-agent swappable models (Claude/GLM/DeepSeek/Qwen/Kimi/OpenAI/Gemini/Groq/O bagidea/bagidea-office automation-productivity"
+    },
+    {
+      "name": "n8n-Actual-Automation",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "hail2victors/n8n-Actual-Automation",
+      "stars": 125,
+      "desc": "6 n8n workflows for Actual Budget — AI transaction categorization, envelope auto-funding, and weekly budget briefing via Telegram",
+      "url": "https://github.com/hail2victors/n8n-Actual-Automation",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "n8n-Actual-Automation 6 n8n workflows for Actual Budget — AI transaction categorization, envelope auto-funding, and weekly budget briefing via Telegram hail2victors/n8n-Actual-Automation automation-productivity"
+    },
+    {
+      "name": "AgentLoom",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "linora-u/AgentLoom",
+      "stars": 88,
+      "desc": "Simple, flexible workflow orchestration for multi-agent AI apps, with YAML configuration, runtime safety, observability, and resume support.",
+      "url": "https://github.com/linora-u/AgentLoom",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AgentLoom Simple, flexible workflow orchestration for multi-agent AI apps, with YAML configuration, runtime safety, observability, and resume support. linora-u/AgentLoom automation-productivity"
+    },
+    {
+      "name": "daisy-engine",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "daisy-workflow/daisy-engine",
+      "stars": 84,
+      "desc": "AI orchestration platform",
+      "url": "https://github.com/daisy-workflow/daisy-engine",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "daisy-engine AI orchestration platform daisy-workflow/daisy-engine automation-productivity"
+    },
+    {
+      "name": "EDAgent",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "Varn1t/EDAgent",
+      "stars": 70,
+      "desc": "Multi-agent exploratory data analysis system with autonomous insights, visualization, preprocessing, and reporting workflows.",
+      "url": "https://github.com/Varn1t/EDAgent",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "EDAgent Multi-agent exploratory data analysis system with autonomous insights, visualization, preprocessing, and reporting workflows. Varn1t/EDAgent automation-productivity"
+    },
+    {
+      "name": "eonardo-ai-studio-cli",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "Vance96-stack/eonardo-ai-studio-cli",
+      "stars": 69,
+      "desc": "Leonardo AI Premium Automation Suite 2026: Ultimate Creative AI Toolkit & Workflow Generator",
+      "url": "https://github.com/Vance96-stack/eonardo-ai-studio-cli",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "eonardo-ai-studio-cli Leonardo AI Premium Automation Suite 2026: Ultimate Creative AI Toolkit & Workflow Generator Vance96-stack/eonardo-ai-studio-cli automation-productivity"
     }
   ]
 }

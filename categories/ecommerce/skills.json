@@ -4,7 +4,7 @@
     "topCategoryId": "ecommerce",
     "subCategoryId": "ecommerce",
     "categoryPath": "ecommerce",
-    "count": 78,
+    "count": 83,
     "sourceData": "categories"
   },
   "skills": [
@@ -1411,6 +1411,96 @@
         "general"
       ],
       "searchText": "EC-Designer AI 電商商品圖文生成工具，從產品圖自動生成完整行銷素材包，同時生成三條行銷策略路線，一批次產出產品海報、商品主圖及介紹長條圖 。AI-powered product marketing design tool that automatically generates complete social media marketing asset packages (8 images) from product photos, including ad visuals and sales story graphics. mkhsu2002/EC-Designer ecommerce"
+    },
+    {
+      "name": "ai-image-prompt-cookbook",
+      "source": "ecommerce",
+      "sourceAgent": "ecommerce",
+      "repo": "gpt-img-2/ai-image-prompt-cookbook",
+      "stars": 67,
+      "desc": "中文 AI 图片提示词库，覆盖女装、童装、电商主图、产品摄影、小红书封面和广告海报。",
+      "url": "https://github.com/gpt-img-2/ai-image-prompt-cookbook",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-image-prompt-cookbook 中文 AI 图片提示词库，覆盖女装、童装、电商主图、产品摄影、小红书封面和广告海报。 gpt-img-2/ai-image-prompt-cookbook ecommerce"
+    },
+    {
+      "name": "viskit-studio",
+      "source": "ecommerce",
+      "sourceAgent": "ecommerce",
+      "repo": "MyuriKanao/viskit-studio",
+      "stars": 41,
+      "desc": "自托管商品视觉工作台：商品识别、AI 图片生成、二次编辑与电商营销素材套包。",
+      "url": "https://github.com/MyuriKanao/viskit-studio",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "viskit-studio 自托管商品视觉工作台：商品识别、AI 图片生成、二次编辑与电商营销素材套包。 MyuriKanao/viskit-studio ecommerce"
+    },
+    {
+      "name": "awesome-amazon-ec-skills",
+      "source": "ecommerce",
+      "sourceAgent": "ecommerce",
+      "repo": "hikari0511/awesome-amazon-ec-skills",
+      "stars": 37,
+      "desc": "亚马逊跨境电商场景下的 Claude / AI Agent Skills 合集（中文优先，聚焦 Amazon 出海 + 1688 供货上游）",
+      "url": "https://github.com/hikari0511/awesome-amazon-ec-skills",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-amazon-ec-skills 亚马逊跨境电商场景下的 Claude / AI Agent Skills 合集（中文优先，聚焦 Amazon 出海 + 1688 供货上游） hikari0511/awesome-amazon-ec-skills ecommerce"
+    },
+    {
+      "name": "vibemarketer-skills",
+      "source": "ecommerce",
+      "sourceAgent": "ecommerce",
+      "repo": "vibemarketer94/vibemarketer-skills",
+      "stars": 32,
+      "desc": "AI skill package for paid social operators: Meta performance analysis, creative angle research, KPI workbooks, and UGC scriptwriting.",
+      "url": "https://github.com/vibemarketer94/vibemarketer-skills",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vibemarketer-skills AI skill package for paid social operators: Meta performance analysis, creative angle research, KPI workbooks, and UGC scriptwriting. vibemarketer94/vibemarketer-skills ecommerce"
+    },
+    {
+      "name": "1688-cli",
+      "source": "ecommerce",
+      "sourceAgent": "ecommerce",
+      "repo": "superjack2050/1688-cli",
+      "stars": 30,
+      "desc": "1688 CLI is an AI-agent-friendly command-line tool for 1688 sourcing, product research, supplier evaluation, procurement Inquire, and order management.helping dropshippers and Amazon sellers automate and streamline their sourcing workflow from 1688.",
+      "url": "https://github.com/superjack2050/1688-cli",
+      "install": "",
+      "functionCategory": "ecommerce",
+      "topCategoryId": "ecommerce",
+      "subCategoryId": "general",
+      "categoryPath": "ecommerce",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "1688-cli 1688 CLI is an AI-agent-friendly command-line tool for 1688 sourcing, product research, supplier evaluation, procurement Inquire, and order management.helping dropshippers and Amazon sellers automate  superjack2050/1688-cli ecommerce"
     }
   ]
 }

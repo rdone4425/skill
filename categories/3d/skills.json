@@ -4,7 +4,7 @@
     "topCategoryId": "3d",
     "subCategoryId": "3d",
     "categoryPath": "3d",
-    "count": 82,
+    "count": 83,
     "sourceData": "categories"
   },
   "skills": [
@@ -1486,6 +1486,24 @@
         "general"
       ],
       "searchText": "Awesome-3D-Generation A curated list of awesome 3D generation resources, papers, and tools for AI-powered 3D content creation. BunnySoCrazy/Awesome-3D-Generation 3d"
+    },
+    {
+      "name": "cadgenbench",
+      "source": "3d",
+      "sourceAgent": "3d",
+      "repo": "huggingface/cadgenbench",
+      "stars": 76,
+      "desc": "A benchmark for AI-driven CAD generation and editing",
+      "url": "https://github.com/huggingface/cadgenbench",
+      "install": "",
+      "functionCategory": "3d",
+      "topCategoryId": "3d",
+      "subCategoryId": "general",
+      "categoryPath": "3d",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cadgenbench A benchmark for AI-driven CAD generation and editing huggingface/cadgenbench 3d"
     }
   ]
 }

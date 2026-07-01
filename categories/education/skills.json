@@ -4,7 +4,7 @@
     "topCategoryId": "education",
     "subCategoryId": "education",
     "categoryPath": "education",
-    "count": 111,
+    "count": 114,
     "sourceData": "categories"
   },
   "skills": [
@@ -1988,6 +1988,60 @@
       "stars": 0,
       "language": "",
       "topics": []
+    },
+    {
+      "name": "Early-Alzheimers-Detection",
+      "source": "education",
+      "sourceAgent": "education",
+      "repo": "SuryaThejas-07/Early-Alzheimers-Detection",
+      "stars": 73,
+      "desc": "NeuroScan MRI is an advanced deep learning system for early Alzheimer's detection using MRI scans. Built with PyTorch, it features a quantum attention-enhanced ResNet50 achieving 89.6% accuracy across four severity levels. The platform includes explainable AI (GradCAM visualization), an interactive Gradio web interface for diagnosis .",
+      "url": "https://github.com/SuryaThejas-07/Early-Alzheimers-Detection",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "general",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Early-Alzheimers-Detection NeuroScan MRI is an advanced deep learning system for early Alzheimer's detection using MRI scans. Built with PyTorch, it features a quantum attention-enhanced ResNet50 achieving 89.6% accuracy across SuryaThejas-07/Early-Alzheimers-Detection education"
+    },
+    {
+      "name": "studyield",
+      "source": "education",
+      "sourceAgent": "education",
+      "repo": "studyield/studyield",
+      "stars": 59,
+      "desc": " Open-source AI learning platform with exam cloning, multi-agent problem solving, knowledge graphs, and teach-back evaluation. Self-hosted, 12 languages, web + mobile.",
+      "url": "https://github.com/studyield/studyield",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "general",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "studyield  Open-source AI learning platform with exam cloning, multi-agent problem solving, knowledge graphs, and teach-back evaluation. Self-hosted, 12 languages, web + mobile. studyield/studyield education"
+    },
+    {
+      "name": "peer-learning",
+      "source": "education",
+      "sourceAgent": "education",
+      "repo": "durdana3105/peer-learning",
+      "stars": 36,
+      "desc": "Peer Learning Platform : An AI-powered collaborative learning platform where students can connect with peers, share knowledge, solve doubts, join study sessions, and learn together through real-time interaction and smart recommendations.",
+      "url": "https://github.com/durdana3105/peer-learning",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "general",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "peer-learning Peer Learning Platform : An AI-powered collaborative learning platform where students can connect with peers, share knowledge, solve doubts, join study sessions, and learn together through real-time i durdana3105/peer-learning education"
     }
   ]
 }

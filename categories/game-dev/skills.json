@@ -4,7 +4,7 @@
     "topCategoryId": "game-dev",
     "subCategoryId": "game-dev",
     "categoryPath": "game-dev",
-    "count": 104,
+    "count": 105,
     "sourceData": "categories"
   },
   "skills": [
@@ -1883,6 +1883,24 @@
       "description": "A curated list of awesome AI tools for game developers",
       "url": "https://github.com/simoninithomas/awesome-ai-tools-for-game-dev",
       "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "berryscode",
+      "source": "game-dev",
+      "sourceAgent": "game-dev",
+      "repo": "KyosukeIshizu1008/berryscode",
+      "stars": 129,
+      "desc": "Native IDE for the Bevy game engine, built in Bevy + Rust. Scene editor, ECS inspector, AI agent, mobile build, Godot project read-only viewer.",
+      "url": "https://github.com/KyosukeIshizu1008/berryscode",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game-dev",
+      "subCategoryId": "general",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "berryscode Native IDE for the Bevy game engine, built in Bevy + Rust. Scene editor, ECS inspector, AI agent, mobile build, Godot project read-only viewer. KyosukeIshizu1008/berryscode game-dev"
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-01T09:41:00Z",
+  "generatedAt": "2026-07-01T19:16:29Z",
   "sourceData": "categories",
-  "totalSkills": 6394,
+  "totalSkills": 6912,
   "categories": [
     {
       "id": "dev-tools",
       "path": "dev-tools",
       "groupId": "development",
       "subcategoryId": "tools",
-      "count": 1275,
+      "count": 1328,
       "name_en": "Developer Tools",
       "name_cn": "开发工具",
       "hfTasks": [],
@@ -55,7 +55,7 @@
       "path": "general",
       "groupId": "general",
       "subcategoryId": "general",
-      "count": 710,
+      "count": 712,
       "name_en": "General Tools",
       "name_cn": "通用工具",
       "hfTasks": [],
@@ -95,7 +95,7 @@
       "path": "data-ai",
       "groupId": "data",
       "subcategoryId": "ai",
-      "count": 693,
+      "count": 761,
       "name_en": "Data & AI / ML",
       "name_cn": "数据与 AI",
       "hfTasks": [
@@ -180,7 +180,7 @@
       "path": "design-ui",
       "groupId": "design",
       "subcategoryId": "ui",
-      "count": 470,
+      "count": 483,
       "name_en": "Design & UI",
       "name_cn": "设计与 UI",
       "hfTasks": [],
@@ -223,7 +223,7 @@
       "path": "agent-framework",
       "groupId": "agent-framework",
       "subcategoryId": "agent-framework",
-      "count": 918,
+      "count": 1179,
       "name_en": "AI Agent Frameworks",
       "name_cn": "Agent 框架",
       "hfTasks": [],
@@ -266,7 +266,7 @@
       "path": "docs-content",
       "groupId": "docs",
       "subcategoryId": "content",
-      "count": 205,
+      "count": 206,
       "name_en": "Documentation & Content",
       "name_cn": "文档与内容",
       "hfTasks": [
@@ -309,7 +309,7 @@
       "path": "automation-productivity",
       "groupId": "automation",
       "subcategoryId": "productivity",
-      "count": 302,
+      "count": 339,
       "name_en": "Automation & Productivity",
       "name_cn": "自动化与效率",
       "hfTasks": [],
@@ -352,7 +352,7 @@
       "path": "security",
       "groupId": "security",
       "subcategoryId": "general",
-      "count": 278,
+      "count": 291,
       "name_en": "Security & Cybersecurity",
       "name_cn": "安全工具",
       "hfTasks": [],
@@ -391,7 +391,7 @@
       "path": "social-media",
       "groupId": "social-media",
       "subcategoryId": "social-media",
-      "count": 145,
+      "count": 149,
       "name_en": "Social Media",
       "name_cn": "社交媒体",
       "hfTasks": [],
@@ -430,7 +430,7 @@
       "path": "finance-crypto",
       "groupId": "finance-crypto",
       "subcategoryId": "finance-crypto",
-      "count": 142,
+      "count": 149,
       "name_en": "Finance & Crypto",
       "name_cn": "金融与加密",
       "hfTasks": [],
@@ -471,7 +471,7 @@
       "path": "devops-deploy",
       "groupId": "devops",
       "subcategoryId": "deploy",
-      "count": 144,
+      "count": 146,
       "name_en": "DevOps & Deployment",
       "name_cn": "DevOps 与部署",
       "hfTasks": [],
@@ -513,7 +513,7 @@
       "path": "backend-api",
       "groupId": "backend",
       "subcategoryId": "api",
-      "count": 224,
+      "count": 230,
       "name_en": "Backend & API",
       "name_cn": "后端与 API",
       "hfTasks": [],
@@ -555,7 +555,7 @@
       "path": "game-dev",
       "groupId": "game-dev",
       "subcategoryId": "game-dev",
-      "count": 104,
+      "count": 105,
       "name_en": "Game Development",
       "name_cn": "游戏开发",
       "hfTasks": [],
@@ -596,7 +596,7 @@
       "path": "testing-qa",
       "groupId": "testing",
       "subcategoryId": "qa",
-      "count": 117,
+      "count": 123,
       "name_en": "Testing & QA",
       "name_cn": "测试与 QA",
       "hfTasks": [],
@@ -636,7 +636,7 @@
       "path": "education",
       "groupId": "education",
       "subcategoryId": "education",
-      "count": 111,
+      "count": 114,
       "name_en": "Education & Learning",
       "name_cn": "教育",
       "hfTasks": [],
@@ -716,7 +716,7 @@
       "path": "3d",
       "groupId": "3d",
       "subcategoryId": "3d",
-      "count": 82,
+      "count": 83,
       "name_en": "3D Modeling & Rendering",
       "name_cn": "3D",
       "hfTasks": [
@@ -762,7 +762,7 @@
       "path": "ecommerce",
       "groupId": "ecommerce",
       "subcategoryId": "ecommerce",
-      "count": 78,
+      "count": 83,
       "name_en": "E-Commerce",
       "name_cn": "电商",
       "hfTasks": [],
@@ -802,7 +802,7 @@
       "path": "video-multimedia",
       "groupId": "video-multimedia",
       "subcategoryId": "video-multimedia",
-      "count": 99,
+      "count": 102,
       "name_en": "Video & Multimedia",
       "name_cn": "视频与多媒体",
       "hfTasks": [
@@ -889,7 +889,7 @@
       "path": "video-gen",
       "groupId": "video-gen",
       "subcategoryId": "video-gen",
-      "count": 54,
+      "count": 66,
       "name_en": "AI Video Generation",
       "name_cn": "AI 视频生成",
       "hfTasks": [
@@ -934,7 +934,7 @@
       "path": "audio-speech",
       "groupId": "audio-speech",
       "subcategoryId": "audio-speech",
-      "count": 70,
+      "count": 90,
       "name_en": "Speech & Text-to-Speech",
       "name_cn": "语音与 TTS",
       "hfTasks": [
@@ -984,31 +984,31 @@
           "id": "dev/tools",
           "path": "dev/tools",
           "subcategoryId": "tools",
-          "count": 427
+          "count": 0
         },
         {
           "id": "dev/general",
           "path": "dev/general",
           "subcategoryId": "general",
-          "count": 74
+          "count": 0
         },
         {
           "id": "dev/skills",
           "path": "dev/skills",
           "subcategoryId": "skills",
-          "count": 38
+          "count": 0
         },
         {
           "id": "dev/ios",
           "path": "dev/ios",
           "subcategoryId": "ios",
-          "count": 8
+          "count": 0
         },
         {
           "id": "dev/ide",
           "path": "dev/ide",
           "subcategoryId": "ide",
-          "count": 3
+          "count": 0
         }
       ]
     },
@@ -1020,25 +1020,25 @@
           "id": "data/ai",
           "path": "data/ai",
           "subcategoryId": "ai",
-          "count": 358
+          "count": 0
         },
         {
           "id": "data/general",
           "path": "data/general",
           "subcategoryId": "general",
-          "count": 42
+          "count": 0
         },
         {
           "id": "data/models",
           "path": "data/models",
           "subcategoryId": "models",
-          "count": 20
+          "count": 0
         },
         {
           "id": "data/memory",
           "path": "data/memory",
           "subcategoryId": "memory",
-          "count": 12
+          "count": 0
         }
       ]
     },
@@ -1050,13 +1050,13 @@
           "id": "research/ai",
           "path": "research/ai",
           "subcategoryId": "ai",
-          "count": 80
+          "count": 0
         },
         {
           "id": "research/ml",
           "path": "research/ml",
           "subcategoryId": "ml",
-          "count": 40
+          "count": 0
         }
       ]
     },
@@ -1068,13 +1068,13 @@
           "id": "agent/framework",
           "path": "agent/framework",
           "subcategoryId": "framework",
-          "count": 811
+          "count": 0
         },
         {
           "id": "agent/tools",
           "path": "agent/tools",
           "subcategoryId": "tools",
-          "count": 80
+          "count": 0
         }
       ]
     }

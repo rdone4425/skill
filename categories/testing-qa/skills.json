@@ -4,7 +4,7 @@
     "topCategoryId": "testing",
     "subCategoryId": "qa",
     "categoryPath": "testing-qa",
-    "count": 117,
+    "count": 123,
     "sourceData": "categories"
   },
   "skills": [
@@ -2192,6 +2192,114 @@
       "stars": 0,
       "language": "",
       "topics": []
+    },
+    {
+      "name": "tauri-pilot",
+      "source": "testing-qa",
+      "sourceAgent": "testing-qa",
+      "repo": "mpiton/tauri-pilot",
+      "stars": 60,
+      "desc": "Interactive testing CLI for Tauri v2 apps : lets AI agents inspect, interact with, and debug Tauri applications in real-time",
+      "url": "https://github.com/mpiton/tauri-pilot",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing-qa",
+      "subCategoryId": "general",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "tauri-pilot Interactive testing CLI for Tauri v2 apps : lets AI agents inspect, interact with, and debug Tauri applications in real-time mpiton/tauri-pilot testing-qa"
+    },
+    {
+      "name": "ai-api-test-skill",
+      "source": "testing-qa",
+      "sourceAgent": "testing-qa",
+      "repo": "buer2233/ai-api-test-skill",
+      "stars": 59,
+      "desc": "AI接口自动化测试 Skill：面向 Python + pytest + requests，驱动 Codex / Claude Code 生成、维护和调试接口用例（AI API test automation skill for Python + pytest + requests）",
+      "url": "https://github.com/buer2233/ai-api-test-skill",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing-qa",
+      "subCategoryId": "general",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-api-test-skill AI接口自动化测试 Skill：面向 Python + pytest + requests，驱动 Codex / Claude Code 生成、维护和调试接口用例（AI API test automation skill for Python + pytest + requests） buer2233/ai-api-test-skill testing-qa"
+    },
+    {
+      "name": "ai-auto-work",
+      "source": "testing-qa",
+      "sourceAgent": "testing-qa",
+      "repo": "chaohong-ai/ai-auto-work",
+      "stars": 41,
+      "desc": "Automatically completes the full workflow from requirement research → research review → planning → plan review → development →  development review using → test AI large language models. Capable of autonomously handling medium to large-scale engineering projects.",
+      "url": "https://github.com/chaohong-ai/ai-auto-work",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing-qa",
+      "subCategoryId": "general",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-auto-work Automatically completes the full workflow from requirement research → research review → planning → plan review → development →  development review using → test AI large language models. Capable of aut chaohong-ai/ai-auto-work testing-qa"
+    },
+    {
+      "name": "heal-playwright-tracer",
+      "source": "testing-qa",
+      "sourceAgent": "testing-qa",
+      "repo": "heal-dev/heal-playwright-tracer",
+      "stars": 40,
+      "desc": "Open-source statement-level Playwright tracer, purpose-built for AI agents. Analyzes test runs with increased accuracy.",
+      "url": "https://github.com/heal-dev/heal-playwright-tracer",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing-qa",
+      "subCategoryId": "general",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "heal-playwright-tracer Open-source statement-level Playwright tracer, purpose-built for AI agents. Analyzes test runs with increased accuracy. heal-dev/heal-playwright-tracer testing-qa"
+    },
+    {
+      "name": "Harness-for-codex",
+      "source": "testing-qa",
+      "sourceAgent": "testing-qa",
+      "repo": "ganimjeong/Harness-for-codex",
+      "stars": 36,
+      "desc": "Codex harness for consistent AI-assisted development workflows, including agent   instructions, standard setup/check/test/eval scripts, CI, hooks, and  documentation. |  AI 기반 개발 작업을 일관되게 진행하기 위한 Codex 하네스입니다. 에이전트 지침, 표준 setup/check/test/eval 스크립트, CI, 훅, 문서를 포함합니다.",
+      "url": "https://github.com/ganimjeong/Harness-for-codex",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing-qa",
+      "subCategoryId": "general",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Harness-for-codex Codex harness for consistent AI-assisted development workflows, including agent   instructions, standard setup/check/test/eval scripts, CI, hooks, and  documentation. |  AI 기반 개발 작업을 일관되게 진행하기 위한 Code ganimjeong/Harness-for-codex testing-qa"
+    },
+    {
+      "name": "4x",
+      "source": "testing-qa",
+      "sourceAgent": "testing-qa",
+      "repo": "ggwhite/4x",
+      "stars": 33,
+      "desc": "Agentic AI development loop that splits Design, Code, Review, and Test into isolated roles with deterministic guardrails",
+      "url": "https://github.com/ggwhite/4x",
+      "install": "",
+      "functionCategory": "testing-qa",
+      "topCategoryId": "testing-qa",
+      "subCategoryId": "general",
+      "categoryPath": "testing-qa",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "4x Agentic AI development loop that splits Design, Code, Review, and Test into isolated roles with deterministic guardrails ggwhite/4x testing-qa"
     }
   ]
 }

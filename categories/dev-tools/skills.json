@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 1289,
+    "count": 1328,
     "sourceData": "categories"
   },
   "skills": [
@@ -24332,6 +24332,708 @@
         "openclaw"
       ],
       "searchText": "eca Editor Code Assistant (ECA) - AI pair programming capabilities agnostic of editor https://github.com/editor-code-assistant/eca dev-tools"
+    },
+    {
+      "name": "mcp-atlassian",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "sooperset/mcp-atlassian",
+      "stars": 5484,
+      "desc": "MCP server for Atlassian tools (Confluence, Jira)",
+      "url": "https://github.com/sooperset/mcp-atlassian",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mcp-atlassian MCP server for Atlassian tools (Confluence, Jira) sooperset/mcp-atlassian dev-tools"
+    },
+    {
+      "name": "godot-mcp",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "Coding-Solo/godot-mcp",
+      "stars": 4492,
+      "desc": "MCP server for interfacing with Godot game engine. Provides tools for launching the editor, running projects, and capturing debug output.",
+      "url": "https://github.com/Coding-Solo/godot-mcp",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "godot-mcp MCP server for interfacing with Godot game engine. Provides tools for launching the editor, running projects, and capturing debug output. Coding-Solo/godot-mcp dev-tools"
+    },
+    {
+      "name": "core",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "opensumi/core",
+      "stars": 3635,
+      "desc": "A framework helps you quickly build AI Native IDE products. MCP Client, supports Model Context Protocol (MCP) tools via MCP server.",
+      "url": "https://github.com/opensumi/core",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "core A framework helps you quickly build AI Native IDE products. MCP Client, supports Model Context Protocol (MCP) tools via MCP server. opensumi/core dev-tools"
+    },
+    {
+      "name": "rill",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "rilldata/rill",
+      "stars": 2702,
+      "desc": "The fastest business intelligence tool for humans and agents.",
+      "url": "https://github.com/rilldata/rill",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "rill The fastest business intelligence tool for humans and agents. rilldata/rill dev-tools"
+    },
+    {
+      "name": "jarvis-registry",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "ascending-llc/jarvis-registry",
+      "stars": 1743,
+      "desc": "Connect any AI copilot or autonomous agent to your enterprise tools — through a single, secure MCP/Agent gateway with built-in identity, access control, and full observability.",
+      "url": "https://github.com/ascending-llc/jarvis-registry",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "jarvis-registry Connect any AI copilot or autonomous agent to your enterprise tools — through a single, secure MCP/Agent gateway with built-in identity, access control, and full observability. ascending-llc/jarvis-registry dev-tools"
+    },
+    {
+      "name": "blitz-mac",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "blitzdotdev/blitz-mac",
+      "stars": 1715,
+      "desc": "Native macOS App Store Connect tool with MCP. Submit iOS apps to App Store with AI agents",
+      "url": "https://github.com/blitzdotdev/blitz-mac",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "blitz-mac Native macOS App Store Connect tool with MCP. Submit iOS apps to App Store with AI agents blitzdotdev/blitz-mac dev-tools"
+    },
+    {
+      "name": "ai-manus",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "Simpleyyt/ai-manus",
+      "stars": 1581,
+      "desc": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+      "url": "https://github.com/Simpleyyt/ai-manus",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-manus AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. Simpleyyt/ai-manus dev-tools"
+    },
+    {
+      "name": "evolving_personality",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "agent-topia/evolving_personality",
+      "stars": 1196,
+      "desc": "Dynamic MBTI Personality Simulation for LLM Agents via Carl Jung's Theory. A framework that enables LLM agents' MBTI personalities to naturally evolve and grow through interaction.",
+      "url": "https://github.com/agent-topia/evolving_personality",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "evolving_personality Dynamic MBTI Personality Simulation for LLM Agents via Carl Jung's Theory. A framework that enables LLM agents' MBTI personalities to naturally evolve and grow through interaction. agent-topia/evolving_personality dev-tools"
+    },
+    {
+      "name": "mcp-boilerplate",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "iannuttall/mcp-boilerplate",
+      "stars": 1021,
+      "desc": "A remote Cloudflare MCP server boilerplate with user authentication and Stripe for paid tools.",
+      "url": "https://github.com/iannuttall/mcp-boilerplate",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mcp-boilerplate A remote Cloudflare MCP server boilerplate with user authentication and Stripe for paid tools. iannuttall/mcp-boilerplate dev-tools"
+    },
+    {
+      "name": "annas-mcp",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "iosifache/annas-mcp",
+      "stars": 922,
+      "desc": "MCP server and CLI tool for searching and downloading documents from Anna's Archive",
+      "url": "https://github.com/iosifache/annas-mcp",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "annas-mcp MCP server and CLI tool for searching and downloading documents from Anna's Archive iosifache/annas-mcp dev-tools"
+    },
+    {
+      "name": "awesome-a2a",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "ai-boost/awesome-a2a",
+      "stars": 622,
+      "desc": "Agent2Agent (A2A) – awesome A2A agents, tools, servers & clients, all in one place.",
+      "url": "https://github.com/ai-boost/awesome-a2a",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-a2a Agent2Agent (A2A) – awesome A2A agents, tools, servers & clients, all in one place. ai-boost/awesome-a2a dev-tools"
+    },
+    {
+      "name": "markdown-site",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "waynesutton/markdown-site",
+      "stars": 621,
+      "desc": "An open-source publishing framework built for AI agents and developers to ship websites, docs, or blogs. Write markdown, sync from the terminal. Your content is instantly available to browsers, LLMs, and AI agents. Built on Convex and Netlify.",
+      "url": "https://github.com/waynesutton/markdown-site",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "markdown-site An open-source publishing framework built for AI agents and developers to ship websites, docs, or blogs. Write markdown, sync from the terminal. Your content is instantly available to browsers, LLMs, and AI agents. Built on Convex and Netlify. waynesutton/markdown-site dev-tools"
+    },
+    {
+      "name": "openapi-mcp-generator",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "harsha-iiiv/openapi-mcp-generator",
+      "stars": 610,
+      "desc": "A tool that converts OpenAPI specifications to MCP server",
+      "url": "https://github.com/harsha-iiiv/openapi-mcp-generator",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openapi-mcp-generator A tool that converts OpenAPI specifications to MCP server harsha-iiiv/openapi-mcp-generator dev-tools"
+    },
+    {
+      "name": "mcp-sequentialthinking-tools",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "spences10/mcp-sequentialthinking-tools",
+      "stars": 583,
+      "desc": "🧠 An adaptation of the MCP Sequential Thinking Server to guide tool usage. This server provides recommendations for which MCP tools would be most effective at each stage.",
+      "url": "https://github.com/spences10/mcp-sequentialthinking-tools",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mcp-sequentialthinking-tools 🧠 An adaptation of the MCP Sequential Thinking Server to guide tool usage. This server provides recommendations for which MCP tools would be most effective at each stage. spences10/mcp-sequentialthinking-tools dev-tools"
+    },
+    {
+      "name": "polymarket-mcp-server",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "caiovicentino/polymarket-mcp-server",
+      "stars": 583,
+      "desc": "🤖 AI-Powered MCP Server for Polymarket - Enable Claude to trade prediction markets with 45 tools, real-time monitoring, and enterprise-grade safety features",
+      "url": "https://github.com/caiovicentino/polymarket-mcp-server",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "polymarket-mcp-server 🤖 AI-Powered MCP Server for Polymarket - Enable Claude to trade prediction markets with 45 tools, real-time monitoring, and enterprise-grade safety features caiovicentino/polymarket-mcp-server dev-tools"
+    },
+    {
+      "name": "kmcp",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "kagent-dev/kmcp",
+      "stars": 469,
+      "desc": "CLI tool and Kubernetes Controller for building, testing and deploying MCP servers",
+      "url": "https://github.com/kagent-dev/kmcp",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "kmcp CLI tool and Kubernetes Controller for building, testing and deploying MCP servers kagent-dev/kmcp dev-tools"
+    },
+    {
+      "name": "awesome-mcp-devtools",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "punkpeye/awesome-mcp-devtools",
+      "stars": 466,
+      "desc": "A curated list of developer tools, SDKs, libraries, and testing utilities for Model Context Protocol (MCP) server development.",
+      "url": "https://github.com/punkpeye/awesome-mcp-devtools",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-mcp-devtools A curated list of developer tools, SDKs, libraries, and testing utilities for Model Context Protocol (MCP) server development. punkpeye/awesome-mcp-devtools dev-tools"
+    },
+    {
+      "name": "gemini-cli-desktop",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "Piebald-AI/gemini-cli-desktop",
+      "stars": 463,
+      "desc": "Web/desktop UI for Gemini CLI/Qwen Code.  Manage projects, switch between tools, search across past conversations, and manage MCP servers, all from one multilingual interface, locally or remotely.",
+      "url": "https://github.com/Piebald-AI/gemini-cli-desktop",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gemini-cli-desktop Web/desktop UI for Gemini CLI/Qwen Code.  Manage projects, switch between tools, search across past conversations, and manage MCP servers, all from one multilingual interface, locally or remotely. Piebald-AI/gemini-cli-desktop dev-tools"
+    },
+    {
+      "name": "embeddedskills",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "zhinkgit/embeddedskills",
+      "stars": 436,
+      "desc": "An open-source collection of embedded development and debugging skills for Claude Code, Copilot, TRAE, and other AI coding assistants that support the Skill protocol. Once installed, the AI assistant can directly operate compilers, debuggers, and communication buses, automating the full workflow from code generation to hardware verification.",
+      "url": "https://github.com/zhinkgit/embeddedskills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "embeddedskills An open-source collection of embedded development and debugging skills for Claude Code, Copilot, TRAE, and other AI coding assistants that support the Skill protocol. Once installed, the AI assistant can directly operate compilers, debuggers, and communication buses, automating the full workflow from code generation to hardware verification. zhinkgit/embeddedskills dev-tools"
+    },
+    {
+      "name": "kagimcp",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "kagisearch/kagimcp",
+      "stars": 431,
+      "desc": "The Official Model Context Protocol (MCP) server for Kagi Search & other tools.",
+      "url": "https://github.com/kagisearch/kagimcp",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "kagimcp The Official Model Context Protocol (MCP) server for Kagi Search & other tools. kagisearch/kagimcp dev-tools"
+    },
+    {
+      "name": "obsidian-mcp-plugin",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "aaronsb/obsidian-mcp-plugin",
+      "stars": 429,
+      "desc": "High-performance Model Context Protocol (MCP) server for Obsidian that provides AI tools with direct vault access through semantic operations and HTTP transport.",
+      "url": "https://github.com/aaronsb/obsidian-mcp-plugin",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "obsidian-mcp-plugin High-performance Model Context Protocol (MCP) server for Obsidian that provides AI tools with direct vault access through semantic operations and HTTP transport. aaronsb/obsidian-mcp-plugin dev-tools"
+    },
+    {
+      "name": "mcp-server-trello",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "delorenj/mcp-server-trello",
+      "stars": 410,
+      "desc": "A Model Context Protocol (MCP) server that provides tools for interacting with Trello boards.",
+      "url": "https://github.com/delorenj/mcp-server-trello",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mcp-server-trello A Model Context Protocol (MCP) server that provides tools for interacting with Trello boards. delorenj/mcp-server-trello dev-tools"
+    },
+    {
+      "name": "Claude-Code-Frontend-Design-Toolkit",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "wilwaldon/Claude-Code-Frontend-Design-Toolkit",
+      "stars": 396,
+      "desc": "Everything I've found that actually makes Claude Code output better-looking frontends. Skills, plugins, MCP servers, CLAUDE.md tricks",
+      "url": "https://github.com/wilwaldon/Claude-Code-Frontend-Design-Toolkit",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Claude-Code-Frontend-Design-Toolkit Everything I've found that actually makes Claude Code output better-looking frontends. Skills, plugins, MCP servers, CLAUDE.md tricks wilwaldon/Claude-Code-Frontend-Design-Toolkit dev-tools"
+    },
+    {
+      "name": "autocad-mcp",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "puran-water/autocad-mcp",
+      "stars": 368,
+      "desc": "MCP server for AutoCAD LT v3.1: freehand AutoLISP execution, 8 consolidated tools, File IPC + ezdxf backends, focus-free dispatch, undo/redo, P&ID symbols, and robust IPC with ESC prefix and UTF-8 fallback. Companion agent skill: puran-water/autocad-drafting",
+      "url": "https://github.com/puran-water/autocad-mcp",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "autocad-mcp MCP server for AutoCAD LT v3.1: freehand AutoLISP execution, 8 consolidated tools, File IPC + ezdxf backends, focus-free dispatch, undo/redo, P&ID symbols, and robust IPC with ESC prefix and UTF-8 fallback. Companion agent skill: puran-water/autocad-drafting puran-water/autocad-mcp dev-tools"
+    },
+    {
+      "name": "Brokies-AI-Foundry",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "Caplet1989/Brokies-AI-Foundry",
+      "stars": 152,
+      "desc": "Top Free AI Developer Tools for 2026",
+      "url": "https://github.com/Caplet1989/Brokies-AI-Foundry",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Brokies-AI-Foundry Top Free AI Developer Tools for 2026 Caplet1989/Brokies-AI-Foundry dev-tools"
+    },
+    {
+      "name": "virtual-crowd",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "CoheeYang/virtual-crowd",
+      "stars": 43,
+      "desc": "An Agentic based User-testing pluging for claude code and other AI tools, which helps developer get feedbacks from virtual user to quickly improve their products",
+      "url": "https://github.com/CoheeYang/virtual-crowd",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "virtual-crowd An Agentic based User-testing pluging for claude code and other AI tools, which helps developer get feedbacks from virtual user to quickly improve their products CoheeYang/virtual-crowd dev-tools"
+    },
+    {
+      "name": "Burrow",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "caezium/Burrow",
+      "stars": 834,
+      "desc": "🐹 A free, open-source, native macOS GUI for the Mole CLI (mo): clean, uninstall, optimize, analyze disk, and watch live status. Plus long-range history + an MCP server for AI agents. Coming to Windows",
+      "url": "https://github.com/caezium/Burrow",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Burrow 🐹 A free, open-source, native macOS GUI for the Mole CLI (mo): clean, uninstall, optimize, analyze disk, and watch live status. Plus long-range history + an MCP server for AI agents. Coming to Windows caezium/Burrow dev-tools"
+    },
+    {
+      "name": "gortex",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "zzet/gortex",
+      "stars": 797,
+      "desc": "High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - expose only needed information, cutting token usage up to 50x. 100% local. Discord: https://discord.gg/ysC2prTGD",
+      "url": "https://github.com/zzet/gortex",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gortex High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - expos zzet/gortex dev-tools"
+    },
+    {
+      "name": "stash",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "alash3al/stash",
+      "stars": 719,
+      "desc": "Stash — persistent memory layer for AI agents. Episodes, facts, and working context stored in Postgres. MCP server included. Self-hosted, single binary, no cloud required.",
+      "url": "https://github.com/alash3al/stash",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "stash Stash — persistent memory layer for AI agents. Episodes, facts, and working context stored in Postgres. MCP server included. Self-hosted, single binary, no cloud required. alash3al/stash dev-tools"
+    },
+    {
+      "name": "storybloq",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "Storybloq/storybloq",
+      "stars": 634,
+      "desc": "Cross-session context for Claude Code. CLI + MCP server + /story skill that tracks tickets, issues, handovers, and roadmap in a .story/ directory.",
+      "url": "https://github.com/Storybloq/storybloq",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "storybloq Cross-session context for Claude Code. CLI + MCP server + /story skill that tracks tickets, issues, handovers, and roadmap in a .story/ directory. Storybloq/storybloq dev-tools"
+    },
+    {
+      "name": "stage-cli",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "ReviewStage/stage-cli",
+      "stars": 242,
+      "desc": "A viewer for reviewing local code changes in small individual chapters. Works with any AI agent.",
+      "url": "https://github.com/ReviewStage/stage-cli",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "stage-cli A viewer for reviewing local code changes in small individual chapters. Works with any AI agent. ReviewStage/stage-cli dev-tools"
+    },
+    {
+      "name": "ahadiff",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "AGI-is-going-to-arrive/ahadiff",
+      "stars": 201,
+      "desc": "Learn from your vibe coding instead of just clicking Accept. AhaDiff turns each AI diff into a code-verified lesson, quiz, and review. · 别再无脑 vibe coding 啦！让你从 vibe coding 中学到真东西。每次改动都变成能查证的课程、测验和复习。",
+      "url": "https://github.com/AGI-is-going-to-arrive/ahadiff",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ahadiff Learn from your vibe coding instead of just clicking Accept. AhaDiff turns each AI diff into a code-verified lesson, quiz, and review. · 别再无脑 vibe coding 啦！让你从 vibe coding 中学到真东西。每次改动都变成能查证的课程、测验和复习。 AGI-is-going-to-arrive/ahadiff dev-tools"
+    },
+    {
+      "name": "student-llm-wiki",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "IssacW228/student-llm-wiki",
+      "stars": 195,
+      "desc": "📚 Student LLM Wiki — AI-compiled knowledge base for university students. Drop course slides, get a persistent interlinked wiki. Feynman review, exam prep, confidence decay, cross-course connections. Based on Karpathy's LLM Wiki pattern. Works with Claude Cowork / Claude Code / Claudian + Obsidian.学生大语言模型维基百科——专为大学生打造的AI编译知识库。",
+      "url": "https://github.com/IssacW228/student-llm-wiki",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "student-llm-wiki 📚 Student LLM Wiki — AI-compiled knowledge base for university students. Drop course slides, get a persistent interlinked wiki. Feynman review, exam prep, confidence decay, cross-course connections. B IssacW228/student-llm-wiki dev-tools"
+    },
+    {
+      "name": "refactoring-ui-plugin",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "gnurio/refactoring-ui-plugin",
+      "stars": 177,
+      "desc": "10 applied skills for Claude Code and Cursor that turn the principles of Refactoring UI into structured AI-assisted design reviews | not affiliated, big fan, get their book here:",
+      "url": "https://github.com/gnurio/refactoring-ui-plugin",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "refactoring-ui-plugin 10 applied skills for Claude Code and Cursor that turn the principles of Refactoring UI into structured AI-assisted design reviews | not affiliated, big fan, get their book here: gnurio/refactoring-ui-plugin dev-tools"
+    },
+    {
+      "name": "claude-cybersecurity",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "AgriciDaniel/claude-cybersecurity",
+      "stars": 171,
+      "desc": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration.",
+      "url": "https://github.com/AgriciDaniel/claude-cybersecurity",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "claude-cybersecurity AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration. AgriciDaniel/claude-cybersecurity dev-tools"
+    },
+    {
+      "name": "Vibe_coding_guide",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "Lling0000/Vibe_coding_guide",
+      "stars": 167,
+      "desc": "中文优先的 Vibe Coding / AI coding engineering workflow guide: specs, agents, worktrees, skills, CI, and review.",
+      "url": "https://github.com/Lling0000/Vibe_coding_guide",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Vibe_coding_guide 中文优先的 Vibe Coding / AI coding engineering workflow guide: specs, agents, worktrees, skills, CI, and review. Lling0000/Vibe_coding_guide dev-tools"
+    },
+    {
+      "name": "strategic-advisor-orchestrator",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "nam271212/strategic-advisor-orchestrator",
+      "stars": 153,
+      "desc": "AI Coding Agent Orchestrator 2026: Pro-Level Strategy & Review Framework",
+      "url": "https://github.com/nam271212/strategic-advisor-orchestrator",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "strategic-advisor-orchestrator AI Coding Agent Orchestrator 2026: Pro-Level Strategy & Review Framework nam271212/strategic-advisor-orchestrator dev-tools"
+    },
+    {
+      "name": "ai-orchestrator",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "Mybono/ai-orchestrator",
+      "stars": 99,
+      "desc": "Portable multi-agent AI developer setup for Claude Code + Ollama. Role-based local LLM orchestration via Bash — plan, code, review, commit. Zero Dependency. Works with any language stack.",
+      "url": "https://github.com/Mybono/ai-orchestrator",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-orchestrator Portable multi-agent AI developer setup for Claude Code + Ollama. Role-based local LLM orchestration via Bash — plan, code, review, commit. Zero Dependency. Works with any language stack. Mybono/ai-orchestrator dev-tools"
+    },
+    {
+      "name": "ForgeDock",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "RapierCraftStudios/ForgeDock",
+      "stars": 99,
+      "desc": "GitHub as a knowledge graph for AI agents. Autonomous dev pipeline for Claude Code - investigate, build, review, merge. Issue in, PR out.",
+      "url": "https://github.com/RapierCraftStudios/ForgeDock",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ForgeDock GitHub as a knowledge graph for AI agents. Autonomous dev pipeline for Claude Code - investigate, build, review, merge. Issue in, PR out. RapierCraftStudios/ForgeDock dev-tools"
     }
   ]
 }

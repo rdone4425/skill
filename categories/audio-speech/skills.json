@@ -4,7 +4,7 @@
     "topCategoryId": "audio-speech",
     "subCategoryId": "audio-speech",
     "categoryPath": "audio-speech",
-    "count": 70,
+    "count": 90,
     "sourceData": "categories"
   },
   "skills": [
@@ -1285,6 +1285,366 @@
         "general"
       ],
       "searchText": "Chanakya-Local-Friend Chanakya is an advanced, open-source, and self-hostable voice assistant designed for privacy, power, and flexibility. It leverages local AI/ML models to ensure your data stays with you. It Integrates with 1000+ third-party MCP servers including Home Assistant.  Rishabh-Bajpai/Chanakya-Local-Friend audio-speech"
+    },
+    {
+      "name": "ChordVox",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "GravityPoet/ChordVox",
+      "stars": 172,
+      "desc": "Your voice is the fastest keyboard. Local AI voice input — speak, AI polish, auto-paste at cursor. Free forever local speech-to-text.",
+      "url": "https://github.com/GravityPoet/ChordVox",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ChordVox Your voice is the fastest keyboard. Local AI voice input — speak, AI polish, auto-paste at cursor. Free forever local speech-to-text. GravityPoet/ChordVox audio-speech"
+    },
+    {
+      "name": "kokoclone",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "Ashish-Patnaik/kokoclone",
+      "stars": 153,
+      "desc": "Voice Cloning, Now Inside Kokoro. Generate natural multilingual speech and clone any target voice with ease.",
+      "url": "https://github.com/Ashish-Patnaik/kokoclone",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "kokoclone Voice Cloning, Now Inside Kokoro. Generate natural multilingual speech and clone any target voice with ease. Ashish-Patnaik/kokoclone audio-speech"
+    },
+    {
+      "name": "awesome-voice-typing",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "primaprashant/awesome-voice-typing",
+      "stars": 139,
+      "desc": "Curated list of open-source speech-to-text and voice typing tools for Linux, macOS, Windows, Android, and iOS. Offline, local, and cloud.",
+      "url": "https://github.com/primaprashant/awesome-voice-typing",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-voice-typing Curated list of open-source speech-to-text and voice typing tools for Linux, macOS, Windows, Android, and iOS. Offline, local, and cloud. primaprashant/awesome-voice-typing audio-speech"
+    },
+    {
+      "name": "omnivoice.cpp",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "ServeurpersoCom/omnivoice.cpp",
+      "stars": 116,
+      "desc": "Local AI text-to-speech with voice cloning and voice design, powered by GGML. C++17 port of OmniVoice (k2-fsa/OmniVoice). 646 languages, 24 kHz mono output, runs on CPU, CUDA, ROCm, Metal, Vulkan.",
+      "url": "https://github.com/ServeurpersoCom/omnivoice.cpp",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "omnivoice.cpp Local AI text-to-speech with voice cloning and voice design, powered by GGML. C++17 port of OmniVoice (k2-fsa/OmniVoice). 646 languages, 24 kHz mono output, runs on CPU, CUDA, ROCm, Metal, Vulkan. ServeurpersoCom/omnivoice.cpp audio-speech"
+    },
+    {
+      "name": "Qwen3-TTS-EasyFinetuning",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "mozi1924/Qwen3-TTS-EasyFinetuning",
+      "stars": 104,
+      "desc": "Easy fine-tuning for Qwen3-TTS: Fast voice cloning and high-quality multilingual speech synthesis.",
+      "url": "https://github.com/mozi1924/Qwen3-TTS-EasyFinetuning",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Qwen3-TTS-EasyFinetuning Easy fine-tuning for Qwen3-TTS: Fast voice cloning and high-quality multilingual speech synthesis. mozi1924/Qwen3-TTS-EasyFinetuning audio-speech"
+    },
+    {
+      "name": "GlassFlow",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "Intent-Lab/GlassFlow",
+      "stars": 88,
+      "desc": "Real-time transcription and AI assistant for Meta Ray-Ban smart glasses. Live speech-to-text, speaker diarization, Gemini Live vision+voice, and WebRTC streaming.",
+      "url": "https://github.com/Intent-Lab/GlassFlow",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "GlassFlow Real-time transcription and AI assistant for Meta Ray-Ban smart glasses. Live speech-to-text, speaker diarization, Gemini Live vision+voice, and WebRTC streaming. Intent-Lab/GlassFlow audio-speech"
+    },
+    {
+      "name": "Aria",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "Xingxun7777/Aria",
+      "stars": 71,
+      "desc": "Windows 本地 AI 语音输入法 — 离线语音识别，屏幕感知上下文，热词纠错，语音指令操作选区。Local AI voice typing for Windows — offline speech-to-text with screen-aware context.",
+      "url": "https://github.com/Xingxun7777/Aria",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Aria Windows 本地 AI 语音输入法 — 离线语音识别，屏幕感知上下文，热词纠错，语音指令操作选区。Local AI voice typing for Windows — offline speech-to-text with screen-aware context. Xingxun7777/Aria audio-speech"
+    },
+    {
+      "name": "qwentts.cpp",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "ServeurpersoCom/qwentts.cpp",
+      "stars": 61,
+      "desc": "Local AI text-to-speech with voice cloning and voice design, powered by GGML. C++17 port of Qwen3-TTS (QwenLM/Qwen3-TTS). 10 languages, 24 kHz mono output, runs on CPU, CUDA, ROCm, Metal, Vulkan.",
+      "url": "https://github.com/ServeurpersoCom/qwentts.cpp",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "qwentts.cpp Local AI text-to-speech with voice cloning and voice design, powered by GGML. C++17 port of Qwen3-TTS (QwenLM/Qwen3-TTS). 10 languages, 24 kHz mono output, runs on CPU, CUDA, ROCm, Metal, Vulkan. ServeurpersoCom/qwentts.cpp audio-speech"
+    },
+    {
+      "name": "ComfyUI-SoulX-Singer",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "Saganaki22/ComfyUI-SoulX-Singer",
+      "stars": 81,
+      "desc": "ComfyUI custom nodes for SoulX-Singer: Towards High-Quality Zero-Shot Singing Voice Synthesis",
+      "url": "https://github.com/Saganaki22/ComfyUI-SoulX-Singer",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ComfyUI-SoulX-Singer ComfyUI custom nodes for SoulX-Singer: Towards High-Quality Zero-Shot Singing Voice Synthesis Saganaki22/ComfyUI-SoulX-Singer audio-speech"
+    },
+    {
+      "name": "faster-qwen3-tts",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "andimarafioti/faster-qwen3-tts",
+      "stars": 1144,
+      "desc": "Real-time text-to-speech with Qwen3-TTS",
+      "url": "https://github.com/andimarafioti/faster-qwen3-tts",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "faster-qwen3-tts Real-time text-to-speech with Qwen3-TTS andimarafioti/faster-qwen3-tts audio-speech"
+    },
+    {
+      "name": "Irodori-TTS",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "Aratako/Irodori-TTS",
+      "stars": 993,
+      "desc": "A Flow Matching-based Text-to-Speech Model with Emoji-driven Style Control",
+      "url": "https://github.com/Aratako/Irodori-TTS",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Irodori-TTS A Flow Matching-based Text-to-Speech Model with Emoji-driven Style Control Aratako/Irodori-TTS audio-speech"
+    },
+    {
+      "name": "qwen3-tts-apple-silicon",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "kapi2800/qwen3-tts-apple-silicon",
+      "stars": 527,
+      "desc": "Run Qwen3-TTS text-to-speech locally on Mac (M1/M2/M3/M4). Voice cloning, voice design, custom voices. 100% offline using MLX.",
+      "url": "https://github.com/kapi2800/qwen3-tts-apple-silicon",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "qwen3-tts-apple-silicon Run Qwen3-TTS text-to-speech locally on Mac (M1/M2/M3/M4). Voice cloning, voice design, custom voices. 100% offline using MLX. kapi2800/qwen3-tts-apple-silicon audio-speech"
+    },
+    {
+      "name": "ComfyUI-OmniVoice-TTS",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "Saganaki22/ComfyUI-OmniVoice-TTS",
+      "stars": 485,
+      "desc": "OmniVoice TTS nodes for ComfyUI - Zero-shot multilingual text-to-speech with voice cloning, voice design, and multi-speaker dialogue",
+      "url": "https://github.com/Saganaki22/ComfyUI-OmniVoice-TTS",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ComfyUI-OmniVoice-TTS OmniVoice TTS nodes for ComfyUI - Zero-shot multilingual text-to-speech with voice cloning, voice design, and multi-speaker dialogue Saganaki22/ComfyUI-OmniVoice-TTS audio-speech"
+    },
+    {
+      "name": "ComfyUI-FishAudioS2",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "Saganaki22/ComfyUI-FishAudioS2",
+      "stars": 253,
+      "desc": "ComfyUI custom nodes for Fish Audio S2-Pro TTS — voice clone, multi-speaker, and text-to-speech",
+      "url": "https://github.com/Saganaki22/ComfyUI-FishAudioS2",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ComfyUI-FishAudioS2 ComfyUI custom nodes for Fish Audio S2-Pro TTS — voice clone, multi-speaker, and text-to-speech Saganaki22/ComfyUI-FishAudioS2 audio-speech"
+    },
+    {
+      "name": "TalkifyTTS",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "LonePheasantWarrior/TalkifyTTS",
+      "stars": 253,
+      "desc": "云端大模型驱动的 Android 语音合成应用（TTS引擎）。支持豆包、腾讯、微软、千问等模型。An Android text-to-speech (TTS) engine powered by cloud-based large language models. Supports models such as Doubao, Tencent, Microsoft, and Qwen.",
+      "url": "https://github.com/LonePheasantWarrior/TalkifyTTS",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "TalkifyTTS 云端大模型驱动的 Android 语音合成应用（TTS引擎）。支持豆包、腾讯、微软、千问等模型。An Android text-to-speech (TTS) engine powered by cloud-based large language models. Supports models such as Doubao, Tencent, Microsoft, and Qwen. LonePheasantWarrior/TalkifyTTS audio-speech"
+    },
+    {
+      "name": "soprano-factory",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "ekwek1/soprano-factory",
+      "stars": 233,
+      "desc": "Soprano-Factory: Train your own 2000x realtime text-to-speech model",
+      "url": "https://github.com/ekwek1/soprano-factory",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "soprano-factory Soprano-Factory: Train your own 2000x realtime text-to-speech model ekwek1/soprano-factory audio-speech"
+    },
+    {
+      "name": "qwen3_tts_rs",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "second-state/qwen3_tts_rs",
+      "stars": 225,
+      "desc": "A Rust implementation of the Qwen3 Text-to-Speech (TTS) model inference.",
+      "url": "https://github.com/second-state/qwen3_tts_rs",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "qwen3_tts_rs A Rust implementation of the Qwen3 Text-to-Speech (TTS) model inference. second-state/qwen3_tts_rs audio-speech"
+    },
+    {
+      "name": "pullmd",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "AeternaLabsHQ/pullmd",
+      "stars": 194,
+      "desc": "Self-hosted URL- and file-to-Markdown service for humans and AI agents - web pages, documents, images, audio, YouTube. PWA + REST + MCP + Claude Code skill, Reddit-aware, refreshable share links.",
+      "url": "https://github.com/AeternaLabsHQ/pullmd",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "pullmd Self-hosted URL- and file-to-Markdown service for humans and AI agents - web pages, documents, images, audio, YouTube. PWA + REST + MCP + Claude Code skill, Reddit-aware, refreshable share links. AeternaLabsHQ/pullmd audio-speech"
+    },
+    {
+      "name": "laravel-ocr",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "mayaramyadav/laravel-ocr",
+      "stars": 73,
+      "desc": "Laravel OCR & Document Data Extractor – A powerful OCR and document parsing engine for Laravel. It provides intelligent text extraction, structured data parsing, and AI-powered cleanup for documents like invoices, receipts, and PDFs.",
+      "url": "https://github.com/mayaramyadav/laravel-ocr",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "laravel-ocr Laravel OCR & Document Data Extractor – A powerful OCR and document parsing engine for Laravel. It provides intelligent text extraction, structured data parsing, and AI-powered cleanup for documents like invoices, receipts, and PDFs. mayaramyadav/laravel-ocr audio-speech"
+    },
+    {
+      "name": "docker-whisper",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "hwdsl2/docker-whisper",
+      "stars": 66,
+      "desc": "Docker image for a self-hosted Whisper speech-to-text server with speaker diarization and OpenAI-compatible transcription and translation APIs. Powered by faster-whisper. Supports all Whisper models, NVIDIA GPU (CUDA) acceleration, JSON/SRT/VTT output, SSE streaming, offline mode, and multi-arch (amd64, arm64).",
+      "url": "https://github.com/hwdsl2/docker-whisper",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "docker-whisper Docker image for a self-hosted Whisper speech-to-text server with speaker diarization and OpenAI-compatible transcription and translation APIs. Powered by faster-whisper. Supports all Whisper models,  hwdsl2/docker-whisper audio-speech"
     }
   ]
 }

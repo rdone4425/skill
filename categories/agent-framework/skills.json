@@ -4,7 +4,7 @@
     "topCategoryId": "agent-framework",
     "subCategoryId": "agent-framework",
     "categoryPath": "agent-framework",
-    "count": 1101,
+    "count": 1179,
     "sourceData": "categories"
   },
   "skills": [
@@ -19418,6 +19418,1410 @@
         "openclaw"
       ],
       "searchText": "SkillClaw Let Skills Evolve Collectively with Agentic Evolver https://github.com/AMAP-ML/SkillClaw agent-framework"
+    },
+    {
+      "name": "sia",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "hexo-ai/sia",
+      "stars": 1938,
+      "desc": "SIA is a Self Improving AI framework to autonomously improve the performance of any AI system (Model / Agent) on a benchmark task.",
+      "url": "https://github.com/hexo-ai/sia",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "sia SIA is a Self Improving AI framework to autonomously improve the performance of any AI system (Model / Agent) on a benchmark task. hexo-ai/sia agent-framework"
+    },
+    {
+      "name": "app-store-screenshots",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "ParthJadhav/app-store-screenshots",
+      "stars": 5954,
+      "desc": "end to end app store screenshot creation using AI",
+      "url": "https://github.com/ParthJadhav/app-store-screenshots",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "app-store-screenshots end to end app store screenshot creation using AI ParthJadhav/app-store-screenshots agent-framework"
+    },
+    {
+      "name": "designer-skills",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "Owl-Listener/designer-skills",
+      "stars": 1702,
+      "desc": "Designer Skills Collection: agentic skills, commands, and plugins for design — from research to systems, UI, interaction, and delivery.",
+      "url": "https://github.com/Owl-Listener/designer-skills",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "designer-skills Designer Skills Collection: agentic skills, commands, and plugins for design — from research to systems, UI, interaction, and delivery. Owl-Listener/designer-skills agent-framework"
+    },
+    {
+      "name": "ui-design-brain",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "carmahhawwari/ui-design-brain",
+      "stars": 830,
+      "desc": "A Cursor skill that gives AI agents real UI component knowledge — best practices, layout patterns, and design-system conventions for 60+ interface components — so it generates production-grade UI instead of generic output.",
+      "url": "https://github.com/carmahhawwari/ui-design-brain",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ui-design-brain A Cursor skill that gives AI agents real UI component knowledge — best practices, layout patterns, and design-system conventions for 60+ interface components — so it generates production-grade UI instead of generic output. carmahhawwari/ui-design-brain agent-framework"
+    },
+    {
+      "name": "awesome-design-md-jp",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "kzhrknt/awesome-design-md-jp",
+      "stars": 803,
+      "desc": "日本語UIをAIエージェントに正しくつくらせるためのDESIGN.md集。Japanese DESIGN.md collection for AI agents — extending Google Stitch format with CJK typography.",
+      "url": "https://github.com/kzhrknt/awesome-design-md-jp",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-design-md-jp 日本語UIをAIエージェントに正しくつくらせるためのDESIGN.md集。Japanese DESIGN.md collection for AI agents — extending Google Stitch format with CJK typography. kzhrknt/awesome-design-md-jp agent-framework"
+    },
+    {
+      "name": "ai-rules",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "fjb040911/ai-rules",
+      "stars": 591,
+      "desc": "ai-rules is a governance framework designed to solve \"Architectural Decay\" in AI-driven development. It forces AI Agents (Cursor, Windsurf, Copilot) to respect your project's boundaries, UI libraries, and design patterns.",
+      "url": "https://github.com/fjb040911/ai-rules",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-rules ai-rules is a governance framework designed to solve \"Architectural Decay\" in AI-driven development. It forces AI Agents (Cursor, Windsurf, Copilot) to respect your project's boundaries, UI libraries, and design patterns. fjb040911/ai-rules agent-framework"
+    },
+    {
+      "name": "PPTAgent",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "icip-cas/PPTAgent",
+      "stars": 4764,
+      "desc": "An Agentic Framework for Reflective PowerPoint Generation",
+      "url": "https://github.com/icip-cas/PPTAgent",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "PPTAgent An Agentic Framework for Reflective PowerPoint Generation icip-cas/PPTAgent agent-framework"
+    },
+    {
+      "name": "agent-service-toolkit",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "JoshuaC215/agent-service-toolkit",
+      "stars": 4352,
+      "desc": "Full toolkit for running an AI agent service built with LangGraph, FastAPI and Streamlit",
+      "url": "https://github.com/JoshuaC215/agent-service-toolkit",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agent-service-toolkit Full toolkit for running an AI agent service built with LangGraph, FastAPI and Streamlit JoshuaC215/agent-service-toolkit agent-framework"
+    },
+    {
+      "name": "LazyLLM",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "LazyAGI/LazyLLM",
+      "stars": 3852,
+      "desc": "Easiest and laziest way for  building multi-agent LLMs applications.",
+      "url": "https://github.com/LazyAGI/LazyLLM",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "LazyLLM Easiest and laziest way for  building multi-agent LLMs applications. LazyAGI/LazyLLM agent-framework"
+    },
+    {
+      "name": "beeai-framework",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "i-am-bee/beeai-framework",
+      "stars": 3310,
+      "desc": "Build production-ready AI agents in both Python and Typescript.",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "beeai-framework Build production-ready AI agents in both Python and Typescript. i-am-bee/beeai-framework agent-framework"
+    },
+    {
+      "name": "lean-ctx",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "yvgude/lean-ctx",
+      "stars": 3046,
+      "desc": "Control what your AI can see. LeanCTX (Lean Context) is the context intelligence layer for AI agents — one local Rust binary that decides what they read, remembers what they learn, guards what they touch, and proves what they save. 60–90% fewer tokens as the receipt. 76 MCP tools, 30+ agents, local-first.",
+      "url": "https://github.com/yvgude/lean-ctx",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "lean-ctx Control what your AI can see. LeanCTX (Lean Context) is the context intelligence layer for AI agents — one local Rust binary that decides what they read, remembers what they learn, guards what they touch, and proves what they save. 60–90% fewer tokens as the receipt. 76 MCP tools, 30+ agents, local-first. yvgude/lean-ctx agent-framework"
+    },
+    {
+      "name": "kite",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "kite-org/kite",
+      "stars": 2856,
+      "desc": "🪁 A lightweight, modern Kubernetes dashboard that unifies multi-cluster and resource management, enterprise-grade user governance (OAuth, RBAC, and audit logs), and AI agents in one workspace. Not just a tool, but more like a platform.",
+      "url": "https://github.com/kite-org/kite",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "kite 🪁 A lightweight, modern Kubernetes dashboard that unifies multi-cluster and resource management, enterprise-grade user governance (OAuth, RBAC, and audit logs), and AI agents in one workspace. Not just a tool, but more like a platform. kite-org/kite agent-framework"
+    },
+    {
+      "name": "mercury-agent",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "cosmicstack-labs/mercury-agent",
+      "stars": 2753,
+      "desc": "Soul-driven AI agent with permission-hardened tools, token budgets, and multi-channel access. Runs 24/7 from CLI or Telegram.",
+      "url": "https://github.com/cosmicstack-labs/mercury-agent",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mercury-agent Soul-driven AI agent with permission-hardened tools, token budgets, and multi-channel access. Runs 24/7 from CLI or Telegram. cosmicstack-labs/mercury-agent agent-framework"
+    },
+    {
+      "name": "NeMo-Agent-Toolkit",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "NVIDIA/NeMo-Agent-Toolkit",
+      "stars": 2464,
+      "desc": "The NVIDIA NeMo Agent toolkit is an open-source library for efficiently connecting and optimizing teams of AI agents.",
+      "url": "https://github.com/NVIDIA/NeMo-Agent-Toolkit",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "NeMo-Agent-Toolkit The NVIDIA NeMo Agent toolkit is an open-source library for efficiently connecting and optimizing teams of AI agents. NVIDIA/NeMo-Agent-Toolkit agent-framework"
+    },
+    {
+      "name": "comfyui_LLM_party",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "heshengtao/comfyui_LLM_party",
+      "stars": 2294,
+      "desc": "LLM Agent Framework in ComfyUI includes MCP sever, Omost,GPT-sovits, ChatTTS,GOT-OCR2.0, and FLUX prompt nodes,access to Feishu,discord,and adapts to all llms with similar openai / aisuite interfaces, such as o1,ollama, gemini, grok, qwen, GLM, deepseek, kimi,doubao. Adapted to local llms, vlm, gguf such as llama-3.3 Janus-Pro, Linkage graphRAG",
+      "url": "https://github.com/heshengtao/comfyui_LLM_party",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "comfyui_LLM_party LLM Agent Framework in ComfyUI includes MCP sever, Omost,GPT-sovits, ChatTTS,GOT-OCR2.0, and FLUX prompt nodes,access to Feishu,discord,and adapts to all llms with similar openai / aisuite interfaces, such as o1,ollama, gemini, grok, qwen, GLM, deepseek, kimi,doubao. Adapted to local llms, vlm, gguf such as llama-3.3 Janus-Pro, Linkage graphRAG heshengtao/comfyui_LLM_party agent-framework"
+    },
+    {
+      "name": "agentUniverse",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "agentuniverse-ai/agentUniverse",
+      "stars": 2284,
+      "desc": "agentUniverse is a LLM multi-agent framework that allows developers to easily build multi-agent applications.",
+      "url": "https://github.com/agentuniverse-ai/agentUniverse",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agentUniverse agentUniverse is a LLM multi-agent framework that allows developers to easily build multi-agent applications. agentuniverse-ai/agentUniverse agent-framework"
+    },
+    {
+      "name": "lagent",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "InternLM/lagent",
+      "stars": 2261,
+      "desc": "A lightweight framework for building LLM-based agents",
+      "url": "https://github.com/InternLM/lagent",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "lagent A lightweight framework for building LLM-based agents InternLM/lagent agent-framework"
+    },
+    {
+      "name": "awesome-harness-engineering",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "ai-boost/awesome-harness-engineering",
+      "stars": 2155,
+      "desc": "Awesome list for AI agent harness engineering: tools, patterns, evals, memory, MCP, permissions, observability, and orchestration.",
+      "url": "https://github.com/ai-boost/awesome-harness-engineering",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-harness-engineering Awesome list for AI agent harness engineering: tools, patterns, evals, memory, MCP, permissions, observability, and orchestration. ai-boost/awesome-harness-engineering agent-framework"
+    },
+    {
+      "name": "llama_deploy",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "run-llama/llama_deploy",
+      "stars": 2068,
+      "desc": "Deploy your agentic worfklows to production",
+      "url": "https://github.com/run-llama/llama_deploy",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "llama_deploy Deploy your agentic worfklows to production run-llama/llama_deploy agent-framework"
+    },
+    {
+      "name": "neuron-ai",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "neuron-core/neuron-ai",
+      "stars": 1990,
+      "desc": "The Agentic Framework of the PHP ecosystem to build production-ready AI driven applications. Connect components (LLMs, Tools, vector DBs, memory) to agents that can interact with your data.",
+      "url": "https://github.com/neuron-core/neuron-ai",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "neuron-ai The Agentic Framework of the PHP ecosystem to build production-ready AI driven applications. Connect components (LLMs, Tools, vector DBs, memory) to agents that can interact with your data. neuron-core/neuron-ai agent-framework"
+    },
+    {
+      "name": "awesome_ai_agents",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "jim-schwoebel/awesome_ai_agents",
+      "stars": 1870,
+      "desc": "🤖 A comprehensive list of 1,500+ resources and tools related to AI agents.",
+      "url": "https://github.com/jim-schwoebel/awesome_ai_agents",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome_ai_agents 🤖 A comprehensive list of 1,500+ resources and tools related to AI agents. jim-schwoebel/awesome_ai_agents agent-framework"
+    },
+    {
+      "name": "uAgents",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "fetchai/uAgents",
+      "stars": 1643,
+      "desc": "A fast and lightweight framework for creating decentralized agents with ease.",
+      "url": "https://github.com/fetchai/uAgents",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "uAgents A fast and lightweight framework for creating decentralized agents with ease. fetchai/uAgents agent-framework"
+    },
+    {
+      "name": "awesome-llm-agents",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "kaushikb11/awesome-llm-agents",
+      "stars": 1519,
+      "desc": "A curated list of awesome LLM agents frameworks.",
+      "url": "https://github.com/kaushikb11/awesome-llm-agents",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "awesome-llm-agents A curated list of awesome LLM agents frameworks. kaushikb11/awesome-llm-agents agent-framework"
+    },
+    {
+      "name": "Director",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "video-db/Director",
+      "stars": 1418,
+      "desc": "AI video agents framework for next-gen video interactions and workflows.",
+      "url": "https://github.com/video-db/Director",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Director AI video agents framework for next-gen video interactions and workflows. video-db/Director agent-framework"
+    },
+    {
+      "name": "chidori",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "ThousandBirdsInc/chidori",
+      "stars": 1355,
+      "desc": "The agent framework where every run is durable, replayable, and resumable by default.",
+      "url": "https://github.com/ThousandBirdsInc/chidori",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "chidori The agent framework where every run is durable, replayable, and resumable by default. ThousandBirdsInc/chidori agent-framework"
+    },
+    {
+      "name": "testsigma",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "testsigmahq/testsigma",
+      "stars": 1202,
+      "desc": "Testsigma is an agentic test automation platform powered by AI-coworkers that work alongside QA teams to simplify testing, accelerate releases and improve quality across web, mobile, desktop, API, and applications like Salesforce and SAP.",
+      "url": "https://github.com/testsigmahq/testsigma",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "testsigma Testsigma is an agentic test automation platform powered by AI-coworkers that work alongside QA teams to simplify testing, accelerate releases and improve quality across web, mobile, desktop, API, and applications like Salesforce and SAP. testsigmahq/testsigma agent-framework"
+    },
+    {
+      "name": "connectonion",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "openonion/connectonion",
+      "stars": 1171,
+      "desc": "The Best AI Agent Framework for Agent Collaboration.",
+      "url": "https://github.com/openonion/connectonion",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "connectonion The Best AI Agent Framework for Agent Collaboration. openonion/connectonion agent-framework"
+    },
+    {
+      "name": "AgentSociety",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "tsinghua-fib-lab/AgentSociety",
+      "stars": 1099,
+      "desc": "AgentSociety 2 is a modern, LLM-native agent simulation platform designed for social science research and experimental design. It provides a flexible framework for creating and managing intelligent agents in simulated environments.",
+      "url": "https://github.com/tsinghua-fib-lab/AgentSociety",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AgentSociety AgentSociety 2 is a modern, LLM-native agent simulation platform designed for social science research and experimental design. It provides a flexible framework for creating and managing intelligent agents in simulated environments. tsinghua-fib-lab/AgentSociety agent-framework"
+    },
+    {
+      "name": "dynamiq",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "dynamiq-ai/dynamiq",
+      "stars": 1057,
+      "desc": "Dynamiq is an orchestration framework for agentic AI and LLM applications",
+      "url": "https://github.com/dynamiq-ai/dynamiq",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "dynamiq Dynamiq is an orchestration framework for agentic AI and LLM applications dynamiq-ai/dynamiq agent-framework"
+    },
+    {
+      "name": "agents-from-scratch",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "pguso/agents-from-scratch",
+      "stars": 878,
+      "desc": "Build AI agents from first principles using a local LLM - no frameworks, no cloud APIs, no hidden reasoning.",
+      "url": "https://github.com/pguso/agents-from-scratch",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agents-from-scratch Build AI agents from first principles using a local LLM - no frameworks, no cloud APIs, no hidden reasoning. pguso/agents-from-scratch agent-framework"
+    },
+    {
+      "name": "ai-trader",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "whchien/ai-trader",
+      "stars": 863,
+      "desc": "Backtrader-powered backtesting framework for algorithmic trading, featuring 20+ strategies, multi-market support, CLI tools, and an integrated MCP server for professional traders.",
+      "url": "https://github.com/whchien/ai-trader",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-trader Backtrader-powered backtesting framework for algorithmic trading, featuring 20+ strategies, multi-market support, CLI tools, and an integrated MCP server for professional traders. whchien/ai-trader agent-framework"
+    },
+    {
+      "name": "AutoAgents",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "liquidos-ai/AutoAgents",
+      "stars": 699,
+      "desc": "A  multi-agent framework written in Rust that enables you to build, deploy, and coordinate multiple intelligent agents",
+      "url": "https://github.com/liquidos-ai/AutoAgents",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AutoAgents A  multi-agent framework written in Rust that enables you to build, deploy, and coordinate multiple intelligent agents liquidos-ai/AutoAgents agent-framework"
+    },
+    {
+      "name": "OpenJudge",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "agentscope-ai/OpenJudge",
+      "stars": 699,
+      "desc": "OpenJudge: A Unified Framework for Holistic Evaluation and Quality Rewards",
+      "url": "https://github.com/agentscope-ai/OpenJudge",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "OpenJudge OpenJudge: A Unified Framework for Holistic Evaluation and Quality Rewards agentscope-ai/OpenJudge agent-framework"
+    },
+    {
+      "name": "Agently-Daily-News-Collector",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "AgentEra/Agently-Daily-News-Collector",
+      "stars": 627,
+      "desc": "An open-source LLM based automatically daily news collecting workflow showcase powered by Agently AI application development framework.",
+      "url": "https://github.com/AgentEra/Agently-Daily-News-Collector",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Agently-Daily-News-Collector An open-source LLM based automatically daily news collecting workflow showcase powered by Agently AI application development framework. AgentEra/Agently-Daily-News-Collector agent-framework"
+    },
+    {
+      "name": "frontman",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "frontman-ai/frontman",
+      "stars": 602,
+      "desc": "The AI agent that lives in your framework/browser",
+      "url": "https://github.com/frontman-ai/frontman",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "frontman The AI agent that lives in your framework/browser frontman-ai/frontman agent-framework"
+    },
+    {
+      "name": "AgentLab",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "ServiceNow/AgentLab",
+      "stars": 597,
+      "desc": "AgentLab: An open-source framework for developing, testing, and benchmarking web agents on diverse tasks, designed for scalability and reproducibility.",
+      "url": "https://github.com/ServiceNow/AgentLab",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AgentLab AgentLab: An open-source framework for developing, testing, and benchmarking web agents on diverse tasks, designed for scalability and reproducibility. ServiceNow/AgentLab agent-framework"
+    },
+    {
+      "name": "graphbit",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "InfinitiBit/graphbit",
+      "stars": 564,
+      "desc": "GraphBit is the world’s first enterprise-grade Agentic AI framework, built on a Rust core with a Python wrapper for unmatched speed, security, and scalability. It enables reliable multi-agent workflows with minimal CPU and memory usage, making it production-ready for real-world enterprise environments.",
+      "url": "https://github.com/InfinitiBit/graphbit",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "graphbit GraphBit is the world’s first enterprise-grade Agentic AI framework, built on a Rust core with a Python wrapper for unmatched speed, security, and scalability. It enables reliable multi-agent workflows with minimal CPU and memory usage, making it production-ready for real-world enterprise environments. InfinitiBit/graphbit agent-framework"
+    },
+    {
+      "name": "ospec",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "clawplays/ospec",
+      "stars": 558,
+      "desc": "Spec-driven, agentic workflow framework for AI coding agents. Turn a request into a verifiable goal loop — plan, act, verify — with durable specs and evidence in your repo. Works with Claude Code, Codex, Gemini, OpenCode, and plain CLI.",
+      "url": "https://github.com/clawplays/ospec",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ospec Spec-driven, agentic workflow framework for AI coding agents. Turn a request into a verifiable goal loop — plan, act, verify — with durable specs and evidence in your repo. Works with Claude Code, Codex, Gemini, OpenCode, and plain CLI. clawplays/ospec agent-framework"
+    },
+    {
+      "name": "MARTI",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "TsinghuaC3I/MARTI",
+      "stars": 532,
+      "desc": "A Framework for LLM-based Multi-Agent Reinforced Training and Inference",
+      "url": "https://github.com/TsinghuaC3I/MARTI",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "MARTI A Framework for LLM-based Multi-Agent Reinforced Training and Inference TsinghuaC3I/MARTI agent-framework"
+    },
+    {
+      "name": "rai",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "RobotecAI/rai",
+      "stars": 532,
+      "desc": "RAI is a vendor agnostic agentic framework for Physical AI robotics, utilizing ROS 2 tools to perform complex actions, defined scenarios, free interface execution, log summaries, voice interaction and more.",
+      "url": "https://github.com/RobotecAI/rai",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "rai RAI is a vendor agnostic agentic framework for Physical AI robotics, utilizing ROS 2 tools to perform complex actions, defined scenarios, free interface execution, log summaries, voice interaction and more. RobotecAI/rai agent-framework"
+    },
+    {
+      "name": "taOS",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "jaylfc/taOS",
+      "stars": 515,
+      "desc": "Self-hosted AI agent OS. Your memory, chat, agents, and files stay on hardware you own, offline by default, cloud by choice. Offline AI memory (taOSmd), self-hosted multi-framework group chat, a full web desktop + app store, and auto-clustering across the consumer hardware you already have (Orange/Raspberry Pi, Mac mini, gaming PC).",
+      "url": "https://github.com/jaylfc/taOS",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "taOS Self-hosted AI agent OS. Your memory, chat, agents, and files stay on hardware you own, offline by default, cloud by choice. Offline AI memory (taOSmd), self-hosted multi-framework group chat, a full web desktop + app store, and auto-clustering across the consumer hardware you already have (Orange/Raspberry Pi, Mac mini, gaming PC). jaylfc/taOS agent-framework"
+    },
+    {
+      "name": "vibe-check-mcp-server",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "PV-Bhat/vibe-check-mcp-server",
+      "stars": 494,
+      "desc": "Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering and reasoning lock-in for complex and long-horizon agent workflows. KISS your over-eager AI Agents goodbye! Effective for: Coding, Ambiguous Tasks, High-Risk tasks",
+      "url": "https://github.com/PV-Bhat/vibe-check-mcp-server",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vibe-check-mcp-server Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering and reasoning lock-in for complex and long-horizon agent workflows. KISS your over-eager AI Agents goodbye! Effective for: Coding, Ambiguous Tasks, High-Risk tasks PV-Bhat/vibe-check-mcp-server agent-framework"
+    },
+    {
+      "name": "sonarqube-cli",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "SonarSource/sonarqube-cli",
+      "stars": 200,
+      "desc": "Command-line interface for SonarQube with AI agent integration. Scan for secrets and get fast feedback on code quality and security from your terminal.",
+      "url": "https://github.com/SonarSource/sonarqube-cli",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "sonarqube-cli Command-line interface for SonarQube with AI agent integration. Scan for secrets and get fast feedback on code quality and security from your terminal. SonarSource/sonarqube-cli agent-framework"
+    },
+    {
+      "name": "clawshield-public",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "SleuthCo/clawshield-public",
+      "stars": 131,
+      "desc": "Security proxy for AI agents. Scans every message for prompt injection, PII, and secrets. Defense-in-depth: Go proxy + iptables firewall + eBPF kernel monitor. YAML policy engine, audit logging, 5 AI agents with RAG knowledge bases.",
+      "url": "https://github.com/SleuthCo/clawshield-public",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "clawshield-public Security proxy for AI agents. Scans every message for prompt injection, PII, and secrets. Defense-in-depth: Go proxy + iptables firewall + eBPF kernel monitor. YAML policy engine, audit logging, 5 AI agents with RAG knowledge bases. SleuthCo/clawshield-public agent-framework"
+    },
+    {
+      "name": "agent-security-scanner-mcp",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "sinewaveai/agent-security-scanner-mcp",
+      "stars": 112,
+      "desc": "Security scanner MCP server for AI coding agents. Prompt injection firewall, package hallucination detection (4.3M+ packages), 1000+ vulnerability rules with AST & taint analysis, auto-fix.",
+      "url": "https://github.com/sinewaveai/agent-security-scanner-mcp",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agent-security-scanner-mcp Security scanner MCP server for AI coding agents. Prompt injection firewall, package hallucination detection (4.3M+ packages), 1000+ vulnerability rules with AST & taint analysis, auto-fix. sinewaveai/agent-security-scanner-mcp agent-framework"
+    },
+    {
+      "name": "claude-ads",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "AgriciDaniel/claude-ads",
+      "stars": 6631,
+      "desc": "Comprehensive paid advertising audit & optimization skill for Claude Code. 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads with weighted scoring, parallel agents, industry templates, and AI creative generation.",
+      "url": "https://github.com/AgriciDaniel/claude-ads",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "claude-ads Comprehensive paid advertising audit & optimization skill for Claude Code. 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads with weighted scoring, parallel agents, industry templates, and AI creative generation. AgriciDaniel/claude-ads agent-framework"
+    },
+    {
+      "name": "claude-bug-bounty",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "shuvonsec/claude-bug-bounty",
+      "stars": 3806,
+      "desc": "AI-powered bug bounty hunting from your terminal - recon, 20 vuln classes,   autonomous hunting, and report generation. All inside Claude Code.",
+      "url": "https://github.com/shuvonsec/claude-bug-bounty",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "claude-bug-bounty AI-powered bug bounty hunting from your terminal - recon, 20 vuln classes,   autonomous hunting, and report generation. All inside Claude Code. shuvonsec/claude-bug-bounty agent-framework"
+    },
+    {
+      "name": "oh-my-taiyiforge",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "Dong90/oh-my-taiyiforge",
+      "stars": 724,
+      "desc": "AI workflow automation plugin for intelligent code generation with Claude/Codex",
+      "url": "https://github.com/Dong90/oh-my-taiyiforge",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "oh-my-taiyiforge AI workflow automation plugin for intelligent code generation with Claude/Codex Dong90/oh-my-taiyiforge agent-framework"
+    },
+    {
+      "name": "future-agi",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "future-agi/future-agi",
+      "stars": 1271,
+      "desc": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.",
+      "url": "https://github.com/future-agi/future-agi",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "future-agi Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0. future-agi/future-agi agent-framework"
+    },
+    {
+      "name": "ClawBench",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "TIGER-AI-Lab/ClawBench",
+      "stars": 434,
+      "desc": "Open-source benchmark for browser AI agents on daily tasks.",
+      "url": "https://github.com/TIGER-AI-Lab/ClawBench",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ClawBench Open-source benchmark for browser AI agents on daily tasks. TIGER-AI-Lab/ClawBench agent-framework"
+    },
+    {
+      "name": "Hyper-Extract",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "yifanfeng97/Hyper-Extract",
+      "stars": 2827,
+      "desc": "Hypergraph is more powerful. Transform unstructured text into structured knowledge with LLMs. Graphs, hypergraphs, and spatio-temporal extractions — with one command.",
+      "url": "https://github.com/yifanfeng97/Hyper-Extract",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Hyper-Extract Hypergraph is more powerful. Transform unstructured text into structured knowledge with LLMs. Graphs, hypergraphs, and spatio-temporal extractions — with one command. yifanfeng97/Hyper-Extract agent-framework"
+    },
+    {
+      "name": "sift-kg",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "juanceresa/sift-kg",
+      "stars": 655,
+      "desc": "Turn any collection of documents into a knowledge graph. Extract entities and relationships via LLM, deduplicate with your approval. Map domains, find hidden connections, spot patterns across documents — knowledge that persists and compounds, for you and your AI agents. All from the CLI.",
+      "url": "https://github.com/juanceresa/sift-kg",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "sift-kg Turn any collection of documents into a knowledge graph. Extract entities and relationships via LLM, deduplicate with your approval. Map domains, find hidden connections, spot patterns across documents — knowledge that persists and compounds, for you and your AI agents. All from the CLI. juanceresa/sift-kg agent-framework"
+    },
+    {
+      "name": "lattice",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "techygarg/lattice",
+      "stars": 155,
+      "desc": "Install engineering discipline into any AI coding assistant. Composable skills for design, implementation, review, and team standards. Better process, not just better prompts.",
+      "url": "https://github.com/techygarg/lattice",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "lattice Install engineering discipline into any AI coding assistant. Composable skills for design, implementation, review, and team standards. Better process, not just better prompts. techygarg/lattice agent-framework"
+    },
+    {
+      "name": "harness-starter-kit",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "harnessworks/harness-starter-kit",
+      "stars": 98,
+      "desc": "🐴 Prompt-first harness engineering for safer AI coding agent workflows.",
+      "url": "https://github.com/harnessworks/harness-starter-kit",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "harness-starter-kit 🐴 Prompt-first harness engineering for safer AI coding agent workflows. harnessworks/harness-starter-kit agent-framework"
+    },
+    {
+      "name": "ParseBench",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "run-llama/ParseBench",
+      "stars": 509,
+      "desc": "ParseBench - A Document Parsing Benchmark for AI Agents",
+      "url": "https://github.com/run-llama/ParseBench",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ParseBench ParseBench - A Document Parsing Benchmark for AI Agents run-llama/ParseBench agent-framework"
+    },
+    {
+      "name": "esp-claw",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "espressif/esp-claw",
+      "stars": 1664,
+      "desc": "ESP-Claw, a \"Chat Coding\" AI agent framework for IoT devices",
+      "url": "https://github.com/espressif/esp-claw",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "esp-claw ESP-Claw, a \"Chat Coding\" AI agent framework for IoT devices espressif/esp-claw agent-framework"
+    },
+    {
+      "name": "PhoneClaw",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "kellyvv/PhoneClaw",
+      "stars": 1121,
+      "desc": "Mobile-native local AI Agent framework for phones and edge devices, with an iOS runtime, fully offline local path, on-device models, native iOS Skills, and optional Mac Gateway inference",
+      "url": "https://github.com/kellyvv/PhoneClaw",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "PhoneClaw Mobile-native local AI Agent framework for phones and edge devices, with an iOS runtime, fully offline local path, on-device models, native iOS Skills, and optional Mac Gateway inference kellyvv/PhoneClaw agent-framework"
+    },
+    {
+      "name": "agmsg",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "fujibee/agmsg",
+      "stars": 925,
+      "desc": "Cross-vendor messaging for CLI AI coding agents — let Claude Code, Codex, Gemini & Copilot talk to each other in one team. Bash + SQLite, no daemon, no framework.",
+      "url": "https://github.com/fujibee/agmsg",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agmsg Cross-vendor messaging for CLI AI coding agents — let Claude Code, Codex, Gemini & Copilot talk to each other in one team. Bash + SQLite, no daemon, no framework. fujibee/agmsg agent-framework"
+    },
+    {
+      "name": "DeepZero",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "416rehman/DeepZero",
+      "stars": 488,
+      "desc": "Find zero-days while you sleep. DeepZero is an automated vulnerability research framework that parses, decompiles, and analyzes thousands of Windows kernel drivers for exploitable IOCTLs natively using AI agents.",
+      "url": "https://github.com/416rehman/DeepZero",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "DeepZero Find zero-days while you sleep. DeepZero is an automated vulnerability research framework that parses, decompiles, and analyzes thousands of Windows kernel drivers for exploitable IOCTLs natively usin 416rehman/DeepZero agent-framework"
+    },
+    {
+      "name": "OpenGUI",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "Core-Mate/OpenGUI",
+      "stars": 302,
+      "desc": "OpenGUI is an Android GUI agent framework for phone-use AI that can see, plan, and operate real mobile apps through the GUI.",
+      "url": "https://github.com/Core-Mate/OpenGUI",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "OpenGUI OpenGUI is an Android GUI agent framework for phone-use AI that can see, plan, and operate real mobile apps through the GUI. Core-Mate/OpenGUI agent-framework"
+    },
+    {
+      "name": "theeleven",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "winsznx/theeleven",
+      "stars": 681,
+      "desc": "Eleven autonomous AI agents open live football prop markets on X Layer — custom Uniswap v4 hook, gasless USDT0 staking.",
+      "url": "https://github.com/winsznx/theeleven",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "theeleven Eleven autonomous AI agents open live football prop markets on X Layer — custom Uniswap v4 hook, gasless USDT0 staking. winsznx/theeleven agent-framework"
+    },
+    {
+      "name": "agentic-ai-apis",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "cporter202/agentic-ai-apis",
+      "stars": 348,
+      "desc": "The ultimate collection of APIs for building autonomous AI agents — 2,036 production-ready APIs across Agents, AI Models, and MCP Servers. Stop wasting weeks building infrastructure. Plug these in and ship your agent today.",
+      "url": "https://github.com/cporter202/agentic-ai-apis",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agentic-ai-apis The ultimate collection of APIs for building autonomous AI agents — 2,036 production-ready APIs across Agents, AI Models, and MCP Servers. Stop wasting weeks building infrastructure. Plug these in and cporter202/agentic-ai-apis agent-framework"
+    },
+    {
+      "name": "agentic-ai-starters",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "cporter202/agentic-ai-starters",
+      "stars": 157,
+      "desc": "A practical collection of plug-and-play starter blueprints for building autonomous AI apps with real APIs. Discover ready-to-build agent workflows, API stacks, architecture patterns, prompts, and monetization ideas for research agents, lead gen systems, SEO automations, MCP toolchains, and more.",
+      "url": "https://github.com/cporter202/agentic-ai-starters",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agentic-ai-starters A practical collection of plug-and-play starter blueprints for building autonomous AI apps with real APIs. Discover ready-to-build agent workflows, API stacks, architecture patterns, prompts, and mone cporter202/agentic-ai-starters agent-framework"
+    },
+    {
+      "name": "agent-ecologies",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "israriqbal/agent-ecologies",
+      "stars": 153,
+      "desc": "Ultimate Multi-Agent OS for Autonomous AI NPCs 2026",
+      "url": "https://github.com/israriqbal/agent-ecologies",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agent-ecologies Ultimate Multi-Agent OS for Autonomous AI NPCs 2026 israriqbal/agent-ecologies agent-framework"
+    },
+    {
+      "name": "ai-native-pm-os",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "vishalmdi/ai-native-pm-os",
+      "stars": 92,
+      "desc": "The exhaustive guide to mastering Claude for Product Managers. Build your AI-native PM OS from scratch — PRDs, research synthesis, stakeholder decks, and autonomous agents. 11 modules, 40+ hours, real deliverables.",
+      "url": "https://github.com/vishalmdi/ai-native-pm-os",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-native-pm-os The exhaustive guide to mastering Claude for Product Managers. Build your AI-native PM OS from scratch — PRDs, research synthesis, stakeholder decks, and autonomous agents. 11 modules, 40+ hours, real vishalmdi/ai-native-pm-os agent-framework"
+    },
+    {
+      "name": "governed-agentic-itsm-blueprint",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "denis-prilepskiy/governed-agentic-itsm-blueprint",
+      "stars": 88,
+      "desc": "Don't be the 40%. A production-ready blueprint for governing autonomous AI agents in IT operations — with executable policies, typed tool contracts, ISO 42001/NIST AI RMF mapping, and a 4-level maturity model. Vendor-neutral.",
+      "url": "https://github.com/denis-prilepskiy/governed-agentic-itsm-blueprint",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "governed-agentic-itsm-blueprint Don't be the 40%. A production-ready blueprint for governing autonomous AI agents in IT operations — with executable policies, typed tool contracts, ISO 42001/NIST AI RMF mapping, and a 4-level maturi denis-prilepskiy/governed-agentic-itsm-blueprint agent-framework"
+    },
+    {
+      "name": "openacme",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "sandydasari/openacme",
+      "stars": 80,
+      "desc": "An AI workforce platform: role-specialized agents with multi-provider LLM, MCP, tasks, and a web + CLI UI. You're in charge.",
+      "url": "https://github.com/sandydasari/openacme",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openacme An AI workforce platform: role-specialized agents with multi-provider LLM, MCP, tasks, and a web + CLI UI. You're in charge. sandydasari/openacme agent-framework"
+    },
+    {
+      "name": "eda-agent",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "salitronic/eda-agent",
+      "stars": 73,
+      "desc": "Open-source MCP server for Altium Designer. 290+ tools for schematic, PCB, library & project automation over a persistent DelphiScript bridge: design review, audits, SVG render, connectivity-driven auto-placement, panelization, and an autonomous design-plan executor. Apache-2.0.",
+      "url": "https://github.com/salitronic/eda-agent",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "eda-agent Open-source MCP server for Altium Designer. 290+ tools for schematic, PCB, library & project automation over a persistent DelphiScript bridge: design review, audits, SVG render, connectivity-driven au salitronic/eda-agent agent-framework"
+    },
+    {
+      "name": "SmartiAI-Agent-for-Windows",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "menachem-dadon/SmartiAI-Agent-for-Windows",
+      "stars": 70,
+      "desc": "A lightweight, blazing-fast AI agent for Windows. Automate your OS via CLI control, built-in tools, MCP tools, custom Python scripts, and expandable skills. Fully autonomous.",
+      "url": "https://github.com/menachem-dadon/SmartiAI-Agent-for-Windows",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "SmartiAI-Agent-for-Windows A lightweight, blazing-fast AI agent for Windows. Automate your OS via CLI control, built-in tools, MCP tools, custom Python scripts, and expandable skills. Fully autonomous. menachem-dadon/SmartiAI-Agent-for-Windows agent-framework"
+    },
+    {
+      "name": "mini-claude-code",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "DerekYRC/mini-claude-code",
+      "stars": 66,
+      "desc": "mini-claude-code: a simplified Java Claude Code agent distilling core Agent Harness mechanisms. Features: Agent Loop, tools, permission control, Hooks, Todo, Subagent, Skill Loading, context compression, memory, tasks, background tasks, scheduling, multi-agent collaboration, team protocol, autonomous claiming, MCP Plugin.",
+      "url": "https://github.com/DerekYRC/mini-claude-code",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mini-claude-code mini-claude-code: a simplified Java Claude Code agent distilling core Agent Harness mechanisms. Features: Agent Loop, tools, permission control, Hooks, Todo, Subagent, Skill Loading, context compressi DerekYRC/mini-claude-code agent-framework"
+    },
+    {
+      "name": "mazemaker",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "itsXactlY/mazemaker",
+      "stars": 49,
+      "desc": "Semantic memory system with knowledge graph, spreading activation, embedding-based recall, autonomous dream consolidation, and C++ LSTM+kNN pattern learning for any /MCP and the Hermes Agent.",
+      "url": "https://github.com/itsXactlY/mazemaker",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mazemaker Semantic memory system with knowledge graph, spreading activation, embedding-based recall, autonomous dream consolidation, and C++ LSTM+kNN pattern learning for any /MCP and the Hermes Agent. itsXactlY/mazemaker agent-framework"
+    },
+    {
+      "name": "bughunter-ai",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "h4ckologic/bughunter-ai",
+      "stars": 47,
+      "desc": "Autonomous Bug Bounty Hunting Framework powered by Claude Code. 20 AI agents, state-machine orchestration, Burp Suite MCP, credential vault, LLM security track. Type 'hunt target.com' and let AI find the bugs.",
+      "url": "https://github.com/h4ckologic/bughunter-ai",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "bughunter-ai Autonomous Bug Bounty Hunting Framework powered by Claude Code. 20 AI agents, state-machine orchestration, Burp Suite MCP, credential vault, LLM security track. Type 'hunt target.com' and let AI find  h4ckologic/bughunter-ai agent-framework"
+    },
+    {
+      "name": "guada",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "donggua-zen/guada",
+      "stars": 43,
+      "desc": "A powerful knowledge base management and work-study system. It supports a range of advanced AI features, including multi-role conversations, autonomous multi-turn KB search by Agents, browser automation, session compression, MCP, SKILLS, and bots. The project adopts a decoupled front-end and back-end architecture",
+      "url": "https://github.com/donggua-zen/guada",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "guada A powerful knowledge base management and work-study system. It supports a range of advanced AI features, including multi-role conversations, autonomous multi-turn KB search by Agents, browser automati donggua-zen/guada agent-framework"
+    },
+    {
+      "name": "mnemos",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "Riley-Coyote/mnemos",
+      "stars": 41,
+      "desc": "Living Memory Architecture for Autonomous AI Agents — MCP server with typed connections, beliefs, decay, reconsolidation",
+      "url": "https://github.com/Riley-Coyote/mnemos",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mnemos Living Memory Architecture for Autonomous AI Agents — MCP server with typed connections, beliefs, decay, reconsolidation Riley-Coyote/mnemos agent-framework"
+    },
+    {
+      "name": "claude-memory-compiler",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "coleam00/claude-memory-compiler",
+      "stars": 1222,
+      "desc": "Give Claude Code a memory that evolves with your codebase. Hooks automatically capture sessions, the Claude Agent SDK extracts key decisions and lessons, and an LLM compiler organizes everything into structured, cross-referenced knowledge articles - inspired by Karpathy's LLM Knowledge Base architecture.",
+      "url": "https://github.com/coleam00/claude-memory-compiler",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "claude-memory-compiler Give Claude Code a memory that evolves with your codebase. Hooks automatically capture sessions, the Claude Agent SDK extracts key decisions and lessons, and an LLM compiler organizes everything into  coleam00/claude-memory-compiler agent-framework"
+    },
+    {
+      "name": "dao-code",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "tigicion/dao-code",
+      "stars": 962,
+      "desc": "Open-source TypeScript terminal coding agent for DeepSeek-V4 — builds on DeepSeek's strong price-performance and ultra-cheap cache pricing, engineering byte-stable prefixes and cache-reusing forks so cross-session memory and a continuous self-correction layer add almost no token cost; 1M context, Skills/MCP/Hooks, Claude Code config compatible.",
+      "url": "https://github.com/tigicion/dao-code",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "dao-code Open-source TypeScript terminal coding agent for DeepSeek-V4 — builds on DeepSeek's strong price-performance and ultra-cheap cache pricing, engineering byte-stable prefixes and cache-reusing forks so  tigicion/dao-code agent-framework"
+    },
+    {
+      "name": "wesight",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "freestylefly/wesight",
+      "stars": 741,
+      "desc": "Open-source desktop AI agent workspace with one-click Claude Code, Codex, OpenClaw, Hermes Agent setup and custom LLM model routing.",
+      "url": "https://github.com/freestylefly/wesight",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "wesight Open-source desktop AI agent workspace with one-click Claude Code, Codex, OpenClaw, Hermes Agent setup and custom LLM model routing. freestylefly/wesight agent-framework"
+    },
+    {
+      "name": "clawcodex",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "agentforce314/clawcodex",
+      "stars": 666,
+      "desc": "Token efficient Claude Code full Python rebuild. AI Coding Agent in 230K LoC pure Python. Up to 200X Cost Saving!",
+      "url": "https://github.com/agentforce314/clawcodex",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "clawcodex Token efficient Claude Code full Python rebuild. AI Coding Agent in 230K LoC pure Python. Up to 200X Cost Saving! agentforce314/clawcodex agent-framework"
     }
   ]
 }
