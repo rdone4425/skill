@@ -1960,6 +1960,24 @@
         "general"
       ],
       "searchText": "Smart-AI-Healthcare A real-time AI and Machine Learning based healthcare application that predicts diseases from user symptoms using text, voice, and image inputs. The system supports multilingual communication, severity analysis, diet recommendations, PDF report generation, and nearby hospital navigation for smart medical assistance. madhusundar240/Smart-AI-Healthcare education"
+    },
+    {
+      "name": "Mr.-Ranedeer-AI-Tutor",
+      "description": "A GPT-4 AI Tutor Prompt for customizable personalized learning experiences.",
+      "url": "https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "chatgpt-prompt-engineering",
+      "description": "Jupyter code notebooks of \"ChatGPT Prompt Engineering for Developers\" by DeepLearning.AI and OpenAI.",
+      "url": "https://github.com/ralphcajipe/chatgpt-prompt-engineering",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "SimplyRetrieve",
+      "description": "Lightweight chat AI platform featuring custom knowledge, open-source LLMs, prompt-engineering, retrieval analysis. Highly customizable. For Retrieval-Centric & Retrieval-Augmented Generation.",
+      "url": "https://github.com/RCGAI/SimplyRetrieve",
+      "addedAt": "2026-07-01T04:00:00Z"
     }
   ]
 }

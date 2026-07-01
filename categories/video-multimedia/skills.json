@@ -1790,6 +1790,18 @@
         "general"
       ],
       "searchText": "agnes-video-generator Open-source, self-hosted AI video generator — completely free. Text to multi-scene video with narration, subtitles, and digital anchor via Web UI, powered by Agnes AI. lcy362/agnes-video-generator video-multimedia"
+    },
+    {
+      "name": "secretary",
+      "description": "Secretary is an AI-powered tool that analyzes social media content from specified accounts and delivers results via WeChat. It supports customized analysis for topics like finance, politics, and technology.",
+      "url": "https://github.com/zkd8907/secretary",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "OSSDC-VisionAI-Core",
+      "description": "OSSDC Vision AI - a platform for live testing and developing of computer vision and artificial intelligence algorithms targeting robotics, home automation and autonomous vechicles",
+      "url": "https://github.com/OSSDC/OSSDC-VisionAI-Core",
+      "addedAt": "2026-07-01T04:00:00Z"
     }
   ]
 }

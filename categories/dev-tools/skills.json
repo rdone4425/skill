@@ -23618,6 +23618,306 @@
         "general"
       ],
       "searchText": "ai-book-writer AI-powered book-writing system that converts ideas into full manuscripts in hours with multi-agent collaboration, real-time streaming, and built-in cost control.  Tech Stack: FastAPI · PostgreSQL · Redis · Next.js 14 · Tailwind/shadcn · CrewAI · LiteLLM · GPT-5 / Claude / Gemini · Docker · Kubernetes · Prometheus + Grafana · GitHub Actions CI/CD agruai/ai-book-writer dev-tools"
+    },
+    {
+      "name": "openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "url": "https://github.com/openclaw/openclaw",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "prompts.chat",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "url": "https://github.com/f/prompts.chat",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "url": "https://github.com/mattpocock/skills",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "url": "https://github.com/garrytan/gstack",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "spec-kit",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "url": "https://github.com/github/spec-kit",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "ui-ux-pro-max-skill",
+      "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "NextChat",
+      "description": "✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows",
+      "url": "https://github.com/ChatGPTNextWeb/NextChat",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "odysseus",
+      "description": "Self-hosted AI workspace.",
+      "url": "https://github.com/pewdiepie-archdaemon/odysseus",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "graphify",
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+      "url": "https://github.com/safishamsi/graphify",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "get-shit-done",
+      "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
+      "url": "https://github.com/gsd-build/get-shit-done",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "OpenSpec",
+      "description": "Spec-driven development (SDD) for AI coding assistants.",
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "chatbox",
+      "description": "Powerful AI Client",
+      "url": "https://github.com/chatboxai/chatbox",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
+      "url": "https://github.com/QuantumNous/new-api",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "CLIProxyAPI",
+      "description": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "Open-Assistant",
+      "description": "OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.",
+      "url": "https://github.com/LAION-AI/Open-Assistant",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "tabby",
+      "description": "Self-hosted AI coding assistant",
+      "url": "https://github.com/TabbyML/tabby",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "project-nomad",
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "llmfit",
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "humanizer",
+      "description": "Claude Code skill that removes signs of AI-generated writing from text",
+      "url": "https://github.com/blader/humanizer",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "onlook",
+      "description": "The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI",
+      "url": "https://github.com/onlook-dev/onlook",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "heretic",
+      "description": "Fully automatic censorship removal for language models",
+      "url": "https://github.com/p-e-w/heretic",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "Archon",
+      "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
+      "url": "https://github.com/coleam00/Archon",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "compound-engineering-plugin",
+      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "Open-Generative-AI",
+      "description": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "llm-council",
+      "description": "LLM Council works together to answer your hardest questions",
+      "url": "https://github.com/karpathy/llm-council",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "WeClone",
+      "description": "🚀 One-stop solution for creating your AI twin from chat history 💡 Fine-tune LLMs with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to life.",
+      "url": "https://github.com/xming521/WeClone",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "cvat",
+      "description": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs.",
+      "url": "https://github.com/cvat-ai/cvat",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "VideoCaptioner",
+      "description": "🎬 卡卡字幕助手 | VideoCaptioner - 基于 LLM 的智能字幕助手 - 视频字幕生成、断句、校正、字幕翻译全流程处理！- A powered tool for easy and efficient video subtitling.",
+      "url": "https://github.com/WEIFENG2333/VideoCaptioner",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "leaked-system-prompts",
+      "description": "Collection of leaked system prompts",
+      "url": "https://github.com/jujumilk3/leaked-system-prompts",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "context-engineering-intro",
+      "description": "Context engineering is the new vibe coding - it's the way to actually make AI coding assistants work. Claude Code is the best for this so that's what this repo is centered around, but you can apply this strategy with any AI coding assistant!",
+      "url": "https://github.com/coleam00/context-engineering-intro",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "cockpit-tools",
+      "description": "🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
+      "url": "https://github.com/jlcodes99/cockpit-tools",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "claudecodeui",
+      "description": "Use Claude Code, OpenCode, Cursor CLI, and Codex on mobile and web with CloudCLI (aka Claude Code UI). CloudCLI is a free open source webui/GUI that helps you manage your Claude Code session and projects remotely.",
+      "url": "https://github.com/siteboon/claudecodeui",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "Humanizer-zh",
+      "description": "Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。",
+      "url": "https://github.com/op7418/Humanizer-zh",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "video-subtitle-remover",
+      "description": "基于AI的图片/视频硬字幕去除、文本水印去除，无损分辨率生成去字幕、去水印后的图片/视频文件。无需申请第三方API，本地实现。AI-based tool for removing hard-coded subtitles and text-like watermarks from videos or Pictures.",
+      "url": "https://github.com/YaoFANGUK/video-subtitle-remover",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "Toonflow-app",
+      "description": "Toonflow 是开源一站式 AI 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。Toonflow is an open-source AI tool that turns stories and scripts into animated short dramas. Features AI scriptwriting, storyboarding, character and video generation. A cross-platform desktop app for efficient content creation.",
+      "url": "https://github.com/HBAI-Ltd/Toonflow-app",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "EverydayWechat",
+      "description": "微信助手：1.每日定时给好友（女友）发送定制消息。2.机器人自动回复好友。3.群助手功能（例如：查询垃圾分类、天气、日历、电影实时票房、快递物流、PM2.5等）",
+      "url": "https://github.com/sfyc23/EverydayWechat",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "awesome-nanobanana-pro",
+      "description": "🚀 An awesome list of curated Nano Banana pro prompts and examples. Your go-to resource for mastering prompt engineering and exploring the creative potential of the Nano banana pro(Nano banana 2) AI image model.",
+      "url": "https://github.com/ZeroLu/awesome-nanobanana-pro",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "prompt-master",
+      "description": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
+      "url": "https://github.com/nidhinjs/prompt-master",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "coai",
+      "description": "🚀 Next Gen Multi-tenant AI One-Stop Solution. Builtin Admin & Billing System. Enterprise-Grade Unified LLM Gateway Support for 200+ Models And 35+ Providers, Load Balacing w/ Priority-base Routing, Cost Management, Chat Share, Cloud Sync, Credit/Subscription Billing, All File Parsing, Web Search, Built-in Model Cache.",
+      "url": "https://github.com/coaidev/coai",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "Noi",
+      "description": "🚀 Less chaos. More flow.",
+      "url": "https://github.com/lencx/Noi",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "baml",
+      "description": "The AI framework that adds the engineering to prompt engineering (Python/TS/Ruby/Java/C#/Rust/Go compatible)",
+      "url": "https://github.com/BoundaryML/baml",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "imaginAIry",
+      "description": "Pythonic AI generation of images and videos",
+      "url": "https://github.com/brycedrennan/imaginAIry",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "sweep",
+      "description": "Sweep: AI coding assistant for JetBrains",
+      "url": "https://github.com/sweepai/sweep",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "evidently",
+      "description": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
+      "url": "https://github.com/evidentlyai/evidently",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "code2prompt",
+      "description": "A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting.",
+      "url": "https://github.com/mufeedvh/code2prompt",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "mmagic",
+      "description": "OpenMMLab Multimodal Advanced, Generative, and Intelligent Creation Toolbox. Unlock the magic 🪄: Generative-AI (AIGC), easy-to-use APIs, awsome model zoo, diffusion models, for text-to-image generation, image/video restoration/enhancement, etc.",
+      "url": "https://github.com/open-mmlab/mmagic",
+      "addedAt": "2026-07-01T04:00:00Z"
     }
   ]
 }

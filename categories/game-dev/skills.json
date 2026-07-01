@@ -1877,6 +1877,12 @@
         "general"
       ],
       "searchText": "everything-game-dev-code A universal scaffold for AI-assisted game development. 42 agents, 51 commands, 86 skills. Multi-engine (Unity, Unreal, Godot, HTML). Multi-harness (Claude Code, Codex, Cursor, OpenCode, Kiro). MRCalderon3D/everything-game-dev-code game-dev"
+    },
+    {
+      "name": "awesome-ai-tools-for-game-dev",
+      "description": "A curated list of awesome AI tools for game developers",
+      "url": "https://github.com/simoninithomas/awesome-ai-tools-for-game-dev",
+      "addedAt": "2026-07-01T04:00:00Z"
     }
   ]
 }

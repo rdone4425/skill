@@ -68,7 +68,7 @@
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
       "stars": 156452,
-      "desc": "\"Use this skill any time a .pptx file is involved in any way \u2014 as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text fr...",
+      "desc": "\"Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text fr...",
       "url": "https://github.com/anthropics/skills/tree/main/skills/pptx",
       "install": "$skill-installer pptx",
       "functionCategory": "docs-content",
@@ -78,7 +78,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "pptx \"use this skill any time a .pptx file is involved in any way \u2014 as input, output, or both. this includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted co anthropics/skills $skill-installer pptx docs-content claude"
+      "searchText": "pptx \"use this skill any time a .pptx file is involved in any way — as input, output, or both. this includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted co anthropics/skills $skill-installer pptx docs-content claude"
     },
     {
       "name": "graphify",
@@ -798,7 +798,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Restore and fix image quality \u2014 deblur, denoise, fix faces, restore documents",
+      "desc": "Restore and fix image quality — deblur, denoise, fix faces, restore documents",
       "url": "https://officialskills.sh/fal-ai-community/skills/fal-restore",
       "install": "",
       "functionCategory": "docs-content",
@@ -812,7 +812,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "fal-restore restore and fix image quality \u2014 deblur, denoise, fix faces, restore documents voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+      "searchText": "fal-restore restore and fix image quality — deblur, denoise, fix faces, restore documents voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
     },
     {
       "name": "firecrawl-build-search",
@@ -930,7 +930,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "> Write and implement GPU kernels using NVIDIA CuTe DSL (CUTLASS 4.x Python API) \u2014 NOT for Triton, CUDA C++, or conceptual explanations.",
+      "desc": "> Write and implement GPU kernels using NVIDIA CuTe DSL (CUTLASS 4.x Python API) — NOT for Triton, CUDA C++, or conceptual explanations.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/kernel-cute-writing",
       "install": "",
       "functionCategory": "docs-content",
@@ -944,7 +944,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "kernel-cute-writing > write and implement gpu kernels using nvidia cute dsl (cutlass 4.x python api) \u2014 not for triton, cuda c++, or conceptual explanations. voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+      "searchText": "kernel-cute-writing > write and implement gpu kernels using nvidia cute dsl (cutlass 4.x python api) — not for triton, cuda c++, or conceptual explanations. voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
     },
     {
       "name": "kernel-triton-writing",
@@ -1150,7 +1150,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "> Maintain the NeMo Gym Fern docs site \u2014 add, update, move, or remove pages under fern/.",
+      "desc": "> Maintain the NeMo Gym Fern docs site — add, update, move, or remove pages under fern/.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Gym/nemo-gym-docs",
       "install": "",
       "functionCategory": "docs-content",
@@ -1164,7 +1164,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "nemo-gym-docs > maintain the nemo gym fern docs site \u2014 add, update, move, or remove pages under fern/. voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+      "searchText": "nemo-gym-docs > maintain the nemo gym fern docs site — add, update, move, or remove pages under fern/. voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
     },
     {
       "name": "nemo-gym-pivot-datasets",
@@ -1524,7 +1524,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Meta workflow for authoring skills: choose path \u2192 validate \u2192 update docs \u2192 package",
+      "desc": "Meta workflow for authoring skills: choose path → validate → update docs → package",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/skill-authoring-workflow",
       "install": "",
       "functionCategory": "docs-content",
@@ -1538,7 +1538,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "skill-authoring-workflow meta workflow for authoring skills: choose path \u2192 validate \u2192 update docs \u2192 package voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
+      "searchText": "skill-authoring-workflow meta workflow for authoring skills: choose path → validate → update docs → package voltagent/awesome-agent-skills docs-content claude codex cursor hermes gemini"
     },
     {
       "name": "social-content",
@@ -1955,7 +1955,7 @@
       "sourceAgent": "claude",
       "repo": "op7418/Humanizer-zh",
       "stars": 9744,
-      "desc": "Humanizer \u7684\u6c49\u5316\u7248\u672c\uff0cClaude Code Skills\uff0c\u65e8\u5728\u6d88\u9664\u6587\u672c\u4e2d AI \u751f\u6210\u7684\u75d5\u8ff9\u3002",
+      "desc": "Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。",
       "url": "https://github.com/op7418/Humanizer-zh",
       "install": "git clone https://github.com/op7418/Humanizer-zh.git",
       "functionCategory": "docs-content",
@@ -1965,7 +1965,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "humanizer-zh humanizer \u7684\u6c49\u5316\u7248\u672c\uff0cclaude code skills\uff0c\u65e8\u5728\u6d88\u9664\u6587\u672c\u4e2d ai \u751f\u6210\u7684\u75d5\u8ff9\u3002 op7418/humanizer-zh git clone https://github.com/op7418/humanizer-zh.git docs-content claude"
+      "searchText": "humanizer-zh humanizer 的汉化版本，claude code skills，旨在消除文本中 ai 生成的痕迹。 op7418/humanizer-zh git clone https://github.com/op7418/humanizer-zh.git docs-content claude"
     },
     {
       "name": "awesome-claude-skills",
@@ -2071,7 +2071,7 @@
       "sourceAgent": "claude",
       "repo": "virgiliojr94/book-to-skill",
       "stars": 4750,
-      "desc": "Turn any technical book PDF into a Claude Code skill \u2014 ready to study, reference, and use while you work.",
+      "desc": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
       "url": "https://github.com/virgiliojr94/book-to-skill",
       "install": "pip install book-to-skill",
       "functionCategory": "docs-content",
@@ -2081,7 +2081,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "book-to-skill turn any technical book pdf into a claude code skill \u2014 ready to study, reference, and use while you work. virgiliojr94/book-to-skill pip install book-to-skill docs-content claude"
+      "searchText": "book-to-skill turn any technical book pdf into a claude code skill — ready to study, reference, and use while you work. virgiliojr94/book-to-skill pip install book-to-skill docs-content claude"
     },
     {
       "name": "codebase-to-course",
@@ -2107,7 +2107,7 @@
       "sourceAgent": "openclaw",
       "repo": "xianyu110/awesome-openclaw-tutorial",
       "stars": 4478,
-      "desc": "\u4ece\u96f6\u5f00\u59cb\u73a9\u8f6cOpenClaw\uff1a\u6700\u5168\u9762\u7684\u4e2d\u6587\u6559\u7a0b\uff0c\u6db5\u76d6\u5b89\u88c5\u3001\u914d\u7f6e\u3001\u5b9e\u6218\u6848\u4f8b\u548c\u907f\u5751\u6307\u5357\uff08github\u7248\uff09",
+      "desc": "从零开始玩转OpenClaw：最全面的中文教程，涵盖安装、配置、实战案例和避坑指南（github版）",
       "url": "https://github.com/xianyu110/awesome-openclaw-tutorial",
       "install": "git clone https://github.com/xianyu110/awesome-openclaw-tutorial.git",
       "functionCategory": "docs-content",
@@ -2117,7 +2117,7 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "awesome-openclaw-tutorial \u4ece\u96f6\u5f00\u59cb\u73a9\u8f6copenclaw\uff1a\u6700\u5168\u9762\u7684\u4e2d\u6587\u6559\u7a0b\uff0c\u6db5\u76d6\u5b89\u88c5\u3001\u914d\u7f6e\u3001\u5b9e\u6218\u6848\u4f8b\u548c\u907f\u5751\u6307\u5357\uff08github\u7248\uff09 xianyu110/awesome-openclaw-tutorial git clone https://github.com/xianyu110/awesome-openclaw-tutorial.git docs-content openclaw"
+      "searchText": "awesome-openclaw-tutorial 从零开始玩转openclaw：最全面的中文教程，涵盖安装、配置、实战案例和避坑指南（github版） xianyu110/awesome-openclaw-tutorial git clone https://github.com/xianyu110/awesome-openclaw-tutorial.git docs-content openclaw"
     },
     {
       "name": "awesome-gbdev",
@@ -2143,7 +2143,7 @@
       "sourceAgent": "openclaw",
       "repo": "AlexAnys/awesome-openclaw-usecases-zh",
       "stars": 4354,
-      "desc": "\ud83c\udde8\ud83c\uddf3 OpenClaw\u4e2d\u6587\u7528\u4f8b\u5927\u5168 | 50\u4e2a\u771f\u5b9e\u573a\u666f | \u56fd\u5185\u7279\u8272 + \u6d77\u5916\u6848\u4f8b\u7684\u56fd\u5185\u9002\u914d | \u81ea\u52a8\u5316\u529e\u516c\u00b7\u5185\u5bb9\u521b\u4f5c\u00b7\u8fd0\u7ef4\u00b7AI\u52a9\u7406\u00b7\u77e5\u8bc6\u7ba1\u7406 | \u65b0\u624b\u53cb\u597d",
+      "desc": "🇨🇳 OpenClaw中文用例大全 | 50个真实场景 | 国内特色 + 海外案例的国内适配 | 自动化办公·内容创作·运维·AI助理·知识管理 | 新手友好",
       "url": "https://github.com/AlexAnys/awesome-openclaw-usecases-zh",
       "install": "git clone https://github.com/AlexAnys/awesome-openclaw-usecases-zh.git",
       "functionCategory": "docs-content",
@@ -2153,7 +2153,7 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "awesome-openclaw-usecases-zh \ud83c\udde8\ud83c\uddf3 openclaw\u4e2d\u6587\u7528\u4f8b\u5927\u5168 | 50\u4e2a\u771f\u5b9e\u573a\u666f | \u56fd\u5185\u7279\u8272 + \u6d77\u5916\u6848\u4f8b\u7684\u56fd\u5185\u9002\u914d | \u81ea\u52a8\u5316\u529e\u516c\u00b7\u5185\u5bb9\u521b\u4f5c\u00b7\u8fd0\u7ef4\u00b7ai\u52a9\u7406\u00b7\u77e5\u8bc6\u7ba1\u7406 | \u65b0\u624b\u53cb\u597d alexanys/awesome-openclaw-usecases-zh git clone https://github.com/alexanys/awesome-openclaw-usecases-zh.git docs-content openclaw"
+      "searchText": "awesome-openclaw-usecases-zh 🇨🇳 openclaw中文用例大全 | 50个真实场景 | 国内特色 + 海外案例的国内适配 | 自动化办公·内容创作·运维·ai助理·知识管理 | 新手友好 alexanys/awesome-openclaw-usecases-zh git clone https://github.com/alexanys/awesome-openclaw-usecases-zh.git docs-content openclaw"
     },
     {
       "name": "hermes-agent-orange-book",
@@ -2161,7 +2161,7 @@
       "sourceAgent": "hermes",
       "repo": "alchaincyf/hermes-agent-orange-book",
       "stars": 4199,
-      "desc": "Hermes Agent \u4ece\u5165\u95e8\u5230\u7cbe\u901a \u00b7 \u6a59\u76ae\u4e66\u7cfb\u5217 \u00b7 Nous Research \u5f00\u6e90 AI Agent \u6846\u67b6\u5b9e\u6218\u6307\u5357",
+      "desc": "Hermes Agent 从入门到精通 · 橙皮书系列 · Nous Research 开源 AI Agent 框架实战指南",
       "url": "https://github.com/alchaincyf/hermes-agent-orange-book",
       "install": "git clone https://github.com/alchaincyf/hermes-agent-orange-book.git",
       "functionCategory": "docs-content",
@@ -2171,7 +2171,7 @@
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "hermes-agent-orange-book hermes agent \u4ece\u5165\u95e8\u5230\u7cbe\u901a \u00b7 \u6a59\u76ae\u4e66\u7cfb\u5217 \u00b7 nous research \u5f00\u6e90 ai agent \u6846\u67b6\u5b9e\u6218\u6307\u5357 alchaincyf/hermes-agent-orange-book git clone https://github.com/alchaincyf/hermes-agent-orange-book.git docs-content hermes"
+      "searchText": "hermes-agent-orange-book hermes agent 从入门到精通 · 橙皮书系列 · nous research 开源 ai agent 框架实战指南 alchaincyf/hermes-agent-orange-book git clone https://github.com/alchaincyf/hermes-agent-orange-book.git docs-content hermes"
     },
     {
       "name": "OpenClawChineseTranslation",
@@ -2179,7 +2179,7 @@
       "sourceAgent": "openclaw",
       "repo": "1186258278/OpenClawChineseTranslation",
       "stars": 3796,
-      "desc": "\ud83e\udd9e OpenClaw (Clawdbot/Moltbot) \u6c49\u5316\u7248 - \u5f00\u6e90\u4e2a\u4eba AI \u52a9\u624b\u4e2d\u6587\u7248 | Claude/ChatGPT LLM \u63a5\u5165 | WhatsApp/Telegram/Discord \u591a\u5e73\u53f0 | \u6bcf\u5c0f\u65f6\u81ea\u52a8\u540c\u6b65 | CLI + Dashboard \u5168\u4e2d\u6587 | \u5168\u6d41\u7a0b\u642d\u5efa\u6559\u7a0b\uff0c\u4ee5\u53ca\u6392\u9519\u6307\u5357\uff01",
+      "desc": "🦞 OpenClaw (Clawdbot/Moltbot) 汉化版 - 开源个人 AI 助手中文版 | Claude/ChatGPT LLM 接入 | WhatsApp/Telegram/Discord 多平台 | 每小时自动同步 | CLI + Dashboard 全中文 | 全流程搭建教程，以及排错指南！",
       "url": "https://github.com/1186258278/OpenClawChineseTranslation",
       "install": "npm i -g OpenClawChineseTranslation",
       "functionCategory": "docs-content",
@@ -2190,7 +2190,7 @@
         "claude",
         "openclaw"
       ],
-      "searchText": "openclawchinesetranslation \ud83e\udd9e openclaw (clawdbot/moltbot) \u6c49\u5316\u7248 - \u5f00\u6e90\u4e2a\u4eba ai \u52a9\u624b\u4e2d\u6587\u7248 | claude/chatgpt llm \u63a5\u5165 | whatsapp/telegram/discord \u591a\u5e73\u53f0 | \u6bcf\u5c0f\u65f6\u81ea\u52a8\u540c\u6b65 | cli + dashboard \u5168\u4e2d\u6587 | \u5168\u6d41\u7a0b\u642d\u5efa\u6559\u7a0b\uff0c\u4ee5\u53ca\u6392\u9519\u6307\u5357\uff01 1186258278/openclawchinesetranslation npm i -g openclawchinesetranslation docs-content claude openclaw"
+      "searchText": "openclawchinesetranslation 🦞 openclaw (clawdbot/moltbot) 汉化版 - 开源个人 ai 助手中文版 | claude/chatgpt llm 接入 | whatsapp/telegram/discord 多平台 | 每小时自动同步 | cli + dashboard 全中文 | 全流程搭建教程，以及排错指南！ 1186258278/openclawchinesetranslation npm i -g openclawchinesetranslation docs-content claude openclaw"
     },
     {
       "name": "awesome-openclaw-agents",
@@ -2270,7 +2270,7 @@
       "sourceAgent": "openclaw",
       "repo": "mengjian-github/openclaw101",
       "stars": 2919,
-      "desc": "\ud83d\udc3e OpenClaw 101 \u2014 \u4ece\u96f6\u5f00\u59cb\uff0c7\u5929\u638c\u63e1\u4f60\u7684AI\u79c1\u4eba\u52a9\u7406 | \u5168\u7f51\u8d44\u6e90\u805a\u5408\u7ad9",
+      "desc": "🐾 OpenClaw 101 — 从零开始，7天掌握你的AI私人助理 | 全网资源聚合站",
       "url": "https://github.com/mengjian-github/openclaw101",
       "install": "npm i -g openclaw101",
       "functionCategory": "docs-content",
@@ -2280,7 +2280,7 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "openclaw101 \ud83d\udc3e openclaw 101 \u2014 \u4ece\u96f6\u5f00\u59cb\uff0c7\u5929\u638c\u63e1\u4f60\u7684ai\u79c1\u4eba\u52a9\u7406 | \u5168\u7f51\u8d44\u6e90\u805a\u5408\u7ad9 mengjian-github/openclaw101 npm i -g openclaw101 docs-content openclaw"
+      "searchText": "openclaw101 🐾 openclaw 101 — 从零开始，7天掌握你的ai私人助理 | 全网资源聚合站 mengjian-github/openclaw101 npm i -g openclaw101 docs-content openclaw"
     },
     {
       "name": "notebooklm-mcp",
@@ -2455,7 +2455,7 @@
       "sourceAgent": "cursor",
       "repo": "flyeric0212/cursor-rules",
       "stars": 1850,
-      "desc": "\u6574\u7406\u548c\u6536\u96c6\u6765\u81ea\u4e0d\u540c\u9879\u76ee\u7684Cursor\u89c4\u5219\u6587\u4ef6\uff0c\u63d0\u4f9b\u591a\u79cd\u7f16\u7a0b\u8bed\u8a00\u548c\u6846\u67b6\u7684\u89c4\u5219\u652f\u6301\u3002",
+      "desc": "整理和收集来自不同项目的Cursor规则文件，提供多种编程语言和框架的规则支持。",
       "url": "https://github.com/flyeric0212/cursor-rules",
       "install": "git clone https://github.com/flyeric0212/cursor-rules.git",
       "functionCategory": "docs-content",
@@ -2465,7 +2465,7 @@
       "supportedAgents": [
         "cursor"
       ],
-      "searchText": "cursor-rules \u6574\u7406\u548c\u6536\u96c6\u6765\u81ea\u4e0d\u540c\u9879\u76ee\u7684cursor\u89c4\u5219\u6587\u4ef6\uff0c\u63d0\u4f9b\u591a\u79cd\u7f16\u7a0b\u8bed\u8a00\u548c\u6846\u67b6\u7684\u89c4\u5219\u652f\u6301\u3002 flyeric0212/cursor-rules git clone https://github.com/flyeric0212/cursor-rules.git docs-content cursor"
+      "searchText": "cursor-rules 整理和收集来自不同项目的cursor规则文件，提供多种编程语言和框架的规则支持。 flyeric0212/cursor-rules git clone https://github.com/flyeric0212/cursor-rules.git docs-content cursor"
     },
     {
       "name": "awesome-claude-plugins",
@@ -2491,7 +2491,7 @@
       "sourceAgent": "other",
       "repo": "MicrosoftDocs/mcp",
       "stars": 1696,
-      "desc": "Official Microsoft Learn MCP Server and CLI tool \u2013 powering LLMs and AI agents with real-time, trusted Microsoft docs & code samples.",
+      "desc": "Official Microsoft Learn MCP Server and CLI tool – powering LLMs and AI agents with real-time, trusted Microsoft docs & code samples.",
       "url": "https://github.com/MicrosoftDocs/mcp",
       "install": "npm i -g mcp",
       "functionCategory": "docs-content",
@@ -2501,7 +2501,7 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "mcp official microsoft learn mcp server and cli tool \u2013 powering llms and ai agents with real-time, trusted microsoft docs & code samples. microsoftdocs/mcp npm i -g mcp docs-content other"
+      "searchText": "mcp official microsoft learn mcp server and cli tool – powering llms and ai agents with real-time, trusted microsoft docs & code samples. microsoftdocs/mcp npm i -g mcp docs-content other"
     },
     {
       "name": "learn-opencode",
@@ -2509,7 +2509,7 @@
       "sourceAgent": "opencode",
       "repo": "vbgate/learn-opencode",
       "stars": 1545,
-      "desc": "OpenCode \u4e2d\u6587\u5b9e\u6218\u8bfe\u6e90\u7801\u4e0e\u5185\u5bb9\u4ed3\u5e93\uff1a\u4e00\u8bfe\u4e00\u9875\uff0c\u8986\u76d6\u5165\u95e8\u5230\u5b9e\u6218\u5de5\u4f5c\u6d41\u3002",
+      "desc": "OpenCode 中文实战课源码与内容仓库：一课一页，覆盖入门到实战工作流。",
       "url": "https://github.com/vbgate/learn-opencode",
       "install": "git clone https://github.com/vbgate/learn-opencode.git",
       "functionCategory": "docs-content",
@@ -2519,7 +2519,7 @@
       "supportedAgents": [
         "opencode"
       ],
-      "searchText": "learn-opencode opencode \u4e2d\u6587\u5b9e\u6218\u8bfe\u6e90\u7801\u4e0e\u5185\u5bb9\u4ed3\u5e93\uff1a\u4e00\u8bfe\u4e00\u9875\uff0c\u8986\u76d6\u5165\u95e8\u5230\u5b9e\u6218\u5de5\u4f5c\u6d41\u3002 vbgate/learn-opencode git clone https://github.com/vbgate/learn-opencode.git docs-content opencode"
+      "searchText": "learn-opencode opencode 中文实战课源码与内容仓库：一课一页，覆盖入门到实战工作流。 vbgate/learn-opencode git clone https://github.com/vbgate/learn-opencode.git docs-content opencode"
     },
     {
       "name": "ai-prompts",
@@ -2582,7 +2582,7 @@
       "sourceAgent": "claude",
       "repo": "JuneYaooo/gpt-image2-ppt-skills",
       "stars": 893,
-      "desc": "Clone any .pptx into your own deck \u2014 OpenAI gpt-image-2 mimics the layout, you supply the content. 10 bundled styles. | \u628a\u4efb\u4f55 .pptx \u6a21\u677f\"\u6284\"\u6210\u4f60\u7684 PPT\uff1agpt-image-2 \u4eff\u7248\u5f0f\u3001\u4f60\u6362\u5185\u5bb9\uff0c\u53e6\u542b 10 \u5957\u7cbe\u9009\u98ce\u683c\u3002Claude Code / OpenCla...",
+      "desc": "Clone any .pptx into your own deck — OpenAI gpt-image-2 mimics the layout, you supply the content. 10 bundled styles. | 把任何 .pptx 模板\"抄\"成你的 PPT：gpt-image-2 仿版式、你换内容，另含 10 套精选风格。Claude Code / OpenCla...",
       "url": "https://github.com/JuneYaooo/gpt-image2-ppt-skills",
       "install": "pip install gpt-image2-ppt-skills",
       "functionCategory": "docs-content",
@@ -2593,7 +2593,7 @@
         "claude",
         "openclaw"
       ],
-      "searchText": "gpt-image2-ppt-skills clone any .pptx into your own deck \u2014 openai gpt-image-2 mimics the layout, you supply the content. 10 bundled styles. | \u628a\u4efb\u4f55 .pptx \u6a21\u677f\"\u6284\"\u6210\u4f60\u7684 ppt\uff1agpt-image-2 \u4eff\u7248\u5f0f\u3001\u4f60\u6362\u5185\u5bb9\uff0c\u53e6\u542b 10 \u5957\u7cbe\u9009\u98ce\u683c\u3002claude code / openclaw skill. juneyaooo/gpt-image2-ppt-skills pip install gpt-image2-ppt-skills docs-content claude openclaw"
+      "searchText": "gpt-image2-ppt-skills clone any .pptx into your own deck — openai gpt-image-2 mimics the layout, you supply the content. 10 bundled styles. | 把任何 .pptx 模板\"抄\"成你的 ppt：gpt-image-2 仿版式、你换内容，另含 10 套精选风格。claude code / openclaw skill. juneyaooo/gpt-image2-ppt-skills pip install gpt-image2-ppt-skills docs-content claude openclaw"
     },
     {
       "name": "awesome-claude-code-plugins",
@@ -2601,7 +2601,7 @@
       "sourceAgent": "claude",
       "repo": "ccplugins/awesome-claude-code-plugins",
       "stars": 824,
-      "desc": "Awesome Claude Code plugins \u2014 a curated list of slash commands, subagents, MCP servers, and hooks for Claude Code",
+      "desc": "Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP servers, and hooks for Claude Code",
       "url": "https://github.com/ccplugins/awesome-claude-code-plugins",
       "install": "pip install awesome-claude-code-plugins",
       "functionCategory": "docs-content",
@@ -2611,7 +2611,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "awesome-claude-code-plugins awesome claude code plugins \u2014 a curated list of slash commands, subagents, mcp servers, and hooks for claude code ccplugins/awesome-claude-code-plugins pip install awesome-claude-code-plugins docs-content claude"
+      "searchText": "awesome-claude-code-plugins awesome claude code plugins — a curated list of slash commands, subagents, mcp servers, and hooks for claude code ccplugins/awesome-claude-code-plugins pip install awesome-claude-code-plugins docs-content claude"
     },
     {
       "name": "translate-book",
@@ -2655,7 +2655,7 @@
       "sourceAgent": "claude",
       "repo": "abubakarsiddik31/claude-skills-collection",
       "stars": 681,
-      "desc": "A curated collection of official and community-built Claude Skills \u2013 extend Anthropic's Claude with powerful, modular capabilities for productivity, creativity, coding, and more.",
+      "desc": "A curated collection of official and community-built Claude Skills – extend Anthropic's Claude with powerful, modular capabilities for productivity, creativity, coding, and more.",
       "url": "https://github.com/abubakarsiddik31/claude-skills-collection",
       "install": "git clone https://github.com/abubakarsiddik31/claude-skills-collection.git",
       "functionCategory": "docs-content",
@@ -2665,7 +2665,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-skills-collection a curated collection of official and community-built claude skills \u2013 extend anthropic's claude with powerful, modular capabilities for productivity, creativity, coding, and more. abubakarsiddik31/claude-skills-collection git clone https://github.com/abubakarsiddik31/claude-skills-collection.git docs-content claude"
+      "searchText": "claude-skills-collection a curated collection of official and community-built claude skills – extend anthropic's claude with powerful, modular capabilities for productivity, creativity, coding, and more. abubakarsiddik31/claude-skills-collection git clone https://github.com/abubakarsiddik31/claude-skills-collection.git docs-content claude"
     },
     {
       "name": "Oh-my--paper",
@@ -2673,7 +2673,7 @@
       "sourceAgent": "claude",
       "repo": "LigphiDonk/Oh-my--paper",
       "stars": 673,
-      "desc": "A Claude Code plugin that turns your terminal into an autonomous research lab \u2014 literature survey, experiment execution, paper writing, all in one pipeline.",
+      "desc": "A Claude Code plugin that turns your terminal into an autonomous research lab — literature survey, experiment execution, paper writing, all in one pipeline.",
       "url": "https://github.com/LigphiDonk/Oh-my--paper",
       "install": "npm i -g Oh-my--paper",
       "functionCategory": "docs-content",
@@ -2683,7 +2683,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "oh-my--paper a claude code plugin that turns your terminal into an autonomous research lab \u2014 literature survey, experiment execution, paper writing, all in one pipeline. ligphidonk/oh-my--paper npm i -g oh-my--paper docs-content claude"
+      "searchText": "oh-my--paper a claude code plugin that turns your terminal into an autonomous research lab — literature survey, experiment execution, paper writing, all in one pipeline. ligphidonk/oh-my--paper npm i -g oh-my--paper docs-content claude"
     },
     {
       "name": "Agent-Skills",
@@ -2691,7 +2691,7 @@
       "sourceAgent": "other",
       "repo": "MicrosoftDocs/Agent-Skills",
       "stars": 621,
-      "desc": "Curated Agent Skills for Microsoft & Azure \u2013 giving AI coding assistants structured, real-time expertise from Microsoft Learn docs.",
+      "desc": "Curated Agent Skills for Microsoft & Azure – giving AI coding assistants structured, real-time expertise from Microsoft Learn docs.",
       "url": "https://github.com/MicrosoftDocs/Agent-Skills",
       "install": "git clone https://github.com/MicrosoftDocs/Agent-Skills.git  # browse the awesome list",
       "functionCategory": "docs-content",
@@ -2701,7 +2701,7 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "agent-skills curated agent skills for microsoft & azure \u2013 giving ai coding assistants structured, real-time expertise from microsoft learn docs. microsoftdocs/agent-skills git clone https://github.com/microsoftdocs/agent-skills.git  # browse the awesome list docs-content other"
+      "searchText": "agent-skills curated agent skills for microsoft & azure – giving ai coding assistants structured, real-time expertise from microsoft learn docs. microsoftdocs/agent-skills git clone https://github.com/microsoftdocs/agent-skills.git  # browse the awesome list docs-content other"
     },
     {
       "name": "agentfiles",
@@ -2709,7 +2709,7 @@
       "sourceAgent": "multi",
       "repo": "Railly/agentfiles",
       "stars": 585,
-      "desc": "Browse, create, and edit AI agent files across Claude Code, Cursor, Codex, and 13+ tools \u2014 from Obsidian.",
+      "desc": "Browse, create, and edit AI agent files across Claude Code, Cursor, Codex, and 13+ tools — from Obsidian.",
       "url": "https://github.com/Railly/agentfiles",
       "install": "npm i -g agentfiles",
       "functionCategory": "docs-content",
@@ -2721,7 +2721,7 @@
         "codex",
         "cursor"
       ],
-      "searchText": "agentfiles browse, create, and edit ai agent files across claude code, cursor, codex, and 13+ tools \u2014 from obsidian. railly/agentfiles npm i -g agentfiles docs-content claude codex cursor"
+      "searchText": "agentfiles browse, create, and edit ai agent files across claude code, cursor, codex, and 13+ tools — from obsidian. railly/agentfiles npm i -g agentfiles docs-content claude codex cursor"
     },
     {
       "name": "agentskills",
@@ -2871,7 +2871,7 @@
       "sourceAgent": "claude",
       "repo": "zLanqing/codex-claude-academic-skills",
       "stars": 492,
-      "desc": "\u672c\u4ed3\u5e93\u5305\u542b\u4e09\u4e2a\u9762\u5411\u5b66\u672f\u79d1\u7814\u4eba\u5458\u7684Skills\uff0c\u8986\u76d6\u4ece\u6587\u732e\u9605\u8bfb\u3001\u8bba\u6587\u5199\u4f5c\u5230\u79d1\u5b66\u8ba1\u7b97\u7684\u5b8c\u6574\u7814\u7a76\u5de5\u4f5c\u6d41\u3002office-academic-skill \u8d1f\u8d23\u8bba\u6587\u9605\u8bfb\u62a5\u544a\u4e0e\u5b66\u672f PPT/Word \u6587\u6863\u751f\u6210\uff1bresearch-writing-skill \u63d0\u4f9b\u8bba\u6587\u5199\u4f5c\u3001\u6da6\u8272\u4e0e\u5ba1\u7a3f\u56de\u590d\u8f85\u52a9\uff1bscientific-toolkit-skill \u6574\u5408 MATLAB/Python \u79d1\u5b66\u8ba1\u7b97\u4e0e\u671f\u520a\u7ea7\u56fe\u8868\u751f\u6210\u3002\u4e09\u4e2a Sk...",
+      "desc": "本仓库包含三个面向学术科研人员的Skills，覆盖从文献阅读、论文写作到科学计算的完整研究工作流。office-academic-skill 负责论文阅读报告与学术 PPT/Word 文档生成；research-writing-skill 提供论文写作、润色与审稿回复辅助；scientific-toolkit-skill 整合 MATLAB/Python 科学计算与期刊级图表生成。三个 Sk...",
       "url": "https://github.com/zLanqing/codex-claude-academic-skills",
       "install": "pip install codex-claude-academic-skills",
       "functionCategory": "docs-content",
@@ -2882,7 +2882,7 @@
         "claude",
         "codex"
       ],
-      "searchText": "codex-claude-academic-skills \u672c\u4ed3\u5e93\u5305\u542b\u4e09\u4e2a\u9762\u5411\u5b66\u672f\u79d1\u7814\u4eba\u5458\u7684skills\uff0c\u8986\u76d6\u4ece\u6587\u732e\u9605\u8bfb\u3001\u8bba\u6587\u5199\u4f5c\u5230\u79d1\u5b66\u8ba1\u7b97\u7684\u5b8c\u6574\u7814\u7a76\u5de5\u4f5c\u6d41\u3002office-academic-skill \u8d1f\u8d23\u8bba\u6587\u9605\u8bfb\u62a5\u544a\u4e0e\u5b66\u672f ppt/word \u6587\u6863\u751f\u6210\uff1bresearch-writing-skill \u63d0\u4f9b\u8bba\u6587\u5199\u4f5c\u3001\u6da6\u8272\u4e0e\u5ba1\u7a3f\u56de\u590d\u8f85\u52a9\uff1bscientific-toolkit-skill \u6574\u5408 matlab/python \u79d1\u5b66\u8ba1\u7b97\u4e0e\u671f\u520a\u7ea7\u56fe\u8868\u751f\u6210\u3002\u4e09\u4e2a skill \u4e13\u4e3a\u4e2d\u6587\u79d1\u7814\u7528\u6237\u8bbe\u8ba1\uff0c\u53ef\u5728 claude code \u548c codex \u4e2d\u4e00\u952e\u8c03\u7528\u3002 zlanqing/codex-claude-academic-skills pip install codex-claude-academic-skills docs-content claude codex"
+      "searchText": "codex-claude-academic-skills 本仓库包含三个面向学术科研人员的skills，覆盖从文献阅读、论文写作到科学计算的完整研究工作流。office-academic-skill 负责论文阅读报告与学术 ppt/word 文档生成；research-writing-skill 提供论文写作、润色与审稿回复辅助；scientific-toolkit-skill 整合 matlab/python 科学计算与期刊级图表生成。三个 skill 专为中文科研用户设计，可在 claude code 和 codex 中一键调用。 zlanqing/codex-claude-academic-skills pip install codex-claude-academic-skills docs-content claude codex"
     },
     {
       "name": "Claude_skills_zh-CN",
@@ -2890,7 +2890,7 @@
       "sourceAgent": "claude",
       "repo": "LeastBit/Claude_skills_zh-CN",
       "stars": 486,
-      "desc": "Anthropics/skills\u4e2d\u6587\u5b66\u4e60\u7248\u672c \u6765\u81ea\uff1ahttps://github.com/anthropics/skills",
+      "desc": "Anthropics/skills中文学习版本 来自：https://github.com/anthropics/skills",
       "url": "https://github.com/LeastBit/Claude_skills_zh-CN",
       "install": "pip install Claude_skills_zh-CN",
       "functionCategory": "docs-content",
@@ -2900,7 +2900,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude_skills_zh-cn anthropics/skills\u4e2d\u6587\u5b66\u4e60\u7248\u672c \u6765\u81ea\uff1ahttps://github.com/anthropics/skills leastbit/claude_skills_zh-cn pip install claude_skills_zh-cn docs-content claude"
+      "searchText": "claude_skills_zh-cn anthropics/skills中文学习版本 来自：https://github.com/anthropics/skills leastbit/claude_skills_zh-cn pip install claude_skills_zh-cn docs-content claude"
     },
     {
       "name": "oh-story-claudecode",
@@ -2908,7 +2908,7 @@
       "sourceAgent": "general",
       "repo": "worldwonderer/oh-story-claudecode",
       "stars": 484,
-      "desc": "\u7f51\u7edc\u5c0f\u8bf4\u5199\u4f5cskill\u5305\uff0c\u8986\u76d6\u957f\u7bc7\u4e0e\u77ed\u7bc7\u7f51\u7edc\u5c0f\u8bf4\u7684\u626b\u699c\u3001\u62c6\u6587\u3001\u5199\u4f5c\u3001\u53bbAI\u5473\u3001\u5c01\u9762\u56fe\u5168\u6d41\u7a0b\u3002",
+      "desc": "网络小说写作skill包，覆盖长篇与短篇网络小说的扫榜、拆文、写作、去AI味、封面图全流程。",
       "url": "https://github.com/worldwonderer/oh-story-claudecode",
       "install": "$skill-installer oh-story",
       "functionCategory": "docs-content",
@@ -2918,7 +2918,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "oh-story-claudecode \u7f51\u7edc\u5c0f\u8bf4\u5199\u4f5cskill\u5305\uff0c\u8986\u76d6\u957f\u7bc7\u4e0e\u77ed\u7bc7\u7f51\u7edc\u5c0f\u8bf4\u7684\u626b\u699c\u3001\u62c6\u6587\u3001\u5199\u4f5c\u3001\u53bbai\u5473\u3001\u5c01\u9762\u56fe\u5168\u6d41\u7a0b\u3002 worldwonderer/oh-story-claudecode $skill-installer oh-story docs-content general"
+      "searchText": "oh-story-claudecode 网络小说写作skill包，覆盖长篇与短篇网络小说的扫榜、拆文、写作、去ai味、封面图全流程。 worldwonderer/oh-story-claudecode $skill-installer oh-story docs-content general"
     },
     {
       "name": "mckinsey-pptx",
@@ -2926,7 +2926,7 @@
       "sourceAgent": "claude",
       "repo": "seulee26/mckinsey-pptx",
       "stars": 474,
-      "desc": "McKinsey-style PPTX generator \u2014 Claude Code plugin with 40 slide templates + subagent that picks the right template and defends its choice. Built by AX Labs (\uc774\uc2b9\ud544).",
+      "desc": "McKinsey-style PPTX generator — Claude Code plugin with 40 slide templates + subagent that picks the right template and defends its choice. Built by AX Labs (이승필).",
       "url": "https://github.com/seulee26/mckinsey-pptx",
       "install": "pip install mckinsey-pptx",
       "functionCategory": "docs-content",
@@ -2936,7 +2936,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "mckinsey-pptx mckinsey-style pptx generator \u2014 claude code plugin with 40 slide templates + subagent that picks the right template and defends its choice. built by ax labs (\uc774\uc2b9\ud544). seulee26/mckinsey-pptx pip install mckinsey-pptx docs-content claude"
+      "searchText": "mckinsey-pptx mckinsey-style pptx generator — claude code plugin with 40 slide templates + subagent that picks the right template and defends its choice. built by ax labs (이승필). seulee26/mckinsey-pptx pip install mckinsey-pptx docs-content claude"
     },
     {
       "name": "learn-agents-from-opencode",
@@ -2944,7 +2944,7 @@
       "sourceAgent": "opencode",
       "repo": "yexia553/learn-agents-from-opencode",
       "stars": 448,
-      "desc": "\u6839\u636e opencode \u6e90\u7801\u7f16\u5199\u7684 agent \u5f00\u53d1\u6559\u7a0b",
+      "desc": "根据 opencode 源码编写的 agent 开发教程",
       "url": "https://github.com/yexia553/learn-agents-from-opencode",
       "install": "git clone https://github.com/yexia553/learn-agents-from-opencode.git",
       "functionCategory": "docs-content",
@@ -2954,7 +2954,7 @@
       "supportedAgents": [
         "opencode"
       ],
-      "searchText": "learn-agents-from-opencode \u6839\u636e opencode \u6e90\u7801\u7f16\u5199\u7684 agent \u5f00\u53d1\u6559\u7a0b yexia553/learn-agents-from-opencode git clone https://github.com/yexia553/learn-agents-from-opencode.git docs-content opencode"
+      "searchText": "learn-agents-from-opencode 根据 opencode 源码编写的 agent 开发教程 yexia553/learn-agents-from-opencode git clone https://github.com/yexia553/learn-agents-from-opencode.git docs-content opencode"
     },
     {
       "name": "ai-labs-claude-skills",
@@ -2980,7 +2980,7 @@
       "sourceAgent": "claude",
       "repo": "karanb192/awesome-claude-skills",
       "stars": 372,
-      "desc": "\ud83c\udfaf The definitive collection of 50+ verified Awesome Claude Skills for Claude Code, Claude.ai, and API. Boost productivity with TDD, debugging, git workflows, document processing, and more. Communit...",
+      "desc": "🎯 The definitive collection of 50+ verified Awesome Claude Skills for Claude Code, Claude.ai, and API. Boost productivity with TDD, debugging, git workflows, document processing, and more. Communit...",
       "url": "https://github.com/karanb192/awesome-claude-skills",
       "install": "git clone https://github.com/karanb192/awesome-claude-skills.git",
       "functionCategory": "docs-content",
@@ -2990,7 +2990,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "awesome-claude-skills \ud83c\udfaf the definitive collection of 50+ verified awesome claude skills for claude code, claude.ai, and api. boost productivity with tdd, debugging, git workflows, document processing, and more. community-driven, actively maintained. karanb192/awesome-claude-skills git clone https://github.com/karanb192/awesome-claude-skills.git docs-content claude"
+      "searchText": "awesome-claude-skills 🎯 the definitive collection of 50+ verified awesome claude skills for claude code, claude.ai, and api. boost productivity with tdd, debugging, git workflows, document processing, and more. community-driven, actively maintained. karanb192/awesome-claude-skills git clone https://github.com/karanb192/awesome-claude-skills.git docs-content claude"
     },
     {
       "name": "tools",
@@ -3016,7 +3016,7 @@
       "sourceAgent": "hermes",
       "repo": "jwangkun/hermes-agent-guide",
       "stars": 334,
-      "desc": "Hermes Agent \u662f\u76ee\u524d\u5f00\u6e90\u793e\u533a\u6700\u5177\u6f5c\u529b\u7684 AI Agent \u6846\u67b6\u4e4b\u4e00\u3002\u5b83\u7ee7\u627f\u4e86 OpenClaw \u7684\u4f18\u79c0\u57fa\u56e0\uff0c\u5728\u67b6\u6784\u8bbe\u8ba1\u3001\u8bb0\u5fc6\u7cfb\u7edf\u3001\u6280\u80fd\u751f\u6001\u548c\u81ea\u52a8\u5316\u80fd\u529b\u4e0a\u5b9e\u73b0\u5168\u9762\u5347\u7ea7\u3002\u4f46 Hermes \u7684\u6587\u6863\u5206\u6563\u5728\u591a\u4e2a\u4ed3\u5e93\u548c\u5e73\u53f0\uff0c\u7f3a\u4e4f\u4e00\u672c\u7cfb\u7edf\u6027\u7684\u4e2d\u6587\u6307\u5357\u3002  \u672c\u4e66\u586b\u8865\u7684\u6b63\u662f\u8fd9\u4e2a\u7a7a\u767d\u3002\u5168\u4e66 16 \u518c\u300130 \u4e07+ \u5b57\uff0c\u8986\u76d6\u4ece\u5b89\u88c5\u90e8\u7f72\u5230\u9ad8\u9636\u5f00\u53d1\u3001\u4ece\u4e2a\u4eba\u73a9\u8d5a\u5230\u4f01\u4e1a\u670d\u52a1\u3001\u4ece\u5355 Agent \u64cd\u63a7\u5230\u591a Agen...",
+      "desc": "Hermes Agent 是目前开源社区最具潜力的 AI Agent 框架之一。它继承了 OpenClaw 的优秀基因，在架构设计、记忆系统、技能生态和自动化能力上实现全面升级。但 Hermes 的文档分散在多个仓库和平台，缺乏一本系统性的中文指南。  本书填补的正是这个空白。全书 16 册、30 万+ 字，覆盖从安装部署到高阶开发、从个人玩赚到企业服务、从单 Agent 操控到多 Agen...",
       "url": "https://github.com/jwangkun/hermes-agent-guide",
       "install": "pip install hermes-agent-guide",
       "functionCategory": "docs-content",
@@ -3027,7 +3027,7 @@
         "hermes",
         "openclaw"
       ],
-      "searchText": "hermes-agent-guide hermes agent \u662f\u76ee\u524d\u5f00\u6e90\u793e\u533a\u6700\u5177\u6f5c\u529b\u7684 ai agent \u6846\u67b6\u4e4b\u4e00\u3002\u5b83\u7ee7\u627f\u4e86 openclaw \u7684\u4f18\u79c0\u57fa\u56e0\uff0c\u5728\u67b6\u6784\u8bbe\u8ba1\u3001\u8bb0\u5fc6\u7cfb\u7edf\u3001\u6280\u80fd\u751f\u6001\u548c\u81ea\u52a8\u5316\u80fd\u529b\u4e0a\u5b9e\u73b0\u5168\u9762\u5347\u7ea7\u3002\u4f46 hermes \u7684\u6587\u6863\u5206\u6563\u5728\u591a\u4e2a\u4ed3\u5e93\u548c\u5e73\u53f0\uff0c\u7f3a\u4e4f\u4e00\u672c\u7cfb\u7edf\u6027\u7684\u4e2d\u6587\u6307\u5357\u3002  \u672c\u4e66\u586b\u8865\u7684\u6b63\u662f\u8fd9\u4e2a\u7a7a\u767d\u3002\u5168\u4e66 16 \u518c\u300130 \u4e07+ \u5b57\uff0c\u8986\u76d6\u4ece\u5b89\u88c5\u90e8\u7f72\u5230\u9ad8\u9636\u5f00\u53d1\u3001\u4ece\u4e2a\u4eba\u73a9\u8d5a\u5230\u4f01\u4e1a\u670d\u52a1\u3001\u4ece\u5355 agent \u64cd\u63a7\u5230\u591a agent \u7f16\u6392\u7684\u5b8c\u6574\u77e5\u8bc6\u56fe\u8c31\u3002 jwangkun/hermes-agent-guide pip install hermes-agent-guide docs-content hermes openclaw"
+      "searchText": "hermes-agent-guide hermes agent 是目前开源社区最具潜力的 ai agent 框架之一。它继承了 openclaw 的优秀基因，在架构设计、记忆系统、技能生态和自动化能力上实现全面升级。但 hermes 的文档分散在多个仓库和平台，缺乏一本系统性的中文指南。  本书填补的正是这个空白。全书 16 册、30 万+ 字，覆盖从安装部署到高阶开发、从个人玩赚到企业服务、从单 agent 操控到多 agent 编排的完整知识图谱。 jwangkun/hermes-agent-guide pip install hermes-agent-guide docs-content hermes openclaw"
     },
     {
       "name": "Agent-Framework-Samples--agent-framework",
@@ -3215,7 +3215,7 @@
       "sourceAgent": "claude",
       "repo": "anthropics/claude-plugins-community",
       "stars": 171,
-      "desc": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror \u2014 submit plugins at clau.de/plugin-directory-submission.",
+      "desc": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
       "url": "https://github.com/anthropics/claude-plugins-community",
       "install": "git clone https://github.com/anthropics/claude-plugins-community.git",
       "functionCategory": "docs-content",
@@ -3225,7 +3225,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-plugins-community community plugin marketplace for claude cowork and claude code. read-only mirror \u2014 submit plugins at clau.de/plugin-directory-submission. anthropics/claude-plugins-community git clone https://github.com/anthropics/claude-plugins-community.git docs-content claude"
+      "searchText": "claude-plugins-community community plugin marketplace for claude cowork and claude code. read-only mirror — submit plugins at clau.de/plugin-directory-submission. anthropics/claude-plugins-community git clone https://github.com/anthropics/claude-plugins-community.git docs-content claude"
     },
     {
       "name": "awesome-web-you-should-know",
@@ -3233,7 +3233,7 @@
       "sourceAgent": "awesome-web-you-should-know",
       "repo": "freyhill/awesome-web-you-should-know",
       "stars": 165,
-      "desc": "\ud83c\udf0eawesome web you should know",
+      "desc": "🌎awesome web you should know",
       "url": "https://github.com/freyhill/awesome-web-you-should-know",
       "install": "",
       "functionCategory": "docs-content",
@@ -3243,7 +3243,7 @@
       "supportedAgents": [
         "awesome-web-you-should-know"
       ],
-      "searchText": "awesome-web-you-should-know \ud83c\udf0eawesome web you should know freyhill/awesome-web-you-should-know docs-content awesome-web-you-should-know"
+      "searchText": "awesome-web-you-should-know 🌎awesome web you should know freyhill/awesome-web-you-should-know docs-content awesome-web-you-should-know"
     },
     {
       "name": "awesome-emu-resources",
@@ -3377,7 +3377,7 @@
       "sourceAgent": "cova",
       "repo": "Guizimo/cova",
       "stars": 120,
-      "desc": "\u7b80\u5355\u6613\u7528\u7684\u5c01\u9762\u56fe\u7247\u751f\u6210\u5de5\u5177\uff0c\u4e3a\u4f60\u7684\u6587\u7ae0\u3001\u89c6\u9891\u3001\u793e\u4ea4\u5a92\u4f53\u521b\u4f5c\u63d0\u4f9b\u4e13\u4e1a\u7684\u5c01\u9762\u8bbe\u8ba1\u3002",
+      "desc": "简单易用的封面图片生成工具，为你的文章、视频、社交媒体创作提供专业的封面设计。",
       "url": "https://github.com/Guizimo/cova",
       "install": "",
       "functionCategory": "docs-content",
@@ -3387,7 +3387,7 @@
       "supportedAgents": [
         "cova"
       ],
-      "searchText": "cova \u7b80\u5355\u6613\u7528\u7684\u5c01\u9762\u56fe\u7247\u751f\u6210\u5de5\u5177\uff0c\u4e3a\u4f60\u7684\u6587\u7ae0\u3001\u89c6\u9891\u3001\u793e\u4ea4\u5a92\u4f53\u521b\u4f5c\u63d0\u4f9b\u4e13\u4e1a\u7684\u5c01\u9762\u8bbe\u8ba1\u3002 guizimo/cova docs-content cova"
+      "searchText": "cova 简单易用的封面图片生成工具，为你的文章、视频、社交媒体创作提供专业的封面设计。 guizimo/cova docs-content cova"
     },
     {
       "name": "go-mygen",
@@ -3413,7 +3413,7 @@
       "sourceAgent": "openclaw",
       "repo": "iswalle/getnote-openclaw",
       "stars": 118,
-      "desc": "Get \u7b14\u8bb0 openclaw Skill",
+      "desc": "Get 笔记 openclaw Skill",
       "url": "https://github.com/iswalle/getnote-openclaw",
       "install": "git clone https://github.com/iswalle/getnote-openclaw.git",
       "functionCategory": "docs-content",
@@ -3423,7 +3423,7 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "getnote-openclaw get \u7b14\u8bb0 openclaw skill iswalle/getnote-openclaw git clone https://github.com/iswalle/getnote-openclaw.git docs-content openclaw"
+      "searchText": "getnote-openclaw get 笔记 openclaw skill iswalle/getnote-openclaw git clone https://github.com/iswalle/getnote-openclaw.git docs-content openclaw"
     },
     {
       "name": "bitdowntoc",
@@ -3473,7 +3473,7 @@
       "sourceAgent": "cursor",
       "repo": "blefnk/awesome-cursor-rules",
       "stars": 82,
-      "desc": "\u2747\ufe0f neatly composed rules for ai ides like cursor, windsurf, vscode microsoft github copilot, reliverse ai, etc. optimized for modern frontend development with next.js 15, react 19, typescript 5, ta...",
+      "desc": "❇️ neatly composed rules for ai ides like cursor, windsurf, vscode microsoft github copilot, reliverse ai, etc. optimized for modern frontend development with next.js 15, react 19, typescript 5, ta...",
       "url": "https://github.com/blefnk/awesome-cursor-rules",
       "install": "git clone https://github.com/blefnk/awesome-cursor-rules.git",
       "functionCategory": "docs-content",
@@ -3484,7 +3484,7 @@
         "cursor",
         "copilot"
       ],
-      "searchText": "awesome-cursor-rules \u2747\ufe0f neatly composed rules for ai ides like cursor, windsurf, vscode microsoft github copilot, reliverse ai, etc. optimized for modern frontend development with next.js 15, react 19, typescript 5, tailwind 4, shadcn/ui, drizzle orm, better auth, polar, tanstack form, react query, etc. blefnk/awesome-cursor-rules git clone https://github.com/blefnk/awesome-cursor-rules.git docs-content cursor copilot"
+      "searchText": "awesome-cursor-rules ❇️ neatly composed rules for ai ides like cursor, windsurf, vscode microsoft github copilot, reliverse ai, etc. optimized for modern frontend development with next.js 15, react 19, typescript 5, tailwind 4, shadcn/ui, drizzle orm, better auth, polar, tanstack form, react query, etc. blefnk/awesome-cursor-rules git clone https://github.com/blefnk/awesome-cursor-rules.git docs-content cursor copilot"
     },
     {
       "name": "awesome-agent-skills",
@@ -3512,7 +3512,7 @@
       "sourceAgent": "hermes",
       "repo": "ChuckSRQ/awesome-hermes-skills",
       "stars": 67,
-      "desc": "A curated collection of production-ready Hermes Agent skills \u2014 brainstorming, PRD workflows, debugging, Apple integrations, MLOps, document processing, and more.",
+      "desc": "A curated collection of production-ready Hermes Agent skills — brainstorming, PRD workflows, debugging, Apple integrations, MLOps, document processing, and more.",
       "url": "https://github.com/ChuckSRQ/awesome-hermes-skills",
       "install": "pip install awesome-hermes-skills",
       "functionCategory": "docs-content",
@@ -3522,7 +3522,7 @@
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "awesome-hermes-skills a curated collection of production-ready hermes agent skills \u2014 brainstorming, prd workflows, debugging, apple integrations, mlops, document processing, and more. chucksrq/awesome-hermes-skills pip install awesome-hermes-skills docs-content hermes"
+      "searchText": "awesome-hermes-skills a curated collection of production-ready hermes agent skills — brainstorming, prd workflows, debugging, apple integrations, mlops, document processing, and more. chucksrq/awesome-hermes-skills pip install awesome-hermes-skills docs-content hermes"
     },
     {
       "name": "awesome-openclaw-skills-zh",
@@ -3530,7 +3530,7 @@
       "sourceAgent": "openclaw",
       "repo": "Rito-w/awesome-openclaw-skills-zh",
       "stars": 66,
-      "desc": "Awesome OpenClaw Skills \u4e2d\u6587\u7248 - 5494 \u4e2a OpenClaw \u6280\u80fd\u7684\u4e2d\u6587\u7ffb\u8bd1\u4e0e\u5206\u7c7b",
+      "desc": "Awesome OpenClaw Skills 中文版 - 5494 个 OpenClaw 技能的中文翻译与分类",
       "url": "https://github.com/Rito-w/awesome-openclaw-skills-zh",
       "install": "git clone https://github.com/Rito-w/awesome-openclaw-skills-zh.git",
       "functionCategory": "docs-content",
@@ -3540,7 +3540,7 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "awesome-openclaw-skills-zh awesome openclaw skills \u4e2d\u6587\u7248 - 5494 \u4e2a openclaw \u6280\u80fd\u7684\u4e2d\u6587\u7ffb\u8bd1\u4e0e\u5206\u7c7b rito-w/awesome-openclaw-skills-zh git clone https://github.com/rito-w/awesome-openclaw-skills-zh.git docs-content openclaw"
+      "searchText": "awesome-openclaw-skills-zh awesome openclaw skills 中文版 - 5494 个 openclaw 技能的中文翻译与分类 rito-w/awesome-openclaw-skills-zh git clone https://github.com/rito-w/awesome-openclaw-skills-zh.git docs-content openclaw"
     },
     {
       "name": "hermes-agent-docs",
@@ -3548,7 +3548,7 @@
       "sourceAgent": "hermes",
       "repo": "mudrii/hermes-agent-docs",
       "stars": 60,
-      "desc": "Comprehensive documentation for Hermes Agent by NousResearch \u2014 the self-improving AI agent (v0.2.0)",
+      "desc": "Comprehensive documentation for Hermes Agent by NousResearch — the self-improving AI agent (v0.2.0)",
       "url": "https://github.com/mudrii/hermes-agent-docs",
       "install": "git clone https://github.com/mudrii/hermes-agent-docs.git",
       "functionCategory": "docs-content",
@@ -3558,7 +3558,7 @@
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "hermes-agent-docs comprehensive documentation for hermes agent by nousresearch \u2014 the self-improving ai agent (v0.2.0) mudrii/hermes-agent-docs git clone https://github.com/mudrii/hermes-agent-docs.git docs-content hermes"
+      "searchText": "hermes-agent-docs comprehensive documentation for hermes agent by nousresearch — the self-improving ai agent (v0.2.0) mudrii/hermes-agent-docs git clone https://github.com/mudrii/hermes-agent-docs.git docs-content hermes"
     },
     {
       "name": "hermes-agent-anatomy",
@@ -3566,7 +3566,7 @@
       "sourceAgent": "hermes",
       "repo": "anneheartrecord/hermes-agent-anatomy",
       "stars": 56,
-      "desc": "hermes-agent\u6e90\u7801\u89e3\u6790",
+      "desc": "hermes-agent源码解析",
       "url": "https://github.com/anneheartrecord/hermes-agent-anatomy",
       "install": "git clone https://github.com/anneheartrecord/hermes-agent-anatomy.git",
       "functionCategory": "docs-content",
@@ -3576,7 +3576,7 @@
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "hermes-agent-anatomy hermes-agent\u6e90\u7801\u89e3\u6790 anneheartrecord/hermes-agent-anatomy git clone https://github.com/anneheartrecord/hermes-agent-anatomy.git docs-content hermes"
+      "searchText": "hermes-agent-anatomy hermes-agent源码解析 anneheartrecord/hermes-agent-anatomy git clone https://github.com/anneheartrecord/hermes-agent-anatomy.git docs-content hermes"
     },
     {
       "name": "awesome-hermes-agent-zh",
@@ -3584,7 +3584,7 @@
       "sourceAgent": "hermes",
       "repo": "jefferyjob/awesome-hermes-agent-zh",
       "stars": 55,
-      "desc": "Nous Research \u7cbe\u5fc3\u6574\u7406\u4e86\u4e00\u4efd\u9002\u7528\u4e8e Hermes Agent \u7684\u5b9e\u7528\u6280\u80fd\u3001\u5de5\u5177\u3001\u96c6\u6210\u548c\u8d44\u6e90\u5217\u8868\u3002",
+      "desc": "Nous Research 精心整理了一份适用于 Hermes Agent 的实用技能、工具、集成和资源列表。",
       "url": "https://github.com/jefferyjob/awesome-hermes-agent-zh",
       "install": "git clone https://github.com/jefferyjob/awesome-hermes-agent-zh.git",
       "functionCategory": "docs-content",
@@ -3594,7 +3594,7 @@
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "awesome-hermes-agent-zh nous research \u7cbe\u5fc3\u6574\u7406\u4e86\u4e00\u4efd\u9002\u7528\u4e8e hermes agent \u7684\u5b9e\u7528\u6280\u80fd\u3001\u5de5\u5177\u3001\u96c6\u6210\u548c\u8d44\u6e90\u5217\u8868\u3002 jefferyjob/awesome-hermes-agent-zh git clone https://github.com/jefferyjob/awesome-hermes-agent-zh.git docs-content hermes"
+      "searchText": "awesome-hermes-agent-zh nous research 精心整理了一份适用于 hermes agent 的实用技能、工具、集成和资源列表。 jefferyjob/awesome-hermes-agent-zh git clone https://github.com/jefferyjob/awesome-hermes-agent-zh.git docs-content hermes"
     },
     {
       "name": "mdbook",
@@ -3617,7 +3617,7 @@
     {
       "name": "Claude SEO",
       "repo": "agricidaniel/claude-seo",
-      "description": "Universal SEO skill for Claude Code \u2014 25 sub-skills + 18 sub-agents for technical SEO",
+      "description": "Universal SEO skill for Claude Code — 25 sub-skills + 18 sub-agents for technical SEO",
       "platforms": [
         "claude-code"
       ],
@@ -3633,7 +3633,7 @@
     {
       "name": "Notion Cookbook",
       "repo": "makenotion/notion-cookbook",
-      "description": "Hub for getting started with Notion \u2014 docs, scripts, customizable for AI agents",
+      "description": "Hub for getting started with Notion — docs, scripts, customizable for AI agents",
       "platforms": [
         "claude-code",
         "codex",
@@ -3798,7 +3798,7 @@
       "sourceAgent": "general",
       "repo": "readme-ai/readme-ai",
       "stars": 2933,
-      "desc": "README file generator, powered by AI \u2014 create beautiful documentation for your projects",
+      "desc": "README file generator, powered by AI — create beautiful documentation for your projects",
       "url": "https://github.com/readme-ai/readme-ai",
       "install": "",
       "functionCategory": "docs-content",
@@ -3808,7 +3808,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "readme-ai README file generator, powered by AI \u2014 create beautiful documentation for your p readme-ai/readme-ai docs-content",
+      "searchText": "readme-ai README file generator, powered by AI — create beautiful documentation for your p readme-ai/readme-ai docs-content",
       "pricing": "free"
     },
     {
@@ -3922,6 +3922,30 @@
         "general"
       ],
       "searchText": "claude-obsidian Self-organizing AI second brain for Obsidian + Claude Code.  AgriciDaniel/claude-obsidian docs-content"
+    },
+    {
+      "name": "Automated-AI-Web-Researcher-Ollama",
+      "description": "A python program that turns an LLM, running on Ollama, into an automated researcher, which will with a single query determine focus areas to investigate, do websearches and scrape content from various relevant websites and do research for you all on its own! And more, not limited to but including saving the findings for you!",
+      "url": "https://github.com/TheBlewish/Automated-AI-Web-Researcher-Ollama",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "awesome-ai-tools",
+      "description": "Curated list of awesome AI tools for developers, content creators and office workers. Free, practical and easy to use.",
+      "url": "https://github.com/0voice/awesome-ai-tools",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "webscraper",
+      "description": "Scrape the webpage convert it into Markdown, and enhance AI search applications.",
+      "url": "https://github.com/zzzgydi/webscraper",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "auto-codebase-documenter",
+      "description": "A tool that will use generative AI to automatically create documentation for every file in your codebase",
+      "url": "https://github.com/abryant710/auto-codebase-documenter",
+      "addedAt": "2026-07-01T04:00:00Z"
     }
   ]
 }

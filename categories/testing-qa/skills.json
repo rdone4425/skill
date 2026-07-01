@@ -2158,6 +2158,30 @@
         "general"
       ],
       "searchText": "API-TestPilot API-TestPilot，Ai 驱动的高效接口测试用例生成模型 | AI-Driven Efficient API Test Case Generation Model walker0012025/API-TestPilot testing-qa"
+    },
+    {
+      "name": "prompt-optimizer",
+      "description": "An AI prompt optimizer for writing better prompts and getting better AI results.",
+      "url": "https://github.com/linshenkx/prompt-optimizer",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "open-infra-index",
+      "description": "Production-tested AI infrastructure tools for efficient AGI development and community-driven innovation",
+      "url": "https://github.com/deepseek-ai/open-infra-index",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "sourcery",
+      "description": "Instant AI code reviews",
+      "url": "https://github.com/sourcery-ai/sourcery",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "prompt-forge",
+      "description": "AI prompt engineering workbench for crafting, testing, and systematically evaluating prompts with powerful analysis tools.",
+      "url": "https://github.com/insaaniManav/prompt-forge",
+      "addedAt": "2026-07-01T04:00:00Z"
     }
   ]
 }

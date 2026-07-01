@@ -1323,6 +1323,60 @@
         "general"
       ],
       "searchText": "ace-step-ui 🎵 The Ultimate Open Source Suno Alternative - Professional U fspecii/ace-step-ui audio"
+    },
+    {
+      "name": "VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "TaxHacker",
+      "description": "Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories",
+      "url": "https://github.com/vas3k/TaxHacker",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "flymd",
+      "description": "高性能Markdown笔记工具！免费AI，智能便签、TODO推送、本地知识库、AI小说引擎。PDF解析、自动语音笔记、录音转文本。毫秒级启动High-performance Markdown note tool! Free AI, smart notes, TODO reminders, local knowledge base, AI novel engine. PDF parsing, auto voice notes, audio-to-text. Millisecond startup.",
+      "url": "https://github.com/flyhunterl/flymd",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "bark-voice-cloning-HuBERT-quantizer",
+      "description": "The code for the bark-voicecloning model. Training and inference.",
+      "url": "https://github.com/gitmylo/bark-voice-cloning-HuBERT-quantizer",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "wavmark",
+      "description": "AI-based Audio Watermarking Tool",
+      "url": "https://github.com/wavmark/wavmark",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "aixplora",
+      "description": "AIxplora is a open-source tool which let's you query all kind of files not limited to any length or format.",
+      "url": "https://github.com/grumpyp/aixplora",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "friendly-stable-audio-tools",
+      "description": "Refactored / updated version of `stable-audio-tools` which is an open-source code for audio/music generative models originally by Stability AI.",
+      "url": "https://github.com/yukara-ikemiya/friendly-stable-audio-tools",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "transformers",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "url": "https://github.com/huggingface/transformers",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "runanywhere-sdks",
+      "description": "Production ready toolkit to run AI locally",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks",
+      "addedAt": "2026-07-01T04:00:00Z"
     }
   ]
 }

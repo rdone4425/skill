@@ -2604,6 +2604,60 @@
         "general"
       ],
       "searchText": "open-forge Let your AI coding agent self-host any open-source app for you. 2,200+ verified recipes — provisioning, DNS, TLS, hardening. Works with Claude Code, Codex, Cursor, Aider, OpenClaw, Hermes. zhangqi444/open-forge devops-deploy"
+    },
+    {
+      "name": "worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "url": "https://github.com/koala73/worldmonitor",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "litgpt",
+      "description": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale.",
+      "url": "https://github.com/Lightning-AI/litgpt",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "PowerInfer",
+      "description": "High-speed Large Language Model Serving for Local Deployment",
+      "url": "https://github.com/Tiiny-AI/PowerInfer",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "oumi",
+      "description": "Easily fine-tune, evaluate and deploy Gemma 4, Qwen3.5, Qwen3.6, gpt-oss, DeepSeek-R1, or any open source LLM / VLM!",
+      "url": "https://github.com/oumi-ai/oumi",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "lmdeploy",
+      "description": "LMDeploy is a toolkit for compressing, deploying, and serving LLMs.",
+      "url": "https://github.com/InternLM/lmdeploy",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "FastDeploy",
+      "description": "High-performance Inference and Deployment Toolkit for LLMs and VLMs based on PaddlePaddle",
+      "url": "https://github.com/PaddlePaddle/FastDeploy",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "llm-compressor",
+      "description": "Transformers-compatible library for applying various compression algorithms to LLMs for optimized deployment with vLLM",
+      "url": "https://github.com/vllm-project/llm-compressor",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "mint",
+      "description": "Multi-modal Content Creation Model Training Infrastructure including the FACT model (AI Choreographer) implementation.",
+      "url": "https://github.com/google-research/mint",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "azure-advisor",
+      "description": "Azure Advisor - personalized cloud best practices recommendations",
+      "url": "https://github.com/MicrosoftDocs/Agent-Skills",
+      "addedAt": "2026-07-01T04:00:00Z"
     }
   ]
 }

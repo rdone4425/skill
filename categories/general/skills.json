@@ -86,7 +86,7 @@
       "sourceAgent": "openhands",
       "repo": "OpenHands/OpenHands",
       "stars": 78591,
-      "desc": "\ud83d\ude4c OpenHands: AI-Driven Development",
+      "desc": "🙌 OpenHands: AI-Driven Development",
       "url": "https://github.com/OpenHands/OpenHands",
       "install": "",
       "functionCategory": "general",
@@ -96,7 +96,7 @@
       "supportedAgents": [
         "openhands"
       ],
-      "searchText": "openhands \ud83d\ude4c openhands: ai-driven development openhands/openhands general openhands"
+      "searchText": "openhands 🙌 openhands: ai-driven development openhands/openhands general openhands"
     },
     {
       "name": "daytona",
@@ -122,7 +122,7 @@
       "sourceAgent": "claude",
       "repo": "JuliusBrussee/caveman",
       "stars": 70369,
-      "desc": "\ud83e\udea8 why use many token when few token do trick \u2014 Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "desc": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
       "url": "https://github.com/JuliusBrussee/caveman",
       "install": "npm i -g caveman",
       "functionCategory": "general",
@@ -132,7 +132,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "caveman \ud83e\udea8 why use many token when few token do trick \u2014 claude code skill that cuts 65% of tokens by talking like caveman juliusbrussee/caveman npm i -g caveman general claude"
+      "searchText": "caveman 🪨 why use many token when few token do trick — claude code skill that cuts 65% of tokens by talking like caveman juliusbrussee/caveman npm i -g caveman general claude"
     },
     {
       "name": "rtk",
@@ -158,7 +158,7 @@
       "sourceAgent": "localstack",
       "repo": "localstack/localstack",
       "stars": 65082,
-      "desc": "\ud83d\udcbb A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline",
+      "desc": "💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline",
       "url": "https://github.com/localstack/localstack",
       "install": "",
       "functionCategory": "general",
@@ -168,7 +168,7 @@
       "supportedAgents": [
         "localstack"
       ],
-      "searchText": "localstack \ud83d\udcbb a fully functional local aws cloud stack. develop and test your cloud & serverless apps offline localstack/localstack general localstack"
+      "searchText": "localstack 💻 a fully functional local aws cloud stack. develop and test your cloud & serverless apps offline localstack/localstack general localstack"
     },
     {
       "name": "ponytail",
@@ -968,7 +968,7 @@
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
       "stars": 47560,
-      "desc": "A desktop pet that reacts to your Claude Code sessions in real-time \u2014 thinking, typing, juggling, sleeping, and more. Yep. It's undeniably endearing. And at the end of the day, isn't that what Clau...",
+      "desc": "A desktop pet that reacts to your Claude Code sessions in real-time — thinking, typing, juggling, sleeping, and more. Yep. It's undeniably endearing. And at the end of the day, isn't that what Clau...",
       "url": "https://github.com/rullerzhou-afk/clawd-on-desk",
       "install": "",
       "functionCategory": "general",
@@ -978,7 +978,7 @@
       "supportedAgents": [
         "claude-code"
       ],
-      "searchText": "clawd on desk a desktop pet that reacts to your claude code sessions in real-time \u2014 thinking, typing, juggling, sleeping, and more. yep. it's undeniably endearing. and at the end of the day, isn't that what claude code is all about? hesreallyhim/awesome-claude-code general claude-code"
+      "searchText": "clawd on desk a desktop pet that reacts to your claude code sessions in real-time — thinking, typing, juggling, sleeping, and more. yep. it's undeniably endearing. and at the end of the day, isn't that what claude code is all about? hesreallyhim/awesome-claude-code general claude-code"
     },
     {
       "name": "ContextKit",
@@ -1418,7 +1418,7 @@
       "sourceAgent": "githubdaily",
       "repo": "GitHubDaily/GitHubDaily",
       "stars": 46918,
-      "desc": "\u575a\u6301\u5206\u4eab GitHub \u4e0a\u9ad8\u8d28\u91cf\u3001\u6709\u8da3\u5b9e\u7528\u7684\u5f00\u6e90\u6280\u672f\u6559\u7a0b\u3001\u5f00\u53d1\u8005\u5de5\u5177\u3001\u7f16\u7a0b\u7f51\u7ad9\u3001\u6280\u672f\u8d44\u8baf\u3002A list cool, interesting projects of GitHub.",
+      "desc": "坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.",
       "url": "https://github.com/GitHubDaily/GitHubDaily",
       "install": "",
       "functionCategory": "general",
@@ -1428,7 +1428,7 @@
       "supportedAgents": [
         "githubdaily"
       ],
-      "searchText": "githubdaily \u575a\u6301\u5206\u4eab github \u4e0a\u9ad8\u8d28\u91cf\u3001\u6709\u8da3\u5b9e\u7528\u7684\u5f00\u6e90\u6280\u672f\u6559\u7a0b\u3001\u5f00\u53d1\u8005\u5de5\u5177\u3001\u7f16\u7a0b\u7f51\u7ad9\u3001\u6280\u672f\u8d44\u8baf\u3002a list cool, interesting projects of github. githubdaily/githubdaily general githubdaily"
+      "searchText": "githubdaily 坚持分享 github 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。a list cool, interesting projects of github. githubdaily/githubdaily general githubdaily"
     },
     {
       "name": "streamlit",
@@ -1436,7 +1436,7 @@
       "sourceAgent": "streamlit",
       "repo": "streamlit/streamlit",
       "stars": 45097,
-      "desc": "Streamlit \u2014 A faster way to build and share data apps.",
+      "desc": "Streamlit — A faster way to build and share data apps.",
       "url": "https://github.com/streamlit/streamlit",
       "install": "",
       "functionCategory": "general",
@@ -1446,7 +1446,7 @@
       "supportedAgents": [
         "streamlit"
       ],
-      "searchText": "streamlit streamlit \u2014 a faster way to build and share data apps. streamlit/streamlit general streamlit"
+      "searchText": "streamlit streamlit — a faster way to build and share data apps. streamlit/streamlit general streamlit"
     },
     {
       "name": "files",
@@ -2632,7 +2632,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Coach the PM\u2192Director transition across four key situations",
+      "desc": "Coach the PM→Director transition across four key situations",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/director-readiness-advisor",
       "install": "",
       "functionCategory": "general",
@@ -2646,7 +2646,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "director-readiness-advisor coach the pm\u2192director transition across four key situations voltagent/awesome-agent-skills general claude codex cursor hermes gemini"
+      "searchText": "director-readiness-advisor coach the pm→director transition across four key situations voltagent/awesome-agent-skills general claude codex cursor hermes gemini"
     },
     {
       "name": "dispatching-parallel-agents",
@@ -2764,7 +2764,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Virtual try-on \u2014 see how clothes look on a person",
+      "desc": "Virtual try-on — see how clothes look on a person",
       "url": "https://officialskills.sh/fal-ai-community/skills/fal-tryon",
       "install": "",
       "functionCategory": "general",
@@ -2778,7 +2778,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "fal-tryon virtual try-on \u2014 see how clothes look on a person voltagent/awesome-agent-skills general claude codex cursor hermes gemini"
+      "searchText": "fal-tryon virtual try-on — see how clothes look on a person voltagent/awesome-agent-skills general claude codex cursor hermes gemini"
     },
     {
       "name": "flutter-adding-home-screen-widgets",
@@ -3688,7 +3688,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Numerical optimization (LP, MILP, QP) \u2014 concepts, problem-text parsing, and formulation patterns.",
+      "desc": "Numerical optimization (LP, MILP, QP) — concepts, problem-text parsing, and formulation patterns.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/numerical-optimization-formulation",
       "install": "",
       "functionCategory": "general",
@@ -3702,7 +3702,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "numerical-optimization-formulation numerical optimization (lp, milp, qp) \u2014 concepts, problem-text parsing, and formulation patterns. voltagent/awesome-agent-skills general claude codex cursor hermes gemini"
+      "searchText": "numerical-optimization-formulation numerical optimization (lp, milp, qp) — concepts, problem-text parsing, and formulation patterns. voltagent/awesome-agent-skills general claude codex cursor hermes gemini"
     },
     {
       "name": "perf-activation-recompute",
@@ -4480,7 +4480,7 @@
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
       "stars": 26782,
-      "desc": "Coach the Director\u2192VP/CPO transition including a CEO interview framework",
+      "desc": "Coach the Director→VP/CPO transition including a CEO interview framework",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/vp-cpo-readiness-advisor",
       "install": "",
       "functionCategory": "general",
@@ -4494,7 +4494,7 @@
         "hermes",
         "gemini"
       ],
-      "searchText": "vp-cpo-readiness-advisor coach the director\u2192vp/cpo transition including a ceo interview framework voltagent/awesome-agent-skills general claude codex cursor hermes gemini"
+      "searchText": "vp-cpo-readiness-advisor coach the director→vp/cpo transition including a ceo interview framework voltagent/awesome-agent-skills general claude codex cursor hermes gemini"
     },
     {
       "name": "web-perf",
@@ -4807,12 +4807,12 @@
       "searchText": "@libukai agent skill resource: @libukai libukai/awesome-agent-skills general claude"
     },
     {
-      "name": "@\u674e\u4e0d\u51ef\u6b63\u5728\u7814\u7a76",
+      "name": "@李不凯正在研究",
       "source": "libukai/awesome-agent-skills",
       "sourceAgent": "claude",
       "repo": "libukai/awesome-agent-skills",
       "stars": 4775,
-      "desc": "Agent skill resource: @\u674e\u4e0d\u51ef\u6b63\u5728\u7814\u7a76",
+      "desc": "Agent skill resource: @李不凯正在研究",
       "url": "https://mp.weixin.qq.com/s/uer7HvD2Z9ZbJSPEZWHKRA?scene=0&subscene=90",
       "install": "",
       "functionCategory": "general",
@@ -4822,7 +4822,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "@\u674e\u4e0d\u51ef\u6b63\u5728\u7814\u7a76 agent skill resource: @\u674e\u4e0d\u51ef\u6b63\u5728\u7814\u7a76 libukai/awesome-agent-skills general claude"
+      "searchText": "@李不凯正在研究 agent skill resource: @李不凯正在研究 libukai/awesome-agent-skills general claude"
     },
     {
       "name": "Agent Skill: From Usage to Principles, All in One",
@@ -5334,7 +5334,7 @@
       "sourceAgent": "multi",
       "repo": "libukai/awesome-agent-skills",
       "stars": 4645,
-      "desc": "Agent Skills \u7ec8\u6781\u6307\u5357\uff1a\u5feb\u901f\u5165\u95e8\u3001\u8d44\u6e90\u63a8\u8350\u3001\u7cbe\u9009\u6280\u80fd\u4e0e\u5b9e\u7528\u5de5\u5177 \uff5cThe Ultimate Guide to Agent Skills: QuickStart, Resources, Features&Toolkit",
+      "desc": "Agent Skills 终极指南：快速入门、资源推荐、精选技能与实用工具 ｜The Ultimate Guide to Agent Skills: QuickStart, Resources, Features&Toolkit",
       "url": "https://github.com/libukai/awesome-agent-skills",
       "install": "git clone https://github.com/libukai/awesome-agent-skills.git",
       "functionCategory": "general",
@@ -5350,7 +5350,7 @@
         "opencode",
         "openclaw"
       ],
-      "searchText": "awesome-agent-skills agent skills \u7ec8\u6781\u6307\u5357\uff1a\u5feb\u901f\u5165\u95e8\u3001\u8d44\u6e90\u63a8\u8350\u3001\u7cbe\u9009\u6280\u80fd\u4e0e\u5b9e\u7528\u5de5\u5177 \uff5cthe ultimate guide to agent skills: quickstart, resources, features&toolkit libukai/awesome-agent-skills git clone https://github.com/libukai/awesome-agent-skills.git general claude codex cursor copilot hermes opencode openclaw"
+      "searchText": "awesome-agent-skills agent skills 终极指南：快速入门、资源推荐、精选技能与实用工具 ｜the ultimate guide to agent skills: quickstart, resources, features&toolkit libukai/awesome-agent-skills git clone https://github.com/libukai/awesome-agent-skills.git general claude codex cursor copilot hermes opencode openclaw"
     },
     {
       "name": "costrict",
@@ -5526,7 +5526,7 @@
       "sourceAgent": "openclaw",
       "repo": "LeoYeAI/openclaw-master-skills",
       "stars": 2025,
-      "desc": "\ud83e\udde0 Curated collection of 1209+ best OpenClaw skills \u2014 weekly updated by MyClaw.ai",
+      "desc": "🧠 Curated collection of 1209+ best OpenClaw skills — weekly updated by MyClaw.ai",
       "url": "https://github.com/LeoYeAI/openclaw-master-skills",
       "install": "git clone https://github.com/LeoYeAI/openclaw-master-skills.git",
       "functionCategory": "general",
@@ -5536,7 +5536,7 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "openclaw-master-skills \ud83e\udde0 curated collection of 1209+ best openclaw skills \u2014 weekly updated by myclaw.ai leoyeai/openclaw-master-skills git clone https://github.com/leoyeai/openclaw-master-skills.git general openclaw"
+      "searchText": "openclaw-master-skills 🧠 curated collection of 1209+ best openclaw skills — weekly updated by myclaw.ai leoyeai/openclaw-master-skills git clone https://github.com/leoyeai/openclaw-master-skills.git general openclaw"
     },
     {
       "name": "py-gpt",
@@ -5670,7 +5670,7 @@
       "sourceAgent": "swiftinfo",
       "repo": "rockbruno/SwiftInfo",
       "stars": 1150,
-      "desc": "\ud83d\udcca Extract and analyze the evolution of an iOS app's code.",
+      "desc": "📊 Extract and analyze the evolution of an iOS app's code.",
       "url": "https://github.com/rockbruno/SwiftInfo",
       "install": "",
       "functionCategory": "general",
@@ -5680,7 +5680,7 @@
       "supportedAgents": [
         "swiftinfo"
       ],
-      "searchText": "swiftinfo \ud83d\udcca extract and analyze the evolution of an ios app's code. rockbruno/swiftinfo general swiftinfo"
+      "searchText": "swiftinfo 📊 extract and analyze the evolution of an ios app's code. rockbruno/swiftinfo general swiftinfo"
     },
     {
       "name": "Deep-Research-skills",
@@ -5725,7 +5725,7 @@
       "sourceAgent": "hermes",
       "repo": "ksimback/hermes-ecosystem",
       "stars": 969,
-      "desc": "\ud83d\uddfa\ufe0f Hermes Atlas \u2014 the community map of every tool, skill, and integration for Hermes Agent by Nous Research. Live at hermesatlas.com",
+      "desc": "🗺️ Hermes Atlas — the community map of every tool, skill, and integration for Hermes Agent by Nous Research. Live at hermesatlas.com",
       "url": "https://github.com/ksimback/hermes-ecosystem",
       "install": "git clone https://github.com/ksimback/hermes-ecosystem.git",
       "functionCategory": "general",
@@ -5735,7 +5735,7 @@
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "hermes-ecosystem \ud83d\uddfa\ufe0f hermes atlas \u2014 the community map of every tool, skill, and integration for hermes agent by nous research. live at hermesatlas.com ksimback/hermes-ecosystem git clone https://github.com/ksimback/hermes-ecosystem.git general hermes"
+      "searchText": "hermes-ecosystem 🗺️ hermes atlas — the community map of every tool, skill, and integration for hermes agent by nous research. live at hermesatlas.com ksimback/hermes-ecosystem git clone https://github.com/ksimback/hermes-ecosystem.git general hermes"
     },
     {
       "name": "AI-Account-Toolkit",
@@ -5743,7 +5743,7 @@
       "sourceAgent": "claude",
       "repo": "adminlove520/AI-Account-Toolkit",
       "stars": 963,
-      "desc": "AI\u8d26\u53f7\u6ce8\u518c\u4e0e\u7ba1\u7406\u4e00\u7ad9\u5f0f\u5de5\u5177\u96c6\uff1aChatGPT/Claude/Gemini\u6279\u91cf\u6ce8\u518c\u3001Token\u7ba1\u7406",
+      "desc": "AI账号注册与管理一站式工具集：ChatGPT/Claude/Gemini批量注册、Token管理",
       "url": "https://github.com/adminlove520/AI-Account-Toolkit",
       "install": "$skill-installer AI-Account-Toolkit",
       "functionCategory": "general",
@@ -5753,7 +5753,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "ai-account-toolkit ai\u8d26\u53f7\u6ce8\u518c\u4e0e\u7ba1\u7406\u4e00\u7ad9\u5f0f\u5de5\u5177\u96c6\uff1achatgpt/claude/gemini\u6279\u91cf\u6ce8\u518c\u3001token\u7ba1\u7406 adminlove520/ai-account-toolkit $skill-installer ai-account-toolkit general claude"
+      "searchText": "ai-account-toolkit ai账号注册与管理一站式工具集：chatgpt/claude/gemini批量注册、token管理 adminlove520/ai-account-toolkit $skill-installer ai-account-toolkit general claude"
     },
     {
       "name": "claude-skills",
@@ -6013,7 +6013,7 @@
       "sourceAgent": "van-gonography",
       "repo": "JoshuaKasa/van-gonography",
       "stars": 452,
-      "desc": "Hide \ud83d\udd75\ufe0f\u200d\u2642\ufe0f your files of any type inside a image of your choice using steganography",
+      "desc": "Hide 🕵️‍♂️ your files of any type inside a image of your choice using steganography",
       "url": "https://github.com/JoshuaKasa/van-gonography",
       "install": "",
       "functionCategory": "general",
@@ -6023,7 +6023,7 @@
       "supportedAgents": [
         "van-gonography"
       ],
-      "searchText": "van-gonography hide \ud83d\udd75\ufe0f\u200d\u2642\ufe0f your files of any type inside a image of your choice using steganography joshuakasa/van-gonography general van-gonography"
+      "searchText": "van-gonography hide 🕵️‍♂️ your files of any type inside a image of your choice using steganography joshuakasa/van-gonography general van-gonography"
     },
     {
       "name": "ClaudeSkills",
@@ -6049,7 +6049,7 @@
       "sourceAgent": "openclaw",
       "repo": "blessonism/openclaw-search-skills",
       "stars": 439,
-      "desc": "OpenClaw skills for deep search \u2014 multi-source search, content extraction, and structured research reports.",
+      "desc": "OpenClaw skills for deep search — multi-source search, content extraction, and structured research reports.",
       "url": "https://github.com/blessonism/openclaw-search-skills",
       "install": "pip install openclaw-search-skills",
       "functionCategory": "general",
@@ -6059,7 +6059,7 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "openclaw-search-skills openclaw skills for deep search \u2014 multi-source search, content extraction, and structured research reports. blessonism/openclaw-search-skills pip install openclaw-search-skills general openclaw"
+      "searchText": "openclaw-search-skills openclaw skills for deep search — multi-source search, content extraction, and structured research reports. blessonism/openclaw-search-skills pip install openclaw-search-skills general openclaw"
     },
     {
       "name": "tmux2k",
@@ -6067,7 +6067,7 @@
       "sourceAgent": "tmux2k",
       "repo": "2KAbhishek/tmux2k",
       "stars": 432,
-      "desc": "Make tmux powerful and pretty \ud83e\udd4a\ud83d\udc85",
+      "desc": "Make tmux powerful and pretty 🥊💅",
       "url": "https://github.com/2KAbhishek/tmux2k",
       "install": "",
       "functionCategory": "general",
@@ -6077,7 +6077,7 @@
       "supportedAgents": [
         "tmux2k"
       ],
-      "searchText": "tmux2k make tmux powerful and pretty \ud83e\udd4a\ud83d\udc85 2kabhishek/tmux2k general tmux2k"
+      "searchText": "tmux2k make tmux powerful and pretty 🥊💅 2kabhishek/tmux2k general tmux2k"
     },
     {
       "name": "stup",
@@ -6145,7 +6145,7 @@
       "sourceAgent": "lit-bb-hack-tools",
       "repo": "edoardottt/lit-bb-hack-tools",
       "stars": 381,
-      "desc": "Little Bug Bounty & Hacking Tools\u2694\ufe0f",
+      "desc": "Little Bug Bounty & Hacking Tools⚔️",
       "url": "https://github.com/edoardottt/lit-bb-hack-tools",
       "install": "",
       "functionCategory": "general",
@@ -6155,7 +6155,7 @@
       "supportedAgents": [
         "lit-bb-hack-tools"
       ],
-      "searchText": "lit-bb-hack-tools little bug bounty & hacking tools\u2694\ufe0f edoardottt/lit-bb-hack-tools general lit-bb-hack-tools"
+      "searchText": "lit-bb-hack-tools little bug bounty & hacking tools⚔️ edoardottt/lit-bb-hack-tools general lit-bb-hack-tools"
     },
     {
       "name": "auto-copilot-cli",
@@ -6182,7 +6182,7 @@
       "sourceAgent": "eat",
       "repo": "shawn-bluce/eat",
       "stars": 328,
-      "desc": "I'm a CPU and memory eating monster. \u4e00\u4e2a\u5403 CPU \u5185\u5b58\u7684\u602a\u517d\u3002",
+      "desc": "I'm a CPU and memory eating monster. 一个吃 CPU 内存的怪兽。",
       "url": "https://github.com/shawn-bluce/eat",
       "install": "",
       "functionCategory": "general",
@@ -6192,7 +6192,7 @@
       "supportedAgents": [
         "eat"
       ],
-      "searchText": "eat i'm a cpu and memory eating monster. \u4e00\u4e2a\u5403 cpu \u5185\u5b58\u7684\u602a\u517d\u3002 shawn-bluce/eat general eat"
+      "searchText": "eat i'm a cpu and memory eating monster. 一个吃 cpu 内存的怪兽。 shawn-bluce/eat general eat"
     },
     {
       "name": "youtube-skills",
@@ -6221,7 +6221,7 @@
       "sourceAgent": "generic",
       "repo": "ming-h/yinyuan-skills",
       "stars": 245,
-      "desc": "\u6708\u8001\u00b7\u59fb\u7f18\u6d4b\u7b97 Skills",
+      "desc": "月老·姻缘测算 Skills",
       "url": "https://github.com/Ming-H/yinyuan-skills",
       "install": "",
       "functionCategory": "general",
@@ -6231,7 +6231,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "yinyuan-skills \u6708\u8001\u00b7\u59fb\u7f18\u6d4b\u7b97 skills ming-h/yinyuan-skills general generic"
+      "searchText": "yinyuan-skills 月老·姻缘测算 skills ming-h/yinyuan-skills general generic"
     },
     {
       "name": "hermeshub",
@@ -6317,7 +6317,7 @@
       "sourceAgent": "opencode",
       "repo": "linxuan-sys/opencode-skills-chinese",
       "stars": 155,
-      "desc": "\u4e00\u4e2a\u5b58\u653e\u7ec8\u7aefai skills \u7684\u4ed3\u5e93, \u8bed\u8a00\u4e3a\u4e2d\u6587",
+      "desc": "一个存放终端ai skills 的仓库, 语言为中文",
       "url": "https://github.com/linxuan-sys/opencode-skills-chinese",
       "install": "git clone https://github.com/linxuan-sys/opencode-skills-chinese.git",
       "functionCategory": "general",
@@ -6327,7 +6327,7 @@
       "supportedAgents": [
         "opencode"
       ],
-      "searchText": "opencode-skills-chinese \u4e00\u4e2a\u5b58\u653e\u7ec8\u7aefai skills \u7684\u4ed3\u5e93, \u8bed\u8a00\u4e3a\u4e2d\u6587 linxuan-sys/opencode-skills-chinese git clone https://github.com/linxuan-sys/opencode-skills-chinese.git general opencode"
+      "searchText": "opencode-skills-chinese 一个存放终端ai skills 的仓库, 语言为中文 linxuan-sys/opencode-skills-chinese git clone https://github.com/linxuan-sys/opencode-skills-chinese.git general opencode"
     },
     {
       "name": "interview-coach-agent-framework--agent-framework",
@@ -6389,7 +6389,7 @@
       "sourceAgent": "openclaw",
       "repo": "lingxling/awesome-skills-cn",
       "stars": 126,
-      "desc": "\u70ed\u95e8Skills\u4e2d\u6587cn\u5b66\u4e60\u7248+\u6559\u7a0b\uff0c\u63d0\u4f9b7000+Skills\uff0c\u96c6\u6210claude skills (11w+Star) | awesome-openclaw-skills (4w+Star) | ui-ux-pro-max-skill (4w+Star)\u7b4910\u4f59\u4e2a\u70ed\u95e8Skill\u9879\u76ee",
+      "desc": "热门Skills中文cn学习版+教程，提供7000+Skills，集成claude skills (11w+Star) | awesome-openclaw-skills (4w+Star) | ui-ux-pro-max-skill (4w+Star)等10余个热门Skill项目",
       "url": "https://github.com/lingxling/awesome-skills-cn",
       "install": "git clone https://github.com/lingxling/awesome-skills-cn.git",
       "functionCategory": "general",
@@ -6400,7 +6400,7 @@
         "claude",
         "openclaw"
       ],
-      "searchText": "awesome-skills-cn \u70ed\u95e8skills\u4e2d\u6587cn\u5b66\u4e60\u7248+\u6559\u7a0b\uff0c\u63d0\u4f9b7000+skills\uff0c\u96c6\u6210claude skills (11w+star) | awesome-openclaw-skills (4w+star) | ui-ux-pro-max-skill (4w+star)\u7b4910\u4f59\u4e2a\u70ed\u95e8skill\u9879\u76ee lingxling/awesome-skills-cn git clone https://github.com/lingxling/awesome-skills-cn.git general claude openclaw"
+      "searchText": "awesome-skills-cn 热门skills中文cn学习版+教程，提供7000+skills，集成claude skills (11w+star) | awesome-openclaw-skills (4w+star) | ui-ux-pro-max-skill (4w+star)等10余个热门skill项目 lingxling/awesome-skills-cn git clone https://github.com/lingxling/awesome-skills-cn.git general claude openclaw"
     },
     {
       "name": "frameworks--agent-framework",
@@ -6426,7 +6426,7 @@
       "sourceAgent": "multi",
       "repo": "itgoyo/awesome-agent-skills",
       "stars": 121,
-      "desc": "\u6536\u96c6\u5168\u7f51\u6700\u70ed\u95e8\u7684Agent-Skills\u9879\u76ee",
+      "desc": "收集全网最热门的Agent-Skills项目",
       "url": "https://github.com/itgoyo/awesome-agent-skills",
       "install": "git clone https://github.com/itgoyo/awesome-agent-skills.git",
       "functionCategory": "general",
@@ -6442,7 +6442,7 @@
         "opencode",
         "openclaw"
       ],
-      "searchText": "awesome-agent-skills \u6536\u96c6\u5168\u7f51\u6700\u70ed\u95e8\u7684agent-skills\u9879\u76ee itgoyo/awesome-agent-skills git clone https://github.com/itgoyo/awesome-agent-skills.git general claude codex cursor copilot hermes opencode openclaw"
+      "searchText": "awesome-agent-skills 收集全网最热门的agent-skills项目 itgoyo/awesome-agent-skills git clone https://github.com/itgoyo/awesome-agent-skills.git general claude codex cursor copilot hermes opencode openclaw"
     },
     {
       "name": "open-skills",
@@ -6474,7 +6474,7 @@
       "sourceAgent": "openclaw",
       "repo": "AIPMAndy/awesome-openclaw-skills-CN",
       "stars": 116,
-      "desc": "\ud83c\udde8\ud83c\uddf3 \u4e2d\u6587\u5f00\u53d1\u8005\u53cb\u597d\u7684 OpenClaw Skills \u7cbe\u9009 | \u542b\u56fd\u4ea7\u6a21\u578b\u63a5\u5165\u6307\u5357\uff08DeepSeek/Qwen/GLM/Moonshot\uff09| 2868+ Skills \u5206\u7c7b\u6574\u7406",
+      "desc": "🇨🇳 中文开发者友好的 OpenClaw Skills 精选 | 含国产模型接入指南（DeepSeek/Qwen/GLM/Moonshot）| 2868+ Skills 分类整理",
       "url": "https://github.com/AIPMAndy/awesome-openclaw-skills-CN",
       "install": "git clone https://github.com/AIPMAndy/awesome-openclaw-skills-CN.git",
       "functionCategory": "general",
@@ -6484,7 +6484,7 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "awesome-openclaw-skills-cn \ud83c\udde8\ud83c\uddf3 \u4e2d\u6587\u5f00\u53d1\u8005\u53cb\u597d\u7684 openclaw skills \u7cbe\u9009 | \u542b\u56fd\u4ea7\u6a21\u578b\u63a5\u5165\u6307\u5357\uff08deepseek/qwen/glm/moonshot\uff09| 2868+ skills \u5206\u7c7b\u6574\u7406 aipmandy/awesome-openclaw-skills-cn git clone https://github.com/aipmandy/awesome-openclaw-skills-cn.git general openclaw"
+      "searchText": "awesome-openclaw-skills-cn 🇨🇳 中文开发者友好的 openclaw skills 精选 | 含国产模型接入指南（deepseek/qwen/glm/moonshot）| 2868+ skills 分类整理 aipmandy/awesome-openclaw-skills-cn git clone https://github.com/aipmandy/awesome-openclaw-skills-cn.git general openclaw"
     },
     {
       "name": "awesome-claude-plugins",
@@ -6528,7 +6528,7 @@
       "sourceAgent": "generic",
       "repo": "swaylq/master-skill",
       "stars": 92,
-      "desc": "\u5927\u5e08.skill",
+      "desc": "大师.skill",
       "url": "https://github.com/swaylq/master-skill",
       "install": "",
       "functionCategory": "general",
@@ -6538,7 +6538,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "master-skill \u5927\u5e08.skill swaylq/master-skill general generic"
+      "searchText": "master-skill 大师.skill swaylq/master-skill general generic"
     },
     {
       "name": "star-skill",
@@ -6546,7 +6546,7 @@
       "sourceAgent": "generic",
       "repo": "yanghaoraneve/star-skill",
       "stars": 6,
-      "desc": "\u5185\u5a31.skill",
+      "desc": "内娱.skill",
       "url": "https://github.com/yanghaoraneve/star-skill",
       "install": "",
       "functionCategory": "general",
@@ -6556,7 +6556,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "star-skill \u5185\u5a31.skill yanghaoraneve/star-skill general generic"
+      "searchText": "star-skill 内娱.skill yanghaoraneve/star-skill general generic"
     },
     {
       "name": "ActiveCampaign Automation",
@@ -6636,7 +6636,7 @@
       "sourceAgent": "generic",
       "repo": "terrytian-tech/aiweizhou-skill",
       "stars": 0,
-      "desc": "AI \u7ef4\u821f.skill",
+      "desc": "AI 维舟.skill",
       "url": "https://github.com/TerryTian-tech/AIWeiZhou-skill",
       "install": "",
       "functionCategory": "general",
@@ -6646,7 +6646,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "aiweizhou-skill ai \u7ef4\u821f.skill terrytian-tech/aiweizhou-skill general generic"
+      "searchText": "aiweizhou-skill ai 维舟.skill terrytian-tech/aiweizhou-skill general generic"
     },
     {
       "name": "Amplitude Automation",
@@ -6690,7 +6690,7 @@
       "sourceAgent": "cursor",
       "repo": "ComposioHQ/awesome-claude-skills",
       "stars": 66401,
-      "desc": "Analyzes any image, URL, or Figma file and generates a structured `design.md` with the full design system, component inventory, and reconstruction notes \u2014 portable to v0, Lovable, Cursor or any AI bui",
+      "desc": "Analyzes any image, URL, or Figma file and generates a structured `design.md` with the full design system, component inventory, and reconstruction notes — portable to v0, Lovable, Cursor or any AI bui",
       "url": "https://github.com/uxKero/anydesign",
       "install": "",
       "functionCategory": "general",
@@ -6700,7 +6700,7 @@
       "supportedAgents": [
         "cursor"
       ],
-      "searchText": "anydesign analyzes any image, url, or figma file and generates a structured `design.md` with the full design system, component inventory, and reconstruction notes \u2014 portable to v0, lovable, cursor or any ai bui composiohq/awesome-claude-skills general cursor"
+      "searchText": "anydesign analyzes any image, url, or figma file and generates a structured `design.md` with the full design system, component inventory, and reconstruction notes — portable to v0, lovable, cursor or any ai bui composiohq/awesome-claude-skills general cursor"
     },
     {
       "name": "article-extractor",
@@ -6834,7 +6834,7 @@
       "sourceAgent": "generic",
       "repo": "cantian-ai/bazi-persona-skill",
       "stars": 12,
-      "desc": "\u516b\u5b57\u4eba\u683c",
+      "desc": "八字人格",
       "url": "https://github.com/cantian-ai/bazi-persona-skill",
       "install": "",
       "functionCategory": "general",
@@ -6844,7 +6844,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "bazi-persona-skill \u516b\u5b57\u4eba\u683c cantian-ai/bazi-persona-skill general generic"
+      "searchText": "bazi-persona-skill 八字人格 cantian-ai/bazi-persona-skill general generic"
     },
     {
       "name": "bazi-skill",
@@ -6852,7 +6852,7 @@
       "sourceAgent": "generic",
       "repo": "jinchenma94/bazi-skill",
       "stars": 2045,
-      "desc": "\u8d5b\u535a\u7b97\u547d Skill",
+      "desc": "赛博算命 Skill",
       "url": "https://github.com/jinchenma94/bazi-skill",
       "install": "",
       "functionCategory": "general",
@@ -6862,7 +6862,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "bazi-skill \u8d5b\u535a\u7b97\u547d skill jinchenma94/bazi-skill general generic"
+      "searchText": "bazi-skill 赛博算命 skill jinchenma94/bazi-skill general generic"
     },
     {
       "name": "Bitbucket Automation",
@@ -6888,7 +6888,7 @@
       "sourceAgent": "generic",
       "repo": "vogtsw/boss-skills",
       "stars": 221,
-      "desc": "\u8001\u677f.skill",
+      "desc": "老板.skill",
       "url": "https://github.com/vogtsw/boss-skills",
       "install": "",
       "functionCategory": "general",
@@ -6898,7 +6898,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "boss-skills \u8001\u677f.skill vogtsw/boss-skills general generic"
+      "searchText": "boss-skills 老板.skill vogtsw/boss-skills general generic"
     },
     {
       "name": "Box Automation",
@@ -6996,7 +6996,7 @@
       "sourceAgent": "generic",
       "repo": "realteamprinz/brother-skill",
       "stars": 14,
-      "desc": "\u5144\u5f1f.skill",
+      "desc": "兄弟.skill",
       "url": "https://github.com/realteamprinz/brother-skill",
       "install": "",
       "functionCategory": "general",
@@ -7006,7 +7006,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "brother-skill \u5144\u5f1f.skill realteamprinz/brother-skill general generic"
+      "searchText": "brother-skill 兄弟.skill realteamprinz/brother-skill general generic"
     },
     {
       "name": "buffett-perspective",
@@ -7014,7 +7014,7 @@
       "sourceAgent": "generic",
       "repo": "will2025btc/buffett-perspective",
       "stars": 205,
-      "desc": "\u5df4\u83f2\u7279\u601d\u7ef4\u64cd\u4f5c\u7cfb\u7edf",
+      "desc": "巴菲特思维操作系统",
       "url": "https://github.com/will2025btc/buffett-perspective",
       "install": "",
       "functionCategory": "general",
@@ -7024,7 +7024,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "buffett-perspective \u5df4\u83f2\u7279\u601d\u7ef4\u64cd\u4f5c\u7cfb\u7edf will2025btc/buffett-perspective general generic"
+      "searchText": "buffett-perspective 巴菲特思维操作系统 will2025btc/buffett-perspective general generic"
     },
     {
       "name": "building-blog",
@@ -7140,7 +7140,7 @@
       "sourceAgent": "generic",
       "repo": "ricardo-vv/changshu-anuo",
       "stars": 12,
-      "desc": "\u5e38\u719f\u963f\u8bfa\uff08\u52a0\u5dde\u76db\u4ea6\u9676\uff09 Skill",
+      "desc": "常熟阿诺（加州盛亦陶） Skill",
       "url": "https://github.com/Ricardo-Vv/changshu-anuo",
       "install": "",
       "functionCategory": "general",
@@ -7150,7 +7150,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "changshu-anuo \u5e38\u719f\u963f\u8bfa\uff08\u52a0\u5dde\u76db\u4ea6\u9676\uff09 skill ricardo-vv/changshu-anuo general generic"
+      "searchText": "changshu-anuo 常熟阿诺（加州盛亦陶） skill ricardo-vv/changshu-anuo general generic"
     },
     {
       "name": "chenze-skill",
@@ -7158,7 +7158,7 @@
       "sourceAgent": "generic",
       "repo": "fisher-yu-like/chenze-skill",
       "stars": 2,
-      "desc": "\u9648\u6cfd.skill",
+      "desc": "陈泽.skill",
       "url": "https://github.com/fisher-yu-like/chenze-skill",
       "install": "",
       "functionCategory": "general",
@@ -7168,7 +7168,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "chenze-skill \u9648\u6cfd.skill fisher-yu-like/chenze-skill general generic"
+      "searchText": "chenze-skill 陈泽.skill fisher-yu-like/chenze-skill general generic"
     },
     {
       "name": "Chrome Relay",
@@ -7176,7 +7176,7 @@
       "sourceAgent": "claude",
       "repo": "ComposioHQ/awesome-claude-skills",
       "stars": 66426,
-      "desc": "Drives the user's already-open Chrome session \u2014 cookies, SSO, extensions, localhost \u2014 through a local CLI bridge. Real-Chrome counterpart to Playwright Browser Automation; install via `npx skills add",
+      "desc": "Drives the user's already-open Chrome session — cookies, SSO, extensions, localhost — through a local CLI bridge. Real-Chrome counterpart to Playwright Browser Automation; install via `npx skills add",
       "url": "https://chrome-relay.kushalsm.com/",
       "install": "",
       "functionCategory": "general",
@@ -7186,7 +7186,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "chrome relay drives the user's already-open chrome session \u2014 cookies, sso, extensions, localhost \u2014 through a local cli bridge. real-chrome counterpart to playwright browser automation; install via `npx skills add composiohq/awesome-claude-skills general claude"
+      "searchText": "chrome relay drives the user's already-open chrome session — cookies, sso, extensions, localhost — through a local cli bridge. real-chrome counterpart to playwright browser automation; install via `npx skills add composiohq/awesome-claude-skills general claude"
     },
     {
       "name": "CircleCI Automation",
@@ -7320,7 +7320,7 @@
       "sourceAgent": "generic",
       "repo": "titanwings/colleague-skill",
       "stars": 19951,
-      "desc": "\u540c\u4e8b.skill",
+      "desc": "同事.skill",
       "url": "https://github.com/titanwings/colleague-skill",
       "install": "",
       "functionCategory": "general",
@@ -7330,7 +7330,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "colleague-skill \u540c\u4e8b.skill titanwings/colleague-skill general generic"
+      "searchText": "colleague-skill 同事.skill titanwings/colleague-skill general generic"
     },
     {
       "name": "Competitive Ads Extractor",
@@ -7464,7 +7464,7 @@
       "sourceAgent": "generic",
       "repo": "xiaoheizi8/crush-skills",
       "stars": 228,
-      "desc": "\u6697\u604b\u5bf9\u8c61.skill",
+      "desc": "暗恋对象.skill",
       "url": "https://github.com/xiaoheizi8/crush-skills",
       "install": "",
       "functionCategory": "general",
@@ -7474,7 +7474,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "crush-skills \u6697\u604b\u5bf9\u8c61.skill xiaoheizi8/crush-skills general generic"
+      "searchText": "crush-skills 暗恋对象.skill xiaoheizi8/crush-skills general generic"
     },
     {
       "name": "CSV Data Summarizer",
@@ -7500,7 +7500,7 @@
       "sourceAgent": "generic",
       "repo": "aar0npb/curator-skill",
       "stars": 3,
-      "desc": "\u56fe\u9274.skill",
+      "desc": "图鉴.skill",
       "url": "https://github.com/Aar0nPB/curator-skill",
       "install": "",
       "functionCategory": "general",
@@ -7510,7 +7510,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "curator-skill \u56fe\u9274.skill aar0npb/curator-skill general generic"
+      "searchText": "curator-skill 图鉴.skill aar0npb/curator-skill general generic"
     },
     {
       "name": "D3.js Visualization",
@@ -7572,7 +7572,7 @@
       "sourceAgent": "generic",
       "repo": "dull-bird/diamond-sutra-skill",
       "stars": 10,
-      "desc": "\u91d1\u521a\u7ecf.skill",
+      "desc": "金刚经.skill",
       "url": "https://github.com/dull-bird/diamond-sutra-skill",
       "install": "",
       "functionCategory": "general",
@@ -7582,7 +7582,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "diamond-sutra-skill \u91d1\u521a\u7ecf.skill dull-bird/diamond-sutra-skill general generic"
+      "searchText": "diamond-sutra-skill 金刚经.skill dull-bird/diamond-sutra-skill general generic"
     },
     {
       "name": "digital-life",
@@ -7590,7 +7590,7 @@
       "sourceAgent": "generic",
       "repo": "wildbyteai/digital-life",
       "stars": 54,
-      "desc": "\u6570\u5b57\u4eba\u751f.skills",
+      "desc": "数字人生.skills",
       "url": "https://github.com/wildbyteai/digital-life",
       "install": "",
       "functionCategory": "general",
@@ -7600,7 +7600,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "digital-life \u6570\u5b57\u4eba\u751f.skills wildbyteai/digital-life general generic"
+      "searchText": "digital-life 数字人生.skills wildbyteai/digital-life general generic"
     },
     {
       "name": "Discord Automation",
@@ -7698,7 +7698,7 @@
       "sourceAgent": "generic",
       "repo": "alchaincyf/elon-musk-skill",
       "stars": 413,
-      "desc": "\u9a6c\u65af\u514b.skill",
+      "desc": "马斯克.skill",
       "url": "https://github.com/alchaincyf/elon-musk-skill",
       "install": "",
       "functionCategory": "general",
@@ -7708,7 +7708,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "elon-musk-skill \u9a6c\u65af\u514b.skill alchaincyf/elon-musk-skill general generic"
+      "searchText": "elon-musk-skill 马斯克.skill alchaincyf/elon-musk-skill general generic"
     },
     {
       "name": "ex-skill",
@@ -7716,7 +7716,7 @@
       "sourceAgent": "generic",
       "repo": "therealxiaomanchu/ex-skill",
       "stars": 5760,
-      "desc": "\u524d\u4efb.skill",
+      "desc": "前任.skill",
       "url": "https://github.com/therealXiaomanChu/ex-skill",
       "install": "",
       "functionCategory": "general",
@@ -7726,7 +7726,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "ex-skill \u524d\u4efb.skill therealxiaomanchu/ex-skill general generic"
+      "searchText": "ex-skill 前任.skill therealxiaomanchu/ex-skill general generic"
     },
     {
       "name": "family-history-research",
@@ -7752,7 +7752,7 @@
       "sourceAgent": "generic",
       "repo": "rottenpen/fengge-wangmingtianya-perspective",
       "stars": 123,
-      "desc": "\u5cf0\u54e5\u4ea1\u547d\u5929\u6daf Skill",
+      "desc": "峰哥亡命天涯 Skill",
       "url": "https://github.com/rottenpen/fengge-wangmingtianya-perspective",
       "install": "",
       "functionCategory": "general",
@@ -7762,7 +7762,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "fengge-wangmingtianya-perspective \u5cf0\u54e5\u4ea1\u547d\u5929\u6daf skill rottenpen/fengge-wangmingtianya-perspective general generic"
+      "searchText": "fengge-wangmingtianya-perspective 峰哥亡命天涯 skill rottenpen/fengge-wangmingtianya-perspective general generic"
     },
     {
       "name": "fengshui.skill",
@@ -7770,7 +7770,7 @@
       "sourceAgent": "generic",
       "repo": "voidforall/fengshui.skill",
       "stars": 74,
-      "desc": "\u582a\u8206\u5b50",
+      "desc": "堪舆子",
       "url": "https://github.com/voidforall/fengshui.skill",
       "install": "",
       "functionCategory": "general",
@@ -7780,7 +7780,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "fengshui.skill \u582a\u8206\u5b50 voidforall/fengshui.skill general generic"
+      "searchText": "fengshui.skill 堪舆子 voidforall/fengshui.skill general generic"
     },
     {
       "name": "feynman-skill",
@@ -7788,7 +7788,7 @@
       "sourceAgent": "generic",
       "repo": "alchaincyf/feynman-skill",
       "stars": 205,
-      "desc": "\u8d39\u66fc.skill",
+      "desc": "费曼.skill",
       "url": "https://github.com/alchaincyf/feynman-skill",
       "install": "",
       "functionCategory": "general",
@@ -7798,7 +7798,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "feynman-skill \u8d39\u66fc.skill alchaincyf/feynman-skill general generic"
+      "searchText": "feynman-skill 费曼.skill alchaincyf/feynman-skill general generic"
     },
     {
       "name": "FFUF Web Fuzzing",
@@ -8166,7 +8166,7 @@
       "sourceAgent": "claude",
       "repo": "ComposioHQ/awesome-claude-skills",
       "stars": 66401,
-      "desc": "Claude Code plugin: 7 specialised subagents (tech-lead, senior-dev, qa-engineer, security-officer, devops, l3-support, project-auditor) orchestrating a full SDLC pipeline \u2014 architecture, TDD, 12-angle",
+      "desc": "Claude Code plugin: 7 specialised subagents (tech-lead, senior-dev, qa-engineer, security-officer, devops, l3-support, project-auditor) orchestrating a full SDLC pipeline — architecture, TDD, 12-angle",
       "url": "https://github.com/avelikiy/great_cto",
       "install": "",
       "functionCategory": "general",
@@ -8176,7 +8176,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "great_cto claude code plugin: 7 specialised subagents (tech-lead, senior-dev, qa-engineer, security-officer, devops, l3-support, project-auditor) orchestrating a full sdlc pipeline \u2014 architecture, tdd, 12-angle composiohq/awesome-claude-skills general claude"
+      "searchText": "great_cto claude code plugin: 7 specialised subagents (tech-lead, senior-dev, qa-engineer, security-officer, devops, l3-support, project-auditor) orchestrating a full sdlc pipeline — architecture, tdd, 12-angle composiohq/awesome-claude-skills general claude"
     },
     {
       "name": "guodegang-skills",
@@ -8184,7 +8184,7 @@
       "sourceAgent": "generic",
       "repo": "byterax/guodegang-skills",
       "stars": 10,
-      "desc": "\u90ed\u5fb7\u7eb2.skill",
+      "desc": "郭德纲.skill",
       "url": "https://github.com/ByteRax/guodegang-skills",
       "install": "",
       "functionCategory": "general",
@@ -8194,7 +8194,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "guodegang-skills \u90ed\u5fb7\u7eb2.skill byterax/guodegang-skills general generic"
+      "searchText": "guodegang-skills 郭德纲.skill byterax/guodegang-skills general generic"
     },
     {
       "name": "Help Scout Automation",
@@ -8238,7 +8238,7 @@
       "sourceAgent": "generic",
       "repo": "janlaywss/hu-chenfeng-skill",
       "stars": 237,
-      "desc": "\u6237\u6668\u98ce.skill",
+      "desc": "户晨风.skill",
       "url": "https://github.com/Janlaywss/hu-chenfeng-skill",
       "install": "",
       "functionCategory": "general",
@@ -8248,7 +8248,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "hu-chenfeng-skill \u6237\u6668\u98ce.skill janlaywss/hu-chenfeng-skill general generic"
+      "searchText": "hu-chenfeng-skill 户晨风.skill janlaywss/hu-chenfeng-skill general generic"
     },
     {
       "name": "HubSpot Automation",
@@ -8328,7 +8328,7 @@
       "sourceAgent": "generic",
       "repo": "agenmod/immortal-skill",
       "stars": 875,
-      "desc": "\u6c38\u751f.skill",
+      "desc": "永生.skill",
       "url": "https://github.com/agenmod/immortal-skill",
       "install": "",
       "functionCategory": "general",
@@ -8338,7 +8338,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "immortal-skill \u6c38\u751f.skill agenmod/immortal-skill general generic"
+      "searchText": "immortal-skill 永生.skill agenmod/immortal-skill general generic"
     },
     {
       "name": "Instagram Automation",
@@ -8472,7 +8472,7 @@
       "sourceAgent": "generic",
       "repo": "fisher-yu-like/justin-bieber-skill",
       "stars": 0,
-      "desc": "Justin Bieber \u00b7Skill",
+      "desc": "Justin Bieber ·Skill",
       "url": "https://github.com/fisher-yu-like/justin-bieber-skill",
       "install": "",
       "functionCategory": "general",
@@ -8482,7 +8482,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "justin-bieber-skill justin bieber \u00b7skill fisher-yu-like/justin-bieber-skill general generic"
+      "searchText": "justin-bieber-skill justin bieber ·skill fisher-yu-like/justin-bieber-skill general generic"
     },
     {
       "name": "kaizen",
@@ -8508,7 +8508,7 @@
       "sourceAgent": "generic",
       "repo": "youaifuou/karl-marx-skill",
       "stars": 39,
-      "desc": "\u5361\u5c14\u00b7\u9a6c\u514b\u601d\u7684\u601d\u7ef4\u6846\u67b6\u4e0e\u6279\u5224\u65b9\u6cd5",
+      "desc": "卡尔·马克思的思维框架与批判方法",
       "url": "https://github.com/youaifuou/karl-marx-skill",
       "install": "",
       "functionCategory": "general",
@@ -8518,7 +8518,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "karl-marx-skill \u5361\u5c14\u00b7\u9a6c\u514b\u601d\u7684\u601d\u7ef4\u6846\u67b6\u4e0e\u6279\u5224\u65b9\u6cd5 youaifuou/karl-marx-skill general generic"
+      "searchText": "karl-marx-skill 卡尔·马克思的思维框架与批判方法 youaifuou/karl-marx-skill general generic"
     },
     {
       "name": "karlmarx-skill",
@@ -8706,7 +8706,7 @@
       "sourceAgent": "generic",
       "repo": "youaifuou/luxun-skill",
       "stars": 1,
-      "desc": "\u9c81\u8fc5\u7684\u601d\u7ef4\u6846\u67b6\u4e0e\u53cd\u8bbd\u7b14\u6cd5",
+      "desc": "鲁迅的思维框架与反讽笔法",
       "url": "https://github.com/youaifuou/luxun-skill",
       "install": "",
       "functionCategory": "general",
@@ -8716,7 +8716,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "luxun-skill \u9c81\u8fc5\u7684\u601d\u7ef4\u6846\u67b6\u4e0e\u53cd\u8bbd\u7b14\u6cd5 youaifuou/luxun-skill general generic"
+      "searchText": "luxun-skill 鲁迅的思维框架与反讽笔法 youaifuou/luxun-skill general generic"
     },
     {
       "name": "Mailchimp Automation",
@@ -8778,7 +8778,7 @@
       "sourceAgent": "generic",
       "repo": "wwwaapplleecu-source/mao-skill",
       "stars": 95,
-      "desc": "\u6bdb\u6cfd\u4e1c.skill",
+      "desc": "毛泽东.skill",
       "url": "https://github.com/wwwaapplleecu-source/mao-skill",
       "install": "",
       "functionCategory": "general",
@@ -8788,7 +8788,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "mao-skill \u6bdb\u6cfd\u4e1c.skill wwwaapplleecu-source/mao-skill general generic"
+      "searchText": "mao-skill 毛泽东.skill wwwaapplleecu-source/mao-skill general generic"
     },
     {
       "name": "maoxuan-skill",
@@ -8796,7 +8796,7 @@
       "sourceAgent": "generic",
       "repo": "leezythu/maoxuan-skill",
       "stars": 920,
-      "desc": "\u6bdb\u9009.skill",
+      "desc": "毛选.skill",
       "url": "https://github.com/leezythu/maoxuan-skill",
       "install": "",
       "functionCategory": "general",
@@ -8806,7 +8806,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "maoxuan-skill \u6bdb\u9009.skill leezythu/maoxuan-skill general generic"
+      "searchText": "maoxuan-skill 毛选.skill leezythu/maoxuan-skill general generic"
     },
     {
       "name": "Markdown to EPUB Converter",
@@ -8994,7 +8994,7 @@
       "sourceAgent": "generic",
       "repo": "lijiayudeng/mises-perspective",
       "stars": 3,
-      "desc": "\u7c73\u585e\u65af\u65b9\u6cd5\u8bba",
+      "desc": "米塞斯方法论",
       "url": "https://github.com/LijiayuDeng/mises-perspective",
       "install": "",
       "functionCategory": "general",
@@ -9004,7 +9004,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "mises-perspective \u7c73\u585e\u65af\u65b9\u6cd5\u8bba lijiayudeng/mises-perspective general generic"
+      "searchText": "mises-perspective 米塞斯方法论 lijiayudeng/mises-perspective general generic"
     },
     {
       "name": "Mixpanel Automation",
@@ -9084,7 +9084,7 @@
       "sourceAgent": "generic",
       "repo": "alchaincyf/munger-skill",
       "stars": 300,
-      "desc": "\u8292\u683c.skill",
+      "desc": "芒格.skill",
       "url": "https://github.com/alchaincyf/munger-skill",
       "install": "",
       "functionCategory": "general",
@@ -9094,7 +9094,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "munger-skill \u8292\u683c.skill alchaincyf/munger-skill general generic"
+      "searchText": "munger-skill 芒格.skill alchaincyf/munger-skill general generic"
     },
     {
       "name": "my-anti-distill",
@@ -9102,7 +9102,7 @@
       "sourceAgent": "generic",
       "repo": "lcmomo/my-anti-distill",
       "stars": 39,
-      "desc": "\u53cd\u84b8\u998f Skill",
+      "desc": "反蒸馏 Skill",
       "url": "https://github.com/lcmomo/my-anti-distill",
       "install": "",
       "functionCategory": "general",
@@ -9112,7 +9112,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "my-anti-distill \u53cd\u84b8\u998f skill lcmomo/my-anti-distill general generic"
+      "searchText": "my-anti-distill 反蒸馏 skill lcmomo/my-anti-distill general generic"
     },
     {
       "name": "my-digital-life",
@@ -9120,7 +9120,7 @@
       "sourceAgent": "generic",
       "repo": "weixr18/my-digital-life",
       "stars": 19,
-      "desc": "\u6570\u5b57\u751f\u547d\u5f00\u6e90\u8ba1\u5212",
+      "desc": "数字生命开源计划",
       "url": "https://github.com/weixr18/my-digital-life",
       "install": "",
       "functionCategory": "general",
@@ -9130,7 +9130,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "my-digital-life \u6570\u5b57\u751f\u547d\u5f00\u6e90\u8ba1\u5212 weixr18/my-digital-life general generic"
+      "searchText": "my-digital-life 数字生命开源计划 weixr18/my-digital-life general generic"
     },
     {
       "name": "n8n-skills",
@@ -9156,7 +9156,7 @@
       "sourceAgent": "generic",
       "repo": "alchaincyf/naval-skill",
       "stars": 201,
-      "desc": "\u7eb3\u74e6\u5c14.skill",
+      "desc": "纳瓦尔.skill",
       "url": "https://github.com/alchaincyf/naval-skill",
       "install": "",
       "functionCategory": "general",
@@ -9166,7 +9166,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "naval-skill \u7eb3\u74e6\u5c14.skill alchaincyf/naval-skill general generic"
+      "searchText": "naval-skill 纳瓦尔.skill alchaincyf/naval-skill general generic"
     },
     {
       "name": "NotebookLM Integration",
@@ -9246,7 +9246,7 @@
       "sourceAgent": "generic",
       "repo": "alchaincyf/nuwa-skill",
       "stars": 26366,
-      "desc": "\u5973\u5a32.skill",
+      "desc": "女娲.skill",
       "url": "https://github.com/alchaincyf/nuwa-skill",
       "install": "",
       "functionCategory": "general",
@@ -9256,7 +9256,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "nuwa-skill \u5973\u5a32.skill alchaincyf/nuwa-skill general generic"
+      "searchText": "nuwa-skill 女娲.skill alchaincyf/nuwa-skill general generic"
     },
     {
       "name": "OneDrive Automation",
@@ -9354,7 +9354,7 @@
       "sourceAgent": "claude",
       "repo": "ComposioHQ/awesome-claude-skills",
       "stars": 66401,
-      "desc": "Surfaces advanced, maximalist alternatives to whatever solution is being discussed \u2014 advanced data structures, distributed-systems algorithms, niche frameworks, design patterns, and frontier tooling \u2014",
+      "desc": "Surfaces advanced, maximalist alternatives to whatever solution is being discussed — advanced data structures, distributed-systems algorithms, niche frameworks, design patterns, and frontier tooling —",
       "url": "https://github.com/santiago-vargas-de-kruijf/claude-overkill",
       "install": "",
       "functionCategory": "general",
@@ -9364,7 +9364,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "overkill surfaces advanced, maximalist alternatives to whatever solution is being discussed \u2014 advanced data structures, distributed-systems algorithms, niche frameworks, design patterns, and frontier tooling \u2014 composiohq/awesome-claude-skills general claude"
+      "searchText": "overkill surfaces advanced, maximalist alternatives to whatever solution is being discussed — advanced data structures, distributed-systems algorithms, niche frameworks, design patterns, and frontier tooling — composiohq/awesome-claude-skills general claude"
     },
     {
       "name": "PagerDuty Automation",
@@ -9390,7 +9390,7 @@
       "sourceAgent": "generic",
       "repo": "xiaoheizi8/parents-skills",
       "stars": 53,
-      "desc": "\u7236\u6bcd.skill",
+      "desc": "父母.skill",
       "url": "https://github.com/xiaoheizi8/parents-skills",
       "install": "",
       "functionCategory": "general",
@@ -9400,7 +9400,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "parents-skills \u7236\u6bcd.skill xiaoheizi8/parents-skills general generic"
+      "searchText": "parents-skills 父母.skill xiaoheizi8/parents-skills general generic"
     },
     {
       "name": "paul-graham-skill",
@@ -9588,7 +9588,7 @@
       "sourceAgent": "generic",
       "repo": "commithu502craft/professor-skill",
       "stars": 54,
-      "desc": "\u5927\u5b66\u8001\u5e08.skill",
+      "desc": "大学老师.skill",
       "url": "https://github.com/CommitHu502Craft/professor-skill",
       "install": "",
       "functionCategory": "general",
@@ -9598,7 +9598,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "professor-skill \u5927\u5b66\u8001\u5e08.skill commithu502craft/professor-skill general generic"
+      "searchText": "professor-skill 大学老师.skill commithu502craft/professor-skill general generic"
     },
     {
       "name": "prompt-engineering",
@@ -9642,7 +9642,7 @@
       "sourceAgent": "generic",
       "repo": "hughyau/qiushi-skill",
       "stars": 3302,
-      "desc": "\u6c42\u662f Skill",
+      "desc": "求是 Skill",
       "url": "https://github.com/HughYau/qiushi-skill",
       "install": "",
       "functionCategory": "general",
@@ -9652,7 +9652,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "qiushi-skill \u6c42\u662f skill hughyau/qiushi-skill general generic"
+      "searchText": "qiushi-skill 求是 skill hughyau/qiushi-skill general generic"
     },
     {
       "name": "Raffle Winner Picker",
@@ -9732,7 +9732,7 @@
       "sourceAgent": "generic",
       "repo": "tammytan516/relationship-training-skill",
       "stars": 107,
-      "desc": "\u604b\u7231\u8bad\u7ec3\u8425.skill",
+      "desc": "恋爱训练营.skill",
       "url": "https://github.com/TammyTan516/relationship-training-skill",
       "install": "",
       "functionCategory": "general",
@@ -9742,7 +9742,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "relationship-training-skill \u604b\u7231\u8bad\u7ec3\u8425.skill tammytan516/relationship-training-skill general generic"
+      "searchText": "relationship-training-skill 恋爱训练营.skill tammytan516/relationship-training-skill general generic"
     },
     {
       "name": "Render Automation",
@@ -9822,7 +9822,7 @@
       "sourceAgent": "generic",
       "repo": "smallnest/rob-pike-skill",
       "stars": 1,
-      "desc": "\u7f57\u5e03\u6d3e\u514b.skill",
+      "desc": "罗布派克.skill",
       "url": "https://github.com/smallnest/rob-pike-skill",
       "install": "",
       "functionCategory": "general",
@@ -9832,7 +9832,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "rob-pike-skill \u7f57\u5e03\u6d3e\u514b.skill smallnest/rob-pike-skill general generic"
+      "searchText": "rob-pike-skill 罗布派克.skill smallnest/rob-pike-skill general generic"
     },
     {
       "name": "root-cause-tracing",
@@ -9912,7 +9912,7 @@
       "sourceAgent": "generic",
       "repo": "zhanghaichao520/senpai-skill",
       "stars": 85,
-      "desc": "\u5e08\u5144.skill",
+      "desc": "师兄.skill",
       "url": "https://github.com/zhanghaichao520/senpai-skill",
       "install": "",
       "functionCategory": "general",
@@ -9922,7 +9922,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "senpai-skill \u5e08\u5144.skill zhanghaichao520/senpai-skill general generic"
+      "searchText": "senpai-skill 师兄.skill zhanghaichao520/senpai-skill general generic"
     },
     {
       "name": "Sentry Automation",
@@ -10146,7 +10146,7 @@
       "sourceAgent": "claude",
       "repo": "ComposioHQ/awesome-claude-skills",
       "stars": 66401,
-      "desc": "7 bilingual (EN+\u4e2d\u6587) skills for solo founders and indie devs: launch tweets, customer emails, decision frameworks, postmortems. Each skill includes an explicit \"When NOT to use\" section.",
+      "desc": "7 bilingual (EN+中文) skills for solo founders and indie devs: launch tweets, customer emails, decision frameworks, postmortems. Each skill includes an explicit \"When NOT to use\" section.",
       "url": "https://github.com/rockscy/solo-skills",
       "install": "",
       "functionCategory": "general",
@@ -10156,7 +10156,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "solo-skills 7 bilingual (en+\u4e2d\u6587) skills for solo founders and indie devs: launch tweets, customer emails, decision frameworks, postmortems. each skill includes an explicit \"when not to use\" section. composiohq/awesome-claude-skills general claude"
+      "searchText": "solo-skills 7 bilingual (en+中文) skills for solo founders and indie devs: launch tweets, customer emails, decision frameworks, postmortems. each skill includes an explicit \"when not to use\" section. composiohq/awesome-claude-skills general claude"
     },
     {
       "name": "Square Automation",
@@ -10182,7 +10182,7 @@
       "sourceAgent": "generic",
       "repo": "alchaincyf/steve-jobs-skill",
       "stars": 892,
-      "desc": "\u4e54\u5e03\u65af.skill",
+      "desc": "乔布斯.skill",
       "url": "https://github.com/alchaincyf/steve-jobs-skill",
       "install": "",
       "functionCategory": "general",
@@ -10192,7 +10192,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "steve-jobs-skill \u4e54\u5e03\u65af.skill alchaincyf/steve-jobs-skill general generic"
+      "searchText": "steve-jobs-skill 乔布斯.skill alchaincyf/steve-jobs-skill general generic"
     },
     {
       "name": "Stripe Automation",
@@ -10236,7 +10236,7 @@
       "sourceAgent": "generic",
       "repo": "ybq22/supervisor",
       "stars": 170,
-      "desc": "\u5bfc\u5e08.skill",
+      "desc": "导师.skill",
       "url": "https://github.com/ybq22/supervisor",
       "install": "",
       "functionCategory": "general",
@@ -10246,7 +10246,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "supervisor \u5bfc\u5e08.skill ybq22/supervisor general generic"
+      "searchText": "supervisor 导师.skill ybq22/supervisor general generic"
     },
     {
       "name": "swiftui-design-skill",
@@ -10254,7 +10254,7 @@
       "sourceAgent": "claude",
       "repo": "ComposioHQ/awesome-claude-skills",
       "stars": 66401,
-      "desc": "SwiftUI \u524d\u7aef\u8bbe\u8ba1 skill \u2014 \u53cd AI Slop \u516d\u6761\u94c1\u5f8b\u3001\u8bbe\u8ba1\u65b9\u5411\u987e\u95ee\u3001\u54c1\u724c\u8d44\u4ea7\u534f\u8bae\u3001\u4e94\u7ef4\u8bc4\u5ba1\u3002\u652f\u6301 Claude Code / Cursor / Codex / OpenCode \u7b49\u5168\u90e8 AI agent \u5e73\u53f0\u3002 *By [@wholiver](https://github.com/wholiver)*",
+      "desc": "SwiftUI 前端设计 skill — 反 AI Slop 六条铁律、设计方向顾问、品牌资产协议、五维评审。支持 Claude Code / Cursor / Codex / OpenCode 等全部 AI agent 平台。 *By [@wholiver](https://github.com/wholiver)*",
       "url": "https://github.com/wholiver/swiftui-design-skill",
       "install": "",
       "functionCategory": "general",
@@ -10264,7 +10264,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "swiftui-design-skill swiftui \u524d\u7aef\u8bbe\u8ba1 skill \u2014 \u53cd ai slop \u516d\u6761\u94c1\u5f8b\u3001\u8bbe\u8ba1\u65b9\u5411\u987e\u95ee\u3001\u54c1\u724c\u8d44\u4ea7\u534f\u8bae\u3001\u4e94\u7ef4\u8bc4\u5ba1\u3002\u652f\u6301 claude code / cursor / codex / opencode \u7b49\u5168\u90e8 ai agent \u5e73\u53f0\u3002 *by [@wholiver](https://github.com/wholiver)* composiohq/awesome-claude-skills general claude"
+      "searchText": "swiftui-design-skill swiftui 前端设计 skill — 反 ai slop 六条铁律、设计方向顾问、品牌资产协议、五维评审。支持 claude code / cursor / codex / opencode 等全部 ai agent 平台。 *by [@wholiver](https://github.com/wholiver)* composiohq/awesome-claude-skills general claude"
     },
     {
       "name": "Tailored Resume Generator",
@@ -10290,7 +10290,7 @@
       "sourceAgent": "generic",
       "repo": "alchaincyf/taleb-skill",
       "stars": 99,
-      "desc": "\u5854\u52d2\u5e03.skill",
+      "desc": "塔勒布.skill",
       "url": "https://github.com/alchaincyf/taleb-skill",
       "install": "",
       "functionCategory": "general",
@@ -10300,7 +10300,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "taleb-skill \u5854\u52d2\u5e03.skill alchaincyf/taleb-skill general generic"
+      "searchText": "taleb-skill 塔勒布.skill alchaincyf/taleb-skill general generic"
     },
     {
       "name": "tapestry",
@@ -10434,7 +10434,7 @@
       "sourceAgent": "generic",
       "repo": "hotcoffeeshake/tong-jincheng-skill",
       "stars": 2436,
-      "desc": "\u7ae5\u9526\u7a0b.skill",
+      "desc": "童锦程.skill",
       "url": "https://github.com/hotcoffeeshake/tong-jincheng-skill",
       "install": "",
       "functionCategory": "general",
@@ -10444,7 +10444,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "tong-jincheng-skill \u7ae5\u9526\u7a0b.skill hotcoffeeshake/tong-jincheng-skill general generic"
+      "searchText": "tong-jincheng-skill 童锦程.skill hotcoffeeshake/tong-jincheng-skill general generic"
     },
     {
       "name": "Trello Automation",
@@ -10470,7 +10470,7 @@
       "sourceAgent": "generic",
       "repo": "alchaincyf/trump-skill",
       "stars": 248,
-      "desc": "\u7279\u6717\u666e.skill",
+      "desc": "特朗普.skill",
       "url": "https://github.com/alchaincyf/trump-skill",
       "install": "",
       "functionCategory": "general",
@@ -10480,7 +10480,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "trump-skill \u7279\u6717\u666e.skill alchaincyf/trump-skill general generic"
+      "searchText": "trump-skill 特朗普.skill alchaincyf/trump-skill general generic"
     },
     {
       "name": "Twitter Algorithm Optimizer",
@@ -10596,7 +10596,7 @@
       "sourceAgent": "generic",
       "repo": "fisher-yu-like/wang-er-skill",
       "stars": 2,
-      "desc": "\u738b\u4e8c.skill",
+      "desc": "王二.skill",
       "url": "https://github.com/fisher-yu-like/wang-er-skill",
       "install": "",
       "functionCategory": "general",
@@ -10606,7 +10606,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "wang-er-skill \u738b\u4e8c.skill fisher-yu-like/wang-er-skill general generic"
+      "searchText": "wang-er-skill 王二.skill fisher-yu-like/wang-er-skill general generic"
     },
     {
       "name": "Webapp Testing",
@@ -10704,7 +10704,7 @@
       "sourceAgent": "generic",
       "repo": "alchaincyf/x-mentor-skill",
       "stars": 935,
-      "desc": "X \u5bfc\u5e08.skill",
+      "desc": "X 导师.skill",
       "url": "https://github.com/alchaincyf/x-mentor-skill",
       "install": "",
       "functionCategory": "general",
@@ -10714,7 +10714,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "x-mentor-skill x \u5bfc\u5e08.skill alchaincyf/x-mentor-skill general generic"
+      "searchText": "x-mentor-skill x 导师.skill alchaincyf/x-mentor-skill general generic"
     },
     {
       "name": "xinqingnian-skill",
@@ -10722,7 +10722,7 @@
       "sourceAgent": "generic",
       "repo": "samadhifire/xinqingnian-skill",
       "stars": 258,
-      "desc": "\u65b0\u9752\u5e74.Skill",
+      "desc": "新青年.Skill",
       "url": "https://github.com/SamadhiFire/xinqingnian-skill",
       "install": "",
       "functionCategory": "general",
@@ -10732,7 +10732,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "xinqingnian-skill \u65b0\u9752\u5e74.skill samadhifire/xinqingnian-skill general generic"
+      "searchText": "xinqingnian-skill 新青年.skill samadhifire/xinqingnian-skill general generic"
     },
     {
       "name": "xlsx",
@@ -10758,7 +10758,7 @@
       "sourceAgent": "generic",
       "repo": "notdog1998/yourself-skill",
       "stars": 3097,
-      "desc": "\u81ea\u5df1.skill",
+      "desc": "自己.skill",
       "url": "https://github.com/notdog1998/yourself-skill",
       "install": "",
       "functionCategory": "general",
@@ -10768,7 +10768,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "yourself-skill \u81ea\u5df1.skill notdog1998/yourself-skill general generic"
+      "searchText": "yourself-skill 自己.skill notdog1998/yourself-skill general generic"
     },
     {
       "name": "YouTube Automation",
@@ -10830,7 +10830,7 @@
       "sourceAgent": "generic",
       "repo": "alchaincyf/zhang-yiming-skill",
       "stars": 135,
-      "desc": "\u5f20\u4e00\u9e23.skill",
+      "desc": "张一鸣.skill",
       "url": "https://github.com/alchaincyf/zhang-yiming-skill",
       "install": "",
       "functionCategory": "general",
@@ -10840,7 +10840,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "zhang-yiming-skill \u5f20\u4e00\u9e23.skill alchaincyf/zhang-yiming-skill general generic"
+      "searchText": "zhang-yiming-skill 张一鸣.skill alchaincyf/zhang-yiming-skill general generic"
     },
     {
       "name": "zhangxuefeng-skill",
@@ -10848,7 +10848,7 @@
       "sourceAgent": "generic",
       "repo": "alchaincyf/zhangxuefeng-skill",
       "stars": 9686,
-      "desc": "\u5f20\u96ea\u5cf0.skill",
+      "desc": "张雪峰.skill",
       "url": "https://github.com/alchaincyf/zhangxuefeng-skill",
       "install": "",
       "functionCategory": "general",
@@ -10858,7 +10858,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "zhangxuefeng-skill \u5f20\u96ea\u5cf0.skill alchaincyf/zhangxuefeng-skill general generic"
+      "searchText": "zhangxuefeng-skill 张雪峰.skill alchaincyf/zhangxuefeng-skill general generic"
     },
     {
       "name": "zhuzi-skill",
@@ -10866,7 +10866,7 @@
       "sourceAgent": "generic",
       "repo": "linzzzzzz/zhuzi-skill",
       "stars": 10,
-      "desc": "\u8bf8\u5b50.skill",
+      "desc": "诸子.skill",
       "url": "https://github.com/linzzzzzz/zhuzi-skill",
       "install": "",
       "functionCategory": "general",
@@ -10876,7 +10876,7 @@
       "supportedAgents": [
         "generic"
       ],
-      "searchText": "zhuzi-skill \u8bf8\u5b50.skill linzzzzzz/zhuzi-skill general generic"
+      "searchText": "zhuzi-skill 诸子.skill linzzzzzz/zhuzi-skill general generic"
     },
     {
       "name": "zizek-skill",
@@ -10938,7 +10938,7 @@
       "sourceAgent": "general",
       "repo": "Mcp-Brasil/mcp-brasil",
       "stars": 1653,
-      "desc": "MCP Server para 70 APIs p\u00fablicas brasileiras",
+      "desc": "MCP Server para 70 APIs públicas brasileiras",
       "url": "https://github.com/Mcp-Brasil/mcp-brasil",
       "install": "",
       "functionCategory": "general",
@@ -10948,7 +10948,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "mcp-brasil mcp server para 70 apis p\u00fablicas brasileiras mcp-brasil/mcp-brasil general general"
+      "searchText": "mcp-brasil mcp server para 70 apis públicas brasileiras mcp-brasil/mcp-brasil general general"
     },
     {
       "name": "anysearch-mcp-server",
@@ -11011,7 +11011,7 @@
       "sourceAgent": "general",
       "repo": "global-agent-hackathon-may-2025",
       "stars": 248,
-      "desc": "A month-long, open-source AI Agent Hackathon \u2014 building the next generation of AI agents",
+      "desc": "A month-long, open-source AI Agent Hackathon — building the next generation of AI agents",
       "url": "https://github.com/global-agent-hackathon-may-2025",
       "install": "",
       "functionCategory": "general",
@@ -11021,7 +11021,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "global-agent-hackathon A month-long, open-source AI Agent Hackathon \u2014 building the next generation of A global-agent-hackathon-may-2025 general",
+      "searchText": "global-agent-hackathon A month-long, open-source AI Agent Hackathon — building the next generation of A global-agent-hackathon-may-2025 general",
       "pricing": "free"
     },
     {
@@ -11193,7 +11193,7 @@
       "sourceAgent": "general",
       "repo": "Mocha-Yuan/MoChord",
       "stars": 229,
-      "desc": "MoChord: An AI-powered guitar workspace for smart chord voicings, real-time tuner pitch detection, tabs, staff notation, playback, metronome practice, and progression generation. \u5409\u4ed6\u548c\u5f26\u667a\u80fd\u5de5\u4f5c\u53f0\uff0c\u96c6 AI \u7f16\u66f2\u3001\u667a\u80fd\u628a",
+      "desc": "MoChord: An AI-powered guitar workspace for smart chord voicings, real-time tuner pitch detection, tabs, staff notation, playback, metronome practice, and progression generation. 吉他和弦智能工作台，集 AI 编曲、智能把",
       "url": "https://github.com/Mocha-Yuan/MoChord",
       "install": "",
       "functionCategory": "general",
@@ -11283,7 +11283,7 @@
       "sourceAgent": "general",
       "repo": "ARahim3/mlx-tune",
       "stars": 1332,
-      "desc": "Fine-tune LLMs on your Mac with Apple Silicon. SFT, DPO, GRPO, Vision, TTS, STT, Embedding, and OCR fine-tuning \u2014 natively on MLX. Unsloth-compatible API.",
+      "desc": "Fine-tune LLMs on your Mac with Apple Silicon. SFT, DPO, GRPO, Vision, TTS, STT, Embedding, and OCR fine-tuning — natively on MLX. Unsloth-compatible API.",
       "url": "https://github.com/ARahim3/mlx-tune",
       "install": "",
       "functionCategory": "general",
@@ -11373,7 +11373,7 @@
       "sourceAgent": "general",
       "repo": "TYH-labs/unsloth-buddy",
       "stars": 256,
-      "desc": "Zero-friction LLM fine-tuning skill for Claude Code, Gemini CLI & any ACP agent. Unsloth on NVIDIA \u00b7 TRL+MPS/MLX on Apple Silicon. Automates env setup, LoRA training (SFT, DPO, GRPO, vision), post-hoc",
+      "desc": "Zero-friction LLM fine-tuning skill for Claude Code, Gemini CLI & any ACP agent. Unsloth on NVIDIA · TRL+MPS/MLX on Apple Silicon. Automates env setup, LoRA training (SFT, DPO, GRPO, vision), post-hoc",
       "url": "https://github.com/TYH-labs/unsloth-buddy",
       "install": "",
       "functionCategory": "general",
@@ -11391,7 +11391,7 @@
       "sourceAgent": "general",
       "repo": "Goekdeniz-Guelmez/MLX-LoRA-Studio",
       "stars": 229,
-      "desc": "A native Mac App for LLM fine-tuning on Apple Silicon \u2014 fully on-device, fully open source.",
+      "desc": "A native Mac App for LLM fine-tuning on Apple Silicon — fully on-device, fully open source.",
       "url": "https://github.com/Goekdeniz-Guelmez/MLX-LoRA-Studio",
       "install": "",
       "functionCategory": "general",
@@ -11401,7 +11401,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "mlx-lora-studio A native Mac App for LLM fine-tuning on Apple Silicon \u2014 full Goekdeniz-Guelmez/MLX-LoRA-Studio general"
+      "searchText": "mlx-lora-studio A native Mac App for LLM fine-tuning on Apple Silicon — full Goekdeniz-Guelmez/MLX-LoRA-Studio general"
     },
     {
       "name": "system-design-visualizer",
@@ -11445,7 +11445,7 @@
       "sourceAgent": "general",
       "repo": "frank890417/taiwan-md",
       "stars": 1089,
-      "desc": "\ud83c\uddf9\ud83c\uddfc \u8b93\u5168\u4e16\u754c\u5b8c\u6574\u8a8d\u8b58\u53f0\u7063 | An open-source, AI-friendly knowledge base about Taiwan",
+      "desc": "🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base about Taiwan",
       "url": "https://github.com/frank890417/taiwan-md",
       "install": "",
       "functionCategory": "general",
@@ -11455,7 +11455,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "taiwan-md \ud83c\uddf9\ud83c\uddfc \u8b93\u5168\u4e16\u754c\u5b8c\u6574\u8a8d\u8b58\u53f0\u7063 | An open-source, AI-friendly knowledge base a frank890417/taiwan-md general"
+      "searchText": "taiwan-md 🇹🇼 讓全世界完整認識台灣 | An open-source, AI-friendly knowledge base a frank890417/taiwan-md general"
     },
     {
       "name": "knownote",
@@ -11553,7 +11553,7 @@
       "sourceAgent": "general",
       "repo": "swapperfinance/swapper-toolkit",
       "stars": 817,
-      "desc": "DeFi toolkit for AI agents and coding assistants \u2014 deposit funds, execute trades, and manage crypto wallets. Works with Claude Code, Cursor,   Windsurf, OpenClaw, CrewAI, AutoGPT, and other AI agent f",
+      "desc": "DeFi toolkit for AI agents and coding assistants — deposit funds, execute trades, and manage crypto wallets. Works with Claude Code, Cursor,   Windsurf, OpenClaw, CrewAI, AutoGPT, and other AI agent f",
       "url": "https://github.com/swapperfinance/swapper-toolkit",
       "install": "",
       "functionCategory": "general",
@@ -11563,7 +11563,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "swapper-toolkit DeFi toolkit for AI agents and coding assistants \u2014 deposit f swapperfinance/swapper-toolkit general"
+      "searchText": "swapper-toolkit DeFi toolkit for AI agents and coding assistants — deposit f swapperfinance/swapper-toolkit general"
     },
     {
       "name": "powertrader_ai",
@@ -11607,7 +11607,7 @@
       "sourceAgent": "general",
       "repo": "GMGNAI/gmgn-skills",
       "stars": 353,
-      "desc": "GMGN OpenAPI skills for AI Agent \u2014 query tokens, wallets, and market data, and execute on-chain trades across Solana, BSC, and Base.",
+      "desc": "GMGN OpenAPI skills for AI Agent — query tokens, wallets, and market data, and execute on-chain trades across Solana, BSC, and Base.",
       "url": "https://github.com/GMGNAI/gmgn-skills",
       "install": "",
       "functionCategory": "general",
@@ -11617,7 +11617,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "gmgn-skills GMGN OpenAPI skills for AI Agent \u2014 query tokens, wallets, an GMGNAI/gmgn-skills general"
+      "searchText": "gmgn-skills GMGN OpenAPI skills for AI Agent — query tokens, wallets, an GMGNAI/gmgn-skills general"
     },
     {
       "name": "vibe-investing",
@@ -11625,7 +11625,7 @@
       "sourceAgent": "general",
       "repo": "gameworkerkim/vibe-investing",
       "stars": 232,
-      "desc": "AI-powered Vibe Investing for NASDAQ, S&P500 & crypto: LLM quant trading tools, multi-agent backtesting, and data-driven market columns (mNAV arbitrage, BTC-Nasdaq coupling, Alpha Arena). \ubbf8\uad6d \uc8fc\uc2dd\u00b7\uac00\uc0c1\ud654\ud3d0 A",
+      "desc": "AI-powered Vibe Investing for NASDAQ, S&P500 & crypto: LLM quant trading tools, multi-agent backtesting, and data-driven market columns (mNAV arbitrage, BTC-Nasdaq coupling, Alpha Arena). 미국 주식·가상화폐 A",
       "url": "https://github.com/gameworkerkim/vibe-investing",
       "install": "",
       "functionCategory": "general",
@@ -11661,7 +11661,7 @@
       "sourceAgent": "general",
       "repo": "buynao/aipath",
       "stars": 459,
-      "desc": "Interactive AI General Education Course \u2014 30 Lessons, Zero Math",
+      "desc": "Interactive AI General Education Course — 30 Lessons, Zero Math",
       "url": "https://github.com/buynao/aipath",
       "install": "",
       "functionCategory": "general",
@@ -11671,7 +11671,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "aipath Interactive AI General Education Course \u2014 30 Lessons, Zero M buynao/aipath general"
+      "searchText": "aipath Interactive AI General Education Course — 30 Lessons, Zero M buynao/aipath general"
     },
     {
       "name": "final-year-project-ideas-2025",
@@ -11679,7 +11679,7 @@
       "sourceAgent": "general",
       "repo": "DharminJoshi/Final-Year-Project-Ideas-2025",
       "stars": 340,
-      "desc": "A curated list of 100 innovative and impactful project ideas for final-year students, covering AI, sustainability, health, education, and more\u2014designed to inspire creativity and real-world problem-sol",
+      "desc": "A curated list of 100 innovative and impactful project ideas for final-year students, covering AI, sustainability, health, education, and more—designed to inspire creativity and real-world problem-sol",
       "url": "https://github.com/DharminJoshi/Final-Year-Project-Ideas-2025",
       "install": "",
       "functionCategory": "general",
@@ -11715,7 +11715,7 @@
       "sourceAgent": "general",
       "repo": "jin-zi-xuan/kaobuddy-pwa",
       "stars": 204,
-      "desc": "\u4e00\u4e2a\u5e2e\u4f60\u4e34\u65f6\u62b1\u4f5b\u811a\u7684\u9879\u76ee",
+      "desc": "一个帮你临时抱佛脚的项目",
       "url": "https://github.com/jin-zi-xuan/kaobuddy-pwa",
       "install": "",
       "functionCategory": "general",
@@ -11725,7 +11725,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "kaobuddy-pwa \u4e00\u4e2a\u5e2e\u4f60\u4e34\u65f6\u62b1\u4f5b\u811a\u7684\u9879\u76ee jin-zi-xuan/kaobuddy-pwa general"
+      "searchText": "kaobuddy-pwa 一个帮你临时抱佛脚的项目 jin-zi-xuan/kaobuddy-pwa general"
     },
     {
       "name": "alumnet",
@@ -11733,7 +11733,7 @@
       "sourceAgent": "general",
       "repo": "jungang/alumnet",
       "stars": 200,
-      "desc": "AlumNet - AI-powered intelligent school history exhibition & alumni management system | AI \u667a\u80fd\u6821\u53f2\u5c55\u793a\u7cfb\u7edf \u2014 \u6821\u53cb\u661f\u56fe",
+      "desc": "AlumNet - AI-powered intelligent school history exhibition & alumni management system | AI 智能校史展示系统 — 校友星图",
       "url": "https://github.com/jungang/alumnet",
       "install": "",
       "functionCategory": "general",
@@ -11859,7 +11859,7 @@
       "sourceAgent": "general",
       "repo": "Tencent-Hunyuan/HunyuanImage-2.1",
       "stars": 674,
-      "desc": "HunyuanImage-2.1: An Efficient Diffusion Model for High-Resolution (2K) Text-to-Image Generation\u200b",
+      "desc": "HunyuanImage-2.1: An Efficient Diffusion Model for High-Resolution (2K) Text-to-Image Generation​",
       "url": "https://github.com/Tencent-Hunyuan/HunyuanImage-2.1",
       "install": "",
       "functionCategory": "general",
@@ -11895,7 +11895,7 @@
       "sourceAgent": "general",
       "repo": "Zehong-Ma/DeCo",
       "stars": 229,
-      "desc": "[CVPR2026 Highlight] Official repository for \u201cDeCo: Frequency-Decoupled Pixel Diffusion for End-to-End Image Generation\u201d",
+      "desc": "[CVPR2026 Highlight] Official repository for “DeCo: Frequency-Decoupled Pixel Diffusion for End-to-End Image Generation”",
       "url": "https://github.com/Zehong-Ma/DeCo",
       "install": "",
       "functionCategory": "general",
@@ -11905,7 +11905,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "deco [CVPR2026 Highlight] Official repository for \u201cDeCo: Frequenc Zehong-Ma/DeCo general"
+      "searchText": "deco [CVPR2026 Highlight] Official repository for “DeCo: Frequenc Zehong-Ma/DeCo general"
     },
     {
       "name": "merge",
@@ -11931,7 +11931,7 @@
       "sourceAgent": "general",
       "repo": "MeiGen-AI/PosterOmni",
       "stars": 203,
-      "desc": "[CVPR2026] PosterOmni: One model for poster creation\u2014unifying local edits and global design for generalized multi-task image/poster-to-poster generation.",
+      "desc": "[CVPR2026] PosterOmni: One model for poster creation—unifying local edits and global design for generalized multi-task image/poster-to-poster generation.",
       "url": "https://github.com/MeiGen-AI/PosterOmni",
       "install": "",
       "functionCategory": "general",
@@ -11941,7 +11941,7 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "posteromni [CVPR2026] PosterOmni: One model for poster creation\u2014unifyin MeiGen-AI/PosterOmni general"
+      "searchText": "posteromni [CVPR2026] PosterOmni: One model for poster creation—unifyin MeiGen-AI/PosterOmni general"
     },
     {
       "name": "bc250",
@@ -11949,7 +11949,7 @@
       "sourceAgent": "general",
       "repo": "akandr/bc250",
       "stars": 200,
-      "desc": "AMD BC-250 (PS5 APU) setup guide \u2014 Ollama + Vulkan inference, poor man's AI assistant via Signal, stable-diffusion.cpp image generation",
+      "desc": "AMD BC-250 (PS5 APU) setup guide — Ollama + Vulkan inference, poor man's AI assistant via Signal, stable-diffusion.cpp image generation",
       "url": "https://github.com/akandr/bc250",
       "install": "",
       "functionCategory": "general",
@@ -11959,7 +11959,307 @@
       "supportedAgents": [
         "general"
       ],
-      "searchText": "bc250 AMD BC-250 (PS5 APU) setup guide \u2014 Ollama + Vulkan inference akandr/bc250 general"
+      "searchText": "bc250 AMD BC-250 (PS5 APU) setup guide — Ollama + Vulkan inference akandr/bc250 general"
+    },
+    {
+      "name": "skills",
+      "description": "Skills, MCP servers, Custom Agents, Agents.md for SDKs to ground Coding Agents",
+      "url": "https://github.com/microsoft/skills",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "mcp-brasil",
+      "description": "MCP Server para 70 APIs públicas brasileiras",
+      "url": "https://github.com/Mcp-Brasil/mcp-brasil",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "anysearch-mcp-server",
+      "description": "Unified real-time search engine skill for AI agents.",
+      "url": "https://github.com/anysearch-ai/anysearch-mcp-server",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "awesome-on-policy-distillation",
+      "description": "A curated collection of papers, technical reports, frameworks, and tools for on-policy distillation (OPD) of large language models",
+      "url": "https://github.com/chrisliu298/awesome-on-policy-distillation",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "url": "https://github.com/open-webui/open-webui",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "llama.cpp",
+      "description": "LLM inference in C/C++",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "vllm",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "url": "https://github.com/vllm-project/vllm",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "PaddleOCR",
+      "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "textgen",
+      "description": "Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API. 100% private.",
+      "url": "https://github.com/oobabooga/textgen",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "milvus",
+      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+      "url": "https://github.com/milvus-io/milvus",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "BitNet",
+      "description": "Official inference framework for 1-bit LLMs",
+      "url": "https://github.com/microsoft/BitNet",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "LightRAG",
+      "description": "[EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\"",
+      "url": "https://github.com/HKUDS/LightRAG",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "graphrag",
+      "description": "A modular graph-based Retrieval-Augmented Generation (RAG) system",
+      "url": "https://github.com/microsoft/graphrag",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "onyx",
+      "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "sglang",
+      "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
+      "url": "https://github.com/sgl-project/sglang",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "Scrapegraph-ai",
+      "description": "Python scraper based on AI",
+      "url": "https://github.com/ScrapeGraphAI/Scrapegraph-ai",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "free-llm-api-resources",
+      "description": "A list of free LLM inference resources accessible via API.",
+      "url": "https://github.com/cheahjs/free-llm-api-resources",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "airllm",
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "url": "https://github.com/lyogavin/airllm",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "waveterm",
+      "description": "An open-source, AI-integrated, cross-platform terminal for seamless workflows",
+      "url": "https://github.com/wavetermdev/waveterm",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "evals",
+      "description": "Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks.",
+      "url": "https://github.com/openai/evals",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "llama-cookbook",
+      "description": "Welcome to the Llama Cookbook! This is your go to guide for Building with Llama: Getting started with Inference, Fine-Tuning, RAG. We also show you how to solve end to end problems using Llama model f",
+      "url": "https://github.com/meta-llama/llama-cookbook",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "web-llm",
+      "description": "High-performance In-browser LLM Inference Engine ",
+      "url": "https://github.com/mlc-ai/web-llm",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "ml-engineering",
+      "description": "Machine Learning Engineering Open Book",
+      "url": "https://github.com/stas00/ml-engineering",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "ktransformers",
+      "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
+      "url": "https://github.com/kvcache-ai/ktransformers",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "omlx",
+      "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "url": "https://github.com/jundot/omlx",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "deepeval",
+      "description": "The LLM Evaluation Framework",
+      "url": "https://github.com/confident-ai/deepeval",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "MNN",
+      "description": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
+      "url": "https://github.com/alibaba/MNN",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "easy-dataset",
+      "description": "A powerful tool for creating datasets for LLM fine-tuning 、RAG and Eval",
+      "url": "https://github.com/ConardLi/easy-dataset",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "nano-vllm",
+      "description": "Nano vLLM",
+      "url": "https://github.com/GeeeekExplorer/nano-vllm",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "TensorRT-LLM",
+      "description": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT ",
+      "url": "https://github.com/NVIDIA/TensorRT-LLM",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "gorilla",
+      "description": "Gorilla: Training and Evaluating LLMs for Function Calls (Tool Calls)",
+      "url": "https://github.com/ShishirPatil/gorilla",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "eino",
+      "description": "The ultimate LLM/AI application development framework in Go.",
+      "url": "https://github.com/cloudwego/eino",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "ludwig",
+      "description": "Low-code framework for building custom LLMs, neural networks, and other AI models",
+      "url": "https://github.com/ludwig-ai/ludwig",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "mistral-inference",
+      "description": "Official inference library for Mistral models",
+      "url": "https://github.com/mistralai/mistral-inference",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "llm-engineer-toolkit",
+      "description": "A curated list of  120+ LLM libraries category wise. ",
+      "url": "https://github.com/KalyanKS-NLP/llm-engineer-toolkit",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "LMCache",
+      "description": "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
+      "url": "https://github.com/LMCache/LMCache",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "seatunnel",
+      "description": "SeaTunnel is a multimodal, high-performance, distributed, massive data integration tool.",
+      "url": "https://github.com/apache/seatunnel",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "ipex-llm",
+      "description": "Accelerate local LLM inference and finetuning (LLaMA, Mistral, ChatGLM, Qwen, DeepSeek, Mixtral, Gemma, Phi, MiniCPM, Qwen-VL, MiniCPM-V, etc.) on Intel XPU (e.g., local PC with iGPU and NPU, discrete",
+      "url": "https://github.com/intel/ipex-llm",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "BentoML",
+      "description": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!",
+      "url": "https://github.com/bentoml/BentoML",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "mistral.rs",
+      "description": "Fast, flexible LLM inference",
+      "url": "https://github.com/EricLBuehler/mistral.rs",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "mergekit",
+      "description": "Tools for merging pretrained large language models.",
+      "url": "https://github.com/arcee-ai/mergekit",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "RWKV-Runner",
+      "description": "A RWKV management and startup tool, full automation, only 8MB. And provides an interface compatible with the OpenAI API. RWKV is a large language model that is fully open source and available for comm",
+      "url": "https://github.com/josStorer/RWKV-Runner",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "Mooncake",
+      "description": "Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI.",
+      "url": "https://github.com/kvcache-ai/Mooncake",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "ToolBench",
+      "description": "[ICLR'24 spotlight] An open platform for training, serving, and evaluating large language model for tool learning.",
+      "url": "https://github.com/OpenBMB/ToolBench",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "whichllm",
+      "description": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
+      "url": "https://github.com/Andyyyy64/whichllm",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "Awesome-LLM-Inference",
+      "description": "📚A curated list of Awesome LLM/VLM Inference Papers with Codes: Flash-Attention, Paged-Attention, WINT8/4, Parallelism, etc.🎉",
+      "url": "https://github.com/xlite-dev/Awesome-LLM-Inference",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "deepreasoning",
+      "description": "A high-performance LLM inference API and Chat UI that integrates DeepSeek R1's CoT reasoning traces with Anthropic Claude models.",
+      "url": "https://github.com/winfunc/deepreasoning",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "gpustack",
+      "description": "A GPU cluster manager for high-performance AI model serving (vLLM, SGLang) and on-demand SSH-accessible GPU instances.",
+      "url": "https://github.com/gpustack/gpustack",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "chonkie",
+      "description": "🦛 CHONK docs with Chonkie ✨ — The lightweight ingestion library for fast, efficient and robust RAG pipelines",
+      "url": "https://github.com/feyninc/chonkie",
+      "addedAt": "2026-07-01T04:00:00Z"
+    },
+    {
+      "name": "dora",
+      "description": "DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed datafl",
+      "url": "https://github.com/dora-rs/dora",
+      "addedAt": "2026-07-01T04:00:00Z"
     }
   ]
 }
