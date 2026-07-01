@@ -4,7 +4,7 @@
     "topCategoryId": "automation",
     "subCategoryId": "productivity",
     "categoryPath": "automation-productivity",
-    "count": 339,
+    "count": 342,
     "sourceData": "categories"
   },
   "skills": [
@@ -5919,6 +5919,60 @@
         "general"
       ],
       "searchText": "eonardo-ai-studio-cli Leonardo AI Premium Automation Suite 2026: Ultimate Creative AI Toolkit & Workflow Generator Vance96-stack/eonardo-ai-studio-cli automation-productivity"
+    },
+    {
+      "name": "openbrowser-ai",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "billy-enrizky/openbrowser-ai",
+      "stars": 235,
+      "desc": "OpenBrowser is a framework for intelligent browser automation. It combines direct CDP communication with a CodeAgent architecture, where the LLM writes Python code executed in a persistent namespace, ",
+      "url": "https://github.com/billy-enrizky/openbrowser-ai",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openbrowser-ai OpenBrowser is a framework for intelligent browser automation. It combines direct CDP communication  billy-enrizky/openbrowser-ai automation-productivity"
+    },
+    {
+      "name": "AutoAR",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "h0tak88r/AutoAR",
+      "stars": 224,
+      "desc": "AutoAR is an automated security reconnaissance tool, ASM and Discord bot for bug bounty hunters and penetration testers. It automates gathering subdomains, scanning ports, detecting technologies, mapp",
+      "url": "https://github.com/h0tak88r/AutoAR",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AutoAR AutoAR is an automated security reconnaissance tool, ASM and Discord bot for bug bounty hunters and  h0tak88r/AutoAR automation-productivity"
+    },
+    {
+      "name": "ai-mixed-cut",
+      "source": "automation-productivity",
+      "sourceAgent": "automation-productivity",
+      "repo": "toki-plus/ai-mixed-cut",
+      "stars": 77,
+      "desc": "颠覆性AI内容再创作引擎，通过“解构-重构”爆款视频模式，全自动生成高度原创短视频。AIGC, Content Creation, Video Generation, Automation, LLM, Python, FFmpeg.",
+      "url": "https://github.com/toki-plus/ai-mixed-cut",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "topCategoryId": "automation-productivity",
+      "subCategoryId": "general",
+      "categoryPath": "automation-productivity",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-mixed-cut 颠覆性AI内容再创作引擎，通过“解构-重构”爆款视频模式，全自动生成高度原创短视频。AIGC, Content Creation, Video Generation, Automation, LLM, toki-plus/ai-mixed-cut automation-productivity"
     }
   ]
 }

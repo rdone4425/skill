@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 1328,
+    "count": 1341,
     "sourceData": "categories"
   },
   "skills": [
@@ -25034,6 +25034,240 @@
         "general"
       ],
       "searchText": "ForgeDock GitHub as a knowledge graph for AI agents. Autonomous dev pipeline for Claude Code - investigate, build, review, merge. Issue in, PR out. RapierCraftStudios/ForgeDock dev-tools"
+    },
+    {
+      "name": "serena",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "oraios/serena",
+      "stars": 25977,
+      "desc": "A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent",
+      "url": "https://github.com/oraios/serena",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "serena A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE  oraios/serena dev-tools"
+    },
+    {
+      "name": "obsidian-mind",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "breferrari/obsidian-mind",
+      "stars": 3184,
+      "desc": "An Obsidian vault that gives AI coding agents persistent memory. Claude Code, Codex CLI, Gemini CLI.",
+      "url": "https://github.com/breferrari/obsidian-mind",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "obsidian-mind An Obsidian vault that gives AI coding agents persistent memory. Claude Code, Codex CLI, Gemini CLI. breferrari/obsidian-mind dev-tools"
+    },
+    {
+      "name": "yek",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "mohsen1/yek",
+      "stars": 2457,
+      "desc": "A fast Rust based tool to serialize text-based files in a repository or directory for LLM consumption",
+      "url": "https://github.com/mohsen1/yek",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "yek A fast Rust based tool to serialize text-based files in a repository or directory for LLM consumptio mohsen1/yek dev-tools"
+    },
+    {
+      "name": "codex-session-patcher",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "ryfineZ/codex-session-patcher",
+      "stars": 2115,
+      "desc": "A lightweight Python tool to clean AI refusal responses from Codex CLI session files",
+      "url": "https://github.com/ryfineZ/codex-session-patcher",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "codex-session-patcher A lightweight Python tool to clean AI refusal responses from Codex CLI session files ryfineZ/codex-session-patcher dev-tools"
+    },
+    {
+      "name": "hope-agent",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "shiwenwen/hope-agent",
+      "stars": 1092,
+      "desc": "🦭跨端交接、越用越懂你的桌面 AI 助手——也能服务化常驻、跑在云上 | Desktop AI that hands off across your devices and gets to know you better — also runs headless on a NAS or in the cloud",
+      "url": "https://github.com/shiwenwen/hope-agent",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "hope-agent 🦭跨端交接、越用越懂你的桌面 AI 助手——也能服务化常驻、跑在云上 | Desktop AI that hands off across your devices and gets to know  shiwenwen/hope-agent dev-tools"
+    },
+    {
+      "name": "flow-like",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "Rheosoph/flow-like",
+      "stars": 907,
+      "desc": "Flow-Like: Strongly Typed Enterprise Scale Workflows. Built for scalability, speed, seamless AI integration and rich customization.",
+      "url": "https://github.com/Rheosoph/flow-like",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "flow-like Flow-Like: Strongly Typed Enterprise Scale Workflows. Built for scalability, speed, seamless AI inte Rheosoph/flow-like dev-tools"
+    },
+    {
+      "name": "pipelex",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "Pipelex/pipelex",
+      "stars": 684,
+      "desc": "Declarative language for composable Al workflows. Devtool for agents and mere humans.",
+      "url": "https://github.com/Pipelex/pipelex",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "pipelex Declarative language for composable Al workflows. Devtool for agents and mere humans. Pipelex/pipelex dev-tools"
+    },
+    {
+      "name": "heym",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "heymrun/heym",
+      "stars": 654,
+      "desc": "Build AI workflows by prompt or visual canvas. Heym is source-available and self-hosted, with agents, RAG, MCP, HITL, observability, evals, token cost tracking and more.",
+      "url": "https://github.com/heymrun/heym",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "heym Build AI workflows by prompt or visual canvas. Heym is source-available and self-hosted, with agents heymrun/heym dev-tools"
+    },
+    {
+      "name": "mcp-image",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "shinpr/mcp-image",
+      "stars": 131,
+      "desc": "MCP server for AI image generation and editing with automatic prompt optimization and quality presets. Powered by Gemini (Nano Banana 2 & Pro), with optional OpenAI GPT Image support.",
+      "url": "https://github.com/shinpr/mcp-image",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mcp-image MCP server for AI image generation and editing with automatic prompt optimization and quality preset shinpr/mcp-image dev-tools"
+    },
+    {
+      "name": "omniscient",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "RicardoGEsteves/omniscient",
+      "stars": 119,
+      "desc": "Cutting-edge Full-stack AI Platform delivered as a SaaS (Software as a Service). Built on a robust technology stack, integrated with powerful APIs such as OpenAI and Replicate, offers a seamless exper",
+      "url": "https://github.com/RicardoGEsteves/omniscient",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "omniscient Cutting-edge Full-stack AI Platform delivered as a SaaS (Software as a Service). Built on a robust t RicardoGEsteves/omniscient dev-tools"
+    },
+    {
+      "name": "z-image-studio",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "iconben/z-image-studio",
+      "stars": 119,
+      "desc": "A Cli, a webUI, and a MCP server for the Z-Image-Turbo text-to-image generation model (Tongyi-MAI/Z-Image-Turbo base model as well as quantized models)",
+      "url": "https://github.com/iconben/z-image-studio",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "z-image-studio A Cli, a webUI, and a MCP server for the Z-Image-Turbo text-to-image generation model (Tongyi-MAI/Z- iconben/z-image-studio dev-tools"
+    },
+    {
+      "name": "notebooklm-mcp",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "roomi-fields/notebooklm-mcp",
+      "stars": 97,
+      "desc": "Google NotebookLM over MCP + a local HTTP REST API. Citation-backed Q&A, audio/video/content generation, multi-account rotation. For Claude Code, Codex, Cursor, n8n, Zapier, Make.",
+      "url": "https://github.com/roomi-fields/notebooklm-mcp",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "notebooklm-mcp Google NotebookLM over MCP + a local HTTP REST API. Citation-backed Q&A, audio/video/content generat roomi-fields/notebooklm-mcp dev-tools"
+    },
+    {
+      "name": "heygen-cli",
+      "source": "dev-tools",
+      "sourceAgent": "dev-tools",
+      "repo": "heygen-com/heygen-cli",
+      "stars": 80,
+      "desc": "Create AI videos from the terminal. Official CLI for the HeyGen video generation API.",
+      "url": "https://github.com/heygen-com/heygen-cli",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "dev-tools",
+      "subCategoryId": "general",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "heygen-cli Create AI videos from the terminal. Official CLI for the HeyGen video generation API. heygen-com/heygen-cli dev-tools"
     }
   ]
 }

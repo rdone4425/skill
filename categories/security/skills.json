@@ -4,7 +4,7 @@
     "topCategoryId": "security",
     "subCategoryId": "general",
     "categoryPath": "security",
-    "count": 291,
+    "count": 293,
     "sourceData": "categories"
   },
   "skills": [
@@ -4983,6 +4983,42 @@
         "general"
       ],
       "searchText": "Fennec Open-source, AI-driven penetration testing framework. Fennec-AI/Fennec security"
+    },
+    {
+      "name": "SWE-agent",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "SWE-agent/SWE-agent",
+      "stars": 19684,
+      "desc": "SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] ",
+      "url": "https://github.com/SWE-agent/SWE-agent",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "SWE-agent SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can al SWE-agent/SWE-agent security"
+    },
+    {
+      "name": "CredSweeper",
+      "source": "security",
+      "sourceAgent": "security",
+      "repo": "Samsung/CredSweeper",
+      "stars": 211,
+      "desc": "CredSweeper is a tool to detect credentials in any directories or files. CredSweeper could help users to detect unwanted exposure of credentials (such as token, passwords, api keys etc.) in advance. B",
+      "url": "https://github.com/Samsung/CredSweeper",
+      "install": "",
+      "functionCategory": "security",
+      "topCategoryId": "security",
+      "subCategoryId": "general",
+      "categoryPath": "security",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "CredSweeper CredSweeper is a tool to detect credentials in any directories or files. CredSweeper could help user Samsung/CredSweeper security"
     }
   ]
 }

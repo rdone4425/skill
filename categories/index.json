@@ -1,14 +1,14 @@
 {
   "generatedAt": "2026-07-01T19:30:00Z",
   "sourceData": "categories",
-  "totalSkills": 7118,
+  "totalSkills": 7191,
   "categories": [
     {
       "id": "dev-tools",
       "path": "dev-tools",
       "groupId": "development",
       "subcategoryId": "tools",
-      "count": 1328,
+      "count": 1341,
       "name_en": "Developer Tools",
       "name_cn": "开发工具",
       "hfTasks": [],
@@ -55,7 +55,7 @@
       "path": "general",
       "groupId": "general",
       "subcategoryId": "general",
-      "count": 712,
+      "count": 714,
       "name_en": "General Tools",
       "name_cn": "通用工具",
       "hfTasks": [],
@@ -95,7 +95,7 @@
       "path": "data-ai",
       "groupId": "data",
       "subcategoryId": "ai",
-      "count": 761,
+      "count": 784,
       "name_en": "Data & AI / ML",
       "name_cn": "数据与 AI",
       "hfTasks": [
@@ -180,7 +180,7 @@
       "path": "design-ui",
       "groupId": "design",
       "subcategoryId": "ui",
-      "count": 483,
+      "count": 488,
       "name_en": "Design & UI",
       "name_cn": "设计与 UI",
       "hfTasks": [],
@@ -223,7 +223,7 @@
       "path": "agent-framework",
       "groupId": "agent-framework",
       "subcategoryId": "agent-framework",
-      "count": 1179,
+      "count": 1200,
       "name_en": "AI Agent Frameworks",
       "name_cn": "Agent 框架",
       "hfTasks": [],
@@ -309,7 +309,7 @@
       "path": "automation-productivity",
       "groupId": "automation",
       "subcategoryId": "productivity",
-      "count": 339,
+      "count": 342,
       "name_en": "Automation & Productivity",
       "name_cn": "自动化与效率",
       "hfTasks": [],
@@ -352,7 +352,7 @@
       "path": "security",
       "groupId": "security",
       "subcategoryId": "general",
-      "count": 291,
+      "count": 293,
       "name_en": "Security & Cybersecurity",
       "name_cn": "安全工具",
       "hfTasks": [],
@@ -802,7 +802,7 @@
       "path": "video-multimedia",
       "groupId": "video-multimedia",
       "subcategoryId": "video-multimedia",
-      "count": 102,
+      "count": 104,
       "name_en": "Video & Multimedia",
       "name_cn": "视频与多媒体",
       "hfTasks": [
@@ -934,7 +934,7 @@
       "path": "audio-speech",
       "groupId": "audio-speech",
       "subcategoryId": "audio-speech",
-      "count": 137,
+      "count": 139,
       "name_en": "Speech & Text-to-Speech",
       "name_cn": "语音与 TTS",
       "hfTasks": [
@@ -1079,7 +1079,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-07-01T02:30:00.000Z",
+  "updatedAt": null,
   "seoOptimized": true,
   "version": "2.1"
 }

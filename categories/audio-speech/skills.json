@@ -4,7 +4,7 @@
     "topCategoryId": "audio-speech",
     "subCategoryId": "audio-speech",
     "categoryPath": "audio-speech",
-    "count": 137,
+    "count": 139,
     "sourceData": "categories"
   },
   "skills": [
@@ -2538,6 +2538,42 @@
       ],
       "searchText": "chatterbox-tts-api Local, OpenAI-compatible text-to-speech (TTS) API using Chatterbox, enabling users to generate voice cloned speech anywhere the OpenAI API is used (e.g. Open WebUI, AnythingLLM, etc.) travisvn/chatterbox-tts-api audio-speech",
       "pricing": "free"
+    },
+    {
+      "name": "my-neuro",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "morettt/my-neuro",
+      "stars": 1298,
+      "desc": "This project lets you create your own AI desktop companion with customizable characters and voice conversations that respond in just 1 second. Features include long-term memory, visual recognition, vo",
+      "url": "https://github.com/morettt/my-neuro",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "my-neuro This project lets you create your own AI desktop companion with customizable characters and voice co morettt/my-neuro audio-speech"
+    },
+    {
+      "name": "baibot",
+      "source": "audio-speech",
+      "sourceAgent": "audio-speech",
+      "repo": "etkecc/baibot",
+      "stars": 233,
+      "desc": "🤖 A Matrix bot for using different capabilities (text-generation, text-to-speech, speech-to-text, image-generation, etc.) of AI / Large Language Models (OpenAI, Anthropic, etc.)",
+      "url": "https://github.com/etkecc/baibot",
+      "install": "",
+      "functionCategory": "audio-speech",
+      "topCategoryId": "audio-speech",
+      "subCategoryId": "general",
+      "categoryPath": "audio-speech",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "baibot 🤖 A Matrix bot for using different capabilities (text-generation, text-to-speech, speech-to-text, im etkecc/baibot audio-speech"
     }
   ]
 }

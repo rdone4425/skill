@@ -4,7 +4,7 @@
     "topCategoryId": "video-multimedia",
     "subCategoryId": "video-multimedia",
     "categoryPath": "video-multimedia",
-    "count": 102,
+    "count": 104,
     "sourceData": "categories"
   },
   "skills": [
@@ -1856,6 +1856,42 @@
         "general"
       ],
       "searchText": "doubao2api Reverse-engineered Doubao (豆包) API → OpenAI-compatible REST service. Free multimodal chat, image/video/music generation, and file hosting for AI agents. wangchuxiaoji-oss/doubao2api video-multimedia"
+    },
+    {
+      "name": "glucose_media_player",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "rudi-q/glucose_media_player",
+      "stars": 109,
+      "desc": "A Full-Featured, Powerful & Ultra-lightweight, video player for Windows with on-device AI powered subtitle generation. Tauri + Svelte",
+      "url": "https://github.com/rudi-q/glucose_media_player",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "glucose_media_player A Full-Featured, Powerful & Ultra-lightweight, video player for Windows with on-device AI powered su rudi-q/glucose_media_player video-multimedia"
+    },
+    {
+      "name": "tiktok-gen",
+      "source": "video-multimedia",
+      "sourceAgent": "video-multimedia",
+      "repo": "kangarooking/tiktok-gen",
+      "stars": 81,
+      "desc": "AI-powered digital human video generation platform for TikTok marketing",
+      "url": "https://github.com/kangarooking/tiktok-gen",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video-multimedia",
+      "subCategoryId": "general",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "tiktok-gen AI-powered digital human video generation platform for TikTok marketing kangarooking/tiktok-gen video-multimedia"
     }
   ]
 }

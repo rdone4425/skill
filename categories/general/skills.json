@@ -4,7 +4,7 @@
     "topCategoryId": "general",
     "subCategoryId": "general",
     "categoryPath": "general",
-    "count": 712,
+    "count": 714,
     "sourceData": "categories"
   },
   "skills": [
@@ -12616,6 +12616,42 @@
         "general"
       ],
       "searchText": "relaticle Open-source CRM with native AI agent support. 30 MCP tools, REST API, self-hosted. Built with Laravel & Filament relaticle/relaticle general"
+    },
+    {
+      "name": "MyAgents",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "hAcKlyc/MyAgents",
+      "stars": 825,
+      "desc": "MyAgents - 优雅、易用的 Agent 桌面端 ，一站式 Agent 工作台与任务中心",
+      "url": "https://github.com/hAcKlyc/MyAgents",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "MyAgents MyAgents - 优雅、易用的 Agent 桌面端 ，一站式 Agent 工作台与任务中心 hAcKlyc/MyAgents general"
+    },
+    {
+      "name": "Sparse-vLLM",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "CURRENTF/Sparse-vLLM",
+      "stars": 59,
+      "desc": "A sparse-first inference engine (sparsevllm). It also contains DeltaKV compressor training + evaluation tooling (deltakv).",
+      "url": "https://github.com/CURRENTF/Sparse-vLLM",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Sparse-vLLM A sparse-first inference engine (sparsevllm). It also contains DeltaKV compressor training + evaluat CURRENTF/Sparse-vLLM general"
     }
   ]
 }

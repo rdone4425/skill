@@ -4,7 +4,7 @@
     "topCategoryId": "data",
     "subCategoryId": "ai",
     "categoryPath": "data-ai",
-    "count": 761,
+    "count": 784,
     "sourceData": "categories"
   },
   "skills": [
@@ -14307,6 +14307,420 @@
         "general"
       ],
       "searchText": "oogaboogalm We have caveman system prompts and skills for AI models to reduce token use, why not try bake it into the model itself with fine-tuning? Mintzs/oogaboogalm data-ai"
+    },
+    {
+      "name": "Verba",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "weaviate/Verba",
+      "stars": 7712,
+      "desc": "Retrieval Augmented Generation (RAG) chatbot powered by Weaviate",
+      "url": "https://github.com/weaviate/Verba",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Verba Retrieval Augmented Generation (RAG) chatbot powered by Weaviate weaviate/Verba data-ai"
+    },
+    {
+      "name": "honcho",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "plastic-labs/honcho",
+      "stars": 5686,
+      "desc": " Memory library for building stateful agents",
+      "url": "https://github.com/plastic-labs/honcho",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "honcho  Memory library for building stateful agents plastic-labs/honcho data-ai"
+    },
+    {
+      "name": "AutoRAG",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "Marker-Inc-Korea/AutoRAG",
+      "stars": 4852,
+      "desc": "AutoRAG: An Open-Source Framework for Retrieval-Augmented Generation (RAG) Evaluation & Optimization with AutoML-Style Automation",
+      "url": "https://github.com/Marker-Inc-Korea/AutoRAG",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AutoRAG AutoRAG: An Open-Source Framework for Retrieval-Augmented Generation (RAG) Evaluation & Optimization Marker-Inc-Korea/AutoRAG data-ai"
+    },
+    {
+      "name": "Controllable-RAG-Agent",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "NirDiamant/Controllable-RAG-Agent",
+      "stars": 1615,
+      "desc": "This repository provides an advanced Retrieval-Augmented Generation (RAG) solution for complex question answering. It uses sophisticated graph based algorithm to handle the tasks.",
+      "url": "https://github.com/NirDiamant/Controllable-RAG-Agent",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Controllable-RAG-Agent This repository provides an advanced Retrieval-Augmented Generation (RAG) solution for complex quest NirDiamant/Controllable-RAG-Agent data-ai"
+    },
+    {
+      "name": "Awesome-LLM-RAG",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "jxzhangjhu/Awesome-LLM-RAG",
+      "stars": 1340,
+      "desc": "Awesome-LLM-RAG: a curated list of advanced retrieval augmented generation (RAG) in Large Language Models",
+      "url": "https://github.com/jxzhangjhu/Awesome-LLM-RAG",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Awesome-LLM-RAG Awesome-LLM-RAG: a curated list of advanced retrieval augmented generation (RAG) in Large Language M jxzhangjhu/Awesome-LLM-RAG data-ai"
+    },
+    {
+      "name": "Awesome-RAG",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "Danielskry/Awesome-RAG",
+      "stars": 1287,
+      "desc": "😎 Awesome list of Retrieval-Augmented Generation (RAG) applications in Generative AI.",
+      "url": "https://github.com/Danielskry/Awesome-RAG",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Awesome-RAG 😎 Awesome list of Retrieval-Augmented Generation (RAG) applications in Generative AI. Danielskry/Awesome-RAG data-ai"
+    },
+    {
+      "name": "GPT-RAG",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "Azure/GPT-RAG",
+      "stars": 1160,
+      "desc": "Sharing the learning along the way we been gathering to enable Azure OpenAI at enterprise scale in a secure manner. GPT-RAG core is a Retrieval-Augmented Generation pattern running in Azure, using Azu",
+      "url": "https://github.com/Azure/GPT-RAG",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "GPT-RAG Sharing the learning along the way we been gathering to enable Azure OpenAI at enterprise scale in a Azure/GPT-RAG data-ai"
+    },
+    {
+      "name": "serverless-chat-langchainjs",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "Azure-Samples/serverless-chat-langchainjs",
+      "stars": 856,
+      "desc": "Build your own serverless AI Chat with Retrieval-Augmented-Generation using LangChain.js, TypeScript and Azure",
+      "url": "https://github.com/Azure-Samples/serverless-chat-langchainjs",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "serverless-chat-langchainjs Build your own serverless AI Chat with Retrieval-Augmented-Generation using LangChain.js, TypeScript Azure-Samples/serverless-chat-langchainjs data-ai"
+    },
+    {
+      "name": "local-rag",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "jonfairbanks/local-rag",
+      "stars": 749,
+      "desc": "Ingest files for retrieval augmented generation (RAG) with open-source Large Language Models (LLMs), all without 3rd parties or sensitive data leaving your network.",
+      "url": "https://github.com/jonfairbanks/local-rag",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "local-rag Ingest files for retrieval augmented generation (RAG) with open-source Large Language Models (LLMs), jonfairbanks/local-rag data-ai"
+    },
+    {
+      "name": "HiRAG",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "hhy-huang/HiRAG",
+      "stars": 551,
+      "desc": "[EMNLP'25 findings] This is the official repo for the paper, HiRAG: Retrieval-Augmented Generation with Hierarchical Knowledge.",
+      "url": "https://github.com/hhy-huang/HiRAG",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "HiRAG [EMNLP'25 findings] This is the official repo for the paper, HiRAG: Retrieval-Augmented Generation w hhy-huang/HiRAG data-ai"
+    },
+    {
+      "name": "Awesome-RAG",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "liunian-Jay/Awesome-RAG",
+      "stars": 506,
+      "desc": "💡 Awesome RAG: A resource of Retrieval-Augmented Generation (RAG) for LLMs, focusing on the development of technology.",
+      "url": "https://github.com/liunian-Jay/Awesome-RAG",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Awesome-RAG 💡 Awesome RAG: A resource of Retrieval-Augmented Generation (RAG) for LLMs, focusing on the developm liunian-Jay/Awesome-RAG data-ai"
+    },
+    {
+      "name": "GraphRAG-Benchmark",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "GraphRAG-Bench/GraphRAG-Benchmark",
+      "stars": 454,
+      "desc": "The official repo of GraphRAG-Bench for evaluating GraphRAG models. \"When to use Graphs in RAG: A Comprehensive Analysis for Graph Retrieval-Augmented Generation\".  (ICLR'26)",
+      "url": "https://github.com/GraphRAG-Bench/GraphRAG-Benchmark",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "GraphRAG-Benchmark The official repo of GraphRAG-Bench for evaluating GraphRAG models. \"When to use Graphs in RAG: A Co GraphRAG-Bench/GraphRAG-Benchmark data-ai"
+    },
+    {
+      "name": "Video-RAG-master",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "Leon1207/Video-RAG-master",
+      "stars": 440,
+      "desc": "✨✨[NeurIPS 2025] This is the official implementation of our paper \"Video-RAG: Visually-aligned Retrieval-Augmented Long Video Comprehension\"",
+      "url": "https://github.com/Leon1207/Video-RAG-master",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Video-RAG-master ✨✨[NeurIPS 2025] This is the official implementation of our paper \"Video-RAG: Visually-aligned Retri Leon1207/Video-RAG-master data-ai"
+    },
+    {
+      "name": "rag-chatbot",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "umbertogriffo/rag-chatbot",
+      "stars": 423,
+      "desc": "RAG (Retrieval-augmented generation) ChatBot that provides answers based on contextual information extracted from a collection of Markdown files.",
+      "url": "https://github.com/umbertogriffo/rag-chatbot",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "rag-chatbot RAG (Retrieval-augmented generation) ChatBot that provides answers based on contextual information e umbertogriffo/rag-chatbot data-ai"
+    },
+    {
+      "name": "Hyper-RAG",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "iMoonLab/Hyper-RAG",
+      "stars": 304,
+      "desc": "\"Hyper-RAG: Combating LLM Hallucinations using Hypergraph-Driven Retrieval-Augmented Generation\" by Yifan Feng, Hao Hu, Shihui Ying, Xingliang Hou, Shiquan Liu, Mingyuan Yang, Junchang Li, Shaoyi Du, ",
+      "url": "https://github.com/iMoonLab/Hyper-RAG",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Hyper-RAG \"Hyper-RAG: Combating LLM Hallucinations using Hypergraph-Driven Retrieval-Augmented Generation\" by  iMoonLab/Hyper-RAG data-ai"
+    },
+    {
+      "name": "gfm-rag",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "RManLuo/gfm-rag",
+      "stars": 274,
+      "desc": "[NeurIPS'25, ICLR'26] Graph Foundation Model for Retrieval Augmented Generation",
+      "url": "https://github.com/RManLuo/gfm-rag",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "gfm-rag [NeurIPS'25, ICLR'26] Graph Foundation Model for Retrieval Augmented Generation RManLuo/gfm-rag data-ai"
+    },
+    {
+      "name": "knowledgeops-agent",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "however-yir/knowledgeops-agent",
+      "stars": 213,
+      "desc": "Enterprise-ready Spring AI platform for RAG, tool calling, async ingestion, JWT/RBAC security, and observability.",
+      "url": "https://github.com/however-yir/knowledgeops-agent",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "knowledgeops-agent Enterprise-ready Spring AI platform for RAG, tool calling, async ingestion, JWT/RBAC security, and o however-yir/knowledgeops-agent data-ai"
+    },
+    {
+      "name": "renumics-rag",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "Renumics/renumics-rag",
+      "stars": 207,
+      "desc": "Visualization for a Retrieval-Augmented Generation (RAG) Assistant  🤖❤️📚",
+      "url": "https://github.com/Renumics/renumics-rag",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "renumics-rag Visualization for a Retrieval-Augmented Generation (RAG) Assistant  🤖❤️📚 Renumics/renumics-rag data-ai"
+    },
+    {
+      "name": "mlx-serve",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "ddalcu/mlx-serve",
+      "stars": 197,
+      "desc": "Native LLM inference server for Apple Silicon. OpenAI + Anthropic API compatible. No Python. Includes MLX Core macOS app with chat, agent mode, and tool calling.",
+      "url": "https://github.com/ddalcu/mlx-serve",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mlx-serve Native LLM inference server for Apple Silicon. OpenAI + Anthropic API compatible. No Python. Include ddalcu/mlx-serve data-ai"
+    },
+    {
+      "name": "VectorRAG.Net",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "likeslines-maker/VectorRAG.Net",
+      "stars": 184,
+      "desc": "VectorRAG.Net is a .NET-native high-performance vector database library for semantic search and RAG (Retrieval-Augmented Generation). Core search is based on Random Hyperplane LSH candidate generation",
+      "url": "https://github.com/likeslines-maker/VectorRAG.Net",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "VectorRAG.Net VectorRAG.Net is a .NET-native high-performance vector database library for semantic search and RAG  likeslines-maker/VectorRAG.Net data-ai"
+    },
+    {
+      "name": "pdf-to-markdown",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "iamarunbrahma/pdf-to-markdown",
+      "stars": 183,
+      "desc": "Conversion of PDF documents to structured Markdown, optimized for Retrieval Augmented Generation (RAG) and other NLP tasks. Extract text, tables, and images with preserved formatting for enhanced info",
+      "url": "https://github.com/iamarunbrahma/pdf-to-markdown",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "pdf-to-markdown Conversion of PDF documents to structured Markdown, optimized for Retrieval Augmented Generation (RA iamarunbrahma/pdf-to-markdown data-ai"
+    },
+    {
+      "name": "UniversalRAG",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "wgcyeo/UniversalRAG",
+      "stars": 172,
+      "desc": "[ACL 2026 Oral] UniversalRAG: Retrieval-Augmented Generation over Corpora of Diverse Modalities and Granularities",
+      "url": "https://github.com/wgcyeo/UniversalRAG",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "UniversalRAG [ACL 2026 Oral] UniversalRAG: Retrieval-Augmented Generation over Corpora of Diverse Modalities and  wgcyeo/UniversalRAG data-ai"
+    },
+    {
+      "name": "Llamatik",
+      "source": "data-ai",
+      "sourceAgent": "data-ai",
+      "repo": "ferranpons/Llamatik",
+      "stars": 161,
+      "desc": "True on-device AI for Kotlin Multiplatform (Android, iOS, Desktop, JVM, WASM). LLM, Speech-to-Text and Image Generation — powered by llama.cpp, whisper.cpp and stable-diffusion.cpp.",
+      "url": "https://github.com/ferranpons/Llamatik",
+      "install": "",
+      "functionCategory": "data-ai",
+      "topCategoryId": "data-ai",
+      "subCategoryId": "general",
+      "categoryPath": "data-ai",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Llamatik True on-device AI for Kotlin Multiplatform (Android, iOS, Desktop, JVM, WASM). LLM, Speech-to-Text a ferranpons/Llamatik data-ai"
     }
   ]
 }

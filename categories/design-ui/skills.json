@@ -4,7 +4,7 @@
     "topCategoryId": "design",
     "subCategoryId": "ui",
     "categoryPath": "design-ui",
-    "count": 483,
+    "count": 488,
     "sourceData": "categories"
   },
   "skills": [
@@ -8954,6 +8954,96 @@
         "general"
       ],
       "searchText": "tokui TokUI-From Token to UI. The world's first For AI & zero-dependency streaming UI framework. Describe components with a minimal DSL on the backend, push over SSE or WebSocket, and render incrementally o jboltai/tokui design-ui"
+    },
+    {
+      "name": "Comfyui-Resolution-Master",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "Azornes/Comfyui-Resolution-Master",
+      "stars": 286,
+      "desc": "Custom node for total control over resolution and aspect ratio. It provides an intuitive interface with an interactive canvas, advanced scaling options, extensive presets (SDXL, Flux, WAN), and a mana",
+      "url": "https://github.com/Azornes/Comfyui-Resolution-Master",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Comfyui-Resolution-Master Custom node for total control over resolution and aspect ratio. It provides an intuitive interface w Azornes/Comfyui-Resolution-Master design-ui"
+    },
+    {
+      "name": "AI-Canvas",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "binghe1980/AI-Canvas",
+      "stars": 179,
+      "desc": "Codex-integrated infinite canvas for AI image generation, annotation, and iterative editing.",
+      "url": "https://github.com/binghe1980/AI-Canvas",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "AI-Canvas Codex-integrated infinite canvas for AI image generation, annotation, and iterative editing. binghe1980/AI-Canvas design-ui"
+    },
+    {
+      "name": "Hent-AI-Synthesis-Engine",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "Asilcanasil/Hent-AI-Synthesis-Engine",
+      "stars": 152,
+      "desc": "2026 Ultimate Creative AI Image Generation Toolkit for Artists",
+      "url": "https://github.com/Asilcanasil/Hent-AI-Synthesis-Engine",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Hent-AI-Synthesis-Engine 2026 Ultimate Creative AI Image Generation Toolkit for Artists Asilcanasil/Hent-AI-Synthesis-Engine design-ui"
+    },
+    {
+      "name": "ai",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "hackclub/ai",
+      "stars": 120,
+      "desc": "💭 Free AI and image generation for teens",
+      "url": "https://github.com/hackclub/ai",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai 💭 Free AI and image generation for teens hackclub/ai design-ui"
+    },
+    {
+      "name": "Z-Image-Turbo-Windows",
+      "source": "design-ui",
+      "sourceAgent": "design-ui",
+      "repo": "airesearch-official/Z-Image-Turbo-Windows",
+      "stars": 90,
+      "desc": "One-click Windows installer for Z-Image Turbo AI image generation. Optimized for low-VRAM GPUs (4GB+). Features Gradio web UI, automatic setup, and GGUF model support.",
+      "url": "https://github.com/airesearch-official/Z-Image-Turbo-Windows",
+      "install": "",
+      "functionCategory": "design-ui",
+      "topCategoryId": "design-ui",
+      "subCategoryId": "general",
+      "categoryPath": "design-ui",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Z-Image-Turbo-Windows One-click Windows installer for Z-Image Turbo AI image generation. Optimized for low-VRAM GPUs (4GB+ airesearch-official/Z-Image-Turbo-Windows design-ui"
     }
   ]
 }

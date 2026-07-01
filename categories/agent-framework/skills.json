@@ -4,7 +4,7 @@
     "topCategoryId": "agent-framework",
     "subCategoryId": "agent-framework",
     "categoryPath": "agent-framework",
-    "count": 1179,
+    "count": 1200,
     "sourceData": "categories"
   },
   "skills": [
@@ -20822,6 +20822,384 @@
         "general"
       ],
       "searchText": "clawcodex Token efficient Claude Code full Python rebuild. AI Coding Agent in 230K LoC pure Python. Up to 200X Cost Saving! agentforce314/clawcodex agent-framework"
+    },
+    {
+      "name": "tidb",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "pingcap/tidb",
+      "stars": 40235,
+      "desc": "TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructur",
+      "url": "https://github.com/pingcap/tidb",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "tidb TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support pingcap/tidb agent-framework"
+    },
+    {
+      "name": "crush",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "charmbracelet/crush",
+      "stars": 25942,
+      "desc": "Glamourous agentic coding for all 💘",
+      "url": "https://github.com/charmbracelet/crush",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "crush Glamourous agentic coding for all 💘 charmbracelet/crush agent-framework"
+    },
+    {
+      "name": "holaOS",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "holaboss-ai/holaOS",
+      "stars": 5480,
+      "desc": "Your super agent for work: local-first, learn your working context in mins and never forget it.",
+      "url": "https://github.com/holaboss-ai/holaOS",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "holaOS Your super agent for work: local-first, learn your working context in mins and never forget it. holaboss-ai/holaOS agent-framework"
+    },
+    {
+      "name": "openhanako",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "liliMozi/openhanako",
+      "stars": 5131,
+      "desc": "A personal AI agent with memory, personality, and autonomy.",
+      "url": "https://github.com/liliMozi/openhanako",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openhanako A personal AI agent with memory, personality, and autonomy. liliMozi/openhanako agent-framework"
+    },
+    {
+      "name": "memgraph",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "memgraph/memgraph",
+      "stars": 4207,
+      "desc": "High-performance open-source in-memory graph database for GraphRAG, AI memory, agentic AI, and real-time graph analytics. Cypher-compatible, built in C++.",
+      "url": "https://github.com/memgraph/memgraph",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "memgraph High-performance open-source in-memory graph database for GraphRAG, AI memory, agentic AI, and real- memgraph/memgraph agent-framework"
+    },
+    {
+      "name": "Memoh",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "memohai/Memoh",
+      "stars": 1983,
+      "desc": "✨ The open-source multi-agent platform. Every agent gets its own computer, desktop, network, and long-term memory.  You can bring your own key, or host your coding agent like Claude Code, Codex and so",
+      "url": "https://github.com/memohai/Memoh",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "Memoh ✨ The open-source multi-agent platform. Every agent gets its own computer, desktop, network, and lon memohai/Memoh agent-framework"
+    },
+    {
+      "name": "codeg",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "xintaofei/codeg",
+      "stars": 1903,
+      "desc": "Collaborative multi-agent AI coding workspace: aggregate sessions from Claude Code, Codex, OpenCode, Pi, etc. Desktop app, self-hosted server, or Docker.",
+      "url": "https://github.com/xintaofei/codeg",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "codeg Collaborative multi-agent AI coding workspace: aggregate sessions from Claude Code, Codex, OpenCode, xintaofei/codeg agent-framework"
+    },
+    {
+      "name": "routa",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "phodal/routa",
+      "stars": 1723,
+      "desc": "Workspace-first multi-agent coordination platform for AI development, with shared Specs, Kanban orchestration, and MCP/ACP/   A2A support across web and desktop.",
+      "url": "https://github.com/phodal/routa",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "routa Workspace-first multi-agent coordination platform for AI development, with shared Specs, Kanban orch phodal/routa agent-framework"
+    },
+    {
+      "name": "agency-orchestrator",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "jnMetaCode/agency-orchestrator",
+      "stars": 1590,
+      "desc": "🚀 One sentence → multi-AI-role collaboration → complete plan in minutes. Built on the agency-agents role library (216+ experts), zero-code YAML, web Studio + desktop app, 10 LLM providers (7 free). 基于",
+      "url": "https://github.com/jnMetaCode/agency-orchestrator",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agency-orchestrator 🚀 One sentence → multi-AI-role collaboration → complete plan in minutes. Built on the agency-agents  jnMetaCode/agency-orchestrator agent-framework"
+    },
+    {
+      "name": "OpenRoom",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "MiniMax-AI/OpenRoom",
+      "stars": 1220,
+      "desc": "A browser-based desktop where AI Agent operates every app through natural language.",
+      "url": "https://github.com/MiniMax-AI/OpenRoom",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "OpenRoom A browser-based desktop where AI Agent operates every app through natural language. MiniMax-AI/OpenRoom agent-framework"
+    },
+    {
+      "name": "flock",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "Onelevenvy/flock",
+      "stars": 1083,
+      "desc": "A desktop multi-agent harness built with Rust, Tauri, and React, powered by langgraph-rust.",
+      "url": "https://github.com/Onelevenvy/flock",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "flock A desktop multi-agent harness built with Rust, Tauri, and React, powered by langgraph-rust. Onelevenvy/flock agent-framework"
+    },
+    {
+      "name": "agent-desktop",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "lahfir/agent-desktop",
+      "stars": 900,
+      "desc": "Native desktop automation CLI for AI agents. Control any application through OS accessibility trees with structured JSON output and deterministic element refs.",
+      "url": "https://github.com/lahfir/agent-desktop",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "agent-desktop Native desktop automation CLI for AI agents. Control any application through OS accessibility trees  lahfir/agent-desktop agent-framework"
+    },
+    {
+      "name": "bytechef",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "bytechefhq/bytechef",
+      "stars": 892,
+      "desc": "Open-source platform that unifies AI agent orchestration and workflow automation — autonomy and precision in one platform.",
+      "url": "https://github.com/bytechefhq/bytechef",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "bytechef Open-source platform that unifies AI agent orchestration and workflow automation — autonomy and prec bytechefhq/bytechef agent-framework"
+    },
+    {
+      "name": "pocketpaw",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "pocketpaw/pocketpaw",
+      "stars": 863,
+      "desc": "Your AI agent in 30 seconds. Not 30 hours. Self-hosted, open-source personal AI with desktop installer, multi-agent Command Center(Deep Work), and 7-layer security. Anthropic, OpenAI, or Ollama.",
+      "url": "https://github.com/pocketpaw/pocketpaw",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "pocketpaw Your AI agent in 30 seconds. Not 30 hours. Self-hosted, open-source personal AI with desktop install pocketpaw/pocketpaw agent-framework"
+    },
+    {
+      "name": "k-dense-byok",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "K-Dense-AI/k-dense-byok",
+      "stars": 843,
+      "desc": "An AI co-scientist powered by Scientific Agent Skills running on your desktop.",
+      "url": "https://github.com/K-Dense-AI/k-dense-byok",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "k-dense-byok An AI co-scientist powered by Scientific Agent Skills running on your desktop. K-Dense-AI/k-dense-byok agent-framework"
+    },
+    {
+      "name": "RAGLight",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "Bessouat40/RAGLight",
+      "stars": 666,
+      "desc": "RAGLight is a modular framework for Retrieval-Augmented Generation (RAG). It makes it easy to plug in different LLMs, embeddings, and vector stores, and now includes seamless MCP integration to connec",
+      "url": "https://github.com/Bessouat40/RAGLight",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "RAGLight RAGLight is a modular framework for Retrieval-Augmented Generation (RAG). It makes it easy to plug i Bessouat40/RAGLight agent-framework"
+    },
+    {
+      "name": "openloomi",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "melandlabs/openloomi",
+      "stars": 572,
+      "desc": "OpenLoomi is a Claude Cowork-style open-source alternative for builders who want local-first work memory around their AI agents. It connects your work tools so AI can understand people, projects, deci",
+      "url": "https://github.com/melandlabs/openloomi",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "openloomi OpenLoomi is a Claude Cowork-style open-source alternative for builders who want local-first work me melandlabs/openloomi agent-framework"
+    },
+    {
+      "name": "aidevops",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "marcusquinn/aidevops",
+      "stars": 277,
+      "desc": "Vibe-Coding is easy. DevOps is hard. OpenCode & Git token-efficient AI agent automation for your app, business, and personal development. Opinionated tools, services, CLI & API stack for speed, securi",
+      "url": "https://github.com/marcusquinn/aidevops",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "aidevops Vibe-Coding is easy. DevOps is hard. OpenCode & Git token-efficient AI agent automation for your app marcusquinn/aidevops agent-framework"
+    },
+    {
+      "name": "blacksmith",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "yohannesgk/blacksmith",
+      "stars": 226,
+      "desc": " BlacksmithAI is an OPEN-SOURCE advanced penetration testing framework that leverages multiple AI agents to automate security assessments. The system orchestrates specialized agents through a complete",
+      "url": "https://github.com/yohannesgk/blacksmith",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "blacksmith  BlacksmithAI is an OPEN-SOURCE advanced penetration testing framework that leverages multiple AI ag yohannesgk/blacksmith agent-framework"
+    },
+    {
+      "name": "kontext-cli",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "kontext-security/kontext-cli",
+      "stars": 206,
+      "desc": "Open-source Runtime Security for tool-using AI agents providing permissions, credentials, policy enforcement, and audit trails.",
+      "url": "https://github.com/kontext-security/kontext-cli",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "kontext-cli Open-source Runtime Security for tool-using AI agents providing permissions, credentials, policy enf kontext-security/kontext-cli agent-framework"
+    },
+    {
+      "name": "workbench-example-agentic-rag",
+      "source": "agent-framework",
+      "sourceAgent": "agent-framework",
+      "repo": "NVIDIA/workbench-example-agentic-rag",
+      "stars": 166,
+      "desc": "An NVIDIA AI Workbench example project for an Agentic Retrieval Augmented Generation (RAG) ",
+      "url": "https://github.com/NVIDIA/workbench-example-agentic-rag",
+      "install": "",
+      "functionCategory": "agent-framework",
+      "topCategoryId": "agent-framework",
+      "subCategoryId": "general",
+      "categoryPath": "agent-framework",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "workbench-example-agentic-rag An NVIDIA AI Workbench example project for an Agentic Retrieval Augmented Generation (RAG)  NVIDIA/workbench-example-agentic-rag agent-framework"
     }
   ]
 }
